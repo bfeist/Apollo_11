@@ -281,9 +281,9 @@ GRAND BAHAMA ISLANDS (REV 1)
 00 02 51 21|LMP|Roger, Houston. Apollo 11. We're reading a VI of 35579 and the EMS was plus 3.3. Over.
 00 02 51 31|CC|Roger. Plus 3.3 on the EMS. And we copy the VI.
 00 02 53 03|CDR|Hey, Houston, Apollo 11. That Saturn gave us a magnificent ride.
-00 02 53 0,7|CC|Roger, 11. We'll pass that on. And, it certainly looks like you are well on your way now.
+00 02 53 09|CC|Roger, 11. We'll pass that on. And, it certainly looks like you are well on your way now.
 ||Tape 2/9 Page 17
-00 02 53 30|CDR|We have no complaints with any of the three stages on that ride. It was beautiful.
+00 02 53 30|CDR|We got - we have no complaints with any of the three stages on that ride. It was beautiful.
 00 02 53 38|CC|Roger. We copy. No transients at staging of any significance. Over.
 00 02 53 44|CDR|That's right. It was all - all a good ride.
 00 02 53 47|CC|Houston. Roger. Out.
@@ -569,7 +569,7 @@ GRAND BAHAMA ISLANDS (REV 1)
 00 05 59 50|CDR|Okay. Thank you.
 00 05 59 55|CC|And we're going to hand over to Hawaii in about 5 or 6 seconds, here. We'll have a momentary COMM dropout.
 00 06 00 02|CDR|Roger.
-00 06 09 17|CC|Hello, Apollo 11. Houston. Be advised your friendly White Team has come on for its first shift, and if we can be of service, don't hesitate to call.
+00 06 09 17|CC|Hello, Apollo 11. Houston. Be advised your frien dly White Team has come on for its first shift, and if we can be of service, don't hesitate to call.
 ||Tape 5/1 Page 34
 00 06 09 31|CMP|Thank you very much. And we're about to take our marks, Charlie, on this P23 optics CAL. I've got it in the sextant now, and I'm about to split the image and Mark.
 00 06 09 42|CC|Roger, Mike. We're watching.
@@ -766,7 +766,7 @@ GRAND BAHAMA ISLANDS (REV 1)
 00 08 53 12|CC|Apollo 11, Houston. Go ahead. Over.
 ||Tape 6/5 Page 45
 00 08 53 15|CMP|Roger. The DSKY is yours.
-00 08 53 29|CC|Roger. Stand by.
+00 08 53 17|CC|Roger. Stand by.
 00 09 00 59|CC|Hello, Apollo 11. Houston. You can do the VERB 66. The computer is yours, and then the P52, option 1 preferred. Over.
 00 09 01 06|CMP|Roger.
 00 09 16 10|CC|Hello, Apollo 11. Houston. Do you read? Over.
@@ -818,7 +818,7 @@ GRAND BAHAMA ISLANDS (REV 1)
 00 10 05 45|LMP|Hey, Charlie, I can see the snow on the mountains out in California, and it looks like LA doesn't have much of a smog problem today.
 00 10 05 57|CC|Roger, Buzz. Copy. Looks like there's a good view out there then.
 00 10 06 00|CC|And, Apollo 11, Houston. We'd like you to keep the O2 fan on. It will give you an ECS configuration prior to sleep. Over.
-00 10 06 14|LMP|Okay. Thanks.
+00 10 06 14|LMP|Okay, fine.
 00 10 06 46|LMP|Charlie, with the monocular, I can discern a definite green cast to the San Fernando Valley.
 00 10 06 56|CC|Roger.
 00 10 07 00|CC|How's Baja California look, Buzz?
