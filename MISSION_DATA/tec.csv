@@ -847,7 +847,7 @@ GRAND BAHAMA ISLANDS (REV 1)
 00 10 27 14|CC|Apollo 11, Houston. Could you tell us if the O2 flow indicator was pegged high prior to closing the waste storage vent valve? Over.
 00 10 27 26|LMP|No, it was not.
 00 10 27 29|CC|Roger. Thank you.
-00 10 30 59|CC|Hello, Apollo 11. Houston. While ago we tracked into the scan limits and disabled the AUTO drive on the high gain. We'd like you to position the antenna at pitch 30, yaw 270, go to REACQ and that will give us narrow beamwidth. Over.
+00 10 30 59|CC|Hello, Apollo 11. Houston. A while ago we tracked into the scan limits and disabled the AUTO drive on the high gain. We'd like you to position the antenna at pitch 30, yaw 270, go to REACQ and that will give us narrow beamwidth. Over.
 00 10 31 27|CDR|That yaw 270 and pitch 3 - What was the pitch?
 00 10 31 32|CC|Pitch 30, Neil.
 00 10 31 35|CDR|Okay. I think we've got you.
