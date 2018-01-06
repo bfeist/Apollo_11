@@ -959,10 +959,10 @@ GRAND BAHAMA ISLANDS (REV 1)
 00 12 46 36|CC|Roger. VERB 34 would have been a better procedure.
 00 12 46 41|LMP|Yes. Thank you.
 ||Tape 10/1 Page 58REST PERIOD - NO COMMUNICATIONS
-||Tape 11/1 Page 59REST PERIOD - NO COMMUNICATIONS<hr>
-||Tape 12/1 Page 60REST PERIOD - NO COMMUNICATIONS<hr>
-||Tape 13/1 Page 61REST PERIOD - NO COMMUNICATIONS<hr>
-||Tape 14/1 Page 62REST PERIOD - NO COMMUNICATIONS<hr>
+||Tape 11/1 Page 59REST PERIOD - NO COMMUNICATIONS
+||Tape 12/1 Page 60REST PERIOD - NO COMMUNICATIONS
+||Tape 13/1 Page 61REST PERIOD - NO COMMUNICATIONS
+||Tape 14/1 Page 62REST PERIOD - NO COMMUNICATIONS
 ||Tape 15/1 Page 63
 00 22 50 15|CC|Apollo 11, Apollo 11, this is Houston. Over.
 00 22 50 21|CDR|Good morning, Houston. Apollo 11.
@@ -1021,7 +1021,7 @@ Hempstead, New York: Joe Namath officially reported to the New York Jets trainin
 ||Tape 16/1 Page 68
 00 23 57 03|CC|Apollo 11, this is Houston. Over.
 00 23 57 08|CDR|Roger. Go ahead, Houston.
-00 23 57 10|CC|Roger. Mike, we've got some comments on performance of P23 for today if you've got a minute to talk.
+00 23 57 10|CC|Roger. Mike, we've got some comments on the performance of P23 for today if you've got a minute to talk.
 00 23 57 20|CDR|He's all ears.
 00 23 57 22|CMP|Yes. Go ahead.
 00 23 57 25|CC|Okay. For today, we'd like you on P23 to make a trunnion bias determination, prior to P23 sightings as called out in procedures, and also one afterwards. Our intent here is to check out the possibility that some sort of thermal effect may be giving you errors in the angular read-out in the sextant. The bias that you get beforehand should be incorporated, that is a PROCEED on NOUN 87 after you get two consecutive measurements equal to within 0.003 degrees. And, of course, move the trunnion off a couple of degrees between the measurements. The Earth should be a lot smaller in your field of view today. I'm , sure you're a lot more qualified to tell us about that than we are, but to ensure that you're getting a good angle measurement between the star and the Earth horizon, the sextant M-line, which is the line that runs through the two hash marks and is perpendicular to the R-line, should be parallel to the Earth horizon at the substellar point. And then the actual superimposition of the star upon the horizon can be made at any point in the field of view of the sextant: above, below, or on the M-line. We recommend the marks be made as rapidly as possible after AUTO maneuver. If you feel that the amount of time between the AUTO maneuver and the time you get ready to mark is excessive, or that you don't like that AUTO maneuver attitude when you get ready to mark, of course, you can use a VERB 94 - VERB 94 to get you back to the flashing 51 position to redo the AUTO maneuvers. Over.
