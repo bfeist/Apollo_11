@@ -6,22 +6,6 @@ from datetime import datetime
 from datetime import timedelta
 
 
-def pretty_time_delta(seconds):
-    sign_string = '-' if seconds < 0 else ''
-    seconds = abs(int(seconds))
-    days, seconds = divmod(seconds, 86400)
-    hours, seconds = divmod(seconds, 3600)
-    minutes, seconds = divmod(seconds, 60)
-    if days > 0:
-        return '%s%dd%dh%dm%ds' % (sign_string, days, hours, minutes, seconds)
-    elif hours > 0:
-        return '%s%dh%dm%ds' % (sign_string, hours, minutes, seconds)
-    elif minutes > 0:
-        return '%s%dm%ds' % (sign_string, minutes, seconds)
-    else:
-        return '%s%ds' % (sign_string, seconds)
-
-
 def GET_time_delta(startStopDatetime):
     launchDatetime = datetime.strptime("July 16, 1969, 13:32", '%B %d, %Y, %H:%M')
     dateDifference = startStopDatetime - launchDatetime
@@ -46,10 +30,11 @@ def GET_time_delta(startStopDatetime):
 def zeroPad(number, length):
     return str(number).zfill(length)
 
-outputPath = "E:/Video Projects/! Media Files/A11/30-track/"
+
+inputFilePath = "E:/Apollo_11_Data_Delivery/Tape_time_ranges.txt"
+outputPath = "E:/Apollo_11_Data_Delivery/"
 # outputPath = "/Volumes/Feist1TB/"
 
-inputFilePath = "E:/Video Projects/! Media Files/A11/30-track/Tape_time_ranges.txt"
 csv.register_dialect('pipes', delimiter='|', doublequote=True, escapechar='\\')
 reader = csv.reader(open(inputFilePath, "rU"), dialect='pipes')
 
