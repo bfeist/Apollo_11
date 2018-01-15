@@ -48,7 +48,7 @@
 00 00 08 22|CDR|AGS just got the mixture ratio shift.
 00 00 08 24|CC|Roger. We got PU shift down here, too.
 00 00 08 34|CDR|Well, it looks like a nice day for it. These thunderstorms down range is about all.
-GRAND BAHAMA ISLANDS (REV 1)
+||GRAND BAHAMA ISLANDS (REV 1)
 00 00 08 52|CC|11, this is Houston. You are GO for staging. Over.
 00 00 08 56|CDR|Understand, GO for staging. And - -
 00 00 08 57|CC|Stand by for mode IV capability.
@@ -136,10 +136,9 @@ GRAND BAHAMA ISLANDS (REV 1)
 00 01 29 17|CC|Roger. Reading you the same. Coming up on AOS Goldstone.
 00 01 29 20|CDR|Roger.
 ||Tape 1/8 Page 8
-||NOTE: Subsequent to TLI, there is continuous acquisition among Goldstone (GDS), Madrid (MAD), and Honeysuckle (HSK).
 ||Tape 2/1 Page 9
-||GUAYMAS (REV 1)
 00 01 29 28|LMP|Cecil B. deAldrin is standing by for instructions.
+||GUAYMAS (REV 1)
 00 01 29 33|CC|Houston. Roger.
 00 01 31 14|CC|Apollo 11, this is Houston. We are not receiving your FM downlink yet. We are standing by.
 00 01 31 57|CC|Apollo 11, this is Houston. We are receiving your FM downlink now. We are standing by for TV modulations on the signal.
@@ -277,7 +276,7 @@ GRAND BAHAMA ISLANDS (REV 1)
 00 02 49 22|CDR|Roger. We're GO.
 00 02 50 36|CC|Apollo 11, this is Houston. We show cut-off and we copy the numbers in NOUN 62.
 00 02 50 54|CC|Apollo 11, Houston. Do you read?
-00 02 51 28|CC|Apollo 11, this is Houston. Do you read? Over.
+00 02 51 18|CC|Apollo 11, this is Houston. Do you read? Over.
 00 02 51 21|LMP|Roger, Houston. Apollo 11. We're reading a VI of 35579 and the EMS was plus 3.3. Over.
 00 02 51 31|CC|Roger. Plus 3.3 on the EMS. And we copy the VI.
 00 02 53 03|CDR|Hey, Houston, Apollo 11. That Saturn gave us a magnificent ride.
@@ -712,7 +711,7 @@ GRAND BAHAMA ISLANDS (REV 1)
 ||Tape 6/2 Page 42
 00 07 52 55|CMP|Do you need me to wait in the NOUN 49 display for any length of time?
 00 07 53 01|CC|Negative.
-00 07 53 01|CMP|Okay.
+00 07 53 03|CMP|Okay.
 00 07 54 29|CMP|Okay, Charlie. I'll be glad to give you as many of these as you like.
 00 07 54 34|CC|Roger. We'd like six marks on star 45, Mike, and then we'll probably go back to star 2 again. Stand by. We'll have further word on that.
 00 07 54 43|CMP|Okay.
@@ -924,7 +923,7 @@ GRAND BAHAMA ISLANDS (REV 1)
 00 11 02 51|CDR|Okay.
 ||Tape 8/2 Page 55
 00 11 03 05|CMP|Charlie, the LM/CM DELTA-P is 0.5.
-00 11 03 17|CC|Copy. 0.5. Out.
+00 11 03 07|CC|Copy. 0.5. Out.
 00 11 03 10|CC|Hello, Apollo 11. Houston. We've just decided to delete the O2 fuel cell purge. Over.
 00 11 03 56|CDR|Roger. Delete the O2 fuel cell purge.
 00 11 06 21|CC|Hello, Apollo 11. Houston. We've been noting some funnies on the O2 flow indicator transducer. We've kind of got a suspicion that the transducer - We expected to see an O2 flow pegged high with the waste stowage vent to VENT. It was not. We also noted some funny indications when you closed the waste stowage vent valve. We're going to continue to take a look at this through the night, and we'll be with you in the morning with an assessment of the problem. Also, we'd like to ask specifically, when you place the waste stowage vent valve to VENT, does the detent - correction - Does the arrow line up with the detent? Over.
@@ -1024,13 +1023,13 @@ Hempstead, New York: Joe Namath officially reported to the New York Jets trainin
 00 23 57 10|CC|Roger. Mike, we've got some comments on the performance of P23 for today if you've got a minute to talk.
 00 23 57 20|CDR|He's all ears.
 00 23 57 22|CMP|Yes. Go ahead.
-00 23 57 25|CC|Okay. For today, we'd like you on P23 to make a trunnion bias determination, prior to P23 sightings as called out in procedures, and also one afterwards. Our intent here is to check out the possibility that some sort of thermal effect may be giving you errors in the angular read-out in the sextant. The bias that you get beforehand should be incorporated, that is a PROCEED on NOUN 87 after you get two consecutive measurements equal to within 0.003 degrees. And, of course, move the trunnion off a couple of degrees between the measurements. The Earth should be a lot smaller in your field of view today. I'm , sure you're a lot more qualified to tell us about that than we are, but to ensure that you're getting a good angle measurement between the star and the Earth horizon, the sextant M-line, which is the line that runs through the two hash marks and is perpendicular to the R-line, should be parallel to the Earth horizon at the substellar point. And then the actual superimposition of the star upon the horizon can be made at any point in the field of view of the sextant: above, below, or on the M-line. We recommend the marks be made as rapidly as possible after AUTO maneuver. If you feel that the amount of time between the AUTO maneuver and the time you get ready to mark is excessive, or that you don't like that AUTO maneuver attitude when you get ready to mark, of course, you can use a VERB 94 - VERB 94 to get you back to the flashing 51 position to redo the AUTO maneuvers. Over.
-00 23 59 41|CMP|Roger. Stand by one. We're going to stop PTC, and then we'll talk about this P23.
+00 23 57 25|CC|Okay. For today, we'd like you on P23 to make a trunnion bias determination, prior to P23 sightings as called out in procedures, and also one afterwards. Our intent here is to check out the possibility that some sort of thermal effect may be giving you errors in the angular read-out in the sextant. The bias that you get beforehand should be incorporated, that is a PROCEED on NOUN 87 after you get two consecutive measurements equal to within 0.003 degrees. And, of course, move the trunnion off a couple of degrees between the measurements. The Earth should be a lot smaller in your field of view today. I'm , sure you're a lot more qualified to tell us about that than we are, but to ensure that you're getting a good angle measurement between the star and the Earth horizon, the sextant M-line, which is the line that runs through the two hash marks and is perpendicular to the R-line, should be parallel to the Earth horizon at the sub-stellar point. And then the actual superimposition of the star upon the horizon can be made at any point in the field of view of the sextant: above, below, or on the M-line. We recommend the marks be made as rapidly as possible after AUTO maneuver. If you feel that the amount of time between the AUTO maneuver and the time you get ready to mark is excessive, or that you don't like that AUTO maneuver attitude when you get ready to mark, of course, you can use a VERB 94 - VERB 94 to get you back to the flashing 51 position to redo the AUTO maneuvers. Over.
+00 23 59 41|CMP|Well, Roger. Stand by one. We're going to stop PTC, and then we'll talk about this P23.
 00 23 59 49|CC|Okay.
 01 00 02 10|CMP|Houston, Apollo 11.
 ||Tape 16/2 Page 69
 01 00 02 11|CC|Go ahead, 11.
-01 00 02 13|CMP|Okay. We're stopping PTC now and maneuvering to our P52 and optics CAL attitude. In regard to that P23, what I was trying to tell you yesterday was about that. The M-line is not anywhere parallel to the horizon at the roll, pitch, and yaw which you gave me to go to for the substellar point, and I was trying to maneuver off to get it parallel to the horizon when you all said that was not necessary.
+01 00 02 14|CMP|Okay. We're stopping PTC now and maneuvering to our P52 and optics CAL attitude. In regard to that P23, what I was trying to tell you yesterday was about that. The M-line is not anywhere parallel to the horizon at the roll, pitch, and yaw which you gave me to go to for the substellar point, and I was trying to maneuver off to get it parallel to the horizon when you all said that was not necessary.
 01 00 02 47|CC|Roger, 11. I guess in keeping the cups of coffee score, why you get that one.
 01 00 02 57|CMP|Well - Okay - Well, this morning, let's just see how close it comes to being parallel to the M-line. Before we started marking for the first time, it appeared that the computation of - of those three angles was somewhat off, and that I was wasting a lot of gas by going to those three angles and then having to make large attitude changes after that to get the M-line parallel. In some cases it appeared to be just an accepted attitude required, and you all said that it wasn't needed. So I was marking in some cases with the M-line not parallel. I thought perhaps you had some processor for computing that offset and making sense out of that data, but as far as I know, we've got to have the M-line parallel to the horizon.
 01 00 03 49|CC|Roger, 11. We don't have that capability. We do require that the M-line be parallel to the horizon in order to get a good mark. We feel that possibly the - the state vector information that you were using for your maneuver basis yesterday may have needed to be updated a little. And if you'll standby a second, we'll give you an evaluation of what we feel you'll get today by the AUTO maneuver.
@@ -1244,7 +1243,7 @@ Hempstead, New York: Joe Namath officially reported to the New York Jets trainin
 01 03 06 21|CC|Roger. For CRYO-balancing purposes, we'd like you to turn the heater and oxygen tank number 1 off at this time. Over.
 01 03 06 32|CDR|Okay. Stand by.
 01 03 06 35|CC|Everything else in the CRYO system remains the same.
-01 03 06 39|CDR|0kay.
+01 03 06 39|CDR|Okay.
 01 03 06 56|CMP|Okay. We have O2 heater tank 1 off.
 01 03 07 01|CC|Houston. Roger. Out.
 01 03 07 10|CMP|How is EECOMM today? Is he happy with all those good things?
@@ -3201,7 +3200,7 @@ the DAP - the vehicle will roll - will maneuver, rather, at a rate that is loade
 03 04 17 00|CC|Apollo 11, Apollo 11, this is Houston. We are reading you weakly. Go ahead. Over.
 03 04 17 08|CDR|Roger. Burn status report follows. DELTA-TIG zero, burn time 557, ... VGX minus O.1, VGY minus 0.1, VGZ plus 0.1, DELTA-VC minus 0.390, fuel, plus 3 ... 42. Over.
 ||Tape 49/3 Page 218
-05 04 17 44|CC|11, this is Houston. These residuals, do you have minus 0.1?
+03 04 17 44|CC|11, this is Houston. These residuals, do you have minus 0.1?
 03 04 17 50|SC|... VGX minus 0.1, VGY minus 0.1, VGZ 1.1, and a burn time of 5 plus 57. Stand by, maybe the COMM will improve a little bit. Over.
 03 04 19 32|CC|Apollo 11, this is Houston. Are you in the process of acquiring data on the burn? Over.
 03 04 21 37|CC|Apollo 11, Apollo 11, this is Houston. How do you read?
@@ -3425,7 +3424,7 @@ the DAP - the vehicle will roll - will maneuver, rather, at a rate that is loade
 03 06 45 37|LMP|All right, that should put the LM structure about in focus, and I'm going to move it out to infinity and then expand the field of view.
 03 06 46 00|LMP|Crater Secchi is out my window now, window number 2.
 03 06 46 09|CC|Hello, Apollo 11. This is Houston. We show you coming up on the terminator at 78 53, about 7 minutes from now, and we've also got the LOI 2 and TEI 5 PAD's ready for you after the TV whenever you want to terminate. Over.
-05 06 46 31|LMP|Roger.
+03 06 46 31|LMP|Roger.
 03 06 46 33|CC|And we're getting a good view of the track leading into the landing site now and -
 03 06 46 58|CC|Okay, And it looks like we got Secchi K, went by about 10 seconds ago; coming up on Apollo Ridge.
 03 06 47 36|CC|And in the right hand portion of our screen right now, we can see Messier Alfa and Bravo with the light colored rays streaming off in one direction.
@@ -3566,7 +3565,7 @@ the DAP - the vehicle will roll - will maneuver, rather, at a rate that is loade
 03 08 52 21|CC|Roger.
 03 08 55 32|CDR|I get the distinct impression, Charlie, that mare there laps up over the edge of the mountains at the shorelines.
 03 08 55 42|CC|Roger. We copy.
-03 08 56 40CC|Houston. On your comment about the mare lapping up to the terrain - mountainous terrain, is that an impression like a lava flow coming in around a prominence, Neil, or is it more -looks like it's sloping up at that point? Over.
+03 08 56 40|CC|Houston. On your comment about the mare lapping up to the terrain - mountainous terrain, is that an impression like a lava flow coming in around a prominence, Neil, or is it more -looks like it's sloping up at that point? Over.
 03 08 57 06|CDR|It isn't true everywhere, but there's certainly places where there seems to be a slope downward towards the shoreline on the mare. In other words, from the mare down to the shoreline is a downward slope indicating that it might be a lava flow.
 ||Tape 52/3 Page 244
 03 08 57 23|CC|Roger.
@@ -3725,7 +3724,7 @@ the DAP - the vehicle will roll - will maneuver, rather, at a rate that is loade
 03 11 26 26|LMP|Roger. I understand. Eagle will power down the COMM, and we are just approaching 27 volts now. It looks like we won't have to bother with the high taps.
 03 11 26 39|CC|Right.
 03 11 26 40|LMP|We're powering down. Out.
-02 11 26 41|CC|Roger. Copy. Out.
+03 11 26 41|CC|Roger. Copy. Out.
 03 11 26 44|CC|Columbia, this is Houston. We got a TEI 11 PAD for you and an update on the water dump. Over.
 03 11 26 54|CMP|Stand by one, Houston. Are you through with the DSKY?
 03 11 26 56|CC|That's affirmative. Over.
@@ -4387,7 +4386,7 @@ correction, two jets for 16 seconds; use Bravo and Delta. In the comments, the u
 04 04 24 39|CC|Eagle, Houston. We are through with the computer. You can go, back to BLOCK. Over.
 04 04 24 49|LMP(EAGLE)|Roger. Back to BLOCK; and REALIGN: 101 36 14.07 minus 00758,plus all zeros, plus 00098 00572, plus 00085 00764 030 000 293, minus 000759, plus all zeros, plus 00090. NA. Over.
 04 04 25 33|CC|That was a good readback, Buzz. Go ahead. Over.
-04 04 05 42|LMP(EAGLE)|Okay. PDI PAD: 102 33 04.36, 09 50, minus 00021 182 287 000, plus 56919. PDI less than 10: 105 12 30.00. PDI greater than 10: 103 40 00.00 107 11 30.00. No PDI plus 12 abort: 102 44 27.00, plus 01223, minus all zeros, plus 01889 01520, plus 00110 02250 046 000 190, plus 01187, plus 00000, plus 019011 103 31 07.00 105 12 30.00. Over.
+04 04 25 42|LMP(EAGLE)|Okay. PDI PAD: 102 33 04.36, 09 50, minus 00021 182 287 000, plus 56919. PDI less than 10: 105 12 30.00. PDI greater than 10: 103 40 00.00 107 11 30.00. No PDI plus 12 abort: 102 44 27.00, plus 01223, minus all zeros, plus 01889 01520, plus 00110 02250 046 000 190, plus 01187, plus 00000, plus 019011 103 31 07.00 105 12 30.00. Over.
 04 04 27 24|CC|Roger. Good readback, Buzz. Out.
 ||Tape 65/1 Page 297
 04 04 29 02|CMP(COLUMBIA)|Neil, I'm maneuvering in roll.
@@ -4403,9 +4402,9 @@ correction, two jets for 16 seconds; use Bravo and Delta. In the comments, the u
 04 04 31 13|CC|Roger, Neil. Yaw 0, pitch minus 20, high gain angles. Over.
 04 04 31 20|CDR(EAGLE)|Okay. Yaw 0, pitch minus 20 on the high gain.
 04 04 31 23|CC|That's affirmative. We've lost all data with him.
-04 02 31 25|CDR(EAGLE)|To Columbia?
-04 02 31 29|CDR(EAGLE)|He says he'll do that as soon as he gets around there.
-04 02 31 32|CC|Roger.
+04 04 31 25|CDR(EAGLE)|To Columbia?
+04 04 31 29|CDR(EAGLE)|He says he'll do that as soon as he gets around there.
+04 04 31 32|CC|Roger.
 04 04 31 45|CDR(EAGLE)|Okay.
 ||Tape 65/2 Page 298
 04 04 32 36|CC|Columbia, Houston. How do you read?
@@ -4813,7 +4812,7 @@ correction, two jets for 16 seconds; use Bravo and Delta. In the comments, the u
 04 06 57 48|CC|Tranquility, Houston. We have you pitched up about 4 1/2 degrees. Over.
 04 06 57 55|CDR(TRANQ)|That's confirmed by our local observation.
 04 06 58 00|CC|Roger.
-02 06 58 12|CMP(COLUMBIA)|And thanks for putting me on relay, Houston. I was missing all the action.
+04 06 58 12|CMP(COLUMBIA)|And thanks for putting me on relay, Houston. I was missing all the action.
 04 06 58 16|CC|Roger. We'll enable MSFN relay.
 04 06 58 27|CMP(COLUMBIA)|I just got it, I think.
 04 06 58 28|CC|Roger, Columbia. This is Houston. Say something. They ought to be able to hear you. Over.
@@ -5092,7 +5091,7 @@ correction, two jets for 16 seconds; use Bravo and Delta. In the comments, the u
 04 08 42 14|CMP(COLUMBIA)|It looks like a nice area, though.
 04 08 42 29|CC|Hello, Columbia. Houston. I understand you could not see Tranquility. What were you marking on? Over.
 04 08 42 48|CMP(COLUMBIA)|Houston, Columbia. I say again, I could not see him. AUTO optics pointed at a spot very close to the coordinates which you gave me, so I picked a tiny crater in that area and marked on it so I will be able to have repeatable data, but I was unable to see him.
-04 08 42 05|CC|Roger. Copy.
+04 08 43 05|CC|Roger. Copy.
 ||Tape 67/11 Page 337
 04 08 46 11|CC|Hello, Tranquility Base. Houston. On our DPS venting and that fuel problem, our heat exchanger is cleared up. We heard that the ice is melted, and we are in good shape now. Out.
 04 08 49 39|CDR(TRANQ)|Houston. Tranquility is going to put the track modes in P00 now.
@@ -5345,7 +5344,7 @@ correction, two jets for 16 seconds; use Bravo and Delta. In the comments, the u
 04 12 08 52|CDR(TRANQ)|Okay.
 04 12 08 53|LMP(TRANQ)|All right. 1, 2, 3, 4, 5, 5, 4, 3, 2, 1. That - That sounds pretty good.
 04 12 08 58|CDR(TRANQ)|... Okay?
-04 02 08 59|LMP(TRANQ)|Better keep it pretty close to your mouth, though.
+04 12 08 59|LMP(TRANQ)|Better keep it pretty close to your mouth, though.
 04 12 09 05|CDR(TRANQ)|Okay. Open up your audio circuit breaker, and disconnect the LM COMM cable.
 04 12 09 44|CC|Columbia, Columbia, this is Houston. Over.
 04 12 09 53|CMP(COLUMBIA)|Houston, Columbia on the high gain. How do you read ?
@@ -5719,7 +5718,7 @@ correction, two jets for 16 seconds; use Bravo and Delta. In the comments, the u
 ||Tape 70/23 Page 376
 04 13 20 58|CDR(TRANQ)|Okay. Can you pull the door open a little more?
 04 13 21 00|LMP(TRANQ)|All right.
-04 12 21 03|CDR(TRANQ)|Okay.
+04 13 21 03|CDR(TRANQ)|Okay.
 04 13 21 07|LMP(TRANQ)|Did you get the MESA out?
 04 13 21 09|CDR(TRANQ)|I'm going to pull it now.
 04 13 21 18|CDR(TRANQ)|Houston, the MESA came down all right.
@@ -5742,7 +5741,7 @@ correction, two jets for 16 seconds; use Bravo and Delta. In the comments, the u
 04 13 23 38|CDR(TRANQ)|I'm at the foot of the ladder. The LM footpads are only depressed in the surface about 1 or 2 inches, although the surface appears to be very, very fine grained, as you get close to it. It's almost like a powder. Down there, it's very fine.
 04 13 23 43|CDR(TRANQ)|I'm going to step off the LM now.
 04 13 24 48|CDR(TRANQ)|<b>THAT'S ONE SMALL STEP FOR (A) MAN, ONE GIANT LEAP FOR MANKIND.</b>
-04 13 24 48|CDR(TRANQ)|And the - the surface is fine and powdery. I can - I can pick it up loosely with my toe. It does adhere in fine layers like powdered charcoal to the sole and sides of my boots. I only go in a small fraction of an inch, maybe an eighth of an inch, but I can see the footprints of my boots and the treads in the fine, sandy particles.
+04 13 24 49|CDR(TRANQ)|And the - the surface is fine and powdery. I can - I can pick it up loosely with my toe. It does adhere in fine layers like powdered charcoal to the sole and sides of my boots. I only go in a small fraction of an inch, maybe an eighth of an inch, but I can see the footprints of my boots and the treads in the fine, sandy particles.
 04 13 25 30|CC|Neil, this is Houston. We're copying.
 04 13 25 45|CDR(EVA)|There seems to be no difficulty in moving around as we suspected. It's even perhaps easier than the simulations at one sixth g that we performed in the various simulations on the ground. It's actually no trouble to walk around. Okay. The descent engine did not leave a crater of any size. It has about 1 foot clearance on the ground. We're essentially on a very level place here. I can see some evidence of rays emanating from the descent engine, but a very insignificant amount.
 04 13 26 54|CDR(EVA)|Okay, Buzz, we ready to bring down the camera?
@@ -6309,7 +6308,7 @@ correction, two jets for 16 seconds; use Bravo and Delta. In the comments, the u
 04 15 56 08|CDR(TRANQ)|Okay *** read?
 04 15 56 18|CDR(TRANQ)|A, receive. B, off.
 04 15 56 25|CC|Neil, this is Houston. We seem to be reading you now. How do,you read us? Over.
-04 15 56 ??|CDR(TRANQ)|ICS, push to talk.
+04 15 56 30|CDR(TRANQ)|ICS, push to talk.
 04 15 56 44|CDR(TRANQ)|Houston, this is Tranquility. How do you read?
 ||Tape 72/8 Page 411
 04 15 56 47|CC|Tranquility Base, this is Houston. Loud and clear. How us?
@@ -6991,7 +6990,7 @@ correction, two jets for 16 seconds; use Bravo and Delta. In the comments, the u
 ||Tape 80/5 Page 459
 05 04 17 23|CDR(TRANQ)|Balance couple, ON.
 05 04 17 24|LMP(TRANQ)|TTCA jets, PROP PUSHBUTTON RESET, ABORT, ABORT STAGE RESET.
-55 04 17 32|CDR(TRANQ)|RESET.
+05 04 17 32|CDR(TRANQ)|RESET.
 05 04 17 34|LMP(TRANQ)|DEADBAND, MINIMUM. ATT CONTROL to MODE CONTROL; MODE CONTROL, AUTO, both.
 05 04 17 42|CDR(TRANQ)|AUTO, AUTO.
 05 04 17 49|LMP(TRANQ)|Okay. We're standing by for 2 minutes to - for the guidance steering in the AGS.
@@ -7120,7 +7119,7 @@ correction, two jets for 16 seconds; use Bravo and Delta. In the comments, the u
 05 04 50 35|LMP(EAGLE)|I can't tell.
 05 04 50 54|LMP(EAGLE)|Okay. Mark Y.
 05 04 51 06|LMP(EAGLE)|That enough? Beautiful! All zeros. Okay. Let's torque them. I'll write them down. Minus 06, plus 64, plus ... 7. Torque ... Radar circuit breakers in?
-05 04 50 58|CMP(COLUMBIA)|***
+05 04 51 58|CMP(COLUMBIA)|***
 05 04 52 06|CDR(EAGLE)|Yes. We're pointed down pretty much. We're going to be up - -
 05 04 52 08|LMP(EAGLE)|Okay. ... circuit - -
 05 04 52 12|CMP(COLUMBIA)|Roger.
@@ -7292,7 +7291,7 @@ correction, two jets for 16 seconds; use Bravo and Delta. In the comments, the u
 05 06 33 05|LMP(EAGLE)|... 19.8.
 05 06 33 15|LMP(EAGLE)|Go ahead, Mike. What have you got?
 ||Tape 81/7 Page 477
-05 60 33 19|CMP(COLUMBIA)|127 02 3450.
+05 06 33 19|CMP(COLUMBIA)|127 02 3450.
 05 06 33 25|LMP(EAGLE)|You're about 32 seconds *** than we are.
 05 06 33 29|CMP(COLUMBIA)|Okay, fine.
 05 06 35 01|LMP(EAGLE)|***
@@ -8951,7 +8950,7 @@ this chlorination I'm about to do, leaves me one chlorine and two buffers. Seems
 ||Tape 123/3 Page 612
 07 23 50 30|CC|Apollo 11, Houston. Roger. On your GDC align pitch, it should be 233, 233 in the pitch. Over.
 07 23 50 41|LMP|Okay. I've got a 233.
-07 93 50 47|CC|Also your DL and MAX and MIN, I'm sure. are 22 400 and 18 000. Over.
+07 23 50 47|CC|Also your DL and MAX and MIN, I'm sure. are 22 400 and 18 000. Over.
 07 23 50 56|LMP|Yes. That's right.
 07 23 50 58|CC|Okay. If you'll dig out your entry checklist there on page E6 1, I'll update your RETRO times there for the various altitudes. Over.
 07 23 51 10|LMP|Okay. Go ahead.
