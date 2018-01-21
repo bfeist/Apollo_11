@@ -660,7 +660,7 @@
 00 02 14 29|CMP|When the motor lights up, he's worried.
 00 02 14 38|CDR|... 190, 110 degrees.
 00 02 14 50|CMP|Got a long way around, yet.
-00 02 15 23|CC|Apollo 11, this is Houston. 1 minute to LOS Tananarive; A0S at Carnarvon, 02:25:30.
+00 02 15 23|CC|Apollo 11, this is Houston. 1 minute to LOS Tananarive; AOS at Carnarvon, 02:25:30.
 00 02 15 35|LMP|Roger.
 00 02 15 36|CDR|02:25:30.
 00 02 15 37|LMP|Yes. 02:25. ...
@@ -1802,7 +1802,7 @@
 03 08 07 35|CMP|And we got 4 minutes until TIG.
 03 08 07 38|CDR|Okay, go. Up - down - zero. It really shakes. Up - down - zero.
 03 08 07 48|CMP|Which way's it shaking, can you tell? Pitch and yaw?
-0S 08 07 54|CDR|I don't know; it goes up more on the yaw needle than the pitch needle, but I'm not sure that's indicative of anything except needle sensitivity.
+03 08 07 54|CDR|I don't know; it goes up more on the yaw needle than the pitch needle, but I'm not sure that's indicative of anything except needle sensitivity.
 03 08 08 01|CMP|Okay, did it go to ...?
 03 08 08 02|CDR|Yes, it did. ... OFF and the ... OFF.
 03 08 08 12|LMP|ROTATION CONTROL POWER, DIRECT, two of them, to MAIN A/MAIN B.
@@ -2192,7 +2192,7 @@
 03 10 14 07|CMP|Unique feature - photography (laughter). ... on the top of it.
 03 10 14 34|LMP|What have you been using, 5.6 at 1/250th?
 03 10 14 52|CMP|Yes. ...
-0S 10 15 10|LMP|What do you know, it works!
+03 10 15 10|LMP|What do you know, it works!
 03 10 15 18|CDR|I could sure get the stop watch, huh?
 03 10 15 22|LMP|Yes, you have the exact time to AOS - because I don't have my watch - set up for that.
 03 10 15 29|CDR|...
@@ -2749,7 +2749,7 @@
 03 14 18 59|LMP|Oh, okay, let me go do that.
 03 14 19 51|LMP|Anybody know when AOS is?
 03 14 20 07|CMP|When is AOS?
-03 14 20 09|LMP|Yes. When is A0S ...?
+03 14 20 09|LMP|Yes. When is AOS ...?
 03 14 20 18|LMP|86:38?
 03 14 20 21|CMP|I think it's ...
 03 14 20 24|LMP|Okay.

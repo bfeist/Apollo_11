@@ -1378,7 +1378,7 @@
 028:40:30|CC|Roger, We're copying that.
 028:41:27|CC|11, Houston.
 028:41:31|CDR|Go ahead.
-028:41:32|CC|Roger. On that 2O flow transducer down here on telemetry, our values are agreeing pretty well with what you read out onboard, and the EECOMM's have been noticing this cycle, but it still looks like the indicated rate is lower than what we would expect. We're still working on the problem, and we'll let you have a more complete diagnosis on it in a little while.
+028:41:32|CC|Roger. On that O2 flow transducer down here on telemetry, our values are agreeing pretty well with what you read out onboard, and the EECOMM's have been noticing this cycle, but it still looks like the indicated rate is lower than what we would expect. We're still working on the problem, and we'll let you have a more complete diagnosis on it in a little while.
 028:42:03|CDR|Okay. It's a tight fix then.
 028:42:04|CMP|We run a tight ship.
 028:42:08|CC|Roger. Is that music I hear in the background?
@@ -1422,7 +1422,7 @@
 030:29:59|CC|Roger.
 030:30:03|CDR|Ask them if they can read the numbers.
 030:30:06|CC|Okay. Stand by.
-030:30:24|CC|Goldstone, this is Houston CAP C0MM. Over.
+030:30:24|CC|Goldstone, this is Houston CAP COMM. Over.
 030:30:42|CT|Houston CAP COMM, Goldstone M&O. Go ahead.
 030:30:45|CC|Roger. Stand by a minute, Goldstone.
 030:30:51|CC|11, this is Houston. What numbers are you referring to? Over.
@@ -1458,14 +1458,14 @@
 030:51:20|CC|That's me. How are you there?
 030:51:25|CMP|Oh, Just fine. How's the old White Team today?
 030:51:27|CC|Oh, the old White Team's bright-eyed and bushytailed. We're ever alert down here.
-030:51:33|CMP|Ever alert and ... Hey, you got any medics down there watching high grade? I'm trying to do some running in place down here, and I'm wondering just out of curiosity whether it brings my heart rate up.
+030:51:33|CMP|Ever alert depends on - Hey, you got any medics down there watching heart rate? I'm trying to do some running in place down here, and I'm wondering just out of curiosity whether it brings my heart rate up.
 030:51:44|CC|Well, they will spring into action here momentarily. Stand by.
 030:52:12|CC|Hello, 11. We see your heart beating.
 030:52:18|CMP|Okay, Well - look at the CDR's and the CMP's and see if they go up any. We're all running in place up here. You wouldn't believe it.
 030:52:26|CC|I'd like to see that sight. Why don't you give us a TV picture of that one.
 030:52:31|CMP|I think Buzz is trying. You got it.
-030:52:36|CC|Okay. It's coming in at Goldstone, Buzz. As Bruce, said, we don't have it here in the center.
-030:52:58|CMP|I'm afraid this isn't going to help out the PTC very much.
+030:52:36|CC|Okay. It's coming in at Goldstone, Buzz. As Bruce said, we don't have it here in the center.
+030:52:59|CMP|I'm afraid this isn't going to help out the PTC very much.
 030:53:05|CMP|Yes. I don't know if it's a vibration or what it is, but it makes the pitch and yaw rate needles on FDAI number 1 jump up and down a little bit where we jump up and down.
 030:53:19|CC|Roger. Goldstoners say they see you running there, Mike.
 030:53:29|CMP|0kay.
@@ -1532,7 +1532,7 @@
 |||Page 100|Page 106
 031:15:25|CMP|Okay.
 031:18:48|CC|Hello, Apollo 11. Houston. We got some PIPA biases and general drift updates for you if you give us P00 and ACCEPT. Over.
-031:19:01|CDR|Okay, Charlie. Stant by one.
+031:19:01|CDR|Okay, Charlie. Stand by one.
 031:19:04|CC|Roger, 11. The - -
 031:19:05|CDR|You've got it.
 031:19:07|CC|Okay. Thank you much. Our biggest drift on the GYRO's is 0.03 degrees per hour with - on the X-GYRO. On the PIPA's, the Y-PIPA's the biggest and it's 0.006 feet per second so ... trying to tweak it up. The biggest we have is about one sigma on both GYRO's and accelerometers.
@@ -1543,26 +1543,26 @@
 031:20:38|CDR|Okay. Roger.
 |||Page 101|Page 107
 031:22:25|LMP|Boy, you sure get a different perspective in this thing in zero g. Right now, Neil's got his feet on the forward hatch, and he can with his arms reach - all five windows, He can reach down into - the LEB where the overboard drain is. He can practically reach over in the cockpit.
-031:22:33|CC|Sounds like Plastic Man to me.
+031:22:48|CC|Sounds like Plastic Man to me.
 031:23:00|CMP|I'm hiding under the left-hand couch trying to stay out of his way.
 031:23:04|CC|Be a good idea, Mike.
-031:25:18|LMP|Houston, Apollo 11. You got a cloud over the Houston area right now?
+031:25:19|LMP|Houston, Apollo 11. You got a cloud over the Houston area right now?
 031:25:24|CC|Roger. We just had a really big thunderstorm here about a hour ago. Couple of storms around the area ... Over.
-031:25:28|LMP|Yes. I see one fairly large and isolated one. There are couple of more off to the left, but this one looks fairly good size. It could very well be the one that just passed over you.
-031:25:33|CC|Roger.
-031:25:34|LMP|Yes, and it looks like the Cape has been having a little bit of rain, too.
-031:25:47|CC|Roger. The one we had here came in from the west and is moving east - or nearly so, as far as I could tell.
+031:25:34|LMP|Yes. I see one fairly large and isolated one. There are couple of more off to the left, but this one looks fairly good size. It could very well be the one that just passed over you.
+031:25:45|CC|Roger.
+031:25:45|LMP|Yes, and it looks like the Cape has been having a little bit of rain, too.
+031:25:49|CC|Roger. The one we had here came in from the west and is moving east - or nearly so, as far as I could tell.
 031:25:59|LMP|That view through this sextant is fantastic. I can see Alaska right up - right up along the LM, and I'm running the crosshairs right now down the coast of California, the west coast of Mexico, Yucatan Peninsula, up around the Gulf, Florida, Cuba, down Central America, and I'm running into the stop right now, on the sextant.
-031:26:44|CC|Roger. It sounds like a pretty fantastic view.
-031:26:51|LMP|The guys in the weather office at Patrick wanted a report on the tops but I guess all we can say is we're above them.
-031:26:58|CC|Roger. We'll pass it on to METRO.
+031:26:38|CC|Roger. It sounds like a pretty fantastic view.
+031:26:45|LMP|The guys in the weather office at Patrick wanted a report on the tops but I guess all we can say is we're above them.
+031:26:52|CC|Roger. We'll pass it on to METRO.
 |||Page 102|Page 108
 031:27:09|CC|11, Houston. Do you see any predominant weather systems as far as frontal type or any buildup of tropical-storm type? Over.
 031:27:25|LMP|Not any large ones. There are a couple of smaller disturbances. Well, there's one maybe 300 miles north of Cuba, but it doesn't look cyclonic.
-031:27:39|CC|Roger.
+031:27:38|CC|Roger.
 032:24:58|CC|Hello, Apollo 11. Houston. We got a TV attitude for you and also an update to your CMC erasable load and your alternate contingency checklist, if you could break that out too. Over.
 032:25:16|LMP|Roger. I'm not sure I caught all of that. Go ahead with what you have.
-032:25:23|CC|Roger, 11. If you'll break out your alternate and contingency checklist for the CSM, we got an update to some of the erasable loads on page F2-20, Over.
+032:25:23|CC|Roger, 11. If you'll break out your alternate and contingency checklist for the CSM, we've got an update to some of the erasable loads on page F2-20, Over.
 032:25:42|LMP|Okay. Be getting that out, and you can give us the attitude for TV.
 032:25:48|CC|Roger, 11. Your TV attitude will be roll 261, pitch 090, yaw 000. High gain angle: pitch plus 28, yaw 271. That puts the left-hand window pointed at the Earth. We recommend exiting PTC with your updated procedure in the checklist. Over.
 032:26:29|LMP|Roger. We copy roll 21 - 61, pitch 090, yaw 000, high gain pitch plus 28, yaw 271. And we'll like this with the DELTA-V that we have in the book. Over.
@@ -1653,7 +1653,7 @@
 034:00:06|CC|Roger.
 034:01:16|CC|11, Houston. The definition is pretty good on our monitor here. The color is not too ..., at least on this set. Could you describe what you're looking at? Over.
 034:01:31|CDR|Roger. You're seeing Earth, as we see it, out our left-hand window, just a little more than a half Earth. We're looking at the eastern Pacific Ocean, and the north half of the top half of the screen, we can see North America, Alaska, United States, Canada, Mexico, and Central America. South America becomes invisible just off beyond the terminator or inside the shadow. We can see the oceans with a definite blue cast, see white bands of major cloud formations across the Earth, and can see coastlines, pick out the western U.S., San Joaquin Valley, the Sierra mountain range, the peninsula of Baja California, and we can see some cloud formations over southeastern U.S. There's one definite mild storm southwest of Alaska, looks like about 500 to 1000 miles, and another very minor storm showing the south end of the screen near the - or a long ways off of the equator, probably 45 degrees or more south latitude. Can pick out the browns in the landforms pretty well. Greens do not show up very well. Some greens showing along the northeastern - northwestern coast of the United States and northwestern coast of Canada.
-034:03:44|CC|Roger, 11. It's a pretty good picture on clarity here. We're having - can you tell us - It appears to us that there are two distinct cloud- formations trending east/west, one approximately about along the equator, and one around 30 or so south latitude. Could you tell us exactly where those cross the landmasses? Over.
+034:03:44|CC|Roger, 11. It's a pretty good picture on clarity here. We're having - can you tell us - It appears to us that there are two distinct cloud formations trending east/west, one approximately about along the equator, and one around 30 or so south latitude. Could you tell us exactly where those cross the landmasses? Over.
 |||Page 109|Page 115
 034:04:13|CDR|Yes. They cross just south of the lower part of Mexico, probably through Central America. That is the equatorial band which we assume to be the intertropical convergence zone. The other band, which stands about 30 south, correctly appears to join the equator at the far left, or just beyond the horizon on the left edge of Earth, or at least it looks like it's going to join it. We don't have an explanation for that banding.
 034:04:53|CC|Roger, Neil. Thank you. It also appears that just to the left of the terminator, up in the northern hemisphere, there's a cloudband trending - a gap in the cloud, trending northwest/southeast. It appears to us that that comes in about over the northern United States, or perhaps the central United States. Is that about correct? Over.
@@ -1702,7 +1702,7 @@
 |||Page 112|Page 118
 034:14:14|CMP|I would have put on a coat and tie if I'd known about this ahead of time.
 034:14:18|CC|Is Buzz holding your cue cards for you. Over.
-034:14:25|CMP|Cue cards have a no. We have no intertions of competing with the professionals, believe me. We are very comfortable up here, though. We do have a happy home. There's plenty of room for the three of us and I think we're all learning to find our favorite little corner to sit in. Zero g is very comfortable, but after a while you get to the point where you sort of get tired of rattling around and banging off the ceiling and the floor and the side, so you tend to find a little corner somewhere and put your knees up or something like that to wedge yourself in, and that seems more at home.
+034:14:25|CMP|Cue cards have a no. We have no intention of competing with the professionals, believe me. We are very comfortable up here, though. We do have a happy home. There's plenty of room for the three of us and I think we're all learning to find our favorite little corner to sit in. Zero g is very comfortable, but after a while you get to the point where you sort of get tired of rattling around and banging off the ceiling and the floor and the side, so you tend to find  a little corner somewhere and put your knees up or something like that to wedge yourself in, and that seems more at home.
 034:15:05|CC|Roger. Looks like Neil is coming in five-by there, 11. Mike, see you in the background. The definition is really outstanding. The colors are good. It's a real good picture we're getting here of Commander Armstrong. We - Buzz, when you take the camera over towards the window where the Sun's shafting through, it tends to blank it out, though.
 034:15:35|CMP|Yes, Neil's standing on his head again. He's trying to make me nervous.
 034:15:40|CC|Roger.
@@ -1841,7 +1841,7 @@
 035:08:50|CC|And Apollo 11, Houston. We have your flyby PAD if you're ready to copy. Over.
 035:08:56|CMP|Stand by one.
 035:09:31|LMP|Houston, Apollo 11. Is that P30 PAD?
-035:09:34|CC|That's affirmative. Over.
+035:09:33|CC|That's affirmative. Over.
 035:09:41|LMP|Okay. Ready to copy.
 035:09:42|CC|All right, Buzz. It's - flyby is the purpose. SPS/G&N: 62815, plus 097, minus 020 070 54 5944, minus 00028, plus 00023, plus 00069 029 149 312, apogee is NA, plus 00221 00078 001 00034, sextant star 01 2385 227, boresight star is NA NA NA. Latitude is minus 0265, minus 16500, 11899 36228, 144 56 47. In the comments: your set stars are Deneb and Vega, 007 144 068. No ullage. It's a docked burn using the PTC REFSMMAT. Stand by for your readback. Over.
 035:12:41|LMP|Okay. Would you give me GET of O.05g again, please?
@@ -1861,7 +1861,7 @@
 035:20:13|CMP|Houston, Apollo 11. I've done that and, of course, I got an immediate 50 18. So I guess we're set up to proceed from here, and I'll start the 20-minute timer.
 035:20:21|CC|That's affirmative.
 035:20:44|CMP|Houston. I still question that 0.7 rate with 0.2 loaded into the DAP, though. Could you explain that one?
-035:20:50|CC|Roger. We're working on it.
+035:20:50|CC|Roger. We're working on it. Standby one.
 035:20:54|CMP|Okay.
 035:25:42|CC|Apollo 11, Houston. Over.
 035:25:48|CMP|Houston, Apollo 11.
@@ -1924,7 +1924,7 @@
 036:01:59|CMP|It looks fine here, Charlie. The 0.7 part is the only part I don't find explained yet.
 036:02:05|CC|Roger, Mike. We're working on that one right now. We're coming up with the story soon. Over.
 036:02:14|CMP|Thank you.
-036:02:24|CC|11, Houston. We're handing over C0MM to Goldstone. Over. Correction, from Goldstone to Honeysuckle. Over.
+036:02:24|CC|11, Houston. We're handing over COMM to Goldstone. Over. Correction, from Goldstone to Honeysuckle. Over.
 036:02:32|CMP|Okay.
 036:02:53|CMP|Hello, Houston through Honeysuckle. Ov - -
 036:03:00|CC|Apollo 11, Houston. Go ahead. Over.
@@ -1987,9 +1987,9 @@
 048:10:08|LMP|Roger. Looks like the attitude held up real well during PTC last night.
 048:10:13|CC|Yes, it did. We were showing you remaining well within a circle of 10 degrees radius throughout the night. Seems to be working beautifully.
 048:10:37|CMP|How's the old Green Team this morning? Did you have a quiet night?
-048:10:40|CC|Yes. It was a very quiet night. Down here the old Black Team is complaining they didn't get a chance to make any transmissions. Ron Evans is getting
+048:10:40|CC|Yes. It was a very quiet night. Down here the old Black Team is complaining they didn't get a chance to make any transmissions. Ron Evans is getting -
 048:10:53|CMP|Well, we'll be seeing them tomorrow, I guess.
-048:10:56|CC|Yes. Ron's getting to be known as the silent CAP COMM.
+048:10:55|CC|Yes. Ron's getting to be known as the silent CAP COMM.
 048:11:03|CMP|That's the best kind, Bruce.
 048:11:05|CC|(Laughter) Okay.
 048:11:41|CC|When you feel up to copying, 11, I've got a couple of small items in the way of a flight plan update and your morning consumables update. Over.
@@ -2044,7 +2044,7 @@
 048:42:54|LMP|Houston, Apollo 11. I am looking at that cloud now around Pakistan through the sextant, and it appears to be one single cell in the latter stages of development. There is a smaller, more isolated one - -
 |||Page 140|Page 146
 048:45:38|CC|Apollo 11, this is Houston. We lost you down in the noise on the COMM link here about the time you were describing the single cell cloud formation over Afghanistan-Pakistan area through the sextant. Over.
-048:45:55|LMP|Roger. It came through a lot clearer through the sextant than with the monocular, and you could definitely tell it was one single cell in the latter stages of development. It must have gone up to over 50,000 feet, though. The eastern Mediterranean is phenomenally clear. You can see all the lakes; the Dead Sea stood out quite well. Over.
+048:45:56|LMP|Roger. It came through a lot clearer through the sextant than with the monocular, and you could definitely tell it was one single cell in the latter stages of development. It must have gone up to over 50,000 feet, though. The eastern Mediterranean is phenomenally clear. You can see all the lakes; the Dead Sea stood out quite well. Over.
 048:46:24|CC|Roger. What appears to be the limit of resolution through that sextant from your current position? Over.
 048:46:39|LMP|Well, I can't see it right now. It's outside the field of view.
 048:46:43|CC|Roger.
@@ -2097,12 +2097,12 @@
 051:09:41|CC|Roger.
 051:12:44|CC|11, this is Houston. We're through with the uplink. You can go back to BLOCK.
 051:12:54|LMP|Roger. Back to BLOCK.
-051:16:30|CC|Apollo 11, this is Houston. We woudd like to terminate the charge on battery B at GET of 51 30. Over.
+051:16:30|CC|Apollo 11, this is Houston. We would like to terminate the charge on battery B at GET of 51 30. Over.
 051:18:06|CC|Apollo 11, this is Houston. We would like to terminate charging battery Bravo at 51 30 GET. Over.
 051:18:18|LMP|Roger. Terminate charging battery Bravo 51 30.
 051:18:23|CC|Roger. Out.
 051:36:35|CC|11, this is Houston. We show you terminating battery B charge. Over.
-051:37:56|CC|Apollo 11, this is Houston. Over
+051:37:56|CC|Apollo 11, this is Houston. Over.
 051:38:03|CDR|Go ahead, Houston. Apollo 11.
 |||Page 144|Page 150
 051:38:05|CC|Roger, 11. We show you terminating battery B charge at about 51 hours 30 minutes. Over.
@@ -2539,7 +2539,7 @@
 056:33:15|LMP|Roger. Understand. Thank you.
 056:33:48|CC|Buzz, that was a good demonstration of your EVA visor assembly. Appreciate it.
 |||Page 170|Page 176
-056:34:39|CC|Hey, I like the good view of Mr. Collins down there. We finally see him again.
+056:34:39|CC|Well, that's a good view of Mr. Collins down there. We finally see him again.
 056:34:46|CMP|Hello there, earthling.
 056:34:54|CC|Hello there.
 056:35:24|CC|11, Houston. We noticed when you were scanning over Panel 2 a moment ago, 1 and 2, the two eight balls were slightly in disagreement. Control said he'd like a AGS align, there.
@@ -2655,7 +2655,7 @@
 057:44:33|CDR|Houston, Apollo 11. We're completed in the LM. We're closing up the hatches and the probe and drogue back in.
 057:44:42|CC|Roger. We copy. Out.
 057:59:38|CC|Hello, Apollo 11. Houston. We're standing by to watch your startup on the PTC at any time. You can start off at the VERB 49. Over.
-057:59:48|CDR|Wilco. We're just finishing up the probe and about to close up the hatch here. We're going to be a couple of minutes late, probably, getting started in the PTC.
+057:59:49|CDR|Wilco. We're just finishing up the probe and about to close up the hatch here. We're going to be a couple of minutes late, probably, getting started in the PTC.
 057:59:59|CC|Roger. No sweat, 11. We're standing by. Over.
 058:06:08|CC|Hello, Apollo 11. Houston. Mike, there's no wait required. Where rates are steady, you can proceed on. Over.
 058:06:17|CMP|I'm doing it, Charlie.
@@ -2859,9 +2859,9 @@
 069:18:16|CC|Apollo 11, Houston. Good morning.
 069:18:21|LMP|Good morning. Are you planning a midcourse correction 4 this morning?
 069:18:26|CC|That's negative. Midcourse number 4 is not required. We were going to let you sleep in until about 71 hours if you'd like to turn over.
-069:18:38|LMP|Okay. That'll be fine.
+069:18:38|LMP|Okay. That'll be fine. ...
 069:18:48|CC|Say again, Buzz. You were cut off there.
-069:18:52|LMP|OkaY. I'll see you at 71 hours.
+069:18:52|LMP|Okay. I'll see you at 71 hours.
 069:18:55|CC|Roger.
 |||Page 196|Page 202
 071:03:30|CC|Apollo 11, Apollo 11, this is Houston. Over.
@@ -2952,13 +2952,13 @@
 071:56:52|CDR|That's two lunar - two lunar diameters along the ecliptic in the bright part, right; a quarter to an eighth of a lunar radius out, and that's perpendicular to the ecliptic line on the South Pole.
 071:57:07|CC|Roger.
 071:59:20|CDR|Houston, it's been a real change for us. Now we are able to see stars again and recognize constellations for the first time on the trip. It's - the sky is full of stars. Just like the nightside of Earth. But all the way here, we have only been able to see stars occasionally and perhaps through the monocular, but not recognize any star patterns.
-071:59:52|CC|I guess it has turned into night up there really, hasn't it ?
+071:59:52|CC|I guess it has turned into night up there really, hasn't it?
 071:59:58|CDR|Really has.
 072:04:57|CC|11, this is Houston. Go ahead. Over.
 072:13:48|CC|Apollo 11, this is Houston. Do you read? Over.
 072:14:38|CC|Apollo 11, this is Houston. How do you read? Over.
 072:14:43|CDR|Okay. We went to HIGH GAIN. Looks like you had a little trouble getting signal strength there.
-072:14:49|CC|Roger. We missed an 0MNI switch there. Over.
+072:14:49|CC|Roger. We missed an OMNI switch there. Over.
 072:14:55|CDR|All right. On the secondary loop check when we went to FLOW on the secondary radiators, the quantity dropped from 40 percent down to 36 in the first 10 seconds and then stabilized at 36 for the remainder of the 30 seconds.
 |||Page 202|Page 208
 072:15:30|CC|Apollo 11, this is Houston. We believe that is normal system operation. The radiators are expected to be very cold right now and apparently the decrease you saw was due to contraction in the fluid. Over.
@@ -3192,7 +3192,7 @@
 075:40:51|CC|Roger. Out.
 076:02:00||BEGIN LUNAR REV 1
 076:15:47|CC|Apollo 11, Apollo 11, this is Houston. Do you read? Over.
-076:15:59|CC|Apollo 11, Apollo 11, this is Houston. Do you read? Over.
+076:15:59|CC|Apollo 11, Apollo 11, this is Houston. Do you read?
 076:16:11|SC|...
 076:16:59|SC|Houston, Apollo 11. Over.
 076:17:00|CC|Apollo 11, Apollo 11, this is Houston. We are reading you weakly. Go ahead. Over.
@@ -3204,10 +3204,11 @@
 076:21:37|CC|Apollo 11, Apollo 11, this is Houston. How do you read?
 076:21:43|CDR|Reading you loud and clear, Houston. How us?
 076:21:46|CC|Roger. Reading you the same, now. Could you repeat your burn status report? We copied the residuals and burn time, and that was about it. Send the whole thing again, please.
-076:21:56|CDR|It was like - like perfect! DELTA-TIG zero, burn time 557, shaft value on the angles, VGX minus 0.1, VGY minus 0.1, VGZ plus 0.1, no trim, minus 6.8 on DELTA-VC, fuel was 38.8, LOX 39.0, plus 50 on balance, and we ran an increase on the PUGS, NOUN 44 showed us in a 60.9 by 169.9.
+076:21:56|CMP|It was like - like perfect!
+076:22:00|CDR|DELTA-TIG zero, burn time 5:57, shaft value on the angles, VGX minus 0.1, VGY minus 0.1, VGZ plus 0.1, no trim, minus 6.8 on DELTA-VC, fuel was 38.8, LOX 39.0, plus 50 on balance, and we ran an increase on the PUGS, NOUN 44 showed us in a 60.9 by 169.9.
 076:22:35|CC|Roger. We copy your burn status report. And the spacecraft is looking good to us on telemetry.
 076:22:47|CDR|Everything looks good up here.
-076:34:34|CDR|Apollo 11 is getting its first view of the landing approach. This time we are going over the Taruntius crater, and the pictures and maps brought back by Apollo 8 and 10 have given us a very good preview of what to look at here. It looks very much like the pictures, but like the difference between watching a real football game and watching it on TV. There's no substitute for actually being here.
+076:34:34|CDR|Apollo 11 is getting its first view of the landing approach. At this time we are going over the Taruntius crater, and the pictures and maps brought back by Apollo 8 and 10 have given us a very good preview of what to look at here. It looks very much like the pictures, but like the difference between watching a real football game and one on TV. There's no substitute for actually being there.
 076:35:11|CC|Roger. We concur, and we surely wish we could see it firsthand, also.
 |||Page 219|Page 225
 076:35:32|LMP|We're going over the Messier series of craters right at the time, looking vertically down on them, and Messier A we can see good sized blocks in the bottom of the crater. I don't know what our altitude is now, but in any case, those are pretty good size blocks.
@@ -3475,7 +3476,7 @@
 078:57:12|CMP|I believe!
 078:57:45|CMP|And as the Moon sinks slowly in the west, Apollo 11 bids good day to you.
 078:57:50|CC|Roger. We sort of thought it was the Sun setting in the east.
-078:58:00|CMP|Well, it depends on your point of view.
+078:58:00|CMP|Well, it depends on your point of view. 
 078:58:04|CC|Roger. Out.
 078:58:20|CC|Apollo 11, Houston. When you're ready to copy, I have an LOI 2 PAD and a TEI 5 PAD. Over.
 078:58:30|CMP|Okay. Stand by.
@@ -3501,7 +3502,7 @@
 079:06:22|CC|Roger. Out.
 079:21:51|CC|Apollo 11, this is Houston. Over.
 079:21:57|LMP|Go ahead, Houston.
-079:21:58|CC|Roger. During the LOI 1 burn, your erngine burned a little bit more propellant than we predicted, and consequently, we'd like to update - or send you a new TEI 4 PAD. Over.
+079:21:58|CC|Roger. During the LOI 1 burn, your engine burned a little bit more propellant than we predicted, and consequently, we'd like to update - or send you a new TEI 4 PAD. Over.
 079:22:19|LMP|Okay.
 079:22:23|CMP|Our chamber pressure onboard was higher that time, too. It's all on the onboard tape, the time entry, and the chamber pressure; but to make a long story short, it worked its way up to 100.
 079:22:34|CC|Roger.
@@ -3556,7 +3557,7 @@
 080:47:34|CC|Roger. We lost the TM and the voice for about 5 minutes here. We attempted a handover and fouled it up in some manner, but we got you back now. Thank you much.
 080:47:47|CDR|Okay. We're pressurizing the LM at this time.
 080:47:50|CC|Copy.
-080:50:51|CC|Hello, Apollo 11. Houston. We have a P22 AUTO optics update for you if you're ready to copy. Over.
+080:51:11|CC|Hello, Apollo 11. Houston. We have a P22 AUTO optics update for you if you're ready to copy. Over.
 080:51:22|CMP|Ready to copy.
 080:51:23|CC|Roger, Mike. It's landmark Alfa 1: T1, 82 37 35; T2, 82 42 50. We're 7 miles north. Over.
 080:51:59|CMP|Copy. P22: T1, time 82 37 35; T2, 82 42 50. And the target is 7 miles north. Thank you.
