@@ -1184,7 +1184,7 @@
 026:10:38|CC|Roger. I got all of that except trunnion. It's trunnion 242. Over.
 026:12:19|LMP|Houston, Apollo 11. How do you read me now on OMNI A?
 026:12:22|CC|Roger. Loud and clear, 11.
-026:12:26|LMP|Okay. We'll stay on 0MNI A for a while, then.
+026:12:26|LMP|Okay. We'll stay on OMNI A for a while, then.
 |||Page 79|Page 85
 026:12:30|CC|Okay. I got all your readback except the value for trunnion. If it's 242, confirm, please.
 026:12:36|CMP|Roger. 242.
@@ -1251,7 +1251,7 @@
 027:07:35|CMP|It'll be a while, Bruce. We're just now arriving in PTC attitude, and we're going to our 20 minutes of monitoring thruster activity.
 027:07:42|CC|Roger. We copy. He'll be here.
 |||Page 83|Page 89
-027:13:03|CMP|Houston, Apollo 11. Are you going to take control of the 0MNI's now and switch us between B and D?
+027:13:03|CMP|Houston, Apollo 11. Are you going to take control of the OMNI's now and switch us between B and D?
 027:13:08|CC|This is Houston. Stand by one.
 027:13:35|CC|11, Houston.
 027:13:38|CMP|Go ahead.
@@ -1267,7 +1267,7 @@
 027:15:32|CMP|He's got his head out the window.
 027:15:35|CC|I understand, I had trouble on 12 with him, too.
 027:15:42|LMP|Say again what you'd like.
-027:15:44|CC|Okay, The S-band antenna OMNI A switch to Bravo which you have now, and S-band antenna OMNI to the 0MNI position, and the high-gain track to the MANUAL position, and the pitch and yaw angles are minus 50 for pitch and yaw is 270.
+027:15:44|CC|Okay, The S-band antenna OMNI A switch to Bravo which you have now, and S-band antenna OMNI to the OMNI position, and the high-gain track to the MANUAL position, and the pitch and yaw angles are minus 50 for pitch and yaw is 270.
 027:16:10|LMP|Minus 50 and 270.
 027:17:09|LMP|Hey, Jim, I'm looking through the monocular now, and to coin an expression, the view is just beautiful. It's out of this world. I can see all the islands in the Mediterranean. Some larger and smaller islands of Majorca, Sardinia, and Corsica. A little haze over the upper Italian peninsula, some cumulus clouds out over Greece. The Sun is setting on the eastern Mediterranean now. The British Isles are definitely greener in color than the brownish green that we have in the islands, in the peninsula of Spain. Over.
 |||Page 84|Page 90
@@ -1510,7 +1510,7 @@
 031:03:30|CC|Hello, 11. Houston. The Goldstone TV said that when you get a sharp vertical line on the picture, when the horizontal banding goes across, it does appear to bend it slightly. The same as Apollo 10, they said. Looks okay to them. Over.
 031:03:47|LMP|Okay. Understand. It's not our monitor. It must be the transmitter or the system.
 031:03:52|CC|Roger. I guess so, Buzz. We'll have them look into it, and see if they can suggest anything.
-031:05:12|CC|Hello, Apollo 11. Houston. We've lost our command interface with Goldstone. We'd like you to switch to 0MNI Delta. Over.
+031:05:12|CC|Hello, Apollo 11. Houston. We've lost our command interface with Goldstone. We'd like you to switch to OMNI Delta. Over.
 |||Page 99|Page 105
 031:05:24|LMP|Roger. Going to Delta.
 031:05:26|CC|Roger.
@@ -1524,7 +1524,7 @@
 031:13:32|CMP|How's everything going down there? You guys happy with the spacecraft systems?
 031:13:37|CC|Roger. Affirmative. Everything's looking really good to us. Over.
 031:13:44|CMP|Okay. Same here.
-031:14:23|CMP|Charlie, how far out can you pick up TV off the 0MNI?
+031:14:23|CMP|Charlie, how far out can you pick up TV off the OMNI?
 031:14:27|CC|Stand by.
 031:14:47|CC|Hello, Apollo 11. Houston. We're just about to the limits where we can get any kind of picture at all on the OMNI's on the TV. It - The picture, I guess, would be just almost zero at this point.
 031:15:02|CMP|Okay. Well, for this TV program coming up in a couple of hours, you might give some thought to how you want us to stop PTC, if you do, for the best high gain angle; and also it would be nice if you could stop us at such an attitude that we'd have the Earth out of one of our windows.
@@ -1932,7 +1932,7 @@
 |||Page 126|Page 132
 036:03:08|CC|Roger. You're five-by, Mike. We'd like the OMNI configuration as follows. OMNI Alfa place in Bravo, OMNI to OMNI, high-gain track to MANUAL, high-gain yaw 270, pitch - -
 036:04:02|CC|Hello, Apollo 11. Houston. How do you read now? Over.
-036:04:07|LMP|Roger. I'm reading you loud and clear. I'm not sure I got all those. I've got S-band OMNI B, 0MNI, track to MANUAL, and beam wide, pitch - you'd better say that again, and yaw 270. Over.
+036:04:07|LMP|Roger. I'm reading you loud and clear. I'm not sure I got all those. I've got S-band OMNI B, OMNI, track to MANUAL, and beam wide, pitch - you'd better say that again, and yaw 270. Over.
 036:04:26|CC|Roger, Buzz. I broke up at pitch minus 50 at beam wide. Over.
 036:04:37|LMP|Roger. Copy.
 036:05:24|LMP|Houston, Apollo 11. Are you ready to copy some numbers on status report, et cetera.
@@ -2196,7 +2196,7 @@
 054:51:46|CMP|Houston, Apollo 11. How do you read on the high gain?
 054:51:50|CC|11, how do you read me? Over.
 054:51:55|CMP|Read you loud and clear, Charlie. We just switched to HIGH GAIN, and we stopped PTC at roll 263, pitch 90, yaw 0. How do you read?
-054:52:03|CC|Roger, Mike. You're five-by now on the high gain. We're right between the 0MNI antennas and pretty horrible COMM on the OMNI's. We got you five-by on the high gain, and we copy the PTC stoppage. Over.
+054:52:03|CC|Roger, Mike. You're five-by now on the high gain. We're right between the OMNI antennas and pretty horrible COMM on the OMNI's. We got you five-by on the high gain, and we copy the PTC stoppage. Over.
 054:52:18|CMP|Okay, fine.
 054:52:35|CMP|Houston, we're going to open the DIRECT O2 valve and start pumping up the cabin.
 054:52:40|CC|Roger. Copy.
@@ -2679,8 +2679,8 @@
 058:14:17|CMP|Okay.
 058:19:24|CC|Hello, Apollo 11. Houston. We've got some switch positions for you for the high gain. Over.
 058:19:33|LMP|Okay. Go ahead.
-058:19:35|CC|Roger, Buzz. Select Bravo, 0MNI, HIGH-GAIN TRACK to MANUAL; BEAM, WIDE. Over.
-058:19:48|LMP|Okay. Bravo, 0MNI; TRACK, MANUAL; and BEAM, WIDE.
+058:19:35|CC|Roger, Buzz. Select Bravo, OMNI, HIGH-GAIN TRACK to MANUAL; BEAM, WIDE. Over.
+058:19:48|LMP|Okay. Bravo, OMNI; TRACK, MANUAL; and BEAM, WIDE.
 058:19:53|CC|Roger. And your high-gain angles are minus 50 on the pitch, 270 on the yaw. Over.
 |||Page 179|Page 185
 058:20:03|LMP|Okay. Going there now.
@@ -2987,7 +2987,7 @@
 072:26:11|CDR|Okay.
 072:27:16|CC|Apollo 11, this is Houston. Over.
 072:27:24|CDR|Go ahead.
-072:27:25|CC|Roger. We'd like you to switch to 0MNI Delta as we show you approximately at the scan limit of the high gain antenna. Now we will then command 0MNI Delta down here after you advise us you've switched, and then you can select Bravo on board and we will be back in the OMNI antenna commanding business. Over.
+072:27:25|CC|Roger. We'd like you to switch to OMNI Delta as we show you approximately at the scan limit of the high gain antenna. Now we will then command OMNI Delta down here after you advise us you've switched, and then you can select Bravo on board and we will be back in the OMNI antenna commanding business. Over.
 072:27:46|CDR|Okay. We're going to Delta now.
 072:28:16|CC|11, Houston. You can go ahead and select OMNI Bravo on board now.
 072:28:24|CDR|...
@@ -3017,7 +3017,7 @@
 072:34:58|CMP|Who said all that?
 072:35:00|CC|(Laughter) Ruby Graham, an astrologer here in Houston. Now we check with Flight Operations for all the signs for the mission, and then we, of course, had to make sure that everything was really all set.
 072:35:49|CDR|Houston, 11. You're cutting out ...
-072:35:56|CC|Apollo 11, Apollo 11, this is Houston. We're switching 0MNI's. Can you stand by for about 2 minutes?
+072:35:56|CC|Apollo 11, Apollo 11, this is Houston. We're switching OMNI's. Can you stand by for about 2 minutes?
 072:37:30|CDR|Houston, 11. Radio check.
 072:37:35|CC|11, Houston. Go ahead.
 072:37:41|CDR|Roger. You cut out after Tommy Jacobs. I guess we got into antenna switching problems.
@@ -3050,7 +3050,7 @@
 072:51:15|CC|And I copied you are ready for the LOI 1 pad. Over.
 072:51:22|CDR|Go ahead.
 072:51:24|CC|LOI 1, SPS G&N: 62710, plus 098, minus 019, GET ignition 075 49 4965, minus 28897, minus 03944, minus 00686. Roll 358, pitch 226, 347; 01692, plus 00610; 29173 602 29108; sextant star 31 1066 358. Remainder of the PAD is NA. GDC align Vega and Deneb 243 183 012. No ullage. The horizon will be visible just below the upper edge of the hatch window 2 minutes prior to the LOI burn. It will not be visible in the rendezvous window on the left hand side. LOS at 75 hours 41 minutes 23 seconds. AOS at 76 15 29. AOS without the LOI burn 76 05 30. The values which you would see on NOUN 42 prior to LOI burn are HA plus 431.3, HP minus 128.2. Readback. Over.
-072:53:54|CDR|Roger. LOI 1, SPS G&N: 62710, plus 098, minus 019, 075 49 4965, minus 28897, minus 03944, minus 00686; 358 226 347; 01692, plus 00610; 29173 602 29108; 31 106.6 358. GDC align Vega and Deneb 243 183 012. No ullage. Horizon in the hatch window 2 minutes before TIG. A0S with an LOI 76 15 29. AOS without an LOI 76 05 30. HA before the burn 431.3, HP minus 128.2. Say again LOS time.
+072:53:54|CDR|Roger. LOI 1, SPS G&N: 62710, plus 098, minus 019, 075 49 4965, minus 28897, minus 03944, minus 00686; 358 226 347; 01692, plus 00610; 29173 602 29108; 31 106.6 358. GDC align Vega and Deneb 243 183 012. No ullage. Horizon in the hatch window 2 minutes before TIG. AOS with an LOI 76 15 29. AOS without an LOI 76 05 30. HA before the burn 431.3, HP minus 128.2. Say again LOS time.
 072:55:47|CC|Roger. LOS time 75 41 23. Over.
 072:55:58|CDR|Understand 75 41 23.
 072:56:03|CC|11, this is Houston. Readhack correct. Out.
@@ -3126,7 +3126,7 @@
 074:34:51|CC|Roger. Loud and clear now.
 074:35:10|CDR|Houston, Apollo 11.
 074:35:12|CC|Go ahead, 11.
-074:35:20|CDR|Apparently this is not a very good 0MNI attitude for you. We're ready to start our PTC check.
+074:35:20|CDR|Apparently this is not a very good OMNI attitude for you. We're ready to start our PTC check.
 074:35:52|CC|11, this is Houston. We're ready, except that we'd like to get the high gain antenna prior to this test. Over.
 074:36:06|CDR|Can you give us a couple of pointing angles?
 074:36:09|CC|Roger. From an attitude with 60 degrees roll, around to an attitude of roll 058 inertial. It would be pitch plus 30 and yaw 270 on the high gain antenna.
@@ -3259,7 +3259,7 @@
 077:03:23|LMP|You might give us a time of crossing of 45 west, and then we'll know when to start searching for Aristarchus.
 077:03:32|CC|Roger. You'll be crossing 45 west at 77 04 10 or about 40 seconds from now. Over. Thirty seconds from now.
 077:03:45|LMP|Okay.
-077:04:50|CC|Apollo 11, when we lose the S-band, we'd like to get 0MNI Charlie from you. And update my last, that 77 04 was the time when Aristarchus should become visible over your horizon. 77 12 is point of closest approach south of it. Over.
+077:04:50|CC|Apollo 11, when we lose the S-band, we'd like to get OMNI Charlie from you. And update my last, that 77 04 was the time when Aristarchus should become visible over your horizon. 77 12 is point of closest approach south of it. Over.
 |||Page 223|Page 229
 077:05:14|LMP|Okay. That sounds better because we just went by Copernicus a little bit ago.
 077:05:18|CC|Roger. We show you at about 27 degrees longitude right now.
@@ -3734,7 +3734,7 @@
 083:31:17|CMP|All right. I read back: TEI 11, SPS G&N: 37200, minus 060, plus 047, plus 098, 05 2422, plus 41448, plus 03719, minus 02422; NA, 020; the rest of the PAD NA. Ullage, two jets for 16 seconds, Quads B and D. Undocked present CSM weight is okay in the DAP.
 083:31:50|CC|Roger, 11. And we'd like you to do a waste water dump at 84 hours down to 25 percent. Over.
 083:32:06|CMP|Roger. I understand. Waste water dump to 25 percent at 84 hours.
-083:32:10|CC|Roger. And, Mike, we'll have LOS in about 11 minutes at 83 44. A0S is 84 30, and prior to - or at LOS, we would like you to go - Configure the S band for high gain track to REACQ, high gain beam to NARROW, and let's try that to see if we can get an automatic REACQ at the next AOS. Over.
+083:32:10|CC|Roger. And, Mike, we'll have LOS in about 11 minutes at 83 44. AOS is 84 30, and prior to - or at LOS, we would like you to go - Configure the S band for high gain track to REACQ, high gain beam to NARROW, and let's try that to see if we can get an automatic REACQ at the next AOS. Over.
 083:32:43|CMP|Good idea.
 083:32:51|CMP|I'm in REACQ and NARROW now.
 083:32:54|CC|Roger.
@@ -3833,12 +3833,12 @@
 085:27:46|CC|Apollo 11, Houston. Can you confirm that you have changed the CO2 filter as per flight plan in the last hour? Over?
 085:28:01|CMP|No. We're still eating. We're about to do it. We'll let you know.
 |||Page 262|Page 268
-085:28:04|CC|Roger, 11. And we've got about 14 minutes until LOS. A0S is 86 30, an hour away. We're wondering whether or not you plan to have one man up at that time or would you all like to be asleep inside the next hour? Over.
+085:28:04|CC|Roger, 11. And we've got about 14 minutes until LOS. AOS is 86:30, an hour away. We're wondering whether or not you plan to have one man up at that time or would you all like to be asleep inside the next hour? Over.
 085:28:25|CMP|Somebody will be up.
 085:28:27|CC|Roger. The thing that we're still puzzling on is the antenna, and if - as long as there will be somebody up, why, we would like to have somebody check the automatic REACQ on the next AOS.
 085:28:42|CMP|Okay. We'll do that. We haven't chlorinated the water yet, and we haven't changed the lithium hydroxide. We're just still finishing up dinner.
 085:28:49|CC|Roger, Mike. Thank you.
-085:40:07|CC|Apollo 11, Houston. We have LOS coming up in 2 minutes now, and A0S will be at 86 plus 28 plus 15. Over.
+085:40:07|CC|Apollo 11, Houston. We have LOS coming up in 2 minutes now, and AOS will be at 86 plus 28 plus 15. Over.
 085:40:20|CDR|We'll see you on the other side, Houston.
 085:40:21|CC|Roger.
 |||Page 263|Page 269
@@ -3876,7 +3876,7 @@
 093:34:34|CMP|I say because I sure have not.
 093:34:37|CC|Roger.
 093:35:01|CC|Apollo 11. Thirty seconds. AOS will be 94 plus 21.
-093:35:11|CMP|94 21.
+093:35:11|CMP|94:21.
 |||Page 268|Page 274
 093:59:00||BEGIN LUNAR REV 10
 094:22:17|CC|Apollo 11, Houston. Standing by.
@@ -3886,7 +3886,7 @@
 094:23:17|CC|Roger. Stand by, 11.
 094:23:47|CC|Apollo 11, Houston. We have good data on all 3 crewmen. No. Belay that. The Commander we do not have yet.
 094:24:00|LMP|Okay. He's not up yet.
-094:50:00|LMP|Houston, Apollo 11. We just had a very good view of the landing site. We can pick out almost all of the features we've identified previously.
+094:49:59|LMP|Houston, Apollo 11. We just had a very good view of the landing site. We can pick out almost all of the features we've identified previously.
 094:50:10|CC|11, Houston. Roger. Sounds real fine. And, 11, I have your maneuver PAD and consumables update whenever you want them.
 094:50:30|SC|Stand by.
 094:50:34|LMP|Stand by a little, please.
@@ -4102,14 +4102,14 @@
 097:15:36|CC|Roger.
 097:15:42|CDR|Did you get the time? Was 97 14 20.
 097:15:45|CC|Roger. Copy, Eagle. Out.
-097:17:08|CC|Columbia and Eagle: LOS for both spacecrafts 97 32, AOS 98 18. Houston, out.
+097:17:08|CC|Columbia and Eagle: LOS for both spacecrafts 97:32, AOS 98:18. Houston, out.
 |||Page 281|Page 287
 097:21:35|CC|Eagle,Houston. We have your gyro torquing angles if you're ready to copy. Over.
-097:21:47|CDR|Roger. We're ready to copy.
+097:21:49|CDR|Roger. We're ready to copy.
 097:21:59|CC|Roger. Eagle. For X minus 00060, Y plus 00620, Z plus 01080. Over.
-097:22:34|CDR|Understand. X minus 00060, Y plus 00620, Z plus 01080.
+097:22:25|CDR|Understand. X minus 00060, Y plus 00620, Z plus 01080.
 097:22:50|CC|Roger, Eagle. Good readback. Out.
-097:24:18|CDR|Houston, this is Eagle. Do you want us to go ahead and do a VERB 42 at this time?
+097:24:12|CDR|Houston, this is Eagle. Do you want us to go ahead and do a VERB 42 at this time?
 097:24:28|CC|Stand by. That's affirmative, Eagle. We'd like you to go ahead and fine align. Over.
 097:24:37|CDR|Okay.
 097:24:48|LMP|Houston, Eagle, LMP. How do you read? Over.
@@ -4123,7 +4123,7 @@
 097:25:53|CDR|Do you copy those angles, Houston - torquing angles?
 097:25:57|CC|Roger. They're correct. You can torque. Over.
 |||Page 282|Page 288
-097:27:43|CC|Apollo 11, Houston. We have about 4 minutes LOS. That makes A0S 98 18. Over.
+097:27:43|CC|Apollo 11, Houston. We have about 4 minutes LOS. That makes AOS 98 18. Over.
 097:27:54|CDR|Eagle. Roger.
 097:27:58|CMP|Columbia. Roger.
 097:28:31|CMP|Eagle, Columbia.
@@ -4137,7 +4137,7 @@
 097:29:41|CDR|Mike, the capture latches look good.
 097:29:44|CMP|Thank you.
 097:29:54|CC|Eagle, Houston. We'd like you to go to the OMNI antenna, and next AOS, we'd like you to be in forward. Over.
-097:30:06|LMP|Roger. Going to - which 0MNI do you want now, aft?
+097:30:06|LMP|Roger. Going to - which OMNI do you want now, aft?
 097:30:20|CC|Eagle, Houston. We'd like aft now and forward at AOS. Over.
 097:30:27|LMP|Roger.
 097:31:05|CC|Apollo 11, Houston. Thirty seconds to LOS. Both spacecraft looking good going over the hill. Out.
@@ -4148,7 +4148,7 @@
 098:19:30|CC|Eagle, Houston. Do you read? Over.
 098:20:19|CC|Columbia, Houston. Over.
 098:20:53|CC|Eagle, Houston. No voice. Will you verify forward OMNI? Over.
-098:21:58|CC|Columbia, Houston. We have no voice with Eagle. Would you please verify that Eagle is on forward 0MNI. Over.
+098:21:58|CC|Columbia, Houston. We have no voice with Eagle. Would you please verify that Eagle is on forward OMNI. Over.
 098:22:36|CC|Columbia, Houston. Over.
 098:23:10|CC|Eagle, Houston. Over.
 098:23:16|LMP|Houston, Eagle. Go ahead.
@@ -4494,19 +4494,19 @@
 |||Page 303|Page 309
 101:06:58|CC|Columbia, Houston. On those P76's, a friendly reminder from your FIDO: add half the burn time to the TIG. Over.
 101:07:10|CMP(COLUMBIA)|Roger.
-101:14:09|CC|Columbia, Houston. We've lost data with Eagle. Will you please have him select aft 0MNI? Over.
+101:14:09|CC|Columbia, Houston. We've lost data with Eagle. Will you please have him select aft OMNI? Over.
 101:14:22|CMP(COLUMBIA)|Eagle, this is Columbia. Houston would like you to select aft OMNI.
 101:14:37|LMP(EAGLE)|Roger. I got it now. Houston, you reading Eagle now on aft OMNI?
 101:14:41|CC|That's affirmative, Eagle. Reading you five by.
 101:14:58|CMP(COLUMBIA)|Roger.
-101:16:17|CC|Columbia, Houston. We'll have LOS at 101 28. A0S for you 102 15. Over.
+101:16:17|CC|Columbia, Houston. We'll have LOS at 101 28. AOS for you 102 15. Over.
 101:16:30|CMP(COLUMBIA)|Thank you.
 101:17:07|CC|Eagle, Houston. It appeared to us when you were doing the P52, maneuvering the S band, the high gain went into the stop. Verify that both S band breakers are in. Over.
 101:17:23|LMP(EAGLE)|Roger. I think I'd gone up to 90.0 before it went there. The one on this side is in and I'll check the other later.
 101:17:29|CC|Okay. Thank you, Buzz.
 101:17:53|CC|Eagle, Houston. You are GO for DOI. Over.
-101:18:00|LMP|(EAGLE)
-101:18:03|CC|Roger. For you LOS at 101 28. AOS 102 16. Over.
+101:18:00|LMP(EAGLE)|Roger. Go for DOI. Do you have LOS and AOS times?
+101:18:03|CC|Roger. For you LOS at 101:28. AOS 102:16. Over.
 101:18:16|LMP(EAGLE)|Roger. Copy.
 |||Page 304|Page 310
 101:18:18|CC|And, Buzz, S band steerable update for you on the angles at AOS: 219 and yaw 30. Over.
@@ -4751,7 +4751,7 @@
 102:45:52|LMP(EAGLE)|413 is in.
 102:45:57|CC|We copy you down, Eagle.
 102:45:59|CDR(TRANQ)|Houston, Tranquility Base here.
-102:46:04|CDR(TRANQ)|<b>THE EAGLE HAS LANDED.</b>
+102:46:04|CDR(TRANQ)|The Eagle has landed.
 102:46:06|CC|Roger, Tranquility. We copy you on the ground. You got a bunch of guys about to turn blue. We're breathing again. Thanks a lot.
 102:46:16|CDR(TRANQ)|Thank you.
 102:46:18|CC|You're looking good here.
@@ -5005,7 +5005,7 @@
 104:15:00|CMP(COLUMBIA)|Houston, Columbia. How's it going?
 104:15:02|CC|Columbia, Houston. We're reading you about three by. Over.
 104:15:10|CMP(COLUMBIA)|Roger. I'm on OMNI Charlie. How's it going?
-104:15:13|CC|Roger. Understand. 0MNI Charlie. Mike, be advised we have an update for you on the P22 for the LM. We estimate he landed about 4 miles downrange. Your T1 times are updated and your T2, if you're ready to copy. Over.
+104:15:13|CC|Roger. Understand. OMNI Charlie. Mike, be advised we have an update for you on the P22 for the LM. We estimate he landed about 4 miles downrange. Your T1 times are updated and your T2, if you're ready to copy. Over.
 104:15:33|CMP(COLUMBIA)|Ready to copy.
 104:15:36|CMP(COLUMBIA)|Ready to copy.
 104:15:37|CC|Okay. Roger, Columbia. T1 104 32 24, 104 37 33, 2 miles south. Time of closest approach is 104 39 08.
@@ -5044,7 +5044,7 @@
 104:24:51|CC|Hello, Columbia. Houston. We will not come up on the MSFN relay. We'd like you to come on panel 9, turn on your VHF to TR. Over.
 104:25:08|CMP(COLUMBIA)|Okay. I'm on panel 9. Ready to receive. You want me to transmit for some reason with it?
 104:25:14|CC|Say again, Mike. You're about two by.
-104:25:21|CMP(COLUMBIA)|Roger. Panel 9 is configured VHF, RECEIVE. You want me to transmit with the HF for some reason? Why do you want me in TR?
+104:25:21|CMP(COLUMBIA)|Roger. Panel 9 is configured VHF, RECEIVE. You want me to transmit with the VHF for some reason? Why do you want me in TR?
 104:25:31|CC|Columbia, this is Houston. We don't want you to transmit, Mike. We just want you in that position in case you want to talk to Tranquility. Break. Tranquility, Houston. Say again. Over.
 104:25:47|CDR(TRANQ)|Roger. I have a fairly good sized difference between battery volts on 5 and 6; 6 is reading 33.5 and 5 is reading 36.5. Is that what you expect? Over.
 104:26:03|CC|Roger. Stand by.
@@ -5054,7 +5054,7 @@
 104:32:56|LMP(TRANQ)|Okay, Houston. On descent 1, fuel and oxidizer are reading 10 psi; and descent 2, fuel is reading 10 psi, oxidizer 11 psi.
 104:33:09|CC|Roger, Tranquility. Thank you much. Out.
 104:34:55|CDR(TRANQ)|Houston, Tranquility Base is ready to go through the powerdown and terminate the simulated countdown.
-104:35:00|CC|Roger. Standby.
+104:35:03|CC|Roger. Standby.
 |||Page 335|Page 341
 104:35:23|CC|Hello, Tranquility Base. Houston. You can start your powerdown now. Over.
 104:35:31|CDR(TRANQ)|Roger. It's in progress.
@@ -5069,7 +5069,7 @@
 104:39:48|LMP(TRANQ)|Roger.
 104:39:56|CC|You guys are getting prime time TV there.
 104:40:08|CDR(TRANQ)|Hope that little TV set works, but we'll see.
-104:40:11|CC|Roger.
+104:40:13|CC|Roger.
 104:40:33|CC|Hello, Tranquility Base. Houston. Was your eight o'clock Houston time a reference to opening the hatch or starting the PREP for EVA at that time? Over.
 104:40:46|CDR(TRANQ)|That would be hatch opening.
 |||Page 336|Page 342
@@ -5079,19 +5079,19 @@
 104:41:00|CC|Stand by, Columbia.
 104:41:01|CC|Tranquility Base, Houston. That's fine. We are ready to support you any time, Neil. Over.
 104:41:04|CMP(COLUMBIA)|Roger.
-104:41:09|CDR(TRANQ)|Roger.
+104:41:07|CDR(TRANQ)|Roger.
 104:41:10|CC|Break. Columbia, we see the NOUN 49. Stand by.
 104:41:36|CC|Columbia, Houston. We got the data. We would like a VERB 34. Over.
-104:41:46|CMP(COLUMBIA)|All right. Stand by one, Charlie, for the next one.
+104:41:47|CMP(COLUMBIA)|Roger. Stand by one, Charlie, for the next one.
 104:41:50|CC|Roger, Columbia. Did - How did Tranquility look to you down there? Over.
-104:41:58|CMP(COLUMBIA)|Well, the area looks smooth, but I was unable to see him. I just picked out a distinguishable crater nearby and marked on it.
+104:41:56|CMP(COLUMBIA)|Well, the area looks smooth, but I was unable to see him. I just picked out a distinguishable crater nearby and marked on it.
 104:42:08|CC|Roger.
 104:42:14|CMP(COLUMBIA)|It looks like a nice area, though.
 104:42:29|CC|Hello, Columbia. Houston. I understand you could not see Tranquility. What were you marking on? Over.
 104:42:48|CMP(COLUMBIA)|Houston, Columbia. I say again, I could not see him. AUTO optics pointed at a spot very close to the coordinates which you gave me, so I picked a tiny crater in that area and marked on it so I will be able to have repeatable data, but I was unable to see him.
 104:43:05|CC|Roger. Copy.
 |||Page 337|Page 343
-104:46:11|CC|Hello, Tranquility Base. Houston. On our DPS venting and that fuel problem, our heat exchanger is cleared up. We heard that the ice is melted, and we are in good shape now. Out.
+104:46:11|CC|H ello, Tranquility Base. Houston. On our DPS venting and that fuel problem, our heat exchanger is cleared up. It appears that the ice is melted, and we are in good shape now. Out.
 104:49:39|CDR(TRANQ)|Houston. Tranquility is going to put the track modes in P00 now.
 104:59:27|CC|Columbia, Houston. Over.
 104:59:34|CMP(COLUMBIA)|Columbia. Go.
@@ -5111,13 +5111,13 @@
 105:04:58|CMP(COLUMBIA)|Sounds good to me. Tell them to eat some lunch before they go.
 |||Page 339|Page 345
 105:06:07|CC|Columbia, Houston. We'd like your PRD readouts when possible, and we've checked over your EM dump. It all looks okay.
-105:06:48|CC|Tranquility Base, Houston. Over.
+105:06:48|CC|Tranquility Base, Houston. Over. 
 105:06:54|LMP(TRANQ)|Go ahead, Houston.
 105:06:56|CC|Tranquility, Houston. We'd like your PRD readout, and we have double checked your EM dump. It all looks okay. Over.
 105:07:26|CDR(TRANQ)|Roger. Understand our E memory dump was good. CDR's dosimeter is 11014.
 105:07:37|LMP(TRANQ)|And LMP is 09011.
 105:07:44|CC|Roger, Tranquility. Break. Columbia, we would like for you to REACQ with your high gain; attempt a manual lock on. Over.
-105:08:01|CMP(COLUMBIA)|...
+105:08:01|CMP(COLUMBIA)|In work.
 105:08:11|LMP(TRANQ)|Houston, Tranquility here. The LMP's readout may possibly be 09017. Over.
 105:08:21|CC|Tranquility, Houston. Roger. 09017 is an update on your readout.
 105:08:31|CMP(COLUMBIA)|Columbia's in high gain.
@@ -5220,8 +5220,8 @@
 106:50:31|CC|Go ahead, Columbia.
 |||Page 346|Page 352
 106:50:38|CMP(COLUMBIA)|Roger. I finally got you back on OMNI D. I've been unsuccessfully trying to get you on the high gain, and I've gone COMMAND RESET to PROCESS. How do you read me now?
-106:50:46|CC|Roger. Reading you loud with background noise. Understand that's 0MNI Delta or 0MNI Bravo? Over.
-106:50:56|CMP(COLUMBIA)|0MNI Delta and you were cut out. I never got your coordinates on estimated LM position. Over.
+106:50:46|CC|Roger. Reading you loud with background noise. Understand that's OMNI Delta or OMNI Bravo? Over.
+106:50:56|CMP(COLUMBIA)|OMNI Delta and you were cut out. I never got your coordinates on estimated LM position. Over.
 106:51:04|CC|Columbia, this is Houston. Estimated LM position is latitude plus 0.799, longitude over 2 plus 11.730. On your chart we would place it - Stand by on the charts and readback on the latitude and longitude.
 106:51:46|CMP(COLUMBIA)|Yes. The latitude and longitude over 2, 799 and 11730 are the ones that I been using in P22. But what I'm interested in is - is grid coordinates on that map we're using.
 106:52:01|CC|Roger. We'll have them for you in a second.
@@ -5264,10 +5264,10 @@
 107:06:57|CMP(COLUMBIA)|Okay. What you are saying is, if you look at the cat's paw, then that's just about, oh - his middle finger, a little bit - one to two o'clock from his middle finger. Is that right?
 107:07:16|CC|Roger. About one to two o'clock from the middle finger if you are using 12 o'clock being to the west. 0ver.
 107:07:29|CMP(COLUMBIA)|That must be the way the cat's faced. Okay. I'm with you.
-107:07:33|CC|Okay. And I got LOS amd A0S times for you.
+107:07:33|CC|Okay. And I got LOS amd AOS times for you.
 107:07:40|CMP(COLUMBIA)|Go ahead.
 107:07:48|CMP(COLUMBIA)|Go ahead, Houston.
-107:07:50|CC|Roger. Your LOS at 107 plus 23 plus 03. A0S at 108 plus 09 plus 06. The next pass for COAS tracking: your time of closest approach is 108 35 28. That's 3 miles south of track. Over.
+107:07:50|CC|Roger. Your LOS at 107 plus 23 plus 03. AOS at 108 plus 09 plus 06. The next pass for COAS tracking: your time of closest approach is 108 35 28. That's 3 miles south of track. Over.
 |||Page 349|Page 355
 107:08:28|CMP(COLUMBIA)|I understand all that, but with this new information would you like me to try P22 and look for him in a different spot?
 107:08:40|CC|Stand by a minute, please.
@@ -5538,9 +5538,9 @@
 108:42:32|CDR(TRANQ)|Okay.
 108:42:34|LMP(TRANQ)|I'll fix the gloves. Locked.
 108:44:15|CC|Columbia, this is Houston. Do you read? Over.
-108:44:21|CMP(COLUMBIA)|Columbia reads you loud and clear on 0MNI C - Charlie.
+108:44:21|CMP(COLUMBIA)|Columbia reads you loud and clear on OMNI C - Charlie.
 |||Page 366|Page 372
-108:44:25|CC|Roger. Columbia, I have LOS and AOS times for you this pass with MSFN. LOS 109 plus 21 plus 12. A0S coming around on the corner 110 07 35. Over.
+108:44:25|CC|Roger. Columbia, I have LOS and AOS times for you this pass with MSFN. LOS 109 plus 21 plus 12. AOS coming around on the corner 110 07 35. Over.
 108:44:52|CMP(COLUMBIA)|Thank you. That's fine.
 108:44:53|CC|Roger. Out.
 108:45:32|LMP(TRANQ)|Okay.
@@ -5660,7 +5660,7 @@
 109:10:39|CDR(TRANQ)|Have you got your water valve on there?
 109:10:41|LMP(TRANQ)|Yes.
 109:12:35|CC|Columbia, this is Houston. We show you nearing high gain antenna scan limits. When you lose lock on us, we request OMNI Delta. OMNI Delta when you lose lock. Over.
-109:12:52|CMP(COLUMBIA)|Roger. 0MNI Delta.
+109:12:52|CMP(COLUMBIA)|Roger. OMNI Delta.
 109:13:22|CDR(TRANQ)|Okay. My window's cleared. I'm going to go to turn my cooling up a little bit.
 |||Page 373|Page 379
 109:13:26|LMP(TRANQ)|Okay. My window's clear.
@@ -6922,7 +6922,7 @@
 123:48:13|LMP(TRANQ)|Stand by for some change or modification in the angles.
 123:48:23|CC|Tranquility Base, Houston. Recommend 334, and that should just keep it out of the limit.
 123:48:32|LMP(TRANQ)|Okay.
-123:55:19|CMP(COLUMBIA)|Houston, Columbia on 0MNI D Delta. Over.
+123:55:19|CMP(COLUMBIA)|Houston, Columbia on OMNI D Delta. Over.
 123:55:23|CC|Columbia, Houston. Roger. Loud and clear. And if you would like to take it down, we have the latest position of Tranquility Base. Over.
 123:55:33|CMP(COLUMBIA)|Go ahead.
 123:55:36|CC|Roger. It's just west - at west crater, Juliett 0.5, 7.7. Over.
@@ -8079,7 +8079,7 @@
 |||Page 538|Page 543
 152:17:13|CC|Apollo 11, Apollo 11, this is Houston broadcasting in the blind. If you read us, attempt to acquire on OMNI antennas. Attempt to acquire us on OMNI antennas, if you read. This is Houston. Out.
 152:18:34|CC|Apollo 11, Apollo 11, this is Houston broadcasting in the blind. If you read, attempt acquisition on an OMNI antenna. Attempt acquisition using an OMNI antenna. Over.
-152:20:14|CC|Apollo 11, Apollo 11, this is Houston broadcasting in the blind. If you read, attempt contact using OMNI antenna, using an 0MNI antenna. This is Houston. Out.
+152:20:14|CC|Apollo 11, Apollo 11, this is Houston broadcasting in the blind. If you read, attempt contact using OMNI antenna, using an OMNI antenna. This is Houston. Out.
 152:35:08|CC|Apollo 11, Apollo 11, this is Houston broadcasting in the blind. If you read us, attempt acquisition using an OMNI antenna. Attempt acquisition using an OMNI antenna. This is Houston. Out.
 152:43:48|CT|... Goldstone.
 152:43:54|CC|Apollo 11, Apollo 11, this is Houston. Radio check. Over.
@@ -8417,7 +8417,7 @@
 159:52:02|CC|Roger, Buzz. It's an entry PAD, MPL, starting with roll 05, 35 - correction - 359 152 001. GET 194 46 03 267, plus 1102, minus 17203, 068, NOUN 60, 36194 656 11894 36275 195 03 03 0027, NOUN 69, all four lines are NA. Picking up with D zero: 400 02 09. RET of blackout, 00 17 03 38 08 20. Sextant star, 02 0945 149. Boresight star is Scorpii theta, that's Scorpii theta. Up 315, right 35, lift vector up. And the comments: This entry PAD assumes no midcourse 6. And for your information, looking at it right now, based on all the tracking we got, that maneuver would only be a tenth of a foot per second. So, we'll probably skip it. We'll let you know more about that later. Okay. Your horizon check at EI minus 30 minutes, GET of 194 33 03, gives you a pitch angle of 298. Okay. The GDC, your backup align - Your set stars for the entry REFSMMAT are Deneb and Vega, 079 234 340. Standing by for your readback. Over.
 |||Page 562|Page 567
 159:55:27|LMP|Roger. Lunar entry, MPL: 359 152 001 194 46 03 267, plus 1102, minus 17203 068 36194 656 11894 36275; 195 03 03 0027, four NA, 400 02 09 00 17 03 38 08 20 02 0945 149, Scorpii theta. Up 315, right 35, up. Assumes no MCC 6. Horizon at EI minus 30 194 33 03, and pitch 298. Set stars Deneb and Vega, 079 234 340. Over.
-159:57:04|CC|Roger. Very good readback, Buzz, and for your communication setup for tonight's sleep, we'd like 0MNI to OMNI. Stand by.
+159:57:04|CC|Roger. Very good readback, Buzz, and for your communication setup for tonight's sleep, we'd like OMNI to OMNI. Stand by.
 159:58:51|CC|Apollo 11, Houston. If you didn't copy that, Buzz, it was a good readback on the PAD. We've got a clock update for you that we'll have to you as soon as we can get it out to the site. We're in the process of handing over to Honeysuckle, and it will be a couple of minutes. Over.
 159:59:11|LMP|Okay. You want the computer to BLOCK?
 159:59:15|CC|We'll call you. You can stay BLOCK right now. We'll give you a call.
@@ -8488,7 +8488,7 @@
 171:19:13|CC|11, Houston. Your P52 looks good here on the ground, and we are now estimating that water dump will occur along about 171 plus 40; and we'd like for you to dump to 45 percent. This should let you arrive at Earth interface with just about a full load of waste water. Over.
 171:19:37|CDR|Understand 171 40, approximately, 40 percent.
 |||Page 573|Page 578
-171:22:14|CC|11, Houston. We'd like to advance the time on that water dump to about 171 plus 30 just after we reacquire on the next 0MNI, and - as I mentioned, it'll be down to 45 percent - is the new quantity. Also, we're standing by for your CM RCS ejector temperature readout. Over.
+171:22:14|CC|11, Houston. We'd like to advance the time on that water dump to about 171 plus 30 just after we reacquire on the next OMNI, and - as I mentioned, it'll be down to 45 percent - is the new quantity. Also, we're standing by for your CM RCS ejector temperature readout. Over.
 171:25:38|CC|Apollo 11, Houston. I'm not certain you copied my last transmission, as we were just in the process of switching OMNI's. We'd like to advance the time on that water dump until about 5 minutes from now. And we'll give you a precise mark on the time to start the dump, and we are standing by for a readout on your CM RCS ejector temperatures. Over.
 171:26:00|CMP|Okay, Owen. We're standing by for your mark, and stand by for the readout.
 171:26:03|CC|Roger.
