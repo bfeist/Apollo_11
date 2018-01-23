@@ -5183,7 +5183,7 @@
 106:23:44|LMP(TRANQ)|LMP is reading 09017 and three quarters.
 106:23:52|CC|Tranquility, this is Houston. We copy your readings, Out.
 106:29:26|CMP(COLUMBIA)|Houston, Columbia. How do you read on OMNI D, Dog?
-106:29:30|CC|Columbia, this is Hounton. We're reading you loud with background noise on OMNI D. Over.
+106:29:30|CC|Columb ia, this is Houston. We're reading you loud with background noise on OMNI D. Over.
 106:29:41|CMP(COLUMBIA)|Okay. I'll stay on D here for a while. I'm about to go into ...
 106:29:45|CC|Roger. Out.
 106:36:16|CMP(COLUMBIA)|Houston, Columbia. I'm coming up on my time for the first pass when I may - -
@@ -5723,12 +5723,12 @@
 109:21:22|CC|This is Houston, Roger. We copy. And we're standing by for your TV.
 109:21:39|CDR(TRANQ)|Houston, this is Neil. Radio check.
 109:21:42|CC|Neil, this is Houston. Loud and clear. Break. Break. Buzz, this is Houston. Radio check, and verify TV circuit breaker in.
-109:21:54|LMP(TRANQ)|Roger, TV circuit breaker's in, and read you five square.
-109:22:00|CC|Roger. We're getting a picture on the TV.
-109:22:09|LMP(TRANQ)|You got a good picture, huh?
+109:21:54|LMP(TRANQ)|Roger, TV circuit breaker's in, and read you loud and clear.
+109:22:00|CC|And, we're getting a picture on the TV.
+109:22:08|LMP(TRANQ)|You got a good picture, huh?
 109:22:11|CC|There's a great deal of contrast in it, and currently it's upside down on our monitor, but we can make out a fair amount of detail.
 109:22:28|LMP(TRANQ)|Okay. Will you verify the position - the opening I ought to have on the camera?
-109:22:34|CC|Stand by.
+109:22:35|CC|Stand by.
 109:22:48|CC|Okay. Neil, we can see you coming down the ladder now.
 109:22:59|CDR(TRANQ)|Okay. I just checked getting back up to that first step, Buzz. It's - not even collapsed too far, but it's adequate to get back up.
 |||Page 377|Page 383
@@ -5737,16 +5737,16 @@
 109:23:25|CC|Buzz, this is Houston. F/2 - 1/160th second for shadow photography on the sequence camera.
 109:23:35|LMP(TRANQ)|Okay.
 109:23:38|CDR(TRANQ)|I'm at the foot of the ladder. The LM footpads are only depressed in the surface about 1 or 2 inches, although the surface appears to be very, very fine grained, as you get close to it. It's almost like a powder. Down there, it's very fine.
-109:23:43|CDR(TRANQ)|I'm going to step off the LM now.
-109:24:48|CDR(TRANQ)|<b>THAT'S ONE SMALL STEP FOR (A) MAN, ONE GIANT LEAP FOR MANKIND.</b>
-109:24:49|CDR(TRANQ)|And the - the surface is fine and powdery. I can - I can pick it up loosely with my toe. It does adhere in fine layers like powdered charcoal to the sole and sides of my boots. I only go in a small fraction of an inch, maybe an eighth of an inch, but I can see the footprints of my boots and the treads in the fine, sandy particles.
+109:24:14|CDR(TRANQ)|I'm going to step off the LM now.
+109:24:25|CDR(TRANQ)|That's one small step for man, one giant leap for Mankind.
+109:24:48|CDR(TRANQ)|And the - the surface is fine and powdery. I can - I can pick it up loosely with my toe. It does adhere in fine layers like powdered charcoal to the sole and sides of my boots. I only go in a small fraction of an inch, maybe an eighth of an inch, but I can see the footprints of my boots and the treads in the fine, sandy particles.
 109:25:30|CC|Neil, this is Houston. We're copying.
 109:25:45|CDR(EVA)|There seems to be no difficulty in moving around as we suspected. It's even perhaps easier than the simulations at one sixth g that we performed in the various simulations on the ground. It's actually no trouble to walk around. Okay. The descent engine did not leave a crater of any size. It has about 1 foot clearance on the ground. We're essentially on a very level place here. I can see some evidence of rays emanating from the descent engine, but a very insignificant amount.
 109:26:54|CDR(EVA)|Okay, Buzz, we ready to bring down the camera?
 109:26:59|LMP(EVA)|I'm all ready. I think it's been all squared away and in good shape.
 109:27:03|CDR(EVA)|Okay.
 |||Page 378|Page 384
-109:27:05|LMP(EVA)|Okay. You'll have to pay out all the LEC. It looks like it's coming out nice and evenly.
+109:27:07|LMP(EVA)|Okay. You'll have to pay out all the LEC. It looks like it's coming out nice and evenly.
 109:27:13|CDR(EVA)|Okay. It's quite dark here in the shadow and a little hard for me to see that I have good footing. I'll work my way over into the sunlight here without looking directly into the Sun.
 109:27:28|LMP(EVA)|Okay. It's taut now.
 109:27:51|LMP(EVA)|Okay. I think you're pulling the wrong one.
@@ -6271,11 +6271,11 @@
 111:37:04|CDR(EVA)|...
 111:37:12|CDR(EVA)|Okay?
 111:37:13|LMP(EVA)|Okay.
-111:37:21|CC|Neil, this is Houston. Did you get the Hasselblad magazine?
+111:37:30|CC|Neil, this is Houston. Did you get the Hasselblad magazine?
 111:37:35|CDR(EVA)|Yes, I did. And we got about, I'd say, 20 pounds of carefully selected, if not documented, samples.
-111:37:42|CC|Houston. Roger. Well done. Out.
+111:37:46|CC|Houston. Roger. Well done. Out.
 |||Page 409|Page 415
-111:37:48|CDR(EVA)|...
+111:37:47|CDR(EVA)|...
 111:38:08|LMP(EVA)|Just keep your head down close. Now start arching your back. That's good. Plenty of room. Now, all right, arch your back a little, your head up against *** Roll right just a little bit. Head down. ... in good shape.
 111:38:26|CDR(EVA)|Thank you. Am I bumping now?
 111:38:33|LMP(EVA)|No, you're clear. You're rubbing up against me a little bit.
@@ -6313,10 +6313,10 @@
 111:56:53|CDR(TRANQ)|Loud and clear. We're in the process of switching over to LM COMM here.
 111:56:56|CC|Roger.
 111:59:41|CC|Tranquility Base, this is Houston. We'd like to verify your steerable antenna in track mode slew. We're going to do a communications handover here on Earth. Over.
-111:59:55|LMP(TRANQ)|Roger. That's affirmative. We're in track mode slew.
+111:59:56|LMP(TRANQ)|Roger. That's affirmative. We're in track mode slew.
 112:00:00|CC|Roger. Out.
 112:06:06|CC|Columbia, Columbia, this is Houston. Over.
-112:06:12|CMP(COLUMBIA)|Roger, Columbia on Charlie. How do you read?
+112:06:13|CMP(COLUMBIA)|Roger, Columbia on C Charlie. How do you read?
 112:06:16|CC|Roger, Columbia. This is Houston. Reading you loud and clear on OMNI Charlie. The crew of Tranquility Base is back inside their base, repressurized, and they're in the process of doffing the PLSS's. Everything went beautifully. Over.
 112:06:36|CMP(COLUMBIA)|Hallelujah.
 112:06:38|CC|And we'd like to get P00 and ACCEPT from you. We have a state vector uplink. And, after that, we'd like you to realign your platform to the new REFSMMAT that we sent up a REV or two ago. Over.
@@ -6476,10 +6476,10 @@
 114:00:30|CC|Sure wish you'd hurry up and get that trash out out of there, though.
 114:00:34|CDR(TRANQ)|Yes. We're just about to do it.
 114:00:36|CC|Okay.
-114:03:34|CC|Tranquility Base, this is Houston. We show the suit relief valve still in the AUTO position. It should be closed. Over.
+114:04:27|CC|Tranquility Base, this is Houston. We show the suit relief valve still in the AUTO position. It should be closed. Over.
 114:05:19|CC|Columbia, this is Houston. Over.
 114:05:33|CMP(COLUMBIA)|Houston, Columbia. Go ahead.
-114:05:35|CC|Roger. We've sucessfully reacquired high gain antenna. Unless you have some other traffic with us, I guess we'll bid you a good night and let you get some sleep, Mike. Over.
+114:05:35|CC|Roger. We've successfully reacquired high gain antenna. Unless you have some other traffic with us, I guess we'll bid you a good night and let you get some sleep, Mike. Over.
 114:05:48|CMP(COLUMBIA)|Okay. Sounds fine.
 114:05:50|CC|And we're going to power down the voice subcarrier part of our uplink to you in order that we don't disturb you while we're talking to Tranquility Base. If you need us, just give us a call, and we can respond with a time lag of about a minute to a minute and a half in setting reconfigured. Over.
 |||Page 422|Page 428
@@ -7506,7 +7506,7 @@
 129:54:25|CMP|Thank you, sir. I'll tell Neil and Buzz.
 |||Page 489|Page 495
 129:54:39|CDR|Houston, the hatch passes its integrity check. I'm going to go to LM tunnel VENT now, and leave it there.
-129:54:51|CC|Roger, Colualbia. We copy. That's good, and we'd like a readout on the TEP of about the time you - that Eagle selected the secondary loop. Over.
+129:54:47|CC|Roger, Colualbia. We copy. That's good, and we'd like a readout on the TEP of about the time you - that Eagle selected the secondary loop. Over.
 129:55:05|CDR|Stand by.
 129:55:17|CC|Hello, Columbia. Houston. We got the load in. You can do the VERB 66 and the computer is yours. Over.
 129:55:24|CDR|Roger.
@@ -7525,7 +7525,25 @@
 130:02:21|CC|Roger, Mike. It looks like if we move up this jettison time and give you a new load, it would require a new attitude, and we can't do that due to the LM already closed out, and it would fight us all the way around and we'd lose COMM with it. We're thinking separating in P47 in about 10 minutes. We're looking at trajectories and we'll be right with you momentarily. Over.
 130:02:46|CMP|Okay. It's no big thing with me either way.
 130:02:48|CC|Roger.
-130:04:34|CC|Hello, Columbia. Houston. We'd like you to start down your jettison checklist. We recommend NO SCRIPT (PDF-File corrupt)</b>Tape 84/3 Page 492
+130:04:34|CC|Hello, Columbia. Houston. We'd like you to start down your jettison checklist. We recommend picking up page F11 - 12 and we'd like to jettison at 10 minutes. That'll be 130 14 45. Over.
+|||Page 492|Tape 84/3
+130:04:54|CMP|Right.
+130:04:57|CC|Columbia, Houston. If that's not satisfactory, let us know. Over.
+130:05:05|CMP|Right.
+130:05:36|CDR|Houston, Columbia. How about a GO for logic BUS ARM.
+130:05:40|CC|Stand by.
+130:05:48|CC|Columbia, Houston. You've got a GO.
+130:05:55|CDR|Thank you.
+130:06:46|CC|Columbia, Houston. You can undock at your convenience, correction, jettison at your convenience. We would like you to jettison Eagle and stationkeep - in P47 and stationkeep, and we'll have another attitude and a maneuver for you so we'll be okay for TEI. Over.
+130:07:08|CDR|Roger that.
+130:07:45|CMP|And I'm standing by to go to P47 just as soon as you give me a go for PYRO ARM.
+130:07:49|CC|Roger. I thought we gave you that. Mike, you're GO for PYRO ARM and you're GO for jettison.
+130:07:57|CMP|Okay.
+130:09:13|CMP|Okay. Let her go in 10 seconds.
+130:09:15|CC|Copy. Out.
+130:09:40|CMP|NOUN 83 reading minus four balls, minus three balls, 3 or - correction - minus - both register 1 and register 2 are reading minus four balls 3, register 3 is zeros, the EMS remained on 100.0. A fairly loud noise, and it appears to be departing - oh, I would guess several feet per second.
+130:10:06|CC|Roger, can you kind of stationkeep with it, Mike? Just stand by now.
+130:10:12|CMP|Will do.
 |||Page 491|Page 497
 130:10:23|CC|Columbia, Houston. Don't try to chase it, just hold what you've got.
 130:10:32|LMP|Charlie, did it hold cabin pressure this time?
