@@ -7546,10 +7546,10 @@
 130:10:12|CMP|Will do.
 |||Page 491|Page 497
 130:10:23|CC|Columbia, Houston. Don't try to chase it, just hold what you've got.
-130:10:32|LMP|cCharlie, did it hold cabin pressure this time?
+130:10:32|LMP|Charlie, did it hold cabin pressure this time?
 130:10:35|CC|Say again, Buzz. Over.
-130:10:36|LMP|Okay. I thrusted back - I thrusted back toward it a little bit, Charlie, and I'm now reading NOUN 83, plus four balls 4, minus four balls 8, and you want me to kill average D. Right?
-130:10:53|CC|Stand by. That's affirmative. You can exit P47.
+130:10:37|LMP|Okay. I thrusted back - I thrusted back toward it a little bit, Charlie, and I'm now reading NOUN 83, plus four balls 4, minus four balls 8, and you want me to kill average D. Right?
+130:10:52|CC|Stand by. That's affirmative. You can exit P47.
 130:11:05|CDR|There she goes. It was a good one.
 130:11:08|CC|Roger dodger. We got Eagle looking good. It's holding cabin pressure and it picked up about 2 feet per second from that jettison.
 130:11:19|LMP|I believe that. I can see some cracks on the outer coating around the tunnel. In the thermal protective covering, I don't think it has anything to do with the structure.
@@ -7561,7 +7561,7 @@
 130:17:03|CC|Roger, Mike. And verify track mode in AUTO for the high gain.
 130:17:15|CMP|We're in REACQ. Is that all right?
 130:17:17|CC|Say again. We need AUTO.
-130:17:23|CMP|Say again. We're in REACQ - AUTO REACQ.
+130:17:23|CMP|Negative, we're in REACQ - AUTO REACQ.
 130:17:26|CC|Roger. We need AUTO, please, sir.
 130:17:31|CMP|Okay. You got it.
 |||Page 493|Page 498
@@ -7588,7 +7588,7 @@
 130:24:58|CMP|Understand.
 130:25:50|CC|Apollo 11, Houston. We see you in P41 now. It might take you a couple of minutes to integrate these vectors that we gave you and if you don't make TIG, it's pretty insensitive. You can just let P41 bring you up to TIG, and when you get to zero, you can burn on that. Over.
 130:26:12|CMP|Okay.
-130:30:24|CMP|Okay. Burn complete. Residuals: plus three balls 40, plus four balls 7, plus four balls 2, DELTA-V counter 102.1. Over.
+130:30:26|CMP|Okay. Burn complete. Residuals: plus three balls 40, plus four balls 7, plus four balls 2, DELTA-V counter 102.1. Over.
 130:30:38|CC|Copy, Apollo 11. Looks good to us. Over.
 130:30:43|CMP|Okay.
 130:33:24|CMP|Houston, Apollo 11. How about coming up with a good communications attitude for us to go to between now and the time we maneuver at TEI attitude.
@@ -7643,7 +7643,7 @@
 131:49:42|LMP|Apollo 11. Roger.
 132:16:00|CC|Hello, Apollo 11. Houston. If you guys want it, we've got some news, here, we can read up. Over.
 132:16:09|CDR|Be pleased to have it.
-132:16:11|CC|Roger, Neil. Starting off: Congratulatory messages on the Apollo 11 mission have been pouring into the White House from world leaders in a steady stream all day. Among the latest are telegrams from Prime Minister Harold Wilson of Great Britain and the King of Belgium. The world's press has been dominated by news of Apollo 11. Some newsmen estimate that more than 60 percent of the news used in papers across the country today concerned your mission. The New York Times which, as we mentioned before, has had such a demand for its edition of the paper today (even though it ran 950 000 copies) said it will reprint the whole thing on Thursday as a souvenir edition. And Premier Alexei Kosygin has sent congratulations to you and President Nixon through former Vice President Humphrey who is visiting Russia. The cosmonauts have also issued a statement of congratulations. Humphrey quoted Kosygin as saying "I want you to tell the President and the American people that the Soviet Union desires to work with the United States in the cause of peace."
+132:16:11|CC|Roger, Neil. Starting off: Congratulatory messages on the Apollo 11 mission have been pouring into the White House from world leaders in a steady stream all day. Among the latest are telegrams from Prime Minister Harold Wilson of Great Britain and the King of Belgium. The world's press has been dominated by news of Apollo 11. Some newsmen estimate that more than 60 percent of the news used in papers across the country today concerned your mission. The New York Times which, we mentioned before, has had such a demand for its edition of the paper today (even though it ran 950 000 copies) said it will reprint the whole thing on Thursday as a souvenir edition. And Premier Alexei Kosygin has sent congratulations to you and President Nixon through former Vice President Humphrey who is visiting Russia. The cosmonauts have also issued a statement of congratulations. Humphrey quoted Kosygin as saying "I want you to tell the President and the American people that the Soviet Union desires to work with the United States in the cause of peace."
 132:17:21|CC|And Mrs. Robert Goddard said today that her husband would have been so happy. "He wouldn't have shouted or anything. He would just have glowed." She added, "That was his dream, sending a rocket to the Moon." People around the world had many reasons to be happy about the Apollo 11 mission. The Italian police reported that Sunday night was the most crime free night of the year. And in London, a boy who had the faith to bet $5 with a bookie that a man would reach the Moon before 1970 collected $24.000. That's pretty good odds.
 |||Page 499|Page 504
 132:18:00|CC|You're probably interested in the comments your wives have made. Neil, Jan had said about yesterday's activities, "The evening was unbelievably perfect. It is an honor and a privilege to share with my husband, the crew, the Manned Spacecraft Center, the American public, and all mankind; the magnificent experience of the beginning of lunar exploration." She was then asked if she considered the Moon landing the greatest moment in her life. She said "No, that was the day we were married." And Mike, Pat said simply, "It was fantastically marvelous." Buzz, Joan said - apparently couldn't quite believe the EVA on the Moon. She said, "It was hard to think it was real until the men actually moved. After the Moon touchdown, I wept because I was so happy." But she added, "The best part of the mission will be the splashdown."
@@ -7656,7 +7656,7 @@
 132:22:06|CMP|Ready to copy.
 132:22:10|CC|Roger. Coming at you. TEI 30, SPS/G&N: 36691; minus 061, plus 067 135 23 4149; NOUN 81, plus 32020, plus 06713, minus 02773 181 054 013; NOUN 44, HA is NA, plus 00230 32833 228, DELTA VC 32625 24 1510 355. Next three lines are NA. NOUN 61 plus 1103, minus - minus 17237 11806 36275 195 04 52. Your set stars are Deneb and Vega, 242 172 012. We like two jet ullage to 16 seconds. The horizon will be on the 11 degree mark at TIG minus 2 minutes. And other comments: your sextant star is visible after GET of 134 50. Ready for your readback. Over.
 132:24:39|CMP|Roger. We have a TEI 30, SPS/G&N: 36691, minus 061, plus 067 135 23 4149; plus 32020, plus 06713, minus 02773 181 054 013; NA, plus 00230, plus 32833 228 32625, 24 1510 355; NA three times, plus 1103, minus 17237 11806 36275 195 04 52. Deneb and Vega 242 172 012, two jet ullage, 16 seconds; horizon 11 degree line at TIG minus 2 minutes; sextant star visible after 134 50. Over.
-132:25:58|CC|Roger, Mike. Good readbaek. Out.
+132:25:58|CC|Roger, Mike. Good readback. Out.
 |||Page 501|Page 506
 132:53:02|CC|Hello, Apollo 11. Houston. Seven minutes to LOS; next AOS 133 46. You're looking good going over the hill. Out.
 |||Page 502|Page 507
@@ -7664,7 +7664,7 @@
 133:49:44|CC|Hello, Apollo 11. Houston. We're standing by.
 133:49:54|CMP|Roger. Apollo 11.
 133:49:56|CC|Roger. We'd like you, sometime at your convenience, to stir up the CRYO's on this pass. And we're wondering if you got the fuel cell purge. Over.
-133:50:08|CMP|Roger. *** fuel cell purge ...
+133:50:08|CMP|Roger. ... fuel cell purge ...
 133:50:12|CC|Say again. You're breaking up.
 133:50:18|CMP|Roger. The O2 fuel cell purge is complete.
 133:50:22|CC|Roger. Copy.
@@ -8033,7 +8033,7 @@
 150:43:38|CC|Go ahead, 11.
 150:43:43|CMP|Roger. We're in PTC attitude and would you please give us a call when our thruster activity has subsided sufficiently?
 150:43:52|CC|Roger. Stand by.
-150:56:41|CC|Apollo 11, this is Houston. We're going to hand over from Madrid to Goldstone at 151 hours even. If you should lose lock on the high gain at this time, you may reaequire at pitch minus 45, yaw 270. Break. We're still watching your rates. Over.
+150:56:41|CC|Apollo 11, this is Houston. We're going to hand over from Madrid to Goldstone at 151 hours even. If you should lose lock on the high gain at this time, you may reaquire at pitch minus 45, yaw 270. Break. We're still watching your rates. Over.
 |||Page 532|Page 537
 150:57:05|CDR|Okay. Thank you.
 151:08:49|CC|Apollo 11, this is Houston. Over.
@@ -8056,8 +8056,8 @@
 151:25:50|CDR|Houston, Apollo 11. I think the reason is in having 1620 on the DSKY during the subsequent entries, or at least that's one possibility.
 151:26:06|CC|Roger. We'll check it out.
 151:33:33|CC|Apollo 11, this is Houston. While you're waiting for the CSM to settle down and for us to look at the tapes on your latest maneuver, would you feel like answering some more questions with relation to the lunar surface? Over.
-151:33:52|CDR|Go ahead.
-151:33:57|CDR|Go ahead, Houston.
+151:33:53|CDR|Go ahead.
+151:33:57|CDR|Go ahead, Bruce.
 151:33:59|CC|Roger. For 64 thousand dollars, we're still trying to work out the location of your landing site, Tranquility Base. We think it is located on LAM 2 chart at Juliet 0.5 and 7.8. Do you still have those charts on board? Over.
 151:34:24|CDR|Yes. Stand by one. They're packed.
 151:34:31|CC|Roger. You may not have to unpack it. The position which I just gave you is slightly west of West Crater. I guess it's about two tenths of a kilometer west of it, and we were wondering if Neil or Buzz had observed any additional landmarks during descent, lunar stay, or ascent which would confirm or disprove this. One thing that we're wondering about is that if you were at this position, you would have seen the Cat's Paw during ascent just up to the north of your track. Over.
@@ -8127,10 +8127,10 @@
 153:33:33|CMP|Go ahead, Houston.
 153:33:35|CC|Okay, 11. We are about ready to start PTC. I would like to give you some high gain antenna angles, though. We'd like to operate in the REACQ mode, and do you plan on spinning up in the positive or negative direction? 0ver.
 153:33:52|CMP|We can do it either way. I had planned the positive.
-153:33:53|CC|Okay. For positive, the high gain antenna setting should be pitch plus 30, yaw 270, and in REACQ. Over.
+153:33:55|CC|Okay. For positive, the high gain antenna setting should be pitch plus 30, yaw 270, and in REACQ. Over.
 153:34:10|CMP|Understand. REACQ, pitch plus 30, yaw 270. Thank you.
 153:34:14|CC|Roger. And if you would, when you're making your DSKY entries to set up for PTC, go a little slower, and we'll try to follow each entry from down here. Over.
-153:34:28|CMP|Roger. Out.
+153:34:28|CMP|Roger that.
 |||Page 541|Page 546
 153:39:47|CMP|Houston, 11. PTC established.
 153:39:50|CC|Roger, 11.
@@ -8138,7 +8138,7 @@
 153:43:23|CMP|Okay. Thanks to all you Black Team.
 153:43:26|CC|That was the Green Team.
 153:43:28|CMP|Correction, all you Green Team - correction, Green Team. Excuse me.
-153:43:31|CC|Roger. Out.
+153:43:32|CC|Roger. Out.
 153:43:48|CMP|How could I forget. I used to be a "Green" one.
 153:45:42|CC|Hello, Apollo 11, Houston. Your White Team is now on. We're standing by for an exciting evening of TV and a presleep report. Over.
 153:45:42||(Unidentifiable Noise)
@@ -8165,7 +8165,7 @@
 154:46:19|LMP|Roger. Terminating battery charge.
 154:46:22|CC|Roger.
 154:50:51|CC|Hello, Apollo 11. Houston. Any special attitude you'd like us to look at for the TV? Over.
-154:51:09|CMP|I don't guess we have a requirement there, Charlie.
+154:51:09|CDR|I don't guess we have a requirement there, Charlie.
 154:51:14|CC|Roger. We have an attitude that we can get the Earth out of a window or the Moon. We're trying to look at - find one that we can get both, if that's what you'd like. Over.
 |||Page 543|Page 548
 154:51:33|CMP|A 50 degree roll attitude will probably give us that, Joe.
@@ -8180,27 +8180,27 @@
 155:30:05|CC|11, Houston. We're on the high gain. You can warm up the SM now if you like. Over.
 155:32:45|CC|Apollo 11, Houston. We see you coming up on 50 roll. How does that attitude look? Over.
 155:34:52|CC|Apollo 11, Houston. We're ready for the TV; we're all configured. At your convenience. Over.
-155:36:34|CDR|Houston, Apollo 11. Over.
-155:36:36|CC|Roger. Go ahead, 11. Over.
-155:36:40|CDR|Are you picking up our TV signals?
-155:36:42|CC|That's affirmative. We have it up on the Eidephor now. The focus is a little bit out. We see the Earth in the center of the screen. Still have a little white dot in the bottom of the camera, apparently. And see some landmasses in the center, at least I guess that's what it is. It's very hazy at this time on our Eidephor. Over.
+155:36:45|CDR|Houston, Apollo 11. Over.
+155:36:46|CC|Roger. Go ahead, 11. Over.
+155:36:50|CDR|Are you picking up our TV signals?
+155:36:52|CC|That's affirmative. We have it up on the Eidephor now. The focus is a little bit out. We see the Earth in the center of the screen. Still have a little white dot in the bottom of the camera, apparently. And see some landmasses in the center, at least I guess that's what it is. It's very hazy at this time on our Eidephor. Over.
 |||Page 544|Page 549
-155:37:06|CC|Let me change - -
-155:37:07|CMP|Believe that's where we just came from.
-155:37:10|CC|It is, huh? Well, I'm really looking at the bad - at a bad screen here. Stand by one. Hey, you're right.
-155:37:34|CMP|It's not bad enough not finding the right landing spot - -
-155:37:35|CC|... screen now.
-155:37:42|CMP|It's not bad enough not finding the right landing spot when you haven't even got the right planet!
-155:37:46|CC|I'll never live that one down.
-155:37:55|CMP|We're making it get smaller and smaller here to make sure that it really is the one we're leaving.
-155:38:02|CC|All right. That's enough you guys.
-155:38:14|CC|11, that was a good picture there.
-155:38:16|CDR|Okay. That's enough of the Moon.
-155:38:20|CDR|Okay. That's enough of the Moon, Charlie. We're getting set up now for some inside pictures.
-155:38:22|CC|Roger.
-155:40:32|CDR|We know there's a lot of scientists from a number of countries standing by to see the lunar samples, and we thought you'd be interested to see them as they really are here. These two boxes are the sample return containers. They - They're vacuum packed containers that were closed in a vacuum on the lunar surface, sealed, and then brought inside the LM and put inside these fiber glass bags, zippered, and resealed around the outside, and placed in these receptacles in the side of the command module. These are the two boxes. And as soon as we get onto the ship, I'm sure these boxes will immediately be transferred and delivery started to the Lunar Receiving Laboratory. These boxes include the samples of the various types of rock, the groundmass of the soil, the sand and silt, and the particle collector for the solar wind experiment, and the core tubes that took depth samples of the lunar surface.
+155:37:16|CC|Let me change - -
+155:37:17|CMP|I believe that's where we just came from.
+155:37:20|CC|It is, huh? Well, I'm really looking at the bad - at a bad screen here. Stand by one. Hey, you're right.
+155:37:44|CMP|It's not bad enough not finding the right landing spot - -
+155:37:45|CC|... screen now.
+155:37:51|CMP|It's not bad enough not finding the right landing spot when you haven't even got the right planet!
+155:37:56|CC|I'll never live that one down.
+155:38:05|CMP|We're making it get smaller and smaller here to make sure that it really is the one we're leaving.
+155:38:12|CC|All right. That's enough you guys.
+155:38:24|CC|11, that was a good picture there.
+155:38:26|CDR|Okay. That's enough of the Moon.
+155:38:19|CDR|Okay. That's enough of the Moon, Charlie. We're getting set up now for some inside pictures.
+155:38:32|CC|Roger.
+155:40:42|CDR|We know there's a lot of scientists from a number of countries standing by to see the lunar samples, and we thought you'd be interested to see them as they really are here. These two boxes are the sample return containers. They - They're vacuum packed containers that were closed in a vacuum on the lunar surface, sealed, and then brought inside the LM and put inside these fiber glass bags, zippered, and resealed around the outside, and placed in these receptacles in the side of the command module. These are the two boxes. And as soon as we get onto the ship, I'm sure these boxes will immediately be transferred and delivery started to the Lunar Receiving Laboratory. These boxes include the samples of the various types of rock, the groundmass of the soil, the sand and silt, and the particle collector for the solar wind experiment, and the core tubes that took depth samples of the lunar surface.
 |||Page 545|Page 550
-155:42:07|CC|Roger, Neil. Thank you much for that description. We've got a pretty dark picture down here. Could you check your f stop? We'd like to have it - See if you can open it up a little bit. Over.
+155:42:17|CC|Roger, Neil. Thank you much for that description. We've got a pretty dark picture down here. Could you check your f stop? We'd like to have it - See if you can open it up a little bit. Over.
 155:42:20|LMP|Okay. Our monitor showed that to be very bright.
 155:42:22|CC|Roger.
 155:42:23|CDR|... We're down around between, well around f:4, which we thought would be plenty light. Well, we'll lighten it up some more.
@@ -8256,14 +8256,14 @@
 155:58:47|CMP|Apollo 11 is back in PTC attitude. Standing by for thruster quieting.
 155:58:53|CC|Roger. We see that. Thank you much, Mike.
 156:07:20|CMP|Houston, Apollo 11. Could you get a little summary of the evening news for us?
-156:07:26|CC|Yes, sir. We'll have it for you momentarily. Also, a little flight plan update, Mike. If you - On page 3 113, you can delete the O2 fuel cell purge. Over.
+156:07:26|CC|Yes, sir. We'll have it for you momentarily. Also, a little flight plan update, Mike. If you - On page 31-13, you can delete the O2 fuel cell purge. Over.
 156:07:38|CMP|Will do.
-156:07:45|CC|There is a flurry of activity in the PA0 site for the evening news.
+156:07:45|CC|There is a flurry of activity in the PAO site for the evening news.
 156:07:52|CMP|Bully.
 156:08:03|CMP|How's the weather down there? You got any rain?
-156:08:05|CC|Roger. We've been having a little bit, thunderstorm type, the last couple of days. We had a pretty good rain today, smd it's been overcast. A slow storm system's been moving through the area in the last couple of days, and primarily evening and afternoon thundershowers.
+156:08:05|CC|Roger. We've been having a little bit, thunderstorm type, the last couple of days. We had a pretty good rain today, and it's been overcast. A slow storm system's been moving through the area in the last couple of days, and primarily evening and afternoon thundershowers.
 156:08:26|CMP|Roger. We were watching a few clouds in your area through the monocular along the Texas Gulf Coast this afternoon, and we also noticed there were clouds over Baja California, which is a little bit unusual.
-156:08:40|CC|Roger. Thank you for the weather report. We can't quite see that far. It seems to have cleared up outside now, according to some of the people coming in. This constant overcast in the MOCR here is a little hard to see outside.
+156:08:41|CC|Roger. Thank you for the weather report. We can't quite see that far. It seems to have cleared up outside now, according to some of the people coming in. This constant overcast in the MOCR here is a little hard to see outside.
 |||Page 550|Page 555
 156:08:58|LMP|Yes. We also noticed it was a little overcast down over - in the Antarctic ice cap, too.
 156:09:05|CC|Roger. It's apparently raining pretty hard up - -
@@ -8274,16 +8274,16 @@
 156:09:36|CMP|They need a roof on their stadium so they can catch all those flys.
 156:09:39|CC|Roger.
 156:09:41|CMP|In the rain.
-156:09:43|CC|Touch&eacute;.
-156:10:01|LMP|Hey, Charlie, what's the preliminary outlook for the weather in our recovery are%?
+156:09:43|CC|Touche.
+156:10:01|LMP|Hey, Charlie, what's the preliminary outlook for the weather in our recovery area?
 156:10:05|CC|Stand by Buzz. It looks pretty good as far as I could tell. We got the - along the tropical convergence line there, there's a few clouds shown on the weather map I'm looking at here, but nothing of significance. Right now - Stand by. Let's see, right now in the mid - yes, at the MPL - we've got 3000 scattered, visibility 10, waves height 3 feet, is the present weather. I don't think there's anything forecast to be of significance. There are a couple of - FLIGHT just informed me that what I just gave you was the forecast. are a couple of tropical storms in the - well, not in the area of landing but in the Pacific. A storm called Claudia which is north - correction - about east of Hawaii. It's going northwest and dissipating. And there's one called Viola, which is out over Guam, and so they aren't any factor at all. It looks like it's going to be real nice for recovery.
 |||Page 551|Page 556
 156:11:35|CC|Navy called up those special calm seas for you guys from up there on the Hudson.
-156:11:40|LMP|Well, we might need it. We'll get a look at it tomorrow, I guess, though. We'll probably be giving it a pretty close eye.
-156:11:46|CC|Roger.
+156:11:43|LMP|Well, we might need it. We'll get a look at it tomorrow, I guess, though. We'll probably be giving it a pretty close eye.
+156:11:49|CC|Roger.
 156:14:03|CC|11, Houston. The RETRO's were wondering if you could fill us in on any non nominal stowage that we have on board. Just location and weight is about all they're interested in. Over.
-156:14:12|CMP|Roger. We'll do some work on that and let you know, Charlie.
-156:14:17|CC|Thank you, sir.
+156:14:22|CMP|Roger. We'll do some work on that and let you know, Charlie.
+156:14:27|CC|Thank you, sir.
 156:14:44|CC|And, Apollo 11, Houston. Would you please place O2 tank 1 heater to AUTO? Over.
 156:14:55|CMP|AUTO it is.
 156:17:02|CDR|Houston, Apollo 11.
@@ -8316,7 +8316,7 @@
 156:38:12|LMP|Houston, Apollo 11.
 156:38:14|CC|Go ahead, sir.
 |||Page 554|Page 559
-156:38:17|LMP|Roger. I think the problem was that the center lead had dried out. ... put the new one on, and I'll see how that works. Over.
+156:38:18|LMP|Roger. I think the problem was that the center lead had dried out. ... put the new one on, and I'll see how that works. Over.
 156:38:32|CC|Roger.
 156:38:36|LMP|I can't tell you how good it feels to get it off.
 156:38:38|CC|Yes. I can imagine.
@@ -8328,7 +8328,7 @@
 156:49:11|CC|Roger. Just leave on REACQ. We'll get you.
 156:52:38|CC|Apollo 11, Houston. Buzz, your EKG looks good now. The doc said thanks a lot.
 156:52:47|LMP|Okay. They're welcome.
-157:03:55|CC|Apollo 11, Houston. Based on our sighting since the midcourse, we're showing a gamma of minus 6.57. This is preliminary, though, and we think that after some more tracking it should come on in, and we could tweak it right on into the corridor. It's just about in the center of the corridor; everything's looking fine. We'll have you an entry PAD in a couple of hours before you go to sleep. And from our friends in public affairs, a few headlines, other than your flight. You're still dominating the news. However, there are some other things of interest for you. As I mentioned earlier, the All Star game was rained out. It's going to be played tomorrow. However, President Nixon will not be able to see it as he planned. We'll keep you posted on results. And, also, the weathermen are going to be good to you. Our forecast is, looks like it's holding good for the recovery area; it should be real fine out there. President Nixon, as he prepares to fly out to greet your return, predicted that within 31 years man will have visited at least one other planet bearing some form of life. "In the year 2000, we, on this Earth, will have visited new worlds where there will be a form of life," he told 2000 foreign exchange students at the White House. Before he left for his week long trip, the President sent Congress his proposal for organizing - reorganizing the Interstate Commerce Commission. He also conferred with chairman Earl Wheeler of the Joint Chiefs of Staff on his return from Viet Nam, and the launch of Intelstat was scrubbed and has been rescheduled for 10 p.m., eastern daylight time on Wednesday. The second stage fuel ground support system showed some contamination.
+157:03:55|CC|Apollo 11, Houston. Based on our tracking since the midcourse, we're showing a gamma of minus 6.57. This is preliminary, though, and we think that after some more tracking it should come on in, and we could tweak it right on into the corridor. It's just about in the center of the corridor and everything's looking fine. We'll have you an entry PAD in a couple of hours before you go to sleep. And from our friends in public affairs, a few headlines, other than your flight. You're still dominating the news. However, there are some other things of interest for you. As I mentioned earlier, the All Star game was rained out. It's going to be played tomorrow. However, President Nixon will not be able to see it as he planned. We'll keep you posted on results. And, also, the weathermen are going to be good to you. Our forecast is, looks like it's holding good for the recovery area; it should be real fine out there. President Nixon, as he prepares to fly out to greet your return, predicted that within 31 years man will have visited at least one other planet bearing some form of life. "In the year 2000, we, on this Earth, will have visited new worlds where there will be a form of life," he told 2000 foreign exchange students at the White House. Before he left for his week long trip, the President sent Congress his proposal for organizing - reorganizing the Interstate Commerce Commission. He also conferred with chairman Earl Wheeler of the Joint Chiefs of Staff on his return from Viet Nam, and the launch of Intelstat was scrubbed and has been rescheduled for 10 p.m., eastern daylight time on Wednesday. The second stage fuel ground support system showed some contamination.
 |||Page 555|Page 560
 157:05:50|CC|And back in Washington, the House Ways and Means Committee agreed to tax changes affecting oil companies, banks, and utilities that could add nearly 2 billion a year to federal revenue. And, also today, NASA announced it will launch a large orbital workshop in 1972, with a cutdown version of the Saturn V. And, your television pictures attracted a lot of interest. They were shown live throughout just about the whole world, and, we're expecting hundreds of telephone calls from mothers all over the world complaining that their youngsters are trying to drink milk from spoons, thanks to you, Mike.
 157:06:37|CMP|I take it all back.
@@ -8348,9 +8348,9 @@
 157:56:51|CMP|What are you doing? Sitting around with your feet up on the console drinking coffee?
 157:56:55|CC|(Laughter) You must have your X ray eyes up. You sure can see a long way.
 157:57:05|CMP|Yes. We're watching you as well, you know.
-157:57:08|CC|All right.
+157:57:07|CC|All right.
 157:57:27|CMP|Two people in the viewing room and that's more than is in the trench.
-157:57:43|CC|We've got eight in the viewing room, and let's see, about six in the trench right now. And this is the highlight of the day; Buzz's exercise for the surgeon.
+157:57:42|CC|We've got eight in the viewing room, and let's see, about six in the trench right now. And this is the highlight of the day; Buzz's exercise for the surgeon.
 157:58:10|CC|11, you copy? Over.
 157:58:15|CDR|Roger. 11.
 157:58:17|CC|Roger. Neil has the highest heartbeat ever seen on a manned space flight, and we just went low bit rate. The surgeon is about to die. (Laughter)
@@ -8362,13 +8362,12 @@
 157:59:15|CMP|You were going to make me do that in another 45 minutes anyway.
 157:59:19|CC|That's true.
 157:59:26|CMP|That's the highlight of my day. I'm really looking forward to that.
-157:59:26||06 14 01 00
 157:59:26||(Music: "Music Out of the Moon")
-158:01:03|CC|Thank you, 11. We appreciate you turning that off. (Laughter)
+158:01:00|CC|Thank you, 11. We appreciate you turning that off. (Laughter)
 158:03:24|CDR|Charlie, could you copy our music down there?
 158:03:28|CC|Did we copy what, Neil?
 158:03:32|CDR|Did you copy our music down there?
-158:03:34|CC|Roger. We sure did. We're wondering who selected - made your selections?
+158:03:33|CC|Roger. We sure did. We're wondering who selected - made your selections?
 158:03:41|CDR|That's an old favorite of mine, about - It's an album made about 20 years ago, called "Music Out of the Moon."
 158:03:49|CC|Roger. It sounded a little scratchy to us, Neil. Either that or your tape was a little slow.
 158:04:01|CDR|It's supposed to sound that way.
@@ -8377,13 +8376,13 @@
 158:04:09|CC|That's what we figured. He and his 40,000 votes.
 158:04:24|CC|For your info, we got you - It looks like about 150,000 out now.
 158:04:31|MS|...
-158:04:33|CMP|It's getting appreciably larger now. It's looklng more like the world.
+158:04:33|CMP|It's getting appreciably larger now. It's looking more like the world.
 158:04:38|CC|Roger. I'm looking at the right side of the screen this time.
 158:04:42|CMP|How's everything going on the - Say again, Charlie?
 |||Page 558|Page 563
-158:04:46|CC|Oh, just - I -I'll never hear the last of that one about that Earth/Moon business during the TV there, and I was just saying that I was looking at the right side of the board here, so you are going towards the Earth. What are - What were you going to say, Mike?
+158:04:45|CC|Oh, just - I - I'll never hear the last of that one about that Earth/Moon business during the TV there, and I was just saying that I was looking at the right side of the board here, so you are going towards the Earth. What are - What were you going to say, Mike?
 158:05:01|CMP|You'll have - You'll have fun at the press conference after this shift then, won't you?
-158:05:06|CC|It's 2:30. Everybody will be asleep. I going to sneak off through the back way.
+158:05:05|CC|It's 2:30. Everybody will be asleep. I going to sneak off through the back way.
 158:05:13|CMP|Okay. I was just wondering how everything is going at the home front. All the wives and kids in one piece?
 158:05:19|CC|Roger. Sure are. Everything's doing fine. All the gals are having a little party tonight, as far as I know.
 158:05:27|CMP|Oh, good. Glad to hear it.
@@ -8391,13 +8390,13 @@
 158:21:06|CMP|Yes. I'm all ears.
 158:21:08|CC|Okay. I think it would be better if you got your checklist out on 97, and we could walk you through it, and that way I could probably get the story straight. Over.
 158:21:21|CMP|Okay. I got it.
-158:21:22|CC|Okay. Mike, what happened is - you know, you were sitting there monitoring VERB 16, NOUN 20, and at step 7 you went into VERB 24, NOUN 01, and keyed in the address and then INFORMATION INFORMATION; and on the final ENTER of that 35400 ENTER, right after that, it - that then put you back into the 16, NOUN 20. Then when you did the VERB 24, ENTER, you were really entering the information in the actual CDU; and when you got the two entries in, in register 1 and 2, it was an - it was an instantaneous change in the actual CDU, and the CM DAP looked at that and saw - saw what it thought it had. My - my gosh, I got a 600 degree per second rate. And it turns on the jets to try to take that rate out. And the rate filters that it's looking at - it - well, the rate it's looking at is filtered, so it doesn't really sense the actual rate until the thing is already built up, and then it starts reading the rate filters, and it says, "Well, I really didn't have 600 degrees." So then it turns it off and tries to slow it down. But until that happens, and it is some time lag, and that's why the rate was building up. The jets were on, and they were going to stay on due to that instantaneous 600 - suspected 600 degree per second rate. Over.
+158:21:22|CC|Okay. Mike, what happened is - you know, you were sitting there monitoring VERB 16, NOUN 20, and at step 7 you went into VERB 24, NOUN 01, and keyed in the address and then INFORMATION INFORMATION; and on the final ENTER of that 35400 ENTER, right after that, it - that then put you back into the 16, NOUN 20. Then when you did the VERB 24, ENTER, you were really entering the information in the actual CDUs; and when you got the two entries in, in register 1 and 2, it was an - it was an instantaneous change in the actual CDUs, and the CM DAP looked at that and saw - saw what it thought it had. My - my gosh, I got a 600 degree per second rate. And it turns on the jets to try to take that rate out. And the rate filters that it's looking at - it - well, the rate it's looking at is filtered, so it doesn't really sense the actual rate until the thing is already built up, and then it starts reading the rate filters, and it says, "Well, I really didn't have 600 degrees." So then it turns it off and tries to slow it down. But until that happens, and it is some time lag, and that's why the rate was building up. The jets were on, and they were going to stay on due to that instantaneous 600 - suspected 600 degree per second rate. Over.
 |||Page 559|Page 564
 158:22:48|CMP|Okay. I got you.
 158:22:50|CC|Roger.
 158:22:51|CMP|Man.
 158:23:24|LMP|Hey, Charlie, are you saying that for a short period of time, he actually loaded NOUN 20 with some value other than was being read by the CDU?
-158:23:34|CC|I think I got that, Buzz. That's affirmative. But when he did that second VERB 24, you were - the NOUN was 20, so when he did the 3175 and then a 002 ENTER, what he actually did there was load the first two actual CDU locations, and the computer looked at it - the DAP looked at it as an instantaneous change in the actual CDU. Stand by on your comments. We're switching antennas.
+158:23:34|CC|I think I got that, Buzz. That's affirmative. But when he did that second VERB 24, you were - the NOUN was 20, so when he did the 3175 and then a 002 ENTER, what he actually did there was load the first two actual CDU locations, and the computer looked at it - the DAP looked at it as an instantaneous change in the actual CDUs. Stand by on your comments. We're switching antennas.
 158:24:03|LMP|Roger.
 158:24:05|CC|- - We're very scratchy.
 158:24:08|LMP|Okay.
@@ -8431,30 +8430,30 @@
 159:50:56|CC|Roger. Go ahead. Over.
 159:50:59|CDR|Okay. BATT C, PYRO BATT A, and PYRO BATT B are 37.0. RCS A, 51; B, 63; C, 63; D, 59. Go.
 159:51:14|CC|Roger. Copy all that, Neil. And we got an entry PAD if you're ready to copy. Over.
-159:52:00|LMP|Houston, Apollo 11. Ready to copy. Over.
-159:52:02|CC|Roger, Buzz. It's an entry PAD, MPL, starting with roll 05, 35 - correction - 359 152 001. GET 194 46 03 267, plus 1102, minus 17203, 068, NOUN 60, 36194 656 11894 36275 195 03 03 0027, NOUN 69, all four lines are NA. Picking up with D zero: 400 02 09. RET of blackout, 00 17 03 38 08 20. Sextant star, 02 0945 149. Boresight star is Scorpii theta, that's Scorpii theta. Up 315, right 35, lift vector up. And the comments: This entry PAD assumes no midcourse 6. And for your information, looking at it right now, based on all the tracking we got, that maneuver would only be a tenth of a foot per second. So, we'll probably skip it. We'll let you know more about that later. Okay. Your horizon check at EI minus 30 minutes, GET of 194 33 03, gives you a pitch angle of 298. Okay. The GDC, your backup align - Your set stars for the entry REFSMMAT are Deneb and Vega, 079 234 340. Standing by for your readback. Over.
+159:51:00|LMP|Houston, Apollo 11. Ready to copy. Over.
+159:51:02|CC|Roger, Buzz. It's an entry PAD, MPL, starting with roll 05, 35 - correction - 359 152 001. GET 194 46 03 267, plus 1102, minus 17203, 068, NOUN 60, 36194 656 11894 36275 195 03 03 0027, NOUN 69, all four lines are NA. Picking up with D zero: 400 02 09. RET of blackout, 00 17 03 38 08 20. Sextant star, 02 0945 149. Boresight star is Scorpii theta, that's Scorpii theta. Up 315, right 35, lift vector up. And the comments: This entry PAD assumes no midcourse 6. And for your information, looking at it right now, based on all the tracking we got, that maneuver would only be a tenth of a foot per second. So, we'll probably skip it. We'll let you know more about that later. Okay. Your horizon check at EI minus 30 minutes, GET of 194 33 03, gives you a pitch angle of 298. Okay. The GDC, your backup align - Your set stars for the entry REFSMMAT are Deneb and Vega, 079 234 340. Standing by for your readback. Over.
 |||Page 562|Page 567
 159:55:27|LMP|Roger. Lunar entry, MPL: 359 152 001 194 46 03 267, plus 1102, minus 17203 068 36194 656 11894 36275; 195 03 03 0027, four NA, 400 02 09 00 17 03 38 08 20 02 0945 149, Scorpii theta. Up 315, right 35, up. Assumes no MCC 6. Horizon at EI minus 30 194 33 03, and pitch 298. Set stars Deneb and Vega, 079 234 340. Over.
-159:57:04|CC|Roger. Very good readback, Buzz, and for your communication setup for tonight's sleep, we'd like OMNI to OMNI. Stand by.
-159:58:51|CC|Apollo 11, Houston. If you didn't copy that, Buzz, it was a good readback on the PAD. We've got a clock update for you that we'll have to you as soon as we can get it out to the site. We're in the process of handing over to Honeysuckle, and it will be a couple of minutes. Over.
-159:59:11|LMP|Okay. You want the computer to BLOCK?
-159:59:15|CC|We'll call you. You can stay BLOCK right now. We'll give you a call.
-160:00:54|CC|Hello, Apollo 11. Houston. Would you please give us P00 and ACCEPT? We've got a clock update for you.
-160:01:13|CMP|Go ahead, Charlie. We're P00 and ACCEPT.
-160:01:21|CC|Roger.
-160:03:19|CC|11, HOUSTON. We've got the load in. You can go back to BLOCK. Over.
-160:03:26|CMP|Roger. Thank you.
-160:03:32|CC|And 11, Houston. One final thing. We'd like you to select your OMNI to OMNI, OMNI A to Bravo, high gain track to MANUAL, and beam WIDE. Your angles are 270 in yaw, pitch minus 50. Over.
-160:03:56|LMP|Roger. Fifty and minus 70.
-160:04:04|CC|The angles, Buzz, were yaw 270, pitch minus 50. Over.
-160:04:13|LMP|Okay. Yaw 270, pitch minus 50.
+159:56:04|CC|Roger. Very good readback, Buzz, and for your communication setup for tonight's sleep, we'd like OMNI to OMNI. Stand by.
+159:57:50|CC|Apollo 11, Houston. If you didn't copy that, Buzz, it was a good readback on the PAD. We've got a clock update for you that we'll have to you as soon as we can get it out to the site. We're in the process of handing over to Honeysuckle, and it will be a couple of minutes. Over.
+159:58:10|LMP|Okay. You want the computer to BLOCK?
+159:58:14|CC|We'll call you. You can stay BLOCK right now. We'll give you a call.
+159:59:54|CC|Hello, Apollo 11. Houston. Would you please give us P00 and ACCEPT? We've got a clock update for you.
+160:00:12|CMP|Go ahead, Charlie. We're P00 and ACCEPT.
+160:00:20|CC|Roger.
+160:02:17|CC|11, HOUSTON. We've got the load in. You can go back to BLOCK. Over.
+160:02:24|CMP|Roger. Thank you.
+160:02:31|CC|And 11, Houston. One final thing. We'd like you to select your OMNI to OMNI, OMNI A to Bravo, high gain track to MANUAL, and beam WIDE. Your angles are 270 in yaw, pitch minus 50. Over.
+160:02:55|LMP|Roger. Fifty and minus 70.
+160:03:03|CC|The angles, Buzz, were yaw 270, pitch minus 50. Over.
+160:03:12|LMP|Okay. Yaw 270, pitch minus 50.
 |||Page 563|Page 568
-160:04:19|CC|That's Roger.
-160:04:27|CC|And Apollo 11, it's good night from a sleepy White Team. Over.
-160:04:39|LMP|Roger. Thank you very much. We're not as sleepy tonight as we were last night.
-160:04:46|CC|Yes. I guess you guys were pretty tired last night after that busy day.
-160:04:54|CMP|That's affirmative. I couldn't even find the chlorine.
-160:04:57|CC|(Laughing) Yes.
+160:03:18|CC|That's Roger.
+160:03:27|CC|And Apollo 11, it's good night from a sleepy White Team. Over.
+160:03:37|LMP|Roger. Thank you very much. We're not as sleepy tonight as we were last night.
+160:03:45|CC|Yes. I guess you guys were pretty tired last night after that busy day.
+160:03:53|CMP|That's affirmative. I couldn't even find the chlorine.
+160:03:56|CC|(Laughing) Yes.
 160:25:45|CC|Hello, Apollo 11. Houston. Sorry to bother you, but we'd like to have you do a VERB 34 to get the NOUN 65 off of there. Over.
 |||Page 564|Page 569
 ||REST PERIOD - NO COMMUNICATIONS
@@ -8475,7 +8474,7 @@
 171:00:12|CC|11, Houston. Got your signals loud and clear, here. How are things this morning? Over.
 171:00:24|CDR|Do you read us, Owen?
 171:00:27|CC|Roger. Loud and clear, 11.
-171:00:31|CDR|Okay. Everything *** to be all right here. So far, we haven't been looking in the cockpit yet. We've been spending our time looking outside the cockpit. ***
+171:00:31|CDR|Okay. Everything ... to be all right here. So far, we haven't been looking in the cockpit yet. We've been spending our time looking outside the cockpit. ...
 171:00:42|CC|Roger, 11. You're breaking up just a little bit there, Neil. Your signals are loud but are breaking up occasionally. Your spacecraft all looks good here from the ground. We noticed you stirring around the cockpit and thought we'd give you a call. Over.
 171:00:59|CDR|Good morning.
 171:01:07|CC|11, Houston. We do have a few items for you here, entry PAD's, consumables, and so forth. After you've had a chance to get organized, whenever you're ready to start on a few of these items, why, we'll read them up to you. Over.
