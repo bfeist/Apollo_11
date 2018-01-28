@@ -8485,14 +8485,14 @@
 171:02:53|LMP|Roger. You must have stayed up all night figuring this one out.
 171:03:00|CC|11, Houston. Stand by just a moment here until we get out of the NO position on the antenna.
 171:04:14|CC|11, Houston. We're over on OMNI Delta now. I think we can read you better. Did you get all those first three items on your flight plan update? Over.
-171:04:25|LMP|I got midcourse correction cancelled; battery B charge and water dump on your call. Over.
+171:04:25|LMP|I got midcourse correction canceled; battery B charge and water dump on your call. Over.
 171:04:35|CC|That's right, Buzz; and the last item here, we do request that we do a P52, even though we're not doing midcourse correction; and we suggest you get to that after the waste water dump has been complete. We also have a state vector update for you, if you can give us P00 and ACCEPT. Over.
 171:05:09|LMP|Okay. You have the DSKY now.
 171:05:12|CC|Roger. We'll be sending that up, and I'll give you your consumables update now. It's - for a time of 170 hours, your RCS total is minus 3.5 percent, Alfa is minus 14.5, Bravo plus 7, Charlie minus 4.5, Delta minus 3; hydrogen total is minus 1, and your oxygen total is plus 24. Over.
 171:05:50|CMP|Roger. Copy those. And onboard readouts, D is 69, C is 73, D is - Let me start over again. Okay. A is 51 and B is 62; C is 63 and D is 59. Over.
 171:06:47|CC|Roger, 11. Copy those, and we've checked them here on the ground, also. One correction to my last transmission. We would like that P52 prior to the waste water dump, which is coming up in about 30 minutes from now. Will that be possible? Over.
 |||Page 572|Page 577
-171:07:03|CMP|Oh, yes. We'll take care of that.
+171:07:04|CMP|Oh, yes. We'll take care of that.
 171:07:07|CC|Roger. And if you're ready for an entry PAD, I'll read that up to you now, also, 11.
 171:07:16|CMP|Ready to copy.
 171:07:19|CC|Okay. Entry PAD is area MIDPAC: 359 153 001 194 46 03 267, plus 1102, minus 17203 067 36194 655 11875 36275 195 03 03 00 28; DL and VL, all four are not applicable; DO, 4 00 02 10 00 18 03 38 08 21 44 2932 380; boresight star is Scorpio Theta, up 314, right 34, lift vector up. Comments: Entry data assumes no midcourse maneuvers. Your earth entry: minus 30 minutes; horizon check, 194 plus 33 plus 03. Your pitch is 297. This assumes an entry REFSMMAT. Your GDC align stars are Deneb and Vega. Roll, pitch, yaw, 078, 233, 340. Read back. Over.
@@ -8509,15 +8509,15 @@
 171:25:38|CC|Apollo 11, Houston. I'm not certain you copied my last transmission, as we were just in the process of switching OMNI's. We'd like to advance the time on that water dump until about 5 minutes from now. And we'll give you a precise mark on the time to start the dump, and we are standing by for a readout on your CM RCS ejector temperatures. Over.
 171:26:00|CMP|Okay, Owen. We're standing by for your mark, and stand by for the readout.
 171:26:03|CC|Roger.
-171:26:40|CMP|Houston, Apollo 11. Are you ready to copy ejector temperatures? I'll read them in volts.
+171:26:40|CMP|Houston, Apollo 11. Are you ready to copy injector temperatures? I'll read them in volts.
 171:26:46|CC|That's affirmative. Go ahead, Mike.
-171:26:49|CMP|Okay. 2 4 is reading 4.7 volts, 2 5 is reading 4.8 volts, 1 2 is reading 4.8 volts, 1 4 is reading 4.8, 1 6 4.5, and 2 1 4.8. Over.
-171:26:52|CC|11, Houston. Roger. Those - I got them all.
+171:26:49|CMP|Okay. 2-4 is reading 4.7 volts, 2-5 is reading 4.8 volts, 1-2 is reading 4.8 volts, 1-4 is reading 4.8, 1-6, 4.5, and 2-1 4.8. Over.
+171:27:21|CC|11, Houston. Roger. Those - I got them all.
 171:29:46|CC|Apollo 11, Houston. We're ready for you to start your waste water dump at this time. Over.
 171:33:00|CMP|Roger. Dumping.
 171:33:30|CC|Apollo 11, Houston. We show you - -
 171:33:32|CMP|Houston, Apollo 11. We've dumped to 45 percent, and we're stopping now. Do you concur?
-171:33:37|CC|Roger, 11. We concur.
+171:33:36|CC|Roger, 11. We concur.
 171:53:35|CC|Apollo 11, Houston. I can read up your forecast weather for the recovery any time you'd like to hear about it. Over.
 171:53:45|LMP|Go ahead.
 |||Page 574|Page 579
@@ -8540,23 +8540,23 @@
 173:35:42|CDR|Okay. Go ahead.
 173:35:44|CC|Okey doke. Hot off the press here: We find Juan Carlos was formally designated yesterday - Tuesday - to become General Franco's successor - as the Chief of State of Spain and eventual King. Juan Carlos will be sworn in today as his successor designate after taking an oath of loyalty to the law and the National Movement, Spain's only legal political organization. He will apparently be called the Prince of Spain.
 173:36:14|CC|House Ways and Means Committee also has agreed yesterday to tax changes affecting oil companies, also banks and utilities, which could add as much as 2 billion dollars per year to the federal revenue. The committee also voted tentatively to change the accounting procedures for telephone, electric, gas, and oil pipeline companies and to reduce tax benefits of mutual savings and loan institutions. So, it looks as if tax reform may be on the way.
-173:36:42|CC|Looking overseas, we find South Korea's first super highway, linking Seoul with the Port of Inchon, has been named the Apollo Highway to commemorate your trip. I think we mentioned last night that President Nixon has already started on his round the world trip, and today he is in San Francisco on his first stop which will take him to the U.S.S. Hornet, from which he'll watch the return of your spacecraft. He plans to visit seven nations including Rumania during this trip. He, as I think you also knew, had to miss the All Star baseball game yesterday, as it was rained out; but it is being played today.
+173:36:42|CC|Looking overseas, we find South Korea's first super highway, linking Seoul with the Port of Inchon, has been named the Apollo Highway to commemorate your trip. I think we mentioned last night that President Nixon has already started on his round the world trip, and today he is in San Francisco on his first stop which will take him to the U.S.S. Hornet, from which he'll watch the return of your spacecraft. He plans to visit seven nations including Romania during this trip. He, as I think you also knew, had to miss the All Star baseball game yesterday, as it was rained out; but it is being played today.
 |||Page 577|Page 582
 173:37:28|CC|The West Coast residents in Seattle, Washington; Portland, Oregon; Vancouver, British Columbia; and San Francisco all plan to make their areas visible to the three of you by lighting their lights between 9 pm and midnight tonight, according to the Associated Press. We do have clear weather predicted there, so you may be able to see Christmas lights, porch lights, store lights, and whatever may be turned on.
 173:37:38|CDR|Good show.
 173:37:39|CC|A little closer to home here, back in Memphis, Tennessee, a young lady who is presently tipping the scales at 8 pounds, 2 ounces, was named "Module" by her parents, Mr. and Mrs. Eddie Lee McGhee. "It wasn't my idea." said Mrs. McGhee, "It was my husband's." She said she had balked at the name Lunar Module McGhee, because it didn't sound too good, but apparently they have compromised on just Module. Over.
 173:38:29|SC|(Laughter) ...
-173:38:32|CC|Roger. Hear a few chuckles coming from that direction. And we do have a late report on the sports here also. The All Star game currently being played. The present score at the end of the fourth inning has the National League leading the American League by 9 to 3. So the hitters are having a good day, you can tell.
+173:38:31|CC|Roger. Hear a few chuckles coming from that direction. And we do have a late report on the sports here also. The All Star game currently being played. The present score at the end of the fourth inning has the National League leading the American League by 9 to 3. So the hitters are having a good day, as you can tell.
 173:38:54|CC|And rain clouds are over the MSC area at the moment. It began raining here just about 10 minutes ago, and last report, we were having a pretty heavy deluge. So, that's it from the news front for the afternoon here, Apollo 11. Over.
 173:39:19|CDR|Thank you very much, Owen. I think my yard could use some water.
-173:39:23|CC|That's very true. I've forgotten exactly how many days it did go, Buzz, but something like 30 days without rain; and we can aprreciate the rain we're getting right now.
+173:39:23|CC|That's very true. I've forgotten exactly how many days it did go, Buzz, but something like 30 days without rain; and we can appreciate the rain we're getting right now.
 |||Page 578|Page 583
 173:39:34|LMP|That was Neil. This is Buzz, here. I wish we could find out when the last time my lawn was cut. Over.
 173:39:39|CMP|That might be a little more difficult to find out. I'm not sure whether the - whether Mike is ready to admit when he last did the job, but I'll look into that for you.
 173:39:51|LMP|Well, he'll tell you. He's got a new mower.
 173:39:53|CC|Roger.
-173:40:04|CMP|Hey, ask my chinch bugs how they're toing?
-173:40:07|CC|Well, I'm not sure about your's. I can let you know about my own, and the report isn't very good.
+173:40:04|CMP|Hey, ask my chinch bugs how they're doing?
+173:40:07|CC|Well, I'm not sure about yours. I can let you know about my own, and the report isn't very good.
 173:47:45|CC|11, Houston. Over.
 173:47:50|LMP|Go ahead.
 173:47:51|CC|Roger. Joan wasn't home right now, Buzz, but Janis reports the grass is getting pretty high, and I would estimate that it's going to be close to your knees by the time you get out of quarantine. Over.
@@ -8636,28 +8636,28 @@
 174:44:23|CC|We've only got two of them back here right now.
 174:44:30|CMP|He always used to make me sit at the console through the back side passes, just for training.
 174:44:41|CC|Well, the word we have here is - that was because whenever you came back, you had to be retrained.
-174:44:50|CMP|Touch&eacute;.
-174:51:08|CMP|Houston, Apollo 11. Out of curiosity, on those 70 mm cameras, we figure we exposed around 300 in the LM and around a thousand in the command module; and both cameras - or all the 70 mm cameras worked just fine.
+174:44:50|CMP|Touche.
+174:51:08|CMP|Houston, Apollo 11. Out of curiosity, on those 70mm cameras, we figure we exposed around 300 in the LM and around a thousand in the command module; and both cameras - or all the 70mm cameras worked just fine.
 174:51:26|CC|Okay. Very good. Thank you.
 |||Page 584|Page 589
 175:07:14|CC|Apollo 11, this is Houston. Over.
 175:07:19|CMP|Go ahead, Houston.
 175:07:21|CC|11, this is Houston. Do you all have "Change Lima" for your entry operations checklist dated July 23? Over.
-175:07:34|CDR|Dated when?
-175:07:36|CC|July 23.
-175:07:39|CDR|I'm not sure that we hung around long enough to pick that one up.
+175:07:34|LMP|Dated when?
+175:07:35|CC|July 23.
+175:07:38|LMP|I'm not sure that we hung around long enough to pick that one up.
 175:07:44|CC|Okay. If you've got the entry operations checklist handy, then I'll pass it up to you. Over.
-175:07:53|CDR|How can you make changes after lift off?
-175:08:04|CMP|You sure you don't mean June?
+175:07:53|LMP|How can you make changes after lift off?
+175:08:04|LMP|You sure you don't mean June?
 175:08:06|CC|Negative. It just came up today. Over.
-175:08:12|CMP|So, you're the first to get to us. Go ahead.
-175:08:18|CC|Okay. On page 6 1 of the entry out checklist down toward the bottom after "MAIN DEPLOY pushbutton," we have three additional steps we'd like you to accomplish. The intent of this is to reduce the oxygen pressure in your manifold and to eliminate the oxygen bleed flow through the potable and waste water tanks during descent. Over.
-175:08:56|CMP|Okay. We've got 6 1 out. Go ahead.
+175:08:12|LMP|So, you're the first to get to us. Go ahead.
+175:08:18|CC|Okay. On page 6-1 of the entry out checklist down toward the bottom after "MAIN DEPLOY pushbutton," we have three additional steps we'd like you to accomplish. The intent of this is to reduce the oxygen pressure in your manifold and to eliminate the oxygen bleed flow through the potable and waste water tanks during descent. Over.
+175:08:56|LMP|Okay. We've got 6-1 out. Go ahead.
 175:09:00|CC|Okay. Down at the bottom, you've got "10,000 feet MAIN PARACHUTE DEPLOY, MAIN DEPLOY pushbutton, PUSH within 1 second." And after that step, we'd like you insert "SURGE TANK O2 valve, OFF; REPRESS PACKAGE valve, OFF; and DIRECT O2 valve, OPEN." Do you copy?
-175:09:49|CMP|Okay. Down at the bottom, after "MAIN DEPLOY pushbutton, PUSH; SURGE TANK O2, OFF; and REPRESS PACKAGE VALVE, OFF, DIRECT O2, ON" Over.
+175:09:49|LMP|Okay. Down at the bottom, after "MAIN DEPLOY pushbutton, PUSH; SURGE TANK O2, OFF; and REPRESS PACKAGE VALVE, OFF, DIRECT O2, ON" Over.
 |||Page 585|Page 590
-175:10:04|CC|Roger. And then down at the very botton of page 6 2 where you see "DIRECT O2, OFF VERIFY," delete that step completely. Over.
-175:10:20|CMP|Roger.
+175:10:04|CC|Roger. And then down at the very bottom of page 6-2 where you see "DIRECT O2, OFF VERIFY", delete that step completely. Over.
+175:10:20|LMP|Roger.
 175:10:22|CC|And for record purposes, this will be "Change Lima." Over.
 175:10:30|CMP|Okay. We've got it. How far open do you want this the DIRECT O2 valve to be opened at this point? I guess you want it - just leave it open from that point on?
 175:10:46|CC|Roger. It should go all the way open, and you can just leave it on from that point on. The intent is to completely depressurize the oxygen manifold. Over.
@@ -8668,7 +8668,7 @@
 175:16:05|CMP|Having done their job I guess.
 175:16:10|CC|Well, along with one tree, it turns out.
 175:16:15|CMP|Yes. I heard about that. That was right before the flight.
-175:16:18|CC|Right. That big storm.
+175:16:19|CC|Right. That big storm.
 176:23:55|CC|Apollo 11, this is Houston. Are you still up there? Over.
 176:24:07|CDR|Yes, we are. But not quite so far as we were a while ago.
 176:24:12|CC|Roger. We concur. We just wanted to make sure that we had good COMM with you.
@@ -8697,7 +8697,7 @@
 177:24:14|CMP|Go ahead.
 177:24:16|CC|From signal strength indications, it appears that we may be locked up on a side lobe with a high gain antenna. We'd like you to go into wide bandwidth for about 15 seconds and then back to narrow. Over.
 177:24:29|CMP|All right.
-177:31:18|CDR|You have good S band signal strength now, Houston?
+177:31:16|CDR|You have good S band signal strength now, Houston?
 177:31:22|CC|That's affirmative, 11.
 177:31:29|CDR|You all set for TV?
 177:31:35|CC|Roger. We're all set whenever you're ready to send.
@@ -8711,13 +8711,13 @@
 177:33:51|CC|In the interim, you may be interested in knowing that Jan and the children and Pat and the youngsters and Andy Aldrin are down here in the viewing room watching this evening.
 177:34:05|CDR|We're glad to hear that.
 177:34:38|CC|Okay, 11. You're back on, with Mike in the middle of the screen there.
-177:34:44|CMP|Roger. This trip of ours to the Moon may have looked, to you, simple or easy. I'd like to assure you that has not been the case. The Saturn V rocket which put us into orbit is an incredibly complicated piece of machinery, every piece of which worked flawlessly. This computer up above my head has a 38,000 word vocabulary, each word of which has been very carefullly chosen to be of the utmost value to us, the crew. This switch which I have in my hand now, has over 300 counterparts in the command module alone, this one single switch design. In addition to that, there are myriads of circuit breakers, levers, rods, and other associated controls. The SPS engine, our large rocket engine on the aft end of our service module, must have performed flawlessly, or we would have been stranded in lunar orbit. The parachutes up above my head must work perfectly tomorrow or we will plummet into the ocean. We have always had confidence that all this equipment will work, and work properly, and we continue to have confidence that it will do so for the remainder of the flight. All this is possible only through the blood, sweat, and tears of a number of people. First, the American workmen who put these pieces of machinery together in the factory. Second, the painstaking work done by the various test teams during the assembly and retest after assembly. And finally, the people at the Manned Spacecraft Center, both in management, in mission planning, in flight control, and last, but not least, in crew training. This operation is somewhat like the periscope of a submarine. All you see is the three of us, but beneath the surface are thousands and thousands of others, and to all those, I would like to say, thank you very much.
+177:34:44|CMP|Roger. This trip of ours to the Moon may have looked, to you, simple or easy. I'd like to assure you that has not been the case. The Saturn V rocket which put us into orbit is an incredibly complicated piece of machinery, every piece of which worked flawlessly. This computer up above my head has a 38,000 word vocabulary, each word of which has been very carefully chosen to be of the utmost value to us, the crew. This switch which I have in my hand now, has over 300 counterparts in the command module alone, this one single switch design. In addition to that, there are myriads of circuit breakers, levers, rods, and other associated controls. The SPS engine, our large rocket engine on the aft end of our service module, must have performed flawlessly, or we would have been stranded in lunar orbit. The parachutes up above my head must work perfectly tomorrow or we will plummet into the ocean. We have always had confidence that all this equipment will work, and work properly, and we continue to have confidence that it will do so for the remainder of the flight. All this is possible only through the blood, sweat, and tears of a number of people. First, the American workmen who put these pieces of machinery together in the factories. Second, the painstaking work done by the various test teams during the assembly and retest after assembly. And finally, the people at the Manned Spacecraft Center, both in management, in mission planning, in flight control, and last, but not least, in crew training. This operation is somewhat like the periscope of a submarine. All you see is the three of us, but beneath the surface are thousands and thousands of others, and to all those, I would like to say, thank you very much.
 |||Page 589|Page 594
 177:37:52|CC|11, this is Houston. We're getting a good picture of Buzz now, but no voice modulation. And would you open up the f stop on the TV camera; try 22, please?
 177:38:13|CC|That appears to be a lot better now. We're still not receiving Buzz's audio.
-177:38:20|LMP|Good evening. I'd like to discuss with you a few of the more symbolic aspects of the flight of our mission, Apollo 11. As we've been discussing the events that have taken place in the past 2 or 3 days here on board our spacecraft, we've come to the conclusion that this has been far more than three men on a voyage to the Moon; more, still, than the efforts of a government and industry team; more, even, than the efforts of one nation. We feel that this stands as a symbol of the insatiable curiosity of all mankind to explore the unknown. Neil's statement the other day upon first setting foot on the surface of the Moon, "This is a small step for a man, but a great leap for mankind," I believe sums up these feelings very nicely. We accepted the challenge of going to the Moon; the acceptance of this challenge was inevitable. The relative ease with which we carried out our mission, I believe, is a tribute to the timeliness of that acceptance. Today, I feel we're fully capable of accepting expanded roles in the exploration of space. In retrospect, we have all been particularly pleased with the call signs that we very laboriously chose for our spacecraft, Columbia and Eagle. We've been particularly pleased with the emblem of our flight, depicting the U.S. eagle bringing the universal symbol of peace from the Earth, from the planet Earth to the Moon; that symbol being the olive branch. It was our overall crew choice to deposit a replica of this symbol on the Moon. Personally, in reflecting on the events of the past several days, a verse from Psalms comes to mind to me. "When I consider the heavens, the work of Thy fingers, the moon and the stars which Thou hast ordained, what is man that Thou art mindful of him."
+177:38:20|LMP|Good evening. I'd like to discuss with you a few of the more symbolic aspects of the flight of our mission, Apollo 11. As we've been discussing the events that have taken place in the past 2 or 3 days here onboard our spacecraft, we've come to the conclusion that this has been far more than three men on a voyage to the Moon; more, still, than the efforts of a government and industry team; more, even, than the efforts of one nation. We feel that this stands as a symbol of the insatiable curiosity of all mankind to explore the unknown. Neil's statement the other day upon first setting foot on the surface of the Moon, "This is a small step for a man, but a great leap for mankind," I believe sums up these feelings very nicely. We accepted the challenge of going to the Moon; the acceptance of this challenge was inevitable. The relative ease with which we carried out our mission, I believe, is a tribute to the timeliness of that acceptance. Today, I feel we're fully capable of accepting expanded roles in the exploration of space. In retrospect, we have all been particularly pleased with the call signs that we very laboriously chose for our spacecraft, Columbia and Eagle. We've been particularly pleased with the emblem of our flight, depicting the U.S. eagle bringing the universal symbol of peace from the Earth, from the planet Earth to the Moon; that symbol being the olive branch. It was our overall crew choice to deposit a replica of this symbol on the Moon. Personally, in reflecting the events of the past several days, a verse from Psalms comes to mind to me. "When I consider the heavens, the work of Thy fingers, the moon and the stars which Thou hast ordained, what is man that Thou art mindful of him."
 |||Page 590|Page 595
-177:41:42|CDR|The responsibility for this flight lies first with history and with the giants of science who have preceded this effort; next with the American people, who have through their will, indicated their desire; next, to four administrations, and their Congresses, for implementing that will; and then, to the agency and industry teams that built our spacecraft, the Saturn, the Columbia, the Eagle, and the little EMU, the space suit and backpack that was our small spacecraft out on the lunar surface. We would like to give a special thanks to all those Americans who built the spacecraft, who did the construction, design, the tests, and put their - their hearts and all their abilities into those crafts. To those people, tonight, we give a special thank you, and to all the other people that are listening and watching tonight, God bless you. Good night from Apollo 11.
+177:41:42|CDR|The responsibility for this flight lies first with history and with the giants of science who have preceded this effort; next with the American people, who have through their will, indicated their desire; next, to four administrations, and their Congresses, for implementing that will; and then, to the agency and industry teams that built our spacecraft, the Saturn, the Columbia, the Eagle, and the little EMU, the spacesuit and backpack that was our small spacecraft out on the lunar surface. We would like to give a special thanks to all those Americans who built those spacecraft, who did the construction, design, the tests, and put their - their hearts and all their abilities into those crafts. To those people, tonight, we give a special thank you, and to all the other people that are listening and watching tonight, God bless you. Good night from Apollo 11.
 177:43:52|CC|11, this is Houston. We're getting a zoom view out the window now.
 177:44:24|CDR|Apollo 11, signing off.
 177:47:48|CMP|Houston, Apollo 11. Do you want to crank up PTC again; do you have some reason to hold its attitude, or what's your pleasure?
