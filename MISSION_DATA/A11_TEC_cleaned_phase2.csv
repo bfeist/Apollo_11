@@ -8756,7 +8756,7 @@
 178:18:11|CC|They're all smiles down here, even the trench.
 178:40:30|CMP|Houston, Apollo 11.
 178:40:35|CC|Apollo 11, this is Houston. Over.
-178:40:39|CMP|Roger. How's our thruster firing activity? We're about ready to crank up PTC if you are.
+178:40:40|CMP|Roger. How's our thruster firing activity? We're about ready to crank up PTC if you are.
 178:40:46|CC|Roger. Go ahead.
 178:40:49|CMP|Okay. Thank you.
 178:56:51|CC|Apollo 11, this is Houston. Over.
@@ -8799,7 +8799,7 @@
 180:09:26|LMP|Okay.
 180:09:39|SC|(Sound of train)
 180:09:59|CMP|Come on Neil, not so fast.
-180:10:05|SC|(Sound of train)
+180:10:02|SC|(Sound of train)
 180:10:19|CMP|You have an ergometer up here.
 180:10:30|CC|What was that? Real time exercise?
 180:10:35|CMP|Just trying to be your ergometer.
@@ -8809,7 +8809,7 @@
 180:21:30|CC|We'd like to know what your plans are as far as turning in this evening. Our - in the flight plan we show you commencing a rest period at about 182 hours, and what are you planning to do on that? We're going to be watching the weather here, and we expect to have an update on the weather, I guess, in about half hour or 45 minutes to pass to you. Over.
 180:21:57|CDR|We're going to probably stick with the flight plan pretty much. We are going to - if - check the lights in the northwest corner of the U.S. and southwest corner of Canada. If we can see up that high into the northern hemisphere. Other than that, we'll be on the flight plan.
 |||Page 597|Page 602
-180:22:21|CC|Roger. For your information, the laser from McDonald Observatory in West Texas will be up from about 181 hours and 30 minutes, on for 1 hour. You should be able to spot the earth out of the number 1 window every time you pass roll 357 degrees and then, of course, you're in West Texas. Over.
+180:22:21|CC|Roger. For your information, the laser from McDonald Observatory in West Texas will be up from about 181 hours and 30 minutes, on for 1 hour. You should be able to spot the earth out of the number 1 window every time you pass roll 357 degrees and they, of course, are in West Texas. Over.
 180:22:47|CDR|Okay. Thank you.
 180:23:07|CMP|How about the number 5 window?
 180:23:16|CC|Stand by a minute.
@@ -8824,11 +8824,11 @@
 180:37:30|CDR|That'll be fine. Are you going to want to charge A again at all?
 180:37:36|CC|Negative, 11.
 180:37:40|CDR|Okay.
-180:42:18|CC|11, this is Houston. At about 180 45, we'll be handing over from Goldstone to Honeysuckle, and I'm handing over to Charlie. See you when you get back. Over.
+180:42:18|CC|11, this is Houston. At about 180:45, we'll be handing over from Goldstone to Honeysuckle, and I'm handing over to Charlie. See you when you get back. Over.
 |||Page 598|Page 603
-180:42:33|CDR|Okay, Bruce. Good night. Thank you.
+180:42:32|CDR|Okay, Bruce. Good night. Thank you.
 180:42:35|CC|Roger. Good night.
-180:42:36|CMP|Thank you very much, Bruce. It's been a pleasute working with you.
+180:42:36|LMP|Thank you very much, Bruce. It's been a pleasure working with you.
 180:42:38|CC|Have a nice trip down.
 |||Page 599|Page 604
 181:26:46|CMP|Houston, Apollo 11. Over.
@@ -8839,7 +8839,7 @@
 181:27:35|CC|Say again?
 181:27:40|CMP|Is this Owen?
 181:27:42|CC|No, this is Chuck Lewis. Charlie Duke is out with Flight getting a weather briefing right now.
-181:27:49|CMP|Okay. They're out drinking coffee. I know.
+181:27:50|CMP|Okay. They're out drinking coffee. I know.
 181:27:52|CC|(Laughter) They'll be back momentarily.
 181:35:55|CC|Hello, Apollo 11. Houston. Over.
 181:36:00|CMP|Roger, Houston. Apollo 11. Did you get the word on the entry checklist?
@@ -8875,7 +8875,7 @@
 181:51:59|CC|Apollo 11, Houston. Some of the general last minute updates here. On the entry, we had told you on the camera to set it at 50 feet. It turns out the biggest number on the camera is 25 feet, so just set it at infinity. Over.
 181:52:19|CMP|Roger. Infinity.
 181:57:42|CC|Hello, Apollo 11. Houston. We're ready to put you to bed and say good night, if you give us your crew status report and verify that you changed out the CO2 canister a moment ago. Over.
-181:57:05|CDR|Stand by.
+181:57:55|CDR|Stand by.
 182:00:43|CDR|Okay, Charlie. Crew status report follows: CDR 11023, CMP 10025, LMP 09027. Canister change complete.
 182:01:01|CC|Roger. Thank you very much there.
 182:01:02|CDR|All men okay.
@@ -8888,7 +8888,7 @@
 182:04:13|LMP|... very much, Charlie. Thanks.
 |||Page 603|Page 608
 182:04:16|CC|Thanks to you guys, too.
-182:04:36|CC|And, 11, Houston. Mike, you get your chance at landing tomorrow. No go around.
+182:04:36|CC|And, 11, Houston. Mike, you get your chance at landing tomorrow. No go-arounds.
 182:04:44|CMP|Roger. You're going to let me land closer to Hawaii, too, aren't you?
 182:04:47|CC|That's right, sir.
 182:07:59|CC|11, Houston. We got some word just a moment ago that the McDonald Observatory is - said they had picked up the spacecraft in their telescope. Over.
@@ -8910,8 +8910,8 @@
 189:28:54|CDR|Okay. Thank you.
 190:19:07|CC|Apollo 11. Good morning from Houston. Over.
 190:19:12|CDR|Good morning, 11.
-190:19:15|CC|Roger. We saw you up stirring around, and we thought that you were probably eating your breakfast there. Just in general, we'll probably start coming up with the uplink of the state vectors and the target loads and what have you at about 190 50, somewhere in that area, and get you started to work.
-190:19:35|CDR|Okay.
+190:19:15|CC|Roger. We saw you up stirring around, and we thought that you were probably eating your breakfast there. Just in general, we'll probably start coming up with the uplink of the state vectors and the target loads and what have you at about 190:50, somewhere in that area, and get you started to work.
+190:19:34|CDR|Okay.
 190:19:36|CC|And in the meantime, while you're eating your breakfast there, I've got the Maroon Bugle all standing by here to give you the morning news.
 190:19:45|CDR|Glad to hear it.
 190:19:48|CC|Okay. Apollo 11 remains the prime story with the world awaiting your landing today at about 11 49 a.m. Houston time. In Washington, House tax reformers have fashioned a provision which would make it impossible for wealthy individuals to avoid income tax entirely through tax free investments or special allowances. Under the proposal tentatively adopted by the House Ways and Means Committee, everyone would pay taxes on at least half of their income.
