@@ -293,7 +293,7 @@
 001:12:30|CMP|Point that at Neil or point it at somebody who's in the light. Yes, we'll get it. ... You want to see the monitor?
 001:12:41|LMP|...
 001:12:43|CMP|Yes. You want to see the monitor?
-001:12:49|CDR|Is this all ready to go; I'm going to put it back over here. It's over here under your stuff. Now, it seems to me if Buzz wants his camera to drift up, so what I ought to do is probably - Hey, Buzz.
+001:12:49|CDR|Is this all rceady to go; I'm going to put it back over here. It's over here under your stuff. Now, it seems to me if Buzz wants his camera to drift up, so what I ought to do is probably - Hey, Buzz.
 001:13:02|LMP|Yes.
 001:13:07|CDR|Hey, it seemed to stick pretty well if you stood it up on the - with the lens kind of pointing out. There are two pieces of Velcro over there.
 001:13:14|LMP|Okay.
@@ -976,9 +976,9 @@
 003:25:58|LMP|COAS POWER, OFF.
 003:25:59|CMP|COAS POWER, OFF.
 003:26:01|CDR|... get this to stop ...
-003:26:05|LMP|Yes, that wasn't the smoothest docking I've ever done.
+003:26:05|CMP|Yes, that wasn't the smoothest docking I've ever done.
 003:26:08|CDR|Well, it felt good from here.
-003:26:10|LMP|I mean the - I mean the whole - I mean the gas consumption would be a lot more than I would have guessed, you know? I thought I could about equal the simulator in ... and I didn't - I bet you I used - I hate to quote a number, but I've been down around 30-some pounds in the simulator, and I'll bet this was 50, 60 pounds, something like that. Hate to quote a number.
+003:26:10|CMP|I mean the - I mean the whole - I mean the gas consumption would be a lot more than I would have guessed, you know? I thought I could about equal the simulator in ... and I didn't - I bet you I used - I hate to quote a number, but I've been down around 30-some pounds in the simulator, and I'll bet this was 50, 60 pounds, something like that. Hate to quote a number.
 003:26:31|CMP|How do the - Speaking of that, how do the service module RCS quantities look?
 003:26:35|CDR|Well, Buzz is fooling around with that - Let me just - -
 003:26:38|LMP|They - they're all 90 except B, which is above 90.
@@ -4476,7 +4476,7 @@
 133:38:08|CMP|Hey, did we decide the ... back?
 133:38:38|CMP|No, the data should go to the log ... The only good thing there you can say about it is ...
 133:38:55|LMP|... you guys. ... love them ...
-133:39:51|CMP|All that probe and drogue and claptrap works; all that EVA transfer, you can forget about that and all those crazy procedures for taking that probe apart.
+133:39:51|CMP|All that probe and drogue and tunnel and claptrap works; all that EVA transfer, you can forget about that and all those crazy procedures for taking that probe apart.
 133:40:12|LMP|At least, we can forget them until the debriefing.
 133:40:14|CMP|Yes (laughter).
 133:40:55|LMP|...

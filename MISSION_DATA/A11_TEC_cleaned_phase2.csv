@@ -4355,7 +4355,7 @@
 099:28:19|CC|We concur. Over.
 |||Page 295|Page 301
 099:28:23|CMP|Okay.
-099:28:24|CC|And, Eagle, Houston. We'd like you te select aft OMNI now. It will be good for both LOS and AOS. Over.
+099:28:24|CC|And, Eagle, Houston. We'd like you to select aft OMNI now. It will be good for both LOS and AOS. Over.
 099:28:33|LMP|Roger. Going to aft OMNI.
 099:29:07|CC|Apollo 11, Houston. One minute to LOS.
 099:29:13|CMP|Columbia. Roger.
@@ -4376,7 +4376,7 @@
 100:20:06|CDR(EAGLE)|Does it look like you are going to be able to do this without burning thrusters, Mike?
 |||Page 296|Page 302
 100:20:28|LMP(EAGLE)|Go ahead, Houston. Eagle is ready to copy.
-100:20:32|CC|Roger, Eagle. Coming at you with a D0I PAD: 101 36 14.07. NOUN 81, minus 00758, plus all balls, plus 00098 plus - correction, 00572, perigee plus 00085 00764 030 000 293. NOUN 86, minus 00759, plus all balls, plus 00090. Rest of the PAD is NA. Stand by on your readback. If you are ready to copy the PDI data, I have it for you. Over.
+100:20:32|CC|Roger, Eagle. Coming at you with a DOI PAD: 101 36 14.07. NOUN 81, minus 00758, plus all balls, plus 00098 plus - correction, 00572, perigee plus 00085 00764 030 000 293. NOUN 86, minus 00759, plus all balls, plus 00090. Rest of the PAD is NA. Stand by on your readback. If you are ready to copy the PDI data, I have it for you. Over.
 100:20:51|LMP(EAGLE)|Go ahead.
 100:21:55|CC|Understand you are ready to copy the PDI data, Eagle. Over
 100:22:01|LMP(EAGLE)|That's affirmative. Go ahead with the PDI.
@@ -8912,9 +8912,9 @@
 190:19:12|CDR|Good morning, 11.
 190:19:15|CC|Roger. We saw you up stirring around, and we thought that you were probably eating your breakfast there. Just in general, we'll probably start coming up with the uplink of the state vectors and the target loads and what have you at about 190:50, somewhere in that area, and get you started to work.
 190:19:34|CDR|Okay.
-190:19:36|CC|And in the meantime, while you're eating your breakfast there, I've got the Maroon Bugle all standing by here to give you the morning news.
+190:19:37|CC|And in the meantime, while you're eating your breakfast there, I've got the Maroon Bugle all standing by here to give you the morning news.
 190:19:45|CDR|Glad to hear it.
-190:19:48|CC|Okay. Apollo 11 remains the prime story with the world awaiting your landing today at about 11 49 a.m. Houston time. In Washington, House tax reformers have fashioned a provision which would make it impossible for wealthy individuals to avoid income tax entirely through tax free investments or special allowances. Under the proposal tentatively adopted by the House Ways and Means Committee, everyone would pay taxes on at least half of their income.
+190:19:48|CC|Okay. Apollo 11 remains the prime story with the world awaiting your landing today at about 11:49 a.m. Houston time. In Washington, House tax reformers have fashioned a provision which would make it impossible for wealthy individuals to avoid income tax entirely through tax free investments or special allowances. Under the proposal tentatively adopted by the House Ways and Means Committee, everyone would pay taxes on at least half of their income.
 190:20:25|CDR|Hang on a minute.
 190:20:30|CC|Roger. Standing by.
 190:22:28|CDR|Okay. Okay, Ron. We're ready to go again. Thank you.
@@ -9150,7 +9150,7 @@
 195:07:37|CC|Apollo 11, Houston through ARIA.
 195:08:10|CC|Apollo 11, Houston through ARIA 4.
 195:09:08|CC|Apollo 11, Houston through ARIA. Standing by. Over.
-195:09:45|CC|Apollo 11, Houston in the blind. AIR B0SS has visual contact.
+195:09:45|CC|Apollo 11, Houston in the blind. AIR BOSS has visual contact.
 195:11:18|CC|Apollo 11, Houston. Standing by for your DSKY reading. Over.
 195:11:49|CC|Apollo 11, Houston. Stand by for your miss distance. Over.
 195:12:04|CC|Apollo 11, Houston. Standing by for your DSKY reading. Over.
@@ -9171,7 +9171,7 @@
 195:16:06|SC|Okay. Our splashdown error is by latitude, longitude, 1330 16 *** 15. That's ***
 195:16:19|HORNET|Hornet. Roger, out.
 195:16:44|CDR|Okay, Hornet. Apollo 11 is out.
-195:16:48|HORNET|RoRer. 2500 on chutes.
+195:16:48|HORNET|Roger. 2500 on chutes.
 195:17:00|SWIM 1|SWIM 1 has ... contact 150, holding ... 190.
 195:17:13|HORNET|Hornet. Roger. 0ut.
 195:17:19|SWIM 1|... bearing 200.
