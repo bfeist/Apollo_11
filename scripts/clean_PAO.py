@@ -23,7 +23,7 @@ for line in inputFile:
             GET = line[tMinusIndex + 4:GETEndIndex]
         else:
             GET = line[GETSearchIndex + 4:GETEndIndex]
-        if GET.count(':') == 1: # add seconds to items with only minutes
+        if GET.count(':') == 1:  # add seconds to items with only minutes
             GET = GET + ':00'
         if GET.startswith('-'):
             pass
