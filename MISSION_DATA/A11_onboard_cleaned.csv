@@ -951,7 +951,7 @@
 003:23:25|CMP|Stand by; we're closing.
 003:24:40|LMP|Okay - -
 003:24:41|CDR|We don't have too much - -
-003:24:43|LMP|- - BMAG MODE, three - You should stabilize and align CM - BMAG MODE, three, to ATT 1/RATE 2?
+003:24:43|LMP|- - BMAG MODE, three - You should v align CM - BMAG MODE, three, to ATT 1/RATE 2?
 003:24:49|CMP|Okay.
 003:24:50|LMP|And we're - translated plus X. That CAPTURE PROBE, EXTEND/RELEASE, you've done that; CMC MODE, FREE?
 003:24:54|CDR|Yes, sir.
@@ -2149,7 +2149,7 @@
 081:57:06|LMP|Well, I hate to stick my finger on it; I'm not sure which side it's on.
 081:57:09|CDR|We'll have to - have to turn the heaters on tomorrow.
 081:57:16|LMP|No, I think when the sun gets on them, it'll - ... them. Yes, the one on your side is ...
-081:58:08|CDR|The black and white is magazine 2.
+081:58:08|CDR|The black and white is magazine 2. 
 082:02:05|LMP|I don't guess there's any need to tape that up now.
 082:02:18|LMP|We're on the back side now, right?
 082:02:20|CDR|Yes, just come into - we're just coming into sunlight.
@@ -2900,7 +2900,7 @@
 096:20:20|CMP|Do you recall the - any kind of body rates that you saw during that thruster activity? Didn't you say something about 0.4? Maybe – remember when the SCS was acting up?
 096:20:30|CDR|Ah - -
 096:23:02|CMP|Houston, Columbia. Over.
-096:23:08|CC|- - this is Houston. You can turn on the IMU. Over.
+096:23:04|CC|- - this is Houston. You can turn on the IMU. Over.
 096:23:20|CMP|Houston, this is Columbia. Over.
 096:23:32|CC|Columbia, this is Houston. How do you read? Over.
 096:23:35|CMP|Houston, Columbia. Reading you loud and clear. How me? Over.
@@ -3170,7 +3170,7 @@
 101:29:01|CDR|Mike, how do you read?
 101:29:10|LMP|Columbia, Eagle. How do you read?
 101:29:12|CMP|Very good. How do you read me?
-101:29:13|LMP|Very good. If you are ready, give the mark and we'll go to B DATA. Over.
+101:29:13|LMP|Very good. If you are ready, give the MARK and we'll go to B DATA. Over.
 101:29:19|CMP|Stand by 1. I'm ...
 101:29:22|LMP|Are you ...?
 101:29:27|CDR|63.
@@ -3665,7 +3665,7 @@
 124:26:11|LMP|Now we got - got Sabine off to our right, now.
 124:26:28|CDR|Coming up on Schmidt here pretty soon, huh?
 124:26:32|LMP|02:40 to go.
-124:26:52|CDR|Everything's fine.
+124:26:52|CDR|Everything's fine. 
 124:26:54|LMP|Okay, there's Ritter out there. See him, there it is, right there - and there's Schmidt. Man, that's impressive looking, isn't it?
 124:27:03|CDR|I can't see it. Oh, yes, now I can just get a glimpse.
 124:27:09|LMP|5 minutes, 33 - G&N, 54 -
@@ -3854,7 +3854,7 @@
 127:04:34|CMP|Burn complete?
 127:04:35|CDR|Burn's complete. Did you read? Burn's complete.
 127:04:40|CMP|Thank you.
-127:04:43|CC|Eagle, Houston. Aft 0MNI, LOW BIT RATE, and we'll see you at 127 plus 51.
+127:04:43|CC|Eagle, Houston. Aft OMNI, LOW BIT RATE, and we'll see you at 127 plus 51.
 127:05:07|LMP|Okay, ... ... 5, huh?
 127:06:10|CDR|Well - say when ... Oh, wait a minute.
 127:06:50|LMP|Chart at 26/7 forward for -
