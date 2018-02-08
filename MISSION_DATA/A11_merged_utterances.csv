@@ -684,25 +684,26 @@
 001:35:04|T|CC|Roger. TLI plus 90, SPS G&N: 63481, minus 153, plus 132; GETI 004 10 25 38; NOUN 81, minus 04761, plus 00001, plus 53361; roll 180 193 000; HA is NA; plus 00203 53573 633 53349, sextant star 33 1578 122. The boresight star is not available. Latitude minus 0252, minus 02580 11887 34345 016 03 50. GDC align Vega and Deneb. Roll 071 291 341. No ullage, undocked. And, I have your P37 for TLI plus 5 hours. Over.
 001:37:08|T|CMP|Go ahead, TLI plus 5.
 001:37:11|T|CC|Roger. P37 format, TLI plus 5: 00744 6485, minus 165, 02506. Read back. Over.
-001:37:31|T|CMP|Roger. TLI plus 90, SPS G&N: 63481, minus 153, plus 132, 004 10 25 38, minus 04761, plus 00001, plus 53361, 180 193 000, not applicable, plus 00203 53573 633 53349, 33 1578 122, not available, minus 0252, minus 02580 11887 34345 016 03 50. Vega and Deneb, 071 291 341. No ullage, undocked. P37, TLI plus 5: 00744 6485, minus 165 02506. Over.
+001:37:31|T|LMP|Roger. TLI plus 90, SPS G&N: 63481, minus 153, plus 132, 004 10 25 38, minus 04761, plus 00001, plus 53361, 180 193 000, not applicable, plus 00203 53573 633 53349, 33 1578 122, not available, minus 0252, minus 02580 11887 34345 016 03 50. Vega and Deneb, 071 291 341. No ullage, undocked. P37, TLI plus 5: 00744 6485, minus 165 02506. Over.
 001:39:04|T|CC|Apollo 11, this is Houston. Readback correct. For your information, Goldstone reports receiving approximately 1 minute of FM downlink carrier. We were getting ready to request you confirm on the S-band AUX switches, the S-band AUX tape switch to OFF and the S-band AUX TV switch to TV. Over.
-001:39:29|T|CDR|I confirm that that is the configuration we're in.
+001:39:29|T|CDR|Yes, I confirm that that is the configuration we were in.
 001:39:33|T|CC|Roger. Let us do a little more detective work here and we'll see if we can come up with something.
 001:39:38|T|CDR|Okay.
-001:39:54|T|CDR|Houston, Apollo 11 is ready to go ahead with the - extend the docking probe, and ready to go with the RCS hot fire when you're ready to monitor. Over.
-001:40:06|T|CC|Roger. Go ahead with the probe, now.
+001:39:54|T|LMP|Houston, Apollo 11 is ready to go ahead with the - extend the docking probe, and ready to go with the RCS hot fire when you're ready to monitor. Over.
+001:40:07|T|CC|Roger. Go ahead with the probe, now.
 001:40:13|T|CDR|Roger.
-001:41:33|T|CDR|Okay. We're ready to - for the hot fire check when you're ready.
+001:41:33|T|CDR|Okay. We're - We're ready to - for the hot fire check when you're ready.
 001:41:39|T|CC|Roger. We're ready 11. Go ahead.
-001:41:48|T|CDR|Roger. Here's the pitch.
-001:42:13|T|CC|Apollo 11, this is Houston. We are seeing the pitch hot firing and it looks good.
+001:41:49|T|CDR|Roger. Here's the pitch.
+001:42:13|T|CC|11, this is Houston. We are seeing the pitch hot-firing and it looks good.
 001:42:18|T|CDR|Roger. Be advised that we are unable to hear them.
 001:42:22|T|CC|Roger. We copy.
 001:42:24|T|CDR|Have you seen all three axes fire?
 001:42:31|T|CC|We've seen pitch and yaw; we've not seen roll to date.
-001:42:36|T|CDR|Okay. I'll put in a couple more rolls.
+001:42:35|T|CDR|Okay. I'll put in a couple more rolls.
 001:42:42|T|CC|Okay. We've got the roll impulses, and you're looking good here.
-001:42:48|T|CDR|Roger. Houston, Apollo 11. We're standing by for a GO for sequence logic ON.
+001:42:48|T|CDR|Roger.
+001:42:49|T|LMP|Houston, Apollo 11. We're standing by for a GO for sequence logic ON.
 001:43:03|T|CC|Apollo 11, this is Houston. Go ahead and we'll watch you on TM.
 001:43:07|T|CDR|Okay. Sequence logic, two of them. Sequence logic 1 and 2 coming up and ON.
 001:43:07|T||GRAND BAHAMA ISLANDS (REV 2)
@@ -711,8 +712,8 @@
 001:43:57|T|CC|Apollo 11, this is Houston. If you will give us P00 and ACCEPT, we have a state vector update for you.
 001:44:04|T|CDR|Roger.
 001:44:17|T|CDR|You have P00 in ACCEPT.
-001:44:19|T|CC|Roger. It will probably be another 10 or 15 seconds. We're going to go up through the Vanguard. When you are ready to copy, I have your TLI PAD.
-001:44:26|T|CMP|Roger. Ready to copy TLI PAD.
+001:44:18|T|CC|Roger. It will probably be another 10 or 15 seconds. We're going to go up through the Vanguard. When you're ready to copy, I have your TLI PAD.
+001:44:26|T|LMP|Roger. Ready to copy TLI PAD.
 001:44:30|T|CC|Roger. TLI: 23514 179 071 001, burn time 547 104356 35575. Roll for SEP 357 107 041, 301 287 319. TLI 10-minute abort pitch, 223. Read back. Over.
 001:44:30|T||VANGUARD (REV2)
 001:45:23|T|CMP|Roger. TLI PAD: 23514 179 071 001 547 104356 35575 357 107 041 301 287 319. TLI 1O-minute abort pitch, 223. Over.
