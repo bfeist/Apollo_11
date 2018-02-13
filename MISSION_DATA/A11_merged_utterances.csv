@@ -716,90 +716,89 @@
 001:44:26|T|LMP|Roger. Ready to copy TLI PAD.
 001:44:30|T|CC|Roger. TLI: 23514 179 071 001, burn time 547 104356 35575. Roll for SEP 357 107 041, 301 287 319. TLI 10-minute abort pitch, 223. Read back. Over.
 001:44:30|T||VANGUARD (REV2)
-001:45:23|T|CMP|Roger. TLI PAD: 23514 179 071 001 547 104356 35575 357 107 041 301 287 319. TLI 1O-minute abort pitch, 223. Over.
+001:45:23|T|LMP|Roger. TLI PAD: 23514 179 071 001 547 104356 35575 357 107 041 301 287 319. TLI 1O-minute abort pitch, 223. Over.
 001:46:03|T|CC|Apollo 11, this is Houston. Roger. Would you read back DELTA-VC prime again? You were cut out by some noise.
 001:46:09|T|CMP|Okay. Roger. I'm picking up the squeal here, also. DELTA-VC 104356. Over.
 001:46:25|T|CC|Apollo 11, this is Houston. Readback correct. Out.
-001:47:06|T|CC|Apollo 11, this is Houston. We've completed the uplink; the computer is yours. You can go back to BLOCK. Would you verify that you have extended the probe? Over.
-001:47:16|T|CDR|Roger. That's verified; the probe is extended.
-001:47:19|T|CC|Roger. About 2 minutes to LOS on this stateside pass. AOS Canaries at 1 50 13. Over.
-001:47:28|T|CDR|Roger. 1 50.
-001:47:28|T||CANARY (REV 2)
-001:48:00|P|PAO|This is Apollo Control. The tracking ship, Vanguard, has had loss of signal, however, the Canary Island station will acquire Apollo 11 in less than a minute. We'll continue to stay up live through the Canary station. The ignition time for the translunar injection burn - an elapsed time of 2 hours, 44 minutes, 14 seconds. Duration of the burn expected to be 5 minutes, 47 seconds. We're acquiring at Canaries now. We'll stand by.
-001:48:00|P|PAO|And the temperature on that Reaction Control System quad is coming up to normal now that the heater's on.
-001:48:00|P|PAO|This is Apollo Control at 1 hour, 55 minutes into the mission. Canary has had loss of signal. We were unable to use the 1 minute of TV time from the mylar station. There is no longer a converter at Mila. The one formerly there has been sent to the Australian station. Tananarive will acquire Apollo 11 on its second orbit of the Earth at 2 hours, 9 minutes, 18 seconds. We expect the translunar injection burn at 2 hours, 44 minutes, 14 seconds. Duration of 5 minutes, 47 seconds and the DELTA-V or the velocity that we will add to the spacecraft of 10,435.6 feet per second. We'll come back up at Tananarive acquisition. This is Mission Control, Houston.
+001:47:05|T|CC|Apollo 11, this is Houston. We've completed the uplink; the computer is yours. You can go back to BLOCK. Would you verify that you have extended the probe? Over.
+001:47:16|T|LMP|Roger. That's verified; the probe is extended.
+001:47:19|T|CC|Roger. About 2 minutes to LOS on this stateside pass. AOS Canaries at 1:50:13. Over.
+001:47:29|T|CDR|Roger. 1:50.
+001:47:29|T||CANARY (REV 2)
+001:49:34|P|PAO|This is Apollo Control. The tracking ship, Vanguard, has had a loss of signal, however, the Canary Island station will acquire Apollo 11 in less than a minute. We'll continue to stay up live through the Canary station. The ignition time for the translunar injection burn - an elapsed time of 2 hours, 44 minutes, 14 seconds. Duration of the burn expected to be 5 minutes, 47 seconds. We're acquiring at Canaries now. We'll stand by.
 001:50:41|T|CC|Apollo 11, this is Houston. Over.
-001:50:45|T|CDR|Roger. Houston, Apollo 11. Loud and clear.
+001:50:45|T|LMP|Roger. Houston, Apollo 11. Loud and clear.
 001:50:49|T|CC|Okay. On your service module RCS quad Bravo package temperature, we're showing it running a little low. Looks like about 20 degrees low - lower than the rest of the quads. Would you confirm that your RCS heater switch for quad Bravo is in PRIMARY? Over.
-001:51:09|T|CDR|You're correct. It was not in PRIMARY. It was off. It's on now. Thank you.
-001:51:16|T|CC|Roger. Thank you.
+001:51:09|T|LMP|You're correct. It was not in PRIMARY. It was off. It's on now. Thank you.
+001:51:15|T|CC|Roger. Thank you.
+001:52:20|P|PAO|And the temperature on that Reaction Control System quad is coming up to normal now that the heater's on.
 001:53:50|T|CC|Apollo 11, this is Houston. Over.
-001:53:54|T|CMP|Houston, Apollo 11. Go ahead.
+001:53:54|T|LMP|Houston, Apollo 11. Go ahead.
 001:53:56|T|CC|Roger. We've checked over the spacecraft and the launch vehicle guidance. They're both looking to be in good shape. We estimate you have better than a 99-percent probability of a guidance cut-off on the launch vehicle, so things are apparently holding in very well. For your information, MILA received approximately 1 minute of a usable TV picture, so apparently the system is working. And you're a little over a minute from LOS at Canary; AOS Tananarive is 2 hours 9 minutes and 18 seconds. Over.
-001:53:56|O|CC|- - and the launch - vehicle guidance are both looking to be in good shape. We estimate you have better than a 99-percent probability of a guidance cut-off on the launch vehicle. So, things are apparently holding in very well. For your information, MLA received approximately 1 minute of a usable TV picture; so, apparently the system is working. You're a little over a minute from LOS at Canary; AOS Tananarive is 2 hours 9 minutes and 18 seconds. Over.
-001:54:34|T|CMP|Roger. We like those 99 numbers. Thank you.
-001:54:34|O|CMP|Roger. We like those 99 numbers. Thank you.
+001:54:33|T|LMP|Roger. We like those 99 numbers. Thank you.
+001:54:33|O|LMP|Roger. We like those 99 numbers. Thank you.
 001:54:38|T|CC|Roger. Out.
 001:54:38|T||TANANARIVE (REV 2)
-001:54:38|O|CC|Roger. Out.
-001:54:39|O|CDR|Okay.
-001:54:40|O|CMP|Now, let's see. We want to go to the suit circuit - -
-001:54:44|O|LMP|Yes, I'll get the suit circuit if I can find that valve.
-001:54:50|O|CMP|Okay, let's see, that's the EDS POWER, ON.
-001:54:54|O|LMP|Oh, that thing is hard.
-001:54:59|O|CMP|What - what do we want here - -
-001:55:00|O|LMP|Suit's closed.
-001:55:01|O|CMP|- - on that VERB 48?
-001:55:10|O|CDR|Ready for EDS POWER, ON, you think?
-001:55:13|O|CMP|EDS POWER, up and ON, yes.
-001:55:17|O|CDR|Okay, it's ON.
-001:55:20|O|CMP|EMS FUNCTION, OFF, verify.
-001:55:22|O|CDR|EMS FUNCTION, OFF.
-001:55:23|O|CMP|MODE, STANDBY - EMS MODE, STANDBY.
-001:55:28|O|CDR|Okay, it's at STANDBY.
-001:55:30|O|CMP|EMS FUNCTION, DELTA-V; set range VHF A.
-001:55:32|O|CDR|Okay.
-001:55:33|O|CMP|Set for 1586.8.
-001:55:34|O|CDR|Okay.
-001:55:38|O|CMP|Then go to NORMAL. Anybody know what we're doing with VERB 48 up there?
-001:55:54|O|CMP|What are we supposed to be putting in there?
-001:55:58|O|CDR|...
-001:56:08|O|LMP|I wonder what the hell that is?
-001:56:22|O|CMP|Just verify you got a 3 there?
-001:56:25|O|LMP|I guess so, that's what you need.
-001:56:30|O|CMP|That's all you need.
-001:56:31|O|LMP|Yes.
+001:54:39|O|CC|Roger. Out.
+001:54:41|O|LMP|Okay.
+001:54:42|O|LMP|Now, let's see. We want to go to the suit circuit - -
+001:54:45|O|CDR|Yes, I'll get the suit circuit if I can find that valve.
+001:54:50|O|LMP|Okay, let's see, that's the EDS POWER, ON.
+001:54:56|O|CDR|Oh, that thing is hard.
+001:55:01|O|LMP|What - what do we want here - -
+001:55:02|O|CDR|Suit's closed.
+001:55:03|O|LMP|- - on that VERB 48?
+001:55:05|O|CDR|Ready for EDS POWER, ON, you think?
+001:55:08|O|LMP|EDS POWER, up and ON, yes.
+001:55:11|O|CDR|Okay, it's ON.
+001:55:13|O|LMP|EMS FUNCTION, OFF, verify.
+001:55:16|O|CDR|EMS FUNCTION, OFF.
+001:55:17|O|LMP|MODE, STANDBY - EMS MODE, STANDBY.
+001:55:23|O|CDR|Okay, it's at STANDBY.
+001:55:25|O|LMP|EMS FUNCTION, DELTA-V; set range VHF A.
+001:55:28|O|CDR|Okay.
+001:55:29|O|LMP|Set for 1586.8.
+001:55:35|O|CDR|Okay.
+001:55:40|O|LMP|Then go to NORMAL. Anybody know what we're doing with VERB 48 up there?
+001:55:43|P|PAO|This is Apollo Control at 1 hour, 55 minutes into the mission. Canary has had loss of signal. We were unable to use the 1 minute of TV time from the Mila station. There is no longer a converter at Mila. The one formerly there has been sent to the Australian station. Tananarive will acquire Apollo 11 on its second orbit of the Earth at 2 hours, 9 minutes, 18 seconds. We expect the translunar injection burn at 2 hours, 44 minutes, 14 seconds. Duration of 5 minutes, 47 seconds and the DELTA-V or the velocity that we will add to the spacecraft of 10,435.6 feet per second. We'll come back up at Tananarive acquisition. This is Mission Control, Houston.
+001:55:59|O|CMP|What are we supposed to be putting in there?
+001:56:03|O|CDR|...
+001:56:06|O|CMP|I wonder what the hell that is?
+001:56:22|O|LMP|Just verify you got a 3 there?
+001:56:26|O|CMP|I guess so, that's what you need.
+001:56:29|O|LMP|That's all you need.
+001:56:31|O|CMP|Yes.
 001:56:32|O|CMP|I don't know what that entry is in the checklist.
 001:56:33|O|CDR|It doesn't matter what the other numbers are.
-001:56:36|O|CMP|No, I mean any - any other weights or anything?
-001:56:38|O|LMP|No.
-001:56:39|O|CMP|Doesn't seem to me, for the pad we got, we – we want to load in any - -
-001:56:43|O|LMP|No.
-001:56:44|O|CMP|- - any of this - stuff. That's what we got in there, anyway.
-001:56:45|O|CDR|Yes.
-001:56:46|O|CMP|Maybe we can change the weight, but that's TLI plus 90; we got plenty of time.
-001:56:56|O|CDR|We don't want to do that.
+001:56:36|O|LMP|No, I mean any - any other weights or anything?
+001:56:38|O|CMP|No.
+001:56:39|O|LMP|Doesn't seem to me, for the pad we got, we – we want to load in any - -
+001:56:43|O|CMP|No.
+001:56:44|O|LMP|- - any of this - stuff. That's what we got in there, anyway.
+001:56:47|O|CMP|Yes.
+001:56:49|O|LMP|Maybe we can change the weight, but that's TLI plus 90; we got plenty of time.
+001:56:56|O|CMP|We don't want to do that.
 001:56:57|O|LMP|No.
-001:56:58|O|CMP|It's almost the same anyway.
-001:57:00|O|CDR|It's about the same anyway, yes.
+001:56:59|O|LMP|It's almost the same anyway.
+001:57:00|O|CMP|It's about the same anyway, yes.
 001:57:06|O|LMP|Okay. You ready for the - your EMS MODE, NORMAL?
 001:57:11|O|CDR|NORMAL.
 001:57:12|O|LMP|EMS FUNCTION to DELTA-V TEST.
 001:57:15|O|CDR|That's good; that light enough.
-001:57:20|O|LMP|...
-001:57:21|O|CMP|Now, we want a GDC align.
+001:57:20|O|CDR|...
+001:57:21|O|LMP|Now, we want a GDC align.
 001:57:24|O|CDR|Yes.
-001:57:25|O|CMP|Now, let's see - -
+001:57:25|O|LMP|Now, let's see - -
 001:57:27|O|CDR|Minus 19.9.
 001:57:29|O|CMP|That's alright - minus 0.1 to - can you write that one down?
 001:57:34|O|CDR|It's real close.
-001:57:37|O|CMP|Yes.
+001:57:36|O|CMP|Yes.
 001:57:41|O|CDR|That's just about perfect.
-001:57:44|O|LMP|Alright. EMS MODE, STANDBY.
-001:57:48|O|CDR|STANDBY.
+001:57:45|O|LMP|Alright. EMS MODE, STANDBY.
+001:57:47|O|CDR|STANDBY.
 001:57:51|O|LMP|And EMS FUNCTION, DELTA-V, set. Set DELTA-VC. You got the number?
-001:58:03|O|CMP|Yes. 10 4256.
-001:58:10|O|CDR|4256? How about 4356?
+001:58:01|O|CMP|Yes. 10 4256.
+001:58:12|O|CDR|4256? How about 4356?
 001:58:16|O|LMP|That's right, 4356.
 001:58:25|O|CDR|And how about ORDEAL? Does that go back, Buzz?
 001:58:28|O|LMP|Yes.
@@ -810,21 +809,21 @@
 001:59:00|O|CDR|Yes.
 001:59:02|O|LMP|Yes, they did.
 001:59:03|O|CDR|They did, yes.
-001:59:04|O|CMP|No, that's VERB 66. ... apogee - perigee.
+001:59:03|O|CMP|No, that's VERB 66. ... apogee - perigee.
 001:59:25|O|LMP|I'll just put a question mark here about - not show our ignorance.
 001:59:32|O|CMP|Well, looks like we're picking up a little. That sound reasonable? 1166?
 001:59:40|O|CDR|... the time, is that right?
-001:59:41|O|LMP|The S-IVB?
+001:59:43|O|LMP|The S-IVB?
 001:59:45|O|CMP|Yes, you add about 4 or 5 miles to your orbit - apogee - perigee.
 001:59:49|O|CDR|Yes.
-001:59:51|O|LMP|Yes, that's too much.
+001:59:50|O|LMP|Yes, that's too much.
 001:59:54|O|CDR|We're up to 6 ...
-002:00:00|O|LMP|That thing ... now, that may not be now; that may be at TLI.
+002:00:00|O|CMP|Now, that may not be now; that may be at TLI.
 002:00:18|O|LMP|I don't have any reason not to believe it.
 002:00:21|O|CDR|No.
-002:00:25|O|CMP|If it isn't any good, we'll need another one anyway, huh? So, there isn't any point in saving the other one.
+002:00:25|O|LMP|If it isn't any good, we'll need another one anyway, huh? So, there isn't any point in saving the other one.
 002:00:32|O|CDR|Okay.
-002:00:33|O|CMP|VERB 66.
+002:00:33|O|LMP|VERB 66.
 002:00:39|O|CDR|Okay. 10 435.6.
 002:00:52|O|LMP|10 435.6. Alright, go to EMS FUNCTION, DELTA-V.
 002:01:00|O|CMP|DELTA-V.
