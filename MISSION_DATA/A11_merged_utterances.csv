@@ -830,33 +830,33 @@
 002:01:01|O|LMP|GDC align is at - What's this "D"?
 002:01:12|O|CDR|Huh?
 002:01:13|O|CMP|That means ...
-002:01:15|O|LMP|Oh.
-002:01:16|O|CMP|Won't get them on S-band.
+002:01:14|O|LMP|Oh.
+002:01:15|O|CMP|Won't get them on S-band.
 002:01:17|O|LMP|S what?
 002:01:19|O|CMP|VHF.
 002:01:20|O|LMP|Okay. A SIMPLEX, it should be on.
-002:01:23|O|CMP|Set ORDEAL? Do something with it, anyway.
+002:01:22|O|CMP|Set ORDEAL? Do something with it, anyway.
 002:01:28|O|LMP|Let's see, ORDEAL is - -
 002:01:29|O|CMP|What happened to that card that was here?
-002:01:30|O|LMP|I already fired it.
+002:01:31|O|LMP|I already fired it.
 002:01:32|O|CDR|What was that?
 002:01:33|O|CMP|Um hum.
 002:01:34|O|CDR|Saturn boost? This was a boost card.
 002:01:38|O|LMP|Okay.
 002:01:39|O|CMP|You can't have that.
-002:01:42|O|LMP|You don't want that one, do you?
-002:01:43|O|CMP|No.
-002:01:44|O|LMP|Trade it - for a good one.
-002:01:55|O|CMP|How about some LM pointing angles?
-002:02:03|O|LMP|Okay, let's do one more. We're going first opportunity, you think?
+002:01:41|O|LMP|You don't want that one, do you?
+002:01:42|O|CMP|No.
+002:01:43|O|LMP|Trade it - for a good one.
+002:01:55|O|LMP|How about some LM pointing angles?
+002:02:04|O|LMP|Okay, let's do one more. We're going first opportunity, you think? ...
 002:02:22|O|CMP|Burn time is 05 plus 47.
-002:02:24|O|CDR|Yes.
-002:02:27|O|CMP|And emergency shutdown, Neil, is plus 10 seconds; 10 minus 40 on the DELTA-VC, is that right?
+002:02:24|O|LMP|Yes.
+002:02:26|O|CMP|And emergency shutdown, Neil, is plus 10 seconds; 10 minus 40 on the DELTA-VC, is that right?
 002:02:32|O|LMP|Plus 6 seconds - plus 6.
 002:02:39|O|CMP|And - no - no, I'm sure about that minus.
 002:02:43|O|LMP|No, no, it's not; it's only ...
 002:02:45|O|CMP|No, it's plus 6 seconds and VI on the DSKY at G&N.
-002:02:58|O|CDR|I think that's going to show up here, isn't it?
+002:02:57|O|CDR|I think that's going to show up here, isn't it?
 002:03:01|O|LMP|What?
 002:03:03|O|CDR|TLI?
 002:03:04|O|CMP|The roll?
@@ -865,55 +865,54 @@
 002:03:27|O|LMP|Alright. You got ORDEAL set in some way?
 002:03:30|O|CDR|ORDEAL is okay.
 002:03:33|O|LMP|Well, do you want to get ahead on a few things?
-002:03:38|O|CDR|Well, give me an example.
-002:03:44|O|LMP|We don't need the sequence pyro arm yet, huh?
+002:03:37|O|CDR|Well, give me an example.
+002:03:43|O|LMP|We don't need the sequence pyro arm yet, huh?
 002:03:47|O|CDR|No. Don't want to do that until -
-002:03:52|O|LMP|TRANS CONTROL POWER, ON?
-002:03:54|O|CDR|It's ON.
+002:03:51|O|LMP|TRANS CONTROL POWER, ON?
+002:03:53|O|CDR|It's ON.
 002:03:55|O|LMP|ROT CONTROL POWER, NORMAL, two of them, AC/DC?
 002:03:58|O|CDR|There you go.
 002:03:59|O|LMP|DIRECT, two, MAIN A/MAIN B?
 002:04:04|O|CDR|Okay.
 002:04:12|O|LMP|LAUNCH VEHICLE indicators: GPI to S-II/S-IVB. GUIDANCE to IU.
 002:04:24|O|LMP|That IU?
-002:04:26|O|CDR|Yes.
+002:04:25|O|CDR|Yes.
 002:04:27|O|CMP|Have we got pyros armed?
 002:04:28|O|CDR|No.
 002:04:29|O|LMP|No.
-002:04:30|O|CMP|Okay.
+002:04:29|O|CMP|Okay.
 002:04:33|O|LMP|CB, DIRECT ULLAGE, two of them, CLOSED.
 002:04:38|O|CDR|Better wait awhile on that.
-002:04:44|O|LMP|Okay, how about cranking the event timer to 51:00, then?
+002:04:43|O|LMP|Okay, how about cranking the event timer to 51:00, then?
 002:04:52|O|CDR|What's burn time? Ignition time? 2 what?
 002:04:59|O|CMP|35, 30 minutes.
-002:05:03|O|LMP|Well, that's going to be ...
-002:05:08|O|CDR|Okay, I'll set up the event timer.
+002:05:02|O|LMP|Well, that's going to be ...
+002:05:07|O|CDR|Okay, I'll set up the event timer.
 002:05:47|O|CDR|Burn time is 05:20.
 002:06:07|O|CMP|DELTA-VI - going to be ...
 002:06:45|O|CMP|Sure you got - you got your checklist here, haven't you? Yes.
-002:06:48|O|LMP|Yes, they put all this TLI crap in my checklist; even though I took it out, they put it back in.
-002:06:52|O|CMP|Well, Mattingly assured me that I was going to have a circular velocity versus altitude, you know, when they get me at 100 miles on the other side?
-002:07:02|O|LMP|It's not in here, either, I looked.
+002:06:47|O|LMP|Yes, they put all this TLI crap in my checklist; even though I took it out, they put it back in.
+002:06:53|O|CMP|Well, Mattingly assured me that I was going to have a circular velocity versus altitude, you know, when they get me at 100 miles on the other side?
+002:07:01|O|LMP|It's not in here, either, I looked.
 002:07:04|O|CMP|Where would it be? It'd be right in here -
 002:07:06|O|LMP|I finally gave it to ...
 002:07:16|O|CMP|Hey, that's - you know what the numbers are, roughly.
-002:07:24|O|CDR|25 - 25 550 at a 100 miles - something like that, it changes, probably - -
-002:07:31|O|CMP|Yes, but this was to be - What do you have on this side to give you that on the other side?
-002:07:49|O|LMP|I'm running a little bit on the warm side; how are you guys ... along?
-002:07:53|O|CDR|Probably a tad on the warm side.
-002:07:59|O|LMP|Suit and cabin pressures both look - I guess we should be cool.
-002:08:00|P|PAO|This Apollo Control at 2 hours, 8 minutes into the mission. Apollo 11 about to be acquired at the Tananarive station. As expected this orbit is changing slightly as the S-IVB third stage vents. We are showing an orbit now of 107 by 105.7 nautical miles in an orbital period of 1 hour, 28 minutes, 30 seconds. We have acquired Tananarive now. We'll stand by live through that station.
-002:08:00|P|PAO|This is Apollo Control at 2 hours, 16 minutes. Tananarive has loss of signal. The Carnarvon station will acquire at 2 hours, 25 and one-half minutes and during the Carnarvon pass the GO/NO GO decision will be made for the translunar injection maneuver. That maneuver to occur at about 27 minutes from now near the - spacecraft is near the Gilbert Islands, about halfway between Australia and Hawaii. We will come back up just prior to Carnarvon acquisition. This is Mission Control, Houston.
-002:08:06|O|CDR|Should be about 100 ... - okay -
+002:07:22|O|CDR|25 - 25 550 at a 100 miles - something like that, it changes, probably - -
+002:07:30|O|CMP|Yes, but this was to be - What do you have on this side to give you that on the other side?
+002:07:49|O|CMP|I'm running a little bit on the warm side; how are you guys ... along?
+002:07:52|O|CDR|Probably a tad on the warm side.
+002:07:58|O|CMP|Suit and cabin pressures both look - I guess we should be cool.
+002:08:05|O|CDR|Should be about 100 ... - okay -
 002:08:10|O|LMP|Water - boiling - ... potable ...
 002:08:18|O|CMP|Fuel cells ... water. It goes to potable tank first and then we - we get it.
 002:08:24|O|LMP|Oh - stop there?
 002:08:25|O|CMP|Yes.
 002:08:26|O|CDR|Coming into the terminator.
-002:08:46|O|CMP|Gee, I'm really disappointed over those optics; that telescope is horrible. Maybe it'll get better with practice - or adaptation, or what have you.
-002:09:17|T|CC|Apollo 11, this is Houston through Tananarive. How do you read?
+002:08:30|P|PAO|This Apollo Control at 2 hours, 8 minutes into the mission. Apollo 11 about to be acquired at the Tananarive station. As expected, this orbit is changing slightly as the S-IVB third stage vents. We are showing an orbit now of 107 by 105.7 nautical miles in an orbital period of 1 hour, 28 minutes, 30 seconds. We've acquired Tananarive now. We'll stand by live through that station.
+002:08:45|O|CMP|Gee, I'm really disappointed over those optics; that telescope is horrible. Maybe it'll get better with practice - or adaptation, or what have you.
+002:09:16|T|CC|Apollo 11, this is Houston through Tananarive. How do you read?
 002:09:38|O|CDR|Gee, I almost went to sleep then.
-002:09:40|O|CMP|Me, too; I'm taking a little rest.
+002:09:41|O|CMP|Me, too; I'm taking a little rest.
 002:09:45|T|CC|Apollo 11, this is Houston standing by through Tananarive.
 002:09:48|O|LMP|It's going to be a long day.
 002:10:03|T|CT|Tananarive, Houston COMM TECH NET 1.
@@ -926,231 +925,236 @@
 002:10:28|T|CT|Roger. We cannot raise Tananarive.
 002:10:31|T|CT|Houston COMM TECH, Tananarive.
 002:10:31|O|CDR|Okay, let me align the GDC.
-002:10:33|T|CT|Roger, Tananarive. Are you receiving CAP COMM's voice, and are you uplinking it?
+002:10:33|T|CT|Roger, Tananarive. Are you receiving CAPCOM's voice, and are you uplinking it?
 002:10:39|T|CT|Negative.
-002:10:41|T|CT|Roger. Monitor again and I'll tell CAP COMM to make one more transmission.
+002:10:41|T|CT|Roger. Monitor again and I'll tell CAPCOM to make one more transmission.
 002:10:46|O|CDR|Well, they cleverly do this on - just on opposite sides of the world so you always have to pitch - run all the thumbwheels the maximum amount.
-002:10:51|T|CT|Roger.
+002:10:50|T|CT|Roger.
 002:10:56|T|CC|Apollo 11, Apollo 11, this is Houston standing by through Tananarive. Over.
 002:10:56|O|CC|Apollo 11, Apollo 11, this is Houston standing by through Tananarive. Over.
 002:11:03|O|CDR|Houston, Apollo 11. Roger.
 002:11:04|T|CDR|Houston, Apollo 11 ...
 002:11:05|O|CC|Roger. Reading you loud and clear.
-002:11:06|T|CC|Roger. Reading you loud and clear.
+002:11:05|T|CC|Roger. Reading you loud and clear.
 002:11:10|O|LMP|You get the pyro armed?
-002:11:12|O|CDR|No, I haven't. Just a second, I'll be right with you.
+002:11:11|O|CDR|No, I haven't. Just a second, I'll be right with you.
 002:11:24|O|LMP|Get 51 on the event timer?
-002:11:34|O|CMP|We stopped boiling water.
+002:11:33|O|CMP|We stopped boiling water.
 002:11:37|O|LMP|That's good.
 002:11:41|O|CDR|Old son of a gun.
 002:11:46|O|LMP|Okay on the temperatures.
-002:11:50|O|CMP|Looks like the setting on the AUTO thing is such that it just runs a little cold.
+002:11:47|O|CMP|Looks like the setting on the AUTO thing is such that it just runs a little cold.
 002:11:56|O|CDR|Yes, that's right. That's - that's what I think, too.
 002:12:05|O|CMP|... have a feeling I have a ball in here.
-002:12:09|O|CDR|Okay, the GDC is - is aligned. Ready to proceed.
-002:12:15|O|LMP|Okay. We've got the VERB 48 in, VERB 83, ORDEAL set, and SEQUENCE PYRO ARM.
+002:12:08|O|CDR|Okay, the GDC is - is aligned. Ready to proceed.
+002:12:14|O|LMP|Okay. We've got the VERB 48 in, VERB 83, ORDEAL set, and SEQUENCE PYRO ARM.
 002:12:26|O|CDR|Okay. Stand by for a blast. One's ON. Two's ON.
-002:12:35|T|CDR|Houston, Apollo 11. We have the PYRO's armed.
-002:12:35|O|LMP|Houston, Apollo 11. We have the pyros armed.
-002:12:39|T|CC|This is Houston. Roger. Out.
+002:12:35|O|LMP|Houston, Apollo 11. We have the PYRO's armed.
+002:12:36|T|CDR|Houston, Apollo 11. We have the PYRO's armed.
 002:12:39|O|CDR|Okay.
-002:12:40|O|CC|This is Houston. Roger; out.
+002:12:39|T|CC|This is Houston. Roger. Out.
+002:12:40|O|CC|This is Houston. Roger. out.
 002:12:41|O|LMP|TRANS CONTROL POWER's ON. ROT CONTROL POWER, NORMAL, two, AC/DC.
 002:12:45|O|CDR|They're all up.
 002:12:46|O|LMP|DIRECT? MAIN A/MAIN B.
 002:12:49|O|CDR|DIRECT.
 002:12:50|O|LMP|S-II/S-IVB.
-002:12:52|O|CDR|Check.
-002:12:53|O|LMP|GUIDANCE, IU?
+002:12:51|O|CDR|Check.
+002:12:52|O|LMP|GUIDANCE, IU?
 002:12:54|O|CDR|IU, yes.
 002:12:55|O|LMP|Circuit breakers, DIRECT ULLAGE, two, CLOSED.
-002:13:01|O|CDR|Okay.
+002:13:00|O|CDR|Okay.
 002:13:02|O|LMP|And the event timer's set.
-002:13:06|O|CMP|Now, why don't you - why don't you put ORDEAL on 200/LUNAR?
-002:13:15|O|CDR|Alright.
-002:13:17|O|CMP|Maybe you can start figuring out what the hell that ought to be.
-002:13:32|O|CMP|I guess - leave them on INERTIAL for the time being.
-002:13:45|O|CDR|Beyond my ability to - compute here right now.
+002:13:05|O|CMP|Now, why don't you - why don't you put ORDEAL on 200/LUNAR?
+002:13:14|O|CDR|Alright.
+002:13:15|O|CMP|Maybe you can start figuring out what the hell that ought to be.
+002:13:31|O|CMP|I guess - leave them on INERTIAL for the time being.
+002:13:44|O|CDR|Beyond my ability to - compute here right now.
 002:14:10|O|CDR|...?
-002:14:27|O|LMP|You're not worried now on that thing.
-002:14:29|O|CMP|When the motor lights up, he's worried.
+002:14:26|O|LMP|You're not worried now on that thing.
+002:14:28|O|CMP|When the motor lights up, he's worried.
 002:14:38|O|CDR|... 190, 110 degrees.
-002:14:50|O|CMP|Got a long way around, yet.
+002:14:49|O|CMP|Got a long way around, yet.
 002:15:23|T|CC|Apollo 11, this is Houston. One minute to LOS Tananarive; AOS at Carnarvon 02:25:30.
-002:15:23|O|CC|Apollo 11, this is Houston. 1 minute to LOS Tananarive; AOS at Carnarvon, 02:25:30.
+002:15:23|O|CC|Apollo 11, this is Houston. One minute to LOS Tananarive; AOS at Carnarvon 02:25:30.
+002:15:34|O|LMP|Roger.
 002:15:35|T|CDR|Roger.
 002:15:35|T||CARNARVON (REV 2)
-002:15:35|O|LMP|Roger.
 002:15:36|O|CDR|02:25:30.
 002:15:37|O|LMP|Yes. 02:25. ...
-002:15:58|O|CMP|Why did they do that? That should be up here, before 02:35.
-002:16:10|O|LMP|I don't know. It's screwed up in here anyway.
+002:15:57|O|CMP|Why did they do that? That should be up here, before 02:35.
+002:16:09|O|LMP|I don't know. It's screwed up in here anyway.
 002:16:29|O|CDR|Well, weren't they giving us two abort pads before?
+002:16:33|P|PAO|This is Apollo Control at 2 hours, 16 minutes. Tananarive has loss of signal. The Carnarvon station will acquire at 2 hours, 25 and one-half minutes and during the Carnarvon pass the GO/NO GO decision will be made for the translunar injection maneuver. That maneuver to occur at about 27 minutes from now near the - spacecraft is near the Gilbert Islands, about halfway between Australia and Hawaii. We will come back up just prior to Carnarvon acquisition. This is Mission Control, Houston.
+002:15:35|O|LMP|Roger.
 002:16:33|O|CMP|No, TLI plus 90 and TLI plus 4 hours. And now the TLI plus 4 hours is TLI plus 5 hours, P37.
 002:16:44|O|CDR|Oh, is that right?
 002:16:45|O|CMP|Yes. Got them on the same page.
-002:16:49|O|CDR|Yes, they're on the same page.
-002:16:50|O|CMP|Yes, I was expecting them to get something in.
+002:16:48|O|CDR|Yes, they're on the same page.
+002:16:49|O|CMP|Yes, I was expecting them to get something in.
 002:17:29|O|CMP|Going to have to break your ... here, I mean - your LMP handhold.
 002:17:35|O|LMP|Oh, my G&N handhold; don't do that. ... managed to hang on to it, ... up there.
-002:17:44|O|CMP|Holding against the ... - the couch.
-002:18:13|O|CMP|Well, let's see ...
-002:18:35|O|CMP|Think I was that slow punching the clock?
-002:18:39|O|LMP|Huh?
-002:18:40|O|CMP|I wonder if I was that slow getting everything going? I ought to have given them a second or ...
-002:18:56|O|LMP|It didn't seem to me as though there was a tremendous cue; there's no doubt that you were moving, but to say exactly what the precise time was when you started to move, I think you'd call it whenever the thing started vibrating.
-002:19:12|O|CMP|Yes, I didn't know when the hell we were airborne; I just took his word for it. It was sure shaking, rattling, and rolling, son of a bitch!
+002:17:43|O|CMP|Holding against the ... - the couch.
+002:18:12|O|CMP|Well, let's see ...
+002:18:34|O|CMP|Think I was that slow punching the clock?
+002:18:38|O|LMP|Huh?
+002:18:39|O|CMP|I wonder if I was that slow getting everything going? I ought to have given them a second or ...
+002:18:55|O|LMP|It didn't seem to me as though there was a tremendous cue; there's no doubt that you were moving, but to say exactly what the precise time was when you started to move, I think you'd call it whenever the thing started vibrating.
+002:19:11|O|CMP|Yes, I didn't know when the hell we were airborne; I just took his word for it. It was sure shaking, rattling, and rolling, son of a bitch!
 002:19:46|O|LMP|Wake me up at TLI, somebody.
-002:19:50|O|CDR|Another 15 minutes, just time to sleep.
+002:19:49|O|CDR|Another 15 minutes, just time to sleep.
 002:19:52|O|CMP|You need to get out the alarm clock.
 002:20:06|O|CDR|I don't know, I think I'll just put my window guard up.
-002:20:12|O|CMP|Yes.
-002:20:32|O|CMP|Whopseedoo, we picked up an S-band. No noise.
-002:20:45|O|CDR|What's VERB 85 going to tell me - if I call that up, Mike?
-002:20:50|O|CMP|It tells you range - range rate in C, which is the angle between your - optics line of sight and the horizon, depending on what - -
-002:21:03|O|CDR|What's that little bump in the ... somebody?
-002:21:06|O|CMP|That's me; I - I'm thrashing around over here a little bit.
-002:21:08|O|LMP|I - if you wonder, I stuffed my launch checklist and - in the little gap between the -
-002:21:19|O|CMP|You don't have a launch checklist.
-002:21:22|O|LMP|My cue card.
+002:20:11|O|CMP|Yes.
+002:20:30|O|CMP|Whopseedoo, we picked up an ... there. No noise.
+002:20:44|O|CDR|What's VERB 85 going to tell me - if I call that up, Mike?
+002:20:49|O|CMP|It tells you range - range rate in C, which is the angle between your - optics line of sight and the horizon, depending on what - -
+002:21:02|O|CDR|What's that little bump in the ... somebody?
+002:21:05|O|CMP|That's me; I - I'm thrashing around over here a little bit.
+002:21:08|O|CDR|I - if you wonder, I stuffed my launch checklist and - in the little gap between the -
+002:21:18|O|CMP|You don't have a launch checklist.
+002:21:21|O|CDR|My cue card.
 002:21:23|O|CMP|Oh.
-002:21:24|O|LMP|In between the - the Y-Y strut and the wall over here, to keep it from bouncing around.
-002:21:31|O|CMP|Oh.
-002:21:32|O|LMP|...
-002:21:34|O|CMP|Yes, that says 58-1/2 degrees, huh?
+002:21:24|O|CDR|In between the - the Y-Y strut and the wall over here, to keep it from bouncing around.
+002:21:30|O|CMP|Oh.
+002:21:31|O|LMP|...
+002:21:34|O|LMP|Yes, that says 58-1/2 degrees, huh?
 002:21:40|O|CDR|Yes.
-002:21:42|O|CMP|... 57-1/2 isn't that something like that? Now wait a minute.
-002:21:50|O|CDR|Yes, 57-1/2 degrees.
-002:21:52|O|CMP|I guess they're ... about on the horizon anyway. Yes, okay.
-002:21:55|O|CDR|Huh?
+002:21:41|O|CMP|... 57-1/2 isn't that something like that? Now wait a minute.
+002:21:49|O|CDR|Yes, 57-1/2 degrees.
+002:21:51|O|CMP|I guess they're ... about on the horizon anyway. Yes, okay.
+002:21:54|O|CDR|Huh?
 002:21:56|O|CMP|Buzz, I put 39.5 volts over here; that's a reminder on the battery check - real good on the wall. Okay, Neil, now TLI - I'm going to write on the wall here - TLI - nominal is 05 plus 47; and 6 seconds later, it's 05 plus 53. And you want me to let you know when that is; I'll yell "cut-off" at that time.
-002:22:27|O|CDR|Okay.
-002:22:38|O|CMP|Now, we want to get what that time's going to be up there. Is that alright, Neil?
-002:22:43|O|CDR|Yes, that's right. 05:53, I want it yelled.
-002:22:45|O|CMP|Okay. I'll yell "cut-off," huh?
-002:22:57|O|CDR|Yes, I guess. And I'll cut off if the G&N says - -
-002:23:04|O|CMP|Agreed.
-002:23:05|O|CDR|- - we're overburned.
-002:23:06|O|LMP|That's right.
-002:23:39|O|CMP|You got that TRANSLUNAR switched to INJECT, huh?
+002:22:26|O|CDR|Okay.
+002:22:37|O|LMP|Now, we want to get what that time's going to be up there.
+002:22:40|O|CMP|Is that alright, Neil?
+002:22:42|O|CDR|Yes, that's right. 05:53, I want it yelled.
+002:22:46|O|CMP|Okay. I'll yell "cut-off," huh?
+002:22:56|O|CDR|Yes, I guess. And I'll cut off if the G&N says - -
+002:23:03|O|CMP|Agreed.
+002:23:04|O|CDR|- - we're overburned.
+002:23:05|O|LMP|That's right.
+002:23:38|O|CMP|You got that TRANSLUNAR switched to INJECT, huh?
 002:23:41|O|CDR|Yes, to INJECT.
-002:23:47|O|LMP|EDS POWER, you got ON?
-002:23:49|O|CDR|EDS POWER is ON.
+002:23:46|O|LMP|EDS POWER, you got ON?
+002:23:48|O|CDR|EDS POWER is ON.
 002:23:53|O|LMP|PYROs are ARMED?
-002:23:55|O|CDR|PYROs are - four breakers are in, and switches are up.
-002:24:06|O|LMP|Okay, on this thing here, we should be reading 02:41:01, shutdown, and - -
-002:24:14|O|CDR|Add 6 seconds to it?
+002:23:54|O|CDR|PYROs are - four breakers are in, and switches are up.
+002:24:05|O|LMP|Okay, on this thing here, we should be reading 02:41:01, shutdown, and - -
+002:24:13|O|CDR|Add 6 seconds to it?
 002:24:15|O|LMP|Yes. At 07, cut-off.
-002:24:48|O|LMP|BLOCK, BLOCK. SPACECRAFT CONTROL to SCS?
-002:24:53|O|CDR|It is.
-002:24:57|O|LMP|Tank pressures looking alright?
-002:25:00|P|PAO|This is Apollo Control at 2 hours 5 minutes and Carnarvon has acquired Apollo 11. At LOS here at Carnarvon we will have several ARIA's, Apollo Range Instrumented Aircraft, in the area between LOS Carnarvon and acquisition at the tracking ship Redstone, so we may have the capability of continuous communications between now and the TLI burn. We'll stand by through Carnarvon.
-002:25:00|P|PAO|This is Apollo Control. We are 10 minutes away from ignition on translunar injection. We want to add 10,435 feet per second to the spacecraft's velocity, looking for a total velocity at the end of this burn of about 35,575 feet per second.
-002:25:02|O|CDR|Tank pressures are looking good.
-002:25:44|T|CC|Apollo 11, this is Houston through Carnarvon. Radio check. Over.
-002:25:49|T|CDR|Roger, Houston through Carnarvon. Apollo 11. Loud and clear.
+002:24:47|O|LMP|BLOCK, BLOCK. SPACECRAFT CONTROL to SCS?
+002:24:52|O|CDR|It is.
+002:24:56|O|LMP|Tank pressures looking alright?
+002:25:01|P|PAO|This is Apollo Control at 2 hours 25 minutes, and Carnarvon has acquired Apollo 11. At LOS here at Carnarvon we will have several ARIA's, Apollo Range Instrumented Aircraft, in the area between LOS Carnarvon and acquisition at the tracking ship Redstone, so we may have the capability of continuous communications between now and the TLI burn. We'll stand by through Carnarvon.
+002:25:01|O|CDR|Tank pressures are looking good.
+002:25:43|T|CC|Apollo 11, this is Houston through Carnarvon. Radio check. Over.
+002:25:49|T|LMP|Roger, Houston through Carnarvon. Apollo 11. Loud and clear.
 002:25:53|T|CC|Roger. You're coming in very loud and very clear, here. Out.
 002:26:38|T|CC|Apollo 11, this is Houston. You are GO for TLI. Over.
 002:26:45|T|CMP|Apollo 11. Thank you.
-002:26:48|T|CC|Roger. Out.
-002:30:11|T|CC|Apollo 11, this is Houston. Over.
-002:30:16|T|CDR|Houston, 11.
-002:30:18|T|CC|Roger. We'll be coming within range of the ARIA aircraft coverage, here, in about 1 minute. They're going to try uplinking both on S-band and on VHF this time. So if you turn your - make sure your S-band volume is turned up, we'd appreciate it. And we believe that we'll have continuous coverage from now on through the TLI burn. Over.
+002:26:47|T|CC|Roger. Out.
+002:30:10|T|CC|Apollo 11, this is Houston. Over.
+002:30:15|T|CDR|Houston, 11.
+002:30:17|T|CC|Roger. We'll be coming within range of the ARIA aircraft coverage, here, in about 1 minute. They're going to try uplinking both on S-band and on VHF this time. So if you turn your - make sure your S-band volume is turned up, we'd appreciate it. And we believe that we'll have continuous coverage from now on through the TLI burn. Over.
 002:30:42|T|CDR|Very good.
 002:30:42|T||ARIA (REV 2)
 002:32:20|T|CC|Apollo 11, Apollo 11, this is Houston through ARIA 4. Radio check. Over.
 002:32:28|T|LMP|Houston, we read you strength 4 and a little scratchy.
 002:32:34|T|CC|Roger. We're reading you strength 5, readability about 3. Should be quite adequate.
 002:32:42|T|CC|Apollo 11, Apollo 11, this is Houston. We're reading you readability about 3, strength 5. Sounds pretty good. Over.
-002:32:54|T|CDR|Roger. We've got a little static in the background now.
-002:35:00|P|PAO|This is Apollo Control. We are 2 minutes from ignition now. We are showing present altitude of about 108 nautical miles. We expect to be in an altitude of 177 nautical miles at cutoff. The present velocity is 25,560 feet per second. We are one minute from ignition.
-002:37:21|T|CC|Apollo 11, this is Houston through ARIA 3. Radio cheek. Over.
-002:37:26|T|CDR|Roger, Houston, Apollo 11. You are much clearer and adequately loud. Over.
-002:37:32|T|CC|Roger, 11, You are coming in five-by-five here. Beautiful signal.
-002:37:38|T|CDR|This is a lot better than this static we had previously.
-002:37:41|T|CC|Okay.
-002:37:48|T|CMP|And we got the time base fix indication on time.
+002:32:53|T|CDR|Roger. We've got a little static in the background now.
+002:32:15|P|PAO|This is Apollo Control. We are 10 minutes away from ignition on translunar injection. We want to add 10,435 feet per second to the spacecraft's velocity, looking for a total velocity at the end of this burn of about 35,575 feet per second.
+002:37:19|T|CC|Apollo 11, this is Houston through ARIA 3. Radio cheek. Over.
+002:37:25|T|LMP|Roger, Houston, Apollo 11. You are much clearer and adequately loud. Over.
+002:37:31|T|CC|Roger, 11, You are coming in five-by-five here. Beautiful signal.
+002:37:37|T|LMP|This is a lot better than this static we had previously.
+002:37:40|T|CC|Okay.
+002:37:47|T|CDR|And we got the time base fix indication on time.
 002:37:50|T|CC|This is Houston. Roger. Out.
-002:40:20|T|CC|Apollo 11, this is Houston. We just got telemetry back down on your booster, and it is looking good.
+002:40:19|T|CC|Apollo 11, this is Houston. We just got telemetry back down on your booster, and it is looking good.
 002:40:30|T|CDR|Roger. Everything looks good  here.
-002:40:34|T|CC|Houston, Roger. Out.
-002:43:00|P|PAO|and we're one minute from ignition.
-002:43:00|P|PAO|Guidance looking good. velocity 26,000 feet per second
-002:43:00|P|PAO|Coming up on 27,000 feet per second.
-002:43:00|P|PAO|Telemetry and radar tracking both solid. Velocity 27,800 feet per second.
-002:43:00|P|PAO|We're 2 and a half minutes into this burn. Still have another 3 minutes to go.
-002:43:00|P|PAO|And velocity exceeds 29,000 feet per second building up toward 30,000 feet per second.
-002:43:00|P|PAO|Present altitude 115 nautical miles.
-002:43:00|P|PAO|31,200 feet per second now. Altitude 125 nautical miles.
+002:40:33|T|CC|Houston, Roger. Out.
+002:42:15|P|PAO|This is Apollo Control. We are 2 minutes from ignition now.
+002:42:50|P|PAO|We are showing present altitude of about 108 nautical miles. We expect to be in an altitude of 177 nautical miles at cutoff.
+002:43:07|P|PAO|The present velocity is 25,560 feet per second. And, we're a minute from ignition.
+002:43:18|T|CC|Apollo 11, this is Houston. Slightly less than 1 minute to ignition, and everything  is GO.
+002:43:18|O|CC|Apollo 11, this is Houston. Slightly less than 1 minute to ignition, and everything is GO.
+002:43:25|T|CMP|Roger.
+002:43:41|O|CDR|Okay, 59:25 - and this light will go off at 42. After ...
+002:43:52|O|LMP|Time is based on tracking data; let me know when you start it up.
+002:43:54|O|LMP|Okay.
+002:43:58|O|CDR|When you feel it, that's what I mean.
+002:44:00|O|LMP|Okay, this light is out - know any of it any more.
+002:44:08|O|CDR|Okay, we're operate - 59:59.
+002:44:16|O|LMP|There we go; thrust.
+002:44:17|O|CDR|IGNITION. Call it at 15.
+002:44:18|T|CMP|Ignition.
+002:44:22|O|CMP|Okay.
+002:44:26|O|CDR|Whew!
+002:44:26|T|CC|We confirm ignition, and the thrust is GO.
+002:44:26|O|CC|We confirm ignition, and the thrust is GO.
+002:44:300|O|CDR|Pressures look good.
+002:44:33|O|CMP|Flashes out window number 5.
+002:44:34|O|MS|...
+002:44:38|O|CMP|I'm not sure whether that's - it could be lightning, or it could be something to do with the engine -
+002:44:47|P|PAO|Guidance looking good. velocity 26,000 feet per second
+002:44:57|O|CMP|Continual flashes ...
+002:45:08|O|LMP|About 2 degrees off in the pitch ...
+002:45:11|O|CDR|Yes, wouldn't worry too much about that.
+002:45:13|T|CC|Apollo 11, this is Houston at 1 minute. Trajectory and guidance look good, and the stage is good. Over.
+002:45:14|O|CC|Apollo 11, this is Houston at 1 minute. Trajectory and guidance look good, and the stage is good. Over.
+002:45:21|O|CDR|Apollo 11. Roger.
+002:45:22|T|CDR|Apollo 11. Roger.
+002:45:31|P|PAO|Coming up on 27,000 feet per second.
+002:45:49|O|CMP|Don't look out window 1. If you're - if it looks like what I see out window 5, you don't want to look at it (laughter).
+002:45:54|O|CDR|I don't see anything.
+002:45:55|O|LMP|Why?
+002:45:57|O|CMP|These flashes out here - -
+002:45:58|O|CDR|Oh, I see a little flashing out there, yes.
+002:46:00|P|PAO|Telemetry and radar tracking both solid. Velocity 27,800 feet per second.
+002:46:03|O|CMP|You see that? Buzz - did - were you looking? Just watch window 5 for a second. See it?
+002:46:09|O|LMP|Yes, yes. Damn, everything's - just kind of sparks flying out there.
+002:46:13|O|CMP|Yes, that's - Oopsedo.
+002:46:16|O|CDR|Man, that really - -
+002:46:17|O|CMP|That's PU shift?
+002:46:18|O|CDR|I don't know, but it sure put a little blip in there at 2 minutes; I think it increased in thrust.
+002:46:23|O|CMP|Think it's the PU shift?
+002:46:25|T|CC|Apollo 11, this is Houston. Thrust is good. Everything's still looking good.
+002:46:25|O|CC|Apollo 11, this is Houston. Thrust is good. Everything's still looking good.
+002:46:30|O|CDR|Roger.
+002:46:31|T|CDR|Roger.
+002:46:31|O|CMP|That's about like a pitch change rather than an acceleration increase. Did it feel that way to you?
+002:46:37|O|CMP|Okay. We got a lighted horizon at 2-1/2 minutes. Pretty horizon.
+002:46:43|P|PAO|We're 2 and a half minutes into this burn. Still have another 3 minutes to go.
+002:46:47|O|LMP|A fairly smooth ride, you know; it's just a little tiny bit rattly, but nothing like Stafford's – H-dot looks great. Don't bet you could do any better.
+002:46:57|O|CMP|I'm sure I couldn't. I'd do worse because I'd be a - a full degree off from where it is right now.
+002:47:10|P|PAO|And velocity exceeds 29,000 feet per second building up toward 30,000 feet per second.
+002:47:13|O|LMP|Don't sweat that. 3 minutes.
+002:47:15|O|CMP|3 minutes. What we got, about one g, Neil?
+002:47:23|O|LMP|Pressures are good - -
+002:47:24|O|CMP|Yes, we've got 3 feet per second - -
+002:47:25|O|CDR|Just under one g.
+002:47:26|O|LMP|Mike, we're within 3 feet per second on the card H-dot.
+002:47:29|P|PAO|Present altitude 115 nautical miles.
+002:47:31|O|CMP|Fantastic. And it's shaking everything a little bit.
+002:47:34|O|LMP|Shaking at 3 minutes.
+002:47:35|O|CDR|Okay.
+002:47:36|O|LMP|I hope that camera doesn't fall on your face.
+002:47:37|O|CMP|I checked it; it's locked in there pretty well. Won't hurt this visor -
+002:47:43|O|CDR|03:30 coming up - Should be 5.5, and it is 5.5.
+002:47:52|O|CMP|Nice ride.
+002:47:53|O|CC|Apollo 11, this is Houston. Around 3-1/2 minutes. You're still looking good. Your predicted cut-off is right on the nominal.
+002:47:53|T|CC|Apollo 11, this is Houston. Around 3-1/2 minutes. You're still looking good. Your predicted cut-off is right on the nominal.
+002:48:03|O|CDR|Roger. Apollo 11's GO.
+002:48:04|T|CDR|Roger. Apollo 11's GO.
+002:48:06|O|CMP|I see a bright star out there, must be Venus. Forgot to memorize John Mayer's views out the window well enough to say that's Venus or not, but it's sure bright.
+002:48:07|P|PAO|31,200 feet per second now. Altitude 125 nautical miles.
 002:43:00|P|PAO|Velocity 32,000 feet per second. Altitude 130 miles.
 002:43:00|P|PAO|One minute left to burn. Velocity is 33,000 feet per second. Altitude 142 and a half nautical miles
 002:43:00|P|PAO|34,000 feet per second now. Altitude 152.
 002:43:00|P|PAO|35,000 feet per second.
 002:43:00|P|PAO|Cut out. We're showing velocity 35, 570 feet per second. Altitude 177 nautical miles.
-002:43:18|T|CC|Apollo 11, this is Houston. Slightly less than 1 minute to ignition, and everthing is GO.
-002:43:18|O|CC|Apollo 11, this is Houston. Slightly less than 1 minute to ignition, and everything is GO.
-002:43:25|T|CMP|Roger.
-002:43:42|O|CDR|Okay, 59:25 - and this light will go off at 42 -
-002:43:53|O|CMP|Time is based on tracking data; let me know when you start it up.
-002:43:54|O|LMP|Okay.
-002:43:59|O|CDR|When you feel it, that's when it is.
-002:44:01|O|LMP|Okay, this light is out - know any of it any more.
-002:44:09|O|CDR|Okay, we're operate - 59:59.
-002:44:16|O|LMP|There we go; thrust.
-002:44:18|O|CDR|IGNITION. Call it at 15.
-002:44:19|T|CMP|Ignition.
-002:44:22|O|CMP|Okay.
-002:44:26|O|CDR|Whew!
-002:44:27|T|CC|We confirm ignition, and the thrust is GO.
-002:44:27|O|CC|We confirm ignition, and the thrust is GO.
-002:44:33|O|CDR|Pressures look good.
-002:44:37|O|CMP|Flashes out window number 5.
-002:44:38|O|MS|...
-002:44:40|O|CMP|I'm not sure whether that's - it could be lightning, or it could be something to do with the engine -
-002:44:59|O|CMP|Continual flashes ...
-002:45:09|O|LMP|About 2 degrees off in the pitch ...
-002:45:12|O|CDR|Yes, wouldn't worry too much about that.
-002:45:13|T|CC|Apollo 11, this is Houston at 1 minute. Trajectory and guidance look good, and the stage is good. Over.
-002:45:14|O|CC|Apollo 11, this is Houston. At 1 minute, trajectory and guidance look good, and the stage is good. Over.
-002:45:21|O|CDR|Apollo 11. Roger.
-002:45:22|T|CDR|Apollo 11. Roger.
-002:45:50|O|CMP|Don't look out window 1. If you're - if it looks like what I see out window 5, you don't want to look at it (laughter).
-002:45:55|O|CDR|I don't see anything.
-002:45:56|O|LMP|Why?
-002:45:57|O|CMP|These flashes out here - -
-002:45:58|O|CDR|Oh, I see a little flashing out there, yes.
-002:46:03|O|CMP|You see that? Buzz is usually looking – just watch window 5 for a second. See it?
-002:46:10|O|LMP|Yes, yes. Damn, everything's - just kind of sparks flying out there.
-002:46:14|O|CMP|Yes, that's - Oopsedo.
-002:46:16|O|CDR|Man, that really - -
-002:46:18|O|CMP|That's PU shift?
-002:46:19|O|CDR|I don't know, but it sure put a little blip in there at 2 minutes; I think it increased in thrust.
-002:46:24|O|CMP|Think it's the PU shift?
-002:46:25|T|CC|Apollo 11, this is Houston. Thrust is good. Everything's still looking good.
-002:46:26|O|CC|Apollo 11, this is Houston. Thrust is good; everything's still looking good.
-002:46:31|T|CDR|Roger.
-002:46:32|O|CMP|That's about like a pitch change rather than an acceleration increase. Did it feel that way to you?
-002:46:38|O|CMP|Okay. We got a lighted horizon at 2-1/2 minutes. Pretty horizon.
-002:46:48|O|LMP|A fairly smooth ride, you know; it's just a little tiny bit rattly, but nothing like Stafford's – H-dot looks great. Don't bet you could do any better.
-002:46:58|O|CMP|I'm sure I couldn't. I'd do worse because I'd be a - a full degree off from where it is right now.
-002:47:14|O|LMP|Don't sweat that. 3 minutes.
-002:47:16|O|CMP|3 minutes. What we got, about one g, Neil?
-002:47:24|O|LMP|Pressures are good - -
-002:47:25|O|CMP|Yes, we've got 3 feet per second - -
-002:47:26|O|CDR|Just under one g.
-002:47:27|O|LMP|Mike, we're within 3 feet per second on the card H-dot.
-002:47:32|O|CMP|Fantastic. And it's shaking everything a little bit.
-002:47:34|O|LMP|Shaking at 3 minutes.
-002:47:35|O|CDR|Okay.
-002:47:36|O|LMP|I hope that camera doesn't fall on your face.
-002:47:38|O|CMP|I checked it; it's locked in there pretty well. Won't hurt this visor -
-002:47:43|O|CDR|03:30 coming up - Should be 5.5, and it is 5.5.
-002:47:53|T|CC|Apollo 11, this is Houston. Around 3-1/2 minutes. You're still looking good. Your predicted cut-off is right on the nominal.
-002:47:53|O|CMP|Nice ride.
-002:47:54|O|CC|Apollo 11, this is Houston. At 3-l/2 minutes, you're still looking good. Your predicted cut-off is right on the nominal.
-002:48:03|T|CDR|Roger. Apollo 11 is GO.
-002:48:04|O|CDR|Roger. Apollo 11's GO.
-002:48:07|O|CMP|I see a bright star out there, must be Venus. Forgot to memorize John Mayer's views out the window well enough to say that's Venus or not, but it's sure bright.
 002:48:17|O|LMP|What would you do about it?
 002:48:18|O|CMP|Nothing.
 002:48:19|O|CDR|4 minutes –
