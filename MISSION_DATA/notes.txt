@@ -3,3 +3,14 @@
 003:19:44 - 16mm filming
 003:20:48 - "flies like a spacecraft instead of a simulator"
 003:53:06 - Neil can see most of the world
+004:28:46 - rcs propellant - used a lot during docking
+004:52:19 - description of view out the window
+005:20:31|T|CMP|If we're late in answering you, it's because we're munching sandwiches.
+005:23:47|T|CDR|Down in the control center you might want to join us in wishing Dr. George Mueller a happy birthday.
+008:04:08|T|CMP|I'll bet you a cup of coffee on it. - trunnion measurements debate
+010:21:57 - Neil suggests TV coverage
+010:38:07 - "you can do anything" must be a mistake
+010:39:36|T|LMP|Hey, Houston. You suppose you could turn the Earth a little bit so we can get a little bit more than just water?
+010:42:19|T|CMP|I haven't seen anything but the DSKY so far.
+010:48:13 - tv end
+011:19:56|T|CC|How about a peanut butter and jelly?
