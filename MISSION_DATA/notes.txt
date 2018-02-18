@@ -14,3 +14,8 @@
 010:42:19|T|CMP|I haven't seen anything but the DSKY so far.
 010:48:13 - tv end
 011:19:56|T|CC|How about a peanut butter and jelly?
+012:11:38 ** television replay with audio, not sure if I should move it to when it occurred due to PAO voiceover
+023:14:22 - news - man on Mars by 2000, hippies, loch ness
+024:45:35 - Collins, Earth "beautiful sight"
+024:45:55|T|CC|Roger. We all envy you the view up there.
+025:11:15 - Lovell calls up
