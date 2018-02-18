@@ -14,8 +14,26 @@
 010:42:19|T|CMP|I haven't seen anything but the DSKY so far.
 010:48:13 - tv end
 011:19:56|T|CC|How about a peanut butter and jelly?
-012:11:38 ** television replay with audio, not sure if I should move it to when it occurred due to PAO voiceover
+012:11:38 ** television replay with audio, not sure if I should move it to when it occurred due to PAO voice-over
 023:14:22 - news - man on Mars by 2000, hippies, loch ness
 024:45:35 - Collins, Earth "beautiful sight"
 024:45:55|T|CC|Roger. We all envy you the view up there.
 025:11:15 - Lovell calls up
+026:45:06 - mid course 2
+027:15:30 - Lovell - |T|LMP|Yes, and he is eyeballing the Earth.
+027:17:07|T|LMP|Hey, Jim, I'm looking through the monocular now, and to coin an expression, the expression that the view is just out of this world
+027:22:41|T|CC|Roger, Buzz. We noticed the same thing. It's very similar to looking at a light shining on something like a billiard ball or a bowling ball. You get this bright spot in the blue of the water, and that turns it to sort of a grayish color.
+027:27:47|T|CC|How does it feel to be airborne again, Buzz?
+027:27:52|T|LMP|Well, I'll tell you, I've been having a ball floating around inside here, back and forth up to one place and back to another. It's like being outside, except more comfortable.
+027:28:43|T|CDR|Everything is right next to everything in this vehicle.
+028:08:14 - Collins beautiful view |T|CC|Sounds like one of these rotating restaurants.
+028:39:22 - eating. music in background.
+028:42:18 - clear music (Cover Me by Bettye Swann)
+030:29:38 ** tv signal - have to figure out how to deal with delayed playback
+030:51:25 - white team shift - surgeon will "spring into action"
+030:59:41 - Goldstone comm tech discussion about tv signal
+031:22:48 - describing Neil - |T|CC|Sounds like Plastic Man to me.
+031:26:45|T|CMP|The guys in the weather office at Patrick wanted a report on the tops but I guess all we can say is we're above them.
+032:40:33|T|CMP|I'm not going to let these LM guys play with my DSKY anymore.
+032:50:57|T|CMP|I can see a 104 taxiing out for takeoff on the runway.
+032:53:28|T|LMP|Pretty far and pretty slow. Just past halfway.
