@@ -37,3 +37,8 @@
 032:40:33|T|CMP|I'm not going to let these LM guys play with my DSKY anymore.
 032:50:57|T|CMP|I can see a 104 taxiing out for takeoff on the runway.
 032:53:28|T|LMP|Pretty far and pretty slow. Just past halfway.
+034:01:31 TV - neil describes earth
+034:10:10 - "lost our picture"
+034:14:18|T|CC|Is Buzz holding your cue cards for you. Over.
+034:14:25 - Mike describes their comfortable home
+034:16:46 - Mike pulls up MET on DSKY
