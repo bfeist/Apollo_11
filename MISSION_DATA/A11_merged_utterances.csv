@@ -3799,202 +3799,203 @@
 057:25:00|T|CC|Apollo 11, Houston. Over.
 057:25:05|T|CDR|Go ahead. 11, here.
 057:25:07|T|CC|11, Houston. A little information to you there, CDR. We've all taken a momentary brief respite from out work here to have some special - to have a bite of special moon cheese that is - I understand it's been sent to us directly from Wapakoneta, your own hometown. Over.
-057:25:29|T|CDR|No, we can't - we can't pronounce it either. I think you'll enjoy that. They make a fine brand of cheese.
+057:25:28|T|LMP|No, we can't - we can't pronounce it either.
+057:25:32|T|CDR|I think you'll enjoy that. They make a fine brand of cheese.
 057:25:37|T|CC|Roger, there, and I'll polish up the grammar for the next trip.
 057:25:50|T|CMP|Houston, 11. You are looking at the NOUN 93, and I'll proceed when you copy them.
 057:26:00|T|CC|11, Houston. We've got them.
 057:26:08|T|CMP|Okay.
 057:28:15|T|CC|Hello, Apollo 11, Houston. We'd like P00 and ACCEPT. We have a DELTA-H update for you. Over.
-057:28:23|T|CMP|All right, Charlie. Stand by one.
-057:29:31|T|CMP|Houston, Apollo 11. P00 and ACCEPT.
+057:28:24|T|CMP|All right, Charlie. Stand by one.
+057:29:30|T|CMP|Houston, Apollo 11. P00 and ACCEPT.
 057:29:33|T|CC|Roger.
 057:31:48|T|CC|Apollo 11, Houston. We got the load in. The computer's yours. Over.
 057:31:56|T|CMP|Houston, 11. Roger.
 057:36:04|T|CC|Hello, Apollo 11. Houston. We'd like for you to stir up the CRYO's now. Over.
 057:36:14|T|CMP|Houston, Apollo 11. Roger.
-057:41:00|P|PAO|This is Apollo Control at 57 hours 44 minutes. We've had no further reports from the crew to indicate whether or not Neil Armstrong and Buzz Aldrin have returned to the Command Module. And I guess that would answer our question. Neil Armstrong reporting that they are finished with their work in the LM, will be coming out shortly. Apollo 11 is now 179,490 nautical miles from Earth. Traveling at a speed of 3,121 feet per second. In a little less than 3 hours, we'll pass a milestone of sorts, as the spacecraft passes into the lunar sphere of influence. And what we mean by that, is that at that point, the spacecraft will be under the dominant influence of the Moon's gravity. The Moon's gravitational force will have the predominant effect on the trajectory of the spacecraft. And at that point, our displays in Mission Control monitoring velocity and altitude will switch from Earth reference to Moon reference. We'll then begin monitoring the progress of the spacecraft as it continues to accelerate toward the Moon. At 57 hours 46 minutes, this is Apollo Control.
+057:44:22|P|PAO|This is Apollo Control at 57 hours 44 minutes. We've had no further reports from the crew to indicate whether or not Neil Armstrong and Buzz Aldrin have returned to the Command Module.
 057:44:33|T|CDR|Houston, Apollo 11. We're completed in the LM. We're closing up the hatches and the probe and drogue back in.
+057:44:53|P|PAO|And I guess that would answer our question. Neil Armstrong reporting that they are finished with their work in the LM, will be coming out shortly. Apollo 11 is now 179,490 nautical miles from Earth. Traveling at a speed of 3,121 feet per second. In a little less than 3 hours, we'll pass a milestone of sorts, as the spacecraft passes into the lunar sphere of influence. And what we mean by that, is that at that point, the spacecraft will be under the dominant influence of the Moon's gravity. The Moon's gravitational force will have the predominant effect on the trajectory of the spacecraft. And at that point, our displays in Mission Control monitoring velocity and altitude will switch from Earth reference to Moon reference. We'll then begin monitoring the progress of the spacecraft as it continues to accelerate toward the Moon. At 57 hours 46 minutes, this is Apollo Control.
 057:44:42|T|CC|Roger. We copy. Out.
-057:59:38|T|CC|Hello, Apollo 11. Houston. We're standing by to watch your startup on the PTC at any time. You can start off at the VERB 49. Over.
-057:59:49|T|CDR|Wilco. We're just finishing up the probe and about to close up the hatch here. We're going to be a couple of minutes late, probably, getting started in the PTC.
+057:59:37|T|CC|Hello, Apollo 11. Houston. We're standing by to watch your startup on the PTC at any time. You can start off at the VERB 49. Over.
+057:59:48|T|CDR|Wilco. We're just finishing up the probe and about to close up the hatch here. We're going to be a couple of minutes late, probably, getting started in the PTC.
 057:59:59|T|CC|Roger. No sweat, 11. We're standing by. Over.
-058:01:00|P|PAO|This is Apollo Control. That was Neil Armstrong reporting that they are now reinstalling the probe and drogue, which is just about on the Flight Plan schedule, and they reported that they would be putting the spacecraft in a slow roll shortly to maintain Passive Thermal Control. In that mode the spacecraft rotates at the rate of about 3 revolutions per hour to maintain even heating. We have a precise time on that sphere of influence change, the point of which the Moon - for calculation purposes here. Mission Control, comes under the predominate influence - the spacecraft comes under the predominate influence of the Moon's gravitational field, and we now calculate that that will occur at 61 hours, 39 minutes, 55 seconds, Ground Elapsed Time.
+058:00:15|P|PAO|This is Apollo Control. That was Neil Armstrong reporting that they are now reinstalling the probe and drogue, which is just about on the Flight Plan schedule, and they reported that they would be putting the spacecraft in a slow roll shortly to maintain Passive Thermal Control. In that mode the spacecraft rotates at the rate of about 3 revolutions per hour to maintain even heating. We have a precise time on that sphere of influence change, the point of which the Moon - for calculation purposes here. Mission Control, comes under the predominate influence - the spacecraft comes under the predominate influence of the Moon's gravitational field, and we now calculate that that will occur at 61 hours, 39 minutes, 55 seconds, Ground Elapsed Time.
 058:06:08|T|CC|Hello, Apollo 11. Houston. Mike, there's no wait required. Where rates are steady, you can proceed on. Over.
-058:06:17|T|CMP|I'm doing it, Charlie.
-058:06:18|T|CC|Roger.
-058:06:24|T|CMP|The tunnel's all taken care of, the drogue, probe, and hatch all back.
+058:06:16|T|CDR|I'm doing it, Charlie.
+058:06:17|T|CC|Roger.
+058:06:24|T|CMP|The tunnel's all taken care of, the drogue, probe, and hatch all back in.
 058:06:28|T|CC|Roger. Copy. Out.
 058:10:01|T|CC|Hello, Apollo 11. Houston. We have some new additions to your alternate contingency checklist if you would break that out. Over.
 058:10:15|T|CDR|Stand by.
 058:11:46|T|CDR|Okay, Houston. 11's ready to copy.
-058:11:48|T|CC|Roger, 11. If you'll turn to page F2-22. Over
-058:12:27|T|CDR|Okay. I have F2-22.
-058:12:31|T|CC|Roger, Neil. Under column 1 - that's column Lima, line 06. The new data is 00001. Line 07, the new data is 02134. Over.
-058:13:01|T|CDR|Okay. I have in F2-22, column Lima, item 6, 00001; item 7, 02134.
+058:11:48|T|CC|Roger, 11. If you'll turn to page F/2-22. Over
+058:12:27|T|CDR|Okay. I have F/2-22.
+058:12:31|T|CC|Roger, Neil. Under column L - that's column Lima, line 06. The new data is 00001. Line 07, the new data is 02134. Over.
+058:13:02|T|CDR|Okay. I have in F2-22, column Lima, item 6, 00001; item 7, 02134.
 058:13:20|T|CC|Roger. That's correct. Thank you much. Out.
 058:13:37|T|CC|11, Houston. For your information, those two entries are an update to your DELTA-H that we have already uplinked into the CMC. Over.
 058:13:47|T|CDR|Roger. Thank you.
 058:14:04|T|CMP|What was I marking on, Charlie? About an 18-kilometer line, or what?
 058:14:09|T|CC|We - Our update puts you to - the DELTA-H to 35 kilometers, Mike. Over.
 058:14:17|T|CMP|Okay.
-058:19:24|T|CC|Hello, Apollo 11. Houston. We've got some switch positions for you for the high gain. Over.
-058:19:33|T|LMP|Okay. Go ahead.
+058:19:24|T|CC|Hello, Apollo 11. Houston. We've got some switch positions for you for the high-gain. Over.
+058:19:34|T|LMP|Okay. Go ahead.
 058:19:35|T|CC|Roger, Buzz. Select Bravo, OMNI, HIGH-GAIN TRACK to MANUAL; BEAM, WIDE. Over.
-058:19:48|T|LMP|Okay. Bravo, OMNI; TRACK, MANUAL; and BEAM, WIDE.
+058:19:49|T|LMP|Okay. Bravo, OMNI; TRACK, MANUAL; and BEAM, WIDE.
 058:19:53|T|CC|Roger. And your high-gain angles are minus 50 on the pitch, 270 on the yaw. Over.
 058:20:03|T|LMP|Okay. Going there now.
-058:41:22|T|CC|Hello, Apollo 11. Houston. We have some updates and some things we'd like to talk to you about, if you aren't in the middle of your meal. If it's convenient anytime for you, we're ready with some updates. Over.
-058:41:46|T|CDR|What - What are the updates going to apply to?
-058:41:51|T|CC|Roger. We have a couple of changes on the LM mission rules NO GO for your NO GO card, Neil. One slight change on the APS/DPS fuel and TEMP pressure card, and we have a change to the procedure for the secondary radiator leak check, which is to be formed at - performed at 71 hours tomorrow, and also some indications that we have a couple of landing site obliques stowed in the wrong place. Over.
-058:42:36|T|CDR|Okay. Is any of those in the Flight Plan? The secondary radiator, for example?
-058:42:43|T|CC|That's affirmative. The secondary radiator leak check is called out in the Flight Plan at 71 20. That procedure is listed in your launch operations book on page 2 9, L2 9. We'd like to change that procedure. Over.
-058:43:08|T|CDR|Okay. Stand by.
-058:43:25|T|CMP|Charlie, on the secondary leak check, just read it verbatim like you want, and I'll copy directly into the Flight Plan and not fool around with the checklist.
-058:43:32|T|CC|Roger. That's fine. If you're ready to copy, stand by.
-058:43:37|T|CMP|Ready to copy on the leak check.
-058:43:40|T|CC|Roger. It's monitor secondary accumulator quantity. Step 2 is secondary glycol to radiator valve, NORMAL for 30 seconds, then BYPASS. If no decrease in secondary accumulator quantity - Are you with me?
-058:44:21|T|CMP|Yes, I'm with you.
-058:44:22|T|CC|Okay. If no decrease in secondary accumulator quantity, secondary glycol to radiator valve to NORMAL. Next step, secondary coolant loop pump, AC 1 or AC 2. After 3 minutes, verify glycol discharge secondary pressure 39 to 51 psig. Also verify secondary EVAP out TEMP has changed. Next step, secondary coolant loop pump, OFF. Secondary glycol to radiator valve, BYPASS. That ends the procedure. Over.
-058:45:52|T|CMP|Okay. I read back: monitor secondary accumulator quantity; secondary glycol radiator valve, NORMAL for 30 seconds, then to BYPASS. If no decrease in secondary accumulator quantity, secondary glycol to radiator valve to NORMAL. Secondary coolant loop pump, AC 1 or 2. After 3 minutes, verify glycol secondary discharge pressure 39 to 51 psig. Verify secondary evaporator outlet TEMP has changed. Secondary coolant loop pump, OFF. Secondary glycol radiator valve to BYPASS. And what's the reason for the change, Charlie?
-058:46:27|T|CC|Roger. Stan is concerned that our present procedure as shown in the checklist does not really flow glycol through the radiator, and it - They want to verify that we do not have a plugged secondary radiator. Over.
-058:46:48|T|CMP|Okay. They have any abnormal indications in that system, so far?
-058:46:52|T|CC|Negative. This is the procedure that they came up with. It's just a check, Mike. Everything's looking great to us. Over.
-058:47:02|T|CMP|Okay. Fine.
-058:47:31|T|CDR|Charlie, we'll get back with you on these other changes in a few minutes. Okay?
-058:47:38|T|CC|Roger, Neil. No hurry. Over.
-058:51:00|P|PAO|This is Apollo Control at 59 hours, 9 minutes. Apollo 11 now 182,000 nautical miles from Earth, and the velocity down to 3072 feet per second. We've had very little conversation from the spacecraft in the past 40 minutes or so. At this time the Flight Plan calls for the crew to be getting ready to begin their eat period. That would be followed by a 9 hour rest period. We have one change to the Flight Plan to pass along. The television transmission which had been scheduled at 100 hours, 20 minutes to 100 hours, 50 minutes in the Flight Plan has been deleted. This transmission was to have occurred during the formation flying prior to the powered descent to the lunar surface. The decision to delete the TV transmission from the Flight Plan was made due to a lack of available satellite channels to relay the signal from the tracking site of Madrid to Houston for conversion. The intermittent music that we're getting is apparently coming from the spacecraft. The crew has onboard portable tape recorders with music on the tapes. As they store their own comments on the tape, the music of course is erased, and apparently the music is triggering the VOX operated microphones and we're getting intermittent music down from the spacecraft.
-058:51:00|P|PAO|This is Apollo Control. That comment a moment ago about the tenth anniversary of - about the third anniversary of Gemini 10 came from Mike Collins, who along with John Young flew the Gemini 10 mission, July 18 through July 21, 1966.
-059:10:57|T|CC|11, Houston. We're wondering who's on horn.
-059:11:09|T|CMP|Say again, Houston?
-059:11:12|T|CC|We just had a little music there.
-059:11:21|T|CMP|We'll keep you entertained.
-059:11:28|T|CC|Roger. That was good. You can keep it coming down, 11.
-059:11:36|T|CMP|Okay.
-059:12:34|T|CMP|Because it's a special occasion today, Houston. This is the third anniversary of Gemini 10.
-059:12:42|T|CC|Roger. Happy anniversary.
-059:12:51|T|CMP|Thank you, sir.
-059:16:00|P|PAO|about the third anniversary of Gemini 10 came from Mike Collins, who along with John Young flew the Gemini 10 mission, July 18th through July 21, 1966. The brief bit of music that we got from the spacecraft was coming to us from a distance of 182 thousand 190 nautical miles.
-059:19:32|T|LMP|Houston, Apollo 11. Ready to copy your update.
-059:19:35|T|CC|Roger. Stand by.
-059:19:50|T|CC|Okay, Buzz. The first item is that we have indications that your landing site obliques are not in the proper position. If you'll check, we think that the intermediate scale landing site oblique is stowed in the CSM lunar landmark book. We think that the large scale landing site oblique is stowed in the back of the LM lunar surface map book. Over.
-059:20:38|T|LMP|I think I heard you Charlie, but I'm not sure that I understand.
-059:20:45|T|CC|Roger. According to our stowage list the - the landing site oblique should be in the transfer bag. In - But in the backup set of data, the intermediate scale oblique is in the CSM lunar landmark book, and the large scale oblique is in the back of the LM lunar surface map book; and that's the reason we think that they might be not where you think they are. Over.
-059:21:15|T|LMP|Okay. We've got three obliques. The last one is one I asked for recently. It's just a blow up of the second one. The first one is one that's got dotted lines on it, indicating horizon view and 50-degree LPD; and all three of those are in the transfer book. Over.
-059:21:34|T|CC|Roger. Fine. We were wrong in our - in our backup set. We had those out of place. Looks like the onboard data's good. We just wanted to let you check on that one. We have an update on the APS/DPS fuel card that you place on the panel. It's a typo error. If you'll break out that little card, we've got the - correct that typo error. Over.
-059:22:10|T|LMP|Stand by.
-059:23:05|T|LMP|Okay. I got it.
-059:23:07|T|CC|Roger, Buzz. Under the DPS column on the pressure side, you go down to the fourth item, says pressure greater than 150 PTCA should be greater than 65 percent. Over.
-059:23:28|T|LMP|Okay. That's greater than 1.8 but less than 65 and greater than 150 for greater than 65.
-059:23:35|T|CC|That's affirmative. Out.
-059:23:46|T|CC|And we have three items on the mission rules NO-GO card, if you're ready to copy those. Over.
-059:24:32|T|LMP|Okay. I've got the mission rules NO-GO.
-059:24:34|T|CC|Roger, Buzz. First entry's on the EPS under AC bus A. The line extends all the way to high gate. Actually, the line should read - at DOI it would be NO-GO AC bus A. After that the NO-GO would be both buses. So if you will just pencil in both buses from PDI through high gate, it'll be correct for that line. Over.
-059:25:20|T|LMP|Okay. I've got that: AC bus A for DOI and both buses NO-GO for PDI on.
-059:25:28|T|CC|That's affirmative up until high gate. You can stop at the line in front of the column "5 minutes to low gate". Now the next line is under the G&C PGNS, pitch and roll GDA's. You can scratch that line completely. Over.
-059:25:56|T|LMP|Roger. Got it.
-059:25:57|T|CC|Okay, Buzz. Last entry is down under RCS, and it's a typo error under the three - in the line "three axis attitude control". If you proceed to the right at PDI plus 05, you'll see one axis. The line goes all the way to low gate to touchdown. That's incorrect. The line should stop under "5 minutes to low gate". Over.
-059:26:38|T|LMP|Okay. We're stopping that at "5 minutes to low gate".
-059:26:41|T|CC|That's affirmative. That completes that card. The rest of the updates are just really for your information based on our 58 hour platform - look at the platform. We are really good shape. Your GYRO's have almost no drift in them since - plotted update we were looking at X of a minus 2.24 ... Y of point plus 0.87, Z of minus 0.11. Since the update, which was based on the 52 hour P52, I believe, we gave you an X drift of plus 0.79, yaw of plus 1.06, Z of plus 0.02 ... I can see the difference between the 52 hour and the 57 hour alignments were - did not really give us enough time to get a real good or completely valid update on the drift check. So we're real satisfied with the way the GYRO's are looking. The PIPA's are looking great also. We are in real good shape with those, too. Over.
-059:32:21|T|CDR|This is Apollo 11. Radio check.
-059:32:23|T|CC|Roger. Reading you five by. How me? Over.
-059:32:28|T|CDR|Okay. Loud and clear. You cut out when you were talking about the platform - something about 52 hours and after that, we never heard you again.
-059:32:37|T|CC|Roger. Guess we were changing antennas. Stand by. That's affirmative, 11. We were swapping antennas on you down here. Basically the word is that we have a real good platform, very small drift on the GYRO's, and very small drift in the PIPA's. Over.
-059:33:00|T|CDR|Roger. Thank you. And I would like to have a few words of clarification if you will give them to me on the RCS ... what that change of pitch may mean.
-059:33:14|T|CC|Copy. A few words of clarification on the RCS? Oh. Roger. The update there, Neil, you are speaking of about the one axis down to 5 minutes of low gate?
-059:33:31|T|CDR|Yes. That's right. I'm not quite sure what that ... means beyond 5 minutes.
-059:33:38|T|CC|Stand by. I'll make sure I got my story straight with Control. Stand by.
-059:33:44|T|CDR|Okay.
-059:34:33|T|CC|11, Houston. On the RCS, what we are saying is that if we lose control about one axis prior to low gate, we would recommend an abort. This would require a - a loss of - of two distinct jets which is not very probable, but that is what we are recommending. After low gate we would continue on. We would recommend that we continue on to attempt a landing. Over.
-059:35:13|T|CDR|Roger. I think I ...
-059:35:17|T|CC|Roger.
-059:35:45|T|CMP|Charlie, did you say you had some updates for me from the lunar surface book?
-059:35:49|T|CC|Apollo 11, say again. You were cut out. Over.
-059:35:55|T|CMP|Roger. Did you say you had some updates for us in the lunar surface book. Over.
-059:36:00|T|CC|Negative. At this time, we do not have any updates for the lunar surface book. We wanted you to have it just in case. Over.
-059:36:12|T|CMP|Roger. You were cut out that time.
-059:36:15|T|CC|Roger. At the present time, we do not have any updates for you on the lunar surface book. We are thinking about some and kicking them around, but they're very minor changes. Over.
-059:36:37|T|CC|11, Houston. Did you copy that transmission?
-059:37:09|T|CC|Apollo 11, Houston. We swapped antennas on you again. I say again that we do not have any lunar surface update - book updates at this time. We're considering a few minor ones, but we're still kicking them around the MOCR. Over.
-059:37:27|T|CMP|Apollo 11, I understand.
-059:45:31|T|CDR|Houston, 11. We have a crew status report for you.
-059:45:34|T|CC|Roger. Go ahead, 11.
-059:45:39|T|CDR|Okay. Radiation: CDR 11009, CMP 10010, LMP 09011. No medication.
-059:45:55|T|CC|Roger, 11. We copy for the radiations. And, we're considering - this PTC looks sort of weird to us, so we're considering stopping and starting over again, and we'll be with you in a couple of minutes. Over.
-059:46:15|T|CDR|Okay.
-059:47:46|T|CC|Apollo 11, Houston. Would you give us the LM/CM DELTA-P reading? Over.
-059:48:45|T|CC|Hello, Apollo 11. Houston. We switched the antennas on you again. Would you please give us the LM/CM DELTA-P reading? Over.
-059:49:43|T|CC|Hello, Apollo 11. Houston. Over.
-059:49:48|T|CDR|Go ahead. 11 here.
-059:49:50|T|CC|Roger. We switched antennas on you, there, moments ago, Neil. Could you please give us the LM/CM DELTA-P reading? Over.
-059:50:00|T|CDR|It's less than 0.1.
-059:50:02|T|CC|Roger.
-059:50:13|T|CMP|0.15, now, Neil says, Charlie.
-059:50:16|T|CC|Roger. Thank you, Mike. Could you give us some help? This PTC is strange: it's not like anything we've seen before. We were wondering if you have had any events or any odd data that could help us out. Over.
-059:50:35|T|CMP|I didn't understand that. Say again.
-059:50:38|T|CC|Roger. We're looking at a - sort of a funny looking PTC. We've already drifted out to 70 degrees in pitch and we're wondering if you all have had any vents or any such thing as that, that could have caused us to pick up these rates to drive us off. Over.
-059:51:00|P|PAO|This is Apollo Control at 59 hours 57 minutes. A few moments ago you heard Capcom Charlie Duke advise the crew to terminate the Passive Thermal Control mode that they are presently in and reestablish the three revolution per hour roll rate about the spacecraft longitudinal axis that is used for thermal control. We had noticed a unexplained deviation from the attitude that the spacecraft was set up in. In this roll mode ideally it would roll about the longitudinal axis with very little wobble and if wobble is introduced for one reason or another, the Reaction Control System jets would come on as soon as the motion out of the prescribed plane had occurred and gone beyond prescribed limits, in this case 30 degrees to correct. The jet firings on past missions do tend to disturb the crews sleep. Rather than have the Reaction Control System jets come on during the night and perhaps have to awaken the crew to reestablish the Passive Thermal Control at that time we elected to correct it now.
-059:51:09|T|CMP|Negative, Charlie. We don't know of anything.
-059:51:11|T|CC|Roger.
-059:51:13|T|CMP|Unless it's got something to do with that entry from the position that we want to be in. I don't know.
-059:51:21|T|CC|Roger. When we started off, it looked real fine to us. Now it's drifting off with a funny pattern that we haven't seen previously on a flight. And we're just trying to figure out - I think we'll probably start it over again. We'll be with you momentarily. Over.
-059:51:39|T|CMP|Okay.
-059:55:12|T|CC|Apollo 11, Houston. We hate to say it, but we'd like to terminate this PTC and start over again. We have no assurance that we're going to get it through the sleep period with this funny configuration, or funny pattern. We'd like you to stop it now and go back to pitch 090, yaw 0, and roll - whatever you stop on. Over.
-059:55:42|T|CMP|Roger.
-059:58:37|T|CC|11, Houston. We recommend you disable Bravo and Charlie; select quads Alfa and Delta. Over.
-059:59:25|T|CC|Apollo 11, Houston. Over.
-060:01:00|P|PAO|This is Apollo Control. We're getting quite a bit of noise on the air to ground circuit at this time as the spacecraft rotates from one OMNI antenna around to the next and we momentarily lose lock-on. At this time, Apollo 11 is 183,544 nautical miles from Earth and the velocity, holding fairly constant now, at about 3042 feet per second. It's been moving down towards 3000 feet per second and seems to be leveling off somewhat.
-060:01:00|P|PAO|This is Apollo Control. We're going to take the air to ground circuit down temporarily until a stronger antenna lock is - . Here's a call to the crew. We'll stand by for that.
-060:01:00|P|PAO|This is Apollo Control. We will take down the air to ground circuit down at this time until we reestablish sufficient signal strength to eliminate the noise on the circuit.
-060:02:30|T|CC|Apollo 11, Houston. Over.
-060:03:07|T|CC|Apollo 11, Houston. Over.
+058:41:23|T|CC|Hello, Apollo 11. Houston. We have some updates and some things we'd like to talk to you about, if you aren't in the middle of your meal. If it's convenient anytime for you, we're ready with some updates. Over.
+058:41:47|T|CDR|What - What are the updates going to apply to?
+058:41:52|T|CC|Roger. We have a couple of changes on the LM mission rules NO GO for your NO GO card, Neil. One slight change on the APS/DPS fuel and TEMP pressure card, and we have a change to the procedure for the secondary radiator leak check, which is to be formed at - performed at 71 hours tomorrow, and also some indications that we have a couple of landing site obliques stowed in the wrong place. Over.
+058:42:37|T|CDR|Okay. Is any of those in the Flight Plan? The secondary radiator, for example?
+058:42:44|T|CC|That's affirmative. The secondary radiator leak check is called out in the Flight Plan at 71:20. That procedure is listed in your launch operations book on page 2-9, L/2-9. We'd like to change that procedure. Over.
+058:43:09|T|CDR|Okay. Stand by.
+058:43:26|T|CMP|Charlie, on the secondary leak check, just read it verbatim like you want, and I'll copy directly into the Flight Plan and not fool around with the checklist.
+058:43:33|T|CC|Roger. That's fine. If you're ready to copy, stand by.
+058:43:38|T|CMP|Ready to copy on the leak check.
+058:43:41|T|CC|Roger. It's monitor secondary accumulator quantity. Step 2 is secondary glycol to radiator valve, NORMAL for 30 seconds, then BYPASS. If no decrease in secondary accumulator quantity - Are you with me?
+058:44:22|T|CMP|Yes, I'm with you.
+058:44:23|T|CC|Okay. If no decrease in secondary accumulator quantity, secondary glycol to radiator valve to NORMAL. Next step, secondary coolant loop pump, AC 1 or AC 2. After 3 minutes, verify glycol discharge secondary pressure 39 to 51 psig. Also verify secondary EVAP out TEMP has changed. Next step, secondary coolant loop pump, OFF. Secondary glycol to radiator valve, BYPASS. That ends the procedure. Over.
+058:45:53|T|CMP|Okay. I read back: monitor secondary accumulator quantity; secondary glycol radiator valve, NORMAL for 30 seconds, then to BYPASS. If no decrease in secondary accumulator quantity, secondary glycol to radiator valve to NORMAL. Secondary coolant loop pump, AC 1 or 2. After 3 minutes, verify glycol secondary discharge pressure 39 to 51 psig. Verify secondary evaporator outlet TEMP has changed. Secondary coolant loop pump, OFF. Secondary glycol radiator valve to BYPASS. And what's the reason for the change, Charlie?
+058:46:29|T|CC|Roger. Stan is concerned that our present procedure as shown in the checklist does not really flow glycol through the radiator, and it - They want to verify that we do not have a plugged secondary radiator. Over.
+058:46:49|T|CMP|Okay. They have any abnormal indications in that system, so far?
+058:46:53|T|CC|Negative. This is the procedure that they came up with. It's just a check, Mike. Everything's looking great to us. Over.
+058:47:03|T|CMP|Okay. Fine.
+058:47:33|T|CDR|Charlie, we'll get back with you on these other changes in a few minutes. Okay?
+058:47:39|T|CC|Roger, Neil. No hurry. Over.
+059:08:52|P|PAO|This is Apollo Control at 59 hours, 9 minutes. Apollo 11 now 182,000 nautical miles from Earth, and the velocity down to 3,072 feet per second. We've had very little conversation from the spacecraft in the past 40 minutes or so. At this time the Flight Plan calls for the crew to be getting ready to begin their eat period. That would be followed by a 9 hour rest period. We have one change to the Flight Plan to pass along. The television transmission which had been scheduled at 100 hours, 20 minutes to 100 hours, 50 minutes in the Flight Plan has been deleted. This transmission was to have occurred during the formation flying prior to the powered descent to the lunar surface. The decision to delete the TV transmission from the Flight Plan was made due to a lack of available satellite channels to relay the signal from the tracking site of Madrid to Houston for conversion. The intermittent music that we're getting is apparently coming from the spacecraft. The crew has onboard portable tape recorders with music on the tapes. As they store their own comments on the tape, the music of course is erased, and apparently the music is triggering the VOX operated microphones and we're getting intermittent music down from the spacecraft.
+059:10:59|T|CC|11, Houston. We're wondering who's on horns.
+059:11:10|T|CDR|Say again, Houston?
+059:11:13|T|CC|We just had a little music there.
+059:11:22|T|CDR|We'll keep you entertained.
+059:11:30|T|CC|Roger. That was good. You can keep it coming down, 11.
+059:11:38|T|CDR|Okay.
+059:12:36|T|CMP|Because it's a special occasion today, Houston. This is the third anniversary of Gemini 10.
+059:12:47|T|CC|Roger. Happy anniversary.
+059:12:52|T|CMP|Thank you, sir. (music)
+059:14:56|P|PAO|This is Apollo Control. That comment a moment ago about the tenth anniversary of - about the third anniversary of Gemini 10 came from Mike Collins, who along with John Young, flew the Gemini 10 mission, July 18 through July 21, 1966. The brief bit of music that we got from the spacecraft was coming to us from a distance of 182,190 nautical miles.
+059:19:33|T|LMP|Houston, Apollo 11. Ready to copy your update.
+059:19:36|T|CC|Roger. Stand by.
+059:19:52|T|CC|Okay, Buzz. The first item is that we have indications that your landing site obliques are not in the proper position. If you'll check, we think that the intermediate scale landing site oblique is stowed in the CSM lunar landmark book. We think that the large scale landing site oblique is stowed in the back of the LM lunar surface map book. Over.
+059:20:39|T|LMP|I think I heard you Charlie, but I'm not sure that I understand.
+059:20:47|T|CC|Roger. According to our stowage list the - the landing site oblique should be in the transfer bag. In - But in the backup set of data, the intermediate scale oblique is in the CSM lunar landmark book, and the large scale oblique is in the back of the LM lunar surface map book; and that's the reason we think that they might be not where you think they are. Over.
+059:21:17|T|LMP|Okay. We've got three obliques. The last one is one I asked for recently. It's just a blow up of the second one. The first one is one that's got dotted lines on it, indicating horizon view and 50-degree LPD; and all three of those are in the transfer book. Over.
+059:21:36|T|CC|Roger. Fine. We were wrong in our - in our backup set. We had those out of place. Looks like the onboard data's good. We just wanted to let you check on that one. We have an update on the APS/DPS fuel card that you place on the panel. It's a typo error. If you'll break out that little card, we've got the - correct that typo error. Over.
+059:22:11|T|LMP|Stand by.
+059:23:06|T|LMP|Okay. I got it.
+059:23:08|T|CC|Roger, Buzz. Under the DPS column on the pressure side, you go down to the fourth item, says pressure greater than 150 PTCA should be greater than 65 percent. Over.
+059:23:30|T|LMP|Okay. That's greater than 120 for less than 65 and greater than 150 for greater than 65.
+059:23:37|T|CC|That's affirmative. Out.
+059:23:47|T|CC|And we have three items on the mission rules NO-GO card, if you're ready to copy those. Over.
+059:24:33|T|LMP|Okay. I've got the mission rules NO-GO.
+059:24:36|T|CC|Roger, Buzz. First entry's on the EPS under AC bus A. The line extends all the way to high gate. Actually, the line should read - at DOI it would be NO-GO AC bus A. After that the NO-GO would be both buses. So if you will just pencil in both buses from PDI through high gate, it'll be correct for that line. Over.
+059:25:22|T|LMP|Okay. I've got that: AC bus A for DOI and both buses NO-GO for PDI on.
+059:25:30|T|CC|That's affirmative up until high gate. You can stop at the line in front of the column "5 minutes to low gate". Now the next line is under the G&C PGNS, pitch and roll GDA's. You can scratch that line completely. Over.
+059:25:57|T|LMP|Roger. Got it.
+059:25:59|T|CC|Okay, Buzz. Last entry is down under RCS, and it's a typo error under the three - in the line "three axis attitude control". If you proceed to the right at PDI plus 05, you'll see one axis. The line goes all the way to low gate to touchdown. That's incorrect. The line should stop under "5 minutes to low gate". Over.
+059:26:40|T|LMP|Okay. We're stopping that at "5 minutes to low gate".
+059:26:43|T|CC|That's affirmative. That completes that card. The rest of the updates are just really for your information based on our 58 hour platform - look at the platform. We are really good shape. Your GYRO's have almost no drift in them since - plotted update we were looking at X of a minus 2.24 ... Y of point plus 0.87, Z of minus 0.11. Since the update, which was based on the 52 hour P52, I believe, we gave you an X drift of plus 0.79, yaw of plus 1.06, Z of plus 0.02 ... I can see the difference between the 52 hour and the 57 hour alignments were - did not really give us enough time to get a real good or completely valid update on the drift check. So we're real satisfied with the way the GYRO's are looking. The PIPA's are looking great also. We are in real good shape with those, too. Over.
+059:32:23|T|CDR|This is Apollo 11. Radio check.
+059:32:25|T|CC|Roger. Reading you five by. How me? Over.
+059:32:29|T|CDR|Okay. Loud and clear. You cut out when you were talking about the platform - something about 52 hours and after that, we never heard you again.
+059:32:39|T|CC|Roger. Guess we were changing antennas. Stand by. That's affirmative, 11. We were swapping antennas on you down here. Basically the word is that we have a real good platform, very small drift on the GYRO's, and very small drift in the PIPA's. Over.
+059:33:02|T|CDR|Roger. Thank you. And I would like to have a few words of clarification if you will give them to me on the RCS ... what that change of pitch may mean.
+059:33:16|T|CC|Copy. A few words of clarification on the RCS? Oh. Roger. The update there, Neil, you are speaking of about the one axis down to 5 minutes of low gate?
+059:33:32|T|CDR|Yes. That's right. I'm not quite sure what that ... means beyond 5 minutes.
+059:33:40|T|CC|Stand by. I'll make sure I got my story straight with Control. Stand by.
+059:33:46|T|CDR|Okay.
+059:34:35|T|CC|11, Houston. On the RCS, what we are saying is that if we lose control about one axis prior to low gate, we would recommend an abort. This would require a - a loss of - of two distinct jets which is not very probable, but that is what we are recommending. After low gate we would continue on. We would recommend that we continue on to attempt a landing. Over.
+059:35:15|T|CDR|Roger. I think I understand.
+059:35:19|T|CC|Roger.
+059:35:47|T|LMP|Charlie, did you say you had some updates for me from the lunar surface book?
+059:35:52|T|CC|Apollo 11, say again. You were cut out. Over.
+059:35:57|T|LMP|Roger. Did you say you had some updates for us in the lunar surface book. Over.
+059:36:02|T|CC|Negative. At this time, we do not have any updates for the lunar surface book. We wanted you to have it just in case. Over.
+059:36:14|T|LMP|Roger. You were cut out that time.
+059:36:17|T|CC|Roger. At the present time, we do not have any updates for you on the lunar surface book. We are thinking about some and kicking them around, but they're very minor changes. Over.
+059:36:39|T|CC|11, Houston. Did you copy that transmission?
+059:37:11|T|CC|Apollo 11, Houston. We swapped antennas on you again. I say again that we do not have any lunar surface update - book updates at this time. We're considering a few minor ones, but we're still kicking them around the MOCR. Over.
+059:37:29|T|LMP|Apollo 11, understand.
+059:45:34|T|CDR|Houston, 11. We have a crew status report for you.
+059:45:37|T|CC|Roger. Go ahead, 11.
+059:45:41|T|CDR|Okay. Radiation: CDR 11009, CMP 10010, LMP 09011. No medication.
+059:45:58|T|CC|Roger, 11. We copy for the radiations. And, we're considering - this PTC looks sort of weird to us, so we're considering stopping and starting over again, and we'll be with you in a couple of minutes. Over.
+059:46:17|T|CDR|Okay.
+059:47:49|T|CC|Apollo 11, Houston. Would you give us the LM/CM DELTA-P reading? Over.
+059:48:48|T|CC|Hello, Apollo 11. Houston. We switched the antennas on you again. Would you please give us the LM/CM DELTA-P reading? Over.
+059:49:46|T|CC|Hello, Apollo 11. Houston. Over.
+059:49:51|T|CMP|Go ahead. 11 here.
+059:49:53|T|CC|Roger. We switched antennas on you, there, moments ago, Neil. Could you please give us the LM/CM DELTA-P reading? Over.
+059:50:02|T|CMP|It's less than 0.1.
+059:50:05|T|CC|Roger.
+059:50:15|T|CMP|0.15, now, Neil says, Charlie.
+059:50:18|T|CC|Roger. Thank you, Mike. Could you give us some help? This PTC is strange: it's not like anything we've seen before. We were wondering if you have had any events or any idea that could help us out. Over.
+059:50:38|T|CMP|I didn't understand that. Say again.
+059:50:40|T|CC|Roger. We're looking at a - sort of a funny looking PTC. We've already drifted out to 70 degrees in pitch and we're wondering if you all have had any vents or any such thing as that, that could have caused us to pick up these rates to drive us off. Over.
+059:51:11|T|CMP|Negative, Charlie. We don't know of anything.
+059:51:14|T|CC|Roger.
+059:51:15|T|CMP|Unless it's got something to do with that entry from ... from the position that we want to be in. I don't know.
+059:51:23|T|CC|Roger. When we started off, it looked real fine to us. Now it's drifting off with a funny pattern that we haven't seen previously on a flight. And we're just trying to figure out - I think we'll probably start it over again. We'll be with you momentarily. Over.
+059:51:42|T|CMP|Okay.
+059:55:15|T|CC|Apollo 11, Houston. We hate to say it, but we'd like to terminate this PTC and start over again. We have no assurance that we're going to get it through the sleep period with this funny configuration, or funny pattern. We'd like you to stop it now and go back to pitch 090, yaw 0, and roll - whatever you stop on. Over.
+059:55:44|T|CMP|Roger.
+059:57:12|P|PAO|This is Apollo Control at 59 hours 57 minutes. A few moments ago you heard Capcom, Charlie Duke advise the crew to terminate the Passive Thermal Control mode that they are presently in and reestablish the three revolution per hour roll rate about the spacecraft longitudinal axis that is used for thermal control. We had noticed a unexplained deviation from the attitude that the spacecraft was set up in. In this roll mode, ideally, it would roll about the longitudinal axis with very little wobble and if wobble is introduced for one reason or another, the Reaction Control System jets would come on as soon as the motion out of the prescribed plane had occurred and gone beyond prescribed limits, in this case 30 degrees to correct. The jet firings on past missions do tend to disturb the crews sleep. Rather than have the Reaction Control System jets come on during the night and perhaps have to awaken the crew to reestablish the Passive Thermal Control at that time we elected to correct it now.
+059:58:40|T|CC|11, Houston. We recommend you disable Bravo and Charlie; select quads Alfa and Delta. Over.
+059:59:28|T|CC|Apollo 11, Houston. Over.
+060:00:43|P|PAO|This is Apollo Control. We're getting quite a bit of noise on the air to ground circuit at this time as the spacecraft rotates from one OMNI antenna around to the next, and we momentarily lose lock-on. At this time, Apollo 11 is 183,544 nautical miles from Earth and the velocity, holding fairly constant now, at about 3,042 feet per second. It's been moving down towards 3000 feet per second and seems to be leveling off somewhat.
+060:02:26|P|PAO|This is Apollo Control. We're going to take the air to ground circuit down temporarily until a stronger antenna lock is - . Here's a call to the crew. We'll stand by for that.
+060:02:33|T|CC|Apollo 11, Houston. Over.
+060:03:06|P|PAO|This is Apollo Control. We will take down the air to ground circuit down at this time until we reestablish sufficient signal strength to eliminate the noise on the circuit.
+060:03:10|T|CC|Apollo 11, Houston. Over.
 060:03:40|T|CC|Apollo 11, Houston. Over.
 060:05:55|T|CC|Apollo 11, Houston. Do you read? Over.
-060:10:00|P|PAO|This is Apollo Control at 60 hours, 10 minutes. We've reestablished good antenna lock-on this time, and we'll continue to monitor for any conversation from the spacecraft. The crew is presently reestablishing the Passive Thermal Control rotation rate of 3 revolutions per hour. Following that we expect they will begin their rest period. At the present time Apollo 11 is 183,821 nautical miles from Earth at a velocity 3037 feet per second.
+060:09:56|P|PAO|This is Apollo Control at 60 hours, 10 minutes. We've reestablished good antenna lock-on at this time, and we'll continue to monitor for any conversation from the spacecraft. The crew is presently reestablishing the Passive Thermal Control rotation rate of 3 revolutions per hour. Following that, we expect they will begin their rest period. At the present time Apollo 11 is 183,821 nautical miles from Earth at a velocity 3,037 feet per second.
 060:11:09|T|CC|Hello, Apollo 11. Hello, Apollo 11. Over.
-060:11:32|T|CDR|... Apollo 11. Go ahead.
+060:11:32|T|LMP|... Apollo 11. Go ahead.
 060:11:35|T|CC|Roger. Reading you about one-by. Looks like we picked a super attitude here for PTC stabilization. We're reading you in BACKUP VOICE now. Over.
-060:11:51|T|CDR|Roger. We read you loud and clear.
+060:11:51|T|LMP|Roger. We read you loud and clear.
 060:11:53|T|CC|Roger.
-060:12:03|T|CDR|Would you like us to pick another antenna?
+060:12:03|T|LMP|Would you like us to pick another antenna?
 060:12:06|T|CC|I think we've got about the best configuration. We've been doing it all from the ground here, 11. We'll just keep it as it is. Over.
-060:12:16|T|CDR|Roger.
+060:12:17|T|LMP|Roger.
 060:14:32|T|CC|Apollo 11, Houston. Would you select COMMAND RESET and OMNI Alfa? Over.
 060:15:03|T|CDR|Houston, 11 on OMNI Alfa.
 060:15:06|T|CC|Roger. We read you about three-by now. Over.
 060:15:12|T|CDR|Roger.
 060:17:19|T|CC|Apollo 11, Houston. We is stable; you can start the PTC. Over.
 060:17:29|T|SC|...
-060:20:59|T|CMP|Houston, Apollo 11. Checklist page F9 7; I've completed step 8, and I'd like to know what you think is ideal timing between step 8, step 9, and step 10 on that page? Over.
+060:20:58|T|CMP|Houston, Apollo 11. Checklist page F/9-7; I've completed step 8, and I'd like to know what you think is ideal timing between step 8, step 9, and step 10 on that page? Over.
 060:21:15|T|CC|Roger. Stand by.
 060:22:46|T|CC|Apollo 11, Houston. We don't see any time constraint. We'd like you to go ahead and set up the wide deadband and then go through step 10 and 11. Over.
 060:22:57|T|CMP|Okay. Will do. I don't see any constraint here, Charlie. I was just checking to make sure, because last time, I went from 8 to 9 to 10 to 11 a little bit more swiftly than I'd been doing in the past.
 060:23:09|T|CC|Roger.
 060:23:58|T|CMP|Step 11 complete.
-060:24:02|T|CC|Roger. We copy.
+060:24:01|T|CC|Roger. We copy.
 060:24:22|T|CC|Apollo 11, Houston. Would you please select OMNI Bravo? Over.
 060:24:30|T|CMP|Roger. Bravo.
 060:24:43|T|CMP|Houston, Apollo 11. How do you read on Bravo?
-060:24:46|T|CC|Roger. Reading you five-by.
-060:24:50|T|CMP|Same here.
+060:24:45|T|CC|Roger. Reading you five-by.
+060:24:51|T|CMP|Same here.
 060:25:07|T|CC|Apollo 11, Houston. Looks like we've got a good PTC going. It's good night from the White Team. Over.
 060:25:17|T|CMP|Okay. See you tomorrow. Thank you for everything.
-060:30:00|P|PAO|This is Apollo Control at 60 hours 37 minutes. We said good bye - goodnight to the crew about 10 minutes ago. We expect that they will be settling down their rest period shortly. And at the present time, Apollo 11 is 184,600 nautical miles from Earth. The spacecraft velocity is presently 3,023 feet per second. I understand there has been some interest in a comment made by Neil Armstrong during the television transmission about the EVA floodlight. Armstrong's remark was that the mast which the light is mounted on, appeared charred. He reported that the light works but had apparently the mast that supported it had apparently been damaged during the launch phase. This light would be used in the event of a contingency EVA. It would have no function in a normal mission such as we are presently flying. And in the event that a extravehicular activity was necessary for transfer of the crew from the LM into the command Service Module, the light would be an aid in providing exterior lighting of the hand rails, but would - repeat, that it'd have no function in a normal mission and the charring which Armstrong reported is not considered significant at this time. We don't expect to have any further conversation with the crew. We will continue to record any remarks that we get and play those back. The Passive Thermal Control mode, which was reestablished, appears to be functioning well at this time and all spacecraft systems are functioning normally. At 100 - rather 60 hours 39 minutes, this is Apollo Control, Houston.
+060:36:49|P|PAO|This is Apollo Control at 60 hours 37 minutes. We said goodbye - goodnight to the crew about 10 minutes ago. We expect that they will be settling down their rest period shortly. And at the present time, Apollo 11 is 184,600 nautical miles from Earth. The spacecraft velocity is presently 3,023 feet per second. I understand there has been some interest in a comment made by Neil Armstrong during the television transmission about the EVA floodlight. Armstrong's remark was that the mast which the light is mounted on, appeared charred. He reported that the light works but had apparently the mast that supported it had apparently been damaged during the launch phase. This light would be used in the event of a contingency EVA. It would have no function in a normal mission such as we are presently flying. And in the event that a extravehicular activity was necessary for transfer of the crew from the LM into the Command and Service Module, the light would be an aid in providing exterior lighting of the hand rails, but would - repeat, that it'd have no function in a normal mission and the charring which Armstrong reported is not considered significant at this time. We don't expect to have any further conversation with the crew. We will continue to record any remarks that we get and play those back. The Passive Thermal Control mode, which was reestablished, appears to be functioning well at this time and all spacecraft systems are functioning normally. At 100 - rather at 60 hours 39 minutes, this is Apollo Control, Houston.
 060:45:38|T|CDR|Houston, Apollo 11.
 060:45:41|T|CC|Go ahead, 11. Over.
-060:45:46|T|CDR|Do you have any idea where the S IVB is with respect to us?
+060:45:46|T|CDR|Do you have any idea where the S-IVB is with respect to us?
 060:45:50|T|CC|Stand by.
 060:47:00|P|PAO|This is Apollo Control an 60 hours 47 minutes. We just got a call from the spacecraft requesting that we give them the position of the S-IVB in respect to the spacecraft and we're currently coming up with that bit of information, so we'll stand by.
-060:49:02|T|CC|Apollo 11, Houston. The S IVB is about 6000 nautical miles from you now. Over.
+060:49:02|T|CC|Apollo 11, Houston. The S-IVB is about 6,000 nautical miles from you now. Over.
 060:49:14|T|CDR|Okay. Thank you.
 060:50:07|T|CMP|Houston, Apollo 11. How's the PTC looking?
 060:50:11|T|CC|Stand by.
 060:50:32|T|CC|11, Houston. The PTC looks great to us. Over.
-060:50:38|T|CMP|Hey, do you have any idea what happened to the previous one?
-060:50:42|T|CC|We have absolutely no idea. Over.
+060:50:39|T|CMP|Hey, do you have any idea what happened to the previous one?
+060:50:43|T|CC|We have absolutely no idea. Over.
 060:50:49|T|CMP|Okay. Did, it look like it was all right, then just all of a sudden start diverging?
-060:50:57|T|CC|That's negative, Mike. If you'll look at the plot, which we'll save for you and let you see it postflight, it started off immediately on the first REV and just spiraled out to about - oh 20 to - 20 degrees in pitch, and then it seemed to be setting up a spiral around an offset pitch point of about 20 degrees off from 90 degrees; but we didn't want to take a chance that it would become stable at that point. We thought it might diverge, and so we called you and started over again. Over.
+060:50:57|T|CC|That's negative, Mike. If you'll look at the plot, which we'll save for you and let you see it post-flight, it's got - it started off immediately on the first REV and just spiraled out to about - oh 20 to - 20 degrees in pitch, and then it seemed to be setting up a spiral around an offset pitch point of about 20 degrees off from 90 degrees; but we didn't want to take a chance that it would become stable at that point. We thought it might diverge, and so we called you and started over again. Over.
 060:51:39|T|CMP|Okay, no complaints. I was just curious as to what had happened.
-061:39:00|P|PAO|This is Apollo Control at 61 hours, 39 minutes. We've had no further conversation with the crew since our last report. Flight Surgeon says there is no indication at this time that they have begun to sleep, but we expect they'll be getting to sleep here shortly. Coming up in less than 10 seconds now, we'll be crossing into the sphere of influence of the Moon. A computational changeover will be made here in Mission Control. At this point as the Moon's gravitational force becomes the dominant effect on the spacecraft trajectory, and our displays will shift from Earth reference to Moon reference. At that point, which occurred a few seconds ago, the spacecraft was at a distance of 186,437 nautical miles from Earth, and 33,822 nautical miles from the Moon. The velocity with respect to the Earth was 2990 feet per second, and with respect to the Moon, about 3272 feet per second. The Passive Thermal Control mode that was set up for the second time by the crew appears to be holding well at this point, and all spacecraft systems are functioning normally. Mission going very smoothly. At 61 hours, 41 minutes, this is Apollo Control, Houston.
+061:39:18|P|PAO|This is Apollo Control at 61 hours, 39 minutes. We've had no further conversation with the crew since our last report. Flight Surgeon says there is no indication at this time that they have begun to sleep, but we expect they'll be getting to sleep here shortly. Coming up in less than 10 seconds now, we'll be crossing into the sphere of influence of the Moon. A computational changeover will be made here in Mission Control. At this point as the Moon's gravitational force becomes the dominant effect on the spacecraft trajectory, and our displays will shift from Earth reference to Moon reference. At that point, which occurred a few seconds ago, the spacecraft was at a distance of 186,437 nautical miles from Earth, and 33,822 nautical miles from the Moon. The velocity with respect to the Earth was 2,990 feet per second, and with respect to the Moon, about 3,272 feet per second. The Passive Thermal Control mode that was set up for the second time by the crew appears to be holding well at this point, and all spacecraft systems are functioning normally, the mission going very smoothly. At 61 hours, 41 minutes, this is Apollo Control, Houston.
 062:29:00|P|PAO|This is Apollo Control at 62 hours 29 minutes. The Flight Surgeon reports that the crew appears to have been asleep now for about the past 30 minutes. The spacecraft appears to be holding its Passive Thermal Control attitude very well and at this time Apollo 11 is about 32,000 miles from the Moon traveling at a speed of 3,782 feet per second. In the past 50 minutes or so, we have seen that velocity increase about 10 feet per second going from 3772 feet per second to the present 3782 as the spacecraft continues to accelerate toward the Moon. The Change of Shift Briefing following this shift will occur at about 11:15 PM Central Daylight Time. Flight Director Glynn Lunney and his team of Flight Controllers are coming on now being debriefed by the Eugene Kranz team and that shift change will be occurring shortly here. The new capsule communicator will be astronaut Ron Evans. At 62 hours 30 minutes, this is Apollo Control.
 063:29:00|P|PAO|This is Apollo Control. 63 hours 29 minutes Ground Elapsed Time. Some 5 1/2 hours remaining in the Apollo 11 crew scheduled rest period. Crew apparently soundly asleep at this time. Spacecraft now 29,715 nautical miles out from the Moon. Velocity now 3,796 feet per second. Black team Flight Director Glynn Lunney going around the room discussing with the various flight control positions the situation for the sleep shift. Talking now to flight dynamics officer on the pros and cons of doing or not doing mid course correction burn number 4. And at 63 hours 30 minutes Ground Elapsed Time, this is Apollo Control.
 064:28:00|P|PAO|This is Apollo control 64 hours, 28 minutes Ground Elapsed Time. Some 4 1/2 hours remaining now in the scheduled Apollo 11 crew sleep period. However, since there is little likelihood that mid-course correction burn number 4 will be done, since it's a very small magnitude maneuver, that the crew will be allowed to sleep another couple of hours. At this time, Apollo 11 is some 27,529 nautical miles out from the Moon traveling at a velocity of 3,812 feet per second. The black team of Flight Controllers has settled in for the night. Everything running quiet here in the Control Room. We're anticipating a playback of yesterday afternoon's TV transmission from Apollo 11 which lasted some hour and a half in which the camera was taken into the Lunar Module at the end of it's cable. This will be played back for the Flight Controllers who, at that time, were - most of them were asleep. At 64 hours, 29 minutes Ground Elapsed Time, this is Apollo control.
