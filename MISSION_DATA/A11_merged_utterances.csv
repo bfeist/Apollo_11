@@ -1433,8 +1433,8 @@
 003:28:09|O|CMP|Okay, Buzz, how am I doing on the checklist?
 003:28:12|T|CC|Apollo 11, Apollo 11, this is Houston. Radio check. Over.
 003:28:18|O|LMP|Well, I'm trying to - -
-003:28:19|O|CDR|You're at the high gain - -
-003:28:20|O|LMP|- - you're at postdocking; I'm trying to get the high gain going - and I'm having a little trouble - ... trouble.
+003:28:19|O|CDR|You're at the high-gain - -
+003:28:20|O|LMP|- - you're at postdocking; I'm trying to get the high-gain going - and I'm having a little trouble - ... trouble.
 003:28:28|O|CDR|That's MANUAL -
 003:28:32|O|CMP|Whatever you do, take some pictures.
 003:28:35|O|CDR|That should be on wide beam or ...?
@@ -1449,18 +1449,18 @@
 003:29:05|O|CDR|He was but - -
 003:29:06|O|CMP|Okay.
 003:29:07|O|CDR|- - this one was just kind of wandering around there - with no - -
-003:29:12|O|LMP|As soon as I went down to HIGH GAIN was when the signal strength came up.
+003:29:12|O|LMP|As soon as I went down to high-gain was when the signal strength came up.
 003:29:16|O|CMP|Okay, ... man.
 003:29:21|T|CC|Apollo 11, this is Houston. Radio check. Over.
 003:29:21|O|CC|Apollo 11 - -
 003:29:25|T|CDR|Roger. Loud and clear.
 003:29:27|T|CC|Roger. We're copying you about five-by-two, very weak. Can you give us a status report, please?
-003:29:35|T|CDR|Roger. We are docked. We do have acquisition with the high gain at this time, I think.
-003:29:45|T|CC|Understand you are using the high gain. Over.
+003:29:35|T|CDR|Roger. We are docked. We do have acquisition with the high-gain at this time, I think.
+003:29:45|T|CC|Understand you are using the high-gain. Over.
 003:29:49|T|CDR|That's affirmative.
 003:29:50|T|LMP|That's affirmative.
 003:29:51|T|CC|Roger. I read - I read you very loud and clear, Buzz. Mike's pretty weak.
-003:30:01|T|LMP|Roger. We've got the high gain locked on, now, I believe; AUTO tracking now.
+003:30:01|T|LMP|Roger. We've got the high-gain locked on, now, I believe; AUTO tracking now.
 003:30:06|T|CC|Okay. You're coming in loud and clear, but Mike is just barely readable.
 003:30:13|T|CMP|That was Neil. How are you reading Mike?
 003:30:15|T|CC|Loud and clear now, Mike, and we understand that you are docked.
@@ -1904,7 +1904,7 @@
 009:16:10|T|CC|Hello, Apollo 11. Houston. Do you read? Over.
 009:18:11|T|CC|Hello, Apollo 11. Houston. If you read, this attitude 000 is pretty bad for our COMM. In fact, we've lost all data with you, and unreadable on the voice. We recommend you do the P52, option 1 preferred ...
 009:18:25|T|CMP|... not a very good attitude at all for COMM, and as soon as we finish our alignment, we'll maneuver it to a different attitude. Over.
-009:18:34|T|CC|Roger, 11. We copy. Recommend you go to this P52, option 1 preferred, and then go to PTC attitude. Over. Then we'll get some COMM. When you get there to PTC attitude, it'll be pitch 90, yaw 0 on the high gain. Over.
+009:18:34|T|CC|Roger, 11. We copy. Recommend you go to this P52, option 1 preferred, and then go to PTC attitude. Over. Then we'll get some COMM. When you get there to PTC attitude, it'll be pitch 90, yaw 0 on the high-gain. Over.
 009:21:17|T|CMP|Houston, Apollo 11. Over.
 009:21:19|T|CC|Roger, 11. You're about one-by. Go ahead.
 009:21:38|T|CC|Apollo 11, Houston. You're about one-by. Go ahead. Over.
@@ -1979,7 +1979,7 @@
 010:27:14|T|CC|Apollo 11, Houston. Could you tell us - tell us if the O2 flow indicator was pegged to HIGH prior to closing the waste storage vent valve? Over.
 010:27:26|T|LMP|No, it was not.
 010:27:28|T|CC|Roger. Thank you.
-010:30:59|T|CC|Hello, Apollo 11. Houston. A while ago we tracked into the scan limits and disabled the AUTO drive on the high gain. We'd like you to position the antenna at pitch 30, yaw 270, go to REACQ and that will give us narrow beam-width. Over.
+010:30:59|T|CC|Hello, Apollo 11. Houston. A while ago we tracked into the scan limits and disabled the AUTO drive on the high-gain. We'd like you to position the antenna at pitch 30, yaw 270, go to REACQ and that will give us narrow beam-width. Over.
 010:31:26|T|CDR|That yaw 270 and pitch 3 - What was the pitch?
 010:31:31|T|CC|Pitch 30, Neil.
 010:31:34|T|CDR|Okay. I think we've got you.
@@ -2063,7 +2063,7 @@
 011:08:59|P|PAO|This is Apollo Control. During that last transmission you heard Capcom, Charlie Duke advise the crew that we are not seeing as high an O2, or oxygen flow, as we would have expected at this point. This would indicate that the enrichment of the cabin atmosphere, which was 60 percent oxygen, 40 percent nitrogen at launch and which is normally enriched with pure oxygen during the course of the/flight, is not enriching as rapidly as we would expect. This could be a transducer problem - one of the devices that measures the O2 flow rate - or possibly a partial obstruction of one of the vents. The problem is not thought to be significant at this point, and we'll be monitoring the O2 flow during the night.
 011:09:52|T|CC|Hello, Apollo 11. Houston. We have an S-band configuration for you. Over.
 011:09:58|T|LMP|Roger. Go ahead.
-011:10:00|T|CC|Roger, Buzz. We'd like you to place the S-band antenna OMNI A switch to the Bravo position. S-band antenna OMNI switch to the OMNI position, the high gain track to MANUAL, and the high gain angles will be yaw 270, pitch minus 50. Over.
+011:10:00|T|CC|Roger, Buzz. We'd like you to place the S-band antenna OMNI A switch to the Bravo position. S-band antenna OMNI switch to the OMNI position, the high-gain track to MANUAL, and the high-gain angles will be yaw 270, pitch minus 50. Over.
 011:10:25|T|LMP|Roger. Understand. OMNI to Baker and OMNI, MANUAL. And the angles are yaw 270, pitch minus 50, and was that narrow or wide? Over.
 011:10:46|T|CC|Stand by. Roger. We'd like it in WIDE, and you can set that configuration up now. Over.
 011:10:55|T|LMP|It's in work.
@@ -2335,8 +2335,8 @@
 026:38:45|T|CC|Roger, 11. Pitch minus 35, yaw 0. Over.
 026:38:51|T|CMP|Thank you.
 026:39:23|T|CC|Okay.
-026:39:25|T|CMP|Houston, Apollo 11. How do you read high gain?
-026:39:28|T|CC|Read you loud and clear on high gain down here, and everything's looking good from our standpoint for your burn. Over.
+026:39:25|T|CMP|Houston, Apollo 11. How do you read high-gain?
+026:39:28|T|CC|Read you loud and clear on high-gain down here, and everything's looking good from our standpoint for your burn. Over.
 026:39:36|T|CMP|Okay, Bruce.
 026:40:05|P|PAO|This is Apollo Control at 26 hours and 40 minutes. We're just under 4 minutes to the mid-course correction maneuver. Apollo 11's distance from the Earth is 109,245 nautical miles. Its velocity is 5,033 feet per second. Spacecraft weight 96,361 pounds.
 026:43:59|P|PAO|One minute to the burn.
@@ -2408,7 +2408,7 @@
 027:14:55|T|CC|11, Houston.
 027:14:59|T|CMP|Go ahead.
 027:15:01|T|CC|Okay. Roll for the COMM situation: have S-band antenna OMNI A in Bravo, S-band antenna OMNI to OMNI, high-gain track to MANUAL, and the pitch is minus 50 and yaw is 270.
-027:15:25|T|CMP|You may have to repeat some of that, James. We've got a LM guy taking care of the high gain right now.
+027:15:25|T|CMP|You may have to repeat some of that, James. We've got a LM guy taking care of the high-gain right now.
 027:15:30|T|LMP|Yes, and he is eyeballing the Earth.
 027:15:32|T|CMP|He's got his head out the window.
 027:15:35|T|CC|I understand, I had trouble on 12 with him, too.
@@ -2715,8 +2715,8 @@
 032:25:16|T|LMP|Roger. I'm not sure I caught all of that. Go ahead with what you have.
 032:25:23|T|CC|Roger, 11. If you'll break out your alternate and contingency checklist for the CSM, we've got an update to some of the erasable loads on page F2-20, Over.
 032:25:43|T|LMP|Okay. Be getting that out, and you can give us the attitude for TV.
-032:25:48|T|CC|Roger, 11. Your TV attitude will be roll 261, pitch 090, yaw 000. High gain angles: pitch plus 28, yaw 271. That puts the left-hand window pointed at the Earth. We recommend exiting PTC with your updated procedure in the checklist. Over.
-032:26:29|T|LMP|Roger. We copy roll 21 - 261, pitch 090, yaw 000, high gain pitch plus 28, yaw 271. And we'll like this with the DELTA-V that we have in the book. Over.
+032:25:48|T|CC|Roger, 11. Your TV attitude will be roll 261, pitch 090, yaw 000. high-gain angles: pitch plus 28, yaw 271. That puts the left-hand window pointed at the Earth. We recommend exiting PTC with your updated procedure in the checklist. Over.
+032:26:29|T|LMP|Roger. We copy roll 21 - 261, pitch 090, yaw 000, high-gain pitch plus 28, yaw 271. And we'll like this with the DELTA-V that we have in the book. Over.
 032:26:46|T|CC|That's affirmative.
 032:27:01|T|CMP|Charlie, Apollo 11. I got a couple of questions on stopping the PTC. It seems to me the easiest way to stop it would be - we're essentially, of course, at 0 degrees yaw and closing up to 90 degrees pitch, so it's just a question of stopping at 260 roll, roughly, and - How about for a procedure going MANUAL ATTITUDE, three to RATE COMMAND and then, seeing as how our deadband has already collapsed, I'll turn on the panel 8 RCS thrusters, at which time it should stop at whatever attitude it finds itself in. And if I do all of that as it comes up on 261 degrees roll, we should stop right there. Is that sufficient?
 032:27:46|T|CC|Sounds pretty good. Stand by one.
@@ -2778,7 +2778,7 @@
 032:53:57|T|LMP|Roger. What's the latest on Luna 15?
 032:54:01|T|CC|Stand by. I'll get the straight story for you.
 033:33:56|P|PAO|This is Apollo Control at 33 hours, 34 minutes. We've been advised that we are getting a television transmission from Goldstone at the present time. This is an unscheduled TV transmission apparently of the crew checking out their onboard system.
-033:35:04|P|PAO|We have lost lock on the high gain antenna at this time. Apollo 11 is presently 127,991 nautical miles from Earth, traveling at a speed of about 4400 feet per second. The regularly scheduled time for the television transmission is 6:47pm Central Daylight Time, and we are anticipating that that transmission will occur as scheduled.
+033:35:04|P|PAO|We have lost lock on the high-gain antenna at this time. Apollo 11 is presently 127,991 nautical miles from Earth, traveling at a speed of about 4400 feet per second. The regularly scheduled time for the television transmission is 6:47pm Central Daylight Time, and we are anticipating that that transmission will occur as scheduled.
 033:37:39|P|PAO|We're getting momentary lock-on. We seem to have a somewhat better picture now. Here's a call to the crew from Capcom Charlie Duke.
 033:37:53|T|CC|Hello, Apollo 11. Houston. Over.
 033:37:57|T|CMP|Go ahead, Charlie.
@@ -2861,7 +2861,7 @@
 034:15:57|T|CC|Roger. We can see portions of the LEB now. The systems test meter panel, in the lower part of the picture, or we did have it, anyway.
 034:16:09|T|CMP|Okay. And directly behind his head are our optical instruments, the sextant and the telescope that we use to take sightings with.
 034:16:19|T|CC|Roger. Copy. And we see the DSKY flashing with a 651. In fact, we can read registers 1 and 2 quite clearly.
-034:16:31|T|CMP|We have the old high gain angles telling us which way the Earth is.
+034:16:31|T|CMP|We have the old high-gain angles telling us which way the Earth is.
 034:16:35|T|CC|Copy. That's a beautiful picture. Clarity is outstanding.
 034:16:46|T|CMP|We can also give you the time of day in our system of Mission Elapsed Time. Elapsed time: 34 hours 16 minutes and umpteen seconds. Can you see that clearly enough, Charlie?
 034:16:59|T|CC|Roger, Apollo 11. We can see it counting up every - every second. We got 34:17:02 now.
@@ -2966,7 +2966,7 @@
 035:00:03|T|CC|Roger. Go ahead.
 035:00:09|T|CMP|Roger. This time the DAP didn't like 0.3. It's - We followed the procedures; we got down to 70 000 ENTER. It took off at about 0.7.
 035:00:21|T|CC|Roger. We're copying that. Stand by.
-035:00:39|T|LMP|Houston, Apollo 11. Would you like high gain back?
+035:00:39|T|LMP|Houston, Apollo 11. Would you like high-gain back?
 035:00:43|T|CC|Roger. And you - Would you select ATTITUDE HOLD? Over.
 035:01:09|T|CDR|Houston. Would you say again what your request is?
 035:01:15|T|CC|Roger, 11. We'd like you to go back to ATTITUDE HOLD. Over.
@@ -3014,7 +3014,7 @@
 035:26:08|T|CMP|Stand by one, Charlie.
 035:26:14|T|CMP|At this roll attitude, what should our high-gain angles be? Maybe that would help us locate you. We don't see you in the lens.
 035:26:23|T|CC|Stand by.
-035:27:26|T|CC|Hello, Apollo 11. Houston. Those high gain angles are pitch minus 70, yaw 90. We think the Earth is apparently pretty close to plus z-axis. Over.
+035:27:26|T|CC|Hello, Apollo 11. Houston. Those high-gain angles are pitch minus 70, yaw 90. We think the Earth is apparently pretty close to plus z-axis. Over.
 035:27:39|T|CMP|Okay.
 035:27:59|T|CMP|Okay, Charlie. I got you in the telescope.
 035:28:07|T|CC|Roger, Apollo 11. We've got a laser that we're going to - It's a blue-green laser that we're going to flash on and off at a frequency of on for a second, off for a second. It's coming out of McDonald Observatory near El Paso, which is - should be right on the terminator - or right inside the terminator. We are going to activate that momentarily. Would you please take a look through the telescope and see if you can see it. Over.
@@ -3099,7 +3099,7 @@
 036:10:30|P|PAO|This is Apollo Control at 36 hours 11 minutes. At the present time Apollo 11 is 134,000 nautical miles from Earth. The velocity is 4,216 feet per second. During that last series of transmissions from the crew, we received a status report from Buzz Aldrin and he reported that the crew has, in the past 24 hours, taken no medication. This is similar to the crew status report we received from them last night. We bid them good night at 36 hours 9 minutes or about 2 minutes ago. We anticipate that the crew will probably have a few more housekeeping type chores aboard the spacecraft before they actually turn in and also we'll probably be combining their eat period with the first part of that sleep period. At 36 hours 12 minutes into the flight of Apollo 11, this is Mission Control Houston.
 036:20:05|T|CC|Hello, Apollo 11. Houston. One request: the optics switch to zero. And we're - got a lot of theories on why it maneuvered at seven-tenths a moment ago, Mike, but no real definite answer. We'll be back with you later. Over.
 036:20:21|T|CMP|Okay. No rush, Charlie. Thank you.
-036:27:09|P|PAO|This is Apollo Control at 36 hours, 27 minutes. We have completed the processing of the unscheduled television transmission which the crew sent down from the spacecraft at about 30 hours, 24 minutes Ground Elapsed Time this evening. I would like to repeat that this was an apparent test of the onboard system. The crew turned the television equipment on and left it on for about 52 minutes. Some of the time we will have a picture of the parts of it, we don't have good lock-on, and I will not have a good solid picture. We should also point out that this transmission was made with the OMNI directional antennas, which, of course, don't provide nearly the signal strength that we would get from the high gain antenna, which would be used. We'll play back the tape of that transmission for you at this time.
+036:27:09|P|PAO|This is Apollo Control at 36 hours, 27 minutes. We have completed the processing of the unscheduled television transmission which the crew sent down from the spacecraft at about 30 hours, 24 minutes Ground Elapsed Time this evening. I would like to repeat that this was an apparent test of the onboard system. The crew turned the television equipment on and left it on for about 52 minutes. Some of the time we will have a picture of the parts of it, we don't have good lock-on, and I will not have a good solid picture. We should also point out that this transmission was made with the OMNI directional antennas, which, of course, don't provide nearly the signal strength that we would get from the high-gain antenna, which would be used. We'll play back the tape of that transmission for you at this time.
 036:52:06|T|CC|Hello, Apollo 11. Houston. Over.
 036:52:10|T|CMP|Houston, Apollo 11.
 036:52:12|T|CC|Roger. Mike, I think we can explain that 0.7 rate. When we - the first time through, you know, we failed to go through the VERB 49, so we had a large error between our actual CDU and desired CDU in roll. And with that situation, the DAP - the vehicle will roll - will maneuver, rather, at a rate that is loaded in, which was three-tenths plus four-tenths rate, and it will limit at four-tenths above the desired rate, so - that is, if we have a large enough angle between the desired and the actual, which we did. So, therefore, the rate was four tenths plus three tenths to give you the seven tenths. Over.
@@ -3312,17 +3312,17 @@
 054:32:09|T|CC|Apollo 11, this is Houston. Over.
 054:34:22|T|CC|Apollo 11, this is Houston. Over.
 054:34:31|T|CDR|Hello, Houston. Go ahead.
-054:34:33|T|CC|Roger, 11. As you've probably noticed, your coning angle in PTC mode is increased substantially as a result of the wastewater dump, the fuel cell purge, and a natural coupling, so it looks like we are going to have to terminate PTC here in a little while. And we'd like to get your feeling as to whether you're still anticipating trying to send back TV signals from inside the LM; and if so, we'll try to provide an attitude that you can hold that'll give us high gain antenna lock on the Earth during the TV and LM activation period. Over.
+054:34:33|T|CC|Roger, 11. As you've probably noticed, your coning angle in PTC mode is increased substantially as a result of the wastewater dump, the fuel cell purge, and a natural coupling, so it looks like we are going to have to terminate PTC here in a little while. And we'd like to get your feeling as to whether you're still anticipating trying to send back TV signals from inside the LM; and if so, we'll try to provide an attitude that you can hold that'll give us high-gain antenna lock on the Earth during the TV and LM activation period. Over.
 054:35:18|T|CDR|Yes, we're still planning that activity if the cord lengths work out all right, and we'll accept those attitudes that you work up for us.
 054:35:29|T|CC|This is Houston. Roger. Out.
-054:35:34|T|LMP|When you work up an attitude to get high gain, is there any way that we could get partial Sun in one of the two LM front windows?
+054:35:34|T|LMP|When you work up an attitude to get high-gain, is there any way that we could get partial Sun in one of the two LM front windows?
 054:35:45|T|CC|This is Houston. We'll have a look at it.
 054:35:53|PAO|That was Neil Armstrong confirming they will attempt TV at approximately an elapsed time of 56 hours 20 minutes and then the last of the question was by Buzz Aldrin.
 054:39:14|T|CC|Apollo 11, this is Houston. Over.
 054:39:20|T|CDR|Go ahead, Houston.
 054:39:21|T|CC|Roger. We have a TV attitude for you if you're ready to copy.
 054:39:32|T|CMP|Go ahead. Ready to copy.
-054:39:34|T|CC|Okay. We recommend stopping PTC at GET of 54:45:00, and this should put you at just about the right roll angle. The attitude we recommend is roll 263, pitch 090, yaw 000. This gives you the Earth out of window number 1 in the Command Module and places the high gain antenna in the CSM window for TV at your convenience. You will also have the Sun shining in - or shining at the hatch on the LM, and if you take down the window shades you should get some sunlight in. We're recommending wide deadband. Over.
+054:39:34|T|CC|Okay. We recommend stopping PTC at GET of 54:45:00, and this should put you at just about the right roll angle. The attitude we recommend is roll 263, pitch 090, yaw 000. This gives you the Earth out of window number 1 in the Command Module and places the high-gain antenna in the CSM window for TV at your convenience. You will also have the Sun shining in - or shining at the hatch on the LM, and if you take down the window shades you should get some sunlight in. We're recommending wide deadband. Over.
 054:40:36|T|CMP|Roger. Thank you, Houston. We'll look at that.
 054:40:41|T|CC|Roger. Out.
 054:42:54|T|CMP|Houston, Apollo 11. When we pass the proper roll angle, we're not going to be anywhere near zero degrees yaw. Do you want us to just stop at the yaw angle we find ourselves in  and then VERB 49 the three angles you gave us?
@@ -3345,10 +3345,10 @@
 054:49:50|T|CMP|Houston, Apollo 11. We're stopping PTC at 263 ... 0.
 054:49:58|T|CC|11, Houston. You're about one-by on this transmission. Say again. Over.
 054:50:07|T|CMP|Houston, Apollo 11. Do you read?
-054:51:45|T|CMP|Houston, Apollo 11. How do you read on the high gain?
+054:51:45|T|CMP|Houston, Apollo 11. How do you read on the high-gain?
 054:51:49|T|CC|11, how do you read me? Over.
-054:51:54|T|CMP|Read you loud and clear, Charlie. We just switched to HIGH GAIN, and we stopped PTC at roll 263, pitch 90, yaw 0. How do you read?
-054:52:02|T|CC|Roger, Mike. You're five-by now on the high gain. We're right between the OMNI antennas and pretty horrible COMM on the OMNI's. We got you five-by on the high gain, and we copy the PTC stoppage. Over.
+054:51:54|T|CMP|Read you loud and clear, Charlie. We just switched to high-gain, and we stopped PTC at roll 263, pitch 90, yaw 0. How do you read?
+054:52:02|T|CC|Roger, Mike. You're five-by now on the high-gain. We're right between the OMNI antennas and pretty horrible COMM on the OMNI's. We got you five-by on the high-gain, and we copy the PTC stoppage. Over.
 054:52:16|T|CMP|Okay, fine.
 054:52:35|T|CMP|Houston, we're going to open the DIRECT O2 valve and start pumping up the cabin.
 054:52:39|T|CC|Roger. Copy.
@@ -4032,7 +4032,7 @@
 071:03:52|T|CC|Yes indeed. O2 fuel cell purge at 71 hours, and when you feel like copying, I've got a Flight Plan update containing - I guess that, and some other items for you.
 071:04:08|T|LMP|Okay. Stand by.
 071:06:58|T|LMP|Houston, Apollo 11. Go ahead with the Flight Plan update.
-071:07:03|T|CC|Roger, 11. This is Houston. At approximately 71 hours to 72 hours, we have you down for an eat period which I imagine is probably in progress already. 71 hours: O2 fuel cell purge; 72 hours GET: CO2 filter change number 6, secondary radiator flow check. And we'll send you up a P37 block data on a 2 hour pass, pericynthion pass, return mode abort. At 73 hours 00 minutes: stop PTC at approximately 0 degrees roll. That is, when you're coming up on 0 degrees roll angle around 73 hours, we'd like you to stop PTC. And perform a P52 option 3 remaining in the PTC REFSMMAT for a drift check. 73 hours, 20 minutes: we'll give you a P27 update to the landing site REFSMMAT, LOI 1 state vector, and target load. 73 hours 30 minutes: a maneuver to 000 roll, pitch, and yaw; high gain antenna angles will be pitch 0, yaw 335; and perform a P52 option 1 using the new landing site REFSMMAT. Resume the nominal Flight Plan at 74 hours GET. Over.
+071:07:03|T|CC|Roger, 11. This is Houston. At approximately 71 hours to 72 hours, we have you down for an eat period which I imagine is probably in progress already. 71 hours: O2 fuel cell purge; 72 hours GET: CO2 filter change number 6, secondary radiator flow check. And we'll send you up a P37 block data on a 2 hour pass, pericynthion pass, return mode abort. At 73 hours 00 minutes: stop PTC at approximately 0 degrees roll. That is, when you're coming up on 0 degrees roll angle around 73 hours, we'd like you to stop PTC. And perform a P52 option 3 remaining in the PTC REFSMMAT for a drift check. 73 hours, 20 minutes: we'll give you a P27 update to the landing site REFSMMAT, LOI 1 state vector, and target load. 73 hours 30 minutes: a maneuver to 000 roll, pitch, and yaw; high-gain antenna angles will be pitch 0, yaw 335; and perform a P52 option 1 using the new landing site REFSMMAT. Resume the nominal Flight Plan at 74 hours GET. Over.
 071:09:07|T|LMP|Okay. We'll get started on the fuel cell purge while we're eating. CO2 canister change number 6; secondary radiator flow check; copy some pads. Also at 72 hours, stop PTC 0 roll at 73; do a P52 option 3; we'll get your uplinked REFSMMAT for the landing site; and at 000 degrees - now is this with the old REFSMMAT or the new REFSMMAT?
 071:09:44|T|CC|This is with the - -
 071:09:45|T|LMP|- - ... antenna and, pitch - -
@@ -4117,7 +4117,7 @@
 072:07:31|P|PAO|This is Apollo Control at 72 hours, 7 minutes. Apollo 11 is 9,761 nautical miles from the Moon, velocity 4,217 feet per second. Weight 9,612 pounds.
 072:13:47|T|CC|Apollo 11, this is Houston. Do you read? Over.
 072:14:37|T|CC|Apollo 11, this is Houston. How do you read? Over.
-072:14:43|T|CDR|Okay. We went to HIGH GAIN. Looks like you had a little trouble getting signal strength there.
+072:14:43|T|CDR|Okay. We went to high-gain. Looks like you had a little trouble getting signal strength there.
 072:14:48|T|CC|Roger. We missed an OMNI switch there. Over.
 072:14:55|T|CDR|All right. On the secondary loop check when we went to FLOW on the secondary radiators, the quantity dropped from 40 percent down to 36 in the first 10 seconds and then stabilized at 36 for the remainder of the 30 seconds.
 072:15:30|T|CC|Apollo 11, this is Houston. We believe that's normal system operation. The radiators are expected to be very cold right now and apparently the decrease you saw was due to contraction in the fluid. Over.
@@ -4140,12 +4140,12 @@
 072:25:12|T|CDR|Roger. Go ahead.
 072:25:14|T|CC|Roger. We're having difficulty getting commands into the spacecraft. We'd like you to cycle your UP TELEMETRY switch to COMMAND RESET and OFF and then back to NORMAL. Over.
 072:25:31|T|CDR|Okay. We'll do it.
-072:25:50|T|CDR|We have you on high gain right now. You want us to switch over to OMNI?
-072:26:02|T|CC|Negative. We Would like to stay on the high gain if we can. Over.
+072:25:50|T|CDR|We have you on high-gain right now. You want us to switch over to OMNI?
+072:26:02|T|CC|Negative. We Would like to stay on the high-gain if we can. Over.
 072:26:10|T|CDR|Okay.
 072:27:15|T|CC|Apollo 11, this is Houston. Over.
 072:27:23|T|CDR|Go ahead.
-072:27:25|T|CC|Roger. We'd like you to switch to OMNI Delta as we show you approximately at the scan limit of the high gain antenna. We will then command OMNI Delta down here after you advise us you've switched, and then you can select Bravo onboard and we will be back in the OMNI antenna commanding business. Over.
+072:27:25|T|CC|Roger. We'd like you to switch to OMNI Delta as we show you approximately at the scan limit of the high-gain antenna. We will then command OMNI Delta down here after you advise us you've switched, and then you can select Bravo onboard and we will be back in the OMNI antenna commanding business. Over.
 072:27:46|T|CDR|Okay. We're going to Delta now.
 072:28:15|T|CC|11, Houston. You can go ahead and select OMNI Bravo onboard now.
 072:28:23|T|CDR|You have it. 
@@ -4257,11 +4257,11 @@
 073:25:03|P|PAO|This is Apollo Control at 73 hours, 25 minutes. Apollo 11 is 6,522 nautical miles away from the Moon approaching at a velocity of 4,483 feet per second.
 073:40:50|T|CMP|Houston, Apollo 11. Radio check.
 073:40:54|T|CC|11, this is Houston. Loud and clear. Over.
-073:41:00|T|CMP|Okay. Just checking. Do you want high gain?
+073:41:00|T|CMP|Okay. Just checking. Do you want high-gain?
 073:41:06|T|CC|Roger. If you can give it to us.
 073:41:11|T|CMP|Okay.
-073:42:18|T|CMP|Houston, Apollo 11. How do you read on the high gain?
-073:42:22|T|CC|Loud and clear on the high gain.
+073:42:18|T|CMP|Houston, Apollo 11. How do you read on the high-gain?
+073:42:22|T|CC|Loud and clear on the high-gain.
 073:42:28|T|CMP|Same here. We've completed the P52 option 1.
 073:42:36|T|CC|Roger. We've been looking over your shoulder by TM.
 073:42:48|T|CMP|Glad to have you.
@@ -4289,24 +4289,24 @@
 074:35:12|T|CDR|Houston, Apollo 11.
 074:35:14|T|CC|Go ahead, 11.
 074:35:22|T|CDR|Apparently this is not a very good OMNI attitude for you. We're ready to start our TVC check.
-074:35:54|T|CC|11, this is Houston. We're ready, except that we'd like to get the high gain antenna prior to this test. Over.
+074:35:54|T|CC|11, this is Houston. We're ready, except that we'd like to get the high-gain antenna prior to this test. Over.
 074:36:08|T|CMP|Can you give us a couple of pointing angles?
-074:36:10|T|CC|Roger. From an attitude with 60 degrees roll, around to an attitude of roll 058 inertial. It would be pitch plus 30 and yaw 270 on the high gain antenna.
+074:36:10|T|CC|Roger. From an attitude with 60 degrees roll, around to an attitude of roll 058 inertial. It would be pitch plus 30 and yaw 270 on the high-gain antenna.
 074:36:29|T|CDR|Thank you.
 074:51:02|T|CC|Apollo 11, Apollo 11, this is Houston. Radio check. Over.
 074:51:14|T|CC|Apollo 11, Apollo 11, this is Houston. Radio check. Over.
 074:51:38|T|CC|Apollo 11, this is Houston. Do you read? Over.
 074:51:44|T|CDR|Roger. Loud and clear.
 074:51:46|T|CC|Roger. We're reading you weak but clear.
-074:51:54|T|CDR|Roger. We put our - our roll for a MSFN track in on the wrong sign. Going to continue rolling around until we get high gain here. And, we'll delete the - the pitch that was scheduled after the TVC check.
+074:51:54|T|CDR|Roger. We put our - our roll for a MSFN track in on the wrong sign. Going to continue rolling around until we get high-gain here. And, we'll delete the - the pitch that was scheduled after the TVC check.
 074:52:16|T|CC|Say again please, 11.
 074:52:22|T|CDR|Roger. We put the wrong sign in - -
 074:52:25|T|CC|Roger.
-074:52:25|T|CDR|- - for the roll correction to get MSFN high gain, and we're continuing rolling around to get the proper attitude for high gain at this time. We will delete the pitch maneuver that was scheduled subsequent to - subsequent to the TV check since we already have those pictures.
-074:52:47|T|CC|Roger. We copy. And we recommend that you go ahead and complete your TVC test onboard. If you have problems, we'll talk to you when you get around further into the high gain antenna attitude. Over.
+074:52:25|T|CDR|- - for the roll correction to get MSFN high-gain, and we're continuing rolling around to get the proper attitude for high-gain at this time. We will delete the pitch maneuver that was scheduled subsequent to - subsequent to the TV check since we already have those pictures.
+074:52:47|T|CC|Roger. We copy. And we recommend that you go ahead and complete your TVC test onboard. If you have problems, we'll talk to you when you get around further into the high-gain antenna attitude. Over.
 074:53:14|T|CDR|Roger.
-074:59:01|T|CDR|Houston, how do you read on high gain?
-074:59:04|T|CC|Oh, loud and clear on high gain, 11.
+074:59:01|T|CDR|Houston, how do you read on high-gain?
+074:59:04|T|CC|Oh, loud and clear on high-gain, 11.
 074:59:09|T|CDR|Roger. We're proceeding.
 074:59:11|T|CC|Roger.
 075:00:05|P|PAO|This is Apollo Control at 75 hours into the mission. Apollo 11 is 2,241 nautical miles away from the Moon. Velocity 5,512 feet per second. We're 41 minutes away from loss of signal as Apollo 11 goes behind the Moon. We're 49 minutes away from the Lunar Orbit Insertion maneuver number 1.
@@ -4699,7 +4699,7 @@
 076:01:12|O|CMP|- - can we take a picture - -
 076:01:13|O|LMP|- - ... pitch attitude.
 076:01:14|O|CMP|Yes.
-076:01:15|O|CDR|Now, we're going to have high gain, and then we're - -
+076:01:15|O|CDR|Now, we're going to have high-gain, and then we're - -
 076:01:17|O|CMP|How would you - -
 076:01:17|O|CDR|- - going to be able to - -
 076:01:17|O|CMP|- - like it with the - -
@@ -5006,66 +5006,65 @@
 077:23:17|T|CC|Capcom -
 077:31:53|T|CC|Apollo 11, this is Houston. Over.
 077:32:02|T|CDR|Go ahead.
-077:32:04|T|CC|11, Houston. In order to improve the communications a little bit here, we'd like to try to get you on the high gain antenna. We're recommending a pitch angle of 0, yaw 355 - I say again 355, the track switch to MANUAL, and wide beamwidth. Over.
-077:32:42|T|CDR|Okay. You ready to switch to high gain now?
-077:32:45|T|CC|That's affirmative.
-077:33:09|T|CC|11, Houston. Do you read?
-077:33:19|T|CDR|Roger. We read you. It seems to be rather marginal on the high gain.
+077:32:04|T|CC|11, Houston. In order to improve the communications a little bit here, we'd like to try to get you on the high-gain antenna. We're recommending a pitch angle of 0, yaw 355 - I say again 355, the track switch to MANUAL, and wide beam-width. Over.
+077:32:41|T|LMP|Okay. You ready to switch to high-gain now?
+077:32:44|T|CC|That's affirmative.
+077:33:08|T|CC|11, Houston. Do you read?
+077:33:18|T|LMP|Roger. We read you. It seems to be rather marginal on the high-gain.
 077:33:24|T|CC|Roger. We concur.
-077:33:42|T|LMP|Houston, Apollo 11. Could you give us a time of crossing the prime meridian 150 west? Over.
-077:33:47|T|CC|Roger. Stand by about a half a second, here. Okay. Your time of crossing the 150 west meridian will be 77 50 05. Over.
-077:34:00|P|PAO|This is Apollo Control. We've had loss of signal from Apollo 11 on its first lunar revolution. We will acquire the spacecraft on the next revolution at 78 hours 23 minutes 31 seconds. The orbital period for Apollo 11's present orbit 2 hours 8 minutes 37 seconds, and as you heard we passed up to the crew information that we would perform the LOI 2 burn using only bank A. The banks are the drive mechanisms for the ball values in the service propulsion system. They open and close these ball valves. The valves allow the fuel and oxidizer to flow into the engine. There are redundant valves and redundant banks, banks A and B. There was apparently - they are driven by nitrogen and that was the reference to the pressure drop there. It was apparently a leak in nitrogen tank B during the LOI 1 burn. This burn was performed with both banks open. The engine can be operated with only bank. It's apparent that the tank leaked only during the burn while the bank was actuated. Pressure has held steady since the end of the burn and the experts are reducing the data and looking at the leak rate, determining whether it was constant throughout the burn, precisely what the situation is. We're showing pressure in tank B of 1960 psi. In tank A 2250 psi. Both of these are well above the red lines of 400 pounds psi.
-077:34:10|T|LMP|Thank you.
-077:34:24|T|CC|11, this is Houston. We have about 6 minutes remaining until LOS, and in order that we may configure our ground lines, we'd like to know if you're still planning to have the TV up with the beginning of the next pass. Over.
-077:34:48|T|CDR|Roger, Houston. We'll try to have it ready.
+077:33:41|T|CMP|Houston, Apollo 11. Could you give us a time of crossing the prime meridian 150 west? Over.
+077:33:47|T|CC|Roger. Stand by about a half a second, here. Okay. Your time of crossing the 150 west meridian will be 77:50:05. Over.
+077:34:09|T|CMP|Thank you.
+077:34:23|T|CC|11, this is Houston. We have about 6 minutes remaining until LOS, and in order that we may configure our ground lines, we'd like to know if you're still planning to have the TV up with the beginning of the next pass. Over.
+077:34:47|T|CDR|Roger, Houston. We'll try to have it ready.
 077:34:50|T|CC|This is Houston. We are inquiring if it is your plan to. Over.
 077:35:00|T|CDR|It never was our plan to; but it's in the Flight Plan, so I guess we'll do it.
-077:35:07|T|CC|Houston. Roger. Out.
-077:35:47|T|CC|11, Houston.
-077:35:53|T|CMP|Roger. Go ahead.
-077:35:54|T|CC|For use in connection with the prime meridian crossing, you have an orbital period now of 2 hours 8 minutes and 37 seconds. Over.
+077:35:05|T|CC|Houston. Roger. Out.
+077:35:46|T|CC|11, Houston.
+077:35:53|T|CDR|Roger. Go ahead.
+077:35:54|T|CC|For use in connection with that time on the prime meridian crossing, you have an orbital period now of 2 hours 8 minutes and 37 seconds. Over.
 077:36:10|T|CMP|Thank you.
 077:36:11|T|CC|Roger. Out.
-077:38:16|T|CC|Apollo 11, this is Houston. A little over 2 minutes to LOS. All your systems parameters and orbit are looking good from the ground. We have AOS on the other side at 78 23 31. Over.
-077:38:40|T|CDR|Roger. 78 23 21.
+077:38:16|T|CC|Apollo 11, this is Houston. A little over 2 minutes to LOS. All your systems parameters and orbit are looking good from the ground. We have AOS on the other side at 78:23:31. Over.
+077:38:40|T|CDR|Roger. 78:23:21.
 077:38:43|T|CC|Roger. That was 31 on the end.
-077:38:50|T|CMP|Okay.
-077:41:15|O|CMP|That's why I'm trying to get it out.
-077:42:16|O|CDR|No alignment this REV, huh?
+077:38:51|T|CDR|Okay.
+077:40:20|P|PAO|This is Apollo Control. We've had loss of signal from Apollo 11 on its first lunar revolution. We will acquire the spacecraft on the next revolution at 78 hours 23 minutes 31 seconds. The orbital period for Apollo 11's present orbit: 2 hours 8 minutes 37 seconds. And, as you heard we passed up to the crew information that we would perform the LOI 2 burn using only bank A. The banks are the drive mechanisms for the ball valves in the Service Propulsion System. They open and close these ball valves. The valves allow the fuel and oxidizer to flow into the engine. There are redundant valves and redundant banks, banks A and B. There was apparently - they are driven by nitrogen and that was the reference to the pressure drop there. It was apparently a leak in nitrogen tank B during the LOI 1 burn. This burn was performed with both banks open. The engine can be operated with only one bank. It's apparent that the tank leaked only during the burn while the bank was actuated. Pressure has held steady since the end of the burn and the experts are reducing the data and looking at the leak rate, determining whether it was constant throughout the burn, what - precisely what the situation is. We're showing pressure in tank B of 1960 psi. In tank A 2250 psi. Both of these are well above the red lines of 400 pounds psi.
+077:41:16|O|LMP|That's why I'm trying to get it out.
+077:42:16|O|LMP|No alignment this REV, huh?
 077:43:02|O|LMP|Mike, I guess the name of the game is to go back to - B OMNI?
 077:43:10|O|CMP|Huh?
-077:43:12|O|LMP|Go back to B in OMNI?
-077:43:17|O|CMP|Well, let's see - when we come over the hill next time, we're supposed to have them on the high gain, I think.
-077:43:25|O|CDR|Not sure of that.
+077:43:13|O|LMP|Go back to B in OMNI?
+077:43:18|O|CMP|Well, let's see - when we come over the hill next time, we're supposed to have them on the high-gain, I think.
+077:43:25|O|LMP|Not sure of that.
 077:43:29|O|CMP|...
-077:43:31|O|LMP|Did you use this thing?
+077:43:31|O|CMP|Did you use this thing?
 077:43:33|O|CDR|No.
 077:43:34|O|LMP|Well, let's get rid of it then; I can't see a crapping ...
 077:44:26|O|LMP|77:44 - okay, - LOS is right on schedule.
-077:44:35|O|CMP|77:50, we'll be at the prime meridian; now, I can set that map up so it'll tell us where we are.
+077:44:36|O|CMP|77:50, we'll be at the prime meridian; now, I can set that map up so it'll tell us where we are.
 077:44:43|O|CDR|Okay.
-077:44:45|O|LMP|We - we're ahead on this eat period - we're behind on the last eat period or something. We got a ...
-077:45:15|O|CMP|I think, Buzz, if you put - put the HIGH GAIN to MANUAL and go pitch 20 - yaw 360 - pitch minus 20, I guess - -
+077:44:45|O|CMP|Geez, we're ahead on this eat period - we're behind on the last eat period or something. We got a ...
+077:45:16|O|CMP|I think, Buzz, if you put - put the high-gain to MANUAL and go pitch 20 - yaw 360 - pitch minus 20, I guess - -
 077:45:26|O|LMP|Minus 20; yes, that would be better.
-077:45:28|O|CMP|- - and yaw 360 - -
-077:45:29|O|LMP|That's okay assuming I'm at the right attitude, but I ain't going to be at the right attitude - not without wasting a lot of gas. Put -
-077:45:36|O|CMP|That's fine, but -
+077:45:28|O|CMP|- - and yaw 360 - That's okay assuming I'm at the right attitude, but I ain't going to be at the right attitude - not without wasting a lot of gas. Put -
+077:45:36|O|LMP|That's fine, but -
 077:45:42|O|CDR|If you did, it would be very interesting that way.
-077:45:46|O|LMP|Yes. Oh, crap.
-077:45:55|O|CDR|We get HIGH GAIN and we get TV at the same time - -
+077:45:46|O|CMP|Yes. Oh, crap.
+077:45:55|O|LMP|We get high-gain and we get TV at the same time - -
 077:45:58|O|CMP|Well, I better start maneuvering then; doggone it, I've been yawed out of plane somehow. Let's see, we're pitched down - we want to pitch back up - pitched down, doggone it. ACCEL COMMAND, pitch down.
-077:46:17|O|CDR|Okay, well - are we going to unlock the camera store and get all that claptrap put together?
+077:46:17|O|CDR|Okay, well, are we going to unlock the camera store and get all that claptrap put together?
 077:46:23|O|LMP|Yes.
 077:46:24|O|CDR|Okay.
 077:46:42|O|LMP|Which window you want to operate out of, so I can figure out how to put the monitor on?
 077:46:48|O|CDR|Well, I suppose the best one would be the center window, don't you think?
 077:46:57|O|LMP|Probably, I don't know; wait until we get into attitude.
-077:47:01|O|CDR|Get into attitude - see what we think.
-077:48:00|P|PAO|This is Apollo Control, Houston at 77 hours, 48 minutes now into the flight of Apollo 11. Here in Mission Control Center, Houston we're at the process of changing shifts. Cliff Charlesworth's Green Team of Flight Controllers very shortly will be leaving their consoles. Meanwhile Apollo 11 is passing over the far side of the Moon out of acquisition. Our last orbital parameter readings on our flight dynamics orbital digital displays indicated an apolune of 168.5 nautical miles, a perilune of 1 - correction, a perilune of 61.2 nautical miles. We're currently planning a change-of-shift briefing at approximately 2:30 Central Daylight Time or soon thereafter as practicable. The change-of-shift briefing will include only our Flight Director, Cliff Charlesworth. It's expected to be of short duration since we will have a TV pass soon after the reacquisition of the spacecraft. At 77 hours, 50 minutes into the flight of Apollo 11, this is Apollo Control, Houston.
+077:47:00|O|CDR|Get into attitude - see what we think.
+077:48:01|P|PAO|This is Apollo Control, Houston at 77 hours, 48 minutes now into the flight of Apollo 11. Here in Mission Control Center, Houston we're at the process of changing shifts. Cliff Charlesworth Green Team of Flight Controllers very shortly will be leaving their consoles. Meanwhile, Apollo 11 passing over the far side of the Moon out of acquisition. Our last orbital parameter readings on our flight dynamics orbital digital displays indicated an apogee of 168.5 nautical miles, a perilune of 1 - correction, a perilune of 61.2 nautical miles. We're currently planning a change-of-shift briefing at approximately 2:30 Central Daylight Time or soon thereafter as is practicable. The change-of-shift briefing will include only our Flight Director, Cliff Charlesworth. It's expected to be of short duration since we will have a TV pass soon after the reacquisition of the spacecraft. At 77 hours, 50 minutes into the flight of Apollo 11, this is Apollo Control, Houston.
 077:48:19|O|CMP|Oh, shit; this pitch here is no good; 32, huh? Pitch 315 I want to be at, huh? Alright. They keep - all they do is they say ORB rate and that little attitude right there and right there applies to the rest of this page, all of that page, and over to this page.
 077:48:46|O|CDR|Okay, so that's the one we'll do.
 077:48:50|O|CMP|Okay, that's the way I'm rolling.
-077:48:51|O|CDR|And we'll take the - we'll have HIGH GAIN - -
+077:48:51|O|CDR|And we'll take the - we'll have high-gain - -
 077:48:54|O|CMP|Yes.
 077:48:55|O|CDR|- - and we'll get the camera out of the center window, if that looks reasonable.
 077:49:02|O|CMP|Okay.
@@ -5073,62 +5072,64 @@
 077:49:07|O|CMP|... I've been plotting on them ... 50:05.
 077:49:14|O|CDR|We'll have a gouge as to where we are.
 077:49:22|O|CMP|55 -
-077:50:35|O|LMP|Outside, huh? Alright, the switch is set for outside.
-077:50:41|O|CMP|Could I have that map that y'all were looking at before, that lunar map? Thank you.
+077:50:33|O|LMP|Outside, huh? Alright, the switch is set for outside.
+077:50:40|O|CMP|Could I have that map that y'all were looking at before, that lunar map? Thank you.
 077:51:03|O|CDR|Hmm - here comes the moon.
 077:51:16|O|LMP|Really beautiful.
 077:51:29|O|CDR|Hey, you - -
-077:51:30|O|CMP|I wonder where we are.
+077:51:29|O|CMP|I wonder where we are.
 077:51:31|O|CDR|- - we're going to stop here pretty soon, right?
 077:51:33|O|CMP|Yes, at 315.
 077:51:41|O|SC|(Whistling)
 077:51:56|O|CMP|Man, that's really -
 077:51:58|O|CDR|It really looks gray to me now.
-077:52:07|O|CDR|...?
-077:52:10|O|LMP|... right down toward the ground here.
+077:52:07|O|CDR|That was you?
+077:52:09|O|LMP|... right down toward the ground here.
 078:03:00|T||BEGIN LUNAR REV 2
-078:18:00|P|PAO|This is Apollo Control, Houston at 78 hours, 18 minutes into the flight of Apollo 11. Apollo 11 still passing around the far side of the Moon. We are less than 5 minutes now away from time of acquisition on this second revolution for Apollo 11. The station to acquire on this pass will be the Goldstone wing site which will feed the television to Mission Control Center in Houston, and thence to all parts of the country. We would expect to come up with television perhaps some several minutes after acquisition since we must first lock up on the downlink and have the scan converter in full operation. So at 78 hours, 19 minutes continuing to monitor, this is Apollo Control, Houston.
-078:18:00|P|PAO|Mark 2 minutes now from time of predicted acquisition in Mission Control Center. We are standing by.
-078:18:00|P|PAO|Mark 1 minute now from time of predicted acquisition. Continuing to stand by in Mission Control Centerin Houston.
-078:18:00|P|PAO|Mark 10 seconds away now. Standing by for acquisition. We've had AOS by Goldstone. Television is now on. That is Bruce McCandless -
-078:18:00|P|PAO|That was Buzz Aldrin making a report, a geological report on that site pass.
-078:22:10|O|CDR|- - and you could be busy getting up supplies if you ...
-078:22:16|O|CMP|About a minute from AOS.
-078:22:19|O|LMP|Okay, let's get out of this; let me get VERB 62. Okay, Mike?
-078:22:22|O|CMP|Oh, I really need these ..., Buzz; I really need these goddam ...
-078:22:26|O|LMP|Well, we're not going to have much of a TV unless we get high gain.
-078:22:30|O|CMP|Alright.
-078:22:32|O|LMP|I'll give it back to you - ...
-078:22:50|O|CDR|You got yourself some rates going about like what you want?
-078:22:55|O|LMP|You got - you got high gain right now, I mean the angles, right now.
-078:23:00|O|CMP|And we're 23 - we're 30 seconds from AOS, so those angles should be okay. You reading them?
-078:23:08|O|CDR|Minus 30 pitch - -
-078:23:10|O|CMP|Yes.
-078:23:11|O|CDR|- - 150 yaw, okay.
-078:23:12|O|LMP|No, that's not 150 - that's 15. Isn't it?
+078:18:16|P|PAO|This is Apollo Control, Houston at 78 hours, 18 minutes into the flight of Apollo 11. Apollo 11 still passing around the far side of the Moon. We are less than 5 minutes now away from time of acquisition on this, the second revolution for Apollo 11. The station to acquire on this pass will be the Goldstone wing site which will feed the television to Mission Control Center, Houston, and thence to all parts of the country. We would expect to come up with television perhaps some several minutes after acquisition since we must first lock up on the downlink and have the scan converter in full operation. So at 78 hours, 19 minutes continuing to monitor, this is Apollo Control, Houston.
+078:21:21|P|PAO|Mark 2 minutes now from time of predicted acquisition in Mission Control Center. We are standing by.
+078:22:20|P|PAO|Mark 1 minute now from time of predicted acquisition. Continuing to stand by in Mission Control Center in Houston.
+078:22:10|O|CDR|- - and you could be busy getting us some high-gain when we get ... About a minute from AOS.
+078:22:17|O|LMP|Okay, let's get out of this; let me get VERB 62. Okay, Mike?
+078:22:21|O|CMP|Oh, I really need these ... Buzz; I really need these god damned guys.
+078:22:26|O|LMP|Well, we're not going to have much of a TV unless we get high-gain.
+078:22:28|O|CMP|Alright.
+078:22:29|O|LMP|I'll give it back to you - ...
+078:22:50|O|CDR|Get yourself some rates going about like what you want.
+078:22:53|O|CMP|You got - you got high-gain right now, I mean the angles, right now.
+078:22:59|O|CMP|And we're 23 - we're 30 seconds from AOS, so those angles should be okay. You reading them?
+078:23:07|O|CMP|Minus 30 pitch - -
+078:23:10|O|LMP|Yes.
+078:23:09|O|CMP|- - 150 yaw, okay.
+078:23:11|P|PAO|Mark. 10 seconds away now.
+078:23:11|O|LMP|No, that's not 150 - that's 15. Isn't it?
 078:23:14|O|CDR|Just a second. Yes, minus - I'm sorry, minus 31 and plus 15. Right. You got it?
+078:23:23|P|PAO|Standing by for acquisition.
 078:23:27|O|CMP|Yes.
-078:23:34|O|CDR|I don't know what f-stop I ought to be at - Well - See what it's doing, Mike?
-078:23:42|O|CMP|...
-078:23:44|O|CDR|The flicker I don't know about, the white dot is - -
-078:23:47|O|LMP|Yes, the flicker - -
-078:23:48|O|CDR|- - the flicker is what I'm - Nothing I can - -
-078:23:50|O|CMP|Okay, we got it solid.
+078:23:33|O|CDR|I don't know what f-stop I ought to be at - Well - See what it's doing, Mike?
+078:23:36|P|PAO|We've had AOS by Goldstone.
+078:23:41|O|CMP|...
+078:23:44|O|CMP|The flicker I don't know about, the white dot is - -
+078:23:47|O|CDR|Yes, the flicker is what I'm - 
+078:23:48|O|CMP|Nothing I can - -
+078:23:50|O|LMP|Okay, we got it solid.
+078:23:50|P|PAO|Television is now on. That is Bruce McCandless, our Capcom -
 078:23:52|O|CDR|- - nothing you can do about the flicker.
+078:23:54|O|CMP|Got it solid on AUTO.
 078:23:55|T|CC|Apollo 11, this is Houston. Over.
-078:23:55|O|CMP|Got it solid on AUTO.
-078:24:07|O|LMP|Houston, Apollo 11. Are you picking up our signal okay?
-078:24:09|T|LMP|This is Apollo 11. Are you picking up our signals okay?
-078:24:13|T|CC|Apollo 11, this is Houston. Affirmative. We are reading you loud and clear on voice and we have a good clear TV picture, a little bright crater in the - -
+078:24:06|O|LMP|Houston, Apollo 11. Are you picking up our signal okay?
+078:24:09|T|LMP|... Apollo 11. Are you picking up our signal okay?
+078:24:12|T|CC|Apollo 11, this is Houston. Affirmative. We are reading you loud and clear on voice and we have a good clear TV picture, a little bright crater in the - -
 078:24:23|T|LMP|- - No, no, no - -
 078:24:24|T|CC|- - the bottom of the picture. I guess that's the spot on the tube.
 078:24:30|T|LMP|I'm sorry about that one.
-078:24:33|T|CC|And if you give us P00 and ACCEPT, we will uplink our new state vector and target load to you.
+078:24:32|T|CC|And if you give us P00 and ACCEPT, we will uplink our new state vector and target load to you.
 078:24:45|T|CMP|Okay.
-078:25:30|T|LMP|Houston, Apollo 11. One of the larger craters on the back side - I noticed a small, dark speck on the outer wall and I put the monocular on it. I was able to see - oh, an area maybe a quarter of a mile in diameter. It was really a freshlooking dark colored pit, and that seems to be in contrast with all the other fresh little craters or holes that you can perceive on the walls of any of these craters. Around this particular one there seems to be two or three of these - especially the one that caught my attention. Quite remarkable. Over.
-078:26:24|T|CC|Roger. Do you have a location on that one?
+078:25:30|T|LMP|Houston, Apollo 11. One of the larger craters on the back side - I noticed a small, dark speck on the outer wall and I put the monocular on it. I was able to see - oh, an area maybe a - oh, quarter of a mile in diameter. It was really a fresh looking dark colored pit, and that seems to be in contrast with all the other fresh little craters or holes that you can perceive on the walls of any of these craters. Around this particular one there seems to be two or three of these - especially the one that caught my attention. Quite remarkable. Over.
+078:26:23|T|CC|Roger. Do you have a location on that one?
 078:26:34|T|LMP|No, not a precise one. I've got several pictures of it, though.
 078:26:38|T|CC|Roger. We copy.
+078:18:00|P|PAO|That was Buzz Aldrin making a report, a geological report on that site pass.
 078:26:47|T|CC|We're getting a beautiful picture in down there now, 11. The color's coming in quite clearly, and we can see the horizon and the relative blackness of space, and without getting into the question of grays and browns, it looks, at least on our monitor, sort of a brownish gray.
 078:27:10|T|LMP|That's a good, reasonable way of describing it. It appears to me as though it made a difference just sitting back in the tunnel and gazing at all windows; it makes a difference which one you're looking out of. For example, the camera right now is looking out the number 5 window, and it definitely gives a rosier or tanner tinge, especially when you look straight through it and not at an angle. Over.
 078:27:45|T|CC|Roger.
@@ -5722,7 +5723,7 @@
 080:28:45|O|CDR|Yes.
 080:28:46|O|LMP|Shouldn't be a bad picture. Why don't we stop it?
 080:28:48|O|CMP|Okay.
-080:28:56|O|CDR|We ought to be able to get high gain from this attitude, shouldn't we?
+080:28:56|O|CDR|We ought to be able to get high-gain from this attitude, shouldn't we?
 080:29:10|O|CDR|Think we ought to get the long lens on, Mike?
 080:29:12|O|CMP|Yes, we ought to get the 250 - we ought to do it at 250.
 080:29:14|O|CDR|You've got 4 minutes; that's plenty, Now, we're going to want to - -
@@ -5773,11 +5774,11 @@
 080:33:37|O|LMP|The walls actually look pockmarked. Sure enough, and they're not filled in. Pockmarked and it looks like somebody's painted white paint vertically down the edges and then it's been eaten away.
 080:34:15|O|LMP|... that one ... into the LM.
 080:34:38|O|CMP|Here is the Earth. Hey, I got the view over here.
-080:34:44|O|LMP|I guess I'd better get the high gain off, hadn't I?
+080:34:44|O|LMP|I guess I'd better get the high-gain off, hadn't I?
 080:34:49|O|CDR|Did it just come up?
 080:34:50|O|CMP|Yes.
 080:34:53|O|LMP|We need that ...
-080:34:56|O|CMP|Do we still got high gain?
+080:34:56|O|CMP|Do we still got high-gain?
 080:34:58|O|CDR|Yes.
 080:35:01|O|CMP|It's says minus 67 and zero.
 080:35:06|O|LMP|Minus 67 and zero.
@@ -5802,16 +5803,16 @@
 080:38:40|T|CDR|And, Charlie, the LM/CM DELTA-P is just over 1 pound right now.
 080:38:44|T|CC|Copy. Out.
 080:41:00|P|PAO|This is Apollo Control, Houston.
-080:41:00|P|PAO|This is Apollo Control, Houston. You copied that report. We're standing by for Apollo 11 spacecraft to acquire on the high gain antenna. Meanwhile, onboard readings on orbital parameters were 66.1 nautical miles by 54.4 nautical miles, very close to the planned altitudes that were predicted prior to the LOI 2 burn. At 80 hours 46 minutes continuing to monitor, this is Apollo Control, Houston.
+080:41:00|P|PAO|This is Apollo Control, Houston. You copied that report. We're standing by for Apollo 11 spacecraft to acquire on the high-gain antenna. Meanwhile, onboard readings on orbital parameters were 66.1 nautical miles by 54.4 nautical miles, very close to the planned altitudes that were predicted prior to the LOI 2 burn. At 80 hours 46 minutes continuing to monitor, this is Apollo Control, Houston.
 080:41:00|P|PAO|This is Apollo Control Houston 80 hours 48 minutes now into the flight of Apollo 11. Very preliminary ground readings indicate an apolune of 65.6, perilune 53.7.
 080:41:00|P|PAO|That - -
 080:43:48|T|CC|Apollo 11, Houston. Over.
 080:44:32|T|CC|Hello, Apollo 11. Houston. Over.
-080:45:28|T|CC|Apollo 11, Houston. If you read, please attempt to acquire on the high gain. We're having trouble locking up on the TM and we have no voice. Over.
+080:45:28|T|CC|Apollo 11, Houston. If you read, please attempt to acquire on the high-gain. We're having trouble locking up on the TM and we have no voice. Over.
 080:47:23|T|CC|Hello, Apollo 11, Apollo 11.
 080:47:24|T|CDR|Roger.
 080:47:26|T|CC|Roger. We're reading you five by. Go ahead. Over.
-080:47:27|T|CDR|Roger. We have you on high gain now.
+080:47:27|T|CDR|Roger. We have you on high-gain now.
 080:47:34|T|CC|Roger. We lost the TM and the voice for about 5 minutes here. We attempted a handover and fouled it up in some manner, but we got you back now. Thank you much.
 080:47:47|T|CDR|Okay. We're pressurizing the LM at this time.
 080:47:50|T|CC|Copy.
@@ -6271,10 +6272,10 @@
 082:59:32|O|CMP|Okay.
 082:59:33|O|LMP|You got 83 hours right now, huh?
 082:59:35|O|CMP|Yes, 83 hours, and we're on LM power.
-082:59:56|T|CC|Apollo 11, Houston. We got a lot of noise on the downlink. Would you please try your high gain in wide beamwidth, and the angles are 180 the yaw and pitch zero. Over.
+082:59:56|T|CC|Apollo 11, Houston. We got a lot of noise on the downlink. Would you please try your high-gain in wide beamwidth, and the angles are 180 the yaw and pitch zero. Over.
 083:00:26|O|LMP|Glycol pump.
-083:00:28|O|CMP|Houston, Apollo 11. How do you read on high gain? Over.
-083:00:30|T|CMP|Houston, Apollo 11. How do you read us on the high gain? Over.
+083:00:28|O|CMP|Houston, Apollo 11. How do you read on high-gain? Over.
+083:00:30|T|CMP|Houston, Apollo 11. How do you read us on the high-gain? Over.
 083:00:34|T|CC|Roger, Mike. You're a lot better now. Over.
 083:00:37|O|CMP|Okay. You want wide beam, for some reason?
 083:00:38|T|CMP|Okay. You want a wide beam for some reason?
@@ -6365,7 +6366,7 @@
 083:11:33|T|LMP|Houston, Eagle. We'll go ahead with the camera checkout. I'm still on low taps, and I assume there's no problem doing that. Over.
 083:11:42|T|CC|Stand by.
 083:11:46|T|CC|That's affirmative. No problem on that, Eagle. You can go ahead and power up the sequence camera. Over.
-083:11:53|O|CMP|Houston, Columbia. How do you read on the high gain?
+083:11:53|O|CMP|Houston, Columbia. How do you read on the high-gain?
 083:12:00|T|LMP|Should have done that before.
 083:12:01|O|CMP|Blap.
 083:12:03|T|CC|Eagle, be advised - sounds like a hot mike. Over.
@@ -6378,7 +6379,7 @@
 083:12:30|T|LMP|Thank you.
 083:12:50|T|CC|Columbia, this is Houston. Are you maneuvering to sleep attitude? Over.
 083:13:03|T|CC|Eagle, this is Houston. We have lost all the voice and data with Columbia. Would you see if he is maneuvering to sleep attitude? Over.
-083:13:04|O|CMP|Houston, Columbia. How do you read on the high gain? Over.
+083:13:04|O|CMP|Houston, Columbia. How do you read on the high-gain? Over.
 083:13:17|T|LMP|Hey, Mike. You maneuvering to sleep attitude?
 083:13:18|O|CMP|Hey, how about asking them if they can hear me calling?
 083:13:20|T|CMP|...
@@ -6386,8 +6387,8 @@
 083:13:24|T|LMP|I don't believe they can hear you, Mike. Are you maneuvering now to sleep attitude?
 083:13:26|O|CMP|Well, we're in sleep attitude, and I got the high-gain angles, and they should be good angles. And I'm locked on and I got about a half signal strength, and they can't hear me.
 083:13:28|T|CMP|...
-083:13:40|T|LMP|Houston, Eagle. The Columbia has maneuvered to sleep attitude. He's got the high gain antennas - antenna angles set in, and he should be communicating with you. Over.
-083:13:40|O|LMP|Houston, Eagle. ... high gain ...
+083:13:40|T|LMP|Houston, Eagle. The Columbia has maneuvered to sleep attitude. He's got the high-gain antennas - antenna angles set in, and he should be communicating with you. Over.
+083:13:40|O|LMP|Houston, Eagle. ... high-gain ...
 083:13:55|T|CC|Roger. We don't have him. Stand by.
 083:14:02|T|CC|Eagle, Houston. Would you please have Columbia put in COMMAND RESET? Over.
 083:14:11|O|CDR|No go.
@@ -6457,7 +6458,7 @@
 083:31:17|T|CMP|All right. I read back: TEI 11, SPS G&N: 37200, minus 060, plus 047, plus 098, 05 2422, plus 41448, plus 03719, minus 02422; NA, 020; the rest of the PAD NA. Ullage, two jets for 16 seconds, Quads B and D. Undocked present CSM weight is okay in the DAP.
 083:31:50|T|CC|Roger, 11. And we'd like you to do a wastewater dump at 84 hours down to 25 percent. Over.
 083:32:06|T|CMP|Roger. I understand. Waste water dump to 25 percent at 84 hours.
-083:32:10|T|CC|Roger. And, Mike, we'll have LOS in about 11 minutes at 83 44. AOS is 84 30, and prior to - or at LOS, we would like you to go - Configure the S band for high gain track to REACQ, high gain beam to NARROW, and let's try that to see if we can get an automatic REACQ at the next AOS. Over.
+083:32:10|T|CC|Roger. And, Mike, we'll have LOS in about 11 minutes at 83 44. AOS is 84 30, and prior to - or at LOS, we would like you to go - Configure the S band for high-gain track to REACQ, high-gain beam to NARROW, and let's try that to see if we can get an automatic REACQ at the next AOS. Over.
 083:32:43|T|CMP|Good idea.
 083:32:51|T|CMP|I'm in REACQ and NARROW now.
 083:32:54|T|CC|Roger.
@@ -6529,7 +6530,7 @@
 083:51:58|O|LMP|I did it.
 083:51:59|O|CMP|Got that, huh?
 083:52:00|O|LMP|Yes.
-083:52:01|O|CMP|HIGH GAIN, REACQ, NARROW; antenna pitch angle - -
+083:52:01|O|CMP|high-gain, REACQ, NARROW; antenna pitch angle - -
 083:52:06|O|LMP|Yes, I did that.
 083:52:07|O|CMP|- - that's all it says.
 083:52:08|O|LMP|Okay.
@@ -6688,12 +6689,12 @@
 084:42:10|T|CC|Roger, Buzz. It sounds like a good idea for some of your surveying work there inside the cockpit. Over.
 084:42:21|T|LMP|Okay. You want to run that by with whoever might be concerned?
 084:42:24|T|CC|I sure will.
-084:47:47|T|CC|Apollo 11, Houston. We have apparently lost the high gain lock. We would appreciate it if you would give us a help manually to try to relock up on the high gain. Over.
+084:47:47|T|CC|Apollo 11, Houston. We have apparently lost the high-gain lock. We would appreciate it if you would give us a help manually to try to relock up on the high-gain. Over.
 084:48:00|P|PAO|This is Apollo Control, Houston 84 hours, 48 minutes now into the flight. We're receiving noisy data at this time. We've requested Apollo 11 to give us a manual relock. Standing by at 84 hours, 49 minutes this is Apollo Control, Houston.
 084:48:00|P|PAO|This is Apollo Control, Houston 84 hours, 56 minutes are now in the flight of Apollo 11. Our current apolune 65.1 nautical miles, current perilune 54.3 nautical miles. After receiving some noisy signal, Apollo 11 has locked back on in fine form. That was Buzz Aldrin speaking with Owen Garriott here in the Mission Control Center. I expect we will take a second look at why we had to lock on manually. As we receive any updates on this, we'll pass them along. We now read 84 hours, 57 minutes and this is Apollo Control, Houston.
 084:48:07|T|LMP|Houston, Apollo 11. ..
 084:48:12|T|CC|11, Houston. Reading you very weak, still too far down in the noise to complete the full transmission. If you'd give us a hand on a manual relock, we'd appreciate it.
-084:52:02|T|CC|Apollo 11, Houston. We're still unable to pick you up on the high gain antenna. Request you go to MANUAL, and wide beamwidth. The pitch and yaw angles in your checklist are good ones. You should be able to find us there. Over.
+084:52:02|T|CC|Apollo 11, Houston. We're still unable to pick you up on the high-gain antenna. Request you go to MANUAL, and wide beamwidth. The pitch and yaw angles in your checklist are good ones. You should be able to find us there. Over.
 084:53:08|T|LMP|Houston, Apollo 11. How do you read now?
 084:53:10|T|CC|11, Houston. Loud and clear this time. How me?
 084:53:16|T|LMP|Loud and clear. You faded out on your last transmission. Over.
@@ -7072,10 +7073,10 @@
 096:21:58|T|LMP|Hello, Houston, this is Eagle. How do you read? Over.
 096:22:03|T|CC|Eagle, this is Houston. Are you calling? Over.
 096:22:08|T|LMP|Roger. How do you read? Over.
-096:22:11|T|CC|Roger. Reading you about three by, Buzz; a lot of noise on the loop. We think it's coming from Columbia, but we can't tell. We're unable to raise voice with him. Would he please go to high gain. Over.
-096:22:26|T|LMP|Okay. I'll have him go to high gain. It's probably the glycol pump you hear in the background, and I'm up to the point where I turn on the IMU. Would you recommend I hold off here for a few minutes or go ahead and power up the IMU? Over.
+096:22:11|T|CC|Roger. Reading you about three by, Buzz; a lot of noise on the loop. We think it's coming from Columbia, but we can't tell. We're unable to raise voice with him. Would he please go to high-gain. Over.
+096:22:26|T|LMP|Okay. I'll have him go to high-gain. It's probably the glycol pump you hear in the background, and I'm up to the point where I turn on the IMU. Would you recommend I hold off here for a few minutes or go ahead and power up the IMU? Over.
 096:22:41|T|CC|Roger. Stand by.
-096:22:42|T|LMP|Hey, get your high gain to working.
+096:22:42|T|LMP|Hey, get your high-gain to working.
 096:22:46|T|CMP|Houston.
 096:23:02|O|CMP|Houston, Columbia. Over.
 096:23:04|O|CC|- - this is Houston. You can turn on the IMU. Over.
@@ -7148,7 +7149,7 @@
 096:43:29|T|CC|Roger. In the DAP, we'd like you load all ones. Over.
 096:43:36|T|CMP|All right.
 096:44:08|T|CC|Columbia, Houston. Did you hit the COMMAND RESET around - after LOS on the last pass? Over.
-096:44:19|T|CMP|That's affirmative. When we were having difficulty getting you, Charlie, I pushed the COMMAND RESET to make sure I had control of high gain.
+096:44:19|T|CMP|That's affirmative. When we were having difficulty getting you, Charlie, I pushed the COMMAND RESET to make sure I had control of high-gain.
 096:44:26|T|CC|Roger. Thank you much. We're in good shape now. Over.
 096:44:31|T|CMP|Okay.
 096:46:19|T|LMP|Houston, Eagle. Can you tell me if you're picking up BIOMED on the CDR now? Over.
@@ -7346,7 +7347,7 @@
 098:15:14|O|LMP|CB(11), ED LANDING GEAR FLAG, OPEN.
 098:15:23|O|CDR|The gear went down okay, Mike.
 098:15:26|O|CMP|Good deal.
-098:16:00|P|PAO|This is Apollo Control at 98 hours, 16 minutes. We are now less than 2 minutes from reacquiring the spacecraft in its 12th revolution of the Moon. At this time Armstrong and Aldrin should be completing pressure checks on their spacesuits. Coming up in this revolution, they will be running checks on the guidance platform of their LM guidance system. They will also be running checks on the Reaction Control System thrusters and their descent propulsion system, as well as the rendezvous radar. We will also be giving them the GO/NO GO for undocking in the following revolution. The checkout and activation up to this point has been moving along very smoothly. All systems performing well and we were ahead of the Flight Plan at the end of the last revolution. We will stand by now to reacquire the spacecraft. The LM and CSM are still docked and Armstrong and Aldrin within the LM. That will be their home for the next 30 hours or so. Now about 45 seconds from reacquiring. We are now about 15 seconds from reacquisition of Apollo 11. Spacecraft currently in an orbit with an apocynthion of 63 and one-half nautical miles and pericynthian of 55.9, as we are continuing to see the apocynthion drop and pericynthian raise as the orbit becomes more and more circular. We should have acquisition of signals shortly. We will have some noise on the circuits until the LM ,steerable and the CSM high gain antennas are brought into play. Capcom Charlie Duke putting in a call to the crew. We'll continue to stand by.
+098:16:00|P|PAO|This is Apollo Control at 98 hours, 16 minutes. We are now less than 2 minutes from reacquiring the spacecraft in its 12th revolution of the Moon. At this time Armstrong and Aldrin should be completing pressure checks on their spacesuits. Coming up in this revolution, they will be running checks on the guidance platform of their LM guidance system. They will also be running checks on the Reaction Control System thrusters and their descent propulsion system, as well as the rendezvous radar. We will also be giving them the GO/NO GO for undocking in the following revolution. The checkout and activation up to this point has been moving along very smoothly. All systems performing well and we were ahead of the Flight Plan at the end of the last revolution. We will stand by now to reacquire the spacecraft. The LM and CSM are still docked and Armstrong and Aldrin within the LM. That will be their home for the next 30 hours or so. Now about 45 seconds from reacquiring. We are now about 15 seconds from reacquisition of Apollo 11. Spacecraft currently in an orbit with an apocynthion of 63 and one-half nautical miles and pericynthian of 55.9, as we are continuing to see the apocynthion drop and pericynthian raise as the orbit becomes more and more circular. We should have acquisition of signals shortly. We will have some noise on the circuits until the LM ,steerable and the CSM high-gain antennas are brought into play. Capcom Charlie Duke putting in a call to the crew. We'll continue to stand by.
 098:16:00|P|PAO|Charlie Duke asking the crew to verify in the LM that they are on their forward OMNI antenna. We are still awaiting lockup and a stronger signal. We will continue to have noise on the circuit until we get a stronger signal. We do have telemetry data from the spacecraft at this time.
 098:18:21|T|CC|Apollo 11, Houston. We're standing by. Over.
 098:18:40|O|CDR|Columbia -
@@ -7355,7 +7356,7 @@
 098:19:30|T|CC|Eagle, Houston. Do you read? Over.
 098:19:45|O|CDR|Columbia, do you read Eagle?
 098:19:47|O|CMP|Eagle, do you read Columbia?
-098:19:51|O|LMP|Yes, I'm working on the high gain right now.
+098:19:51|O|LMP|Yes, I'm working on the high-gain right now.
 098:19:54|O|CMP|Okay, I'm reading him loud and clear.
 098:20:14|O|LMP|You in the right attitude, Mike?
 098:20:17|O|CMP|That's affirm.
@@ -7377,7 +7378,7 @@
 098:23:17|T|CC|Roger. Are you reading me, Buzz? Over.
 098:23:19|O|LMP|Roger. I got you now. I fed in those angles for the S-band, and I couldn't get a lockon; it appears as though the antenna would have to be looking through the LM in order to reach the Earth. Over.
 098:23:22|T|LMP|Roger. I've got you now. I fed in those angles for the S band but I couldn't get a lockon because the antenna would be looking through the LM in order to reach the Earth. Over.
-098:23:41|T|CC|Roger. We copied in the P22 attitude that you will not be able to get a high gain lockon. We have a DAP data load, if you're ready to copy. Over.
+098:23:41|T|CC|Roger. We copied in the P22 attitude that you will not be able to get a high-gain lockon. We have a DAP data load, if you're ready to copy. Over.
 098:24:03|O|LMP|Roger. Ready to copy.
 098:24:05|T|LMP|Roger. Ready to copy.
 098:24:07|T|CC|Okay. LM weight 33627, CSM weight 36651, pitch trim 00470, roll trim 00589. Over.
@@ -7417,7 +7418,7 @@
 098:33:06|T|CC|Eagle, Houston. Could you give us an idea where you are in the activation? Over.
 098:33:11|O|LMP|Roger. We're just sitting around waiting for something to do. We need a state vector, a REFSMMAT before we can proceed on with the AGS, and we need you to watch our DAP data load, gimbal drive check, and throttle test. Over.
 098:33:13|T|LMP|Roger. We're just sitting around waiting for something to do. We need a state vector, a REFSMMAT, a reading on the AGS. And we need you to watch our DAP load, give a voice check, and throttle check. Over.
-098:33:34|T|CC|Roger. Eagle, we'll have the state vectors and the REFSMMAT as soon as we get the high gain. Over. It will be about another 10 minutes or so before we get throug the P22, and when we maneuver to attitude and get the high gain, we'll have the updates for you. Over.
+098:33:34|T|CC|Roger. Eagle, we'll have the state vectors and the REFSMMAT as soon as we get the high-gain. Over. It will be about another 10 minutes or so before we get throug the P22, and when we maneuver to attitude and get the high-gain, we'll have the updates for you. Over.
 098:33:54|O|LMP|Roger. We'll go ahead with the DAP and the throttle check since we don't have a gimbal drive test, okay?
 098:33:56|T|LMP|Roger. We'll go ahead with the DAP and throttle ... check if you don't have the gimble drive check, okay?
 098:34:04|T|CC|Roger. Understand you're going to the DAP throttle check. That's affirmative.
@@ -7439,8 +7440,8 @@
 098:39:13|T|CC|Eagle, Houston. You are correct. The lights are there and the flags because we haven't closed the breakers yet. Over.
 098:39:21|O|LMP|Roger.
 098:39:23|T|LMP|Roger.
-098:40:00|O|CDR|Houston, Eagle. Are you going to need the high gain before you can look at our GDA position indicators?
-098:40:02|T|CDR|And Houston, Eagle. Are you going to use the high gain before you can look at our GDA position indicator?
+098:40:00|O|CDR|Houston, Eagle. Are you going to need the high-gain before you can look at our GDA position indicators?
+098:40:02|T|CDR|And Houston, Eagle. Are you going to use the high-gain before you can look at our GDA position indicator?
 098:40:12|T|CC|Stand by.
 098:40:35|T|CC|Eagle, Houston. We can see all the throttle data - -
 098:40:35|O|CDR|I can go to a high ...
@@ -7494,7 +7495,7 @@
 098:49:25|T|CC|Roger. Fine. We copy.
 098:49:26|O|LMP|Roger.
 098:49:28|T|LMP|Roger.
-098:49:30|T|CC|Eagle, Columbia. Your high gain angles are - Corrected - Eagle, Houston. Your high gain angles are 165 pitch, yaw 66. Over.
+098:49:30|T|CC|Eagle, Columbia. Your high-gain angles are - Corrected - Eagle, Houston. Your high-gain angles are 165 pitch, yaw 66. Over.
 098:49:45|O|LMP|Roger. Columbia, Eagle. Have you about maneuvered there, yet?
 098:49:47|T|LMP|Roger. ...
 098:49:52|O|CMP|Negative.
@@ -7502,12 +7503,12 @@
 098:50:14|O|CMP|We have about another 120 degrees to go, Buzz.
 098:50:16|T|LMP|Stand by about another ...
 098:51:10|O|LMP|Houston, Eagle. I believe I've got you on the high-gain antenna now in HIGH BIT RATE. Over.
-098:51:13|T|LMP|Houston, Eagle. I think I've got you on the high gain antenna now. AGS are go.
-098:51:36|T|CC|Columbia, Houston. If you go to REACQ on the high gain, we can acquire you now. Over.
+098:51:13|T|LMP|Houston, Eagle. I think I've got you on the high-gain antenna now. AGS are go.
+098:51:36|T|CC|Columbia, Houston. If you go to REACQ on the high-gain, we can acquire you now. Over.
 098:52:24|T|CC|Eagle, Houston. We got some loads for you if you'll give us P00 and DATA. Over.
 098:52:30|O|CMP|You've got P00 and DATA.
 098:52:32|T|LMP|You've got P00 and DATA.
-098:52:35|T|CC|Roger. We've got both of you on the high gains now. It sounds great now. Over.
+098:52:35|T|CC|Roger. We've got both of you on the high-gains now. It sounds great now. Over.
 098:52:40|O|LMP|Columbia.
 098:52:43|T|CMP|Copy. Roger.
 098:52:46|T|CC|Columbia, Houston. I have a SEP PAD if you're ready to copy. Over.
@@ -7779,12 +7780,12 @@
 100:30:16|T|CC|Columbia, Houston. On my Mark 9 30 to ignition.
 100:30:19|T|CC|MARK.
 100:30:20|T|CC|9 30.
-100:30:53|T|CC|Eagle, Houston. Would you have Columbia go to the high gain, yaw 0, pitch minus 20. Over.
-100:31:03|O|CDR|You want him to go to HIGH GAIN, YAW, zero or - say again the numbers.
-100:31:05|T|CDR(EAGLE)|You want him to go to high gain yaw 0? Say again the numbers.
-100:31:13|T|CC|Roger, Neil. Yaw 0, pitch minus 20, high gain angles. Over.
-100:31:17|O|CDR|Okay. YAW, zero; PITCH, minus 20, on the HIGH GAIN. Columbia.
-100:31:20|T|CDR(EAGLE)|Okay. Yaw 0, pitch minus 20 on the high gain.
+100:30:53|T|CC|Eagle, Houston. Would you have Columbia go to the high-gain, yaw 0, pitch minus 20. Over.
+100:31:03|O|CDR|You want him to go to high-gain, YAW, zero or - say again the numbers.
+100:31:05|T|CDR(EAGLE)|You want him to go to high-gain yaw 0? Say again the numbers.
+100:31:13|T|CC|Roger, Neil. Yaw 0, pitch minus 20, high-gain angles. Over.
+100:31:17|O|CDR|Okay. YAW, zero; PITCH, minus 20, on the high-gain. Columbia.
+100:31:20|T|CDR(EAGLE)|Okay. Yaw 0, pitch minus 20 on the high-gain.
 100:31:23|T|CC|That's affirmative. We've lost all data with him.
 100:31:24|O|CMP|Yes, I copy that, and I'll do it just as soon as I get to it.
 100:31:25|T|CDR(EAGLE)|To Columbia?
@@ -7888,7 +7889,7 @@
 101:14:58|T|CMP(COLUMBIA)|Roger.
 101:16:17|T|CC|Columbia, Houston. We'll have LOS at 101 28. AOS for you 102 15. Over.
 101:16:30|T|CMP(COLUMBIA)|Thank you.
-101:17:07|T|CC|Eagle, Houston. It appeared to us when you were doing the P52, maneuvering the S band, the high gain went into the stop. Verify that both S band breakers are in. Over.
+101:17:07|T|CC|Eagle, Houston. It appeared to us when you were doing the P52, maneuvering the S band, the high-gain went into the stop. Verify that both S band breakers are in. Over.
 101:17:23|T|LMP(EAGLE)|Roger. I think I'd gone up to 90.0 before it went there. The one on this side is in and I'll check the other later.
 101:17:29|T|CC|Okay. Thank you, Buzz.
 101:17:53|T|CC|Eagle, Houston. You are GO for DOI. Over.
@@ -8179,22 +8180,22 @@
 102:15:52|T|CC|Great. We're standing by for Eagle.
 102:15:57|T|CMP(COLUMBIA)|Okay, He's coming along.
 102:16:00|T|CC|We copy. Out.
-102:16:09|T|CC|And, Columbia, Houston. We expect to lose your high gain sometime during the powered descent. Over.
+102:16:09|T|CC|And, Columbia, Houston. We expect to lose your high-gain sometime during the powered descent. Over.
 102:16:19|T|CMP(COLUMBIA)|Columbia. Roger. You don't much care do you?
 102:16:22|T|CC|No, sir.
 102:17:27|T|LMP(EAGLE)|Houston, Eagle. How do you read?
 102:17:29|T|CC|Five by, Eagle. We're standing by for your burn report. Over.
 102:17:36|T|LMP(EAGLE)|Roger. The burn was on time. The residuals before nulling: minus 0.1, minus 0.4, minus 0.1, X and Z nulled to zero ... nulling ...
-102:18:25|T|CC|Columbia, Houston. We've lost all data with Eagle. Please have him reacquire on the high gain, Over.
-102:18:37|T|CMP(COLUMBIA)|Eagle, this is Columbia. Houston would like you to reacquire on the high gain. They've lost your data. Over.
+102:18:25|T|CC|Columbia, Houston. We've lost all data with Eagle. Please have him reacquire on the high-gain, Over.
+102:18:37|T|CMP(COLUMBIA)|Eagle, this is Columbia. Houston would like you to reacquire on the high-gain. They've lost your data. Over.
 102:18:50|T|CMP(COLUMBIA)|Eagle, did you copy Columbia?
 102:18:54|T|CC|Eagle, Houston. Did you call?
 102:19:05|T|LMP(EAGLE)|Eagle, Houston - Houston, Eagle. How do you read now?
 102:19:08|T|CC|Roger. Five by, Neil. We copied up to the AGS residuals. Would you please repeat the AGS residuals in the trim - correction - the Sun check? Over.
 102:19:19|T|LMP(EAGLE)|Roger. AGS residuals: minus 0.1, minus 0.2, minus 0.7. And we used the PGNS NOUN 86 for DELTA-VZ which was 9.5, versus yours which was 9.1, and I believe that may explain the difference. Apogee 57.2, perilune 9.1, Sun check to three marks, NOUN 20, minus NOUN 22, plus 0.19, plus 0.16, plus 0.11. Over.
 102:19:54|T|CC|Roger. Copy. Looks great.
-102:22:37|T|CC|Columbia, Houston. We've lost Eagle again. Have him try the high gain. Over.
-102:22:46|T|CMP(COLUMBIA)|Eagle, this is Columbia. Houston lost you again. They're requesting another try at the high gain.
+102:22:37|T|CC|Columbia, Houston. We've lost Eagle again. Have him try the high-gain. Over.
+102:22:46|T|CMP(COLUMBIA)|Eagle, this is Columbia. Houston lost you again. They're requesting another try at the high-gain.
 102:23:57|T|CC|Eagle, Houston. We have you now. Do you read? Over.
 102:24:02|T|LMP(EAGLE)|Loud and clear.
 102:24:04|T|CC|Roger. We see your VERB 47.
@@ -8212,11 +8213,11 @@
 102:27:06|T|CC|Roger. We saw that, Buzz. Thank you much. Out.
 102:27:09|T|LMP(EAGLE)|All right. I say again - Okay. That wasn't an alarm; that was a code. Okay.
 102:27:14|T|CC|Roger. We saw that.
-102:27:22|T|CC|Eagle, Houston. We recommend you yaw 10 right. It will help us on the high gain signal strength. Over.
+102:27:22|T|CC|Eagle, Houston. We recommend you yaw 10 right. It will help us on the high-gain signal strength. Over.
 102:28:08|T|CC|Eagle, Houston. If you read, you're GO for powered descent. Over.
 102:28:18|T|CMP(COLUMBIA)|Eagle, this is Columbia. They just gave you a GO for powered descent.
-102:28:22|T|CC|Columbia, Houston. We've lost them on the high gain again. Would you please - We recommend they yaw right 10 degrees and reacquire.
-102:28:34|T|CMP(COLUMBIA)|Eagle, this is Columbia. You're GO for PDI and they recommend you yaw right 10 degrees and try the high gain again.
+102:28:22|T|CC|Columbia, Houston. We've lost them on the high-gain again. Would you please - We recommend they yaw right 10 degrees and reacquire.
+102:28:34|T|CMP(COLUMBIA)|Eagle, this is Columbia. You're GO for PDI and they recommend you yaw right 10 degrees and try the high-gain again.
 102:28:46|T|CMP(COLUMBIA)|Eagle, you read Columbia?
 102:28:48|T|LMP(EAGLE)|Roger. We read you.
 102:28:49|T|CMP(COLUMBIA)|Okay.
@@ -8234,9 +8235,9 @@
 102:31:04|T|LMP(EAGLE)|Okay. Sequence camera coming on.
 102:31:04|O|LMP|Okay, sequence camera coming on.
 102:31:22|O|CDR|Should be a little ...
-102:31:32|T|CC|Eagle, Houston. If you'd like to try high gain, pitch 212, yaw 37. Over.
-102:31:43|O|LMP|Roger. I think I've got you on high gain now.
-102:31:45|T|LMP(EAGLE)|Roger. I think I've got you on high gain now.
+102:31:32|T|CC|Eagle, Houston. If you'd like to try high-gain, pitch 212, yaw 37. Over.
+102:31:43|O|LMP|Roger. I think I've got you on high-gain now.
+102:31:45|T|LMP(EAGLE)|Roger. I think I've got you on high-gain now.
 102:31:47|O|CDR|Okay. Hear anything about that?
 102:31:49|T|CC|Roger.
 102:32:02|O|CDR|Say again the angles, though.
@@ -8545,9 +8546,9 @@
 102:48:00|P|PAO|One of the first things that Armstrong and Aldrin will do after getting their next stay, no stay will be to remove their helmet and gloves.
 102:48:00|P|PAO|That stay for another 2 minutes plus. The next stay no stay will be for 1 revolution.
 102:48:10|T|LMP(TRANQ)|... copy NOUN 60, NOUN 43. Over.
-102:48:12|O|CMP|Houston, how do you reed Columbia on the high gain?
+102:48:12|O|CMP|Houston, how do you reed Columbia on the high-gain?
 102:48:13|T|CC|Roger. We have it.
-102:48:14|T|CMP(COLUMBIA)|Houston, how do you read Columbia on the high gain?
+102:48:14|T|CMP(COLUMBIA)|Houston, how do you read Columbia on the high-gain?
 102:48:17|T|CC|Roger - -
 102:48:18|T|LMP(TRANQ)|...
 102:48:19|T|CC|- - We read you five by, Columbia. He has landed, Tranquility Base. Eagle is at Tranquility. Over.
@@ -8555,7 +8556,7 @@
 102:48:27|T|CC|... good show.
 102:48:31|T|CMP(COLUMBIA)|Fantastic.
 102:48:32|T|LMP(TRANQ)|Engine STOP RESET.
-102:48:58|T|CMP(COLUMBIA)|Houston, Columbia went UPTELEMETRY COMMAND, RESET, to reacquire on the high gain.
+102:48:58|T|CMP(COLUMBIA)|Houston, Columbia went UPTELEMETRY COMMAND, RESET, to reacquire on the high-gain.
 102:49:02|T|CC|Copy. Out.
 102:49:39|T|CC|Eagle, Houston. You loaded R2 wrong. We want 10254.
 102:49:50|T|LMP(TRANQ)|Roger.
@@ -8904,15 +8905,15 @@
 105:06:56|T|CC|Tranquility, Houston. We'd like your PRD readout, and we have double checked your EM dump. It all looks okay. Over.
 105:07:26|T|CDR(TRANQ)|Roger. Understand our E memory dump was good. CDR's dosimeter is 11014.
 105:07:37|T|LMP(TRANQ)|And LMP is 09011.
-105:07:44|T|CC|Roger, Tranquility. Break. Columbia, we would like for you to REACQ with your high gain; attempt a manual lock on. Over.
+105:07:44|T|CC|Roger, Tranquility. Break. Columbia, we would like for you to REACQ with your high-gain; attempt a manual lock on. Over.
 105:08:01|T|CMP(COLUMBIA)|In work.
 105:08:11|T|LMP(TRANQ)|Houston, Tranquility here. The LMP's readout may possibly be 09017. Over.
 105:08:21|T|CC|Tranquility, Houston. Roger. 09017 is an update on your readout.
-105:08:31|T|CMP(COLUMBIA)|Columbia's in high gain.
+105:08:31|T|CMP(COLUMBIA)|Columbia's in high-gain.
 105:08:32|T|LMP(TRANQ)|I'll let you know for sure when it goes to either 12 or 18.
 105:08:41|T|CC|Tranquility, Houston. Roger. The medics report your latter reading, 17, appears to be the correct one. Over.
 105:08:54|T|LMP(TRANQ)|Roger.
-105:09:11|T|CMP(COLUMBIA)|Columbia's in the high gain.
+105:09:11|T|CMP(COLUMBIA)|Columbia's in the high-gain.
 105:09:13|T|CC|Roger, Columbia. You're sounding much better now.
 105:09:57|T|CC|Columbla, Houston. Request P00 in ACCEPT, and we'll uplink another state vector. Over.
 105:10:08|T|CMP(COLUMBIA)|Roger. Going P00 in ACCEPT.
@@ -9020,7 +9021,7 @@
 106:50:09|O|CMP|Houston, Columbia. Over.
 106:50:29|T|CMP(COLUMBIA)|Houston, Columbia. Over.
 106:50:31|T|CC|Go ahead, Columbia.
-106:50:38|T|CMP(COLUMBIA)|Roger. I finally got you back on OMNI D. I've been unsuccessfully trying to get you on the high gain, and I've gone COMMAND RESET to PROCESS. How do you read me now?
+106:50:38|T|CMP(COLUMBIA)|Roger. I finally got you back on OMNI D. I've been unsuccessfully trying to get you on the high-gain, and I've gone COMMAND RESET to PROCESS. How do you read me now?
 106:50:46|T|CC|Roger. Reading you loud with background noise. Understand that's OMNI Delta or OMNI Bravo? Over.
 106:50:56|T|CMP(COLUMBIA)|OMNI Delta and you were cut out. I never got your coordinates on estimated LM position. Over.
 106:51:04|T|CC|Columbia, this is Houston. Estimated LM position is latitude plus 0.799, longitude over 2 plus 11.730. On your chart we would place it - Stand by on the charts and readback on the latitude and longitude.
@@ -9047,10 +9048,10 @@
 106:56:28|T|CC|Roger.
 106:56:37|T|CC|Apollo - Columbia, this is Houston. Your map coordinates are Papa decimal 2 and 6 decimal 3 on the LAM 2 chart. Over.
 106:57:10|T|CC|Columbia, this is Houston. Did you copy the coordinates for the LM? Over.
-106:58:49|T|CC|Columbia, Columbia, this is Houston. If you read we request high gain antenna, yaw 180, pitch 0. I say again, yaw 180, pitch 0 on the high gain. Over.
+106:58:49|T|CC|Columbia, Columbia, this is Houston. If you read we request high-gain antenna, yaw 180, pitch 0. I say again, yaw 180, pitch 0 on the high-gain. Over.
 107:02:15|T|CC|Columbia, Columbia, this is Houston. Do you read? Over.
-107:05:13|O|CMP|Houston, Columbia on the high gain.
-107:05:15|T|CMP(COLUMBIA)|Houston, Columbia on the high gain.
+107:05:13|O|CMP|Houston, Columbia on the high-gain.
+107:05:15|T|CMP(COLUMBIA)|Houston, Columbia on the high-gain.
 107:05:18|T|CC|Columbia, this is Houston reading you loud and clear. Over.
 107:05:23|O|CMP|Read you loud and clear, Bruce. What's new?
 107:05:25|T|CMP(COLUMBIA)|Read you loud and clear, Bruce.
@@ -9090,7 +9091,7 @@
 107:19:27|T|CMP(COLUMBIA)|Houston, Columbia.
 107:19:30|T|CC|Go ahead, Columbia.
 107:19:34|T|CMP(COLUMBIA)|On our next pass, I'd appreciate the S band relay mode. Over.
-107:19:40|T|CC|Roger. We're working on that. There haven't been any transmissions from Tranquility Base since we last talked to you. We cannot give you a full S band relay without being assured of high gain antenna. We're working on the partial relay for you. Over.
+107:19:40|T|CC|Roger. We're working on that. There haven't been any transmissions from Tranquility Base since we last talked to you. We cannot give you a full S band relay without being assured of high-gain antenna. We're working on the partial relay for you. Over.
 107:20:00|T|CMP(COLUMBIA)|Okay. Understand, Bruce. Thank you very much.
 107:20:57|T|CC|Columbia, this is Houston. Approximately 2 minutes to LOS. All your systems are looking good from down here. Over.
 107:21:09|T|CMP(COLUMBIA)|Does it look to you like the 240 controller is properly controlling the glycol evaporator outlet TEMP? It locks all right up here.
@@ -9145,8 +9146,8 @@
 108:08:59|T|LMP(TRANQ)|Better keep it pretty close to your mouth, though.
 108:09:05|T|CDR(TRANQ)|Okay. Open up your audio circuit breaker, and disconnect the LM COMM cable.
 108:09:44|T|CC|Columbia, Columbia, this is Houston. Over.
-108:09:53|T|CMP(COLUMBIA)|Houston, Columbia on the high gain. How do you read ?
-108:09:55|T|CC|Roger, Columbia. Reading you loud and clear on the high gain. We have enabled the one way MSFN relay that you requested. The crew of Tranquility Base is currently donning PLSS's. The LMP has his PLSS on, COMM checks out, and the CDR is checking his COMM out now. Over.
+108:09:53|T|CMP(COLUMBIA)|Houston, Columbia on the high-gain. How do you read ?
+108:09:55|T|CC|Roger, Columbia. Reading you loud and clear on the high-gain. We have enabled the one way MSFN relay that you requested. The crew of Tranquility Base is currently donning PLSS's. The LMP has his PLSS on, COMM checks out, and the CDR is checking his COMM out now. Over.
 108:10:23|T|CMP(COLUMBIA)|Sounds good. Thank you kindly.
 108:10:50|T|CMP(COLUMBIA)|Houston, Columbia. I tweaked the platform up on the back side. I have a P52 option 3 when you're ready to copy the data.
 108:10:58|T|CC|Go ahead, Columbia.
@@ -9359,7 +9360,7 @@
 108:48:26|T|CC|Columbia, this is Houston. Latitude plus 0.523, longitude divided by 2, 11.710. Over.
 108:48:48|T|CMP(COLUMBIA)|Roger. Understand plus 00523 and plus 11710. Thank you.
 108:48:58|T|CC|Houston. Roger. Out.
-108:49:08|T|CC|Columbia, this is Houston. We're requesting high gain antenna, pitch, yaw, - pitch 0, yaw 200. That is, pitch 0, yaw 200. Over.
+108:49:08|T|CC|Columbia, this is Houston. We're requesting high-gain antenna, pitch, yaw, - pitch 0, yaw 200. That is, pitch 0, yaw 200. Over.
 108:51:42|T|CDR(TRANQ)|*** cooling unit circuit ***
 108:52:36|T|CDR(TRANQ)|Houston, this is Neil. How do you read?
 108:52:39|T|CC|Neil, this is Houston. Loud and clear.
@@ -9391,7 +9392,7 @@
 108:55:50|T|CC|Roger.
 108:56:00|T|CDR(TRANQ)|3, 2, 1.
 108:56:02|T|CDR(TRANQ)|MARK.
-108:56:03|T|CMP(COLUMBIA)|Houston, Columbia is back on the high gain.
+108:56:03|T|CMP(COLUMBIA)|Houston, Columbia is back on the high-gain.
 108:56:05|T|CC|Roger, Columbia. Loud and clear. And we copied you Mark there, Buzz.
 108:56:09|T|CDR(TRANQ)|Okay. I've got my water warning.
 108:56:18|T|LMP(TRANQ)|Okay. Water warning.
@@ -9448,7 +9449,7 @@
 109:09:41|T|CC|Roger. Out.
 109:10:39|T|CDR(TRANQ)|Have you got your water valve on there?
 109:10:41|T|LMP(TRANQ)|Yes.
-109:12:35|T|CC|Columbia, this is Houston. We show you nearing high gain antenna scan limits. When you lose lock on us, we request OMNI Delta. OMNI Delta when you lose lock. Over.
+109:12:35|T|CC|Columbia, this is Houston. We show you nearing high-gain antenna scan limits. When you lose lock on us, we request OMNI Delta. OMNI Delta when you lose lock. Over.
 109:12:52|T|CMP(COLUMBIA)|Roger. OMNI Delta.
 109:13:22|T|CDR(TRANQ)|Okay. My window's cleared. I'm going to go to turn my cooling up a little bit.
 109:13:26|T|LMP(TRANQ)|Okay. My window's clear.
@@ -9744,8 +9745,8 @@
 110:07:38|T|LMP(EVA)|You'll have to extend that one.
 110:07:58|T|CC|Columbia, Columbia, this is Houston. Over.
 110:08:26|T|LMP(EVA)|***
-110:08:53|T|CMP(COLUMBIA)|Houston, Columbia on the high gain. Over.
-110:08:54|O|CMP|Houston, Columbia on the high gain. Over.
+110:08:53|T|CMP(COLUMBIA)|Houston, Columbia on the high-gain. Over.
+110:08:54|O|CMP|Houston, Columbia on the high-gain. Over.
 110:08:55|T|CC|Columbia, this is Houston. Reading you loud and clear. Over.
 110:09:01|O|CMP|I'm reading you loud and clear. How's it going?
 110:09:03|T|CMP(COLUMBIA)|Yes. Reading you loud and clear. How's it going?
@@ -9795,7 +9796,7 @@
 110:19:53|T|CMP(COLUMBIA)|Roger. Thank you. Readback not required.
 110:19:55|T|CC|Roger. Out.
 110:20:06|T|LMP(EVA)|Houston, it's very interesting to note that when I kick my foot *** with no atmosphere here, and this gravity *** they seem to leave, and most of them have about the same angle of departure and velocity. From where I stand, a large portion of them will impact at a certain distance out. Several *** the percentage is, of course, that will impact *** different regions *** it's highly dependent upon *** the initial trajectory upward *** where most of the *** already the particles are found, ... terrain.
-110:21:08|T|CC|Roger, Buzz. And break. Break. Columbia, this is Houston. When you track out of high gain antenna, then let's request OMNI Delta, OMNI Delta. Over.
+110:21:08|T|CC|Roger, Buzz. And break. Break. Columbia, this is Houston. When you track out of high-gain antenna, then let's request OMNI Delta, OMNI Delta. Over.
 110:21:20|T|CMP(COLUMBIA)|So be it.
 110:21:24|T|LMP(EVA)|I've noticed several times in going from the sunlight into the shadow, that just as I go in, I catch an additional reflection off the LM *** along with the reflection off my face onto the visor, makes visibility very poor just at the transition *** sunlight into the shadow. I essentially have so much glare coming onto my visor *** shadow *** helmet actually gets the shadow. Than it takes a short while for my eyes to adapt to the lighting conditions. *** inside the shadow area, visibility, as we said before, is not too great, but both visor's up *** what sort of footprints we have and the general condition of the soil. Then, after being out in the sunlight a while, it takes - Watch it, Neil! Neil, you're on the cable.
 110:22:40|T|CDR(EVA)|Okay.
@@ -9884,15 +9885,15 @@
 110:53:08|T|LMP(EVA)|Okay. I'm just on the other side of the - -
 110:53:13|T|CC|Now we can see you through the structure of the minus Z secondary strut.
 110:53:38|T|LMP(EVA)|All right. The doors are open, and it looks like they are going to stay up without any problem.
-110:53:46|T|CC|Columbia, Columbia, this is Houston. We are about to lose you on the OMNI's. Request high gain antenna, REACQ mode Fish 20, yaw 135. Over.
+110:53:46|T|CC|Columbia, Columbia, this is Houston. We are about to lose you on the OMNI's. Request high-gain antenna, REACQ mode Fish 20, yaw 135. Over.
 110:54:00|P|PAO|An hour and a half of lunar surface time for Neil Armstrong.
 110:54:00|P|PAO|They've been in the portable life support systems for 2 hours now.
 110:54:00|P|PAO|That's Neil Armstrong to the left of the screen. That - -
 110:54:00|P|PAO|Buzz Aldrin coming into view on the right carrying the two experiments.
 110:54:00|P|PAO|And, they will be out of the cameras field of view while setting up these experiments.
 110:54:03|T|LMP(EVA)|You want to pick an area, Neil?
-110:54:05|T|CC|Make that yaw 175, Columbia, yaw 175 on the high gain.
-110:54:14|T|CMP(COLUMBIA)|Columbia is locked up on the high gain, Houston.
+110:54:05|T|CC|Make that yaw 175, Columbia, yaw 175 on the high-gain.
+110:54:14|T|CMP(COLUMBIA)|Columbia is locked up on the high-gain, Houston.
 110:54:16|T|CC|Roger. Out.
 110:55:42|T|LMP|Houston, the passive seismometer has been deployed manually.
 110:55:49|T|CC|Roger.
@@ -10217,11 +10218,11 @@
 112:46:14|T|LMP(TRANQ)|Roger. T8, 114 30 57; T9, 116 29 10; T10, 118 27 23; T11, 120 25 36; T12, 122 23 49. Over.
 112:46:45|T|CC|Readback correct. Houston out.
 112:47:26|T|CMP(COLUMBIA)|Houston. Columbia.
-112:47:49|T|CMP(COLUMBIA)|Houston, Columbia on high gain.
+112:47:49|T|CMP(COLUMBIA)|Houston, Columbia on high-gain.
 112:47:50|T|CDR(TRANQ)|Houston, Tranquility Base.
 112:47:54|T|CC|Columbia. Columbia, this is Houston. Over.
-112:48:04|T|CMP(COLUMBIA)|Columbia in the high gain.
-112:48:06|T|CC|Roger. Reading you loud and clear on the high gain, Columbia.
+112:48:04|T|CMP(COLUMBIA)|Columbia in the high-gain.
+112:48:06|T|CC|Roger. Reading you loud and clear on the high-gain, Columbia.
 112:48:13|T|CMP(COLUMBIA)|Roger. Going to P52 attitude. You want a crew status report?
 112:48:21|T|CC|Say again, Columbia?
 112:48:27|T|CMP(COLUMBIA)|I say again, I am maneuvering to the P52 attitude, and do you want a crew status report?
@@ -10270,7 +10271,7 @@
 113:15:51|T|CMP(COLUMBIA)|All right.
 113:15:59|T|CC|And we have a little less than 2 minutes to LOS. If you're still up, AOS next time around will be 114 04. Over.
 113:16:18|T|CMP(COLUMBIA)|Roger.
-113:16:27|T|CC|And, Columbia, if it's agreeable with you, we'd like you to stay awake until we have one successful reacquisition on the high gain antenna. And I guess you can plan on turning in shortly after AOS this next pass. Over.
+113:16:27|T|CC|And, Columbia, if it's agreeable with you, we'd like you to stay awake until we have one successful reacquisition on the high-gain antenna. And I guess you can plan on turning in shortly after AOS this next pass. Over.
 113:16:47|T|CMP(COLUMBIA)|Okay.
 113:16:49|T|CC|Roger. Out.
 113:17:34|T|CC|Tranquility Base, Tranquility Base, this is Houston. Radio check. Over.
@@ -10278,7 +10279,7 @@
 113:17:44|T|CC|Roger. Reading you loud and clear. Just wanted to make sure we still had COMM.
 113:17:52|T|CDR(TRANQ)|Roger. We just finished up - we're just finishing up our eat period. Be ready to go back into PREP for DEPRESS.
 113:17:59|T|CC|Roger.
-113:18:00|P|PAO|This is Apollo control 113 hours, 18 minutes. We have had loss of signal from Columbia. We have asked Mike Collins to stay awake through acquisition on the next rev which will be number 20 so that we can check the automatic acquisition mode of the high gain antenna. Once we've verified that, he will start his rest period. The planned wake up for Command Module Pilot 121 hours.
+113:18:00|P|PAO|This is Apollo control 113 hours, 18 minutes. We have had loss of signal from Columbia. We have asked Mike Collins to stay awake through acquisition on the next rev which will be number 20 so that we can check the automatic acquisition mode of the high-gain antenna. Once we've verified that, he will start his rest period. The planned wake up for Command Module Pilot 121 hours.
 113:18:00|P|PAO|This is Apollo control. We're estimating the change-of-shift news briefing for 2:00AM Central Daylight Time. 2:00AM Central Daylight Time for the change-of-shift briefing.
 113:28:00|P|PAO|This is Apollo Control at 113 hours 29 minutes. The change-of-shift news briefing is about to start. We will take any air-ground transmissions during this period for playback after the briefing. If the equipment jettison occurs during the briefing, we will come back up and provide that for you live.
 113:39:00|T||BEGIN LUNAR REV 20
@@ -10313,7 +10314,7 @@
 114:04:27|T|CC|Tranquility Base, this is Houston. We show the suit relief valve still in the AUTO position. It should be closed. Over.
 114:05:19|T|CC|Columbia, this is Houston. Over.
 114:05:33|T|CMP(COLUMBIA)|Houston, Columbia. Go ahead.
-114:05:35|T|CC|Roger. We've successfully reacquired high gain antenna. Unless you have some other traffic with us, I guess we'll bid you a good night and let you get some sleep, Mike. Over.
+114:05:35|T|CC|Roger. We've successfully reacquired high-gain antenna. Unless you have some other traffic with us, I guess we'll bid you a good night and let you get some sleep, Mike. Over.
 114:05:48|T|CMP(COLUMBIA)|Okay. Sounds fine.
 114:05:50|T|CC|And we're going to power down the voice subcarrier part of our uplink to you in order that we don't disturb you while we're talking to Tranquility Base. If you need us, just give us a call, and we can respond with a time lag of about a minute to a minute and a half in setting reconfigured. Over.
 114:06:13|T|CMP(COLUMBIA)|Okay. Thank you.
@@ -10618,14 +10619,14 @@
 122:37:33|T|CC|Columbia, Columbia, Houston. Request P00 and ACCEPT, and we'll send some state vectors up to you.
 122:37:44|T|CMP(COLUMBIA)|Here we going P00 and ACCEPT.
 122:41:58|T|CDR(TRANQ)|Houston, Tranquility. I used Capella in the last sighting, and it's a good ways near the edge. A good ways away from the center of detent 4. I'm wondering if it would pay any to use Alpheratz, star number 1. It might be a little closer. However, it would delay things a little, since I'd have to designate the radar out of the way. Over.
-122:42:36|T|CC|Tranquility. Roger. We copy. Stand by 1. And, break, break, Columbia. We're having a little trouble getting the stuff in there. Request high gain, pitch minus 20, yaw plus 150. Over.
+122:42:36|T|CC|Tranquility. Roger. We copy. Stand by 1. And, break, break, Columbia. We're having a little trouble getting the stuff in there. Request high-gain, pitch minus 20, yaw plus 150. Over.
 122:43:06|T|CC|And, Tranquility, Houston. We'd prefer to save the time; press on with Capella. Over.
 122:43:19|T|CDR(TRANQ)|Roger.
 122:43:30|T|CC|And, Tranquility, Houston. The RCS check looked mighty fine to us.
 122:43:37|T|CDR(TRANQ)|It looks good up here.
 122:43:48|T|CC|Columbia, Columbia, Houston. Over.
 122:44:22|T|CC|Columbia, Houston. Over.
-122:44:57|T|CC|Columbia, Houston in the blind - high gain. Pitch minus 20, yaw plus 150.
+122:44:57|T|CC|Columbia, Houston in the blind - high-gain. Pitch minus 20, yaw plus 150.
 122:45:52|T|LMP(TRANQ)|Houston, Tranquility. Could you give me the fixed portion of the ascent PAD so I can load it in for a P57? Over.
 122:46:02|T|CC|Tranquility. Roger. Stand by one. We want to wait on that P57 until about TIG minus 50 minutes. Over.
 122:46:19|T|LMP(TRANQ)|Roger.
@@ -10647,9 +10648,9 @@
 122:57:10|T|CC|Tranquility Base, Houston. Your readback is correct. And, Tranquility, no need for any GYRO compensation. It's GO.
 122:57:26|T|LMP(TRANQ)|Roger. Understand.
 122:57:34|T|CC|Columbia, Houston. Over.
-122:57:48|T|CC|Columbia, Houston in the blind. Request high gain. Pitch minus 30, yaw plus 170. Over.
+122:57:48|T|CC|Columbia, Houston in the blind. Request high-gain. Pitch minus 30, yaw plus 170. Over.
 122:58:00|P|PAO|This is Apollo Control. Some 5 minutes 35 seconds away from loss of signal with the spacecraft Columbia before it goes on the far side of the Moon on the 24th revolution. 1 hour, 18 minutes until ascent ignition and following that the rendezvous sequence completed with the docking at 128 hours approximately. We'll continue to monitor air to ground here as data is passed up to the crew for the upcoming day's activities. Apollo Control standing by at 123 hours and 3 minutes.
-122:58:35|T|CMP(COLUMBIA)|Houston, Columbia on the high gain. Over.
+122:58:35|T|CMP(COLUMBIA)|Houston, Columbia on the high-gain. Over.
 122:58:38|T|CC|Roger, Columbia. We still need to finish your uplink there, and then I have your CSI and TPI times and also the lift off.
 122:58:53|T|CMP(COLUMBIA)|Go ahead. Ready to copy.
 122:58:57|T|CC|Roger. LM ascent lift off time: 124 22 0000. Your CSI TIG, say again CSI TIG: 125 19 3470. Your TIG of TPI: 126 57 0000. And the LM's NOUN 81 values for CSI: 0532 - that's 53.2 for DELTA VX, DELTA VY all zeros. Columbia, Houston. Over.
@@ -11284,8 +11285,8 @@
 126:00:04|T|LMP(EAGLE)|No. There was no plane change on CSI, and CSM had a 2.3 foot per second burn. We had a 2.9, and we elected to postpone that. Over.
 126:00:18|T|CC|Roger. We copy, Eagle. Thank you.
 126:00:28|T|CMP(COLUMBIA)|Houston, how do you read Columbia now?
-126:00:41|T|CMP(COLUMBIA)|Eagle, how about asking them for some high gain angles for me, will you, please?
-126:00:46|T|LMP(EAGLE)|Roger, Houston, do you have some high gain angles for Columbia? Over.
+126:00:41|T|CMP(COLUMBIA)|Eagle, how about asking them for some high-gain angles for me, will you, please?
+126:00:46|T|LMP(EAGLE)|Roger, Houston, do you have some high-gain angles for Columbia? Over.
 126:00:54|T|CC|Roger, Eagle. And, Columbia, stand by. We'll have them for you shortly.
 126:01:15|T|CC|Eagle, Houston. Could you verify you switched lithium hydroxide canisters? Over.
 126:01:24|T|LMP(EAGLE)|That's affirmative. We started getting an erratic indication on primary, so we switched to secondary, and it was again erratic and I thought it might have been a sensor. But it's settled down now, and we're on the secondary. Over.
@@ -11308,7 +11309,7 @@
 126:08:32|T|CC|Eagle, Houston. ...
 126:08:40|T|CC|Columbia, Houston. ...
 126:09:42|T|CC|Columbia, Houston. Over.
-126:09:59|T|CC|Columbia, Houston. You can go ahead and go to REACQ in the high gain. We should get you then.
+126:09:59|T|CC|Columbia, Houston. You can go ahead and go to REACQ in the high-gain. We should get you then.
 126:10:16|T|LMP(EAGLE)|Do you have some angles for him, Houston?
 126:10:18|T|CC|Roger. Pitch minus 30, yaw 180, for Columbia.
 126:10:29|T|LMP(EAGLE)|Okay. And what was your CSI - CDH solution, Mike?
@@ -11568,7 +11569,7 @@
 127:31:42|O|LMP|Yes.
 127:31:59|O|CDR|It should be 70.
 127:32:25|O|LMP|Okay, I can see the shape of your vehicle now, Mike.
-127:32:42|O|CDR|Oh, yes - got your high gain in sight; your tracking light - whole vehicle shows. I see that you're pointed at me. Now, you're turning a little bit - great.
+127:32:42|O|CDR|Oh, yes - got your high-gain in sight; your tracking light - whole vehicle shows. I see that you're pointed at me. Now, you're turning a little bit - great.
 127:33:39|O|CMP|...
 127:33:49|O|CMP|Are you burning yet?
 127:33:50|O|CDR|We're burning.
@@ -11781,8 +11782,8 @@
 128:32:56|T|CC|Eagle, Houston. We don't care what - All we are trying to do is get a drift rate and see how long it takes them to drift apart on the thing after you jettison.
 128:33:08|T|LMP|Okay. Will we be jettisoning at about this attitude? That's okay. I'll align the AGS with the PGNS. You can tell me a little later if you need some help.
 128:33:22|T|CC|Eagle, Houston. That's fine.
-128:36:31|T|CMP|Houston, Columbia. You want me to roll over and get high gain or anything like that?
-128:36:38|T|CC|Columbia, Houston. I can give you some REACQ angles for the high gain on the LM jettison attitude. Then you can go there whenever you want to. The angles are pitch minus 50, and yaw zero.
+128:36:31|T|CMP|Houston, Columbia. You want me to roll over and get high-gain or anything like that?
+128:36:38|T|CC|Columbia, Houston. I can give you some REACQ angles for the high-gain on the LM jettison attitude. Then you can go there whenever you want to. The angles are pitch minus 50, and yaw zero.
 128:37:02|T|CMP|Okay.
 128:38:07|T|CMP|Houston, Columbia. Say again the jettison roll, pitch, and yaw, please.
 128:38:22|T|CC|Columbia, Houston. Roll zero, pitch 025, and yaw zero. Over.
@@ -11797,7 +11798,7 @@
 128:42:02|T|LMP|Roger. Go ahead.
 128:42:05|T|CC|Roger. Just a reminder to be sure to zero the AGS errors before you enable the AGS attitude hold there after you get in burn attitude.
 128:42:26|T|LMP|Roger. You mean SEP attitude?
-128:42:47|T|CMP|Houston, how do you read Columbia on high gain now?
+128:42:47|T|CMP|Houston, how do you read Columbia on high-gain now?
 128:42:50|T|CC|Hey, Columbia. Houston. Mighty fine; loud and clear.
 128:42:56|T|CMP|Same here, Ron. Thanks.
 128:43:00|T|CC|And Eagle, Houston. Your steerable antenna angles for jettison attitude are - Over.
@@ -12015,14 +12016,14 @@
 130:16:00|P|PAO|This is Apollo Control at 130 hours 16 minutes. We reacquired Apollo 11 about 25 minutes ago, at 129 51. At that time Mike Collins reported that all 3 crewmen were in the Command Module. The transfer occurring while the spacecraft were on the back side of the Moon. They had closed out the LM early and had transferred to the second coolant loop. That decision was made in Mission Control because the secondary loop was on, the primary loop disabled in the close out process. We did not want to have the LM docked to the CSM for an undue length of time, because the primary guidance system is not cooled. The decision was initially made to jettison the LM at 130 hours 30 minutes, however the crew continued ahead of schedule. They were ready to jettison ahead of that time, and Collins reported at 130 10 about, 17 minutes ago, that they were, had jettisoned the LM and said it had departed at several feet per second, and we heard a comment from Buzz Aldrin, that he noticed some cracks in the thermo covering around the LM tunnel, docking area, however he said it did not appear to be a structural crack but merely some cracks in the thermal covering. We are currently scheduled to perform the small Reaction Control System maneuver with the Command and Service Module for separation from the LM at 130 hours 30 minutes, or about 12 minutes from now. We'll pick up this pass as it began on tape and when we've caught up, we'll continue to follow the activity live.
 130:16:49|T|CC|Columbia, Houston. Would you start a maneuver to a pitch of 230 for this little tweak burn? Over.
 130:17:01|T|CMP|Roger. Pitch 230.
-130:17:03|T|CC|Roger, Mike. And verify track mode in AUTO for the high gain.
+130:17:03|T|CC|Roger, Mike. And verify track mode in AUTO for the high-gain.
 130:17:15|T|CMP|We're in REACQ. Is that all right?
 130:17:17|T|CC|Say again. We need AUTO.
 130:17:23|T|CMP|Negative, we're in REACQ - AUTO REACQ.
 130:17:26|T|CC|Roger. We need AUTO, please, sir.
 130:17:31|T|CMP|Okay. You got it.
 130:17:42|T|CMP|Roll zero, pitch 320, yaw zero?
-130:17:47|T|CC|Right now that's what we're looking at. Stand by. We might have you roll so we can keep the high gain. Stand by.
+130:17:47|T|CC|Right now that's what we're looking at. Stand by. We might have you roll so we can keep the high-gain. Stand by.
 130:17:56|T|CMP|Roger.
 130:19:05|T|CC|Columbia, Houston. Over.
 130:19:09|T|CMP|Go ahead.
@@ -12050,14 +12051,14 @@
 130:33:33|T|CC|Roger, sir. Stand by.
 130:34:40|T|CC|Hello, Apollo 11, Houston. A couple of things for you. Over.
 130:34:46|T|CMP|Go ahead.
-130:34:47|T|CC|Okay. Mike, you can maneuver to your preliminary TEI attitude as shown on page 398 of the Flight Plan, and the high gain angles are good as shown in the Flight Plan, and we'd like you to dump the wastewater at 131 05 down to 10 percent. Over.
+130:34:47|T|CC|Okay. Mike, you can maneuver to your preliminary TEI attitude as shown on page 398 of the Flight Plan, and the high-gain angles are good as shown in the Flight Plan, and we'd like you to dump the wastewater at 131 05 down to 10 percent. Over.
 130:35:13|T|CMP|Okay. Understand. I'm going to go to roll 1.1, pitch zero - or 52.6, and yaw 13.8, and you want a wastewater dump 10 percent starting at 131 05.
 130:35:28|T|CC|That's affirmative. Right out the LOS.
 130:36:00|P|PAO|This is Apollo Control at 130 hours 46 minutes. That Command Module separation, maneuver, which occurred at 130 hours 30 minutes, was a 2 foot per second retrograde burn. Burn duration was 7 seconds. The Flight Dynamics Officer reports that at transearth injection, which is scheduled to occur as per the Flight Plan, at about 135 hours 25 minutes, and at that time, the CSM will be about 20 miles ahead of the LM and about I mile below.
 130:37:10|T|CMP|Maneuver is in progress, Houston.
 130:37:14|T|CC|Copy, 11. Out.
 130:40:14|T|CC|Apollo 11, Houston. Over.
-130:46:46|T|CMP|Apollo 11 under high gain. How do you read?
+130:46:46|T|CMP|Apollo 11 under high-gain. How do you read?
 130:46:50|T|CC|Five by, 11. How me? Over.
 130:46:54|T|CMP|You're loud and clear, Charlie. What - What numbers are you looking at for TEI TIG preliminary; 135 hours 23 minutes, something like that?
 130:47:05|T|CC|That's affirmative, Mike. We're looking at about nominal time. We've considered kicking it up a REV, but we don't think this REV track is going to be any good since we had the RCS burn and we need some more tracking to get you a good TEI. Over.
@@ -12560,7 +12561,7 @@
 135:11:58|O|LMP|I'll get those.
 135:12:00|O|CMP|Okay. I was just wondering if they were on – not questioning your checklist, just out of curiosity.
 135:12:29|O|LMP|You going to pitch up after the burn?
-135:12:33|O|CMP|Sounds like a good idea; let's look at the moon after the burn. That'll give us high gain, right?
+135:12:33|O|CMP|Sounds like a good idea; let's look at the moon after the burn. That'll give us high-gain, right?
 135:12:41|O|LMP|Check.
 135:12:52|O|CDR|Okay, 10 minutes until TIG.
 135:12:55|O|CMP|Alright.
@@ -12811,7 +12812,7 @@
 135:29:00|O|CDR|I think you did that already.
 135:29:04|O|CMP|Hey, Neil, you want to proceed on these?
 135:29:05|O|CDR|Yes.
-135:29:06|O|CMP|Okay, where do we go, P00? To get the HIGH GAIN?
+135:29:06|O|CMP|Okay, where do we go, P00? To get the high-gain?
 135:29:11|O|CDR|We want - Yes, P00's good - and we want a VERB 48.
 135:29:16|O|LMP|Yes. Get in P00 and do a VERB 83.
 135:29:18|O|CMP|I'm going to go to SCS and pitch up in the meantime.
@@ -13044,7 +13045,7 @@
 138:02:00|P|PAO|This is Apollo Control at 138 hours 02 minutes. Capcom Owen Garriott has just put in a call to the crew and is passing up some antenna information to them. Here's that conversation.
 138:02:00|P|PAO|This is Apollo Control. Ten minutes ago we logged what we expect to be our last contact with Eagle in lunar orbit. That coming at 137 hours 55 minutes Elapsed Time. At that time the battery power fell below the level where the secondary guidance system could hold the attitude of the vehicle within the sphere of antenna limits. We do not expect to establish contact with Eagle again. We'll continue to stand by here live. There may be a little more conversation before the crew turns in for the night.
 138:02:00|P|PAO|This is Apollo Control at 138 hours 11 minutes. We do not intend to contact the crew during this rest period again. We will take this lying down now and come back up if there is further conversation. This is Mission Control, Houston.
-138:02:01|T|CC|Howdy there, Mike. We're ready to go ahead and have you switch to your OMNI positions for your sleep period, and we would like the following high gain switch positions: your high gain antenna in MANUAL, beam width WIDE, pitch is minus 50, and yaw is a plus 270. And just follow the Flight Plan for remaining COMM configuration. Over.
+138:02:01|T|CC|Howdy there, Mike. We're ready to go ahead and have you switch to your OMNI positions for your sleep period, and we would like the following high-gain switch positions: your high-gain antenna in MANUAL, beam width WIDE, pitch is minus 50, and yaw is a plus 270. And just follow the Flight Plan for remaining COMM configuration. Over.
 138:02:37|T|CDR|Roger. Out.
 138:02:48|T|CMP|You "Purple" people keep funny hours.
 138:02:52|T|CC|Your COMM is pretty weak at this point, Mike. Please say again.
@@ -13183,7 +13184,7 @@
 150:10:00|P|PAO|One minute until mid-course correction number 5. It will be a 10.9 second burn of the spacecraft Reaction Control System thrusters giving a change of velocity retrograde of 4.8 feet per second. The primary purpose of this maneuver will be to control the spacecraft flight path angle at entry interface. We're now less that 30 seconds from the initiation of the burn.
 150:10:00|P|PAO|They should be burning at this time. And we show the burn off.
 150:10:00|P|PAO|That mid-course correction was performed at a distance of about 169,000 nautical miles from the Earth at a spacecraft velocity of 4075.6 feet per second.
-150:10:19|T|CC|Apollo 11, this is Houston. We'd like you to try acquisition on the high gain antenna for us at pitch minus 90, yaw 270. Over.
+150:10:19|T|CC|Apollo 11, this is Houston. We'd like you to try acquisition on the high-gain antenna for us at pitch minus 90, yaw 270. Over.
 150:10:33|T|CDR|Roger. That's in work.
 150:10:37|T|CC|Roger. Out.
 150:12:36|T|CC|11, this is Houston. We're showing about 6.8 percent on wastewater on our telemetry now. Over.
@@ -13203,7 +13204,7 @@
 150:43:38|T|CC|Go ahead, 11.
 150:43:43|T|CMP|Roger. We're in PTC attitude and would you please give us a call when our thruster activity has subsided sufficiently?
 150:43:52|T|CC|Roger. Stand by.
-150:56:41|T|CC|Apollo 11, this is Houston. We're going to hand over from Madrid to Goldstone at 151 hours even. If you should lose lock on the high gain at this time, you may reaquire at pitch minus 45, yaw 270. Break. We're still watching your rates. Over.
+150:56:41|T|CC|Apollo 11, this is Houston. We're going to hand over from Madrid to Goldstone at 151 hours even. If you should lose lock on the high-gain at this time, you may reaquire at pitch minus 45, yaw 270. Break. We're still watching your rates. Over.
 150:57:05|T|CDR|Okay. Thank you.
 151:00:00|P|PAO|This is Apollo Control at 151 hours 11 minutes. The crew is presently setting up the spacecraft for Passive Thermal Control. Once it stabilizes out it will begin a slow roll rate of three revolutions per hour to maintain temperature control. At the present time Apollo 11 is 167,448 nautical miles from the Earth and the velocity is 4,101 feet per second.
 151:08:49|T|CC|Apollo 11, this is Houston. Over.
@@ -13212,7 +13213,7 @@
 151:09:15|T|CDR|Go ahead, Houston.
 151:09:17|T|CC|11, we're still seeing rates on your spacecraft above those we would like for the continuation of the PTC mode which we are still monitoring, and we'll advise you when it has settled down. Over.
 151:09:34|T|CDR|Okay.
-151:11:00|P|PAO|This is Apollo Control at 152 hours 29 minutes. In the process of reestablishing the Passive Thermal Control with the spacecraft in a slow rotation, we have apparently lost high gain lock on and we expect that the crew will reacquire lock with the antenna once the Passive Thermal Control is reestablished. At the present time Apollo 11 is 164 thousand 320 nautical miles from the Earth and the velocity is up now to 4 thousand 156 feet per second. We'll continue to stand by here for reacquisition of the spacecraft, for reestablishment of high gain lock on.
+151:11:00|P|PAO|This is Apollo Control at 152 hours 29 minutes. In the process of reestablishing the Passive Thermal Control with the spacecraft in a slow rotation, we have apparently lost high-gain lock on and we expect that the crew will reacquire lock with the antenna once the Passive Thermal Control is reestablished. At the present time Apollo 11 is 164 thousand 320 nautical miles from the Earth and the velocity is up now to 4 thousand 156 feet per second. We'll continue to stand by here for reacquisition of the spacecraft, for reestablishment of high-gain lock on.
 151:21:51|T|CC|Apollo 11, this is Houston. You are go for the spinup on PTC. Over.
 151:22:59|T|CDR|Thank you.
 151:24:23|T|CDR|Houston, Apollo 11. Over.
@@ -13259,7 +13260,7 @@
 151:52:27|T|CC|Mike, over here on page 9 7 of your checklist where we're setting up PTC, there's been a note penciled in after, "Wait 20 minutes for rate to damp. Do not monitor VERB 16, NOUN 20." It turns out that the significance of that is that, if you are monitoring 16 NOUN 20, then when you get down here in step 7, the second time you do a VERB 24, you've got to reload the NOUN 01 to make it VERB 24, NOUN 01, ENTER, before you load the three registers. Over.
 151:53:09|T|CMP|Roger, that. I was just questioning the rate at which the maneuver would begin if that were not done.
 151:53:17|T|CC|Roger. We're still working on computing the rate for you.
-151:53:39|T|CC|Apollo 11, this is Houston. We'd like you to select REACQ mode on the high gain antenna. Looks like we're about to lose you. Over.
+151:53:39|T|CC|Apollo 11, this is Houston. We'd like you to select REACQ mode on the high-gain antenna. Looks like we're about to lose you. Over.
 151:56:00|P|PAO|This is Apollo Control at 152 hours 9 minutes. At this time, the crew is getting the spacecraft set up to re-initiate the Passive Thermal Control. Apollo 11 currently 165,143 nautical miles from the Earth and traveling at a speed of 4,142 feet per second. The Flight Plan has relatively few activities scheduled for now through the beginning of the crew sleep period tonight. We do have a television transmission scheduled. I believe, the time on that is a little after 8:00 PM Central Daylight Time. And we show the sleep period to begin at about 160 hours Ground Elapsed Time, or a little less than 8 hours from now. We'll continue to stand by for any conversation with the crew. It has been relatively quiet for a good part of today. We'll stand by for a call from the Capcom or from the spacecraft down to the ground.
 152:17:13|T|CC|Apollo 11, Apollo 11, this is Houston broadcasting in the blind. If you read us, attempt to acquire on OMNI antennas. Attempt to acquire us on OMNI antennas, if you read. This is Houston. Out.
 152:18:34|T|CC|Apollo 11, Apollo 11, this is Houston broadcasting in the blind. If you read, attempt acquisition on an OMNI antenna. Attempt acquisition using an OMNI antenna. Over.
@@ -13271,8 +13272,8 @@
 152:46:46|T|CC|Apollo 11, this is Houston. How do you read? Over.
 152:46:51|T|CMP|Loud and clear, Bruce. How me?
 152:46:54|T|CC|Roger. What antenna are you using?
-152:47:27|T|CMP|Houston, Apollo 11 is calling you on the high gain. How do you read? Over.
-152:47:31|T|CC|Roger. Loud and clear on the high gain.
+152:47:27|T|CMP|Houston, Apollo 11 is calling you on the high-gain. How do you read? Over.
+152:47:31|T|CC|Roger. Loud and clear on the high-gain.
 152:47:48|T|CMP|So what's new?
 152:47:51|T|CC|Oh, we were wondering what was new with you up there.
 152:47:56|T|CMP|It's all very quiet. We're just sitting here letting the thruster firing damp down. When they get good enough, let us know, and we'll start this PTC.
@@ -13286,13 +13287,13 @@
 153:19:21|T|CC|Go ahead, 11.
 153:19:27|T|CMP|Roger. I was just checking the radios, and how is the thruster activity coming?
 153:19:51|T|CC|11, Houston. The radios are still in good shape, and we are still waiting for your rates to decay. We've got 0.03 degrees per second in pitch now.
-153:20:05|T|CMP|Okay. We're - we're in no rush. This is a very pleasant attitude, as a matter of fact. The Sun is down in the LEB, so it's not shining through the windows and heating the place up. We've got the Earth steady out window 1. We have the Moon steadily out window 3 and, of course, we are locked up on the high gain. So as long as the thermal people are happy, we're happy.
+153:20:05|T|CMP|Okay. We're - we're in no rush. This is a very pleasant attitude, as a matter of fact. The Sun is down in the LEB, so it's not shining through the windows and heating the place up. We've got the Earth steady out window 1. We have the Moon steadily out window 3 and, of course, we are locked up on the high-gain. So as long as the thermal people are happy, we're happy.
 153:20:29|T|CC|Roger. We copy.
 153:33:27|T|CC|Apollo 11, this is Houston. Over.
 153:33:33|T|CMP|Go ahead, Houston.
-153:33:35|T|CC|Okay, 11. We are about ready to start PTC. I would like to give you some high gain antenna angles, though. We'd like to operate in the REACQ mode, and do you plan on spinning up in the positive or negative direction? Over.
+153:33:35|T|CC|Okay, 11. We are about ready to start PTC. I would like to give you some high-gain antenna angles, though. We'd like to operate in the REACQ mode, and do you plan on spinning up in the positive or negative direction? Over.
 153:33:52|T|CMP|We can do it either way. I had planned the positive.
-153:33:55|T|CC|Okay. For positive, the high gain antenna setting should be pitch plus 30, yaw 270, and in REACQ. Over.
+153:33:55|T|CC|Okay. For positive, the high-gain antenna setting should be pitch plus 30, yaw 270, and in REACQ. Over.
 153:34:10|T|CMP|Understand. REACQ, pitch plus 30, yaw 270. Thank you.
 153:34:14|T|CC|Roger. And if you would, when you're making your DSKY entries to set up for PTC, go a little slower, and we'll try to follow each entry from down here. Over.
 153:34:28|T|CMP|Roger that.
@@ -13320,7 +13321,7 @@
 154:41:05|T|LMP|Go ahead, Houston.
 154:41:07|T|CC|Roger. Would you ver - We've lost COMM with you for about the last 10 minutes. Would you verify that the S band track switch is in REACQ? Over.
 154:41:17|T|LMP|Negative. It's not. The last time we broke lock, we went to AUTO, and I left it there. Sorry.
-154:41:22|T|CC|Roger. We'd like to have you to put it in REACQ, and monitor. In about 2 minutes, we'll be coming up on the high gain. Would you monitor the REACQ? If it doesn't take, acquire manually. Over.
+154:41:22|T|CC|Roger. We'd like to have you to put it in REACQ, and monitor. In about 2 minutes, we'll be coming up on the high-gain. Would you monitor the REACQ? If it doesn't take, acquire manually. Over.
 154:41:39|T|LMP|Okay. Say again the angles you'd like.
 154:41:42|T|CC|We'll - we'll try to switch it ourselves. Stand by on the angles.
 154:41:52|T|CC|Buzz, it's pitch plus 30, yaw 270. Over.
@@ -13339,14 +13340,14 @@
 154:52:09|T|CMP|Okay.
 154:53:00|P|PAO|This is Apollo Control 154 hours, 53 minutes Ground Elapsed Time. 40 hours, 9 minutes to entry. Apollo 11 homeward bound 158,378 nautical miles out from Earth velocity now 4267 feet per second. We have some 3 minutes of tape accumulated over the past half hour of minor conversations with the crew of Apollo 11. We'll roll these tapes now.
 154:53:00|P|PAO|This is Apollo Control. That completes, the accumulation of air to ground communications by means of tape recordings on the last half hour or so. It's quiet right now. No conversation going on between Spacecraft Communicator Charlie Duke and the crew of Apollo 11. And at 154 hours, 57 minutes ground lapsed time this is Apollo Control.
-155:23:08|T|CC|Apollo 11, Houston. We'll have high gain coverage about 155 30. At that time, you can turn on the TV if you desire, and continue your roll around until you get 50 degrees roll. Over.
+155:23:08|T|CC|Apollo 11, Houston. We'll have high-gain coverage about 155 30. At that time, you can turn on the TV if you desire, and continue your roll around until you get 50 degrees roll. Over.
 155:23:26|T|CDR|Okay.
 155:27:00|P|PAO|This is Apollo Control, 155 hours, 27 minutes Ground Elapsed Time. Coming up now about 3 minutes away from tonight's television pass. It'll be through the 85-foot antenna at the Goldstone tracking station. The 210 foot dish out there is tied up tracking one of the Mars fly-by missions. We have some 20 seconds of tape accumulated. We'll play that back and rejoin the conversation line.
 155:27:00|P|PAO|This is Apollo Control still standing by for the incoming television signal from Columbia. Still nothing but the color bar test pattern as of now. Continuing to stand by on air to ground and television links.
 155:27:00|P|PAO|This is Apollo Control. While we're waiting for the television pictures to come in, we have in the Control Room here a vase full of long-stemmed red roses, the card saying, "To one and all concerned. Job superbly done. From a Moonstruck Canadian." Continuing to stand by as we wait for the pictures to come from Columbia. Here they come.
 155:28:25|T|CC|Apollo 11, Houston. We were going to give you the All Star game tonight, but it was rained out. Over.
 155:28:35|T|SC|...
-155:30:05|T|CC|11, Houston. We're on the high gain. You can warm up the SM now if you like. Over.
+155:30:05|T|CC|11, Houston. We're on the high-gain. You can warm up the SM now if you like. Over.
 155:32:45|T|CC|Apollo 11, Houston. We see you coming up on 50 roll. How does that attitude look? Over.
 155:34:52|T|CC|Apollo 11, Houston. We're ready for the TV; we're all configured. At your convenience. Over.
 155:36:45|T|CDR|Houston, Apollo 11. Over.
@@ -13384,7 +13385,7 @@
 155:44:49|T|CC|Roger. You're very clear when you come through. It's just that your VOX is not keying at every word. Over.
 155:44:57|T|LMP|Okay. These bite sized objects were designed to remove the problem of having so many crumbs floating around in the cabin, so they designed a particular size that would be able to go to the mouth all at once. I think since all of our experience, we've discovered that we could progress a good bit further than that back some of the type meals that we have on Earth. As a matter of fact, on this flight we've carried along pieces of bread, and along with the bread we have a ham spread; and I'll show you, I hope, how easy it is to spread some ham while I'm in zero g.
 155:46:17|T|LMP|I think we've discovered that it is quite easy to *** you're all very familiar with.
-155:46:44|T|CC|Apollo 11, Houston. We notice your roll rate increasing. Will you please see if you can bring that down to about 04 or we'll be losing high gain shortly. Over.
+155:46:44|T|CC|Apollo 11, Houston. We notice your roll rate increasing. Will you please see if you can bring that down to about 04 or we'll be losing high-gain shortly. Over.
 155:47:00|P|PAO|This is Apollo Control. Still up live with the air to ground circuit to Apollo 11 homeward bound. Now in the Passive Thermal Control mode, or barbecue mode, Charlie Duke is going to make another call to the crew. Let's listen in, in a moment. He's discussing with Flight Director Deke Frank, who tonight is spelling Gene Kranz on this shift, although Gene is here. They're discussing some adjustments to the Passive Thermal Control mode. Apollo 11 has left the Moon some 53,666 miles behind it. And relative to the Moon, Apollo 11 is traveling now at 4306 feet per second. Continue to monitor air to ground here till the crew settles down. They're not scheduled to go into their rest period until about another 4 hours from now.
 155:47:03|T|LMP|You can also use zero gravity to demonstrate many things that we've all learned in school. I'd like to demonstrate briefly how easy it is to explain the action of the gyroscope. If I spin this can, we know that according to the equations of motion that we would expect that once this is given a spin, and has a spin axis in this direction, if we give it a particular torque, and I'll do this by pushing my hands against it in this fashion once it's spinning. By the equations we can predict that, as I put this torque on it, it will in fact rotate this direction. Let's see how well this works out.
 155:47:53|T|LMP|See that as I apply the torque this way, it's rotated this way.
@@ -13485,8 +13486,8 @@
 156:48:41|T|LMP|Houston, Apollo 11. Houston, Apollo 11.
 156:48:42|T|CC|Go ahead, 11. Over.
 156:48:45|T|LMP|Roger. How do you read my EKG now?
-156:48:48|T|CC|Stand by. We'll let the docs look at it. Buzz, we're on low bit rate. We'll get you on a high gain momentarily, and we'll let you know then. Over.
-156:49:04|T|LMP|Okay. I got my high gain antenna coming out.
+156:48:48|T|CC|Stand by. We'll let the docs look at it. Buzz, we're on low bit rate. We'll get you on a high-gain momentarily, and we'll let you know then. Over.
+156:49:04|T|LMP|Okay. I got my high-gain antenna coming out.
 156:49:11|T|CC|Roger. Just leave on REACQ. We'll get you.
 156:52:38|T|CC|Apollo 11, Houston. Buzz, your EKG looks good now. The doc said thanks a lot.
 156:52:47|T|LMP|Okay. They're welcome.
@@ -13560,7 +13561,7 @@
 158:24:03|T|LMP|Roger.
 158:24:05|T|CC|- - We're very scratchy.
 158:24:08|T|LMP|Okay.
-158:24:43|T|CC|11, Houston. We got you back now on the high gain. Did you copy all that, Buzz? Over.
+158:24:43|T|CC|11, Houston. We got you back now on the high-gain. Did you copy all that, Buzz? Over.
 158:24:51|T|LMP|Yes. I think so. I - I thought maybe that NOUN 20 was one of those that you could never load from the DSKY, and that still maybe. Maybe it was loaded just for the short period of time, and then when the counters read the - the gimbal angles, why they changed it back to what they actually are. But in the meantime, the DAP saw this different number. Is that right?
 158:25:17|T|CC|Well, our guidance guy was telling me that you can actually load those ACDU's, the actual CDU's, but we'll - we're checking on that. Over.
 158:25:30|T|LMP|Okay.
@@ -13603,7 +13604,7 @@
 160:00:20|T|CC|Roger.
 160:02:17|T|CC|11, HOUSTON. We've got the load in. You can go back to BLOCK. Over.
 160:02:24|T|CMP|Roger. Thank you.
-160:02:31|T|CC|And 11, Houston. One final thing. We'd like you to select your OMNI to OMNI, OMNI A to Bravo, high gain track to MANUAL, and beam WIDE. Your angles are 270 in yaw, pitch minus 50. Over.
+160:02:31|T|CC|And 11, Houston. One final thing. We'd like you to select your OMNI to OMNI, OMNI A to Bravo, high-gain track to MANUAL, and beam WIDE. Your angles are 270 in yaw, pitch minus 50. Over.
 160:02:55|T|LMP|Roger. Fifty and minus 70.
 160:03:03|T|CC|The angles, Buzz, were yaw 270, pitch minus 50. Over.
 160:03:12|T|LMP|Okay. Yaw 270, pitch minus 50.
@@ -13678,10 +13679,10 @@
 171:55:40|T|CMP|That sounds pretty good ...
 172:17:16|T|CC|Apollo 11, Houston. Over.
 172:17:22|T|CDR|Go ahead, Houston.
-172:17:24|T|CC|11, Houston. We'd like to try operation with the high gain array here. If you would select reacquire and your S band antenna to HIGH GAIN, your positions are pitch plus 40 and yaw 270, and then monitor for acquisition. Over.
+172:17:24|T|CC|11, Houston. We'd like to try operation with the high-gain array here. If you would select reacquire and your S band antenna to high-gain, your positions are pitch plus 40 and yaw 270, and then monitor for acquisition. Over.
 172:17:48|T|CMP|Okay. It's in work.
 172:20:00|P|PAO|This is Apollo Control at 172 hours, 20 minutes. During the press conference we established contact with the crew. Capsule Communicator Owen Gary had put in a call at 171 hours about 10 minutes after the surgeon reported biomedical data showed all three crewmen awake. Neil Armstrong responded and we have received a status report from the crew and we also passed up the information, preliminary information, that they will use in the reentry tomorrow and gave them a weather report for the prime recovery area in the Pacific, the landing zone. We will play back about 12 minutes of taped conversation that we have accumulated to date and then stand by for any further live comments from the spacecraft.
-172:21:25|T|CC|11, Houston. We're just now ready to switch from OMNI Delta over to your high gain antenna. Can you confirm that you have gone to REACQ? Over.
+172:21:25|T|CC|11, Houston. We're just now ready to switch from OMNI Delta over to your high-gain antenna. Can you confirm that you have gone to REACQ? Over.
 172:21:35|T|CMP|Confirmed.
 172:23:04|T|CC|That looks real good, Mike. Looks like we picked up about 30 dB on the signal strength.
 172:23:11|T|CMP|Yes. It came in quite quickly. However, I'm showing about 240 yaw and about zero on pitch, now.
@@ -13841,15 +13842,15 @@
 177:08:42|T|CMP|Go ahead, Houston.
 177:08:45|T|CC|Roger, 11. I've got a Flight Plan update for you to give you an optimum attitude for the Earth in the number 1 window and the Moon in number 5 window. Over.
 177:09:00|T|CMP|Ready to copy.
-177:09:03|T|CC|Roger. Your attitude will be roll 12 degrees, pitch 270 degrees, yaw 0 degrees. High gain antenna angles, pitch plus 14, yaw 263. Over.
-177:09:25|T|CMP|Roger. I copy. Roll 012, pitch 270, yaw 0. High gain antenna, pitch plus 14 and yaw 263.
+177:09:03|T|CC|Roger. Your attitude will be roll 12 degrees, pitch 270 degrees, yaw 0 degrees. high-gain antenna angles, pitch plus 14, yaw 263. Over.
+177:09:25|T|CMP|Roger. I copy. Roll 012, pitch 270, yaw 0. high-gain antenna, pitch plus 14 and yaw 263.
 177:09:35|T|CC|Roger. And when coming out of PTC, you might be advised that your deadband has been collapsed, so follow the checklist items. Over.
 177:09:46|T|CMP|Roger that.
 177:12:23|T|CC|11, this is Houston. We're receiving a black signal from you right now, but we are getting TV. Over.
 177:17:00|P|PAO|This is Apollo Control at 177 hours, 30 minutes. We're standing by at this time to receive television pictures from the Apollo 11 spacecraft. A short while ago we received the test transmission and apparently everything is functioning normally. We were receiving television signal from Goldstone relayed on through to Houston. We'll continue to stand by for the TV.
 177:24:10|T|CC|Apollo 11, this is Houston. Over.
 177:24:14|T|CMP|Go ahead.
-177:24:16|T|CC|From signal strength indications, it appears that we may be locked up on a side lobe with a high gain antenna. We'd like you to go into wide bandwidth for about 15 seconds and then back to narrow. Over.
+177:24:16|T|CC|From signal strength indications, it appears that we may be locked up on a side lobe with a high-gain antenna. We'd like you to go into wide bandwidth for about 15 seconds and then back to narrow. Over.
 177:24:29|T|CMP|All right.
 177:31:16|T|CDR|You have good S band signal strength now, Houston?
 177:31:22|T|CC|That's affirmative, 11.
@@ -13913,7 +13914,7 @@
 178:40:49|T|CMP|Okay. Thank you.
 178:56:51|T|CC|Apollo 11, this is Houston. Over.
 178:56:55|T|CDR|Go ahead, Houston.
-178:56:57|T|CC|11, we'd like you to shift to an OMNI antenna configuration at the present time. We're requesting the S band antenna OMNI switch to Bravo and the S band antenna OMNI switch to OMNI. The high gain antenna track in MANUAL. Pitch minus 50, yaw 270. Over.
+178:56:57|T|CC|11, we'd like you to shift to an OMNI antenna configuration at the present time. We're requesting the S band antenna OMNI switch to Bravo and the S band antenna OMNI switch to OMNI. The high-gain antenna track in MANUAL. Pitch minus 50, yaw 270. Over.
 178:57:25|T|LMP|Roger. I'll do that right now.
 178:57:30|T|CC|Roger. And if Mike has a minute, we'd like to do a little bit of troubleshooting. It seems he's either flat chested or something because we've lost respiration rate on the BIOMED telemetry. That is, the ZPN trace down here is flat.
 178:57:56|T|LMP|He was shaving a little bit ago. He might have just let it slip. Hold on a moment.
