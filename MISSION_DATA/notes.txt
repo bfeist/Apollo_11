@@ -95,7 +95,10 @@
 076:37:49 - Lovell smiling about seeing mount Marilyn
 076:42:49|T|CC|Roger, 11. We're recording your comments for posterity.
 077:35:00|T|CDR|It never was our plan to; but it's in the Flight Plan, so I guess we'll do it.
-078:23:50 - TV on
+078:24:11 - TV on
+078:57:45|T|LMP|And as the Moon sinks slowly in the west, Apollo 11 bids good day to you.
+078:57:50|T|CC|Roger. We sort of thought it was the Sun setting in the east.
+079:49:43|O|LMP|Let's burn.
 
 
 
