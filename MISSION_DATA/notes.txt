@@ -99,6 +99,7 @@
 078:57:45|T|LMP|And as the Moon sinks slowly in the west, Apollo 11 bids good day to you.
 078:57:50|T|CC|Roger. We sort of thought it was the Sun setting in the east.
 079:49:43|O|LMP|Let's burn.
+080:13:34|O|LMP|All those listening to the tape, please report that - we need a change in the checklist.
 
 
 

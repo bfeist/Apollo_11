@@ -5401,7 +5401,7 @@
 079:53:44|O|CMP|Okay, 19 seconds, two jets.
 079:53:50|O|LMP|A valves only.
 079:53:52|O|CMP|Okay.
-079:54:06|O|LMP|What did you get out of P30 as far as HA and HP?
+079:54:05|O|LMP|What did you get out of P30 as far as HA and HP?
 079:54:10|O|CDR|I got the right numbers.
 079:54:12|O|LMP|65.7, 53.7?
 079:54:16|O|CDR|You got these?
@@ -5412,143 +5412,144 @@
 079:57:46|O|CDR|Okay, burn time is - -
 079:57:49|O|CMP|Light the motor.
 079:57:50|O|CDR|- - 17 and 1 second overburn, almost ... minutes.
-079:57:57|O|CMP|Do it right here.
+079:57:56|O|CMP|Do it right here.
 079:58:07|O|LMP|When's TIG?
 079:58:09|O|CMP|11.
 079:58:10|O|CDR|80:11:36.
 079:58:22|O|CMP|17 seconds - 17 plus 1, huh?
 079:58:49|O|LMP|Those little - fluorescent things on there must be from the heat and transfer.
-079:58:54|O|CDR|Where are they? On the Command Module?
+079:58:54|O|CMP|Where are they? On the Command Module?
 079:58:56|O|LMP|No.
-079:58:57|O|CDR|On the LM?
+079:58:57|O|CMP|On the LM?
 079:58:58|O|LMP|No.
-079:58:59|O|CDR|I don't know, but the command modul's got about ...
+079:58:59|O|CMP|I don't know, but the command module's got about ...
 079:59:01|O|LMP|Little fluorescent - circles?
 079:59:04|O|CDR|There's one of them.
 079:59:07|O|LMP|There's some in a lot of failures.
 079:59:10|O|CMP|The only thing is all the engineering that went into those damn things, too. There's a lot of time and money down the pipe.
 079:59:15|O|LMP|I mean, this big monstrosity out here, it fails -
-079:59:17|O|CDR|Hey, we're coming up - You can see the horizon -
-079:59:38|O|CMP|See if that looks pretty good - through the sextant and see if that doesn't come up.
+079:59:18|O|LMP|Hey, we're coming up - You can see the horizon -
+079:59:38|O|LMP|See if that looks pretty good - through the sextant and see if that doesn't come up.
 079:59:47|O|CMP|Zap.
-079:59:56|O|LMP|Sure has been ... back here.
+079:59:55|O|LMP|Sure has been ... back here.
 080:00:05|O|CMP|Poor old LM is contaminated; it's got urine particles all over it; and, the way the light's shining here, they look yellow. You know, those little - I guess it probably is a little – solid now, the - everything else has boiled off and it's left a little solid.
 080:00:23|O|CDR|..., huh?
-080:00:26|O|LMP|... solid urine particles are ...
-080:00:29|O|CDR|I guess.
-080:00:34|O|LMP|Wait until the back contam - forward contamination people hear about that.
-080:00:38|O|CDR|Yes.
-080:00:41|O|LMP|No more urine dumps on the way to the moon. Put it all in a nice little bag and –
-080:00:58|O|CMP|You're not - you've got plenty of black and white film, don't you?
-080:01:01|O|CDR|Yes, plenty of black and white film.
+080:00:26|O|CMP|... solid urine particles are ... I guess.
+080:00:33|O|LMP|Wait until the back contam - forward contamination people hear about that.
+080:00:37|O|CDR|Yes.
+080:00:40|O|LMP|No more urine dumps on the way to the moon. Put it all in a nice little bag and –
+080:00:57|O|LMP|You're not - you've got plenty of black and white film, don't you?
+080:01:01|O|CMP|Yes, plenty of black and white film.
 080:01:04|O|LMP|... terminator, 4.
-080:01:07|O|CMP|Use as much as you want of anything you want. 80 millimeter, 250, it's all good.
-080:01:20|O|CMP|We got 20 minutes until TIG. Oh, excuse me, 10 minutes - 10 minutes until TIG, excuse me. A little over 10 - 80:11 - -
-080:01:31|O|LMP|Give me a call at about 7 minutes to go.
+080:01:06|O|CMP|Use as much as you want of anything you want. 80 millimeter, 250, it's all good.
+080:01:19|O|CMP|We got 20 minutes until TIG. Oh, excuse me, 10 minutes - 10 minutes until TIG, excuse me. A little over 10 - 80:11 - -
+080:01:30|O|LMP|Give me a call at about 7 minutes to go.
 080:01:35|O|CMP|Okay, right now -
 080:01:36|O|CMP|MARK it.
 080:01:41|O|LMP|Yes, siree; that there is rough - rough terrain.
-080:01:54|O|LMP|I've got kind of an idea that I'm going to be getting a picture of that - ...
-080:02:44|O|LMP|... all those characters back there.
+080:01:53|O|LMP|I've got kind of an idea that I'm going to be getting a picture of that - ...
+080:02:43|O|LMP|... all those characters back there.
 080:03:16|O|CMP|8 minutes until TIG.
 080:03:48|O|LMP|Boy, there's a crater right in the side of the wall.
-080:03:54|O|CMP|It's a much bigger crater, and I'll be damned if it doesn't look like it just went in sideways.
+080:03:53|O|LMP|It's a much bigger crater, and I'll be damned if it doesn't look like it just went in sideways.
 080:04:02|O|CDR|Okay, 7 minutes. Okay?
-080:04:13|O|LMP|... going to do it -
-080:04:18|O|CMP|Buzz, you want to read us that checklist; we'll use my panel chart. Which checklist would you like?
-080:04:32|O|LMP|Alright, MAIN BUS TIES coming ON.
+080:04:12|O|LMP|... let's do it -
+080:04:17|O|CMP|Buzz, you want to read us that checklist; we'll use my panel chart. Which checklist would you like?
+080:04:31|O|LMP|Alright, MAIN BUS TIES coming ON.
 080:04:34|O|CMP|Okay. 7 minutes -
-080:04:37|O|CMP|MARK.
-080:04:40|O|CMP|AC's ON - DC's ON.
-080:04:46|O|LMP|TVC SERVO POWER, number 1, AC 1.
+080:04:36|O|CMP|MARK.
+080:04:39|O|CMP|AC's ON - DC's ON.
+080:04:45|O|LMP|TVC SERVO POWER, number 1, AC 1.
 080:04:48|O|CMP|AC 1.
-080:04:50|O|LMP|TVC 2, AC 2.
-080:04:51|O|CMP|AC 2.
-080:04:52|O|LMP|TRANS CONTROL POWER, ON.
-080:04:54|O|CMP|TRANSLATION CONTROL POWER.
-080:04:56|O|LMP|ROTATION CONTROL POWER, NORMAL, number 2, to AC.
-080:04:58|O|CMP|AC.
-080:04:59|O|LMP|ROTATIONAL HAND CONTROLLER, number 2, ARMED.
+080:04:49|O|LMP|TVC 2, AC 2.
+080:04:49|O|CMP|AC 2.
+080:04:50|O|LMP|TRANS CONTROL POWER, ON.
+080:04:53|O|CMP|TRANSLATION CONTROL POWER.
+080:04:55|O|LMP|ROTATION CONTROL POWER, NORMAL, number 2, to AC.
+080:04:57|O|CMP|AC.
+080:04:58|O|LMP|ROTATIONAL HAND CONTROLLER, number 2, ARMED.
 080:05:01|O|CMP|Number 2, ARMED.
 080:05:16|O|LMP|Oh, I see those current - current ... went down on the fuel cells. ... right down here.
 080:05:24|O|CMP|The batteries are carrying the -
-080:05:34|O|CDR|6 minutes.
+080:05:33|O|CDR|6 minutes.
 080:05:52|O|CMP|About ready for a gimbal motor or two?
-080:05:55|O|LMP|Alright. Let's try - PITCH 1, YAW 1.
+080:05:54|O|LMP|Alright. Let's try - PITCH 1, YAW 1.
 080:05:58|O|CMP|Here comes PITCH 1 -
 080:05:59|O|CMP|MARK it.
 080:06:00|O|LMP|Got it.
 080:06:01|O|CMP|YAW 1 -
 080:06:02|O|CMP|MARK it.
 080:06:03|O|LMP|Got it.
-080:06:04|O|CMP|Okay.
-080:06:05|O|LMP|TRANSLATION CONTROLLER, clockwise.
+080:06:03|O|CMP|Okay.
+080:06:04|O|LMP|TRANSLATION CONTROLLER, clockwise.
 080:06:06|O|CMP|Clockwise.
 080:06:07|O|LMP|Verify no MTVC.
-080:06:11|O|CMP|Verified.
+080:06:10|O|CMP|Verified.
 080:06:12|O|LMP|Alright.
-080:06:14|O|CMP|GIMBAL MOTORS, PITCH 2 and YAW 2, ON. PITCH 2 -
+080:06:13|O|CMP|GIMBAL MOTORS, PITCH 2 and YAW 2, ON. PITCH 2 -
 080:06:17|O|CMP|MARK it.
-080:06:18|O|LMP|Got it.
-080:06:19|O|CMP|YAW 2 -
-080:06:20|O|CMP|MARK it.
-080:06:21|O|LMP|Got it.
-080:06:23|O|CMP|Set GPI trim.
-080:06:26|O|CMP|Okay, what numbers do we use?
-080:06:31|O|CDR|166 - and let me see - and minus 0.81.
+080:06:17|O|LMP|Got it.
+080:06:18|O|CMP|YAW 2 -
+080:06:19|O|CMP|MARK it.
+080:06:20|O|LMP|Got it.
+080:06:22|O|CMP|Set GPI trim.
+080:06:25|O|CMP|Okay, what numbers do we use?
+080:06:30|O|LMP|166 - and let me see - and minus 0.81.
 080:06:43|O|CMP|Plus 166 and minus 0.81?
 080:06:47|O|CDR|Yes.
 080:06:48|O|CMP|Verify MTVC. Okay, there's trim set -
-080:06:53|O|CDR|See if we nulled residuals and all that. ... - -
+080:06:53|O|LMP|See if we nulled residuals and all that. ... - -
 080:06:55|O|CMP|MTVC is verified.
-080:06:58|O|CDR|- - ... time on it - what? Okay.
-080:07:01|O|LMP|Alright, TRANSLATION CONTROLLER, NEUTRAL.
-080:07:04|O|CMP|NEUTRAL.
-080:07:06|O|LMP|Verify GPI returns to zero, zero.
+080:06:58|O|LMP|- - ... time on it - what? Okay.
+080:07:00|O|LMP|Alright, TRANSLATION CONTROLLER, NEUTRAL.
+080:07:03|O|CMP|NEUTRAL.
+080:07:05|O|LMP|Verify GPI returns to zero, zero.
 080:07:08|O|CMP|Verified.
 080:07:09|O|LMP|ROT CONTROL POWER, number 2 - ROT CONTROL POWER, NORMAL, number 2, to AC/DC.
 080:07:14|O|CMP|AC/DC.
 080:07:15|O|LMP|SPACECRAFT CONTROL, CMC, verify.
-080:07:17|O|CMP|CMC verified. How are the needles, Buzz? Showing up good?
-080:07:21|O|LMP|No, we don't need it yet. Alright, BMAG MODE, three of them, to ATT 1/RATE 2.
+080:07:17|O|CMP|CMC verified.
+080:07:18|O|LMP|How are the needles ... Showing up good?
+080:07:20|O|CMP|No, we don't need it yet.
+080:07:21|O|LMP|Alright, BMAG MODE, three of them, to ATT 1/RATE 2.
 080:07:24|O|CMP|ATT 1/RATE 2.
-080:07:26|O|LMP|ENTER.
-080:07:28|O|CMP|ENTER.
-080:07:29|O|LMP|You got a 204?
-080:07:30|O|CMP|Yes.
-080:07:31|O|LMP|SPACECRAFT CONTROL, CMC and AUTO, huh?
-080:07:33|O|CMP|Yes.
+080:07:25|O|LMP|ENTER.
+080:07:27|O|CMP|ENTER.
+080:07:28|O|LMP|You got a 204?
+080:07:29|O|CMP|Yes.
+080:07:29|O|LMP|SPACECRAFT CONTROL, CMC and AUTO, huh?
+080:07:32|O|CMP|Yes.
 080:07:34|O|LMP|Alright.
 080:07:35|O|CMP|And we got 4 minutes until TIG.
-080:07:38|O|CDR|Okay, go. Up - down - zero. It really shakes. Up - down - zero.
-080:07:48|O|CMP|Which way's it shaking, can you tell? Pitch and yaw?
-080:07:54|O|CDR|I don't know; it goes up more on the yaw needle than the pitch needle, but I'm not sure that's indicative of anything except needle sensitivity.
-080:08:01|O|CMP|Okay, did it go to ...?
-080:08:02|O|CDR|Yes, it did. ... OFF and the ... OFF.
-080:08:12|O|LMP|ROTATION CONTROL POWER, DIRECT, two of them, to MAIN A/MAIN B.
-080:08:17|O|CMP|MAIN A/MAIN B.
+080:07:36|O|CMP|Okay, go. Up - down - zero. It really shakes. Up - down - zero.
+080:07:47|O|LMP|Which way's it shaking, can you tell? Pitch and yaw?
+080:07:53|O|CMP|I don't know; it goes up more on the yaw needle than the pitch needle, but I'm not sure that's indicative of anything except needle sensitivity.
+080:08:00|O|LMP|Okay, did it go to ...?
+080:08:02|O|CMP|Yes, it did. ... OFF and the ... OFF.
+080:08:10|O|LMP|ROTATION CONTROL POWER, DIRECT, two of them, to MAIN A/MAIN B.
+080:08:16|O|CMP|MAIN A/MAIN B.
 080:08:20|O|LMP|SPS HELIUM VALUES, verified AUTO; LIMIT CYCLE, OFF.
-080:08:26|O|CMP|LIMIT CYCLE, OFF.
-080:08:27|O|LMP|FDAI SCALE, 50/15.
+080:08:25|O|CMP|LIMIT CYCLE, OFF.
+080:08:26|O|LMP|FDAI SCALE, 50/15.
 080:08:28|O|CMP|Okay.
-080:08:30|O|LMP|At 2 minutes, A is coming on – DELTA-V THRUST, A.
+080:08:29|O|LMP|At 2 minutes, A is coming on – DELTA-V THRUST, A.
 080:08:33|O|CMP|Okay. And that's all we use is A. 3 minutes to go.
 080:08:46|O|LMP|I like the neat way he's got his - safety belt on - ... should be about in the right place.
-080:09:05|O|CDR|... belt for transposition and docking ...
-080:09:11|O|CMP|Okay, coming up on 2 minutes; I'll get DELTA-V THRUST, NORMAL, A, ON, and that's the only bank we'll use.
-080:09:38|O|CMP|DELTA-V THRUST, NORMAL, A, is ON.
-080:09:41|O|LMP|TRANSLATION CONTROL, ARMED.
+080:09:04|O|CMP|... belt for transposition and docking ...
+080:09:10|O|CMP|Okay, coming up on 2 minutes; I'll get DELTA-V THRUST, NORMAL, A, ON, and that's the only bank we'll use.
+080:09:37|O|CMP|DELTA-V THRUST, NORMAL, A, is ON.
+080:09:40|O|LMP|TRANSLATION CONTROL, ARMED.
 080:09:42|O|CMP|ARMED.
-080:09:44|O|LMP|ROTATION CONTROL, ARMED?
-080:09:45|O|CMP|ARMED.
-080:09:48|O|LMP|TAPE RECORDER - COMMAND RESET.
+080:09:43|O|LMP|ROTATION CONTROL, ARMED?
+080:09:44|O|CMP|ARMED.
+080:09:47|O|LMP|TAPE RECORDER - COMMAND RESET.
 080:10:00|P|PAO|Mark 1 minute until planned time of ignition for LOI 02. Mike Collins will be at the controls for the Lunar Orbit Insertion 02 burn just as he was far LOI 01. The burn is of short duration as we have indicated earlier, some 17 seconds of burn time anticipated. We're standing by in Mission Control Center relatively quiet. Mark 30 seconds. Continuing to monitor - or read those displays that gave us our final readout prior to our passage to the backside of the Moon. Mark 10 seconds. Mark 05 seconds. We won't know for sure how the burn comes out until we acquire. Mark, plan time for ignition. At 80 hours 12 minutes now into the flight of Apollo 11, this is Apollo Control, Houston.
 080:10:01|O|LMP|- - BIT RATE, FORWARD.
 080:10:05|O|CMP|Okay, 19 seconds ullage this time.
-080:10:55|O|CMP|Okay, stand by for ...
-080:11:03|O|MS|...
+080:10:54|O|CMP|Okay, stand by for ...
+080:11:02|O|MS|...
 080:11:07|O|LMP|EMS MODE to NORMAL?
-080:11:08|O|CMP|EMS MODE, NORMAL. Stand by for ullage. ...
+080:11:08|O|CMP|EMS MODE, NORMAL. Stand by for ullage. 19 seconds.
 080:11:17|O|LMP|20, 19 -
 080:11:19|O|CMP|Ullage.
 080:11:21|O|LMP|You got the ullage?
@@ -5561,68 +5562,72 @@
 080:11:39|O|CMP|A, open.
 080:11:44|O|CDR|She's holding - she's holding - ... looks good.
 080:11:50|O|CMP|She's all over.
-080:11:51|O|CDR|Okay, stand by for shutdown -
-080:11:53|O|CDR|SHUTDOWN.
+080:11:51|O|CMP|Okay, stand by for shutdown -
+080:11:53|O|LMP|SHUTDOWN.
 080:11:54|O|LMP|Shutdown, two valves, closed; two, barber pole.
-080:11:56|O|CDR|Okay, DELTA-V THRUST, NORMAL, A, is OFF; stand by for the GIMBAL MOTORS, OFF.
+080:11:56|O|CMP|Okay, DELTA-V THRUST, NORMAL, A, is OFF; stand by for the GIMBAL MOTORS, OFF.
 080:12:00|T||BEGIN LUNAR REV 3
 080:12:00|O|CMP|PITCH 1, OFF -
 080:12:01|O|CMP|MARK.
 080:12:02|O|LMP|Got it.
-080:12:03|O|CMP|YAW 1, OFF -
-080:12:04|O|LMP|MARK.
-080:12:05|O|LMP|Got it.
-080:12:06|O|CMP|PITCH 2, OFF -
-080:12:07|O|CMP|MARK.
-080:12:08|O|LMP|Got it.
-080:12:09|O|CMP|YAW 2, OFF -
-080:12:10|O|CMP|MARK.
-080:12:11|O|LMP|Got it.
-080:12:12|O|CMP|Four GIMBAL MOTORS, OFF.
-080:12:13|O|CMP|LMP
-080:12:14|O|CMP|Both OFF.
-080:12:15|O|CDR|MAIN BUS TIES; AC, OFF - DC, OFF.
-080:12:18|O|LMP|Verified.
-080:12:20|O|CMP|Proceed - and look at these -
-080:12:28|O|CDR|...?
+080:12:02|O|CMP|YAW 1, OFF -
+080:12:03|O|LMP|MARK.
+080:12:04|O|LMP|Got it.
+080:12:05|O|CMP|PITCH 2, OFF -
+080:12:06|O|CMP|MARK.
+080:12:06|O|LMP|Got it.
+080:12:07|O|CMP|YAW 2, OFF -
+080:12:08|O|CMP|MARK.
+080:12:09|O|LMP|Got it.
+080:12:09|O|CMP|Four GIMBAL MOTORS, OFF.
+080:12:10|O|CMP|LMP
+080:12:11|O|CMP|Both OFF.
+080:12:14|O|LMP|MAIN BUS TIES; AC, OFF - DC, OFF.
+080:12:18|O|CMP|Verified.
+080:12:20|O|LMP|Proceed - and look at these -
+080:12:28|O|CMP|...?
 080:12:29|O|LMP|No, we don't need that.
-080:12:33|O|CDR|Pretty nice-looking engine. ...
-080:12:40|O|CMP|0.3 zero, and zero is ...
+080:12:33|O|CMP|Pretty nice-looking ...
+080:12:40|O|CMP|0.3 zero, and zero, essentially.
 080:12:43|O|LMP|Alright. Get the EMS FUNCTION, OFF - How about going ATT DEADBAND, MAX?
 080:12:47|O|CMP|Okay, we're - we're in DAP control.
 080:12:52|O|LMP|Alright, EMS FUNCTION, OFF; you got the DELTA-VC?
 080:12:55|O|CDR|Yes - ...
 080:12:56|O|LMP|EMS MODE, STAND BY?
 080:12:57|O|CMP|Okay.
-080:12:58|O|LMP|BMAG MODE, three, to RATE 2?
+080:12:57|O|LMP|BMAG MODE, three, to RATE 2?
 080:12:59|O|CMP|Three to RATE 2.
 080:13:00|O|LMP|ATT DEADBAND, MAX?
 080:13:01|O|CMP|MAX.
-080:13:02|O|LMP|PCM BIT RATE going to LOW. ROT CONTROL POWER, DIRECT, two of them, OFF.
-080:13:04|O|CMP|OFF.
-080:13:05|O|LMP|Circuit breakers, PITCH 1, YAW 1, PITCH 2, YAW 2, OPEN? Proceed and go to VERB 82. No!
-080:13:21|O|CMP|Why not?
-080:13:22|O|LMP|That isn't what it says - it says ... and go to P00 - -
-080:13:25|O|CDR|You get this -
-080:13:28|O|LMP|- - I want to get the circuit breakers -
-080:13:32|O|CMP|Up to ..., and I want to get AVERAGE g off, there we go, it's in P00 - VERB 82.
-080:13:42|O|LMP|All those listening to the tape, please report that - we need a change in the checklist.
-080:13:47|O|CDR|66.1 by 54.4; now you can't beat that.
+080:13:01|O|LMP|PCM BIT RATE going to LOW. ROT CONTROL POWER, DIRECT, two of them, OFF.
+080:13:06|O|CMP|OFF.
+080:13:06|O|LMP|Circuit breakers, PITCH 1, YAW 1, PITCH 2, YAW 2, OPEN?
+080:13:11|O|CMP|Proceed and go to VERB 82.
+080:13:15|O|LMP|No!
+080:13:16|O|CMP|Why not?
+080:13:17|O|LMP|That isn't what it says - it says ... and go to P00 - -
+080:13:20|O|CDR|You get this -
+080:13:21|O|LMP|- - I want to get this state vector in.
+080:13:25|O|CMP|Up to ..., and I want to get AVERAGE g off, there we go, it's in P00 - VERB 82.
+080:13:34|O|LMP|All those listening to the tape, please report that - we need a change in the checklist.
+080:13:40|O|CDR|66.1 by 54.4; now you can't beat that.
 080:13:51|O|LMP|No, this is about - -
 080:13:52|O|CMP|That's right downtown.
 080:13:55|O|LMP|- - this is 65.7 - -
-080:13:57|O|CMP|By 54 point - -
-080:14:00|O|LMP|We're more elliptic now, huh?
-080:14:05|O|CMP|That's about as close as you're going to get.
+080:13:58|O|CMP|By 54 point ... - -
+080:14:00|O|LMP|Oh, we're more elliptic now, huh?
+080:14:04|O|CMP|That's about as close as you're going to get.
 080:14:07|O|LMP|Yes, I bet we never get circular.
-080:14:10|O|CDR|Hey, have you got any more circuit breakers – I mean any more switches for me?
-080:14:14|O|LMP|No. When everybody likes this one, why don't you try VERB 83 or a VERB 66 or a - suit yourself. See how much ... you put in.
+080:14:09|O|CMP|Hey, have you got any more circuit breakers – I mean any more switches for me?
+080:14:13|O|LMP|No. When everybody likes this one, why don't you try VERB 83 or a VERB 66 or a - suit yourself. See how much ... you put in.
 080:14:33|O|CMP|158.
-080:14:36|O|LMP|15.8, huh?
-080:14:37|O|CDR|158.
-080:14:40|O|LMP|Or 158, that's about right. Okay.
-080:14:43|O|CMP|Everybody happy with that?
-080:14:44|O|LMP|That's reasonable.
+080:14:35|O|LMP|15.8, huh?
+080:14:37|O|CMP|158.
+080:14:38|O|LMP|Or 158 ...
+080:14:39|O|CMP|That's about right.
+080:14:40|O|LMP|Okay.
+080:14:41|O|CMP|Everybody happy with that?
+080:14:41|O|LMP|That's reasonable.
 080:14:46|O|CMP|VERB 66; want to have a vote on VERB 66?
 080:14:49|O|CDR|No!
 080:14:50|O|CMP|Everybody in favor of VERB 66 raise their right arm.
