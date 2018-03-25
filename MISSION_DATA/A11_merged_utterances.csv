@@ -5792,9 +5792,9 @@
 080:35:30|T|CC|Hello, Apollo 11. Houston. We're standing by. Over.
 080:35:32|O|CDR|Okay.
 080:35:33|O|CC|Apollo 11. Houston. We're standing by. Over.
-080:35:37|O|CDR|Do you want to talk to them?
-080:35:40|O|CDR|... Roger, Houston. Burn status report follows: DELTA-TIG zero; burn time, 17; angle with the pad values, DELTA-VGX was plus 0.3; VGY, minus 0.0; VGZ minus 0.1; DELTA-VC, minus 5.2; fuel, 362; OX, 364; unbalance, plus 50, and a post-burn NOUN 94, 66.1 by - -
-080:35:58|T|CDR|VGY minus 0.0, VGZ minus 0.1, DELTA-VC minus 5.2, fuel 362, OX 364, unbalance plus 50, and our post-burn now 94's, 66.1 by 54.4. Go ahead.
+080:35:36|O|CDR|Do you want to talk to them?
+080:35:39|O|CDR|... Roger, Houston. Burn status report follows: DELTA-TIG zero; burn time, 17; angle with the pad values, DELTA-VGX was plus 0.3; VGY, minus 0.0; VGZ minus 0.1; DELTA-VC, minus 5.2; fuel, 362; OX, 364; unbalance, plus 50, and a post-burn NOUN 94, 66.1 by - -
+080:35:58|T|CDR|- VGY minus 0.0, VGZ minus 0.1, DELTA-VC minus 5.2, fuel 362, OX 364, unbalance plus 50, and our post-burn now 94's, 66.1 by 54.4. Go ahead.
 080:36:24|T|CC|Roger. We copy, Neil. Would you say again the DELTA-VZ? We missed that. Over.
 080:36:31|T|CDR|Roger. That was minus 0.1.
 080:36:34|T|CC|Roger. Copy the burn report. Sounds good.
@@ -5866,123 +5866,125 @@
 081:30:07|T|CC|All right.
 081:30:13|P|PAO|This is Apollo Control, Houston. 81 hours 30 minutes now into the flight of Apollo 11. The Apollo 11 Commander and Lunar Modules pilots appear to be a little bit ahead on their timelines in the LM activation period. Meanwhile, Command Module Pilot, Mike Collins proceeding further with his landmark tracking exercises. Mike also reported a little puddle of water inside the Command Module near the aft bulkhead his reference to like 101 referred to the Apollo 7 spacecraft, which was commanded by Walter Schirra. Our current altitude 54 nautical miles, current apolune 65.4, our current perilune 53.8. We now show a weight in orbit of 70,472 pounds. This is Apollo Control, Houston, continuing to monitor at 81 hours 32 minutes into the flight.
 081:40:25|P|PAO|This is Apollo Control, Houston. We are now some five minutes away from loss of signal with the Apollo 11 spacecraft. We currently show an altitude of 54.2 nautical miles, apolune 65.4, perilune 53.9 nautical miles. Flight Director, Milt Windler now talking with various members of his flight control team. We would expect a final bit of conversation prior to loss of signal with the Apollo 11 spacecraft. We'll keep our line up and continue to monitor conversations that could transpire prior to loss of signal. Standing by at 81 hours 41 minutes into the flight of Apollo 11.
-081:40:25|O|LMP|Well, they look like they were made to go - That's - that's it, isn't it? Weren't they made to put here so you stow them by putting them on here instead of the way we do it?
-081:40:40|O|CDR|...
-081:40:50|O|CMP|Then we only have to decide what - what's supposed to go here.
-081:40:55|O|LMP|I ... two of them.
-081:41:00|P|PAO|We've now had loss of signal with Apollo 11. At 81 hours, 45 minutes into the flight, this is Apollo Control, Houston.
-081:41:01|O|CMP|Both of those - those things are in here.
-081:41:05|O|CDR|... worry about nothing goes in there ...
-081:41:21|T|CC|Hello, Apollo 11. Houston. We've played back the LOI-2 burn. It looks really good to us. The systems were all good. We got an orbit on the limited amount of tracking at 65.4 by a 53.9. Over.
-081:41:22|O|CC|Hello, Apollo 11, Houston. We've played back the LOI-2 burn. It looks really good to us. The systems were all good. We got an orbit on the limited amount of tracking at 65.4 by a 53.9. Over.
-081:41:39|O|CDR|Sounds good, Houston.
-081:41:40|T|CDR|Sounds good, Houston.
-081:41:41|O|LMP|I need that film now.
-081:41:44|O|CDR|Okay.
-081:41:46|O|LMP|...
-081:41:58|O|CDR|Okay, want to get film. It's a long trip to the film container.
+081:40:21|O|LMP|Well, they look like they were made to go - That's - that's it, isn't it? Weren't they made to put here so you stow them by putting them on here instead of the way we do it?
+081:40:39|O|CDR|...
+081:40:48|O|CMP|Then we only have to decide what - what's supposed to go here.
+081:40:54|O|LMP|I ... two of them.
+081:40:59|O|CMP|Both of those - those things are in here.
+081:41:04|O|CDR|... worry about nothing goes in there ...
+081:41:19|T|CC|Hello, Apollo 11. Houston. We've played back the LOI-2 burn. It looks really good to us. The systems were all good. We got an orbit on the limited amount of tracking at 65.4 by a 53.9. Over.
+081:41:21|O|CC|Hello, Apollo 11, Houston. We've played back the LOI-2 burn. It looks really good to us. The systems were all good. We got an orbit on the limited amount of tracking at 65.4 by a 53.9. Over.
+081:41:37|O|CDR|Sounds good, Houston.
+081:41:39|T|CDR|Sounds good, Houston.
+081:41:40|O|LMP|I need that film now.
+081:41:42|O|CDR|Okay.
+081:41:45|O|LMP|...
+081:41:57|O|CDR|Okay, want to get film.
 081:41:24|P|PAO|Mark 3 minutes now from predicted time of loss of signal.
-081:42:32|O|CMP|You want something?
-081:42:33|O|CDR|Oh, shoot. I'm going to have trouble getting in there.
+081:42:06|O|CDR|It's a long trip to the film container.
+081:42:31|O|CMP|You want something?
+081:42:31|O|CDR|Oh, shoot. I'm going to have trouble getting in there.
 081:43:23|P|PAO|Mark 2 minutes now from time of LOS.
-081:43:39|O|CMP|How's it going, Neil? You getting any?
-081:43:41|O|CDR|...
-081:43:59|O|CDR|Well - Buzz, the 70-millimeter container's only got one black and white and one color in it - Isn't it supposed to - -
-081:44:16|O|CMP|That's - that's not - that's mine.
-081:44:19|O|LMP|You've got the wrong one.
-081:44:20|O|CMP|No, that's not the right one.
-081:44:23|O|CDR|The one - -
+081:43:38|O|CMP|How's it going, Neil? You getting any?
+081:43:41|O|CDR|No.
+081:43:58|O|CDR|Well -
+081:44:08|O|CDR|Buzz, the 70-millimeter container's only got one black and white and one color in it - Isn't it supposed to - -
+081:44:15|O|CMP|That's - that's not - that's mine.
+081:44:18|O|LMP|You've got the wrong one.
+081:44:19|O|CMP|No, that's not the right one.
+081:44:22|O|CDR|The one - -
 081:44:24|O|CMP|The one you want, Neil, is way over here in – R-13.
 081:44:24|P|PAO|Mark 1 minute now from time of LOS.
-081:44:32|O|LMP|No, it's not in there; it was on my girth shelf.
+081:44:31|O|LMP|No, it's not in there; it was on my girth shelf.
 081:44:34|O|CMP|Okay.
-081:44:35|O|CDR|Oh, okay, there it is. Did you get that one put back?
+081:44:34|O|CDR|Oh, okay, there it is. Did you get that one put back?
 081:44:39|O|CMP|No, but I will.
-081:44:41|O|CDR|Okay, appreciate it. I had it in my mind that - our - -
-081:44:47|O|CMP|You want to do something to the polarizing filter, Neil?
-081:44:59|O|CDR|Uh - -
-081:45:00|O|CMP|I'll stick it up there on the ceiling. There's a - -
-081:45:02|O|CDR|- - not really.
-081:45:03|O|CMP|- - we got room for it up there.
-081:45:29|O|CMP|You want the 16-millimeter while you're down here, Neil?
-081:45:31|O|CDR|Yes.
-081:45:32|O|CMP|The 16-millimeter bag as well?
+081:44:40|O|CDR|Okay, appreciate it. I had it in my mind that - our - -
+081:44:46|O|CMP|You want to do something to the polarizing filter, Neil?
+081:44:58|O|CDR|Uh - -
+081:44:58|O|CMP|I'll stick it up there on the ceiling. There's a - -
+081:45:01|O|CDR|- - not really.
+081:45:02|O|CMP|- - we got room for it up there.
+081:45:24|P|PAO|We've now had loss of signal with Apollo 11. At 81 hours, 45 minutes into the flight, this is Apollo Control, Houston.
+081:45:28|O|CMP|You want the 16-millimeter while you're down here, Neil?
+081:45:30|O|CDR|Yes.
+081:45:31|O|CMP|The 16-millimeter bag as well?
 081:45:33|O|CDR|Yes, I'll take that one, too.
 081:45:36|O|LMP|Okay.
-081:45:59|O|CMP|Well, that - damn stuff won't stick. Haven't got a piece of Velcro on there yet.
+081:45:58|O|CMP|Well, that - damn stuff won't stick. Haven't got a piece of Velcro on the -
 081:46:10|O|CDR|You're not ...
-081:47:34|O|CMP|Man, can't you stop some of that racket up there?
-081:47:38|O|LMP|Huh?
-081:47:52|O|CMP|That's the S-band - you turn your volumes down.
+081:47:33|O|CMP|Man, can't you stop some of that racket up there?
+081:47:37|O|CMP|Huh?
+081:47:52|O|CMP|That's the S-band - you turned your volumes down.
 081:48:06|O|SC|(Coughing)
-081:48:17|O|CMP|Is that better on the S-band?
+081:48:16|O|CMP|Is that better on the S-band?
 081:48:19|O|CDR|Yes.
-081:48:20|O|LMP|Yes.
-081:48:21|O|CMP|Okay.
-081:48:50|O|SC|(Sneeze)
-081:48:51|O|LMP|There's one that's got mission rules in it – but I can't place - at the moment, put my hands on it. ...
-081:50:10|O|LMP|It's a NO-GO - GO/NO-GO - the one one I'm looking for. Hey, that's beautiful.
-081:50:28|O|CDR|Like this?
-081:50:31|O|LMP|Yes.
+081:48:19|O|LMP|Yes.
+081:48:20|O|CMP|Okay.
+081:48:50|O|LMP|(Sneeze)
+081:48:50|O|LMP|There's one that's got mission rules in it – but I can't quite, at the moment, put my hands on it. ...
+081:50:09|O|LMP|It's a NO-GO - GO/NO-GO - the one one I'm looking for. Hey, that's beautiful.
+081:50:27|O|CDR|Like this?
+081:50:30|O|LMP|Yes.
 081:50:33|O|CDR|That's the one we made the changes in, right?
 081:50:37|O|LMP|Right.
-081:50:40|O|CDR|It may be up in the - in the Command Module, huh? Have you got another clip?
-081:50:49|O|LMP|For the window?
-081:50:51|O|CDR|I thought we might just stick my – activation checklist right - right there, and we'll be all ready coming in.
+081:50:39|O|CDR|It may be up in the - in the Command Module, huh? Have you got another clip?
+081:50:49|O|LMP|Yes. you need one?
+081:50:50|O|CDR|I thought we might just stick my – activation checklist right - right there, and we'll be all ready coming in.
 081:50:56|O|LMP|Right here?
 081:50:57|O|CDR|Yes. ...
-081:51:02|O|LMP|We may be ending up with one more than we're authorized - one, two, three, four, five. Yes, one of these will be changed over to - As a matter of fact, I stole one from Mike - but one of them we'll change over to the - -
+081:51:01|O|LMP|We may be ending up with one more than we're authorized - one, two, three, four, five. Yes, one of these will be changed over to - As a matter of fact, I stole one from Mike - but one of them we'll change over to the - -
 081:51:18|O|CDR|I'll go check around up here.
 081:51:20|O|LMP|Oh, wait a minute, here it is. I got it.
-081:51:24|O|CDR|I don't think the - -
+081:51:23|O|CDR|I don't think the - -
 081:51:25|O|LMP|This other one got changed.
-081:51:28|O|CDR|No, it didn't.
-081:51:31|O|LMP|You want to do that?
+081:51:27|O|CDR|No, it didn't.
+081:51:30|O|LMP|You want to do that?
 081:51:32|O|CDR|Yes, I can do that.
-081:51:50|O|LMP|And in the meantime - Let's see, where'd the film go?
-081:52:19|O|LMP|Now, the thing that would be nice to find out is if - how well - go - the 80-millimeter - with the film pack on it - in color.
-081:53:20|O|LMP|You do put these in with this dark slide in, don't you? Is that right?
+081:51:48|O|LMP|And in the meantime - Let's see, where'd the film go?
+081:52:17|O|LMP|Now, the thing that would be nice to find out is if - how well ... the 80-millimeter - with the film pack on it - in color.
+081:53:19|O|LMP|You do put these in with this dark slide in, don't you? Is that right?
 081:53:24|O|CDR|Which one you got? 60? 60 you do, and the 80 you - ...
-081:53:40|O|LMP|...
-081:53:42|O|CDR|Yes, dark slide in.
-081:53:55|O|CDR|It'll lock it the other way. That - that side - it'll pull it closed.
-081:53:59|O|LMP|Alright. ... for telling me.
-081:54:10|O|LMP|Boy, that thing goes all over, doesn't it? Maybe we ought to - do these the other way around.
-081:55:33|O|LMP|Neil, we got two magazines, two color, A ... - one of them is R and the other is S.
-081:55:42|O|CDR|Yes.
-081:55:43|O|LMP|I'm going to put the R in the reserve camera.
-081:55:46|O|CDR|Okay.
-081:55:47|O|LMP|And the S in the surface camera.
+081:53:39|O|LMP|...
+081:53:41|O|CDR|Yes, dark slide in.
+081:53:54|O|CDR|It'll lock it the other way. That - that side - it'll pull it closed.
+081:53:58|O|LMP|Alright. ... for telling me.
+081:54:09|O|LMP|Boy, that thing goes all over, doesn't it? Maybe we ought to - do these the other way around.
+081:55:32|O|LMP|Neil, we got two magazines, two color, A ... - one of them is R and the other is S.
+081:55:41|O|CDR|Yes.
+081:55:42|O|LMP|I'm going to put the R in the reserve camera.
+081:55:45|O|CDR|Okay.
+081:55:46|O|LMP|And the S in the surface camera.
 081:55:48|O|CDR|Good idea.
 081:55:49|O|LMP|Even though we're going to use them the other way.
-081:56:33|O|CDR|Do you want to try it out in there?
-081:56:36|O|LMP|I guess we could open the window here, just as well.
+081:56:32|O|CDR|Do you want to try it out in there?
+081:56:35|O|LMP|I guess we could open the window here, just as well.
 081:56:59|O|LMP|The window's all - frosted over.
-081:57:04|O|CDR|Is it?
+081:57:03|O|CDR|Is it?
 081:57:06|O|LMP|Well, I hate to stick my finger on it; I'm not sure which side it's on.
 081:57:09|O|CDR|We'll have to - have to turn the heaters on tomorrow.
-081:57:16|O|LMP|No, I think when the sun gets on them, it'll - ... them. Yes, the one on your side is ...
-081:58:08|O|CDR|The black and white is magazine 2. 
-082:02:05|O|LMP|I don't guess there's any need to tape that up now.
-082:02:18|O|LMP|We're on the back side now, right?
-082:02:20|O|CDR|Yes, just come into - we're just coming into sunlight.
+081:57:15|O|LMP|No, I think when the sun gets on them, it'll - ... them. Yes, the one on your side is ...
+081:58:06|O|CDR|The black and white is magazine Q. 
+082:02:04|O|LMP|I don't guess there's any need to tape that up now.
+082:02:17|O|LMP|We're on the back side now, right?
+082:02:19|O|CDR|Yes, just come into - we're just coming into sunlight.
 082:02:22|O|LMP|And we don't get the - contrast ...
-082:02:31|O|CDR|What's the mission time, Mike?
-082:02:35|O|CMP|Just a second. About 82 hours even.
+082:02:30|O|CDR|What's the mission time, Mike?
+082:02:34|O|CMP|Just a second. About 82 hours even.
 082:02:39|O|CDR|CMP
 082:02:40|O|CMP|82:02.
-082:02:42|O|LMP|Okay, when do you get your tracking?
-082:02:44|O|CMP|In a little while.
-082:02:47|O|LMP|About what time?
-082:02:52|O|CMP|About another half hour.
-082:02:56|O|LMP|Before 83 hours?
-082:03:06|O|CDR|Wasn't like this yesterday - must be because the sun was on it.
-082:03:24|O|LMP|Boy, look at that big mother coming up there. Looks like we're heading for - ... over the horizon.
-082:04:22|O|LMP|I don't think there's any place except in the – in here, that it says anything about 16-millimeter footage -
-082:04:33|O|CDR|In the card, right?
-082:04:35|O|LMP|No, I'm thinking about for the descent. Here we are; 16 millimeter, HC-EX, f:4, 500, infinity, 6 frames per second. Okay.
-082:05:14|O|CDR|You got the Flight Plan handy, Mike?
-082:05:16|O|CMP|Yes, I have; just a second.
+082:02:41|O|LMP|Okay, when do you get your tracking?
+082:02:43|O|CMP|In a little while.
+082:02:46|O|LMP|About what time?
+082:02:51|O|CMP|About another half hour.
+082:02:54|O|LMP|Before 83 hours?
+082:03:05|O|CDR|Wasn't like this yesterday - must be because the sun was on it.
+082:03:22|O|LMP|Boy, look at that big mother coming up there. Looks like we're heading for - ... over the horizon.
+082:04:20|O|LMP|I don't think there's any place except in the – in here, that it says anything about 16-millimeter footage -
+082:04:31|O|CDR|In the card, right?
+082:04:34|O|LMP|No, I'm thinking about for the descent. Here we are; 16 millimeter, HC-EX, f:4, 500, infinity, 6 frames per second. Okay.
+082:05:13|O|CDR|You got the Flight Plan handy, Mike?
+082:05:15|O|CMP|Yes, I have; just a second.
 082:05:19|O|CDR|I don't want it up here; I just want you to - when you get a chance, to read off the items that are on there, make sure we got them.
 082:05:26|O|CMP|It says perform housekeeping chores, stow helmets, stowage bags; unstow mirror, checklist, and disposal assembly. Stow interim stowage assembly, unstow and configure for use 16 millimeter, HC-EX, f:4, 500, infinity, 6 frames per second. That's all it says - on that page. That's where we are now. The next thing is an hour from now when we transfer to LM power and activate the COMM.
 082:06:04|O|LMP|12 feet per second - half an hour.
