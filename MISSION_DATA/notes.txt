@@ -100,8 +100,9 @@
 078:57:50|T|CC|Roger. We sort of thought it was the Sun setting in the east.
 079:49:43|O|LMP|Let's burn.
 080:13:34|O|LMP|All those listening to the tape, please report that - we need a change in the checklist.
-
-
+080:28:05 - Mike wants to stop rotation to get a picture of earthrise.
+080:31:19 - Mike realizes they're going backwards
+080:31:38|O|LMP|Prior planning prevents poor performance.
 
 
 

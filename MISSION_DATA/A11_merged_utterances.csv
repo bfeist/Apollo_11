@@ -4857,7 +4857,7 @@
 076:13:13|O|MS|...
 076:13:14|O|CMP|Huh?
 076:13:15|O|CDR|The next REV around, that is.
-076:13:17|O|LMP|Before LOI 2.
+076:13:17|O|LMP|Before LOI-2.
 076:13:19|O|CDR|Yes.
 076:13:23|O|CMP|Could you give me a gimbal angle to pitch to?
 076:13:26|O|CDR|What are you going to do on that one?
@@ -4995,13 +4995,13 @@
 077:18:08|T|CC|11, this is Houston. We're - we're hearing only a partial COMM. Say again please.
 077:18:18|T|CMP|I think ...
 077:18:41|T|LMP|Houston, we will give it a try if we have the opportunity on next pass, when we are not in the middle of lunch, and trying to find the monocular.
-077:18:52|T|CC|Roger. Copied you that time. Expect in the next REV you will probably be getting ready for LOI 2.
+077:18:52|T|CC|Roger. Copied you that time. Expect in the next REV you will probably be getting ready for LOI-2.
 077:19:07|T|CC|So, let's wind this up, and since we've got some other things to talk to you about in a few minutes. Over.
 077:19:19|T|LMP|Okay.
 077:19:49|P|PAO|Apollo 11 will be in acquisition for another 20 minutes during its first revolution of the Moon.
 077:22:43|T|CC|Apollo 11, this is Houston. Over.
 077:22:49|T|CDR|Go ahead, Houston.
-077:22:52|T|CC|11, this is Houston. We're targeting - planning to make the LOI 2 burn now using bank A only. We'll have the PAD and everything for you next time around. Just trying to economize a little on bank B. Bank B is holding, though.
+077:22:52|T|CC|11, this is Houston. We're targeting - planning to make the LOI-2 burn now using bank A only. We'll have the PAD and everything for you next time around. Just trying to economize a little on bank B. Bank B is holding, though.
 077:23:15|T|CDR|Roger. Understand.
 077:23:17|T|CC|Capcom -
 077:31:53|T|CC|Apollo 11, this is Houston. Over.
@@ -5029,7 +5029,7 @@
 077:38:40|T|CDR|Roger. 78:23:21.
 077:38:43|T|CC|Roger. That was 31 on the end.
 077:38:51|T|CDR|Okay.
-077:40:20|P|PAO|This is Apollo Control. We've had loss of signal from Apollo 11 on its first lunar revolution. We will acquire the spacecraft on the next revolution at 78 hours 23 minutes 31 seconds. The orbital period for Apollo 11's present orbit: 2 hours 8 minutes 37 seconds. And, as you heard we passed up to the crew information that we would perform the LOI 2 burn using only bank A. The banks are the drive mechanisms for the ball valves in the Service Propulsion System. They open and close these ball valves. The valves allow the fuel and oxidizer to flow into the engine. There are redundant valves and redundant banks, banks A and B. There was apparently - they are driven by nitrogen and that was the reference to the pressure drop there. It was apparently a leak in nitrogen tank B during the LOI 1 burn. This burn was performed with both banks open. The engine can be operated with only one bank. It's apparent that the tank leaked only during the burn while the bank was actuated. Pressure has held steady since the end of the burn and the experts are reducing the data and looking at the leak rate, determining whether it was constant throughout the burn, what - precisely what the situation is. We're showing pressure in tank B of 1960 psi. In tank A 2250 psi. Both of these are well above the red lines of 400 pounds psi.
+077:40:20|P|PAO|This is Apollo Control. We've had loss of signal from Apollo 11 on its first lunar revolution. We will acquire the spacecraft on the next revolution at 78 hours 23 minutes 31 seconds. The orbital period for Apollo 11's present orbit: 2 hours 8 minutes 37 seconds. And, as you heard we passed up to the crew information that we would perform the LOI-2 burn using only bank A. The banks are the drive mechanisms for the ball valves in the Service Propulsion System. They open and close these ball valves. The valves allow the fuel and oxidizer to flow into the engine. There are redundant valves and redundant banks, banks A and B. There was apparently - they are driven by nitrogen and that was the reference to the pressure drop there. It was apparently a leak in nitrogen tank B during the LOI 1 burn. This burn was performed with both banks open. The engine can be operated with only one bank. It's apparent that the tank leaked only during the burn while the bank was actuated. Pressure has held steady since the end of the burn and the experts are reducing the data and looking at the leak rate, determining whether it was constant throughout the burn, what - precisely what the situation is. We're showing pressure in tank B of 1960 psi. In tank A 2250 psi. Both of these are well above the red lines of 400 pounds psi.
 077:41:16|O|LMP|That's why I'm trying to get it out.
 077:42:16|O|LMP|No alignment this REV, huh?
 077:43:02|O|LMP|Mike, I guess the name of the game is to go back to - B OMNI?
@@ -5213,7 +5213,7 @@
 078:44:59|T|LMP|Well, I can't get behind to see the monitor. I'll bring the focus in, but we're going to be looking down past one of the LM quads and one of the antennas almost straight down at the ground track that we'll be seeing coming in now. I guess there's maybe 2 or 3 minutes before powered descent.
 078:45:37|T|LMP|All right, that should put the LM structure about in focus, and I'm going to move it out to infinity and then expand the field of view.
 078:45:59|T|CMP|Crater Secchi is out my window now, window number 2.
-078:46:08|T|CC|Hello, Apollo 11. This is Houston. We show you coming up on the terminator at 78:53, about 7 minutes from now, and we've also got the LOI 2 and TEI 5 PADs ready for you after the TV, whenever you want to terminate. Over.
+078:46:08|T|CC|Hello, Apollo 11. This is Houston. We show you coming up on the terminator at 78:53, about 7 minutes from now, and we've also got the LOI-2 and TEI 5 PADs ready for you after the TV, whenever you want to terminate. Over.
 078:46:31|T|CDR|Roger.
 078:46:32|T|CC|And we're getting a good view of the track leading into the landing site now.
 078:46:57|T|CC|Okay, And it looks like we got Secchi K, went by about 10 seconds ago; coming up on Apollo Ridge.
@@ -5269,12 +5269,12 @@
 078:57:57|P|PAO|There you have it. Our first glimpse of the lunar surface during the Apollo 11 mission. The eleven crew took us on a guided tour of the front side, plus talked their way through the power descent that lies ahead in tomorrows activities. At 78 hours 58 minutes into the flight of Apollo 11, this is Apollo Control, Houston, continuing to monitor.
 078:58:00|T|CMP|Well, it depends on your point of view. 
 078:58:04|T|CC|Roger. Out.
-078:58:20|T|CC|Apollo 11, Houston. When you're ready to copy, I have an LOI 2 PAD and a TEI 5 PAD. Over.
+078:58:20|T|CC|Apollo 11, Houston. When you're ready to copy, I have an LOI-2 PAD and a TEI 5 PAD. Over.
 078:58:30|T|CMP|Okay. Stand by.
 078:58:46|T|CMP|I'm passing 182 inertial. I'm going inertial now.
-078:58:54|T|LMP|Ready to copy LOI 2 PAD.
-078:58:58|T|CC|Roger on the inertial. And here we go on the LOI 2 PAD. LOI 2, SPS/G&N: 38320, plus 166, minus 081; TIG 080:11:36.03. NOUN 81: minus 01408, minus all balls, minus 00743. Roll all balls, 196 359 00657, plus 00537. DELTA-VT 01592 017 01531. Sextant star 23 1160 138. The rest of the PAD is NA. GDC align, Vega and Deneb 243 183 012. Ullage, two jets 19 seconds. Remarks: On your DAP load, we would like an R1 20101 vice the value which appears in the Flight Plan. In making the sextant star check this must be done between GET of 79:30:10, at which time the star comes above the horizon, and 79:52:10, which is your local sunrise due to the fact that this star's relatively close to the Sun. Your burn orientation is heads down, retrograde pitched up 28 degrees with respect to local horizontal. The calculated values for NOUN 42 are HA 65.6 and HP 54.6. Both of those being plus. Read back. Over.
-079:01:55|T|LMP|Roger, LOI 2: SPS/G&N: 38320, plus 166, minus 081 080:11:36.03, minus 01408, minus all balls, minus 00743, all zeros, 196 359 00657, plus 00537, 01592 017 01531 23 1160 138. Vega, Deneb 243 183 012, two jet 19 seconds, DAP, R1 20101. Sextant star between 79:30:10 and 79:52:10. Attitude is heads down, retrograde pitched up 28 degrees. HA after the burn - Was that NOUN 42 for HA and 64.6 and HP 54.6? Over.
+078:58:54|T|LMP|Ready to copy LOI-2 PAD.
+078:58:58|T|CC|Roger on the inertial. And here we go on the LOI-2 PAD. LOI-2, SPS/G&N: 38320, plus 166, minus 081; TIG 080:11:36.03. NOUN 81: minus 01408, minus all balls, minus 00743. Roll all balls, 196 359 00657, plus 00537. DELTA-VT 01592 017 01531. Sextant star 23 1160 138. The rest of the PAD is NA. GDC align, Vega and Deneb 243 183 012. Ullage, two jets 19 seconds. Remarks: On your DAP load, we would like an R1 20101 vice the value which appears in the Flight Plan. In making the sextant star check this must be done between GET of 79:30:10, at which time the star comes above the horizon, and 79:52:10, which is your local sunrise due to the fact that this star's relatively close to the Sun. Your burn orientation is heads down, retrograde pitched up 28 degrees with respect to local horizontal. The calculated values for NOUN 42 are HA 65.6 and HP 54.6. Both of those being plus. Read back. Over.
+079:01:55|T|LMP|Roger, LOI-2: SPS/G&N: 38320, plus 166, minus 081 080:11:36.03, minus 01408, minus all balls, minus 00743, all zeros, 196 359 00657, plus 00537, 01592 017 01531 23 1160 138. Vega, Deneb 243 183 012, two jet 19 seconds, DAP, R1 20101. Sextant star between 79:30:10 and 79:52:10. Attitude is heads down, retrograde pitched up 28 degrees. HA after the burn - Was that NOUN 42 for HA and 64.6 and HP 54.6? Over.
 079:03:19|T|CC|Roger. On the NOUN 42 value, the last stuff you gave, HA is 65.6, HP is 54.6. Otherwise, I readback correct. I'm standing by with your TEI 5 PAD. Over.
 079:03:37|T|LMP|Roger. HA 65.6 for NOUN 42. And ready to copy.
 079:03:43|T|CC|11, this is Houston. TEI 5 SPS/G&N: 37201, minus 060, plus 047; TIG 086:09:36.66. NOUN 81: plus 33521, plus 03441, minus 01458; roll NA, pitch 032. The rest of the PAD is NA. Ullage two jet, 16 seconds undocked. Over.
@@ -5283,13 +5283,13 @@
 079:05:42|T|CC|Apollo 11, this is Houston.
 079:05:44|T|CMP|Houston, you want us back on downvoice backup? Over.
 079:05:49|T|CC|Apollo 11, this is Houston. That's affirmative on the downvoice backup. We'd like you to confirm your UPTELEMETRY switch in the NORMAL position. Over.
-079:06:04|T|CMP|Roger. It's in BLOCK. Did you get us the - You got us a new CSM state vector and an LOI 2 target load in between all that television, didn't you?
+079:06:04|T|CMP|Roger. It's in BLOCK. Did you get us the - You got us a new CSM state vector and an LOI-2 target load in between all that television, didn't you?
 079:06:13|T|CC|That's affirmative.
 079:06:17|T|CMP|Thank you.
 079:06:18|T|CC|And what I'm asking for is the switchover to - -
 079:06:19|T|CMP|The UPTELEMETRY switch is in NORMAL. Over.
 079:06:22|T|CC|Roger. Out.
-079:08:40|P|PAO|This is Apollo Control, Houston at 79 hours 9 minutes now into the flight of Apollo 11. We currently read an apolune of 170.2 nautical miles a perilune of 61.2 nautical miles. Those listing of figures that you heard passed up to the crew were maneuver pad updates. The first group for LOI 2. We're now looking at the time of burn of 80 hours 11 minutes 36 seconds, which should revise our orbital parameters to 65.7 nautical miles by 53.7 nautical miles. A Delta-V of 159.2 feet per second, and a burn duration of 17 seconds, some 17 seconds. So at 79 hours 9 minutes into the flight of Apollo 11, continuing to monitor, this is Apollo Control, Houston.
+079:08:40|P|PAO|This is Apollo Control, Houston at 79 hours 9 minutes now into the flight of Apollo 11. We currently read an apolune of 170.2 nautical miles a perilune of 61.2 nautical miles. Those listing of figures that you heard passed up to the crew were maneuver pad updates. The first group for LOI-2. We're now looking at the time of burn of 80 hours 11 minutes 36 seconds, which should revise our orbital parameters to 65.7 nautical miles by 53.7 nautical miles. A Delta-V of 159.2 feet per second, and a burn duration of 17 seconds, some 17 seconds. So at 79 hours 9 minutes into the flight of Apollo 11, continuing to monitor, this is Apollo Control, Houston.
 079:18:00|P|PAO|This is Apollo Control, Houston. At 79 hours 18 minutes now into the flight of Apollo 11. A quiet period at this time, as the Apollo 11 spacecraft continues its pass around the front side of the Moon. Our current altitude, very close to apolune, now reading 166.7 nautical miles. Our orbital parameters, 170.2 by 61.2 nautical miles. Current spacecraft weight in orbit, 71,622 pounds. We'll continue to keep the line up and continue to monitor the Apollo 11 crew. No doubt, at this time, preoccupied very probably with the alignment of their G&N platform. At 79 hours and 19 minutes into the flight of Apollo 11, this is Apollo Control, Houston.
 079:21:51|T|CC|Apollo 11, this is Houston. Over.
 079:21:57|T|CMP|Go ahead, Houston.
@@ -5300,16 +5300,16 @@
 079:22:39|T|CC|And down here, we showed a chamber pressure of on the order of 103 to 104 psi during your burn on playback.
 079:22:50|T|CMP|Okay.
 079:22:52|T|CDR|Go ahead with the TEI 4.
-079:22:54|T|CC|Roger. TEI 4 revised: SPS/G&N: 38320, minus 055, plus 060 084:30:27.49, plus 31380, plus 03475, minus 01032; roll NA, pitch 034. Rest of the PAD is NA. Ullage two jets 16 seconds, undocked. No LOI 2. Over.
-079:23:53|T|CDR|Just in TEI 4 SPS/G&N: 38320, minus 055, plus 060 084:30:27.49, plus 31380, plus 03475, minus 01032, NA, 034. All the rest of the PAD's NA. Two jets, 16 seconds, undocked. No LOI 2.
+079:22:54|T|CC|Roger. TEI 4 revised: SPS/G&N: 38320, minus 055, plus 060 084:30:27.49, plus 31380, plus 03475, minus 01032; roll NA, pitch 034. Rest of the PAD is NA. Ullage two jets 16 seconds, undocked. No LOI-2. Over.
+079:23:53|T|CDR|Just in TEI 4 SPS/G&N: 38320, minus 055, plus 060 084:30:27.49, plus 31380, plus 03475, minus 01032, NA, 034. All the rest of the PAD's NA. Two jets, 16 seconds, undocked. No LOI-2.
 079:24:29|T|CC|11, this is Houston. Readback correct. Out.
 079:24:39|P|PAO|This is Apollo Control, Houston, at 79 hours, 25 minutes. That maneuver pad that was transmitted to the crew - that was TEI, for Transearth Injection burn for the fourth revolution, is a contingency pad only to assure that it is properly onboard the spacecraft, if any unlikely event it should become necessary to return. At the present time we read an altitude of 157.7 nautical miles descending from apolune at this time. And our orbital parameters read 170.2 nautical miles, 61.2 nautical miles. We're some 23 minutes away at the present time from loss of signal. At 79 hours, 26 minutes into the flight of Apollo 11, this is Apollo Control, Houston.
 079:32:19|T|CC|Apollo 11, this is Houston.
 079:32:25|T|LMP|Roger. Go ahead, Houston.
-079:32:26|T|CC|Roger. We've been looking at your systems data on playback, and everything is looking good. In particular, the SPS looks good. I would like to remind you, though, of a request to perform this burn on the bank A ball valves only, and you are GO for LOI 2. Also, we have currently in the Flight Plan, you scheduled tomorrow to start entering the LM at about 96 hours GET, and we'd like to know if you have any plans to initiate this ingress into the LM earlier. If so, we can call the people in ahead of time. Over.
+079:32:26|T|CC|Roger. We've been looking at your systems data on playback, and everything is looking good. In particular, the SPS looks good. I would like to remind you, though, of a request to perform this burn on the bank A ball valves only, and you are GO for LOI-2. Also, we have currently in the Flight Plan, you scheduled tomorrow to start entering the LM at about 96 hours GET, and we'd like to know if you have any plans to initiate this ingress into the LM earlier. If so, we can call the people in ahead of time. Over.
 079:33:15|T|LMP|Well, we didn't have any plans to. No. We just wanted to be ready at that time.
 079:33:20|T|CC|Roger. We just wanted to make sure that we were ready when you were ready. Over.
-079:33:28|T|LMP|Okay. And to get the sextant star in LOI 2, that's roll zero. Is that affirmative?
+079:33:28|T|LMP|Okay. And to get the sextant star in LOI-2, that's roll zero. Is that affirmative?
 079:33:38|T|CC|That's affirmative. Roll zero.
 079:33:43|T|LMP|Okay.
 079:34:05|P|PAO|This is Apollo Control, Houston. We're some 14 minutes away now from loss of signal with the Command and Service Module of Apollo 11. At 79 hours, 34 minutes, this is Apollo Control, Houston, standing by.
@@ -5338,7 +5338,7 @@
 079:49:44|O|CMP|That's MANUAL and ZERO.
 079:49:46|O|CDR|ZERO and MANUAL.
 079:49:51|O|CMP|We done paid our debt to society; we done made a star check. 79:50 -
-079:49:58|O|CDR|It used to be that you couldn't get control on LOI 2; that any burn, any attitude you made was safer than the regular attitude, but that isn't true any more.
+079:49:58|O|CDR|It used to be that you couldn't get control on LOI-2; that any burn, any attitude you made was safer than the regular attitude, but that isn't true any more.
 079:50:07|O|LMP|Yes.
 079:50:09|O|LMP|Okay, we got the OPTICS, ZERO?
 079:50:13|O|CMP|Yes, I'm sure it is.
@@ -5360,7 +5360,7 @@
 079:51:06|O|CMP|Yes, here we go - ...
 079:51:08|O|CDR|doesn't look bad.
 079:51:09|O|CMP|No, I just got through aligning it a little while ago.
-079:51:28|P|PAO|This is Apollo Control, Houston at 79 hours 51 minutes now into the flight of Apollo 11. We are some 20 minutes away, at this time, of ignition for Lunar Orbit Insertion burn number 2. This - the fine tune second burn in the series of two as we have inserted into lunar orbit. For LOI2, the Apollo 11 will be heads down. The burn will be initiated near perilune as the spacecraft passes over the far side of the Moon. Retrograde, like LOI1, but unlike Apollo's 8 and 10. The burn will not be targeted to place a spacecraft into a precise circular orbit. Taking what was learned on Apollo 10, this LOI2 burn is designed to take into account predicted perturbations and gradually circularize itself. The numbers that we're looking at for LOI2, that would be time of ignition, 80 hours 11 minutes 36 Seconds, which should change our orbital parameters, giving us an apolune of 65.7 nautical miles and a perilune of 53.7 nautical miles. The Delta-V intended for this burn, 159.2 feet per second. Burn duration anticipated 17 seconds. That's a burn of short duration, but certainly important in that it establishes the proper orbital parameters for the events that lie ahead. As you heard in earlier conversation, between our capsule communicator, Bruce McCandless and crew members aboard the spacecraft. We're GO for LOI 2. During this burn, we'll utilize only the bank A ball valve. The bank referred to here, which there are two mechanisms that drive the ball valves open and shut, causing fuel and oxidizer to mix for ignition. At the present time in Mission Control Center, the last reference you've heard from our capsule communicator reflects that they, on their own peculiar shift schedule, are having a change-of-shift. Astronaut Charles Duke has arrived on the scene and we can assume will take over the responsibilities of the conversational flow with the Apollo 11 spacecraft, once we reacquire. At 79 hours 55 minutes into the flight of Apollo 11, this is Apollo Control, Houston.
+079:51:28|P|PAO|This is Apollo Control, Houston at 79 hours 51 minutes now into the flight of Apollo 11. We are some 20 minutes away, at this time, of ignition for Lunar Orbit Insertion burn number 2. This - the fine tune second burn in the series of two as we have inserted into lunar orbit. For LOI2, the Apollo 11 will be heads down. The burn will be initiated near perilune as the spacecraft passes over the far side of the Moon. Retrograde, like LOI1, but unlike Apollo's 8 and 10. The burn will not be targeted to place a spacecraft into a precise circular orbit. Taking what was learned on Apollo 10, this LOI2 burn is designed to take into account predicted perturbations and gradually circularize itself. The numbers that we're looking at for LOI2, that would be time of ignition, 80 hours 11 minutes 36 Seconds, which should change our orbital parameters, giving us an apolune of 65.7 nautical miles and a perilune of 53.7 nautical miles. The Delta-V intended for this burn, 159.2 feet per second. Burn duration anticipated 17 seconds. That's a burn of short duration, but certainly important in that it establishes the proper orbital parameters for the events that lie ahead. As you heard in earlier conversation, between our capsule communicator, Bruce McCandless and crew members aboard the spacecraft. We're GO for LOI-2. During this burn, we'll utilize only the bank A ball valve. The bank referred to here, which there are two mechanisms that drive the ball valves open and shut, causing fuel and oxidizer to mix for ignition. At the present time in Mission Control Center, the last reference you've heard from our capsule communicator reflects that they, on their own peculiar shift schedule, are having a change-of-shift. Astronaut Charles Duke has arrived on the scene and we can assume will take over the responsibilities of the conversational flow with the Apollo 11 spacecraft, once we reacquire. At 79 hours 55 minutes into the flight of Apollo 11, this is Apollo Control, Houston.
 079:51:42|O|CMP|Okay, GDC's aligned.
 079:51:46|O|CDR|Okay.
 079:51:48|O|LMP|Check the circuit breakers.
@@ -5543,7 +5543,7 @@
 080:09:43|O|LMP|ROTATION CONTROL, ARMED?
 080:09:44|O|CMP|ARMED.
 080:09:47|O|LMP|TAPE RECORDER - COMMAND RESET.
-080:10:00|P|PAO|Mark 1 minute until planned time of ignition for LOI 02. Mike Collins will be at the controls for the Lunar Orbit Insertion 02 burn just as he was far LOI 01. The burn is of short duration as we have indicated earlier, some 17 seconds of burn time anticipated. We're standing by in Mission Control Center relatively quiet. Mark 30 seconds. Continuing to monitor - or read those displays that gave us our final readout prior to our passage to the backside of the Moon. Mark 10 seconds. Mark 05 seconds. We won't know for sure how the burn comes out until we acquire. Mark, plan time for ignition. At 80 hours 12 minutes now into the flight of Apollo 11, this is Apollo Control, Houston.
+080:10:00|P|PAO|Mark 1 minute until planned time of ignition for LOI-2. Mike Collins will be at the controls for the Lunar Orbit Insertion 02 burn just as he was far LOI 01. The burn is of short duration as we have indicated earlier, some 17 seconds of burn time anticipated. We're standing by in Mission Control Center relatively quiet. Mark 30 seconds. Continuing to monitor - or read those displays that gave us our final readout prior to our passage to the backside of the Moon. Mark 10 seconds. Mark 05 seconds. We won't know for sure how the burn comes out until we acquire. Mark, plan time for ignition. At 80 hours 12 minutes now into the flight of Apollo 11, this is Apollo Control, Houston.
 080:10:01|O|LMP|- - BIT RATE, FORWARD.
 080:10:05|O|CMP|Okay, 19 seconds ullage this time.
 080:10:54|O|CMP|Okay, stand by for ...
@@ -5649,243 +5649,242 @@
 080:16:05|O|CDR|Okay, we're supposed to start charging battery A.
 080:16:11|O|CMP|Charge battery A, huh?
 080:16:22|O|CDR|Let's see what we have; SPS monitor check - -
-080:16:30|O|CMP|Two breakers out there; two breakers out there - BAT B, BAT B. BAT A, you say - Neil?
-080:16:42|O|CDR|BAT A, yes - if you please. Charging BAT A, then on to - -
-080:16:48|O|LMP|Then roll 180, and then we'll talk about this pitchdown, alright?
-080:16:52|O|CDR|Then you might as well go to your - 293 INERTIAL, I guess.
-080:17:05|O|CMP|Man, that's a gas waster. Soon as I get around here, I'll start it. We'll pass through ORB rate at some point. Takes forever and a day to get around here.
-080:17:31|O|LMP|It's going to be a long time before that battery gets back up to 39-1/2 volts.
-080:17:45|O|LMP|We done plumb tuckered that one out.
-080:17:49|O|CDR|LOI 1 could've got to it, I imagine.
-080:17:52|O|CMP|Yes.
-080:18:14|O|LMP|Are you going to maintain ORB rate?
-080:18:17|O|CMP|Yes, I guess so. It's going to be sort of a passthrough ORB rate kind of thing because, see if I whip - do it in a hurry, why I got to pitch down 80 degrees, stop the pitch, or stop almost all of it, except for the ORB rate amount. That's going to waste a hell of a lot of gas.
-080:18:32|O|LMP|Do we have to do anything - to the O2 to pressurize the LM?
-080:18:39|O|CDR|No, we haven't - small enough – DELTA-P -
-080:18:46|O|LMP|That's 0.9.
-080:18:48|O|CDR|0.9?
-080:18:49|O|LMP|Yes.
-080:18:50|O|CMP|Yes, we have to build up pressure a little bit.
-080:18:55|O|CDR|Build up that cabin pressure just a little bit, and I'll start the DIRECT O2 valve, OPEN.
-080:18:57|O|LMP|It says observe the lunar surface.
-080:19:02|O|CMP|That's what it says you ought to supposed to be doing.
-080:19:14|O|LMP|It's brown; it's brown.
-080:19:17|O|CMP|Brown all around. There's no doubt which way that - little crater hit.
-080:19:42|O|LMP|Here's that same one going by again, Neil, remember? That bright Job?
-080:19:51|O|CDR|Yes.
-080:20:03|O|LMP|Man, there's white stuff all over - and it's black right around the rim.
-080:20:10|O|CMP|Hey, well, I'm - while this thing's rolling over, I'm going to take a pee; I'm going to go pee.
-080:20:16|O|CDR|180, if you don't mind.
-080:20:18|O|LMP|That's a spectacular crater.
-080:20:23|O|CDR|Did you shoot some pictures while you were over there?
-080:20:25|O|CMP|No, it's just going by - we'd better get it later; there will be better times. If the damn antenna isn't in the way -
-080:20:42|O|CMP|Boy, there must be nothing more desolate than to be inside some of these small craters, these conical ones.
-080:20:50|O|CDR|People that live in there probably never get out.
-080:20:54|O|CMP|Yes, I think you're right. Boy, you can really see the slumping, though. Most of the - You can see where it's all gathered down in the bottom in the corner; you know, on the edge - where a lot of the white stuff has dribbled on down – and evidently it gets covered over after a while with a - a darker layer. There's always a certain amount of the white stuff right in the edges. Pretty characteristic of all of these – white conical ones.
-080:21:50|O|CMP|Yes, you know, you can change the color of what you're looking at by moving your head to a different spot in the window - and looking in a different direction.
-080:22:25|O|LMP|And that must be big ... right down there.
-080:22:45|O|CMP|I haven't heard any woo-woo's.
-080:22:49|O|CDR|Is there something we should be woo-wooing about?
-080:22:56|O|CMP|Wait until we get the VHF on, then we'll hear the woo-wooing.
-080:22:59|O|CDR|Okay.
-080:23:18|O|LMP|Man, I sure hate to say it based on looking through this monocular, but there's a white spot that's just like a crater - looks like an awful lot under these small fresh ones in the bottom of this rather old crater, but right in the center of it, it looks like instead of there being a crater, looks like it's a rock. ... My eyes deceiving me.
-080:23:51|O|CMP|How's our roll doing, Neil?
-080:23:53|O|CDR|Oh, you got about 30 degrees to go.
-080:23:55|O|CMP|Oh, boy!
-080:23:56|O|CDR|Okay.
-080:23:58|O|LMP|How far you going to roll?
-080:24:00|O|CMP|Over and over.
-080:24:30|O|CDR|Got that DIRECT O2 ..., didn't you?
-080:24:33|O|CMP|Yes, just a tiny bit.
-080:24:34|O|CDR|Okay.
-080:24:42|O|CMP|It'd be kind of interesting to see some of this dump go on straight from polar orbit. Wonder how long it's going to take before it impacts?
-080:24:53|O|CDR|It obviously - is not really in polar orbit if it's going off - going off that way. Yes, it's inclined to the small angle.
-080:25:03|O|CMP|Sure looks like it.
-080:25:04|O|CDR|It's going straight out there through. That's real funny.
-080:25:13|O|LMP|Son of a gun, that one's got a little – little curve on it.
-080:25:23|O|CMP|Would you believe that, Neil? One went out and curved around like that. Can you explain that?
-080:25:32|O|CDR|I guess it just glanced off another particle or something.
-080:25:35|O|CMP|Oh, no, no, no, no; if it's curved.
-080:25:40|O|CDR|It had a little bubble in it that came to the surface and went kapoom and - -
-080:25:43|O|LMP|No - -
-080:25:44|O|CMP|There's atmospheric drag up here.
-080:25:47|O|CDR|- - departed it with a little DELTA-V.
-080:25:49|O|LMP|I think what's really happening is - we're rolling and - it's changing the angle that I'm looking out the window.
-080:25:55|O|CMP|Let's see, I want to pitch down 80 degrees to - - ... 293, down 293, I believe that, I wonder what rate would be reasonable –
-080:26:10|O|CDR|Okay, it's about 7 minutes until AOS.
-080:26:17|O|CMP|Down 80 degrees in 7 minutes, that's - let's see, about 10 degrees per minute, 10 degrees per minute is -
-080:26:31|O|CDR|... floating up here -
-080:26:33|O|CMP|61 ...
-080:26:38|O|LMP|Well, Mike probably let him out.
-080:26:45|O|CMP|Okay, that ought to almost get it there and, damn, I don't want to see any more than that.
-080:26:58|O|LMP|You can open the battery ... pad.
-080:27:11|O|CMP|That ought to be enough.
-080:27:31|O|LMP|...
-080:28:02|O|CMP|Alright, where are we? We're pitching down. Gee, it's too bad we can't stop right here and observe the Earth come up. You know, we ought to get that picture one time.
-080:28:20|O|CDR|We probably can do it. You could stop it right here if you wanted to spend the gas.
-080:28:25|O|CMP|Yes. That's the only trouble, the doggone gas. What are you on?
-080:28:42|O|CMP|A picture looking out over the LM as well.
-080:28:45|O|CDR|Yes.
-080:28:46|O|LMP|Shouldn't be a bad picture. Why don't we stop it?
-080:28:48|O|CMP|Okay.
-080:28:56|O|CDR|We ought to be able to get high-gain from this attitude, shouldn't we?
-080:29:10|O|CDR|Think we ought to get the long lens on, Mike?
-080:29:12|O|CMP|Yes, we ought to get the 250 - we ought to do it at 250.
-080:29:14|O|CDR|You've got 4 minutes; that's plenty, Now, we're going to want to - -
-080:29:22|O|CMP|Are we at a good enough attitude? I hope so. We are out this window, babe, but we're not out that one. If the Earth is right there, that's where it's coming up, huh? Better be.
-080:29:34|O|CDR|You want color?
-080:29:35|O|CMP|Ah - -
-080:29:37|O|CDR|We better have color.
-080:29:38|O|CMP|Yes, we want color.
-080:29:49|O|LMP|I got a clean window over here so don't sweat that one too much.
-080:29:53|O|CMP|250 - hand me your camera, Neil, and I'll change it.
-080:29:59|O|CDR|Who's got the Hasselblad?
-080:30:07|O|LMP|Probably over there on the shelf.
-080:30:09|O|CDR|We got it. First quad is in - back is - -
-080:30:14|O|LMP|That wall of that crater looks pasty through the sextant. Great big chunks of white stuff that just slumped down.
-080:30:29|O|CDR|Did you get - ...? If you get too far over here, we may have to watch our pitch angle. We're good right now.
-080:30:40|O|LMP|...
-080:30:41|O|CDR|ORB rate -
-080:30:45|O|CMP|No, we're not ORB rate.
-080:30:48|O|CDR|The Earth's going to be coming ORB rate at us.
-080:30:53|O|CMP|...
-080:31:00|P|PAO|Mark 2 minutes from time of predicted acquisition of the Apollo 11 spacecraft. During this up coming pass, we will have our second excursion on the part of the Apollo 11 crew into - into the Lunar Module. The LM is to be pressurized by a valve in a tunnel hatch and as a point of interest, will remain pressurized following of this period of activation and after the members of the Apollo crew return to the Command Module. For this period of activation, it's definitely planned that - Buzz will go into the LM and there is a distinct possibility that Commander Neil Armstrong could - could exercise his option and go into the LM. Our station to acquire as we come around the far side of the Moon will be Goldstone. Mark 1 minute from predicted time of acquisition and we're standing by.
-080:31:00|P|PAO|Mark 30 seconds.
-080:31:00|P|PAO|Mark 10 seconds from predicted time of acquisition.
-080:31:00|P|PAO|Goldstone has acquired Apollo 11.
-080:31:00|P|PAO|This is Apollo Control, Houston, standing by at this time at 80 hours 35 minutes.
-080:31:00|P|PAO|Both Goldstone and Hawaii have acquired a signal. We will -
-080:31:00|P|PAO|You heard that report from Commander Neil Armstrong indicating that LOI 02 was all - came off almost precisely as planned.
+080:16:24|O|CMP|Two breakers out there; two breakers out there - BAT B, BAT B. BAT A, you say - Neil?
+080:16:36|O|CDR|BAT A, yes - if you please. Charging BAT A, then on to - -
+080:16:42|O|LMP|Then roll 180, and then we'll talk about this pitchdown, alright?
+080:16:47|O|CDR|Then you might as well go to your - 293 INERTIAL, I guess.
+080:16:59|O|CMP|Man, that's a gas waster. Soon as I get around here, I'll start it. We'll pass through ORB rate at some point. Takes forever and a day to get around here.
+080:17:23|O|LMP|It's going to be a long time before that battery gets back up to 39-1/2 volts.
+080:17:29|O|LMP|We done plumb tuckered that one out.
+080:17:33|O|CDR|LOI 1 could've got to it, I imagine.
+080:17:35|O|CMP|Yes.
+080:17:57|O|LMP|Are you going to maintain ORB rate?
+080:18:01|O|CMP|Yes, I guess so. It's going to be sort of a pass through ORB rate kind of thing because, see if I whip - do it in a hurry, why I got to pitch down 80 degrees, stop the pitch, or stop almost all of it, except for the ORB rate amount. That's going to waste a hell of a lot of gas.
+080:18:17|O|LMP|Do we have to do anything - to the O2 to pressurize the LM?
+080:18:24|O|CMP|No, we haven't - small enough - DELTA-P -
+080:18:30|O|LMP|That's 0.9.
+080:18:31|O|CDR|0.9?
+080:18:32|O|LMP|Yes.
+080:18:33|O|CMP|Yes, we have to build up pressure a little bit.
+080:18:38|O|CMP|Build up that cabin pressure just a little bit, and I'll start the DIRECT O2 valve, OPEN.
+080:18:51|O|CDR|It says observe the lunar surface.
+080:18:56|O|CDR|That's what it says you all are supposed to be doing.
+080:19:06|O|CMP|It's brown; it's brown.
+080:19:10|O|LMP|Brown all around. There's no doubt which way that - little crater hit.
+080:19:34|O|LMP|Here's that same one going by again, Neil, remember? That bright job?
+080:19:42|O|CDR|Yes.
+080:19:54|O|LMP|Man, there's white stuff all over - and it's black right around the rim.
+080:20:05|O|CMP|Hey, well, I'm - while this thing's rolling over, I'm going to take a pee; I'm going to go pee.
+080:20:05|O|CDR|180, if you don't mind.
+080:20:07|O|LMP|That's a spectacular crater.
+080:20:15|O|CDR|Did you shoot some pictures while you were over there?
+080:20:17|O|LMP|No, it's just going by - we'd better get it later; there will be better times. If the damn antenna isn't in the way -
+080:20:45|O|LMP|Boy, there must be nothing more desolate than to be inside some of these small craters, these conical ones.
+080:20:53|O|CDR|People that live in there probably would never get out.
+080:20:57|O|LMP|Yes, I think you're right. Boy, you can really see the slumping, though. Most of the - You can see where it's all gathered down in the bottom in the corner; you know, on the edge - where a lot of the white stuff has dribbled down – and evidently it gets covered over after a while with a - a darker layer. There's always a certain amount of the white stuff right in the edges. Pretty characteristic of all of these – white conical ones.
+080:21:54|O|LMP|Yes, you know, you can change the color of what you're looking at by moving your head to a different spot in the window - and looking in a different direction.
+080:22:28|O|LMP|And that must be big ... right down there.
+080:22:48|O|CMP|I haven't heard any woo-woo's.
+080:22:52|O|LMP|Is there something we should be woo-wooing about?
+080:22:59|O|CMP|Wait until we get the VHF on, then we'll hear the woo-wooing.
+080:23:02|O|CDR|Okay.
+080:23:22|O|LMP|Man, I sure hate to say it based on looking through this monocular, but there's a white spot that's just like a crater - looks like an awful lot under these small fresh ones in the bottom of this rather old crater, but right in the center of it, it looks like instead of there being a crater, looks like it's a rock. ... My eyes deceiving me.
+080:23:54|O|CMP|How's our roll doing, Neil?
+080:23:56|O|CDR|Oh, you got about 30 degrees to go.
+080:23:58|O|CMP|Oh, boy!
+080:24:00|O|CDR|Okay.
+080:24:00|O|LMP|How far you going to roll?
+080:24:03|O|CMP|Over and over.
+080:24:33|O|CDR|Got that DIRECT O2 ..., didn't you?
+080:24:36|O|CMP|Yes, just a tiny bit.
+080:24:39|O|CDR|Okay.
+080:24:45|O|LMP|It'd be kind of interesting to see some of this dump go on straight from polar orbit. Wonder how long it's going to take before it impacts?
+080:24:56|O|LMP|It obviously - is not really in polar orbit if it's going off - going off that way. Yes, it's inclined to the small angle.
+080:25:06|O|CMP|Sure looks like it.
+080:25:07|O|LMP|It's going straight out there through. That's real funny.
+080:25:16|O|LMP|Son of a gun, that one's got a little – little curve on it.
+080:25:26|O|LMP|Would you believe that, Neil? One went out and curved around like that. Can you explain that?
+080:25:35|O|CDR|I guess it just glanced off another particle or something.
+080:25:38|O|LMP|Oh, no, no, no, no; if it's curved.
+080:25:43|O|CMP|It had a little bubble in it that came to the surface and went kapoom and - -
+080:25:47|O|LMP|No - -
+080:25:48|O|CMP|There's atmospheric drag up here.
+080:25:49|O|CMP|- - departed it with a little DELTA-V.
+080:25:53|O|LMP|I think what's really happening is - we're rolling and - it's changing the angle that I'm looking out the window.
+080:25:59|O|CMP|Let's see, I want to pitch down 80 degrees to - - ... 293, down 293, I believe that, I wonder what rate would be reasonable –
+080:26:13|O|CDR|Okay, it's about 7 minutes until AOS.
+080:26:20|O|CMP|Down 80 degrees in 7 minutes, that's - let's see, about 10 degrees per minute, 10 degrees per minute is -
+080:26:34|O|CDR|... floating up here -
+080:26:36|O|CMP|61 ...
+080:26:41|O|LMP|Well, Mike probably let him out.
+080:26:48|O|CMP|Okay, that ought to almost get it there and, damn, I don't want to see any more than that.
+080:27:00|O|LMP|You can open the battery ... pad.
+080:27:14|O|LMP|That ought to be enough.
+080:27:34|O|CMP|... what's going on here?
+080:28:05|O|CMP|Alright, where are we? We're pitching down. Gee, it's too bad we can't stop right here and observe the Earth come up. You know, we ought to get that picture one time.
+080:28:23|O|CDR|We probably can - could. You could stop it right here if you wanted to spend the gas.
+080:28:28|O|CMP|Yes. That's the only trouble, the doggone gas. What do you think?
+080:28:45|O|CMP|A picture looking out over the LM as well.
+080:28:48|O|CDR|Yes.
+080:28:49|O|CDR|Shouldn't be a bad picture. Why don't we stop it?
+080:28:51|O|CMP|Okay.
+080:29:00|O|CDR|We ought to be able to get high-gain from this attitude, shouldn't we?
+080:29:13|O|CDR|Think we ought to get the long lens on, Mike?
+080:29:15|O|CMP|Yes, we ought to get the 250 - we ought to do it at 250.
+080:29:17|O|CDR|You've got 4 minutes; that's plenty, Now, we're going to want to - -
+080:29:25|O|CMP|Are we at a good enough attitude? I hope so. We are out this window, babe, but we're not out that one. If the Earth is right there, that's where it's coming up, huh? Better be.
+080:29:37|O|CDR|You want color?
+080:29:28|O|CMP|Ah - -
+080:29:40|O|CDR|We better have color.
+080:29:41|O|CMP|Yes, we want color.
+080:29:52|O|LMP|I got a clean window over here so don't sweat that one too much.
+080:29:57|O|CMP|250 - hand me your camera, Neil, and I'll change it.
+080:30:03|O|CDR|Who's got the Hasselblad?
+080:30:10|O|LMP|Probably over there on the shelf.
+080:30:12|O|CMP|We got it. First quad is in - back is - -
+080:30:17|O|LMP|That wall of that crater looks pasty through the sextant. Great big chunks of white stuff that just slumped down.
+080:30:32|O|CDR|Did you get - ...? If you get too far over here, we may have to watch our pitch angle. We're good right now.
+080:30:42|O|LMP|If we stabilize.
+080:30:46|O|CDR|ORB rate -
+080:30:48|O|CMP|No, we're not ORB rate.
+080:30:51|O|CDR|The Earth's going to be coming ORB rate at us.
+080:30:54|O|CMP|...
 080:31:01|O|CDR|Okay. Let's see, I've got to pitch up a tad then ...
-080:31:06|O|CMP|Okay, I've still got f:8 and ...
-080:31:10|O|CDR|250th at f:8, I think we can do it, and infinity.
-080:31:16|O|CMP|I don't know; what's the matter with where you had it?
-080:31:19|O|CDR|Oh, son of a gun! (Laughter) We're going backwards. Oh, well.
-080:31:28|O|LMP|Oh dear. Dumbkopf!
-080:31:32|O|CMP|That's it, I think, there, Neil - so pitch down.
-080:31:36|O|LMP|Prior planning prevents poor performance.
-080:31:38|O|CDR|Thank you. Is that right, Buzz?
-080:31:40|O|CMP|All that - Where'd you ever hear that one, Buzz?
-080:31:45|O|LMP|I can't think.
-080:32:12|O|LMP|Oh, that's a bright one; I got to get that one ...
-080:32:16|O|CMP|No lie!
-080:32:25|O|CDR|150 - you don't want to take too many on this.
-080:32:30|O|CMP|No. Might as well put the other one back on.
-080:32:35|O|CDR|Well, you might save that for some Earth shots.
-080:32:49|O|LMP|Wow!
-080:32:53|O|CDR|...
-080:32:55|O|CMP|You got it, huh?
-080:33:04|O|LMP|I think it focused the second one a little bit better. I think it's beautiful. Just fabulous. Not really sure what you're looking at - but there's some mighty big fresh rocks down in that crater.
-080:33:37|O|LMP|The walls actually look pockmarked. Sure enough, and they're not filled in. Pockmarked and it looks like somebody's painted white paint vertically down the edges and then it's been eaten away.
-080:34:15|O|LMP|... that one ... into the LM.
-080:34:38|O|CMP|Here is the Earth. Hey, I got the view over here.
-080:34:44|O|LMP|I guess I'd better get the high-gain off, hadn't I?
-080:34:49|O|CDR|Did it just come up?
-080:34:50|O|CMP|Yes.
-080:34:53|O|LMP|We need that ...
-080:34:56|O|CMP|Do we still got high-gain?
-080:34:58|O|CDR|Yes.
-080:35:01|O|CMP|It's says minus 67 and zero.
-080:35:06|O|LMP|Minus 67 and zero.
-080:35:09|O|CMP|And zero.
-080:35:10|O|LMP|Okay, MANUAL - and - AUTO - medium. There we go. Can't make up his mind between zero and - 360. Okay, we got them.
+080:31:09|O|LMP|Okay, I've still got f:8 and ...
+080:31:12|O|CDR|250th at f:8, I think we can do it, and infinity.
+080:31:19|O|CMP|Wait a minute; which way are we headed?
+080:31:22|O|CDR|Oh, son of a gun! (Laughter) We're going backwards. ... Oh, well.
+080:31:22|P|PAO|Mark 2 minutes from time of predicted acquisition of the Apollo 11 spacecraft. During this upcoming pass, we will have our second excursion on the part of the Apollo 11 crew into - into the Lunar Module. The LM is to be pressurized by a valve in a tunnel hatch. And, as a point of interest, will remain pressurized following of this period of activation and after the members of the Apollo 11 crew return to the Command Module. For this period of activation, it's definitely planned that Buzz will go into the LM and there is a distinct possibility that Commander Neil Armstrong could - could exercise his option and go into the LM. Our station to acquire, as we come around the far side of the Moon, will be Goldstone. Mark - 1 minute from predicted time of acquisition and we're standing by.
+080:31:30|O|CMP|Oh dear.
+080:31:34|O|CDR|Dummkopf!
+080:31:35|O|CMP|That's it, I think, there, Neil - so pitch down.
+080:31:38|O|LMP|Prior planning prevents poor performance.
+080:31:41|O|CDR|Thank you. Is that right, Buzz?
+080:31:43|O|CMP|All that - Where'd you ever hear that one, Buzz?
+080:31:48|O|LMP|I can't think.
+080:32:15|O|LMP|Oh, that's a bright one; I got to get that one ...
+080:32:19|O|LMP|No lie!
+080:32:28|O|CDR|150 - you don't want to take too many on this.
+080:32:33|O|CMP|No. Might as well put the other one back on.
+080:32:38|O|CDR|Well, you might save that for some Earth shots.
+080:32:52|O|LMP|Wow!
+080:32:52|P|PAO|Mark 30 seconds.
+080:32:55|O|CDR|...
+080:32:58|O|CMP|You got it, huh?
+080:33:06|O|LMP|I think it focused the second one a little bit better. I think it's beautiful. Just fabulous. Not really sure what you're looking at - but there's some mighty big fresh blocks down in that crater.
+080:33:12|P|PAO|Mark 10 seconds from predicted time of acquisition.
+080:33:40|O|LMP|The walls actually look pockmarked. Sure enough, and they're not filled in. Pockmarked and it looks like somebody's painted white paint vertically down the edges and then it's been eaten away.
+080:34:05|P|PAO|Goldstone has acquired Apollo 11.
+080:34:18|O|LMP|... that one ... into the LM.
+080:34:40|O|CMP|Here is the Earth. Hey, I got the view over here.
+080:34:46|O|LMP|I guess I'd better get the high-gain on, hadn't I?
+080:34:51|O|CDR|Did it just come up?
+080:34:52|O|CMP|Yes.
+080:34:55|O|LMP|We need that ... camera.
+080:34:58|O|CMP|Do we still got high-gain?
+080:34:59|O|CDR|Yes.
+080:35:02|P|PAO|This is Apollo Control, Houston, standing by at this time at 80 hours 35 minutes.
+080:35:03|O|CMP|It's says minus 67 and zero.
+080:35:08|O|LMP|Minus 67 and zero.
+080:35:10|O|CMP|And zero.
+080:35:12|O|LMP|Okay, MANUAL - and - AUTO - medium. There we go. Can't make up his mind between zero and - 360. Okay, we got them.
+080:35:24|P|PAO|Both Goldstone and Hawaii have acquired a signal. We will -
 080:35:30|T|CC|Hello, Apollo 11. Houston. We're standing by. Over.
-080:35:30|O|CDR|Okay.
-080:35:31|O|CC|Apollo 11, Houston. ...
-080:35:35|O|CDR|Do you want to talk to them?
-080:35:39|O|CDR|... Roger, Houston. Burn status report follows: DELTA-TIG zero; burn time, 17; angle through the pad values, DELTA-VGX was plus 0.3; VGY, minus 0.0; VGZ minus 0.1; DELTA-VC, minus 5.2; fuel, 362; OX, 364; unbalance, plus 50, and a postburn NOUN 94, 66.1 by - -
-080:35:58|T|CDR|VGY minus 0.0, VGZ minus 0.1, DELTA-VC minus 5.2, fuel 362, OX 364, unbalance plus 50, and our postburn now 94's, 66.1 by 54.4. Go ahead.
-080:36:25|T|CC|Roger. We copy, Neil. Would you say again the DELTA-VZ? We missed that. Over.
-080:36:32|T|CDR|Roger. That was minus 0.1.
-080:36:35|T|CC|Roger. Copy the burn report. Sounds good.
-080:36:43|T|CDR|And all looked good up here.
-080:37:07|T|CC|Apollo 11, Houston. We missed your DELTA-TIG and also your DELTA burn time. Over.
+080:35:32|O|CDR|Okay.
+080:35:33|O|CC|Apollo 11. Houston. We're standing by. Over.
+080:35:37|O|CDR|Do you want to talk to them?
+080:35:40|O|CDR|... Roger, Houston. Burn status report follows: DELTA-TIG zero; burn time, 17; angle with the pad values, DELTA-VGX was plus 0.3; VGY, minus 0.0; VGZ minus 0.1; DELTA-VC, minus 5.2; fuel, 362; OX, 364; unbalance, plus 50, and a post-burn NOUN 94, 66.1 by - -
+080:35:58|T|CDR|VGY minus 0.0, VGZ minus 0.1, DELTA-VC minus 5.2, fuel 362, OX 364, unbalance plus 50, and our post-burn now 94's, 66.1 by 54.4. Go ahead.
+080:36:24|T|CC|Roger. We copy, Neil. Would you say again the DELTA-VZ? We missed that. Over.
+080:36:31|T|CDR|Roger. That was minus 0.1.
+080:36:34|T|CC|Roger. Copy the burn report. Sounds good.
+080:36:42|T|CDR|And all looked good up here.
+080:37:06|T|CC|Apollo 11, Houston. We missed your DELTA-TIG and also your DELTA burn time. Over.
 080:37:15|T|CDR|DELTA-TIG was zero and the burn time was 17 seconds.
-080:37:20|T|CC|Copy 17.
+080:37:19|T|CC|Copy 17.
+080:37:32|P|PAO|You heard that report from Commander Neil Armstrong indicating that LOI-2 was all - came off almost precisely as planned.
 080:38:05|T|CC|Apollo 11, Houston. We'll be satisfied if you pump up the cabin to 5.4. Over.
-080:38:14|T|CDR|Okay. We're showing about 5.2 right now.
+080:38:13|T|CDR|Okay. We're showing about 5.2 right now.
 080:38:18|T|CC|Roger.
 080:38:40|T|CDR|And, Charlie, the LM/CM DELTA-P is just over 1 pound right now.
 080:38:44|T|CC|Copy. Out.
-080:41:00|P|PAO|This is Apollo Control, Houston.
-080:41:00|P|PAO|This is Apollo Control, Houston. You copied that report. We're standing by for Apollo 11 spacecraft to acquire on the high-gain antenna. Meanwhile, onboard readings on orbital parameters were 66.1 nautical miles by 54.4 nautical miles, very close to the planned altitudes that were predicted prior to the LOI 2 burn. At 80 hours 46 minutes continuing to monitor, this is Apollo Control, Houston.
-080:41:00|P|PAO|This is Apollo Control Houston 80 hours 48 minutes now into the flight of Apollo 11. Very preliminary ground readings indicate an apolune of 65.6, perilune 53.7.
-080:41:00|P|PAO|That - -
 080:43:48|T|CC|Apollo 11, Houston. Over.
 080:44:32|T|CC|Hello, Apollo 11. Houston. Over.
+080:45:28|P|PAO|This is Apollo Control, Houston -
 080:45:28|T|CC|Apollo 11, Houston. If you read, please attempt to acquire on the high-gain. We're having trouble locking up on the TM and we have no voice. Over.
-080:47:23|T|CC|Hello, Apollo 11, Apollo 11.
-080:47:24|T|CDR|Roger.
-080:47:26|T|CC|Roger. We're reading you five by. Go ahead. Over.
-080:47:27|T|CDR|Roger. We have you on high-gain now.
+080:45:41|P|PAO|This is Apollo Control, Houston. You copied that report. We're standing by for Apollo 11 spacecraft to acquire on the high-gain antenna. Meanwhile, onboard readings on orbital parameters were 66.1 nautical miles by 54.4 nautical miles, very close to the planned altitudes that were predicted prior to the LOI-2 burn. At 80 hours 46 minutes continuing to monitor, this is Apollo Control, Houston.
+080:47:23|T|CC|Hello, Apollo 11 -
+080:47:23|T|CDR|Apollo 11.
+080:47:25|T|CC|Roger. We're reading you five by. Go ahead. Over.
+080:47:32|T|CDR|Roger. We have you on high-gain now.
 080:47:34|T|CC|Roger. We lost the TM and the voice for about 5 minutes here. We attempted a handover and fouled it up in some manner, but we got you back now. Thank you much.
 080:47:47|T|CDR|Okay. We're pressurizing the LM at this time.
 080:47:50|T|CC|Copy.
-080:51:11|T|CC|Hello, Apollo 11. Houston. We have a P22 AUTO optics update for you if you're ready to copy. Over.
+080:41:15|P|PAO|This is Apollo Control Houston 80 hours 48 minutes now into the flight of Apollo 11. Very preliminary ground readings indicate an apolune of 65.6, perilune 53.7.
+080:51:12|T|CC|Hello, Apollo 11. Houston. We have a P22 AUTO optics update for you if you're ready to copy. Over.
 080:51:22|T|CMP|Ready to copy.
-080:51:23|T|CC|Roger, Mike. It's landmark Alfa 1: T1, 82 37 35; T2, 82 42 50. We're 7 miles north. Over.
-080:51:59|T|CMP|Copy. P22: T1, time 82 37 35; T2, 82 42 50. And the target is 7 miles north. Thank you.
-080:52:00|P|PAO|That was passed up to Mike Collins, the Command Module Pilot, who will occupy himself during this pass on the over the front side with landmark tracking activities. At 80 hours, 53 minutes into the flight of Apollo 11, we continue to monitor.
-080:52:00|P|PAO|This is Apollo Control, Houston, at 80 hours, 56 minutes now into the flight of Apollo 11. Our current velocity reading 5334 feet per second. Current weight of the spacecraft in orbit, 75,505 pounds.
-080:52:00|P|PAO|That was Commander Neil Armstrong talking to our Capsule Communicator Charles Duke. Our current orbital readings show an apolune of 65.5, a perilune of 53.7 nautical miles. At 80 hours, 58 minutes into the flight, we continue to monitor, and this is Apollo Control, Houston.
-080:52:00|P|PAO|This is Apollo Control, Houston, at 81 hours into the flight of Apollo 11, a period of relative quiet. No doubt the Apollo 11 crew quite preoccupied in operation for the activation of the LM. During this period of relative quiet, we'll pass along the heart rates from the LOI1 burn, that's LOI1, not LOI2. We have yet to receive those numbers. The heart rate for the Commander Neil Armstrong read 106, for Command Module Pilot Mike Collins, 66, and for the Lunar Module Pilot Buzz Aldrin we have a reading of 70. At 81 hours, 1 minute into the flight of Apollo 11, this is Apollo Control, Houston.
-080:52:21|T|CC|Roger.
-080:55:32|T|CDR|I get the distinct impression, Charlie, that mare there laps up over the edge of the mountains at the shorelines.
+080:51:23|T|CC|Roger, Mike. It's landmark Alpha 1: T1, 82:37:35; T2, 82:42:50. We're 7 miles north. Over.
+080:51:59|T|CMP|Copy. P22. T1 time, 82:37:35; T2, 82:42:50. And the target is 7 miles north. Thank you.
+080:52:11|T|CC|Roger.
+080:52:24|P|PAO|That was passed up to Mike Collins, the Command Module Pilot, who will occupy himself during this pass on the - over the front side with landmark tracking activities. At 80 hours, 53 minutes into the flight of Apollo 11, we continue to monitor.
+080:55:32|T|CDR|I get the distinct impression, Charlie, that mare surface laps up over the edge of the mountains at the shorelines.
 080:55:42|T|CC|Roger. We copy.
-080:56:40|T|CC|Houston. On your comment about the mare lapping up to the terrain - mountainous terrain, is that an impression like a lava flow coming in around a prominence, Neil, or is it more -looks like it's sloping up at that point? Over.
+080:56:20|P|PAO|This is Apollo Control, Houston, at 80 hours, 56 minutes now into the flight of Apollo 11. Our current velocity reading 5,334 feet per second. Current weight of the spacecraft in orbit, 75,505 pounds.
+080:56:40|T|CC|Houston. On your comment about the mare lapping up to the terrain - mountainous terrain, is that an impression like a lava flow coming in around a prominence, Neil, or is it more look like it's sloping up at that point? Over.
 080:57:06|T|CDR|It isn't true everywhere, but there's certainly places where there seems to be a slope downward towards the shoreline on the mare. In other words, from the mare down to the shoreline is a downward slope indicating that it might be a lava flow.
 080:57:23|T|CC|Roger.
+080:57:29|P|PAO|That was Commander Neil Armstrong talking to our Capsule Communicator Charles Duke. Our current orbital readings show an apolune of 65.5, a perilune of 53.7 nautical miles. At 80 hours, 58 minutes into the flight, we continue to monitor, and this is Apollo Control, Houston.
 080:58:41|T|CDR|Crossing Duke Island and Maskelyne W.
 080:58:47|T|CC|Say again, Neil. Over.
-080:58:50|T|CDR|We just crossed Duke Island and Maskelyne W.
-080:58:52|T|CC|Roger.
-081:02:00|P|PAO|Apollo Control, Houston. At 81 hours 5 minutes into the flight. Still a period of relative quiet. Our ground readings indicate that the Apollo 11 spacecraft has completed its program of 52, that's to align the inertial platform. Indications from the ground are that it - this activity went very well. And at 81 hours 6 minutes continuing to monitor, this is Apollo Control, Houston.
-081:02:00|P|PAO|This is Apollo Control, Houston, at 81 hours 15 minutes. It's been an extremely quiet pass. No doubt, the Apollo 11 crew, quite busy at this time. We expect, at the time entry is made into the Lunar Module, Apollo 11, as a matter of fact, will be out of acquisition, traversing over the far side of the Moon. At the present time, we read an altitude, current altitude, reading of 56.7 nautical miles. Our ground displays indicate an apolune of 65.4, a perilune of 53.8 and spacecraft velocity of 5,364 feet per second. Continuing to monitor, this is Apollo Control, Houston, at 81 hours 16 minutes into the flight.
-081:02:00|P|PAO|This is Apollo Control, Houston at 81 hours 24 minutes now into the flight. The silence of conversation between Mission Control Center, Houston and the crew has broken there moments ago. Charlie Duke called up Apollo 11 and spoke with Neil Armstrong, who indicated that the hatch was out and the probe and drogue removed and they were about ready to open the Lunar Module hatch. Our current altitude shows 54.7 nautical miles, apolune, 65.4, perilune, 53.8. Interestingly enough, the part of the LM activation which we will follow up most closely will be at time of reacquisition following our pass over the far side of the Moon. This will be on the front side. It will afford us an opportunity for a communications check with the Lunar Module and there will be a transfer to LM power. At 81 hours 25 minutes, this is Apollo Control, Houston.
-081:02:00|P|PAO|You heard that report from Neil Armstrong. They are now in the Lunar Module.
+080:58:51|T|CDR|We just crossed Duke Island and Maskelyne W.
+080:58:56|T|CC|Roger.
+081:00:00|P|PAO|This is Apollo Control, Houston, at 81 hours into the flight of Apollo 11, a period of relative quiet. No doubt the Apollo 11 crew quite preoccupied in preparation for the activation of the LM. During this period of relative quiet, we'll pass along the heart rates from the LOI-1 burn, that's LOI-1, not LOI-2 (we have yet to receive those numbers). The heart rate for the Commander Neil Armstrong read 106, for Command Module Pilot Mike Collins, 66, and for the Lunar Module Pilot Buzz Aldrin we have a reading of 70. At 81 hours, 1 minute into the flight of Apollo 11, this is Apollo Control, Houston.
+081:05:34|P|PAO|Apollo Control, Houston. At 81 hours 5 minutes into the flight. Still a period of relative quiet. Our ground readings indicate that the Apollo 11 spacecraft has completed its Program 52, that's to align the inertial platform. Indications from the ground are that it - this activity went very well. And at 81 hours 6 minutes continuing to monitor, this is Apollo Control, Houston.
+081:14:39|P|PAO|This is Apollo Control, Houston, at 81 hours 15 minutes. It's been an extremely quiet pass. No doubt, the Apollo 11 crew, quite busy at this time. We expect, at the time entry is made into the Lunar Module, Apollo 11, as a matter of fact, will be out of acquisition, traversing over the far side of the Moon. At the present time, we read an altitude, current altitude, reading of 56.7 nautical miles. Our ground displays indicate an apolune of 65.4, a perilune of 53.8 and spacecraft velocity of 5,364 feet per second. Continuing to monitor, this is Apollo Control, Houston, at 81 hours 16 minutes into the flight.
 081:22:57|T|CC|Hello, Apollo 11. Houston. We're wondering if you've started into the LM yet. Over.
-081:23:06|T|CDR|We have the CSM hatch out, the drogue and probe removed and stowed, and we're just abeut ready to open the LM hatch now.
-081:23:16|T|CC|Roger. Thank you much, Neil. We'll be standing by.
+081:23:06|T|CDR|We have the CSM hatch out, the drogue and probe removed and stowed, and we're just about ready to open the LM hatch now.
+081:23:15|T|CC|Roger. Thank you much, Neil. We'll be standing by.
+081:23:56|P|PAO|This is Apollo Control, Houston at 81 hours 24 minutes now into the flight. The silence of conversation between Mission Control Center, Houston and the crew has broken there moments ago. Charlie Duke called up Apollo 11 and spoke with Neil Armstrong, who indicated that the hatch was out and the probe and drogue removed and they were about ready to open the Lunar Module hatch. Our current altitude shows 54.7 nautical miles, apolune, 65.4, perilune, 53.8. Interestingly enough, the part of the LM activation which we will follow most closely will be at time of reacquisition following our pass over the far side of the Moon. This will be on the front side. It will afford us an opportunity for a communications check with the Lunar Module and there will be a transfer to LM power. At 81 hours 25 minutes, this is Apollo Control, Houston.
 081:25:53|T|CDR|Okay, Charlie. We're in the LM. The docking index mark is the same.
-081:26:00|T|CC|Roger. We copy.
+081:26:01|T|CC|Roger. We copy.
+081:26:11|P|PAO|You heard that report from Neil Armstrong. They are now in the Lunar Module.
 081:26:53|T|LMP|Charlie, apparently there just doesn't seem to be any slow way to get that REPRESS to AUTO without making a big bang.
-081:27:00|P|PAO|This is Apollo Control, Houston. 81 hours 30 minutes now into the flight of Apollo 11. The Apollo 11 Commander and Lunar Modules pilots appear to be a little bit ahead on their timelines in the LM activation period. Meanwhile, Command Module Pilot Mike Collins proceeding further with his land mark tracking exercises. Mike also reported a little puddle of water inside the Command Module near the aft bulkhead his reference to like 101 referred to the Apollo 7 spacecraft, which was commanded by Walter Schirra. Our current altitude 54 nautical miles, current apolune 65.4, our current perilune 53.8. We now show a weight in orbit of 70,472 pounds. This is Apollo Control, Houston, continuing to monitor at 81 hours 32 minutes into the flight.
-081:27:00|P|PAO|This is Apollo Control, Houston. We are now some five minutes away from loss of signal with the Apollo 11 spacecraft. We currently show an altitude of 54.2 nautical miles, apolune 65.4, perilune 53.9 nautical miles. Flight Director Milt Windler now talking with various members of his flight control team. We would expect a final bit of conversation prior to loss of signal with the Apollo 11 spacecraft. We'll keep our line up and continue to monitor conversations that could transpire prior to loss of signal. Standing by at 81 hours 41 minutes into the flight of Apollo 11.
-081:27:01|T|CC|Apollo 11, Houston. Say again. Over.
-081:27:08|T|LMP|Roger. There just doesn't seem to be any slow way to get the REPRESS closed to AUTO and avoid a big bang. Over.
-081:27:16|T|CC|We copy, Buzz. Thank you much. Out.
-081:27:23|T|CC|We concur with that, Buzz.
-081:27:35|T|CC|Apollo 11, Houston. We'll have LOS 81 45, next AOS - Stand by.
-081:27:47|T|CC|Next AOS 82 32. Over.
-081:27:55|T|CDR|Okay. 82 32.
+081:27:02|T|CC|Apollo 11, Houston. Say again. Over.
+081:27:08|T|LMP|Roger. There just doesn't seem to be any slow way to get the REPRESS from closed to AUTO and avoid a big bang. Over.
+081:27:16|T|CC|Oh, we copy, Buzz. Thank you much. Out.
+081:27:22|T|CC|We concur with that, Buzz.
+081:27:35|T|CC|Apollo 11, Houston. We'll have LOS 81:45, next AOS - Stand by.
+081:27:47|T|CC|Next AOS 82:32. Over.
+081:27:54|T|CDR|Okay. 82:32.
 081:29:30|T|CMP|Houston, Apollo 11. I am going to start a maneuver to P22 attitude at this time.
 081:29:35|T|CC|11. Roger. We copy. Over.
 081:29:41|T|CMP|Okay. We're noticing some water inside the Command Module for the first time. There's a little puddle of it on the aft bulkhead sort of like 101 had.
 081:29:49|T|CC|Roger.
 081:29:54|T|CMP|I'd like to know how EECOMM wants to get rid of it. There are a number of different ways and what does he think is the best one?
-081:30:00|T|CC|We'll be with you in a moment, Mike. Stand by.
-081:30:05|T|CMP|No big rush. It will wait until the next REV or two.
-081:30:08|T|CC|All right.
+081:29:59|T|CC|We'll be with you in a moment, Mike. Stand by.
+081:30:04|T|CMP|No big rush. It will wait until the next REV or two.
+081:30:07|T|CC|All right.
+081:30:13|P|PAO|This is Apollo Control, Houston. 81 hours 30 minutes now into the flight of Apollo 11. The Apollo 11 Commander and Lunar Modules pilots appear to be a little bit ahead on their timelines in the LM activation period. Meanwhile, Command Module Pilot, Mike Collins proceeding further with his landmark tracking exercises. Mike also reported a little puddle of water inside the Command Module near the aft bulkhead his reference to like 101 referred to the Apollo 7 spacecraft, which was commanded by Walter Schirra. Our current altitude 54 nautical miles, current apolune 65.4, our current perilune 53.8. We now show a weight in orbit of 70,472 pounds. This is Apollo Control, Houston, continuing to monitor at 81 hours 32 minutes into the flight.
+081:40:25|P|PAO|This is Apollo Control, Houston. We are now some five minutes away from loss of signal with the Apollo 11 spacecraft. We currently show an altitude of 54.2 nautical miles, apolune 65.4, perilune 53.9 nautical miles. Flight Director, Milt Windler now talking with various members of his flight control team. We would expect a final bit of conversation prior to loss of signal with the Apollo 11 spacecraft. We'll keep our line up and continue to monitor conversations that could transpire prior to loss of signal. Standing by at 81 hours 41 minutes into the flight of Apollo 11.
 081:40:25|O|LMP|Well, they look like they were made to go - That's - that's it, isn't it? Weren't they made to put here so you stow them by putting them on here instead of the way we do it?
 081:40:40|O|CDR|...
 081:40:50|O|CMP|Then we only have to decide what - what's supposed to go here.
 081:40:55|O|LMP|I ... two of them.
-081:41:00|P|PAO|Mark 3 minutes now from predicted time of loss of signal.
-081:41:00|P|PAO|Mark 2 minutes now from time of LOS.
-081:41:00|P|PAO|Mark 1 minute now from time of LOS.
 081:41:00|P|PAO|We've now had loss of signal with Apollo 11. At 81 hours, 45 minutes into the flight, this is Apollo Control, Houston.
 081:41:01|O|CMP|Both of those - those things are in here.
 081:41:05|O|CDR|... worry about nothing goes in there ...
-081:41:21|T|CC|Hello, Apollo 11. Houston. We've played back the LOI 2 burn. It looks really good to us. The systems were all good. We got an orbit on the limited amount of tracking at 65.4 by a 53.9. Over.
-081:41:22|O|CC|Hello, Apollo 11, Houston. We've played back the LOI 2 burn. It looks really good to us. The systems were all good. We got an orbit on the limited amount of tracking at 65.4 by a 53.9. Over.
+081:41:21|T|CC|Hello, Apollo 11. Houston. We've played back the LOI-2 burn. It looks really good to us. The systems were all good. We got an orbit on the limited amount of tracking at 65.4 by a 53.9. Over.
+081:41:22|O|CC|Hello, Apollo 11, Houston. We've played back the LOI-2 burn. It looks really good to us. The systems were all good. We got an orbit on the limited amount of tracking at 65.4 by a 53.9. Over.
 081:41:39|O|CDR|Sounds good, Houston.
 081:41:40|T|CDR|Sounds good, Houston.
 081:41:41|O|LMP|I need that film now.
 081:41:44|O|CDR|Okay.
 081:41:46|O|LMP|...
 081:41:58|O|CDR|Okay, want to get film. It's a long trip to the film container.
+081:41:24|P|PAO|Mark 3 minutes now from predicted time of loss of signal.
 081:42:32|O|CMP|You want something?
 081:42:33|O|CDR|Oh, shoot. I'm going to have trouble getting in there.
+081:43:23|P|PAO|Mark 2 minutes now from time of LOS.
 081:43:39|O|CMP|How's it going, Neil? You getting any?
 081:43:41|O|CDR|...
 081:43:59|O|CDR|Well - Buzz, the 70-millimeter container's only got one black and white and one color in it - Isn't it supposed to - -
@@ -5894,6 +5893,7 @@
 081:44:20|O|CMP|No, that's not the right one.
 081:44:23|O|CDR|The one - -
 081:44:24|O|CMP|The one you want, Neil, is way over here in – R-13.
+081:44:24|P|PAO|Mark 1 minute now from time of LOS.
 081:44:32|O|LMP|No, it's not in there; it was on my girth shelf.
 081:44:34|O|CMP|Okay.
 081:44:35|O|CDR|Oh, okay, there it is. Did you get that one put back?
