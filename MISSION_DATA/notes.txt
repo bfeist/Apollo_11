@@ -105,6 +105,10 @@
 080:31:38|O|LMP|Prior planning prevents poor performance.
 081:55:42 - film mags R and S
 081:58:06 - film mag Q
+082:20:00 - before earthrise photo
+082:28:55 - Buzz questioning VHF power-up in flight plan
+082:35:51|O|LMP|No wonder the Earth isn't moving.
+082:58:30|O|CDR|That's spectacular out there - Looks like you're flying right into the side of a mountain, doesn't it?
 
 
 
