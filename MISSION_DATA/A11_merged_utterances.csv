@@ -5905,7 +5905,7 @@
 081:44:58|O|CMP|I'll stick it up there on the ceiling. There's a - -
 081:45:01|O|CDR|- - not really.
 081:45:02|O|CMP|- - we got room for it up there.
-081:45:24|P|PAO|We've now had loss of signal with Apollo 11. At 81 hours, 45 minutes into the flight, this is Apollo Control, Houston.
+081:45:29|P|PAO|We've now had loss of signal with Apollo 11. At 81 hours, 45 minutes into the flight, this is Apollo Control, Houston.
 081:45:28|O|CMP|You want the 16-millimeter while you're down here, Neil?
 081:45:30|O|CDR|Yes.
 081:45:31|O|CMP|The 16-millimeter bag as well?
@@ -6062,12 +6062,10 @@
 082:29:11|O|LMP|No, I know, but - Are you going to have your VHF on?
 082:29:19|O|CMP|If I'm going to record your data, I am.
 082:29:28|O|LMP|Well, it doesn't say doodly squat about recording data.
-082:29:33|P|PAO|Apollo Control, Houston. We're now within 2 minutes from time of predicted acquisition of the Apollo 11 spacecraft. As we make this pass - near side pass, on the fourth revolution, it will be the first time that we have transferred during this mission to Lunar Module Pilot - power, and a communications check will be performed on the Lunar Module. We should be hearing such things as long counts being given from the spacecraft. Additionally, a new display - the lunar landing site display is now up for the first time in Mission Control Center this flight. It's essentially a blowup for the landing sites 1 and 2. We expect it to stay up through the time of lunar landing. Meanwhile a Mission Control Center Flight Director, Milt Windler, beginning to discuss with members of his Flight Control team items that might be expected after we acquire. We're less than a minute away at this time - at this time from our forecast acquisition. We'll stand by.
+082:29:32|P|PAO|Apollo Control, Houston. We're now within 2 minutes from time of predicted acquisition of the Apollo 11 spacecraft. As we make this pass - near side pass, on the fourth revolution, it will be the first time that we have transferred during this mission to Lunar Module Pilot - power, and a communications check will be performed on the Lunar Module. We should be hearing such things as long counts being given from the spacecraft. Additionally, a new display - the lunar landing site display is now up for the first time in Mission Control Center this flight. It's essentially a blowup for the landing sites 1 and 2. We expect it to stay up through the time of lunar landing. Meanwhile a Mission Control Center Flight Director, Milt Windler, beginning to discuss with members of his Flight Control team items that might be expected after we acquire. We're less than a minute away at this time - at this time from our forecast acquisition. We'll stand by.
 082:30:28|O|LMP|... coming up now.
 082:31:33|P|PAO|Standing by now for acquisition.
-082:31:50|P|PAO|We have acquisition. We are receiving telemetry data at this time. Hawaii and Goldstone have both acquired.
-082:30:00|P|PAO|That was Mike Collins indicating he would be doing the allude - additional landmark tracking, and we shall hear further from him shortly.
-082:30:00|P|PAO|This is Apollo Control, Houston, 82 hours, 38 minutes now into the flight of Apollo 11. Well, we have single contact with Apollo 11 thus far this pass, when Mike Collins identified he was still involved with program 22, the auto optics landmark tracking activity. We expect additional conversation as the pass transpires. Presently we're reading on our orbit displays an altitude of 65.1 nautical miles, apolune 65.3 nautical miles, perilune of 54 nautical miles. We currently show a velocity on the Apollo 11 spacecraft of 5318 feet per second - 5318 feet per second. At 82 hours, 39 minutes, and continuing to monitor, this is Apollo Control, Houston.
+082:31:49|P|PAO|We have acquisition. We are receiving telemetry data at this time. Hawaii and Goldstone have both acquired.
 082:31:54|O|CDR|Did you get them?
 082:31:56|O|LMP|No, sure didn't.
 082:32:01|O|CDR|Yes.
@@ -6077,6 +6075,7 @@
 082:32:40|O|CMP|Okay, Houston. We'll be doing P22 in just a couple of minutes here.
 082:32:43|T|CMP|Okay, Houston. We'll be done with P22 in just a couple of minutes.
 082:32:46|T|CC|Roger. We copy all that. You're looking good.
+082:32:52|P|PAO|That was Mike Collins indicating he would be doing the allude - additional landmark tracking, and we shall hear further from him shortly.
 082:32:48|O|CMP|You want to come in, Neil? Going in?
 082:34:00|O|CMP|Want back up?
 082:34:01|O|CDR|No.
@@ -6107,6 +6106,7 @@
 082:37:47|O|LMP|The problem with this window is, Neil, I think it's too cold in here.
 082:37:52|O|CMP|Neil, I'm going to get up here and get pitch - MANUAL ATTITUDE PITCH to ACCEL COMMAND. Those hand controllers are armed, so beware.
 082:38:03|O|CDR|Okay.
+082:38:18|P|PAO|This is Apollo Control, Houston, 82 hours, 38 minutes now into the flight of Apollo 11. Well, we have single contact with Apollo 11 thus far this pass, when Mike Collins identified he was still involved with program 22, the auto optics landmark tracking activity. We expect additional conversation as the pass transpires. Presently we're reading on our orbit displays an altitude of 65.1 nautical miles, apolune 65.3 nautical miles, perilune of 54 nautical miles. We currently show a velocity on the Apollo 11 spacecraft of 5318 feet per second - 5318 feet per second. At 82 hours, 39 minutes, and continuing to monitor, this is Apollo Control, Houston.
 082:41:26|O|CMP|If I'd known you were going to be here, I'd of incorporated you into the procedures.
 082:41:31|O|CDR|Keep looking through the periscope, then.
 082:41:33|O|CMP|What I need is - 0.3 to 0.5 on this thing, closer to 3. I'd get it, but you - -
@@ -6187,8 +6187,9 @@
 082:50:01|O|CMP|Okay. So much for that.
 082:50:27|T|CC|Apollo 11, Houston. We see a NOUN 89. You can do the VERB 34 now. Over. Beat me to it.
 082:50:29|O|LMP|A beautiful view out here, Neil.
-082:50:35|T|CMP|Yes. I've done it, Charlie.
-082:50:37|T|CC|Roger.
+082:50:35|O|CMP|Yes. I've done it, Charlie.
+082:50:36|T|CMP|Yes. I've done it, Charlie.
+082:50:38|T|CC|Roger.
 082:50:53|O|LMP|What's the GET?
 082:50:57|O|CMP|It's 82:51.
 082:51:36|O|CMP|There's Mount Marilyn.
@@ -6198,7 +6199,7 @@
 082:52:15|O|CMP|You got a good view there, Neil?
 082:52:16|O|CDR|Yes, I sure do.
 082:52:19|O|CMP|Houston, Apollo 11.
-082:52:19|T|CMP|Houston, Apollo 11.
+082:52:20|T|CMP|Houston, Apollo 11.
 082:52:22|T|CC|Go ahead, 11. Over.
 082:52:27|O|CMP|All that procedure for P22 seemed to work very well. The only thing that was a little odd is that there was some DAP thruster activity. I had pitch in ACCEL COMMAND, and roll and yaw in RATE COMMAND, and somehow roll and yaw got excited, and DAP went into a flurry of thruster firing. We've noticed the same thing in the CMS and had just written it off as a CMS peculiarity.
 082:52:27|T|CMP|All that procedure for P22 seemed to work very well. The only thing that was a little odd, is that there was some DAP thruster activity. I had pitch in ACCEL COMMAND, and roll and yaw in RATE COMMAND, and somehow, roll and yaw got excited and the DAP went into a flurry of thruster firing. We've noticed the same thing in the CMS, and just written it off as a CMS peculiarity.
@@ -6211,9 +6212,10 @@
 082:53:45|O|CDR|Or could you tell?
 082:53:45|O|CMP|- - they're sort of inconclusive because I marked - see, they gave me -
 082:53:47|T|CC|Apollo 11, Houston. You can proceed to sleep attitude now. Over.
-082:53:54|O|CMP|That's in work, Houston. Hey, how about holding this for just a little bit?
+082:53:54|O|CMP|That's in work, Houston.
 082:53:54|T|CMP|That's in work, Houston.
 082:53:56|T|CC|Okay.
+082:53:56|O|CMP|Hey, how about holding this for just a little bit?
 082:53:57|O|CDR|Yes, let's hold this attitude a little bit; I want to look at the - -
 082:54:02|O|CMP|Boy, that's beautiful out there, isn't it?
 082:54:04|O|CDR|- - TPI approach. Man, this is really something; you ought to look at this. You want to watch our approach into the landing site; you got to watch right through this window. We're coming over - we just passed Mount Marilyn. We're coming up on Maskelyne series here - straight out ahead, coming into the landing area.
@@ -6264,169 +6266,168 @@
 082:58:34|O|CMP|Yes, sure does.
 082:58:37|O|LMP|I missed taking a picture of it, ...
 082:58:49|O|CMP|Well, that was good ... Shall we go to maneuver, I mean to sleep attitude - anybody object to doing that?
-082:58:59|O|CDR|That'd be alright.
-082:59:05|O|LMP|Okay, I'm ready for you cats to transfer to LM power. What time GET you got?
+082:59:01|O|CDR|That'd be alright.
+082:59:07|O|LMP|Okay, I'm ready for you cats to transfer to LM power. What time GET you got?
 082:59:07|T|SC|...
 082:59:12|T|CC|Apollo 11, Houston. Say again. Over.
-082:59:13|O|CMP|80 - -
-082:59:15|O|CDR|Get the ..., Buzz.
-082:59:17|O|CMP|- - 83 hours. You ready to do it?
-082:59:20|O|LMP|...
-082:59:22|O|CMP|You ready to do it?
-082:59:23|O|LMP|Stand by. Yes, go ahead and do it.
-082:59:32|O|CMP|Okay.
-082:59:33|O|LMP|You got 83 hours right now, huh?
-082:59:35|O|CMP|Yes, 83 hours, and we're on LM power.
-082:59:56|T|CC|Apollo 11, Houston. We got a lot of noise on the downlink. Would you please try your high-gain in wide beam-width, and the angles are 180 the yaw and pitch zero. Over.
-083:00:26|O|LMP|Glycol pump.
-083:00:28|O|CMP|Houston, Apollo 11. How do you read on high-gain? Over.
-083:00:30|T|CMP|Houston, Apollo 11. How do you read us on the high-gain? Over.
+082:59:15|O|CMP|80 - They're transmitting, Buzz.
+082:59:19|O|CMP|83 hours. You ready to do it?
+082:59:22|O|LMP|...
+082:59:24|O|CMP|You ready to do it?
+082:59:26|O|LMP|Stand by. Yes, go ahead and do it.
+082:59:34|O|CMP|Okay.
+082:59:35|O|LMP|You got 83 hours right now, huh?
+082:59:38|O|CMP|Yes, 83 hours, and you're on LM power.
+082:59:57|T|CC|Apollo 11, Houston. We got a lot of noise on the downlink. Would you please try your high-gain in wide beam-width, and the angles are 180 the yaw and pitch zero. Over.
+083:00:29|O|LMP|Glycol pump.
+083:00:30|O|CMP|Houston, Apollo 11. How do you read on the high-gain? Over.
+083:00:30|T|CMP|Houston, Apollo 11. How do you read on the high-gain? Over.
 083:00:34|T|CC|Roger, Mike. You're a lot better now. Over.
-083:00:37|O|CMP|Okay. You want wide beam, for some reason?
-083:00:38|T|CMP|Okay. You want a wide beam for some reason?
-083:00:39|O|LMP|Will you cut my SUIT POWER and AUDIO, OFF, please?
-083:00:43|T|CC|That's affirmative. We got you in the shadows, though. You are looking right down along the engine bell towards the Earth so we need you in wide beam. Over.
-083:00:43|O|CMP|Yes.
-083:00:51|O|LMP|Okay, fine.
-083:00:53|T|CMP|Okay. Fine. We're starting our maneuvers to sleep attitude. Roll 82, pitch 229, yaw zero.
-083:00:53|O|CDR|Okay, going OFF now.
-083:00:54|O|CMP|We're starting our maneuver to sleep attitude; roll 82, pitch 229, yaw zero.
-083:01:02|T|CC|Roger. The angles you got in the Flight Plan will he good when you get there.
-083:01:11|O|CMP|About ready to maneuver?
-083:01:14|O|LMP|Go ahead.
-083:01:16|O|CMP|Okay.
-082:55:00|P|PAO|This is Apollo Control, Houston, at 83 hours 2 minutes into the flight of Apollo 11. Currently we show an apolune of 65.3 nautical miles, a perilune of 53.9. We would expect the transfer to Lunar Module power to occur momentarily and from that point on the communications check with the Lunar Module. 83 hours 3 minutes and standing by, this is Apollo Control, Houston.
-083:02:52|O|CDR|Yes?
-083:03:08|O|CDR|You're past step 4?
-083:03:41|O|CDR|Houston, 11.
-083:03:43|T|CDR|Houston, 11.
+083:00:40|O|CMP|Okay. You want wide beam, for some reason?
+083:00:40|T|CMP|Okay. You want wide beam, for some reason?
+083:00:41|O|LMP|Will you cut my SUIT POWER and AUDIO, OFF, please?
+083:00:44|T|CC|That's affirmative. We got you in the shadows, though. You are looking right down along the engine bell towards the Earth so we need you in wide beam. Over.
+083:00:46|O|CMP|Yes.
+083:00:54|O|LMP|Okay, fine.
+083:00:54|T|CMP|Okay. Fine.
+083:00:56|O|CDR|Okay, going OFF now.
+083:00:57|T|CMP|We're starting our maneuver to sleep attitude; Roll 82, pitch 229, yaw zero.
+083:00:57|O|CMP|We're starting our maneuver to sleep attitude; roll 82, pitch 229, yaw zero.
+083:01:03|T|CC|Roger. The angles you got in the Flight Plan will he good when you get there.
+083:01:12|O|CMP|About ready to maneuver?
+083:01:15|O|CDR|Go ahead.
+083:01:18|O|CMP|Okay.
+083:02:18|P|PAO|This is Apollo Control, Houston, at 83 hours 2 minutes into the flight of Apollo 11. Currently we show an apolune of 65.3 nautical miles, a perilune of 53.9. We would expect the transfer to Lunar Module power to occur momentarily and from that point on the communications check with the Lunar Module. 83 hours 3 minutes and standing by, this is Apollo Control, Houston.
+083:02:53|O|CDR|Yes?
+083:03:09|O|CDR|You're past step 4?
+083:03:44|O|CDR|Houston, 11.
+083:03:44|T|CDR|Houston, 11.
 083:03:45|T|CC|Go ahead, 11. Over.
-083:03:45|O|CDR|What's the page?
-083:03:48|O|CDR|Okay. We're on page - activation 12, 13, at step 4, verify descent talkbacks - gray, and they're barber pole.
-083:03:49|T|CDR|Okay. We are on page activation 12 and 13, step 4, and verify descent talkbacks gray, and they're barberpole.
-083:04:04|T|CC|Roger. Stand by.
-083:04:13|T|CC|Apollo 11, Houston. We would like you to take the low voltage taps OFF; RESET, then 0N. Over.
-083:04:20|O|CDR|Stand by. We've got it. We've just had – one circuit breaker out of position. We have them gray now.
+083:03:47|O|CDR|What's the page?
+083:03:50|O|CDR|Okay. We're on page activation 12 - 13, at step 4, and verify descent talk-backs gray, and they're barber-pole.
+083:03:50|T|CDR|Okay. We're on page activation 12 - 13, at step 4, and verify descent talk-backs gray, and they're barber-pole.
+083:04:05|T|CC|Roger. Stand by.
+083:04:14|T|CC|Apollo 11, Houston. We would like you to take the low voltage taps OFF; RESET, then ON. Over.
+083:04:22|O|CDR|Stand by. We've got it. We've just had – one circuit breaker out of position.
 083:04:22|T|CDR|Stand by. We got it. We just had one circuit breaker out of position.
 083:04:26|T|CC|Okay.
-083:04:28|T|CDR|We have them gray now.
-083:04:29|T|CC|Roger.
-083:05:00|P|PAO|This is Apollo Control, Houston, 83 hours 7 minutes now into the flight. We're now receiving data from the Lunar Module on our displays here in Mission Control Center.
-083:05:00|P|PAO|That was Buzz Aldrin from the Lunar Module using the codename for the first time.
-083:05:18|O|CMP|Watch that.
-083:05:20|O|CDR|Don't we want it dark?
-083:05:24|O|CMP|I thought the lights were going out. Man, that voltage is really falling off.
-083:05:43|O|LMP|Hey, Mike.
-083:05:44|O|CMP|Yes.
-083:05:45|O|LMP|... VHF ... circuit breaker ...
-083:05:50|O|CMP|I can't hear you, Buzz.
-083:05:52|O|CDR|He says, "Why don't you turn on VHF B, just for kicks."
-083:05:55|O|CMP|Alright, I'll do it. You going to send me some data?
-083:06:00|O|LMP|Yes, I'll get right to it.
-083:06:02|O|CMP|Huh?
-083:06:03|O|LMP|I'll get right to it.
-083:06:04|O|CMP|Alright.
-083:06:07|O|LMP|Soon as I get some COMM first.
-083:06:09|O|CMP|Yes, because when I - because when I record your data, I'm on SIMPLEX A.
-083:06:17|O|LMP|Yes, well, that's when you're talking at the same time.
-083:06:20|O|CMP|Yes, okay. You want me just to turn up B now?
-083:06:22|O|CDR|There's signal strength.
-083:06:50|O|LMP|Hello, Houston, hello, Houston; this is Apollo 11, Eagle. Over.
-083:07:22|O|CDR|A lot of static - on the Command Module S-band.
-083:07:27|O|CMP|Well, we - we should still have him.
-083:07:39|O|CDR|Houston, Apollo 11. Radio check on S-band.
-083:08:04|O|CDR|I'm not getting them on -
-083:08:08|O|CMP|Well, we're almost at sleep attitude; just stand by 1, and, as soon as we get there, I'll find out where they are. I'm going to dick with the DAP right now.
-083:09:14|T|LMP|... should have warmed up by now.
-083:09:16|O|CDR|I've got nothing but static.
-083:09:31|O|CMP|Houston, Apollo 11. Over.
-083:09:52|O|LMP|Hey, Mike, you transmitting on B?
-083:09:53|T|LMP|Oh, he's transmitting on B.
-083:09:54|T|CDR|Hey, Mike, you transmitting on B?
-083:10:00|O|CDR|Mike, what are you transmitting on up there?
-083:10:04|O|CMP|Say again.
-083:10:06|O|CDR|What are you transmitting on up there?
-083:10:08|O|CMP|I'm transmitting right now on OMNI A, but I'm about to get new high-gain angles; just 1 second. Okay, we're there.
-083:10:16|O|CDR|How come I - he don't hear you on INTERCOM?
-083:10:21|O|CMP|You should hear - -
-083:10:22|T|LMP|Houston, Apollo 11 - Apollo 11/Eagle. Over.
-083:10:22|O|LMP|Houston, Apollo 11; Apollo 11, Eagle. Over.
+083:04:29|O|CDR|We have them gray now.
+083:04:29|T|CDR|We have them gray now.
+083:04:30|T|CC|Roger.
+083:05:21|O|CMP|Watch that.
+083:05:23|O|CDR|Don't we want it dark?
+083:05:25|O|CDR|I thought the lights were going out. Man, that voltage is really falling off.
+083:05:45|O|LMP|Hey, Mike.
+083:05:46|O|CMP|Yes.
+083:05:47|O|LMP|... VHF ... circuit breaker ...
+083:05:53|O|CMP|I can't hear you, Buzz.
+083:05:55|O|CDR|He says, "Why don't you turn on VHF B, just for kicks."
+083:05:57|O|CMP|Alright, I'll do it. You going to send me some data?
+083:06:03|O|LMP|Yes, I'll get right to it.
+083:06:05|O|CMP|Huh?
+083:06:05|O|LMP|I'll get right to it.
+083:06:07|O|CMP|Alright.
+083:06:09|O|LMP|Soon as I get some COMM first.
+083:06:11|O|CMP|Yes, because when I - because when I record your data, I'm on SIMPLEX A.
+083:06:19|O|LMP|Yes, well, that's when you're talking at the same time.
+083:06:23|O|CMP|Yes, okay. You want me just to turn up B now?
+083:06:25|O|CDR|There's signal strength.
+083:06:53|O|LMP|Hello, Houston, hello, Houston; this is Apollo 11, Eagle. Over.
+083:07:11|P|PAO|This is Apollo Control, Houston, 83 hours 7 minutes now into the flight. We're now receiving data from the Lunar Module on our displays here in Mission Control Center.
+083:07:24|O|CDR|A lot of static - on the Command Module S-band.
+083:07:30|O|CMP|Well, we - we should still have him.
+083:07:41|O|CDR|Houston, Apollo 11. Radio check on S-band.
+083:08:07|O|CDR|I'm not getting them on -
+083:08:10|O|CMP|Well, we're almost at sleep attitude; just stand by 1, and, as soon as we get there, I'll find out where they are. I'm going to dick with the DAP right now.
+083:09:15|T|LMP|... should have warmed up by now.
+083:09:19|O|CDR|I've got nothing but static.
+083:09:34|O|CMP|Houston, Apollo 11. Over.
+083:09:54|O|LMP|Hey, Mike, you transmitting on B?
+083:09:54|T|LMP|Hey, Mike, you transmitting on B?
+083:10:03|O|CDR|Mike, what are you transmitting on up there?
+083:10:06|O|CMP|Say again.
+083:10:07|O|CDR|What are you transmitting on up there?
+083:10:10|O|CMP|I'm transmitting right now on OMNI A, but I'm about to get new high-gain angles; just 1 second. Okay, we're there.
+083:10:18|O|CDR|How come I - he don't hear you on INTERCOM?
+083:10:22|O|CMP|You should hear - -
+083:10:23|T|LMP|Houston, Apollo 11; Apollo 11/Eagle. Over.
+083:10:23|O|LMP|Houston, Apollo 11; Apollo 11/Eagle. Over.
 083:10:29|T|CC|Roger, Eagle. This is Houston. We read you. Over.
-083:10:33|O|LMP|Roger. I read you about 4 by 4. Could you give me a short count, please?
-083:10:35|T|LMP|Roger. I read you about four by four. Could you give me a short count, please?
-083:10:37|O|CDR|Gees, I don't hear him.
+083:10:35|O|LMP|Roger. I read you about 4 by 4. Could you give me a short count, please?
+083:10:35|T|LMP|Roger. I read you about 4 by 4. Could you give me a short count, please?
+083:10:40|O|CDR|Gees, I don't hear him.
 083:10:40|T|CC|Roger, Eagle. Coming in with the short count - 1, 2, 3, 4, 5; 5, 4, 3, 2, 1. Houston out. Over.
-083:10:43|O|CDR|We don't read them, Buzz.
-083:10:46|O|CMP|He's - he's on LM S-band, Neil, apparently.
-083:10:49|O|CDR|Oh.
-083:10:50|O|CMP|Yes.
-083:10:53|O|LMP|Roger. Are you copying my LOW BIT RATE? Over.
-083:10:55|T|LMP|Roger. Are you copying my low bit rate? Over.
-083:10:58|T|CC|Roger. We got some beautiful data here, Eagle. We're - All those guys are looking at it - systems guys. We'll have some word for you in a minute how everything looks.
-083:11:07|O|LMP|Roger. I'm all ready to switch to HIGH BIT RATE, if that's okay with you.
-083:11:09|T|LMP|Roger. I'm all ready to switch to high bit rate if that's okay with you.
-083:11:13|T|CC|Would you please stand by, Eagle. We want to get to the proper sleep attitude before we proceed on with the COMM check. Over.
-083:11:21|O|LMP|Standing by.
+083:10:46|O|CDR|We don't read them, Buzz.
+083:10:48|T|LMP|That's alright.
+083:10:49|O|CMP|He's - he's on LM S-band, Neil, apparently.
+083:10:53|O|CDR|Oh.
+083:10:53|O|CMP|Yes.
+083:10:55|P|PAO|That was Buzz Aldrin from the Lunar Module using the codename for the first time.
+083:10:56|O|LMP|Roger. Are you copying my LOW BIT RATE? Over.
+083:10:56|T|LMP|Roger. Are you copying my LOW BIT RATE? Over.
+083:11:00|T|CC|Roger. We got some beautiful data here, Eagle. We're - All those guys are looking at it - systems guys. We'll have some word for you in a minute how everything looks.
+083:11:10|O|LMP|Roger. I'm all ready to switch to HIGH BIT RATE, if that's okay with you.
+083:11:10|T|LMP|Roger. I'm all ready to switch to HIGH BIT RATE, if that's okay with you.
+083:11:14|T|CC|Would you please stand by, Eagle. We want to get to the proper sleep attitude before we proceed on with the COMM check. Over.
+083:11:23|O|LMP|Standing by.
 083:11:23|T|LMP|Standing by.
-083:11:31|O|LMP|Houston, Eagle. Go ahead with the camera checkout. I'm still on low taps, and I assume there's no problem doing that. Over.
-083:11:33|T|LMP|Houston, Eagle. We'll go ahead with the camera checkout. I'm still on low taps, and I assume there's no problem doing that. Over.
-083:11:42|T|CC|Stand by.
-083:11:46|T|CC|That's affirmative. No problem on that, Eagle. You can go ahead and power up the sequence camera. Over.
-083:11:53|O|CMP|Houston, Columbia. How do you read on the high-gain?
-083:12:00|T|LMP|Should have done that before.
-083:12:01|O|CMP|Blap.
-083:12:03|T|CC|Eagle, be advised - sounds like a hot mike. Over.
-083:12:04|T|LMP|Right. Yes.
-083:12:07|O|CDR|Did you hear him answer?
-083:12:09|O|CMP|No.
-083:12:10|O|CDR|I didn't either. Buzz is reading him, though.
-083:12:16|T|LMP|Roger. If you're reading me now, I am in hot mike because I'm in ICS push to talk, snd DOWNVOICE BACKUP. Over.
-083:12:24|T|CC|Roger. We just wanted to remind you. Over.
+083:11:34|O|LMP|Houston, Eagle. We'll go ahead with the camera checkout. I'm still on low taps, and I assume there's no problem doing that. Over.
+083:11:34|T|LMP|Houston, Eagle. We'll go ahead with the camera checkout. I'm still on low taps, and I assume there's no problem doing that. Over.
+083:11:43|T|CC|Stand by.
+083:11:47|T|CC|That's affirmative. No problem on that, Eagle. You can go ahead and power up the sequence camera. Over.
+083:11:55|O|CMP|Houston, Columbia. How do you read on the high-gain?
+083:12:01|T|LMP|Should have done that before.
+083:12:03|O|CMP|Blap.
+083:12:04|T|CC|Eagle, be advised - sounds like a hot mike. Over.
+083:12:06|T|LMP|Right. Yes.
+083:12:10|O|CDR|Did you hear him answer?
+083:12:11|O|CMP|No.
+083:12:13|O|CDR|I didn't either. Buzz is reading him, though.
+083:12:17|T|LMP|Roger. If you're reading me now, I am in hot mike because I'm in ICS push to talk, and DOWNVOICE BACKUP. Over.
+083:12:25|T|CC|Roger. We just wanted to remind you. Over.
 083:12:30|T|LMP|Thank you.
 083:12:50|T|CC|Columbia, this is Houston. Are you maneuvering to sleep attitude? Over.
 083:13:03|T|CC|Eagle, this is Houston. We have lost all the voice and data with Columbia. Would you see if he is maneuvering to sleep attitude? Over.
-083:13:04|O|CMP|Houston, Columbia. How do you read on the high-gain? Over.
+083:13:07|O|CMP|Houston, Columbia. How do you read on the high-gain? Over.
 083:13:17|T|LMP|Hey, Mike. You maneuvering to sleep attitude?
-083:13:18|O|CMP|Hey, how about asking them if they can hear me calling?
-083:13:20|T|CMP|...
-083:13:22|O|LMP|I don't believe they can hear you, Mike, ... sleep attitude.
+083:13:21|O|CMP|Hey, how about asking them if they can hear me calling?
+083:13:24|O|LMP|I don't believe they can hear you, Mike, ... sleep attitude.
 083:13:24|T|LMP|I don't believe they can hear you, Mike. Are you maneuvering now to sleep attitude?
-083:13:26|O|CMP|Well, we're in sleep attitude, and I got the high-gain angles, and they should be good angles. And I'm locked on and I got about a half signal strength, and they can't hear me.
-083:13:28|T|CMP|...
-083:13:40|T|LMP|Houston, Eagle. The Columbia has maneuvered to sleep attitude. He's got the high-gain antennas - antenna angles set in, and he should be communicating with you. Over.
-083:13:40|O|LMP|Houston, Eagle. ... high-gain ...
-083:13:55|T|CC|Roger. We don't have him. Stand by.
+083:13:29|O|CMP|Well, we're in sleep attitude, and I got the high-gain angles, and they should be good angles. And I'm locked on and I got about a half signal strength, and they can't hear me.
+083:13:29|T|CMP|...
+083:13:41|T|LMP|Houston, Eagle. The Columbia has maneuvered to sleep attitude. He's got the high-gain antennas - antenna angles set in, and he should be communicating with you. Over.
+083:13:41|O|LMP|Houston, Eagle. ... high-gain ...
+083:13:56|T|CC|Roger. We don't have him. Stand by.
 083:14:02|T|CC|Eagle, Houston. Would you please have Columbia put in COMMAND RESET? Over.
-083:14:11|O|CDR|No go.
-083:14:12|T|CMP|Wilco. COMMAND RESET.
+083:14:13|O|CDR|Wilco
+083:14:13|T|CMP|Wilco.
 083:14:12|O|CMP|What'd he say?
-083:14:13|O|CDR|COMMAND RESET.
-083:14:14|O|CMP|Okay.
-083:14:22|T|CC|Eagle, Houston. Since we're in sleep attitude, I'll give you another long count. If you're reading in this mode, we'd like you to switch to high bit rate. Over.
-083:14:36|O|LMP|... try him again.
+083:14:15|T|CDR|COMMAND RESET.
+083:14:15|O|CDR|COMMAND RESET.
+083:14:16|O|CMP|Okay.
+083:14:23|T|CC|Eagle, Houston. Since we're in sleep attitude, I'll give you another long count. If you're reading in this mode, we'd like you to switch to high bit rate. Over.
 083:14:38|T|LMP|Roger. Go ahead with your short count.
-083:14:39|O|CMP|Houston, Columbia. Reading you loud and clear.
-083:14:40|T|CC|Roger. 1, 2, 3, 4, 5; 5, 4, 3, 2, 1. We're reading you five by. You can go to high bit rate now. Over.
-083:14:53|T|LMP|Roger. Going to high bit rate now.
-083:15:00|P|PAO|This is Apollo Control, Houston. A voice count exchange between Buzz Aldrin and the Eagle, the Lunar Module and Charles Duke here in Mission Control Center.
-083:15:00|P|PAO|This is Apollo Control, Houston. Our communications check out with the Eagle apparently going very well at this time.
-083:15:00|P|PAO|This is Apollo Control, Houston. 83 hours, 21 minutes are now in to the flight. Meanwhile, aboard the Eagle, apparently Buzz Aldrin and Neil Armstrong, although Buzz is doing most of the comm check at this time.
-083:15:34|T|CC|Eagle, this is Houston. Do you read? Over.
-083:15:40|T|LMP|Houston, this is Eagle. Roger. Read you loud and clear. How me? Over.
+083:14:41|T|CC|Roger. 1, 2, 3, 4, 5; 5, 4, 3, 2, 1. We're reading you five by. You can go to high bit rate now. Over.
+083:14:42|O|CMP|Houston, Columbia. Reading you loud and clear.
+083:14:56|T|LMP|Roger. Going to high bit rate now.
+083:15:33|T|CC|Eagle, this is Houston. Do you read? Over.
+083:15:41|T|LMP|Houston, this is Eagle. Roger. Read you loud and clear. How me? Over.
 083:15:45|T|CC|Roger. Reading you five by also, Buzz, and we got the high bit rate. It's looking beautiful through Goldstone. Giving you a count: 1, 2, 3, 4, 5; 5, 4, 3, 2, 1. Please give us a count. Over.
-083:16:04|T|LMP|Roger, Houston. Eagle with a count. 1, 2, 3, 4, 5; 5, 4, 3, 2, 1. Over.
+083:16:05|T|LMP|Roger, Houston. Eagle with a count. 1, 2, 3, 4, 5; 5, 4, 3, 2, 1. Over.
 083:16:15|T|CC|Roger. Stand by. We're reading you five by. Over.
 083:16:23|T|LMP|Okay. I'm ready to go S band voice. Over.
 083:16:27|T|CC|Stand by, Eagle. Stand by on step 4.
-083:16:55|T|CC|Columbia, this is Houston. Would you please give us P00 in ACCEPT. We've got a load for you. Break. Eagle, we're ready to go to step 4. Please select S band voice to VOICE. Over.
+083:16:41|P|PAO|This is Apollo Control, Houston. A voice count exchange between Buzz Aldrin and the Eagle, the Lunar Module and Charles Duke here in Mission Control Center.
+083:16:55|T|CC|Columbia, this is Houston. Would you please give us P00 and ACCEPT. We've got a load for you. Break. Eagle, we're ready to go to step 4. Please select S band voice to VOICE. Over.
 083:17:53|T|CC|Hello, Eagle. This is Houston. How do you read - normal voice? Over.
 083:18:00|T|LMP|Eagle - Houston, this is Eagle. Read you loud and clear on S band, normal voice. How me? Over.
-083:18:05|T|CC|Roger. You're beautiful in this mode, Buzz. We're reading you five by. Coming with a short count and we'd like one back from you. 1, 2, 3, 4, 5; 5, 4, 3, 2, 1. Houston out.
+083:18:06|T|CC|Roger. You're beautiful in this mode, Buzz. We're reading you five by. Coming with a short count and we'd like one back from you. 1, 2, 3, 4, 5; 5, 4, 3, 2, 1. Houston out.
 083:18:28|T|LMP|Roger. Houston, Eagle. You're gorgeous also. 1, 2, 3, 4, 5; 5, 4, 3, 2, 1. Eagle, over.
-083:18:39|T|CC|Roger, Eagle. This is better than the downvoice backup. Stand by 1
+083:18:39|T|CC|Roger, Eagle. This is better than the downvoice backup. Stand by 1.
 083:18:55|T|CC|Eagle, Houston. Everybody's happy as a clam with this mode. We'd like to stay here for a little bit. Telemetry looks great, and the; voice is great. Over.
 083:19:09|T|LMP|Roger. Understand. I'm checking out camera number 4 now.
-083:19:26|T|CC|Eagle, Houston. Say again what you're checking out? Over.
+083:19:21|P|PAO|This is Apollo Control, Houston. Our communications check out with the Eagle apparently going very well at this time.
+083:19:25|T|CC|Eagle, Houston. Say again what you're checking out? Over.
 083:19:35|T|LMP|Roger, Houston. Eagle has checked out both 70 millimeter cameras and both 16 millimeter cameras, and all work fine. Over.
 083:19:46|T|CC|Sounds great. Stand by.
 083:19:57|T|CC|Eagle, Houston. We've looked over your systems on the high bit rate. Everything looks super; we're ready to go. Over.
@@ -6434,50 +6435,52 @@
 083:20:13|T|CC|Stand by on that. Over.
 083:20:28|T|CC|Eagle, Houston. We look good through the 210 on this mode. We're going to shift data select to an 85 foot dish to see what we've got, and then we'll be back to you on the 210. If you'll stand by a couple of minutes in this mode, we'll be back with you. Over.
 083:20:48|T|LMP|Roger. Eagle standing by.
+083:21:16|P|PAO|This is Apollo Control, Houston. 83 hours, 21 minutes are now in to the flight. Meanwhile, aboard the Eagle, apparently Buzz Aldrin and Neil Armstrong, although Buzz is doing most of the comm check at this time.
 083:21:36|T|CC|Eagle, Houston. How do you read? Over.
-083:21:52|T|LMP|Houston, Eagle. Read you loud and clear. Over.
+083:21:53|T|LMP|Houston, Eagle. Read you loud and clear. Over.
 083:21:55|T|CC|Roger. We're reading you five by. We've got the voice good through the 85; the telemetry is in and out through the 85. Stand by. We'll be back with you through the 210. Over.
 083:22:28|T|CC|Eagle, Houston. You can go step 5 now. We'd like low bit rate. Over.
-083:22:39|T|LMP|Houston, Eagle. You have low bit rate.
+083:22:40|T|LMP|Houston, Eagle. You have low bit rate.
 083:22:44|T|CC|Roger. Copy, Eagle.
 083:22:59|T|CC|Eagle, Houston. Could you give me a short count - this mode? Over.
 083:23:07|T|LMP|Houston, this is Eagle with a short count. 1, 2, 3, 4, 5; 5, 4, 3, 2, 1. Eagle. Over.
 083:23:15|T|CC|Roger, Eagle. You're five by. This S band voice is really beautiful. Over.
 083:23:26|T|CC|And, Eagle, Houston. We'll be standing by in this mode for a minute or so. We'll be back with you if you'll just stand by. Over.
 083:23:41|T|LMP|Roger.
-083:25:00|P|PAO|This is Apollo Control, Houston. 83 hours and 27 minutes now into the flight of Apollo 11. That last exchange between Charlie Duke, our capsule communicator and Buzz Aldrin, aboard the Eagle, identifying that we're very well satisfied with the communications check on the Lunar Module and will proceed with powering down the spacecraft. At 83 hours 27 minutes, we now read an altitude of 54.3 nautical miles, a velocity of 5,376 feet per second. This is Apollo Control, Houston.
 083:25:00|P|PAO|That was Mike Collins, aboard Columbia, taking down a maneuver pad.
 083:25:00|P|PAO|This is Apollo Control, Houston. 83 hours 34 minutes now into the flight of Apollo 11. The Lunar Module communications has been deactivated. We currently show a velocity of 5,377 feet per second. Our orbital parameters now read 65.1 nautical miles.
 083:25:26|T|CC|Eagle, this is Houston coming through the 210. How do you read? Over.
-083:25:35|T|LMP|Roger. Read you loud and clear.
+083:25:34|T|LMP|Roger. Read you loud and clear.
 083:26:16|T|CC|Eagle, this is Houston. We're happy with all our data in all modes. You can power down the COMM now. Over.
 083:26:26|T|LMP|Roger. I understand. Eagle will power down the COMM, and we are just approaching 27 volts now. It looks like we won't have to bother with the high taps.
-083:26:39|T|CC|Right.
-083:26:40|T|LMP|We're powering down. Out.
+083:26:38|T|CC|Rog.
+083:26:39|T|LMP|We're powering down. Out.
 083:26:41|T|CC|Roger. Copy. Out.
 083:26:44|T|CC|Columbia, this is Houston. We got a TEI 11 PAD for you and an update on the water dump. Over.
-083:26:54|T|CMP|Stand by one, Houston. Are you through with the DSKY?
+083:26:53|T|CMP|Stand by one, Houston. Are you through with the DSKY?
 083:26:56|T|CC|That's affirmative. Over.
 083:26:59|T|CMP|Okay.
-083:29:25|T|CMP|Houston, Columbia. Ready to copy TEI 11. Over.
-083:29:29|T|CC|Roger, Columbia. Here we come with the TEI 11. SPS G&N: 37200, minus 060, plus 047. NOUN 33, 098 05 2422, plus 41448, plus 03719, minus 02422. Roll is NA, pitch 020, the rest of the PAD is NA. Set stars are NA. The ullage is two quads - correction, two jets for 16 seconds; use Bravo and Delta. In the comments, the undocked present CSM - correction, this is for - TEI 11 is undocked. Present onboard weight of the CSM is 37200 pounds, about 50 Alfa on your DAP. Over.
-083:31:17|T|CMP|All right. I read back: TEI 11, SPS G&N: 37200, minus 060, plus 047, plus 098, 05 2422, plus 41448, plus 03719, minus 02422; NA, 020; the rest of the PAD NA. Ullage, two jets for 16 seconds, Quads B and D. Undocked present CSM weight is okay in the DAP.
-083:31:50|T|CC|Roger, 11. And we'd like you to do a wastewater dump at 84 hours down to 25 percent. Over.
-083:32:06|T|CMP|Roger. I understand. Waste water dump to 25 percent at 84 hours.
-083:32:10|T|CC|Roger. And, Mike, we'll have LOS in about 11 minutes at 83 44. AOS is 84 30, and prior to - or at LOS, we would like you to go - Configure the S band for high-gain track to REACQ, high-gain beam to NARROW, and let's try that to see if we can get an automatic REACQ at the next AOS. Over.
-083:32:43|T|CMP|Good idea.
+083:27:08|P|PAO|This is Apollo Control, Houston. 83 hours and 27 minutes now into the flight of Apollo 11. That last exchange between Charlie Duke, our Capsule Communicator and Buzz Aldrin, aboard the Eagle, identifying that we're very well satisfied with the communications check on the Lunar Module and will proceed with powering down the spacecraft. At 83 hours 27 minutes, we now read an altitude of 54.3 nautical miles, a velocity of 5,376 feet per second. This is Apollo Control, Houston.
+083:29:25|T|CMP|Houston, Columbia. Ready to copy TEI-11. Over.
+083:29:28|T|CC|Rog, Columbia. Here we come with the TEI-11. SPS/G&N: 37200; minus 0.60, plus 0.47. Noun 33, 098:05:24.22; plus 4144.8, plus 0371.9, minus 0242.2. Roll is NA; pitch, 020; the rest of the PAD is NA. Set stars are NA. The ullage is two quads - correction, two jets for 16 seconds; use Bravo and Delta. In the comments, the undocked present CSM - correction, this is for - TEI-11 is undocked. Present onboard weight of the CSM is 37,200 pounds, about 50 Alpha on your DAP. Over.
+083:31:16|T|CMP|Alright. I read back TEI-11. SPS G&N: 37200; minus 0.60, plus 0.47. Plus 098:05:24.22, plus 4144.8, plus 0371.9, minus 0242.2. NA, 020; the rest of the PAD NA. Ullage, two jets for 16 seconds, Quads B and D. Undocked. Present CSM weight is okay in the DAP.
+083:31:49|T|CC|Roger, 11. And we'd like you to do a wastewater dump at 84 hours down to 25 percent. Over.
+083:32:05|T|CMP|Roger. I understand. Waste water dump to 25 percent at 84 hours.
+083:32:09|T|CC|Roger. And, Mike, we'll have LOS in about 11 minutes at 83:44. AOS is 84:30, and prior to - or at LOS, we would like you to go - Configure the S band for high-gain track to REACQ, high-gain beam to NARROW, and let's try that to see if we can get an automatic REACQ at the next AOS. Over.
+083:32:42|T|CMP|Good idea.
+083:32:46|T|PAO|That was Mike Collins, aboard Columbia, taking down a maneuver PAD.
 083:32:51|T|CMP|I'm in REACQ and NARROW now.
-083:32:54|T|CC|Roger.
-083:33:31|T|CC|Apollo 11, Houston. Also, that water that you got on the aft bulkhead, we - If it's not too much, we just recommend sopping it up and then throwing the sponges away in the waste stowage area. If it's too much, then we recommend using the procedure in the checklist on page F10-14. Over.
-083:33:58|T|CMP|All right. Thank you.
-083:35:00|P|PAO|We currently show a velocity of 53 hundred and 77 feet per second. Our orbital parameters now read 65.1 nautical miles epilune, 54.2 nautical miles perilune. At 83 hours 35 minutes continuing to follow, this is Apollo Control, Houston.
-083:35:00|P|PAO|This is Apollo Control, Houston 83 hours 38 minutes. Apollo 11 now on CSM power.
-083:35:00|P|PAO|This is Apollo Control, Houston, 83 hours 40 minutes now into the flight of Apollo 11. We're less than 4 minutes away now from time of loss of signal with the Apollo 11 spacecraft. At the present time, our velocity reading, 53 hundred and 75 feet per second. Our total weight in orbit at this time, reading 70 thousand 500 and 2 pounds. Our orbital parameter's epilune is 65.1 nautical miles perilune 54.2 nautical miles. This is Apollo Control, Houston.
-083:35:00|P|PAO|This is Apollo Control, Houston at 83 hours 43 minutes now into the flight of Apollo 11. Less than a minute away from predicted time of loss of signal with the Apollo 11 spacecraft. We expect the next time we acquire Apollo 11, it's crew, Neil Armstrong, Mike Collins, and Buzz Aldrin, will have begun their rest period. And at 83 hours 43 minutes this is Apollo Control, Houston.
-083:37:25|T|CC|Apollo 11, Houston. Would you have Buzz make sure he gives us the OPS pressure readings before you close up? Over.
-083:37:35|T|CMP|Will do.
-083:38:01|T|CDR|Houston, 11. The OPS read 5750, both bottles.
-083:38:05|T|CC|Roger.
+083:32:53|T|CC|Roger.
+083:33:30|T|CC|Apollo 11, Houston. Also, that water that you got on the aft bulkhead, we - If it's not too much, we just recommend sopping it up and then throwing the sponges away in the waste stowage area. If it's too much, then we recommend using the procedure in the checklist on page F10-14. Over.
+083:33:57|T|CMP|All right. Thank you.
+083:34:08|P|PAO|This is Apollo Control, Houston; 83 hours, 34 minutes now into the flight, Apollo 11. The Lunar Module communications has - has been deactivated. We currently show a velocity of 5,377 feet per second. Our orbital parameters now read 65.1 nautical miles apolune, 54.2 nautical miles perilune. At 84 hours, 35 minutes, continuing to follow. This is Apollo Control, Houston.
+083:37:24|T|CC|Apollo 11, Houston. Would you have Buzz make sure he gives us the OPS pressure readings before you close up? Over.
+083:37:34|T|CMP|Will do.
+083:38:00|T|CDR|Houston, 11. The OPS read 5750, both bottles.
+083:38:04|T|CC|Roger.
+083:38:28|P|PAO|This is Apollo Control, Houston, 83 hours 38 minutes. Apollo 11 now on CSM power.
+083:40:48|P|PAO|This is Apollo Control, Houston, 83 hours 40 minutes now into the flight of Apollo 11. We're less than 4 minutes away now from time of loss of signal with the Apollo 11 spacecraft. At the present time, our velocity reading, 5,375 feet per second. Our total weight in orbit at this time, reading 70,502 pounds. Our orbital parameter's apolune is 65.1 nautical miles perilune 54.2 nautical miles. This is Apollo Control, Houston.
+083:42:57|P|PAO|This is Apollo Control, Houston at 83 hours 43 minutes now into the flight of Apollo 11. Less than a minute away from predicted time of loss of signal with the Apollo 11 spacecraft. We expect the next time we acquire Apollo 11, it's crew, Neil Armstrong, Mike Collins, and Buzz Aldrin, will have begun their rest period. And at 83 hours 43 minutes this is Apollo Control, Houston.
 083:43:24|O|CMP|Armstrong says it's the hatch and - if we leave the probe and drogue there, we'll save us some time tomorrow; I don't know if it's tolerable sleeping or not. I think what previous crews have been doing is reinstalling all that claptrap up in there.
 083:43:40|O|CDR|Yes.
 083:43:42|O|CMP|But -
@@ -6485,16 +6488,16 @@
 083:43:50|O|CMP|What?
 083:43:51|O|LMP|...
 083:43:59|O|CMP|Yes, forward's okay.
-083:44:00|P|PAO|Apollo 11 has passed out of range with the ground, traversing now over the far side of the Moon. During this pass, we had an extremely successful communications checkout with the Lunar Module using its code name for the first time. Its code name of the Eagle. Buzz Aldrin performed the counting tasks in concert with Charlie Duke, the capsule communicator here on the ground, and at times Buzz's - Buzz's voice, we noted considerable enthusiasm for the way things are going, and at times Charlie Duke shared that enthusiasm and its maiden checkout in communications, the Lunar Module Eagle, looked good. At 83 hours 45 minutes, this is Apollo Control, Houston.
+083:44:00|P|PAO|Apollo 11 has passed out of range with the ground, traversing now over the far side of the Moon. During this pass, we had an extremely successful communications checkout with the Lunar Module using its code name for the first time. Its code name of the Eagle. Buzz Aldrin performed the counting tasks in concert with Charlie Duke, the capsule communicator here on the ground, and at times Buzz's - Buzz's voice, we noted considerable enthusiasm for the way things are going, and at times Charlie Duke shared that enthusiasm. In its maiden checkout in communications, the Lunar Module Eagle, looked good. At 83 hours 45 minutes, this is Apollo Control, Houston.
 083:44:15|O|CDR|I don't think that would be too horrible sleeping down there.
 083:44:28|O|CDR|It's for sure it's not going anywhere; this one's bolted down two places - and this one is - -
 083:44:35|O|CMP|You can try it. If we could find a place to put our legs back in there, it'll be alright.
 083:45:13|O|CMP|See - it's going to be hard to get into that - sampler there.
 083:45:19|O|CDR|No - no, that's alright. That's the place for it.
 083:46:30|O|CDR|(Sneeze)
-083:46:34|O|CMP|Okay, lights went out - except for all those radioactive ones in there.
-083:47:12|O|LMP|Well, COMM's good. Son of a bitch might work.
-083:47:21|O|CMP|Sure it'll work. Anything in a pretty cockpit like that is bound to work.
+083:46:34|O|LMP|Okay, lights went out - except for all those radioactive ones in there.
+083:47:13|O|LMP|Well, COMM's good. Son of a bitch might work.
+083:47:22|O|CMP|Sure it'll work. Anything in a pretty cockpit like that is bound to work.
 083:47:38|O|CMP|Well, I propose leaving the probe and drogue in here overnight. Save all - doing all that claptrap in the morning.
 083:47:48|O|CDR|It's okay with me.
 083:47:49|O|LMP|Fine.

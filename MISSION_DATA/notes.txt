@@ -109,6 +109,9 @@
 082:28:55 - Buzz questioning VHF power-up in flight plan
 082:35:51|O|LMP|No wonder the Earth isn't moving.
 082:58:30|O|CDR|That's spectacular out there - Looks like you're flying right into the side of a mountain, doesn't it?
+083:20:28 - Changing ground dishes to test communications with Eagle
+083:29:28 - TEI 11 PAD
+083:47:13|O|LMP|Well, COMM's good. Son of a bitch might work.
 
 
 
