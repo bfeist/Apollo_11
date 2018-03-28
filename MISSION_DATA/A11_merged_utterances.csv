@@ -6498,246 +6498,260 @@
 083:46:34|O|LMP|Okay, lights went out - except for all those radioactive ones in there.
 083:47:13|O|LMP|Well, COMM's good. Son of a bitch might work.
 083:47:22|O|CMP|Sure it'll work. Anything in a pretty cockpit like that is bound to work.
-083:47:38|O|CMP|Well, I propose leaving the probe and drogue in here overnight. Save all - doing all that claptrap in the morning.
-083:47:48|O|CDR|It's okay with me.
-083:47:49|O|LMP|Fine.
-083:47:50|O|CMP|You through in the LM?
+083:47:39|O|CMP|Well, I propose leaving the probe and drogue in here overnight. Save all - doing all that claptrap in the morning.
+083:47:50|O|CDR|It's okay with me.
+083:47:51|O|LMP|Fine.
+083:47:53|O|CMP|You through in the LM?
 083:47:54|O|LMP|How's that going to affect - -
-083:47:57|O|CMP|Sleeping!
-083:47:58|O|LMP|- - sleeping?
-083:47:59|O|CMP|I'll be glad to sleep over there, alright? I don't think it'll affect that; I'd rather sleep, I'd rather sleep with the probe and drogue than have to dick with it in the morning.
-083:48:06|O|LMP|Alright, that's fine; I can have it there. I don't know how I'd get out, but - (laughter).
-083:48:13|O|CDR|...
-083:48:15|O|CMP|That's ..., alright.
-083:48:25|O|LMP|Hey, you don't want to bring this one back? You on a weight-saving kick for the Command Module?
-083:48:35|O|CDR|You want it?
-083:48:37|O|LMP|Sure, you - -
-083:48:38|O|CDR|There's room for the Hasselblad.
-083:48:39|O|LMP|- - you got stowage space?
+083:47:58|O|CMP|Sleeping?
+083:47:58|O|LMP|- - ...
+083:48:00|O|CMP|I'll be glad to sleep over there, alright? I don't think it'll affect that; I'd rather sleep, I'd rather sleep with the probe and drogue than have to dick with it in the morning.
+083:48:07|O|LMP|Alright, that's fine; I can have it there. I don't know how I'd get out, but - (laughter).
+083:48:14|O|CDR|...
+083:48:16|O|CMP|That's ..., alright.
+083:48:26|O|LMP|Hey, you don't want to bring this one back? You on a weight-saving kick for the Command Module?
+083:48:36|O|CDR|You want it?
+083:48:38|O|LMP|Sure, you - -
+083:48:39|O|CDR|There's room for the Hasselblad.
+083:48:40|O|LMP|- - you got stowage space?
 083:48:42|O|CDR|You can have it if you want it.
-083:48:45|O|LMP|You got a place to fix things that rattle around?
-083:48:50|O|CMP|Sure. Like hatches? ... if you'll take time to get out of the hallway.
+083:48:46|O|LMP|You got a place to fix things that rattle around?
+083:48:51|O|CMP|Sure. Like hatches? ... if you'll take time to get out of the hallway.
 083:49:01|O|LMP|Let's get some music.
 083:49:03|O|CMP|Get out of my damn hallway, Aldrin, so I can put my hatch in and then we can all - -
 083:49:06|O|LMP|How about these tapes?
 083:49:09|O|CMP|Okay.
-083:49:37|O|LMP|Okay, 95:50 IVT to the LM. What time is it now?
-083:49:44|O|CMP|83:53.
-083:49:50|O|LMP|I figure that as being 12 hours. About time for a Lomotil, huh? Well, not quite.
-083:50:37|O|LMP|How about the systems stuff - to put the machine to bed.
-083:51:01|O|CMP|You go to REACQ and NARROW?
-083:51:02|O|CDR|Yes.
-083:51:05|O|CMP|So I guess the COMM's pretty well taken care of?
-083:51:08|O|CDR|Yes.
-083:51:09|O|CMP|Have you got the wastewater dump?
-083:51:10|O|CDR|No, I haven't done that, but I will.
-083:51:12|O|CMP|Let's see, I imagine we want to go out of VOICE? Or not?
-083:51:17|O|CDR|Very, very - -
-083:51:18|O|LMP|The whole bit they said.
-083:51:24|O|CMP|Okay.
-083:51:57|O|CMP|Lunar orbit asleep; (cough) S-BAND SQUELCH, ENABLE?
-083:51:58|O|LMP|I did it.
-083:51:59|O|CMP|Got that, huh?
-083:52:00|O|LMP|Yes.
-083:52:01|O|CMP|high-gain, REACQ, NARROW; antenna pitch angle - -
-083:52:06|O|LMP|Yes, I did that.
-083:52:07|O|CMP|- - that's all it says.
-083:52:08|O|LMP|Okay.
-083:52:10|O|CMP|Plus the normal configuration.
-083:52:13|O|LMP|Doesn't it say anything about DOWN VOICE BACKUP - or any of that stuff?
-083:52:16|O|CMP|(Cough)
-083:52:31|O|CMP|No.
-083:52:33|O|LMP|Okay.
-083:52:37|O|CDR|Waste water dump, we'll wait until 84 hours; they may have the vent modeled or some crazy thing like that, so I want to be at the right time.
+083:49:37|O|LMP|Okay, 85:50 IVT to the LM. What time is it now?
+083:49:45|O|CMP|83:53.
+083:49:51|O|LMP|I figure that as being 12 hours. About time for a Lomotil, huh? Well, not quite.
+083:50:38|O|LMP|How about the systems stuff - to put the machine to bed. (music)
+083:51:02|O|LMP|You go to REACQ and NARROW?
+083:51:04|O|CMP|Yes.
+083:51:07|O|LMP|So I guess the COMM's pretty well taken care of?
+083:51:10|O|CMP|Yes.
+083:51:11|O|LMP|Have you got the wastewater dump?
+083:51:12|O|CMP|No, I haven't done that, but I will.
+083:51:14|O|LMP|Let's see, I imagine we want to go out of VOICE? Or not?
+083:51:18|O|CDR|Very, very - -
+083:51:19|O|CMP|The whole bit they said.
+083:51:22|O|LMP|Okay.
+083:51:58|O|LMP|Lunar orbit asleep; (cough) S-BAND SQUELCH, ENABLE?
+083:52:02|O|CMP|I did it.
+083:52:03|O|LMP|Got that, huh?
+083:52:04|O|CMP|Yes.
+083:52:05|O|LMP|high-gain, REACQ, NARROW; antenna pitch angle - -
+083:52:08|O|CMP|Yes, I did that.
+083:52:09|O|LMP|- - that's all it says.
+083:52:10|O|CMP|Okay.
+083:52:12|O|LMP|Plus the normal configuration.
+083:52:14|O|CMP|Doesn't it say anything about DOWN VOICE BACKUP - or any of that stuff?
+083:52:17|O|LMP|(Cough)
+083:52:33|O|LMP|No.
+083:52:35|O|CMP|Okay.
+083:52:38|O|CMP|Waste water dump, we'll wait until 84 hours; they may have the vent modeled or some crazy thing like that, so I want to be at the right time.
 083:52:45|O|LMP|Alright.
-083:52:47|O|CMP|Well, let's see, normal lunar configuration. Well, it is DOWN VOICE BACKUP.
-083:52:52|O|LMP|Yes.
-083:52:54|O|CMP|Well, let's get going here. PRIMARY, PRIMARY, HIGH, VOICE, (cough) PCM, RANGE, DOWN VOICE BACKUP, AUX TAPE, OFF; TELEMETRY to DATA; and UP TIM COMMAND to NORMAL; VHF A and B, OFF; RECEIVE only, ...; PCM/ANALOG, RECORD, FORWARD, NORMAL, NORMAL - that's okay, LOW - PRIMARY, REACQ, and NARROW. Well, COMM's set.
-083:53:56|O|LMP|Good.
-083:53:57|O|CDR|I got to vacuum up some water and dump the wastewater tank, and we're about set.
-083:54:05|O|CMP|Hey, I got a fuel cell - O2 - -
-083:54:09|O|CDR|Hey, our water's about all gone.
-083:54:10|O|CMP|Did they say anything about the O2 purge?
-083:54:13|O|CDR|Must have gone into the LM.
-083:54:14|O|CMP|Yes, I think it did; it went on the windows. They didn't say anything about it, huh?
-083:54:17|O|LMP|No.
-083:54:18|O|CMP|Well, I guess we'll do it then. Anybody get my - Well, heck, I guess we're really not through with them yet, are we?
-083:54:36|O|CDR|I updated the LOS time in your -
-083:54:39|O|CMP|Yes. I think I'll wait until we get them back again before doing the purge. Okay? Because, I don't know, maybe they want all that stuff done on the back side.
-083:55:11|O|LMP|Well, I propose to give myself a little bit of a - a bath, but not to put that damn LCG on tonight. You never did ask them about the - about the ..., huh? I sure haven't found them.
-083:55:40|O|CMP|I think we ought to do that.
+083:52:48|O|LMP|Well, let's see, normal lunar configuration. Well, it is DOWN VOICE BACKUP.
+083:52:52|O|CMP|Yes.
+083:52:54|O|LMP|Well, let's get going here. PRIMARY, PRIMARY, HIGH, VOICE, (cough) PCM, RANGE, DOWN VOICE BACKUP, AUX TAPE, OFF; TELEMETRY to DATA; and UP TIM COMMAND to NORMAL; VHF A and B, OFF; RECEIVE only, ...; PCM/ANALOG, RECORD, FORWARD, NORMAL, NORMAL - that's okay, LOW - PRIMARY, REACQ, and NARROW.
+083:53:55|O|LMP|Well, COMM's set.
+083:53:57|O|CMP|Good.
+083:53:58|O|CMP|I got to vacuum up some water and dump the wastewater tank, and we're about set.
+083:54:06|O|LMP|Hey, I got a fuel cell - O2 - -
+083:54:08|O|CMP|Hey, our water's about all gone.
+083:54:10|O|LMP|Did they say anything about the O2 purge?
+083:54:13|O|CMP|Must have gone into the LM.
+083:54:14|O|LMP|Yes, I think it did; it went on the windows. They didn't say anything about it, huh?
+083:54:19|O|CMP|No.
+083:54:19|O|LMP|Well, I guess we'll do it then. Anybody get my - Well, heck, I guess we're really not through with them yet, are we?
+083:54:37|O|CMP|I updated the LOS time in your -
+083:54:40|O|LMP|Yes. I think I'll wait until we get them back again before doing the purge.
+083:54:46|O|CMP|Okay.
+083:54:50|O|LMP|Because, I don't know, maybe they want all that stuff done on the back side.
+083:55:12|O|LMP|Well, I propose to give myself a little bit of a - a bath, but not to put that damn LCG on tonight. You never did ask them about the - about the ..., huh? I sure haven't found them.
+083:55:41|O|LMP|I think we ought to do that.
 083:56:00|O|CMP|Neil, you still got that tissue dispenser, the empty one?
-083:56:06|O|CMP|Thank you.
-083:56:27|O|LMP|What's baseline altitude? ... the altitude - descent altitude settings?
-083:57:01|O|LMP|That's the - that's the last meal we eat before descent, huh?
+083:56:07|O|CMP|Thank you.
+083:56:28|O|LMP|What's baseline altitude? ... the altitude - descent altitude settings?
+083:57:02|O|LMP|That's the - that's the last meal we eat before descent, huh?
 083:57:12|O|LMP|Sure is.
-083:57:26|O|CMP|Wowee!
-083:57:27|O|LMP|95 - that's - 7 - got 10 hours. Whew!
-083:57:44|O|LMP|Might whip out that piece of bread in there.
+083:57:27|O|CMP|Wowee.
+083:57:29|O|LMP|95 - that's - 7 - got 10 hours. Whew!
+083:57:45|O|LMP|Might whip out that piece of bread in there.
 083:58:43|O|LMP|Through in the tunnel, Mike?
-083:58:46|O|CMP|Through, yes.
+083:58:46|O|CMP|Oh, yes.
 083:58:47|O|LMP|Okay, I want to get the lights out then.
 083:58:48|O|CMP|Okay, ...
-083:59:29|O|LMP|What are your dosimeters reading?
-083:59:38|O|CMP|... up a little bit.
+083:59:30|O|LMP|What are your dosimeters reading?
+083:59:38|O|LMP|... up a little bit.
 083:59:41|O|CDR|Mine says - 11012.
-083:59:50|O|CMP|I can't read this little fart. Says 10013.
-084:00:03|O|LMP|I think they all started out at even thousands. They had them each different so they could tell which was which.
-084:01:13|O|LMP|Well, I don't know about you, but I think I'll raid the pantry for some bite-size stuff.
-084:01:24|O|LMP|I don't know when we'll get a chance to use it  maybe some time - -
-084:01:26|O|CMP|Monoculars?
-084:01:30|O|LMP|- - during the maneuvers.
-084:01:32|O|CMP|Found it, huh?
-084:01:34|O|CDR|We're going to take that into the LM.
-084:01:36|O|CMP|Yes. Sure can.
-084:01:55|O|CDR|...
-084:01:58|O|CMP|... - ... novel and earn a million dollars.
-084:02:19|O|CMP|Amazing how quickly you adapt - Why, it doesn't seem weird at all to me to look out there and see the moon going by, you know?
-084:02:25|O|SC|(Laughter)
-084:02:27|O|LMP|Oh, that is weird - that crazy moon out there again, huh? Funny-looking thing.
-084:03:12|O|CMP|Buzz, this crazy bracket goes right here. It's probably right the hell in your way, isn't it?
-084:03:17|O|LMP|No, no.
-084:03:18|O|CMP|Not in your way?
-084:03:19|O|LMP|No, I can survive with that.
+083:59:51|O|CMP|I can't read this little fart. Says 10013.
+084:00:04|O|LMP|I think they all started out at even thousands. They had them each different so they could tell which was which.
+084:01:14|O|LMP|Well, I don't know about you, but I think I'll raid the pantry for some bite-size stuff.
+084:01:25|O|LMP|I don't know when we'll get a chance to use it  maybe some time - -
+084:01:30|O|CMP|Monoculars?
+084:01:32|O|LMP|- - during the maneuvers.
+084:01:33|O|CDR|Found it, huh?
+084:01:33|O|CMP|We're going to take that into the LM.
+084:01:38|O|CMP|Yes. Sure can.
+084:01:56|O|LMP|...
+084:01:59|O|CMP|... - ... novel and earn a million dollars.
+084:02:20|O|CMP|Amazing how quickly you adapt - Why, it doesn't seem weird at all to me to look out there and see the moon going by, you know?
+084:02:25|O|LMP|(Laughter)
+084:02:26|O|CMP|Oh, that is weird!
+084:02:27|O|LMP|- big crazy moon out there again, huh? Funny-looking thing.
+084:03:13|O|CMP|Buzz, this crazy bracket goes right here. It's probably right the hell in your way, isn't it?
+084:03:18|O|LMP|No, no.
+084:03:19|O|CMP|Not in your way?
+084:03:20|O|LMP|No, I can survive with that.
 084:03:21|O|CMP|Alright, let me put it up there; it'll be one less thing to do in the morning. It's in backwards, but I don't think -
-084:03:33|O|CMP|Well, if I don't need this thing anymore, I think It'll stow that one away. Systems are yours tomorrow?
-084:03:44|O|CDR|Yes.
-084:03:45|O|CMP|I don't know as we've got much to do; there's a purge.
-084:03:50|O|CDR|Is it 84 hours yet? Yes, it is; I'm going to dump the wastewater.
-084:04:36|O|CMP|You dumping?
-084:04:37|O|CDR|Yes.
-084:04:42|O|LMP|(Cough) Boy, it's a dusty vehicle in here. Man! But that view approaching the landing site is just fantastic right out - right smack out the window, you know that?
-084:04:52|O|CDR|Yes.
-084:04:53|O|LMP|Except there's such a big shadow being cast by everything - -
-084:05:01|O|CMP|1 or 2 degrees, Neil?
-084:05:02|O|LMP|- - that I really couldn't - -
-084:05:04|O|CDR|I think ... - -
+084:03:34|O|LMP|Well, if I don't need this thing anymore, I think It'll stow that one away. Systems are yours tomorrow?
+084:03:45|O|CDR|Yes.
+084:03:45|O|LMP|I don't know as we've got much to do; there's a purge.
+084:03:50|O|CMP|Is it 84 hours yet? Yes, it is; I'm going to dump the wastewater.
+084:04:37|O|CMP|You dumping?
+084:04:38|O|CDR|Yes.
+084:04:41|O|LMP|(Cough) Boy, it's a dusty vehicle in here. Man! But that view approaching the landing site is just fantastic right out - right smack out the window, you know that?
+084:04:53|O|CMP|Yes.
+084:04:54|O|LMP|Except there's such a big shadow being cast by everything - -
+084:05:00|O|CMP|1 or 2 degrees, Neil?
+084:05:01|O|LMP|- - that I really couldn't - -
+084:05:04|O|CMP|I think ... - -
 084:05:05|O|LMP|- - I could identify the Cat's Paw and I could identify the pair of craters right at the end, but I couldn't really make out the backward V nor the three little curved ones on one side - -
 084:05:17|O|CMP|I didn't see the backwards either.
 084:05:18|O|LMP|- - but I could see the area where it all was, you know, and - -
-084:05:19|O|CMP|Yes, yes.
+084:05:20|O|CMP|Yes, yes.
 084:05:21|O|LMP|- - it didn't go any farther back that this, and it didn't really go any farther forward than that - it really didn't. You know, it was rougher than a cob (laughter).
 084:05:27|O|CMP|Rougher than a cob, but I didn't see ...
 084:05:31|O|LMP|Well, when you compare it with the surrounding areas, why it's - it's pretty reasonable.
-084:07:21|O|CDR|You want this somewhere?
+084:07:21|O|LMP|You want this somewhere?
 084:07:23|O|CMP|...
-084:07:42|O|CDR|If you don't mind, I'll put it on this big piece of Velcro over here by the fuel cell.
-084:07:52|O|CMP|Yes, that's a good place for it.
+084:07:23|O||(Music: John Stewart - Mother Country)
+084:07:42|O|CMP|If you don't mind, I'll put it on this big piece of Velcro over here by the fuel cell.
+084:07:53|O|CMP|Yes, that's a good place for it.
 084:08:00|T||BEGIN LUNAR REV 5
-084:09:46|O|LMP|Anybody for a barf bag?
-084:11:08|O|LMP|Can you think of any use for a slide rule in the LM, Neil?
+084:09:47|O|LMP|Anybody for a barf bag?
+084:11:08|O|LMP|Can you think of any use for a slide rule in the LM, Neil? (Music: Peggy Lee - Spinning Wheel)
 084:11:19|O|LMP|Huh?
-084:11:27|O|CDR|I can't think of any use for two of them.
-084:11:31|O|LMP|Okay.
+084:11:27|O|LMP|I can't think of any use for two of them.
+084:11:32|O|CDR|Okay.
+084:13:52|O|CDR|(Music: Peggy Lee - Everyday People)
 084:15:24|O|LMP|That COMM was so good I don't think I'd need those damn things ...
-084:16:29|O|CMP|Anybody say anything about terminating battery current?
-084:16:33|O|LMP|No.
-084:16:45|O|CMP|You remember anything about that, Neil?
-084:16:48|O|CDR|No.
+084:16:29|O|LMP|Anybody say anything about terminating battery charge?
+084:16:33|O|CMP|No.
+084:16:45|O|LMP|You remember anything about that, Neil?
+084:16:49|O|CDR|No.
+084:17:00|O||(Music: Lou Rawls - Three O'clock in the Morning)
 084:18:12|O|CMP|Somebody's blue towels? Did I dislodge those by mistake or did you have those?
 084:18:18|O|CDR|No, don't believe I had them.
-084:18:20|O|LMP|I had them out, kind of floating around back here.
-084:18:38|O|LMP|Everything I think you could dislodge, they forgot to put Velcro on the damn thing.
-084:19:31|O|CMP|Could you - maybe reach back and - hand me that wrench right quick?
-084:19:40|O|CDR|Yes, I sure could. Sure could ...
-084:19:54|O|CMP|You want me to swap one?
-084:20:00|O|CDR|No, I think I'll keep one for tonight.
+084:18:21|O|LMP|I had them out, kind of floating around back here.
+084:18:39|O|LMP|Everything I think you could dislodge, they forgot to put Velcro on the damn thing.
+084:19:31|O|CDR|Could you - maybe reach back and - hand me a fresh flashlight?
+084:19:40|O|CMP|Yes, I sure could. Sure could ...
+084:19:55|O|CMP|You want me to swap one?
+084:19:55|O||(Music: Ella Fitzgerald - For Or Five Times (Medley))
+084:20:00|O|LMP|No, I think I'll keep one for tonight.
 084:20:03|O|CMP|Okay.
 084:20:26|O|CDR|Thank you.
 084:20:27|O|CMP|You're welcome.
-084:21:56|O|CMP|You like this?
+084:21:56|O|CMP|...
 084:21:58|O|CDR|Not much.
-084:22:04|O|CMP|...?
-084:22:27|O|LMP|Want one?
+084:22:03|O|CMP|You being ...?
+084:22:07|O||(Music: Glen Campbell - Galveston)
+084:22:28|O|LMP|...?
 084:22:29|O|CDR|Yes.
-084:22:30|O|LMP|He's getting a ... of that, huh?
-084:22:34|O|CMP|Well, I just want to make sure I'm through with the roll; I think I am.
-084:22:42|O|CDR|Can't figure out how you tell when one's gone. I think that was it.
-084:22:50|O|CMP|Oh, it stopped!
+084:22:29|O|LMP|He's getting a ... of that, huh?
+084:22:32|O|CMP|Well, I just want to make sure I'm through with the roll; I think I am.
+084:22:42|O|CMP|Can't figure out how you tell when one's gone. I think that was it.
+084:22:51|O|CMP|Oh, it stopped!
 084:23:49|O|LMP|It's a bear to get in and out of here.
-084:23:54|O|CDR|Think maybe it'd be easier if you ... them right here.
-084:28:00|P|PAO|This is Apollo Control, Houston, at 84 hours and 28 minutes now into the flight of Apollo 11. We're less than 2 minutes away now from our scheduled time of acquisition with Apollo 11. Meanwhile in Mission Control Center, Astronaut Owen Garriott has now replaced Charlie Duke as our Capsule Communicator. We expect that some final advisories will be passed to the Apollo 11 crew, and final report says such as crew status will be received from Neil Armstrong, Mike Collins, and Buzz Aldrin prior to the start of their sleep period. A little over - we're a little over a minute away now from scheduled time of acquisition. We'll continue to keep the line up and continue to monitor. This is Apollo Control, Houston.
-084:28:00|P|PAO|Mark 30 seconds now from time of scheduled acquisition.
-084:28:00|P|PAO|Mark 20 seconds. 10 seconds. We should be acquiring shortly and we're standing by.
-084:28:00|P|PAO|We have data - we've acquired data on Apollo 11.
-084:28:00|P|PAO|This is Apollo Control, Houston. Owen Garriott getting ready to place a call.
+084:23:54|O|CMP|Think maybe it'd be easier if you ... them right here.
+084:25:27|O||(Music: Glen Campbell - Gentle On My Mind)
+084:28:08|P|PAO|This is Apollo Control, Houston, at 84 hours and 28 minutes now into the flight of Apollo 11. We're less than 2 minutes away now from our scheduled time of acquisition with Apollo 11. Meanwhile in Mission Control Center, Astronaut Owen Garriott has now replaced Charlie Duke as our Capsule Communicator. We expect that some final advisories will be passed to the Apollo 11 crew, and final report says such as crew status will be received from Neil Armstrong, Mike Collins, and Buzz Aldrin prior to the start of their sleep period. A little over - we're a little over a minute away now from scheduled time of acquisition. We'll continue to keep the line up and continue to monitor. This is Apollo Control, Houston.
+084:28:27|O||(Music: Tennessee Ernie Ford - Take My Hand, Precious Lord)
+084:29:37|P|PAO|Mark 30 seconds now from time of scheduled acquisition.
+084:29:47|P|PAO|Mark 20 seconds.
+084:29:57|P|PAO|10 seconds. We should be acquiring shortly and we're standing by.
+084:30:38|P|PAO|We have data - we've acquired data on Apollo 11.
+084:31:10|P|PAO|This is Apollo Control, Houston. Owen Garriott getting ready to place a call.
 084:31:12|T|CC|Apollo 11, Houston. Over.
 084:31:20|T|CMP|Houston, Apollo 11.
 084:31:21|T|CC|11, Houston. Roger. Reading you fine, and it looks like the automatic REACQ went very well just as soon as you came around the limb. We have several small items to discuss with you here just before you go to sleep. Over.
-084:31:29|T|CMP|Go ahead. Over.
-084:31:40|T|CC|Okay, 11. First of all, on our LM systems checks, everything went fine. I would like to remind you, though, tomorrow you may see an ascent pressure light when you activate the MC&W. There should be no problem, however. You did note that the APS AUX tank pressure was only reading 111 psi, which is normal at this point, but below the level which will trigger your light due to the helium which has been dissolved into the propellant. Over.
-084:32:18|T|CMP|Roger. Understand that. Thank you.
-084:32:20|T|CC|Roger. And next item, the supercritical helium rise rate is nominal, and you also had that question for us about your thruster activity during the P22 on the last REV. Believe we understand that now, as you reported that your pitch was in ACCEL COMMAND and your yaw and roll were in RATE COMMAND. You were firing your pitch thrusters. This will couple rates into your yaw and roll axes, and the - You were at that time holding only half a degree deadband and coupling rates into yaw and roll produced the extra firings about the yaw and roll axes. Over.
+084:31:39|T|CMP|Go ahead, Owen.
+084:31:41|T|CC|Okay, 11. First of all, on our LM systems checks, everything went fine. I would like to remind you, though, tomorrow you may see an ascent pressure light when you activate the MC&W. There should be no problem, however. You did note that the APS AUX tank pressure was only reading 111 psi, which is normal at this point, but below the level which will trigger your light due to the helium which has been dissolved into the propellant. Over.
+084:32:18|T|LMP|Roger. Understand that. Thank you.
+084:32:21|T|CC|Roger. And next item, the supercritical helium rise rate is nominal, and you also had that question for us about your thruster activity during the P22 on the last REV. Believe we understand that now, as you reported that your pitch was in ACCEL COMMAND and your yaw and roll were in RATE COMMAND. You were firing your pitch thrusters. This will couple rates into your yaw and roll axes, and the - You were at that time holding only half a degree deadband and coupling rates into yaw and roll produced the extra firings about the yaw and roll axes. Over.
 084:33:07|T|CMP|Yes. That may be true. It's very peculiar coupling, in that it waits longer than you would think and its reaction is greater than you would think. We were getting yaw rates of around four tenths of a degree per second, for example.
 084:33:23|T|CC|Roger, Mike. We did play the data back, and that's the way it looked upon analysis of the chart recordings back here. Over.
 084:33:35|T|CMP|Okay. Fine.
 084:33:36|T|CC|They've also looked at the results of your landmark tracking. The marks all apparently were very good, and we've got a full page of data here relative to the altitudes of the various site locations, which I won't read up to you, but I did want to let you know that the marks apparently went very well. I also have your consumable budgets, particularly your RCS propellant quantities. They're Deltas from nominal if you should want them. Your worst quad is quad Charlie, which is 9 percent low. I'll not read up the others unless you want them. Over.
-084:34:17|T|CMP|Okay. How about the O2 fuel cell purge? You want that now?
+084:34:17|T|CMP|Okay.
+084:34:17|T|LMP|How about the O2 fuel cell purge? You want that now?
 084:34:22|T|CC|I'll have to stand by just a moment.
-084:34:26|T|LMP|Okay. And then the other one is, we're still charging battery A.
+084:34:27|T|LMP|Okay. And then the other one is, we're still charging battery A.
 084:35:28|T|CC|11, Houston. We would like to delay the fuel cell purge until the backside of the Moon, and you go ahead and - should terminate your battery charge at this time. Over.
 084:35:43|T|LMP|Okay. Understand. I knew we had another O2 and H2 purge coming up in the morning; I wasn't sure whether you wanted to go through with this one or not. I'll wait until the next side and then do it.
 084:35:53|T|CC|That's fine, Buzz.
 084:35:54|T|LMP|Terminate battery charging now.
-084:35:56|T|CC|That's right, and one other systems item here - in order to balance your CRYO tanks, would you get your O2 tank 1 and your H 2 tank 2 heaters off? Over.
-084:36:16|T|CMP|Okay. I have O2 tank heater 1 off, and H2 tank heater 2 off.
+084:35:56|T|CC|That's right, and one other systems item here - in order to balance your CRYO tanks, would you get your O2 tank 1 and your H2 tank 2 heaters off? Over.
+084:36:17|T|CMP|Okay. I have O2 tank heater 1 off, and H2 tank heater 2 off.
 084:36:25|T|CC|That's right, Mike, and we believe you have your quad Bravo and quad Charlie turned off in your DAP at this time, and a 5 degree deadband. We'd prefer a 10 degree deadband for your sleep period overnight here. Over.
-084:36:43|T|CMP|Okay.
-084:36:47|T|CC|One other item relative to a malfunction procedure. It's unlikely that you'll have to worry about this tomorrow, but in your malfunction list under docking on page F11 9, there is a malfunction procedure for a high O2 flow rate at the top of - under tunnel at the top of page 11 9. We would like to have you not use that malfunction procedure should you encounter the high O2 flow rate, and instead, check back with Houston for a revised procedure should you find that situation. Over.
-084:37:38|T|CMP|Understand, and note has been made in my checklist.
-084:37:45|T|CC|11, Houston. Roger. That just about takes care of all the items we have here on the ground before time to hit the sack, and I guess you will have a presleep check for us before you go to bed.
-084:38:00|P|PAO|This is Apollo Control, Houston. 84 hours 39 minutes now into the flight. That conversational exchange with Owen Garriott - here in Mission Control Center and principally Buzz Aldrin; however, Mike Collins did talk briefly about Program 22, the landmark tracking activity in which he performed. At 84 hours 40 minutes, this is Apollo Control, Houston.
-084:38:00|P|PAO|This is Apollo Control, Houston. 84 hours 44 minutes now into the flight of Apollo 11. Our current spacecraft altitude is now 64.3 nautical miles with an apolune 65.2 nautical miles; perilune 54.4 nautical miles. We show an orbital period of one hour 58 minutes 40 seconds on our displays. Current weight of the spacecraft in orbit 70,502 pounds. At 84 hours 44 minutes, continuing to monitor, this is Apollo Control, Houston.
-084:38:06|T|LMP|Roger. We're in the midst of cycling the O2 and H2 fans now.
+084:36:44|T|CMP|Okay.
+084:36:48|T|CC|One other item relative to a malfunction procedure. It's unlikely that you'll have to worry about this tomorrow, but in your malfunction list under docking on page F11-9, there is a malfunction procedure for a high O2 flow rate at the top of - under tunnel at the top of page 11-9. We would like to have you not use that malfunction procedure should you encounter the high O2 flow rate, and instead, check back with Houston for a revised procedure should you find that situation. Over.
+084:37:39|T|CMP|Understand, and note has been made in my checklist.
+084:37:46|T|CC|11, Houston. Roger. That just about takes care of all the items we have here on the ground before time to hit the sack, and I guess you will have a pre-sleep check for us before you go to bed.
+084:38:07|T|LMP|Rog. We're in the midst of cycling the O2 and H2 fans now.
 084:38:11|T|CC|Roger.
-084:38:21|T|LMP|And the radiation is as follows: CDR 11012, CMP 100l3, LMP 09015. Negative medication. Over.
+084:38:21|T|LMP|And the radiation is as follows: CDR 11012, CMP 10013, LMP 09015. Negative medication. Over.
 084:38:36|T|CC|Roger. Copy, 11.
-084:41:54|T|LMP|Houston, Apollo 11.
-084:41:56|T|CC|11, Houston. Go ahead.
+084:39:24|P|PAO|This is Apollo Control, Houston. 84 hours 39 minutes now into the flight. That conversational exchange with Owen Garriott - here in Mission Control Center and principally Buzz Aldrin; however, Mike Collins did talk briefly about Program 22, the landmark tracking activity in which he performed. At 84 hours 40 minutes, this is Apollo Control, Houston.
+084:41:55|T|LMP|Houston, Apollo 11.
+084:41:57|T|CC|11, Houston. Go ahead.
 084:42:01|T|LMP|Roger. We're thinking about taking the monocular with us on into the LM. We think it might prove to be of some use. Over.
-084:42:10|T|CC|Roger, Buzz. It sounds like a good idea for some of your surveying work there inside the cockpit. Over.
+084:42:11|T|CC|Roger, Buzz. It sounds like a good idea for some of your surveying work there inside the cockpit. Over.
 084:42:21|T|LMP|Okay. You want to run that by with whoever might be concerned?
-084:42:24|T|CC|I sure will.
-084:47:47|T|CC|Apollo 11, Houston. We have apparently lost the high-gain lock. We would appreciate it if you would give us a help manually to try to relock up on the high-gain. Over.
-084:48:00|P|PAO|This is Apollo Control, Houston 84 hours, 48 minutes now into the flight. We're receiving noisy data at this time. We've requested Apollo 11 to give us a manual relock. Standing by at 84 hours, 49 minutes this is Apollo Control, Houston.
-084:48:00|P|PAO|This is Apollo Control, Houston 84 hours, 56 minutes are now in the flight of Apollo 11. Our current apolune 65.1 nautical miles, current perilune 54.3 nautical miles. After receiving some noisy signal, Apollo 11 has locked back on in fine form. That was Buzz Aldrin speaking with Owen Garriott here in the Mission Control Center. I expect we will take a second look at why we had to lock on manually. As we receive any updates on this, we'll pass them along. We now read 84 hours, 57 minutes and this is Apollo Control, Houston.
-084:48:07|T|LMP|Houston, Apollo 11. ..
-084:48:12|T|CC|11, Houston. Reading you very weak, still too far down in the noise to complete the full transmission. If you'd give us a hand on a manual relock, we'd appreciate it.
-084:52:02|T|CC|Apollo 11, Houston. We're still unable to pick you up on the high-gain antenna. Request you go to MANUAL, and wide beamwidth. The pitch and yaw angles in your checklist are good ones. You should be able to find us there. Over.
+084:42:25|T|CC|I sure will.
+084:43:42|P|PAO|This is Apollo Control, Houston. 84 hours 44 minutes now into the flight of Apollo 11. Our current spacecraft altitude is now 64.3 nautical miles with an apolune 65.2 nautical miles; perilune 54.4 nautical miles. We show an orbital period of one hour 58 minutes 40 seconds on our displays. Current weight of the spacecraft in orbit 70,502 pounds. At 84 hours 44 minutes, continuing to monitor, this is Apollo Control, Houston.
+084:47:47|T|CC|Apollo 11, Houston. We have apparently lost the high-gain lock. We would appreciate it if you would give us a help manually to try to re-lock up on the high-gain. Over.
+084:48:08|T|LMP|Houston, Apollo 11. ...
+084:48:12|T|CC|11, Houston. Reading you very weak, still too far down in the noise to complete the full transmission. If you'd give us a hand on a manual re-lock, we'd appreciate it.
+084:48:31|P|PAO|This is Apollo Control, Houston 84 hours, 48 minutes now into the flight. We're receiving noisy data at this time. We've requested Apollo 11 to give us a manual re-lock. Standing by at 84 hours, 49 minutes this is Apollo Control, Houston.
+084:52:02|T|CC|Apollo 11, Houston. We're still unable to pick you up on the high-gain antenna. Request you go to MANUAL, and wide beam-width. The pitch and yaw angles in your checklist are good ones. You should be able to find us there. Over.
 084:53:08|T|LMP|Houston, Apollo 11. How do you read now?
 084:53:10|T|CC|11, Houston. Loud and clear this time. How me?
-084:53:16|T|LMP|Loud and clear. You faded out on your last transmission. Over.
-084:53:21|T|CC|Roger. Are you in wide beam now?
+084:53:17|T|LMP|Loud and clear. You faded out on your last transmission. Over.
+084:53:22|T|CC|Roger. Are you in wide beam now?
 084:53:29|T|LMP|Negative. I got you locked back on again REACQ and narrow.
 084:53:33|T|CC|Roger. That's all we want. We want to stay in narrow, and we're a little puzzled about why we lost you here a few minutes ago. Do you have any ideas?
 084:53:48|T|LMP|No, we sure don't (cough) - sure don't. We're showing - we're showing about 15 degrees plus pitch and about 270. That ought to be good and clear.
 084:54:00|T|CC|We concur there. We still don't have any good ideas on why we were lost then.
 084:54:38|T|CC|11, Houston. Would you confirm that we did acquire automatically when you came around the limb for this passage. Over.
-084:54:51|T|LMP|That's confirmed.
+084:54:52|T|CMP|That's confirmed.
 084:54:54|T|CC|Thank you.
-084:58:00|P|PAO|This is Apollo Control, Houston at 85 hours 5 minutes now into the flight of Apollo 11. We confirmed from the ground, following that conversation exchange. As was pointed out -
-084:58:00|P|PAO|As was pointed out, quad, RCS quad Charlie is now disabled following that conversational exchange between Owen Garriott and Buzz Aldrin. Buzz, the Lunar Module Pilot apparently, quite obviously still awake. 85 hours 7 minutes now into the flight of Apollo 11 now continuing to monitor, this is Apollo Control, Houston.
-085:04:38|T|CC|Apollo 11, Houston. Over.
+084:56:20|P|PAO|This is Apollo Control, Houston 84 hours, 56 minutes now into the flight of Apollo 11. Our current apolune 65.1 nautical miles, current perilune 54.3 nautical miles. After receiving some noisy signal, Apollo 11 has locked back on in fine form. That was Buzz Aldrin speaking with Owen Garriott here in the Mission Control Center. I expect we will take a second look at why we had to lock on manually. As we receive any updates on this, we'll pass them along. We now read 84 hours, 57 minutes and this is Apollo Control, Houston.
+085:04:39|T|CC|Apollo 11, Houston. Over.
 085:04:44|T|LMP|Houston, Apollo 11.
-085:04:46|T|CC|11, Houston. On your AUTO RCS SELECT switches, we show quad Bravo disabled but quad Charlie only partially disabled. Charlie 3, I believe, is the only one you have selected off. Is that correct?
+085:04:45|T|CC|11, Houston. On your AUTO RCS SELECT switches, we show quad Bravo disabled but quad Charlie only partially disabled. Charlie 3, I believe, is the only one you have selected off. Is that correct?
 085:05:05|T|CMP|Yes. Roger. That's correct.
 085:05:06|T|CC|Roger.
+085:05:48|P|PAO|This is Apollo Control, Houston at 85 hours 5 minutes now into the flight of Apollo 11. We confirmed from the ground, following that conversation exchange.
 085:05:59|T|CMP|How do they look to you now, Houston?
+085:06:05|P|PAO|As was pointed out -
 085:06:06|T|CC|11, Houston. We see them all disabled at this time. Thank you.
+085:06:12|P|PAO|As was pointed out, quad, RCS quad Charlie is now disabled following that conversational exchange between Owen Garriott and Buzz Aldrin. Buzz, the Lunar Module Pilot apparently, quite obviously still awake. 85 hours 7 minutes now into the flight of Apollo 11 now continuing to monitor, this is Apollo Control, Houston.
 085:06:15|T|CMP|Thank you.
 085:09:22|T|CC|Apollo 11, Houston. Over.
 085:09:30|T|LMP|Go ahead, Houston.
 085:09:31|T|CC|11, Houston. We're going to try to check out this ability to automatically reacquire on the S band, and what we want to do is to secure our uplink carrier for about 30 seconds. Then we will turn it back on and see if the spacecraft equipment will automatically reacquire. So if you do not get a call from us within about 3 minutes, that means we have not been able to reacquire and request your assistance on a manual acquisition. Over.
-085:10:04|T|LMP|Okay. We understand.
+085:10:04|T|CDR|Okay. We understand.
 085:10:11|T|CC|11, Houston. We also would appreciate - if you will note the angles that the antenna tracks through in its attempt to reacquire. Over.
 085:10:26|T|LMP|Roger. We'll do that.
-085:12:01|O|CMP|I have a bit of fruitcake left over from somewhere; if anybody wants some, here it is. ...
-085:12:25|O|CMP|Let's have a little chewing gum. Anybody like some chewing gum?
-085:12:39|O|CMP|40 - and 250.
+085:12:22|O|CMP|I have a bit of fruitcake left over from somewhere; if anybody wants some, here it is. ...
+085:12:37|O|CMP|Let's have a little chewing gum. Anybody like some chewing gum?
+085:12:50|O|CMP|40 - and 250.
+085:12:50|O||(Music: Barbara Streisand - People)
 085:12:54|O|SC|43 ...
-085:13:00|P|PAO|This is Apollo Control, Houston. At 85 hours 17 minutes now into the flight of Apollo 11. What you heard in the conversation between Owen Garriott and Buzz Aldrin was following a communications check in which we secured the uplink carrier for some 30 seconds and waited to give it a period of time of approximately 3 minutes, to see if the spacecraft would reacquire. We appeared to reacquire in fine form on this first test. We will repeat it - this test a second time, delaying approximately 4 minutes before we place a call to Apollo 11. At 85 hours 17 minutes, we currently read an altitude - spacecraft altitude of 56.1 nautical miles. Present velocity shows 5,367 feet per second. At apolune 65 nautical miles, perilune 54.4 nautical miles. Present weight in orbit remains a static 70,502 pounds. Present time in orbit as shown on our displays, 1 hour 58 minute 40 seconds. This is Apollo Control, Houston.
 085:13:28|T|CC|11, Houston. It looks like we're locked back up again with no delay. How does it look onboard? Over.
-085:13:37|T|LMP|Roger. The signal strength dropped very rapidly to zero; and the pitch and yaw, in about 3 secconds, moved toward 40 degrees pitch and 240 degrees yaw. Right now, they're sitting on about 15 degrees pitch and about 265 degrees yaw. So they didn't move very far, about 30 degrees apiece; and then they picked right back on up again. Over.
+085:13:37|T|LMP|Roger. The signal strength dropped very rapidly to zero; and the pitch and yaw, in about 3 seconds, moved toward 40 degrees pitch and 240 degrees yaw. Right now, they're sitting on about 15 degrees pitch and about 265 degrees yaw. So they didn't move very far, about 30 degrees apiece; and then they picked right back on up again. Over.
 085:14:19|T|CC|Roger. Some of "The Luckiest People" in the background there. We copied your pitch and yaw angles.
 085:15:27|T|CC|11, Houston. Could you give us the location of your - pitch and yaw location of your position indicators? Over.
 085:15:39|T|LMP|Roger. They're in the same position as the antenna right now; plus 15 degrees pitch and - no, now wait a minute. I got them - got it at about 275 instead of 265.
@@ -6746,6 +6760,7 @@
 085:16:35|T|LMP|Okay.
 085:17:03|O|CDR|- - 1000 pounds - ...
 085:17:07|O|CMP|That'll bring some more junk back here.
+085:13:00|P|PAO|This is Apollo Control, Houston. At 85 hours 17 minutes now into the flight of Apollo 11. What you heard in the conversation between Owen Garriott and Buzz Aldrin was following a communications check in which we secured the uplink carrier for some 30 seconds and waited to give it a period of time of approximately 3 minutes, to see if the spacecraft would reacquire. We appeared to reacquire in fine form on this first test. We will repeat it - this test a second time, delaying approximately 4 minutes before we place a call to Apollo 11. At 85 hours 17 minutes, we currently read an altitude - spacecraft altitude of 56.1 nautical miles. Present velocity shows 5,367 feet per second. At apolune 65 nautical miles, perilune 54.4 nautical miles. Present weight in orbit remains a static 70,502 pounds. Present time in orbit as shown on our displays, 1 hour 58 minute 40 seconds. This is Apollo Control, Houston.
 085:18:46|O|CDR|Couldn't have done better myself.
 085:20:07|T|CC|11, Houston. We're locked back up again. Can you give us a report on how the antenna behaved?
 085:20:24|T|LMP|Roger. It was essentially identical as before. The pitch went to 45, 40 to 45 and the yaw went to about - to about 255, 245 to 255; and then it rather quickly locked up at 15 degrees pitch and 270 yaw. Over.

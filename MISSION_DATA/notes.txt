@@ -112,7 +112,19 @@
 083:20:28 - Changing ground dishes to test communications with Eagle
 083:29:28 - TEI 11 PAD
 083:47:13|O|LMP|Well, COMM's good. Son of a bitch might work.
-
+083:49:01|O|LMP|Let's get some music.
+083:59:51|O|CMP|I can't read this little fart. Says 10013.
+084:01:14 - Buzz raids the pantry
+084:02:20|O|CMP|Amazing how quickly you adapt - Why, it doesn't seem weird at all to me to look out there and see the moon going by, you know?
+084:07:23|O||(Music: John Stewart - Mother Country)
+084:11:08|O|LMP|Can you think of any use for a slide rule in the LM, Neil?
+084:11:08|O||(Music: Peggy Lee - Spinning Wheel)
+084:13:52|O||(Music: Peggy Lee - Everyday People)
+084:17:00|O||(Music: Lou Rawls - Three O'clock in the Morning)
+084:22:07|O||(Music: Glen Campbell - Galveston)
+084:25:27|O||(Music: Glen Campbell - Gentle On My Mind)
+084:28:27|O||(Music: Tennessee Ernie Ford - Take My Hand, Precious Lord)
+085:12:50|O||(Music: Barbara Streisand - People)
 
 
 
