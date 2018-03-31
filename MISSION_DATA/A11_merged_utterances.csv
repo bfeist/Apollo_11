@@ -6912,88 +6912,140 @@
 086:32:51|T|CC|Roger.
 086:32:54|P|PAO|This is Apollo Control, Houston, 86 hours, 33 minutes. You heard that last exchange. The Mission Control Center has isolated our earlier loss of lock on with the S-Band antenna to a faulty power supply at Goldstone which in turn introduced noisy data causing a ground based receiver to go out of lock. This power supply, a 24 volt one, has already been replaced at Goldstone. In summary, the spacecraft looks good and the difficulty was caused here on the ground. At 86 hours, 34 minutes, we now read our orbit at 64.9 nautical miles apolune, 54.6 nautical miles perilune. This is Apollo Control, Houston.
 086:51:34|P|PAO|This is Apollo Control, Houston at 86 hours, 52 minutes now into the flight of Apollo 11. Our current altitude on the Apollo 11 spacecraft now reads 64.9 nautical miles. This corresponds with our apolune of 64.9 nautical miles. Our perilune on this pass 54.6 nautical miles. We've had no further conversation with the Apollo 11 crew nor do we expect to do so. We will take the loop down at this time and standby if any further conversation should develop. At 86 hours, 53 minutes into the flight, this is Apollo Control, Houston.
-087:31:00|P|PAO|This is Apollo Control, Houston, at 87 hours, 31 minutes now into the flight of Apollo 11. The Apollo 11 spacecraft continues on it's front side pass above the Moon. We're now less than 10 minutes away from loss of signal. The Apollo 11 crew in - currently in their rest period. We've received no indication yet that any of the crew members are actually sleeping, although all three appear to be in a very restful mode. This will be the final sleep period for the crew. Now at the threshold of their prime mission objective for the final sleep period prior to landing on the lunar surface and returning. The next scheduled rest period will in fact take place on the surface of the Moon. We are now past mid night Central Daylight Time. It is now July 20., the day scheduled for lunar landing. Our current orbital parameters read apolune 67. - correction 64.7 nautical miles, perilune 54.8 nautical miles.., Current spacecraft altitude 54.8 nautical miles. Our time of orbit or little period remains the same 1 hour, 58 minutes, 40 seconds. So at 87 hours, 30 minutes, we will continue to stand by in the event that we have any conversation with the crew. This is Apollo Control, Houston.
-087:40:00|P|PAO|This is Apollo control Houston at 87 hours, 40 minutes now in the flight of Apollo 11. Apollo 11 now less than a minute away from loss of signal as it is due to pass over the far side of the Moon and out of range with the mission Control Center as well as the rest of the world. We've had no further conversations with the crew. All spacecraft systems appear in fine shape. We're now less then 30 seconds away from time of loss of signal and standing by. Mark 10 seconds. We've had loss of signal as Apollo 11 passes over the back of the Moon.
+087:30:08|P|PAO|This is Apollo Control, Houston, at 87 hours, 31 minutes now into the flight of Apollo 11. The Apollo 11 spacecraft continues on its frontside pass above the Moon. We're now less than 10 minutes away from loss of signal. The Apollo 11 crew in - currently in their rest period. We've received no indication yet that any of the crew members are actually sleeping, although all three appear to be in a very restful mode. This will be the final sleep period for the crew. Now at the threshold of their prime mission objective for the final sleep period prior to landing on the lunar surface and returning. The next scheduled rest period will in fact take place on the surface of the Moon. We are now past midnight Central Daylight Time. It is now July 20, the day scheduled for lunar landing. Our current orbital parameters read apolune 67. - correction 64.7 nautical miles, perilune 54.8 nautical miles. Current spacecraft altitude 54.8 nautical miles. Our time of orbit - orbital period remains the same 1 hour, 58 minutes, 40 seconds. So at 87 hours, 33 minutes, we will continue to standby in the event that we have any conversation with the crew. This is Apollo Control, Houston.
+087:40:03|P|PAO|This is Apollo control Houston at 87 hours, 40 minutes now in the flight of Apollo 11. Apollo 11 now less than a minute away from loss of signal as it is due to pass over the farside of the Moon and out of range with the mission Control Center as well as the rest of the world. We've had no further conversations with the crew. All spacecraft systems appear in fine shape. We're now less then 30 seconds away from time of loss of signal and standing by.
+087:40:52|P|PAO|Mark 10 seconds.
+087:41:04|P|PAO|We've had loss of signal as Apollo 11 passes over the back side of the Moon.
 088:05:00|T||BEGIN LUNAR REV 7
-089:38:00|P|PAO|This is Apollo Control, 89 hours 38 minutes Ground Elapsed Time. Coming down - actually, we've had loss of signal on this the seventh lunar revolution of Apollo 11. Should have acquisition again at 90 hours 25 minutes through the Honeysuckle Creek, Australia station. The crew has been asleep about 2 hours, a little over 2 hours when the third man finally went to sleep, Mike Collins, after a brief interchange with the Ground. And 3 hours 57 minutes remaining in the sleep period. Cabin pressure now holding at 4.7 pounds per square inch at a temperature of 69 degrees Fahrenheit. Crew heart rates are running in the 40's. Apollo 11 presently in a lunar orbit with a pericynthion of 55 nautical miles, apocynthion of 64.4 nautical miles. Velocity in lunar orbit, 5363 feet per second. Some 44 minutes 46 seconds until acquisition of signal, as the spacecraft comes around from the far side of the Moon on the eighth revolution. And at 89 hours 40 minutes Ground Elapsed Time, this is Apollo Control.
+089:38:10|P|PAO|This is Apollo Control, 89 hours 38 minutes Ground Elapsed Time. Coming down - actually, we've had loss of signal on this, the seventh lunar revolution of Apollo 11. Should have acquisition again at 90 hours 25 minutes through the Honeysuckle Creek, Australia station. The crew has been asleep about 2 hours, a little over 2 hours when the third man finally went to sleep, Mike Collins, after a brief interchange with the Ground. And 3 hours 57 minutes remaining in the sleep period. Cabin pressure now holding at 4.7 pounds per square inch at a temperature of 69 degrees Fahrenheit. Crew heart rates are running in the 40's. Apollo 11 presently in a lunar orbit with a pericynthion of 55 nautical miles, apocynthion of 64.4 nautical miles. Velocity in lunar orbit, 5,363 feet per second. Some 44 minutes 46 seconds until acquisition of signal, as the spacecraft comes around from the far side of the Moon on the eighth revolution. And at 89 hours 40 minutes Ground Elapsed Time, this is Apollo Control.
 090:02:00|T||BEGIN LUNAR REV 8
-091:36:00|P|PAO|This is Apollo Control 91 hours, 36 minutes Ground Elapsed Time. Less than 1 minute remaining until loss of signal with Apollo 11 as it goes onto the lunar far side in the eighth lunar revolution. Two hours remaining in the crew rest period which means that midway through the next front side pass the crew will be wakened if they're indeed not already awake. Flight Surgeon, Ken Beers, reported just prior to the LOS in a brief exchange here in Mission Control that the crew apparently were all asleep soundly at this time and the Flight Director, Glynn Lunney, asked the spacecraft systems engineers how the spacecraft looked as they approached the LOS point. Coming up on LOS now, mark loss of signal. The spacecraft systems were described by the systems engineers as being looking good. 45 minutes to next - 45 minutes, 28 seconds to next acquisition of signal which will be in Ground Elapsed Time 92:23. 92 hours, 23 minutes Ground Elapsed Time. And at 91 hours, 37 minutes Ground Elapsed Time, this is Apollo Control.
+091:36:12|P|PAO|This is Apollo Control 91 hours, 36 minutes Ground Elapsed Time. Less than 1 minute remaining until loss of signal with Apollo 11 as it goes onto the lunar farside in the eighth lunar revolution. Two hours remaining in the crew rest period, which means that midway through the next front side pass the crew will be wakened if they're indeed not already awake. Flight Surgeon, Ken Beers, reported just prior to the LOS in a brief exchange here in Mission Control that the crew apparently were all asleep soundly at this time and the Flight Director, Glynn Lunney, asked the spacecraft systems engineers how the two spacecraft looked as they approached the LOS point. Coming up on LOS now. Mark; loss of signal. The spacecraft systems were described by the systems engineers as being "looking good". 45 minutes to next - 45 minutes, 28 seconds to next acquisition of signal which will be in Ground Elapsed Time 92:23. 92 hours, 23 minutes Ground Elapsed Time. And at 91 hours, 37 minutes Ground Elapsed Time, this is Apollo Control.
 092:01:00|T||BEGIN LUNAR REV 9
-093:29:00|P|PAO|This is Apollo control 93 hours, 29 minutes Ground Elapsed Time. Some 5 minutes away from loss of signal of the Apollo 11 on this revolution. And a wake-up call is expected from the spacecraft communicator Ron Evans here in Mission Control just prior to the time the spacecraft goes into the - goes over the hill on the lunar far side. Standing by as we wait for him to make his call. Presently, Apollo 11 is in an orbit measuring 64 nautical miles apocynthion, 55.5 nautical miles at pericynthion. Present orbital Velocity around the Moon, 5370 feet per second. Spacecraft calculated now to weight 70,321 pounds. Still standing by for wake-up call. Standing by for Ron Evans big moment as he makes his call to the spacecraft. As being the sleep watch, his job has been rather easy or at least he hasn't had too much conversation with - here we go.
-093:29:00|P|PAO|This is Apollo control. We have had loss of signal from Apollo 11 as it went over the hill. Now tracking through the Madrid station during this series of revolutions. Next acquisition as Apollo 11 comes back around the east limb of the Moon and the next revolution will be at 94 hours, 21 minutes Ground Elapsed Time. Some 43 minutes now, and at 93 hours, 36 minutes Ground Elapsed Time, this is Apollo control.
+093:29:34|P|PAO|This is Apollo control 93 hours, 29 minutes Ground Elapsed Time. Some 5 minutes away from loss of signal of Apollo 11 on this revolution. And a wake-up call is expected from the spacecraft communicator, Ron Evans here in Mission Control just prior to the time the spacecraft goes into the - goes over the hill on the lunar farside. Standing by as we wait for him to make his call. Presently, Apollo 11 is in an orbit measuring 64 nautical miles at apocynthion, 55.5 nautical miles at pericynthion. Present orbital velocity around the Moon, 5,370 feet per second. Spacecraft calculated now to weight 70,321 pounds. Still standing by for the wake-up call. Standing by for Ron Evans big moment as he makes his call to the spacecraft. This being the sleep watch, his job has been rather easy or at least he hasn't had too much conversation with - here we go.
 093:32:39|T|CC|Apollo 11, Apollo 11. Good morning from the Black Team.
 093:33:01|T|CMP|Good morning, Houston.
-093:33:04|T|CC|Good morning. We got about 2 minutes to LOS here, Mike.
-093:33:12|T|CMP|... You guys wake up early.
-093:33:15|T|CC|(Laughing) Yes, you're about 2 minutes early on the wakeup. Looks like you were really sawing them away.
+093:33:03|T|CC|Ah, good morning. We got about 2 minutes to LOS here, Mike.
+093:33:11|T|CMP|... You guys wake up early.
+093:33:14|T|CC|(Laughing) Yes, you're about 2 minutes early on the wakeup. Looks like you were really sawing them away.
 093:33:23|T|CMP|You're right.
 093:33:44|T|CC|11, Houston. For planning purposes, you can go ahead and take the monocular into the LM with you.
-093:33:56|T|CMP|Okay. I'll tell them. How are all the CSM systems looking?
-093:34:06|T|CC|11, Houston. Looks like the Command Module's in good shape. Black Team has been watching it real closely for you.
+093:33:55|T|CMP|Okay. I'll tell them. How are all the CSM systems looking?
+093:34:05|T|CC|11, Houston. Looks like the Command Module's in good shape. Black Team has been watching it real closely for you.
 093:34:17|T|CMP|We sure appreciate that. Because I sure haven't.
+093:34:17|O|CMP|We sure appreciate that. Because I sure haven't.
 093:34:27|T|CC|Say again.
-093:34:34|T|CMP|I say because I sure have not.
-093:34:37|T|CC|Roger.
+093:34:33|T|CMP|I say because I sure have not.
+093:34:33|O|CMP|I say because I sure have not.
+093:34:36|T|CC|Roger.
 093:35:01|T|CC|Apollo 11. Thirty seconds. AOS will be 94 plus 21.
-093:35:11|T|CMP|94:21.
+093:35:10|T|CMP|94:21.
+093:35:40|P|PAO|This is Apollo control. We've had loss of signal from Apollo 11 as it went over the hill. Now tracking through the Madrid station during this series of revolutions. Next acquisition as Apollo 11 comes back around the east limb of the Moon and the next revolution will be at 94 hours, 21 minutes Ground Elapsed Time. Some 43 minutes from now, and at 93 hours, 36 minutes Ground Elapsed Time, this is Apollo control.
+093:37:01|O|CMP|He says, "good morning", and take the monocular into the LM, and AOS is 94:21.
+093:39:42|O|CMP|Huh?
+093:39:43|O|LMP|...
+093:39:45|O|CMP|I'll bet it is (laughter).
+093:46:43|O|CMP|... I turn on the hot water switch?
+093:46:55|O|SC|...
+093:46:56|O|CMP|...
+093:48:17|O|CMP|Mine! By gosh.
+093:48:31|O|CMP|Ya, ...
+093:49:58|O|CMP|Where was it on the LCG?
+093:50:26|O|CMP|I think that baseline altitude is just the foaming sea altitude updated, isn't it?
+093:50:33|O|SC|...
+093:50:37|O|CMP|Huh?
+093:50:38|O|SC|...
+093:50:39|O|CMP|Ya, well - I can show you on a map where I marked ... the foaming sea. I used zero - inputted all zeros in altitude, here she came out minus, it's below sea level.
+093:51:00|O|SC|...
+093:51:01|O|CMP|Um - Well, see those numbers right there behind you ... seen them. Minus 00177. I think that's 1.77 miles if I remember that - numbers right.
+093:51:22|O|SC|...
+093:51:27|O|CMP|I can look it up. But they'll have some kind of correction to make to it, so there isn't much point (yawn). 
+093:51:55|O|SC|...
+093:52:54|O|CMP|How much sleep did everybody get?
+093:52:58|O|SC|...
+093:53:04|O|CMP|Uh huh.
+093:53:19|O|CMP|...
+093:57:51|O|CMP|Uh, a good flight for us -
+093:57:53|O|SC|...
+093:57:54|O|CMP|- is here in -
+093:57:57|O|SC|...
+093:57:59|O|CMP|... at least one of them is here with the toolkit, and the PCK box in A1 over here. This guy right down here with the ...
+093:58:26|O|CMP|Buzz, I'll put your ... okay?
+093:58:29|O|SC|...
+093:58:35|O|CMP|I can get ...
+093:58:36|O|SC|...
+093:58:38|O|CMP|Oh, ...
 093:59:00|T||BEGIN LUNAR REV 10
-094:21:00|P|PAO|This is Apollo Control. 94 hours, 21 minutes Ground Elapsed Time. Should have acquisition of signal as Apollo 11 comes around on the front side of the Moon on the 10th revolution. AOS is confirmed. We'll stand by Capcom's call to the crew. We have data coming in now. After having breakfast and getting all squared away after the night's rest period, the crew will have a rather busy day including the first man landing on the Moon. Some of the preliminary time's being generated now for maneuvers of the day - will include separation at - a separation burn at 100 hours, 39 minutes, 50 seconds. Here goes the call.
-094:21:00|P|PAO|This is Apollo Control following the separation burn at the time of 100 hours, 39 minutes, 50 seconds. The descent orbit insertion burn is now scheduled at 101 hours, 36 minutes, 13.5 seconds. Our descent initiation at 102 hours, 32 minutes, 05.1 seconds. We'll stay up live on the air-ground loop, and continue to monitor any further conversation between spacecraft communicator, Ron Evans, here in Mission Control and the crew of Apollo 11, which at this time is likely in the middle of their breakfast period.
-094:21:00|P|PAO|This is Apollo Control still standing by as the Apollo 11 - about a third of the way through the front side pass on revolution number 10. Still in the midst of their breakfast period. Various console positions are preparing numbers for maneuver times, attitudes, and so on for the day's activities to pass to spacecraft communicator who in turn will pass them up to the crew. Probably during this pass - members of the white team of Flight Controllers headed up by Eugene Kranz are drifting into the Control Room now to relieve the night watch - Black Team headed by Glynn Lunney. Glynn Lunney will hold a brief change-of-shift press conference in the Apollo news center in MSC after the handover is complete. We'll continue to monitor the air-ground circuit for any further transmissions from Apollo 11.
+094:02:53|O|CMP|... Buzz.
+094:08:01|O|SC|... backside ...?
+094:09:13|O|CMP|... Buzz. What is it you're looking for?
+094:09:37|O|CMP|... Buzz.
+094:09:40|O|SC|... remember where I ...
+094:13:03|O|CMP|...
+094:16:38|O|CMP|... 94:21.
+094:16:50|O|CMP|But I can take care of that stuff in the flight plan. I'm trying to get breakfast out of the way -
+094:16:54|O|SC|...
+094:21:13|P|PAO|This is Apollo Control. 94 hours, 21 minutes Ground Elapsed Time. Should have acquisition of signal as Apollo 11 comes around on the front side of the Moon on the 10th revolution. AOS is confirmed. We'll stand by Capcom's call to the crew. We have data coming in now. After having breakfast and getting all squared away after the night's rest period, the crew will have a rather busy day including the first manned landing on the Moon. Some of the preliminary time's being generated now for maneuvers of the day - will include separation at - a separation burn at 100 hours, 39 minutes, 50 seconds. Here goes the call.
 094:22:17|T|CC|Apollo 11, Houston. Standing by.
 094:23:04|T|LMP|Houston, Apollo 11.
-094:23:06|T|CC|Apollo 11, Houston. Go.
+094:23:05|T|CC|Apollo 11, Houston. Go.
 094:23:11|T|LMP|Roger. How do you read the BIOMED in the LMP with the LCG on? Over.
-094:23:17|T|CC|Roger. Stand by, 11.
+094:23:17|T|CC|Roger. Stand by, 1.
 094:23:47|T|CC|Apollo 11, Houston. We have good data on all 3 crewmen. No. Belay that. The Commander we do not have yet.
 094:24:00|T|LMP|Okay. He's not up yet.
+094:25:15|P|PAO|This is Apollo Control following the separation burn at the time of 100 hours, 39 minutes, 50 seconds. The Descent Orbit Insertion burn is now scheduled at 101 hours, 36 minutes, 13.5 seconds. Our descent initiation at 102 hours, 33 minutes, 05.1 seconds. We'll stay up live on the air-ground loop, and continue to monitor any further conversation between spacecraft communicator, Ron Evans, here in Mission Control and the crew of Apollo 11, which at this time is likely in the middle of their breakfast period.
+094:40:45|P|PAO|This is Apollo Control still standing by as the Apollo 11 - about a third of the way through the frontside pass on revolution number 10. Still in the midst of their breakfast period. Various console positions are preparing numbers for maneuver times, attitudes, and so on for the day's activity to pass to spacecraft communicator who in turn will pass them up to the crew. Probably during this pass - members of the white team of Flight Controllers headed up by Eugene Kranz are drifting into the Control Room now to relieve the night watch - Black Team headed by Glynn Lunney. Glynn Lunney will hold a brief change-of-shift press conference in the Apollo news center in MSC after the handover is complete. We'll continue to monitor the air-ground circuit for any further transmissions from Apollo 11.
 094:49:59|T|LMP|Houston, Apollo 11. We just had a very good view of the landing site. We can pick out almost all of the features we've identified previously.
-094:50:10|T|CC|11, Houston. Roger. Sounds real fine. And, 11, I have your maneuver PAD and consumables update whenever you want them.
-094:50:30|T|SC|Stand by.
-094:50:34|T|LMP|Stand by a little, please.
-094:50:37|T|CC|Roger. We're standing by. And that's the block data on the maneuver PAD, by the way.
-094:52:39|T|CMP|Houston, Apollo 11 is a couple of minutes away from this rolling right 40 degrees to roll 122, pitch 229, yaw 0. Over.
-094:52:48|T|CC|Apollo 11, Houston. Roger. We're standing by.
+094:50:09|T|CC|11, Houston. Roger. Sounds real fine. And, 11, I have your maneuver PAD and consumables update whenever you want them.
+094:50:30|T|SC|...
+094:50:34|T|LMP|Standby a little, please.
+094:50:36|T|CC|Roger. We're standing by. And that's the block data on the maneuver PAD, by the way.
+094:52:38|T|CMP|Houston, Apollo 11 is a couple of minutes away from this rolling right 40 degrees to roll 122, pitch 229, yaw 0. Over.
+094:52:47|T|CC|Apollo 11, Houston. Roger. We're standing by.
 094:54:04|T|CMP|Houston, Apollo 11. Ready to copy.
-094:54:08|T|CC|Roger. Apollo 11, Houston. Here's your block data, TEI 30. Over.
-094:54:20|T|CMP|Ready to copy.
-094:54:22|T|CC|SPS/G&N: 36639; your NOUN 48, minus 072, plus 051; your NOUN 33, 135 24 4000; NOUN 81, plus 32178, plus 06036, minus 01304, your pitch 064. The rest is NA. Ullage: two jet, 16 seconds; and it's based on 10I REFSMMAT. Over.
-094:55:49|T|CMP|Roger. TEI 30 SPS/G&N: 36639 minus 072, plus 051, 135 24 4000, plus 32178, plus 06036, minus 01304, pitch 064, two jets 16 second, LOI REFSMMAT. Over.
-094:56:15|T|CC|Apollo 11, Houston. Readback correct. Your consumables update?
-094:56:36|T|CMP|Yes. Go ahead.
-094:56:37|T|CC|Roger. GET 91 plus 30, minus 7 percent; Alfa minus 8, Bravo minus 2.5, Charlie minus 10, Delta minus 6.5. H2 total, minus 2 pounds; oxygen total, plus 9 pounds. Over.
-094:57:18|T|CMP|Okay. Thank you. And onboard, we're reading for quad Alfa 75 percent, Bravo 78, Charlie 78, and Delta 77 percent.
-094:57:37|T|CC|11, Houston. We copy.
-094:57:49|T|CC|Apollo 11, Houston. I have your base line altitude update now, if Buzz is ready to copy.
+094:54:07|T|CC|Roger. Apollo 11, Houston. Here's your block data, TEI-30. Over.
+094:54:19|T|CMP|Ready to copy.
+094:54:22|T|CC|SPS/G&N: SPS/G&N: 36639; your Noun 48, minus 0.72, plus 0.51; your Noun 33, 135:24:40.00; Noun 81, plus 3217.8, plus 0603.6, minus 0130.4; your pitch, 064. The rest is NA. Ullage; two jet, 16 seconds. And it's based on LOI REFSMMAT. Over.
+094:55:49|T|CMP| Roger. TEI-30 SPS/G&N: 36639; minus 0.72, plus 0.51; 135:24:40.00; plus 3217.8, plus 0603.6, minus 0130.4; pitch 064. Two jets, 16 seconds. LOI REFSMMAT. Over.
+094:56:15|T|CC|Apollo 11, Houston. Readback correct. Your consumables update -
+094:56:35|T|CMP|Yes. Go ahead.
+094:56:36|T|CC|Roger. GET 91 plus 30, minus 7 percent; Alfa minus 8, Bravo minus 2.5, Charlie minus 10, Delta minus 6.5. H2 total, minus 2 pounds; oxygen total, plus 9 pounds. Over.
+094:57:18|T|CMP|Okay. Thank you. And onboard, we're reading for quad Alfa, 75 percent; Bravo 78; Charlie 78; and Delta 77 percent.
+094:57:36|T|CC|11, Houston. We copy.
+094:57:49|T|CC|Apollo 11, Houston. I have your baseline altitude update now, if Buzz is ready to copy.
 094:58:00|T|SC|...
-094:58:02|T|CMP|Go ahead.
-094:58:04|T|CC|Roger. Alfa 1 is 500, that's 500 feet above the landing site. Over.
-094:58:23|T|CMP|Okay. Alfa 1 is 500 feet above the landing site. Thank you.
-094:58:51|T|CMP|Houston, Apollo 11. Our crew status report for sleep: CDR 5.5, CMP 6.0, LMP 5.0. Over.
-094:59:00|P|PAO|This is Apollo Control. Still F line with the air-ground circuit on the tenth revolution around the Moon. The crew reported that the commander had 5 and a half hours of sleep during the night, Command Module Pilot, 6 hours, Lunar Module Pilot, 5 hours. Now 95 hours and 5 minutes into the mission. Another 27 minutes remaining in this pass. Still loss of signal continuing to monitor air-ground circuit. We'll leave it up live until loss of signal.
+094:58:01|T|CMP|Go ahead.
+094:58:03|T|CC|Roger. Alfa 1 is 500, that's 500 feet above the landing site. Over.
+094:58:22|T|CMP|Okay. Alfa 1 is 500 feet above the landing site. Thank you.
+094:58:50|T|CMP|Houston, Apollo 11. Our crew status report for sleep: CDR 5.5, CMP 6.0, LMP 5.0. Over.
 094:59:02|T|CC|Apollo 11, Houston. Roger. We have that now.
-095:16:09|T|CC|Apollo 11, Houston. Over.
-095:16:16|T|LMP|Houston, Apollo 11. Go ahead.
-095:16:18|T|CC|Roger. The "Black Bugle" just arrived with some morning news briefs if you're ready.
-095:16:28|T|CDR|Go ahead.
-095:16:30|T|CC|Roger.
-095:16:31|T|CMP|...
-095:16:32|T|CC|Okay. Church services around the world today are mentioning Apollo 11 in their prayers. President Nixon's worship service at the White House is also dedicated to the mission, and our fellow astronaut, Frank Borman, is still in there pitching and will read the passage from Genesis which was read on Apollo 8 last Christmas. The Cabinet and members of Congress, with emphasis on the Senate and House space committees, have been invited, along with a number of other guests. Buzz, your son, Andy, got a tour of MSC yesterday. Your Uncle Bob Moon accompanied him on the visit which included the LRL. Among the - -
-095:17:27|T|LMP|- - Thank you.
-095:17:28|T|CC|Roger. Among the large headlines concerning Apollo this morning, there's one asking that you watch for a lovely girl with a big rabbit. An ancient legend says a beautiful Chinese girl called Chang-o has been living there for 4000 years. It seems she was banished to the Moon because she stole the pill of immortality from her husband. You might also look for her companion, a large Chinese rabbit, who is easy to spot since he is always standing on his hind feet in the shade of a cinnamon tree. The name of the rabbit is not reported.
-095:18:15|T|LMP|Okay. We'll keep a close eye out for the bunny girl.
-095:18:19|T|CC|Roger. You residents of the spacecraft Columbia may be interested in knowing that today is Independence Day in the country of Colombia. Gloria Diaz of the Philippines was crowned Miss Universe last night. She defeated 60 other girls for the global beauty title. Miss Diaz is 18, with black hair and eyes, and measures 34-1/2, 23, 34-1/2. First runner up was Miss Australia, followed by Miss Israel, and Miss Japan. While you're on your way back Tuesday night, the American and National League Allstars will be playing ball in Washington. Mel Stottlemyre of the Yankees is expected to be the American League's first pitcher. No one is predicting who will be first pitcher for the National League yet. They have nine on the roster. Even though research has certainly paid off in the space program, research doesn't always pay off, it seems. The Woodstream Corporation, parent company of the Animal Trap Company of America which has made more than a billion wooden spring mousetraps, reports that it built a better mousetrap but the world didn't beat a door to its path - didn't beat a path to its door. As a matter of fact, the company had to go back to the oldfashioned kind. They said, "We should have spent more time researching housewives and less time researching mice". And the "Black Beag - Bugle" is all completed for the morning.
-095:19:00|P|PAO|This is Apollo Control, some 9 minutes 27 seconds remaining until loss of signal on this 10th revolution in lunar orbit. The crew is preparing, now that they've finished breakfast and gotten a lot of the other items out of the way such as the crew checklist and sleep status and so on, preparing for manning the LM for the second time and preparing for the day's activities which will culminate in landing this afternoon. Apollo 11 is presently in an orbit with a pericynthion of 55.7 nautical miles, apocynthion 63.8 nautical miles. Lunar orbit velocity 5368 feet per second. We'll continue to stand by on the air-ground circuit for the remaining 8 minutes of this revolution or until loss of signal. Ground Elapsed Time now is 95 hours 25 minutes, Apollo Control standing by.
-095:19:00|P|PAO|This is Apollo Control. We have apparently had loss of signal from the spacecraft. Here in Mission Control we are in the process of changing shifts. Flight Director Gene Kranz and the white team of Flight Controllers coming on to replace Flight Director Glenn Lunney. The Capsule Communicator on this shift will be Astronaut Charlie Duke. We'll reacquire the spacecraft again in a little over 45 minutes, coming up on the 11th revolution of the Moon. At 95 hours 34 minutes, this is Apollo Control.
-095:20:47|T|CDR|Thank you very much. We appreciate the news.
-095:21:21|T|LMP|Black Team, we'll be looking for an interesting day with you all tomorrow.
-095:21:27|T|CC|Roger. We'll be going off here shortly, and we'll pick you up in the morning for sure.
-095:30:15|T|CC|Apollo 11, Houston. Three minutes to LOS; AOS at 96 plus 20.
-095:30:27|T|CDR|Apollo 11. 96 20. Thank you.
+095:05:16|P|PAO|This is Apollo Control. Still up live with the air-ground circuit on the tenth revolution around the Moon. The crew reported that the Commander had 5 and a half hours of sleep during the night, Command Module Pilot, 6 hours, Lunar Module Pilot, 5 hours. Now 95 hours and 5 minutes into the mission. Another 27 minutes remaining in this pass 'til loss of signal. Continuing to monitor air-ground circuit. We'll leave it up live until loss of signal.
+095:16:07|T|CC|Apollo 11, Houston. Over.
+095:16:15|T|LMP|Houston, Apollo 11. Go ahead.
+095:16:17|T|CC|Roger. The "Black Bugle" just arrived with some morning news briefs if you're ready.
+095:16:26|T|CDR|Go ahead.
+095:16:29|T|CC|Roger.
+095:16:31|T|CMP|We're all ears.
+095:16:32|T|CC|Okay. Church services around the world today are mentioning Apollo 11 in their prayers. President Nixon's worship service at the White House is also dedicated to the mission, and our fellow astronaut, Frank Borman, is still in there pitching and will read the passage from Genesis which was read on Apollo 8 last Christmas. The Cabinet and members of Congress, with emphasis on the Senate and House space committees, have been invited, along with a number of other guests.
+095:17:08|T|CC|Buzz, your son, Andy, got a tour of MSC yesterday. Your Uncle Bob Moon accompanied him on the visit which included the LRL. Among the - -
+095:17:26|T|LMP|- - Thank you.
+095:17:27|T|CC|Roger. Among the large headlines concerning Apollo this morning, there's one asking that you watch for a lovely girl with a big rabbit. An ancient legend says a beautiful Chinese girl called Chang-o has been living there for 4000 years. It seems she was banished to the Moon because she stole the pill of immortality from her husband. You might also look for her companion, a large Chinese rabbit, who is easy to spot since he is always standing on his hind feet in the shade of a cinnamon tree. The name of the rabbit is not reported.
+095:18:14|T|LMP|Okay. We'll keep a close eye out for the bunny girl.
+095:18:17|T|CC|Roger. You residents of the spacecraft Columbia may be interested in knowing that today is Independence Day in the country of Colombia.
+095:18:40|T|CC|Gloria Diaz of the Philippines was crowned Miss Universe last night. She defeated 60 other girls for the global beauty title. Miss Diaz is 18, with black hair and eyes, and measures 34-1/2, 23, 34-1/2. First runner up was Miss Australia, followed by Miss Israel, and Miss Japan.
+095:19:16|T|CC|While you're on your way back Tuesday night, the American and National League Allstars will be playing ball in Washington. Mel Stottlemyre of the Yankees is expected to be the American League's first pitcher. No one is predicting who will be first pitcher for the National League yet. They have nine on the roster.
+095:19:45|T|CC|Even though research has certainly paid off in the space program, research doesn't always pay off, it seems. The Woodstream Corporation, parent company of the Animal Trap Company of America which has made more than a billion wooden spring mousetraps, reports that it's built a better mousetrap but the world didn't beat a door to its path - didn't beat a path to its door. As a matter of fact, the company had to go back to the oldfashioned kind. They said, "We should have spent more time researching housewives and less time researching mice".
+095:20:30|T|CC|And the "Black Beag - Bugle" is all completed for the morning.
+095:20:46|T|CDR|Thank you very much. We appreciate the news.
+095:21:20|T|LMP|Black Team, we'll be looking for an interesting day with you all tomorrow.
+095:21:25|T|CC|Roger. We'll be going off here shortly, and we'll pick you up in the morning for sure.
+095:23:47|P|PAO|This is Apollo Control, some 9 minutes 27 seconds remaining until loss of signal on this 10th revolution in lunar orbit. The crew is preparing, now that they've finished breakfast and gotten a lot of the other items out of the way such as the crew checklist and sleep status and so on, preparing for manning the LM for the second time and preparing for the day's activities which will culminate in landing this afternoon. Apollo 11 is presently in an orbit with a pericynthion of 55.7 nautical miles, apocynthion 63.8 nautical miles. Lunar orbit velocity 5,368 feet per second. We'll continue to standby on the air-ground circuit for the remaining 8 minutes of this revolution or until loss of signal. Ground Elapsed Time now is 95 hours 25 minutes, Apollo Control standing by.
+095:30:14|T|CC|Apollo 11, Houston. Three minutes to LOS; AOS at 96 plus 20.
+095:30:25|T|CDR|Apollo 11. 96:20. Thank you.
 095:32:37|O|LMP|I'll need to holler across to you to get the mission timers on. Do we want to check and get our two mission timers SYNC'd? What's this one read now? 82:50?
 095:32:51|O|CDR|51, 52, 53, 54, 55, 56 - -
 095:32:56|O|LMP|Okay, this one is 1 second slow down in the LEB.
-095:33:28|O|LMP|Let's see, these things come in the Command Module don't they, those umbilicals?
+095:33:25|P|PAO|This is Apollo Control. We have apparently had loss of signal from the spacecraft. Here in Mission Control we are in the process of changing shifts. Flight Director, Gene Kranz and the white team of Flight Controllers coming on to replace Flight Director, Glenn Lunney. The Capsule Communicator on this shift will be Astronaut Charlie Duke. We'll reacquire the spacecraft again in a little over 45 minutes, coming up on the 11th revolution of the Moon. At 95 hours 34 minutes, this is Apollo Control.
+095:33:29|O|LMP|Let's see, these things come in the Command Module don't they, those umbilicals?
 095:33:34|O|CMP|...
 095:33:43|O|LMP|Well, we don't want them.
 095:33:50|O|CMP|...
@@ -7001,62 +7053,62 @@
 095:34:04|O|CMP|...
 095:34:13|O|LMP|Well, we couldn't do that without switching - well, you can have them in here all the time.
 095:34:18|O|CMP|... there's no way for me ... probe and drogue ... docking ...
-095:34:32|O|CDR|No, I can't think that that'd be of significance between them - because why would you ever care to whether you'd hook them up again, if you came back and docked?
+095:34:33|O|CDR|No, I can't think that that'd be of significance between them - because why would you ever care to whether you'd hook them up again, if you came back and docked?
 095:35:29|O|LMP|Here's this LCG check. "Verify ... stick visible in red or green band."
-095:35:40|O|CDR|Yes. Not ... as it should be.
+095:35:40|O|LMP|Yes. Not ... as it should be.
 095:35:47|O|LMP|The red one comes out this far, and the green one's out further than that. The whole thing is only about that long. It's got to be in one or the other or you can't see it.
 095:36:24|O|CDR|Having any luck there, Michael?
 095:36:27|O|CMP|...
-095:36:40|O|LMP|You don't need to take - you're not taking your scissors over there?
+095:36:41|O|LMP|You don't need to take - you're not taking your scissors over there?
 095:36:43|O|CDR|No.
 095:36:44|O|CMP|I've got ...
-095:36:49|O|LMP|... pad; I'm going to have to take a leak here.
-095:38:00|P|PAO|This is Apollo Control at 95 hours, 38 minutes. There will be a change-of-shift briefing following this shift. We estimate the briefing will begin in about 10 or 15 minutes in the MSC
+095:36:49|O|LMP|Well - ... pad; I'm going to have to take a leak here.
+095:38:11|P|PAO|This is Apollo Control at 95 hours, 38 minutes. There will be a change-of-shift briefing following this shift. We estimate the briefing will begin in about 10 or 15 minutes in the MSC auditorium.
 095:38:50|O|LMP|Yes, I guess I'd better take that pocket – and the purse. Tell you what - How about putting those tissues in that box that's got that spare camera in it?
 095:39:16|O|CDR|Okay.
 095:39:17|O|LMP|It'll be right handy on your side over there. Now where did the tissue box go?
-095:39:39|O|CDR|You want to see if the computer agrees with that mission timer?
-095:39:42|O|LMP|I did already.
-095:39:44|O|CDR|Okay.
-095:41:20|O|LMP|Can you hand me that purse and the - that bag of mine - and the checklist?
+095:39:39|O|LMP|You want to see if the computer agrees with that mission timer?
+095:39:42|O|CDR|I did already.
+095:39:44|O|LMP|Okay.
+095:41:21|O|LMP|Can you hand me that purse and the - that bag of mine - and the checklist?
 095:42:06|O|LMP|And if you'll take me off of suit power.
 095:42:10|O|CDR|Okay. SUIT POWER is OFF; AUDIO is OFF. Whoops - Sorry.
 095:44:21|O|CMP|...
-095:44:26|O|CDR|Good.
+095:44:24|O|CDR|Good.
 095:45:07|O|CDR|About ready for a little help? ... that.
-095:46:00|O|CDR|What's that?
+095:46:00|O|CMP|What's that?
 095:46:04|O|CMP|... I only have one ... left.
-095:46:13|O|CDR|Okay. Oh, let's see, one smell - blah.
-095:47:15|O|CDR|(Humming)
+095:46:12|O|CDR|Okay. Oh, let's see, one small - blah.
+095:47:13|O|CDR|(Humming)
 095:48:12|O|CDR|Okay.
-095:48:58|O|CDR|You want one?
-095:48:59|O|CMP|...
-095:49:00|O|CDR|Yes.
-095:49:02|O|CMP|...
-095:49:43|O|CDR|We've got a roll rate in; 0.3-degree roll rate. Now it's taking it out; now it's taking it back out the other way.
-095:50:34|O|LMP|... Now, let's see.
+095:48:57|O|CMP|You want one?
+095:48:59|O|LMP|...
+095:49:00|O|CMP|Yes.
+095:49:02|O|LMP|...
+095:49:42|O|CDR|We've got a roll rate in; 0.3-degree roll rate. Now it's taking it out; now it's taking it back out the other way.
+095:50:33|O|CDR|... Now, let's see.
 095:50:41|O|CDR|I'll keep an eye on ... for you.
-095:51:04|O|CDR|... on here.
+095:51:03|O|CMP|... on here.
 095:51:06|O|LMP|Okay, I'm going on.
-095:51:08|O|CDR|Okay.
-095:53:30|O|CDR|What's that?
-095:53:34|O|LMP|Did you repress, huh?
+095:51:07|O|CMP|Okay.
+095:53:30|O|CMP|What's that?
+095:53:32|O|CMP|Did you repress, huh?
 095:54:00|T||BEGIN LUNAR REV 11
-095:54:24|O|LMP|How come you don't ... LM power?
+095:54:23|O|LMP|How come you don't ... LM power?
 095:54:26|O|CMP|Okay. Stand by. You're on LM power. What?
-095:54:38|O|CDR|What did he say?
+095:54:36|O|CMP|What did he say?
 095:54:39|O|LMP|...
-095:54:41|O|CMP|Oh, what time is it? It's 95:54.
-095:55:12|O|CMP|Now, switch from RATE, HIGH, to RATE, LOW. But that might make it better and maybe a little bit worse.
+095:54:40|O|CMP|Oh, what time is it? It's 95:54.
+095:55:11|O|CMP|Now, switch from RATE, HIGH, to RATE, LOW. But that might make it better and maybe a little bit worse.
 095:55:21|O|LMP|...
 095:55:35|O|CMP|I guess that's right then, Neil; it rattles across the deadband at a fairly high rate.
-095:55:44|O|LMP|...
+095:55:43|O|CDR|...
 095:55:46|O|CMP|Alright.
-095:56:31|O|LMP|...
-095:56:34|O|CMP|Sure as hell is.
-095:56:50|O|CMP|I can't get that ...
-095:56:53|O|CDR|This one - this one? That won't hurt it. ...
-095:59:09|O|CMP|Stand by for some MASTER ALARMS; I'm purging.
+095:56:30|O|CDR|...
+095:56:32|O|CMP|Sure as hell is.
+095:56:48|O|CMP|I can't get that ...
+095:56:52|O|CDR|This one - this one? That won't hurt it. ...
+095:59:07|O|CMP|Stand by for some MASTER ALARMS; I'm purging.
 096:00:28|O|LMP|...
 096:00:30|O|CDR|Oh, ..., Mike.
 096:00:34|O|CMP|It's 96 hours even. 96 even and coming up on 40 seconds. Ready -
@@ -7078,55 +7130,55 @@
 096:05:22|O|CMP|Jesus Christ!
 096:07:58|O|CMP|NORMAL, NORMAL.
 096:09:19|O|CMP|Another MASTER ALARM coming.
-096:10:52|O|CMP|Stand by for MASTER ALARM.
+096:10:51|O|CMP|Stand by for MASTER ALARM.
 096:12:54|O|CMP|Neil, where's the voice tape recorder, you know?
-096:12:59|O|CDR|Might be in the ...
-096:13:01|O|CMP|Okay. Oh, you son of a bitch, you! Gah!
-096:13:10|O|CDR|...
-096:16:17|O|CDR|...?
+096:12:58|O|CDR|Might be in the ...
+096:13:01|O|CMP|Okay. Oh, you son of a bitch, you! God damn!
+096:13:08|O|CDR|...
+096:16:16|O|CDR|...?
 096:16:18|O|CMP|Can't get it ...; it's behind the ...
 096:16:27|O|CDR|Yes.
 096:16:28|O|CMP|... hard time getting anything down here ...
 096:16:37|O|CDR|Okay.
 096:16:38|O|CMP|You got some things up there.
-096:16:41|O|CMP|Neil, all this food and stuff up here, you going to take with you, or drink, or eat?
-096:17:47|O|CDR|No, I'll take ...
-096:17:54|O|CMP|Okay. Chewing gum, you want any of that?
-096:18:07|O|CDR|... concerned ...
-096:18:12|O|LMP|...
-096:18:19|O|CMP|Neil, I hate to bother you; could you get my solo book out of R-1 there?
-096:18:23|O|CDR|What?
-096:18:24|O|CMP|My solo book out of R-1.
-096:18:28|O|CDR|Solo book?
-096:18:29|O|CMP|Yes. Look - -
-096:18:30|O|CDR|R-1?
+096:17:40|O|CMP|Neil, all this food and stuff up here, you going to take with you, or drink, or eat?
+096:17:46|O|CDR|No, I'll take ...
+096:17:53|O|CMP|Okay. Chewing gum, you want any of that?
+096:18:06|O|LMP|... concerned ...
+096:18:12|O|CDR|...
+096:18:18|O|CMP|Neil, I hate to bother you; could you get my solo book out of R-1 there?
+096:18:22|O|CDR|Pardon?
+096:18:22|O|CMP|My solo book out of R-1.
+096:18:27|O|CDR|Solo book?
+096:18:28|O|CMP|Yes. Look - -
+096:18:29|O|CDR|R-1?
 096:18:31|O|CMP|Yes, it should be in R-1. Big frapping book, with a bunch of updates on the cover. Thank you, that's it. Appreciate it.
-096:19:00|P|PAO|This is Apollo Control at 96 hours 19 minutes. We are now less than 1 minute to reacquiring the spacecraft on the 11th revolution of the Moon. Flight Director Gene Kranz since taking over the shift has gone around the room, reviewed the situation with all of his Flight Controllers. We expect when we reacquire, Buzz Aldrin will be in the LM beginning the LM power up and check out. And he will be rejoined in a short while by Neil Armstrong. We'll stand by now for acquisition of signal as the spacecraft comes around the corner.
-096:19:00|P|PAO|Network says we have acquired signal, we'll stand by for the call to the crew.
-096:20:10|O|CMP|Neil, do you recall the highest rate you saw during this recent thruster activity? Did you say 0.4 or thereabouts?
-096:20:19|O|CDR|What?
-096:20:20|O|CMP|Do you recall the - any kind of body rates that you saw during that thruster activity? Didn't you say something about 0.4? Maybe – remember when the SCS was acting up?
+096:18:33|P|PAO|This is Apollo Control at 96 hours 19 minutes. We are now less than 1 minute to reacquiring the spacecraft on the 11th revolution of the Moon. Flight Director, Gene Kranz since taking over the shift has gone around the room, reviewed the situation with all of his Flight Controllers. We expect that when we reacquire, Buzz Aldrin will be in the LM beginning the LM power up and check out. And he will be joined in a short while by Neil Armstrong. We'll stand by now for acquisition of signal as the spacecraft comes around the corner.
+096:20:03|P|PAO|Network says we have acquired signal, we'll stand by for the call to the crew.
+096:20:09|O|CMP|Neil, do you recall the highest rate you saw during this recent thruster activity? Did you say 0.4 or thereabouts?
+096:20:18|O|CDR|What?
+096:20:19|O|CMP|Do you recall the - any kind of body rates that you saw during that thruster activity? Didn't you say something about 0.4? Maybe – remember when the SCS was acting up?
 096:20:30|O|CDR|Ah - -
 096:21:24|T|CC|Hello, Columbia. Houston. Do you read? Over.
 096:21:58|T|LMP|Hello, Houston, this is Eagle. How do you read? Over.
 096:22:03|T|CC|Eagle, this is Houston. Are you calling? Over.
-096:22:08|T|LMP|Roger. How do you read? Over.
+096:22:09|T|LMP|Roger. How do you read? Over.
 096:22:11|T|CC|Roger. Reading you about three by, Buzz; a lot of noise on the loop. We think it's coming from Columbia, but we can't tell. We're unable to raise voice with him. Would he please go to high-gain. Over.
 096:22:26|T|LMP|Okay. I'll have him go to high-gain. It's probably the glycol pump you hear in the background, and I'm up to the point where I turn on the IMU. Would you recommend I hold off here for a few minutes or go ahead and power up the IMU? Over.
 096:22:41|T|CC|Roger. Stand by.
 096:22:42|T|LMP|Hey, get your high-gain to working.
 096:22:46|T|CMP|Houston.
-096:23:02|O|CMP|Houston, Columbia. Over.
-096:23:04|O|CC|- - this is Houston. You can turn on the IMU. Over.
+096:23:06|O|CMP|Houston, Columbia. Over.
+096:23:06|O|CC|- - this is Houston. You can turn on the IMU. Over.
 096:23:06|T|CC|Eagle, this is Houston. You can turn on the IMU. Over.
-096:23:14|T|SC|...
-096:23:20|O|CMP|Houston, this is Columbia. Over.
+096:23:14|T|LMP|Roger ...
+096:23:19|O|CMP|Houston, this is Columbia. Over.
 096:23:21|T|CMP|Houston, this is Columbia.
 096:23:31|T|CC|Columbia, this is Houston. Do you read? Over.
 096:23:32|O|CC|Columbia, this is Houston. How do you read? Over.
 096:23:35|O|CMP|Houston, Columbia. Reading you loud and clear. How me? Over.
 096:23:37|T|CMP|Houston ...
-096:24:00|O|CMP|Hey, Buzz? How about - -
+096:23:59|O|CMP|Hey, Buzz? How about - -
 096:24:44|T|CC|Hello, Eagle. This is Houston. We've got a noisy downlink on the downvoice backup. Would you please select S band voice to VOICE? Over.
 096:25:50|T|CC|Columbia, this is Houston. Do you read? Over.
 096:25:57|T|CMP|Houston, Columbia. Reading you loud and clear. How me?
@@ -7135,43 +7187,44 @@
 096:26:15|T|CC|Roger. Just getting a voice check. Say the page you're on in the activation checklist. Over.
 096:26:24|T|LMP|Roger. I'm on page 27. Over.
 096:26:27|T|CC|Roger. Understand 27. We copy. Out.
-096:27:07|T|CC|Columbia, this is Houston. Would you please give us P00 in ACCEPT. We have a state vector for you. Over.
-096:27:15|T|CMP|Stand by one.
-096:28:21|T|CMP|Houston, Columbia. You have P00 in ACCEPT, and how are you reading me now?
-096:28:26|T|CC|Roger. Understand, we have P00 in ACCEPT. You're about three by in - on the voice, Mike. Over.
+096:27:07|T|CC|Columbia, this is Houston. Would you please give us P00 and ACCEPT. We have a state vector for you. Over.
+096:27:16|T|CMP|Stand by one.
+096:28:22|T|CMP|Houston, Columbia. You have P00 and ACCEPT, and how are you reading me now?
+096:28:26|T|CC|Roger. Understand, we have P00 and ACCEPT. You're about three by in - on the voice, Mike. Over.
 096:28:35|T|CMP|Okay. You're coming in loud and clear, and I'm configured for normal voice. If you've got any switch changes, let me know.
 096:28:42|T|CC|Roger. We've got some noise somewhere in the system down here, I think. We're working on it. And I've got a 130 landmark update for you, and also a DAP load whenever you're ready to copy. Over.
 096:28:59|T|CMP|Stand by one.
 096:29:20|T|CMP|Go ahead with the 130 update.
-096:29:22|T|CC|Roger, Mike. Coming at you with the 130, P1 is 98 37 35, P2 98 42 44, 4 miles north. Over.
-096:29:52|T|CMP|Okay. P1 98 37 35, P2 98 42 44, 4 miles north of track; and go ahead with your DAP load.
+096:29:23|T|CC|Roger, Mike. Coming at you with the 130. P1 is 98:37:35; P2, 98:42:44, 4 miles north. Over.
+096:29:52|T|CMP|Okay. P1, 98:37:35; P2, 98:42:44; 4 miles north of track. And go ahead with your DAP load.
 096:30:04|T|CC|Roger. CSM weight 36651, LM weight 33627, pitch trim minus 0.72, yaw trim plus 0.51. Over.
 096:30:32|T|CMP|36651, 33627, minus 0.72, plus 0.51. Over.
 096:30:40|T|CC|Both are good readbacks. Out.
-096:30:46|T|LMP|Houston, Eagle. Are you satisfied with the LGC self test? Over.
-096:30:52|T|CC|Roger. Understand. You passed the LGC self test. Over.
-096:30:59|T|LMP|Negative. I was asking you if you were satisfied with it. As far as I can tell, it's satisfactory. And also the primary EVAP flow is actuated to number 1 at 96 05. Over.
+096:30:46|T|LMP|Houston, Eagle. Are you satisfied with the LGC self-test? Over.
+096:30:53|T|CC|Roger. Understand. You passed the LGC self test. Over.
+096:30:59|T|LMP|Negative. I was asking you if you were satisfied with it. As far as I can tell, it's satisfactory. And also the primary EVAP flow is actuated to number 1 at 96:05. Over.
 096:31:11|T|CC|Roger. Copy on the primary EVAP. We've got the low bit rate, Buzz. We couldn't see that LGC self test. Over.
 096:31:20|T|LMP|Okay.
 096:31:27|T|CMP|Houston, Columbia. The docking tunnel index angle remains unchanged.
-096:31:32|T|CC|Roger. Copy. Out.
+096:31:33|T|CC|Roger. Copy. Out.
 096:32:07|T|LMP|Houston, Eagle is going to secondary transmitter/receiver and secondary power amplifier, and I'll check with you in 60 seconds. Over.
 096:32:16|T|CC|Roger. Stand by. We're standing by. Over.
 096:32:23|T|LMP|Okay.
 096:32:29|T|CC|Columbia, Houston. We are through with the computer. You can go back to BLOCK. Over.
-096:33:00|P|PAO|LM communications, engineer reports that we're on the LM steerable antenna. This apparently accounts for the quiet communications we're getting at this point.
-096:33:14|T|LMP|Houston, Eagle. On secondary transmitter/receiver and power amplifier, how do you read? Over. 1, 2, 3, 4, 5. Over.
-096:33:21|T|CC|Roger. Reading you five by, Buzz. How me? 1, 2, 3, 4, 5; 5, 4, 3, 2, 1. Out.
+096:33:15|T|LMP|Houston, Eagle. On secondary transmitter/receiver and power amplifier, how do you read? Over. 1, 2, 3, 4, 5. Over.
+096:33:22|T|CC|Roger. Reading you five by, Buzz. How me? 1, 2, 3, 4, 5; 5, 4, 3, 2, 1. Out.
 096:33:30|T|LMP|Roger. That's about the same as before. Switching back to PRIMARY.
 096:33:34|T|CC|Roger.
 096:34:27|T|LMP|Houston, Eagle. Back on PRIMARY, and I'm ready to proceed with the steerable antenna activation.
 096:34:34|T|CC|Roger. We're standing by, Buzz. Go ahead. Over.
-096:34:45|T|LMP|And I'll go to BIOMED left - right momentarily.
-096:34:49|T|CC|Roger.
+096:34:46|T|LMP|And I'll go to BIOMED left - right momentarily.
+096:34:50|T|CC|Roger.
+096:36:23|P|PAO|LM communications engineer reports that we're on the LM steerable antenna. This apparently accounts for the quiet communications we're getting at this point.
 096:36:40|T|LMP|Houston, Eagle. Got a real nice lock on - lockon on the steerable antenna, and you should be receiving BIOMED right and PCM high. Over.
-096:36:53|T|CC|Roger, Eagle. We got you five by. It's really beautiful. We've got the high bit rate and the BIOMED. Out.
+096:36:54|T|CC|Roger, Eagle. We got you five by. It's really beautiful. We've got the high bit rate and the BIOMED. Out.
 096:37:07|T|CC|Eagle, Houston. Do you copy? Over.
-096:37:13|T|LMP|Roger. Copy.
+096:37:14|T|LMP|Roger. Copy.
+096:37:19|T|SC|You got CMP in IRIG-5 and LMP on IRIG-7.
 096:39:26|T|LMP|Houston, Eagle. For your information, we're doing the glycol pump check now.
 096:39:30|T|CC|Roger. Copy.
 096:39:44|T|LMP|And there's the secondary glycol pump.
@@ -7182,25 +7235,25 @@
 096:42:51|T|LMP|Houston.
 096:42:54|T|CMP/LMP|Go ahead, Houston.
 096:42:56|T|CC|Roger, Columbia. We noticed your DAP configuration. We'd like you to turn off B3 and C4, Mike, and for register 2 in the DAP, we'd like all ones. Over.
-096:43:00|P|PAO|This is Apollo Control. Armstrong is now in the Lunar Module, in Eagle, and the LM activation and checkout appears to be going along very well somewhat ahead of schedule.
-096:43:21|T|CMP|B3 and C4 are both off on panel 8 and I understand you want - Say again what you want on register 2.
+096:43:22|T|CMP|B3 and C4 are both off on panel 8 and I understand you want - Say again what you want on register 2.
 096:43:29|T|CC|Roger. In the DAP, we'd like you load all ones. Over.
-096:43:36|T|CMP|All right.
+096:43:37|T|CMP|All right.
 096:44:08|T|CC|Columbia, Houston. Did you hit the COMMAND RESET around - after LOS on the last pass? Over.
-096:44:19|T|CMP|That's affirmative. When we were having difficulty getting you, Charlie, I pushed the COMMAND RESET to make sure I had control of high-gain.
+096:44:19|T|CMP|That's affirmative. When we were having difficulty getting you, Charlie here, I pushed the COMMAND RESET to make sure I had control of high-gain.
 096:44:26|T|CC|Roger. Thank you much. We're in good shape now. Over.
-096:44:31|T|CMP|Okay.
+096:44:32|T|CMP|Okay.
 096:46:19|T|LMP|Houston, Eagle. Can you tell me if you're picking up BIOMED on the CDR now? Over.
-096:46:26|T|CC|Stand by.
+096:46:27|T|CC|Stand by.
 096:46:44|T|CC|Eagle, Houston. We're not getting any BIOMED from the CDR now. Over.
 096:46:53|T|LMP|Roger. Understand.
-096:47:58|T|CC|Eagle, Houston. We got the BIOMED on the commander now. Over.
-096:48:06|T|LMP|Very good. Thank you.
-096:49:19|T|LMP|Houston, Eagle. We're ready for an E memory dump if you are. Over.
-096:49:23|T|CC|Roger. We're ready. Go.
-096:49:58|T|CC|Eagle, this is Houston. We see the optics zero switch on. Before you take some marks, don't forget to cycle it back off and on, and then on. Over.
+096:47:59|T|CC|Eagle, Houston. We got the BIOMED on the commander now. Over.
+096:48:07|T|LMP|Very good. Thank you.
+096:49:20|T|LMP|Houston, Eagle. We're ready for an E memory dump if you are. Over.
+096:49:24|T|CC|Roger. We're ready. Go.
+096:49:59|T|CC|Eagle, this is Houston. We see the optics zero switch on. Before you take some marks, don't forget to cycle it back off and on, and then on. Over.
 096:50:12|T|LMP|Roger. Houston, Eagle here. I wish we had one of those optics. I'll tell Mike about it.
 096:50:18|T|CC|Roger, Columbia. Excuse me. Sorry about that.
+096:50:46|P|PAO|This is Apollo Control. Armstrong is now in the Lunar Module, in Eagle, and the LM activation and checkout appears to be going along very well somewhat ahead of schedule.
 096:53:00|P|PAO|This is Apollo Control. We have about 33 minutes left in this pass before loss of signal. Neil Armstrong confirmed that the LM power switch occurred at 95 hours 54 minutes, which would have put that activity about 30 minutes ahead of the Flight Plan's schedule, and that appears to be about the pace that the crew is holding, that Armstrong and Aldrin are holding and getting the LM activated and checked out. At this time Buzz Aldrin has returned to the Command and Service Module where he will be donning his pressure garment and then rejoin Armstrong in Eagle.
 096:57:04|T|CC|Eagle, Houston. Could you give us a hack on the time that you switched to LM power and also verify that we're on glycol pump 1. Over.
 096:57:20|T|CDR|This is Eagle. We're on pump 1, stand by for the switchover time.
