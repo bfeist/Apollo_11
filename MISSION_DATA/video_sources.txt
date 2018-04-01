@@ -1,0 +1,123 @@
+501	NASA: JSC: APOLLO 11 ONBOARDS (part 1)
+502	NASA: JSC APOLLO 11 ONBOARDS (part 2) Scanned Jan 2007
+545	Story 6: Apollo 11 countdown Launch Control Centre: 16.7.69 ex FR7709 17:00:15 - 17:15:49
+545	Story 7: Apollo 11 recovery ex FR7742 17:16:50 - 17:23:20
+545	Story 8: USS Hornett: Apollo 11 astronauts meets Nixon ex FR7743 - 17:24:20 - 17:44:35
+545	Story 9: Rockwell employees watch Apollo 11 ex FR7868 / 16.7.69 17:45:35 - 17:55:07
+546	16mm film rushes copied at Grace and Wild Story 1: VIP,s and crowds at Cocoa Beach for Apollo 11 ex FR7762 18:00:30 - 18:23:41
+559	Story 1: Apollo 11 Launch ex E8 (KSC-69-71218 - Box 77) 01:00:00
+559	Story 2: Apollo 11 Launch, shows overall tail service ex E27 (KSC69-71230) 01:12:00
+559	Story 3: Apollo 11 launch ex E28 (KSC69-71231) 01:18:00
+559	Story 4: Apollo 11 Launch ex E-49 (KSC69-71246) 01:24:45
+559	Story 5: Apollo 11 Launch ex D134 (KSC69-71265) 01:31:05
+559	Story 6: Apollo 11 launch ex E-76 (ksc69-71265) 01:38:10
+559	Story 7: Apollo 11 launch ex E211 (KSC-69 71293) 01:43:40
+559	Story 8: Apollo 11 Launch ex E214 (KSC-69-71291) 01:48:30
+563	Apollo 11 Rollout 20.5.69 ex FR7566 (08:00:00 - 08:21:15)
+563	Apollo 11 Rollout 20.5.69 ex FR7567 (08:22:15 - 08:39:17)
+563	Apollo animation for lunar landing ex FR7580 (08:40:20-08:54:07)
+563	Apollo 11 MOCR activities in recovery room 24.7.79 (09:41:20 - 09:56:02)
+564	Story 1: Apollo 11 pre launch activity part 1 / 1.7.69: ex FR7676 (10:00:30 - 10:23:13)
+564	Story 2: Apollo 11 pre launch activity 1.7.69 ex FR7677 (10:24:15 - 10:30:17)
+564	
+564	Story 3: Mission Control waiting for 1st launch ex FR7684 (10:31:20 - 10:54:15)
+564	Story 4: Apollo 11 MOCR activity on the 5th day 20.7.69 for moon landing ex FR7865 (10:55:17 - 11:15:17)
+564	Story 5: Apollo 11 Mission Control on 5th day 20.7.69 ex FR7702 (11:16:20 - 11:38:49) Great shots for PDS
+564	Story 6: Apollo 11 prime crew suiting up for CDD 3.7.69 ex FR7802 (11:39:50 -11:42:54)
+564	Story 7: Apollo 11 astronauts on moon / split screen, Nixon ex FR7803 (11:43:55 - 11:46:54)
+565	Mission Control 20.7.69 ex FR7687 (12:00:30 - 12:23:27)
+616	Apollo 11 crew ingress MQF; Armstrong birthday August 1969 ex FR7825 (03:43:10 - 03:52:36)
+638	Story 1: Suiting activities prior to Apollo 11 16.07.69 ex 255 S 4598 (01:00:00 - 01:15:00)
+639	Story 1: Apollo 11 USS Hornet ex 255 S 4578 (02:00:00 - 02:23:00)
+639	Story 2: Not relevant ex 255 S 2141 (02:23:00 - 02:29:15)
+639	Story 3: Apollo 11 crew breakfasting ex 255 S 4596 (02:29:15 - 02:34:47)
+662	Grace and Wild rushes: MOCR Apollo 11 Day 5 - MOCR
+662	Grace and Wild rushes: MOCR Apollo 11 Day 5 - MOCR
+704	NTSC Digibeta: Apollo 11 Downlink Â ex VJSC 1425H. With AUDIO EX master 728184 Â (1 Hour 30 minutes)
+704	APOLLO 11 FACTS RR 08 - LM CHECKOUT AND OBSERVATION OF CM 18.7.69 ex
+704	APOLLO 11 FACTS RR 08 - DOCKING PROBE AND LM CHECKOUT - 18.7.69 ex Cut 3, EX AK-015 - AK-016
+704	APOLLO 11 FACTS RR 08 - LM CHECKOUT - Cut 4: - 18.7.69 ex AK-017
+705	NTSC Digibeta: Apollo 11 Downlink ex Â VJSC 14251. With audio ex master 719661Â (1 Hour 20 minutes) / No DVD 
+705	Lunar Surface Observation ex AK-018 / Cut 2 ex AK-018 / 19.7.69
+705	Lunar observation ex RR09 - AK-019 / Cut 3 / 19.7.69 (Duration 26m06s)
+705	Lunar View and Crew activities with crew statements ex Cut 4 ex RR09 ex AK-020 ( Duration 27m00s )
+705	SLATE 2: Apollo 11 CREW ACTIVITIES - GMT 204:22:11 - 204:23:16
+706	NTSC Digibeta : Apollo 11 Downlink ex VJSC-1425G. With audio ex Master 719771 (1 Hour 32ms)
+706	Slate 2: View of earth and crew: GMT 198:23:31 - 198:23:54
+706	Cut 3: View of crews and earth systems identification and check out; 198:23:54 - 199:00:07
+706	Systems identification and LM checkout 199:00:26 - 199:01:11
+706	Cut 3: View of crews and earth systems identification and check out; 198:23:54 - 199:00:07
+713	Apollo 11 EVA Tapes ex VSJC 1425L ex 607008
+714	Apollo 11 downlinks on MOCR screen: 6 of 9 ex 607009
+724	non-hd KSC video material Apollo 11 - bad quality
+725	non-hd KSC NTSC: Apollo 11 Countdown
+
+KSC Apollo 11 Crew (Armstrong, Collins, Aldrin) Ingressing CM During CDDT   	1969-07-01	L000415/FR-7675
+MSC (AV) MOCR Activity During 1st Day of Apollo 11 Mission - Part 2 of 2 MSC (AV) MOCR Activity During 1st Day of Apollo 11 Mission - Part 2 of 2  	1969-07-01	L000417/FR-7679 - part 2 not listed in HD tape 564 where part 1 is.
+MSC (AV) Apollo 11 MOCR Activity During 2nd Day of the Mission MSC (AV) Apollo 11 MOCR Activity During 2nd Day of the Mission  	1969-07-01	L000411/FR-7680
+MSC (AV) Apollo 11 MOCR Activity During the 3rd Day of the Mission MSC (AV) Apollo 11 MOCR Activity During the 3rd Day of the Mission  	1969-07-01	L000413/FR-7681
+MSC (AV) Apollo 11 MOCR Activity During the 4th Day of the Mission MSC (AV) Apollo 11 MOCR Activity During the 4th Day of the Mission  	1969-07-01	L000413/FR-7682
+MSC (AV) Apollo 11 MOCR Activity on Day 6 MSC (AV) Apollo 11 MOCR Activity on Day 6  	1969-07-01	L000413/FR-7688
+MSC (AV) Apollo 11 MOCR Activity on Day 6 MSC (AV) Apollo 11 MOCR Activity on Day 6  	1969-07-01	L000417/FR-7689
+MSC (AV) Apollo 11 MOCR Activity on the 5th day of the Mission MSC (AV) Apollo 11 MOCR Activity on the 5th day of the Mission  	1969-07-01	L000419/FR-7690
+MSC (AV) Apollo 11 MOCR Activity on Day 6 MSC (AV) Apollo 11 MOCR Activity on Day 6  	1969-07-01	L000419/FR-7691
+MSC (AV) Apollo 11 MOCR Activity on Day 7 MSC (AV) Apollo 11 MOCR Activity on Day 7  	1969-07-01	L000419/FR-7692
+MSC (AV) Apollo 11 MOCR Activity on Day 8 MSC (AV) Apollo 11 MOCR Activity on Day 8  	1969-07-01	L000419/FR-7693
+MSC (AV) Apollo 11 MOCR Activity During Recovery (Recovery Room) MSC (AV) Apollo 11 MOCR Activity During Recovery (Recovery Room) APOLLO 11 MOCR ACTIVITY DURING RECOVERY (FR-7694 DISCOVERY 24P HDCAM MASTER) 	1969-07-24	L000421/FR-7694
+MSC (AV) Apollo 11 MOCR Activity During Recovery (Recovery Room) MSC (AV) Apollo 11 MOCR Activity During Recovery (Recovery Room)  	1969-07-01	
+MSC (AV) Apollo 11 MOCR Activity During Recovery (Recovery Room) MSC (AV) Apollo 11 MOCR Activity During Recovery (Recovery Room)  	1969-07-01	L000421/FR-7696
+MSC (AV) Apollo 11 MOCR Activity During Recovery MSC (AV) Apollo 11 MOCR Activity During Recovery  	1969-07-01	L000421/FR-7697
+KSC Apollo 11 Tracking  AS-506 APOLLO 11 TRACKING (FR-7698 DOX HDCAM MASTER) 	1969-07-01	L000421/FR-7698
+KSC Apollo 11 Astronauts (Armstrong, Collins, Aldrin) Walking Across Swing Arm No. 9 to White Room   	1969-07-01	L000423/FR-7703
+KSC Astronauts Shepard and Mitchell Checking Apollo 13 ALSEP and MESA Packages   	1969-07-01	L000423/FR-7704
+KSC Apollo 11 Launch (Good)   	1969-07-01	
+KSC Apollo 11 Tracking   	1969-07-01	L000423/FR-7706
+KSC Apollo 11 Launch - Hold Down Arm No. 2   	1969-07-01	L000423/FR-7707
+KSC Apollo 11 Pre-Launch Alert Including MSS Pullback   	1969-07-01	L000425/FR-7708
+KSC Apollo 11 Launch Showing Swing Arm and Umbilical Disconnect   	1969-07-01	L000427/FR-7727
+MSC (PTL) Apollo 11 TV Transmission at GET 109:22 to 114:25 - Moon Walk - Part 1 of 9   	1969-07-01	L000427/FR-7728
+MSC (PTL) Apollo 11 TV Transmission at GET 109:22 to 114:25 - Moon Walk - Part 2 of 9   	1969-07-01	L000427/FR-7729
+MSC (PTL) Apollo 11 TV Transmission at GET 109:22 to 114:25 - Moon Walk - Part 3 of 9   	1969-07-01	L000433/FR-7730
+MSC (PTL) Apollo 11 TV Transmission at GET 109:22 to 114:25 - Moon Walk - Part 4 of 9   	1969-07-01	L000433/FR-7731
+MSC (PTL) Apollo 11 TV Transmission at GET 109:22 to 114:25 - Moon walk - Part 5 of 9   	1969-07-01	L000429/FR-7732
+MSC (PTL) Apollo 11 TV Transmission at GET 109:22 to 114:25 - Moon Walk - Part 6 of 9   	1969-07-01	L000429/FR-7733
+MSC (PTL) Apollo 11 TV Transmission at GET 109:22 to 114:25 - Moon Walk - Part 7 of 9   	1969-07-01	L000429/FR-7734
+MSC (PTL) Apollo 11 TV Transmission at GET 109:22 to 114:25 - Moon Walk - Part 8 of 9   	1969-07-01	L000429/FR-7735
+MSC (PTL) Apollo 11 TV Transmission at GET 109:22 to 114:25 - Moon Walk - Part 9 of 9   	1969-07-01	L000431/FR-7736
+MSC (AV) Press Center During Apollo 11 Mission   	1969-07-01	L000431/FR-7737
+MSC (PTL) Apollo 11 Recovery - Part 1 of 5   	1969-07-01	L000431/FR-7740	
+MSC (PTL) Apollo 11 Recovery - Part 2 of 5   	1969-07-01	L000433/FR-7741	
+MSC (PTL) Apollo 11 Recovery - Part 3 of 5  APOLLO 11 RECOVERY - PART 3 OF 5 (FR-7742 DISCOVERY 24P HDCAM) 	1969-07-01	L000435/FR-7742	545
+MSC (PTL) Apollo 11 Recovery - Part 4 of 5 (Nixon)  APOLLO 11 RECOVERY - PART 4 OF 5 (FR-7743 DISCOVERY 24P HDCAM) 	1969-07-01	L000435/FR-7743	545
+MSC (PTL) Apollo 11 Recovery - Part 5 of 5 (Nixon)   	1969-07-01	L000435/FR-7744	
+KSC Apollo 11 Launch   	1969-07-01	L000435/FR-7745	
+KSC Apollo 11 Launch   	1969-07-01	L000435/FR-7748
+KSC Apollo 11 Launch and Track   	1969-07-01	L000435/FR-7749
+KSC Apollo 11 Launch and Swing Arm Disconnect   	1969-07-01	L000435/FR-7750
+KSC Apollo 11 Tracking First Stage Centered for Flight and Structual Surveillance   	1969-07-01	L000435/FR-7751
+KSC Apollo 11 Launch S-IVB Forward Swing Arm and LM Umbilical Disconnect   	1969-07-01	L000435/FR-7752
+KSC Apollo 11 Launch (Entire Vehicle Plus One Vehicle Length of Flight)   	1969-07-01	L000437/FR-7753
+MSC (PTL) Apollo 11 Samples and Flight Film at the LRL Received from the CRA   	1969-07-01	L000437/FR-7754
+MSC (PTL) CM Activity in the CRA of the LRL   	1969-07-01	L000437/FR-7755
+MSC (AV) Second Lunar Samples Arrival at EAFB   	1969-07-01	L000437/FR-7756
+KSC Apollo 11 Launch   	1969-07-01	L000437/FR-7757
+KSC Apollo 11 Post Launch Pad Damage   	1969-07-01	L000437/FR-7758
+KSC Apollo 11 Launch and Track   	1969-07-01	L000437/FR-7761
+KSC Apollo 11 Tracking RTCB   	1969-07-01	L000437/FR-7764
+Washington Headquarters Apollo 11 Pool Footage - Part 2 of 2   	1969-07-01	L000439/FR-7766
+KSC Apollo 11 Launch   	1969-07-01	L000439/FR-7767
+KSC Apollo 11 Launch - CM Swing Arm Disconnect   	1969-07-01	L000439/FR-7770
+KSC Apollo 11 Re-Entry (ALOTS)   	1969-07-01	L000441/FR-7782
+
+
+MISSING FRS:
+FR-7717			MSC (PTL) Apollo 11 TV Transmission on the 1st Day at GET 10:32 to 10:49   
+FR-7718			MSC (PTL) Apollo 11 TV Transmission on the 2nd Day at GET 34:02 to 34:55 - Part 1 of 2   
+FR-7719			MSC (PTL) Apollo 11 TV Transmission on the 2nd Day at GET 34:02 to 34:55 - Part 2 of 2   
+FR-7720			MSC (PTL) Apollo 11 TV Transmission on Day 3 at GET 55:09 to 55:43 - Part 1 of 2   
+FR-7721			MSC (PTL) Apollo 11 TV Transmission on Day 3 at GET 55:09 to 55:43 - Part 2 of 2   
+FR-7722			MSC (PTL) Apollo 11 TV transmission on Day 3 at GET 55:47 to 56:05 - Part 1 of 2   
+FR-7723			MSC (PTL) Apollo 11 TV Transmission on Day 3 at GET 55:47 to 56:05 - Part 2 of 2   
+FR-7724			MSC (PTL) Apollo 11 TV Transmission on Day 3 at GET 56:24 to 56:43   
+FR-7725			MSC (PTL) Apollo 11 TV Transmission on Day 4 at GET 78:24 to 78:58 - Part 1 of 2   
+FR-7726			MSC (PTL) Apollo 11 TV Transmission on Day 4 at GET 78:24 to 78:58 - Part 2 of 2   

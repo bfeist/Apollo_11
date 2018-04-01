@@ -7254,45 +7254,46 @@
 096:50:12|T|LMP|Roger. Houston, Eagle here. I wish we had one of those optics. I'll tell Mike about it.
 096:50:18|T|CC|Roger, Columbia. Excuse me. Sorry about that.
 096:50:46|P|PAO|This is Apollo Control. Armstrong is now in the Lunar Module, in Eagle, and the LM activation and checkout appears to be going along very well somewhat ahead of schedule.
-096:53:00|P|PAO|This is Apollo Control. We have about 33 minutes left in this pass before loss of signal. Neil Armstrong confirmed that the LM power switch occurred at 95 hours 54 minutes, which would have put that activity about 30 minutes ahead of the Flight Plan's schedule, and that appears to be about the pace that the crew is holding, that Armstrong and Aldrin are holding and getting the LM activated and checked out. At this time Buzz Aldrin has returned to the Command and Service Module where he will be donning his pressure garment and then rejoin Armstrong in Eagle.
-096:57:04|T|CC|Eagle, Houston. Could you give us a hack on the time that you switched to LM power and also verify that we're on glycol pump 1. Over.
-096:57:20|T|CDR|This is Eagle. We're on pump 1, stand by for the switchover time.
-096:57:26|T|CC|Roger.
-096:57:57|T|CDR|The switch time to LM power is 95 54 00. Over.
-096:58:03|T|CC|Roger. Copy, Neil. Is Buzz back in the Columbia now? Over.
-096:58:10|T|CDR|Yes. He is.
+096:57:05|T|CC|Eagle, Houston. Could you give us a hack on the time that you switched to LM power and also verify that we're on glycol pump 1. Over.
+096:57:21|T|CDR|This is Eagle. We're on pump 1, stand by for the switchover time.
+096:57:27|T|CC|Roger.
+096:57:58|T|CDR|The switch time to LM power is 95:54:00. Over.
+096:58:04|T|CC|Roger. Copy, Neil. Is Buzz back in the Columbia now? Over.
+096:58:11|T|CDR|Yes. He is.
 096:58:12|T|CC|Roger. Thank you.
-097:00:04|T|CDR|Hello, Columbia, this is Eagle on Simplex B. How do you read?
-097:00:10|T|CMP|You are loud and clear in Simplex B, Neil.
-097:00:13|T|CDR|Roger. Read you loud and clear.
-097:00:24|T|CDR|Okay. Would you configure for Simplex A, please?
+096:58:31|P|PAO|This is Apollo Control. We have about 33 minutes left in this pass before loss of signal. Neil Armstrong confirmed that the LM power switch occurred at 95 hours 54 minutes, which would have put that activity about 30 minutes ahead of the Flight Plan's schedule, and that appears to be about the pace that the crew is holding, that Armstrong and Aldrin are holding and getting the LM activated and checked out. At this time Buzz Aldrin has returned to the Command and Service Module where he will be donning his pressure garment and then rejoin Armstrong in Eagle.
+097:00:05|T|CDR|Hello, Columbia, this is Eagle on Simplex B. How do you read?
+097:00:11|T|CMP|You are loud and clear in Simplex B, Neil.
+097:00:14|T|CDR|Roger. Read you loud and clear.
+097:00:25|T|CDR|Okay. Would you configure for Simplex A, please?
 097:00:30|T|CMP|Roger. Going to Simplex A.
-097:01:05|T|CDR|Columbia, Eagle. How do you read on VHF A?
+097:01:06|T|CDR|Columbia, Eagle. How do you read on VHF A?
 097:01:09|T|CMP|Reading you loud and clear on A.
 097:01:11|T|CDR|Roger. Read you loud and clear.
 097:01:22|T|CDR|And I'm ready to get a time hack from you. Load the CSM time.
 097:01:29|T|CMP|Okay.
-097:01:42|T|CMP|Do you want the T EPHEM first?
-097:01:46|T|CDR|Let's get your clock first and then we'll get T EPHEM.
+097:01:43|T|CMP|Do you want the T EPHEM first?
+097:01:47|T|CDR|Let's get your clock first and then we'll get T EPHEM.
 097:01:50|T|CMP|Okay.
-097:01:53|T|CDR|Give me a time for load.
-097:01:59|T|CMP|97 01 30. Correction on that, Neil. 97 - make that 97 03 30.
-097:02:23|T|CDR|Okay. I have 97 03 30 set in.
-097:02:27|T|CMP|Okay. And you've got about a minute to go.
+097:01:54|T|CDR|Give me a time for load.
+097:01:59|T|CMP|97:01:30. Correction on that, Neil. 97 - make that 97:03:30.
+097:02:24|T|CDR|Okay. I have 97:03:30 set in.
+097:02:28|T|CMP|Okay. And you've got about a minute to go.
 097:02:29|T|CDR|Okay.
-097:03:17|T|CMP|15 seconds to go. 10. 5, 4, 3, 2, 1.
-097:03:32|T|CMP|1.
+097:03:15|T|CMP|15 seconds to go.
+097:03:23|T|CMP|10.
+097:03:25|T|CMP|5, 4, 3, 2, 1.
 097:03:33|T|CMP|MARK it.
-097:03:34|T|CMP|97 03 30.
-097:03:35|T|CDR|Got it.
-097:03:46|T|CDR|Okay. Let's do a 0665 on my Mark.
-097:03:59|T|CDR|Did you get that, Mike?
+097:03:33|T|CMP|97:03:30.
+097:03:36|T|CDR|Got it.
+097:03:47|T|CDR|Okay. Let's do a 06 65 on my Mark.
+097:04:00|T|CDR|Did you get that, Mike?
 097:04:01|T|CMP|Standing by for your Mark.
 097:04:03|T|CDR|Okay, 3, 2, 1.
 097:04:06|T|CDR|MARK.
-097:04:08|T|CMP|Okay. 97 04 03.86.
+097:04:09|T|CMP|Okay. 97:04:03.86.
 097:04:20|T|CDR|Okay. I'm within three hundredths. That's within our ability to keep together, I think.
-097:04:26|T|CMP|Roger.
+097:04:27|T|CMP|Right.
 097:04:46|T|CDR|Okay. Now you want to give me T EPHEM VERB 05, NOUN 01 ENTER?
 097:04:56|T|CMP|Okay. I've got VERB 05, NOUN 01, ENTER. Going to 17 06 ENTER.
 097:05:00|T|CDR|Roger.
