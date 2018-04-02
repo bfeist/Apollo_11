@@ -2616,7 +2616,8 @@
 030:52:13|T|CC|Hello, 11. We see your heart beating.
 030:52:18|T|CMP|Okay, Well - look at the CDR's and the CMP's and see if they go up any. We're all running in place up here. You wouldn't believe it.
 030:52:26|T|CC|I'd like to see that sight. Why don't you give us a TV picture of that one.
-030:52:32|T|CMP|I think Buzz is trying. You got it.
+030:52:32|T|CMP|I think Buzz is trying.
+030:52:35|T|LMP|You got it.
 030:52:36|T|CC|Okay. It's coming in at Goldstone, Buzz. As Bruce said, we don't have it here in the center.
 030:52:59|T|LMP|I'm afraid this isn't going to help out the PTC very much.
 030:53:06|T|CMP|Yes. I don't know if it's a vibration or what it is, but it makes the pitch and yaw rate needles on FDAI number 1 jump up and down a little bit where we jump up and down.
@@ -3600,10 +3601,10 @@
 056:03:53|T|CC|Roger. We haven't quite got that before the 50,000,000 TV audience, yet.
 056:04:17|T|CC|11, Houston. That's a good view of the eight ball. We see - You can even read the OFF flag, there.
 056:04:30|T|CC|You can see the signal strength meter for the radar, read the numbers on it.
+056:04:38|T|LMP|Houston, did you want us to test the cameras in the LM and - I was wondering about that. I saw it in the Flight Plan, but I'm just wondering if you want to do that on CSM power, or do you want us to take both of the 16mm cameras back in the CSM and test them there? Over.
 056:04:55|PAO|At this point, we have had to take the color down momentarily. We've run out of tape in the color conversion recorder. We estimate we'll have the black and white for about 5 minutes while the tape changes in process and then continue to convert in color after that point.
-056:04:54|T|LMP|Houston, did you want us to test the cameras in the LM and - I was wondering about that. I saw it in the Flight Plan, but I'm just wondering if you want to do that on CSM power, or do you want us to take both of the 16mm cameras back in the CSM and test them there? Over.
-056:05:18|T|CC|Stand by, Buzz.
-056:05:17|T|LMP|As an alternative to that, why, we could wait LOI day and do it then when we transfer over to LM power.
+056:05:02|T|CC|Stand by, Buzz.
+056:05:05|T|LMP|As an alternative to that, why, we could wait LOI day and do it then when we transfer over to LM power.
 056:05:22|T|CC|Roger. Stand by. We'll have an answer.
 056:05:36|T|CC|11, Houston. On that TV, our commentary - The monitor I was looking at was delayed about 12 seconds, 12 to 15 seconds while it went through our color converter. It was probably - You thought I was crazy, but we were looking at it 15 seconds after you broadcast it. 11, Houston - -
 056:05:56|T|LMP|We understood that, Charlie.
@@ -3699,124 +3700,125 @@
 056:32:59|T|CC|11, you got a pretty big audience. It's live in the U.S. It's going live to Japan, Western Europe, and much of South America. Everybody reports very good color. Appreciate the great show.
 056:33:16|T|LMP|Roger. Understand. Thank you.
 056:33:48|T|CC|Buzz, that was a good demonstration of your EVA visor assembly. Appreciate it.
-056:34:49|T|CC|Well, that's a good view of Mr. Collins down there. We finally see him again.
-056:34:57|T|CMP|Hello there, earthlings.
-056:35:02|T|CC|Hello there.
-056:35:32|T|CC|11, Houston. We noticed when you were scanning over Panel 2 a moment ago, 1 and 2, the two eight balls were slightly in disagreement. Control said he'd like a AGS align, there.
-056:35:49|T|LMP|Yes. One of them's AGS, one of them's PNGS. The problem is, we don't know whether to align AGS to PNGS or PNGS to AGS.
-056:36:00|T|CC|Stand by.
-056:36:08|T|CC|11, Chris said he can tell you.
-056:36:15|T|LMP|We'll cage them both.
-056:36:18|T|CC|Roger.
-056:37:11|T|LMP|Like old home week, Charlie, to get back in the LM again.
-056:37:14|T|CC|Roger. I can imagine.
-056:37:34|T|LMP|The traverse from the bottom of the LM to the aft bulkhead of the Command Module must be about 16, 20 feet. It's not a disorienting one at all, but it's most interesting to contemplate just pushing off from one and bounding on into the other vehicle all the way through the tunnel.
-056:37:55|T|CC|Roger. Must be some experience. Is Collins going to go in and look around?
-056:38:06|T|CDR|We're willing to let him go but he hasn't come up with the price of the ticket yet.
-056:38:11|T|CC|Roger. I'd advise him to keep his hands off the switches.
-056:38:19|T|CMP|If I can get him to keep his hands off my DSKY, it'd be a fair swap.
-056:38:23|T|CC|Roger.
-056:38:28|T|LMP|That's why I've been eating so much today. I haven't had anything to do. He won't let me touch it any more.
-056:38:33|T|CC|Roger.
-056:38:53|P|PAO|It appears now that we have a view of Earth out the window.
-056:39:05|T|CC|11, Houston. If that's not the Earth, we're in trouble.
-056:39:10|T|CDR|That's the Earth, and we have a very good view of it today. There are a few more cloud bands on than yesterday when we beamed down to you, but it's a beautiful sight.
-056:39:29|P|PAO|That description from Neil Armstrong.
-056:39:44|T|CDR|We have some horizontal banding in our TV monitor. Are we transmitting that to you, or do you have a clear picture?
-056:39:51|T|CC|Neil, we have a very clear picture. The only thing that we see is a little white dot in the bottom of our screen, which is - our TV guys say is an - apparently a burned out spot in the camera, but it should come back. Over.
-056:40:09|T|CDR|Roger. We have that in our monitor also.
-056:40:30|T|CC|11, Houston. We do have three lines across our TV. I thought it was just a transmission problem, but everybody's telling me now that it's probably - it's on the downlink. Over.
-056:40:45|T|LMP|No, those are the same three ones that we have.
-056:40:48|T|CC|Okay.
-056:40:58|T|LMP|How far are - out are we now, Charlie?
-056:41:01|T|CC|Stand by. Give you exact figure.
-056:41:10|T|LMP|Did you notice the difference between yesterday and today? This is as large an image we can - we can give you.
-056:41:15|T|CC|Roger. If you think we're smaller, you're now 177,000 miles out. Over.
-056:41:24|T|LMP|Thank you.
-056:41:25|T|CDR|That's nautical miles?
-056:41:27|T|CC|That's affirmative, 11. We -
-056:41:33|T|LMP|... Hold on.
-056:41:34|T|CC|Go ahead. Over.
-056:41:44|T|CC|11, Houston. We see the - still see the banding along the intra-tropical convergence. I guess the most predominate one now is around the - up in the - around the equator or slightly north of the equator.
-056:42:02|T|CMP|Yes, that's the way it looks, Charlie. Same as yesterday.
-056:42:04|T|CC|Roger.
-056:42:15|T|CMP|Just keep the Pacific Ocean nice and clear and calm on splash day, is all we ask.
-056:42:41|T|CDR|And Charlie, I'd like to say hello to all my fellow scouts and scouters at Farragut State Park in Idaho having a National Jamboree there this week; and Apollo 11 would like to send them best wishes.
-056:42:57|T|CC|Thank you, Apollo 11. I'm sure that, if they didn't hear that, they'll get the word through the news, certainly appreciate that.
-056:43:42|T|CC|11, Houston. We have you - your sub-spacecraft point is just off the western coast of South America directly south of about Mexico City. Over.
-056:43:56|T|CDR|That - That looks like what we observe from here.
-056:44:12|T|CDR|And we're going to turn our TV monitor off now for a short bit while we have some other work to do. Apollo 11 signing off.
-056:44:22|T|CC|Roger, 11. Thank you very much. That was one of the greatest shows we've ever seen. We sure appreciate it. Over.
-056:44:30|T|CDR|It was a pleasure.
-056:44:54|P|PAO|This is Apollo Control. That television transmission lasted about 1 hour 36 minutes according to our first rough calculation. And during that period of time, the spacecraft traveled something over 2000 nautical miles.
-056:45:00|P|PAO|This is Apollo Control at 56 hours 51 minutes. Buzz Aldrin has now been in the Lunar Module for a little over an hour and 13 minutes. We estimate that Neil Armstrong has perhaps been in the LM about 15 or 20 minutes less than that. Due to the length of that television transmission, the change-of-shift press conference has been canceled. The participants were unable to wait for the duration of the press conference and with other duties and the press conference has been canceled. At 56 hours 52 minutes, this is Apollo Control.
-056:45:50|T|CC|Hello, Apollo 11. Houston. Could you give us an idea of about how long it will be before you start close - closing the LM back up? Over.
-056:46:01|T|CDR|We've got a little more work to do up here, Charlie. We're going to make sure that we have everything transferred around and stowed the way we want it and try to get a little bit ahead on tomorrow's timeline. I suppose that we could be out of there in another half hour or so if it was necessary.
-056:46:22|T|CC|Roger, Neil. We're not trying to push you. We're just trying to get an idea of - about water dumps and starting up the PTC again. Take your sweet time. Over.
-056:46:34|T|CDR|Okay. We'd like to get a Flight Plan update from you for the next couple of hours, here. When you think what the various constraints might be and what - what order you might like us to do things.
-056:46:53|T|CC|Roger. Stand by. We'll have that to you in a moment.
-056:50:54|P|PAO|This is Apollo Control at 56 hours 51 minutes. Buzz Aldrin has now been in the Lunar Module for a little over an hour and 13 minutes. We estimate that Neil Armstrong has perhaps been in the LM about 15 or 20 minutes less than that. Due to the length of that television transmission, the change-of-shift press conference has been canceled. The participants were unable to wait for the duration of the press conference and with other duties and the press conference has been canceled. At 56 hours 52 minutes, this is Apollo Control.
-056:56:08|T|CC|Hello, Apollo 11. Houston. Mike, we'd like to go ahead and do a wastewater dump. We'd like you to dump it all the way down to zero. Over.
-056:56:21|T|LMP|Roger. We copy that, Charlie.
-056:56:31|T|CDR|How does that work, Charlie?
-056:57:26|T|CDR|Houston, 11.
-056:58:03|T|CC|11, Houston. Did you call? Over.
-056:58:08|T|CDR|Roger. Just noticed that the mast that the EVA light is on is charred brown. It looks as though it took quite a beating during launch.
-056:58:22|T|CC|Roger.
-056:58:24|T|CDR|The EVA light still does work.
-056:58:27|T|CC|Roger. We'll let this - the SPAN guys look at this, and we'll be back with you with what we think. Over.
-056:58:36|T|CDR|Okay.
-057:00:20|T|CC|11, Houston. We were wondering, Neil, with your closing comment on the TV, if you were going to turn it off. It indicated that you might be considering turning it back on. We were wondering whether we want to keep the lines up. Over.
-057:00:35|T|CDR|Well, we want your recommendation on that, but I think we would just as soon, ourselves, terminate the TV. But if you have a commitment to keep, we'd be more than willing to turn it back on.
-057:00:51|T|CC|Roger. Stand by.
-057:01:24|T|CC|Apollo 11, Houston. We'd like to terminate the TV. We don't - We think we got a really - a good tape. That hour and a half show was superb. And we'd like to pick up TV - correction - PTC at about 58 hours. Over.
-057:01:44|T|CDR|Roger. PTC at 58 hours.
-057:01:48|T|CC|And we'll have the remaining functions in the Flight Plan soon. Over.
-057:01:55|T|CDR|Okay. Fine.
-057:02:54|P|PAO|This is Apollo Control at 57 hours, 3 minutes. The decision, as you heard, relayed up to the crew there, that we would go into the Passive Thermal Control mode with the spacecraft in a slow roll at 58 hours in the Flight Plan, would rule out further television for today. I would also like to repeat that the change-of-shift press conference for the previous shift was canceled due to the length of that television transmission, and we do expect to have a change-of-shift briefing following this shift probably between 11:30 and 12:00pm CDT. At the present time, Apollo 11 is 178,236 nautical miles from Earth, and the velocity has dropped down now to 3,146 feet per second. At 57 hours, 4 minutes, this is Mission Control, Houston.
-057:04:04|T|CC|Apollo 11, Houston. Our recommendations on the activities for the next hour or so, as far as Flight Plan goes, are: Continue your LM familiarization as desired until about 58 hours, then ingress to the CSM, close the hatch, and establish PTC shortly thereafter. Over.
+056:34:39|T|CC|Well, that's a good view of Mr. Collins down there. We finally see him again.
+056:34:47|T|CMP|Hello there, earthlings.
+056:34:52|T|CC|Hello there.
+056:35:23|T|CC|11, Houston. We noticed when you were scanning over Panel 2 a moment ago, 1 and 2, the two eight balls were slightly in disagreement. Control said he'd like a AGS align, there.
+056:35:40|T|LMP|Yes. One of them's AGS, one of them's PNGS.
+056:35:45|T|CDR|The problem is, we don't know whether to align AGS to PNGS or PNGS to AGS.
+056:35:52|T|CC|Stand by.
+056:35:58|T|CC|11, Chris said he can tell you.
+056:36:06|T|LMP|We'll cage them both.
+056:36:09|T|CC|Roger.
+056:37:02|T|LMP|Like old home week, Charlie, to get back in the LM again.
+056:37:05|T|CC|Roger. I can imagine.
+056:37:25|T|LMP|The traverse from the bottom of the LM to the aft bulkhead of the Command Module must be about 16, 20 feet. It's not a disorienting one at all, but it's most interesting to contemplate just pushing off from one and bounding on into the other vehicle all the way through the tunnel.
+056:37:45|T|CC|Roger. Must be some experience. Is Collins going to go in and look around?
+056:37:57|T|CDR|We're willing to let him go but he hasn't come up with the price of the ticket yet.
+056:38:02|T|CC|Roger. I'd advise him to keep his hands off the switches.
+056:38:09|T|CMP|If I can get him to keep his hands off my DSKY, it'd be a fair swap.
+056:38:14|T|CC|Roger.
+056:38:19|T|LMP|That's why I've been eating so much today. I haven't had anything to do. He won't let me touch it any more.
+056:38:24|T|CC|Roger.
+056:38:44|P|PAO|It appears now that we have a view of Earth out the window.
+056:38:55|T|CC|11, Houston. If that's not the Earth, we're in trouble.
+056:39:01|T|CDR|That's the Earth, and we have a very good view of it today. There are a few more cloud bands on than yesterday when we beamed down to you, but it's a beautiful sight.
+056:39:19|P|PAO|That description from Neil Armstrong.
+056:39:34|T|CDR|We have some horizontal banding in our TV monitor. Are we transmitting that to you, or do you have a clear picture?
+056:39:42|T|CC|Neil, we have a very clear picture. The only thing that we see is a little white dot in the bottom of our screen, which is - our TV guys say is an - apparently a burned out spot in the camera, but it should come back. Over.
+056:40:00|T|CDR|Roger. We have that in our monitor also.
+056:40:21|T|CC|11, Houston. We do have three lines across our TV. I thought it was just a transmission problem, but everybody's telling me now that it's probably - it's on the downlink. Over.
+056:40:36|T|LMP|No, those are the same three ones that we have.
+056:40:39|T|CC|Okay.
+056:40:48|T|LMP|How far are - out are we now, Charlie?
+056:40:52|T|CC|Stand by. Give you exact figure.
+056:41:01|T|LMP|Did you notice the difference between yesterday and today? This is as large an image we can - we can give you.
+056:41:06|T|CC|Roger. If you think we're smaller, you're now 177,000 miles out. Over.
+056:41:14|T|LMP|Thank you.
+056:41:15|T|CDR|That's nautical miles?
+056:41:18|T|CC|That's affirmative, 11. We -
+056:41:22|T|LMP|... Hold on.
+056:41:25|T|CC|Go ahead. Over.
+056:41:35|T|CC|11, Houston. We see the - still see the banding along the intra-tropical convergence. I guess the most predominate one now is around the - up in the - around the equator or slightly north of the equator.
+056:41:52|T|CMP|Yes, that's the way it looks, Charlie. Same as yesterday.
+056:41:55|T|CC|Roger.
+056:42:06|T|CMP|Just keep the Pacific Ocean nice and clear and calm on splash day, is all we ask.
+056:42:31|T|CDR|And Charlie, I'd like to say hello to all my fellow scouts and scouters at Farragut State Park in Idaho having a National Jamboree there this week; and Apollo 11 would like to send them best wishes.
+056:42:48|T|CC|Thank you, Apollo 11. I'm sure that, if they didn't hear that, they'll get the word through the news, certainly appreciate that.
+056:43:32|T|CC|11, Houston. We have you - your sub-spacecraft point is just off the western coast of South America directly south of about Mexico City. Over.
+056:43:47|T|CDR|That - That looks like what we observe from here.
+056:44:02|T|CDR|And we're going to turn our TV monitor off now for a short bit while we have some other work to do. Apollo 11 signing off.
+056:44:13|T|CC|Roger, 11. Thank you very much. That was one of the greatest shows we've ever seen. We sure appreciate it. Over.
+056:44:20|T|CDR|It was a pleasure.
+056:44:44|P|PAO|This is Apollo Control. That television transmission lasted about 1 hour 36 minutes according to our first rough calculation. And during that period of time, the spacecraft traveled something over 2000 nautical miles.
+056:45:40|T|CC|Hello, Apollo 11. Houston. Could you give us an idea of about how long it will be before you start close - closing the LM back up? Over.
+056:45:52|T|CDR|We've got a little more work to do up here, Charlie. We're going to make sure that we have everything transferred around and stowed the way we want it and try to get a little bit ahead on tomorrow's timeline. I suppose that we could be out of there in another half hour or so if it was necessary.
+056:46:13|T|CC|Roger, Neil. We're not trying to push you. We're just trying to get an idea of - about water dumps and starting up the PTC again. Take your sweet time. Over.
+056:46:25|T|CDR|Okay. We'd like to get a Flight Plan update from you for the next couple of hours, here. When you think what the various constraints might be and what - what order you might like us to do things.
+056:46:43|T|CC|Roger. Stand by. We'll have that to you in a moment.
+056:50:44|P|PAO|This is Apollo Control at 56 hours 51 minutes. Buzz Aldrin has now been in the Lunar Module for a little over an hour and 13 minutes. We estimate that Neil Armstrong has perhaps been in the LM about 15 or 20 minutes less than that. Due to the length of that television transmission, the change-of-shift press conference has been canceled. The participants were unable to wait for the duration of the press conference and with other duties and the press conference has been canceled. At 56 hours 52 minutes, this is Apollo Control.
+056:55:58|T|CC|Hello, Apollo 11. Houston. Mike, we'd like to go ahead and do a wastewater dump. We'd like you to dump it all the way down to zero. Over.
+056:56:11|T|LMP|Roger. We copy that, Charlie.
+056:56:21|T|CDR|How does that work, Charlie?
+056:44:50|P|PAO|This is Apollo Control at 56 hours 51 minutes. Buzz Aldrin has now been in the Lunar Module for a little over an hour and 13 minutes. We estimate that Neil Armstrong has perhaps been in the LM about 15 or 20 minutes less than that. Due to the length of that television transmission, the change-of-shift press conference has been canceled. The participants were unable to wait for the duration of the press conference and with other duties and the press conference has been canceled. At 56 hours 52 minutes, this is Apollo Control.
+056:57:16|T|CDR|Houston, 11.
+056:57:53|T|CC|11, Houston. Did you call? Over.
+056:55:58|T|CDR|Roger. Just noticed that the mast that the EVA light is on is charred brown. It looks as though it took quite a beating during launch.
+056:58:12|T|CC|Roger.
+056:58:14|T|CDR|The EVA light still does work.
+056:58:17|T|CC|Roger. We'll let this - the SPAN guys look at this, and we'll be back with you with what we think. Over.
+056:58:26|T|CDR|Okay.
+057:00:10|T|CC|11, Houston. We were wondering, Neil, with your closing comment on the TV, if you were going to turn it off. It indicated that you might be considering turning it back on. We were wondering whether we want to keep the lines up. Over.
+057:00:25|T|CDR|Well, we want your recommendation on that, but I think we would just as soon, ourselves, terminate the TV. But if you have a commitment to keep, we'd be more than willing to turn it back on.
+057:00:41|T|CC|Roger. Stand by.
+057:01:14|T|CC|Apollo 11, Houston. We'd like to terminate the TV. We don't - We think we got a really - a good tape. That hour and a half show was superb. And we'd like to pick up TV - correction - PTC at about 58 hours. Over.
+057:01:34|T|CDR|Roger. PTC at 58 hours.
+057:01:38|T|CC|And we'll have the remaining functions in the Flight Plan soon. Over.
+057:01:45|T|CDR|Okay. Fine.
+057:02:44|P|PAO|This is Apollo Control at 57 hours, 3 minutes. The decision, as you heard, relayed up to the crew there, that we would go into the Passive Thermal Control mode with the spacecraft in a slow roll at 58 hours in the Flight Plan, would rule out further television for today. I would also like to repeat that the change-of-shift press conference for the previous shift was canceled due to the length of that television transmission, and we do expect to have a change-of-shift briefing following this shift probably between 11:30 and 12:00pm CDT. At the present time, Apollo 11 is 178,236 nautical miles from Earth, and the velocity has dropped down now to 3,146 feet per second. At 57 hours, 4 minutes, this is Mission Control, Houston.
+057:03:55|T|CC|Apollo 11, Houston. Our recommendations on the activities for the next hour or so, as far as Flight Plan goes, are: Continue your LM familiarization as desired until about 58 hours, then ingress to the CSM, close the hatch, and establish PTC shortly thereafter. Over.
 057:04:27|T|CC|And, Apollo 11, Houston. Terminate the - -
 057:04:28|T|CDR|Okay - -
 057:04:30|T|CC|- - the water dump. Over.
 057:04:30|T|CDR|- - Okay, Charlie. Thank you.
 057:04:34|T|CDR|Okay. Water dump being terminated now.
-057:17:48|T|CMP|Houston, Apollo 11.
-057:17:51|T|CC|11, Houston. Go ahead.
-057:17:55|T|CMP|Roger, Houston. I'd like to do a P52 option 3 and tweak the platform up prior to starting the PTC. Over.
-057:18:02|T|CC|Roger, 11. Stand by.
-057:18:14|T|CC|11, Houston. That sounds like a good idea to us. Go ahead.
-057:18:19|T|CMP|Okay. And the platform's looking pretty good to me. It looks like the worst axis drift is 0.01 something degrees per hour. Is that about what you figure?
-057:18:27|T|CC|11, Roger. We've had reports all the marks have been good all the - the last couple of times you've run them. Just a moment; I'll get you some information on the apparent drift rates.
-057:18:40|T|CMP|Okay, Owen. Thank you. You got the maroons on?
-057:18:47|T|CC|Say again, 11.
-057:18:51|T|CMP|I say you got the maroons on now?
-057:18:53|T|CC|Not permanently, Mike. Just have a stand-by here while Charlie's out checking how to use that special tool on the camera. The maroon team will be on tomorrow.
-057:19:06|T|CMP|Okay. Nice to hear your voice. How's everything going?
-057:19:09|T|CC|Everything's going smoothly here. We sure enjoyed the show this afternoon, Mike.
-057:19:14|T|CMP|Okay.
-057:19:27|T|CC|11, Houston. We suggest you go ahead and do the P52 first, and we'll take a look at the angles and give you some new drift rates after taking a look at them. Over.
-057:19:37|T|CMP|All right. Fair enough.
-057:25:00|T|CC|Apollo 11, Houston. Over.
-057:25:05|T|CDR|Go ahead. 11, here.
-057:25:07|T|CC|11, Houston. A little information to you there, CDR. We've all taken a momentary brief respite from out work here to have some special - to have a bite of special moon cheese that is - I understand it's been sent to us directly from Wapakoneta, your own hometown. Over.
-057:25:28|T|LMP|No, we can't - we can't pronounce it either.
-057:25:32|T|CDR|I think you'll enjoy that. They make a fine brand of cheese.
-057:25:37|T|CC|Roger, there, and I'll polish up the grammar for the next trip.
-057:25:50|T|CMP|Houston, 11. You are looking at the NOUN 93, and I'll proceed when you copy them.
-057:26:00|T|CC|11, Houston. We've got them.
-057:26:08|T|CMP|Okay.
-057:28:15|T|CC|Hello, Apollo 11, Houston. We'd like P00 and ACCEPT. We have a DELTA-H update for you. Over.
-057:28:24|T|CMP|All right, Charlie. Stand by one.
-057:29:30|T|CMP|Houston, Apollo 11. P00 and ACCEPT.
-057:29:33|T|CC|Roger.
-057:31:48|T|CC|Apollo 11, Houston. We got the load in. The computer's yours. Over.
-057:31:56|T|CMP|Houston, 11. Roger.
-057:36:04|T|CC|Hello, Apollo 11. Houston. We'd like for you to stir up the CRYO's now. Over.
-057:36:14|T|CMP|Houston, Apollo 11. Roger.
-057:44:22|P|PAO|This is Apollo Control at 57 hours 44 minutes. We've had no further reports from the crew to indicate whether or not Neil Armstrong and Buzz Aldrin have returned to the Command Module.
-057:44:33|T|CDR|Houston, Apollo 11. We're completed in the LM. We're closing up the hatches and the probe and drogue back in.
-057:44:53|P|PAO|And I guess that would answer our question. Neil Armstrong reporting that they are finished with their work in the LM, will be coming out shortly. Apollo 11 is now 179,490 nautical miles from Earth. Traveling at a speed of 3,121 feet per second. In a little less than 3 hours, we'll pass a milestone of sorts, as the spacecraft passes into the lunar sphere of influence. And what we mean by that, is that at that point, the spacecraft will be under the dominant influence of the Moon's gravity. The Moon's gravitational force will have the predominant effect on the trajectory of the spacecraft. And at that point, our displays in Mission Control monitoring velocity and altitude will switch from Earth reference to Moon reference. We'll then begin monitoring the progress of the spacecraft as it continues to accelerate toward the Moon. At 57 hours 46 minutes, this is Apollo Control.
+057:17:39|T|CMP|Houston, Apollo 11.
+057:17:41|T|CC|11, Houston. Go ahead.
+057:17:45|T|CMP|Roger, Houston. I'd like to do a P52 option 3 and tweak the platform up prior to starting the PTC. Over.
+057:17:52|T|CC|Roger, 11. Stand by.
+057:18:04|T|CC|11, Houston. That sounds like a good idea to us. Go ahead.
+057:18:09|T|CMP|Okay. And the platform's looking pretty good to me. It looks like the worst axis drift is 0.01 something degrees per hour. Is that about what you figure?
+057:18:17|T|CC|11, Roger. We've had reports all the marks have been good all the - the last couple of times you've run them. Just a moment; I'll get you some information on the apparent drift rates.
+057:18:30|T|CMP|Okay, Owen. Thank you. You got the maroons on?
+057:18:37|T|CC|Say again, 11.
+057:18:41|T|CMP|I say you got the maroons on now?
+057:18:43|T|CC|Not permanently, Mike. Just have a stand-by here while Charlie's out checking how to use that special tool on the camera. The maroon team will be on tomorrow.
+057:18:56|T|CMP|Okay. Nice to hear your voice. How's everything going?
+057:18:59|T|CC|Everything's going smoothly here. We sure enjoyed the show this afternoon, Mike.
+057:19:05|T|CMP|Okay.
+057:19:17|T|CC|11, Houston. We suggest you go ahead and do the P52 first, and we'll take a look at the angles and give you some new drift rates after taking a look at them. Over.
+057:19:27|T|CMP|All right. Fair enough.
+057:24:50|T|CC|Apollo 11, Houston. Over.
+057:24:55|T|CDR|Go ahead. 11, here.
+057:24:57|T|CC|11, Houston. A little information to you there, CDR. We've all taken a momentary brief respite from out work here to have some special - to have a bite of special moon cheese that is - I understand it's been sent to us directly from Wapakoneta, your own hometown. Over.
+057:25:18|T|LMP|No, we can't - we can't pronounce it either.
+057:25:22|T|CDR|I think you'll enjoy that. They make a fine brand of cheese.
+057:25:27|T|CC|Roger, there, and I'll polish up the grammar for the next trip.
+057:25:40|T|CMP|Houston, 11. You are looking at the NOUN 93, and I'll proceed when you copy them.
+057:25:50|T|CC|11, Houston. We've got them.
+057:25:58|T|CMP|Okay.
+057:28:05|T|CC|Hello, Apollo 11, Houston. We'd like P00 and ACCEPT. We have a DELTA-H update for you. Over.
+057:28:14|T|CMP|All right, Charlie. Stand by one.
+057:29:21|T|CMP|Houston, Apollo 11. P00 and ACCEPT.
+057:29:23|T|CC|Roger.
+057:31:39|T|CC|Apollo 11, Houston. We got the load in. The computer's yours. Over.
+057:31:47|T|CMP|Houston, 11. Roger.
+057:35:55|T|CC|Hello, Apollo 11. Houston. We'd like for you to stir up the CRYO's now. Over.
+057:36:05|T|CMP|Houston, Apollo 11. Roger.
+057:44:12|P|PAO|This is Apollo Control at 57 hours 44 minutes. We've had no further reports from the crew to indicate whether or not Neil Armstrong and Buzz Aldrin have returned to the Command Module.
+057:44:23|T|CDR|Houston, Apollo 11. We're completed in the LM. We're closing up the hatches and the probe and drogue back in.
 057:44:42|T|CC|Roger. We copy. Out.
+057:44:44|P|PAO|And I guess that would answer our question. Neil Armstrong reporting that they are finished with their work in the LM, will be coming out shortly. Apollo 11 is now 179,490 nautical miles from Earth. Traveling at a speed of 3,121 feet per second. In a little less than 3 hours, we'll pass a milestone of sorts, as the spacecraft passes into the lunar sphere of influence. And what we mean by that, is that at that point, the spacecraft will be under the dominant influence of the Moon's gravity. The Moon's gravitational force will have the predominant effect on the trajectory of the spacecraft. And at that point, our displays in Mission Control monitoring velocity and altitude will switch from Earth reference to Moon reference. We'll then begin monitoring the progress of the spacecraft as it continues to accelerate toward the Moon. At 57 hours 46 minutes, this is Apollo Control.
 057:59:37|T|CC|Hello, Apollo 11. Houston. We're standing by to watch your startup on the PTC at any time. You can start off at the VERB 49. Over.
 057:59:48|T|CDR|Wilco. We're just finishing up the probe and about to close up the hatch here. We're going to be a couple of minutes late, probably, getting started in the PTC.
 057:59:59|T|CC|Roger. No sweat, 11. We're standing by. Over.

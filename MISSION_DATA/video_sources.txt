@@ -69,7 +69,6 @@ MSC (AV) Apollo 11 MOCR Activity During Recovery (Recovery Room) MSC (AV) Apollo
 MSC (AV) Apollo 11 MOCR Activity During Recovery MSC (AV) Apollo 11 MOCR Activity During Recovery  	1969-07-01	L000421/FR-7697
 KSC Apollo 11 Tracking  AS-506 APOLLO 11 TRACKING (FR-7698 DOX HDCAM MASTER) 	1969-07-01	L000421/FR-7698
 KSC Apollo 11 Astronauts (Armstrong, Collins, Aldrin) Walking Across Swing Arm No. 9 to White Room   	1969-07-01	L000423/FR-7703
-KSC Astronauts Shepard and Mitchell Checking Apollo 13 ALSEP and MESA Packages   	1969-07-01	L000423/FR-7704
 KSC Apollo 11 Launch (Good)   	1969-07-01	
 KSC Apollo 11 Tracking   	1969-07-01	L000423/FR-7706
 KSC Apollo 11 Launch - Hold Down Arm No. 2   	1969-07-01	L000423/FR-7707
