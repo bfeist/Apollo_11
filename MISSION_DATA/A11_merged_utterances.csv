@@ -7299,108 +7299,108 @@
 097:04:46|T|CDR|Okay. Now you want to give me T EPHEM VERB 05, NOUN 01 ENTER?
 097:04:56|T|CMP|Okay. I've got VERB 05, NOUN 01, ENTER. Going to 17 06 ENTER.
 097:05:00|T|CDR|Roger.
-097:05:04|T|CMP|Are you ready to copy?
+097:05:05|T|CMP|Are you ready to copy?
 097:05:06|T|CDR|Go ahead.
-097:05:07|T|CMP|Roger. Register 1, 5 balls; register 2, 20017; register 3, 20616. Over.
+097:05:08|T|CMP|Roger. Register 1, 5 balls; register 2, 20017; register 3, 20616. Over.
 097:05:20|T|CDR|Understand R1, 5 zeros; R2, 20017; R3, 20616.
-097:05:28|T|CMP|That's correct.
+097:05:29|T|CMP|That's correct.
 097:05:43|T|CMP|And I'm standing by configured to record your PCM data.
-097:06:37|T|CDR|And I'm ready to start on a docked IMU coarse align when you are; and when you're ready, go MIN deadband ATT hold.
+097:06:38|T|CDR|And I'm ready to start on a docked IMU coarse align when you are; and when you're ready, go MIN deadband ATT hold.
 097:06:50|T|CMP|Okay. Stand by.
-097:08:13|T|CMP|We're minimum deadband, attitude hold.
+097:08:14|T|CMP|We're minimum deadband, attitude hold.
 097:08:21|T|CDR|Okay. Now I need your NOUN 20.
 097:08:31|T|CMP|Okay. I got VERB 06, NOUN 20. Give me a Mark on it.
 097:08:37|T|CDR|Okay.
-097:08:38|T|CDR|MARK.
+097:08:39|T|CDR|MARK.
 097:08:42|T|CMP|Register 1, plus 11202, plus 20741, plus 00211. Over.
 097:08:57|T|CDR|Copy. 11202, 20741, 00211.
 097:09:05|T|CMP|That's correct.
-097:11:34|T|CC|Eagle, Houston. That coarse align looked good to us. Over.
+097:11:35|T|CC|Eagle, Houston. That coarse align looked good to us. Over.
 097:11:40|T|CDR|Roger.
 097:11:52|T|CDR|Okay, Mike. Your attitude hold's no longer required.
 097:11:58|T|CMP|Thank you.
 097:13:55|T|CDR|Okay, Mike. I'd like to copy a NOUN 20 again, 06 NOUN 20. Be on my Mark.
 097:14:07|T|CMP|Standing by for your Mark.
-097:14:09|T|CDR|3, 2, 1; stand by. Take it again.
-097:14:18|T|CMP|Okay.
-097:14:19|T|CDR|3, 2, 1.
+097:14:09|T|CDR|3, 2, 1; stand by. Let's take it again.
+097:14:19|T|CMP|Okay.
+097:14:20|T|CDR|3, 2, 1.
 097:14:22|T|CDR|MARK.
-097:14:24|T|CMP|Okay, I read plus 11154, plus 20792, plus 00230. Over.
-097:14:38|T|CDR|I get - You get 11154, 20792, 00230.
-097:14:48|T|CMP|That's correct.
+097:14:25|T|CMP|Okay, I read plus 11154, plus 20792, plus 00230. Over.
+097:14:39|T|CDR|I get - You get 11154, 20792, 00230.
+097:14:49|T|CMP|That's correct.
 097:15:06|T|CC|Eagle, Houston. I -
 097:15:07|T|CDR|Okay, Houston. Did you copy -
 097:15:10|T|CC|Eagle, Houston. We have the angles. I'll read them back. Over. For the Command Module, 11154, 20792, 00230. For the LM, 18995, 02852, 35863. Over.
 097:15:34|T|CDR|That's correct for Eagle and Command Module.
 097:15:36|T|CC|Roger.
-097:15:42|T|CDR|Did you get the time? Was 97 14 20.
-097:15:45|T|CC|Roger. Copy, Eagle. Out.
+097:15:42|T|CDR|Did you get the time? Was 97:14:20.
+097:15:46|T|CC|Roger. Copy, Eagle. Out.
 097:17:08|T|CC|Columbia and Eagle: LOS for both spacecrafts 97:32, AOS 98:18. Houston, out.
-097:21:35|T|CC|Eagle,Houston. We have your gyro torquing angles if you're ready to copy. Over.
-097:21:49|T|CDR|Roger. We're ready to copy.
-097:21:59|T|CC|Roger. Eagle. For X minus 00060, Y plus 00620, Z plus 01080. Over.
-097:22:00|P|PAO|This is Apollo Control. We've had loss of signal now. We'll next acquire the spacecraft in about 46 minutes at a Ground Elapsed Time of 98 hours, 18 minutes. During that pass, Armstrong and Aldrin in the Lunar Module begin checking out activating the Lunar Module, and they appeared to finish about 30 minutes ahead of the scheduled time in the Flight Plans. They began early and have maintained the pace. Both spacecraft looking very good at this time. Everything progressing very smoothly. On the next revolution, revolution 12, the crew will continue activation and checkout of Lunar Module systems. The following revolution, revolution 13, they will undock from the Command and Service Module. At 97 hours, 33 minutes, this is Apollo Control.
-097:22:25|T|CDR|Understand. X minus 00060, Y plus 00620, Z plus 01080.
+097:21:43|T|CC|Eagle,Houston. We have your gyro torquing angles if you're ready to copy. Over.
+097:21:58|T|CDR|Roger. We're ready to copy.
+097:22:00|T|CC|Roger. Eagle. For X minus 00060, Y plus 00620, Z plus 01080. Over.
+097:22:34|T|CDR|Understand. X minus 00060, Y plus 00620, Z plus 01080.
 097:22:50|T|CC|Roger, Eagle. Good readback. Out.
-097:24:12|T|CDR|Houston, this is Eagle. Do you want us to go ahead and do a VERB 42 at this time?
+097:24:19|T|CDR|Houston, this is Eagle. Do you want us to go ahead and do a VERB 42 at this time?
 097:24:28|T|CC|Stand by. That's affirmative, Eagle. We'd like you to go ahead and fine align. Over.
 097:24:37|T|CDR|Okay.
 097:24:48|T|LMP|Houston, Eagle, LMP. How do you read? Over.
 097:24:49|T|CC|Roger. Five by, Buzz. How me? Over.
-097:24:54|T|LMP|Loud and clear. I'm going to be going through an ascent battery check. You want to check my BIOMED's briefly? Over.
-097:25:01|T|CC|Roger. Go ahead.
-097:25:17|T|CC|Eagle, Houston. We got a good BIOMED on you, Buzz. Over.
+097:24:55|T|LMP|Loud and clear. I'm going to be going through an ascent battery check. You want to check my BIOMED's briefly? Over.
+097:25:02|T|CC|Roger. Go ahead.
+097:25:18|T|CC|Eagle, Houston. We got a good BIOMED on you, Buzz. Over.
 097:25:26|T|LMP|Okay. Let me know where it ought to be at this point.
 097:25:29|T|CC|Roger. You can stay there at that point. When we go LOS, we'd like you to go off on the BIOMED. Over.
 097:25:39|T|LMP|Roger.
 097:25:53|T|CDR|Do you copy those angles, Houston - torquing angles?
 097:25:57|T|CC|Roger. They're correct. You can torque. Over.
 097:27:43|T|CC|Apollo 11, Houston. We have about 4 minutes LOS. That makes AOS 98 18. Over.
-097:27:54|T|CDR|Eagle. Roger.
+097:27:55|T|CDR|Eagle. Roger.
 097:27:58|T|CMP|Columbia. Roger.
 097:28:31|T|CMP|Eagle, Columbia.
-097:28:39|T|CDR|Columbia, Eagle. Go ahead.
-097:28:41|T|CMP|Roger. The capture latch is in the probe or engaged in the drogue. Would you like to set them from your side?
-097:28:51|T|CDR|Roger. Stand by.
+097:28:39|T|LMP|Columbia, Eagle. Go ahead.
+097:28:42|T|CMP|Roger. The capture latch is in the probe or engaged in the drogue. Would you like to set them from your side?
+097:28:51|T|LMP|Alright. Stand by.
 097:28:57|T|LMP|Houston, Eagle. ED battery A is 37.0 and battery B is 36.9. Over.
-097:29:04|T|CC|Roger. Copy both of those, Buzz. Out.
+097:29:05|T|CC|Roger. Copy both of those, Buzz. Out.
 097:29:20|T|CC|Eagle, Houston. We looked at the E memory. It's GO. Over.
-097:29:26|T|LMP|Roger. E memory GO.
-097:29:41|T|CDR|Mike, the capture latches look good.
+097:29:27|T|LMP|Roger. E memory GO.
+097:29:42|T|CDR|Mike, the capture latches look good.
 097:29:44|T|CMP|Thank you.
 097:29:54|T|CC|Eagle, Houston. We'd like you to go to the OMNI antenna, and next AOS, we'd like you to be in forward. Over.
 097:30:06|T|LMP|Roger. Going to - which OMNI do you want now, aft?
-097:30:20|T|CC|Eagle, Houston. We'd like aft now and forward at AOS. Over.
+097:30:21|T|CC|Eagle, Houston. We'd like aft now and forward at AOS. Over.
 097:30:22|O|CC|Eagle, Houston. We'd like aft now and forward at AOS. Over.
 097:30:25|O|LMP|Roger.
-097:30:27|T|LMP|Roger.
+097:30:28|T|LMP|Roger.
 097:31:05|T|CC|Apollo 11, Houston. Thirty seconds to LOS. Both spacecraft looking good going over the hill. Out.
 097:31:06|O|CC|Apollo 11, Houston. 30 seconds to LOS. Both spacecraft looking good going over the hill. Out.
+097:32:05|P|PAO|This is Apollo Control. We've had loss of signal now. We'll next acquire the spacecraft in about 46 minutes at a Ground Elapsed Time of 98 hours, 18 minutes. During that pass, Armstrong and Aldrin in the Lunar Module began checking out activating the Lunar Module, and they appeared to finish about 30 minutes ahead of the scheduled time in the Flight Plan. They began early and maintained the pace. Both spacecraft looking very good at this time, and everything progressing very smoothly. On the next revolution, revolution 12, the crew will continue activation and checkout of Lunar Module systems. The following revolution, Revolution 13, they will undock from the Command and Service Module. At 97 hours, 33 minutes, this is Apollo Control.
 097:34:43|O|CMP|Eagle, Columbia.
-097:34:46|O|CDR|Go ahead.
+097:34:45|O|CDR|Go ahead.
 097:34:47|O|CMP|Roger. I'm getting ready to preload the probe. I'm going to disable all my roll thrusters. Would you please monitor my roll, your yaw?
 097:34:54|O|CDR|Roger.
 097:36:41|O|CMP|Eagle, Columbia.
 097:36:43|O|CDR|Go ahead.
 097:36:45|O|CMP|I got another "Verify capture latches engaged" on my checklist. I've already preloaded the probe; it's sort of silly, but sort of your option whether you want to verify they're engaged or not.
-097:36:56|O|LMP|Okay, we got the hatch all latched up now, and we're getting ready for pressure-integrity check; so, why don't you go ahead?
-097:37:04|O|CMP|Okay.
+097:36:55|O|LMP|Okay, we got the hatch all latched up now, and we're getting ready for pressure-integrity check; so, why don't you go ahead?
+097:37:02|O|CMP|Okay.
 097:39:57|O|LMP|Mike, let us know how you're coming up there now and then.
-097:40:01|O|CMP|I'm doing just fine. I've cocked eight out of the 12 docking latches, and everything is going nominally.
+097:40:00|O|CMP|I'm doing just fine. I've cocked eight out of the 12 docking latches, and everything is going nominally.
 097:40:07|O|LMP|Okay.
 097:41:14|O|CMP|All 12 docking latches are cocked.
 097:41:17|O|LMP|Okay.
 097:41:21|O|CMP|And I'm ready to button up the hatch.
 097:46:46|O|LMP|Hey, Mike. Have you got the - got to the tunnel vent step yet?
-097:46:52|O|CMP|I'm just coming to that. What can I do for you?
+097:46:53|O|CMP|I'm just coming to that. What can I do for you?
 097:46:55|O|LMP|Well, we're waiting on you.
 097:46:56|O|CMP|Okay.
-097:46:59|O|LMP|We're still ahead of the timeline, so take your time.
-097:47:03|O|CMP|Okay.
+097:46:59|O|CDR|We're still ahead of the timeline, so take your time.
+097:47:02|O|CMP|Okay.
 097:47:14|O|CMP|Okay, I'm ready to go to LM tunnel vent.
-097:48:13|O|LMP|You got it all vented now?
+097:48:14|O|LMP|You got it all vented now?
 097:48:17|O|CMP|Negative, it's a slow process. I'm on VENT, but - it's just going to take a little while here.
-097:48:22|O|LMP|Roger. Just give us a call. We're pressing on with some other stuff.
+097:48:23|O|LMP|Roger. Just give us a call. We're pressing on with some other stuff.
 097:48:26|O|CMP|Okay.
 097:51:39|O|CMP|How's our attitude holding?
 097:51:42|O|CDR|Looks good.
@@ -7410,7 +7410,7 @@
 098:01:04|O|CDR|How you doing, Mike?
 098:01:06|O|CMP|Doing just fine. The - Stand by, I'll give you the DELTA-P reading - 3.0; I need 3.5 before I can turn my thrusters back on.
 098:01:16|O|LMP|Okay.
-098:04:59|O|CMP|I've got a 3.5 psid now; I'm going to start a maneuver here in a few minutes to depressurize it.
+098:04:59|O|CMP|I've got a 3.5 psid now; I'm going to start a maneuver here in a few minutes ...
 098:05:05|O|LMP|Okay.
 098:05:12|O|CMP|How you - how you guys doing?
 098:05:15|O|LMP|Okay. We're doing our regulator checks now.
@@ -7419,17 +7419,17 @@
 098:12:08|O|LMP|How long you got - to end this maneuver, Mike?
 098:12:12|O|CMP|Oh, about another 2 or 3 minutes we should be there - no, less than that.
 098:14:02|O|CMP|We're there; we're at the new attitude.
-098:14:07|O|CDR|Okay, we're going to put our gear down.
+098:14:08|O|CDR|Okay, we're going to put our gear down.
 098:14:29|O|LMP|... MASTER ARM - -
 098:14:34|O|CDR|Okay.
 098:14:35|O|LMP|LANDING GEAR DEPLOY, FIRE.
-098:14:37|O|CDR|Here we go, Mike.
+098:14:38|O|CDR|Here we go, Mike.
 098:14:46|O|LMP|Bam, it's out. Ain't no doubt about that.
-098:14:50|O|CDR|And it's gray.
+098:14:51|O|CDR|And it's gray.
 098:14:52|O|LMP|Alright. Your ED LOGIC POWER A, CLOSED.
-098:14:57|O|CDR|LOGIC POWER A, CLOSED.
+098:14:58|O|CDR|LOGIC POWER A, CLOSED.
 098:15:00|O|LMP|Alright, fire it again.
-098:15:03|O|CDR|Okay.
+098:15:04|O|CDR|Okay.
 098:15:05|O|LMP|Nothing happened, huh?
 098:15:06|O|CDR|Right.
 098:15:07|O|LMP|Okay, now - -
@@ -7441,42 +7441,45 @@
 098:15:14|O|LMP|CB(11), ED LANDING GEAR FLAG, OPEN.
 098:15:23|O|CDR|The gear went down okay, Mike.
 098:15:26|O|CMP|Good deal.
-098:16:00|P|PAO|This is Apollo Control at 98 hours, 16 minutes. We are now less than 2 minutes from reacquiring the spacecraft in its 12th revolution of the Moon. At this time Armstrong and Aldrin should be completing pressure checks on their spacesuits. Coming up in this revolution, they will be running checks on the guidance platform of their LM guidance system. They will also be running checks on the Reaction Control System thrusters and their descent propulsion system, as well as the rendezvous radar. We will also be giving them the GO/NO GO for undocking in the following revolution. The checkout and activation up to this point has been moving along very smoothly. All systems performing well and we were ahead of the Flight Plan at the end of the last revolution. We will stand by now to reacquire the spacecraft. The LM and CSM are still docked and Armstrong and Aldrin within the LM. That will be their home for the next 30 hours or so. Now about 45 seconds from reacquiring. We are now about 15 seconds from reacquisition of Apollo 11. Spacecraft currently in an orbit with an apocynthion of 63 and one-half nautical miles and pericynthian of 55.9, as we are continuing to see the apocynthion drop and pericynthian raise as the orbit becomes more and more circular. We should have acquisition of signals shortly. We will have some noise on the circuits until the LM ,steerable and the CSM high-gain antennas are brought into play. Capcom Charlie Duke putting in a call to the crew. We'll continue to stand by.
-098:16:00|P|PAO|Charlie Duke asking the crew to verify in the LM that they are on their forward OMNI antenna. We are still awaiting lockup and a stronger signal. We will continue to have noise on the circuit until we get a stronger signal. We do have telemetry data from the spacecraft at this time.
+098:15:56|P|PAO|This is Apollo Control at 98 hours, 16 minutes. We are now less than 2 minutes from reacquiring the spacecraft in its 12th revolution of the Moon. At this time Armstrong and Aldrin should be completing pressure checks on their spacesuits. Coming up in this revolution, they will be running checks on the guidance platform of their LM guidance system. They will also be running checks on the Reaction Control System thrusters and their descent propulsion system, as well as the rendezvous radar. We will also be giving them the GO/NO GO for undocking in the following revolution. The checkout and activation of the LM up to this point has been moving along very smoothly. All systems performing well and we were ahead of the Flight Plan at the end of the last revolution. We will standby now to reacquire the spacecraft. The LM and CSM, still docked and Armstrong and Aldrin within the LM. That will be their home for the next 30 hours or so. Now about 45 seconds from reacquiring.
+098:17:39|P|PAO|We are now about 15 seconds from reacquisition of Apollo 11. The spacecraft currently in an orbit with an apocynthion of 63.5 nautical miles and pericynthian of 55.9, as we are continuing to see the apocynthion drop and pericynthian raise as the orbit becomes more and more circular.
+098:18:08|P|PAO|We should have acquisition of signals shortly. We will have some noise on the circuits until the LM ,steerable and the CSM high-gain antennas are brought into play.
+098:18:38|P|PAO|Capcom Charlie Duke putting in a call to the crew. We'll continue to stand by.
 098:18:21|T|CC|Apollo 11, Houston. We're standing by. Over.
 098:18:40|O|CDR|Columbia -
 098:19:10|T|CC|Columbia, Houston. Do you read? Over.
-098:19:13|O|LMP|Loud and clear.
+098:19:14|O|LMP|Loud and clear.
 098:19:30|T|CC|Eagle, Houston. Do you read? Over.
 098:19:45|O|CDR|Columbia, do you read Eagle?
 098:19:47|O|CMP|Eagle, do you read Columbia?
 098:19:51|O|LMP|Yes, I'm working on the high-gain right now.
 098:19:54|O|CMP|Okay, I'm reading him loud and clear.
-098:20:14|O|LMP|You in the right attitude, Mike?
+098:20:15|O|LMP|You in the right attitude, Mike?
 098:20:17|O|CMP|That's affirm.
 098:20:19|T|CC|Columbia, Houston. Over.
-098:20:29|O|CMP|Houston, Columbia. You're loud and clear.
+098:20:30|O|CMP|Houston, Columbia. You're loud and clear.
 098:20:53|T|CC|Eagle, Houston. No voice. Will you verify forward OMNI? Over.
-098:21:51|O|LMP|Houston, Eagle. Over.
+098:21:06|P|PAO|Charlie Duke asking the crew to verify in the LM that they are on their forward OMNI antenna. We are still awaiting lockup and a stronger signal. We will continue to have noise on the circuit until we get a stronger signal. We do have telemetry data from the spacecraft at this time.
+098:21:52|O|LMP|Houston, Eagle. Over.
 098:21:58|T|CC|Columbia, Houston. We have no voice with Eagle. Would you please verify that Eagle is on forward OMNI. Over.
 098:22:08|O|CMP|Buzz, you on the forward OMNI?
 098:22:10|O|LMP|Houston, Eagle. Over.
-098:22:15|O|CMP|Buzz, are you on the forward OMNI?
-098:22:17|O|LMP|Roger. I am.
+098:22:16|O|CMP|Buzz, are you on the forward OMNI?
+098:22:18|O|LMP|Roger. I am.
 098:22:20|O|CMP|Houston, Columbia. Eagle is on the forward OMNI.
 098:22:36|T|CC|Columbia, Houston. Over.
-098:22:39|O|LMP|Columbia, go ahead.
+098:22:40|O|LMP|Columbia, go ahead.
 098:23:10|T|CC|Eagle, Houston. Over.
-098:23:13|O|LMP|Houston, Eagle. Go ahead.
+098:23:14|O|LMP|Houston, Eagle. Go ahead.
 098:23:16|T|LMP|Houston, Eagle. Go ahead.
 098:23:17|T|CC|Roger. Are you reading me, Buzz? Over.
-098:23:19|O|LMP|Roger. I got you now. I fed in those angles for the S-band, and I couldn't get a lockon; it appears as though the antenna would have to be looking through the LM in order to reach the Earth. Over.
+098:23:20|O|LMP|Roger. I've got you now. I fed in those angles for the S-band, and I couldn't get a lockon; it appears as though the antenna would have to be looking through the LM in order to reach the Earth. Over.
 098:23:22|T|LMP|Roger. I've got you now. I fed in those angles for the S band but I couldn't get a lockon because the antenna would be looking through the LM in order to reach the Earth. Over.
 098:23:41|T|CC|Roger. We copied in the P22 attitude that you will not be able to get a high-gain lockon. We have a DAP data load, if you're ready to copy. Over.
-098:24:03|O|LMP|Roger. Ready to copy.
+098:24:04|O|LMP|Roger. Ready to copy.
 098:24:05|T|LMP|Roger. Ready to copy.
 098:24:07|T|CC|Okay. LM weight 33627, CSM weight 36651, pitch trim 00470, roll trim 00589. Over.
-098:24:32|O|LMP|Roger. LM weight, 33627; CSM weight, 36651; pitch trim, 00470; roll trim, 00589. Over.
+098:24:33|O|LMP|Roger. LM weight, 33627; CSM weight, 36651; pitch trim, 00470; roll trim, 00589. Over.
 098:24:34|T|LMP|Roger. LM weight 33627, CSM weight 36651, pitch trim 00470, roll trim 00589. Over.
 098:24:49|T|CC|Roger, Buzz. That's a good readback. You're about two by with these OMNI's in this configuration; we won't have very good COMM until we get through with the P22. Over.
 098:25:02|T|LMP|Roger. Understand.
