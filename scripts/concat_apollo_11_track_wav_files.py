@@ -20,11 +20,11 @@ reader = csv.reader(open(inputPath + "wav_files", "rU"), dialect='pipes')
 outputFilelist = open("filelist.txt", "w")
 # ffmpeg_command_outputFile = open(outputFilePath + "ffmpeg.sh", "w")
 
-lasttape = 'T648'
-outputDirectoryName = 'T648/'
-lasttrack = 'CH11'
-last_Filename = 'A11_T648_HR1U_CH11'
-outputWavFilename = "A11_T648_HR1U_CH11"
+lasttape = 'T973'
+outputDirectoryName = 'T973/'
+lasttrack = 'CH2'
+last_Filename = 'A11_T973_HR2L_CH2'
+outputWavFilename = "A11_T973_HR2L_CH1"
 for row in reader:
     if row[3] != lasttrack or row[1] != lasttape:
         lasttape = row[1]

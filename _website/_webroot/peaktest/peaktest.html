@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Peaks.js Demo Page</title>
+    <style>
+      body {
+        font-family: 'Helvetica neue', Helvetica, Arial, sans-serif;
+      }
+
+      #titles, [id*="waveform-visualiser"] {
+        margin: 24px auto;
+        width: 1000px;
+      }
+
+      [id*="waveform-visualiser"] [class*="-container"] {
+        box-shadow: 3px 3px 20px #919191;
+        margin: 0 0 24px 0;
+        -moz-box-shadow: 3px 3px 20px #919191;
+        -webkit-box-shadow: 3px 3px 20px #919191;
+        line-height: 0;
+      }
+
+      .overview-container {
+        height: 85px;
+      }
+
+      #second-waveform-visualiser-container [class*="-container"] {
+        background: #111;
+      }
+
+      #demo-controls {
+        margin: 0 auto 24px auto;
+        width: 1000px;
+      }
+
+      #demo-controls > * {
+        vertical-align: middle;
+      }
+
+      #demo-controls button {
+        background: #fff;
+        border: 1px solid #919191;
+        cursor: pointer;
+      }
+
+      #seek-time {
+        width: 4em;
+      }
+
+      #controls {
+        float: right;
+      }
+
+      .log {
+        margin: 0 auto 24px auto;
+        width: 1000px;
+      }
+
+      table {
+        width: 100%;
+      }
+
+      table th {
+        text-align: left;
+      }
+
+      table th, table td {
+        padding: 0.5em;
+      }
+
+      .hide {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="titles">
+      <h1>Peaktest</h1>
+
+    </div>
+
+    <div id="first-waveform-visualiser-container"></div>
+
+    <div id="demo-controls">
+      <div>
+        <audio controls=controls>
+          <!--<source src="media/defluttered_A11_T870_HR2L_CH12_16.mp3" type="audio/mpeg">-->
+          <!--<source src="http://apollo11audio-26f5.kxcdn.com/defluttered_A11_T870_HR2L_CH12_16.mp3" type="audio/mpeg">-->
+          <source src="https://droplet2static.nyc3.digitaloceanspaces.com/defluttered_A11_T870_HR2L_CH12_16.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <div id="controls">
+          <div>
+            <button data-action="zoom-in">Zoom in</button>
+            <button data-action="zoom-out">Zoom out</button>
+            <button data-action="add-segment">Add a Segment at current time</button>
+            <button data-action="add-point">Add a Point at current time</button>
+            <button data-action="log-data">Log segments/points</button>
+          </div>
+          <div>
+            <input type="text" id="seek-time" value="0.0">
+            <button data-action="seek">Seek</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="log">
+      <div id="segments" class="hide">
+        <h2>Segments</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Label</th>
+              <th>Start time</th>
+              <th>End time</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+      <div id="points" class="hide">
+        <h2>Points</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Label</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="js/peaks.js"></script>
+    <script>
+      (function(Peaks) {
+        var options = {
+          container: document.getElementById('first-waveform-visualiser-container'),
+          mediaElement: document.querySelector('audio'),
+          dataUri: {
+            arraybuffer: 'https://droplet2static.nyc3.digitaloceanspaces.com/defluttered_A11_T870_HR2L_CH12_16.dat'
+            // arraybuffer: 'media/defluttered_A11_T870_HR2L_CH12_16.dat'
+            // json: 'media/defluttered_A11_T870_HR2L_CH12.json'
+          },
+          zoomLevels: [512, 1024, 2048, 4096],
+          keyboard: true,
+          pointMarkerColor: '#006eb0',
+          showPlayheadTime: false,
+          height: 100
+        };
+
+        var peaksInstance = Peaks.init(options);
+
+        peaksInstance.on('peaks.ready', function() {
+          console.log('peaks.ready');
+          // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
+        });
+
+        var renderSegments = function(peaks) {
+          var segmentsContainer = document.getElementById('segments');
+          var segments = peaks.segments.getSegments();
+          var html = '';
+
+          for (var i = 0; i < segments.length; i++) {
+            var segment = segments[i];
+
+            var row = '<tr>' +
+              '<td>' + segment.id + '</td>' +
+              '<td>' + segment.labelText + '</td>' +
+              '<td>' + segment.startTime + '</td>' +
+              '<td>' + segment.endTime + '</td>' +
+              '<td>' + '<a href="#' + segment.id + '" data-action="play-segment" data-id="' + segment.id + '">Play</a>' + '</td>' +
+              '<td>' + '<a href="#' + segment.id + '" data-action="remove-segment" data-id="' + segment.id + '">Remove</a>' + '</td>' +
+              '</tr>';
+
+            html += row;
+          }
+
+          segmentsContainer.querySelector('tbody').innerHTML = html;
+
+          if (html.length) {
+            segmentsContainer.classList = '';
+          }
+        };
+
+        var renderPoints = function(peaks) {
+          var pointsContainer = document.getElementById('points');
+          var points = peaks.points.getPoints();
+          var html = '';
+
+          for (var i = 0; i < points.length; i++) {
+            var point = points[i];
+
+            var row = '<tr>' +
+              '<td>' + point.id + '</td>' +
+              '<td>' + point.labelText + '</td>' +
+              '<td>' + point.time + '</td>' +
+              '<td>' + '<a href="#' + point.id + '" data-action="remove-point" data-id="' + point.id + '">Remove</a>' + '</td>' +
+              '</tr>';
+
+            html += row;
+          }
+
+          pointsContainer.querySelector('tbody').innerHTML = html;
+
+          if (html.length) {
+            pointsContainer.classList = '';
+          }
+        };
+
+        document.querySelector('[data-action="zoom-in"]').addEventListener('click', function() {
+          peaksInstance.zoom.zoomIn();
+        });
+
+        document.querySelector('[data-action="zoom-out"]').addEventListener('click', function() {
+          peaksInstance.zoom.zoomOut();
+        });
+
+        document.querySelector('button[data-action="add-segment"]').addEventListener('click', function() {
+          peaksInstance.segments.add({
+            startTime: peaksInstance.player.getCurrentTime(),
+            endTime: peaksInstance.player.getCurrentTime() + 10,
+            labelText: "Test segment",
+            editable: true
+          });
+        });
+
+        document.querySelector('button[data-action="add-point"]').addEventListener('click', function() {
+          peaksInstance.points.add({
+            time: peaksInstance.player.getCurrentTime(),
+            labelText: "Test point",
+            editable: true
+          });
+        });
+
+        document.querySelector('button[data-action="log-data"]').addEventListener('click', function(event) {
+          renderSegments(peaksInstance);
+          renderPoints(peaksInstance);
+        });
+
+        document.querySelector('button[data-action="seek"]').addEventListener('click', function(event) {
+          var time = document.getElementById('seek-time').value;
+          var seconds = parseFloat(time);
+
+          if (!Number.isNaN(seconds)) {
+            peaksInstance.player.seek(seconds);
+          }
+        });
+
+        document.querySelector('body').addEventListener('click', function(event) {
+          var element = event.target;
+          var action  = element.getAttribute('data-action');
+          var id      = element.getAttribute('data-id');
+
+          if (action === 'play-segment') {
+            var segment = peaksInstance.segments.getSegment(id);
+            peaksInstance.player.playSegment(segment);
+          }
+          else if (action === 'remove-point') {
+            peaksInstance.points.removeById(id);
+          }
+          else if (action === 'remove-segment') {
+            peaksInstance.segments.removeById(id);
+          }
+        });
+
+      })(peaks);
+    </script>
+  </body>
+</html>
