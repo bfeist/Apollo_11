@@ -2,9 +2,77 @@ var missionDurationSeconds = 784086;
 var countdownSeconds = 74706;
 var gTapeRangesHR1 = [];
 var gTapeRangesHR2 = [];
+var peaksInstance;
 
 $( document ).ready(function() {
     console.log( "ready!" );
+
+    (function(Peaks) {
+        var options = {
+            container: document.getElementById('first-waveform-visualiser-container'),
+            mediaElement: document.querySelector('#audio-element'),
+            dataUri: {
+                arraybuffer: '/mp3/defluttered_A11_T870_HR2L_CH12_16.dat'
+                // arraybuffer: 'https://droplet2static.nyc3.digitaloceanspaces.com/defluttered_A11_T870_HR2L_CH12_16.dat'
+            },
+            zoomLevels: [512, 1024, 2048, 4096],
+            keyboard: true,
+            pointMarkerColor: '#006eb0',
+            showPlayheadTime: false,
+            height: 100
+        };
+
+        peaksInstance = Peaks.init(options);
+
+        peaksInstance.on('peaks.ready', function() {
+            console.log('peaks.ready');
+            // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
+        });
+    })(peaks);
+
+
+    var audiography = {
+        audioElement: document.querySelector('#audio-element'),
+        currentSegmentToAdd: '',
+        playAudio: function(){
+            if(audiography.audioElement.paused){
+                audiography.audioElement.play();
+            }
+        },
+        pauseAudio: function(){
+            if(!audiography.audioElement.paused){
+                audiography.audioElement.pause();
+            }
+        },
+        seekAudioForward: function(){
+            console.log('seekAudioForward');
+
+            console.log(audiography.audioElement.duration);
+            audiography.audioElement.currentTime = (audiography.audioElement.currentTime + (audiography.audioElement.duration / 10));
+            console.log(audiography.audioElement.currentTime);
+        },
+        seekAudioBackward: function(){
+            audiography.audioElement.currentTime = (audiography.audioElement.currentTime - (audiography.audioElement.duration / 10));
+        }
+    };
+
+    //hook up custom audio controls to UI
+    // document.querySelector('#zoom-out-button').addEventListener('click', p.zoom.zoomOut);
+    // document.querySelector('#zoom-in-button').addEventListener('click', p.zoom.zoomIn);
+    document.querySelector('#seek-forward-button').addEventListener('click', audiography.seekAudioForward);
+    document.querySelector('#seek-backward-button').addEventListener('click', audiography.seekAudioBackward);
+    document.querySelector('#play-button').addEventListener('click', audiography.playAudio);
+    document.querySelector('#pause-button').addEventListener('click', audiography.pauseAudio);
+
+    var tapeButtons = document.querySelectorAll('.select-tape-button');
+    for(var i=0; i < tapeButtons.length; i++){
+        tapeButtons[i].addEventListener('click', buttonClick_selectTape);
+    }
+
+    var channelButtons = document.querySelectorAll('.select-channel-button');
+    for(var i=0; i < channelButtons.length; i++){
+        channelButtons[i].addEventListener('click', buttonClick_selectChannel);
+    }
 
     $.when(ajaxGetTapeRangeData()).done(function(){
         console.log("APPREADY: Ajax loaded");
@@ -32,7 +100,38 @@ function mainApplication() {
         if (HR2TapeData.length !== 0) {
             HR2Display.innerHTML = HR2TapeData[0] + ": " + secondsToTimeStr(sliderMissionSeconds - timeStrToSeconds(HR2TapeData[2]));
         }
+    };
+
+    slider.onmouseup = function() {
+        console.log("range changed");
+        var sliderMissionSeconds = (((this.value - 1) * missionDurationSeconds) / 99) - countdownSeconds;
+
+        var HR1TapeData = getTapeByGETseconds(sliderMissionSeconds, "HR1");
+        var HR2TapeData = getTapeByGETseconds(sliderMissionSeconds, "HR2");
+
+        if (HR1TapeData.length !== 0) {
+            $("button:contains('" + HR1TapeData[0] + "')")[0].click();
+            peaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(HR1TapeData[2]));
+        }
+        if (HR2TapeData.length !== 0) {
+            $("button:contains('" + HR2TapeData[0] + "')")[0].click();
+        }
     }
+}
+
+function buttonClick_selectTape() {
+    console.log("select-tape-button clicked: " + $(this).text());
+    makeOnlySelectedButtonActive(this);
+}
+
+function buttonClick_selectChannel() {
+    console.log("select-channel-button clicked: " + $(this).text());
+    makeOnlySelectedButtonActive(this);
+}
+
+function makeOnlySelectedButtonActive(context) {
+    $('#selectedTape').text($(context).text());
+    $(context).siblings().not(context).removeClass('active');
 }
 
 function getTapeByGETseconds(seconds, tapeType) {

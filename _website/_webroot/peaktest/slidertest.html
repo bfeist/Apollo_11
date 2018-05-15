@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/peaks.js"></script>
     <script src="slidertest.js"></script>
 </head>
 <body>
@@ -24,6 +25,128 @@
         <div>HR2: <span id="HR2Display"></span></div>
 
     </div>
+    <div>Selected tape: <span id="selectedTape">T869</span></div>
+    <div>Selected channel: <span id="selectedChannel">1</span></div>
+    <div id="first-waveform-visualiser-container"></div>
+    <div>
+        <audio id="audio-element" controls=controls>
+            <source src="/mp3/defluttered_A11_T870_HR2L_CH12_16.mp3" type="audio/mpeg"/>
+        </audio>
+
+        <div class="btn-group" role="group" id="custom-audio-controls">
+            <button class="btn btn-default" id="seek-backward-button">
+                <span class="glyphicon glyphicon-backward">back</span>
+            </button>
+            <button class="btn btn-default" id="play-button">
+                <span class="glyphicon glyphicon-play">play</span>
+            </button>
+            <button class="btn btn-default" id="pause-button">
+                <span class="glyphicon glyphicon-pause">pause</span>
+            </button>
+            <button class="btn btn-default" id="seek-forward-button">
+                <span class="glyphicon glyphicon-forward">forward</span>
+            </button>
+            <button class="btn btn-default" id="zoom-in-button">
+                <span class="glyphicon glyphicon-zoom-in">zoom-in</span>
+            </button>
+            <button class="btn btn-default" id="zoom-out-button">
+                <span class="glyphicon glyphicon-zoom-out">zoom-out</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">HR1</h3>
+        </div>
+        <div class="panel-body">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons-radio">
+                <button class="btn btn-primary select-tape-button">T869</button>
+                <button class="btn btn-primary select-tape-button">T872</button>
+                <button class="btn btn-primary select-tape-button">T874</button>
+                <button class="btn btn-primary select-tape-button">T876</button>
+                <button class="btn btn-primary select-tape-button">T879</button>
+                <button class="btn btn-primary select-tape-button">T882</button>
+                <button class="btn btn-primary select-tape-button">T884a</button>
+                <button class="btn btn-primary select-tape-button">T884b</button>
+                <button class="btn btn-primary select-tape-button">T886</button>
+                <button class="btn btn-primary select-tape-button">T888</button>
+                <button class="btn btn-primary select-tape-button">T890</button>
+                <button class="btn btn-primary select-tape-button">T648</button>
+                <button class="btn btn-primary select-tape-button">T650</button>
+                <button class="btn btn-primary select-tape-button">T652</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">HR2</h3>
+        </div>
+        <div class="panel-body">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <button class="btn btn-primary select-tape-button">T870</button>
+                <button class="btn btn-primary select-tape-button">T871a</button>
+                <button class="btn btn-primary select-tape-button">T871b</button>
+                <button class="btn btn-primary select-tape-button">T875</button>
+                <button class="btn btn-primary select-tape-button">T877</button>
+                <button class="btn btn-primary select-tape-button">T878</button>
+                <button class="btn btn-primary select-tape-button">T880</button>
+                <button class="btn btn-primary select-tape-button">T881</button>
+                <button class="btn btn-primary select-tape-button">T883</button>
+                <button class="btn btn-primary select-tape-button">T885</button>
+                <button class="btn btn-primary select-tape-button">T887</button>
+                <button class="btn btn-primary select-tape-button">T889</button>
+                <button class="btn btn-primary select-tape-button">T891</button>
+                <button class="btn btn-primary select-tape-button">T649</button>
+                <button class="btn btn-primary select-tape-button">T651</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Channel</h3>
+        </div>
+        <div class="panel-body">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <button class="btn btn-primary select-channel-button">1</button>
+                <button class="btn btn-primary select-channel-button">2</button>
+                <button class="btn btn-primary select-channel-button">3</button>
+                <button class="btn btn-primary select-channel-button">4</button>
+                <button class="btn btn-primary select-channel-button">5</button>
+                <button class="btn btn-primary select-channel-button">6</button>
+                <button class="btn btn-primary select-channel-button">7</button>
+                <button class="btn btn-primary select-channel-button">8</button>
+                <button class="btn btn-primary select-channel-button">9</button>
+                <button class="btn btn-primary select-channel-button">10</button>
+                <button class="btn btn-primary select-channel-button">11</button>
+                <button class="btn btn-primary select-channel-button">12</button>
+                <button class="btn btn-primary select-channel-button">14</button>
+                <button class="btn btn-primary select-channel-button">15</button>
+                <button class="btn btn-primary select-channel-button">16</button>
+                <button class="btn btn-primary select-channel-button">17</button>
+                <button class="btn btn-primary select-channel-button">18</button>
+                <button class="btn btn-primary select-channel-button">19</button>
+                <button class="btn btn-primary select-channel-button">20</button>
+                <button class="btn btn-primary select-channel-button">21</button>
+                <button class="btn btn-primary select-channel-button">22</button>
+                <button class="btn btn-primary select-channel-button">23</button>
+                <button class="btn btn-primary select-channel-button">24</button>
+                <button class="btn btn-primary select-channel-button">25</button>
+                <button class="btn btn-primary select-channel-button">26</button>
+                <button class="btn btn-primary select-channel-button">27</button>
+                <button class="btn btn-primary select-channel-button">28</button>
+                <button class="btn btn-primary select-channel-button">29</button>
+                <button class="btn btn-primary select-channel-button">30</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 
 </div>
 
