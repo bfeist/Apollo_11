@@ -9,8 +9,31 @@ $( document ).ready(function() {
 
     (function(Peaks) {
         var options = {
-            container: document.getElementById('first-waveform-visualiser-container'),
-            mediaElement: document.querySelector('#audio-element'),
+            container: document.getElementById('hr1-waveform-visualiser-container'),
+            mediaElement: document.querySelector('#hr1-audio-element'),
+            dataUri: {
+                arraybuffer: '/mp3/defluttered_A11_T870_HR2L_CH12_16.dat'
+                // arraybuffer: 'https://droplet2static.nyc3.digitaloceanspaces.com/defluttered_A11_T870_HR2L_CH12_16.dat'
+            },
+            zoomLevels: [512, 1024, 2048, 4096],
+            keyboard: true,
+            pointMarkerColor: '#006eb0',
+            showPlayheadTime: false,
+            height: 100
+        };
+
+        peaksInstance = Peaks.init(options);
+
+        peaksInstance.on('peaks.ready', function() {
+            console.log('peaks.ready');
+            // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
+        });
+    })(peaks);
+
+    (function(Peaks) {
+        var options = {
+            container: document.getElementById('hr2-waveform-visualiser-container'),
+            mediaElement: document.querySelector('#hr2-audio-element'),
             dataUri: {
                 arraybuffer: '/mp3/defluttered_A11_T870_HR2L_CH12_16.dat'
                 // arraybuffer: 'https://droplet2static.nyc3.digitaloceanspaces.com/defluttered_A11_T870_HR2L_CH12_16.dat'
@@ -32,7 +55,7 @@ $( document ).ready(function() {
 
 
     var audiography = {
-        audioElement: document.querySelector('#audio-element'),
+        audioElement: document.querySelector('#hr1-audio-element'),
         currentSegmentToAdd: '',
         playAudio: function(){
             if(audiography.audioElement.paused){
@@ -64,12 +87,12 @@ $( document ).ready(function() {
     document.querySelector('#play-button').addEventListener('click', audiography.playAudio);
     document.querySelector('#pause-button').addEventListener('click', audiography.pauseAudio);
 
-    var tapeButtons = document.querySelectorAll('.select-tape-button');
+    var tapeButtons = document.querySelectorAll('.hr1-tape-button, .hr2-tape-button');
     for(var i=0; i < tapeButtons.length; i++){
         tapeButtons[i].addEventListener('click', buttonClick_selectTape);
     }
 
-    var channelButtons = document.querySelectorAll('.select-channel-button');
+    var channelButtons = document.querySelectorAll('.hr1-channel-button, .hr2-channel-button');
     for(var i=0; i < channelButtons.length; i++){
         channelButtons[i].addEventListener('click', buttonClick_selectChannel);
     }
@@ -120,17 +143,26 @@ function mainApplication() {
 }
 
 function buttonClick_selectTape() {
-    console.log("select-tape-button clicked: " + $(this).text());
+    if (this.classList.contains("hr1-tape-button")) {
+        var hr_type = "HR1";
+    } else {
+        hr_type = "HR2";
+    }
+    console.log("select-tape-button clicked: " + hr_type + ": " + $(this).text());
     makeOnlySelectedButtonActive(this);
 }
 
 function buttonClick_selectChannel() {
-    console.log("select-channel-button clicked: " + $(this).text());
+    if (this.classList.contains("hr1-channel-button")) {
+        var hr_type = "HR1";
+    } else {
+        hr_type = "HR2";
+    }
+    console.log("select-channel-button clicked: " + hr_type + ": " + $(this).text());
     makeOnlySelectedButtonActive(this);
 }
 
 function makeOnlySelectedButtonActive(context) {
-    $('#selectedTape').text($(context).text());
     $(context).siblings().not(context).removeClass('active');
 }
 
