@@ -2,90 +2,64 @@ var missionDurationSeconds = 784086;
 var countdownSeconds = 74706;
 var gTapeRangesHR1 = [];
 var gTapeRangesHR2 = [];
-var peaksInstance;
+var hr1PeaksInstance;
+var hr2PeaksInstance;
+var hr1ActiveTape = "T869";
+var hr2ActiveTape = "T870";
+var hr1ActiveChannel = "2";
+var hr2ActiveChannel = "2";
 
 $( document ).ready(function() {
     console.log( "ready!" );
 
-    (function(Peaks) {
-        var options = {
-            container: document.getElementById('hr1-waveform-visualiser-container'),
-            mediaElement: document.querySelector('#hr1-audio-element'),
-            dataUri: {
-                arraybuffer: '/mp3/defluttered_A11_T870_HR2L_CH12_16.dat'
-                // arraybuffer: 'https://droplet2static.nyc3.digitaloceanspaces.com/defluttered_A11_T870_HR2L_CH12_16.dat'
-            },
-            zoomLevels: [512, 1024, 2048, 4096],
-            keyboard: true,
-            pointMarkerColor: '#006eb0',
-            showPlayheadTime: false,
-            height: 100
-        };
+    $('#main-body [data-toggle="tooltip"]').tooltip({
+        animated: 'fade',
+        placement: 'bottom',
+        html: true
+    });
 
-        peaksInstance = Peaks.init(options);
-
-        peaksInstance.on('peaks.ready', function() {
-            console.log('peaks.ready');
-            // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
-        });
-    })(peaks);
-
-    (function(Peaks) {
-        var options = {
-            container: document.getElementById('hr2-waveform-visualiser-container'),
-            mediaElement: document.querySelector('#hr2-audio-element'),
-            dataUri: {
-                arraybuffer: '/mp3/defluttered_A11_T870_HR2L_CH12_16.dat'
-                // arraybuffer: 'https://droplet2static.nyc3.digitaloceanspaces.com/defluttered_A11_T870_HR2L_CH12_16.dat'
-            },
-            zoomLevels: [512, 1024, 2048, 4096],
-            keyboard: true,
-            pointMarkerColor: '#006eb0',
-            showPlayheadTime: false,
-            height: 100
-        };
-
-        peaksInstance = Peaks.init(options);
-
-        peaksInstance.on('peaks.ready', function() {
-            console.log('peaks.ready');
-            // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
-        });
-    })(peaks);
-
-
-    var audiography = {
-        audioElement: document.querySelector('#hr1-audio-element'),
-        currentSegmentToAdd: '',
-        playAudio: function(){
-            if(audiography.audioElement.paused){
-                audiography.audioElement.play();
-            }
+    var options = {
+        container: document.getElementById('hr1-waveform-visualiser-container'),
+        mediaElement: document.querySelector('#hr1-audio-element'),
+        dataUri: {
+            arraybuffer: '/mp3/T869_defluttered_mp3_16/audiowaveform/defluttered_A11_T869_HR1U_CH2.dat'
+            // arraybuffer: 'https://droplet2static.nyc3.digitaloceanspaces.com/defluttered_A11_T870_HR2L_CH12_16.dat'
         },
-        pauseAudio: function(){
-            if(!audiography.audioElement.paused){
-                audiography.audioElement.pause();
-            }
-        },
-        seekAudioForward: function(){
-            console.log('seekAudioForward');
-
-            console.log(audiography.audioElement.duration);
-            audiography.audioElement.currentTime = (audiography.audioElement.currentTime + (audiography.audioElement.duration / 10));
-            console.log(audiography.audioElement.currentTime);
-        },
-        seekAudioBackward: function(){
-            audiography.audioElement.currentTime = (audiography.audioElement.currentTime - (audiography.audioElement.duration / 10));
-        }
+        zoomLevels: [512, 1024, 2048, 4096],
+        keyboard: true,
+        pointMarkerColor: '#006eb0',
+        showPlayheadTime: false,
+        height: 100
     };
 
-    //hook up custom audio controls to UI
-    // document.querySelector('#zoom-out-button').addEventListener('click', p.zoom.zoomOut);
-    // document.querySelector('#zoom-in-button').addEventListener('click', p.zoom.zoomIn);
-    document.querySelector('#seek-forward-button').addEventListener('click', audiography.seekAudioForward);
-    document.querySelector('#seek-backward-button').addEventListener('click', audiography.seekAudioBackward);
-    document.querySelector('#play-button').addEventListener('click', audiography.playAudio);
-    document.querySelector('#pause-button').addEventListener('click', audiography.pauseAudio);
+    hr1PeaksInstance = peaks.init(options);
+
+    hr1PeaksInstance.on('peaks.ready', function() {
+        console.log('hr1 peaks.ready');
+        // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
+    });
+
+
+    var options = {
+        container: document.getElementById('hr2-waveform-visualiser-container'),
+        mediaElement: document.querySelector('#hr2-audio-element'),
+        dataUri: {
+            arraybuffer: '/mp3/T870_defluttered_mp3_16/audiowaveform/defluttered_A11_T870_HR2L_CH2.dat'
+            // arraybuffer: 'https://droplet2static.nyc3.digitaloceanspaces.com/defluttered_A11_T870_HR2L_CH12_16.dat'
+        },
+        zoomLevels: [512, 1024, 2048, 4096],
+        keyboard: true,
+        pointMarkerColor: '#006eb0',
+        showPlayheadTime: false,
+        height: 100
+    };
+
+    hr2PeaksInstance = peaks.init(options);
+
+    hr2PeaksInstance.on('peaks.ready', function() {
+        console.log('hr2 peaks.ready');
+        // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
+    });
 
     var tapeButtons = document.querySelectorAll('.hr1-tape-button, .hr2-tape-button');
     for(var i=0; i < tapeButtons.length; i++){
@@ -134,10 +108,13 @@ function mainApplication() {
 
         if (HR1TapeData.length !== 0) {
             $("button:contains('" + HR1TapeData[0] + "')")[0].click();
-            peaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(HR1TapeData[2]));
+            hr1PeaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(HR1TapeData[2]));
+            hr1PeaksInstance.player.play();
         }
         if (HR2TapeData.length !== 0) {
             $("button:contains('" + HR2TapeData[0] + "')")[0].click();
+            hr2PeaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(HR2TapeData[2]));
+            hr2PeaksInstance.player.play();
         }
     }
 }
@@ -150,6 +127,14 @@ function buttonClick_selectTape() {
     }
     console.log("select-tape-button clicked: " + hr_type + ": " + $(this).text());
     makeOnlySelectedButtonActive(this);
+
+    if (hr_type === "HR1") {
+        hr1ActiveTape = $(this).text();
+    } else {
+        hr2ActiveTape = $(this).text();
+    }
+
+    setTapeAndChannel(hr_type);
 }
 
 function buttonClick_selectChannel() {
@@ -160,10 +145,71 @@ function buttonClick_selectChannel() {
     }
     console.log("select-channel-button clicked: " + hr_type + ": " + $(this).text());
     makeOnlySelectedButtonActive(this);
+
+    if (hr_type === "HR1") {
+        hr1ActiveChannel = $(this).text();
+    } else {
+        hr2ActiveChannel = $(this).text();
+    }
+
+    setTapeAndChannel(hr_type);
 }
 
 function makeOnlySelectedButtonActive(context) {
     $(context).siblings().not(context).removeClass('active');
+}
+
+function setTapeAndChannel(hr_type) {
+
+    var activeTape = (hr_type === "HR1") ? hr1ActiveTape : hr2ActiveTape;
+    var activeChannel = (hr_type === "HR1") ? hr1ActiveChannel : hr2ActiveChannel;
+
+    var tapeData = [];
+    var tapeRanges = (hr_type === "HR1") ? gTapeRangesHR1 : gTapeRangesHR2;
+
+    for (var index = 0; index < tapeRanges.length; ++index) {
+        if (tapeRanges[index][0] === activeTape) {
+            tapeData = tapeRanges[index];
+            break;
+        }
+    }
+
+    var filename = "defluttered_A11_" + tapeData[0] + "_" + tapeData[1] + "_CH" + activeChannel;
+    var waveformContainer = (hr_type === "HR1") ? "hr1-waveform-visualiser-container" : "hr2-waveform-visualiser-container";
+    var audioElementName = (hr_type === "HR1") ? "hr1-audio-element" : "hr2-audio-element";
+    var audioElement = document.getElementById(audioElementName);
+
+    audioElement.src = "/mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
+    audioElement.load();
+
+    var options = {
+        container: document.getElementById(waveformContainer),
+        mediaElement: audioElement,
+        dataUri: {
+            arraybuffer: "/mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform/" + filename + '.dat'
+        },
+        zoomLevels: [512, 1024, 2048, 4096],
+        keyboard: true,
+        pointMarkerColor: '#006eb0',
+        showPlayheadTime: false,
+        height: 100
+    };
+
+    if (hr_type === "HR1") {
+        hr1PeaksInstance.destroy();
+        hr1PeaksInstance = peaks.init(options);
+        hr1PeaksInstance.on('peaks.ready', function() {
+            console.log('hr1 peaks.ready');
+            // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
+        });
+    } else {
+        hr2PeaksInstance.destroy();
+        hr2PeaksInstance = peaks.init(options);
+        hr2PeaksInstance.on('peaks.ready', function() {
+            console.log('hr2 peaks.ready');
+            // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
+        });
+    }
 }
 
 function getTapeByGETseconds(seconds, tapeType) {
