@@ -16,11 +16,13 @@
 <div class="container-fluid" id="main-body">
     <h1>Apollo 11 30-track tape time selector prototype</h1>
     <p>Slide the bar to simulate a change in Ground Elapsed Time (GET) and see the resulting 30-track tape number and cue time for that tape to play a given GET.</p>
+    <div class="timediv">
+        <span class="h4 timespan">GET: <span id="missionTimeDisplay">-20:45:06</span></span>
+        <span class="h6 timespan">HR1: <span id="HR1Display">T867</span></span>&nbsp;&nbsp;
+        <span class="h6 timespan">HR2: <span id="HR2Display">T868a</span></span>
+    </div>
     <div class="slidecontainer">
-        <span>GET: <span id="missionTimeDisplay">-20:45:06</span></span>
-        <span>HR1: <span id="HR1Display">T869</span></span>
-        <span>HR2: <span id="HR2Display">T870</span></span>
-        <input type="range" min="1" max="100" value="0" class="slider" id="myRange"/>
+        <input type="range" min="1" max="100" value="0" class="slider" id="myRange" step="0.001"/>
     </div>
     <!--<div>Selected tape: <span id="selectedTape">T869</span></div>-->
     <!--<div>Selected channel: <span id="selectedChannel">2</span></div>-->
@@ -36,55 +38,57 @@
             <div id="hr1-waveform-visualiser-container"></div>
             <div>
                 <audio id="hr1-audio-element" controls=controls>
-                    <source id="hr1-track" src="/mp3/T869_defluttered_mp3_16/defluttered_A11_T869_HR1U_CH2.mp3" type="audio/mpeg"/>
+                    <source id="hr1-track" src="/mp3/T867_defluttered_mp3_16/defluttered_A11_T867_HR1L_CH14.mp3" type="audio/mpeg"/>
                 </audio>
             </div>
             <div class="btn-group-toggle" data-toggle="buttons-radio">
-                <button class="btn btn-primary hr1-tape-button active">T869</button>
-                <button class="btn btn-primary hr1-tape-button">T872</button>
-                <button class="btn btn-primary hr1-tape-button">T874</button>
-                <button class="btn btn-primary hr1-tape-button">T876</button>
-                <button class="btn btn-primary hr1-tape-button">T879</button>
-                <button class="btn btn-primary hr1-tape-button">T882</button>
-                <button class="btn btn-primary hr1-tape-button">T884a</button>
-                <button class="btn btn-primary hr1-tape-button">T884b</button>
-                <button class="btn btn-primary hr1-tape-button">T886</button>
-                <button class="btn btn-primary hr1-tape-button">T888</button>
-                <button class="btn btn-primary hr1-tape-button">T890</button>
-                <button class="btn btn-primary hr1-tape-button">T648</button>
-                <button class="btn btn-primary hr1-tape-button">T650</button>
-                <button class="btn btn-primary hr1-tape-button">T652</button>
+                <button class="btn btn-tape hr1-tape-button active">T867</button>
+                <button class="btn btn-tape hr1-tape-button">T869</button>
+                <button class="btn btn-tape hr1-tape-button">T872</button>
+                <button class="btn btn-tape hr1-tape-button">T874</button>
+                <button class="btn btn-tape hr1-tape-button">T876</button>
+                <button class="btn btn-tape hr1-tape-button">T879</button>
+                <button class="btn btn-tape hr1-tape-button">T882</button>
+                <button class="btn btn-tape hr1-tape-button">T884a</button>
+                <button class="btn btn-tape hr1-tape-button">T884b</button>
+                <button class="btn btn-tape hr1-tape-button">T886</button>
+                <button class="btn btn-tape hr1-tape-button">T888</button>
+                <button class="btn btn-tape hr1-tape-button">T890</button>
+                <button class="btn btn-tape hr1-tape-button">T648</button>
+                <button class="btn btn-tape hr1-tape-button">T650</button>
+                <button class="btn btn-tape hr1-tape-button">T652</button>
             </div>
             <div class="btn-group-toggle" data-toggle="buttons">
-                <button class="btn btn-secondary hr1-channel-button">1</button>
-                <button class="btn btn-secondary hr1-channel-button active">2</button>
-                <button class="btn btn-secondary hr1-channel-button">3</button>
-                <button class="btn btn-secondary hr1-channel-button disabled">4</button>
-                <button class="btn btn-secondary hr1-channel-button">5</button>
-                <button class="btn btn-secondary hr1-channel-button">6</button>
-                <button class="btn btn-secondary hr1-channel-button">7</button>
-                <button class="btn btn-secondary hr1-channel-button">8</button>
-                <button class="btn btn-secondary hr1-channel-button">9</button>
-                <button class="btn btn-secondary hr1-channel-button">10</button>
-                <button class="btn btn-secondary hr1-channel-button">11</button>
-                <button class="btn btn-secondary hr1-channel-button">12</button>
-                <button class="btn btn-secondary hr1-channel-button">14</button>
-                <button class="btn btn-secondary hr1-channel-button">15</button>
-                <button class="btn btn-secondary hr1-channel-button">16</button>
-                <button class="btn btn-secondary hr1-channel-button">17</button>
-                <button class="btn btn-secondary hr1-channel-button">18</button>
-                <button class="btn btn-secondary hr1-channel-button">19</button>
-                <button class="btn btn-secondary hr1-channel-button">20</button>
-                <button class="btn btn-secondary hr1-channel-button">21</button>
-                <button class="btn btn-secondary hr1-channel-button">22</button>
-                <button class="btn btn-secondary hr1-channel-button">23</button>
-                <button class="btn btn-secondary hr1-channel-button">24</button>
-                <button class="btn btn-secondary hr1-channel-button">25</button>
-                <button class="btn btn-secondary hr1-channel-button">26</button>
-                <button class="btn btn-secondary hr1-channel-button">27</button>
-                <button class="btn btn-secondary hr1-channel-button">28</button>
-                <button class="btn btn-secondary hr1-channel-button">29</button>
-                <button class="btn btn-secondary hr1-channel-button">30</button>
+                <button class="btn btn-channel hr1-channel-button">1</button>
+                <button class="btn btn-channel hr1-channel-button">2</button>
+                <button class="btn btn-channel hr1-channel-button">3</button>
+                <button class="btn btn-channel hr1-channel-button disabled">4</button>
+                <button class="btn btn-channel hr1-channel-button">5</button>
+                <button class="btn btn-channel hr1-channel-button">6</button>
+                <button class="btn btn-channel hr1-channel-button">7</button>
+                <button class="btn btn-channel hr1-channel-button">8</button>
+                <button class="btn btn-channel hr1-channel-button">9</button>
+                <button class="btn btn-channel hr1-channel-button disabled">10</button>
+                <button class="btn btn-channel hr1-channel-button">11</button>
+                <button class="btn btn-channel hr1-channel-button">12</button>
+                <button class="btn btn-channel hr1-channel-button">13</button>
+                <button class="btn btn-channel hr1-channel-button active">14</button>
+                <button class="btn btn-channel hr1-channel-button">15</button>
+                <button class="btn btn-channel hr1-channel-button">16</button>
+                <button class="btn btn-channel hr1-channel-button">17</button>
+                <button class="btn btn-channel hr1-channel-button">18</button>
+                <button class="btn btn-channel hr1-channel-button">19</button>
+                <button class="btn btn-channel hr1-channel-button">20</button>
+                <button class="btn btn-channel hr1-channel-button">21</button>
+                <button class="btn btn-channel hr1-channel-button">22</button>
+                <button class="btn btn-channel hr1-channel-button">23</button>
+                <button class="btn btn-channel hr1-channel-button">24</button>
+                <button class="btn btn-channel hr1-channel-button">25</button>
+                <button class="btn btn-channel hr1-channel-button">26</button>
+                <button class="btn btn-channel hr1-channel-button">27</button>
+                <button class="btn btn-channel hr1-channel-button">28</button>
+                <button class="btn btn-channel hr1-channel-button">29</button>
+                <button class="btn btn-channel hr1-channel-button">30</button>
             </div>
         </div>
     </div>
@@ -100,56 +104,60 @@
             <div id="hr2-waveform-visualiser-container"></div>
             <div>
                 <audio id="hr2-audio-element" controls=controls>
-                    <source id="hr2-track" src="/mp3/T870_defluttered_mp3_16/defluttered_A11_T870_HR2L_CH2.mp3" type="audio/mpeg"/>
+                    <source id="hr2-track" src="/mp3/T868a_defluttered_mp3_16/defluttered_A11_T868a_HR2U_CH20.mp3" type="audio/mpeg"/>
                 </audio>
             </div>
             <div class="btn-group-toggle" data-toggle="buttons">
-                <button class="btn btn-primary hr2-tape-button active">T870</button>
-                <button class="btn btn-primary hr2-tape-button">T871a</button>
-                <button class="btn btn-primary hr2-tape-button">T871b</button>
-                <button class="btn btn-primary hr2-tape-button">T875</button>
-                <button class="btn btn-primary hr2-tape-button">T877</button>
-                <button class="btn btn-primary hr2-tape-button">T878</button>
-                <button class="btn btn-primary hr2-tape-button">T880</button>
-                <button class="btn btn-primary hr2-tape-button">T881</button>
-                <button class="btn btn-primary hr2-tape-button">T883</button>
-                <button class="btn btn-primary hr2-tape-button">T885</button>
-                <button class="btn btn-primary hr2-tape-button">T887</button>
-                <button class="btn btn-primary hr2-tape-button">T889</button>
-                <button class="btn btn-primary hr2-tape-button">T891</button>
-                <button class="btn btn-primary hr2-tape-button">T649</button>
-                <button class="btn btn-primary hr2-tape-button">T651</button>
+                <button class="btn btn-tape hr2-tape-button active">T868a</button>
+                <button class="btn btn-tape hr2-tape-button">T868b</button>
+                <button class="btn btn-tape hr2-tape-button">T870</button>
+                <button class="btn btn-tape hr2-tape-button">T871a</button>
+                <button class="btn btn-tape hr2-tape-button">T871b</button>
+                <button class="btn btn-tape hr2-tape-button">T873</button>
+                <button class="btn btn-tape hr2-tape-button">T875</button>
+                <button class="btn btn-tape hr2-tape-button">T877</button>
+                <button class="btn btn-tape hr2-tape-button">T878</button>
+                <button class="btn btn-tape hr2-tape-button">T880</button>
+                <button class="btn btn-tape hr2-tape-button">T881</button>
+                <button class="btn btn-tape hr2-tape-button">T883</button>
+                <button class="btn btn-tape hr2-tape-button">T885</button>
+                <button class="btn btn-tape hr2-tape-button">T887</button>
+                <button class="btn btn-tape hr2-tape-button">T889</button>
+                <button class="btn btn-tape hr2-tape-button">T891</button>
+                <button class="btn btn-tape hr2-tape-button">T649</button>
+                <button class="btn btn-tape hr2-tape-button">T651</button>
             </div>
             <div class="btn-group-toggle" data-toggle="buttons">
-                <button class="btn btn-secondary hr2-channel-button">1</button>
-                <button class="btn btn-secondary hr2-channel-button active">2</button>
-                <button class="btn btn-secondary hr2-channel-button">3</button>
-                <button class="btn btn-secondary hr2-channel-button">4</button>
-                <button class="btn btn-secondary hr2-channel-button">5</button>
-                <button class="btn btn-secondary hr2-channel-button disabled">6</button>
-                <button class="btn btn-secondary hr2-channel-button disabled">7</button>
-                <button class="btn btn-secondary hr2-channel-button disabled">8</button>
-                <button class="btn btn-secondary hr2-channel-button disabled">9</button>
-                <button class="btn btn-secondary hr2-channel-button disabled">10</button>
-                <button class="btn btn-secondary hr2-channel-button disabled">11</button>
-                <button class="btn btn-secondary hr2-channel-button">12</button>
-                <button class="btn btn-secondary hr2-channel-button">14</button>
-                <button class="btn btn-secondary hr2-channel-button">15</button>
-                <button class="btn btn-secondary hr2-channel-button">16</button>
-                <button class="btn btn-secondary hr2-channel-button">17</button>
-                <button class="btn btn-secondary hr2-channel-button">18</button>
-                <button class="btn btn-secondary hr2-channel-button">19</button>
-                <button class="btn btn-secondary hr2-channel-button">20</button>
-                <button class="btn btn-secondary hr2-channel-button">21</button>
-                <button class="btn btn-secondary hr2-channel-button">22</button>
-                <button class="btn btn-secondary hr2-channel-button">23</button>
-                <button class="btn btn-secondary hr2-channel-button">24</button>
-                <button class="btn btn-secondary hr2-channel-button">25</button>
-                <button class="btn btn-secondary hr2-channel-button">26</button>
-                <button class="btn btn-secondary hr2-channel-button">27</button>
-                <button class="btn btn-secondary hr2-channel-button">28</button>
-                <button class="btn btn-secondary hr2-channel-button">29</button>
-                <button class="btn btn-secondary hr2-channel-button">30</button>
+                <button class="btn btn-channel hr2-channel-button">1</button>
+                <button class="btn btn-channel hr2-channel-button">2</button>
+                <button class="btn btn-channel hr2-channel-button">3</button>
+                <button class="btn btn-channel hr2-channel-button">4</button>
+                <button class="btn btn-channel hr2-channel-button">5</button>
+                <button class="btn btn-channel hr2-channel-button disabled">6</button>
+                <button class="btn btn-channel hr2-channel-button disabled">7</button>
+                <button class="btn btn-channel hr2-channel-button disabled">8</button>
+                <button class="btn btn-channel hr2-channel-button disabled">9</button>
+                <button class="btn btn-channel hr2-channel-button disabled">10</button>
+                <button class="btn btn-channel hr2-channel-button disabled">11</button>
+                <button class="btn btn-channel hr2-channel-button">12</button>
+                <button class="btn btn-channel hr2-channel-button">13</button>
+                <button class="btn btn-channel hr2-channel-button">14</button>
+                <button class="btn btn-channel hr2-channel-button">15</button>
+                <button class="btn btn-channel hr2-channel-button">16</button>
+                <button class="btn btn-channel hr2-channel-button">17</button>
+                <button class="btn btn-channel hr2-channel-button">18</button>
+                <button class="btn btn-channel hr2-channel-button">19</button>
+                <button class="btn btn-channel hr2-channel-button active">20</button>
+                <button class="btn btn-channel hr2-channel-button">21</button>
+                <button class="btn btn-channel hr2-channel-button">22</button>
+                <button class="btn btn-channel hr2-channel-button">23</button>
+                <button class="btn btn-channel hr2-channel-button">24</button>
+                <button class="btn btn-channel hr2-channel-button">25</button>
+                <button class="btn btn-channel hr2-channel-button">26</button>
+                <button class="btn btn-channel hr2-channel-button">27</button>
+                <button class="btn btn-channel hr2-channel-button">28</button>
+                <button class="btn btn-channel hr2-channel-button">29</button>
+                <button class="btn btn-channel hr2-channel-button">30</button>
             </div>
         </div>
     </div>

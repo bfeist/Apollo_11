@@ -22,7 +22,7 @@ $( document ).ready(function() {
         container: document.getElementById('hr1-waveform-visualiser-container'),
         mediaElement: document.querySelector('#hr1-audio-element'),
         dataUri: {
-            arraybuffer: '/mp3/T869_defluttered_mp3_16/audiowaveform/defluttered_A11_T869_HR1U_CH2.dat'
+            arraybuffer: '/mp3/T867_defluttered_mp3_16/audiowaveform/defluttered_A11_T867_HR1L_CH14.dat'
             // arraybuffer: 'https://droplet2static.nyc3.digitaloceanspaces.com/defluttered_A11_T870_HR2L_CH12_16.dat'
         },
         zoomLevels: [512, 1024, 2048, 4096],
@@ -44,7 +44,7 @@ $( document ).ready(function() {
         container: document.getElementById('hr2-waveform-visualiser-container'),
         mediaElement: document.querySelector('#hr2-audio-element'),
         dataUri: {
-            arraybuffer: '/mp3/T870_defluttered_mp3_16/audiowaveform/defluttered_A11_T870_HR2L_CH2.dat'
+            arraybuffer: '/mp3/T868a_defluttered_mp3_16/audiowaveform/defluttered_A11_T868a_HR2U_CH20.dat'
             // arraybuffer: 'https://droplet2static.nyc3.digitaloceanspaces.com/defluttered_A11_T870_HR2L_CH12_16.dat'
         },
         zoomLevels: [512, 1024, 2048, 4096],
