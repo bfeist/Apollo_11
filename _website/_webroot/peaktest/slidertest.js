@@ -101,21 +101,27 @@ function mainApplication() {
 
     slider.onmouseup = function() {
         console.log("range changed");
-        var sliderMissionSeconds = (((this.value - 1) * missionDurationSeconds) / 99) - countdownSeconds;
+        playFromSliderValue();
+    }
+}
 
-        var HR1TapeData = getTapeByGETseconds(sliderMissionSeconds, "HR1");
-        var HR2TapeData = getTapeByGETseconds(sliderMissionSeconds, "HR2");
+function playFromSliderValue() {
+    console.log("playFromSliderValue()");
+    var sliderVal = $('#myRange').val();
+    var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
 
-        if (HR1TapeData.length !== 0) {
-            $("button:contains('" + HR1TapeData[0] + "')")[0].click();
-            hr1PeaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(HR1TapeData[2]));
-            hr1PeaksInstance.player.play();
-        }
-        if (HR2TapeData.length !== 0) {
-            $("button:contains('" + HR2TapeData[0] + "')")[0].click();
-            hr2PeaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(HR2TapeData[2]));
-            hr2PeaksInstance.player.play();
-        }
+    var HR1TapeData = getTapeByGETseconds(sliderMissionSeconds, "HR1");
+    var HR2TapeData = getTapeByGETseconds(sliderMissionSeconds, "HR2");
+
+    if (HR1TapeData.length !== 0) {
+        $("button:contains('" + HR1TapeData[0] + "')")[0].click();
+        hr1PeaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(HR1TapeData[2]));
+        hr1PeaksInstance.player.play();
+    }
+    if (HR2TapeData.length !== 0) {
+        $("button:contains('" + HR2TapeData[0] + "')")[0].click();
+        hr2PeaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(HR2TapeData[2]));
+        hr2PeaksInstance.player.play();
     }
 }
 
@@ -153,6 +159,7 @@ function buttonClick_selectChannel() {
     }
 
     setTapeAndChannel(hr_type);
+    playFromSliderValue();
 }
 
 function makeOnlySelectedButtonActive(context) {

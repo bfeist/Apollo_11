@@ -64,4 +64,4 @@ else:
 
 outputFilelist.close()
 
-print "************* DONE"
+print("************* DONE")
