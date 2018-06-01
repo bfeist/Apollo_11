@@ -1460,80 +1460,80 @@
 003:29:07|O|CDR|- - this one was just kind of wandering around there - with no - -
 003:29:12|O|LMP|As soon as I went down to high-gain was when the signal strength came up.
 003:29:16|O|CMP|Okay, ... man.
-003:29:21|T|CC|Apollo 11, this is Houston. Radio check. Over.
-003:29:21|O|CC|Apollo 11 - -
-003:29:25|T|CDR|Roger. Loud and clear.
-003:29:27|T|CC|Roger. We're copying you about five-by-two, very weak. Can you give us a status report, please?
-003:29:35|T|CDR|Roger. We are docked. We do have acquisition with the high-gain at this time, I think.
-003:29:45|T|CC|Understand you are using the high-gain. Over.
-003:29:49|T|CDR|That's affirmative.
-003:29:50|T|LMP|That's affirmative.
-003:29:51|T|CC|Roger. I read - I read you very loud and clear, Buzz. Mike's pretty weak.
-003:30:01|T|LMP|Roger. We've got the high-gain locked on, now, I believe; AUTO tracking now.
-003:30:06|T|CC|Okay. You're coming in loud and clear, but Mike is just barely readable.
-003:30:13|T|CMP|That was Neil. How are you reading Mike?
-003:30:15|T|CC|Loud and clear now, Mike, and we understand that you are docked.
-003:30:19|T|CMP|That's affirmative.
-003:30:24|T|CDR|Houston, CDR. How do you read ...?
-003:30:29|T|CC|11, CDR, loud and clear, Neil.
-003:30:31|T|CDR|Okay.
-003:31:50|P|PAO|This is Apollo Control. Apollo 11's velocity now 21,096 feet per second, distance from Earth 6,649 nautical miles.
-003:32:40|T|CC|11, this is Houston. Over.
-003:32:44|T|LMP|Houston, Apollo 11. Go ahead.
-003:32:47|T|CC|Roger. When you commented on that quad Bravo problem at separation, you were a little weak. Could you go through what you did after you noticed the talkbacks barber pole again, please?
-003:33:20|T|CC|We copied the - the primary and secondary propellant talkbacks on SM RCS quad Bravo 1 to barber pole on separation.
-003:33:31|T|LMP|Roger. Roger. That is affirmative, and we moved that switch to the OPEN position, and they went back to gray. Over.
-003:33:40|T|CC|Roger.
-003:35:31|P|PAO|This is Apollo Control. We're 34 minutes away from extraction of the Lunar Module from its adapter in the third stage of the Saturn.
-003:36:23|P|PAO|The crew has started pressurizing the LM.
-003:37:52|T|CC|Apollo 11, this is Houston. Over.
-003:37:56|T|LMP|Roger, Houston. Apollo 11. Go ahead.
-003:37:58|T|CC|Roger. Could you give us comments on how the transposition and docking went? Over.
-003:38:07|T|CMP|I thought it went pretty well, Houston, although I expect I used more gas than I've been using in the simulator. The turnaround maneuver - I went PITCH ACCEL COMMAND and started to pitch up, and then when I put MANUAL, ATTITUDE PITCH back to RATE COMMAND for some reason it - it stopped its pitch rate, and I had to go back to ACCEL COMMAND and hit what I thought was an extra PROCEED on the DSKY. During the course of that, we drifted slightly further away from the S-IVB than I expected. I expected to be out about 66 feet. My guess would be I was around 100 or so; and therefore, I expect I used a bit more coming back in. But, except for using a little more gas - And I'd be interested in your numbers on that - everything went nominally.
-003:38:54|T|CC|This is Houston. Roger. We copy.
-003:39:01|P|PAO|That was Mike Collins giving the description on the transposition and docking. 
-003:43:47|T|CMP|Houston, Apollo 11. Over.
-003:43:48|T|CC|Go ahead, 11.
-003:43:50|T|CMP|Roger. We're working on the pressurization of the LM now, and working off the decal with CSM-LM pressure equalization. And we're down to step 13, where we're waiting for the cabin pressure to be 5, or it should be roughly 5, before we turn the REPRESS package O2 valve to FILL. Instead of 5, we're running about 4.4. Over.
-003:44:17|T|CC|Roger. Stand by a second.
-003:44:56|T|CMP|And Houston, Apollo 11. We did put the REPRESS package O2 valve to FILL momentarily there at step 13, and we have filled the bottles back up partially. What's the pressure reading in there now, Neil?
-003:45:18|T|CMP|We have about 450 psi now in the three 1-pound bottles.
-003:45:24|T|CC|Roger. Stand by a second, please.
-003:45:26|T|CMP|Roger. Standing by. And, the REPRESS package valve is now in the OFF position. What's the cabin pressure now, Buzz? Cabin pressure is now 4.5.
-003:46:26|P|PAO|At 3 hours, 46 minutes, velocity is 18,917 feet per second. Distance from Earth 9,002 nautical miles.
-003:47:50|T|CDR|Houston, Apollo 11. We think these readings are within normal tolerances. We just wanted to get your concurrence before we press down any further with these decals.
-003:48:01|T|CT|Okay, Capcom.
-003:48:29|T|LMP|And, Houston, Apollo 11. How do you read?
-003:48:33|T|CC|Apollo 11, this is Houston. Go ahead.
-003:48:36|T|LMP|Roger. LM looks to be in pretty fine shape from about all we can see from here.
-003:48:44|T|CC|Okay. In reference to your question on this step 13 on the decal, I understand that you have used up the contents of the REPRESS O2 package and at that time, instead of being up to 5 psi, you were reading 4.4. Is that correct?
-003:49:08|T|CMP|Okay. 4.4. Yes sir.
-003:49:12|T|CC|Okay. And you want to know if you can go ahead and use additional oxygen to bring the Command Module up to 5.0 and continue the equalization? Over.
-003:49:21|T|CMP|Yes. We think it's within normal tolerances, Bruce. We just wanted to get your concurrence before we press on with this procedure.
-003:49:33|T|CC|Roger, Apollo 11. Go ahead.
-003:49:38|T|CMP|Okay. We're pressing on with the procedure.
-003:49:40|T|CC|And 11, Houston. We have a request for you. On the Service Module secondary propellant fuel pressurization valve: As a precautionary measure, we'd like you to momentarily cycle the four switches to the CLOSE position and then release. As you know, we have no TM or talkback on these valve positions, and it's conceivable that one of them might also have been moved into a different position by the shock of separation. Over.
-003:50:12|T|CMP|Okay. Good idea. That's being done.
-003:50:14|T|CC|Houston. Roger. Out.
-003:50:30|T|CC|Apollo 11, Houston. We're doing a non-propulsive vent on the booster at the present time. You may see some sort of a cloud coming out of it. And, when you're ready, I have your evasive maneuver PAD.
-003:50:45|T|LMP|Roger, And it's coming out.
-003:50:49|T|CC|Roger. Out,
-003:50:50|T|LMP|It's a haze. It's going by toward our minus-X direction, and several small particles are moving along with it. The actual velocity is fairly high - at least it appears to be high. And we've got an O2 high - it's a little high right now.
-003:51:15|T|CC|Houston. Roger. Out.
-003:53:06|T|CDR|And, Houston, you, might be interested that out my left-hand window right now, I can observe the entire continent of North America, Alaska, over the Pole, down to the Yucatan Peninsula, Cuba, northern part of South America, and then I run out of window.
-003:53:28|T|CC|Roger, We copy.
-003:53:32|P|PAO|That was Neil Armstrong with that report.
-003:57:13|T|LMP|Houston, Apollo 11. All 12 latches are locked.
-003:57:17|T|CC|Roger. 11, this is Houston. Understand 12 latches locked.
-003:57:31|P|PAO|That was Buzz Aldrin reporting that all 12 of the latches in the docking mechanism had locked.
-003:59:04|T|CC|11, Houston. Whenever you're possessed of a free moment there, we've got this evasive maneuver PAD.
-003:59:13|T|LMP|Okay.
-003:59:21|T|LMP|Go ahead, Houston. Apollo 11 is ready to copy.
-003:59:25|T|CC|Apollo 11, this is Houston. Evasive maneuver SPS G&N: 63481, plus 095, minus 020; GETI 004 40 0100, plus 00051, plus all balls, plus 00190; roll is your option, pitch 213 357; NOUN 44 is NA; DELTA-VT, 00197 003 00152. The rest of the PAD is NA. No ullage. LM weight 33,290. Read back. Over.
+003:29:20|T|CC|Apollo 11, this is Houston. Radio check. Over.
+003:29:20|O|CC|Apollo 11 - -
+003:29:24|T|CDR|Roger. Loud and clear.
+003:29:26|T|CC|Roger. We're copying you about five-by-two, very weak. Can you give us a status report, please?
+003:29:34|T|CDR|Roger. We are docked. We do have acquisition with the high-gain at this time, I think.
+003:29:44|T|CC|Understand you are using the high-gain. Over.
+003:29:48|T|CDR|That's affirmative.
+003:29:49|T|LMP|That's affirmative.
+003:29:50|T|CC|Roger. I read - I read you very loud and clear, Buzz. Mike's pretty weak.
+003:30:00|T|LMP|Roger. We've got the high-gain locked on, now, I believe; AUTO tracking now.
+003:30:05|T|CC|Okay. You're coming in loud and clear, but Mike is just barely readable.
+003:30:12|T|CMP|That was Neil. How are you reading Mike?
+003:30:14|T|CC|Loud and clear now, Mike, and we understand that you are docked.
+003:30:18|T|CMP|That's affirmative.
+003:30:23|T|CDR|Houston, CDR. How do you read ...?
+003:30:28|T|CC|11, CDR, loud and clear, Neil.
+003:30:30|T|CDR|Okay.
+003:31:49|P|PAO|This is Apollo Control. Apollo 11's velocity now 21,096 feet per second, distance from Earth 6,649 nautical miles.
+003:32:39|T|CC|11, this is Houston. Over.
+003:32:43|T|LMP|Houston, Apollo 11. Go ahead.
+003:32:46|T|CC|Roger. When you commented on that quad Bravo problem at separation, you were a little weak. Could you go through what you did after you noticed the talkbacks barber pole again, please?
+003:33:19|T|CC|We copied the - the primary and secondary propellant talkbacks on SM RCS quad Bravo 1 to barber pole on separation.
+003:33:30|T|LMP|Roger. Roger. That is affirmative, and we moved that switch to the OPEN position, and they went back to gray. Over.
+003:33:39|T|CC|Roger.
+003:35:30|P|PAO|This is Apollo Control. We're 34 minutes away from extraction of the Lunar Module from its adapter in the third stage of the Saturn.
+003:36:22|P|PAO|The crew has started pressurizing the LM.
+003:37:51|T|CC|Apollo 11, this is Houston. Over.
+003:37:55|T|LMP|Roger, Houston. Apollo 11. Go ahead.
+003:37:57|T|CC|Roger. Could you give us comments on how the transposition and docking went? Over.
+003:38:06|T|CMP|I thought it went pretty well, Houston, although I expect I used more gas than I've been using in the simulator. The turnaround maneuver - I went PITCH ACCEL COMMAND and started to pitch up, and then when I put MANUAL, ATTITUDE PITCH back to RATE COMMAND for some reason it - it stopped its pitch rate, and I had to go back to ACCEL COMMAND and hit what I thought was an extra PROCEED on the DSKY. During the course of that, we drifted slightly further away from the S-IVB than I expected. I expected to be out about 66 feet. My guess would be I was around 100 or so; and therefore, I expect I used a bit more coming back in. But, except for using a little more gas - And I'd be interested in your numbers on that - everything went nominally.
+003:38:52|T|CC|This is Houston. Roger. We copy.
+003:38:59|P|PAO|That was Mike Collins giving the description on the transposition and docking. 
+003:43:46|T|CMP|Houston, Apollo 11. Over.
+003:43:47|T|CC|Go ahead, 11.
+003:43:49|T|CMP|Roger. We're working on the pressurization of the LM now, and working off the decal with CSM-LM pressure equalization. And we're down to step 13, where we're waiting for the cabin pressure to be 5, or it should be roughly 5, before we turn the REPRESS package O2 valve to FILL. Instead of 5, we're running about 4.4. Over.
+003:44:16|T|CC|Roger. Stand by a second.
+003:44:55|T|CMP|And Houston, Apollo 11. We did put the REPRESS package O2 valve to FILL momentarily there at step 13, and we have filled the bottles back up partially. What's the pressure reading in there now, Neil?
+003:45:17|T|CMP|We have about 450 psi now in the three 1-pound bottles.
+003:45:23|T|CC|Roger. Stand by a second, please.
+003:45:25|T|CMP|Roger. Standing by. And, the REPRESS package valve is now in the OFF position. What's the cabin pressure now, Buzz? Cabin pressure is now 4.5.
+003:46:25|P|PAO|At 3 hours, 46 minutes, velocity is 18,917 feet per second. Distance from Earth 9,002 nautical miles.
+003:47:49|T|CDR|Houston, Apollo 11. We think these readings are within normal tolerances. We just wanted to get your concurrence before we press down any further with these decals.
+003:48:00|T|CT|Okay, Capcom.
+003:48:28|T|LMP|And, Houston, Apollo 11. How do you read?
+003:48:32|T|CC|Apollo 11, this is Houston. Go ahead.
+003:48:35|T|LMP|Roger. LM looks to be in pretty fine shape from about all we can see from here.
+003:48:43|T|CC|Okay. In reference to your question on this step 13 on the decal, I understand that you have used up the contents of the REPRESS O2 package and at that time, instead of being up to 5 psi, you were reading 4.4. Is that correct?
+003:49:07|T|CMP|Okay. 4.4. Yes sir.
+003:49:11|T|CC|Okay. And you want to know if you can go ahead and use additional oxygen to bring the Command Module up to 5.0 and continue the equalization? Over.
+003:49:20|T|CMP|Yes. We think it's within normal tolerances, Bruce. We just wanted to get your concurrence before we press on with this procedure.
+003:49:32|T|CC|Roger, Apollo 11. Go ahead.
+003:49:37|T|CMP|Okay. We're pressing on with the procedure.
+003:49:39|T|CC|And 11, Houston. We have a request for you. On the Service Module secondary propellant fuel pressurization valve: As a precautionary measure, we'd like you to momentarily cycle the four switches to the CLOSE position and then release. As you know, we have no TM or talkback on these valve positions, and it's conceivable that one of them might also have been moved into a different position by the shock of separation. Over.
+003:50:11|T|CMP|Okay. Good idea. That's being done.
+003:50:13|T|CC|Houston. Roger. Out.
+003:50:29|T|CC|Apollo 11, Houston. We're doing a non-propulsive vent on the booster at the present time. You may see some sort of a cloud coming out of it. And, when you're ready, I have your evasive maneuver PAD.
+003:50:44|T|LMP|Roger, And it's coming out.
+003:50:48|T|CC|Roger. Out,
+003:50:49|T|LMP|It's a haze. It's going by toward our minus-X direction, and several small particles are moving along with it. The actual velocity is fairly high - at least it appears to be high. And we've got an O2 high - it's a little high right now.
+003:51:14|T|CC|Houston. Roger. Out.
+003:53:05|T|CDR|And, Houston, you, might be interested that out my left-hand window right now, I can observe the entire continent of North America, Alaska, over the Pole, down to the Yucatan Peninsula, Cuba, northern part of South America, and then I run out of window.
+003:53:27|T|CC|Roger, We copy.
+003:53:31|P|PAO|That was Neil Armstrong with that report.
+003:57:12|T|LMP|Houston, Apollo 11. All 12 latches are locked.
+003:57:16|T|CC|Roger. 11, this is Houston. Understand 12 latches locked.
+003:57:30|P|PAO|That was Buzz Aldrin reporting that all 12 of the latches in the docking mechanism had locked.
+003:59:03|T|CC|11, Houston. Whenever you're possessed of a free moment there, we've got this evasive maneuver PAD.
+003:59:12|T|LMP|Okay.
+003:59:20|T|LMP|Go ahead, Houston. Apollo 11 is ready to copy.
+003:59:24|T|CC|Apollo 11, this is Houston. Evasive maneuver SPS G&N: 63481, plus 095, minus 020; GETI 004 40 0100, plus 00051, plus all balls, plus 00190; roll is your option, pitch 213 357; NOUN 44 is NA; DELTA-VT, 00197 003 00152. The rest of the PAD is NA. No ullage. LM weight 33,290. Read back. Over.
 004:01:24|T|CC|Apollo 11, this is Houston. Standing by for your readback. Over.
-004:02:06|T|CC|11, Houston. Do you read? Over.
-004:02:26|T|CC|Apollo 11, this is Houston. Do you read? Over.
-004:02:32|T|LMP|All of a sudden there, we heard a little click, and the signal strength began to start dropping off. Your transmissions were cut off very abruptly. How do you read now?
+004:02:05|T|CC|11, Houston. Do you read? Over.
+004:02:25|T|CC|Apollo 11, this is Houston. Do you read? Over.
+004:02:31|T|LMP|All of a sudden there, we heard a little click, and the signal strength began to start dropping off. Your transmissions were cut off very abruptly. How do you read now?
 004:02:43|T|CC|Roger. Loud and clear. We had a handover to Madrid about the time I was - I guess halfway through the PAD. If you could give me the last value you read, I'll pick up there. Over.
 004:02:53|T|LMP|Okay. Start with DELTA-VZ. Over.
 004:02:56|T|CC|Roger. DELTA-VZ is plus 00190, roll your option, pitch 213 357, and NOUN 44 is NA. DELTA-VT 00197 003 00152. The rest of the PAD is NA, and no ullage. LM weight 33,290. Read back. Over.
