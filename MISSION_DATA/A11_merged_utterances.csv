@@ -1772,11 +1772,11 @@
 006:53:43|T|CC|Go ahead, Apollo 11. Over.
 006:53:45|T|LMP|Roger. Why don't you sing out when you think we've done enough battery charging on B.
 006:53:50|T|CC|Roger. Stand by, Buzz. Over.
-006:55:50|T|CC|Hello, Apollo 11. Houston. We'll be charging battery B up until the sleep period. We'll discontinue charging at that time. Also, at about 12:25 in the Flight Plan, we have battery A charge. That has been deleted. Over.
-006:56:06|T|LMP|Roger. Understand. We'll charge until the sleep period on B and delete the battery A charge.
-006:56:12|T|CC|Affirm.
-006:56:17|T|CMP|And, Houston, Apollo 11. These AUTO optics maneuvers or P23's, AUTO maneuvers, don't seem to be going to the sub-stellar point. Can you come up with the roll, pitch, and yaw angle for the sub-stellar point on this star? It's our second star.
-006:56:32|T|CC|Roger. Stand by.
+006:55:49|T|CC|Hello, Apollo 11. Houston. We'll be charging battery B up until the sleep period. We'll discontinue charging at that time. Also, at about 12:25 in the Flight Plan, we have battery A charge. That has been deleted. Over.
+006:56:05|T|LMP|Roger. Understand. We'll charge until the sleep period on B and delete the battery A charge.
+006:56:10|T|CC|Affirm.
+006:56:16|T|CMP|And, Houston, Apollo 11. These AUTO optics maneuvers or P23's, AUTO maneuvers, don't seem to be going to the sub-stellar point. Can you come up with the roll, pitch, and yaw angle for the sub-stellar point on this star? It's our second star.
+006:56:31|T|CC|Roger. Stand by.
 006:57:21|T|CC|Hello, Apollo 11. Houston. Your angles in the Flight Plan we feel are still good, 198.6 130.7, 340.0. Just slightly off than those in the Flight Plan. Over.
 006:57:36|T|CMP|Okay. We'll try that.
 006:58:28|T|CMP|Charlie, state those three angles one more time. I'd like to confirm them before I maneuver.
@@ -1790,60 +1790,60 @@
 007:09:54|T|CC|Okay.
 007:10:30|T|CMP|Houston, Apollo 11. NOUN 49 for you.
 007:10:34|T|CC|Roger. Copy.
-007:10:41|T|CC|Stand by.
+007:10:40|T|CC|Stand by.
 007:11:05|T|CC|Hello, Apollo 11. Houston. We recommend you accept the NOUN 49. Continue through your sequence of sightings, and then we'll analyze the data afterwards. Over.
 007:11:15|T|CMP|Okay.
 007:20:56|T|CMP|Houston, Apollo 11. Star 40 has just disappeared now in the sextant. Could the trunnion angle 47 - something be a little high?
-007:21:05|T|CC|Stand by.
+007:21:04|T|CC|Stand by.
 007:21:00|P|PAO|This is Apollo Control, 7 hours, 21 minutes into the flight of Apollo 11. During the change-of-shift briefing, we accumulated about 4 minutes of tape conversation with the spacecraft. That conversation generally related to the onboard batteries, which are currently being charged - a routine operation - and also the mid-course navigation exercise that the crew is currently involved in. We'll play back the tape for you now, and then stand by for any live conversation with the crew.
 007:21:21|T|CC|Hello, Apollo 11. Houston. We'd like you to press on to star 44. Over.
 007:21:26|T|CMP|Yes. Roger. All right. How many marks have you recorded on star 40?
 007:21:30|T|CC|Stand by, Mike.
 007:21:31|T|CMP|Okay.
 007:21:46|T|CC|11, Houston. We copied two good marks. Over.
-007:21:49|T|CMP|Okay.
+007:21:48|T|CMP|Okay.
 007:32:59|T|CMP|Houston, Apollo 11.
-007:33:01|T|CC|Go ahead. Over.
-007:33:03|T|CMP|Roger. Forty-four is just not bright enough for this. There's a reddish glow filling the black area of the sextant, and the star is lost somewhere in there, and I cannot see it.
-007:33:16|T|CC|Roger. Stand by. We'll come up with another star. Over.
-007:33:19|T|CMP|Yes. I'd appreciate that.
-007:33:48|T|CC|Hello, Apollo 11. Houston. We'd like you to go on to star 45. Over.
-007:33:52|T|CMP|Okay.
-007:33:53|T|CC|And, Mike, we think these large DELTA-R's, NOUN 49, you're getting is really meaningful since it's been way before TLI since we had a state vector update; and we think it's normal. Over.
-007:34:08|T|CMP|Okay. Could be, Charlie. Some of the early markings, I might not have had precisely the sub-stellar point. I think as time goes by they've been coming more accurate but old Enif here is just flat invisible.
-007:34:20|T|CC|Roger.
-007:34:48|T|CMP|And, Houston, Apollo 11. Understand that the same three gimbal angles you gave me should be valid for star 45 as well. Is that affirmative?
-007:34:57|T|CC|I'm believe that's right. Stand by one. Over.
-007:35:00|T|CMP|Okay.
-007:35:01|T|CC|That is negative. Stand by one.
-007:35:05|T|CMP|Okay. Because there's quite a difference between the gimbal angles you have and the gimbal angles the program wants, but with inaccurate state vector, I'm inclined not to believe the program.
-007:35:15|T|CC|Stand by.
-007:35:31|T|LMP|Houston, Apollo 11. LMP is back on the line.
-007:35:35|T|CC|Roger. Copy.
-007:35:39|T|LMP|Read you five-by.
-007:35:41|T|CC|Rog. You're same, Buzz. And, 11, the angles for you are 197.8 for roll, 128.5 pitch, 340.0 yaw.
-007:35:57|T|CMP|Okay. Just as a matter of comparison, P23 for this star would like to go to 235.66, 154.31, and 313.65. Over.
-007:36:14|T|CC|Roger. We copy, 11. We understand that the program can give you almost an infinite combination of angles in P23, and it's not too unreasonable. If you'll stand by, we'll look at these that we see on the DSKY. Over.
-007:36:30|T|CMP|Okay. Then in the meantime I'll just go ahead and maneuver to yours. 197.8, 128.5, and 340.0.
-007:36:37|T|CC|Roger.
-007:43:23|T|CMP|Houston, Apollo 11.
-007:43:26|T|CC|Go ahead. Over.
-007:43:28|T|CMP|Okay, Charlie. If the attitude you gave me on star number 45 - The reticle is off, I'd say, a good 30 degrees in roll, and the star is not in sight. Over.
-007:43:44|T|CC|Roger. Stand by.
-007:43:47|T|CMP|I think something's wrong with those attitudes.
-007:45:14|T|CC|Hello, Apollo 11. Houston. I wondered if you have AUTO optics selected. Over.
-007:45:21|T|CMP|That's affirmative.
-007:45:25|T|CC|Roger. Looks like to us we need a PROCEED, Mike, to get the sextant pointed at the star. Over.
-007:45:34|T|CMP|Okay. Stand by.
-007:46:29|T|CC|11, Houston. Those shaft and trunnion angles were exactly what we were computing on the ground. Over.
-007:46:44|T|CMP|Okay. I'm going to trim up the attitude here and give it another try.
-007:47:54|T|CMP|Okay. I have this star loud and clear now, Charlie, so I might as well do a bunch of marks on this one to get a good horizon count.
-007:48:02|T|CC|Roger. Stand by.
-007:48:10|T|CMP|It still looks like I'm far from the sub-stellar point. However, I'm off quite a bit in roll.
-007:48:17|T|CC|Roger. We'd like you to mark right where it is now, Mike, and we'd like two sets of marks on this. Over.
-007:48:27|T|CMP|Okay. Fine. But the reticle is not parallel to the horizon. I'd have to move off quite a bit in order to get it parallel to the horizon.
-007:48:40|T|CC|Apollo 11, Houston. Our procedures guys are saying that the reticle does not have to be parallel. Over.
-007:48:50|T|CMP|Well, then we're not at the sub-stellar point if we're not.
+007:33:02|T|CC|Go ahead. Over.
+007:33:04|T|CMP|Roger. Forty-four is just not bright enough for this. There's a reddish glow filling the black area of the sextant, and the star is lost somewhere in there, and I cannot see it.
+007:33:17|T|CC|Roger. Stand by. We'll come up with another star. Over.
+007:33:20|T|CMP|Yes. I'd appreciate that.
+007:33:49|T|CC|Hello, Apollo 11. Houston. We'd like you to go on to star 45. Over.
+007:33:53|T|CMP|Okay.
+007:33:54|T|CC|And, Mike, we think these large DELTA-R's, NOUN 49, you're getting is really meaningful since it's been way before TLI since we had a state vector update; and we think it's normal. Over.
+007:34:09|T|CMP|Okay. Could be, Charlie. Some of the early markings, I might not have had precisely the sub-stellar point. I think as time goes by they've been coming more accurate but old Enif here is just flat invisible.
+007:34:21|T|CC|Roger.
+007:34:49|T|CMP|And, Houston, Apollo 11. Understand that the same three gimbal angles you gave me should be valid for star 45 as well. Is that affirmative?
+007:34:58|T|CC|I'm believe that's right. Stand by one. Over.
+007:35:01|T|CMP|Okay.
+007:35:02|T|CC|That is negative. Stand by one.
+007:35:06|T|CMP|Okay. Because there's quite a difference between the gimbal angles you have and the gimbal angles the program wants, but with inaccurate state vector, I'm inclined not to believe the program.
+007:35:16|T|CC|Stand by.
+007:35:32|T|LMP|Houston, Apollo 11. LMP is back on the line.
+007:35:36|T|CC|Roger. Copy.
+007:35:40|T|LMP|Read you five-by.
+007:35:42|T|CC|Rog. You're same, Buzz. And, 11, the angles for you are 197.8 for roll, 128.5 pitch, 340.0 yaw.
+007:35:58|T|CMP|Okay. Just as a matter of comparison, P23 for this star would like to go to 235.66, 154.31, and 313.65. Over.
+007:36:15|T|CC|Roger. We copy, 11. We understand that the program can give you almost an infinite combination of angles in P23, and it's not too unreasonable. If you'll stand by, we'll look at these that we see on the DSKY. Over.
+007:36:31|T|CMP|Okay. Then in the meantime I'll just go ahead and maneuver to yours. 197.8, 128.5, and 340.0.
+007:36:38|T|CC|Roger.
+007:43:24|T|CMP|Houston, Apollo 11.
+007:43:27|T|CC|Go ahead. Over.
+007:43:29|T|CMP|Okay, Charlie. If the attitude you gave me on star number 45 - The reticle is off, I'd say, a good 30 degrees in roll, and the star is not in sight. Over.
+007:43:45|T|CC|Roger. Stand by.
+007:43:48|T|CMP|I think something's wrong with those attitudes.
+007:45:15|T|CC|Hello, Apollo 11. Houston. I wondered if you have AUTO optics selected. Over.
+007:45:22|T|CMP|That's affirmative.
+007:45:26|T|CC|Roger. Looks like to us we need a PROCEED, Mike, to get the sextant pointed at the star. Over.
+007:45:35|T|CMP|Okay. Stand by.
+007:46:30|T|CC|11, Houston. Those shaft and trunnion angles were exactly what we were computing on the ground. Over.
+007:46:45|T|CMP|Okay. I'm going to trim up the attitude here and give it another try.
+007:47:55|T|CMP|Okay. I have this star loud and clear now, Charlie, so I might as well do a bunch of marks on this one to get a good horizon count.
+007:48:03|T|CC|Roger. Stand by.
+007:48:11|T|CMP|It still looks like I'm far from the sub-stellar point. However, I'm off quite a bit in roll.
+007:48:18|T|CC|Roger. We'd like you to mark right where it is now, Mike, and we'd like two sets of marks on this. Over.
+007:48:28|T|CMP|Okay. Fine. But the reticle is not parallel to the horizon. I'd have to move off quite a bit in order to get it parallel to the horizon.
+007:48:41|T|CC|Apollo 11, Houston. Our procedures guys are saying that the reticle does not have to be parallel. Over.
+007:48:51|T|CMP|Well, then we're not at the sub-stellar point if we're not.
 007:48:54|T|CC|Roger.
 007:51:39|T|CMP|Houston, you copy that NOUN 49?
 007:51:41|T|CC|Roger. We see it, 11. Stand by.
@@ -1869,7 +1869,7 @@
 007:59:00|T|CMP|Okay.
 008:02:07|T|CMP|Okay, Charlie. I'm there, and I've got a trunnion angle of 30.5 degrees. Again, I'm misaligned considerably in roll and I do believe that's important to getting good marks.
 008:02:20|T|CC|Stand by.
-008:02:40|T|CMP|See, if my reticle's not parallel, then I'm not marking normal to the horizon and I'm not marking at the sub-stellar point. I'm marking off somewhere else.
+008:02:40| T|CMP|See, if my reticle's not parallel, then I'm not marking normal to the horizon and I'm not marking at the sub-stellar point. I'm marking off somewhere else.
 008:02:50|T|CC|Stand by one. Over.
 008:02:52|T|CMP|Okay.
 008:03:24|T|CC|Apollo 11, Houston. The ground-computed values for your shaft and trunnion are just what you're getting on the DSKY there, Mike. The horizon looks cocked off to you - You look like you're off in roll because the angles that we gave you to maneuver to, to prevent LM reflection from fouling up your optics, we feel like a - You should go ahead and mark on the stars just as is. Over.
