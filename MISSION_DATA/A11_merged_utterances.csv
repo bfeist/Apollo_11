@@ -2091,14 +2091,14 @@
 012:12:48|P|PAO|And we are starting to get lock-on from the tape replay and we expect that we will have a color picture shortly.
 012:24:02|P|PAO|This is Apollo Control. The view we have of the Earth disc at this time as near as we can tell, the north Pole is to the left of the screen. The land mass that was visible was the western coast of the United States. The Earth then would appear to be rotated 90 degrees with the North Pole to the left and South American Continent extending toward the upper right of the globe but not visible.
 012:29:41|P|PAO|That concludes the unscheduled television transmission. That transmission came in about 2 hours ago at a Ground Elapsed Time of 10:32:40 beginning, lasted about 16 and a half minutes. At the beginning of the transmission Apollo 11 was about 50,980 nautical miles from Earth and at the conclusion about 52,248 nautical miles. At the present time, the crew is in a scheduled rest period. They did indicate before going into the rest period, when we last heard from them, that they would probably use part of the time to get a bite to eat and then get some sleep. At this time Apollo 11 is 59,908 nautical miles from Earth, traveling at a speed of 7,569 feet per second. At 12 hours 31 minutes, this is Mission Control, Houston.
-012:36:34|T|CC|Hello, Apollo 11. Houston. Hope you aren't - we aren't disturbing you. We'd like you to terminate the NOUN 65 now. Over.
+012:36:35|T|CC|Hello, Apollo 11. Houston. Hope you aren't - we aren't disturbing you. We'd like you to terminate the NOUN 65 now. Over.
 012:36:43|T|CMP|Roger.
-012:46:01|T|CC|Apollo 11, Houston. Over.
-012:46:05|T|LMP|Houston, Apollo 11 ...
-012:46:08|T|CC|Roger, Buzz. When you stopped - or, correction - When you terminated the NOUN 65, it appears to us, you get a VERB 46 which collapsed the deadband back to 0.5. We're okay as long as you do not turn on any AUTO RCS SELECT switches. Over.
+012:46:02|T|CC|Apollo 11, Houston. Over.
+012:46:06|T|LMP|Houston, Apollo 11 ...
+012:46:09|T|CC|Roger, Buzz. When you stopped - or, correction - When you terminated the NOUN 65, it appears to us, you get a VERB 46 which collapsed the deadband back to 0.5. We're okay as long as you do not turn on any AUTO RCS SELECT switches. Over.
 012:46:30|T|LMP|Okay. I thought that was a - better way to clear the DSKY but evidently it isn't. Roger.
-012:46:36|T|CC|Roger. VERB 34 would have been a better procedure.
-012:46:41|T|LMP|Yes. Thank you.
+012:46:37|T|CC|Roger. VERB 34 would have been a better procedure.
+012:46:42|T|LMP|Yes. Thank you.
 012:47:04|P|PAO|This is Apollo Control at 12 hours 47 minutes. We've just put in a call to the crew. Flight Director, Gene Kranz, verified with the surgeon that they had not gone to sleep at this point and Capsule Communicator, Charlie Duke, has put in the call. We'll pick up the tape of the conversation and then stand by for any following live communication with the crew.
 012:51:55|P|PAO|This is Apollo Control. We don't anticipate a great deal of further conversation with the crew. We expect they will attempt to get some sleep shortly. The conversation that just ended, we advised that through one of the computer programs, the deadband, or that area of excursions which the guidance system will allow before firing the RCS thrusters to correct it, had been narrowed from 30 degrees to 1/2 a degree. What this would mean, if the RCS jets were enabled, is that unless the crew reselected the 30 degree deadband, the jets would be firing more frequently to keep the spacecraft within the narrower limits. Since the spacecraft is very stable at this point, very few wobbling motions, it was felt that the narrower deadband was acceptable; the jets are not enabled, and the crew would not be disturbed by firing of the Reaction Control System jets even if the spacecraft moved out of the 1/2-degree deadband. In the event of any large excursions, which we would not expect, based on the Passive Thermal Control mode, used in Apollo 10, it would be possible to awaken the crew from the ground and have the situation corrected. We would not expect, however, for the spacecraft attitude to change significantly during the night, and we do intend to continue in the Passive Thermal Control mode as it is presently set up. At this time Apollo 11 is 61,509 nautical miles from Earth, traveling at a speed of 7,449 feet per second, which would translate to about 5,000 miles an hour. At 12 hours 54 minutes, this is Apollo Control, Houston.
 013:27:09|P|PAO|This is Apollo Control at 13 hours, 27 minutes into the flight of Apollo 11. The spacecraft now traveling at a speed of 7,279 feet per second, which would be about 4,963 miles an hour, and it's at a distance of 63,880 nautical miles from Earth. Our Flight Surgeon reported a short while ago that Command Module Pilot, Mike Collins, appeared to be sleeping soundly at this time. Biomedical data on the other two crewmen indicates that they are still awake. We've had no further conversation with the spacecraft since our last report, and it appears that the crew will be getting some good rest either as scheduled or perhaps a little earlier than scheduled in the Flight Plan. At 13 hours, 28 minutes, this is Mission Control, Houston.
@@ -2112,58 +2112,59 @@
 020:38:16|P|PAO|This is Apollo control 20 hours 38 minutes Ground Elapsed Time. One hour 51 minutes remaining in the crew rest period. At this time, Apollo 11 on a line projected outward from Earth is directly over the southern tip of the Indian sub-continent. Distance now 90,509 nautical miles. Velocity continuing to decelerate, now 5,788 feet per second. The crew is still asleep at this time, and at 20 hours 39 minutes Ground Elapsed Time, this is Apollo control.
 021:38:23|P|PAO|This is Apollo Control 21 hours, 38 minutes Ground Elapsed Time. Apollo 11 now being tracked by the tracking station at Madrid. Some 51 minutes remaining in the scheduled sleep period for the crew of Apollo 11. When the sleep period ends depends on the business of the day, whether the Flight Controllers here and the Spacecraft Communicator wake the crew up, or whether they call in to begin the second day of translunar coast. Upon wakening, the Flight Plan calls for change of the carbon dioxide removers in the spacecraft cabin, a report on the differential pressure between the Lunar Module and the Command Module, update from the ground on consumables remaining. We will remain in the Passive Thermal Control mode through the hour-long eat period that follows the wakeup. After their breakfast meal, the Flight Plan calls for some navigation exercises using the sextant and the Program 23 computations of the onboard computer. These are star and Earth horizon sightings. Presently, Apollo 11 is some 93,885 nautical miles out from Earth. Velocity, now 5,638 feet per second. At 21 hours, 40 minutes Ground Elapsed Time, this is Apollo Control.
 022:49:18|P|PAO|This is Apollo Control at 22 hours, 49 minutes Ground Elapsed Time. The crew has been awake for some time according to the surgeon. Spacecraft Communicator here in Mission Control with the Green Team, Bruce McCandless, is standing by to make a call to the crew. He's in the process of taking over from Ron Evans. Flight Director, Cliff Charlesworth, has asked that he make a call to the crew. We're standing by for this call momentarily.
-022:50:15|T|CC|Apollo 11, Apollo 11, this is Houston. Over.
-022:50:21|T|LMP|Good morning, Houston. Apollo 11.
-022:50:24|T|CC|Roger, Apollo 11. Good morning.
-022:50:32|T|CC|When you're ready to copy, 11, I've got a couple of small Flight Plan updates and your consumables update, and the morning news, I guess. Over.
-022:51:55|T|LMP|Apollo 11. ...
-022:51:58|T|CC|Go ahead, 11.
-022:52:02|T|LMP|Roger. Standing by for your updates. Over.
-022:52:10|T|CC|Okay, 11. This is Houston. At time approximately 22:30 in the Flight Plan, in your post-sleep checklist, and in all other post-sleep checklists, we'd like you to delete the statement that says "AUTO RCS JET SELECT, 16 to ON," and what we're doing here is picking this up in the procedure for exiting PTC that's in your CSM checklist. And in the CSM checklist on page Foxtrot 9-8: if you want to turn to that, we'd like to change the order of the steps in that. Over.
-022:53:13|T|LMP|Stand by.
-022:53:37|T|LMP|Okay. Page F 9-8. Go ahead.
-022:53:40|T|CC|Okay. Right now it reads, "To exit G&N PTC," then you've got a pen-and-ink change that says, "AUTO RCS SELECT, 12 MAIN A and B." And you come down to the printed step 1. We'd like to take and move the "AUTO RCS SELECT, 12 MAIN A and B" down to be the second step, so the procedure would read, "Step 1, MANUAL ATTITUDE 3, ACCEL COMMAND; Step 2 AUTO RCS SELECT, 12 MAIN A B." Step 3 would be, "Verify DAP load," and so on. Over.
-022:54:16|T|LMP|Roger. I copy. Is that AUTO RCS SELECT, 12 MAIN A, MAIN B to be the ...
-022:54:25|T|CC|Roger. It should be the second step in that procedure. At time 22:40, or when you get to it, we'd like to commence a charge on battery A. And at time 24:10, we have an updated attitude for your P52 and optics calibration. Over.
-022:55:06|T|LMP|Okay. 24:10. Go ahead.
-022:55:09|T|CC|Roger. P52 and optics calibration attitude: roll 330.5, pitch 086.3, yaw 000.0. The nominal attitude that's pen-and-inked in for the P23 is still good. At time 25:30, approximately, after you complete P23, we're requesting a wastewater dump down to a nominal 25 percent. Over.
-022:56:48|T|CC|Apollo 11, this is Houston. Did you copy the attitudes and the wastewater dump? Over.
-022:57:00|T|LMP|Roger, Bruce. ...
-022:57:15|T|CC|11, this is Houston. We're not reading you at the present time. You're way down in the noise level. Stand by, please.
-022:57:24|T|LMP|Okay. Standing by.
-022:59:04|T|CC|Apollo 11, this is Houston. How do you read? Over.
-022:59:09|T|LMP|Roger, Houston. Apollo 11. Loud and clear. How me?
-022:59:12|T|CC|Okay. Beautiful. Did you copy the attitudes for the P52 and the wastewater dump? Over.
-022:59:20|T|LMP|Roger. Okay. We note the battery charge as soon as we get around to it, and the attitude for the P52 optics CAL: roll 330.5, pitch 086.3, and yaw all zeros. The attitude for the P23 as in the Flight Plan is okay; and I copy your battery charge. Crew status report as follows: sleep CDR 7, CMP 7, LMP 5.5. And we've completed the post-sleep checklist. Standing by for a consumable update. Over.
-023:00:05|T|CC|Roger. We're requesting a wastewater dump at GET 25:30 down to a nominal 25 percent, and here we go with the consumables update. At GET of 22 hours, RCS total is minus 3.5 percent. Alfa minus 3.5 percent, Bravo minus 1.5 percent, Charlie minus 5.0 percent, minus 4.0 percent, H2 minus 2 pounds, O2 minus 4 pounds. Over.
-023:00:59|T|LMP|Okay. Stand by.
-023:01:09|T|LMP|I copied those consumables, and I'll read you back our RCS quantities. We got 86 percent in Alfa, 87 in Bravo, 88 in Charlie, and 90 in Delta. Over.
-023:01:37|T|CC|Roger. I copy.
-023:01:46|T|CC|And did you copy the wastewater request?
-023:01:50|T|LMP|Roger. Waste water at - and we got the time on that, and it will be down to 25 percent.
-023:01:56|T|CC|Okay.
-023:06:46|T|LMP|Houston, 11.
-023:06:51|T|CC|Apollo 11, this is Houston. Over.
-023:06:56|T|LMP|Roger. We've started charging battery A, and voltage started off a lot higher than I expected. It was just a little bit shy of 40. It looks like it's dropping down some now, the battery charge holder. Seemed to me yesterday when we were doing this on battery C, it started out initially, and it went lower, the battery charge holder. Over.
-023:07:20|T|CC|Roger. Stand by a second, and I'll get some reading on that.
-023:07:29|T|LMP|On charging battery A: now, it's at about 393 and - oh, about 1.5 amps. Looks like it's gradually increasing in the ...
-023:07:42|T|CC|Roger. On our CM,.we're showing you at 39.11, and your current's about what you reported.
-023:07:51|T|LMP|Okay. I guess you're happy, then.
-023:07:58|T|CC|I think we're losing you in the noise again, 11. Stand by.
-023:10:33|T|CC|Apollo 11, this is Houston. Over.
-023:10:39|T|LMP|Houston, Apollo 11. Go ahead.
-023:10:41|T|CC|Roger, 11. On your battery charging question, we feel that it's probably a difference between individual batteries; and it does seem to have gone away as sort of a startup transient here. Other factors that might conceivably have an influence on it would be battery temperature, things of this sort. EECOMM seems to feel that it's operating within the normal design limits. Over.
-023:11:12|T|LMP|All right. Very good. Thank you.
-023:11:14|T|CC|Okay.
-023:14:09|T|CC|11, this is Houston. If you are interested in the morning news, I have a summary here from PAO. Over.
-023:14:20|T|LMP|Okay. We're all listening.
-023:14:22|T|CC|Okay. From Jodrell Bank, England, via AP: Britain's big Jodrell Bank radio telescope stopped receiving signals from the Soviet Union's unmanned Moonshot at 5:49 EDT today. A spokesman said that it appeared the Luna 15 space ship "had gone beyond the Moon." Another Quote: "We don't think it has landed," said a spokesman for Sir Bernard Lovell, Director of the Observatory. Washington UPI: Vice President Spiro T. Agnew has called for putting a man on Mars by the year 2000, but Democratic leaders replied that priority must go to needs on Earth. Agnew, ranking government official at the Apollo 11 blastoff Wednesday, apparently was speaking for himself and not necessarily for the Nixon administration when he said, "We should, in my judgment, put a man on Mars by the end of this century." Laredo, Texas, AP: Immigration officials in Nuevo Laredo announced Wednesday that hippies will be refused tourist cards to enter Mexico unless they take a bath and get haircuts. Huberto Cazaras, Chief of Mexican Immigration in Nuevo Laredo, said authorities in Mexico City, Acapulco, and other popular tourist spots have registered complaints about the hippies. By United Press International: Initial reaction to President Nixon's granting of a holiday Monday to Federal employees so they can observe a national day of participation in the Apollo 11 Moon landing mission mostly was one of surprise. Rodney Bidner, Associated Press, London AP: Europe is Moonstruck by the Apollo 11 mission. Newspapers throughout the continent fill their pages with pictures of the Saturn V rocket blasting off to forge Earth's first link with its natural satellite. And the headline writers taxed their imagination for words to hail the feat. "The greatest adventure in the history of humanity has started," declared the French newspaper Le Figaro, which devoted four pages to reports from Cape Kennedy and diagrams of the mission. The tabloid Paris Jour proclaimed, "The whole word tells them bravo." The Communists daily L'Humanite led with the launch picture and devoted its entire back page to an enthusiastic Moon report describing the countdown and launch, the astronauts' wives and families, and backgrounding lunar activities. Hempstead, New York: Joe Namath officially reported to the New York Jets training camp at Hofstra University Wednesday following a closed door meeting with his teammates over his differences with pro football Commissioner Peter Rozelle. London UPI: The House of Lords was assured Wednesday that a midget American submarine would not "damage or assault" the Loch Ness monster. Lord Nomay said he wanted to be sure anyone operating a submarine in the Loch "would not subject any creatures that might inhabit it to damage or assault." He asked that the submarine's plan to take a tissue sample with a retrievable dart from any monster it finds can be done without damage and disturbance. He was told it was impossible to say if the 1876 Cruelty to Animals Act would be violated unless and until the monster was found. Over.
-023:18:07|T|LMP|Roger. Thank you, Bruce. Another thing on that number 2 item, we all ... before we left, and we hope we get a chance to see him another time. Over.
-023:18:27|T|CC|Roger. And I understand he was down there and really enjoyed watching the launch. We all think it was pretty magnificent, and you all are doing great job up there.
-023:18:40|T|CDR|Thank you.
-023:22:09|P|PAO|This is Apollo Control at 23 hours 22 minutes. Apollo 11's distance from Earth is 99,308 nautical miles. Velocity is 5,411 feet per second. The spacecraft weight is 96,361 pounds. 023:22:52|P|PAO|A flight dynamics officer reports that in terms of distance Apollo 11 will reach the half-way mark at 25 hours 0 minutes 53 seconds. At that time the spacecraft will be 104,350 miles from both the Earth and the Moon.
+022:50:12|T|CC|Apollo 11, Apollo 11, this is Houston. Over.
+022:50:18|T|LMP|Good morning, Houston. Apollo 11.
+022:50:21|T|CC|Roger, Apollo 11. Good morning.
+022:50:29|T|CC|When you're ready to copy, 11, I've got a couple of small Flight Plan updates and your consumables update, and the morning news, I guess. Over.
+022:51:52|T|LMP|Apollo 11. ...
+022:51:55|T|CC|Go ahead, 11.
+022:51:59|T|LMP|Roger. Standing by for your updates. Over.
+022:52:07|T|CC|Okay, 11. This is Houston. At time approximately 22:30 in the Flight Plan, in your post-sleep checklist, and in all other post-sleep checklists, we'd like you to delete the statement that says "AUTO RCS JET SELECT, 16 to ON," and what we're doing here is picking this up in the procedure for exiting PTC that's in your CSM checklist. And in the CSM checklist on page Foxtrot 9-8: if you want to turn to that, we'd like to change the order of the steps in that. Over.
+022:53:10|T|LMP|Stand by.
+022:53:34|T|LMP|Okay. Page F 9-8. Go ahead.
+022:53:37|T|CC|Okay. Right now it reads, "To exit G&N PTC," then you've got a pen-and-ink change that says, "AUTO RCS SELECT, 12 MAIN A and B." And you come down to the printed step 1. We'd like to take and move the "AUTO RCS SELECT, 12 MAIN A and B" down to be the second step, so the procedure would read, "Step 1, MANUAL ATTITUDE 3, ACCEL COMMAND; Step 2 AUTO RCS SELECT, 12 MAIN A B." Step 3 would be, "Verify DAP load," and so on. Over.
+022:54:13|T|LMP|Roger. I copy. Is that AUTO RCS SELECT, 12 MAIN A, MAIN B to be the ...
+022:54:22|T|CC|Roger. It should be the second step in that procedure. At time 22:40, or when you get to it, we'd like to commence a charge on battery A. And at time 24:10, we have an updated attitude for your P52 and optics calibration. Over.
+022:55:04|T|LMP|Okay. 24:10. Go ahead.
+022:55:07|T|CC|Roger. P52 and optics calibration attitude: roll 330.5, pitch 086.3, yaw 000.0. The nominal attitude that's pen-and-inked in for the P23 is still good. At time 25:30, approximately, after you complete P23, we're requesting a wastewater dump down to a nominal 25 percent. Over.
+022:56:46|T|CC|Apollo 11, this is Houston. Did you copy the attitudes and the wastewater dump? Over.
+022:56:58|T|LMP|Roger, Bruce. ...
+022:57:13|T|CC|11, this is Houston. We're not reading you at the present time. You're way down in the noise level. Stand by, please.
+022:57:22|T|LMP|Okay. Standing by.
+022:59:02|T|CC|Apollo 11, this is Houston. How do you read? Over.
+022:59:07|T|LMP|Roger, Houston. Apollo 11. Loud and clear. How me?
+022:59:10|T|CC|Okay. Beautiful. Did you copy the attitudes for the P52 and the wastewater dump? Over.
+022:59:18|T|LMP|Roger. Okay. We note the battery charge as soon as we get around to it, and the attitude for the P52 optics CAL: roll 330.5, pitch 086.3, and yaw all zeros. The attitude for the P23 as in the Flight Plan is okay; and I copy your battery charge. Crew status report as follows: sleep CDR 7, CMP 7, LMP 5.5. And we've completed the post-sleep checklist. Standing by for a consumable update. Over.
+023:00:03|T|CC|Roger. We're requesting a wastewater dump at GET 25:30 down to a nominal 25 percent, and here we go with the consumables update. At GET of 22 hours, RCS total is minus 3.5 percent. Alfa minus 3.5 percent, Bravo minus 1.5 percent, Charlie minus 5.0 percent, minus 4.0 percent, H2 minus 2 pounds, O2 minus 4 pounds. Over.
+023:00:57|T|LMP|Okay. Stand by.
+023:01:07|T|LMP|I copied those consumables, and I'll read you back our RCS quantities. We got 86 percent in Alfa, 87 in Bravo, 88 in Charlie, and 90 in Delta. Over.
+023:01:35|T|CC|Roger. I copy.
+023:01:44|T|CC|And did you copy the wastewater request?
+023:01:48|T|LMP|Roger. Waste water at - and we got the time on that, and it will be down to 25 percent.
+023:01:54|T|CC|Okay.
+023:06:44|T|LMP|Houston, 11.
+023:06:49|T|CC|Apollo 11, this is Houston. Over.
+023:06:54|T|LMP|Roger. We've started charging battery A, and voltage started off a lot higher than I expected. It was just a little bit shy of 40. It looks like it's dropping down some now, the battery charge holder. Seemed to me yesterday when we were doing this on battery C, it started out initially, and it went lower, the battery charge holder. Over.
+023:07:18|T|CC|Roger. Stand by a second, and I'll get some reading on that.
+023:07:27|T|LMP|On charging battery A: now, it's at about 393 and - oh, about 1.5 amps. Looks like it's gradually increasing in the ...
+023:07:40|T|CC|Roger. On our CM,.we're showing you at 39.11, and your current's about what you reported.
+023:07:49|T|LMP|Okay. I guess you're happy, then.
+023:07:56|T|CC|I think we're losing you in the noise again, 11. Stand by.
+023:10:31|T|CC|Apollo 11, this is Houston. Over.
+023:10:37|T|LMP|Houston, Apollo 11. Go ahead.
+023:10:39|T|CC|Roger, 11. On your battery charging question, we feel that it's probably a difference between individual batteries; and it does seem to have gone away as sort of a startup transient here. Other factors that might conceivably have an influence on it would be battery temperature, things of this sort. EECOMM seems to feel that it's operating within the normal design limits. Over.
+023:11:10|T|LMP|All right. Very good. Thank you.
+023:11:12|T|CC|Okay.
+023:14:07|T|CC|11, this is Houston. If you are interested in the morning news, I have a summary here from PAO. Over.
+023:14:18|T|LMP|Okay. We're all listening.
+023:14:20|T|CC|Okay. From Jodrell Bank, England, via AP: Britain's big Jodrell Bank radio telescope stopped receiving signals from the Soviet Union's unmanned Moonshot at 5:49 EDT today. A spokesman said that it appeared the Luna 15 space ship "had gone beyond the Moon." Another Quote: "We don't think it has landed," said a spokesman for Sir Bernard Lovell, Director of the Observatory. Washington UPI: Vice President Spiro T. Agnew has called for putting a man on Mars by the year 2000, but Democratic leaders replied that priority must go to needs on Earth. Agnew, ranking government official at the Apollo 11 blastoff Wednesday, apparently was speaking for himself and not necessarily for the Nixon administration when he said, "We should, in my judgment, put a man on Mars by the end of this century." Laredo, Texas, AP: Immigration officials in Nuevo Laredo announced Wednesday that hippies will be refused tourist cards to enter Mexico unless they take a bath and get haircuts. Huberto Cazaras, Chief of Mexican Immigration in Nuevo Laredo, said authorities in Mexico City, Acapulco, and other popular tourist spots have registered complaints about the hippies. By United Press International: Initial reaction to President Nixon's granting of a holiday Monday to Federal employees so they can observe a national day of participation in the Apollo 11 Moon landing mission mostly was one of surprise. Rodney Bidner, Associated Press, London AP: Europe is Moonstruck by the Apollo 11 mission. Newspapers throughout the continent fill their pages with pictures of the Saturn V rocket blasting off to forge Earth's first link with its natural satellite. And the headline writers taxed their imagination for words to hail the feat. "The greatest adventure in the history of humanity has started," declared the French newspaper Le Figaro, which devoted four pages to reports from Cape Kennedy and diagrams of the mission. The tabloid Paris Jour proclaimed, "The whole word tells them bravo." The Communists daily L'Humanite led with the launch picture and devoted its entire back page to an enthusiastic Moon report describing the countdown and launch, the astronauts' wives and families, and backgrounding lunar activities. Hempstead, New York: Joe Namath officially reported to the New York Jets training camp at Hofstra University Wednesday following a closed door meeting with his teammates over his differences with pro football Commissioner Peter Rozelle. London UPI: The House of Lords was assured Wednesday that a midget American submarine would not "damage or assault" the Loch Ness monster. Lord Nomay said he wanted to be sure anyone operating a submarine in the Loch "would not subject any creatures that might inhabit it to damage or assault." He asked that the submarine's plan to take a tissue sample with a retrievable dart from any monster it finds can be done without damage and disturbance. He was told it was impossible to say if the 1876 Cruelty to Animals Act would be violated unless and until the monster was found. Over.
+023:18:06|T|LMP|Roger. Thank you, Bruce. Another thing on that number 2 item, we all ... before we left, and we hope we get a chance to see him another time. Over.
+023:18:26|T|CC|Roger. And I understand he was down there and really enjoyed watching the launch. We all think it was pretty magnificent, and you all are doing great job up there.
+023:18:38|T|CDR|Thank you.
+023:22:07|P|PAO|This is Apollo Control at 23 hours 22 minutes. Apollo 11's distance from Earth is 99,308 nautical miles. Velocity is 5,411 feet per second. The spacecraft weight is 96,361 pounds. 
+023:22:50|P|PAO|A flight dynamics officer reports that in terms of distance Apollo 11 will reach the half-way mark at 25 hours 0 minutes 53 seconds. At that time the spacecraft will be 104,350 miles from both the Earth and the Moon.
 023:48:34|P|PAO|This is Apollo Control at 23 hours, 48 minutes. Capcom, Bruce McCandless is getting ready to put in a call to the crew momentarily. Apollo 11's distance now is 100,685 nautical miles. Velocity 5,356 feet per second.
-023:57:02|T|CC|Apollo 11, this is Houston. Over.
+023:57:01|T|CC|Apollo 11, this is Houston. Over.
 023:57:07|T|LMP|Roger. Go ahead, Houston.
 023:57:09|T|CC|Roger. Mike, we've got some comments on the performance of P23 for today if you've got a minute to talk.
 023:57:21|T|LMP|He's all ears.
@@ -2171,377 +2172,377 @@
 023:57:24|T|CC|Okay. For today, we'd like you on P23 to make a trunnion bias determination, prior to P23 sightings as called out in procedures, and also one afterwards. Our intent here is to check out the possibility that some sort of thermal effect may be giving you errors in the angular read-out in the sextant. The bias that you get beforehand should be incorporated, that is a PROCEED on NOUN 87 after you get two consecutive measurements equal to within 0.003 degrees. And, of course, move the trunnion off a couple of degrees between the measurements. The Earth should be a lot smaller in your field of view today, and I'm sure you're a lot more qualified to tell us about that than we are, but to ensure that you're getting a good angle measurement between the star and the Earth horizon, the sextant M-line, which is the line that runs through the two hash marks and is perpendicular to the R-line, should be parallel to the Earth's horizon at the sub-stellar point. And then the actual superimposition of the star upon the horizon can be made at any point in the field of view of the sextant: above, below, or on the M-line. We recommend the marks be made as rapidly as possible after AUTO maneuver. If you feel that the amount of time between the AUTO maneuver and the time you get ready to mark is excessive, or that you don't like that AUTO maneuver attitude when you get ready to mark, of course, you can use a VERB 94, that's VERB 94, to get you back to the flashing 51 position to redo the AUTO maneuvers. Over.
 023:59:41|T|CMP|Well, Roger. Stand by one. We're going to stop PTC, and then we'll talk about this P23.
 023:59:48|T|CC|Okay.
-024:00:37|P|PAO|Apollo 11 is now going out of the Passive Thermal Control mode in which it was slowly rotating to maintain thermal balance. They're getting set up for the P23 activities. That's the mid-course navigation. Capcom, Bruce McCandless is passing up some changes in the procedures for this navigational operation.
-024:02:09|T|CMP|Houston, Apollo 11.
+024:00:36|P|PAO|Apollo 11 is now going out of the Passive Thermal Control mode in which it was slowly rotating to maintain thermal balance. They're getting set up for the P23 activities. That's the mid-course navigation. Capcom, Bruce McCandless is passing up some changes in the procedures for this navigational operation.
+024:02:08|T|CMP|Houston, Apollo 11.
 024:02:11|T|CC|Go ahead, 11.
 024:02:14|T|CMP|Okay. We're stopping PTC now and maneuvering to our P52 and optics CAL attitude. In regard to the P23, what I was trying to tell you yesterday was about that. The M-line is not anywhere parallel to the horizon at the roll, pitch, and yaw which you give me to go to for the sub-stellar point, and I was trying to maneuver off to get it parallel to the horizon when you all said that was not necessary.
-024:02:46|T|CC|Roger, 11. I guess in keeping the cups of coffee score, why you get that one.
-024:02:58|T|CMP|Well - Okay - Well, this morning, let's just see how close it comes to being parallel to the M-line. Before we started marking for the first time, it appeared that the computation of - of those three angles was somewhat off, and that I was wasting a lot of gas by going to those three angles and then having to make large attitude changes after that to get the M-line parallel. In some cases it appeared to be just an excessive attitude required, and you all said that it wasn't needed. So I was marking in some cases with the M-line not parallel. I thought perhaps you had some processor for computing that offset and making sense out of that data, but as far as I know, we've got to have the M-line parallel to the horizon.
-024:03:49|T|CC|Roger, 11. We don't have that capability. We do require that the M-line be parallel to the horizon in order to get a good mark. We feel that possibly the - the state vector information that you were using for your maneuver basis yesterday may have needed to be updated a little. And if you'll standby a second, we'll give you an evaluation of what we feel you'll get today by the AUTO maneuver.
-024:04:25|T|CMP|Okay.
-024:10:56|T|LMP|Houston, Apollo 11. Over.
-024:11:00|T|CC|Go ahead, 11.
-024:11:02|T|LMP|Roger. I'm getting ready to do an O2 Fuel cell purge. Do you have any particulars on this? And I assume you want these one at a time, or can I triple up? Over.
-024:11:13|T|CC|We'd like them one at a time, and stand by. I don't think we have any sequence. You can do them in any order you want.
-024:11:23|T|CMP|Okay.
-024:11:27|T|CC|And we're watching you on TM down here.
-024:15:02|T|CMP|Houston, Apollo 11. You want to look at these NOUN 93's before I proceed on them?
-024:15:10|T|CC|Yes, please. Stand by a second.
-024:15:13|T|CMP|Okay.
-024:16:12|T|CC|11, this is Houston. On our TM, here, we're only seeing values in two registers. Can you read us out the contents of register 3, please?
-024:16:23|T|CMP|Register 3: minus three balls 24.
-024:16:30|T|CC|Roger. Minus three balls 24. And you can go ahead and proceed.
-024:16:36|T|CMP|Okay. Proceeding at this time.
-024:16:57|T|CC|11, Houston. After you've completed P52, we'd like to uplink you a new state vector so we can start out clean on this P23. Over.
-024:17:09|T|CMP|Okay.
-024:17:22|T|LMP|Houston, are you observing the higher O2 flow on fuel cell 3?
-024:17:35|T|LMP|Houston, Apollo 11. It's triggered the MASTER ALARM three times, now. There goes number 4. It goes up to about 1.4, then oscillates back down to about 1.1. Over.
-024:17:49|T|CC|Roger. We saw them 1.3 now on TM. Stand by a second.
-024:18:01|T|CMP|And we're in P00, now, for a state vector.
-024:18:06|T|CC|Roger. Give us ACCEPT, please.
-024:18:13|T|CMP|Roger. Done.
-024:18:42|T|CC|11, Houston. On your O2 flow, fuel cell 3: apparently, it was flowing a little higher than the other two during purge, but the flow rate's acceptable. Over.
-024:18:56|T|LMP|Roger, It seems to be flowing a little bit more, and actually putting out more current than the other two, also. Over.
-024:19:05|T|CC|Roger. We copy.
-024:19:51|T|CC|11, this is Houston. We've completed the uplink; the computer is yours; you can go back to BLOCK.
-024:19:59|T|CMP|Okay. Thank you.
-024:20:31|T|CC|Go ahead, 11.
-024:20:43|T|CDR|Houston, 11. I don't believe we were calling you right then.
-024:20:49|T|CC|Roger. Out.
-024:22:55|P|PAO|This is Apollo Control at 24 hours 22 minutes into the mission. Apollo 11's distance from the Earth is 102,436 nautical miles, velocity 5,288 feet per second.
-024:23:54|T|CMP|Houston, Apollo 11.
-024:23:57|T|CC|Apollo 11, this is Houston. Go ahead.
-024:24:02|T|CMP|Roger. I'm in a good attitude here to do - I have in the sextant this last P52 star - what number is it? - star 37. Is that all right for the optics calibration to save some gas, or do you want to go over to star 40?
-024:24:23|T|CC|Star 37 will be fine for the optics calibration. And we haven't noticed a VERB 66, yet, after our state vector uplink. Over.
-024:24:33|T|CMP|Okay.
-024:24:36|T|CC|When you move into P23, we recommend that you use the CMC-computed angles for your AUTO maneuver and see how that works out. If it doesn't bring you up with the M-line parallel to the horizon to the sub-stellar point, we will see if we can get you some ground-computed angles. I guess the big thing here is to make sure that the M-line is parallel to sub-stellar points so we can get a good angular measurement. Over.
-024:25:06|T|CMP|Yes. I believe.
-024:25:08|T|CC|Roger. Over.
-024:25:30|P|PAO|Star 37 is Nunki. Apollo 11 is now in Program 52 which is realignment of the platform prior to beginning the cislunar navigation operation.
-024:29:25|T|CMP|Houston, Apollo 11. Marking on this star, I get a NOUN 87 twice in a row of five balls, so that's sufficient for a count.
-024:29:36|T|CC|That's certainly very sufficient.
-024:29:41|T|CMP|Okay. Now I want to go to P00, and I am going to take your three angles and do a VERB 49 maneuver to your sub-stellar point. Okay?
-024:29:53|T|CC|Okay. We recommend that for the first star, if we gave you a new state vector, we'd like to try the CMC-computed angles for the AUTO maneuver.
-024:30:09|T|CMP|Okay.
-024:30:17|T|CC|And have you hit PROCEED on this display to enter the zeros?
-024:30:23|T|CMP|Not yet.
-024:30:24|T|CC|Okay.
-024:30:54|T|CC|11, Houston. Over the past 2 hours we have seen a slight continuing increase in partial pressure of CO2. Have you in fact changed the CO2 canister yet this morning? We don't need to do it right now; we'd just like to confirm it that our instrumentation is in good shape. Over.
-024:31:14|T|CMP|No. We haven't changed any canisters this morning.
-024:31:21|T|CC|Okay. Then I guess you can plan on accomplishing that after P23 is over and you've got the LEB clear.
-024:31:34|T|CMP|All right.
-024:31:58|T|CMP|Houston, Apollo 11. We're in process of maneuvering to P23 in desired attitude. It likes roll 8.37, pitch 61.33, and yaw 339.87. Over.
-024:32:13|T|CC|Roger. We copy. And that is for star 01?
-024:32:20|T|CMP|Star 01, right near the horizon. Code 110.
-024:32:23|T|CC|Roger.
-024:41:07|T|CMP|Houston, Apollo 11. On this star, the AUTO maneuver worked just fine. I am right at the sub-stellar point. Everything looks beautiful except there is no star in sight. It is just not visible.
-024:41:21|T|CC|Roger. Is this for star 01?
-024:41:25|T|CMP|That's correct.
-024:41:32|T|CC|You are not getting any reflections or anything like that that would obscure your vision, are you?
-024:41:42|T|CMP|Well, of course, the Earth is pretty bright, and the black sky, instead of being black, has sort of a rosy glow to it. The star, unless it is a very bright one, is probably lost somewhere in that glow, but it is just not visible. I've maneuvered the reticle considerably above the horizon to make sure that the star is not lost in the brightness below the horizon. However, even when I get the reticle considerably above the horizon so the star should be seen against the black background, it still is not visible.
-024:42:19|T|CC|Roger. We copy. Standby a minute, please.
-024:42:49|T|CC|11, this is Houston. Can you read us the shaft and trunnion angle off the counters?
-024:42:56|T|CMP|Yes. I will be glad to. Shaft 331.2 and trunnion 35.85.
-024:43:05|T|CC|Roger. Thank you.
-024:45:35|T|CMP|It's really a fantastic sight through that sextant. A minute ago, during that AUTO maneuver, the reticle swept across the Mediterranean. You could see all of North Africa, absolutely clear; all of Portugal, Spain, southern France; all of Italy, absolutely clear. Just a beautiful sight.
-024:45:55|T|CC|Roger. We all envy you the view up there.
-024:46:01|T|CMP|But still no star.
-024:47:19|T|CC|11, this is Houston. Over.
-024:47:24|T|CMP|Roger. Go ahead, Bruce.
-024:47:25|T|CC|Roger. On our ground computers we confirm the shaft and trunnion angle that you have as being pointed at the star. However, it looks as though that shaft and trunnion angle is also pointing into the structure of the LM, so that while you will be getting the Earth's horizon, the star ... is obscured by the LM. We recommend an AUTO maneuver to the attitudes pen-and-inked into the Flight Plan. Roll 177.2, pitch 298.2 and yaw 330.0. Over.
-024:48:05|T|CMP|Okay. Fine. Let ts try that.
-024:53:59|T|LMP|... gimbal lock ...
-025:06:55|T|CC|11, this is Houston. While you're maneuvering here, could we get a LM/CM DELTA-P reading from you? Over.
-025:07:03|T|CMP|Roger. Just a tad under 1, Bruce, 0.95.
-025:07:07|T|CC|Roger. 0.95.
-025:07:37|P|PAO|This is Apollo Control. That reading was the difference in pressure between the Lunar Module cabin and the Command Module cabin.
-025:11:15|T|CC|Apollo 11, Houston.
-025:11:19|T|CMP|Go ahead.
-025:11:21|T|CC|Is the Commander aboard?
-025:11:25|P|PAO|This is Jim Lovell calling Apollo 11.
-025:11:37|T|CDR|Roger, the Commander's aboard.
-025:11:40|T|CC|I was a little worried. This is the backup Commander still standing by. You haven't given me the word yet. Are you GO?
-025:11:50|T|CDR|You've lost your chance to take this one, Jim.
-025:11:53|T|CC|Okay. I concede.
-025:13:39|T|CMP|Houston, Apollo 11.
-025:13:42|T|CC|Go ahead, 11.
-025:13:44|T|CMP|Okay. Our maneuver is complete, and at this attitude the M-line is exactly 90 degrees out of phase. It is exactly pointed along the vector toward the center of the Earth instead of being parallel to the right.
-025:14:00|T|CC|Roger.
-025:14:17|T|CMP|I'm going to hold right here for your next suggestion.
-025:14:22|T|CC|Roger.
-025:18:21|T|CMP|Okay, Houston. It appears to be okay now; We've changed our attitude slightly, and I have a star and I'm maneuvering to get the M-line parallel.
-025:18:32|T|CC|This is Houston. Roger. We copy.
-025:20:26|P|PAO|This is Apollo Control at 25 hours, 20 minutes. Apollo 11 -
-025:20:30|T|CMP|Houston, Apollo 11. You - Stand by one.
-025:21:10|P|PAO|Distance is now 103,263 nautical miles. Velocity 5,256 feet per second.
-025:21:56|P|PAO|This is Apollo Control. Belay that last announcement. Those figures are not based on the proper Ground Elapsed Time. This display is static. We don't have the present numbers.
-025:36:09|T|CMP|Houston, Apollo 11. Are you copying these NOUN 49's? I've been going through them fairly swiftly.
-025:36:15|T|CC|Yes. We surely are. Let's see: plus 0.1 and a plus 0.2 on nautical miles and feet per second. Over.
-025:36:25|T|CMP|Roger.
-025:43:45|T|CC|11, this is Houston. Over.
-025:43:55|T|CMP|Go ahead.
-025:43:56|T|CC|Yes, Mike. We show you in VERB 59 right now. Over.
-025:44:06|T|CMP|That's right. I - I haven't entered - I gave the - I gave it back to the computer for a second. I put the mode switch from MANUAL back to CMC while I fooled with the DSKY, and the computer drove the star off out of sight. So the delay here has been in going back to MANUAL and finding the star again, which I've finally done. And - Just a second here, I'll go to ENTER and get a 51 and mark on it. As I say, for some reason the computer drove the star off out of sight.
-025:44:36|T|CC|Okay. Roger. Out.
-025:48:15|T|CC|Apollo 11, this is Houston. Over.
-025:48:19|T|CMP|Go ahead.
-025:48:20|T|CC|Roger. We show you with a little less than an hour to the mid-course correction number 2 burn. We recommend that you terminate the P23 activities here and press on with a wastewater dump, which we need from you, and get it ready for the burn. Over.
-025:48:41|T|LMP|Okay.
-025:48:45|T|CC|And I have your mid-course correction number 2 PAD when you're ready to copy.
-025:48:52|T|LMP|Stand by.
-025:49:16|T|LMP|Roger, Houston. Apollo 11, ready to copy MCC 2.
-025:49:23|T|CC|Apollo 11, this is Houston. Mid-course correction number 2. SPS/G&N 63059, plus 097, minus 020, GET ignition 02644 5792, plus 00118, minus 00003, plus 00177, roll 277 355 015, NOUN 44 BLOCK is NA, DELTA-VT 00213 003 00168, sextant star 30 2082 370. The rest of the PAD is NA. GDC align: Vega and Deneb. Roll align 007 144 068. No ullage. LM weight: 33302. And, for your information, your heads will be pointed roughly towards the Earth on this burn. Read back. Over.
-025:51:15|T|LMP|Roger. Mid-course correction number 2. SPS/G&N: 63059, plus 097, minus 020 02644 5792, plus 00118, minus 00003, plus 00177 277 - Are you still copying, Houston? Over.
-025:51:47|T|CC|Roger. Still copying. Go ahead.
-025:52:03|T|CC|Apollo 11, this is - Apollo 11, this is Houston. I copied your transmission about roll 277, and go ahead from roll 277. Over.
-025:52:18|T|LMP|Roger. 355 015, NA, 00213 003 00168 30 2082 370. Vega and Deneb 007 144 068. No ullage. LM weight: 33302. Heads towards the Earth. Over.
-025:52:48|T|CC|11, this is Houston. Readback correct. Out.
-025:54:02|T|CC|Apollo 11, Houston. Over.
-025:54:08|T|LMP|Go ahead, Houston. Apollo 11.
-025:54:10|T|CC|Roger. We'd like you to terminate battery A charge at GET 26 hours and re-initiate battery A charge after mid-course correction 2. Over.
-025:54:24|T|LMP|Apollo 11. Roger.
-025:54:26|T|CC|Roger. Out.
-025:58:46|P|PAO|This is Apollo Control at 25 hours, 58 minutes. Apollo 11's distance is now 107,224 nautical miles. Velocity 5,106 feet per second.
-025:59:38|T|CC|11, this is Houston. Over.
-025:59:42|T|LMP|Go ahead.
-025:59:44|T|CC|Roger. If you can give us ACCEPT, we'll send you up a state vector and a target load for the maneuver.
-025:59:53|T|LMP|Okay. Give us 1 minute to check the P23 damage.
-025:59:58|T|CC|Sure thing.
-026:00:32|T|LMP|Houston, Apollo 11. The DSKY's yours.
-026:00:35|T|CC|Houston. Roger. Out.
-026:01:00|P|PAO|This is Apollo Control at 26 hours. The ignition time for this mid-course correction will be 26 hours, 44 minutes, 57 seconds - about 44 minutes from now. It will be a service propulsion maneuver. Duration of the burn will be 3 seconds, the delta-V 21.3 feet per second.
-026:03:02|P|PAO|This mid-course maneuver should reduce the pericynthion of Apollo 11's trajectory from the present 175 nautical miles to 60 nautical miles.
-026:03:49|T|CC|11, this is Houston. We've completed the uplink. The computer's yours.
-026:03:55|T|LMP|Thank you.
-026:07:17|T|CMP|Houston, Apollo 11.
-026:07:21|T|CC|Apollo 11, this is Houston. Over.
-026:07:25|T|LMP|Roger. Wonder if you have a star that might be a little closer to the direction we're burning than the one you gave us.
-026:07:33|T|CC|Roger. We're going to rework the attitude in the sextant star for you in order to improve the high-gain antenna coverage, and we'll have that for you in a few seconds.
-026:07:46|T|LMP|Fine. We're already maneuvering ...
-026:07:50|T|CC|Roger.
-026:08:03|T|LMP|Maybe you can make it just the change in roll. Apollo 11, Over.
-026:08:09|T|CC|Roger.
-026:08:46|T|CC|11, this is Houston. Over.
-026:08:50|T|LMP|Go ahead.
-026:08:52|T|CC|Roger. On your attitude for the burn: we'd like you to use roll 096, pitch 356, yaw 018. And, that will give you a sextant star of 01, shaft 253.8, trunnion 24.2. Over.
-026:09:34|T|LMP|Houston, Apollo 11. Roger ... 356 ... 018 ...
-026:09:51|T|CC|11, this is Houston. We are having difficulty reading you through the noise. Could you read back again, please? Over.
-026:10:06|T|LMP|Roger, Houston. Apollo 11. Do you copy?
-026:10:11|T|CC|Roger. Very weakly in the noise, but I think I can copy. Go ahead.
-026:10:19|T|LCMP|Okay. Roll 096 356 018. Star 01 ... Over.
-026:10:38|T|CC|Roger. I got all of that except trunnion. It's trunnion 242. Over.
-026:12:20|T|CMP|Houston, Apollo 11. How do you read me now on OMNI A?
-026:12:23|T|CC|Roger. Loud and clear, 11.
-026:12:26|T|CMP|Okay. We'll stay on OMNI A for a while, then.
-026:12:29|T|CC|Okay. I got all your readback except the value for trunnion. And, if it's 242, confirm, please.
-026:12:37|T|LMP|Roger. 242.
-026:12:39|T|CC|Okay.
-026:25:40|P|PAO|The Guidance Officer reports Apollo 11 is now in the attitude for the mid-course correction.
-026:27:20|P|PAO|This is Apollo Control at 26 hours, 27 minutes. Apollo 11's distance from Earth now 108,594 nautical miles. Velocity 5,057 feet per second. We're about 17 and a half minutes away from the mid-course correction.
-026:38:29|T|CMP|Houston, Apollo 11. Could you give us a couple of high-gain antenna angles, please?
-026:38:35|T|CC|Roger. Stand by, 11.
-026:38:45|T|CC|Roger, 11. Pitch minus 35, yaw 0. Over.
-026:38:51|T|CMP|Thank you.
-026:39:23|T|CC|Okay.
-026:39:25|T|CMP|Houston, Apollo 11. How do you read high-gain?
-026:39:28|T|CC|Read you loud and clear on high-gain down here, and everything's looking good from our standpoint for your burn. Over.
-026:39:36|T|CMP|Okay, Bruce.
-026:40:05|P|PAO|This is Apollo Control at 26 hours and 40 minutes. We're just under 4 minutes to the mid-course correction maneuver. Apollo 11's distance from the Earth is 109,245 nautical miles. Its velocity is 5,033 feet per second. Spacecraft weight 96,361 pounds.
-026:43:59|P|PAO|One minute to the burn.
-026:44:23|P|PAO|The duration will be 3 seconds.
-026:45:06|P|PAO|Burning.
-026:45:09|P|PAO|Shutdown.
-026:45:37|T|CDR|Houston, burn complete. Are you copying our residuals?
-026:45:39|T|CC|That's affirmative.
-026:46:00|T|CDR|And, Houston, looked like we saw about 87 or 88 psi on chamber pressure that time. I'd like you to look at that on the ground.
-026:46:12|T|CC|Roger, 11. We'll take a look at that and get back in a few minutes.
-026:46:27|T|CC|11, Houston. On our real-time telemetry we saw 95 to 97 psi on chamber pressure. We'll - We will look at the recordings down here, thought, and get back with you again. Over.
-026:46:42|T|CDR|Okay. Thank you.
-026:46:49|T|CC|And we've copied your residuals, 11.
-026:46:54|T|CMP|Roger. No, we're not going to trim those ...
-026:47:34|P|PAO|This is Apollo Control. That was a good burn. The residuals are on the order of a half a foot a second or less, and will not be trimmed.
-026:48:42|P|PAO|We're showing spacecraft weight now as 96,159 pounds.
-026:49:51|T|CC|11, Houston. Could we get your DELTA-V counter reading, please, from this burn?
-026:49:59|T|LMP|That's minus 3.8.
-026:50:02|T|CC|Minus 2.8?
-026:50:05|T|LMP|3.8.
-026:50:07|T|CC|Roger. Copy minus 3.8.
-026:51:03|T|CDR|Houston, is there anything else you need on the burn status report?
-026:51:15|T|CC|This is Houston. Negative, 11.
-026:51:22|T|CDR|Roger. Thank you.
-026:54:41|T|CC|Apollo 11, this is Houston. Over.
-026:54:45|T|LMP|Go ahead, Houston. Apollo 11.
-026:54:47|T|CC|Roger. I just wanted to remind you that we haven't noticed on the TM the VERB 66 after the burn. And for your information, we played the recorded TV back last night, I believe, after you all turned in for your rest period, and the pictures came out quite well. Over.
-026:55:10|T|CMP|Did you get any usable pictures out of MILA on that first pass?
-026:55:15|T|CC|Not that we've seen. We had word on the voice loop that MILA reported that they had gotten a minute's worth of TV signal, and Goldstone reported that they had gotten about a minute's worth of modulation but that they weren't able to get anything off of it.
-026:55:35|T|CMP|Okay. Thanks.
-026:55:40|T|CC|Okay. We have another input here, 11, that the MILA data was recognizable as a picture, but we don't have any evaluation as to the quality of the picture. Over.
-026:55:53|T|CMP|Okay.
-026:55:55|T|CC|And for our information, we've been watching a PC O2 again. Did you change a lithium hydroxide canister this morning? Over.
-026:56:08|T|CDR|Yes. We did, and we've been seeing 1.7 percent in the spacecraft ever since.
-026:56:14|T|CC|Roger. That agrees with our data.
-026:56:19|T|CDR|1.7 millimeters.
-026:56:21|T|CC|Roger. We copy.
-026:57:00|T|CMP|Houston, Apollo 11. We're starting our maneuver to PTC attitude.
-026:57:05|T|CC|Roger.
-026:59:21|T|CC|11, this is Houston. Over.
-026:59:26|T|LMP|Go ahead.
-026:59:27|T|CC|Roger. From a propellant-balancing standpoint, we recommend that you use quads Alfa and Bravo to start the PTC maneuvers. Over.
-026:59:39|T|LMP|Roger. Understand Alfa and Bravo.
-026:59:41|T|CC|Roger. Out.
-027:00:05|P|PAO|This is Apollo Control at 27 hours, Apollo 11's distance now 110,198 nautical miles. Velocity 4,984 feet per second.
-027:06:13|T|CC|11, this is Houston. Over.
-027:06:19|T|CMP|Go ahead, Houston.
-027:06:20|T|CC|Roger. For CRYO-balancing purposes, we'd like you to turn the heater and oxygen tank number 1 off at this time. Over.
-027:06:33|T|CMP|Okay. Stand by.
-027:06:34|T|CC|Everything else in the CRYO system remains the same.
-027:06:39|T|CMP|Okay.
-027:06:55|T|CMP|Okay. We have O2 heater tank 1 off.
-027:06:58|T|CC|Houston. Roger. Out.
-027:07:04|P|PAO|This is Apollo Control at 27 hours, 7 minutes. The crew is now is the process -
-027:07:09|T|CMP|How is EECOMM today? Is he happy with all those good things?
-027:07:13|T|CC|Oh, EECOMM is happy, and after you get PTC set up, we've got a little procedure from EECOMM here to check out the O2 flow and the O2 flow sensor in your cabin enrichment. Over.
-027:07:28|T|CMP|Okay.
-027:07:35|T|CMP|It'll be a while, Bruce. We're just now arriving in PTC attitude, and we're going to our 20 minutes of monitoring thruster activity.
-027:07:43|T|CC|Roger. We copy. - still be here.
-027:10:13|P|PAO|This is Apollo Control. The Passive Thermal Control being reestablished by Apollo 11 is at the rate of three-tenths of a degree per second which would be three rotations per hour.
-027:13:02|T|CMP|Houston, Apollo 11. Are you going to take control of the OMNI's now and switch us between B and D?
-027:13:08|T|CC|This is Houston. Stand by one.
-027:13:35|T|CC|11, Houston.
-027:13:39|T|CMP|Go ahead.
-027:13:40|T|CC|Mike, how about selecting Bravo at this time, and I'll give you a COMP configuration here, shortly.
-027:13:48|T|CMP|Okay.
-027:14:23|T|CMP|That PTC sure worked well last night.
-027:14:27|T|CC|Outstanding.
-027:14:55|T|CC|11, Houston.
-027:14:59|T|CMP|Go ahead.
-027:15:01|T|CC|Okay. Roll for the COMM situation: have S-band antenna OMNI A in Bravo, S-band antenna OMNI to OMNI, high-gain track to MANUAL, and the pitch is minus 50 and yaw is 270.
-027:15:25|T|CMP|You may have to repeat some of that, James. We've got a LM guy taking care of the high-gain right now.
-027:15:30|T|LMP|Yes, and he is eyeballing the Earth.
-027:15:32|T|CMP|He's got his head out the window.
-027:15:35|T|CC|I understand, I had trouble on 12 with him, too.
-027:15:42|T|LMP|Say again what you'd like.
-027:15:44|T|CC|Okay, The S-band antenna OMNI A switch to Bravo which you have now, and S-band antenna OMNI to the OMNI position, and the high-gain track to the MANUAL position -
-027:15:59|T|LMP|Manual.
-027:16:00|T|CC| - and the pitch and yaw angles are minus 50 for pitch and yaw is 270.
-027:16:09|T|LMP|Minus 50 and 270.
-027:16:29|P|PAO|That's Jim Lovell, the Commander of the backup of Apollo 11 crew communicating with Apollo 11 at the present time. He also commanded the Gemini 12 flight in which Buzz Aldrin was his pilot.
-027:17:07|T|LMP|Hey, Jim, I'm looking through the monocular now, and to coin an expression, the expression that the view is just out of this world. I can see all the islands in the Mediterranean. Some larger and smaller islands of Majorca, Sardinia, and Corsica. A little haze over the upper Italian peninsula, some cumulus clouds out over Greece. The Sun is setting on the eastern Mediterranean now. And, the British Isles are definitely greener in color than the brownish green that we have in the islands, in the peninsula of Spain. Over.
-027:18:02|T|CC|Roger. I understand that the Northern Africa - Mediterranean area is fairly clear today, huh?
-027:18:11|T|LMP|Right.
-027:18:14|T|CMP|Yes. We see a bunch of roads with cars driving up and down, too.
-027:18:19|T|CC|Do you find that the monocular is any good to you, Buzz?
-027:18:27|T|LMP|Yes, It would be nicer if it had another order of magnitude of power on it. Of course, it has a tendency to jiggle around a little bit, and you might want to have some sort of a bracket. I hate to use that word though.
-027:18:54|T|LMP|Got an anticyclone going in the southern hemisphere southeast of Brazil, and some - Well, the diameter of it must be over 2000 miles across.
-027:19:15|T|CC|How does the weather look up in the southern part of the western hemisphere, or up in the United States area?
-027:19:25|T|LMP|Well, you all are just beginning to come over the limb now. I can see parts of Central America, and it looks to be fairly - fairly clear there. The islands in the Caribbean are beginning to come in and rather a few streaming lines of clouds. Looks like there is a system up to the - well, off of Greenland that has some large cloud streamers extending back down to the southwest. The east coast of the U.S. is just coming into view now, and it doesn't look too bad that I can see right now. We may have some pretty good shots later on this afternoon. Over.
-027:20:16|T|CC|Roger. Thank you.
-027:20:24|P|PAO|That was Buzz Aldrin giving the description of what he could see on the Earth. The backup Lunar Module Pilot Fred Hayes is also in the Control Center at the present time.
-027:21:50|T|LMP|Houston, Apollo 11.
-027:21:52|T|CC|Go ahead, 11.
-027:21:55|T|LMP|I've got a comment about the point on the Earth where the Sun's rays reflect back up toward us. In general, the color of the oceans is mostly uniform and it's bright and darker blue except for that region that's about one-eighth of an Earth's radius in diameter; and in this circular area, the blue of the water turns a grayish color, and I'm sure that's where the Sun's rays are being reflected back on up toward us. Over.
-027:22:41|T|CC|Roger, Buzz. We noticed the same thing. It's very similar to looking at a light shining on something like a billiard ball or a bowling ball. You get this bright spot in the blue of the water, and that turns it to sort of a grayish color.
-027:22:56|T|LMP|Yes. Is there a Navy term for that?
-027:23:00|T|CC|(Laughing) A lot of gray paint.
-027:25:28|T|CC|11, Houston.
-027:25:34|T|CMP|Go ahead, Houston.
-027:25:36|T|CC|Mike, are you satisfied with P23 now?
-027:25:44|T|CMP|Yes, I'm happy with the last updates we got, you know, in terms of what it did to our state vector. I'm still not altogether happy with the various procedures. If we could pick stars within the smaller range of trunnion angles so that you could allow P23 to pick its own maneuver and go to that sub-stellar point and then have that star visible, that would seem to me to be the simplest and best way to do it.
-027:26:09|T|CC|How about the - -
-027:26:10|T|LMP|... correction on that last ...
-027:26:14|T|CC|How about the horizon now? Is it pretty well defined for you and no longer hazy?
-027:26:20|T|CMP|Yes. We're far enough out now that the - I think the horizon definition variation is lost in the North.
-027:26:57|T|LMP|Hey, Jim.
-027:26:59|T|CC|Go ahead, Buzz.
-027:27:02|T|LMP|Looks like the best way to get a steady view through the monocular is just steady it out and let it close when it's in front of your eye, and then you kind of float up next to it so that you're not touching it at all. It has a very slow drift, and you get a better - steadier view that way.
-027:27:25|T|CC|Sounds good.
-027:27:47|T|CC|How does it feel to be airborne again, Buzz?
-027:27:52|T|LMP|Well, I'll tell you, I've been having a ball floating around inside here, back and forth up to one place and back to another. It's like being outside, except more comfortable.
-027:28:04|T|CC|It's a lot bigger than our last vehicle.
-027:28:06|T|CMP|... kept me busy, I'm ...
-027:28:10|T|CMP|Say again about the last -
-027:28:11|T|LMP|Yes. It sure is nice in here.
-027:28:13|T|CC|I said it's a lot bigger than the last vehicle that Buzz and I were in.
-027:28:18|T|CMP|Oh, yes. It's been nice. I've been very busy so far. I'm looking forward to taking the afternoon off. I've been cooking, and sweeping, and almost sewing, and you know, the usual little housekeeping things.
-027:28:31|T|CC|It was very convenient the way they put the food preparation system right next to the NAV station.
-027:28:43|T|CDR|Everything is right next to everything in this vehicle.
-027:28:48|T|LMP|Not if you're in the waste management ...
-027:28:54|T|CDR|Jim, it's been a little warm in the machine through - throughout yesterday and last night, during the PTC, it cooled off somewhat with the windows buttoned up, and we've seen suit temperatures of about - the high 40's and cabin temperatures in the low 60's. But this seems to be still a little bit on the warm side.
-027:29:29|T|CC|I understand that it got a little warm during the day and cooled down a little bit when you put the shades up, but you're still a little bit warm. Do you have any moisture condensation or anything like that on the walls?
-027:29:40|T|CDR|No, we haven't been able to detect any moisture anyplace in the spacecraft. It seems to be fine.
-027:29:50|T|LMP|One of the hydrogen filters - the one that we've got on the hot water - seems to keep flowing when you remove one of the food bags from it. Its flow rate is quite small, right near the end of one ounce, and that contributes a little bit of moisture to the atmosphere.
-027:30:15|T|CMP|Yes, that hydrogen thing, it's - I'm not sure, but I think it's a back-pressure problem. If the thing sees any back-pressure at all, like when the bag is attached, well the flow rate will slowly decrease to where it's almost zero, and you wait, and you wait, and you wait for that last ounce. You think you have its and you remove the bag, and then you very rapidly thereafter see maybe a glob the size of a dime or a quarter come out and just hang there. That appears to be true even though the opening into the bag is not restricted.
-027:30:51|T|CC|Understand.
-027:30:54|T|LMP|In general, I think they do quite a good job, especially on the gun, in removing a lot of the hydrogen bubbles.
-027:31:05|T|CC|Have the water temperatures been good? Are you getting hot water?
-027:31:13|T|LMP|Yes. It seems reasonably warm.
-027:31:17|T|CMP|We made three cups of coffee today. The last one - you know when all the plumbing was warmed up, the hydrogen gun and everything, was warmest of the three. I don't know who had that one - Neil, did you have that one? How was your coffee? You didn't drink it till later, did you? Anyway, it's pretty good. It's not piping hot, but it sure beats stone-cold coffee.
-027:31:49|T|CMP|Jim, we've been sitting here a little over 20 minutes now. How does the thruster firing activity look? Are you ready to go on with this PTC?
-027:31:57|T|CC|Roger. Stand by.
-027:32:01|T|CC|We're all set to go, Mike.
-027:32:04|T|CMP|Okay. I'll press on then.
-027:36:00|T|CMP|Houston, Apollo 11. PTC has started and it looks good.
-027:36:07|T|CC|11, Roger. This is Houston. Roger. Out.
-027:46:04|P|PAO|This is Apollo Control at 27 hours 46 minutes. Apollo 11's distance from the Earth is now 112,386 nautical miles, velocity 4,906 feet per second. We now have the actual numbers on the mid-course correction maneuver. Ignition time was 26 hours 44 minutes 57.92 seconds. Duration of the burn was 2.91 seconds. DELTA-V 20.9 feet per second.
-027:47:22|T|CC|Apollo 11, this is Houston. Over.
-027:47:27|T|CDR|Go ahead, Houston.
-027:47:29|T|CC|Roger. If you're free for a couple of minutes, we have a procedure here that will let us verify the O2 flow transducer and at the same time get some more of our cabin enrichment out of the way. Over.
-027:47:48|T|CDR|Stand by.
-027:48:38|T|CDR|Go ahead, Houston. We're ready to copy.
-027:48:41|T|CC|Roger. The primary purpose of this is, as I mentioned, to let us check out your O2 flow transducer. However, we still need about 2 hours' worth of cabin enrichment, so we'd like to keep the vent that we're going to set up going for this purpose. Okay. We want you to install the cabin vent quick disconnect which you'll find in compartment R-6, that is Romeo 6, on the urine connector on panel 251. When this is completed, verify that the waste stowage vent valve is closed, and then open or position the waste management overboard drain to the DUMP position. Over.
-027:49:38|T|CDR|Okay. Understand that. Install the cabin quick disconnect out of R-6 on the 251 urine connector and verify that the waste dump valve is closed, and say again the last part.
-027:50:01|T|CC|Roger. And then put the waste management overboard drain valve into the DUMP position. Over.
-027:50:15|T|CDR|Roger. Put the waste management overboard drain valve to the DUMP position.
-027:50:20|T|CC|Right. That's the one down on panel 251 also. And we'll watch your O2 flow on telemetry down here.
-027:52:50|T|CDR|Okay, Houston. That configuration is set up.
-027:52:57|T|CC|11, this is Houston. Say again, please.
-027:53:01|T|CDR|You do have the O2 flow transducer checkout setup accomplished.
-027:53:08|T|CC|Okay. Understand you have opened the drain valve at this time.
-027:53:13|T|CDR|That's affirm. It's in DUMP.
-027:53:17|T|CC|Roger. We're not getting telemetry data from you right due to low signal strength. There it comes back. I expect it'll probably take us anywhere from 15 minutes to half an hour to see an increase in O2 flow due to the size of the cabin and of course of the small size of the drain. Over.
-027:53:37|T|CDR|Roger.
-028:07:14|T|CMP|Houston, Apollo 11.
-028:07:17|T|CC|Go ahead, 11.
-028:07:21|T|CMP|Roger. I've got the world in my window for a change and looking at it through the monocular, it's really something. I wish I could describe it properly, but - The weather is very good. South America is coming around into view. I can see on the - what appears to me to be upper horizon, a point that must be just about Seattle, Washington, and from there I can see all the way down to the southern tip of Tierra del Fuego and the southern tip of the continent.
-028:07:56|T|CC|Roger. Sounds like you've got a beautiful view up there.
-028:08:01|T|CMP|Absolutely fantastic. I hope the pictures come out. We're rotating around where it's going out of view again.
-028:08:08|P|PAO|That's Mike Collins talking.
-028:08:09|T|LMP|I'm waiting to pick it up in the sextant.
-028:08:14|T|CC|Sounds like one of these rotating restaurants.
-028:08:57|P|PAO|And Bruce McCandless is back on the Capcom console now,
-028:30:33|T|CC|Apollo 11, this is Houston. Over.
-028:36:10|T|LMP|Houston, Apollo 11. Do you need some help keeping OMNI's locked on us?
-028:36:15|T|CC|Apollo 11, this is Houston. Negative. We had a command computer at the Madrid site go down. We had to switch over to Ascension temporarily. We're now back remoting through Madrid, and the computer is back, and we're ready to resume control of your OMNI's and full communication. Over.
-028:36:38|T|LMP|Okay. You've got it.
-028:36:40|T|CC|Okay. One thing that we did miss in the dropout in the noise here is your LM/CM DELTA-P reading for about 28 hours GET. Over.
-028:37:06|T|LMP|Okay. The LM/CM DELTA-P is 0.98.
-028:37:11|T|CC|Roger. 0.98, and what have you been reading for O2 flow on your onboard gage? Over.
-028:37:23|T|LMP|Well, right now, after we put that gadget in, we've got it back to 0.35. Before that, we were reading off-scale-low. I think ours is relatively correct, at least when time comes for the water accumulator to kick in at 10 seconds, it goes on up to about 0.75, 0.8, something like that.
-028:37:51|T|CC|This is Houston. Roger. Out.
-028:38:44|T|CC|And, 11, this is Houston. A little more information based on our analysis of your last SPS burn: it looks like you got a good solid burn there. We show 94 psi chamber pressure and it looks like the SPS is definitely GO. Over.
-028:39:06|T|LMP|Good to hear it.
-028:39:09|T|CC|Roger. We thought you'd feel that way about it.
-028:39:22|T|LMP|We're right in the middle of - well either ... drink, or salmon salad, or something like that. That's probably why we're not answering you right away.
-028:39:33|T|CC|Okay. Well, we don't want - -
-028:39:33|T|CMP|My compliments to the chef, that salad salmon is outstanding.
-028:39:41|T|CC|Roger. Understand that's the salad salmon. Over.
-028:39:50|T|CMP|Something like that, salmon salad.
-028:39:52|T|CC|There we go, okay, the salmon salad, very good.
-028:39:57|T|LMP|Okay. Bruce, we're coming up on the water accumulator activity, and it's going on up to 0.85, oh, about 0.95 and it reached a peak there and then gradually dropped back on down to 0.6 now, 0.4, and it looks like it's pretty well - pretty well leveling off back down to 0.35. Over.
-028:40:31|T|CC|Roger, We're copying that.
+024:02:45|T|CC|Roger, 11. I guess in keeping the cups of coffee score, why you get that one.
+024:02:57|T|CMP|Well - Okay - Well, this morning, let's just see how close it comes to being parallel to the M-line. Before we started marking for the first time, it appeared that the computation of - of those three angles was somewhat off, and that I was wasting a lot of gas by going to those three angles and then having to make large attitude changes after that to get the M-line parallel. In some cases it appeared to be just an excessive attitude required, and you all said that it wasn't needed. So I was marking in some cases with the M-line not parallel. I thought perhaps you had some processor for computing that offset and making sense out of that data, but as far as I know, we've got to have the M-line parallel to the horizon.
+024:03:48|T|CC|Roger, 11. We don't have that capability. We do require that the M-line be parallel to the horizon in order to get a good mark. We feel that possibly the - the state vector information that you were using for your maneuver basis yesterday may have needed to be updated a little. And if you'll standby a second, we'll give you an evaluation of what we feel you'll get today by the AUTO maneuver.
+024:04:24|T|CMP|Okay.
+024:10:55|T|LMP|Houston, Apollo 11. Over.
+024:10:59|T|CC|Go ahead, 11.
+024:11:01|T|LMP|Roger. I'm getting ready to do an O2 Fuel cell purge. Do you have any particulars on this? And I assume you want these one at a time, or can I triple up? Over.
+024:11:12|T|CC|We'd like them one at a time, and stand by. I don't think we have any sequence. You can do them in any order you want.
+024:11:22|T|CMP|Okay.
+024:11:26|T|CC|And we're watching you on TM down here.
+024:15:00|T|CMP|Houston, Apollo 11. You want to look at these NOUN 93's before I proceed on them?
+024:15:08|T|CC|Yes, please. Stand by a second.
+024:15:11|T|CMP|Okay.
+024:16:10|T|CC|11, this is Houston. On our TM, here, we're only seeing values in two registers. Can you read us out the contents of register 3, please?
+024:16:21|T|CMP|Register 3: minus three balls 24.
+024:16:28|T|CC|Roger. Minus three balls 24. And you can go ahead and proceed.
+024:16:34|T|CMP|Okay. Proceeding at this time.
+024:16:55|T|CC|11, Houston. After you've completed P52, we'd like to uplink you a new state vector so we can start out clean on this P23. Over.
+024:17:07|T|CMP|Okay.
+024:17:20|T|LMP|Houston, are you observing the higher O2 flow on fuel cell 3?
+024:17:33|T|LMP|Houston, Apollo 11. It's triggered the MASTER ALARM three times, now. There goes number 4. It goes up to about 1.4, then oscillates back down to about 1.1. Over.
+024:17:47|T|CC|Roger. We saw them 1.3 now on TM. Stand by a second.
+024:17:59|T|CMP|And we're in P00, now, for a state vector.
+024:18:04|T|CC|Roger. Give us ACCEPT, please.
+024:18:11|T|CMP|Roger. Done.
+024:18:40|T|CC|11, Houston. On your O2 flow, fuel cell 3: apparently, it was flowing a little higher than the other two during purge, but the flow rate's acceptable. Over.
+024:18:54|T|LMP|Roger, It seems to be flowing a little bit more, and actually putting out more current than the other two, also. Over.
+024:19:03|T|CC|Roger. We copy.
+024:19:49|T|CC|11, this is Houston. We've completed the uplink; the computer is yours; you can go back to BLOCK.
+024:19:57|T|CMP|Okay. Thank you.
+024:20:29|T|CC|Go ahead, 11.
+024:20:41|T|CDR|Houston, 11. I don't believe we were calling you right then.
+024:20:47|T|CC|Roger. Out.
+024:22:53|P|PAO|This is Apollo Control at 24 hours 22 minutes into the mission. Apollo 11's distance from the Earth is 102,436 nautical miles, velocity 5,288 feet per second.
+024:23:52|T|CMP|Houston, Apollo 11.
+024:23:55|T|CC|Apollo 11, this is Houston. Go ahead.
+024:24:00|T|CMP|Roger. I'm in a good attitude here to do - I have in the sextant this last P52 star - what number is it? - star 37. Is that all right for the optics calibration to save some gas, or do you want to go over to star 40?
+024:24:21|T|CC|Star 37 will be fine for the optics calibration. And we haven't noticed a VERB 66, yet, after our state vector uplink. Over.
+024:24:31|T|CMP|Okay.
+024:24:34|T|CC|When you move into P23, we recommend that you use the CMC-computed angles for your AUTO maneuver and see how that works out. If it doesn't bring you up with the M-line parallel to the horizon to the sub-stellar point, we will see if we can get you some ground-computed angles. I guess the big thing here is to make sure that the M-line is parallel to sub-stellar points so we can get a good angular measurement. Over.
+024:25:04|T|CMP|Yes. I believe.
+024:25:06|T|CC|Roger. Over.
+024:25:28|P|PAO|Star 37 is Nunki. Apollo 11 is now in Program 52 which is realignment of the platform prior to beginning the cislunar navigation operation.
+024:29:23|T|CMP|Houston, Apollo 11. Marking on this star, I get a NOUN 87 twice in a row of five balls, so that's sufficient for a count.
+024:29:34|T|CC|That's certainly very sufficient.
+024:29:39|T|CMP|Okay. Now I want to go to P00, and I am going to take your three angles and do a VERB 49 maneuver to your sub-stellar point. Okay?
+024:29:51|T|CC|Okay. We recommend that for the first star, if we gave you a new state vector, we'd like to try the CMC-computed angles for the AUTO maneuver.
+024:30:07|T|CMP|Okay.
+024:30:15|T|CC|And have you hit PROCEED on this display to enter the zeros?
+024:30:21|T|CMP|Not yet.
+024:30:22|T|CC|Okay.
+024:30:52|T|CC|11, Houston. Over the past 2 hours we have seen a slight continuing increase in partial pressure of CO2. Have you in fact changed the CO2 canister yet this morning? We don't need to do it right now; we'd just like to confirm it that our instrumentation is in good shape. Over.
+024:31:12|T|CMP|No. We haven't changed any canisters this morning.
+024:31:19|T|CC|Okay. Then I guess you can plan on accomplishing that after P23 is over and you've got the LEB clear.
+024:31:32|T|CMP|All right.
+024:31:56|T|CMP|Houston, Apollo 11. We're in process of maneuvering to P23 in desired attitude. It likes roll 8.37, pitch 61.33, and yaw 339.87. Over.
+024:32:11|T|CC|Roger. We copy. And that is for star 01?
+024:32:18|T|CMP|Star 01, right near the horizon. Code 110.
+024:32:21|T|CC|Roger.
+024:41:05|T|CMP|Houston, Apollo 11. On this star, the AUTO maneuver worked just fine. I am right at the sub-stellar point. Everything looks beautiful except there is no star in sight. It is just not visible.
+024:41:19|T|CC|Roger. Is this for star 01?
+024:41:23|T|CMP|That's correct.
+024:41:30|T|CC|You are not getting any reflections or anything like that that would obscure your vision, are you?
+024:41:40|T|CMP|Well, of course, the Earth is pretty bright, and the black sky, instead of being black, has sort of a rosy glow to it. The star, unless it is a very bright one, is probably lost somewhere in that glow, but it is just not visible. I've maneuvered the reticle considerably above the horizon to make sure that the star is not lost in the brightness below the horizon. However, even when I get the reticle considerably above the horizon so the star should be seen against the black background, it still is not visible.
+024:42:17|T|CC|Roger. We copy. Standby a minute, please.
+024:42:47|T|CC|11, this is Houston. Can you read us the shaft and trunnion angle off the counters?
+024:42:54|T|CMP|Yes. I will be glad to. Shaft 331.2 and trunnion 35.85.
+024:43:03|T|CC|Roger. Thank you.
+024:45:33|T|CMP|It's really a fantastic sight through that sextant. A minute ago, during that AUTO maneuver, the reticle swept across the Mediterranean. You could see all of North Africa, absolutely clear; all of Portugal, Spain, southern France; all of Italy, absolutely clear. Just a beautiful sight.
+024:45:53|T|CC|Roger. We all envy you the view up there.
+024:45:59|T|CMP|But still no star.
+024:47:17|T|CC|11, this is Houston. Over.
+024:47:22|T|CMP|Roger. Go ahead, Bruce.
+024:47:23|T|CC|Roger. On our ground computers we confirm the shaft and trunnion angle that you have as being pointed at the star. However, it looks as though that shaft and trunnion angle is also pointing into the structure of the LM, so that while you will be getting the Earth's horizon, the star ... is obscured by the LM. We recommend an AUTO maneuver to the attitudes pen-and-inked into the Flight Plan. Roll 177.2, pitch 298.2 and yaw 330.0. Over.
+024:48:03|T|CMP|Okay. Fine. Let ts try that.
+024:53:57|T|LMP|... gimbal lock ...
+025:06:53|T|CC|11, this is Houston. While you're maneuvering here, could we get a LM/CM DELTA-P reading from you? Over.
+025:07:01|T|CMP|Roger. Just a tad under 1, Bruce, 0.95.
+025:07:05|T|CC|Roger. 0.95.
+025:07:35|P|PAO|This is Apollo Control. That reading was the difference in pressure between the Lunar Module cabin and the Command Module cabin.
+025:11:13|T|CC|Apollo 11, Houston.
+025:11:17|T|CMP|Go ahead.
+025:11:19|T|CC|Is the Commander aboard?
+025:11:23|P|PAO|This is Jim Lovell calling Apollo 11.
+025:11:35|T|CDR|Roger, the Commander's aboard.
+025:11:38|T|CC|I was a little worried. This is the backup Commander still standing by. You haven't given me the word yet. Are you GO?
+025:11:48|T|CDR|You've lost your chance to take this one, Jim.
+025:11:51|T|CC|Okay. I concede.
+025:13:36|T|CMP|Houston, Apollo 11.
+025:13:39|T|CC|Go ahead, 11.
+025:13:41|T|CMP|Okay. Our maneuver is complete, and at this attitude the M-line is exactly 90 degrees out of phase. It is exactly pointed along the vector toward the center of the Earth instead of being parallel to the right.
+025:13:57|T|CC|Roger.
+025:14:14|T|CMP|I'm going to hold right here for your next suggestion.
+025:14:19|T|CC|Roger.
+025:18:18|T|CMP|Okay, Houston. It appears to be okay now; We've changed our attitude slightly, and I have a star and I'm maneuvering to get the M-line parallel.
+025:18:29|T|CC|This is Houston. Roger. We copy.
+025:20:23|P|PAO|This is Apollo Control at 25 hours, 20 minutes. Apollo 11 -
+025:20:27|T|CMP|Houston, Apollo 11. You - Stand by one.
+025:21:07|P|PAO|Distance is now 103,263 nautical miles. Velocity 5,256 feet per second.
+025:21:53|P|PAO|This is Apollo Control. Belay that last announcement. Those figures are not based on the proper Ground Elapsed Time. This display is static. We don't have the present numbers.
+025:36:06|T|CMP|Houston, Apollo 11. Are you copying these NOUN 49's? I've been going through them fairly swiftly.
+025:36:12|T|CC|Yes. We surely are. Let's see: plus 0.1 and a plus 0.2 on nautical miles and feet per second. Over.
+025:36:22|T|CMP|Roger.
+025:43:43|T|CC|11, this is Houston. Over.
+025:43:53|T|CMP|Go ahead.
+025:43:54|T|CC|Yes, Mike. We show you in VERB 59 right now. Over.
+025:44:04|T|CMP|That's right. I - I haven't entered - I gave the - I gave it back to the computer for a second. I put the mode switch from MANUAL back to CMC while I fooled with the DSKY, and the computer drove the star off out of sight. So the delay here has been in going back to MANUAL and finding the star again, which I've finally done. And - Just a second here, I'll go to ENTER and get a 51 and mark on it. As I say, for some reason the computer drove the star off out of sight.
+025:44:34|T|CC|Okay. Roger. Out.
+025:48:13|T|CC|Apollo 11, this is Houston. Over.
+025:48:17|T|CMP|Go ahead.
+025:48:18|T|CC|Roger. We show you with a little less than an hour to the mid-course correction number 2 burn. We recommend that you terminate the P23 activities here and press on with a wastewater dump, which we need from you, and get it ready for the burn. Over.
+025:48:39|T|LMP|Okay.
+025:48:43|T|CC|And I have your mid-course correction number 2 PAD when you're ready to copy.
+025:48:50|T|LMP|Stand by.
+025:49:14|T|LMP|Roger, Houston. Apollo 11, ready to copy MCC 2.
+025:49:21|T|CC|Apollo 11, this is Houston. Mid-course correction number 2. SPS/G&N 63059, plus 097, minus 020, GET ignition 02644 5792, plus 00118, minus 00003, plus 00177, roll 277 355 015, NOUN 44 BLOCK is NA, DELTA-VT 00213 003 00168, sextant star 30 2082 370. The rest of the PAD is NA. GDC align: Vega and Deneb. Roll align 007 144 068. No ullage. LM weight: 33302. And, for your information, your heads will be pointed roughly towards the Earth on this burn. Read back. Over.
+025:51:13|T|LMP|Roger. Mid-course correction number 2. SPS/G&N: 63059, plus 097, minus 020 02644 5792, plus 00118, minus 00003, plus 00177 277 - Are you still copying, Houston? Over.
+025:51:45|T|CC|Roger. Still copying. Go ahead.
+025:52:01|T|CC|Apollo 11, this is - Apollo 11, this is Houston. I copied your transmission about roll 277, and go ahead from roll 277. Over.
+025:52:16|T|LMP|Roger. 355 015, NA, 00213 003 00168 30 2082 370. Vega and Deneb 007 144 068. No ullage. LM weight: 33302. Heads towards the Earth. Over.
+025:52:46|T|CC|11, this is Houston. Readback correct. Out.
+025:54:00|T|CC|Apollo 11, Houston. Over.
+025:54:06|T|LMP|Go ahead, Houston. Apollo 11.
+025:54:08|T|CC|Roger. We'd like you to terminate battery A charge at GET 26 hours and re-initiate battery A charge after mid-course correction 2. Over.
+025:54:22|T|LMP|Apollo 11. Roger.
+025:54:24|T|CC|Roger. Out.
+025:58:44|P|PAO|This is Apollo Control at 25 hours, 58 minutes. Apollo 11's distance is now 107,224 nautical miles. Velocity 5,106 feet per second.
+025:59:36|T|CC|11, this is Houston. Over.
+025:59:40|T|LMP|Go ahead.
+025:59:42|T|CC|Roger. If you can give us ACCEPT, we'll send you up a state vector and a target load for the maneuver.
+025:59:51|T|LMP|Okay. Give us 1 minute to check the P23 damage.
+025:59:56|T|CC|Sure thing.
+026:00:30|T|LMP|Houston, Apollo 11. The DSKY's yours.
+026:00:33|T|CC|Houston. Roger. Out.
+026:00:58|P|PAO|This is Apollo Control at 26 hours. The ignition time for this mid-course correction will be 26 hours, 44 minutes, 57 seconds - about 44 minutes from now. It will be a service propulsion maneuver. Duration of the burn will be 3 seconds, the delta-V 21.3 feet per second.
+026:03:00|P|PAO|This mid-course maneuver should reduce the pericynthion of Apollo 11's trajectory from the present 175 nautical miles to 60 nautical miles.
+026:03:47|T|CC|11, this is Houston. We've completed the uplink. The computer's yours.
+026:03:53|T|LMP|Thank you.
+026:07:15|T|CMP|Houston, Apollo 11.
+026:07:19|T|CC|Apollo 11, this is Houston. Over.
+026:07:23|T|LMP|Roger. Wonder if you have a star that might be a little closer to the direction we're burning than the one you gave us.
+026:07:31|T|CC|Roger. We're going to rework the attitude in the sextant star for you in order to improve the high-gain antenna coverage, and we'll have that for you in a few seconds.
+026:07:44|T|LMP|Fine. We're already maneuvering ...
+026:07:48|T|CC|Roger.
+026:08:01|T|LMP|Maybe you can make it just the change in roll. Apollo 11, Over.
+026:08:07|T|CC|Roger.
+026:08:44|T|CC|11, this is Houston. Over.
+026:08:48|T|LMP|Go ahead.
+026:08:50|T|CC|Roger. On your attitude for the burn: we'd like you to use roll 096, pitch 356, yaw 018. And, that will give you a sextant star of 01, shaft 253.8, trunnion 24.2. Over.
+026:09:32|T|LMP|Houston, Apollo 11. Roger ... 356 ... 018 ...
+026:09:49|T|CC|11, this is Houston. We are having difficulty reading you through the noise. Could you read back again, please? Over.
+026:10:04|T|LMP|Roger, Houston. Apollo 11. Do you copy?
+026:10:09|T|CC|Roger. Very weakly in the noise, but I think I can copy. Go ahead.
+026:10:17|T|LCMP|Okay. Roll 096 356 018. Star 01 ... Over.
+026:10:36|T|CC|Roger. I got all of that except trunnion. It's trunnion 242. Over.
+026:12:18|T|CMP|Houston, Apollo 11. How do you read me now on OMNI A?
+026:12:21|T|CC|Roger. Loud and clear, 11.
+026:12:24|T|CMP|Okay. We'll stay on OMNI A for a while, then.
+026:12:27|T|CC|Okay. I got all your readback except the value for trunnion. And, if it's 242, confirm, please.
+026:12:35|T|LMP|Roger. 242.
+026:12:37|T|CC|Okay.
+026:25:39|P|PAO|The Guidance Officer reports Apollo 11 is now in the attitude for the mid-course correction.
+026:27:18|P|PAO|This is Apollo Control at 26 hours, 27 minutes. Apollo 11's distance from Earth now 108,594 nautical miles. Velocity 5,057 feet per second. We're about 17 and a half minutes away from the mid-course correction.
+026:38:28|T|CMP|Houston, Apollo 11. Could you give us a couple of high-gain antenna angles, please?
+026:38:34|T|CC|Roger. Stand by, 11.
+026:38:44|T|CC|Roger, 11. Pitch minus 35, yaw 0. Over.
+026:38:50|T|CMP|Thank you.
+026:39:22|T|CC|Okay.
+026:39:24|T|CMP|Houston, Apollo 11. How do you read high-gain?
+026:39:27|T|CC|Read you loud and clear on high-gain down here, and everything's looking good from our standpoint for your burn. Over.
+026:39:35|T|CMP|Okay, Bruce.
+026:40:04|P|PAO|This is Apollo Control at 26 hours and 40 minutes. We're just under 4 minutes to the mid-course correction maneuver. Apollo 11's distance from the Earth is 109,245 nautical miles. Its velocity is 5,033 feet per second. Spacecraft weight 96,361 pounds.
+026:43:58|P|PAO|One minute to the burn.
+026:44:22|P|PAO|The duration will be 3 seconds.
+026:45:05|P|PAO|Burning.
+026:45:08|P|PAO|Shutdown.
+026:45:36|T|CDR|Houston, burn complete. Are you copying our residuals?
+026:45:38|T|CC|That's affirmative.
+026:45:59|T|CDR|And, Houston, looked like we saw about 87 or 88 psi on chamber pressure that time. I'd like you to look at that on the ground.
+026:46:11|T|CC|Roger, 11. We'll take a look at that and get back in a few minutes.
+026:46:26|T|CC|11, Houston. On our real-time telemetry we saw 95 to 97 psi on chamber pressure. We'll - We will look at the recordings down here, thought, and get back with you again. Over.
+026:46:41|T|CDR|Okay. Thank you.
+026:46:48|T|CC|And we've copied your residuals, 11.
+026:46:53|T|CMP|Roger. No, we're not going to trim those ...
+026:47:33|P|PAO|This is Apollo Control. That was a good burn. The residuals are on the order of a half a foot a second or less, and will not be trimmed.
+026:48:41|P|PAO|We're showing spacecraft weight now as 96,159 pounds.
+026:49:50|T|CC|11, Houston. Could we get your DELTA-V counter reading, please, from this burn?
+026:49:58|T|LMP|That's minus 3.8.
+026:50:01|T|CC|Minus 2.8?
+026:50:04|T|LMP|3.8.
+026:50:06|T|CC|Roger. Copy minus 3.8.
+026:51:02|T|CDR|Houston, is there anything else you need on the burn status report?
+026:51:14|T|CC|This is Houston. Negative, 11.
+026:51:21|T|CDR|Roger. Thank you.
+026:54:40|T|CC|Apollo 11, this is Houston. Over.
+026:54:44|T|LMP|Go ahead, Houston. Apollo 11.
+026:54:46|T|CC|Roger. I just wanted to remind you that we haven't noticed on the TM the VERB 66 after the burn. And for your information, we played the recorded TV back last night, I believe, after you all turned in for your rest period, and the pictures came out quite well. Over.
+026:55:09|T|CMP|Did you get any usable pictures out of MILA on that first pass?
+026:55:14|T|CC|Not that we've seen. We had word on the voice loop that MILA reported that they had gotten a minute's worth of TV signal, and Goldstone reported that they had gotten about a minute's worth of modulation but that they weren't able to get anything off of it.
+026:55:34|T|CMP|Okay. Thanks.
+026:55:39|T|CC|Okay. We have another input here, 11, that the MILA data was recognizable as a picture, but we don't have any evaluation as to the quality of the picture. Over.
+026:55:52|T|CMP|Okay.
+026:55:54|T|CC|And for our information, we've been watching a PC O2 again. Did you change a lithium hydroxide canister this morning? Over.
+026:56:07|T|CDR|Yes. We did, and we've been seeing 1.7 percent in the spacecraft ever since.
+026:56:13|T|CC|Roger. That agrees with our data.
+026:56:18|T|CDR|1.7 millimeters.
+026:56:20|T|CC|Roger. We copy.
+026:56:59|T|CMP|Houston, Apollo 11. We're starting our maneuver to PTC attitude.
+026:57:04|T|CC|Roger.
+026:59:20|T|CC|11, this is Houston. Over.
+026:59:25|T|LMP|Go ahead.
+026:59:26|T|CC|Roger. From a propellant-balancing standpoint, we recommend that you use quads Alfa and Bravo to start the PTC maneuvers. Over.
+026:59:38|T|LMP|Roger. Understand Alfa and Bravo.
+026:59:40|T|CC|Roger. Out.
+027:00:04|P|PAO|This is Apollo Control at 27 hours, Apollo 11's distance now 110,198 nautical miles. Velocity 4,984 feet per second.
+027:06:12|T|CC|11, this is Houston. Over.
+027:06:18|T|CMP|Go ahead, Houston.
+027:06:19|T|CC|Roger. For CRYO-balancing purposes, we'd like you to turn the heater and oxygen tank number 1 off at this time. Over.
+027:06:32|T|CMP|Okay. Stand by.
+027:06:33|T|CC|Everything else in the CRYO system remains the same.
+027:06:38|T|CMP|Okay.
+027:06:54|T|CMP|Okay. We have O2 heater tank 1 off.
+027:06:57|T|CC|Houston. Roger. Out.
+027:07:03|P|PAO|This is Apollo Control at 27 hours, 7 minutes. The crew is now is the process -
+027:07:08|T|CMP|How is EECOMM today? Is he happy with all those good things?
+027:07:12|T|CC|Oh, EECOMM is happy, and after you get PTC set up, we've got a little procedure from EECOMM here to check out the O2 flow and the O2 flow sensor in your cabin enrichment. Over.
+027:07:27|T|CMP|Okay.
+027:07:34|T|CMP|It'll be a while, Bruce. We're just now arriving in PTC attitude, and we're going to our 20 minutes of monitoring thruster activity.
+027:07:42|T|CC|Roger. We copy. - still be here.
+027:10:12|P|PAO|This is Apollo Control. The Passive Thermal Control being reestablished by Apollo 11 is at the rate of three-tenths of a degree per second which would be three rotations per hour.
+027:13:01|T|CMP|Houston, Apollo 11. Are you going to take control of the OMNI's now and switch us between B and D?
+027:13:07|T|CC|This is Houston. Stand by one.
+027:13:34|T|CC|11, Houston.
+027:13:38|T|CMP|Go ahead.
+027:13:39|T|CC|Mike, how about selecting Bravo at this time, and I'll give you a COMP configuration here, shortly.
+027:13:47|T|CMP|Okay.
+027:14:22|T|CMP|That PTC sure worked well last night.
+027:14:26|T|CC|Outstanding.
+027:14:54|T|CC|11, Houston.
+027:14:58|T|CMP|Go ahead.
+027:15:00|T|CC|Okay. Roll for the COMM situation: have S-band antenna OMNI A in Bravo, S-band antenna OMNI to OMNI, high-gain track to MANUAL, and the pitch is minus 50 and yaw is 270.
+027:15:24|T|CMP|You may have to repeat some of that, James. We've got a LM guy taking care of the high-gain right now.
+027:15:29|T|LMP|Yes, and he is eyeballing the Earth.
+027:15:31|T|CMP|He's got his head out the window.
+027:15:34|T|CC|I understand, I had trouble on 12 with him, too.
+027:15:41|T|LMP|Say again what you'd like.
+027:15:43|T|CC|Okay, The S-band antenna OMNI A switch to Bravo which you have now, and S-band antenna OMNI to the OMNI position, and the high-gain track to the MANUAL position -
+027:15:58|T|LMP|Manual.
+027:15:59|T|CC| - and the pitch and yaw angles are minus 50 for pitch and yaw is 270.
+027:16:08|T|LMP|Minus 50 and 270.
+027:16:28|P|PAO|That's Jim Lovell, the Commander of the backup of Apollo 11 crew communicating with Apollo 11 at the present time. He also commanded the Gemini 12 flight in which Buzz Aldrin was his pilot.
+027:17:06|T|LMP|Hey, Jim, I'm looking through the monocular now, and to coin an expression, the expression that the view is just out of this world. I can see all the islands in the Mediterranean. Some larger and smaller islands of Majorca, Sardinia, and Corsica. A little haze over the upper Italian peninsula, some cumulus clouds out over Greece. The Sun is setting on the eastern Mediterranean now. And, the British Isles are definitely greener in color than the brownish green that we have in the islands, in the peninsula of Spain. Over.
+027:18:01|T|CC|Roger. I understand that the Northern Africa - Mediterranean area is fairly clear today, huh?
+027:18:10|T|LMP|Right.
+027:18:13|T|CMP|Yes. We see a bunch of roads with cars driving up and down, too.
+027:18:18|T|CC|Do you find that the monocular is any good to you, Buzz?
+027:18:26|T|LMP|Yes, It would be nicer if it had another order of magnitude of power on it. Of course, it has a tendency to jiggle around a little bit, and you might want to have some sort of a bracket. I hate to use that word though.
+027:18:53|T|LMP|Got an anticyclone going in the southern hemisphere southeast of Brazil, and some - Well, the diameter of it must be over 2000 miles across.
+027:19:14|T|CC|How does the weather look up in the southern part of the western hemisphere, or up in the United States area?
+027:19:24|T|LMP|Well, you all are just beginning to come over the limb now. I can see parts of Central America, and it looks to be fairly - fairly clear there. The islands in the Caribbean are beginning to come in and rather a few streaming lines of clouds. Looks like there is a system up to the - well, off of Greenland that has some large cloud streamers extending back down to the southwest. The east coast of the U.S. is just coming into view now, and it doesn't look too bad that I can see right now. We may have some pretty good shots later on this afternoon. Over.
+027:20:15|T|CC|Roger. Thank you.
+027:20:23|P|PAO|That was Buzz Aldrin giving the description of what he could see on the Earth. The backup Lunar Module Pilot Fred Hayes is also in the Control Center at the present time.
+027:21:49|T|LMP|Houston, Apollo 11.
+027:21:51|T|CC|Go ahead, 11.
+027:21:54|T|LMP|I've got a comment about the point on the Earth where the Sun's rays reflect back up toward us. In general, the color of the oceans is mostly uniform and it's bright and darker blue except for that region that's about one-eighth of an Earth's radius in diameter; and in this circular area, the blue of the water turns a grayish color, and I'm sure that's where the Sun's rays are being reflected back on up toward us. Over.
+027:22:40|T|CC|Roger, Buzz. We noticed the same thing. It's very similar to looking at a light shining on something like a billiard ball or a bowling ball. You get this bright spot in the blue of the water, and that turns it to sort of a grayish color.
+027:22:55|T|LMP|Yes. Is there a Navy term for that?
+027:22:59|T|CC|(Laughing) A lot of gray paint.
+027:25:27|T|CC|11, Houston.
+027:25:33|T|CMP|Go ahead, Houston.
+027:25:35|T|CC|Mike, are you satisfied with P23 now?
+027:25:43|T|CMP|Yes, I'm happy with the last updates we got, you know, in terms of what it did to our state vector. I'm still not altogether happy with the various procedures. If we could pick stars within the smaller range of trunnion angles so that you could allow P23 to pick its own maneuver and go to that sub-stellar point and then have that star visible, that would seem to me to be the simplest and best way to do it.
+027:26:08|T|CC|How about the - -
+027:26:09|T|LMP|... correction on that last ...
+027:26:13|T|CC|How about the horizon now? Is it pretty well defined for you and no longer hazy?
+027:26:19|T|CMP|Yes. We're far enough out now that the - I think the horizon definition variation is lost in the North.
+027:26:56|T|LMP|Hey, Jim.
+027:26:58|T|CC|Go ahead, Buzz.
+027:27:01|T|LMP|Looks like the best way to get a steady view through the monocular is just steady it out and let it close when it's in front of your eye, and then you kind of float up next to it so that you're not touching it at all. It has a very slow drift, and you get a better - steadier view that way.
+027:27:24|T|CC|Sounds good.
+027:27:45|T|CC|How does it feel to be airborne again, Buzz?
+027:27:51|T|LMP|Well, I'll tell you, I've been having a ball floating around inside here, back and forth up to one place and back to another. It's like being outside, except more comfortable.
+027:28:03|T|CC|It's a lot bigger than our last vehicle.
+027:28:04|T|CMP|... kept me busy, I'm ...
+027:28:08|T|CMP|Say again about the last -
+027:28:09|T|LMP|Yes. It sure is nice in here.
+027:28:12|T|CC|I said it's a lot bigger than the last vehicle that Buzz and I were in.
+027:28:16|T|CMP|Oh, yes. It's been nice. I've been very busy so far. I'm looking forward to taking the afternoon off. I've been cooking, and sweeping, and almost sewing, and you know, the usual little housekeeping things.
+027:28:30|T|CC|It was very convenient the way they put the food preparation system right next to the NAV station.
+027:28:41|T|CDR|Everything is right next to everything in this vehicle.
+027:28:47|T|LMP|Not where the waste management is concerned.
+027:28:52|T|CDR|Jim, it's been a little warm in the machine through - throughout yesterday and last night, during the PTC, it cooled off somewhat with the windows buttoned up, and we've seen suit temperatures of about - the high 40's and cabin temperatures in the low 60's. But this seems to be still a little bit on the warm side.
+027:29:28|T|CC|I understand that it got a little warm during the day and cooled down a little bit when you put the shades up, but you're still a little bit warm. Do you have any moisture condensation or anything like that on the walls?
+027:29:39|T|CDR|No, we haven't been able to detect any moisture anyplace in the spacecraft. It seems to be fine.
+027:29:48|T|LMP|One of the hydrogen filters - the one that we've got on the hot water - seems to keep flowing when you remove one of the food bags from it. Its flow rate is quite small, right near the end of one ounce, and that contributes a little bit of moisture to the atmosphere.
+027:30:13|T|CMP|Yes, that hydrogen thing, it's - I'm not sure, but I think it's a back-pressure problem. If the thing sees any back-pressure at all, like when the bag is attached, well the flow rate will slowly decrease to where it's almost zero, and you wait, and you wait, and you wait for that last ounce. You think you have its and you remove the bag, and then you very rapidly thereafter see maybe a glob the size of a dime or a quarter come out and just hang there. That appears to be true even though the opening into the bag is not restricted.
+027:30:49|T|CC|Understand.
+027:30:53|T|LMP|In general, I think they do quite a good job, especially on the gun, in removing a lot of the hydrogen bubbles.
+027:31:04|T|CC|Have the water temperatures been good? Are you getting hot water?
+027:31:11|T|LMP|Yes. It seems reasonably warm.
+027:31:15|T|CMP|We made three cups of coffee today. The last one - you know when all the plumbing was warmed up, the hydrogen gun and everything, was warmest of the three. I don't know who had that one - Neil, did you have that one? How was your coffee? You didn't drink it till later, did you? Anyway, it's pretty good. It's not piping hot, but it sure beats stone-cold coffee.
+027:31:47|T|CMP|Jim, we've been sitting here a little over 20 minutes now. How does the thruster firing activity look? Are you ready to go on with this PTC?
+027:31:55|T|CC|Roger. Stand by.
+027:31:59|T|CC|We're all set to go, Mike.
+027:32:02|T|CMP|Okay. I'll press on then.
+027:35:58|T|CMP|Houston, Apollo 11. PTC has started and it looks good.
+027:36:05|T|CC|11, Roger. This is Houston. Roger. Out.
+027:46:02|P|PAO|This is Apollo Control at 27 hours 46 minutes. Apollo 11's distance from the Earth is now 112,386 nautical miles, velocity 4,906 feet per second. We now have the actual numbers on the mid-course correction maneuver. Ignition time was 26 hours 44 minutes 57.92 seconds. Duration of the burn was 2.91 seconds. DELTA-V 20.9 feet per second.
+027:47:21|T|CC|Apollo 11, this is Houston. Over.
+027:47:25|T|CDR|Go ahead, Houston.
+027:47:27|T|CC|Roger. If you're free for a couple of minutes, we have a procedure here that will let us verify the O2 flow transducer and at the same time get some more of our cabin enrichment out of the way. Over.
+027:47:46|T|CDR|Stand by.
+027:48:36|T|CDR|Go ahead, Houston. We're ready to copy.
+027:48:39|T|CC|Roger. The primary purpose of this is, as I mentioned, to let us check out your O2 flow transducer. However, we still need about 2 hours' worth of cabin enrichment, so we'd like to keep the vent that we're going to set up going for this purpose. Okay. We want you to install the cabin vent quick disconnect which you'll find in compartment R-6, that is Romeo 6, on the urine connector on panel 251. When this is completed, verify that the waste stowage vent valve is closed, and then open or position the waste management overboard drain to the DUMP position. Over.
+027:49:36|T|CDR|Okay. Understand that. Install the cabin quick disconnect out of R-6 on the 251 urine connector and verify that the waste dump valve is closed, and say again the last part.
+027:49:59|T|CC|Roger. And then put the waste management overboard drain valve into the DUMP position. Over.
+027:50:13|T|CDR|Roger. Put the waste management overboard drain valve to the DUMP position.
+027:50:18|T|CC|Right. That's the one down on panel 251 also. And we'll watch your O2 flow on telemetry down here.
+027:52:48|T|CDR|Okay, Houston. That configuration is set up.
+027:52:55|T|CC|11, this is Houston. Say again, please.
+027:52:59|T|CDR|You do have the O2 flow transducer checkout setup accomplished.
+027:53:06|T|CC|Okay. Understand you have opened the drain valve at this time.
+027:53:11|T|CDR|That's affirm. It's in DUMP.
+027:53:15|T|CC|Roger. We're not getting telemetry data from you right due to low signal strength. There it comes back. I expect it'll probably take us anywhere from 15 minutes to half an hour to see an increase in O2 flow due to the size of the cabin and of course of the small size of the drain. Over.
+027:53:35|T|CDR|Roger.
+028:07:12|T|CMP|Houston, Apollo 11.
+028:07:15|T|CC|Go ahead, 11.
+028:07:19|T|CMP|Roger. I've got the world in my window for a change and looking at it through the monocular, it's really something. I wish I could describe it properly, but - The weather is very good. South America is coming around into view. I can see on the - what appears to me to be upper horizon, a point that must be just about Seattle, Washington, and from there I can see all the way down to the southern tip of Tierra del Fuego and the southern tip of the continent.
+028:07:54|T|CC|Roger. Sounds like you've got a beautiful view up there.
+028:07:59|T|CMP|Absolutely fantastic. I hope the pictures come out. We're rotating around where it's going out of view again.
+028:08:07|P|PAO|That's Mike Collins talking.
+028:08:08|T|LMP|I'm waiting to pick it up in the sextant.
+028:08:13|T|CC|Sounds like one of these rotating restaurants.
+028:08:56|P|PAO|And Bruce McCandless is back on the Capcom console now,
+028:30:32|T|CC|Apollo 11, this is Houston. Over.
+028:36:08|T|LMP|Houston, Apollo 11. Do you need some help keeping OMNI's locked on us?
+028:36:14|T|CC|Apollo 11, this is Houston. Negative. We had a command computer at the Madrid site go down. We had to switch over to Ascension temporarily. We're now back remoting through Madrid, and the computer is back, and we're ready to resume control of your OMNI's and full communication. Over.
+028:36:37|T|LMP|Okay. You've got it.
+028:36:39|T|CC|Okay. One thing that we did miss in the dropout in the noise here is your LM/CM DELTA-P reading for about 28 hours GET. Over.
+028:37:05|T|LMP|Okay. The LM/CM DELTA-P is 0.98.
+028:37:10|T|CC|Roger. 0.98, and what have you been reading for O2 flow on your onboard gage? Over.
+028:37:22|T|LMP|Well, right now, after we put that gadget in, we've got it back to 0.35. Before that, we were reading off-scale-low. I think ours is relatively correct, at least when time comes for the water accumulator to kick in at 10 seconds, it goes on up to about 0.75, 0.8, something like that.
+028:37:50|T|CC|This is Houston. Roger. Out.
+028:38:42|T|CC|And, 11, this is Houston. A little more information based on our analysis of your last SPS burn: it looks like you got a good solid burn there. We show 94 psi chamber pressure and it looks like the SPS is definitely GO. Over.
+028:39:05|T|LMP|Good to hear it.
+028:39:07|T|CC|Roger. We thought you'd feel that way about it.
+028:39:20|T|LMP|We're right in the middle of - well either ... drink, or salmon salad, or something like that. That's probably why we're not answering you right away.
+028:39:31|T|CC|Okay. Well, we don't want - -
+028:39:32|T|CMP|My compliments to the chef, that salad salmon is outstanding.
+028:39:40|T|CC|Roger. Understand that's the salad salmon. Over.
+028:39:48|T|CMP|Something like that, salmon salad.
+028:39:50|T|CC|There we go, okay, the salmon salad, very good.
+028:39:55|T|LMP|Okay. Bruce, we're coming up on the water accumulator activity, and it's going on up to 0.85, oh, about 0.95 and it reached a peak there and then gradually dropped back on down to 0.6 now, 0.4, and it looks like it's pretty well - pretty well leveling off back down to 0.35. Over.
+028:40:29|T|CC|Roger, We're copying that.
 028:40:56|P|PAO|At 28 hours 40 minutes, we're showing Apollo 11's distance as 114,922 nautical miles from Earth, velocity 4,819 feet per second. The crew is eating lunch at the present time, and it sounds like there's some music in the background that they are enjoying during their lunch period.
-028:41:27|T|CC|11, Houston.
-028:41:31|T|CDR|Go ahead.
-028:41:33|T|CC|Roger. On that O2 flow transducer down here on telemetry, our values are agreeing pretty well with what you read out onboard, and the EECOMM's have been noticing this cycle, but it still looks like the indicated rate is lower than what we would expect. We're still working on the problem, and we'll let you have a more complete diagnosis on it in a little while.
-028:42:04|T|LMP|Okay. It's a tight fix then.
-028:42:06|T|CMP|We run a tight ship.
-028:42:09|T|CC|(laughter) Roger. Is that music I hear in the background?
-028:42:16|T|CMP|Buzz in singing.
-028:42:18|T|CC|Okay.
-028:42:30|T|CMP|Pass me the sausage, man.
-029:00:04|P|PAO|This is Apollo Control at 29 hours into the mission. Apollo 11's distance from Earth is now 115,837 nautical miles, velocity 4,788 feet per second. Spacecraft weight 96,117 pounds.
-029:20:06|P|PAO|This is Apollo Control at 29 hours, 20 minutes. Apollo 11's distance from the Earth is now 116,747 nautical miles, velocity 4,758 feet per second. One of the clocks in the Control Center is now displaying the time to landing, the landing timing based on the time in the Flight Plan. It shows we're 73 hours, 26 minutes, 30 seconds from the lunar landing.
-029:32:09|T|CC|Apollo 11, this is Houston. Over.
+028:41:25|T|CC|11, Houston.
+028:41:29|T|CDR|Go ahead.
+028:41:31|T|CC|Roger. On that O2 flow transducer down here on telemetry, our values are agreeing pretty well with what you read out onboard, and the EECOMM's have been noticing this cycle, but it still looks like the indicated rate is lower than what we would expect. We're still working on the problem, and we'll let you have a more complete diagnosis on it in a little while.
+028:42:03|T|LMP|Okay. It's a tight fix then.
+028:42:05|T|CMP|We run a tight ship.
+028:42:08|T|CC|(laughter) Roger. Is that music I hear in the background?
+028:42:15|T|CMP|Buzz in singing.
+028:42:16|T|CC|Okay.
+028:42:29|T|CMP|Pass me the sausage, man.
+029:00:03|P|PAO|This is Apollo Control at 29 hours into the mission. Apollo 11's distance from Earth is now 115,837 nautical miles, velocity 4,788 feet per second. Spacecraft weight 96,117 pounds.
+029:20:05|P|PAO|This is Apollo Control at 29 hours, 20 minutes. Apollo 11's distance from the Earth is now 116,747 nautical miles, velocity 4,758 feet per second. One of the clocks in the Control Center is now displaying the time to landing, the landing timing based on the time in the Flight Plan. It shows we're 73 hours, 26 minutes, 30 seconds from the lunar landing.
+029:32:08|T|CC|Apollo 11, this is Houston. Over.
 029:32:13|T|LMP|Go ahead, Houston.
 029:32:14|T|CC|Roger, 11. We've been watching your activity on the DSKY there, and by selecting another major program with a VERB 37 ENTER and all that, we show you collapsing the deadband in PTC and having driven the CMC rate from 0.3 degrees per second down to 0 degrees per second, although of course, with all the AUTO RCS coils shut off, you're not firing any thrusters. Over.
 029:32:55|T|LMP|Okay. What do you recommend?
@@ -2550,7 +2551,7 @@
 029:33:21|T|CC|Okay.
 029:33:38|T|CDR|And, Houston, we're just looking at you out our window here. Looks like there's a circulation of clouds that just moved east of Houston over the Gulf and Florida area. Did that have any rain in it this morning?
 029:33:59|T|CC|Roger. Our report from outside says that it's raining out here, and looks like you've got a pretty good eye for the weather there.
-029:34:09|T|CDR|Yes. Well, it looks like it ought to clear up pretty soon from our viewpoint. The western edge of the weather isn't very far west of you.
+029:34:08|T|CDR|Yes. Well, it looks like it ought to clear up pretty soon from our viewpoint. The western edge of the weather isn't very far west of you.
 029:34:17|T|CC|Okay.
 029:34:20|P|PAO|That was Neil Armstrong.
 029:40:00|P|PAO|This is Apollo Control at 29 hours 40 minutes. Apollo 11's distance from Earth 117,682 nautical miles, velocity 4,726 feet per second.
