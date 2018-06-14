@@ -51,6 +51,7 @@
 053:52:05 - News to crew - Thor Heyerdahl - baseball - porridge eating championship
 054:54:07|T|CMP|Makes you almost glad to get master alarms.
 055:09:57 - TV
+055:11:19 - capcom loop - kranz "prefer the flight controllers use their consoles for looking at data"
 055:25:20|T|CMP|The only problem, Charlie, is these TV stagehands don't know where they stand.
 055:32:37 - Cernan in the MOCR
 055:47:16|T|CC|11, Houston. It's pretty hard to describe this view. It's really - really great.
@@ -58,6 +59,7 @@
 056:03:44|T|LMP|The restraints in here do a pretty good job of pulling my pants down.
 056:03:53|T|CC|Roger. We haven't quite got that before the 50,000,000 TV audience, yet.
 056:07:46 - Jack Schmitt in the MOCR
+056:34:47 - Collins "hello there Earthlings"
 056:38:06 - Is collins allowed in the LM
 056:42:41 - Neil sends best wishes to Scout jamboree
 057:25:07 - Moon cheese. hear background voices at MOCR
