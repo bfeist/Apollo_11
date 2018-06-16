@@ -5,6 +5,7 @@ import time
 import datetime
 import math
 
+
 def get_arg(index):
     try:
         sys.argv[index]
