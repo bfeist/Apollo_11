@@ -2798,19 +2798,19 @@
 033:38:46|T|CMP|Oh, that's very nice, Charlie. I'll tell Neil about it.
 033:41:08|P|PAO|This is Apollo Control at 33 hours, 41 minutes. We are going to be standing by here in Mission Control for the possibility that the crew would want to transmit that television pass early. The scheduled time for it was 6:47 Central Daylight Time and about 15 minutes was scheduled. That would be at a Ground Elapsed Time of 34 hours and we will have the system set up here in Mission Control to receive and release television should the crew decide to send us the transmission early.
 033:45:03|P|PAO|This is Apollo Control at 33 hours, 45 minutes and we do have a correction to the time given for the beginning of that TV nominally. The Flight Plan time is beginning at 34 hours to 34 hours, 15 minutes Ground Elapsed Time. The previous conversion of that, that we gave you for Central Daylight Time was in error, it should be 6:32pm Central Daylight Time beginning, assuming we start as the Flight Plan nominally has a transmission listed at 34 hours Ground Elapsed Time. At the present time, Apollo 11 is 128,431 nautical miles from Earth and the velocity continuing to drop off slowly, now reads 4,386 feet per second.
-033:47:54|T|CMP|Houston, Apollo 11. We've stopped PTC. We're in the right position; we're setting up for TV.
-033:48:00|T|CC|Roger.
-033:48:05|P|PAO|You've heard that comment from the crew. They've stopped their Passive Thermal Control, they're starting up the TV and we'll be standing by for - for a picture.
-033:52:28|T|CC|Apollo 11, Houston. We have you stopped in the PTC; attitude looks good to us. Mike, I would like to get a COMM check. The last couple of the transmissions from the spacecraft has been garbled from especially Buzz. Could you both give me a COMM check? Over.
-033:52:49|T|LMP|Roger, Charlie. Buzz here. How do you read? 1, 2, 3, 4, 5; 5, 4, 3, 2, 1.
-033:52:53|T|CC|Roger. You are about four-by with a slight decrease/increase in volume, sort of a wavy volume to it. Over.
-033:53:06|T|LMP|Okay. I moved my mike around. How about now? Is this any better?
-033:53:10|T|CC|Hey, that's beautiful right there. Thank you.
-033:53:14|T|CMP|Okay, Charlie. 1, 2, 3, 4, 5; 5, 4, 3, 2, 1. How do you read me?
-033:53:18|T|CC|Roger. You're five-by. Is Neil on?
-033:53:22|T|CDR|1, 2, 3, 4, 5; 5, 4, 3, 2, 1.
-033:53:25|T|CC|Roger, Neil. You're five-by.
-033:57:13|P|PAO|This is Apollo Control at 33 hours 57 minutes and we are less than 3 minutes now from the scheduled television transmission. From Apollo 11, we're continuing to standby for that. We have also been asked to advised that the Delta launch of INTELSAT III scheduled for Friday night at 10:00pm has been postponed for 24 hours. To repeat, the Delta launch of INTELSAT III scheduled for Friday night at 10:00pm has been postponed for 24 hours. Further details on that will be available in the News Center.
+033:47:54|P|PAO|You've heard that comment from the crew. They've stopped their Passive Thermal Control, they're starting up the TV and we'll be standing by for - for a picture.
+033:47:56|T|CMP|Houston, Apollo 11. We've stopped PTC. We're in the right position; we're setting up for TV.
+033:48:02|T|CC|Roger.
+033:52:30|T|CC|Apollo 11, Houston. We have you stopped in the PTC; attitude looks good to us. Mike, I would like to get a COMM check. The last couple of the transmissions from the spacecraft has been garbled from especially Buzz. Could you both give me a COMM check? Over.
+033:52:51|T|LMP|Roger, Charlie. Buzz here. How do you read? 1, 2, 3, 4, 5; 5, 4, 3, 2, 1.
+033:52:56|T|CC|Roger. You are about four-by with a slight decrease/increase in volume, sort of a wavy volume to it. Over.
+033:53:08|T|LMP|Okay. I moved my mike around. How about now? Is this any better?
+033:53:12|T|CC|Hey, that's beautiful right there. Thank you.
+033:53:16|T|CMP|Okay, Charlie. 1, 2, 3, 4, 5; 5, 4, 3, 2, 1. How do you read me?
+033:53:21|T|CC|Roger. You're five-by. Is Neil on?
+033:53:24|T|CDR|1, 2, 3, 4, 5; 5, 4, 3, 2, 1.
+033:53:27|T|CC|Roger, Neil. You're five-by.
+033:57:15|P|PAO|This is Apollo Control at 33 hours 57 minutes and we are less than 3 minutes now from the scheduled television transmission. From Apollo 11, we're continuing to standby for that. We have also been asked to advised that the Delta launch of INTELSAT III scheduled for Friday night at 10:00pm has been postponed for 24 hours. To repeat, the Delta launch of INTELSAT III scheduled for Friday night at 10:00pm has been postponed for 24 hours. Further details on that will be available in the News Center.
 033:59:08|T|CC|Hello, Apollo 11. Houston. We got the network all configured for the TV. You can start any time you want. Over.
 033:59:45|T|CC|Okay, 11. We have a picture. We see the Earth right in the center of the screen. Over.
 033:59:52|T|CDR|Roger, Houston. Apollo 11 calling in from about 130,000 miles out. And we'll zoom our camera in slowly and get the most magnification we can. Over.
@@ -2950,50 +2950,50 @@
 034:34:31|T|CC|11, Houston. Do you copy? Over.
 034:34:35|T|CDR|Roger. We copy, and as we pan back out to the distance at which we see the Earth, well, it's Apollo 11 signing off.
 034:34:49|T|CC|Roger, Apollo 11. Thank you much for the show. It's a real good half hour. Appreciate it. Thank you very much. Out.
-034:34:09|P|PAO|This is Apollo control. That TV transmission lasted about 35 minutes.
-034:35:12|T|CMP|Okay. That's it, Charlie.
-034:35:14|T|CC|11, Houston. We appreciate the show. Thank you very much. Over.
-034:35:18|T|CMP|Right.
-034:35:38|T|CC|Apollo 11, Houston. Would you key ERROR RESET on the DSKY, please? Over.
-034:35:49|T|CDR|Okay. We should be straightened out now, Charlie, and back in P00.
-034:36:33|T|CMP|Houston, Apollo 11. How do we stand on this O2 fuel cell purge? You want to go ahead and do that as scheduled in the Flight Plan?
-034:36:41|T|CC|Stand by, 11. Over.
-034:36:44|T|CMP|Okay.
-034:36:48|T|CC|11, Houston. You can commence the O2 fuel cell purge now if you'd like. Over.
-034:36:54|T|CMP|Okay. Fine.
-034:37:03|T|CMP|While Buzz is doing that, I'll change the lithium hydroxide.
-034:37:06|T|CC|Roger.
-034:41:33|T|CC|Hello, Apollo 11, Houston. Over.
-034:41:37|T|LMP|Go ahead, Houston. Apollo 11.
-034:41:39|T|CC|Roger, Buzz. The attitude that we're in right now is a convenient one to start PTC in. We'd be satisfied with this attitude. So we'd like you to disable quads Charlie and Delta; and we'll wait about 5 to 10 minutes, and than we'll establish the PTC. Over.
-034:42:00|T|LMP|Roger. Disable Charlie and Delta, and we'll wait before starting PTC.
-034:42:06|T|CC|Roger.
-034:44:21|T|KRANZ|Retro, you got your BLOCK data?
-034:46:08|P|PAO|This is Apollo Control at 34 hours, 46 minutes. Apollo 11 is presently 131,000 nautical miles from Earth, traveling at a speed of about 4,300 feet per second. During the TV transmission the crew advised that they may possibly be able to take the color television camera into the Lunar Module with them tomorrow at about 56 hours, 30 minutes, Ground Elapsed Time. They reported that the cables had been checked and are appeared to be long enough to take them into the Lunar Module. During the next hour or so the activity here in Mission Control will be revolving on, getting the crew set up for their rest period and eat period. This will be a very long rest period tonight, scheduled 10 hours. That will begin according to the Flight Plan, at about 37 hours, Ground Elapsed Time. However, we would anticipate if activities move along as they appear to be at this point, we are somewhat ahead of the Flight Plan, that perhaps again tonight we would be able to get the crew into their rest period and sleep period a little bit early. At 34 hours, 48 minutes, this is Apollo Control, Houston.
+034:35:20|P|PAO|This is Apollo control. That TV transmission lasted about 35 minutes.
+034:35:22|T|CMP|Okay. That's it, Charlie.
+034:35:24|T|CC|11, Houston. We appreciate the show. Thank you very much. Over.
+034:35:28|T|CMP|Right.
+034:35:48|T|CC|Apollo 11, Houston. Would you key ERROR RESET on the DSKY, please? Over.
+034:35:59|T|CDR|Okay. We should be straightened out now, Charlie, and back in P00.
+034:36:44|T|CMP|Houston, Apollo 11. How do we stand on this O2 fuel cell purge? You want to go ahead and do that as scheduled in the Flight Plan?
+034:36:51|T|CC|Stand by, 11. Over.
+034:36:54|T|CMP|Okay.
+034:36:58|T|CC|11, Houston. You can commence the O2 fuel cell purge now if you'd like. Over.
+034:37:04|T|CMP|Okay. Fine.
+034:37:12|T|CMP|While Buzz is doing that, I'll change the lithium hydroxide.
+034:37:16|T|CC|Roger.
+034:41:43|T|CC|Hello, Apollo 11, Houston. Over.
+034:41:47|T|LMP|Go ahead, Houston. Apollo 11.
+034:41:48|T|CC|Roger, Buzz. The attitude that we're in right now is a convenient one to start PTC in. We'd be satisfied with this attitude. So we'd like you to disable quads Charlie and Delta; and we'll wait about 5 to 10 minutes, and than we'll establish the PTC. Over.
+034:42:10|T|LMP|Roger. Disable Charlie and Delta, and we'll wait before starting PTC.
+034:42:16|T|CC|Roger.
+034:44:31|T|KRANZ|Retro, you got your BLOCK data?
+034:46:18|P|PAO|This is Apollo Control at 34 hours, 46 minutes. Apollo 11 is presently 131,000 nautical miles from Earth, traveling at a speed of about 4,300 feet per second. During the TV transmission the crew advised that they may possibly be able to take the color television camera into the Lunar Module with them tomorrow at about 56 hours, 30 minutes, Ground Elapsed Time. They reported that the cables had been checked and are appeared to be long enough to take them into the Lunar Module. During the next hour or so the activity here in Mission Control will be revolving on, getting the crew set up for their rest period and eat period. This will be a very long rest period tonight, scheduled 10 hours. That will begin according to the Flight Plan, at about 37 hours, Ground Elapsed Time. However, we would anticipate if activities move along as they appear to be at this point, we are somewhat ahead of the Flight Plan, that perhaps again tonight we would be able to get the crew into their rest period and sleep period a little bit early. At 34 hours, 48 minutes, this is Apollo Control, Houston.
 034:53:17|T|CC|Hello, Apollo 11, Houston. The rates are damped out well enough for you to initiate the PTC now. Over.
 034:53:26|T|LMP|Okay. We'll get it going.
 034:59:58|T|CMP|Houston, Apollo 11.
 035:00:03|T|CC|Roger. Go ahead.
-035:00:09|T|CMP|Roger. This time the DAP didn't like 0.3. It's - We followed the procedures; we got down to 70 000 ENTER. It took off at about 0.7.
+035:00:08|T|CMP|Roger. This time the DAP didn't like 0.3. It's - We followed the procedures; we got down to 70 000 ENTER. It took off at about 0.7.
 035:00:21|T|CC|Roger. We're copying that. Stand by.
 035:00:39|T|LMP|Houston, Apollo 11. Would you like high-gain back?
 035:00:43|T|CC|Roger. And you - Would you select ATTITUDE HOLD? Over.
 035:01:09|T|CDR|Houston. Would you say again what your request is?
-035:01:15|T|CC|Roger, 11. We'd like you to go back to ATTITUDE HOLD. Over.
+035:01:14|T|CC|Roger, 11. We'd like you to go back to ATTITUDE HOLD. Over.
 035:01:22|T|CDR|Roger.
 035:01:23|T|CC|11, Houston. Looks like we're going to have to reinitialate - reinitialize this PTC.
-035:01:31|T|CDR|All right.
+035:01:30|T|CDR|All right.
 035:01:41|T|CMP|Okay. Do you have any roll angle that you'd like to stop it in, Charlie? I haven't stopped it yet.
-035:01:48|T|CC|Stand by.
+035:01:47|T|CC|Stand by.
 035:01:55|T|CC|11, Houston. It's your preference. Right now if you want to. Over.
 035:02:02|T|CMP|Okay.
 035:07:47|T|CC|Apollo 11, Houston. Over.
-035:07:52|T|LMP|Houston, Apollo 11.
+035:07:51|T|LMP|Houston, Apollo 11.
 035:07:53|T|CC|Roger, 11. The problem on that initially - starting up the PTC was we failed to do the VERB 49 which - and load the desired initial attitude; so the DAP tried to take it back to the old attitude that we had started up in a number of hours to go. That's why we picked up the rates in the other axes. We're going to wait in this attitude for about 20 minutes to damp out the rates again, and than we'll proceed with the VERB 49 and load our attitude that we have at the time - at this time. Over.
 035:08:37|T|CMP|Okay. That sounds good, Charlie. When you get to the VERB 49, I'd like for you to give me the three gimbal angles that you want loaded.
 035:08:44|T|CC|Roger. We'll do. Over.
 035:08:48|T|CMP|Thank you.
-035:08:50|T|CC|And Apollo 11, Houston. We have your flyby PAD if you're ready to copy. Over.
+035:08:49|T|CC|And Apollo 11, Houston. We have your flyby PAD if you're ready to copy. Over.
 035:08:56|T|CMP|Stand by one.
 035:09:31|T|LMP|Houston, Apollo 11. Is that P30 PAD?
 035:09:33|T|CC|That's affirmative. Over.
@@ -3001,7 +3001,7 @@
 035:09:42|T|CC|All right, Buzz. It's - flyby is the purpose. SPS/G&N: 62815, plus 097, minus 020 070 54 5944, minus 00028, plus 00023, plus 00069 029 149 312, apogee is NA, plus 00221 00078 001 00034, sextant star 01 2185 227, boresight star is NA; NA NA. Latitude is minus 0265, minus 16500, 11899 36228, 144 56 47. In the comments: your set stars are Deneb and Vega, 007 144 068. No ullage. It's a docked burn using the PTC REFSMMAT. Stand by for your readback. Over.
 035:12:41|T|LMP|Okay. Would you give me GET of O.05g again, please?
 035:12:48|T|CC|Roger. 144 56 47. Over.
-035:12:58|T|LMP|Roger. Flyby SPS/G&N: 62815, plus 097, minus 020 070 54 5944, minus 00028, plus 00023, plus 00069, 269 149 312 NA, plus 00221 00078 001 00034, 01 2185 227 NA, minus 0265, minus 16500 11899 36228 144 56 47, Deneb and Vega, 007 144 068. No ullage; docked, PTC REFSMMAT. Over.
+035:12:57|T|LMP|Roger. Flyby SPS/G&N: 62815, plus 097, minus 020 070 54 5944, minus 00028, plus 00023, plus 00069, 269 149 312 NA, plus 00221 00078 001 00034, 01 2185 227 NA, minus 0265, minus 16500 11899 36228 144 56 47, Deneb and Vega, 007 144 068. No ullage; docked, PTC REFSMMAT. Over.
 035:13:10|P|PAO|This is Apollo Control at 35 hours, 13 minutes. Apollo 11 is presently about 93,265 nautical miles from the Moon and with respect to the Moon is traveling at a speed of about 4,019 feet per second. At this time we are receiving the tape play-back which Goldstone, the tracking site at Goldstone, California received from the spacecraft in that earlier unscheduled TV transmission. This was a test of the system using the spacecraft on the antennas, the small omni-directional antennas. Normally transmissions from this distance in space would be - would require the high-gain antenna. This television transmission is being processed and converted to color and we anticipate that we'll have it available for playback at about 9:00pm. We are in conversation with the spacecraft at this time. We'll pick up the tape recorded conversation that we have and then stand by to follow any live conversation.
 035:14:12|T|CC|Roger. Say again your roll angle, Buzz. I copy - I read 029. Over.
 035:14:21|T|LMP|Roger. 029.
@@ -3009,10 +3009,10 @@
 035:14:38|T|CMP|Houston, Apollo 11. On the 0.7 rate, the rate loaded into the DAP is 0.1 or 0.2.
 035:14:48|T|CC|11, Roger.
 035:17:46|T|CC|Hello, Apollo 11. Houston. Over.
-035:17:51|T|CMP|Houston, Apollo 11. Go.
+035:17:50|T|CMP|Houston, Apollo 11. Go.
 035:17:53|T|CC|Roger, Mike. Would you please copy down your VERB 16, NOUN 20 ICDU angles now, then execute a VERB 49 and load that - those angles, the NOUN 20 that you see on the DSKY into the VERB - into the NOUN 22 slot; and PRO on that, and that will start our 20-minute rate period. Over.
-035:18:19|T|CMP|Okay, Charlie. I'll do that right now in just a matter of interest. Those numbers are plus 04511, plus 09021, and plus 35984. Over.
-035:18:32|T|CC|Roger.
+035:18:18|T|CMP|Okay, Charlie. I'll do that right now in just a matter of interest. Those numbers are plus 04511, plus 09021, and plus 35984. Over.
+035:18:31|T|CC|Roger.
 035:20:13|T|CMP|Houston, Apollo 11. I've done that and, of course, I got an immediate 50 18. So I guess we're set up to proceed from here, and I'll start the 20-minute timer.
 035:20:20|T|CC|That's affirmative.
 035:20:44|T|CMP|Houston. I still question that 0.7 rate with 0.2 loaded into the DAP, though. Could you explain that one?
@@ -3107,8 +3107,8 @@
 036:09:33|T|LMP|Hey, you earned your pay today, Charlie. Thank you.
 036:09:39|T|CC|Roger. Good night all.
 036:10:30|P|PAO|This is Apollo Control at 36 hours 11 minutes. At the present time Apollo 11 is 134,000 nautical miles from Earth. The velocity is 4,216 feet per second. During that last series of transmissions from the crew, we received a status report from Buzz Aldrin and he reported that the crew has, in the past 24 hours, taken no medication. This is similar to the crew status report we received from them last night. We bid them good night at 36 hours 9 minutes or about 2 minutes ago. We anticipate that the crew will probably have a few more housekeeping type chores aboard the spacecraft before they actually turn in and also we'll probably be combining their eat period with the first part of that sleep period. At 36 hours 12 minutes into the flight of Apollo 11, this is Mission Control Houston.
-036:20:05|T|CC|Hello, Apollo 11. Houston. One request: the optics switch to zero. And we're - got a lot of theories on why it maneuvered at seven-tenths a moment ago, Mike, but no real definite answer. We'll be back with you later. Over.
-036:20:21|T|CMP|Okay. No rush, Charlie. Thank you.
+036:20:06|T|CC|Hello, Apollo 11. Houston. One request: the optics switch to zero. And we're - got a lot of theories on why it maneuvered at seven-tenths a moment ago, Mike, but no real definite answer. We'll be back with you later. Over.
+036:20:22|T|CMP|Okay. No rush, Charlie. Thank you.
 036:27:09|P|PAO|This is Apollo Control at 36 hours, 27 minutes. We have completed the processing of the unscheduled television transmission which the crew sent down from the spacecraft at about 30 hours, 24 minutes Ground Elapsed Time this evening. I would like to repeat that this was an apparent test of the onboard system. The crew turned the television equipment on and left it on for about 52 minutes. Some of the time we will have a picture of the parts of it, we don't have good lock-on, and I will not have a good solid picture. We should also point out that this transmission was made with the OMNI directional antennas, which, of course, don't provide nearly the signal strength that we would get from the high-gain antenna, which would be used. We'll play back the tape of that transmission for you at this time.
 036:52:06|T|CC|Hello, Apollo 11. Houston. Over.
 036:52:10|T|CMP|Houston, Apollo 11.
@@ -3119,11 +3119,11 @@
 038:26:02|P|PAO|This is Apollo Control at 38 hours 26 minutes. Here in Mission Control, we are presently going through the shift change. Flight Director, Glenn Lunney and his team of Flight Controllers are coming on to replace Gene Kranz. The Capsule Communicator on the upcoming shift will be astronaut Ron Evans. Flight Surgeon, John Ziegleschmidt reported that two of the 3 crewmen apparently began sleeping at about 38 hours Ground Elapsed Time or about 26 minutes ago, and the two that are asleep are Command Module Pilot, Mike Collins and Commander, Neil Armstrong. Lunar Module Pilot, Buzz Aldrin at last report was still awake. We expect the change-of-shift press briefing will occur at about 11:15 Central Daylight Time. At 38 hours 27 minutes this is Apollo Control, Houston.
 039:40:04|P|PAO|This is Apollo Control, 39 hours 40 minutes Ground Elapsed Time. Apollo 11 crew at this time all three soundly asleep. The space digitals display - stand by. The space digitals display here in Mission Control now showing 82,905 nautical miles out from the Moon. Velocity 3,897 feet per second relative to the Moon. Awake time 7 hours 19 minutes away. Spacecraft presently over the west-central Pacific, if a line were projected back toward its nearest point on Earth. And at 39 hours 41 Ground Elapsed Time, this is Apollo Control.
 040:58:04|P|PAO|This is Apollo control 40 hours 58 minutes Ground Elapsed Time. Apollo 11 presently 146,300 nautical miles out from Earth. Velocity 3,917 feet per second. 6 hours, 1 minute remaining in the sleep period - the ten hour sleep period schedule in the Flight Plan. Rather quiet here during the night watch or the Black Team which tonight is being headed up by Flight Director, Jerry Griffin who is spelling the usual Black Team Flight Director, Gene (sic) Lunney. One clock here in Mission Control shows landing time 61 hours 48 minutes from now. This is similar to the entry clock which the - is used in the same position in the Control Room toward the end of a mission, will be refined continuously as we get down to the gnats hair of the exact second of landing. At 40 hours 59 minutes Ground Elapsed Time, this is Apollo control.
-042:28:04|P|PAO|This is Apollo Control. 42 hours, 28 minutes Ground Elapsed Time. The crew of Apollo 11 still asleep at this time; some 4 hours 30 minutes remaining in the scheduled 10 hour sleep period. Altitude now, from the Moon 76,529 nautical miles. Velocity from the Moon - or toward the Moon, 3,842 feet per second relative to the Moon, that is.  And, at 42 hours, 28 minutes, this is Apollo Control.
-043:29:13|P|PAO|This is Apollo Control. 43 hours, 29 minutes Ground Elapsed Time. Apollo 11 presently on a spot directly above or directly out from the Malay Peninsula. Some 3 hours 30 minutes remaining in the scheduled 10 hour sleep period for the crew. And if the space digital display were up here at the time coming out of the computer we would know what the distance and velocity were. So, at 43 hours, 29 minutes Ground Elapsed Time, this is Apollo Control.
-044:28:11|P|PAO|This is Apollo Control, 44 hours, 28 minutes Ground Elapsed Time. Apollo 11 crew has another 2 hours, 31 minutes remaining in their 10 hour sleep period. The spacecraft is now some 72,010 nautical miles out from the Moon. Velocity continuing to decelerate as we get nearer the changeover point in influence between the Earth and the Moon. Velocity now showing 3,811 feet per second. The spacecraft now calculated to weigh 96,068 pounds. At 44 hours, 29 minutes Ground Elapsed Time, this is Apollo Control.
-045:28:05|P|PAO|This is Apollo Control, 45 hours 28 minutes Ground Elapsed Time. A little more than an hour remaining in the Apollo 11 crew sleep period. Present velocity, 3,799 feet per second. Distance from Moon, 69,810 nautical miles. Apollo 11 will continue decelerating as it gets to the point where the Moon's sphere of influence overcomes the Earth's sphere of influence. This point will take place - This event will take place at 61 hours 39 minutes and 57 seconds Ground Elapsed Time, according to the Flight Dynamics Officer. At this point, the spacecraft-to-Moon distance will be 33,822 nautical miles, spacecraft-to-Earth distance, 186,437 nautical miles. The velocity will have slowed to a relative crawl at this point. The Earth referenced 2,990 feet per second, Moon referenced 3,772 feet per second. Clock counting down to lunar touchdown, which as mentioned before, will likely be changed as the spacecraft goes into lunar orbit and the data is refined, some of the times change a few seconds one way or the other. At any rate, the landing clock now showing 57 hours 17 minutes until lunar landing. At 45 hours 30 minutes Ground Elapsed Time, this is Apollo Control.
-046:28:14|P|PAO|This is Apollo control 46 hours 28 minutes Ground Elapsed Time. A little more than a half hour remaining in the crew sleep period. Members of the Green Team of Flight Controllers headed up by prime Flight Director, Cliff Charlesworth are coming into the Control Room at this time, and at each console, a handover is taking place from the black watch. At the time - at the present time, the Apollo 11 spacecraft is 67,518 nautical miles out from the Moon traveling at a velocity of 3,787 feet per second. Apollo 11 presently is being tracked by the Madrid S-band station, and at 46 hours 29 minutes Ground Elapsed Time, this is Apollo Control.
+042:28:00|P|PAO|This is Apollo Control. 42 hours, 28 minutes Ground Elapsed Time. The crew of Apollo 11 still asleep at this time; some 4 hours 30 minutes remaining in the scheduled 10 hour sleep period. Altitude now, from the Moon 76,529 nautical miles. Velocity from the Moon - or toward the Moon, 3,842 feet per second relative to the Moon, that is.  And, at 42 hours, 28 minutes, this is Apollo Control.
+043:29:00|P|PAO|This is Apollo Control. 43 hours, 29 minutes Ground Elapsed Time. Apollo 11 presently on a spot directly above or directly out from the Malay Peninsula. Some 3 hours 30 minutes remaining in the scheduled 10 hour sleep period for the crew. And if the space digital display were up here at the time coming out of the computer we would know what the distance and velocity were. So, at 43 hours, 29 minutes Ground Elapsed Time, this is Apollo Control.
+044:28:02|P|PAO|This is Apollo Control, 44 hours, 28 minutes Ground Elapsed Time. Apollo 11 crew has another 2 hours, 31 minutes remaining in their 10 hour sleep period. The spacecraft is now some 72,010 nautical miles out from the Moon. Velocity continuing to decelerate as we get nearer the changeover point in influence between the Earth and the Moon. Velocity now showing 3,811 feet per second. The spacecraft now calculated to weigh 96,068 pounds. At 44 hours, 29 minutes Ground Elapsed Time, this is Apollo Control.
+045:28:00|P|PAO|This is Apollo Control, 45 hours 28 minutes Ground Elapsed Time. A little more than an hour remaining in the Apollo 11 crew sleep period. Present velocity, 3,799 feet per second. Distance from Moon, 69,810 nautical miles. Apollo 11 will continue decelerating as it gets to the point where the Moon's sphere of influence overcomes the Earth's sphere of influence. This point will take place - This event will take place at 61 hours 39 minutes and 57 seconds Ground Elapsed Time, according to the Flight Dynamics Officer. At this point, the spacecraft-to-Moon distance will be 33,822 nautical miles, spacecraft-to-Earth distance, 186,437 nautical miles. The velocity will have slowed to a relative crawl at this point. The Earth referenced 2,990 feet per second, Moon referenced 3,772 feet per second. Clock counting down to lunar touchdown, which as mentioned before, will likely be changed as the spacecraft goes into lunar orbit and the data is refined, some of the times change a few seconds one way or the other. At any rate, the landing clock now showing 57 hours 17 minutes until lunar landing. At 45 hours 30 minutes Ground Elapsed Time, this is Apollo Control.
+046:28:00|P|PAO|This is Apollo control 46 hours 28 minutes Ground Elapsed Time. A little more than a half hour remaining in the crew sleep period. Members of the Green Team of Flight Controllers headed up by prime Flight Director, Cliff Charlesworth are coming into the Control Room at this time, and at each console, a handover is taking place from the black watch. At the time - at the present time, the Apollo 11 spacecraft is 67,518 nautical miles out from the Moon traveling at a velocity of 3,787 feet per second. Apollo 11 presently is being tracked by the Madrid S-band station, and at 46 hours 29 minutes Ground Elapsed Time, this is Apollo Control.
 046:58:25|P|PAO|This is Apollo Control at 46 hours, 58 minutes into the mission. The Green Team led by Flight Director, Cliff Charlesworth has just relieved Glen Lunney's Black Team. The Flight Surgeon, Dr. Willard Hawkins indicates the crew appears to be still asleep. We're nearing the end of the scheduled rest period. Cliff Charlesworth indicates we will put in a call to the crew within a few minutes. Apollo 11 is 158,681 nautical miles from Earth. Velocity 3,578 feet per second. Spacecraft weight is 96,068 pounds.
 047:03:00|P|PAO|This is Apollo Control at 47 hours, 3 minutes. Cliff Charlesworth has decided to let the crew sleep a little longer. He's just had a conversation with the Flight Surgeon. Dr. Hawkins reports all indications are that the crew is sleeping soundly. The Flight Plan does not warrant awaking them just to get them up. There's no - nothing in the Flight Plan that requires their attention at the present time, so the Flight Director has made a decision to not put in a call to the crew and wake them. Flight surgeon says that a look at the data throughout the night indicates that the crew slept rather well all night.
 047:41:27|P|PAO|This is Apollo Control at 47 hours 41 minutes into the mission. From all indications the crew is still asleep. We're 41 minutes past the end of the scheduled 10-hour rest period now. Flight Director, Cliff Charlesworth has decided to let the crew remain asleep and not awaken them from the ground. There is no need to awaken them; nothing scheduled in the Flight Plan that requires their attention at this time. Apollo 11 is 160,137 nautical miles from Earth, velocity 3,544 feet per second.
