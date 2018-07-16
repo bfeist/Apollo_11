@@ -3145,50 +3145,50 @@
 048:10:55|T|CC|Yes. Ron's getting to be known as the silent Capcom.
 048:11:03|T|CMP|That's the best kind, Bruce.
 048:11:05|T|CC|(Laughter) Okay.
-048:11:41|T|CC|When you feel up to copying, 11, I've got a couple of small items in the way of a Flight Plan update and your morning consumables update. Over.
-048:12:14|T|LMP|Apollo 11.
-048:12:17|T|CC|Roger, 11. We'd like to perform a wastewater dump at your convenience some time in the near future here. No particular time scheduled. Down there at the time for mid-course correction 3, which is about 53 55, we're deleting mid-course correction number 3 and all the items associated with it. For your information, the calculated value of the burn for mid-course number 3 was eight tenths of a foot per second, that is 0.8 feet per second. Canceling this, if we decide to burn mid-course correction 4, this would then give you a burn for mid-course correction 4 of 2.0 feet per second. At 53 hours we have an IMU realign P52. We're requesting that you do this while in PTC, and we plan to continue PTC throughout the day. Over.
-048:13:51|T|LMP|- then we'll get to the wastewater dump - -
-048:13:56|T|CC|Say again, please. You're cutting out.
-048:14:03|T|LMP|Roger. ... - -
-048:14:25|T|CC|11, this is Houston. Stand by a minute, please. We're having difficulty receiving you.
-048:15:11|T|CC|Apollo 11, this is Houston. Radio check. Over.
-048:15:16|T|LMP|Roger, Houston. Read you loud and clear. How me? Over.
-048:15:19|T|CC|Roger. Reading you the same. We did a minor reconfiguration down here. Stand by. Out.
-048:15:33|P|PAO|This is Apollo Control. That first conversation was with Buzz Aldrin and Mike Collins joined in. We've not yet heard from Neil Armstrong.
-048:16:36|T|CC|Okay, 11. This is Houston. We switched your OMNI antennas as you rolled through the appropriate position. Did you copy the Flight Plan update item?
-048:17:06|T|CC|Apollo 11, this is Houston. Over
-048:17:14|T|LMP|Apollo 11, go ahead.
-048:17:16|T|CC|Roger, 11. Did you copy the Flight Plan update items? Over.
-048:17:22|T|LMP|Roger. How do you read me now, Bruce?
-048:17:24|T|CC|Loud and clear, now. 
-048:17:28|T|LMP|Okay. The battery charge is in the process now and the wastewater dump is in work. MCC 3 has been canceled. It would have been 0.8 feet per second. MCC 4 now looks like about 2.4 feet per second. At around 53 hours we'll do a P52 in PTC. Over.
-048:17:55|T|CC|Roger, 11. The magnitudes of the mid-course corrections were just for your information, but mid-course 4 was down around 2.0 feet per second. Again, for your information, on SPS chamber pressure, it looks like your onboard readout of 87 psi corresponds to 92 psi by our telemetry, and your value of 89 onboard corresponds to 94. Over.
-048:18:53|T|CC|Apollo 11, Houston. Radio check on a new power amplifier in our transmitter. Over.
-048:19:01|T|LMP|Roger. Read you loud and clear. How me? Over.
-048:19:04|T|CC|Roger. Loud and clear. Did you copy my notes on SPS chamber pressure?
-048:19:11|T|LMP|Negative.
-048:19:12|T|CC|Okay. Just for your information again, it appears that your readout of 87 psi corresponds to our corrected TM readout of 92 - that's 92 psi, and 89 onboard is really 94 psi. Over.
-048:19:48|T|LMP|Roger, I got that you were reading about 5 psi low.
-048:19:52|T|CC|Roger. And are you ready for the consumables update?
-048:19:59|T|LMP|Ready to copy.
-048:20:01|T|CC|Okay. Consumables update for GET of 46 plus 00: minus 5.5 percent, minus 6.5 percent, minus 2.5 percent, minus 7.5 percent, minus 5.0 percent, minus 2 pounds hydrogen, plus 1 pound oxygen, and that minus 5.5 percent on the RCS total corresponds to minus 66 pounds. Over.
-048:20:53|T|LMP|Okay. I copy those, and I'll give you our percentages now: Alpha 82, Bravo 84, Cocoa 85, Delta 87. Over.
-048:21:06|T|CC|This is Houston. We copy your percentages, and do you have a crew status report on sleep For us?
-048:21:24|T|LMP|Roger. And in descending order 8, 9, and 8. Over.
-048:21:30|T|CC|Houston. Roger. Out.
-048:22:00|P|PAO|That would be Armstrong 8, Collins 9, Aldrin 8.
-048:22:53|T|LMP|Houston, we're getting CRYO pressure warning now in the middle of stirring up the ...
-048:23:02|T|CC|Roger. We copy.
-048:23:43|P|PAO|This is Apollo Control. The Flight Surgeon reports that is not a record for sleep. The Apollo 10 crew during one rest period logged 10 hours of sleep.
-048:32:35|T|LMP|Houston, Apollo 11. We've got the continent of Africa ... facing toward us right now, and of course, everything's getting smaller and smaller as time goes on. The Mediterranean is completely clear. The Sun looks like it's about to set around Madagascar. The equatorial belt of Africa stands out quite clearly. We're seeing the dark green or a muddy-colored green, compared to the sandier colors in the southern tip of Africa and, of course, the Sahara northern coast of Africa. There's a rather remarkable cloud that appears in the vicinity of the border between Afghanistan and Pakistan. It's just about to go into the sunset now. It is casting quite a large shadow. It's isolated. There don't seem to be any other clouds ... the band of clouds near the tropical conversions clouds down around the equator clearly separate the clockwise and the counterclockwise cloud formations. Over.
-048:33:57|T|CC|Roger, 11. We copy your weather description on that. I understand you can see a shadow being cast by that cloud over between Afghanistan and Pakistan. Any estimate on how long that shadow would be? Over.
-048:34:18|T|LMP|It looks like it's a shadow. Coming around to ... background noise ...
-048:34:32|T|CC|We're getting a lot of background noise now, also. If you will stand by a minute or so until we roll a little further in PTC, I think things will get better.
-048:34:44|T|LMP|Okay. It's coming around to the number 1 window. We'll get you ...
-048:34:49|T|CC|Roger, we're hearing you.
-048:35:00|P|PAO|That's Buzz Aldrin with the description.
-048:37:01|T|CC|11, this is Houston. The noise on the COMM seems to have quieted down now. I guess that we've rotated a new antenna into view and probably also the Earth out of view in your window. Over.
+048:11:41|T|CC|And, when you feel up to copying, 11, I've got a couple of small items in the way of a Flight Plan update and your morning consumables update. Over.
+048:12:15|T|LMP|Apollo 11.
+048:12:18|T|CC|Roger, 11. We'd like to perform a wastewater dump at your convenience some time in the near future here. No particular time scheduled. Down there at the time for mid-course correction 3, which is about 53 55, we're deleting mid-course correction number 3 and all the items associated with it. For your information, the calculated value of the burn for mid-course number 3 was eight tenths of a foot per second, that is 0.8 feet per second. Canceling this, if we decide to burn mid-course correction 4, this would then give you a burn for mid-course correction 4 of 2.0 feet per second. At 53 hours we have an IMU realign P52. We're requesting that you do this while in PTC, and we plan to continue PTC throughout the day. Over.
+048:13:52|T|LMP|- then we'll get to the wastewater dump - -
+048:13:57|T|CC|Say again, please. You're cutting out.
+048:14:04|T|LMP|Roger. ... - -
+048:14:26|T|CC|11, this is Houston. Stand by a minute, please. We're having difficulty receiving you.
+048:15:12|T|CC|Apollo 11, this is Houston. Radio check. Over.
+048:15:17|T|LMP|Roger, Houston. Read you loud and clear. How me? Over.
+048:15:20|T|CC|Roger. Reading you the same. We did a minor reconfiguration down here. Stand by. Out.
+048:15:34|P|PAO|This is Apollo Control. That first conversation was with Buzz Aldrin and Mike Collins joined in. We've not yet heard from Neil Armstrong.
+048:16:37|T|CC|Okay, 11. This is Houston. We switched your OMNI antennas as you rolled through the appropriate position. Did you copy the Flight Plan update item?
+048:17:07|T|CC|Apollo 11, this is Houston. Over
+048:17:15|T|LMP|Apollo 11, go ahead.
+048:17:17|T|CC|Roger, 11. Did you copy the Flight Plan update items? Over.
+048:17:23|T|LMP|Roger. How do you read me now, Bruce?
+048:17:25|T|CC|Loud and clear, now. 
+048:17:29|T|LMP|Okay. The battery charge is in the process now and the wastewater dump is in work. MCC 3 has been canceled. It would have been 0.8 feet per second. MCC 4 now looks like about 2.4 feet per second. At around 53 hours we'll do a P52 in PTC. Over.
+048:17:56|T|CC|Roger, 11. The magnitudes of the mid-course corrections were just for your information, but mid-course 4 was down around 2.0 feet per second. Again, for your information, on SPS chamber pressure, it looks like your onboard readout of 87 psi corresponds to 92 psi by our telemetry, and your value of 89 onboard corresponds to 94. Over.
+048:18:54|T|CC|Apollo 11, Houston. Radio check on a new power amplifier in our transmitter. Over.
+048:19:02|T|LMP|Roger. Read you loud and clear. How me? Over.
+048:19:05|T|CC|Roger. Loud and clear. Did you copy my notes on SPS chamber pressure?
+048:19:12|T|LMP|Negative.
+048:19:13|T|CC|Okay. Just for your information again, it appears that your readout of 87 psi corresponds to our corrected TM readout of 92 - that's 92 psi, and 89 onboard is really 94 psi. Over.
+048:19:49|T|LMP|Roger, I got that you were reading about 5 psi low.
+048:19:53|T|CC|Roger. And are you ready for the consumables update?
+048:20:00|T|LMP|Ready to copy.
+048:20:02|T|CC|Okay. Consumables update for GET of 46 plus 00: minus 5.5 percent, minus 6.5 percent, minus 2.5 percent, minus 7.5 percent, minus 5.0 percent, minus 2 pounds hydrogen, plus 1 pound oxygen, and that minus 5.5 percent on the RCS total corresponds to minus 66 pounds. Over.
+048:20:54|T|LMP|Okay. I copy those, and I'll give you our percentages now: Alpha 82, Bravo 84, Cocoa 85, Delta 87. Over.
+048:21:07|T|CC|This is Houston. We copy your percentages, and do you have a crew status report on sleep For us?
+048:21:25|T|LMP|Roger. And in descending order 8, 9, and 8. Over.
+048:21:31|T|CC|Houston. Roger. Out.
+048:22:01|P|PAO|That would be Armstrong 8, Collins 9, Aldrin 8.
+048:22:54|T|LMP|Houston, we're getting CRYO pressure warning now in the middle of stirring up the ...
+048:23:03|T|CC|Roger. We copy.
+048:23:44|P|PAO|This is Apollo Control. The Flight Surgeon reports that is not a record for sleep. The Apollo 10 crew during one rest period logged 10 hours of sleep.
+048:32:36|T|LMP|Houston, Apollo 11. We've got the continent of Africa ... facing toward us right now, and of course, everything's getting smaller and smaller as time goes on. The Mediterranean is completely clear. The Sun looks like it's about to set around Madagascar. The equatorial belt of Africa stands out quite clearly. We're seeing the dark green or a muddy-colored green, compared to the sandier colors in the southern tip of Africa and, of course, the Sahara northern coast of Africa. There's a rather remarkable cloud that appears in the vicinity of the border between Afghanistan and Pakistan. It's just about to go into the sunset now. It is casting quite a large shadow. It's isolated. There don't seem to be any other clouds ... the band of clouds near the tropical conversions clouds down around the equator clearly separate the clockwise and the counterclockwise cloud formations. Over.
+048:33:58|T|CC|Roger, 11. We copy your weather description on that. I understand you can see a shadow being cast by that cloud over between Afghanistan and Pakistan. Any estimate on how long that shadow would be? Over.
+048:34:19|T|LMP|It looks like it's a shadow. Coming around to ... background noise ...
+048:34:33|T|CC|We're getting a lot of background noise now, also. If you will stand by a minute or so until we roll a little further in PTC, I think things will get better.
+048:34:45|T|LMP|Okay. It's coming around to the number 1 window. We'll get you ...
+048:34:50|T|CC|Roger, we're hearing you.
+048:35:01|P|PAO|That's Buzz Aldrin with the description.
+048:37:02|T|CC|11, this is Houston. The noise on the COMM seems to have quieted down now. I guess that we've rotated a new antenna into view and probably also the Earth out of view in your window. Over.
 048:37:17|T|LMP|Okay. It looks as though the length of the shadow of that cloud is about the same as the width of the Persian Gulf.
 048:37:26|T|CC|Okay. We copy the width of the Persian Gulf, and I guess that all I can give you firsthand is a single isolated data point, and that is that it was clear here in Houston this morning. That's a pretty localized observation. As a result of your wastewater dump, it looks like the PTC mode has been disturbed somewhat. We're showing you about 20 degrees out in pitch right now and about 6 degrees in yaw, which is significantly greater, about twice as much - a little more than twice as much as the deviation you had prior to the wastewater dump. We're watching it down here, though, and we'll let you know if we think any corrective action is required. Over.
 048:38:14|T|LMP|Okay. Maybe we ought to - next time split that in half, and put half of it on one side and half on the other or something like that.
@@ -3223,45 +3223,45 @@
 048:57:36|T|CC|Roger.
 048:57:41|T|CMP|The Sun bounces off the LM structure. With the LM attached, that telescope is just about useless. Those star charts that MPAD provided us, I think, would be most useful if we had to use the - if for some reason we had to mark through the telescope. We could use those as a guide for what we're looking at and say, "Well, that bright blob over there has got to be that star because that's the position we're in." But so far, we've not been able to pick out any decent star patterns while docked with the LM using the telescope.
 048:58:13|T|CC|This is Houston. We copy.
-049:07:24|P|PAO|This is Apollo Control at 49 hours 7 minutes into the mission. Apollo 11 is 163,040 miles from Earth, velocity 3,476 feet per second.
+049:07:23|P|PAO|This is Apollo Control at 49 hours 7 minutes into the mission. Apollo 11 is 163,040 miles from Earth, velocity 3,476 feet per second.
 049:40:42|T|LMP|Houston, Apollo 11.
-049:41:11|T|LMP|Houston, Apollo 11. Over.
-049:41:14|T|CC|Go ahead, Apollo 11.
-049:41:23|T|CC|Apollo 11, this is Houston. Go ahead - -
-049:41:24|T|LMP|- - How do your read? Over.
-049:41:26|T|CC|Roger. We're reading you loud and clear.
-049:41:28|T|LMP|Roger. Roger. You're coming back a little scratchy. It,looks like our O2 flow transducer's gotten a good bit worse. I just looked at it at the last water accumulator cycling, and it just barely registered - barely crept up above 0.2. Over.
-049:41:49|T|CC|Roger.
-049:42:45|T|CC|11, this is Houston. At the time of your cyclic accumulator stroking, we were on low-bit-rate data, and consequently not receiving the O2 flow parameter. We expect that what you're seeing is probably nominal. That is, it's probably what we would expect from a transducer that's malfunctioning in this fashion. It's probably just going to keep on getting worse like that. Nothing to worry about. We'll monitor things on the ground here. Over.
-049:43:21|T|LMP|Okay. It does look like it's gradually degrading to about zilch.
-049:43:28|T|CC|Roger. We copy.
-049:52:55|P|PAO|This is Apollo Control at 49 hours, 52 minutes. Apollo 11's distance from Earth is 164,558 nautical miles. It's velocity is 3441 feet per second.
-050:16:53|P|PAO|This is Apollo Control at 50 hours 16 minutes. Apollo 11 is now 165,346 nautical miles from Earth, traveling at a velocity of 3,423 feet per second. Flight Controllers report all systems well within the normal range and operating very satisfactorily.
-050:40:50|P|PAO|This is Apollo Control at 50 hours, 40 minutes. Apollo 11 is 166,135 miles from Earth. The Capcom is going to take a radio check here, I think, with the crew.
-050:41:06|T|CC|Apollo 11 CDR, this is Houston. Radio check. Over.
-050:41:13|T|CDR|Roger, Houston. CDR. Loud and clear.
-050:41:16|T|CC|Roger. We're reading you the same. Out.
-050:41:21|T|CDR|And would you check with FAO and see where that errata sheet is? We haven't been able to locate that.
-050:41:30|T|CC|Roger. I understand it's supposed to be the back page in Buzz's operational checklist.
-050:41:40|T|CDR|Okay.
-050:41:44|P|PAO|FAO is the Flight Activities Officer.
-050:42:06|P|PAO|Apollo 11's velocity is 3,404 feet per second. Spacecraft's still in the Passive Thermal Control mode rotating at 0.3 of a degree per second or 3 revolutions per hour. Sporadic bursts of static that you hear on the air-ground is caused by the rotation of the spacecraft, the changing the orientation of the antennas as the spacecraft slowly rotates to maintain thermal balance.
-050:43:16|P|PAO|The back-up Lunar Module Pilot, Fred Haise is at the Capcom console with Bruce McCandless.
-050:44:47|P|PAO|That radio check was with the Apollo 11 Commander, Neil Armstrong.
-050:53:10|P|PAO|This is Apollo Control at 50 hours, 53 minutes into the mission. An important news release will be available in the Apollo News Center at 11:45 Central Daylight Time this morning. At noon, Colonel, Frank Borman will be in the building 1 auditorium at MSC for a briefing concerning the news release. Repeating, an important news release will be available at 11:45am  Central Daylight Time in the Apollo news center at MSC.
-051:07:26|P|PAO|This is Apollo Control at 51 hours, 7 minutes. Apollo 7 - Apollo 11's distance is 167,007 nautical miles from Earth. Velocity 3,386 feet per second.
-051:09:21|T|CC|Apollo 11, this is Houston. Did you find it? Over.
-051:09:28|T|LMP|Roger. We found it.
-051:09:31|T|CC|Roger. And I see you're in P00. If you can give us ACCEPT, we'll uplink a new state vector to you and update the CMC clock. Over.
-051:09:45|T|LMP|Okay. You've got it.
-051:09:48|T|CC|Roger.
-051:12:51|T|CC|11, this is Houston. We're through with the uplink. You can go back to BLOCK.
-051:13:00|T|LMP|Roger. Back to BLOCK.
-051:16:37|T|CC|Apollo 11, this is Houston. We would like to terminate the charge on battery B at GET of 51:30. Over.
-051:18:11|T|CC|Apollo 11, this is Houston. We'd like to terminate charging battery Bravo at 51:30 GET. Over.
-051:18:25|T|LMP|Roger. Terminate charging battery Bravo 51:30.
-051:18:30|T|CC|Roger. Out.
-051:24:20|P|PAO|This is Apollo Control at 51 hours 25 minutes into the mission. Apollo 11 is 167,594 nautical miles from Earth, moving toward the Moon at a velocity of 3,373 feet per second. All systems are normal. We will be utilizing this release line for the Colonel, Frank Borman briefing. During that briefing we will tape any air-ground transmissions and play them back after the briefing. This is Mission Control Houston.
+049:41:07|T|LMP|Houston, Apollo 11. Over.
+049:41:10|T|CC|Go ahead, Apollo 11.
+049:41:19|T|CC|Apollo 11, this is Houston. Go ahead - -
+049:41:20|T|LMP|- - How do your read? Over.
+049:41:22|T|CC|Roger. We're reading you loud and clear.
+049:41:24|T|LMP|Roger. Roger. You're coming back a little scratchy. It,looks like our O2 flow transducer's gotten a good bit worse. I just looked at it at the last water accumulator cycling, and it just barely registered - barely crept up above 0.2. Over.
+049:41:45|T|CC|Roger.
+049:42:41|T|CC|11, this is Houston. At the time of your cyclic accumulator stroking, we were on low-bit-rate data, and consequently not receiving the O2 flow parameter. We expect that what you're seeing is probably nominal. That is, it's probably what we would expect from a transducer that's malfunctioning in this fashion. It's probably just going to keep on getting worse like that. Nothing to worry about. We'll monitor things on the ground here. Over.
+049:43:17|T|LMP|Okay. It does look like it's gradually degrading to about zilch.
+049:43:24|T|CC|Roger. We copy.
+049:52:51|P|PAO|This is Apollo Control at 49 hours, 52 minutes. Apollo 11's distance from Earth is 164,558 nautical miles. It's velocity is 3441 feet per second.
+050:16:47|P|PAO|This is Apollo Control at 50 hours 16 minutes. Apollo 11 is now 165,346 nautical miles from Earth, traveling at a velocity of 3,423 feet per second. Flight Controllers report all systems well within the normal range and operating very satisfactorily.
+050:40:43|P|PAO|This is Apollo Control at 50 hours, 40 minutes. Apollo 11 is 166,135 miles from Earth. The Capcom is going to take a radio check here, I think, with the crew.
+050:41:00|T|CC|Apollo 11 CDR, this is Houston. Radio check. Over.
+050:41:07|T|CDR|Roger, Houston. CDR. Loud and clear.
+050:41:10|T|CC|Roger. We're reading you the same. Out.
+050:41:15|T|CDR|And would you check with FAO and see where that errata sheet is? We haven't been able to locate that.
+050:41:24|T|CC|Roger. I understand it's supposed to be the back page in Buzz's operational checklist.
+050:41:34|T|CDR|Okay.
+050:41:38|P|PAO|FAO is the Flight Activities Officer.
+050:42:00|P|PAO|Apollo 11's velocity is 3,404 feet per second. Spacecraft's still in the Passive Thermal Control mode rotating at 0.3 of a degree per second or 3 revolutions per hour. Sporadic bursts of static that you hear on the air-ground is caused by the rotation of the spacecraft, the changing the orientation of the antennas as the spacecraft slowly rotates to maintain thermal balance.
+050:43:10|P|PAO|The back-up Lunar Module Pilot, Fred Haise is at the Capcom console with Bruce McCandless.
+050:44:41|P|PAO|That radio check was with the Apollo 11 Commander, Neil Armstrong.
+050:53:04|P|PAO|This is Apollo Control at 50 hours, 53 minutes into the mission. An important news release will be available in the Apollo News Center at 11:45 Central Daylight Time this morning. At noon, Colonel, Frank Borman will be in the building 1 auditorium at MSC for a briefing concerning the news release. Repeating, an important news release will be available at 11:45am  Central Daylight Time in the Apollo news center at MSC.
+051:07:20|P|PAO|This is Apollo Control at 51 hours, 7 minutes. Apollo 7 - Apollo 11's distance is 167,007 nautical miles from Earth. Velocity 3,386 feet per second.
+051:09:15|T|CC|Apollo 11, this is Houston. Did you find it? Over.
+051:09:22|T|LMP|Roger. We found it.
+051:09:25|T|CC|Roger. And I see you're in P00. If you can give us ACCEPT, we'll uplink a new state vector to you and update the CMC clock. Over.
+051:09:39|T|LMP|Okay. You've got it.
+051:09:42|T|CC|Roger.
+051:12:45|T|CC|11, this is Houston. We're through with the uplink. You can go back to BLOCK.
+051:12:54|T|LMP|Roger. Back to BLOCK.
+051:16:31|T|CC|Apollo 11, this is Houston. We would like to terminate the charge on battery B at GET of 51:30. Over.
+051:18:05|T|CC|Apollo 11, this is Houston. We'd like to terminate charging battery Bravo at 51:30 GET. Over.
+051:18:19|T|LMP|Roger. Terminate charging battery Bravo 51:30.
+051:18:24|T|CC|Roger. Out.
+051:25:13|P|PAO|This is Apollo Control at 51 hours 25 minutes into the mission. Apollo 11 is 167,594 nautical miles from Earth, moving toward the Moon at a velocity of 3,373 feet per second. All systems are normal. We will be utilizing this release line for the Colonel, Frank Borman briefing. During that briefing we will tape any air-ground transmissions and play them back after the briefing. This is Mission Control Houston.
 051:36:35|T|CC|11, this is Houston. We show you terminating battery B charge. Over.
 051:37:56|T|CC|Apollo 11, this is Houston. Over.
 051:38:03|T|CDR|Go ahead, Houston. Apollo 11.
@@ -3269,31 +3269,32 @@
 051:38:17|T|CDR|Okay.
 051:38:23|T|CC|Roger. Out.
 051:58:04|P|PAO|This is Apollo Control at 51 hours, 58 minutes into the mission. Apollo 11 is 168,658 nautical miles from Earth traveling at a velocity of 3,349 feet per second. We have 30 seconds of air-ground conversation taped during the news briefing. We'll play that for you now.
-051:59:23|T|LMP|Houston, Apollo 11. Would you like to have both oxygen and hydrogen purge on? Over.
-051:59:32|T|CC|11, this is Houston. Say again. Both what on? Over.
-051:59:41|T|LMP|On the fuel cell purge: would you like to see both oxygen and hydrogen? Over.
-052:00:02|T|CC|Apollo 11, this is Houston. Affirmative. We request hydrogen and an oxygen fuel cell purge. Over.
-052:00:16|T|LMP|Okay. Any preference which first?
+051:59:24|T|LMP|Houston, Apollo 11. Would you like to have both oxygen and hydrogen purge on? Over.
+051:59:33|T|CC|11, this is Houston. Say again. Both what on? Over.
+051:59:42|T|LMP|On the fuel cell purge: would you like to see both oxygen and hydrogen? Over.
+052:00:03|T|CC|Apollo 11, this is Houston. Affirmative. We request hydrogen and an oxygen fuel cell purge. Over.
+052:00:17|T|LMP|Okay. Any preference which first?
 052:00:22|T|CC|Negative. As long as you've got the H2 purge line heaters on.
-052:00:29|T|LMP|Okay. I'll go get - Go ahead with the hydrogen then.
-052:40:00|P|PAO|This is Apollo Control at 52 hours, 40 minutes. Apollo 11 is 170,010 nautical miles from Earth, velocity 3,319 feet per second.
-052:58:27|T|CMP|Houston, Apollo 11. Over.
-052:58:30|T|CC|Apollo 11, this is Houston. Go ahead.
-052:58:36|T|CMP|Roger. You copy my NOUN 93?
-052:58:41|T|CC|That's affirmative. We've got it.
-052:58:46|T|CMP|Okay. I am going to go ahead and thrust and, triangle difference is 0.01, but it's sort of difficult at 0.3 rate. I'm required to use medium speed unresolved, and it's difficult to hold the star centered long enough to get a decent mark on it.
-052:59:13|T|CC|Roger. We copy. It looks okay to us.
-052:59:20|T|CMP|Roger.
-053:03:05|P|PAO|This is Apollo Control at 53 hours, 3 minutes into the mission. Apollo 11 is 170,746 nautical miles from Earth, velocity is 3,303 feet per second. The crew is now in the process of realigning the spacecraft's inertial platform.
-053:20:15|P|PAO|This is Apollo Control at 53 hours 20 minutes. Apollo 11's distance from Earth is 171,293 nautical miles, traveling at a velocity of 3,291 feet per second.
-053:20:42|P|PAO|The spacecraft's weight is 6,068 pounds.
-053:23:21|P|PAO|This is Apollo Control. We have a correction on the orbital parameters of Luna 15 as given in the news briefing recently over. The parameters given in that briefing of 72 by 156 nautical miles were based on a computation from an orbital period of 2 hours and 30 minutes instead of the correct 2 hours and 30 seconds. The orbit has been recomputed based on the proper numbers and the parameters for Luna 15, based on a period of 2 hours 30 seconds are 30 by 110 nautical miles, a perilune of 30, an apolune of 110 nautical miles.
-053:51:35|T|CC|Apollo 11, this is Houston. Over.
+052:00:30|T|LMP|Okay. I'll go get - Go ahead with the hydrogen then.
+052:40:02|P|PAO|This is Apollo Control at 52 hours, 40 minutes. Apollo 11 is 170,010 nautical miles from Earth, velocity 3,319 feet per second.
+052:58:30|T|CMP|Houston, Apollo 11. Over.
+052:58:32|T|CC|Apollo 11, this is Houston. Go ahead.
+052:58:38|T|CMP|Roger. You copy my NOUN 93?
+052:58:43|T|CC|That's affirmative. We've got it.
+052:58:48|T|CMP|Okay. I am going to go ahead and thrust and, triangle difference is 0.01, but it's sort of difficult at 0.3 rate. I'm required to use medium speed unresolved, and it's difficult to hold the star centered long enough to get a decent mark on it.
+052:59:16|T|CC|Roger. We copy. It looks okay to us.
+052:59:22|T|CMP|Roger.
+053:03:07|P|PAO|This is Apollo Control at 53 hours, 3 minutes into the mission. Apollo 11 is 170,746 nautical miles from Earth, velocity is 3,303 feet per second. The crew is now in the process of realigning the spacecraft's inertial platform.
+053:20:16|P|PAO|This is Apollo Control at 53 hours 20 minutes. Apollo 11's distance from Earth is 171,293 nautical miles, traveling at a velocity of 3,291 feet per second.
+053:20:43|P|PAO|The spacecraft weight is 6,068 pounds.
+053:23:23|P|PAO|This is Apollo Control. We have a correction on the orbital parameters of Luna 15 as given in the news briefing recently over. The parameters given in that briefing of 72 by 156 nautical miles were based on a computation from an orbital period of 2 hours and 30 minutes instead of the correct 2 hours and 30 seconds. The orbit has been recomputed based on the proper numbers and the parameters for Luna 15, based on a period of 2 hours 30 seconds are 30 by 110 nautical miles, a perilune of 30, an apolune of 110 nautical miles.
+053:51:36|T|CC|Apollo 11, this is Houston. Over.
 053:51:43|T|CMP|Go ahead, Houston.
 053:51:45|T|CC|Roger. I've got the morning news here if you're interested. Over.
-053:51:52|T|CMP|Yes, we sure are. We're ready to copy and comment. Isn't that 2:30 there?
-053:51:57|T|CC|Roger.
-053:52:01|T|CDR|Okay. Go.
+053:51:52|T|CMP|Yes, we sure are. We're ready to copy and comment.
+053:51:55|T|LMP|Isn't that 2:30 there?
+053:51:58|T|CC|Roger.
+053:52:02|T|CDR|Okay. Go.
 053:52:05|T|CC|Okay. Here we go. The interest in the Flight of Apollo 11 continues at a high level but a competing interest in the Houston area is the easing of watering rules. Mayor Louie Welch promises a lifting of lawn-watering restrictions if the rains continue. Friday is partly cloudy, and there is a 30-percent chance of thundershowers in the afternoon. In Washington, D.C., the Senate Finance Committee approved extension of the income tax surtax, but a Senate vote on the bill - -
 053:52:36|T|CMP|You cut out, Houston. You cut out.
 053:52:40|T|CC|Roger. Where do you hold me cutting out? Over.
