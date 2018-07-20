@@ -3320,337 +3320,338 @@
 053:59:14|T|CC|Roger. We copy.
 053:59:23|T|CMP|Their efficiency ranges anywhere from darn near perfect to terrible just depending on the individual characteristics of the food bag we're putting through them. Some of the food bags are so crimped near the entry-way that there's no way we can work them loose to prevent back pressure.
 053:59:44|T|CC|Roger.
-054:32:09|T|CC|Apollo 11, this is Houston. Over.
-054:34:22|T|CC|Apollo 11, this is Houston. Over.
-054:34:31|T|CDR|Hello, Houston. Go ahead.
-054:34:33|T|CC|Roger, 11. As you've probably noticed, your coning angle in PTC mode is increased substantially as a result of the wastewater dump, the fuel cell purge, and a natural coupling, so it looks like we are going to have to terminate PTC here in a little while. And we'd like to get your feeling as to whether you're still anticipating trying to send back TV signals from inside the LM; and if so, we'll try to provide an attitude that you can hold that'll give us high-gain antenna lock on the Earth during the TV and LM activation period. Over.
-054:35:18|T|CDR|Yes, we're still planning that activity if the cord lengths work out all right, and we'll accept those attitudes that you work up for us.
-054:35:29|T|CC|This is Houston. Roger. Out.
-054:35:34|T|LMP|When you work up an attitude to get high-gain, is there any way that we could get partial Sun in one of the two LM front windows?
-054:35:45|T|CC|This is Houston. We'll have a look at it.
-054:35:53|PAO|That was Neil Armstrong confirming they will attempt TV at approximately an elapsed time of 56 hours 20 minutes and then the last of the question was by Buzz Aldrin.
-054:39:14|T|CC|Apollo 11, this is Houston. Over.
-054:39:20|T|CDR|Go ahead, Houston.
-054:39:21|T|CC|Roger. We have a TV attitude for you if you're ready to copy.
-054:39:32|T|CMP|Go ahead. Ready to copy.
-054:39:34|T|CC|Okay. We recommend stopping PTC at GET of 54:45:00, and this should put you at just about the right roll angle. The attitude we recommend is roll 263, pitch 090, yaw 000. This gives you the Earth out of window number 1 in the Command Module and places the high-gain antenna in the CSM window for TV at your convenience. You will also have the Sun shining in - or shining at the hatch on the LM, and if you take down the window shades you should get some sunlight in. We're recommending wide deadband. Over.
-054:40:36|T|CMP|Roger. Thank you, Houston. We'll look at that.
-054:40:41|T|CC|Roger. Out.
+054:32:11|T|CC|Apollo 11, this is Houston. Over.
+054:34:23|T|CC|Apollo 11, this is Houston. Over.
+054:34:32|T|CDR|Hello, Houston. Go ahead.
+054:34:34|T|CC|Roger, 11. As you've probably noticed, your coning angle in PTC mode is increased substantially as a result of the wastewater dump, the fuel cell purge, and a natural coupling, so it looks like we are going to have to terminate PTC here in a little while. And we'd like to get your feeling as to whether you're still anticipating trying to send back TV signals from inside the LM; and if so, we'll try to provide an attitude that you can hold that'll give us high-gain antenna lock on the Earth during the TV and LM activation period. Over.
+054:35:19|T|CDR|Yes, we're still planning that activity if the cord lengths work out all right, and we'll accept those attitudes that you work up for us.
+054:35:30|T|CC|This is Houston. Roger. Out.
+054:35:35|T|LMP|When you work up an attitude to get high-gain, is there any way that we could get partial Sun in one of the two LM front windows?
+054:35:46|T|CC|This is Houston. We'll have a look at it.
+054:35:54|PAO|That was Neil Armstrong confirming they will attempt TV at approximately an elapsed time of 56 hours 20 minutes and then the last of the question was by Buzz Aldrin.
+054:39:15|T|CC|Apollo 11, this is Houston. Over.
+054:39:21|T|CDR|Go ahead, Houston.
+054:39:23|T|CC|Roger. We have a TV attitude for you if you're ready to copy.
+054:39:33|T|CMP|Go ahead. Ready to copy.
+054:39:35|T|CC|Okay. We recommend stopping PTC at GET of 54:45:00, and this should put you at just about the right roll angle. The attitude we recommend is roll 263, pitch 090, yaw 000. This gives you the Earth out of window number 1 in the Command Module and places the high-gain antenna in the CSM window for TV at your convenience. You will also have the Sun shining in - or shining at the hatch on the LM, and if you take down the window shades you should get some sunlight in. We're recommending wide deadband. Over.
+054:40:37|T|CMP|Roger. Thank you, Houston. We'll look at that.
+054:40:42|T|CC|Roger. Out.
 054:42:54|T|CMP|Houston, Apollo 11. When we pass the proper roll angle, we're not going to be anywhere near zero degrees yaw. Do you want us to just stop at the yaw angle we find ourselves in  and then VERB 49 the three angles you gave us?
-054:43:06|T|CC|Stand by.
-054:43:20|T|CC|Hello, Apollo 11. Houston. We'd like you to stop at the proper roll angle, then do a VERB 49 to the roll and pitch. Over. Correction, roll and yaw.
-054:43:51|T|CMP|Houston, Apollo 11. Over.
-054:43:53|T|CC|Go ahead, 11. Over.
-054:44:12|T|CC|Hello, Apollo 11. Houston. Do you read? Over.
-054:44:20|T|CMP|Houston, Apollo 11. Over.
-054:44:22|T|CC|Roger, 11. Do you read me? Over.
-054:44:38|T|CC|Hello, Apollo 11. Houston. Over.
-054:44:46|T|CDR|Stand by, Charlie. Yes, we're going to come out of PTC here at 263 roll and then do VERB 49 to the recommended attitude.
-054:44:58|T|CC|That sounds fine to us. Over.
-054:45:57|P|PAO|This is Apollo Control at 54 hours 45 minutes. Apollo 11 is 173,997 nautical miles from Earth. Velocity is 3,234 feet per second. In the Control Center, the white team led by Gene Kranz is preparing to relieve Cliff Charlesworth and the Green Team. Capcom is Charlie Duke. We're estimating the change-of-shift news conference for 4:00pm Central Daylight Time.
-054:46:55|T|CC|Hello, Apollo 11. Houston. Before you open the pressure equalization valve, we'd like the LM/CM DELTA-P. Over.
-054:47:05|T|CMP|Okay. Let me check it again. It was about 155.
-054:47:11|T|CC|Roger.
-054:47:13|T|CMP|I read it 158 right now, Charlie.
-054:47:16|T|CC|Roger. Thank you much.
-054:49:50|T|CMP|Houston, Apollo 11. We're stopping PTC at 263 ... 0.
-054:49:58|T|CC|11, Houston. You're about one-by on this transmission. Say again. Over.
-054:50:07|T|CMP|Houston, Apollo 11. Do you read?
-054:51:45|T|CMP|Houston, Apollo 11. How do you read on the high-gain?
-054:51:49|T|CC|11, how do you read me? Over.
-054:51:54|T|CMP|Read you loud and clear, Charlie. We just switched to high-gain, and we stopped PTC at roll 263, pitch 90, yaw 0. How do you read?
-054:52:02|T|CC|Roger, Mike. You're five-by now on the high-gain. We're right between the OMNI antennas and pretty horrible COMM on the OMNI's. We got you five-by on the high-gain, and we copy the PTC stoppage. Over.
-054:52:16|T|CMP|Okay, fine.
-054:52:35|T|CMP|Houston, we're going to open the DIRECT O2 valve and start pumping up the cabin.
-054:52:39|T|CC|Roger. Copy.
-054:53:05|T|CC|Apollo 11, Houston. We're going to hand over to Goldstone for uplink in about 2 minutes. We might have a momentary dropout of COMM. Over.
-054:53:15|T|CMP|Alrighty. Can you hear our master alarm in the background? That's O2 FLOW HIGH coming through this amplifier.
-054:53:26|T|CC|Roger. Copy.
-054:53:36|T|CMP|That photoelectric cell is a good device. It's worked very well.
-054:53:45|T|CC|11, Houston. Say again. Over.
-054:53:50|T|CMP|I say that photoelectric cell amplifier for the master alarm is a good device. It's working very well, and it's a nice pleasing tone.
-054:53:59|T|CC|Roger. Copy. Thank you.
-054:54:07|T|CMP|Makes you almost glad to get master alarms.
-054:55:00|T|CMP|Houston, Apollo 11. As a matter of curiosity, our O2 flow meter is pegged FULL-SCALE HIGH.
-054:55:07|T|CC|Roger, 11. We copy that here. Over.
-054:55:13|T|CMP|Okay.
-054:55:25|T|CMP|Boy, that transducer's working somewhat.
-054:55:31|T|CC|Roger.
-054:55:51|T|CC|11, Houston. We'd like to try to attempt to correlate your O2 flow in - transducer with the flow valve that you've got open. How far - How far open would you say you have the REPRESS O2? Over. Correction, the DIRECT O2.
-054:56:08|T|CMP|Stand by, Charlie.
-054:56:18|T|CMP|Okay, Charlie. It's not open very far. It's hard to give you a good reading without shunting it again, but the arrow is at about the one o'clock position. Now, I reduce the flow, and I'll let it stabilize here. Right now our onboard reading is about 0.4, and that's with the arrow in the O2 valve at the two o'clock position. Would you rather have comparisons of O2 flow readings or would you rather have valve position comparisons?
-054:56:47|T|CC|Roger. Stand by.
-054:56:51|T|CC|EECOMM's say they'd like to look at valve positions. Over.
-054:57:00|T|CMP|Okay. Well, we're holding steady now at 0.3 pound per hour, and our cabin pressure is about 5.4; and I'll close the valve momentarily and then open it again to this position and tell you how much travel is required.
-054:57:17|T|CC|Roger.
-054:57:28|T|CMP|It's about 30 degrees of travel, Charlie, from the closed position, which is with the arrow pointing at about three to three-thirty, four o'clock.
-054:57:37|T|CC|Roger.
-054:57:46|T|CMP|Our flow is stabilized now at 0.6.
-054:57:53|T|CC|Roger. We copy. We're reading the same.
-054:57:58|T|CMP|Okay.
-054:58:04|T|CMP|Yes, open it back to the one o'clock position.
-054:58:09|T|CC|Roger.
-054:58:29|T|CMP|Is that enough different positions, or you want more, Charlie?
-054:58:35|T|CC|Mike, that's good - good enough. We're satisfied now. Over.
-054:58:41|T|CMP|Okay.
-055:02:01|T|CMP|Houston, Apollo 11. We've terminated direct O2, our cabin pressure is 5.7, and, as a matter of curiosity, when we turn the DIRECT O2 valve OFF, we get a master alarm just like they did in the spacecraft testing.
-055:02:16|T|CC|Roger.
-055:02:19|T|CC|11, Houston, we have a little update for you. When you go into the LM, we'd like you to unstow and bring back to the Command Module the following items. Over.
+054:43:07|T|CC|Stand by.
+054:43:21|T|CC|Hello, Apollo 11. Houston. We'd like you to stop at the proper roll angle, then do a VERB 49 to the roll and pitch. Over. Correction, roll and yaw.
+054:43:52|T|CMP|Houston, Apollo 11. Over.
+054:43:54|T|CC|Go ahead, 11. Over.
+054:44:13|T|CC|Hello, Apollo 11. Houston. Do you read? Over.
+054:44:21|T|CMP|Houston, Apollo 11. Over.
+054:44:23|T|CC|Roger, 11. Do you read me? Over.
+054:44:39|T|CC|Hello, Apollo 11. Houston. Over.
+054:44:47|T|CDR|Stand by, Charlie. Yes, we're going to come out of PTC here at 263 roll and then do VERB 49 to the recommended attitude.
+054:44:59|T|CC|That sounds fine to us. Over.
+054:45:58|P|PAO|This is Apollo Control at 54 hours 45 minutes. Apollo 11 is 173,997 nautical miles from Earth. Velocity is 3,234 feet per second. In the Control Center, the white team led by Gene Kranz is preparing to relieve Cliff Charlesworth and the Green Team. Capcom is Charlie Duke. We're estimating the change-of-shift news conference for 4:00pm Central Daylight Time.
+054:46:56|T|CC|Hello, Apollo 11. Houston. Before you open the pressure equalization valve, we'd like the LM/CM DELTA-P. Over.
+054:47:07|T|CMP|Okay. Let me check it again. It was about 155.
+054:47:12|T|CC|Roger.
+054:47:15|T|CMP|I read it 158 right now, Charlie.
+054:47:17|T|CC|Roger. Thank you much.
+054:49:52|T|CMP|Houston, Apollo 11. We're stopping PTC at 263 ... 0.
+054:50:00|T|CC|11, Houston. You're about one-by on this transmission. Say again. Over.
+054:50:09|T|CMP|Houston, Apollo 11. Do you read?
+054:51:47|T|CMP|Houston, Apollo 11. How do you read on the high-gain?
+054:51:50|T|CC|11, how do you read me? Over.
+054:51:55|T|CMP|Read you loud and clear, Charlie. We just switched to high-gain, and we stopped PTC at roll 263, pitch 90, yaw 0. How do you read?
+054:52:04|T|CC|Roger, Mike. You're five-by now on the high-gain. We're right between the OMNI antennas and pretty horrible COMM on the OMNI's. We got you five-by on the high-gain, and we copy the PTC stoppage. Over.
+054:52:17|T|CMP|Okay, fine.
+054:52:37|T|CMP|Houston, we're going to open the DIRECT O2 valve and start pumping up the cabin.
+054:52:41|T|CC|Roger. Copy.
+054:53:06|T|CC|Apollo 11, Houston. We're going to hand over to Goldstone for uplink in about 2 minutes. We might have a momentary dropout of COMM. Over.
+054:53:17|T|CMP|Alrighty. Can you hear our master alarm in the background? That's O2 FLOW HIGH coming through this amplifier.
+054:53:28|T|CC|Roger. Copy.
+054:53:38|T|CMP|That photoelectric cell is a good device. It's worked very well.
+054:53:47|T|CC|11, Houston. Say again. Over.
+054:53:51|T|CMP|I say that photoelectric cell amplifier for the master alarm is a good device. It's working very well, and it's a nice pleasing tone.
+054:54:00|T|CC|Roger. Copy. Thank you.
+054:54:09|T|CMP|Makes you almost glad to get master alarms.
+054:55:02|T|CMP|Houston, Apollo 11. As a matter of curiosity, our O2 flow meter is pegged FULL-SCALE HIGH.
+054:55:09|T|CC|Roger, 11. We copy that here. Over.
+054:55:14|T|CMP|Okay.
+054:55:27|T|CMP|Boy, that transducer's working somewhat.
+054:55:32|T|CC|Roger.
+054:55:53|T|CC|11, Houston. We'd like to try to attempt to correlate your O2 flow in - transducer with the flow valve that you've got open. How far - How far open would you say you have the REPRESS O2? Over. Correction, the DIRECT O2.
+054:56:10|T|CMP|Stand by, Charlie.
+054:56:19|T|CMP|Okay, Charlie. It's not open very far. It's hard to give you a good reading without shunting it again, but the arrow is at about the one o'clock position. Now, I reduce the flow, and I'll let it stabilize here. Right now our onboard reading is about 0.4, and that's with the arrow in the O2 valve at the two o'clock position. Would you rather have comparisons of O2 flow readings or would you rather have valve position comparisons?
+054:56:48|T|CC|Roger. Stand by.
+054:56:53|T|CC|EECOMM's say they'd like to look at valve positions. Over.
+054:57:01|T|CMP|Okay. Well, we're holding steady now at 0.3 pound per hour, and our cabin pressure is about 5.4; and I'll close the valve momentarily and then open it again to this position and tell you how much travel is required.
+054:57:19|T|CC|Roger.
+054:57:30|T|CMP|It's about 30 degrees of travel, Charlie, from the closed position, which is with the arrow pointing at about three to three-thirty, four o'clock.
+054:57:39|T|CC|Roger.
+054:57:48|T|CMP|Our flow is stabilized now at 0.6.
+054:57:55|T|CC|Roger. We copy. We're reading the same.
+054:58:00|T|CMP|Okay.
+054:58:06|T|CMP|Yes, open it back to the one o'clock position.
+054:58:11|T|CC|Roger.
+054:58:31|T|CMP|Is that enough different positions, or you want more, Charlie?
+054:58:37|T|CC|Mike, that's good - good enough. We're satisfied now. Over.
+054:58:43|T|CMP|Okay.
+055:02:04|T|CMP|Houston, Apollo 11. We've terminated direct O2, our cabin pressure is 5.7, and, as a matter of curiosity, when we turn the DIRECT O2 valve OFF, we get a master alarm just like they did in the spacecraft testing.
+055:02:18|T|CC|Roger.
+055:02:21|T|CC|11, Houston, we have a little update for you. When you go into the LM, we'd like you to unstow and bring back to the Command Module the following items. Over.
 055:02:34|T|CMP|Ready to copy.
-055:02:35|T|CC|Roger. We'd like you to pick up the - out of the flight data file, the surface checklist, the mission rules NO-GO card, the DPS, APS, RCS limit cue card. Over.
-055:04:33|T|CC|Apollo 11, Houston. The reason we wanted you to bring those three items back, we'll have some updates for you, for those three. Over.
-055:04:43|T|CMP|Roger. We figured you would.
-055:09:30|P|PAO|This is Apollo Control at 55 hours 10 minutes. Our network controllers just advised that we are receiving live television at Goldstone. We would presume this is a test of the system, similar to what we received from the crew yesterday. The crew is planning to send television from the Lunar Module when they ingress. Stand by - here's a call from the crew.
-055:09:57|T|CC|Apollo 11, Houston. We're getting the TV at Goldstone. We're not quite configured here at Houston for the transmission. We'll be up in a couple of minutes. Over.
-055:10:11|T|CMP|Roger. This is just for free. This isn't what we had in mind.
-055:10:16|T|CC|Roger.
-055:10:23|P|PAO|That was Capcom, Charlie Duke, advising the crew that we are not quite prepared for television reception at this time. You heard Mike Collins respond that this one's for free. We still intend to get the television transmission during the time the crew is in the Lunar Module, beginning about 56 hours 20 minutes Ground Elapsed Time, which would be about 4:52pm Central Daylight Time.
-055:11:17|P|PAO|We are getting a black and white television picture in the Control Center at this time and we should have that in color by now. Interior view of the Command Module looking up into the LM hatch, CSM land hatch area. We can't quite make out which crewman we're seeing up in the tunnel working with the probe and drogue assembly.
-055:14:23|P|PAO|Getting a very good view of the work going on in the Command and Service Module tunnel. It appears to be Neil Armstrong working in the tunnel. Operating - working on the drogue and probe assembly.
-055:15:00|P|PAO|This extremely sharp clear picture is coming to us from about a 175,000 miles distance from Earth. Presently about 48,000 miles from the Moon.
-055:16:44|P|PAO|And, that appears as if it might be all the "free" TV, as Mike Collins put it. Not forgetting, we do expect to get the television transmission from the time the crew is in the Lunar Module and that period of activity is scheduled to begin in about 56 hours 20 minutes with the ingress to the Lunar Module. And we are starting to get a picture back again; losing lock momentarily and now we had it back again. Neil Armstrong up in the tunnel at this point, removing the probe and drogue assembly in preparation for the ingress to the Lunar Module.
-055:17:58|P|PAO|Our network controller just reported that this television is coming to us on the 210-foot dish antenna at Goldstone, California.
-055:19:33|P|PAO|We just saw the probe assembly start to come loose now as Neil Armstrong is -
-055:19:48|T|CC|Apollo 11, Houston. It's a pretty good show here. It looks like you almost got the probe out.
-055:19:54|T|LMP|Yes, it's loose now.
-055:19:56|T|CDR|Can you see that?
-055:19:57|T|CC|Roger, Neil. It's really good.
-055:20:02|T|CDR|Not much light up in that area, but apparently the TV set's able to pick it up.
-055:20:09|T|CC|There are some bright spots shining on the probe. Apparently Sun shafting on it that just gets just about enough for us to make it out. Over.
-055:20:21|T|CDR|I think those are the tunnel lights.
-055:20:22|T|SC|...
-055:20:23|T|CC|Oh, Okay. You're right.
-055:20:31|T|LMP|Okay. It's loose now. Coming down.
-055:20:34|T|CC|Roger.
-055:20:57|T|CC|Looks like it's a little bit easier than doing that in the chamber.
-055:21:03|T|CDR|You bet. This is the only way ...
-055:21:04|T|LMP|You have to take it easy. It's pretty massive, but it goes where you direct it.
-055:21:10|T|CC|11, Houston. That's a beautiful picture now, we've got. We're looking at a 12-second delay. To us you are just bringing it down by the optics now.
-055:21:26|T|CDR|Mike must have done a smooth job in that docking. There isn't a dent or a mark on the probe.
-055:21:32|T|CC|Roger.
-055:21:38|T|CC|We're really getting a great picture here, 11. Over.
-055:21:59|T|CC|11, Houston. With a 12-foot cable, we estimate you should have about 5 to 6 feet excess when you get the camera into the LM. Over.
-055:22:11|T|CDR|Roger.
-055:22:14|T|CC|We can see the probe now. Correction, the drogue.
-055:22:21|T|CDR|Roger.
-055:23:03|T|CMP|Okay. Drogue removal's coming next.
-055:23:06|T|CC|Roger. As we suspected.
-055:23:28|P|PAO|Once removal of the drogue is completed, they will have access to the LM hatch and be able to go into the tunnel.
-055:24:06|T|CC|11, Houston. Now it's a good view of the storage area under the couch.
-055:24:34|T|CC|11, Houston. Looks like you're pretty crowded in there with that drogue. Over.
-055:24:42|T|CDR|Oh, it's not really bad.
-055:24:43|T|LMP|This TV cable is getting in the way.
-055:24:53|T|CC|We see lots of arms.
-055:25:20|T|CMP|The only problem, Charlie, is these TV stagehands don't know where they stand.
-055:25:27|T|CC|Well, you got to really have a union card, there. We can't really complain too much, I guess.
-055:26:11|P|PAO|This unscheduled television transmission has now run about 18 minutes, and we have no estimate at this point as to how long it will continue. Mike Collins reported that it would - we would go ahead with the regularly scheduled one when they are in the LM.
-055:26:28|T|CC|Apollo 11, Houston. Do you have a little white dot in the bottom of your monitor - TV monitor? Over.
-055:26:38|T|LMP|Roger. We do.
-055:26:41|T|CC|Roger. I guess part of the camera's been burnt out down there. These are really beautiful pictures now, Buzz. Over. Real clear.
-055:26:56|T|LMP|Okay. We might have got just a little bit of Sun in there. Is it just one small white dot?
-055:27:00|T|CC|That's affirmative.
-055:27:33|P|PAO|Have a good view here of the computer display and keyboard assembly with the green lights flashing.
-055:27:41|T|CMP|We went up in the tunnel checking the roll angle, Charlie, and it's 2.05 degrees.
-055:27:48|T|CC|Roger. Copy. 2.05 on the roll CAL.
-055:27:54|T|CMP|And that's a plus.
-055:27:56|T|CC|Roger. Plus.
-055:28:28|P|PAO|The reference to the roll CAL, or roll calibration index marker in the tunnel, which shows how far off exact 0 the 2 vehicles were when the docking occurred.
-055:28:45|T|CC|11, Houston. The tunnel looks pretty clear to us. Somebody going up there now. Over.
-055:28:54|T|CDR|It's Mike checking his connectors up there now.
-055:28:59|T|CC|Roger.
-055:29:07|T|CC|11, Houston. The lighting up in there looks very good to us at this time. Over.
-055:29:22|T|LMP|I think that's mostly the camera. It - it's subdued to say the least.
-055:29:29|T|CC|Roger. It's pretty - It's gathering pretty well to us. We see everything quite clearly up in there.
-055:30:04|T|CMP|Well, the docking latches look good today just like they did yesterday. Everything up in there looks just fine.
-055:30:11|T|CC|That sounds fine to us. Over.
-055:30:15|P|PAO|Mike Collins reporting there on the appearance of the latches.
-055:30:44|T|CC|11, Houston. We can even read the decals up there on the LM hatch.
-055:30:53|T|LMP|Well, let me zoom it up and see how much you can read.
-055:30:56|T|CC|Okay.
-055:31:11|T|CC|We can see the LM umbilical connection quite well there, Buzz. We see you zooming in on one of the decals now. "To reset, unlatch handle; latch behind grip and pull back two full strokes." That's about all we can make out.
-055:31:34|T|LMP|Hey, you get an A-plus.
-055:31:36|T|CC|Thank you very much, sir. At least I passed my eye test.
-055:31:45|T|CMP|I'm standing 6 feet from it, Charlie, and you can read it better than I can. There's something wrong with the system.
-055:31:53|T|CC|Roger.
-055:32:37|P|PAO|An interested observer of these amazingly clear pictures coming to us from more than 175,000 miles out in space is Astronaut, Gene Cernan, who got a first hand view of some of this same area of the spacecraft during his Apollo 10 flight.
+055:02:36|T|CC|Roger. We'd like you to pick up the - out of the flight data file, the surface checklist, the mission rules NO-GO card, the DPS, APS, RCS limit cue card. Over.
+055:04:35|T|CC|Apollo 11, Houston. The reason we wanted you to bring those three items back, we'll have some updates for you, for those three. Over.
+055:04:46|T|CMP|Roger. We figured you would.
+055:09:35|P|PAO|This is Apollo Control at 55 hours 10 minutes. Our network controllers just advised that we are receiving live television at Goldstone. We would presume this is a test of the system, similar to what we received from the crew yesterday. The crew is planning to send television from the Lunar Module when they ingress. Stand by - here's a call from the crew.
+055:10:00|T|CC|Apollo 11, Houston. We're getting the TV at Goldstone. We're not quite configured here at Houston for the transmission. We'll be up in a couple of minutes. Over.
+055:10:14|T|CMP|Roger. This is just for free. This isn't what we had in mind.
+055:10:18|T|CC|Roger.
+055:10:26|P|PAO|That was Capcom, Charlie Duke, advising the crew that we are not quite prepared for television reception at this time. You heard Mike Collins respond that this one's for free. We still intend to get the television transmission during the time the crew is in the Lunar Module, beginning about 56 hours 20 minutes Ground Elapsed Time, which would be about 4:52pm Central Daylight Time.
+055:11:20|P|PAO|We are getting a black and white television picture in the Control Center at this time and we should have that in color by now. Interior view of the Command Module looking up into the LM hatch, CSM land hatch area. We can't quite make out which crewman we're seeing up in the tunnel working with the probe and drogue assembly.
+055:14:25|P|PAO|Getting a very good view of the work going on in the Command and Service Module tunnel. It appears to be Neil Armstrong working in the tunnel. Operating - working on the drogue and probe assembly.
+055:15:02|P|PAO|This extremely sharp clear picture is coming to us from about a 175,000 miles distance from Earth. Presently about 48,000 miles from the Moon.
+055:16:46|P|PAO|And, that appears as if it might be all the "free" TV, as Mike Collins put it. Not forgetting, we do expect to get the television transmission from the time the crew is in the Lunar Module and that period of activity is scheduled to begin in about 56 hours 20 minutes with the ingress to the Lunar Module. And we are starting to get a picture back again; losing lock momentarily and now we had it back again. Neil Armstrong up in the tunnel at this point, removing the probe and drogue assembly in preparation for the ingress to the Lunar Module.
+055:18:00|P|PAO|Our network controller just reported that this television is coming to us on the 210-foot dish antenna at Goldstone, California.
+055:19:35|P|PAO|We just saw the probe assembly start to come loose now as Neil Armstrong is -
+055:19:49|T|CC|Apollo 11, Houston. It's a pretty good show here. It looks like you almost got the probe out.
+055:19:56|T|LMP|Yes, it's loose now.
+055:19:58|T|CDR|Can you see that?
+055:19:59|T|CC|Roger, Neil. It's really good.
+055:20:04|T|CDR|Not much light up in that area, but apparently the TV set's able to pick it up.
+055:20:11|T|CC|There are some bright spots shining on the probe. Apparently Sun shafting on it that just gets just about enough for us to make it out. Over.
+055:20:23|T|CDR|I think those are the tunnel lights.
+055:20:24|T|SC|...
+055:20:25|T|CC|Oh, Okay. You're right.
+055:20:33|T|LMP|Okay. It's loose now. Coming down.
+055:20:36|T|CC|Roger.
+055:20:59|T|CC|Looks like it's a little bit easier than doing that in the chamber.
+055:21:05|T|CDR|You bet. This is the only way ...
+055:21:06|T|LMP|You have to take it easy. It's pretty massive, but it goes where you direct it.
+055:21:12|T|CC|11, Houston. That's a beautiful picture now, we've got. We're looking at a 12-second delay. To us you are just bringing it down by the optics now.
+055:21:28|T|CDR|Mike must have done a smooth job in that docking. There isn't a dent or a mark on the probe.
+055:21:34|T|CC|Roger.
+055:21:40|T|CC|We're really getting a great picture here, 11. Over.
+055:22:01|T|CC|11, Houston. With a 12-foot cable, we estimate you should have about 5 to 6 feet excess when you get the camera into the LM. Over.
+055:22:13|T|CDR|Roger.
+055:22:16|T|CC|We can see the probe now. Correction, the drogue.
+055:22:23|T|CDR|Roger.
+055:23:05|T|CMP|Okay. Drogue removal's coming next.
+055:23:08|T|CC|Roger. As we suspected.
+055:23:30|P|PAO|Once removal of the drogue is completed, they will have access to the LM hatch and be able to go into the tunnel.
+055:24:08|T|CC|11, Houston. Now it's a good view of the storage area under the couch.
+055:24:36|T|CC|11, Houston. Looks like you're pretty crowded in there with that drogue. Over.
+055:24:44|T|CDR|Oh, it's not really bad.
+055:24:45|T|LMP|This TV cable is getting in the way.
+055:24:55|T|CC|We see lots of arms.
+055:25:22|T|CMP|The only problem, Charlie, is these TV stagehands don't know where they stand.
+055:25:29|T|CC|Well, you got to really have a union card, there. We can't really complain too much, I guess.
+055:26:13|P|PAO|This unscheduled television transmission has now run about 18 minutes, and we have no estimate at this point as to how long it will continue. Mike Collins reported that it would - we would go ahead with the regularly scheduled one when they are in the LM.
+055:26:30|T|CC|Apollo 11, Houston. Do you have a little white dot in the bottom of your monitor - TV monitor? Over.
+055:26:40|T|LMP|Roger. We do.
+055:26:43|T|CC|Roger. I guess part of the camera's been burnt out down there. These are really beautiful pictures now, Buzz. Over. Real clear.
+055:26:58|T|LMP|Okay. We might have got just a little bit of Sun in there. Is it just one small white dot?
+055:27:02|T|CC|That's affirmative.
+055:27:35|P|PAO|Have a good view here of the computer display and keyboard assembly with the green lights flashing.
+055:27:43|T|CMP|We went up in the tunnel checking the roll angle, Charlie, and it's 2.05 degrees.
+055:27:50|T|CC|Roger. Copy. 2.05 on the roll CAL.
+055:27:56|T|CMP|And that's a plus.
+055:27:58|T|CC|Roger. Plus.
+055:28:30|P|PAO|The reference to the roll CAL, or roll calibration index marker in the tunnel, which shows how far off exact 0 the 2 vehicles were when the docking occurred.
+055:28:47|T|CC|11, Houston. The tunnel looks pretty clear to us. Somebody going up there now. Over.
+055:28:56|T|CDR|It's Mike checking his connectors up there now.
+055:29:01|T|CC|Roger.
+055:29:09|T|CC|11, Houston. The lighting up in there looks very good to us at this time. Over.
+055:29:24|T|LMP|I think that's mostly the camera. It - it's subdued to say the least.
+055:29:31|T|CC|Roger. It's pretty - It's gathering pretty well to us. We see everything quite clearly up in there.
+055:30:06|T|CMP|Well, the docking latches look good today just like they did yesterday. Everything up in there looks just fine.
+055:30:13|T|CC|That sounds fine to us. Over.
+055:30:17|P|PAO|Mike Collins reporting there on the appearance of the latches.
+055:30:46|T|CC|11, Houston. We can even read the decals up there on the LM hatch.
+055:30:55|T|LMP|Well, let me zoom it up and see how much you can read.
+055:30:58|T|CC|Okay.
+055:31:13|T|CC|We can see the LM umbilical connection quite well there, Buzz. We see you zooming in on one of the decals now. "To reset, unlatch handle; latch behind grip and pull back two full strokes." That's about all we can make out.
+055:31:36|T|LMP|Hey, you get an A-plus.
+055:31:38|T|CC|Thank you very much, sir. At least I passed my eye test.
+055:31:47|T|CMP|I'm standing 6 feet from it, Charlie, and you can read it better than I can. There's something wrong with the system.
+055:31:55|T|CC|Roger.
+055:32:39|P|PAO|An interested observer of these amazingly clear pictures coming to us from more than 175,000 miles out in space is Astronaut, Gene Cernan, who got a first hand view of some of this same area of the spacecraft during his Apollo 10 flight.
 055:33:07|T|CC|That's a real good view of the LM hatch handle there, 11. Over.
 055:33:16|T|CDR|Roger.
-055:33:24|T|CDR|Looks like we'll be ready to go into the LM early if that's okay with you all down there.
-055:33:33|T|CC|Roger. It's fine with us, Neil. Go ahead anytime you wish. Over.
-055:33:56|T|CC|11, Houston. The white spot you see on your monitor, our TV people say it is a burn spot; but they expect it to dissipate after a couple of hours. Over.
+055:33:25|T|CDR|Looks like we'll be ready to go into the LM early if that's okay with you all down there.
+055:33:34|T|CC|Roger. It's fine with us, Neil. Go ahead anytime you wish. Over.
+055:33:57|T|CC|11, Houston. The white spot you see on your monitor, our TV people say it is a burn spot; but they expect it to dissipate after a couple of hours. Over.
 055:34:14|T|LMP|Roger. Thank you.
-055:35:23|T|CMP|Okay, the dump valve is actuated.
-055:35:26|T|CC|Roger. Copy, 11. We see that very clearly. Is that you, Buzz, with your hand on it?
-055:35:32|T|CMP|Yes.
-055:35:33|T|LMP|Roger.
-055:36:10|T|CC|11, Houston. We're really amazed at the quality of the picture up in the tunnel. It's really superb. Over.
-055:36:18|T|CMP|It is, considering the amount of light up in there.
+055:35:24|T|CMP|Okay, the dump valve is actuated.
+055:35:27|T|CC|Roger. Copy, 11. We see that very clearly. Is that you, Buzz, with your hand on it?
+055:35:33|T|CMP|Yes.
+055:35:34|T|LMP|Roger.
+055:36:11|T|CC|11, Houston. We're really amazed at the quality of the picture up in the tunnel. It's really superb. Over.
+055:36:19|T|CMP|It is, considering the amount of light up in there.
 055:36:20|T|CDR|Roger. We're about to open our hatch now.
 055:36:22|T|CC|Roger.
-055:36:32|T|LMP|- that same guy that, when you open up the door, why, he's waiting there for you, and he turns the lights on.
-055:36:38|T|CC|How about that. Just like the refrigerator.
-055:36:48|P|PAO|That conversation between Charlie Duke and Mike Collins referring to the automatic light that comes on in the LM when the hatch is opened.
-055:37:07|T|CC|Buzz, the view in through your - by your right - left shoulder there is so good we can see the ascent engine cover, the Velcro on it, and that's about all we can make out right now.
-055:37:27|T|CC|Now we can see the helmet stowage bag - -
-055:37:28|T|CDR|(Laugher) We don't see anything loose up there.
-055:37:30|T|CC|Well, great. Looks good to us. We see the helmet storage bag.
-055:37:53|T|CC|And, 11. Houston. We got a view of the PLSS there, off the right of our screen.
-055:38:35|T|CC|11, Houston. Buzz, you already in? Over.
-055:38:42|T|LMP|Roger. I'm halfway in, I'm going to start turning around, I guess.
-055:38:46|T|CC|Roger.
-055:38:48|P|PAO|Buzz Aldrin, reporting that he's halfway into the LM. His view is inside the LM cabin.
-055:39:14|T|CC|Apollo 11, Houston. We'd like you to read out the LCG reservoir sight level. Over.
-055:39:26|T|LMP|Okay. Stand by.
+055:36:33|T|LMP|- that same guy that, when you open up the door, why, he's waiting there for you, and he turns the lights on.
+055:36:39|T|CC|How about that. Just like the refrigerator.
+055:36:49|P|PAO|That conversation between Charlie Duke and Mike Collins referring to the automatic light that comes on in the LM when the hatch is opened.
+055:37:08|T|CC|Buzz, the view in through your - by your right - left shoulder there is so good we can see the ascent engine cover, the Velcro on it, and that's about all we can make out right now.
+055:37:28|T|CC|Now we can see the helmet stowage bag - -
+055:37:29|T|CDR|(Laugher) We don't see anything loose up there.
+055:37:31|T|CC|Well, great. Looks good to us. We see the helmet storage bag.
+055:37:54|T|CC|And, 11. Houston. We got a view of the PLSS there, off the right of our screen.
+055:38:36|T|CC|11, Houston. Buzz, you already in? Over.
+055:38:43|T|LMP|Roger. I'm halfway in, I'm going to start turning around, I guess.
+055:38:47|T|CC|Roger.
+055:38:49|P|PAO|Buzz Aldrin, reporting that he's halfway into the LM. His view is inside the LM cabin.
+055:39:15|T|CC|Apollo 11, Houston. We'd like you to read out the LCG reservoir sight level. Over.
+055:39:27|T|LMP|Okay. Stand by.
 055:39:50|T|CC|11, we have a good view of the window there. It looks like the Sun's finally coming through the shade.
-055:40:00|T|LMP|Yes, I'm afraid it's - We're just about plus Z toward the Sun.
-055:40:05|T|CC|That's affirmative. This attitude put both windows right toward the Sun - or the LM. Over.
-055:40:14|T|LMP|Well, that may be good in some respects.
-055:40:22|T|CC|We had a view, Buzz, of the utility light cord. ...
-055:40:31|T|LMP|Now let me show you a view looking the other way.
-055:40:33|T|CC|Roger. And we see right now the utility light or either the floodlight up there.
-055:40:44|T|CC|I think now I see the utility light still in the stowage bag. Hey, that's a great shot right there. We see you in there. Guess that's Neil and Mike. Better be, anyway.
-055:41:13|T|CC|We see you waving.
-055:41:20|P|PAO|Buzz Aldrin has apparently carried the camera into the LM with him, showing us Neil Armstrong and Mike Collins back in the CSM.
-055:41:32|T|CC|11, Houston. That's really a beautiful shot.
-055:41:46|T|CC|11, Houston. We didn't quite decipher that signal that just came from the CMP.
-055:41:55|T|LMP|Just saying hello. On the LCG sight gage, you got about - oh, it looks like the white mark that's in the plunger is about a quarter to three-eighths inch out into the green away from the red. Is that what you'd like to see? Over.
-055:42:18|T|CC|Stand by. Roger, Buzz. That looks good to us. Thank you much.
-055:42:28|T|LMP|It is the white index, is it not, that you're interested in comparing whether it's in the red or green?
-055:42:34|T|CC|Stand by. That's affirmative, Buzz. It looks good. That's a good reading for us. Over.
-055:42:42|T|LMP|Okay.
-055:42:46|T|CC|We had a shot moment - a moment ago of the suit disconnect valve.
-055:42:58|T|LMP|I'll open up the windows and see what the lighting condition's going to be like.
-055:43:24|T|CC|11, Houston. That's a real good view we have of the AOT. You're back now, Buzz, and notice you're taking down one of the window shades. Over.
-055:43:35|T|CC|The light is superb.
+055:40:01|T|LMP|Yes, I'm afraid it's - We're just about plus Z toward the Sun.
+055:40:06|T|CC|That's affirmative. This attitude put both windows right toward the Sun - or the LM. Over.
+055:40:15|T|LMP|Well, that may be good in some respects.
+055:40:23|T|CC|We had a view, Buzz, of the utility light cord. ...
+055:40:32|T|LMP|Now let me show you a view looking the other way.
+055:40:34|T|CC|Roger. And we see right now the utility light or either the floodlight up there.
+055:40:45|T|CC|I think now I see the utility light still in the stowage bag. Hey, that's a great shot right there. We see you in there. Guess that's Neil and Mike. Better be, anyway.
+055:41:14|T|CC|We see you waving.
+055:41:21|P|PAO|Buzz Aldrin has apparently carried the camera into the LM with him, showing us Neil Armstrong and Mike Collins back in the CSM.
+055:41:33|T|CC|11, Houston. That's really a beautiful shot.
+055:41:47|T|CC|11, Houston. We didn't quite decipher that signal that just came from the CMP.
+055:41:56|T|CMP|Just saying hello.
+055:41:58|T|LMP|On the LCG sight gage, you got about - oh, it looks like the white mark that's in the plunger is about a quarter to three-eighths inch out into the green away from the red. Is that what you'd like to see? Over.
+055:42:19|T|CC|Stand by. Roger, Buzz. That looks good to us. Thank you much.
+055:42:29|T|LMP|It is the white index, is it not, that you're interested in comparing whether it's in the red or green?
+055:42:35|T|CC|Stand by. That's affirmative, Buzz. It looks good. That's a good reading for us. Over.
+055:42:43|T|LMP|Okay.
+055:42:47|T|CC|We had a shot moment - a moment ago of the suit disconnect valve.
+055:42:59|T|LMP|I'll open up the windows and see what the lighting condition's going to be like.
+055:43:25|T|CC|11, Houston. That's a real good view we have of the AOT. You're back now, Buzz, and notice you're taking down one of the window shades. Over.
+055:43:36|T|CC|The light is superb.
 055:43:37|T|LMP|How's the Sun coming in? How's the Sun coming in from this direction going to affect what you can see?
-055:43:44|T|CC|It made it really super. The lighting is excellent in the - in the LM right now. We can make out the AOT, the ISA, and the left-hand window - there's a little glare off of that, but the LMP side the - with the shade down it's really excellent. Over.
-055:44:08|T|LMP|Well, let's - I'm turned around, why I took the shade off my side first.
-055:44:16|T|CC|Roger. We copy. The light level for the TV is really excellent. Over.
-055:44:29|T|CDR|Yes, the lighting in the LM is very nice now, just like completely day-lit; and everything is visible. A good bit lighter than the tunnel was earlier.
-055:44:43|T|CC|Roger. We got a good view now, Neil, of the DEDA; and also Buzz's ACA.
-055:44:55|P|PAO|This ingress to the Lunar Module came about 40 minutes ahead of the Flight Plan, and we would presume that the unscheduled TV is perhaps merging with the schedule a little bit early.
-055:45:05|T|CDR|Hey, I'm pointing it at the front hatch now. Everything seems to be in place down there.
-055:45:11|T|CC|Roger, we got the dump valves in view. Over.
-055:45:18|T|LMP|...
-055:45:43|T|CC|11, Houston. We see you removing the ISA now, folding it up, putting it up on the AOT. The instrument panels are coming into view behind.
-055:45:58|T|LMP|Yes, I think it'd probably be best, since we've done SPS burn, to put it back over the instrument panel instead of putting it up over the PLSS on the recharge station. Would you care to comment on that one? We could do either just as easily.
-055:46:12|T|CC|Stand by. We'll have an answer for you momentarily.
-055:46:18|T|CC|11, Houston. That's really a super shot of the main display.
-055:46:58|T|LMP|The vehicle is surprisingly free of any debris floating around. It's very clean.
-055:47:04|T|CC|Roger.
-055:47:16|T|CC|11, Houston. It's pretty hard to describe this view. It's really - really great.
-055:47:23|T|LMP|Now you know how we feel.
-055:47:30|T|LMP|Okay. Neil's OPS is about 57, 5800.
-055:47:35|T|CC|Copy.
-055:47:36|T|LMP|And mine's about 5800, also.
-055:47:39|T|CC|Copy.
-055:47:52|P|PAO|Aldrin's hand resting on one of the portable life support systems which will be used on the Moons surface.
-055:48:05|T|CC|11, Houston. That's a good shot of Neil's PLSS, there. Over.
-055:48:15|T|LMP|No, that's mine.
-055:48:40|T|CC|11, Houston. That moment - a moment ago, we had a good shot of your PLSS, Buzz, and the two helmet stowage bags. And, now behind your left shoulder, Buzz, we have the - the DSKY and the ACA.
-055:48:57|P|PAO|We're not quite sure who's holding the camera at this point. Apparently it's drifting freely inside the cabin.
-055:49:12|P|PAO|Or more likely attached to some convenient point within the LM cabin.
-055:50:02|T|LMP|We're going to go ahead and take all the loop data on back into the Command Module, Charlie.
-055:50:07|T|CC|Roger.
-055:50:47|P|PAO|This television transmission has now been running about 42 minutes, and the spacecraft now about 176,000 miles from Earth.
-055:50:58|T|CC|Apollo 11, Houston. Buzz, it appears that you're attempting to put on the Sun filter and view the Sun through the AOT. Over.
-055:51:09|T|LMP|Yes, unfortunately it looks like it's down a little bit more towards ... than I can be able to see in the AOT.
-055:51:17|T|CC|Roger.
-055:52:15|T|LMP|We got a beautiful view of the side of the Command Module out of the AOT looking in the left rear detent.
-055:52:23|T|CC|Roger.
-055:52:24|T|LMP|I can see the hatch and all the - all the EVA handrails. First time we've seen the silvery outside of the Command Module.
-055:52:40|T|LMP|I can read the letters on the hatch cover. It's a boost cover release; and the big yellow arrow that points toward the opening - place where the tool B goes.
-055:52:55|T|CC|Roger. Great shot now back down into the -
-055:53:03|T|CMP|And left on the - -
-055:53:05|T|CC|Go ahead, Buzz. Over.
-055:53:07|T|LMP|Say again.
-055:53:08|T|CC|I was just saying we got a great shot looking back into the Command Module.
-055:53:09|T|LMP|...
-055:53:14|T|LMP|Okay. And the left detent, I can see the AO - or the rendezvous radar, and I move to the forward detent and that's about all I've got. I'm looking eyeball to eyeball.
-055:53:25|T|CC|Roger.
-055:53:32|P|PAO|Neil Armstrong has apparently been holding the camera, looking back down through the tunnel it appears now that he's handed the camera to Buzz Aldrin. As he is still looking back through the tunnel we see Mike Collins in the background there.
-055:54:08|T|LMP|Charlie, is there any concern about the duration that we ought to have the window shades open?
-055:54:14|T|CC|Stand by.
-055:54:17|T|LMP|We don't have - We don't have any circulation in here, and it might get a little on the warm side.
-055:54:23|T|CC|Roger.
-055:54:30|T|LMP|We'll - We'll put up a couple of hoses in the Command Module here and get a little circulation going.
-055:54:36|T|CC|Sounds like a good idea. Over.
-055:55:04|T|CC|Apollo 11, Houston. As far as the window shades go in this LM, there's nothing except for crew comfort. I don't think we've got any systems problem. Be sure to put them back up when you egress. Over.
-055:55:17|T|LMP|That we will do.
-055:55:53|T|LMP|Charlie, I'll give you a view out of the overhead window, back looking at the Command Module right-hand rendezvous window.
-055:56:01|T|CC|Roger.
+055:43:45|T|CC|It made it really super. The lighting is excellent in the - in the LM right now. We can make out the AOT, the ISA, and the left-hand window - there's a little glare off of that, but the LMP side the - with the shade down it's really excellent. Over.
+055:44:09|T|LMP|Well, let's - I'm turned around, why I took the shade off my side first.
+055:44:17|T|CC|Roger. We copy. The light level for the TV is really excellent. Over.
+055:44:30|T|CDR|Yes, the lighting in the LM is very nice now, just like completely day-lit; and everything is visible. A good bit lighter than the tunnel was earlier.
+055:44:44|T|CC|Roger. We got a good view now, Neil, of the DEDA; and also Buzz's ACA.
+055:44:56|P|PAO|This ingress to the Lunar Module came about 40 minutes ahead of the Flight Plan, and we would presume that the unscheduled TV is perhaps merging with the schedule a little bit early.
+055:45:06|T|CDR|Hey, I'm pointing it at the front hatch now. Everything seems to be in place down there.
+055:45:12|T|CC|Roger, we got the dump valves in view. Over.
+055:45:19|T|LMP|...
+055:45:44|T|CC|11, Houston. We see you removing the ISA now, folding it up, putting it up on the AOT. The instrument panels are coming into view behind.
+055:45:59|T|LMP|Yes, I think it'd probably be best, since we've done SPS burn, to put it back over the instrument panel instead of putting it up over the PLSS on the recharge station. Would you care to comment on that one? We could do either just as easily.
+055:46:13|T|CC|Stand by. We'll have an answer for you momentarily.
+055:46:19|T|CC|11, Houston. That's really a super shot of the main display.
+055:46:59|T|LMP|The vehicle is surprisingly free of any debris floating around. It's very clean.
+055:47:05|T|CC|Roger.
+055:47:17|T|CC|11, Houston. It's pretty hard to describe this view. It's really - really great.
+055:47:24|T|LMP|Now you know how we feel.
+055:47:31|T|LMP|Okay. Neil's OPS is about 57, 5800.
+055:47:36|T|CC|Copy.
+055:47:37|T|LMP|And mine's about 5800, also.
+055:47:40|T|CC|Copy.
+055:47:53|P|PAO|Aldrin's hand resting on one of the portable life support systems which will be used on the Moons surface.
+055:48:06|T|CC|11, Houston. That's a good shot of Neil's PLSS, there. Over.
+055:48:16|T|LMP|No, that's mine.
+055:48:41|T|CC|11, Houston. That moment - a moment ago, we had a good shot of your PLSS, Buzz, and the two helmet stowage bags. And, now behind your left shoulder, Buzz, we have the - the DSKY and the ACA.
+055:48:58|P|PAO|We're not quite sure who's holding the camera at this point. Apparently it's drifting freely inside the cabin.
+055:49:13|P|PAO|Or more likely attached to some convenient point within the LM cabin.
+055:50:03|T|LMP|We're going to go ahead and take all the loop data on back into the Command Module, Charlie.
+055:50:08|T|CC|Roger.
+055:50:48|P|PAO|This television transmission has now been running about 42 minutes, and the spacecraft now about 176,000 miles from Earth.
+055:50:59|T|CC|Apollo 11, Houston. Buzz, it appears that you're attempting to put on the Sun filter and view the Sun through the AOT. Over.
+055:51:10|T|LMP|Yes, unfortunately it looks like it's down a little bit more towards ... than I can be able to see in the AOT.
+055:51:18|T|CC|Roger.
+055:52:16|T|LMP|We got a beautiful view of the side of the Command Module out of the AOT looking in the left rear detent.
+055:52:24|T|CC|Roger.
+055:52:25|T|LMP|I can see the hatch and all the - all the EVA handrails. First time we've seen the silvery outside of the Command Module.
+055:52:41|T|LMP|I can read the letters on the hatch cover. It's a boost cover release; and the big yellow arrow that points toward the opening - place where the tool B goes.
+055:52:56|T|CC|Roger. Great shot now back down into the -
+055:53:04|T|CMP|And left on the - -
+055:53:06|T|CC|Go ahead, Buzz. Over.
+055:53:08|T|LMP|Say again.
+055:53:09|T|CC|I was just saying we got a great shot looking back into the Command Module.
+055:53:10|T|LMP|...
+055:53:15|T|LMP|Okay. And the left detent, I can see the AO - or the rendezvous radar, and I move to the forward detent and that's about all I've got. I'm looking eyeball to eyeball.
+055:53:26|T|CC|Roger.
+055:53:33|P|PAO|Neil Armstrong has apparently been holding the camera, looking back down through the tunnel it appears now that he's handed the camera to Buzz Aldrin. As he is still looking back through the tunnel we see Mike Collins in the background there.
+055:54:09|T|LMP|Charlie, is there any concern about the duration that we ought to have the window shades open?
+055:54:15|T|CC|Stand by.
+055:54:18|T|LMP|We don't have - We don't have any circulation in here, and it might get a little on the warm side.
+055:54:24|T|CC|Roger.
+055:54:31|T|LMP|We'll - We'll put up a couple of hoses in the Command Module here and get a little circulation going.
+055:54:37|T|CC|Sounds like a good idea. Over.
+055:55:05|T|CC|Apollo 11, Houston. As far as the window shades go in this LM, there's nothing except for crew comfort. I don't think we've got any systems problem. Be sure to put them back up when you egress. Over.
+055:55:18|T|LMP|That we will do.
+055:55:54|T|LMP|Charlie, I'll give you a view out of the overhead window, back looking at the Command Module right-hand rendezvous window.
+055:56:02|T|CC|Roger.
 055:56:20|T|CC|Well, we see it now. Thanks a lot, Buzz. That's a good view through the overhead.
-055:56:32|T|LMP|One washer on -
-055:56:38|T|LMP|One washer's on by the overhead.
-055:56:42|T|CC|Roger.
-055:56:49|T|CC|There we go. We got it now.
-055:56:58|T|CDR|There wasn't very much debris in the Command Module or the LM. We found very few loose particles of bolts, nuts, and screws and lint and things. Very few in each spacecraft. They were very clean.
-055:57:14|T|CC|Roger. Sounds good.
-055:57:45|T|CC|11, Houston. We have a good view out of the rendezvous - correction, the overhead window of the LM. We don't see anybody staring back at us, though. Over.
-055:59:03|T|LMP|Charlie, can you see Mike's two eyeballs staring out through the rendezvous window?
-055:59:11|T|CC|11, Houston. Stand by. We haven't picked him up yet.
-055:59:22|T|CDR|You are looking through a lot of layers of glass.
+055:56:33|T|LMP|One washer on -
+055:56:39|T|LMP|One washer's on by the overhead.
+055:56:43|T|CC|Roger.
+055:56:50|T|CC|There we go. We got it now.
+055:56:59|T|CDR|There wasn't very much debris in the Command Module or the LM. We found very few loose particles of bolts, nuts, and screws and lint and things. Very few in each spacecraft. They were very clean.
+055:57:15|T|CC|Roger. Sounds good.
+055:57:46|T|CC|11, Houston. We have a good view out of the rendezvous - correction, the overhead window of the LM. We don't see anybody staring back at us, though. Over.
+055:59:04|T|LMP|Charlie, can you see Mike's two eyeballs staring out through the rendezvous window?
+055:59:12|T|CC|11, Houston. Stand by. We haven't picked him up yet.
+055:59:23|T|CDR|You are looking through a lot of layers of glass.
 055:59:39|T|CC|11, Houston. We had a - -
 055:59:40|T|LMP|... on my monitor.
-055:59:41|T|CC|We had a slight glimpse of Mike in the rendezvous window at that time. It's pretty murky looking into there, though.
-055:59:48|T|LMP|Okay. Here he is; I've got him. I've got, him on the monitor now.
-055:59:55|T|CC|Okay. We see him staring back at us now. Hello, in there.
+055:59:42|T|CC|We had a slight glimpse of Mike in the rendezvous window at that time. It's pretty murky looking into there, though.
+055:59:49|T|LMP|Okay. Here he is; I've got him. I've got, him on the monitor now.
+055:59:56|T|CC|Okay. We see him staring back at us now. Hello, in there.
 056:00:29|T|CC|Apollo 11, Houston. Our recommendation for the ISA is to stow it back over the instrument panel. Over.
 056:00:42|T|LMP|Roger. Will do.
-056:01:44|PAO|This transmission has been running about 54 minutes at this point.
-056:01:57|T|CC|11, Houston. We can make out the markings on the panel. We read SYSTEM A ASCENT FUEL, ASCENT OXIDIZER. Quad 1, quad 4. The - It's really unbelievable, the definition we're getting down here off that little camera. Over.
+056:01:45|PAO|This transmission has been running about 54 minutes at this point.
+056:01:58|T|CC|11, Houston. We can make out the markings on the panel. We read SYSTEM A ASCENT FUEL, ASCENT OXIDIZER. Quad 1, quad 4. The - It's really unbelievable, the definition we're getting down here off that little camera. Over.
 056:02:15|T|CC|We can even see the barber pole on the talkbacks.
-056:02:24|T|CC|We can read the markings on the instruments for the glycol pressure, quantity, PC O2. You can even read the scale on the eight ball. Over.
+056:02:25|T|CC|We can read the markings on the instruments for the glycol pressure, quantity, PC O2. You can even read the scale on the eight ball. Over.
 056:02:58|T|CC|11, Houston. We see the cross-feed barber pole, and we have the Velcro patches back up to the RCS systems now. We can see the markings on the meters, green and red bands, in limits.
-056:03:27|T|CC|We see you raised the cover on the abort stage. We don't recommend that.
-056:03:34|T|LMP|Yes. We're going to tape that one over.
+056:03:28|T|CC|We see you raised the cover on the abort stage. We don't recommend that.
+056:03:35|T|LMP|Yes. We're going to tape that one over.
 056:03:36|T|CC|Roger.
-056:03:36|T|LMP|We're going to tape that one over.
-056:03:37|T|CC|We concur.
-056:03:44|T|LMP|The restraints in here do a pretty good job of pulling my pants down.
-056:03:53|T|CC|Roger. We haven't quite got that before the 50,000,000 TV audience, yet.
+056:03:37|T|LMP|We're going to tape that one over.
+056:03:38|T|CC|We concur.
+056:03:45|T|LMP|The restraints in here do a pretty good job of pulling my pants down.
+056:03:54|T|CC|Roger. We haven't quite got that before the 50,000,000 TV audience, yet.
 056:04:17|T|CC|11, Houston. That's a good view of the eight ball. We see - You can even read the OFF flag, there.
-056:04:30|T|CC|You can see the signal strength meter for the radar, read the numbers on it.
-056:04:38|T|LMP|Houston, did you want us to test the cameras in the LM and - I was wondering about that. I saw it in the Flight Plan, but I'm just wondering if you want to do that on CSM power, or do you want us to take both of the 16mm cameras back in the CSM and test them there? Over.
+056:04:31|T|CC|You can see the signal strength meter for the radar, read the numbers on it.
+056:04:55|T|LMP|Houston, did you want us to test the cameras in the LM and - I was wondering about that. I saw it in the Flight Plan, but I'm just wondering if you want to do that on CSM power, or do you want us to take both of the 16mm cameras back in the CSM and test them there? Over.
 056:04:55|PAO|At this point, we have had to take the color down momentarily. We've run out of tape in the color conversion recorder. We estimate we'll have the black and white for about 5 minutes while the tape changes in process and then continue to convert in color after that point.
-056:05:02|T|CC|Stand by, Buzz.
-056:05:05|T|LMP|As an alternative to that, why, we could wait LOI day and do it then when we transfer over to LM power.
-056:05:22|T|CC|Roger. Stand by. We'll have an answer.
-056:05:36|T|CC|11, Houston. On that TV, our commentary - The monitor I was looking at was delayed about 12 seconds, 12 to 15 seconds while it went through our color converter. It was probably - You thought I was crazy, but we were looking at it 15 seconds after you broadcast it. 11, Houston - -
-056:05:56|T|LMP|We understood that, Charlie.
-056:05:58|T|CC|Okay. On the LM cameras, we'd like you to do it on LOI day with the LM power. Over.
-056:06:09|T|LMP|Okay. That's what we'll do.
-056:06:53|P|PAO|The black and white view that you're seeing now is the unconverted color picture as it comes down from the spacecraft. The flicker, of course, is taken out in the conversion process. We've now been receiving television pictures from the spacecraft for about 1 hour.
-056:07:02|T|LMP|Houston, we're showing you something that came out of the Commander's checklist stowage packet. It's got a 16-millimeter camera in it, and it's got this little cylinder; and I guess - I don't understand what it is. Maybe you can tell us.
-056:07:24|T|CC|Roger. Stand by. We can't figure it out either.
-056:07:35|T|LMP|It's got an arrow on the back, and it says "turn," but I'm afraid to turn it.
-056:07:46|T|CC|11, your friendly geologist says it's the camera cank- crank, excuse me, for the 16-sequence camera if it jams. Over.
-056:08:00|T|LMP|Oh, very well. Thank you.
-056:08:05|P|PAO|The reference to the friendly geologist refers to Astronaut, Jack Schmitt who is here in the Control Center.
-056:08:18|T|LMP|There's that word again. The ancillary stowage container.
-056:08:25|T|CC|Roger.
-056:08:34|P|PAO|And, we're back with the color.
+056:05:19|T|CC|Stand by, Buzz.
+056:05:23|T|LMP|As an alternative to that, why, we could wait LOI day and do it then when we transfer over to LM power.
+056:05:33|T|CC|Roger. Stand by. We'll have an answer.
+056:05:47|T|CC|11, Houston. On that TV, our commentary - The monitor I was looking at was delayed about 12 seconds, 12 to 15 seconds while it went through our color converter. It was probably - You thought I was crazy, but we were looking at it 15 seconds after you broadcast it. 11, Houston - -
+056:06:06|T|LMP|We understood that, Charlie.
+056:06:09|T|CC|Okay. On the LM cameras, we'd like you to do it on LOI day with the LM power. Over.
+056:06:20|T|LMP|Okay. That's what we'll do.
+056:07:04|P|PAO|The black and white view that you're seeing now is the unconverted color picture as it comes down from the spacecraft. The flicker, of course, is taken out in the conversion process. We've now been receiving television pictures from the spacecraft for about 1 hour.
+056:07:17|T|LMP|Houston, we're showing you something that came out of the Commander's checklist stowage packet. It's got a 16-millimeter camera in it, and it's got this little cylinder; and I guess - I don't understand what it is. Maybe you can tell us.
+056:07:35|T|CC|Roger. Stand by. We can't figure it out either.
+056:07:46|T|LMP|It's got an arrow on the back, and it says "turn," but I'm afraid to turn it.
+056:07:57|T|CC|11, your friendly geologist says it's the camera cank- crank, excuse me, for the 16-sequence camera if it jams. Over.
+056:08:11|T|LMP|Oh, very well. Thank you.
+056:08:16|P|PAO|The reference to the friendly geologist refers to Astronaut, Jack Schmitt who is here in the Control Center.
+056:08:29|T|LMP|There's that word again. The ancillary stowage container.
+056:08:36|T|CC|Roger.
+056:08:46|P|PAO|And, we're back with the color.
 056:09:11|T|CC|The shades couldn't quite hack it, there, Buzz. Over.
-056:09:51|T|CMP|Houston, 11. Are you still getting high bit rate off the OMNI's at this distance?
-056:09:56|T|CC|Stand by, Mike.
-056:10:07|T|CC|Apollo 11, Houston. About 50 percent of the time, we're getting high bit rate off the OMNI's when you're in PTC. Over.
+056:09:52|T|CMP|Houston, 11. Are you still getting high bit rate off the OMNI's at this distance?
+056:09:57|T|CC|Stand by, Mike.
+056:10:08|T|CC|Apollo 11, Houston. About 50 percent of the time, we're getting high bit rate off the OMNI's when you're in PTC. Over.
 056:10:18|T|CMP|Okay. Thank you.
-056:10:19|T|CC|You're welcome.
+056:10:20|T|CC|You're welcome.
 056:11:25|T|CC|Apollo 11, Houston. Neil, at this attitude you look like you're about 12 feet long.
-056:11:34|T|CDR|It seems like I always find myself upside-down in whatever I'm doing around here.
+056:11:35|T|CDR|It seems like I always find myself upside-down in whatever I'm doing around here.
 056:12:29|T|CC|Apollo 11, Houston. Could you give us a few comments on your crew comfort with the CSM hoses moving the air around? Over.
-056:12:43|T|LMP|Well, it's picking up a little bit on circulation in here.
+056:12:44|T|LMP|Well, it's picking up a little bit on circulation in here.
 056:12:48|T|CC|What do you estimate the temperature is, Buzz? Over.
 056:12:58|T|LMP|Oh, I'd say maybe 73, 75.
-056:13:02|T|CC|Roger.
-056:13:06|T|CDR|It's hard to tell at this density and pressure of gas, but comfort level is about the - about the same as the Command Module.
-056:13:20|T|CC|You probably - -
+056:13:03|T|CC|Roger.
+056:13:07|T|CDR|It's hard to tell at this density and pressure of gas, but the comfort level is about the - about the same as the Command Module.
+056:13:21|T|CC|You probably - -
 056:13:21|T|CDR|It was a little warmer or stuffier when we first got in, but it seems to be improving.
-056:13:27|T|CC|Houston copies. Out.
+056:13:28|T|CC|Houston copies. Out.
 056:14:28|T|CC|11, Houston.
 056:14:29|T|LMP|You may be able to see some - -
-056:14:31|T|CC|Go ahead.
-056:14:32|T|LMP|- - some particles jumping around on your screen. That's just dust particles that are being illuminated by Sun shafting in the window.
+056:14:32|T|CC|Go ahead.
+056:14:33|T|LMP|- - some particles jumping around on your screen. That's just dust particles that are being illuminated by Sun shafting in the window.
 056:14:42|T|CC|Roger. They're very clear now. Over. And that's a good view of Neil's - correction, of Buzz's circuit breaker panel, there.
 056:15:51|T|LMP|I can just barely see the handrail on the front porch from this position on the right-hand window.
 056:16:00|T|CC|Roger.
