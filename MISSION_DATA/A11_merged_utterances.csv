@@ -4037,99 +4037,99 @@
 070:59:10|P|PAO|Planned wake-up time for the crew is 71 hours elapsed. Cliff Charlesworth and the Green Team of Flight Controllers has just relieved Glynn Lunney's Black team. Capcom now is Bruce McCandless. Apollo 11 is 13,638 nautical miles from the Moon. Velocity, 4,047 feet per second, lunar referenced.
 071:00:06|P|PAO|Apollo 11 is 12,486 nautical miles from the Moon. Approaching at a velocity of 4,087 feet per second. We will stand by here and see whether we put in a call to the crew.
 071:03:00|P|PAO|We're putting a call into the crew now.
-071:03:28|T|CC|Apollo 11, Apollo 11, this is Houston. Over.
-071:03:37|T|LMP|Good morning again, Houston. Apollo 11.
-071:03:40|T|CC|Roger 11. Good morning. When you - -
-071:03:48|T|LMP|Would you like the O2 purge this morning?
-071:03:52|T|CC|Yes indeed. O2 fuel cell purge at 71 hours, and when you feel like copying, I've got a Flight Plan update containing - I guess that, and some other items for you.
-071:04:08|T|LMP|Okay. Stand by.
-071:06:58|T|LMP|Houston, Apollo 11. Go ahead with the Flight Plan update.
-071:07:03|T|CC|Roger, 11. This is Houston. At approximately 71 hours to 72 hours, we have you down for an eat period which I imagine is probably in progress already. 71 hours: O2 fuel cell purge; 72 hours GET: CO2 filter change number 6, secondary radiator flow check. And we'll send you up a P37 block data on a 2 hour pass, pericynthion pass, return mode abort. At 73 hours 00 minutes: stop PTC at approximately 0 degrees roll. That is, when you're coming up on 0 degrees roll angle around 73 hours, we'd like you to stop PTC. And perform a P52 option 3 remaining in the PTC REFSMMAT for a drift check. 73 hours, 20 minutes: we'll give you a P27 update to the landing site REFSMMAT, LOI 1 state vector, and target load. 73 hours 30 minutes: a maneuver to 000 roll, pitch, and yaw; high-gain antenna angles will be pitch 0, yaw 335; and perform a P52 option 1 using the new landing site REFSMMAT. Resume the nominal Flight Plan at 74 hours GET. Over.
-071:09:07|T|LMP|Okay. We'll get started on the fuel cell purge while we're eating. CO2 canister change number 6; secondary radiator flow check; copy some pads. Also at 72 hours, stop PTC 0 roll at 73; do a P52 option 3; we'll get your uplinked REFSMMAT for the landing site; and at 000 degrees - now is this with the old REFSMMAT or the new REFSMMAT?
-071:09:44|T|CC|This is with the - -
-071:09:45|T|LMP|- - ... antenna and, pitch - -
-071:09:49|T|CC|- - This is with the new REFSMMAT, Buzz.
-071:09:58|T|LMP|You said you want the P52 done at that attitude with the new REFSMMAT?
-071:10:04|T|CC|Roger.
-071:12:00|T|CC|Apollo 11, this is Houston. Over.
-071:12:16|T|CC|Apollo 11, this is Houston. Over.
-071:12:33|T|CC|Apollo 11, this is Houston. Over.
-071:12:40|T|CMP|Houston, go ahead.
-071:12:42|T|CC|Roger, 11. Correction on my last. At 73:20, we uplink you the new REFSMMAT. And at 73:30, we'd like you to maneuver to 0 roll, 0 pitch, 0 yaw in the old REFSMMAT. And then torque around to the new REFSMMAT and run your P52 option 1 in that same inertial attitude. Over.
-071:13:12|T|CMP|Roger, Understand.
-071:13:14|T|CC|I've got consumables update, when you're ready to copy.
-071:13:21|T|LMP|I just got up, but you didn't catch me on that one.
-071:13:25|T|CC|I say I have one for you.
-071:13:55|T|LMP|Okay. We're ready to copy that consumable update.
-071:13:58|T|CC|Roger. As of GET 68:00, RCS total minus 4.5 percent, corresponding to approximately minus 53 pounds. Alfa minus 6.0 percent, minus 1.0 percent, minus 7.0 percent, minus 3.0 percent; H2 total, minus 1.2 pounds; O2 total, plus 10 pounds. Over.
-071:14:49|T|LMP|Roger. And our readouts onboard are Alfa is 82, Bravo is 84, Cocoa is 84, and Delta is 87.
-071:15:08|T|CC|Houston. Roger. Out.
-071:15:13|T|LMP|And you want us to cycle the O2 and H2 fans, I imagine, huh?
-071:15:23|T|CC|11, this is Houston. Affirmative. Over.
+071:03:30|T|CC|Apollo 11, Apollo 11, this is Houston. Over.
+071:03:39|T|LMP|Good morning again, Houston. Apollo 11.
+071:03:42|T|CC|Roger 11. Good morning. When you - -
+071:03:50|T|LMP|Would you like the O2 purge this morning?
+071:03:54|T|CC|Yes indeed. O2 fuel cell purge at 71 hours, and when you feel like copying, I've got a Flight Plan update containing - I guess that, and some other items for you.
+071:04:10|T|LMP|Okay. Stand by.
+071:07:00|T|LMP|Houston, Apollo 11. Go ahead with the Flight Plan update.
+071:07:05|T|CC|Roger, 11. This is Houston. At approximately 71 hours to 72 hours, we have you down for an eat period which I imagine is probably in progress already. 71 hours: O2 fuel cell purge; 72 hours GET: CO2 filter change number 6, secondary radiator flow check. And we'll send you up a P37 block data on a 2 hour pass, pericynthion pass, return mode abort. At 73 hours 00 minutes: stop PTC at approximately 0 degrees roll. That is, when you're coming up on 0 degrees roll angle around 73 hours, we'd like you to stop PTC. And perform a P52 option 3 remaining in the PTC REFSMMAT for a drift check. 73 hours, 20 minutes: we'll give you a P27 update to the landing site REFSMMAT, LOI 1 state vector, and target load. 73 hours 30 minutes: a maneuver to 000 roll, pitch, and yaw; high-gain antenna angles will be pitch 0, yaw 335; and perform a P52 option 1 using the new landing site REFSMMAT. Resume the nominal Flight Plan at 74 hours GET. Over.
+071:09:09|T|LMP|Okay. We'll get started on the fuel cell purge while we're eating. CO2 canister change number 6; secondary radiator flow check; copy some pads. Also at 72 hours, stop PTC 0 roll at 73; do a P52 option 3; we'll get your uplinked REFSMMAT for the landing site; and at 000 degrees - now is this with the old REFSMMAT or the new REFSMMAT?
+071:09:46|T|CC|This is with the - -
+071:09:47|T|LMP|- - ... antenna and, pitch - -
+071:09:51|T|CC|- - This is with the new REFSMMAT, Buzz.
+071:10:00|T|LMP|You said you want the P52 done at that attitude with the new REFSMMAT?
+071:10:06|T|CC|Roger.
+071:12:01|T|CC|Apollo 11, this is Houston. Over.
+071:12:17|T|CC|Apollo 11, this is Houston. Over.
+071:12:34|T|CC|Apollo 11, this is Houston. Over.
+071:12:41|T|CMP|Houston, go ahead.
+071:12:43|T|CC|Roger, 11. Correction on my last. At 73:20, we uplink you the new REFSMMAT. And at 73:30, we'd like you to maneuver to 0 roll, 0 pitch, 0 yaw in the old REFSMMAT. And then torque around to the new REFSMMAT and run your P52 option 1 in that same inertial attitude. Over.
+071:13:13|T|CMP|Roger, Understand.
+071:13:15|T|CC|I've got consumables update, when you're ready to copy.
+071:13:22|T|LMP|I just got up, but you didn't catch me on that one.
+071:13:26|T|CC|I say I have one for you.
+071:13:56|T|LMP|Okay. We're ready to copy that consumable update.
+071:13:59|T|CC|Roger. As of GET 68:00, RCS total minus 4.5 percent, corresponding to approximately minus 53 pounds. Alfa minus 6.0 percent, minus 1.0 percent, minus 7.0 percent, minus 3.0 percent; H2 total, minus 1.2 pounds; O2 total, plus 10 pounds. Over.
+071:14:50|T|LMP|Roger. And our readouts onboard are Alfa is 82, Bravo is 84, Cocoa is 84, and Delta is 87.
+071:15:09|T|CC|Houston. Roger. Out.
+071:15:14|T|LMP|And you want us to cycle the O2 and H2 fans, I imagine, huh?
+071:15:24|T|CC|11, this is Houston. Affirmative. Over.
 071:15:31|T|LMP|Okay.
-071:23:26|T|LMP|Houston, Apollo 11. I have a status report for you.
-071:23:33|T|CC|Go ahead, 11.
-071:23:37|T|LMP|Roger. On sleep; CDR, CMP, 7.5; LMP, 6.5. Over.
-071:23:45|T|CC|Roger. 7.5 for each. Over.
-071:23:53|T|LMP|Negative. LMP 6.5.
-071:23:56|T|CC|Roger. 7.5, 7.5 and 6.5. And, I got a few words for you here on the SPS engine performance. Over.
-071:24:13|T|LMP|Okay. We're ready to listen.
-071:24:17|T|CC|Okay, 11. It turns out that the engine performance during both of your burns so far this mission has been the same as it was on engine acceptance tests. The onboard PC readings is due to a known gage calibration factor between what you've actually got in the chamber and what you're reading out on the gage. We expect single bank operation to be 90 - that is, 90 psi on the gage with an actual chamber pressure of 95 psi. In dual bank operation, the chamber pressure is 94 psi on the gage with an actual of 99 psi. 80 psi on the gage onboard correlates to 83 psi actual. And we recommend that you stick to an LOI termination cue of 80 psi on the gage. That is, no change to the mission rules. Over.
-071:25:36|T|CDR|Apollo 11. Roger. We got all that.
-071:25:39|T|CC|Houston. Out.
-071:31:25|P|PAO|This is Apollo Control at 71 hours, 31 minutes. Apollo 11's distance from the Moon now 11,232 nautical miles approaching at a velocity of 4,141 feet per second.
-071:33:08|T|LMP|Houston. Apollo 11.
-071:33:11|T|CC|Apollo 11, this is Houston. Go ahead. Over.
-071:33:24|T|CC|Apollo 11, this is Houston. Go ahead. Over.
-071:33:39|T|CC|Apollo 11, this is Houston. Go ahead. Over.
-071:33:47|T|CDR|Houston, do you read Apollo 11?
-071:33:49|T|CC|Roger, 11. We're reading you loud and clear now. We were down in the noise as we switched antennas a minute or so ago. Over.
-071:33:59|T|LMP|Roger. What sort of settings could you recommend for the solar corona? We've got the Sun right behind the edge of the Moon now.
-071:34:11|T|CC|Roger.
-071:34:15|T|LMP|It's quite an eerie sight. There is a very marked three dimensional aspect of having the Sun's corona coming from behind the Moon the way it is.
-071:34:26|T|CC|Roger.
-071:34:30|T|LMP|And it looks as though - I guess what's giving it that three dimensional effect is the earthshine. I can see Tycho fairly clearly - at least if I'm right side up, I believe it's Tycho, in moonshine - I mean, in earthshine.
-071:34:55|T|And, of course, I can see the sky is lit all the way around the Moon, even on the limb of it where there's no earthshine or sunshine.
-071:35:39|T|CC|Apollo 11, this is Houston. Over.
-071:35:44|T|LMP|Go ahead.
-071:35:46|T|CC|Roger. If you'd like to take some pictures, we recommend using magazine Uniform which is loaded with high speed black and white film, interior lights off, electric Hasselblad with the 80 millimeter lens. And you're going to have to hand-hold this, I guess. We're recommending an f stop of 2.8, and we'd like to get a sequence of time exposures. Over.
-071:36:24|T|LMP|Okay. You want magazine Uniform instead of magazine Tango? Over.
-071:36:29|T|CC|Roger. We're not trying to get you all wrapped up in a procedure here. This is on a not-to-interfere basis, of course. Over.
-071:36:42|T|LMP|Okay.
-071:36:46|T|CC|And on the exposures we're looking for an 1/8 of a second, a half a second. And, if you think you can steady the camera against anything to get longer exposures, 2 seconds, 4 seconds, and 8 seconds. Over.
-071:37:10|T|LMP|Roger. We copy.
-071:37:12|T|CC|Roger. Out.
-071:39:14|T|CC|Apollo 11, Houston. Over.
-071:39:23|T|CMP|Go ahead, Houston.
-071:39:24|T|CC|Roger. We'd like to do a little CRYO tank balancing. So, if you could position the oxygen tank number 1 heater switch to OFF and hydrogen tank 2 heater switch to OFF leaving all the rest of the CRYO switches the same, we'll let it run that way for a few hours. Over.
-071:39:47|T|CMP|Okay. Stand by one on those switches. We'll get them in a minute.
-071:39:50|T|CC|Roger. And how far out can you see the corona extending? Over.
-071:40:13|T|CDR|... bit like zodiacal light. It keeps going out farther and farther. We'll talk about it a little more later.
-071:40:30|T|CC|Roger. Out.
-071:43:10|T|CDR|... We've got quite a few pictures ...
-071:44:05|T|CC|Apollo 11, this is Houston. I think we have COMM again. We heard you calling. Over.
-071:44:26|T|CC|Apollo 11, this is Houston. Were you calling? Over.
-071:44:48|T|CMP|Houston, Apollo 11. Understand you want the heaters OFF for hydrogen tank 1 and oxygen tank 1. Is that affirmative?
-071:44:56|T|CC|That's negative, Mike. Hydrogen tank number 2 heaters OFF and oxygen tank number 1 heaters OFF.
-071:45:05|T|CMP|Okay.
-071:45:07|T|CC|Roger. Out.
-071:45:12|T|CMP|I have hydrogen tank number 2 heaters OFF; I have oxygen tank number 1 heaters OFF.
-071:45:17|T|CC|Roger. Out.
-071:52:15|T|CMP|Houston. Apollo 11. The earthshine coming through the window is so bright you can read a book by it.
-071:52:23|T|CC|Oh, very good.
-071:55:59|T|CDR|And, Houston, I'd suggest that along the ecliptic line we can see the corona light out to two lunar diameters from this location. The bright light only extends out about an eighth to a quarter of the lunar radius.
-071:56:35|T|CC|Roger. Understand that you can see the corona approximately 200 solar diameters out along the ecliptic, and the bright light extends out approximately one eighth to one quarter lunar radius. Over.
-071:56:51|T|CDR|That's two lunar - two lunar diameters along the ecliptic in the bright part, right; a quarter to an eighth of a lunar radius out, and that's perpendicular to the ecliptic line on the South Pole.
-071:57:06|T|CC|Roger.
-071:57:58|P|PAO|That last transmission was from Neil Armstrong.
-071:59:20|T|CDR|Houston, it's been a real change for us. Now we are able to see stars again and recognize constellations for the first time on the trip. It's - the sky is full of stars. Just like the nightside of Earth. But, all the way here, we have only been able to see stars occasionally and perhaps through the monocular, but not recognize any star patterns.
-071:59:51|T|CC|I guess it has turned into night up there really, hasn't it?
-071:59:57|T|CDR|Really has.
-072:04:57|T|CC|11, this is Houston. Go ahead. Over.
+071:23:27|T|LMP|Houston, Apollo 11. I have a status report for you.
+071:23:34|T|CC|Go ahead, 11.
+071:23:38|T|LMP|Roger. On sleep; CDR, CMP, 7.5; LMP, 6.5. Over.
+071:23:46|T|CC|Roger. 7.5 for each. Over.
+071:23:54|T|LMP|Negative. LMP 6.5.
+071:23:57|T|CC|Roger. 7.5, 7.5 and 6.5. And, I got a few words for you here on the SPS engine performance. Over.
+071:24:14|T|LMP|Okay. We're ready to listen.
+071:24:18|T|CC|Okay, 11. It turns out that the engine performance during both of your burns so far this mission has been the same as it was on engine acceptance tests. The onboard PC readings is due to a known gage calibration factor between what you've actually got in the chamber and what you're reading out on the gage. We expect single bank operation to be 90 - that is, 90 psi on the gage with an actual chamber pressure of 95 psi. In dual bank operation, the chamber pressure is 94 psi on the gage with an actual of 99 psi. 80 psi on the gage onboard correlates to 83 psi actual. And we recommend that you stick to an LOI termination cue of 80 psi on the gage. That is, no change to the mission rules. Over.
+071:25:37|T|CDR|Apollo 11. Roger. We got all that.
+071:25:40|T|CC|Houston. Out.
+071:31:26|P|PAO|This is Apollo Control at 71 hours, 31 minutes. Apollo 11's distance from the Moon now 11,232 nautical miles approaching at a velocity of 4,141 feet per second.
+071:33:09|T|LMP|Houston. Apollo 11.
+071:33:12|T|CC|Apollo 11, this is Houston. Go ahead. Over.
+071:33:25|T|CC|Apollo 11, this is Houston. Go ahead. Over.
+071:33:40|T|CC|Apollo 11, this is Houston. Go ahead. Over.
+071:33:48|T|CDR|Houston, do you read Apollo 11?
+071:33:50|T|CC|Roger, 11. We're reading you loud and clear now. We were down in the noise as we switched antennas a minute or so ago. Over.
+071:34:00|T|LMP|Roger. What sort of settings could you recommend for the solar corona? We've got the Sun right behind the edge of the Moon now.
+071:34:12|T|CC|Roger.
+071:34:16|T|LMP|It's quite an eerie sight. There is a very marked three dimensional aspect of having the Sun's corona coming from behind the Moon the way it is.
+071:34:27|T|CC|Roger.
+071:34:31|T|LMP|And it looks as though - I guess what's giving it that three dimensional effect is the earthshine. I can see Tycho fairly clearly - at least if I'm right side up, I believe it's Tycho, in moonshine - I mean, in earthshine.
+071:34:56|T|And, of course, I can see the sky is lit all the way around the Moon, even on the limb of it where there's no earthshine or sunshine.
+071:35:40|T|CC|Apollo 11, this is Houston. Over.
+071:35:45|T|LMP|Go ahead.
+071:35:47|T|CC|Roger. If you'd like to take some pictures, we recommend using magazine Uniform which is loaded with high speed black and white film, interior lights off, electric Hasselblad with the 80 millimeter lens. And you're going to have to hand-hold this, I guess. We're recommending an f stop of 2.8, and we'd like to get a sequence of time exposures. Over.
+071:36:25|T|LMP|Okay. You want magazine Uniform instead of magazine Tango? Over.
+071:36:30|T|CC|Roger. We're not trying to get you all wrapped up in a procedure here. This is on a not-to-interfere basis, of course. Over.
+071:36:43|T|LMP|Okay.
+071:36:47|T|CC|And on the exposures we're looking for an 1/8 of a second, a half a second. And, if you think you can steady the camera against anything to get longer exposures, 2 seconds, 4 seconds, and 8 seconds. Over.
+071:37:11|T|LMP|Roger. We copy.
+071:37:13|T|CC|Roger. Out.
+071:39:15|T|CC|Apollo 11, Houston. Over.
+071:39:24|T|CMP|Go ahead, Houston.
+071:39:25|T|CC|Roger. We'd like to do a little CRYO tank balancing. So, if you could position the oxygen tank number 1 heater switch to OFF and hydrogen tank 2 heater switch to OFF leaving all the rest of the CRYO switches the same, we'll let it run that way for a few hours. Over.
+071:39:48|T|CMP|Okay. Stand by one on those switches. We'll get them in a minute.
+071:39:51|T|CC|Roger. And how far out can you see the corona extending? Over.
+071:40:14|T|CDR|... bit like zodiacal light. It keeps going out farther and farther. We'll talk about it a little more later.
+071:40:31|T|CC|Roger. Out.
+071:43:11|T|CDR|... We've got quite a few pictures ...
+071:44:06|T|CC|Apollo 11, this is Houston. I think we have COMM again. We heard you calling. Over.
+071:44:27|T|CC|Apollo 11, this is Houston. Were you calling? Over.
+071:44:49|T|CMP|Houston, Apollo 11. Understand you want the heaters OFF for hydrogen tank 1 and oxygen tank 1. Is that affirmative?
+071:44:57|T|CC|That's negative, Mike. Hydrogen tank number 2 heaters OFF and oxygen tank number 1 heaters OFF.
+071:45:06|T|CMP|Okay.
+071:45:08|T|CC|Roger. Out.
+071:45:13|T|CMP|I have hydrogen tank number 2 heaters OFF; I have oxygen tank number 1 heaters OFF.
+071:45:18|T|CC|Roger. Out.
+071:52:16|T|CMP|Houston. Apollo 11. The earthshine coming through the window is so bright you can read a book by it.
+071:52:24|T|CC|Oh, very good.
+071:56:00|T|CDR|And, Houston, I'd suggest that along the ecliptic line we can see the corona light out to two lunar diameters from this location. The bright light only extends out about an eighth to a quarter of the lunar radius.
+071:56:36|T|CC|Roger. Understand that you can see the corona approximately 200 solar diameters out along the ecliptic, and the bright light extends out approximately one eighth to one quarter lunar radius. Over.
+071:56:52|T|CDR|That's two lunar - two lunar diameters along the ecliptic in the bright part, right; a quarter to an eighth of a lunar radius out, and that's perpendicular to the ecliptic line on the South Pole.
+071:57:07|T|CC|Roger.
+071:57:59|P|PAO|That last transmission was from Neil Armstrong.
+071:59:21|T|CDR|Houston, it's been a real change for us. Now we are able to see stars again and recognize constellations for the first time on the trip. It's - the sky is full of stars. Just like the nightside of Earth. But, all the way here, we have only been able to see stars occasionally and perhaps through the monocular, but not recognize any star patterns.
+071:59:52|T|CC|I guess it has turned into night up there really, hasn't it?
+071:59:58|T|CDR|Really has.
+072:04:56|T|CC|11, this is Houston. Go ahead. Over.
 072:07:31|P|PAO|This is Apollo Control at 72 hours, 7 minutes. Apollo 11 is 9,761 nautical miles from the Moon, velocity 4,217 feet per second. Weight 9,612 pounds.
-072:13:47|T|CC|Apollo 11, this is Houston. Do you read? Over.
+072:13:48|T|CC| Apollo 11, this is Houston. Do you read? Over.
 072:14:37|T|CC|Apollo 11, this is Houston. How do you read? Over.
-072:14:43|T|CDR|Okay. We went to high-gain. Looks like you had a little trouble getting signal strength there.
+072:14:44|T|CDR|Okay. We went to high-gain. Looks like you had a little trouble getting signal strength there.
 072:14:48|T|CC|Roger. We missed an OMNI switch there. Over.
 072:14:55|T|CDR|All right. On the secondary loop check when we went to FLOW on the secondary radiators, the quantity dropped from 40 percent down to 36 in the first 10 seconds and then stabilized at 36 for the remainder of the 30 seconds.
 072:15:30|T|CC|Apollo 11, this is Houston. We believe that's normal system operation. The radiators are expected to be very cold right now and apparently the decrease you saw was due to contraction in the fluid. Over.
@@ -4148,21 +4148,21 @@
 072:20:23|T|CC|Apollo 11, this is Houston. Pericynthion-plus-2 hours PAD. SPS/G&N: 62710, plus 0.98, minus 0.19; GET ignition 077:46:22.48, Delta-VX NOUN 81, plus 3214.8, minus 0045.5, minus 1037.7; roll NA, pitch 307, and the remainder of the PAD is NA. GDC align stars; Vega and Deneb. Roll 243, 183, 012; no ullage. Remarks: Assumes landing site REFSMMAT and docked. Over.
 072:21:48|T|LMP|Roger. SPS/G&N: 62710, plus 0.98, minus 0.19; 077:46:22.48; plus 3214.8, minus 0045.5, minus 1037.7; NA, 307; Vega and Deneb; 243, 183, 012; no ullage. Landing site REFSMMAT, docked. And you haven't - change on the LM weight. Over.
 072:22:30|T|CC|No change in the LM's weight - in the LM weight, and the readback is correct. Out.
-072:25:05|T|CC|Apollo 11, this is Houston. Over.
-072:25:12|T|CDR|Roger. Go ahead.
-072:25:14|T|CC|Roger. We're having difficulty getting commands into the spacecraft. We'd like you to cycle your UP TELEMETRY switch to COMMAND RESET and OFF and then back to NORMAL. Over.
-072:25:31|T|CDR|Okay. We'll do it.
-072:25:50|T|CDR|We have you on high-gain right now. You want us to switch over to OMNI?
-072:26:02|T|CC|Negative. We Would like to stay on the high-gain if we can. Over.
-072:26:10|T|CDR|Okay.
-072:27:15|T|CC|Apollo 11, this is Houston. Over.
-072:27:23|T|CDR|Go ahead.
-072:27:25|T|CC|Roger. We'd like you to switch to OMNI Delta as we show you approximately at the scan limit of the high-gain antenna. We will then command OMNI Delta down here after you advise us you've switched, and then you can select Bravo onboard and we will be back in the OMNI antenna commanding business. Over.
-072:27:46|T|CDR|Okay. We're going to Delta now.
-072:28:15|T|CC|11, Houston. You can go ahead and select OMNI Bravo onboard now.
-072:28:23|T|CDR|You have it. 
-072:28:27|T|CC|Roger. Out.
-072:29:24|T|CC|Apollo 11, this is Houston. If you have a minute or so free, we can read you up the morning news here.
+072:25:06|T|CC|Apollo 11, this is Houston. Over.
+072:25:13|T|CDR|Roger. Go ahead.
+072:25:15|T|CC|Roger. We're having difficulty getting commands into the spacecraft. We'd like you to cycle your UP TELEMETRY switch to COMMAND RESET and OFF and then back to NORMAL. Over.
+072:25:32|T|CDR|Okay. We'll do it.
+072:25:51|T|CDR|We have you on high-gain right now. You want us to switch over to OMNI?
+072:26:03|T|CC|Negative. We Would like to stay on the high-gain if we can. Over.
+072:26:11|T|CDR|Okay.
+072:27:16|T|CC|Apollo 11, this is Houston. Over.
+072:27:24|T|CDR|Go ahead.
+072:27:26|T|CC|Roger. We'd like you to switch to OMNI Delta as we show you approximately at the scan limit of the high-gain antenna. We will then command OMNI Delta down here after you advise us you've switched, and then you can select Bravo onboard and we will be back in the OMNI antenna commanding business. Over.
+072:27:47|T|CDR|Okay. We're going to Delta now.
+072:28:16|T|CC|11, Houston. You can go ahead and select OMNI Bravo onboard now.
+072:28:24|T|CDR|You have it. 
+072:28:28|T|CC|Roger. Out.
+072:29:25|T|CC|Apollo 11, this is Houston. If you have a minute or so free, we can read you up the morning news here.
 072:29:34|T|CDR|Go right ahead; let's hear it.
 072:29:36|T|CC|Roger. Hot from the wires of the MSC Public Affairs Office, especially prepared for the crew of Apollo 11.
 072:29:46|T|CC|Okay. First off, it looks like it's going to be impossible to get away from the fact that you guys are dominating all the news back here on Earth. Even Pravda in Russia is headlining the mission and calls Neil, "The Czar of the Ship." I think maybe they got the wrong mission.
@@ -4188,7 +4188,7 @@
 072:35:00|T|CC|(Laughter) Ruby Graham, an astrologer here in Houston. Now we checked with Flight Operations for all the signs for the mission, and then we, of course, had to make sure that everything was really all set.
 072:35:50|T|CDR|Houston, 11. You're cutting out ...
 072:35:56|T|CC|Apollo 11, Apollo 11, this is Houston. We're switching OMNI's. Can you stand by for about 2 minutes?
-072:29:00|P|PAO|That was Fred Haise alternating with Bruce McCandles on the newscast.
+072:29:01|P|PAO|That was Fred Haise alternating with Bruce McCandles on the newscast.
 072:37:30|T|CDR|Houston, 11. Radio check.
 072:37:34|T|CC|11, Houston. Go ahead.
 072:37:41|T|CDR|Roger. You cut out after Tommy Jacobs. I guess we got into antenna switching problems.
@@ -4226,7 +4226,7 @@
 072:55:58|T|CDR|Understand 75:41:23.
 072:56:03|T|CC|11, this is Houston. Readback correct. Out.
 072:56:20|P|PAO|That was Neil Armstrong with the readback of the Lunar Orbit Insertion burn number 1 pad. The ignition time for that burn 75 hours 49 minutes 49 seconds. That's 2 hours 57 minutes 49 seconds from this time. Duration of that burn 6 minutes 2 seconds, retrograde, and the change in velocity 2,917.3 feet per second. The expected orbit following that maneuver is 169.2 by 61 nautical miles. To repeat, the LOS AOS times we will lose signal with Apollo 11 at 75 hours 41 minutes 23 seconds as it goes behind the Moon. Given a successful Lunar Orbit Insertion number 1 burn we will acquire the signal at 76 hours 15 minutes 29 seconds. If for some reason Apollo 11 can not perform the burn, we will acquire the spacecraft at 76 hours 5 minutes 30 seconds.
-073:04:37|T|CC|Apollo 11, this is Houston. Over.
+073:04:38|T|CC|Apollo 11, this is Houston. Over.
 073:04:43|T|CDR|Go ahead.
 073:04:44|T|CC|Roger. Apparently we missed getting your onboard readouts on battery Charlie and PYRO batteries Alfa and Bravo last night. I wonder if you could give us some fresh numbers. Over.
 073:04:59|T|CDR|You want the readings now?
@@ -4267,20 +4267,20 @@
 073:23:51|T|CC|11, this is Houston. On the basis of your last P52 alignment, the platform looks like it's indeed performing very well. No problems there, no updates required, and no PIPA bias update is required either. Over.
 073:24:11|T|CMP|Sounds good.
 073:25:03|P|PAO|This is Apollo Control at 73 hours, 25 minutes. Apollo 11 is 6,522 nautical miles away from the Moon approaching at a velocity of 4,483 feet per second.
-073:40:50|T|CMP|Houston, Apollo 11. Radio check.
-073:40:54|T|CC|11, this is Houston. Loud and clear. Over.
-073:41:00|T|CMP|Okay. Just checking. Do you want high-gain?
-073:41:06|T|CC|Roger. If you can give it to us.
-073:41:11|T|CMP|Okay.
-073:42:18|T|CMP|Houston, Apollo 11. How do you read on the high-gain?
-073:42:22|T|CC|Loud and clear on the high-gain.
-073:42:28|T|CMP|Same here. We've completed the P52 option 1.
-073:42:36|T|CC|Roger. We've been looking over your shoulder by TM.
+073:40:51|T|CMP|Houston, Apollo 11. Radio check.
+073:40:55|T|CC|11, this is Houston. Loud and clear. Over.
+073:41:01|T|CMP|Okay. Just checking. Do you want high-gain?
+073:41:07|T|CC|Roger. If you can give it to us.
+073:41:12|T|CMP|Okay.
+073:42:19|T|CMP|Houston, Apollo 11. How do you read on the high-gain?
+073:42:23|T|CC|Loud and clear on the high-gain.
+073:42:29|T|CMP|Same here. We've completed the P52 option 1.
+073:42:37|T|CC|Roger. We've been looking over your shoulder by TM.
 073:42:48|T|CMP|Glad to have you.
 073:58:38|T|LMP|Houston, Apollo 11. Standing by to copy TEI 1 and TEI 4. Over.
 073:58:43|T|CC|Roger. I've got the 1 and 4 PAD's here, right now. I'll be ready to read them up to you in just a second.
 073:59:31|T|CC|11, this is Houston. I'm ready with the TEI 1 and 4 PAD's. Over.
-073:59:44|T|LMP|Ready to copy.
+073:59:45|T|LMP|Ready to copy.
 073:59:46|T|CC|Roger. TEI-1, SPS/G&N; 38658, minus 0.54, plus 0.65, TIG, 078:02:03.45; plus 2918.0, plus 0377.9, minus 0132.5; roll NA, pitch 041. The balance of the PAD is NA. Ullage; two jets, 19 seconds. TEI-4 PAD, SPS/G&N:, 38658, minus 0.54, plus 0.65, TIG, 084:29:50.59; plus 3137.3, plus 0376.0, minus 0096.8; roll NA, pitch 034. The rest of the PAD is NA. Ullage; two jets, 19 seconds. Both of these PADs are for an undocked maneuver. TEI-plus-4 PAD assumes no LOI-2. Over. Make that TEI-4 PAD assumes no LOI-2.
 074:01:53|T|LMP|Roger. TEI-1, SPS/G&N; 38658, minus 0.54, plus 0.65; 078:02:03.45; plus 2918.0, plus 0377.9, minus 0132.5; roll NA, pitch 041; two jets, 19 seconds; undocked. TEI-4: 38658, minus 0.54, plus 0.65, 084:29:50.59, plus 3137.3, plus 0376.0, minus 0096.8; roll NA, pitch 034; two jets, 19 seconds; undocked; assumes no LOI-2.
 074:02:59|T|CC|11, this is Houston - -
@@ -4295,55 +4295,55 @@
 074:05:24|T|LMP|Okay.
 074:08:29|P|PAO|This is Apollo Control at 74 hours 8 minutes. Apollo 11 is 4,625 nautical miles away from the Moon. Velocity 4,765 feet per second. We're 1 hour 32 minutes away from loss of signal as Apollo 11 goes behind the Moon, and we're about 1 hour 41 minutes away from the LOI number 1 burn.
 074:32:31|P|PAO|This is Apollo Control at 74 hours, 32 minutes. Apollo 11 is traveling at a velocity of 3 thousand -  stand by. We've got a static display here.
-074:34:46|T|CC|11, this is Houston. Radio check. Over.
-074:34:51|T|CDR|Houston, 11.
-074:34:53|T|CC|Roger. Loud and clear now.
-074:35:12|T|CDR|Houston, Apollo 11.
-074:35:14|T|CC|Go ahead, 11.
-074:35:22|T|CDR|Apparently this is not a very good OMNI attitude for you. We're ready to start our TVC check.
-074:35:54|T|CC|11, this is Houston. We're ready, except that we'd like to get the high-gain antenna prior to this test. Over.
-074:36:08|T|CMP|Can you give us a couple of pointing angles?
-074:36:10|T|CC|Roger. From an attitude with 60 degrees roll, around to an attitude of roll 058 inertial. It would be pitch plus 30 and yaw 270 on the high-gain antenna.
-074:36:29|T|CDR|Thank you.
-074:51:02|T|CC|Apollo 11, Apollo 11, this is Houston. Radio check. Over.
-074:51:14|T|CC|Apollo 11, Apollo 11, this is Houston. Radio check. Over.
-074:51:38|T|CC|Apollo 11, this is Houston. Do you read? Over.
-074:51:44|T|CDR|Roger. Loud and clear.
-074:51:46|T|CC|Roger. We're reading you weak but clear.
-074:51:54|T|CDR|Roger. We put our - our roll for a MSFN track in on the wrong sign. Going to continue rolling around until we get high-gain here. And, we'll delete the - the pitch that was scheduled after the TVC check.
-074:52:16|T|CC|Say again please, 11.
-074:52:22|T|CDR|Roger. We put the wrong sign in - -
-074:52:25|T|CC|Roger.
-074:52:25|T|CDR|- - for the roll correction to get MSFN high-gain, and we're continuing rolling around to get the proper attitude for high-gain at this time. We will delete the pitch maneuver that was scheduled subsequent to - subsequent to the TV check since we already have those pictures.
-074:52:47|T|CC|Roger. We copy. And we recommend that you go ahead and complete your TVC test onboard. If you have problems, we'll talk to you when you get around further into the high-gain antenna attitude. Over.
-074:53:14|T|CDR|Roger.
-074:59:01|T|CDR|Houston, how do you read on high-gain?
-074:59:04|T|CC|Oh, loud and clear on high-gain, 11.
-074:59:09|T|CDR|Roger. We're proceeding.
-074:59:11|T|CC|Roger.
-075:00:05|P|PAO|This is Apollo Control at 75 hours into the mission. Apollo 11 is 2,241 nautical miles away from the Moon. Velocity 5,512 feet per second. We're 41 minutes away from loss of signal as Apollo 11 goes behind the Moon. We're 49 minutes away from the Lunar Orbit Insertion maneuver number 1.
+074:34:45|T|CC|11, this is Houston. Radio check. Over.
+074:34:50|T|CDR|Houston, 11.
+074:34:52|T|CC|Roger. Loud and clear now.
+074:35:11|T|CDR|Houston, Apollo 11.
+074:35:13|T|CC|Go ahead, 11.
+074:35:21|T|CDR|Apparently this is not a very good OMNI attitude for you. We're ready to start our TVC check.
+074:35:53|T|CC|11, this is Houston. We're ready, except that we'd like to get the high-gain antenna prior to this test. Over.
+074:36:07|T|CMP|Can you give us a couple of pointing angles?
+074:36:09|T|CC|Roger. From an attitude with 60 degrees roll, around to an attitude of roll 058 inertial. It would be pitch plus 30 and yaw 270 on the high-gain antenna.
+074:36:27|T|CDR|Thank you.
+074:51:00|T|CC|Apollo 11, Apollo 11, this is Houston. Radio check. Over.
+074:51:13|T|CC|Apollo 11, Apollo 11, this is Houston. Radio check. Over.
+074:51:37|T|CC|Apollo 11, this is Houston. Do you read? Over.
+074:51:43|T|CDR|Roger. Loud and clear.
+074:51:45|T|CC|Roger. We're reading you weak but clear.
+074:51:53|T|CDR|Roger. We put our - our roll for a MSFN track in on the wrong sign. Going to continue rolling around until we get high-gain here. And, we'll delete the - the pitch that was scheduled after the TVC check.
+074:52:15|T|CC|Say again please, 11.
+074:52:21|T|CDR|Roger. We put the wrong sign in - -
+074:52:24|T|CC|Roger.
+074:52:24|T|CDR|- - for the roll correction to get MSFN high-gain, and we're continuing rolling around to get the proper attitude for high-gain at this time. We will delete the pitch maneuver that was scheduled subsequent to - subsequent to the TV check since we already have those pictures.
+074:52:46|T|CC|Roger. We copy. And we recommend that you go ahead and complete your TVC test onboard. If you have problems, we'll talk to you when you get around further into the high-gain antenna attitude. Over.
+074:53:13|T|CDR|Roger.
+074:59:00|T|CDR|Houston, how do you read on high-gain?
+074:59:03|T|CC|Oh, loud and clear on high-gain, 11.
+074:59:08|T|CDR|Roger. We're proceeding.
+074:59:10|T|CC|Roger.
+075:00:03|P|PAO|This is Apollo Control at 75 hours into the mission. Apollo 11 is 2,241 nautical miles away from the Moon. Velocity 5,512 feet per second. We're 41 minutes away from loss of signal as Apollo 11 goes behind the Moon. We're 49 minutes away from the Lunar Orbit Insertion maneuver number 1.
 075:03:22|T|CC|Apollo 11, this is Houston. We observed your gimbal test down here, and it looked good to us. Over.
-075:03:34|T|CDR|Roger. It looked good here.
-075:15:09|P|PAO|This is Apollo Control at 75 hours, 15 minutes into the mission. Apollo 11's distance from the Moon now is 1,516 nautical miles - 1,516 nautical miles. Velocity 5,981 feet per second.
-075:18:51|T|CC|Apollo 11, this is Houston. Radio check. Over.
-075:18:57|T|CMP|Loud and clear.
-075:18:58|T|CC|Roger. And your systems are looking good from down here.
-075:19:04|T|CMP|Yes. Looks good up here too, Bruce.
-075:26:27|P|PAO|This is Apollo Control at 75 hours 26 minutes. We're 15 minutes away from loss of signal. Apollo 11 is 966 miles from the Moon, velocity 6,511 feet per second. We're 23 minutes away from the LOI burn.
-075:26:45|P|PAO|Flight Director Cliff Charlesworth polling Flight Controllers for the GO/NO-GO status for LOI now.
-075:30:38|T|CC|Apollo 11, this is Houston. Over.
-075:30:45|T|LMP|Roger. Go ahead Houston, Apollo 11.
-075:30:47|T|CC|11, this is Houston. You are GO for LOI. Over.
-075:30:54|T|LMP|Roger. GO for LOI.
-075:30:56|T|CC|And we're showing about 10 minutes and 30 seconds to LOS. I would like to remind you to enable the BD roll on the AUTO RCS switches. Over.
-075:31:10|T|LMP|Roger. And confirm you want PCM low going over the hill. Over.
-075:31:19|T|CC|That's affirmative, 11.
-075:31:25|T|LMP|Roger.
-075:31:40|P|PAO|That was Buzz Aldrin confirming the GO.
-075:31:44|T|LMP|If you want to, I'll put it back to high until just before LOS. Over.
-075:31:52|T|CC|Negative, 11. Low is okay for now. Over.
-075:31:58|T|LMP|Roger.
-075:35:55|T|CDR|Houston, do you want to give me a time check, please?
+075:03:32|T|CDR|Roger. It looked good here.
+075:15:05|P|PAO|This is Apollo Control at 75 hours, 15 minutes into the mission. Apollo 11's distance from the Moon now is 1,516 nautical miles - 1,516 nautical miles. Velocity 5,981 feet per second.
+075:18:50|T|CC|Apollo 11, this is Houston. Radio check. Over.
+075:18:55|T|CMP|Loud and clear.
+075:18:57|T|CC|Roger. And your systems are looking good from down here.
+075:19:02|T|CMP|Yes. Looks good up here too, Bruce.
+075:26:25|P|PAO|This is Apollo Control at 75 hours 26 minutes. We're 15 minutes away from loss of signal. Apollo 11 is 966 miles from the Moon, velocity 6,511 feet per second. We're 23 minutes away from the LOI burn.
+075:29:44|P|PAO|Flight Director Cliff Charlesworth polling Flight Controllers for the GO/NO-GO status for LOI now.
+075:30:37|T|CC|Apollo 11, this is Houston. Over.
+075:30:44|T|LMP|Roger. Go ahead Houston, Apollo 11.
+075:30:46|T|CC|11, this is Houston. You are GO for LOI. Over.
+075:30:53|T|LMP|Roger. GO for LOI.
+075:30:55|T|CC|And we're showing about 10 minutes and 30 seconds to LOS. I would like to remind you to enable the BD roll on the AUTO RCS switches. Over.
+075:31:09|T|LMP|Roger. And confirm you want PCM low going over the hill. Over.
+075:31:18|T|CC|That's affirmative, 11.
+075:31:24|T|LMP|Roger.
+075:31:39|P|PAO|That was Buzz Aldrin confirming the GO.
+075:31:43|T|LMP|If you want to, I'll put it back to high until just before LOS. Over.
+075:31:51|T|CC|Negative, 11. Low is okay for now. Over.
+075:31:57|T|LMP|Roger.
+075:35:54|T|CDR|Houston, do you want to give me a time check, please?
 075:35:58|T|CC|Roger. I'll give you a Mark at 13 minutes and 30 seconds to ignition.
 075:36:11|T|CDR|Okay. And then a GET, please.
 075:36:16|T|CC|Stand by a minute.
@@ -4914,10 +4914,10 @@
 076:16:00|T|CC|Apollo 11, Apollo 11, this is Houston. Do you read?
 076:16:00|O|CC|Apollo 11, Apollo 11 - -
 076:16:11|T|SC|...
-076:16:58|T|SC|Houston, Apollo 11. Over.
+076:16:57|T|SC|Houston, Apollo 11. Over.
 076:17:00|T|CC|Apollo 11, Apollo 11, this is Houston. We are reading you weakly. Go ahead. Over.
-076:17:09|T|CDR|Roger. Burn status report follows. DELTA-TIG zero, burn time 557, ... VGX minus 0.1, VGY minus 0.1, VGZ plus 0.1, DELTA-VC minus 0 ..., fuel 390, plus 38 ... 42. Over.
-076:17:44|T|CC|11, this is Houston. These residuals, do you have minus 0.1 ... VGX minus 0.1, VGY minus 0.1, VGZ plus 0.1, and a burn time of 5 plus 57. Stand by, maybe the COMM will improve a little bit. Over.
+076:17:08|T|CDR|Roger. Burn status report follows. DELTA-TIG zero, burn time 557, ... VGX minus 0.1, VGY minus 0.1, VGZ plus 0.1, DELTA-VC minus 0 ..., fuel 390, plus 38 ... 42. Over.
+076:17:43|T|CC|11, this is Houston. Reading these residuals, VGX minus 0.1, VGY minus 0.1, VGZ plus 0.1, and a burn time of 5 plus 57. Stand by, maybe the COMM will improve a little bit. Over.
 076:19:32|T|CC|Apollo 11, this is Houston. Are you in the process of acquiring with the high-gain antenna? Over.
 076:21:37|T|CC|Apollo 11, Apollo 11, this is Houston. How do you read?
 076:21:44|T|CDR|Reading you loud and clear, Houston. How us?
