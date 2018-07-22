@@ -4918,62 +4918,61 @@
 076:17:00|T|CC|Apollo 11, Apollo 11, this is Houston. We are reading you weakly. Go ahead. Over.
 076:17:08|T|CDR|Roger. Burn status report follows. DELTA-TIG zero, burn time 557, ... VGX minus 0.1, VGY minus 0.1, VGZ plus 0.1, DELTA-VC minus 0 ..., fuel 390, plus 38 ... 42. Over.
 076:17:43|T|CC|11, this is Houston. Reading these residuals, VGX minus 0.1, VGY minus 0.1, VGZ plus 0.1, and a burn time of 5 plus 57. Stand by, maybe the COMM will improve a little bit. Over.
-076:19:32|T|CC|Apollo 11, this is Houston. Are you in the process of acquiring with the high-gain antenna? Over.
-076:21:37|T|CC|Apollo 11, Apollo 11, this is Houston. How do you read?
-076:21:44|T|CDR|Reading you loud and clear, Houston. How us?
+076:19:31|T|CC|Apollo 11, this is Houston. Are you in the process of acquiring with the high-gain antenna? Over.
+076:21:36|T|CC|Apollo 11, Apollo 11, this is Houston. How do you read?
+076:21:43|T|CMP|Reading you loud and clear, Houston. How us?
 076:21:46|T|CC|Roger. Reading you the same, now. Could you repeat your burn status report? We copied the residuals and burn time, and that was about it. Send the whole thing again, please.
 076:21:56|T|CMP|It was like - it was like perfect!
-076:22:01|T|CDR|DELTA-TIG zero, burn time 5:57, shaft value on the angles, VGX minus 0.1, VGY minus 0.1, VGZ plus 0.1, no trim, minus 6.8 on DELTA-VC, fuel was 38.8, LOX 39.0, plus 50 on balance, and we ran an increase on the PUGS, NOUN 44 showed us in a 60.9 by 169.9.
+076:22:00|T|CDR|DELTA-TIG zero, burn time 5:57, shaft value on the angles, VGX minus 0.1, VGY minus 0.1, VGZ plus 0.1, no trim, minus 6.8 on DELTA-VC, fuel was 38.8, LOX 39.0, plus 50 on balance, and we ran an increase on the PUGS, NOUN 44 showed us in a 60.9 by 169.9.
 076:22:35|T|CC|Roger. We copy your burn status report. And the spacecraft is looking good to us on telemetry.
 076:22:48|T|CDR|Roger. Everything looks good up here.
 076:23:00|P|PAO|That burn report was by Neil Armstrong.
 076:27:02|P|PAO|This is Apollo Control. We're showing spacecraft weight in lunar orbit of 72,004 pounds.
 076:34:34|T|CDR|Apollo 11 is getting its first view of the landing approach. At this time we are going over the Taruntius crater, and the pictures and maps brought back by Apollo 8 and 10 have given us a very good preview of what to look at here. It looks very much like the pictures, but like the difference between watching a real football game and one on TV. There's no substitute for actually being there.
 076:35:11|T|CC|Roger. We concur, and we certainly wish we could see it firsthand, also.
-076:35:23|P|PAO|That was Neil Armstrong.
-076:35:33|T|CDR|We're going over the Messier series of craters right at the time, looking vertically down on them, and Messier A we can see good sized blocks in the bottom of the crater. I don't know what our altitude is now, but in any case, those are pretty good size blocks.
+076:35:22|P|PAO|That was Neil Armstrong.
+076:35:32|T|CDR|We're going over the Messier series of craters right at the time, looking vertically down on them, and Messier A we can see good sized blocks in the bottom of the crater. I don't know what our altitude is now, but in any case, those are pretty good size blocks.
 076:35:56|T|CC|Okay. Just roughly, it looks like you are about 120 miles or 13O miles right now - make that 127 miles.
-076:37:14|T|CDR|We're approaching PDI point now. Over.
+076:37:13|T|CDR|We're approaching PDI point now. Over -
 076:37:24|T|CDR|There's Secchi in sight.
-076:37:49|T|LMP|We're going over Mount Marilyn at the present time, and it's ignition point.
-076:37:55|T|CC|Roger. Thank you. And our preliminary tracking data for the first few minutes shows you in a 61.6 by 169.5 orbit. Over.
-076:38:11|T|LMP|Roger.
-076:38:13|T|CC|And Jim is smiling.
-076:41:29|T|CC|Apollo 11, this is Houston. Over.
-076:41:35|T|CDR|Go ahead.
-076:41:37|T|CC|11, Houston. During your SPS burn as played back on tape down here, we've observed the nitrogen tank Bravo pressure in the SPS system dropping a little bit more than we anticipated. It's holding steady right now. We'll continue to watch it and keep you posted if anything comes up. Over.
+076:37:48|T|LMP|We're going over Mount Marilyn at the present time, and it's ignition point.
+076:37:54|T|CC|Roger. Thank you. And our preliminary tracking data for the first few minutes shows you in a 61.6 by 169.5 orbit. Over.
+076:38:10|T|LMP|Roger.
+076:38:12|T|CC|And Jim is smiling.
+076:41:28|T|CC|Apollo 11, this is Houston. Over.
+076:41:34|T|CDR|Go ahead.
+076:41:35|T|CC|11, Houston. During your SPS burn as played back on tape down there, we've observed the nitrogen tank Bravo pressure in the SPS system dropping a little bit more than we anticipated. It's holding steady right now. We'll continue to watch it and keep you posted if anything comes up. Over.
 076:42:03|T|CDR|Roger. Thank you.
-076:42:05|T|CC|Oh - and it has held steady - -
+076:42:04|T|CC|Oh - and it has held steady - -
 076:42:06|T|CDR|Currently going over Maskelyne Mas -
 076:42:10|T|CDR|Okay.
 076:42:11|T|CDR|And Boothill, Duke Island, Sidewinder, looking at Maskelyne W, that's the yaw around checkpoint, and just coming into the terminator. At the terminator it's ashen gray. As you get farther away from the terminator, it gets to be a lighter gray, and as you get closer to the subsolar point, you can definitely see browns and tans on the ground, according to the ... limited observation, anyway.
 076:42:49|T|CC|Roger, 11. We're recording your comments for posterity.
-076:42:57|T|CDR|(Laughter) Okay.
+076:42:56|T|CDR|(Laughter) Okay.
 076:43:01|P|PAO|And again, that was Neil Armstrong with the report.
-076:43:04|T|CMP|Did somebody in the background - do they accuse us of being compromisers?
-076:43:07|T|CC|Huh!
+076:43:03|T|CMP|Did somebody in the background - do they accuse us of being compromisers?
+076:43:06|T|CC|Huh!
 076:43:19|T|CDR|And landing site is well into the dark here. I don't think we're going to be able to see anything of the landing site this early.
 076:43:42|T|CC|Apollo 11, this is Houston. When you have a free minute, could you give us your onboard readout of N2 tank Bravo, please. And we'd like to make sure you understand that ever since you stopped thrusting with the SPS, the temperature in this tank has remained steady. Over. Make that the pressure has remained steady.
 076:44:07|T|CMP|Rog. We understand tank pressure has stayed steady. Thank you.
 076:44:13|T|LMP|Roger. We're showing the N2 tank pressure and the tank Bravo to he 1960, something like that, and Alfa is, oh, about 22 - about 2250. Over.
 076:44:34|T|CC|Roger. We show 2249 in Alfa and 1946 down here.
 076:44:44|T|LMP|Okay.
-076:53:20|T|CMP|Houston, Apollo 11. How about coming up with some roll, pitch, and yaw angles in which to stop this so called ORB RATE that I'm doing.
-076:53:29|T|CC|Roger. Standby.
-076:53:46|T|CC|We'll have them for you in a minute, 11.
-076:53:52|T|CMP|Okay. And time to stop also, please.
+076:53:19|T|CMP|Houston, Apollo 11. How about coming up with some roll, pitch, and yaw angles in which to stop this so called ORB RATE that I'm doing.
+076:53:28|T|CC|Roger. Standby.
+076:53:45|T|CC|We'll have them for you in a minute, 11.
+076:53:51|T|CMP|Okay. And time to stop also, please.
 076:53:55|T|CC|Yes, indeed.
-076:56:35|T|CC|Apollo 11, this is Houston. Over.
+076:56:34|T|CC|Apollo 11, this is Houston. Over.
 076:56:41|T|LMP|Go ahead, Houston.
-076:56:43|T|CC|Roger. We show you, in the Flight Plan, staying in orbital rate until about 79 hours 10 minutes. Do you have some particular attitude or reason for wanting to go inertial? Over.
+076:56:42|T|CC|Roger. We show you, in the Flight Plan, staying in orbital rate until about 79 hours 10 minutes. Do you have some particular attitude or reason for wanting to go inertial? Over.
 076:57:01|T|CMP|No, that's fine. I just wanted to confirm that. Until 79:10, then we'll breeze around here in orbit.
 076:57:07|T|CC|Roger. And we've got an observation you can make if you have some time up there. There's been some lunar transient events reported in the vicinity of Aristarchus. Over.
 076:57:28|T|LMP|Roger. We just went into spacecraft darkness. Until then, why, we couldn't see a thing down below us. But now, with earthshine, the visibility is, oh, pretty fair. Looking back behind me, now, I can see the corona from where the Sun has just set. And we'll get out the map and see what we can find around Aristarchus.
-076:57:55|T|CC|- - Okay.
-076:57:55|T|CC|We're coming upon Aristarchus right now - -
-076:57:56|T|CC|Aristarchus is at Tango Echo 9 on your ATO chart. It's about 394 miles north of track. However, at your present altitude, which is about 167 nautical miles, it ought to be over - that is within view of your horizon: 23 degrees north, 47 west. And, take a look and see if you see anything worth noting up there. Over.
+076:57:54|T|CMP|We're coming upon Aristarchus right now - -
+076:57:54|T|CC|Okay, Aristarchus is at Tango Echo 9 on your ATO chart. It's about 394 miles north of track. However, at your present altitude, which is about 167 nautical miles, it ought to be over - that is within view of your horizon: 23 degrees north, 47 west. And, take a look and see if you see anything worth noting up there. Over.
 076:58:34|T|CDR|Both looking.
-076:58:36|T|CC|Roger. Out.
+076:58:35|T|CC|Roger. Out.
 076:59:14|P|PAO|That was Buzz Aldrin discussing the earthshine.
 077:03:01|T|CDR|Houston, 11. It might help us a little bit if you could give us a time of crossing of 45 west.
 077:03:09|T|CC|Say again, please, 11.
@@ -4986,7 +4985,7 @@
 077:05:25|T|CDR|Righto.
 077:07:07|T|LMP|Houston, when a star sets up here, there's no doubt about it. One instant it's there, and the next instant it's just completely gone.
 077:07:16|T|CC|Roger. We copy.
-077:09:20|T|CC|Apollo 11, this is Houston. We request you select OMNI Charlie at this time. Over.
+077:09:21|T|CC|Apollo 11, this is Houston. We request you select OMNI Charlie at this time. Over.
 077:09:30|T|LMP|Okay. Going to OMNI Charlie.
 077:09:32|T|CC|Roger. Out.
 077:11:57|T|LMP|Houston, Apollo 11.
@@ -5002,8 +5001,8 @@
 077:15:47|T|CC|Roger. You said inner wall. Would that be the inner edge of the northern surface?
 077:16:00|T|LMP|Well, I guess it would be the inner edge of the west-northwest part, the part that would be more nearly normal if you were looking at it from the Earth.
 077:16:19|T|CC|11, Houston. Have you used the monocular on this? Over.
-077:16:28|T|CMP|Stand by one.
-077:17:59|T|CMP|Roger. Like you to know this quest for science has caused me to lose my lunch. It's supposed to be around here somewhere, but I can't find it.
+077:16:29|T|CMP|Stand by one.
+077:18:00|T|CMP|Roger. Like you to know this quest for science has caused me to lose my lunch. It's supposed to be around here somewhere, but I can't find it.
 077:18:08|T|CC|11, this is Houston. We're - we're hearing only a partial COMM. Say again please.
 077:18:18|T|CMP|I think ...
 077:18:41|T|LMP|Houston, we will give it a try if we have the opportunity on next pass, when we are not in the middle of lunch, and trying to find the monocular.
@@ -5026,13 +5025,13 @@
 077:33:24|T|CC|Roger. We concur.
 077:33:41|T|CMP|Houston, Apollo 11. Could you give us a time of crossing the prime meridian 150 west? Over.
 077:33:47|T|CC|Roger. Stand by about a half a second, here. Okay. Your time of crossing the 150 west meridian will be 77:50:05. Over.
-077:34:09|T|CMP|Thank you.
-077:34:23|T|CC|11, this is Houston. We have about 6 minutes remaining until LOS, and in order that we may configure our ground lines, we'd like to know if you're still planning to have the TV up with the beginning of the next pass. Over.
-077:34:47|T|CDR|Roger, Houston. We'll try to have it ready.
-077:34:50|T|CC|This is Houston. We are inquiring if it is your plan to. Over.
+077:34:10|T|CMP|Thank you.
+077:34:24|T|CC|11, this is Houston. We have about 6 minutes remaining until LOS, and in order that we may configure our ground lines, we'd like to know if you're still planning to have the TV up with the beginning of the next pass. Over.
+077:34:48|T|CDR|Roger, Houston. We'll try to have it ready.
+077:34:51|T|CC|This is Houston. We are inquiring if it is your plan to. Over.
 077:35:00|T|CDR|It never was our plan to; but it's in the Flight Plan, so I guess we'll do it.
 077:35:05|T|CC|Houston. Roger. Out.
-077:35:46|T|CC|11, Houston.
+077:35:47|T|CC|11, Houston.
 077:35:53|T|CDR|Roger. Go ahead.
 077:35:54|T|CC|For use in connection with that time on the prime meridian crossing, you have an orbital period now of 2 hours 8 minutes and 37 seconds. Over.
 077:36:10|T|CMP|Thank you.
@@ -5098,9 +5097,9 @@
 077:52:07|O|CDR|That was you?
 077:52:09|O|LMP|... right down toward the ground here.
 078:03:00|T||BEGIN LUNAR REV 2
-078:18:16|P|PAO|This is Apollo Control, Houston at 78 hours, 18 minutes into the flight of Apollo 11. Apollo 11 still passing around the far side of the Moon. We are less than 5 minutes now away from time of acquisition on this, the second revolution for Apollo 11. The station to acquire on this pass will be the Goldstone wing site which will feed the television to Mission Control Center, Houston, and thence to all parts of the country. We would expect to come up with television perhaps some several minutes after acquisition since we must first lock up on the downlink and have the scan converter in full operation. So at 78 hours, 19 minutes continuing to monitor, this is Apollo Control, Houston.
-078:21:21|P|PAO|Mark 2 minutes now from time of predicted acquisition in Mission Control Center. We are standing by.
-078:22:20|P|PAO|Mark 1 minute now from time of predicted acquisition. Continuing to stand by in Mission Control Center in Houston.
+078:18:17|P|PAO|This is Apollo Control, Houston at 78 hours, 18 minutes into the flight of Apollo 11. Apollo 11 still passing around the far side of the Moon. We are less than 5 minutes now away from time of acquisition on this, the second revolution for Apollo 11. The station to acquire on this pass will be the Goldstone wing site which will feed the television to Mission Control Center, Houston, and thence to all parts of the country. We would expect to come up with television perhaps some several minutes after acquisition since we must first lock up on the downlink and have the scan converter in full operation. So at 78 hours, 19 minutes continuing to monitor, this is Apollo Control, Houston.
+078:21:20|P|PAO|Mark 2 minutes now from time of predicted acquisition in Mission Control Center. We are standing by.
+078:22:21|P|PAO|Mark 1 minute now from time of predicted acquisition. Continuing to stand by in Mission Control Center in Houston.
 078:22:10|O|CDR|- - and you could be busy getting us some high-gain when we get ... About a minute from AOS.
 078:22:17|O|LMP|Okay, let's get out of this; let me get VERB 62. Okay, Mike?
 078:22:21|O|CMP|Oh, I really need these ... Buzz; I really need these god damned guys.
@@ -5131,46 +5130,46 @@
 078:23:55|T|CC|Apollo 11, this is Houston. Over.
 078:24:06|O|LMP|Houston, Apollo 11. Are you picking up our signal okay?
 078:24:09|T|LMP|... Apollo 11. Are you picking up our signal okay?
-078:24:12|T|CC|Apollo 11, this is Houston. Affirmative. We are reading you loud and clear on voice and we have a good clear TV picture, a little bright crater in the - -
-078:24:23|T|LMP|- - No, no, no - -
-078:24:24|T|CC|- - the bottom of the picture. I guess that's the spot on the tube.
-078:24:30|T|LMP|I'm sorry about that one.
-078:24:32|T|CC|And if you give us P00 and ACCEPT, we will uplink our new state vector and target load to you.
+078:24:13|T|CC|Apollo 11, this is Houston. Affirmative. We are reading you loud and clear on voice and we have a good clear TV picture, a little bright crater in the - -
+078:24:22|T|LMP|- - No, no, no - -
+078:24:23|T|CC|- - the bottom of the picture. I guess that's the spot on the tube.
+078:24:31|T|LMP|I'm sorry about that one.
+078:24:33|T|CC|And if you give us P00 and ACCEPT, we will uplink our new state vector and target load to you.
 078:24:45|T|CMP|Okay.
 078:25:30|T|LMP|Houston, Apollo 11. One of the larger craters on the back side - I noticed a small, dark speck on the outer wall and I put the monocular on it. I was able to see - oh, an area maybe a - oh, quarter of a mile in diameter. It was really a fresh looking dark colored pit, and that seems to be in contrast with all the other fresh little craters or holes that you can perceive on the walls of any of these craters. Around this particular one there seems to be two or three of these - especially the one that caught my attention. Quite remarkable. Over.
-078:26:23|T|CC|Roger. Do you have a location on that one?
-078:26:33|T|LMP|No, not a precise one. I've got several pictures of it, though.
-078:26:37|T|CC|Roger. We copy.
+078:26:24|T|CC|Roger. Do you have a location on that one?
+078:26:34|T|LMP|No, not a precise one. I've got several pictures of it, though.
+078:26:38|T|CC|Roger. We copy.
 078:26:41|P|PAO|That was Buzz Aldrin making a report, a geological report on the back-side pass.
 078:26:47|T|CC|We're getting a beautiful picture in down there now, 11. The color's coming in quite clearly, and we can see the horizon and the relative blackness of space, and without getting into the question of grays and browns, it looks, at least on our monitor, sort of a brownish gray.
-078:27:09|T|LMP|That's a good, reasonable way of describing it. It appears to me as though it made a difference just sitting back in the tunnel and gazing at all windows; it makes a difference which one you're looking out of. For example, the camera right now is looking out the number 5 window, and it definitely gives a rosier or tanner tinge, especially when you look straight through it and not at an angle. Over.
+078:27:10|T|LMP|That's a good, reasonable way of describing it. It appears to me as though it made a difference just sitting back in the tunnel and gazing at all windows; it makes a difference which one you're looking out of. For example, the camera right now is looking out the number 5 window, and it definitely gives a rosier or tanner tinge, especially when you look straight through it and not at an angle. Over.
 078:27:45|T|CC|Roger.
-078:27:51|T|CMP|And, we're about 95 or 100 degrees east and coming up on Smyth's Sea.
-078:28:01|T|CC|Say again, 11?
+078:27:52|T|CMP|And, we're about 95 or 100 degrees east and coming up on Smyth's Sea.
+078:28:02|T|CC|Say again, 11?
 078:28:07|T|CMP|I'd say we're about 95 degrees east, coming up on Smyth's Sea.
-078:28:11|T|CC|Roger. And for your information, we show you at an altitude of about 92 miles above the surface right now.
-078:28:20|T|CMP|Okay.
+078:28:12|T|CC|Roger. And for your information, we show you at an altitude of about 92 miles above the surface right now.
+078:28:21|T|CMP|Okay.
 078:28:22|T|LMP|Houston, Apollo 11. Did you observe a difference in the N2 pressures before LOI? It seems to me as though the two were not equal on the ... B tank was a little low on pressure. Over.
-078:28:56|T|CMP|I'm flying it in SPS minimum impulse, Houston, and it's rather difficult to keep it on a constant data. The LM wants to wander up and down. I'm not sure if it's in response to MASCONN's or what, but I can get it completely stabilized in DATA and let it alone, and in another couple of minutes it will have developed its own rate.
+078:28:57|T|CMP|I'm flying it in SPS minimum impulse, Houston, and it's rather difficult to keep it on a constant data. The LM wants to wander up and down. I'm not sure if it's in response to MASCONN's or what, but I can get it completely stabilized in DATA and let it alone, and in another couple of minutes it will have developed its own rate.
 078:29:22|T|CC|This is Houston. Roger.
 078:29:27|P|PAO|That was Mike Collins making that report.
 078:29:30|T|LMP|Houston, we'll be moving shortly from the side window to the hatch window, and we'll try and pick up some of the landmarks that we'll be looking at as we approach the powered descent. Over.
 078:29:47|T|CC|11, this is Houston. Roger. And we're through with the uplink; the computer is yours. You can go to BLOCK and we'll have the information on nitrogen for you shortly. Over.
-078:30:00|T|LMP|Roger. Copy.
-078:30:08|T|CMP|Okay, Houston. Several minutes ago I was exactly steady on data, and since then I have been moving toward the LM, pointed straight down toward the radius vector, and that's been despite a number of down minimum pitch impulses.
+078:30:01|T|LMP|Roger. Copy.
+078:30:09|T|CMP|Okay, Houston. Several minutes ago I was exactly steady on data, and since then I have been moving toward the LM, pointed straight down toward the radius vector, and that's been despite a number of down minimum pitch impulses.
 078:30:29|T|CC|Roger.
 078:30:49|T|CMP|We're over Smyth's Sea right now.
 078:30:51|T|CC|Roger.
 078:30:56|T|CMP|We're about 88 degrees east, I would estimate.
-078:31:03|T|CC|We show you about south of the - southwest of the crater Jansky right now.
-078:31:27|T|CMP|Smyth Sea doesn't look much like a sea. It - The area which is devoid of craters, of which there's not very much, is sort of a hilly looking area. It's not like the maria at all.
+078:31:04|T|CC|We show you about south of the - southwest of the crater Jansky right now.
+078:31:28|T|CMP|Smyth Sea doesn't look much like a sea. It - The area which is devoid of craters, of which there's not very much, is sort of a hilly looking area. It's not like the maria at all.
 078:31:41|T|CC|Roger. We copy that about the sea, and it looks like you were just giving us a view of the crater Neper, the large crater on the left, and Jansky on the right.
-078:31:51|P|PAO|That exchange between Capcom, Bruce McCandless and Mike Collins aboard the Apollo 11 spacecraft.
+078:31:52|P|PAO|That exchange between Capcom, Bruce McCandless and Mike Collins aboard the Apollo 11 spacecraft.
 078:32:06|T|CMP|We think you're close, but no cigar.
 078:32:52|P|PAO|Apollo Control, Houston. We acquired TV at 78 hours, 24 minutes, 11 seconds. Currently our orbital parameters show 104. Altitude an apolune of 170.2, a perilune of 61.3 - nautical miles, those are.
 078:33:20|T|CC|11, this is Houston. Would you care to comment on some of these craters as we go by?
-078:33:28|T|CDR|Roger. We're approaching the approach path to ignition. This is equivalent to 13 minutes before ignition, and we're at about 80 degrees east, I guess - 83 degrees east. Would that correspond to location you're holding at ... present time?
-078:33:58|T|CC|Roger. We're showing your present position as about 77 - 76 degrees east looking back towards the east.
+078:33:29|T|CDR|Roger. We're approaching the approach path to ignition. This is equivalent to 13 minutes before ignition, and we're at about 80 degrees east, I guess - 83 degrees east. Would that correspond to location you're holding at ... present time?
+078:33:59|T|CC|Roger. We're showing your present position as about 77 - 76 degrees east looking back towards the east.
 078:34:16|T|CMP|Hey, you should be looking back at Smyth Sea now.
 078:34:19|T|CC|Roger.
 078:34:22|P|PAO|We've now heard from all three Apollo 11 crew members during this television pass. The individual talking earlier was Neil Armstrong.
@@ -5181,34 +5180,34 @@
 078:35:17|T|CMP|Okay, Houston. Look at register 3 on the DSKY data. This data is increasing toward my desired of 315; and I'll let the hand controller alone here, and I'll bet you it reverses itself.
 078:35:46|T|CC|Roger, 11. We're watching the DSKY now, and it's still coming in beautifully on the TV.
 078:35:58|T|CDR|Okay. There's - on the right side of the screen at the present time, there's a triple crater with - with a small crater between the first and second; and the one at the bottom of the screen is Schubert Y. Zoom in; it does have a central peak in Schubert Y. Actually, several of them, and you can observe those, plus the rim craters at the bottom of your screen.
-078:36:35|T|CC|Roger. We're seeing the central peak quite clearly now.
-078:36:52|T|CDR|Okay. We're zooming in now on a crater called Schubert N. Schubert N, very conical inside walls and the bottom appears to be nearly flat.
-078:37:11|T|CMP|Look at data on the DSKY. It's stabilized and is holding steady now.
-078:37:19|T|CC|Roger.
-078:37:20|T|CDR|Looking out the window I can see a number of small craters on the bottom of Schubert N.
-078:37:31|T|CMP|We're coming up on the Foaming Sea where I'll be doing some P22 marking on a crater of my choice, name of crater, Camp.
-078:37:41|T|CC|Okay. We'll be watching for Camp.
-078:37:48|T|CMP|And notice register 3 has reversed itself, and it's heading back the other way now without any pitch thruster firing.
-078:37:55|T|CC|Roger, Mike. We confirm that you've changed the direction of your pitch rate.
+078:36:36|T|CC|Roger. We're seeing the central peak quite clearly now.
+078:36:53|T|CDR|Okay. We're zooming in now on a crater called Schubert N. Schubert N, very conical inside walls and the bottom appears to be nearly flat.
+078:37:12|T|CMP|Look at data on the DSKY. It's stabilized and is holding steady now.
+078:37:20|T|CC|Roger.
+078:37:21|T|CDR|Looking out the window I can see a number of small craters on the bottom of Schubert N.
+078:37:32|T|CMP|We're coming up on the Foaming Sea where I'll be doing some P22 marking on a crater of my choice, name of crater, Camp.
+078:37:42|T|CC|Okay. We'll be watching for Camp.
+078:37:49|T|CMP|And notice register 3 has reversed itself, and it's heading back the other way now without any pitch thruster firing.
+078:37:56|T|CC|Roger, Mike. We confirm that you've changed the direction of your pitch rate.
 078:38:28|T|CMP|Generally speaking - -
 078:38:30|T|CDR|The crater - -
 078:38:30|T|CMP|- - The tendency seems to be to pull the LM down toward the center of the Moon, as in a gravity gradient experiment.
 078:38:39|T|CC|Roger, 11. We copy - -
 078:38:40|T|CMP|It may have something to do with MASSCON's or it may - -
-078:38:45|T|CC|Roger. We copy ...
-078:38:45|T|CDR|...
+078:38:46|T|CC|Roger. We copy ...
+078:38:46|T|CDR|...
 078:38:48|T|CMP|It may have something to do with MASSCON's or it may just be the peculiarity of the DSKY display.
-078:38:52|T|CC|Okay. We've observed the behavior of your DSKY, and I think we've got the data here to work on it. Let us grind around a little while on it, and we'll report back to you, probably in a REV or two.
+078:38:53|T|CC|Okay. We've observed the behavior of your DSKY, and I think we've got the data here to work on it. Let us grind around a little while on it, and we'll report back to you, probably in a REV or two.
 078:39:08|T|CMP|Okay. Well, in the meantime, I'm going to pitch down toward 315.
-078:39:13|T|CC|Roger.
+078:39:14|T|CC|Roger.
 078:39:25|T|CDR|Three craters - three horizontal craters that you now have in the field of view are immediately underneath the ground track. The right hand, and the largest crater that you see, Dubiago P.
-078:39:47|T|CC|Roger. We concur on the identification of that crater.
+078:39:48|T|CC|Roger. We concur on the identification of that crater.
 078:40:01|T|CC|And we show you coming up on landmark Alfa 1 here shortly.
 078:40:10|T|CDR|Roger. Mike's having his first look at Alfa 1 at the present time.
 078:40:22|T|CMP|Yea. There's a great - bright crater. It's not a large one but an extremely bright one. It looks like a very recent and, I would guess, impact crater with rays streaming out in all directions which should make my - or correction - the Foaming Sea easy to see coming up on it now. Crater Camp is one of the smaller ones out on the - on the floor of the Foaming Sea.
-078:41:03|P|PAO|We have been some 17 minutes now into this television pass and standing by continuing to monitor.
-078:41:33|T|CC|Okay; we show you over the Sea of Fertility now, and we ought to have Langrenus down south of track a few degrees, about 9 degrees south of track.
-078:41:47|T|LMP|Now the crater that's in the center of the screen now is Webb. We'd be looking straight down on it at about 6 minutes before powered descent. It has a relatively flat bottom to the crater, and you can see maybe two or three craters that are in the bottom of it on the western wall, the wall that's now nearest the - to the camera. Near the bottom of the screen, we can see a dimple crater, just on the outside. And then coming back toward the bottom of the screen and to the left, you can see a series of depressions. It's this type of connected craters that give us most interest to discover why they're in the particular pattern that they're in. I'll zoom the camera in now and try and give you a closer look at this.
+078:41:04|P|PAO|We have been some 17 minutes now into this television pass and standing by continuing to monitor.
+078:41:34|T|CC|Okay; we show you over the Sea of Fertility now, and we ought to have Langrenus down south of track a few degrees, about 9 degrees south of track.
+078:41:48|T|LMP|Now the crater that's in the center of the screen now is Webb. We'd be looking straight down on it at about 6 minutes before powered descent. It has a relatively flat bottom to the crater, and you can see maybe two or three craters that are in the bottom of it on the western wall, the wall that's now nearest the - to the camera. Near the bottom of the screen, we can see a dimple crater, just on the outside. And then coming back toward the bottom of the screen and to the left, you can see a series of depressions. It's this type of connected craters that give us most interest to discover why they're in the particular pattern that they're in. I'll zoom the camera in now and try and give you a closer look at this.
 078:42:47|T|CC|Roger. We're observing the dimple crater now. The central peak we can see on the Orbiter photos doesn't seem to stand out very well here.
 078:43:01|T|LMP|Well, they're not central peaks. They're depressions in the center.
 078:43:04|T|CC|Roger.
@@ -5223,59 +5222,59 @@
 078:44:45|T|CC|(Laughter) Amen to that.
 078:44:51|T|CC|Okay. It looks like you're coming inside now on the camera.
 078:44:59|T|LMP|Well, I can't get behind to see the monitor. I'll bring the focus in, but we're going to be looking down past one of the LM quads and one of the antennas almost straight down at the ground track that we'll be seeing coming in now. I guess there's maybe 2 or 3 minutes before powered descent.
-078:45:37|T|LMP|All right, that should put the LM structure about in focus, and I'm going to move it out to infinity and then expand the field of view.
+078:45:38|T|LMP|All right, that should put the LM structure about in focus, and I'm going to move it out to infinity and then expand the field of view.
 078:45:59|T|CMP|Crater Secchi is out my window now, window number 2.
-078:46:08|T|CC|Hello, Apollo 11. This is Houston. We show you coming up on the terminator at 78:53, about 7 minutes from now, and we've also got the LOI-2 and TEI 5 PADs ready for you after the TV, whenever you want to terminate. Over.
+078:46:09|T|CC|Hello, Apollo 11. This is Houston. We show you coming up on the terminator at 78:53, about 7 minutes from now, and we've also got the LOI-2 and TEI 5 PADs ready for you after the TV, whenever you want to terminate. Over.
 078:46:31|T|CDR|Roger.
-078:46:32|T|CC|And we're getting a good view of the track leading into the landing site now.
+078:46:33|T|CC|And we're getting a good view of the track leading into the landing site now.
 078:46:57|T|CC|Okay, And it looks like we got Secchi K, went by about 10 seconds ago; coming up on Apollo Ridge.
-078:47:35|T|CC|And in the right hand portion of our screen right now, we can see Messier Alfa and Bravo with the light colored rays streaming off in one direction.
-078:48:00|T|CMP|I don't know if you can make out, but in the Sea of Fertility there are a number of craters that are just barely discernible, old, old craters whose outlines are just barely able to be seen.
-078:48:14|T|CC|Roger. I think we can make them out. The color really enhances our ability to discern features and craters over what we see in real time on our black and white monitor.
-078:48:30|T|CMP|Right. The - At these low Sun angles, there's no trace of brown, it's now returned to a very gray appearance and, like the 8 crew said, it has a look of plaster of paris to it at this Sun angle, which is completely lacking in higher Sun angles.
-078:48:48|T|CC|Roger.
-078:48:54|P|PAO|We're now some 25 minutes into our television pass.
-078:49:06|T|CDR|Okay. This is very close to ignition point for power descent. Just passing Mount Marilyn that - that triangular shaped mountain that you see in the center of the screen at the present time with crater Secchi Theta on top of the far northern edge of the mountain.
-078:49:31|T|CC|Roger. We're getting a good view of Mount Marilyn and of Secchi Theta.
-078:49:44|T|CDR|And now we're looking at what we call Boot Hill; occurs 20 seconds into the descent.
-078:50:03|P|PAO|Watching this pass with a great deal of interest here in mission Control Center is Pete Conrad, the commander for the Apollo 12 mission.
-078:50:08|T|CDR|The bright, sharp rimmed crater at the very right edge of the screen, Censorinus T. Now passing the - the 1 minute point in powered descent.
-078:50:29|T|CC|Roger. And for your information, your current altitude is 148 nautical miles above the surface.
-078:50:38|T|CDR|Roger. Thank you.
-078:50:43|T|CMP|I'm unable to determine altitude at all looking out the window. I couldn't tell whether we were down at 60 or up at 170.
-078:50:50|T|CC|I bet you could tell if you were down at 50,000 feet.
-078:50:56|T|CMP|I wouldn't be surprised.
-078:51:11|T|CDR|We're passing some steep ridges here. The edge of some old craters that were photographed by Apollo 10; and those - the crew of Apollo 10 was very impressed with the steepness of these ridges when they came over them at about 50,000 feet.
-078:51:35|T|CC|Roger. We can observe they're also steep even from this altitude. You got quite a shadow being cast by the Sun at these low angles.
-078:51:46|T|CDR|The entire surface is getting considerably darker than the surface that we looked at previously when the Sun was quite high above us. The crater in the - bright crater in the center of the screen, - well, the smaller one is Censorinus.
-078:52:08|T|CC|Roger. And we show you low over 1 minute from the terminator at the present time.
+078:47:36|T|CC|And in the right hand portion of our screen right now, we can see Messier Alfa and Bravo with the light colored rays streaming off in one direction.
+078:48:01|T|CMP|I don't know if you can make out, but in the Sea of Fertility there are a number of craters that are just barely discernible, old, old craters whose outlines are just barely able to be seen.
+078:48:15|T|CC|Roger. I think we can make them out. The color really enhances our ability to discern features and craters over what we see in real time on our black and white monitor.
+078:48:31|T|CMP|Right. The - At these low Sun angles, there's no trace of brown, it's now returned to a very gray appearance and, like the 8 crew said, it has a look of plaster of paris to it at this Sun angle, which is completely lacking in higher Sun angles.
+078:48:49|T|CC|Roger.
+078:48:55|P|PAO|We're now some 25 minutes into our television pass.
+078:49:07|T|CDR|Okay. This is very close to ignition point for power descent. Just passing Mount Marilyn that - that triangular shaped mountain that you see in the center of the screen at the present time with crater Secchi Theta on top of the far northern edge of the mountain.
+078:49:32|T|CC|Roger. We're getting a good view of Mount Marilyn and of Secchi Theta.
+078:49:45|T|CDR|And now we're looking at what we call Boot Hill; occurs 20 seconds into the descent.
+078:50:04|P|PAO|Watching this pass with a great deal of interest here in mission Control Center is Pete Conrad, the commander for the Apollo 12 mission.
+078:50:09|T|CDR|The bright, sharp rimmed crater at the very right edge of the screen, Censorinus T. Now passing the - the 1 minute point in powered descent.
+078:50:30|T|CC|Roger. And for your information, your current altitude is 148 nautical miles above the surface.
+078:50:39|T|CDR|Roger. Thank you.
+078:50:44|T|CMP|I'm unable to determine altitude at all looking out the window. I couldn't tell whether we were down at 60 or up at 170.
+078:50:51|T|CC|I bet you could tell if you were down at 50,000 feet.
+078:50:57|T|CMP|I wouldn't be surprised.
+078:51:12|T|CDR|We're passing some steep ridges here. The edge of some old craters that were photographed by Apollo 10; and those - the crew of Apollo 10 was very impressed with the steepness of these ridges when they came over them at about 50,000 feet.
+078:51:36|T|CC|Roger. We can observe they're also steep even from this altitude. You got quite a shadow being cast by the Sun at these low angles.
+078:51:47|T|CDR|The entire surface is getting considerably darker than the surface that we looked at previously when the Sun was quite high above us. The crater in the - bright crater in the center of the screen, - well, the smaller one is Censorinus.
+078:52:09|T|CC|Roger. And we show you low over 1 minute from the terminator at the present time.
 078:52:24|T|LMP|How's the brightness of the picture you're receiving? You think we ought to open f stop some as we approach the terminator?
-078:52:33|T|CC|Yes. The brightness is still doing quite well. You can go ahead and open it up a stop or two. The automatic light level compensation seems to be working beautifully.
-078:52:57|T|CDR|There's a good picture of Boot Hill.
-078:53:01|T|CC|Roger. We're - -
-078:53:02|T|CDR|Three minutes and 15 seconds into the descent.
-078:53:08|T|CC|Roger. We're seeing Boot Hill now.
-078:53:10|T|CDR|The next crater coming into the bottom, that's Duke Island right there, and to the left, the crater - the largest of the craters near the center of the picture right now is Maskelyne W. This is a position check during descent at about 3 minutes and 39 seconds, and it's our down range position check and cross range position check prior to yawing over face up to acquire the landing radar. Past this point, we would be unable to see the surface below us until getting very near the landing area.
-078:53:56|T|CC|Roger. I imagine you'll get a - you'll get a real good look at that tomorrow afternoon.
-078:54:13|T|CDR|Sinuous Rille is the one that was referred to in Apollo 10 as Sidewinder.
-078:54:20|T|CMP|That's a good name, too: Sidewinder and Diamondback. It looks like a couple of snakes down there in a lake bed.
-078:54:41|T|CDR|And we're approaching the terminator now. See the - -
-078:54:48|T|CC|Roger.
-078:54:49|T|CDR| - contrast increased, and only the sunlit side of these ridges remain illuminated, while the dark sides and the shadow will become completely black.
-078:54:58|T|CC|11, this is Houston. The picture's getting a little grainy now. You might go ahead and open up the f stop.
-078:55:19|T|CMP|Landing point is just barely in the darkness. That one crater, the upper part of which you see, lower part completely in darkness. The small, well defined crater is Moltke, which is about abeam of the landing sight.
-078:55:32|T|CC|Roger. We can just see; it looks like a little less than half of its rim right now.
+078:52:34|T|CC|Yes. The brightness is still doing quite well. You can go ahead and open it up a stop or two. The automatic light level compensation seems to be working beautifully.
+078:52:58|T|CDR|There's a good picture of Boot Hill.
+078:53:02|T|CC|Roger. We're - -
+078:53:03|T|CDR|Three minutes and 15 seconds into the descent.
+078:53:09|T|CC|Roger. We're seeing Boot Hill now.
+078:53:11|T|CDR|The next crater coming into the bottom, that's Duke Island right there, and to the left, the crater - the largest of the craters near the center of the picture right now is Maskelyne W. This is a position check during descent at about 3 minutes and 39 seconds, and it's our down range position check and cross range position check prior to yawing over face up to acquire the landing radar. Past this point, we would be unable to see the surface below us until getting very near the landing area.
+078:53:57|T|CC|Roger. I imagine you'll get a - you'll get a real good look at that tomorrow afternoon.
+078:54:14|T|CDR|Sinuous Rille is the one that was referred to in Apollo 10 as Sidewinder.
+078:54:21|T|CMP|That's a good name, too: Sidewinder and Diamondback. It looks like a couple of snakes down there in a lake bed.
+078:54:42|T|CDR|And we're approaching the terminator now. See the - -
+078:54:49|T|CC|Roger.
+078:54:50|T|CDR| - contrast increased, and only the sunlit side of these ridges remain illuminated, while the dark sides and the shadow will become completely black.
+078:54:59|T|CC|11, this is Houston. The picture's getting a little grainy now. You might go ahead and open up the f stop.
+078:55:20|T|CMP|Landing point is just barely in the darkness. That one crater, the upper part of which you see, lower part completely in darkness. The small, well defined crater is Moltke, which is about abeam of the landing sight.
+078:55:33|T|CC|Roger. We can just see; it looks like a little less than half of its rim right now.
 078:55:45|T|CC|And we can make out just barely some features on the surface, maybe from earthshine.
-078:55:58|T|CC|Are you wide open on the f stop at this time?
-078:56:03|T|CMP|Affirmative, we are.
-078:56:06|T|LMP|Yes. And it looks like we're just about to get the Sun coming into the lens, so we'll have to move the camera away.
-078:56:11|T|CC|Roger.
-078:56:13|T|CMP|We can't see any earthshine or any surface features at all in earthshine now due to the fact that the LM is very bright and is causing our pupils to contract.
-078:56:24|T|LMP|It's a very fantastic view to see the terminator as you look along the edge of it. I think you'll agree that some of these craters that you're seeing in the picture now are really accentuated by the lengthening of the shadows as they approach the terminator.
-078:56:42|T|CC|Yes. It's a very beautiful and a rugged sight that we've got on the screen now.
-078:56:52|T|CMP|And I think you've got some interesting data on thruster firing versus pitch angle. It looks like that LM just wants to head down towards the surface, is all.
-078:57:02|T|CC|Roger. I have a comment here that says that's what the LM was built for.
-078:57:11|T|CMP|I believe!
+078:55:59|T|CC|Are you wide open on the f stop at this time?
+078:56:04|T|CMP|Affirmative, we are.
+078:56:07|T|LMP|Yes. And it looks like we're just about to get the Sun coming into the lens, so we'll have to move the camera away.
+078:56:12|T|CC|Roger.
+078:56:14|T|CMP|We can't see any earthshine or any surface features at all in earthshine now due to the fact that the LM is very bright and is causing our pupils to contract.
+078:56:25|T|LMP|It's a very fantastic view to see the terminator as you look along the edge of it. I think you'll agree that some of these craters that you're seeing in the picture now are really accentuated by the lengthening of the shadows as they approach the terminator.
+078:56:43|T|CC|Yes. It's a very beautiful and a rugged sight that we've got on the screen now.
+078:56:53|T|CMP|And I think you've got some interesting data on thruster firing versus pitch angle. It looks like that LM just wants to head down towards the surface, is all.
+078:57:03|T|CC|Roger. I have a comment here that says that's what the LM was built for.
+078:57:12|T|CMP|I believe!
 078:57:45|T|LMP|And as the Moon sinks slowly in the west, Apollo 11 bids good day to you.
 078:57:50|T|CC|Roger. We sort of thought it was the Sun setting in the east.
 078:57:57|P|PAO|There you have it. Our first glimpse of the lunar surface during the Apollo 11 mission. The eleven crew took us on a guided tour of the front side, plus talked their way through the power descent that lies ahead in tomorrows activities. At 78 hours 58 minutes into the flight of Apollo 11, this is Apollo Control, Houston, continuing to monitor.
