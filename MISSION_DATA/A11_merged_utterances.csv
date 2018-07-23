@@ -7597,28 +7597,28 @@
 098:48:36|O|LMP|Roger. 224, plus 60267; 225, plus 58148; 226, plus 70312; 227, minus 50031. Over.
 098:48:36|T|LMP|Roger. 224, plus 60267; 225, plus 58148; 226, plus 70312; 227, minus 50031. Over.
 098:48:53|T|CC|Roger. Good readback. Out.
-098:49:16|O|CMP|Eagle, Columbia. My P22 is complete. I'm continuing this maneuver to AGS CAL attitude.
+098:49:19|O|CMP|Eagle, Columbia. My P22 is complete. I'm continuing this maneuver to AGS CAL attitude.
 098:49:19|T|CMP|Eagle, Columbia. My P22 is complete. I'm continuing this maneuver to AGS CAL attitude.
 098:49:25|T|CC|Roger. Fine. We copy.
-098:49:26|O|LMP|Roger.
+098:49:28|O|LMP|Roger.
 098:49:28|T|LMP|Roger.
-098:49:30|T|CC|Eagle, Columbia. Your high-gain angles are - Corrected - Eagle, Houston. Your high-gain angles are 165 pitch, yaw 66. Over.
-098:49:45|O|LMP|Roger. Columbia, Eagle. Have you about maneuvered there, yet?
-098:49:47|T|LMP|Roger. ...
-098:49:52|O|CMP|Negative.
-098:49:59|O|LMP|Houston, Eagle. Are those angles for after the maneuver that Columbia is going to make or are they for right now? Over.
-098:50:14|O|CMP|We have about another 120 degrees to go, Buzz.
-098:50:16|T|LMP|Stand by about another ...
-098:51:10|O|LMP|Houston, Eagle. I believe I've got you on the high-gain antenna now in HIGH BIT RATE. Over.
-098:51:13|T|LMP|Houston, Eagle. I think I've got you on the high-gain antenna now. AGS are go.
+098:49:30|T|CC|Eagle, Columbia. Your high-gain angles are - correction - Eagle, Houston. Your high-gain angles are 165 pitch, yaw 66. Over.
+098:49:48|O|LMP|Roger. Columbia, Eagle. Have you about maneuvered there, yet?
+098:49:48|T|LMP|Roger. ...
+098:49:54|O|CMP|Negative.
+098:50:01|O|LMP|Houston, Eagle. Are those angles for after the maneuver that Columbia is going to make or are they for right now? Over.
+098:50:16|O|CMP|We have about another 120 degrees to go, Buzz.
+098:50:16|T|CMP|We have about another -
+098:51:13|O|LMP|Houston, Eagle. I believe I've got you on the high-gain antenna now in HIGH BIT RATE. Over.
+098:51:13|T|LMP|Houston, Eagle. I believe I've got you on the high-gain antenna now in HIGH BIT RATE. Over.
 098:51:36|T|CC|Columbia, Houston. If you go to REACQ on the high-gain, we can acquire you now. Over.
 098:52:24|T|CC|Eagle, Houston. We got some loads for you if you'll give us P00 and DATA. Over.
-098:52:30|O|CMP|You've got P00 and DATA.
-098:52:32|T|LMP|You've got P00 and DATA.
+098:52:33|O|CMP|You've got P00 and DATA.
+098:52:33|T|LMP|You've got P00 and DATA.
 098:52:35|T|CC|Roger. We've got both of you on the high-gains now. It sounds great now. Over.
-098:52:40|O|LMP|Columbia.
-098:52:43|T|CMP|Copy. Roger.
-098:52:46|T|CC|Columbia, Houston. I have a SEP PAD if you're ready to copy. Over.
+098:52:43|O|LMP|Columbia. Roger.
+098:52:43|T|CMP|Columbia. Roger.
+098:52:47|T|CC|Columbia, Houston. I have a SEP PAD if you're ready to copy. Over.
 098:52:54|T|CMP|Stand by one.
 098:53:18|T|CMP|Ready to copy.
 098:53:19|T|CC|Roger, Mike. SEP PAD, RCS/G&N: NOUN 47 and NOUN 48 are NA, NOUN 33, 100 395 000, N0UN 81 is NA, roll 000 007 000. Rest of PAD is NA.
