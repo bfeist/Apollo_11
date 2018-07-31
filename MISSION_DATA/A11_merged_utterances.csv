@@ -7621,297 +7621,298 @@
 098:52:47|T|CC|Columbia, Houston. I have a SEP PAD if you're ready to copy. Over.
 098:52:54|T|CMP|Stand by one.
 098:53:18|T|CMP|Ready to copy.
-098:53:19|T|CC|Roger, Mike. SEP PAD, RCS/G&N: NOUN 47 and NOUN 48 are NA, NOUN 33, 100 395 000, N0UN 81 is NA, roll 000 007 000. Rest of PAD is NA.
-098:53:58|T|CMP|SEP, RCS/G&N at a TIG of 100 39 50: roll 0, pitch 007, yaw 0. Over.
-098:54:08|T|CC|Roger. Good readback.
-098:54:49|T|CDR|Houston, Eagle. Are you ready for us to start the RCS checkout now?
+098:53:20|T|CC|Roger, Mike. SEP PAD, RCS/G&N: NOUN 47 and NOUN 48 are NA, NOUN 33, 100 395 000, NOUN 81 is NA, roll 000 007 000. Rest of PAD is NA.
+098:53:59|T|CMP|SEP, RCS/G&N at a TIG of 100 39 50: roll 0, pitch 007, yaw 0. Over.
+098:54:09|T|CC|Roger. Good readback.
+098:55:00|T|CDR|Houston, Eagle. Are you ready for us to start the RCS checkout now?
 098:55:03|T|CC|As soon as we finish the uplink. Stand by one. Over.
 098:55:11|T|CDR|Okay.
-098:55:45|T|CMP|Houston, Columbia. Comment on P22. Worked just fine. The crater I marked on is a small crater down inside crater 130 as described by John Young.
+098:55:45|T|CMP|Houston, Columbia. Comment on P22. Worked just fine. The target I marked on is a small crater down inside crater 130 as described by John Young.
 098:55:57|T|CC|Roger. We copy.
 098:56:06|T|CC|Eagle, Houston. On our load - during our load, we had to do a VERB 96 to stop integration. We're going to start over again on this load. Over.
-098:56:19|T|CDR|Eagle. Roger.
+098:56:20|T|CDR|Eagle. Roger.
 098:56:22|T|LMP|And, Eagle, here. I have read out address in the AGS 404, 405 and 406, and I had believed that 405 and 406 would both be all zeros, and I would propose maybe that I reset them to zero. I realize that 404 should be a negative number, and it is minus 13495. Over.
-098:56:51|T|CC|Roger. Copy.
+098:56:52|T|CC|Roger. Copy.
 098:57:23|T|CC|Eagle, Housten. Over.
 098:57:28|T|LMP|Go ahead.
 098:57:31|T|CC|Buzz, we've got - The only thing we're missing here is the drift check. After we finish our load, we'd like you to do the drift check with Columbia. Over.
-098:57:44|T|CDR|GO.
+098:57:45|T|CDR|GO.
 098:58:05|T|CC|Eagle, Houston. The 404, 405, 406 look fine to us. Over.
-098:58:18|T|LMP|Roger. I am going to be setting them up to zero for the undocking. The question is do you want me to reset 404, 405, 406 back to the numbers that they are now, or can I leave them zero? I intend to set 404 to a minus 13495. Over.
+098:58:19|T|LMP|Roger. I am going to be setting them up to zero for the undocking. The question is do you want me to reset 405 and 406 back to the numbers that they are now, or can I leave them zero? I intend to set 404 to a minus 13495. Over.
 098:58:38|T|CC|Stand by.
 098:59:33|T|CC|Eagle, Houston. We would like you to zero, as called out in the timeline, all three addresses, 404, 405, 406, before undocking. After docking you can load them hack to the values that you have right now. Over.
-098:59:54|T|LMP|Eagle. Roger.
-099:00:13|T|LMP|And, Houston, Eagle here. Both RCS helium pressures are reading 2900. Over.
+098:59:55|T|LMP|Eagle. Roger.
+099:00:14|T|LMP|And, Houston, Eagle here. Both RCS helium pressures are reading 2900. Over.
 099:00:23|T|CC|Copy. Out.
 099:01:30|T|CC|Eagle, Houston. Over.
-099:01:35|T|LMP|Go ahead.
-099:01:36|T|CC|Roger, Buzz. There seems to be some confusion here on 405 and 406. We'd like you to zero them out prior to undocking, and after undocking you can - we'd like them still zeroed. Over.
-099:01:52|T|LMP|Roger. I agree with that. Thank you.
-099:01:55|T|CC|Yes.
+099:01:36|T|LMP|Go ahead.
+099:01:37|T|CC|Roger, Buzz. There seems to be some confusion here on 405 and 406. We'd like you to zero them out prior to undocking, and after undocking you can - we'd like them still zeroed. Over.
+099:01:53|T|LMP|Roger. I agree with that. Thank you.
+099:01:54|T|CC|Yep.
 099:03:25|T|CC|Eagle, Houston. We've got the load in the - We have reselected P00; your integration is going again for you; the computer is yours. We'd like to do the drift check now. Over.
-099:03:37|T|CDR|Roger. In work.
-099:03:39|T|CDR|Columbia, let's flick it in 0620 when you are ready.
+099:03:38|T|CDR|Roger. In work.
+099:03:40|T|CDR|Columbia, let's flick it in 0620 when you are ready.
 099:03:48|T|CMP|Standing by until your Mark, Neil.
-099:03:57|T|CDR|Okay. 3, 2, 1.
-099:04:02|T|CDR|MARK.
-099:04:05|T|CMP|358.1.64, 020.73, 359.54. Over.
-099:04:20|T|CDR|Copy. 358.64 020.73 and 359.54.
-099:04:27|T|CMP|That's correct.
-099:04:38|T|CC|Eagle, Houston. We've copied the angles and will read back if you are ready. Over.
+099:03:58|T|CDR|Okay. 3, 2, 1.
+099:04:03|T|CDR|MARK.
+099:04:06|T|CMP|358.1.64, 020.73, 359.54. Over.
+099:04:21|T|CDR|Copy. 358.64 020.73 and 359.54.
+099:04:28|T|CMP|That's correct.
+099:04:39|T|CC|Eagle, Houston. We've copied the angles and will read back if you are ready. Over.
 099:04:47|T|CDR|Go ahead.
 099:04:48|T|CC|Roger, Neil.
 099:04:49|T|CC|For the CM - for Columbia: 35864, 02073, 35954.
-099:04:58|T|CC|For Eagle: 30374, 20078, 00053. Over.
-099:05:09|T|CDR|That's correct, and GET was 99 hours and 4 minutes even.
-099:05:13|T|CC|Roger. Copy. Out.
+099:04:59|T|CC|For Eagle: 30374, 20078, 00053. Over.
+099:05:10|T|CDR|That's correct, and GET was 99 hours and 4 minutes even.
+099:05:14|T|CC|Roger. Copy. Out.
 099:06:08|T|CC|Eagle, Houston. Have you initialized the AGS yet? Over.
-099:06:17|T|LMP|Negative. I haven't had a state vector yet.
+099:06:18|T|LMP|Negative. I haven't had a state vector yet.
 099:06:21|T|CC|Roger, Buzz. Have you done the 377 yet?
 099:06:27|T|LMP|Roger. Standing by for your K factor.
 099:06:30|T|CC|Roger. Stand by.
-099:06:37|T|CC|Columbia, Houston. We have got a load for you. Could we have P00 and ACCEPT? Over.
-099:06:45|T|CMP|You got it.
-099:06:47|T|CC|Roger. Thank you, Mike. And break. Eagle, we've got a K factor for you. Over.
-099:07:00|T|LMP|Roger. Ready to copy.
+099:06:38|T|CC|Columbia, Houston. We have got a load for you. Could we have P00 and ACCEPT? Over.
+099:06:46|T|CMP|You got it.
+099:06:48|T|CC|Roger. Thank you, Mike. And break. Eagle, we've got a K factor for you. Over.
+099:07:01|T|LMP|Roger. Ready to copy.
 099:07:02|T|CC|Roger, Buzz. K factor coming at you: 90 00 00 15. Over.
-099:07:18|T|LMP|Roger. 90 00 00 15.
-099:07:24|T|CC|Roger. That's good. That's a good ENTER there.
+099:07:19|T|LMP|Roger. 90 00 00 15.
+099:07:25|T|CC|Roger. That's good. That's a good ENTER there.
 099:09:13|T|CC|Eagle, Houston. We recommend the AGS initial - Well, we see it coming up now on the AGS initialization. Over.
-099:09:22|T|LMP|Roger.
-099:09:28|T|CC|Eagle, Houston. After the AGS initialization, we'll be ready for the RCS checkout.
-099:09:36|T|LMP|Roger.
+099:09:23|T|CDR|Roger.
+099:09:29|T|CC|Eagle, Houston. After the AGS initialization, we'll be ready for the RCS checkout.
+099:09:36|T|CDR|Roger.
 099:09:42|T|CC|Columbia, Houston. We got the load in. You can go back to BLOCK.
-099:09:48|T|CMP|Thank you.
-099:11:29|T|CC|Columbia, Houston. Did you get a - copy any LM data, low bit rate, behind the Moon? Over.
-099:11:39|T|CMP|That's affirmative.
-099:11:42|T|CC|Roger. Stand by.
+099:09:49|T|CMP|Thank you.
+099:11:30|T|CC|Columbia, Houston. Did you get a - copy any LM data, low bit rate, behind the Moon? Over.
+099:11:40|T|CMP|That's affirmative.
+099:11:43|T|CC|Roger. Stand by.
 099:11:48|T|CMP|Or at least I've configured for it. I'm not sure Eagle sent it or not.
-099:11:51|T|LMP|No, we did not send V data. Eagle. Over.
-099:11:55|T|CC|Roger. Copy.
+099:11:52|T|LMP|No, we did not send V data. Eagle. Over.
+099:11:56|T|CC|Roger. Copy.
 099:13:58|T|CC|Eagle, Houston. The alignment and the initialization looked good to us. Over.
-099:14:11|T|LMP|Roger. Thank you.
-099:15:27|T|CC|Apollo 11, Houston. LOS is 99 30; next AOS 100 16. Over.
-099:15:43|T|LMP|100 16. Roger.
-099:16:31|T|CMP|Eagle, Columbia. Let me know when you come to your RCS hot fire checks so I can disable my roll.
-099:16:37|T|CDR|Wilco.
-099:16:38|T|LMP|Roger. We're right there now. And we'd like you - CSM in MID deadband ATT hold. Over.
-099:16:44|T|CMP|That's where I am.
+099:14:12|T|LMP|Roger. Thank you.
+099:15:28|T|CC|Apollo 11, Houston. LOS is 99:30; next AOS 100:16. Over.
+099:15:44|T|LMP|100:16. Roger.
+099:16:32|T|CMP|Eagle, Columbia. Let me know when you come to your RCS hot fire checks so I can disable my roll.
+099:16:38|T|CDR|Wilco.
+099:16:39|T|LMP|Roger. We're right there now. And we'd like you in - CSM in MID deadband ATT hold. Over.
+099:16:45|T|CMP|That's where I am.
 099:16:46|T|LMP|And, Houston, you have high bit rate with us now, I believe? We're ready to proceed with the RCS checks.
 099:16:54|T|CC|Roger, Eagle. We're standing by. We're ready. Over.
 099:18:57|T|LMP|Columbia, we'd like wide deadband ATT hold. Over.
-099:19:00|P|PAO|This is Apollo Control. We have less than 10 minutes now until loss of signal on the twelfth revolution. Before losing contact with the spacecraft, we'll be passing along a GO-NO/GO decision for undocking. That will occur early on the next revolution just prior to reacquiring the spacecraft. Flight Director, Gene Kranz, is going around the Control Center talking to his Flight Controllers. We're viewing status in preparation for making the GO-NO/GO decision for undocking.
-099:19:00|P|PAO|This is Apollo Control. We've had loss of signal now. We'll reacquire the spacecraft again on the thirteenth revolution in about 45 minutes. At the
-099:19:00|P|PAO|end of this pass, we passed along the GO for undocking. That maneuver will occur just before we reacquire the spacecraft on the thirteenth revolution and will be followed in about 30 minutes later by a small separation maneuver performed by Mike Collins in the Command Module. Checkout of the LM has been going extremely well up to now ahead of schedule. Both vehicles look very good. At 99 hours, 31 minutes, this is Apollo Control, Houston.
-099:19:02|T|CMP|Okay. Going wide deadband ATT hold.
-099:19:12|T|CMP|You got it.
-099:19:17|T|CMP|Are you going to do your hot fire now?
-099:19:20|T|LMP|Roger.
-099:19:21|T|CMP|Okay. I'm disabling my roll.
+099:19:03|T|CMP|Okay. Going wide deadband ATT hold.
+099:19:13|T|CMP|You got it.
+099:19:18|T|CMP|Are you going to do your hot fire now?
+099:19:21|T|LMP|Roger.
+099:19:22|T|CMP|Okay. I'm disabling my roll.
 099:19:31|T|CMP|Roll is disabled.
 099:19:34|T|LMP|Roger.
-099:21:07|T|CMP|Roger. Would you believe you've got thrusters onboard that vehicle.
-099:22:04|T|CMP|Give me a call just as soon as your hot fire is complete, please.
-099:22:09|T|CDR|Wilco.
-099:24:13|T|LMP|Houston, Eagle. The RCS hot fire is complete. How did you observe it? Over.
-099:24:18|T|CC|Stand by. Eagle, Houston. The RCS hot fire looks super to us. We're all GO.
-099:24:32|T|LMP|Roger. Mike, would you confirm that thrusters B3 and C4 are off? Over. And your radar transponder off.
-099:24:42|T|CMP|C4 is off; B3 is off. Transponder is to HEATER which is the same as being off, and I've got my roll jets back on now.
-099:24:50|T|CDR|And you're maneuvering. Right?
+099:20:25|P|PAO|This is Apollo Control. We have less than 10 minutes now until loss of signal on the twelfth revolution. Before losing contact with the spacecraft, we'll be passing along a GO-NO/GO decision for undocking. That will occur early on the next revolution just prior to reacquiring the spacecraft. Flight Director, Gene Kranz, is going around the Control Center talking to his Flight Controllers. We're viewing status in preparation for making the GO-NO/GO decision for undocking.
+099:21:08|T|CMP|I do believe you've got thrusters onboard that vehicle.
+099:22:05|T|CMP|Give me a call just as soon as your hot fire is complete, please.
+099:22:08|T|CDR|Wilco.
+099:24:14|T|LMP|Houston, Eagle. The RCS hot fire is complete. How did you observe it? Over.
+099:24:19|T|CC|Stand by. Eagle, Houston. The RCS hot fire looks super to us. We're all GO.
+099:24:33|T|LMP|Roger. Mike, would you confirm that thrusters B3 and C4 are off? Over. And your radar transponder off.
+099:24:43|T|CMP|C4 is off; B3 is off. Transponder is to HEATER which is the same as being off, and I've got my roll jets back on now.
+099:24:51|T|CDR|And you're maneuvering. Right?
 099:24:53|T|CMP|Will be shortly, Neil.
-099:25:00|T|CC|Apollo 11, Houston. We're GO for undocking. Over.
-099:25:08|T|LMP|Roger. Understand.
+099:25:01|T|CC|Apollo 11, Houston. We're GO for undocking. Over.
+099:25:09|T|LMP|Roger. Understand.
 099:26:39|T|CMP|Starting a trim maneuver to AGS CAL attitude.
-099:28:05|T|CMP|Houston, Columbia.
-099:28:07|T|CC|Go ahead, Columbia. Over.
-099:28:12|T|CMP|Roger. There will be no television of the undocking. I have all available windows either full of heads or cameras, and I'm busy with other things.
-099:28:19|T|CC|We concur. Over.
-099:28:23|T|CMP|Okay.
-099:28:24|T|CC|And, Eagle, Houston. We'd like you to select aft OMNI now. It will be good for both LOS and AOS. Over.
-099:28:33|T|LMP|Roger. Going to aft OMNI.
+099:28:06|T|CMP|Houston, Columbia.
+099:28:08|T|CC|Go ahead, Columbia. Over.
+099:28:13|T|CMP|Roger. There will be no television of the undocking. I have all available windows either full of heads or cameras, and I'm busy with other things.
+099:28:20|T|CC|We concur. Over.
+099:28:24|T|CMP|Okay.
+099:28:25|T|CC|And, Eagle, Houston. We'd like you to select aft OMNI now. It will be good for both LOS and AOS. Over.
+099:28:34|T|LMP|Roger. Going to aft OMNI.
 099:29:07|T|CC|Apollo 11, Houston. One minute to LOS.
-099:29:11|O|CMP|Columbia, out.
+099:29:13|O|CMP|Columbia, Roger.
 099:29:13|T|CMP|Columbia. Roger.
-099:29:16|O|CMP|All Columbia systems looking good.
+099:29:18|O|CMP|All Columbia systems looking good.
 099:29:18|T|CDR|... Columbia. Systems looking good.
-099:31:42|O|CMP|It's nice and quiet over here, isn't it?
-099:31:56|O|CMP|Eagle, you read Columbia?
-099:31:58|O|LMP|Roger. Loud and clear.
-099:32:03|O|CMP|Okay, everything's going well. Everything's quiet over on this side.
-099:32:07|O|LMP|You bet.
-099:32:09|O|CMP|Okay. I'm standing by to record your data anytime it's convenient for you; angles coming up in another 2 minutes.
-099:32:31|O|LMP|Okay, I'm ready to go to B DATA now.
-099:32:35|O|CMP|Roger and out.
-099:33:00|O|LMP|Columbia, Eagle. How do you read?
-099:33:04|O|CMP|Read you loud and clear, Buzz.
-099:33:06|O|LMP|Very good.
-099:33:10|O|CMP|...
-099:34:48|O|LMP|Mike, are you in AGS CAL attitude now?
-099:34:54|O|CMP|That's affirm. I'm holding you there with the DAP, getting the deadband. When you get ready to do the AGS CAL, I will sort of quiet down the thruster firing and then hope to stop it altogether, but I don't even think that'll get it.
-099:35:09|O|LMP|Okay. Well, I'm just about ready to do that. Whenever you're ready to let it go free, why just tell me.
-099:35:40|O|CMP|Okay, it looks real quiet now; I'm ready to go right now.
-099:36:00|O|CMP|Buzz, you copy?
-099:36:10|O|CMP|Buzz, you copy?
-099:36:13|O|LMP|Okay, Mike. Thanks.
-099:36:17|O|CMP|Now, ... might check me on this, I - it's - I'm ready to go anytime you're ready.
-099:36:24|O|LMP|Roger. We'll be ready to go in just a minute.
-099:37:46|O|LMP|Okay, I'm starting my 5-minute rate - right now.
-099:40:00|O|CMP|As a matter of interest, I appear to be drifting in my roll; I'm holding my pitch and yaw pretty constant, and I'm staying a good 15 degrees late in the program.
-099:40:15|O|LMP|Roger.
-099:40:17|O|CMP|Looks like a ...
-099:40:31|O|CMP|Halfway through it, it looks like I have ... degrees in roll is about all.
-099:40:39|O|LMP|Yes, those look like good ones right now.
-099:41:22|O|LMP|Mike, what's your SEP time?
-099:41:26|O|CMP|A few minutes.
-099:41:49|O|CMP|GET of the separation burn is 100:39:50 even.
-099:42:01|O|CMP|I haven't gotten the updates for undocking time; I'm still carrying 100 hours 15 minutes, I guess, ...
-099:42:23|O|CMP|I'm surprised they didn't update it by 3 or 4 minutes to, you know, make that DELTA-V be in the same position that they wanted.
-099:42:33|O|LMP|Yes, I agree.
-099:42:38|O|CMP|So we're about 3 minutes ahead of the printed Flight Plan; it might be wise to try to SEP about 3 minutes early, and we can give them a GET of SEP that's precise whenever they want it.
-099:43:06|O|CMP|I have 5 minutes and 15 seconds since we started. Attitude is holding very well.
-099:43:21|O|LMP|Roger, Mike. Just hold it a little bit longer.
-099:43:25|O|CMP|No sweat, I can hold it all day. Take your sweet time. How's the Czar over there? He's so quiet.
-099:43:45|O|CDR|Just hanging on - and punching.
-099:43:49|O|CMP|I didn't know ... radio. ... I've ever seen a radio. All I can say is, "Beware the revolution."
-099:46:21|O|CMP|You cats take it easy on the lunar surface; if I hear you huffing and puffing, I'm going to start bitching at you.
-099:46:28|O|LMP|Okay, Mike.
-099:46:37|O|CDR|I just pressurized the DPS. ... looks okay, Mike.
-099:46:40|O|CMP|Roger that.
-099:49:19|O|LMP|Hey, Mike, can you see where our radar's pointing now?
-099:49:29|O|CMP|Well, it looks like it's pointed right at my head; that's hard south; so's your radio beacon.
-099:49:34|O|LMP|Okay. It should really - it should be pointing from the - you know, our forward axis? It should be pointing up at 40 degrees and, you know -
-099:49:48|O|CMP|Okay. We've wandered back over the bellyband now - let me assure that AGS CAL.
-099:49:54|O|LMP|...
-099:50:19|O|CMP|How'd the AGS CAL work out?
-099:50:23|O|LMP|Oh, it danced around a little bit, but seemed to go right back to the original numbers.
-099:50:33|O|CMP|Okay. I'm going to start a maneuver now to our undocking attitude.
+099:30:09|P|PAO|This is Apollo Control. We've had loss of signal now. We'll reacquire the spacecraft again on the thirteenth revolution in about 45 minutes. At the end of this pass, we passed along the GO for undocking. That maneuver will occur just before we reacquire the spacecraft on the thirteenth revolution and will be followed in about 30 minutes later by a small separation maneuver performed by Mike Collins in the Command Module. Checkout of the LM has been going extremely well up to now ahead of schedule. Both vehicles look very good. At 99 hours, 31 minutes, this is Apollo Control, Houston.
+099:31:36|O|CMP|It's nice and quiet over here, isn't it?
+099:31:51|O|CMP|Eagle, you read Columbia?
+099:31:53|O|LMP|Roger. Loud and clear.
+099:31:58|O|CMP|Okay, everything's going well. Everything's quiet over on this side.
+099:32:02|O|LMP|You bet.
+099:32:04|O|CMP|Okay. I'm standing by to record your data anytime it's convenient for you; angles coming up in another 2 minutes.
+099:32:26|O|LMP|Okay, I'm ready to go to B DATA now.
+099:32:31|O|CMP|Roger and out.
+099:32:55|O|LMP|Columbia, Eagle. How do you read?
+099:32:59|O|CMP|Read you loud and clear, Buzz.
+099:33:01|O|LMP|Very good.
+099:33:05|O|CMP|...
+099:34:44|O|LMP|Mike, are you in AGS CAL attitude now?
+099:34:50|O|CMP|That's affirm. I'm holding you there with the DAP, getting the deadband. When you get ready to do the AGS CAL, I will sort of quiet down the thruster firing and then hope to stop it altogether, but I don't even think that'll get it.
+099:35:05|O|LMP|Okay. Well, I'm just about ready to do that. Whenever you're ready to let it go free, why just tell me.
+099:35:36|O|CMP|Okay, it looks real quiet now; I'm ready to go right now.
+099:35:55|O|CMP|Buzz, you copy?
+099:36:05|O|CMP|Buzz, you copy?
+099:36:08|O|LMP|Okay, Mike. Thanks.
+099:36:13|O|CMP|Now, ... might check me on this, I - it's - I'm ready to go anytime you're ready.
+099:36:19|O|LMP|Roger. We'll be ready to go in just a minute.
+099:37:42|O|LMP|Okay, I'm starting my 5-minutes rate - right now.
+099:39:57|O|CMP|As a matter of interest, I appear to be drifting in my roll; I'm holding my pitch and yaw pretty constant, and I'm staying a good 15 degrees late in the program.
+099:40:12|O|LMP|Roger.
+099:40:13|O|CMP|Looks like a ...
+099:40:27|O|CMP|Halfway through it, it looks like I've wandered 4 or 5 degrees in roll is about all.
+099:40:35|O|LMP|Yes, those look like good ones right now.
+099:41:18|O|LMP|Mike, what's your SEP time?
+099:41:23|O|CMP|A few minutes.
+099:41:46|O|CMP|GET of the separation burn is 100:39:50 even.
+099:41:57|O|CMP|I haven't gotten the updates for undocking time; I'm still carrying 100 hours 15 minutes, I guess, ...
+099:42:19|O|CMP|I'm surprised they didn't update it by 3 or 4 minutes to, you know, make that DELTA-V be in the same position that they wanted.
+099:42:30|O|LMP|Yes, I agree.
+099:42:34|O|CMP|So we're about 3 minutes ahead of the printed Flight Plan; it might be wise to try to SEP about 3 minutes early, and we can give them a GET of SEP that's precise whenever they want it.
+099:43:02|O|CMP|I have 5 minutes and 15 seconds since we started. Attitude is holding very well.
+099:43:18|O|LMP|Okay, Mike. Just hold it a little bit longer.
+099:43:22|O|CMP|No sweat, I can hold it all day. Take your sweet time. How's the Czar over there? He's so quiet.
+099:43:42|O|CDR|Just hanging on - and punching.
+099:43:45|O|CMP|I didn't know ... radio. ... I've ever seen a radio. All I can say is, "Beware the revolution."
+099:46:19|O|CMP|You cats take it easy on the lunar surface; if I hear you huffing and puffing, I'm going to start bitching at you.
+099:46:25|O|LMP|Okay, Mike.
+099:46:34|O|CDR|I just pressurized the DPS. ... looks okay, Mike.
+099:46:37|O|CMP|Roger that.
+099:49:17|O|LMP|Hey, Mike, can you see where our radar's pointing now?
+099:49:26|O|CMP|Well, it looks like it's pointed right at my head; that's hard south; don't irradiate me.
+099:49:32|O|LMP|Okay. It should really - it should be pointing from the - you know, our forward axis? It should be pointing up at 40 degrees and, you know -
+099:49:46|O|CMP|Okay. We've wandered back over the bellyband now - let me assure that AGS CAL.
+099:49:52|O|LMP|...
+099:50:17|O|CMP|How'd the AGS CAL work out?
+099:50:21|O|LMP|Oh, it danced around a little bit, but seemed to go right back to the original numbers.
+099:50:31|O|CMP|Okay. I'm going to start a maneuver now to our undocking attitude.
 099:51:00|T||BEGIN LUNAR REV 13
-099:51:21|O|CMP|Now the undock attitude and the SEP attitude ought to be the same, so I'm going to go to what they gave me for the updated separation-burn attitude. That's just about 7 degrees off, but it's in your Flight Plan for the undock attitude.
-099:51:38|O|LMP|Okay.
-099:53:12|O|CMP|When your rendezvous radar self-test is complete, let me know and I'll check out my transponder.
-099:53:30|O|LMP|Excuse me, Mike, what did you say?
-099:53:33|O|CMP|I say, when your rendezvous radar self-test is complete, let me know and I'll check out my transponder.
-099:53:38|O|LMP|Yes, we're through with that now.
-099:53:41|O|CMP|Thank you. I'm maneuvering the ...
-099:58:44|O|CMP|That transponder checked out. I hope they've got a nice, big, strong ... for you.
-099:58:49|O|LMP|Very good.
+099:51:20|O|CMP|Now the undock attitude and the SEP attitude ought to be the same, so I'm going to go to what they gave me for the updated separation-burn attitude. That's just about 7 degrees off, but it's in your Flight Plan for the undock attitude.
+099:51:36|O|LMP|Okay.
+099:53:11|O|CMP|When your rendezvous radar self-test is complete, let me know and I'll check out my transponder.
+099:53:28|O|LMP|Excuse me, Mike, what did you say?
+099:53:31|O|CMP|I say, when your rendezvous radar self-test is complete, let me know and I'll check out my transponder.
+099:53:37|O|LMP|Yes, we're through with that now.
+099:53:40|O|CMP|Thank you. I'm maneuvering the ...
+099:58:43|O|CMP|That transponder checked out. I hope they've got a nice, big, strong ... for you.
+099:58:48|O|LMP|Very good.
 099:59:56|O|LMP|Hey, Mike, what would you recommend as a good setting on the 16 millimeter?
 100:00:02|O|CMP|Well, what they recommend for you is f:8 at 1/250th and put it not on infinity, but on 7 feet, which covers all the way from infinity down to a very short distance to keep it in focus, and 6 frames per second, I guess.
-100:00:25|O|LMP|Yes, what you say, f:8 at 1/250th?
-100:00:28|O|CMP|Yes, f:8 at 1/250th. And after you get it all set up, check that f-stop again because it slides and slips off with very little twist.
+100:00:24|O|LMP|Yes, what you say, f:8 at 1/250th?
+100:00:28|O|CMP|Yes, f:8 at 1/250th.
+100:00:37|O|CMP|And after you get it all set up, check that f-stop again because it slides and slips off with very little twist.
 100:03:53|O|CMP|How about using, as an undocking time, 100 hours and 12 minutes? That suit your fancy?
-100:03:59|O|CDR|That'll be fine.
+100:04:00|O|CDR|That'll be fine.
 100:04:05|O|CMP|Okay.
 100:04:11|O|CDR|What have you got for AOS, Mike?
-100:04:14|O|CMP|I have 100 hours and 16 minutes.
+100:04:15|O|CMP|I have 100 hours and 16 minutes.
 100:04:20|O|CDR|Okay.
-100:10:44|O|CMP|We got just about a minute to go; you guys all set?
-100:10:48|O|CDR|Yes, I think we're about ready.
-100:11:47|O|CDR|We're all set when you are, Mike.
-100:11:51|O|CMP|15 seconds.
-100:12:03|O|CMP|Okay, there you go. Beautiful!
-100:12:06|O|CDR|...
-100:12:10|O|LMP|Looks like a good SEP.
-100:12:19|O|CMP|Looks good to me.
-100:12:59|O|CDR|Okay. I've killed my rate, Mike, so you drift out to the distance you like and then stop your rate.
-100:13:13|O|CDR|Starting my yaw.
-100:13:30|O|CDR|There's sure a better visual in the simulator.
-100:13:38|O|CMP|Okay. I picked up a little roll; I'm going to get rid of it.
-100:14:00|P|PAO|This is Apollo Control at 100 hours, 14 minutes. We are now less than 2 minutes from reacquiring the spacecraft on the thirteenth revolution. When next we hear from them the Lunar Module should be undocked from the Command and Service Module. We're presently about 25 minutes away from the separation burn which will be performed by Mike Collins in the Command Module to give the LM and the CSM a separation distance after descent orbit insertion maneuver of about 2 miles. We have some times on the upcoming events. The separation maneuver is scheduled to occur at a Ground Elapsed Time of 100 hours, 39 minutes, 50 seconds, the descent orbit insertion maneuver which will be performed on the backside of the Moon set for 101 hours, 36 minutes, 14 seconds, and the beginning of the powered descent at 102 hours, 33 minutes, 4 seconds. We're now 55 seconds from reacquiring Apollo 11 on the thirteenth revolution. During this revolution we will be doing the separation maneuver. We'll also be giving the crew on the Lunar Module a GO-NO/GO for the descent orbit insertion maneuver. We'll stand by now to reacquire the spacecraft. We have confirmation of acquisition of signal. We'll stand by for a call to the Crew.
-100:14:22|O|CDR|Okay with you if I start my pitch, or you think you're not far enough away yet, Mike?
-100:14:31|O|CMP|I'd prefer you stand by just a couple of seconds, Neil.
-100:14:34|O|CDR|Okay. I'll wait for when you're ready – when you think you've got your rates killed perfectly.
-100:14:39|O|CMP|Okay. I'm still holding ...
-100:14:41|O|CDR|...
-100:15:26|O|CMP|Okay, looks pretty good to me now.
-100:15:30|O|CDR|Okay.
-100:16:34|O|CMP|Just like in the simulator, you're drifting off to one side and down below a little bit.
-100:16:39|O|CDR|Yes.
-100:17:06|T|CC|Hello, Eagle. Houston. We're standing by. Over.
-100:17:06|O|CMP|The gear are looking good; I've seen three of them.
-100:17:11|O|CDR|The MESA is not down, right?
-100:17:14|O|CMP|Say again.
-100:17:15|O|CDR|The MESA's still up?
-100:17:19|O|CMP|Yes,
-100:17:20|O|CDR|Good.
-100:17:49|O|CMP|Now, you're looking good.
-100:17:51|T|CC|Eagle, Houston. We see you on the steerable. Over.
+100:10:45|O|CMP|We got just about a minute to go; you guys all set?
+100:10:49|O|CDR|Yes, I think we're about ready.
+100:11:49|O|CDR|We're all set when you are, Mike.
+100:11:53|O|CMP|15 seconds.
+100:12:05|O|CMP|Okay, there you go. See you later!
+100:12:06|O|CDR|See ya!
+100:12:12|O|LMP|Looks like a good SEP.
+100:12:21|O|CMP|Looks good to me.
+100:13:01|O|CDR|Okay. I've killed my rate, Mike, so you drift out to the distance you like and then stop your rate.
+100:13:15|O|CDR|Starting my yaw.
+100:13:32|O|CDR|There's sure a better visual in the simulator.
+100:13:40|O|CMP|Okay. I picked up a little roll; I'm going to get rid of it.
+100:14:20|P|PAO|This is Apollo Control at 100 hours, 14 minutes. We are now less than 2 minutes from reacquiring the spacecraft on the thirteenth revolution. When next we hear from them the Lunar Module should be undocked from the Command and Service Module. We're presently about 25 minutes away from the separation burn which will be performed by Mike Collins in the Command Module to give the LM and the CSM a separation distance after descent orbit insertion maneuver of about 2 miles. We have some times on the upcoming events. The separation maneuver is scheduled to occur at a Ground Elapsed Time of 100 hours, 39 minutes, 50 seconds, the descent orbit insertion maneuver which will be performed on the backside of the Moon set for 101 hours, 36 minutes, 14 seconds, and the beginning of the powered descent at 102 hours, 33 minutes, 4 seconds. We're now 55 seconds from reacquiring Apollo 11 on the thirteenth revolution. During this revolution we will be doing the separation maneuver. We'll also be giving the crew on the Lunar Module a GO-NO/GO for the Descent Orbit Insertion maneuver. We'll stand by now to reacquire the spacecraft.
+100:14:24|O|CDR|Okay with you if I start my pitch, or you think you're not far enough away yet, Mike?
+100:14:33|O|CMP|I'd prefer you stand by just a couple of seconds, Neil.
+100:14:36|O|CDR|Okay. I'll wait for when you're ready – when you think you've got your rates killed perfectly.
+100:14:42|O|CMP|Okay. I'm still holding ...
+100:14:44|O|CDR|...
+100:15:28|O|CMP|Okay, looks pretty good to me now.
+100:15:32|O|CDR|Okay.
+100:16:31|P|PAO|We have confirmation of acquisition of signal. We'll stand by for a call to the Crew.
+100:16:36|O|CMP|Just like in the simulator, you're drifting off to one side and down below a little bit.
+100:16:41|O|CDR|Yes.
+100:17:07|T|CC|Hello, Eagle. Houston. We're standing by. Over.
+100:17:09|O|CMP|The gear are looking good; I've seen three of them.
+100:17:13|O|CDR|The MESA is not down, right?
+100:17:16|O|CMP|Say again.
+100:17:17|O|CDR|The MESA's still up?
+100:17:21|O|CMP|Yes.
+100:17:22|O|CDR|Good.
+100:17:52|O|CMP|Now, you're looking good.
+100:17:52|T|CC|Eagle, Houston. We see you on the steerable. Over.
 100:17:59|O|LMP|Roger. Eagle's undocked. The Eagle has wings. Looking good.
-100:18:01|T|CDR(EAGLE)|Roger. Eagle is undocked.
+100:18:02|T|CDR(EAGLE)|Roger. Eagle is undocked.
 100:18:03|T|CC|Roger. How does it look, Neil?
-100:18:04|T|CDR(EAGLE)|The Eagle has wings.
-100:18:06|T|CC|Roger.
+100:18:05|T|CDR(EAGLE)|The Eagle has wings.
+100:18:06|T|CC|Rog.
 100:18:08|T|CDR(EAGLE)|Looking good.
 100:18:09|T|CC|Roger, Neil. We got a - If you will give us P00 and DATA, we've got the loads for you.
 100:18:18|O|CMP|Okay. You've got it, P00 and DATA.
-100:18:20|T|LMP(EAGLE)|Okay. You've got it. P00 and DATA.
-100:18:24|T|CC|Roger. Let us know when you are ready to copy. We have a DOI PAD, and a PDI PAD. Over.
-100:18:39|O|CDR|You check our tracking light, Mike?
-100:18:41|T|CDR(EAGLE)|You check our tracking light, Mike?
-100:18:44|O|CMP|It came on.
-100:18:56|O|CMP|Camera's working beautifully.
-100:19:00|O|CDR|Track off?
-100:19:02|T|CDR(EAGLE)|Back off? Okay. I'm ready to start my yaw maneuver if it suits you, Mike.
-100:19:04|O|CMP|It's off.
-100:19:05|O|CDR|I'm ready to start my yaw maneuver if it suits you, Mike.
-100:20:04|O|CDR|Does it look like you're going to be able to do this without firing any thrusters, Mike?
-100:20:06|T|CDR(EAGLE)|Does it look like you are going to be able to do this without burning thrusters, Mike?
-100:20:11|O|CMP|I'd have to fire laterally once or twice.
-100:20:22|O|CMP|Very small.
-100:20:26|O|LMP|Go ahead, Houston. Eagle is ready to copy.
-100:20:28|T|LMP(EAGLE)|Go ahead, Houston. Eagle is ready to copy.
-100:20:32|T|CC|Roger, Eagle. Coming at you with a DOI PAD: 101 36 14.07. NOUN 81, minus 00758, plus all balls, plus 00098 plus - correction, 00572, perigee plus 00085 00764 030 000 293. NOUN 86, minus 00759, plus all balls, plus 00090. Rest of the PAD is NA. Stand by on your readback. If you are ready to copy the PDI data, I have it for you. Over.
-100:20:51|T|LMP(EAGLE)|Go ahead.
-100:21:49|O|LMP|Go ahead.
+100:18:21|T|LMP(EAGLE)|Okay. You've got it. P00 and DATA.
+100:18:25|T|CC|Roger. Let us know when you are ready to copy. We have a DOI PAD, and a PDI PAD. Over.
+100:18:42|O|CDR|You check our tracking light, Mike?
+100:18:42|T|CDR(EAGLE)|You check our tracking light, Mike?
+100:18:47|O|CMP|It came on.
+100:18:59|O|CMP|Ya, that's working beautifully.
+100:19:03|O|CDR|Track off?
+100:19:03|T|CDR(EAGLE)|Back off?
+100:19:05|O|CMP|It's off.
+100:19:07|T|CDR|Okay. I'm ready to start my yaw maneuver if it suits you, Mike.
+100:19:07|O|CDR|I'm ready to start my yaw maneuver if it suits you, Mike.
+100:20:07|O|CDR|Does it look like you're going to be able to do this without firing any thrusters, Mike?
+100:20:07|T|CDR(EAGLE)|Does it look like you are going to be able to do this without firing any thrusters, Mike?
+100:20:14|O|CMP|I'd have to fire laterally once or twice.
+100:20:24|O|CMP|Very small.
+100:20:29|O|LMP|Go ahead, Houston. Eagle is ready to copy.
+100:20:29|T|LMP(EAGLE)|Go ahead, Houston. Eagle is ready to copy.
+100:20:32|T|CC|Roger, Eagle. Coming at you with a DOI PAD: 101:36:14.07. Noun 81, minus 00758, plus all balls, plus 00098, plus - correction, 00572, perigee plus 00085 00764 030 000 293. Noun 86, minus 00759, plus all balls, plus 00090. Rest of the PAD is NA. Stand by on your readback. If you are ready to copy the PDI data, I have it for you. Over.
+100:21:51|T|LMP(EAGLE)|Go ahead.
+100:21:51|O|LMP|Go ahead.
 100:21:55|T|CC|Understand you are ready to copy the PDI data, Eagle. Over
-100:21:59|O|LMP|That's affirmative. Go ahead with the PDI.
+100:22:01|O|LMP|That's affirmative. Go ahead with the PDI.
 100:22:01|T|LMP(EAGLE)|That's affirmative. Go ahead with the PDI.
-100:22:05|T|CC|Roger. PDI PAD: TIG 102 33 04.36 09 50, minus 00021, 182 287 000, plus 56919. PDI aoort, less than 10 minutes, 105 12 30.00. PDI absrt, greater than 10 minutes, 103 40 00.00 107 11 30.00. No PDI plus 12: 102 44 27.00. NOUN 81 plus 01223, minus all balls, plus 01889 01520 plus 00110 02250, burn time 046 000 190, plus 01187, plus all balls, plus 01911. NOUN 11 103 31 07.00. NOUN 37 105 12 30.00. Ready for your readbacks, Over.
-100:24:39|T|CC|Eagle, Houston. We are through with the computer. You can go, back to BLOCK. Over.
-100:24:46|O|LMP|Roger. Back to BLOCK and DOI: 101:36:14.07; minus 0075.8, plus all zeros, plus 0009.8; 0057.2, plus 0008.5, 0076.4, 0:3O; 000, 293; minus 0075.9, plus all zeros, plus 0009.0; NA. Over.
-100:24:49|T|LMP(EAGLE)|Roger. Back to BLOCK; and REALIGN: 101 36 14.07 minus 00758,plus all zeros, plus 00098 00572, plus 00085 00764 030 000 293, minus 000759, plus all zeros, plus 00090. NA. Over.
-100:25:33|T|CC|That was a good readback, Buzz. Go ahead. Over.
-100:25:39|O|LMP|Okay, PDI pad: 102:33:04.36; 09:50; minus 0002.1; 182, 287, 000; plus 56919. PDI less than 10: 105:12:30.00. PDI abort greater than 10: 103:40:00.00, 107:11:30.00. No PDI plus 12 abort: 102:44:37.00; plus 0122.3, minus all zeros, plus 0188.9; 0152.0, plus 0011.0, 0225.0, 0:46; 000, 190; plus 0118.7, plus 0000.0, plus 0191.1; 103:31:07.00; 105:12:30.00. Over.
-100:25:42|T|LMP(EAGLE)|Okay. PDI PAD: 102 33 04.36, 09 50, minus 00021 182 287 000, plus 56919. PDI less than 10: 105 12 30.00. PDI greater than 10: 103 40 00.00 107 11 30.00. No PDI plus 12 abort: 102 44 27.00, plus 01223, minus all zeros, plus 01889 01520, plus 00110 02250 046 000 190, plus 01187, plus 00000, plus 019011 103 31 07.00 105 12 30.00. Over.
-100:27:00|P|PAO|This is Apollo Control. We are now 6 minutes 8 seconds from ignition and -
+100:22:05|T|CC|Roger. PDI PAD: TIG 102:33:04.36; 09:50, minus 00021; 182, 287, 000; plus 56919. PDI abort, less than 10 minutes, 105:12:30.00. PDI abort, greater than 10 minutes, 103:40:00.00, 107:11:30.00. No PDI plus 12: 102:44:27.00. Noun 81, plus 01223, minus all balls, plus 01889; 01520, plus 00110, 02250. Burn time, 0:46; 000, 190; plus 01187, plus all balls, plus 01911. Noun 11, 103:31:07.00. Noun 37, 105:12:30.00. Ready for your readbacks, Over.
+100:24:40|T|CC|Eagle, Houston. We are through with the computer. You can go, back to BLOCK. Over.
+100:24:49|O|LMP|Roger. Back to Block, and DOI: 101:36:14.07. Minus 0075.8, plus all zeros, plus 0009.8, 0057.2, plus 0008.5, 0076.4, 030, 000, 293; minus 0075.9, plus all zeros, plus 0009.0; NA. Over.
+100:24:49|T|LMP(EAGLE)|Roger. Back to Block, and DOI: 101:36:14.07. Minus 0075.8, plus all zeros, plus 0009.8, 0057.2, plus 0008.5, 0076.4, 030, 000, 293; minus 0075.9, plus all zeros, plus 0009.0; NA. Over.
+100:25:34|T|CC|That was a good readback, Buzz. Go ahead. Over.
+100:25:39|O|LMP|Okay, PDI PAD: 102:33:04.36; 09:50; minus 0002.1; 182, 287, 000; plus 56919. PDI less than 10: 105:12:30.00. PDI abort greater than 10: 103:40:00.00, 107:11:30.00. No PDI plus 12 abort: 102:44:37.00; plus 0122.3, minus all zeros, plus 0188.9; 0152.0, plus 0011.0, 0225.0, 0:46; 000, 190; plus 0118.7, plus 0000.0, plus 0191.1; 103:31:07.00; 105:12:30.00. Over.
+100:25:42|T|LMP(EAGLE)|Okay, PDI PAD: 102:33:04.36; 09:50; minus 0002.1; 182, 287, 000; plus 56919. PDI less than 10: 105:12:30.00. PDI abort greater than 10: 103:40:00.00, 107:11:30.00. No PDI plus 12 abort: 102:44:37.00; plus 0122.3, minus all zeros, plus 0188.9; 0152.0, plus 0011.0, 0225.0, 0:46; 000, 190; plus 0118.7, plus 0000.0, plus 0191.1; 103:31:07.00; 105:12:30.00. Over.
 100:27:24|T|CC|Roger. Good readback, Buzz. Out.
-100:29:00|O|CMP|Neil, I'm maneuvering in roll.
-100:29:02|T|CMP(COLUMBIA)|Neil, I'm maneuvering in roll.
-100:29:03|O|CDR|Roger. I see.
-100:29:04|T|CDR(EAGLE)|Roger. I see you.
-100:29:08|O|LMP|Houston, Eagle. Are you copying the fairly large numbers for range and range rate in - VERB 83? And did you - you just give us a state vector that changed one of the two vehicles? Over.
-100:29:10|T|LMP(EAGLE)|Houston, Eagle. Are you copying the very large numbers for range and range rate in VERB 83? And did you just give us a state vector that changed one of the two vehicles? Over.
-100:29:28|T|CC|Roger, Eagle. We gave you a LM state vector. We have not changed the CSM state vector, however. Over.
-100:29:38|O|LMP|Okay. That explains the difference.
-100:29:40|T|LMP(EAGLE)|Okay. That explains it. Over.
-100:30:16|T|CC|Columbia, Houston. On my Mark 9 30 to ignition.
-100:30:19|T|CC|MARK.
-100:30:20|T|CC|9 30.
-100:30:53|T|CC|Eagle, Houston. Would you have Columbia go to the high-gain, yaw 0, pitch minus 20. Over.
-100:31:03|O|CDR|You want him to go to high-gain, YAW, zero or - say again the numbers.
+100:29:03|O|CMP|Neil, I'm maneuvering in roll.
+100:29:03|T|CMP(COLUMBIA)|Neil, I'm maneuvering in roll.
+100:29:06|O|CDR|Roger. I see you.
+100:29:06|T|CDR(EAGLE)|Roger. I see you.
+100:29:10|O|LMP|Houston, Eagle. Are you copying the fairly large numbers for range and range rate in - VERB 83? And did you - you just give us a state vector that changed one of the two vehicles? Over.
+100:29:10|T|LMP(EAGLE)|Houston, Eagle. Are you copying the fairly large numbers for range and range rate in - VERB 83? And did you - you just give us a state vector that changed one of the two vehicles? Over.
+100:29:29|T|CC|Roger, Eagle. We gave you a LM state vector. We have not changed the CSM state vector, however. Over.
+100:29:41|O|LMP|Okay. That explains the difference.
+100:29:41|T|LMP(EAGLE)|Okay. That explains the difference.
+100:30:17|T|CC|Columbia, Houston. On my Mark 9:30 to ignition.
+100:30:20|T|CC|MARK. 9:30.
+100:30:54|T|CC|Eagle, Houston. Would you have Columbia go to the high-gain, yaw 0, pitch minus 20. Over.
+100:31:05|O|CDR|You want him to go to high-gain, YAW, zero or - say again the numbers.
 100:31:05|T|CDR(EAGLE)|You want him to go to high-gain yaw 0? Say again the numbers.
 100:31:13|T|CC|Roger, Neil. Yaw 0, pitch minus 20, high-gain angles. Over.
-100:31:17|O|CDR|Okay. YAW, zero; PITCH, minus 20, on the high-gain. Columbia.
+100:31:20|O|CDR|Okay. YAW, zero; PITCH, minus 20, on the high-gain.
 100:31:20|T|CDR(EAGLE)|Okay. Yaw 0, pitch minus 20 on the high-gain.
-100:31:23|T|CC|That's affirmative. We've lost all data with him.
+100:31:24|T|CC|That's affirmative. We've lost all data with him.
 100:31:24|O|CMP|Yes, I copy that, and I'll do it just as soon as I get to it.
-100:31:25|T|CDR(EAGLE)|To Columbia?
-100:31:27|O|CDR|Okay, he says he'll do that as soon as he gets around there.
-100:31:29|T|CDR(EAGLE)|He says he'll do that as soon as he gets around there.
-100:31:32|T|CC|Roger.
-100:31:38|O|CMP|Okay, Neil, I'm all set for the SEP burn, and we're looking good on this phasing.
-100:31:42|O|CDR|Okay.
+100:31:26|O|CDR(EAGLE)|To Columbia?
+100:31:26|T|CDR(EAGLE)|To Columbia?
+100:31:30|O|CDR|Okay, he says he'll do that as soon as he gets around there.
+100:31:30|T|CDR(EAGLE)|He says he'll do that as soon as he gets around there.
+100:31:33|T|CC|Roger.
+100:31:40|O|CMP|Okay, Neil, I'm all set for the SEP burn, and we're looking good on this phasing.
+100:31:44|O|CDR|Okay.
 100:31:45|T|CDR(EAGLE)|Okay.
-100:32:36|T|CC|Columbia, Houston. How do you read?
-100:32:38|O|CMP|Columbia, read you loud and clear. Houston, how me?
-100:32:40|T|CMP(COLUMBIA)|I read you loud and clear, Houston. How me?
+100:32:37|T|CC|Columbia, Houston. How do you read?
+100:32:38|O|CMP|Columbia, reading you loud and clear. Houston, how me?
+100:32:41|T|CMP(COLUMBIA)|Columbia, reading you loud and clear. Houston, how me?
 100:32:43|T|CC|Roger, Mike. Five by. On my Mark 7 minutes to ignition.
-100:32:49|T|CC|MARK.
-100:32:50|T|CC|Seven minutes.
-100:32:55|T|CMP(COLUMBIA)|I agree. Everything's looking real good.
+100:32:50|T|CC|MARK. Seven minutes.
+100:32:54|T|CMP(COLUMBIA)|I agree. Everything's looking real good.
+100:33:42|P|PAO|This is Apollo Control. We are now 6 minutes 8 seconds from ignition and -
 100:33:47|T|CC|Apollo 11, Houston. You are looking good for separation. You are GO for separation, Columbia. Over.
 100:33:55|T|CMP(COLUMBIA)|Columbia understands.
-100:34:38|T|CMP(COLUMBIA)|We're really stabilized, Neil. I haven't burned a thruster in 5 minutes.
+100:34:39|T|CMP(COLUMBIA)|We're really stabilized, Neil. I haven't burned a thruster in 5 minutes.
 100:35:26|T|CMP(COLUMBIA)|I'll make a small trim maneuver.
 100:36:21|T|CDR(EAGLE)|Mike, what's going to be your pitch angle at SEP?
 100:36:27|T|CMP(COLUMBIA)|007 degrees.

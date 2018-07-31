@@ -139,8 +139,11 @@
 093:34:17 - MISSING onboard transcripts
 095:16:17 - News
 095:53:30 - Loud noise startles Collins
-
-
+099:21:08|T|CMP|I do believe you've got thrusters onboard that vehicle.
+099:25:01|T|CC|Apollo 11, Houston. We're GO for undocking. Over.
+099:43:22 Collins teasing Neil about being Czar
+100:12:05 Separation for landing - "See ya!"
+100:33:47 GO for separation maneuver (prior to DOI)
 
 
 
