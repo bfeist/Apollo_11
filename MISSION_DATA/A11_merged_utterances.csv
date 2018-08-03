@@ -8345,97 +8345,98 @@
 102:31:07|T|LMP(EAGLE)|Okay. Sequence camera coming on.
 102:31:07|O|LMP|Okay, sequence camera coming on.
 102:31:22|O|CDR|Should be a little ...
-102:31:32|T|CC|Eagle, Houston. If you'd like to try high-gain, pitch 212, yaw 37. Over.
-102:31:43|O|LMP|Roger. I think I've got you on high-gain now.
-102:31:45|T|LMP(EAGLE)|Roger. I think I've got you on high-gain now.
-102:31:47|O|CDR|Okay. Hear anything about that?
-102:31:49|T|CC|Roger.
-102:32:02|O|CDR|Say again the angles, though.
-102:32:03|T|LMP(EAGLE)|Say again the angles, though.
-102:32:04|O|LMP|I'll set them in to use them before we yaw around.
-102:32:05|T|CC|Roger.
-102:32:06|T|LMP(EAGLE)|I'll set them in to use them before we yaw around.
-102:32:08|T|CC|Roger. Pitch 212, yaw plus 37.
-102:32:15|O|LMP|Copy.
-102:32:19|O|CDR|Okay. What else is left to do here?
-102:32:22|O|LMP|ENGINE ARM, DESCENT. 40 seconds.
-102:32:24|T|LMP(EAGLE)|OMNI's in.
-102:32:30|O|CDR|Is your camera running?
-102:32:31|O|LMP|Camera's running.
-102:32:42|O|LMP|Okay, ...
-102:32:46|O|CDR|Okay, the OVERRIDE at 5 seconds.
-102:32:54|O|CDR|DESCENT, ARMED.
-102:32:58|O|LMP|ALTITUDE lights, ON? ... proceed?
-102:33:00|P|PAO|Current altitude about 46,000 feet, continuing to descend.
-102:33:00|P|PAO|2 minutes, 20 seconds everything looking good. We show altitude about 47,000 feet.
-102:33:02|O|CDR|Proceed. 1, 0 –
-102:33:07|O|CDR|IGNITION. 10 percent.
-102:33:09|T|LMP(EAGLE)|... 10 ... 10 percent ...
-102:33:14|O|LMP|Just about on time.
-102:33:18|O|CDR|You got the OVERRIDEs ON?
-102:33:21|O|LMP|OVERRIDE is ON. 24. FLASH. THROTTLE, up.
-102:33:34|O|CDR|Good. Okay.
-102:33:41|T|CC|Columbia, Houston. We've lost them. Tell them to go aft OMNI. Over.
-102:33:42|O|LMP|PGNS holding.
-102:33:51|T|CMP(COLUMBIA)|They've lost you. Use the OMNI's again.
-102:33:59|O|LMP|Okay, we're reading your relay to us, Mike? I'll leave it in SLEW. Relay it to us. See if they got me now; I got good signal strength on SLEW.
-102:34:01|T|LMP(EAGLE)|...
-102:34:05|T|CMP(COLUMBIA)|Say again, Neil?
-102:34:07|T|LMP(EAGLE)|I'll leave it in SLEW. Relay to us. See if they have got me now. I've got good signal strength in SLEW.
-102:34:13|T|CMP(COLUMBIA)|Okay. You should have him now, Houston.
-102:34:16|T|CC|Eagle, we've got you now. It's looking good. Over.
-102:34:21|O|LMP|Okay, rate of descent looks good.
-102:34:23|T|CC|Eagle - -
-102:34:24|T|LMP(EAGLE)|- - descent looks good.
-102:34:25|T|CC|Eagle, Houston. Everything is looking good here. Over.
-102:34:27|O|LMP|Roger. Copy.
-102:34:29|T|LMP(EAGLE)|Roger. Copy.
-102:34:34|T|CC|Eagle, Houston. After yaw around, angles: S band pitch, minus 9, yaw plus 18.
-102:34:44|O|LMP|Copy.
-102:34:46|T|LMP(EAGLE)|Copy.
-102:34:49|O|CDR|Okay. Coming up on 2 minutes; going good. AGS's good?
-102:34:57|O|LMP|AGS and PGNS agree very closely.
-102:34:59|T|LMP(EAGLE)|AGS and PNGS agree very closely.
-102:34:59|O|CDR|RCS is good; no flag. DPS pressure is good. 1 minute.
-102:35:01|T|CC|Roger.
-102:35:11|O|LMP|30 feet per second. Light's on. Altitude's a little high.
-102:35:14|T|LMP(EAGLE)|Beta ARM. Altitudes are a little high.
-102:35:21|O|CDR|Okay, we want a 10. Let's get - You want to get rid of this radar?
-102:35:30|O|LMP|Yes.
-102:35:31|O|CDR|To SLEW?
-102:35:32|O|LMP|SLEW.
-102:35:43|O|LMP|Houston, I'm getting a little fluctuation in the - AC voltage now. Just the meter, maybe, huh?
-102:35:45|T|LMP(EAGLE)|Houston. I'm getting a little fluctuation in the AC voltage now.
-102:35:51|T|CC|Roger.
-102:35:52|T|LMP(EAGLE)|Could be our meter, maybe, huh?
-102:35:54|T|LMP(EAGLE)|Stand by, Looking good to us. You're still looking good at 3, coming up 3 minutes.
-102:36:03|O|CDR|Okay, we went by the 3-minute point early. A little off.
-102:36:11|O|LMP|Rate of descent looks real good. Altitude – right about on.
-102:36:13|T|LMP(EAGLE)|... real good .... about on.
-102:36:16|O|CDR|Our position checks downrange show us to be a little off. AGS - AGS is showing about 2-feet-per-second greater rate of descent.
-102:36:18|T|CDR(EAGLE)|Our. position checks downrange show us to be a little long.
-102:36:21|T|CC|Roger. Copy.
-102:36:24|T|LMP(EAGLE)|AGS has gone about 2 feet per second greater ...
-102:36:34|O|CDR|MARK.
-102:36:35|O|CDR|Show us to be about - Stand by. Maybe have to stop that.
-102:36:36|T|CDR(EAGLE)|... ought to be ... Stand by.,
-102:36:41|O|LMP|Altitude rate looks right down the groove.
-102:36:43|T|LMP(EAGLE)|Altitude ...
-102:36:44|O|CDR|Roger. About 2 seconds off - rolling over.
-102:36:54|O|CDR|Okay, now watch that signal strength because -
-102:36:58|O|LMP|Yes, I think it's going to drop.
-102:37:00|T|LMP(EAGLE)|... it's going to stop.
-102:37:01|O|CDR|Boy, I tell you, this is much harder to do than it was -
-102:37:09|O|LMP|Keep it going.
-102:37:16|O|LMP|Houston, before we leave you, the ED BATS are GO at 4 minutes.
-102:37:18|T|CC|Eagle, Houston. You are GO to continue - -
-102:37:19|T|LMP(EAGLE)|... closed ... GO ... at 4 minutes.
-102:37:22|T|CC|Roger. You are GO - You are GO to continue powered descent. You are GO to continue powered des cent.
-102:37:28|O|LMP|Roger.
-102:37:30|T|LMP(EAGLE)|Roger.
-102:37:35|T|CC|And, Eagle, Houston. We've got data dropout. You're still looking good.
-102:37:44|O|CDR|How you look over there? Okay?
-102:38:00|P|PAO|Altitude 40,000.
+102:31:35|T|CC|Eagle, Houston. If you'd like to try high-gain, pitch 212, yaw 37. Over.
+102:31:48|O|LMP|Roger. I think I've got you on high-gain now.
+102:31:48|T|LMP(EAGLE)|Roger. I think I've got you on high-gain now.
+102:31:51|O|CDR|Okay. Hear anything about that?
+102:31:51|T|CC|Roger.
+102:32:00|P|PAO|Coming up on one minute to ignition.
+102:32:06|O|CDR|Say again the angles, though.
+102:32:06|T|LMP(EAGLE)|Say again the angles, though.
+102:32:07|T|CC|Roger.
+102:32:08|O|LMP|I'll set them in to use them before we yaw around.
+102:32:08|T|LMP(EAGLE)|I'll set them in to use them before we yaw around.
+102:32:10|T|CC|Roger. Pitch 212, yaw plus 37.
+102:32:19|O|LMP|Copy.
+102:32:23|O|CDR|Okay. What else is left to do here?
+102:32:26|O|LMP|ENGINE ARM, DESCENT. 40 seconds.
+102:32:26|T|LMP(EAGLE)|OMNI's in.
+102:32:33|O|CDR|Is your camera running?
+102:32:35|O|LMP|Camera's running.
+102:32:46|P|PAO|Current altitude about 46,000 feet, continuing to descend.
+102:32:47|O|LMP|Okay, ...
+102:32:50|O|CDR|Okay, the OVERRIDE at 5 seconds.
+102:32:57|O|CDR|DESCENT, ARMED.
+102:33:02|O|LMP|ALTITUDE lights, ON? ... proceed?
+102:33:06|O|CDR|Proceed. 1, 0 –
+102:33:11|O|CDR|IGNITION. 10 percent.
+102:33:08|T|LMP(EAGLE)|... 1, 0. IGNITION 10 percent ...
+102:33:18|O|LMP|Just about on time.
+102:33:22|O|CDR|You got the OVERRIDEs ON?
+102:33:25|O|LMP|OVERRIDE is ON. 24. FLASH. THROTTLE, up.
+102:33:38|O|CDR|Looks good. Okay.
+102:33:43|T|CC|Columbia, Houston. We've lost them. Tell them to go aft OMNI. Over.
+102:33:46|O|LMP|PGNS holding.
+102:33:54|T|CMP(COLUMBIA)|They've lost you on the OMNIs ...
+102:34:03|O|LMP|Okay, we're reading your relay to us, Mike? I'll leave it in SLEW. Relay it to us. See if they got me now; I got good signal strength on SLEW.
+102:34:03|T|LMP(EAGLE)|...
+102:34:08|T|CMP(COLUMBIA)|Say again, Neil?
+102:34:09|T|LMP(EAGLE)|I'll leave it in SLEW. Relay to us. See if they have got me now. I've got good signal strength in SLEW.
+102:34:16|T|CMP(COLUMBIA)|Okay. You should have him now, Houston.
+102:34:18|T|CC|Eagle, we've got you now. It's looking good. Over.
+102:34:25|O|LMP|Okay, rate of descent looks good.
+102:34:25|T|CC|Eagle - -
+102:34:26|T|LMP(EAGLE)|- - descent looks good.
+102:34:26|T|CC|Eagle, Houston. Everything is looking good here. Over.
+102:34:32|O|LMP|Roger. Copy.
+102:34:32|T|LMP(EAGLE)|Roger. Copy.
+102:34:36|T|CC|Eagle, Houston. After yaw around, angles: S band pitch, minus 9, yaw plus 18.
+102:34:48|O|LMP|Copy.
+102:34:48|T|LMP(EAGLE)|Copy.
+102:34:53|O|CDR|Okay. Coming up on the 2 minute point, here; going good. AGS's good?
+102:35:01|O|LMP|AGS and PGNS agree very closely.
+102:35:01|T|LMP(EAGLE)|AGS and PNGS agree very closely.
+102:35:03|O|CDR|RCS is good; no flag. DPS pressure is good. 1 minute.
+102:35:04|T|CC|Roger.
+102:35:16|O|LMP|30 feet per second. Light's on. Altitude's a little high.
+102:35:16|T|LMP(EAGLE)|Beta ARM. Altitudes are a little high.
+102:35:25|O|CDR|Okay, we want a 10. Let's get - You want to get rid of this radar?
+102:35:26|P|PAO|2 minutes, 20 seconds everything looking good. We show altitude about 47,000 feet.
+102:35:34|O|LMP|Yes.
+102:35:35|O|CDR|To SLEW?
+102:35:36|O|LMP|SLEW.
+102:35:47|O|LMP|Houston, I'm getting a little fluctuation in the - AC voltage now. Just the meter, maybe, huh?
+102:35:47|T|LMP(EAGLE)|Houston. I'm getting a little fluctuation in the AC voltage now.
+102:35:53|T|CC|Roger.
+102:35:55|T|LMP(EAGLE)|Could be our meter, maybe, huh?
+102:35:57|T|CC|Stand by, Looking good to us. You're still looking good at 3, coming up 3 minutes.
+102:36:07|O|CDR|Okay, we went by the 3-minute point early. A little long.
+102:36:15|O|LMP|Rate of descent looks real good. Altitude – right about on.
+102:36:15|T|LMP(EAGLE)|... real good .... about on.
+102:36:20|O|CDR|Our position checks downrange show us to be a little off. AGS - AGS is showing about 2-feet-per-second greater rate of descent.
+102:36:20|T|CDR(EAGLE)|Our. position checks downrange show us to be a little long.
+102:36:24|T|CC|Roger. Copy.
+102:36:26|T|LMP(EAGLE)|AGS has gone about 2 feet per second greater rate of descent.
+102:36:38|O|CDR|MARK.
+102:36:39|O|CDR|Show us to be about - Stand by. Maybe have to stop that.
+102:36:39|T|CDR(EAGLE)|Show us to be about - Stand by.
+102:36:45|O|LMP|Altitude rate looks right down the groove.
+102:36:45|T|LMP(EAGLE)|Altitude ...
+102:36:48|O|CDR|Roger. About 2 seconds long - rolling over.
+102:36:58|O|CDR|Okay, now watch that signal strength because -
+102:37:02|O|LMP|Yes, I think it's going to drop.
+102:37:02|T|LMP(EAGLE)|... it's going to stop.
+102:37:05|O|CDR|Boy, I tell you, this is much harder to do than it was -
+102:37:13|O|LMP|Keep it going.
+102:37:20|T|CC|Eagle, Houston. You are GO to continue - -
+102:37:20|O|LMP|Houston, before we leave you, the ED BATS are GO at 4 minutes.
+102:37:20|T|LMP(EAGLE)|... closed ... GO ... at 4 minutes.
+102:37:24|T|CC|Roger. You are GO - You are GO to continue powered descent. You are GO to continue powered descent.
+102:37:33|O|LMP|Roger.
+102:37:33|T|LMP(EAGLE)|Roger.
+102:37:35|P|PAO|Altitude 40,000.
+102:37:38|T|CC|And, Eagle, Houston. We've got data dropout. You're still looking good.
+102:37:48|O|CDR|How you look over there? Okay?
 102:38:00|P|PAO|Good radar data. Altitude now 33,500 feet.
 102:38:00|P|PAO|We're still GO. Altitude 27,000 feet.
 102:38:00|P|PAO|Altitude now 21 thousand feet. Still looking very good. Velocity down now to 12 hundred feet per second.
