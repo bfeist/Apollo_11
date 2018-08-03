@@ -144,7 +144,13 @@
 099:43:22 Collins teasing Neil about being Czar
 100:12:05 Separation for landing - "See ya!"
 100:33:47 GO for separation maneuver (prior to DOI)
-
+100:37:36|T|CDR(EAGLE)|Somebody's upside-down.
+101:17:32 - GO/NOGO for DOI
+101:54:13 - list of officials in the viewing gallery
+102:15:38 - ACK after DOI
+102:20:03 - Kranz - "We're off to a good start. Play it cool."
+102:20:38 - Secure doors in the MOCR
+102:27:57 - GO/NO GO for powered descent.
 
 
 
