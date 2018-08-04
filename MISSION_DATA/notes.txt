@@ -151,6 +151,7 @@
 102:20:03 - Kranz - "We're off to a good start. Play it cool."
 102:20:38 - Secure doors in the MOCR
 102:27:57 - GO/NO GO for powered descent.
+102:42:01 - GO/NO GO for landing.
 
 
 

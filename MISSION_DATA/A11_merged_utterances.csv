@@ -8437,150 +8437,157 @@
 102:37:35|P|PAO|Altitude 40,000.
 102:37:38|T|CC|And, Eagle, Houston. We've got data dropout. You're still looking good.
 102:37:48|O|CDR|How you look over there? Okay?
-102:38:00|P|PAO|Good radar data. Altitude now 33,500 feet.
-102:38:00|P|PAO|We're still GO. Altitude 27,000 feet.
-102:38:00|P|PAO|Altitude now 21 thousand feet. Still looking very good. Velocity down now to 12 hundred feet per second.
-102:38:00|P|PAO|Seven minutes 30 seconds into the burn. Altitude 16 thousand 3 hundred feet.
-102:38:00|P|PAO|Altitude 13 thousand 5, velocity 91 hundred feet per second.
-102:38:00|P|PAO|Correction on that velocity, now reading 760 feet per second.
-102:38:00|P|PAO|FIDO says we're go, altitude 92 hundred feet.
-102:38:00|P|PAO|Descent rate 129 feet per second.
-102:38:00|P|PAO|We're now in the approach phase of it, looking good. Altitude 52 hundred feet.
-102:38:00|P|PAO|Altitude 42 hundred -
-102:38:02|O|LMP|Okay. You got good lockon.
-102:38:04|T|LMP(EAGLE)|... PGNS. We got good lock-on. Altitude lights OUT. DELTA-H is minus 2 900.
-102:38:05|O|CDR|We got a lockon?
-102:38:06|O|LMP|Yes. Altitude light's out.
-102:38:08|O|CDR|Okay.
-102:38:12|O|LMP|DELTA-H is minus 2900. We got the Earth right out our front window.
-102:38:18|T|CC|Roger. We copy.
-102:38:20|T|LMP(EAGLE)|Got the Earth right out our front window.
-102:38:20|O|CDR|Sure enough.
-102:38:22|O|LMP|Houston, you're looking at our DELTA-H. Program alarm.
-102:38:23|T|CDR(EAGLE)|Houston, you're looking at our DELTA-H?
-102:38:25|T|CC|That's affirmative.
-102:38:26|T|CDR(EAGLE)|PROGRAM ALARM.
-102:38:28|T|CC|It's looking good to us. Over.
-102:38:29|O|CDR|1202; 1202.
-102:38:30|T|CDR(EAGLE)|It's a 1202.
-102:38:32|T|LMP(EAGLE)|1202.
-102:38:40|O|CDR|What is it?
-102:38:42|O|LMP|That's in core ...
-102:38:46|O|CDR|Give us a reading on the 1202 program alarm.
-102:38:48|T|CDR(EAGLE)|Give us a reading on the 1202 PROGRAM ALARM.
-102:38:53|T|CC|Roger. We got - We're GO on that alarm
-102:38:57|O|LMP|Roger. 330. Okay, looks like about 820. Roger. Copy. 6 foot ...
-102:38:59|T|CDR(EAGLE)|Roger. P30.
-102:39:01|T|CC|6 plus 25, throttle down - -
-102:39:02|T|LMP(EAGLE)|Looks like about 820 -
-102:39:03|T|CC|- - 6 plus 25, throttle down.
-102:39:06|T|CDR(EAGLE)|Roger. Copy. 6 plus 25.
-102:39:12|O|LMP|Same alarm and it appears to come up when we have a 16 68 up.
-102:39:14|T|LMP(EAGLE)|Same alarm, and it appears to come up when we have a 1668 up.
-102:39:17|T|CC|Roger. Copy.
-102:39:19|O|CDR|Were we - were - was it coming down?
-102:39:22|O|LMP|Yes, it's coming down beautifully.
-102:39:23|T|CC|Eagle, Houston. We'll monitor your DELTA-H.
-102:39:24|T|LMP(EAGLE)|... worked out beautifully.
-102:39:26|O|CDR|Roger; it looks good now.
-102:39:28|T|CC|DELTA H - -
-102:39:29|T|LMP(EAGLE)|... looks good now.
-102:39:30|T|CC|Roger. DELTA H is looking good to us.
-102:39:32|O|LMP|THROTTLE, DOWN.
-102:39:33|O|CDR|THROTTLE, DOWN, on time.
-102:39:34|T|LMP(EAGLE)|Ah! Throttle down - -
-102:39:35|T|CDR(EAGLE)|Throttle down on time!
-102:39:35|O|LMP|You can feel it in here when the throttle's down; better than the simulator.
-102:39:36|T|CC|Roger, We copy throttle down - -
-102:39:37|T|LMP(EAGLE)|- - ... throttles down. Better than the simulator.
-102:39:42|T|CC|Roger.
-102:39:46|O|LMP|AGS and PGNS look real close.
-102:39:48|T|LMP(EAGLE)|AGS and PGNS look real close.
-102:39:48|O|CDR|Okay. No flags. RCS is GO; DPS is GO; pressure is - okay.
-102:40:08|T|CC|At 7 minutes, you're looking great to us, Eagle.
-102:40:11|O|LMP|Okay, I'm still on SLEW, so we may tend to lose as we gradually pitch over; let me try AUTO again now, and see what happens. Okay, looks like it's holding.
-102:40:13|T|LMP(EAGLE)|Okay. I'm still on SLEW so we may tend to lose as we gradually pitch over. Let me try AUTO again now and see what happens.
-102:40:21|T|CC|Roger.
-102:40:23|T|LMP(EAGLE)|Okay. Looks like it's holding.
-102:40:24|T|CC|Roger. We got good data.
-102:40:25|O|CDR|Okay. 07:30 coming up. Should be ...
-102:40:36|O|LMP|...
-102:40:45|O|CDR|And I have the window. I have that - view – out the window - Going to ...
-102:40:49|T|CC|Eagle, Houston. It's descent 2 fuel to MONITOR. Over.
-102:40:55|T|CDR(EAGLE)|Going to 2.
-102:40:56|O|CDR|Coming up on 8 minutes.
-102:41:00|O|LMP|Could you give us an estimated switchover time, please, Houston?
-102:41:01|T|LMP(EAGLE)|Give us an estimated switchover time please, Houston.
-102:41:05|T|CC|Roger. Stand by. You're looking great at 8 minutes.
-102:41:08|O|LMP|Okay, 7000, ... Looks good.
-102:41:10|T|LMP(EAGLE)|At 7000 -
-102:41:12|T|CC|Eagle, you've got 30 seconds to P64.
-102:41:15|T|LMP(EAGLE)|... Roger.
-102:41:16|O|LMP|Roger.
-102:41:27|T|CC|Eagle, Houston. Coming up 8 30; you're looking great.
-102:41:33|O|LMP|P64.
-102:41:35|T|LMP(EAGLE)|P64.
-102:41:37|T|CC|We copy.
-102:41:40|O|CDR|... over. Okay. 5000, 100 feet per second is good, and I'm going to check my attitude control.
-102:41:51|T|CC|Eagle, you're looking great. Coming up 9 minutes.
-102:42:01|O|CDR|Attitude control is good - manual attitude control is good. Okay, 3070.
-102:42:05|T|CDR(EAGLE)|Manual attitude control is good.
-102:42:08|T|CC|Roger. Copy.
-102:42:10|T|CC|Eagle, Houston. You're GO for landing. Over.
-102:42:15|O|LMP|Roger; understand. Go for landing, 3000 feet. Program alarm - 1201.
-102:42:17|T|LMP(EAGLE)|Roger. Understand. GO for landing. 3000 feet. PROGRAM ALARM.
-102:42:19|T|CC|Copy.
-102:42:22|T|LMP(EAGLE)|1201
-102:42:22|O|CDR|1201. Okay. 2050.
-102:42:24|T|CDR(EAGLE)|1201.
-102:42:25|T|CC|Roger. 1201 alarm. We're GO. Same type. We're GO.
-102:42:29|O|LMP|2000 feet; 2000 feet.
-102:42:30|O|CDR|Give me an LPD.
-102:42:31|T|LMP(EAGLE)|2000 feet. 2000 feet. Into the AGS, 47 degrees.
-102:42:32|O|LMP|Into the AGS, 47 degrees.
-102:42:33|O|CDR|Give me an LPD.
-102:42:35|T|CC|Roger.
-102:42:35|O|LMP|47 degrees.
-102:42:36|T|LMP(EAGLE)|47 degrees.
-102:42:37|O|CDR|47.
-102:42:38|O|CDR|That's not a bad-looking area. Okay.
-102:42:41|T|CC|Eagle, looking great. You're GO.
-102:42:51|O|CDR|1030 is good.
-102:42:55|O|CDR|What's LPD?
-102:42:58|T|CC|Roger. 1202. We copy it.
-102:42:58|O|LMP|35 degrees, 35 degrees; 750, ... coming down to 23.
-102:43:00|P|PAO|Altitude 4200.
-102:43:00|P|PAO|Altitude 1600. 1400 feet. Still looking very good.
-102:43:01|T|LMP(EAGLE)|35 degrees. 35 degrees. 750. Coming down to 23.
-102:43:05|O|CDR|Okay.
-102:43:06|O|LMP|700, 21 down, 33 degrees.
-102:43:07|T|LMP(EAGLE)|700 feet, 21 down, 33 degrees.
-102:43:08|O|CDR|Pretty rocky area.
-102:43:10|O|LMP|600 feet, down to 19; 540 feet, down to 30, down to 15.
-102:43:11|T|LMP(EAGLE)|600 feet, down at 19.
-102:43:15|T|LMP(EAGLE)|540 feet, down at - 30. Down at 15.
-102:43:24|O|CDR|Okay.
-102:43:25|O|LMP|Okay, 400 feet, down to 9, 58 forward.
-102:43:26|T|LMP(EAGLE)|At 400 feet, down at 9.
-102:43:29|T|LMP(EAGLE)|... forward.
-102:43:29|O|CDR|...
-102:43:31|O|LMP|350 feet, down at 4 - 330 – 6-1/2 down. We're pegged on ... velocity.
+102:38:07|O|LMP|Okay. You got good lockon.
+102:38:04|T|LMP(EAGLE)|... PGNS.
+102:38:10|T|CDR(EAGLE)|We got good lock-on.
+102:38:10|O|CDR|We got a lockon?
+102:38:11|T|LMP|Yes. Altitude light's OUT.
+102:38:11|O|LMP|Yes. Altitude light's out.
+102:38:13|O|CDR|Okay.
+102:38:17|T|LMP(EAGLE)|DELTA-H is minus 2,900.
+102:38:17|O|LMP|DELTA-H is minus 2,900.
+102:38:21|T|CC|Roger. We copy.
+102:38:22|O|LMP|We got the Earth right out our front window.
+102:38:22|T|LMP(EAGLE)|Got the Earth right out our front window.
+102:38:25|O|CDR|Sure enough.
+102:38:26|O|LMP|Houston, you're looking at our DELTA-H.
+102:38:26|T|CDR(EAGLE)|Houston, you're looking at our DELTA-H?
+102:38:28|T|CC|That's affirmative.
+102:38:29|O|CDR|Program alarm.
+102:38:29|T|CDR(EAGLE)|PROGRAM ALARM.
+102:38:30|T|CC|It's looking good to us. Over.
+102:38:33|O|CDR|1202; 1202.
+102:38:33|T|CDR(EAGLE)|It's a 1202.
+102:38:35|T|LMP(EAGLE)|1202.
+102:38:39|P|PAO|Good radar data. Altitude now 33,500 feet.
+102:38:45|O|CDR|What is it?
+102:38:46|O|LMP|That's in core ...
+102:38:51|O|CDR|Give us a reading on the 1202 program alarm.
+102:38:51|T|CDR(EAGLE)|Give us a reading on the 1202 PROGRAM ALARM.
+102:38:56|T|CC|Roger. We got - We're GO on that alarm!
+102:39:01|O|LMP|Roger. P30. Okay, looks like about 820. Roger. Copy. 6 foot ...
+102:39:01|T|CDR(EAGLE)|Roger. P30.
+102:39:03|T|CC|6 plus 25, throttle down - -
+102:39:05|T|LMP(EAGLE)|Looks like about 820 -
+102:39:05|T|CC|- - 6 plus 25, throttle down.
+102:39:09|T|CDR(EAGLE)|Roger. Copy. 6 plus 25.
+102:39:14|P|PAO|We're still GO. Altitude 27,000 feet.
+102:39:16|O|LMP|Same alarm and it appears to come up when we have a 16/68 up.
+102:39:16|T|LMP(EAGLE)|Same alarm, and it appears to come up when we have a 16/68 up.
+102:39:20|T|CC|Roger. Copy.
+102:39:23|O|CDR|Were we - were - was it coming down?
+102:39:26|T|CC|Eagle, Houston. We'll monitor your DELTA-H.
+102:39:27|O|LMP|Yes, it's coming down beautifully.
+102:39:27|T|LMP(EAGLE)|... worked out beautifully.
+102:39:31|O|CDR|Roger; it looks good now.
+102:39:31|T|CC|DELTA H - -
+102:39:31|T|CDR(EAGLE)|... looks good now.
+102:39:32|T|CC|Roger. DELTA H is looking good to us.
+102:39:37|O|LMP|... THROTTLE, DOWN.
+102:39:37|O|CDR|... THROTTLE, DOWN, on time.
+102:39:37|T|LMP(EAGLE)|Ah! Throttle down - -
+102:39:37|T|CDR(EAGLE)|Throttle down on time!
+102:39:40|O|LMP|You can feel it in here when the throttle's down; better than the simulator.
+102:39:40|T|CC|Roger, We copy throttle down - -
+102:39:42|T|LMP(EAGLE)|- - ... throttles down. Better than the simulator.
+102:39:44|T|CC|Roger.
+102:39:51|O|LMP|AGS and PGNS look real close.
+102:39:51|T|LMP(EAGLE)|AGS and PGNS look real close.
+102:39:53|O|CDR|Okay. No flags. RCS is GO; DPS is GO; pressure is - okay.
+102:40:00|P|PAO|Altitude now 21,000 feet. Still looking very good. Velocity down now to 1,200 feet per second.
+102:40:11|T|CC|At 7 minutes, you're looking great to us, Eagle.
+102:40:16|O|LMP|Okay, I'm still on SLEW, so we may tend to lose as we gradually pitch over; let me try AUTO again now, and see what happens. Okay, looks like it's holding.
+102:40:16|T|LMP(EAGLE)|Okay. I'm still on SLEW so we may tend to lose as we gradually pitch over. Let me try AUTO again now and see what happens.
+102:40:23|T|CC|Roger.
+102:40:25|T|LMP(EAGLE)|Okay. Looks like it's holding.
+102:40:27|T|CC|Roger. We got good data.
+102:40:30|O|CDR|Okay. 07:30 coming up. Should be ...
+102:40:36|P|PAO|Seven minutes 30 seconds into the burn. Altitude 16,300 feet.
+102:40:42|O|LMP|...
+102:40:50|O|CDR|And I have the window. I have that - view – out the window - Going to ...
+102:40:51|T|CC|Eagle, Houston. It's descent 2 fuel to MONITOR. Over.
+102:40:58|T|CDR(EAGLE)|Going to 2.
+102:40:59|P|PAO|Altitude 13,500. Velocity 9,100 feet per second.
+102:41:01|O|CDR|Coming up on 8 minutes.
+102:41:04|O|LMP|Could you give us an estimated switchover time, please, Houston?
+102:41:04|T|LMP(EAGLE)|Give us an estimated switchover time please, Houston.
+102:41:08|T|CC|Roger. Stand by. You're looking great at 8 minutes.
+102:41:12|O|LMP|Okay, 7000, ... Looks good.
+102:41:12|P|PAO|Correction on that velocity, now reading 760 feet per second.
+102:41:13|T|LMP(EAGLE)|At 7000 -
+102:41:14|T|CC|Eagle, you've got 30 seconds to P64.
+102:41:17|T|LMP(EAGLE)|... Roger.
+102:41:20|O|LMP|Roger.
+102:41:28|P|PAO|FIDO says we're go, altitude 9,200 feet.
+102:41:29|T|CC|Eagle, Houston. Coming up 8:30; you're looking great.
+102:41:37|P|PAO|Descent rate 129 feet per second.
+102:41:38|O|LMP|P64.
+102:41:38|T|LMP(EAGLE)|P64.
+102:41:40|T|CC|We copy.
+102:41:44|O|CDR|... over. Okay. 5000, 100 feet per second is good, and I'm going to check my attitude control.
+102:41:54|T|CC|Eagle, you're looking great. Coming up 9 minutes.
+102:41:58|P|PAO|We're now in the approach phase. Everything looking good. Altitude 5,200 feet.
+102:42:06|O|CDR|Attitude control is good - manual attitude control is good. Okay, 3070.
+102:42:08|T|CDR(EAGLE)|Manual attitude control is good.
+102:42:10|T|CC|Roger. Copy.
+102:42:12|P|PAO|Altitude 4,200 -
+102:42:13|T|CC|Eagle, Houston. You're GO for landing. Over.
+102:42:19|O|LMP|Roger; understand. Go for landing, 3000 feet. Program alarm - 1201.
+102:42:19|T|LMP(EAGLE)|Roger. Understand. GO for landing. 3000 feet. PROGRAM ALARM.
+102:42:22|T|CC|Copy.
+102:42:25|T|LMP(EAGLE)|1201
+102:42:26|O|CDR|1201.
+102:42:26|T|CDR(EAGLE)|1201.
+102:42:27|T|CC|Roger. 1201 alarm.
+102:42:29|O|CDR|Okay. 2050.
+102:42:30|T|CC|We're GO. Same type. We're GO.
+102:42:33|O|LMP|2000 feet; 2000 feet.
+102:42:33|T|LMP(EAGLE)|2000 feet. 2000 feet.
+102:42:35|O|CDR|Give me an LPD.
+102:42:36|T|LMP(EAGLE)|Into the AGS, 47 degrees.
+102:42:36|O|LMP|Into the AGS, 47 degrees.
+102:42:37|O|CDR|Give me an LPD.
+102:42:37|T|CC|Roger.
+102:42:39|O|LMP|47 degrees.
+102:42:39|T|LMP(EAGLE)|47 degrees.
+102:42:40|O|CDR|47.
+102:42:42|O|CDR|That's not a bad-looking area. Okay.
+102:42:44|T|CC|Eagle, looking great. You're GO.
+102:42:55|O|CDR|... 1030 is good.
+102:42:59|O|CDR|What's LPD?
+102:42:59|O|CDR|1202.
+102:43:00|T|CC|Roger. 1202. We copy it.
+102:43:03|O|LMP|35 degrees, 35 degrees; 750, ... coming down to 23.
+102:43:03|T|LMP(EAGLE)|35 degrees. 35 degrees. 750. Coming down to 23.
+102:43:09|O|CDR|Okay.
+102:43:10|O|LMP|700, 21 down, 33 degrees.
+102:43:10|T|LMP(EAGLE)|700 feet, 21 down, 33 degrees.
+102:43:12|O|CDR|Pretty rocky area.
+102:43:14|O|LMP|600 feet, down to 19; 540 feet, down to 30, down to 15.
+102:43:14|T|LMP(EAGLE)|600 feet, down at 19.
+102:43:18|T|LMP(EAGLE)|540 feet, down at - 30. Down at 15.
+102:43:28|O|CDR|Okay.
+102:43:28|O|LMP|Okay, 400 feet, down to 9, 58 forward.
+102:43:28|T|LMP(EAGLE)|At 400 feet, down at 9.
+102:43:32|T|LMP(EAGLE)|... forward.
+102:43:34|O|CDR|...
+102:43:35|O|LMP|350 feet, down at 4 - 330 – 6-1/2 down. We're pegged on horizontal velocity.
 102:43:32|T|LMP(EAGLE)|350 feet, down at 4.
 102:43:35|T|LMP(EAGLE)|30, ... one-half down.
 102:43:42|T|LMP(EAGLE)|We're pegged on horizontal velocity.
-102:43:44|O|LMP|300 feet down, 3-1/2, 47 forward. Coming up - 1 a minute, 1-1/2 down. Moving out.
+102:43:49|O|LMP|300 feet down, 3-1/2, 47 forward. Coming up - 1 a minute, 1-1/2 down. Moving out.
 102:43:46|T|LMP(EAGLE)|300 feet, down 3 1/2, 47 forward.
 102:43:51|T|LMP(EAGLE)|... up.
 102:43:52|T|LMP(EAGLE)|On 1 a minute, 1 1/2 down.
-102:43:55|O|LMP|270.
+102:43:59|O|LMP|270.
 102:43:57|T|CDR(EAGLE)|70.
-102:43:57|O|CDR|Okay, how's the fuel?
-102:43:59|O|LMP|Wait just a minute.
-102:44:00|O|CDR|Okay, Ed, this looks like a good area here.
-102:44:03|O|LMP|I got the shadow out there. 250, down at 2-1/2, 19 forward.
+102:44:01|O|CDR|Okay, how's the fuel?
+102:44:03|O|LMP|Wait just a minute.
+102:44:04|O|CDR|Okay, - this looks like a good area here.
+102:44:07|O|LMP|I got the shadow out there. 250, down at 2-1/2, 19 forward.
 102:44:04|T|LMP(EAGLE)|Watch your shadow out there.
 102:44:07|T|LMP(EAGLE)|50, down at 2 1/2, 19 forward.
-102:44:11|O|LMP|Altitude velocity light, 3-1/2 down, 220 feet; 13 forward, 11 forward, coming down nicely. 200 feet - -
+102:44:16|O|LMP|Altitude velocity light, 3-1/2 down, 220 feet; 13 forward, 11 forward, coming down nicely. 200 feet - -
 102:44:13|T|LMP(EAGLE)|Altitude-velocity light.
 102:44:16|T|LMP(EAGLE)|3 1/2 down, 220 feet, 13 forward.
 102:44:23|T|LMP(EAGLE)|11 forward. Coming down nicely.
