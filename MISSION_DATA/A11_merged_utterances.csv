@@ -8553,9 +8553,9 @@
 102:42:40|O|CDR|47.
 102:42:42|O|CDR|That's not a bad-looking area. Okay.
 102:42:44|T|CC|Eagle, looking great. You're GO.
+102:42:49|P|PAO|Altitude 1600. 1400 feet. Still looking very good.
 102:42:55|O|CDR|... 1030 is good.
-102:42:59|O|CDR|What's LPD?
-102:42:59|O|CDR|1202.
+102:43:00|O|CDR|What's LPD?
 102:43:00|T|CC|Roger. 1202. We copy it.
 102:43:03|O|LMP|35 degrees, 35 degrees; 750, ... coming down to 23.
 102:43:03|T|LMP(EAGLE)|35 degrees. 35 degrees. 750. Coming down to 23.
@@ -8565,92 +8565,108 @@
 102:43:12|O|CDR|Pretty rocky area.
 102:43:14|O|LMP|600 feet, down to 19; 540 feet, down to 30, down to 15.
 102:43:14|T|LMP(EAGLE)|600 feet, down at 19.
+102:43:17|O|CDR|I'm going to have to ...
 102:43:18|T|LMP(EAGLE)|540 feet, down at - 30. Down at 15.
+102:43:18|O|LMP|540 feet, down at - 30. Down at 15.
 102:43:28|O|CDR|Okay.
 102:43:28|O|LMP|Okay, 400 feet, down to 9, 58 forward.
 102:43:28|T|LMP(EAGLE)|At 400 feet, down at 9.
 102:43:32|T|LMP(EAGLE)|... forward.
 102:43:34|O|CDR|...
-102:43:35|O|LMP|350 feet, down at 4 - 330 – 6-1/2 down. We're pegged on horizontal velocity.
+102:43:35|O|LMP|350 feet, down at 4.
 102:43:32|T|LMP(EAGLE)|350 feet, down at 4.
-102:43:35|T|LMP(EAGLE)|30, ... one-half down.
-102:43:42|T|LMP(EAGLE)|We're pegged on horizontal velocity.
-102:43:49|O|LMP|300 feet down, 3-1/2, 47 forward. Coming up - 1 a minute, 1-1/2 down. Moving out.
+102:43:37|T|LMP(EAGLE)|30, ... one-half down.
+102:43:37|O|LMP|330 – 6-1/2 down.
+102:43:44|T|LMP(EAGLE)|We're pegged on horizontal velocity.
+102:43:44|O|LMP|We're pegged on horizontal velocity.
+102:43:49|O|LMP|300 feet down, 3-1/2, 47 forward.
 102:43:46|T|LMP(EAGLE)|300 feet, down 3 1/2, 47 forward.
-102:43:51|T|LMP(EAGLE)|... up.
+102:43:53|T|LMP(EAGLE)|... up.
+102:43:53|O|LMP|Coming up - 1 a minute, 1-1/2 down. Moving out.
 102:43:52|T|LMP(EAGLE)|On 1 a minute, 1 1/2 down.
 102:43:59|O|LMP|270.
-102:43:57|T|CDR(EAGLE)|70.
+102:43:59|T|CDR(EAGLE)|...70.
 102:44:01|O|CDR|Okay, how's the fuel?
-102:44:03|O|LMP|Wait just a minute.
+102:44:03|O|LMP|...
 102:44:04|O|CDR|Okay, - this looks like a good area here.
-102:44:07|O|LMP|I got the shadow out there. 250, down at 2-1/2, 19 forward.
-102:44:04|T|LMP(EAGLE)|Watch your shadow out there.
-102:44:07|T|LMP(EAGLE)|50, down at 2 1/2, 19 forward.
-102:44:16|O|LMP|Altitude velocity light, 3-1/2 down, 220 feet; 13 forward, 11 forward, coming down nicely. 200 feet - -
-102:44:13|T|LMP(EAGLE)|Altitude-velocity light.
-102:44:16|T|LMP(EAGLE)|3 1/2 down, 220 feet, 13 forward.
-102:44:23|T|LMP(EAGLE)|11 forward. Coming down nicely.
-102:44:23|O|CDR|... - -
-102:44:24|T|LMP(EAGLE)|200 feet, 4 1/2 down.
-102:44:25|O|LMP|5-1/2 down, 5-1/2 down.
-102:44:26|T|LMP(EAGLE)|5 1/2 down.
-102:44:27|O|CDR|I got to get ...
-102:44:30|O|LMP|160 feet, 6-1/2 down - 5-1/2 down, 9 forward. Still looks good. 120 feet.
-102:44:31|T|LMP(EAGLE)|160, 6 - 6 1/2 down.
-102:44:33|T|LMP(EAGLE)|5 1/2 down, 9 forward. That's good.
-102:44:40|T|LMP(EAGLE)|120 feet.
-102:44:43|O|LMP|100 feet, 3-1/2 down, 9 forward. 5 percent - ...
+102:44:07|O|LMP|I got the shadow out there.
+102:44:07|T|LMP(EAGLE)|... shadow out there.
+102:44:10|T|LMP(EAGLE)|50, down at 2 1/2, 19 forward.
+102:44:10|O|LMP|250, down at 2-1/2, 19 forward.
+102:44:16|O|LMP|Altitude velocity light -
+102:44:16|T|LMP(EAGLE)|Altitude-velocity light.
+102:44:18|T|LMP(EAGLE)|3 1/2 down, 220 feet, 13 forward.
+102:44:18|O|3-1/2 down, 220 feet; 13 forward.
+102:44:25|T|LMP(EAGLE)|11 forward. Coming down nicely.
+102:44:25|O|11 forward, coming down nicely. 200 feet - -
+102:44:28|O|CDR|... - -
+102:44:28|T|LMP(EAGLE)|200 feet, 4 1/2 down.
+102:44:27|O|LMP|5-1/2 down, 5-1/2 down.
+102:44:29|T|LMP(EAGLE)|5 1/2 down.
+102:44:31|O|CDR|I got to get ...
+102:44:33|O|LMP|160 feet, 6-1/2 down.
+102:44:33|T|LMP(EAGLE)|160, 6 - 6 1/2 down.
+102:44:35|T|LMP(EAGLE)|5 1/2 down, 9 forward. Still looks good.
+102:44:35|O|LMP|5-1/2 down, 9 forward. Still looks good.
+102:44:42|T|LMP(EAGLE)|120 feet.
+102:44:42|O|LMP|120 feet.
+102:44:47|O|LMP|100 feet, 3-1/2 down, 9 forward. 5 percent - Quantity light.
 102:44:45|T|LMP(EAGLE)|100 feet, 3 1/2 down, 9 forward. Five percent.
-102:44:50|O|CDR|Okay.
-102:44:51|T|LMP(EAGLE)|...
-102:44:53|O|LMP|Okay, 75 feet. And it's looking good; down a half. 6 forward; light's on. 6 - 60 feet down, 2-1/2, 2 forward, 2 forward.
-102:44:54|T|LMP(EAGLE)|Okay. 75 feet. There's looking good. Down a half, 6 forward.
-102:45:02|T|CC|60 seconds.
-102:45:04|T|LMP(EAGLE)|Lights on. ...
-102:45:08|T|LMP(EAGLE)|Down 2 1/2. Forward. Forward. Good.
-102:45:13|O|LMP|Looks good. 40 feet down, 2-1/2. Picking up some dust. 30 feet, 2-1/2 down - straight down; 4 forward, 4 forward, drifting to the right a little.
+102:44:54|T|LMP(EAGLE)|Quantity light.
+102:44:57|O|LMP|Okay, 75 feet. And it's looking good; down a half. 6 forward.
+102:44:57|T|LMP(EAGLE)|Okay. 75 feet. There's looking good. Down a half, 6 forward.
+102:45:04|T|CC|60 seconds.
+102:45:06|T|LMP(EAGLE)|Lights on. ...
+102:45:06|O|LMP|light's on. 6 - 60 feet down, 2-1/2.
+102:45:10|T|LMP(EAGLE)|Down 2 1/2. Forward. Forward. Good.
+102:45:14|O|2 forward, 2 forward.
+102:45:18|O|LMP|Looks good.
 102:45:17|T|LMP(EAGLE)|40 feet, down 2 1/2. Kicking up some dust.
-102:45:21|T|LMP(EAGLE)|30 feet, 2 1/2 down. Faint shadow.
-102:45:25|T|LMP(EAGLE)|4 forward. 4 forward. Drifting to the right a little. Okay. Down a half.
-102:45:26|O|LMP|20 feet, down a half; drifting forward just a little bit. Good. Okay.
-102:45:31|T|CC|30 seconds.
+102:45:19|O|LMP|40 feet down, 2-1/2. Picking up some dust.
+102:45:23|T|LMP(EAGLE)|30 feet, 2 1/2 down. Faint shadow.
+102:45:23|O|LMP|30 feet, 2-1/2 down - Faint shadow.
+102:45:27|T|LMP(EAGLE)|4 forward. 4 forward. Drifting to the right a little. Okay. Down a half.
+102:45:27|O|LMP|4 forward, 4 forward, drifting to the right a little.
+102:45:31|O|LMP|20 feet, down a half; drifting forward just a little bit. Down a half. Good. Okay.
+102:45:33|T|CC|30 seconds.
 102:45:32|T|CDR(EAGLE)|Forward drift?
 102:45:33|T|LMP(EAGLE)|Yes.
 102:45:34|T|LMP(EAGLE)|Okay.
-102:45:40|T|LMP(EAGLE)|CONTACT LIGHT.
-102:45:41|O|CDR|SHUTDOWN.
-102:45:42|O|LMP|Okay. ENGINE STOP; ACA out of DETENT.
-102:45:43|T|LMP(EAGLE)|Okay. ENGINE STOP.
-102:45:43|O|CDR|Out of DETENT.
-102:45:45|T|LMP(EAGLE)|ACA - out of DETENT.
-102:45:45|O|LMP|AUTO MODE CONTROL, both AUTO; DESCENT ENGINE COMMAND OVERRIDE, OFF; ENGINE ARM, OFF; 413 is in.
-102:45:46|T|CDR(EAGLE)|Out of DETENT.
-102:45:47|T|LMP(EAGLE)|MODE CONTROL - both AUTO. DESCENT ENGINE COMMAND OVERRIDE - OFF. ENGINE ARM - OFF.
-102:45:52|T|LMP(EAGLE)|413 is in.
-102:45:52|O|CDR|ENGINE ARM is OFF.
-102:45:57|T|CC|We copy you down, Eagle.
-102:45:58|O|CDR|Houston - Tranquility Base here. THE EAGLE HAS LANDED.
-102:45:59|T|CDR(TRANQ)|Houston, Tranquility Base here.
-102:46:04|T|CDR(TRANQ)|The Eagle has landed.
-102:46:06|T|CC|Roger, Tranquility. We copy you on the ground. You got a bunch of guys about to turn blue. We're breathing again. Thanks a lot.
-102:46:14|O|CDR|Thank you.
-102:46:16|T|CDR(TRANQ)|Thank you.
-102:46:17|O|CDR|Okay. Let's go on. Okay, we're going to be busy for a minute.
-102:46:18|T|CC|You're looking good here.
-102:46:23|T|CDR(TRANQ)|Okay. We're going to be busy for a minute.
-102:46:23|O|LMP|Alright, MASTER ARM, ON. Take care of the descent vent.
-102:46:25|T|LMP(TRANQ)|MASTER ARM, ON. Take care of the ... I'll get this ...
-102:46:25|O|CDR|MASTER ARM coming OFF.
-102:46:27|O|LMP|I'll get the pressure vent.
-102:46:28|O|CDR|Okay.
-102:46:36|O|LMP|Very smooth touchdown.
-102:46:38|T|LMP(TRANQ)|Very smooth touchdown.
-102:46:49|O|CDR|I didn't hear that vent going - -
-102:46:51|O|LMP|... oxidizer.
-102:46:52|T|LMP(TRANQ)|...
-102:46:55|O|CDR|... vent.
-102:47:03|T|LMP(TRANQ)|Okay. It looks like we're venting the oxidizer now.
+102:45:42|T|LMP(EAGLE)|CONTACT LIGHT.
+102:45:42|O|LMP|CON...
+102:45:45|O|CDR|SHUTDOWN.
+102:45:46|O|LMP|Okay. ENGINE STOP;
+102:45:46|T|LMP(EAGLE)|Okay. ENGINE STOP.
+102:45:45|T|LMP(EAGLE)|ACA - out of DESCENT.
+102:45:45|O|LMP|ACA out of DESCENT.
+102:45:48|O|CDR|Out of DETENT. AUTO -
+102:45:48|T|CDR(EAGLE)|Out of DETENT.
+102:45:49|O|LMP|AUTO MODE CONTROL, both AUTO; DESCENT ENGINE COMMAND OVERRIDE, OFF; ENGINE ARM, OFF.
+102:45:50|T|LMP(EAGLE)|MODE CONTROL - both AUTO. DESCENT ENGINE COMMAND OVERRIDE - OFF. ENGINE ARM - OFF.
+102:45:55|T|LMP(EAGLE)|413 is in.
+102:45:55|O|LMP|413 is in.
+102:45:57|O|CDR|ENGINE ARM is OFF.
+102:45:59|T|CC|We copy you down, Eagle.
+102:46:02|O|CDR|Houston - Tranquility Base here. THE EAGLE HAS LANDED.
+102:46:02|T|CDR(TRANQ)|Houston, Tranquility Base here. The Eagle has landed.
+102:46:08|T|CC|Roger, Tranquility. We copy you on the ground. You got a bunch of guys about to turn blue. We're breathing again. Thanks a lot.
+102:46:19|O|CDR|Thank you.
+102:46:19|T|CDR(TRANQ)|Thank you.
+102:46:21|O|CDR|Okay. Let's go on. Okay, we're going to be busy for a minute.
+102:46:20|T|CC|You're looking good here.
+102:46:25|T|CDR(TRANQ)|Okay. We're going to be busy for a minute.
+102:46:28|O|LMP|Alright, MASTER ARM, ON. Take care of the descent vent.
+102:46:28|T|LMP(TRANQ)|MASTER ARM, ON. Take care of the ... I'll get this ...
+102:46:31|O|CDR|MASTER ARM coming OFF.
+102:46:32|O|LMP|I'll get the pressure vent.
+102:46:33|O|CDR|Okay.
+102:46:40|O|LMP|Very smooth touchdown.
+102:46:40|T|LMP(TRANQ)|Very smooth touchdown.
+102:46:53|O|CDR|I didn't hear that vent going - -
+102:46:55|O|CDR|... oxidizer.
+102:46:55|T|LMP(TRANQ)|...
+102:46:59|O|CDR|Open the ... vent.
+102:47:05|T|LMP(TRANQ)|Okay. It looks like we're venting the oxidizer now.
 102:47:06|T|CC|Roger, Eagle. And you are STAY for - -
 102:47:08|T|LMP(TRANQ)|...
 102:47:09|T|CC|- - T1. Over. Eagle, you are STAY for T1.
