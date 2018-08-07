@@ -152,7 +152,8 @@
 102:20:38 - Secure doors in the MOCR
 102:27:57 - GO/NO GO for powered descent.
 102:42:01 - GO/NO GO for landing.
-
+102:52:46 - Kranz - "come on, let's keep the chatter down"
+102:57:07|T|CC|Roger. Tranquility. Be advised there's lots of smiling faces in this room and all over the world. Over.
 
 
 

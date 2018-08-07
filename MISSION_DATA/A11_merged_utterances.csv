@@ -8657,7 +8657,7 @@
 102:46:25|T|CDR(TRANQ)|Okay. We're going to be busy for a minute.
 102:46:28|O|LMP|Alright, MASTER ARM, ON. Take care of the descent vent.
 102:46:28|T|LMP(TRANQ)|MASTER ARM, ON. Take care of the ... I'll get this ...
-102:46:31|O|CDR|MASTER ARM coming OFF.
+102:46:30|O|CDR|MASTER ARM coming OFF.
 102:46:32|O|LMP|I'll get the pressure vent.
 102:46:33|O|CDR|Okay.
 102:46:40|O|LMP|Very smooth touchdown.
@@ -8667,75 +8667,74 @@
 102:46:55|T|LMP(TRANQ)|...
 102:46:59|O|CDR|Open the ... vent.
 102:47:05|T|LMP(TRANQ)|Okay. It looks like we're venting the oxidizer now.
-102:47:06|T|CC|Roger, Eagle. And you are STAY for - -
-102:47:08|T|LMP(TRANQ)|...
-102:47:09|T|CC|- - T1. Over. Eagle, you are STAY for T1.
-102:47:12|T|CDR(TRANQ)|Roger. Understand, STAY for T1.
-102:47:15|T|CC|Roger. And we see you venting the 0X.
-102:47:20|T|LMP(TRANQ)|Roger.
-102:47:37|T|LMP(TRANQ)|... circuit breaker.
-102:48:00|P|PAO|The next major stay, no stay will be for a T2 event, that is at 21 minutes 26 seconds after initiation for power descent.
-102:48:00|P|PAO|We have an unofficial time for that touchdown of a 102 hours 45 minutes 42 seconds and we will update that.
-102:48:00|P|PAO|We are now less than 4 minutes from our next stay, no stay. The stay will be for 1 complete revolution of the Command Module.
-102:48:00|P|PAO|One of the first things that Armstrong and Aldrin will do after getting their next stay, no stay will be to remove their helmet and gloves.
-102:48:00|P|PAO|That stay for another 2 minutes plus. The next stay no stay will be for 1 revolution.
-102:48:10|T|LMP(TRANQ)|... copy NOUN 60, NOUN 43. Over.
-102:48:12|O|CMP|Houston, how do you reed Columbia on the high-gain?
-102:48:13|T|CC|Roger. We have it.
-102:48:14|T|CMP(COLUMBIA)|Houston, how do you read Columbia on the high-gain?
-102:48:17|T|CC|Roger - -
-102:48:18|T|LMP(TRANQ)|...
-102:48:19|T|CC|- - We read you five by, Columbia. He has landed, Tranquility Base. Eagle is at Tranquility. Over.
-102:48:26|T|CDR(TRANQ)|Yes. I heard the whole thing.
-102:48:27|T|CC|... good show.
-102:48:31|T|CMP(COLUMBIA)|Fantastic.
-102:48:32|T|LMP(TRANQ)|Engine STOP RESET.
-102:48:58|T|CMP(COLUMBIA)|Houston, Columbia went UPTELEMETRY COMMAND, RESET, to reacquire on the high-gain.
-102:49:02|T|CC|Copy. Out.
-102:49:39|T|CC|Eagle, Houston. You loaded R2 wrong. We want 10254.
-102:49:50|T|LMP(TRANQ)|Roger.
-102:50:28|T|LMP(TRANQ)|And do you want V horizontal 5515.2?
-102:50:32|T|CC|That's affirmative.
-102:50:59|T|LMP(TRANQ)|Like - AGS to PGNS align.
-102:51:04|T|CC|Say again?
-102:51:07|T|LMP(TRANQ)|Like an AGS to PNGS align. Over.
-102:51:11|T|CC|Roger. We're standing by for it.
-102:51:41|T|LMP(TRANQ)|... quantity ...
-102:51:45|T|CC|Eagle, Houston. You are STAY for T2. Over.
-102:51:50|T|CC|Correction, you're - -
-102:51:52|T|CDR(TRANQ)|Roger. STAY for T2. We thank you.
-102:51:54|T|CC|Roger, sir.
-102:53:00|P|PAO|steady for another 2 minutes plus, the next stay no stay, will be for 1 revolution. We don't expect much in the way of a visual description of the landing area from the crew until after we get through these critical stay, no stay periods and have gotten the status to remain on the lunar surface for at least 1 Command and Service Module revolution. All spacecraft systems continue to look good to us here on the ground.
-102:53:37|T|CC|Tranquility Base, Houston. We recommend you exit P12. Over.
-102:55:16|T|CDR(TRANQ)|Hey, Houston, that may have seemed like a very long final phase. The AUTO targeting was taking us right into a football field size - football field sized crater, with a large number of big boulders and rocks for about ... one or two crater diameters around it, and it required a ... in P66 and flying manually over the rock field to find a reasonably good area.
-102:55:49|T|CC|Roger. We copy. It was beautiful from here, Tranquility. Over.
-102:56:02|T|LMP(TRANQ)|We'll get to the details of what's around here, but it looks like a collection of just about every variety of shape, angularity, granularity, about every variety of rock you could find. The colors - Well, it varies pretty much depending on how you're looking relative to the zerophase point. There doesn't appear to be too much of a general color at all. However, it looks as though some of the rocks and boulders, of which there are quite a few in the near area, it looks as though they're going to have some interesting colors to them. Over.
-102:56:47|T|CC|Roger. Copy. Sounds good to us, Tranquility. We'll let you press on through the simulated countdown, and we'll talk to you later. Over.
-102:57:00|T|CDR(TRANQ)|Roger.
-102:57:02|T|LMP(TRANQ)|Okay. This one sixth g is just like the airplane.
-102:57:04|T|CC|Roger. Tranquility. Be advised there's lots of smiling faces in this room and all over the world. Over.
-102:57:15|T|CDR(TRANQ)|Well, there are two of them up here.
-102:57:17|T|CC|Roger. That was a beautiful job, you guys.
-102:57:19|T|CMP(COLUMBIA)|And don't forget one in the Command Module.
-102:57:22|T|CC|Roger.
-102:57:48|T|CC|Tranquility, Houston. We have you pitched up about 4 1/2 degrees. Over.
-102:57:55|T|CDR(TRANQ)|That's confirmed by our local observation.
-102:58:00|T|CC|Roger.
-102:58:00|P|PAO|That last remark from Mike Collins at an altitude of 60 miles. The comments on the landing on the manual take-over came from Neil Armstrong. Buzz Aldrin followed that with a description of the lunar surface and the rocks and boulders that they are able to see out the window of the LM.
-102:58:00|P|PAO|That request from Neil Armstrong.
-102:58:00|P|PAO|Here in Mission Control, Flight Director Gene Kranz is going around the -
-102:58:00|P|PAO|We have just gotten a report from the TEL COM here in Mission Control that the LM systems looked good after that landing. We're about 26 minutes now from loss of signal from the Command Module.
-102:58:12|T|CMP(COLUMBIA)|And thanks for putting me on relay, Houston. I was missing all the action.
-102:58:16|T|CC|Roger. We'll enable MSFN relay.
-102:58:27|T|CMP(COLUMBIA)|I just got it, I think.
-102:58:28|T|CC|Roger, Columbia. This is Houston. Say something. They ought to be able to hear you. Over.
-102:58:40|T|CMP(COLUMBIA)|Roger, Tranquility Base. It sure sounded great from up here. You guys did a fantastic job.
-102:58:48|T|CDR(TRANQ)|Thank you. Just keep that orbiting base ready for us up there now.
-102:58:55|T|CMP(COLUMBIA)|Will do.
-102:59:19|T|CC|Columbia, Houston. LOS 103 27, AOS 104 13. Over.
-102:59:32|T|CMP(COLUMBIA)|Thank you.
-103:00:42|T|CC|Tranquility Base, Houston. All your consumables are solid. You're looking good in every respect. We copy the DPS are venting. Everything is copasetic. Over.
-103:00:58|T|CDR(TRANQ)|Thank you, Houston.
+102:47:08|T|CC|Roger, Eagle. And you are STAY for - -
+102:47:10|T|LMP(TRANQ)|...
+102:47:10|T|CC|- - T1. Over. Eagle, you are STAY for T1.
+102:47:14|T|CDR(TRANQ)|Roger. Understand, STAY for T1.
+102:47:17|T|CC|Roger. And we see you venting the OX.
+102:47:23|T|LMP(TRANQ)|Roger.
+102:47:39|T|LMP(TRANQ)|Radar circuit breaker.
+102:48:13|T|LMP(TRANQ)|... copy NOUN 60, NOUN 43. Over.
+102:48:15|T|CC|Roger. We have it.
+102:48:17|T|CMP(COLUMBIA)|Houston, how do you read Columbia on the high-gain?
+102:48:20|T|CC|Roger - -
+102:48:20|T|LMP(TRANQ)|...
+102:48:20|T|CC|- - We read you five by, Columbia. He has landed, Tranquility Base. Eagle is at Tranquility. Over.
+102:48:28|T|CDR(TRANQ)|Yes. I heard the whole thing.
+102:48:30|T|CC|Buzz, good show.
+102:48:33|T|CMP(COLUMBIA)|Fantastic.
+102:48:35|T|LMP(TRANQ)|Engine STOP RESET.
+102:48:50|P|PAO|The next major stay/no stay will be for a T2 event, that is at 21 minutes 26 seconds after initiation for power descent.
+102:49:00|T|CMP(COLUMBIA)|Houston, Columbia went UPTELEMETRY COMMAND, RESET, to reacquire on the high-gain.
+102:49:05|T|CC|Copy. Out.
+102:49:30|P|PAO|We have an unofficial time for that touchdown of a 102 hours 45 minutes 42 seconds and we will update that.
+102:49:41|T|CC|Eagle, Houston. You loaded R2 wrong. We want 10254.
+102:49:52|T|LMP(TRANQ)|Roger.
+102:50:30|T|LMP(TRANQ)|And do you want V horizontal 5515.2?
+102:50:35|T|CC|That's affirmative.
+102:50:41|P|PAO|We are now less than 4 minutes from our next stay/no stay. The stay will be for 1 complete revolution of the Command Module.
+102:51:02|T|LMP(TRANQ)|Like - AGS to PGNS align. Over.
+102:51:07|T|CC|Say again?
+102:51:11|T|LMP(TRANQ)|Like an AGS to PNGS align. Over.
+102:51:14|T|CC|Roger. We're standing by for it.
+102:51:35|P|PAO|One of the first things that Armstrong and Aldrin will do after getting their next stay/no stay will be to remove their helmet and gloves.
+102:51:43|T|LMP(TRANQ)|... quantity ...
+102:51:48|T|CC|Eagle, Houston. You are STAY for T2. Over.
+102:51:53|T|CC|Correction, you're - -
+102:51:54|T|CDR(TRANQ)|Roger. STAY for T2. We thank you.
+102:51:57|T|CC|Roger, sir.
+102:52:07|P|PAO|That stay for another 2 minutes plus. The next stay/no stay will be for 1 revolution.
+102:53:03|P|PAO|We don't expect much in the way of a visual description of the landing area from the crew until after we've gotten through these critical stay/no stay periods and have gotten the status to remain on the lunar surface for at least 1 Command and Service Module revolution. All spacecraft systems continue to look very good to us here on the ground.
+102:53:40|T|CC|Tranquility Base, Houston. We recommend you exit P12. Over.
+102:55:18|T|CDR(TRANQ)|Hey, Houston, that may have seemed like a very long final phase. The AUTO targeting was taking us right into a football field size - football field sized crater, with a large number of big boulders and rocks for about - one or two crater diameters around it, and it required a ... in P66 and flying manually over the rock field to find a reasonably good area.
+102:55:52|T|CC|Roger. We copy. It was beautiful from here, Tranquility. Over.
+102:56:04|T|LMP(TRANQ)|We'll get to the details of what's around here, but it looks like a collection of just about every variety of shape, angularity, granularity, about every variety of rock you could find. The colors - Well, it varies pretty much depending on how you're looking relative to the zerophase point. There doesn't appear to be too much of a general color at all. However, it looks as though some of the rocks and boulders, of which there are quite a few in the near area, it looks as though they're going to have some interesting colors to them. Over.
+102:56:49|T|CC|Roger. Copy. Sounds good to us, Tranquility. We'll let you press on through the simulated countdown, and we'll talk to you later. Over.
+102:57:02|T|CDR(TRANQ)|Roger.
+102:57:03|T|LMP(TRANQ)|Okay. This one sixth g is just like the airplane.
+102:57:07|T|CC|Roger. Tranquility. Be advised there's lots of smiling faces in this room and all over the world. Over.
+102:57:17|T|LMP(TRANQ)|Well, there are two of them up here.
+102:57:20|T|CC|Roger. That was a beautiful job, you guys.
+102:57:22|T|CMP(COLUMBIA)|And don't forget one in the Command Module.
+102:57:24|T|CC|Roger.
+102:57:33|P|PAO|That last remark from Mike Collins at an altitude of 60 miles. The comments on the landing, on the manual take-over, came from Neil Armstrong. Buzz Aldrin followed that with a description of the lunar surface and the rocks and boulders that they are able to see out the window of the LM.
+102:57:51|T|CC|Tranquility, Houston. We have you pitched up about 4 1/2 degrees. Over.
+102:57:58|T|CDR(TRANQ)|That's confirmed by our local observation.
+102:58:03|T|CC|Roger.
+102:58:15|T|CMP(COLUMBIA)|And thanks for putting me on relay, Houston. I was missing all the action.
+102:58:18|T|CC|Roger. We'll enable MSFN relay.
+102:58:29|T|CMP(COLUMBIA)|I just got it, I think.
+102:58:31|T|CC|Roger, Columbia. This is Houston. Say something. They ought to be able to hear you. Over.
+102:58:43|T|CMP(COLUMBIA)|Roger, Tranquility Base. It sure sounded great from up here. You guys did a fantastic job.
+102:58:51|T|CDR(TRANQ)|Thank you. Just keep that orbiting base ready for us up there now.
+102:58:58|T|CMP(COLUMBIA)|Will do.
+102:59:01|P|PAO|That request from Neil Armstrong.
+102:59:20|P|PAO|Here in Mission Control, Flight Director Gene Kranz is going around the -
+102:59:22|T|CC|Columbia, Houston. LOS 103:27, AOS 104:13. Over.
+102:59:34|T|CMP(COLUMBIA)|Thank you.
+103:00:22|P|PAO|We have just gotten a report from the TELCOM here in Mission Control that the LM systems looked good after that landing. We're about 26 minutes now from loss of signal from the Command Module.
+103:00:46|T|CC|Tranquility Base, Houston. All your consumables are solid. You're looking good in every respect. We copy the DPS are venting. Everything is copasetic. Over.
+103:01:00|T|CDR(TRANQ)|Thank you, Houston.
 103:02:03|T|CDR(TRANQ)|Houston, the guys that said that we wouldn't be able to tell precisely where we are are the winners today. We were a little busy worrying about program alarms and things like that in the part of the descent where we would normally be picking out our landing spot; and aside from a good look at several of the craters we came over in the final descent, I haven't been able to pick out the things on the horizon as a reference as yet.
 103:02:41|T|CC|Roger, Tranquility. No sweat. We'll figure out - We'll figure it out. Over.
 103:03:00|P|PAO|Neil Armstrong reporting there. No difficulty adapting to the one-sixth gravity of the Moon.
