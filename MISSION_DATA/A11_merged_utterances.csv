@@ -8735,248 +8735,248 @@
 103:00:22|P|PAO|We have just gotten a report from the TELCOM here in Mission Control that the LM systems looked good after that landing. We're about 26 minutes now from loss of signal from the Command Module.
 103:00:46|T|CC|Tranquility Base, Houston. All your consumables are solid. You're looking good in every respect. We copy the DPS are venting. Everything is copasetic. Over.
 103:01:00|T|CDR(TRANQ)|Thank you, Houston.
-103:02:03|T|CDR(TRANQ)|Houston, the guys that said that we wouldn't be able to tell precisely where we are are the winners today. We were a little busy worrying about program alarms and things like that in the part of the descent where we would normally be picking out our landing spot; and aside from a good look at several of the craters we came over in the final descent, I haven't been able to pick out the things on the horizon as a reference as yet.
-103:02:41|T|CC|Roger, Tranquility. No sweat. We'll figure out - We'll figure it out. Over.
-103:03:00|P|PAO|Neil Armstrong reporting there. No difficulty adapting to the one-sixth gravity of the Moon.
-103:03:32|T|CDR(TRANQ)|You might be interested to know that I don't think we notice any difficulty at all in adapting to one sixth g. It seems immediately natural to move in this environment.
-103:03:47|T|CC|Roger, Tranquility. We copy. Over.
-103:03:55|T|CDR(TRANQ)|The area out the left hand window is a relatively level plain cratered with a fairly large number of craters of the 5  to 50 foot variety, and some ridges - small, 20, 30 feet high, I would guess, and literally thousands of little 1  and 2 foot craters around the area. We see some angular blocks out several hundred feet in front of us that are probably 2 feet in size and have angular edges. There is a hill in view, just about on the ground track ahead of us. Difficult to estimate, but might be a half a mile or a mile.
-103:04:54|T|CC|Roger, Tranquility. We copy Over.
-103:05:01|T|CMP(COLUMBIA)|Sounds like it looks a lot better than it did yesterday - -
-103:05:02|T|CDR(TRANQ)|...
-103:05:03|T|CMP(COLUMBIA)|- - at that very low Sun angle. It looked rough as a cob then.
-103:05:11|T|CDR(TRANQ)|It really was rough, Mike. Over the targeted landing area, it was extremely rough, cratered, and large numbers of rocks that were probably some, many larger than 5 or 10 feet in size.
-103:05:32|T|CMP(COLUMBIA)|When in doubt, land long.
-103:05:38|T|CDR(TRANQ)|So we did.
-103:05:57|T|CC|Tranquility, Houston. After you get through this P57, we'd like an E memory dump. Over.
-103:06:07|T|LMP(TRANQ)|Roger. After this first P57, you want an E memory dump.
-103:06:11|T|CC|That's affirmative.
-103:06:16|T|CC|Columbia, Houston. We have a P22 update for you, if you're ready to copy. Over.
-103:06:27|T|CMP(COLUMBIA)|At your service, sir.
-103:06:29|T|CC|Roger, Mike. T1, 104 32 18; T2, 104 37 28. And that is 4 miles south. This is based on a targeted landing site. Over.
-103:06:58|T|CMP(COLUMBIA)|Okay. Roger. Understand based on a targeted landing site; T1, 104 32 18; T2, 104 37 28, and 4 miles south.
-103:07:10|T|CC|Roger.
-103:07:13|T|CMP(COLUMBIA)|Do you have any idea whether they landed left or right of center line? Just a little bit long, is that all we know?
-103:07:19|T|CC|Apparently that's about all we can tell. Over.
-103:07:24|T|CMP(COLUMBIA)|Okay. Thank you.
-103:08:06|T|CC|Tranquility, Houston - -
-103:08:07|T|CDR(TRANQ)|And, Houston, our mission timer is now reading 902 34 47 and static.
-103:08:17|T|CC|Roger. Copy your mission timer's now static. It - Say again the time?
-103:08:24|T|CDR(TRANQ)|902 34 47.
-103:08:35|T|CC|Roger. Copy, Tranquility. That gravity align looked good to us. We see you recycling.
-103:08:47|T|LMP(TRANQ)|Well, no. I was trying to get time, 16 65 out, and somehow it proceeded on to the 622 before I could do a VERB 32 ENTER. I want to log a time here, and then I'd like to know whether you want me to proceed on the torquing angles or to go back and reenter again before torquing. Over.
-103:09:08|T|CC|Roger, Buzz. Stand by.
-103:10:15|T|CC|Tranquility, Houston. We'd like you to recall P57 and run through the gravity align one more time. Over.
-103:10:24|T|LMP(TRANQ)|Roger. I concur with that.
-103:10:26|T|CC|Roger, Tranquility. For the mission timer, two suggestions. Set the circuit breaker, panel 11; also reset and attempt to start. That nine in the first digit might have something to do with it. Over.
-103:10:45|T|CDR(TRANQ)|Okay. We've tried both of those. If the circuit breaker is in when I reset the - put it in RESET, I get 902 04 40. When I release it now, I get 902 04 49. I'm going to cycle the circuit breaker.
-103:11:08|T|CC|Roger.
-103:11:12|T|CDR(TRANQ)|I cycled the circuit breaker and got all nines. And we'll not now reset from all nines.
-103:11:22|T|CC|Roger.
-103:11:37|T|CC|Tranquility, Houston. We'll research this problem and be back with you momentarily on the mission event time - correction, the mission timer.
-103:11:47|T|CDR(TRANQ)|Okay.
-103:12:44|T|CDR(TRANQ)|I'd say the color of the - The local surface is very comparable to that we observed from orbit at this Sun angle, about 10 degrees Sun angle, or that nature. It's pretty much without color. It's gray, and it's a very white, chalky gray, as you look into the zero phase line; and it's considerably darker gray, more like a ash - ashen gray as you look out 90 degrees to the Sun. The - Some of the surface rocks in close here that have been fractured or disturbed by the rocket engine plume are coated with this light gray on the outside; but where they've been broken, they display a dark - very dark gray interior; and it looks like it could be country basalt.
-103:14:02|T|CC|Roger, Tranquility. We see the NOUN 93, VERB 34.
-103:14:10|T|LMP(TRANQ)|Roger. I assume you wanted it. Roger.
-103:14:32|T|CC|Tranquility, Houston. Please vent fuel and OX again. Over. It's building back up.
-103:14:42|T|CDR(TRANQ)|Okay. OX going now.
-103:14:52|T|CC|Tranquility, Houston. You can open both fuel and OX vent now. Over.
-103:14:59|T|CDR(TRANQ)|Okay.
-103:15:01|T|LMP(TRANQ)|Houston, Tranquility standing by for GO on a AGS to PGNS align and a lunar align. Over.
-103:15:09|T|CC|Stand by.
-103:15:17|T|CC|Tranquility, Houston. You are GO for the AGS to PGNS align and a lunar align. Over.
-103:15:26|T|LMP(TRANQ)|Roger.
-103:15:44|T|CC|Tranquility, Houston. Please vent the fuel. It's increasing rapidly. Over.
-103:16:00|T|CDR(TRANQ)|We show 30 psi in the fuel and 30 in the oxidizer.
-103:16:05|T|CC|Roger. We're reading somewhat different than that. Stand by.
-103:16:14|T|CDR(TRANQ)|The fuel temperature is reading 64 in the descent, and the oxidizer - that's descent 2 - and the oxidizer is off scale low. Descent 1 is showing 61 in the fuel and 65 in the oxidizer.
-103:16:41|T|CC|Roger. Stand by. Tranquility, Houston. Please take the fuel vent switch and hold it open. Over.
-103:17:01|T|CDR(TRANQ)|Okay. We're holding it open. Indicating about 24 psi onboard.
-103:17:09|T|CC|Roger.
-103:17:34|T|CDR(TRANQ)|Now indicating 20 psi in the fuel side.
-103:17:37|T|CC|Roger.
-103:17:38|T|CDR(TRANQ)|And 22 in the OX.
-103:17:41|T|CC|Roger.
-103:18:47|T|LMP(TRANQ)|Now indicating 15 psi in both tanks.
-103:18:51|T|CC|Roger.
-103:19:17|T|CC|Tranquility, Houston. If you haven't done so, you can release the fuel vent switch now. Over.
-103:19:25|T|CDR(TRANQ)|Roger.
-103:20:52|T|CC|Tranquility, Houston. We have indication that we've frozen up the descent fuel helium heat exchanger, and there's some fuel trapped in the line between there and the valvs; and the pressure we're looking at is increasing there. Over.
-103:21:10|T|CDR(TRANQ)|Roger. Understand.
-103:22:00|T|CC|Tranquility Base, Houston. If you have not done so, please close both fuel and OX vents now. Over.
-103:22:17|T|CDR(TRANQ)|They're closed.
-103:22:18|T|CC|Thank you, sir.
-103:22:30|T|CDR(TRANQ)|From the surface, we could not see any stars out the window; but out my overhead hatch, I'm looking at the Earth. It's big and bright and beautiful. Buzz is going to give a try at seeing some stars through the optics.
-103:22:54|T|CC|Roger, Tranquility. We understand. Must be a beautiful sight. Over.
-103:23:00|P|PAO|We would like to point out that the fuel pressure problem that had been called to the attention of the crew, is in the descent system and it is probably the downstream of the tanks where a small amount of fluid has been trapped in a line and we don't expect it to cause any problem. The line should be able to take far more pressure than the fluid would exert. In the event that there was an over-pressurization, we would expect that the line would spring a small leak, the pressure would drop rapidly. Again, we point out that we do not see this as a significant problem.
-103:23:00|P|PAO|This is Apollo Control. We've had Loss of Signal now from the Command Module and of course, we'll maintain constant communications with the Lunar Module on the lunar surface. We have some heart rates for Nell Armstrong during that power descent to the lunar surface. At the time the burn was initiated, Armstrong's heart rate was 110. At touchdown on the lunar surface, he had a heart rate of 156 beats her minute, and the Flight Surgeon reports that his heart rate is now in the 90's. We do not have biomedical on Buzz Aldrin.
-103:23:00|P|PAO|This is Apollo Control at 103 hours 32 minutes. We have an update on that touchdown time on the lunar surface. This still is not the final, official time which we will get from readout of data, but the refined time is 102 hours 45 minutes 40 seconds, which would have been 12 minutes 36 seconds after initiating the powered descent. That was 102 hours 45 minutes 40 seconds for touchdown and a total time of powered descent 12 minutes 36 seconds, and we would expect then those numbers to change perhaps a little when we get final data readouts.
-103:24:52|T|CC|Columbia, Houston. Two minutes to LOS. You're looking great going over the hill. Over.
-103:25:08|T|CMP(COLUMBIA)|Okay. Thank you. Glad to hear the system's looking good. You have a suggested attitude for me? This one here seems all right.
-103:25:15|T|CC|Stand by.
-103:25:21|T|CMP(COLUMBIA)|Let me know when it's lunch time, will you?
-103:25:24|T|CC|Say again.
-103:25:29|T|CMP(COLUMBIA)|Oh, disregard.
-103:25:31|T|CC|Columbia, Houston. You got a good attitude right there.
-103:25:37|T|CMP(COLUMBIA)|Okay. Thank you.
-103:33:16|T|CC|Tranquility Base, Houston. If you want me to, I can give you a hack on the mission time, every 30 minutes. Over.
-103:34:07|T|CC|Tranquility, Houston. I'm counting down to T3 time. If you'd like to give me a hack, we can set up an event timer. Over.
-103:34:22|T|LMP(TRANQ)|Okay. How about counting up?
-103:34:23|T|CC|Roger. You want it counting up? Stand by.
-103:35:30|T|CC|Tranquility, Houston. On my Mark, 62 30.
-103:35:34|T|CC|MARK.
-103:35:35|T|CC|62 30 from - pas
-103:35:46|T|LMP(TRANQ)|What we're looking for, Charlie, is the time counting up to T2 that'll be equal to 60 minutes - or T3, be equal to 60 minutes on T3.
-103:35:56|T|CC|Roger. We'll have it for you.
-103:36:28|T|CC|Tranquility Base, Houston. Reset the event timer to zero and on my Mark at 103 39 41. We'll give you a hack, and it'll be 1 hour. Over.
-103:36:44|T|CDR(TRANQ)|Roger.
-103:36:45|T|CC|And we've got about - almost 3 minutes to go, Neil. Over.
-103:36:51|T|CDR(TRANQ)|Okay.
-103:39:16|T|CC|Tranquility Base, stand by on the event timer.
-103:39:25|T|CC|Tranquility Base, Houston. On my Mark start your event timer.
-103:39:36|T|CC|5, 4, 3, 2, 1.
-103:39:41|T|CC|MARK.
-103:39:46|T|CDR(TRANQ)|Roger. We got it; thank you.
-103:39:47|T|CC|Roger, Neil.
-103:44:00|P|PAO|This is Apollo Control at 103 hours 44 minutes. There will be a brief statement from Dr. Thomas Paine, NASA Administrator, in the building 1 auditorium at 4:30. We also have some updated information on the landing point. It appears that the spacecraft, Eagle, touched down at 799 degrees north, or just about on the lunar equator. And 23.46 degrees longitude, which would have put it about 4 miles from the targeted landing point downrange. We're now 54 minutes - rather 27 minutes from reacquisition of the Command Module, and of course, we're in constant contact with the Lunar Module on the surface. At this point, all LM systems seem to look very good.
-103:47:19|T|CC|Tranquility, Houston. We see the star angle difference. Looks good.
-103:47:29|T|LMP(TRANQ)|Okay. That last star was Navi, and it wasn't too well distinguishable. I can see where that error could come in. I think for the gravity alignment with one star, Rigel will be quite good.
-103:47:42|T|CC|Roger. Stand by on the NOUN 93.
-103:48:04|T|CC|Hello, Tranquility Base. Houston. We'd like you to torque that. Over.
+103:02:05|T|CDR(TRANQ)|Houston, the guys that said that we wouldn't be able to tell precisely where we are are the winners today. We were a little busy worrying about program alarms and things like that in the part of the descent where we would normally be picking out our landing spot; and aside from a good look at several of the craters we came over in the final descent, I haven't been able to pick out the things on the horizon as a reference as yet.
+103:02:43|T|CC|Roger, Tranquility. No sweat. We'll figure out - We'll figure it out. Over.
+103:03:34|T|CDR(TRANQ)|You might be interested to know that I don't think we notice any difficulty at all in adapting to one sixth g. It seems immediately natural to move in this environment.
+103:03:50|T|CC|Roger, Tranquility. We copy. Over.
+103:03:55|P|PAO|Neil Armstrong reporting there. No difficulty adapting to the one-sixth gravity of the Moon.
+103:03:58|T|CDR(TRANQ)|The area out the left hand window is a relatively level plain cratered with a fairly large number of craters of the 5 to 50-foot variety, and some ridges - small, 20, 30 feet high, I would guess, and literally thousands of little 1 and 2-foot craters around the area. We see some angular blocks out several hundred feet in front of us that are probably 2 feet in size and have angular edges. There is a hill in view, just about on the ground track ahead of us. Difficult to estimate, but might be a half a mile or a mile.
+103:04:57|T|CC|Roger, Tranquility. We copy Over.
+103:05:03|T|CMP(COLUMBIA)|Sounds like it looks a lot better than it did yesterday - -
+103:05:05|T|CDR(TRANQ)|...
+103:05:06|T|CMP(COLUMBIA)|- - at that very low Sun angle. It looked rough as a cob then.
+103:05:13|T|CDR(TRANQ)|It really was rough, Mike. Over the targeted landing area, it was extremely rough, cratered, and large numbers of rocks that were probably some, many larger than 5 or 10 feet in size.
+103:05:35|T|CMP(COLUMBIA)|When in doubt, land long.
+103:05:41|T|CDR(TRANQ)|So we did.
+103:06:00|T|CC|Tranquility, Houston. After you get through this P57, we'd like an E memory dump. Over.
+103:06:09|T|LMP(TRANQ)|Roger. After this first P57, you want an E memory dump.
+103:06:14|T|CC|That's affirmative.
+103:06:18|T|CC|Columbia, Houston. We have a P22 update for you, if you're ready to copy. Over.
+103:06:29|T|CMP(COLUMBIA)|At your service, sir.
+103:06:31|T|CC|Roger, Mike. T1, 104:32:18; T2, 104:37:28. And that is 4 miles south. This is based on a targeted landing site. Over.
+103:07:01|T|CMP(COLUMBIA)|Okay. Roger. Understand based on a targeted landing site; T1, 104:32:18; T2, 104:37:28, and 4 miles south.
+103:07:12|T|CC|Roger.
+103:07:16|T|CMP(COLUMBIA)|Do you have any idea whether they landed left or right of center line? Just a little bit long, is that all we know?
+103:07:22|T|CC|Apparently that's about all we can tell. Over.
+103:07:26|T|CMP(COLUMBIA)|Okay. Thank you.
+103:08:08|T|CC|Tranquility, Houston - -
+103:08:09|T|CDR(TRANQ)|And, Houston, our mission timer is now reading 902:34:47 and static.
+103:08:20|T|CC|Roger. Copy your mission timer's now static. It - Say again the time?
+103:08:27|T|CDR(TRANQ)|902:34:47.
+103:08:37|T|CC|Roger. Copy, Tranquility. That gravity align looked good to us. We see you recycling.
+103:08:49|T|LMP(TRANQ)|Well, no. I was trying to get time, 16 65 out, and somehow it proceeded on to the 622 before I could do a VERB 32 ENTER. I want to log a time here, and then I'd like to know whether you want me to proceed on the torquing angles or to go back and reenter again before torquing. Over.
+103:09:11|T|CC|Roger, Buzz. Stand by.
+103:10:18|T|CC|Tranquility, Houston. We'd like you to recall P57 and run through the gravity align one more time. Over.
+103:10:26|T|LMP(TRANQ)|Roger. I concur with that.
+103:10:28|T|CC|Roger, Tranquility. For the mission timer, two suggestions. Set the circuit breaker, panel 11; also reset and attempt to start. That nine in the first digit might have something to do with it. Over.
+103:10:47|T|CDR(TRANQ)|Okay. We've tried both of those. If the circuit breaker is in when I reset the - put it in RESET, I get 902:04:40. When I release it now, I get 902:04:49. I'm going to cycle the circuit breaker.
+103:11:10|T|CC|Roger.
+103:11:14|T|CDR(TRANQ)|I cycled the circuit breaker and got all nines. And will not now reset from all nines.
+103:11:24|T|CC|Roger.
+103:11:40|T|CC|Tranquility, Houston. We'll research this problem and be back with you momentarily on the mission event time - correction, the mission timer.
+103:11:49|T|CDR(TRANQ)|Okay.
+103:12:46|T|CDR(TRANQ)|I'd say the color of the - The local surface is very comparable to that we observed from orbit at this Sun angle, about 10 degrees Sun angle, or that nature. It's pretty much without color. It's gray, and it's a very white, chalky gray, as you look into the zero phase line; and it's considerably darker gray, more like a ash - ashen gray as you look out 90 degrees to the Sun. The - Some of the surface rocks in close here that have been fractured or disturbed by the rocket engine plume are coated with this light gray on the outside; but where they've been broken, they display a dark - very dark gray interior; and it looks like it could be country basalt.
+103:14:05|T|CC|Roger, Tranquility. We see the NOUN 93, VERB 34.
+103:14:12|T|LMP(TRANQ)|Roger. I assume you wanted it. Roger.
+103:14:34|T|CC|Tranquility, Houston. Please vent fuel and OX again. Over. It's building back up.
+103:14:45|T|CDR(TRANQ)|Okay. OX going now.
+103:14:54|T|CC|Tranquility, Houston. You can open both fuel and OX vent now. Over.
+103:15:01|T|CDR(TRANQ)|Okay.
+103:15:03|T|LMP(TRANQ)|Houston, Tranquility standing by for GO on AGS to PGNS align and a lunar align. Over.
+103:15:11|T|CC|Stand by.
+103:15:19|T|CC|Tranquility, Houston. You are GO for the AGS to PGNS align and a lunar align. Over.
+103:15:28|T|LMP(TRANQ)|Roger.
+103:15:46|T|CC|Tranquility, Houston. Please vent the fuel. It's increasing rapidly. Over.
+103:16:02|T|CDR(TRANQ)|We show 30 psi in the fuel and 30 in the oxidizer.
+103:16:07|T|CC|Roger. We're reading somewhat different than that. Stand by.
+103:16:16|T|CDR(TRANQ)|The fuel temperature is reading 64 in the descent, and the oxidizer - that's descent 2 - and the oxidizer is off scale low. Descent 1 is showing 61 in the fuel and 65 in the oxidizer.
+103:16:44|T|CC|Roger. Stand by.
+103:16:54|T|CC|Tranquility, Houston. Please take the fuel vent switch and hold it open. Over.
+103:17:03|T|CDR(TRANQ)|Okay. We're holding it open. Indicating about 24 psi onboard.
+103:17:11|T|CC|Roger.
+103:17:36|T|CDR(TRANQ)|Now indicating 20 psi in the fuel side.
+103:17:39|T|CC|Roger.
+103:17:40|T|CDR(TRANQ)|And 22 in the OX.
+103:17:43|T|CC|Roger.
+103:18:50|T|LMP(TRANQ)|Now indicating 15 psi in both tanks.
+103:18:53|T|CC|Roger.
+103:19:20|T|CC|Tranquility, Houston. If you haven't done so, you can release the fuel vent switch now. Over.
+103:19:28|T|CDR(TRANQ)|Roger.
+103:20:54|T|CC|Tranquility, Houston. We have indication that we've frozen up the descent fuel helium heat exchanger, and there's some fuel trapped in the line between there and the valves; and the pressure we're looking at is increasing there. Over.
+103:21:12|T|CDR(TRANQ)|Roger. Understand.
+103:22:06|T|CC|Tranquility Base, Houston. If you have not done so, please close both fuel and OX vents now. Over.
+103:22:19|T|CDR(TRANQ)|They're closed.
+103:22:20|T|CC|Thank you, sir.
+103:22:32|T|CDR(TRANQ)|From the surface, we could not see any stars out the window; but out my overhead hatch, I'm looking at the Earth. It's big and bright and beautiful. Buzz is going to give a try at seeing some stars through the optics.
+103:22:56|T|CC|Roger, Tranquility. We understand. Must be a beautiful sight. Over.
+103:23:54|P|PAO|We would like to point out that the fuel pressure problem that had been called to the attention of the crew, is in the descent system and it is probably downstream of the tanks where a small amount of fluid has been trapped in a line and we don't expect it to cause any problem. The line should be able to take far more pressure than the fluid would exert. In the event that there was an over-pressurization, we would expect that the line would spring a small leak, the pressure would drop rapidly. Again, we point out that we do not see this as a significant problem.
+103:24:55|T|CC|Columbia, Houston. Two minutes to LOS. You're looking great going over the hill. Over.
+103:25:11|T|CMP(COLUMBIA)|Okay. Thank you. Glad to hear the system's looking good. You have a suggested attitude for me? This one here seems all right.
+103:25:18|T|CC|Stand by.
+103:25:24|T|CMP(COLUMBIA)|Let me know when it's lunch time, will you?
+103:25:26|T|CC|Say again.
+103:25:31|T|CMP(COLUMBIA)|Oh, disregard.
+103:25:34|T|CC|Columbia, Houston. You got a good attitude right there.
+103:25:39|T|CMP(COLUMBIA)|Okay. Thank you.
+103:27:13|P|PAO|This is Apollo Control. We've had Loss of Signal now from the Command Module and of course, we'll maintain constant communications with the Lunar Module on the lunar surface. We have some heart rates for Neil Armstrong during that powered descent to the lunar surface. At the time the burn was initiated, Armstrong's heart rate was 110. At touchdown on the lunar surface, he had a heart rate of 156 beats her minute, and the Flight Surgeon reports that his heart rate is now in the 90's. We do not have biomedical on Buzz Aldrin.
+103:31:44|P|PAO|This is Apollo Control at 103 hours 32 minutes. We have an update on that touchdown time on the lunar surface. This still is not the final, official time which we will get from readout of data, but the refined time is 102 hours 45 minutes 40 seconds, which would have been 12 minutes 36 seconds after initiating the powered descent. That was 102 hours 45 minutes 40 seconds for touchdown and a total time of powered descent 12 minutes 36 seconds, and we would expect those numbers to change perhaps a little when we get final data readouts.
+103:33:19|T|CC|Tranquility Base, Houston. If you want me to, I can give you a hack on the mission time, every 30 minutes. Over.
+103:34:10|T|CC|Tranquility, Houston. I'm counting down to T3 time. If you'd like to give me a hack, we can set up an event timer. Over.
+103:34:24|T|LMP(TRANQ)|Okay. How about counting up?
+103:34:27|T|CC|Roger. You want it counting up? Stand by.
+103:35:32|T|CC|Tranquility, Houston. On my Mark, 62:30.
+103:35:36|T|CC|MARK.
+103:35:36|T|CC|62:30 from - past PDI.
+103:35:49|T|LMP(TRANQ)|What we're looking for, Charlie, is the time counting up to T2 that'll be equal to 60 minutes - or T3, be equal to 60 minutes on T3.
+103:35:59|T|CC|Roger. We'll have it for you.
+103:36:30|T|CC|Tranquility Base, Houston. Reset the event timer to zero and on my Mark at 103:39:41. We'll give you a hack, and it'll be 1 hour. Over.
+103:36:46|T|CDR(TRANQ)|Roger.
+103:36:47|T|CC|And we've got about - almost 3 minutes to go, Neil. Over.
+103:36:53|T|CDR(TRANQ)|Okay.
+103:39:19|T|CC|Tranquility Base, stand by on the event timer.
+103:39:28|T|CC|Tranquility Base, Houston. On my Mark start your event timer.
+103:39:37|T|CC|5, 4, 3, 2, 1.
+103:39:43|T|CC|MARK.
+103:39:48|T|CDR(TRANQ)|Roger. We got it; thank you.
+103:39:49|T|CC|Roger, Neil.
+103:44:20|P|PAO|This is Apollo Control at 103 hours 44 minutes. There will be a brief statement from Dr. Thomas Paine, NASA Administrator, in the building 1 auditorium at 4:30. We also have some updated information on the landing point. It appears that the spacecraft, Eagle, touched down at .799 degrees north, or just about on the lunar equator. And 23.46 degrees longitude, which would have put it about 4 miles from the targeted landing point downrange. We're now 54 minutes - rather 27 minutes from reacquisition of the Command Module, and of course, we're in constant contact with the Lunar Module on the surface. At this point, all LM systems seem to look very good.
+103:47:22|T|CC|Tranquility, Houston. We see the star angle difference. Looks good.
+103:47:31|T|LMP(TRANQ)|Okay. That last star was Navi, and it wasn't too well distinguishable. I can see where that error could come in. I think for the gravity alignment with one star, Rigel will be quite good.
+103:47:45|T|CC|Roger. Stand by on the NOUN 93.
+103:48:06|T|CC|Hello, Tranquility Base. Houston. We'd like you to torque that. Over.
 103:49:00|T||BEGIN LUNAR REV 15
-103:49:19|T|CDR(TRANQ)|Houston, this is Tranquility. Do you want us to accept this position? Over.
-103:49:24|T|CC|Tranquility, Houston. We're looking at it. Stand by. We'd like you to pull the circuit breaker on panel 11 for the mission timer. Over.
-103:49:35|T|CDR(TRANQ)|Roger. I've already done that, Charlie.
-103:49:37|T|CC|Okay.
-103:50:20|T|CC|Tranquility, Houston. We'd like you to reject that RLS. Over.
-103:50:29|T|LMP(TRANQ)|Roger.
-103:50:32|T|CC|And, Tranquility Base, Houston. We'd like you to call - after this, call P00, and give us a E memory dump.
-103:51:24|T|LMP(TRANQ)|Okay. Here comes the E memory dump.
-103:51:28|T|CC|Roger.
-103:51:41|T|LMP(TRANQ)|And we got 1106.
-103:51:43|T|CC|Roger.
-103:52:09|T|CC|Hello, Tranquility Base. Houston. Did I copy PROGRAM ALARM 1106 from you? Over.
-103:52:16|T|LMP(TRANQ)|Roger. That' s affirmative.
-103:52:18|T|CC|Okay. Stand by.
-103:52:19|T|LMP(TRANQ)|Could that, by any chance, be due to the fact that I flashed the updata link switch to DATA while that was going on? Over.
-103:52:29|T|CC|Stand by.
-103:52:38|T|CC|Hello, Tranquility Base. Houston. The SPAN guys think that's conceivable. Stand by. I think we want another VERB 74.
-103:52:51|T|LMP(TRANQ)|Okay. Standing by.
-103:53:02|T|CC|Hello, Tranquility Base. Houston. We'd like another VERB 74. Over.
-103:53:13|T|LMP(TRANQ)|Roger. Here it comes.
-103:53:54|T|CC|Tranquility Base, Houston. On my Mark it will be GET 103 53.
-103:54:00|T|CC|MARK.
-103:54:00|P|PAO|This is Apollo Control at 103 hours 57 minutes. We will be taking the release line down briefly for a statement from Thomas Paine, NASA Administrator. We will be recording further conversations with the spacecraft and will played those back following the statement. This is Apollo Control at 103 hours 58 minutes.
-103:54:01|T|CC|103 53 - correction, 54.
-103:54:09|T|CDR(TRANQ)|Roger.
-103:54:14|T|CC|Hello, Tranquility. Houston. We have the LM ascent PAD. If'you're ready to go. Over.
-103:54:28|T|LMP(TRANQ)|Stand by.
-103:54:38|T|LMP(TRANQ)|Roger. Ready to copy the LM ascent PAD.
-103:54:42|T|CC|Roger, Tranquility. TIG, 104 39 47 00, 55358 00322, plus 0022. DEDA 47, plus 37130, minus 70615, plus 58620, plus 56936. Over.
-103:55:28|T|LMP(TRANQ)|Roger. LM ascent PAD: 104 39 47 00, 55358 00322, plus 0022, plus 37130, minus 70615, plus 58620, plus 56936. Over.
-103:55:53|T|CC|Roger, Tranquility. Good readback. We also have a CSI PAD if you are ready to copy.
-103:56:10|T|LMP(TRANQ)|Okay. We are ready to go.
-103:56:12|T|CC|Roger. Coming at you with a CSI: NOUN 11, 105 35 3700, 107 11 3000, 0538, minus all zeros. FDAI is NA, 0937 - correction, 09356, 10315, plus 0538, minus all zeros, plus 0012. Over.
-103:57:08|T|LMP(TRANQ)|Roger. Say again R1 and NOUN 86.
-103:57:12|T|CC|Roger. R1 is plus 0538, and we have a load for you. Will you please give us P00 and DATA? Over.
-103:57:25|T|LMP(TRANQ)|Roger. Before I do that I would like to designate the rendezvous radar up to plus-X.
-103:57:30|T|CC|Roger.
-103:57:44|T|LMP(TRANQ)|Okay. CSI readback: NOUN 11, 105 35 3700, 107 11 3000, 0538, minus all zeros, NA, 09356, 10315. NOUN 86, plus 0538, plus all zeros, and the last one was 0012. And what's the sign of that, please?
-103:58:55|T|CC|Tranquility, Houston. The DELTA-VY is minus all zeros. The DELTA-VZ is plus 0012. Over.
-103:59:08|T|LMP(TRANQ)|Roger. Plus 0012.
-103:59:10|T|CC|Roger. Good readback.
-103:59:41|T|CDR(TRANQ)|Houston, Tranquility Base. The DSKY's yours, and updata link to DATA.
-103:59:47|T|CC|Roger. Thank you, Tranquility.
-104:02:26|T|CC|Hello, Tranquility Base. Houston. On my Mark it will be 37 minutes to T3. Over.
-104:02:35|T|CDR(TRANQ)|Okay.
-104:02:42|T|CC|Stand by.
-104:02:46|T|CC|MARK.
-104:02:47|T|CC|Thirty seven minutes till T3.
-104:02:51|T|CDR(TRANQ)|Okay. Thank you.
-104:03:10|T|CC|Tranquility, this is Houston. It's your computer. We got the load in. You can start your P57.
-104:03:18|T|CDR(TRANQ)|Roger. Thank you.
-104:05:19|T|LMP(TRANQ)|Houston, Tranquility Base. Does somebody down there have a mike button keyed? Over.
-104:05:26|T|CC|Stand by, and we'll check.
-104:05:42|T|CC|Tranquility, Houston. Do you still hear it now? Over.
-104:05:59|T|LMP(TRANQ)|I still hear it. it sounds like somebody banging chairs around in the back room.
-104:06:05|T|CC|Roger. That's a VOGAA that you hear for the CSM to keep the noise down on the loop. Maybe we got a MSFN relay or something. Stand by.
-104:06:17|T|LMP(TRANQ)|Okay.
-104:06:43|T|CC|Tranquility, Houston. We got the MSFN relay in. You're hearing the VOGAA, which is a noise suppression device. We'll try to take it out. Over.
-104:06:55|T|LMP(TRANQ)|All right. Thank you.
-104:08:00|T|CC|Tranquility, Houston. It ought to be a little quieter up there now. We disabled the MSFN relay.
-104:08:11|T|LMP(TRANQ)|Okay. I think the noise has stopped now. Thank you, Charlie.
-104:08:13|T|CC|Roger.
-104:10:00|P|PAO|This is Apollo Control at 104 hours 10 minutes. We understand there's been a brief delay in the statement from NASA Administrator Thomas Pane. We will catch up with the tape recorded conversation that we have had with Eagle on the lunar surface, at this time.
-104:14:32|T|CC|Tranquility Base, Houston. On my Mark, 25 minutes till T3. Stand by.
-104:14:46|T|CC|MARK.
-104:14:47|T|CC|Twenty five minutes until T3.
-104:14:52|T|CDR(TRANQ)|Roger. Thank you, Charlie.
-104:15:00|T|CMP(COLUMBIA)|Houston, Columbia. How's it going?
-104:15:02|T|CC|Columbia, Houston. We're reading you about three by. Over.
-104:15:10|T|CMP(COLUMBIA)|Roger. I'm on OMNI Charlie. How's it going?
-104:15:13|T|CC|Roger. Understand. OMNI Charlie. Mike, be advised we have an update for you on the P22 for the LM. We estimate he landed about 4 miles downrange. Your T1 times are updated and your T2, if you're ready to copy. Over.
-104:15:33|T|CMP(COLUMBIA)|Ready to copy.
+103:49:21|T|LMP(TRANQ)|Houston, this is Tranquility. Do you want us to accept this position? Over.
+103:49:26|T|CC|Tranquility, Houston. We're looking at it. Stand by. We'd like you to pull the circuit breaker on panel 11 for the mission timer. Over.
+103:49:38|T|CDR(TRANQ)|Roger. I've already done that, Charlie.
+103:49:39|T|CC|Okay.
+103:50:22|T|CC|Tranquility, Houston. We'd like you to reject that RLS. Over.
+103:50:31|T|LMP(TRANQ)|Roger.
+103:50:35|T|CC|And, Tranquility Base, Houston. We'd like you to call - after this, call P00, and give us a E memory dump.
+103:51:26|T|LMP(TRANQ)|Okay. Here comes the E memory dump.
+103:51:30|T|CC|Roger.
+103:51:43|T|LMP(TRANQ)|And we got 1106.
+103:51:46|T|CC|Roger.
+103:52:11|T|CC|Hello, Tranquility Base. Houston. Did I copy PROGRAM ALARM 1106 from you? Over.
+103:52:19|T|LMP(TRANQ)|Roger. That's affirmative.
+103:52:21|T|CC|Okay. Stand by.
+103:52:22|T|LMP(TRANQ)|Could that, by any chance, be due to the fact that I flashed the updata link switch to DATA while that was going on? Over.
+103:52:31|T|CC|Stand by.
+103:52:40|T|CC|Hello, Tranquility Base. Houston. The SPAN guys think that's conceivable. Stand by. I think we want another VERB 74.
+103:52:53|T|LMP(TRANQ)|Okay. Standing by.
+103:53:04|T|CC|Hello, Tranquility Base. Houston. We'd like another VERB 74. Over.
+103:53:15|T|LMP(TRANQ)|Roger. Here it comes.
+103:53:56|T|CC|Tranquility Base, Houston. On my Mark it will be GET 103:53.
+103:54:02|T|CC|MARK.
+103:54:03|T|CC|103:53 - correction, 54.
+103:54:10|T|CDR(TRANQ)|Roger.
+103:54:17|T|CC|Hello, Tranquility. Houston. We have the LM ascent PAD. If'you're ready to go. Over.
+103:54:30|T|LMP(TRANQ)|Stand by.
+103:54:41|T|LMP(TRANQ)|Roger. Ready to copy the LM ascent PAD.
+103:54:44|T|CC|Rog, Tranquility. Tig, 104:39:47:00, 55358, 00322, plus 0022. DEDA 47, plus 37130, minus 70615, plus 58620, plus 56936. Over.
+103:55:32|T|LMP(TRANQ)|Roger. LM ascent Pad: 104:39:47:00, 55358, 00322, plus 0022, plus 37130, minus 70615, plus 58620, plus 56936. Over.
+103:55:55|T|CC|Roger, Tranquility. Good readback. We also have a CSI PAD if you are ready to copy.
+103:56:12|T|LMP(TRANQ)|Okay. We are ready to go.
+103:56:15|T|CC| Roger. Coming at you with a CSI: Noun 11, 105:35:3700; 107:11:3000, 0538, minus all zeros. FDAI is NA; 0937...Correction, 09356; 10315; plus 0538, minus all zeros, plus 0012. Over.
+103:57:10|T|CDR(TRANQ)|Roger. Say again R1 and NOUN 86.
+103:57:14|T|CC|Roger. R1 is plus 0538, and we have a load for you. Will you please give us P00 and DATA? Over.
+103:57:27|T|LMP(TRANQ)|Roger. Before I do that I would like to designate the rendezvous radar up to plus-X.
+103:57:32|T|CC|Roger.
+103:57:45|P|PAO|This is Apollo Control at 103 hours 57 minutes. We will be taking the release line down briefly for a statement from Thomas Paine, NASA Administrator. We will be recording further conversations with the spacecraft and will play those back following the statement. This is Apollo Control at 103 hours 58 minutes.
+103:57:46|T|CDR(TRANQ)|Okay. CSI readback: Noun 11, 105:35:3700, 107:11:3000, 0538, minus all zeros, NA, 09356, 10315. Noun 86, plus 0538, plus all zeros, and the last one was 0012. And what's the sign of that, please?
+103:58:57|T|CC|Tranquility, Houston. The DELTA-VY is minus all zeros. The DELTA-VZ is plus 0012. Over.
+103:59:10|T|LMP(TRANQ)|Roger. Plus 0012.
+103:59:13|T|CC|Roger. Good readback.
+103:59:43|T|CDR(TRANQ)|Houston, Tranquility Base. The DSKY's yours, and updata link to DATA.
+103:59:49|T|CC|Roger. Thank you, Tranquility.
+104:02:29|T|CC|Hello, Tranquility Base. Houston. On my Mark it will be 37 minutes to T3. Over.
+104:02:38|T|CDR(TRANQ)|Okay.
+104:02:45|T|CC|Stand by.
+104:02:49|T|CC|MARK.
+104:02:49|T|CC|Thirty seven minutes till T3.
+104:02:55|T|CDR(TRANQ)|Okay. Thank you.
+104:03:13|T|CC|Tranquility, this is Houston. It's your computer. We got the load in. You can start your P57.
+104:03:22|T|CDR(TRANQ)|Roger. Thank you.
+104:05:22|T|LMP(TRANQ)|Houston, Tranquility Base. Does somebody down there have a mike button keyed? Over.
+104:05:30|T|CC|Stand by, and we'll check.
+104:05:44|T|CC|Tranquility, Houston. Do you still hear it now? Over.
+104:06:02|T|LMP(TRANQ)|I still hear it. it sounds like somebody banging chairs around in the back room.
+104:06:08|T|CC|Roger. That's a VOGAA that you hear for the CSM to keep the noise down on the loop. Maybe we got a MSFN relay or something. Stand by.
+104:06:20|T|LMP(TRANQ)|Okay.
+104:06:46|T|CC|Tranquility, Houston. We got the MSFN relay in. You're hearing the VOGAA, which is a noise suppression device. We'll try to take it out. Over.
+104:06:58|T|LMP(TRANQ)|All right. Thank you.
+104:08:03|T|CC|Tranquility, Houston. It ought to be a little quieter up there now. We disabled the MSFN relay.
+104:08:13|T|LMP(TRANQ)|Okay. I think the noise has stopped now. Thank you, Charlie.
+104:08:16|T|CC|Roger.
+104:10:06|P|PAO|This is Apollo Control at 104 hours 10 minutes. We understand there's been a brief delay in the statement from NASA Administrator Thomas Pane. We will catch up with the tape recorded conversation that we have had with Eagle on the lunar surface, at this time.
+104:14:35|T|CC|Tranquility Base, Houston. On my Mark, 25 minutes till T3. Stand by.
+104:14:49|T|CC|MARK.
+104:14:49|T|CC|Twenty five minutes until T3.
+104:14:55|T|CDR(TRANQ)|Roger. Thank you, Charlie.
+104:15:03|T|CMP(COLUMBIA)|Houston, Columbia. How's it going?
+104:15:05|T|CC|Columbia, Houston. We're reading you about three by. Over.
+104:15:13|T|CMP(COLUMBIA)|Roger. I'm on OMNI Charlie. How's it going?
+104:15:16|T|CC|Roger. Understand. OMNI Charlie. Mike, be advised we have an update for you on the P22 for the LM. We estimate he landed about 4 miles downrange. Your T1 times are updated and your T2, if you're ready to copy. Over.
 104:15:36|T|CMP(COLUMBIA)|Ready to copy.
-104:15:37|T|CC|Okay. Roger, Columbia. T1 104 32 24, 104 37 33, 2 miles south. Time of closest approach is 104 39 08.
-104:16:08|T|CC|Hello, Tranquility Base. Houston. We copy the NOUN 93. You can torque them. Over.
-104:17:30|T|CMP(COLUMBIA)|You said 4 miles long, is that correct, Houston?
-104:17:34|T|CC|That's affirmative, Columbia. It's about 4 miles long. Stand by. We'll have you a map location momentarily. Over.
-104:18:38|T|CDR(TRANQ)|Houston, Tranquility Base. Do you have an updated LM weight for us? Over.
-104:18:42|T|CC|That's affirmative. Stand by on the DAP. Our DAP PAD for you is LM weight 10906. Over.
-104:18:59|T|CDR(TRANQ)|Roger. 10906.
-104:19:02|T|CC|Roger.
-104:19:57|T|CC|Columbia, Houston. With a latitude/longitude over two update for LM position. Over.
-104:20:21|T|CC|Columbia, Houston. Over.
-104:20:26|T|CMP(COLUMBIA)|Go ahead, Houston.
-104:20:28|T|CC|Roger, Mike. We got an update on the LAT longitude for the LM, if you're ready to copy. Over.
-104:20:36|T|CMP(COLUMBIA)|Go ahead.
-104:20:41|T|CMP(COLUMBIA)|Go ahead.
-104:20:42|T|CC|Roger. Columbia, it's plus 7 - correction, plus 0.799 for the LAT, plus 11.730 for the longitude over two. Over.
-104:21:02|T|CMP(COLUMBIA)|Thank you. The altitude remain unchanged?
-104:21:08|T|CC|Say again. Over.
-104:21:12|T|CMP(COLUMBIA)|Does the altitude remain unchanged? ...
-104:21:16|T|CC|That's affirmative.
-104:21:31|T|CC|Hello, Tranquility Base. Houston. You are stay for a T3. We have some surface block data if you're ready to copy. Over.
-104:21:40|T|CDR(TRANQ)|Roger. Understand we're stay for T3. Stand by.
-104:22:27|T|CDR(TRANQ)|Okay, Houston. Go ahead with your block data.
-104:22:30|T|CC|Roger, Tranquility. T4, 106 38 02; T5, 108 36 15; T6, 110 34 30; T7, 112 32 45. Over.
-104:23:05|T|LMP(TRANQ)|Copy. T4, 106 38 07; T5, 108 36 15; T6 110 34 30; T7, 112 32 45.
-104:23:20|T|CC|Roger, Tranquility. Stand by one.
-104:23:26|T|CC|Tranquility, Houston. Say again your T4 copy. Over.
-104:23:33|T|CDR(TRANQ)|T4, 106 38 07.
-104:23:37|T|CC|Roger. Correction on T4: 106 38 02. Over.
-104:23:49|T|CDR(TRANQ)|Got T4, 106 38 02.
-104:23:51|T|CMP(COLUMBIA)|...
-104:23:53|T|CC|Roger.
-104:24:51|T|CC|Hello, Columbia. Houston. We will not come up on the MSFN relay. We'd like you to come on panel 9, turn on your VHF to TR. Over.
-104:25:08|T|CMP(COLUMBIA)|Okay. I'm on panel 9. Ready to receive. You want me to transmit for some reason with it?
-104:25:14|T|CC|Say again, Mike. You're about two by.
-104:25:21|T|CMP(COLUMBIA)|Roger. Panel 9 is configured VHF, RECEIVE. You want me to transmit with the VHF for some reason? Why do you want me in TR?
-104:25:31|T|CC|Columbia, this is Houston. We don't want you to transmit, Mike. We just want you in that position in case you want to talk to Tranquility. Break. Tranquility, Houston. Say again. Over.
-104:25:47|T|CDR(TRANQ)|Roger. I have a fairly good sized difference between battery volts on 5 and 6; 6 is reading 33.5 and 5 is reading 36.5. Is that what you expect? Over.
-104:26:03|T|CC|Roger. Stand by.
-104:26:09|T|CC|Tranquility, Houston. They are both coming up in voltage. No problem. We're still GO. Over.
-104:26:19|T|CDR(TRANQ)|Roger.
-104:31:00|P|PAO|This is Apollo Control, Houston at 104 hours, 31 minutes now into this historic mission, Apollo 11. During the news conference with NASA Administrator Dr. Thomas Paine, we had conversation with both Eagle and Columbia and we'll play that tape for you now.
-104:32:38|T|CC|Hello, Tranquility Base. Houston. Could you please give us a readout now of all of your descent tank pressures? Over.
-104:32:56|T|LMP(TRANQ)|Okay, Houston. On descent 1, fuel and oxidizer are reading 10 psi; and descent 2, fuel is reading 10 psi, oxidizer 11 psi.
-104:32:56|O|LMP|Okay, Houston. On DESCENT 1, the fuel and oxidizer are reading 10 psi; on DESCENT 2, fuel is reading 10 psi; oxidizer, 11 psi.
+104:15:39|T|CMP(COLUMBIA)|Ready to copy.
+104:15:39|T|CC|Okay. Roger, Columbia. T1 104:32:24, 104:37:33, 2 miles south. Time of closest approach is 104:39:08.
+104:16:11|T|CC|Hello, Tranquility Base. Houston. We copy the NOUN 93. You can torque them. Over.
+104:17:33|T|CMP(COLUMBIA)|You said 4 miles long, is that correct, Houston?
+104:17:37|T|CC|That's affirmative, Columbia. It's about 4 miles long. Stand by. We'll have you a map location momentarily. Over.
+104:18:42|T|LMP(TRANQ)|Houston, Tranquility Base. Do you have an updated LM weight for us? Over.
+104:18:46|T|CC|That's affirmative. Stand by on the DAP. Our DAP PAD for you is LM weight 10906. Over.
+104:19:02|T|CDR(TRANQ)|Roger. 10906.
+104:19:06|T|CC|Roger.
+104:20:00|T|CC|Columbia, Houston. With a latitude/longitude over two update for LM position. Over.
+104:20:24|T|CC|Columbia, Houston. Over.
+104:20:29|T|CMP(COLUMBIA)|Go ahead, Houston.
+104:20:31|T|CC|Roger, Mike. We got an update on the LAT / longitude for the LM, if you're ready to copy. Over.
+104:20:43|T|CMP(COLUMBIA)|Go ahead.
+104:20:45|T|CC|Roger. Columbia, it's plus 7 - correction, plus 0.799 for the LAT, plus 11.730 for the longitude over two. Over.
+104:21:06|T|CMP(COLUMBIA)|Thank you. The altitude remain unchanged?
+104:21:11|T|CC|Say again. Over.
+104:21:16|T|CMP(COLUMBIA)|Does the altitude remain unchanged? ...
+104:21:19|T|CC|That's affirmative.
+104:21:34|T|CC|Hello, Tranquility Base. Houston. You are stay for a T3. We have some surface block data if you're ready to copy. Over.
+104:21:44|T|CDR(TRANQ)|Roger. Understand we're stay for T3. Stand by.
+104:22:31|T|CDR(TRANQ)|Okay, Houston. Go ahead with your block data.
+104:22:33|T|CC|Roger, Tranquility. T4, 106:38:02; T5, 108:36:15; T6, 110:34:30; T7, 112:32:45. Over.
+104:23:09|T|CDR(TRANQ)|Copy. T4, 106:38:07(sic); T5. 108:36:15; T6, 110:34:30; T7, 112:32:45.
+104:23:23|T|CC|Roger, Tranquility. Stand by one.
+104:23:29|T|CC|Tranquility, Houston. Say again your T4 copy. Over.
+104:23:36|T|CDR(TRANQ)|T4, 106:38:07.
+104:23:40|T|CC|Roger. Correction on T4: 106:38:02. Over.
+104:23:53|T|CDR(TRANQ)|Got T4, 106:38:02.
+104:23:54|T|CMP(COLUMBIA)|...
+104:23:57|T|CC|Roger.
+104:24:55|T|CC|Hello, Columbia. Houston. We will not come up on the MSFN relay. We'd like you to come on panel 9, turn on your VHF TR - to TR. Over.
+104:25:11|T|CMP(COLUMBIA)|Okay. I'm on panel 9. Ready to receive. You want me to transmit for some reason with it?
+104:25:17|T|CC|Say again, Mike. You're about two by.
+104:25:23|T|CMP(COLUMBIA)|Roger. Panel 9 is configured VHF, RECEIVE. You want me to transmit with the VHF for some reason? Why do you want me in TR?
+104:25:34|T|CC|Columbia, this is Houston. We don't want you to transmit, Mike. We just want you in that position in case you want to talk to Tranquility. Break. Tranquility, Houston. Say again. Over.
+104:25:50|T|LMP(TRANQ)|Roger. I have a fairly good sized difference between battery volts on 5 and 6; 6 is reading 33.5 and 5 is reading 36.5. Is that what you expect? Over.
+104:26:06|T|CC|Roger. Stand by.
+104:26:12|T|CC|Tranquility, Houston. They are both coming up in voltage. No problem. We're still GO. Over.
+104:26:22|T|LMP(TRANQ)|Roger.
+104:31:13|P|PAO|This is Apollo Control, Houston at 104 hours, 31 minutes now into this historic mission, Apollo 11. During the news conference with NASA Administrator Dr. Thomas Paine, we had conversation with both Eagle and Columbia and we'll play that tape for you now.
+104:32:41|T|CC|Hello, Tranquility Base. Houston. Could you please give us a readout now of all of your descent tank pressures? Over.
+104:32:59|T|LMP(TRANQ)|Okay, Houston. On descent 1, fuel and oxidizer are reading 10 psi; and descent 2, fuel is reading 10 psi, oxidizer 11 psi.
+104:32:13|O|LMP|Okay, Houston. On DESCENT 1, the fuel and oxidizer are reading 10 psi; on DESCENT 2, fuel is reading 10 psi; oxidizer, 11 psi.
 104:33:09|T|CC|Roger, Tranquility. Thank you much. Out.
 104:34:02|O|CDR|Okay, going back to OFF.
-104:34:40|O|CDR|... is OPEN. Yes, ...
-104:34:46|O|LMP|Alright, we need the -
-104:34:52|O|LMP|Houston, Tranquility Base is ready to go through the powerdown and terminate the simulated countdown.
-104:34:55|T|CDR(TRANQ)|Houston, Tranquility Base is ready to go through the powerdown and terminate the simulated countdown.
-104:35:03|T|CC|Roger. Standby.
-104:35:08|O|CDR|Hope he is, too.
-104:35:10|O|LMP|OPEN.
-104:35:13|O|CDR|Okay, the operations HEATER circuit breaker is OPEN.
-104:35:21|O|LMP|Roger. It's in progress. Anytime, take your helmet off.
-104:35:23|T|CC|Hello, Tranquility Base. Houston. You can start your powerdown now. Over.
-104:35:31|T|CDR(TRANQ)|Roger. It's in progress.
-104:35:37|T|CC|And, Tranquility Base, the White Team is going off now and letting the Maroon Team take over. We appreciate the great show. It was a beautiful Job, you guys.
-104:35:45|O|LMP|Roger. Couldn't have had better treatment from all of you back there.
-104:35:47|T|LMP(TRANQ)|Roger. Couldn't of had better agreement from all of you back there.
+104:34:45|O|CDR|... is OPEN. Yes, ...
+104:34:51|O|LMP|Alright, we need the -
+104:34:58|O|LMP|Houston, Tranquility Base is ready to go through the powerdown and terminate the simulated countdown.
+104:34:58|T|LMP(TRANQ)|Houston, Tranquility Base is ready to go through the powerdown and terminate the simulated countdown.
+104:35:06|T|CC|Roger. Standby.
+104:35:14|O|CDR|Hope he is, too.
+104:35:25|O|LMP|OPEN.
+104:35:26|O|CDR|Okay, the operations HEATER circuit breaker is OPEN.
+104:35:26|T|CC|Hello, Tranquility Base. Houston. You can start your powerdown now. Over.
+104:35:34|O|LMP|Roger. It's in progress. Anytime, get your helmet off.
+104:35:34|T|CDR(TRANQ)|Roger. It's in progress.
+104:35:39|T|CC|And, Tranquility Base, the White Team is going off now and letting the Maroon Team take over. We appreciate the great show. It was a beautiful Job, you guys.
+104:35:51|O|LMP|Roger. Couldn't have had better treatment from all of you back there.
+104:35:51|T|LMP(TRANQ)|Roger. Couldn't of had better treatment from all of you back there.
 104:39:07|T|LMP(TRANQ)|Houston, Tranquility.
 104:39:09|T|CC|Go, Tranquility. Over.
 104:39:14|T|LMP(TRANQ)|Roger. Our recommendation at this point is planning an EVA with your concurrence starting about eight o'clock this evening, Houston time. That is about 3 hours from now.
