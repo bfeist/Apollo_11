@@ -154,6 +154,9 @@
 102:42:01 - GO/NO GO for landing.
 102:52:46 - Kranz - "come on, let's keep the chatter down"
 102:57:07|T|CC|Roger. Tranquility. Be advised there's lots of smiling faces in this room and all over the world. Over.
+105:25:41 - Buzz contemplates events.
+106:23:54 - Bruce laughs at Buzz's accurate PRD reading.
+106:54:48 - Mike on the crowd in the MOCR - |T|CMP(COLUMBIA)|Roger. I expect you probably have about nine Capcoms and 11 Flight Directors with no place to plug in.
 
 
 

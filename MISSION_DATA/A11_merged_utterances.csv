@@ -8888,378 +8888,376 @@
 103:59:13|T|CC|Roger. Good readback.
 103:59:43|T|CDR(TRANQ)|Houston, Tranquility Base. The DSKY's yours, and updata link to DATA.
 103:59:49|T|CC|Roger. Thank you, Tranquility.
-104:02:29|T|CC|Hello, Tranquility Base. Houston. On my Mark it will be 37 minutes to T3. Over.
-104:02:38|T|CDR(TRANQ)|Okay.
-104:02:45|T|CC|Stand by.
-104:02:49|T|CC|MARK.
-104:02:49|T|CC|Thirty seven minutes till T3.
-104:02:55|T|CDR(TRANQ)|Okay. Thank you.
-104:03:13|T|CC|Tranquility, this is Houston. It's your computer. We got the load in. You can start your P57.
-104:03:22|T|CDR(TRANQ)|Roger. Thank you.
-104:05:22|T|LMP(TRANQ)|Houston, Tranquility Base. Does somebody down there have a mike button keyed? Over.
-104:05:30|T|CC|Stand by, and we'll check.
-104:05:44|T|CC|Tranquility, Houston. Do you still hear it now? Over.
-104:06:02|T|LMP(TRANQ)|I still hear it. it sounds like somebody banging chairs around in the back room.
-104:06:08|T|CC|Roger. That's a VOGAA that you hear for the CSM to keep the noise down on the loop. Maybe we got a MSFN relay or something. Stand by.
-104:06:20|T|LMP(TRANQ)|Okay.
-104:06:46|T|CC|Tranquility, Houston. We got the MSFN relay in. You're hearing the VOGAA, which is a noise suppression device. We'll try to take it out. Over.
-104:06:58|T|LMP(TRANQ)|All right. Thank you.
-104:08:03|T|CC|Tranquility, Houston. It ought to be a little quieter up there now. We disabled the MSFN relay.
-104:08:13|T|LMP(TRANQ)|Okay. I think the noise has stopped now. Thank you, Charlie.
-104:08:16|T|CC|Roger.
-104:10:06|P|PAO|This is Apollo Control at 104 hours 10 minutes. We understand there's been a brief delay in the statement from NASA Administrator Thomas Pane. We will catch up with the tape recorded conversation that we have had with Eagle on the lunar surface, at this time.
-104:14:35|T|CC|Tranquility Base, Houston. On my Mark, 25 minutes till T3. Stand by.
-104:14:49|T|CC|MARK.
-104:14:49|T|CC|Twenty five minutes until T3.
-104:14:55|T|CDR(TRANQ)|Roger. Thank you, Charlie.
-104:15:03|T|CMP(COLUMBIA)|Houston, Columbia. How's it going?
-104:15:05|T|CC|Columbia, Houston. We're reading you about three by. Over.
-104:15:13|T|CMP(COLUMBIA)|Roger. I'm on OMNI Charlie. How's it going?
-104:15:16|T|CC|Roger. Understand. OMNI Charlie. Mike, be advised we have an update for you on the P22 for the LM. We estimate he landed about 4 miles downrange. Your T1 times are updated and your T2, if you're ready to copy. Over.
-104:15:36|T|CMP(COLUMBIA)|Ready to copy.
-104:15:39|T|CMP(COLUMBIA)|Ready to copy.
-104:15:39|T|CC|Okay. Roger, Columbia. T1 104:32:24, 104:37:33, 2 miles south. Time of closest approach is 104:39:08.
-104:16:11|T|CC|Hello, Tranquility Base. Houston. We copy the NOUN 93. You can torque them. Over.
-104:17:33|T|CMP(COLUMBIA)|You said 4 miles long, is that correct, Houston?
-104:17:37|T|CC|That's affirmative, Columbia. It's about 4 miles long. Stand by. We'll have you a map location momentarily. Over.
-104:18:42|T|LMP(TRANQ)|Houston, Tranquility Base. Do you have an updated LM weight for us? Over.
-104:18:46|T|CC|That's affirmative. Stand by on the DAP. Our DAP PAD for you is LM weight 10906. Over.
-104:19:02|T|CDR(TRANQ)|Roger. 10906.
-104:19:06|T|CC|Roger.
-104:20:00|T|CC|Columbia, Houston. With a latitude/longitude over two update for LM position. Over.
-104:20:24|T|CC|Columbia, Houston. Over.
-104:20:29|T|CMP(COLUMBIA)|Go ahead, Houston.
-104:20:31|T|CC|Roger, Mike. We got an update on the LAT / longitude for the LM, if you're ready to copy. Over.
-104:20:43|T|CMP(COLUMBIA)|Go ahead.
-104:20:45|T|CC|Roger. Columbia, it's plus 7 - correction, plus 0.799 for the LAT, plus 11.730 for the longitude over two. Over.
-104:21:06|T|CMP(COLUMBIA)|Thank you. The altitude remain unchanged?
-104:21:11|T|CC|Say again. Over.
-104:21:16|T|CMP(COLUMBIA)|Does the altitude remain unchanged? ...
-104:21:19|T|CC|That's affirmative.
-104:21:34|T|CC|Hello, Tranquility Base. Houston. You are stay for a T3. We have some surface block data if you're ready to copy. Over.
-104:21:44|T|CDR(TRANQ)|Roger. Understand we're stay for T3. Stand by.
-104:22:31|T|CDR(TRANQ)|Okay, Houston. Go ahead with your block data.
-104:22:33|T|CC|Roger, Tranquility. T4, 106:38:02; T5, 108:36:15; T6, 110:34:30; T7, 112:32:45. Over.
-104:23:09|T|CDR(TRANQ)|Copy. T4, 106:38:07(sic); T5. 108:36:15; T6, 110:34:30; T7, 112:32:45.
-104:23:23|T|CC|Roger, Tranquility. Stand by one.
-104:23:29|T|CC|Tranquility, Houston. Say again your T4 copy. Over.
-104:23:36|T|CDR(TRANQ)|T4, 106:38:07.
-104:23:40|T|CC|Roger. Correction on T4: 106:38:02. Over.
-104:23:53|T|CDR(TRANQ)|Got T4, 106:38:02.
-104:23:54|T|CMP(COLUMBIA)|...
-104:23:57|T|CC|Roger.
-104:24:55|T|CC|Hello, Columbia. Houston. We will not come up on the MSFN relay. We'd like you to come on panel 9, turn on your VHF TR - to TR. Over.
-104:25:11|T|CMP(COLUMBIA)|Okay. I'm on panel 9. Ready to receive. You want me to transmit for some reason with it?
-104:25:17|T|CC|Say again, Mike. You're about two by.
-104:25:23|T|CMP(COLUMBIA)|Roger. Panel 9 is configured VHF, RECEIVE. You want me to transmit with the VHF for some reason? Why do you want me in TR?
-104:25:34|T|CC|Columbia, this is Houston. We don't want you to transmit, Mike. We just want you in that position in case you want to talk to Tranquility. Break. Tranquility, Houston. Say again. Over.
-104:25:50|T|LMP(TRANQ)|Roger. I have a fairly good sized difference between battery volts on 5 and 6; 6 is reading 33.5 and 5 is reading 36.5. Is that what you expect? Over.
-104:26:06|T|CC|Roger. Stand by.
-104:26:12|T|CC|Tranquility, Houston. They are both coming up in voltage. No problem. We're still GO. Over.
-104:26:22|T|LMP(TRANQ)|Roger.
-104:31:13|P|PAO|This is Apollo Control, Houston at 104 hours, 31 minutes now into this historic mission, Apollo 11. During the news conference with NASA Administrator Dr. Thomas Paine, we had conversation with both Eagle and Columbia and we'll play that tape for you now.
-104:32:41|T|CC|Hello, Tranquility Base. Houston. Could you please give us a readout now of all of your descent tank pressures? Over.
-104:32:59|T|LMP(TRANQ)|Okay, Houston. On descent 1, fuel and oxidizer are reading 10 psi; and descent 2, fuel is reading 10 psi, oxidizer 11 psi.
-104:32:13|O|LMP|Okay, Houston. On DESCENT 1, the fuel and oxidizer are reading 10 psi; on DESCENT 2, fuel is reading 10 psi; oxidizer, 11 psi.
-104:33:09|T|CC|Roger, Tranquility. Thank you much. Out.
-104:34:02|O|CDR|Okay, going back to OFF.
-104:34:45|O|CDR|... is OPEN. Yes, ...
-104:34:51|O|LMP|Alright, we need the -
-104:34:58|O|LMP|Houston, Tranquility Base is ready to go through the powerdown and terminate the simulated countdown.
-104:34:58|T|LMP(TRANQ)|Houston, Tranquility Base is ready to go through the powerdown and terminate the simulated countdown.
-104:35:06|T|CC|Roger. Standby.
-104:35:14|O|CDR|Hope he is, too.
-104:35:25|O|LMP|OPEN.
-104:35:26|O|CDR|Okay, the operations HEATER circuit breaker is OPEN.
-104:35:26|T|CC|Hello, Tranquility Base. Houston. You can start your powerdown now. Over.
-104:35:34|O|LMP|Roger. It's in progress. Anytime, get your helmet off.
-104:35:34|T|CDR(TRANQ)|Roger. It's in progress.
-104:35:39|T|CC|And, Tranquility Base, the White Team is going off now and letting the Maroon Team take over. We appreciate the great show. It was a beautiful Job, you guys.
-104:35:51|O|LMP|Roger. Couldn't have had better treatment from all of you back there.
-104:35:51|T|LMP(TRANQ)|Roger. Couldn't of had better treatment from all of you back there.
-104:39:07|T|LMP(TRANQ)|Houston, Tranquility.
-104:39:09|T|CC|Go, Tranquility. Over.
-104:39:14|T|LMP(TRANQ)|Roger. Our recommendation at this point is planning an EVA with your concurrence starting about eight o'clock this evening, Houston time. That is about 3 hours from now.
-104:39:31|T|CC|Stand by.
-104:39:35|T|LMP(TRANQ)|Well, we will give you some time to think about that.
-104:39:40|T|CC|Tranquility Base, Houston. We thought about it; we will support it. You're GO at that time. Over.
-104:39:48|T|LMP(TRANQ)|Roger.
-104:39:56|T|CC|You guys are getting prime time TV there.
-104:40:08|T|CDR(TRANQ)|Hope that little TV set works, but we'll see.
+104:02:28|T|CC|Hello, Tranquility Base. Houston. On my Mark it will be 37 minutes to T3. Over.
+104:02:37|T|CDR(TRANQ)|Okay.
+104:02:44|T|CC|Stand by.
+104:02:48|T|CC|MARK.
+104:02:48|T|CC|Thirty seven minutes till T3.
+104:02:54|T|CDR(TRANQ)|Okay. Thank you.
+104:03:12|T|CC|Tranquility, this is Houston. It's your computer. We got the load in. You can start your P57.
+104:03:21|T|CDR(TRANQ)|Roger. Thank you.
+104:05:21|T|LMP(TRANQ)|Houston, Tranquility Base. Does somebody down there have a mike button keyed? Over.
+104:05:29|T|CC|Stand by, and we'll check.
+104:05:43|T|CC|Tranquility, Houston. Do you still hear it now? Over.
+104:06:01|T|LMP(TRANQ)|I still hear it. it sounds like somebody banging chairs around in the back room.
+104:06:07|T|CC|Roger. That's a VOGAA that you hear for the CSM to keep the noise down on the loop. Maybe we got a MSFN relay or something. Stand by.
+104:06:19|T|LMP(TRANQ)|Okay.
+104:06:45|T|CC|Tranquility, Houston. We got the MSFN relay in. You're hearing the VOGAA, which is a noise suppression device. We'll try to take it out. Over.
+104:06:57|T|LMP(TRANQ)|All right. Thank you.
+104:08:02|T|CC|Tranquility, Houston. It ought to be a little quieter up there now. We disabled the MSFN relay.
+104:08:12|T|LMP(TRANQ)|Okay. I think the noise has stopped now. Thank you, Charlie.
+104:08:15|T|CC|Roger.
+104:10:05|P|PAO|This is Apollo Control at 104 hours 10 minutes. We understand there's been a brief delay in the statement from NASA Administrator Thomas Pane. We will catch up with the tape recorded conversation that we have had with Eagle on the lunar surface, at this time.
+104:14:34|T|CC|Tranquility Base, Houston. On my Mark, 25 minutes till T3. Stand by.
+104:14:48|T|CC|MARK.
+104:14:48|T|CC|Twenty five minutes until T3.
+104:14:54|T|CDR(TRANQ)|Roger. Thank you, Charlie.
+104:15:02|T|CMP(COLUMBIA)|Houston, Columbia. How's it going?
+104:15:04|T|CC|Columbia, Houston. We're reading you about three by. Over.
+104:15:12|T|CMP(COLUMBIA)|Roger. I'm on OMNI Charlie. How's it going?
+104:15:15|T|CC|Roger. Understand. OMNI Charlie. Mike, be advised we have an update for you on the P22 for the LM. We estimate he landed about 4 miles downrange. Your T1 times are updated and your T2, if you're ready to copy. Over.
+104:15:35|T|CMP(COLUMBIA)|Ready to copy.
+104:15:38|T|CMP(COLUMBIA)|Ready to copy.
+104:15:38|T|CC|Okay. Roger, Columbia. T1 104:32:24, 104:37:33, 2 miles south. Time of closest approach is 104:39:08.
+104:16:10|T|CC|Hello, Tranquility Base. Houston. We copy the NOUN 93. You can torque them. Over.
+104:17:32|T|CMP(COLUMBIA)|You said 4 miles long, is that correct, Houston?
+104:17:36|T|CC|That's affirmative, Columbia. It's about 4 miles long. Stand by. We'll have you a map location momentarily. Over.
+104:18:41|T|LMP(TRANQ)|Houston, Tranquility Base. Do you have an updated LM weight for us? Over.
+104:18:45|T|CC|That's affirmative. Stand by on the DAP. Our DAP PAD for you is LM weight 10906. Over.
+104:19:01|T|CDR(TRANQ)|Roger. 10906.
+104:19:05|T|CC|Roger.
+104:19:59|T|CC|Columbia, Houston. With a latitude/longitude over two update for LM position. Over.
+104:20:23|T|CC|Columbia, Houston. Over.
+104:20:28|T|CMP(COLUMBIA)|Go ahead, Houston.
+104:20:30|T|CC|Roger, Mike. We got an update on the LAT / longitude for the LM, if you're ready to copy. Over.
+104:20:42|T|CMP(COLUMBIA)|Go ahead.
+104:20:44|T|CC|Roger. Columbia, it's plus 7 - correction, plus 0.799 for the LAT, plus 11.730 for the longitude over two. Over.
+104:21:05|T|CMP(COLUMBIA)|Thank you. The altitude remain unchanged?
+104:21:10|T|CC|Say again. Over.
+104:21:15|T|CMP(COLUMBIA)|Does the altitude remain unchanged? ...
+104:21:18|T|CC|That's affirmative.
+104:21:33|T|CC|Hello, Tranquility Base. Houston. You are stay for a T3. We have some surface block data if you're ready to copy. Over.
+104:21:43|T|CDR(TRANQ)|Roger. Understand we're stay for T3. Stand by.
+104:22:30|T|CDR(TRANQ)|Okay, Houston. Go ahead with your block data.
+104:22:32|T|CC|Roger, Tranquility. T4, 106:38:02; T5, 108:36:15; T6, 110:34:30; T7, 112:32:45. Over.
+104:23:08|T|CDR(TRANQ)|Copy. T4, 106:38:07(sic); T5. 108:36:15; T6, 110:34:30; T7, 112:32:45.
+104:23:22|T|CC|Roger, Tranquility. Stand by one.
+104:23:28|T|CC|Tranquility, Houston. Say again your T4 copy. Over.
+104:23:35|T|CDR(TRANQ)|T4, 106:38:07.
+104:23:39|T|CC|Roger. Correction on T4: 106:38:02. Over.
+104:23:52|T|CDR(TRANQ)|Got T4, 106:38:02.
+104:23:53|T|CMP(COLUMBIA)|...
+104:23:56|T|CC|Roger.
+104:24:54|T|CC|Hello, Columbia. Houston. We will not come up on the MSFN relay. We'd like you to come on panel 9, turn on your VHF TR - to TR. Over.
+104:25:10|T|CMP(COLUMBIA)|Okay. I'm on panel 9. Ready to receive. You want me to transmit for some reason with it?
+104:25:16|T|CC|Say again, Mike. You're about two by.
+104:25:22|T|CMP(COLUMBIA)|Roger. Panel 9 is configured VHF, RECEIVE. You want me to transmit with the VHF for some reason? Why do you want me in TR?
+104:25:33|T|CC|Columbia, this is Houston. We don't want you to transmit, Mike. We just want you in that position in case you want to talk to Tranquility. Break. Tranquility, Houston. Say again. Over.
+104:25:49|T|LMP(TRANQ)|Roger. I have a fairly good sized difference between battery volts on 5 and 6; 6 is reading 33.5 and 5 is reading 36.5. Is that what you expect? Over.
+104:26:05|T|CC|Roger. Stand by.
+104:26:11|T|CC|Tranquility, Houston. They are both coming up in voltage. No problem. We're still GO. Over.
+104:26:21|T|LMP(TRANQ)|Roger.
+104:31:12|P|PAO|This is Apollo Control, Houston at 104 hours, 31 minutes now into this historic mission, Apollo 11. During the news conference with NASA Administrator Dr. Thomas Paine, we had conversation with both Eagle and Columbia and we'll play that tape for you now.
+104:32:40|T|CC|Hello, Tranquility Base. Houston. Could you please give us a readout now of all of your descent tank pressures? Over.
+104:32:58|T|LMP(TRANQ)|Okay, Houston. On descent 1, fuel and oxidizer are reading 10 psi; and descent 2, fuel is reading 10 psi, oxidizer 11 psi.
+104:32:12|O|LMP|Okay, Houston. On DESCENT 1, the fuel and oxidizer are reading 10 psi; on DESCENT 2, fuel is reading 10 psi; oxidizer, 11 psi.
+104:33:08|T|CC|Roger, Tranquility. Thank you much. Out.
+104:34:01|O|CDR|Okay, going back to OFF.
+104:34:44|O|CDR|... is OPEN. Yes, ...
+104:34:50|O|LMP|Alright, we need the -
+104:34:57|O|LMP|Houston, Tranquility Base is ready to go through the powerdown and terminate the simulated countdown.
+104:34:57|T|LMP(TRANQ)|Houston, Tranquility Base is ready to go through the powerdown and terminate the simulated countdown.
+104:35:05|T|CC|Roger. Standby.
+104:35:13|O|CDR|Hope he is, too.
+104:35:24|O|LMP|OPEN.
+104:35:25|O|CDR|Okay, the operations HEATER circuit breaker is OPEN.
+104:35:25|T|CC|Hello, Tranquility Base. Houston. You can start your powerdown now. Over.
+104:35:33|O|LMP|Roger. It's in progress. Anytime, get your helmet off.
+104:35:33|T|CDR(TRANQ)|Roger. It's in progress.
+104:35:38|T|CC|And, Tranquility Base, the White Team is going off now and letting the Maroon Team take over. We appreciate the great show. It was a beautiful Job, you guys.
+104:35:50|O|LMP|Roger. Couldn't have had better treatment from all of you back there.
+104:35:50|T|LMP(TRANQ)|Roger. Couldn't of had better treatment from all of you back there.
+104:39:09|T|CDR(TRANQ)|Houston, Tranquility.
+104:39:11|T|CC|Go, Tranquility. Over.
+104:39:17|T|CDR(TRANQ)|Roger. Our recommendation at this point is planning an EVA with your concurrence starting about eight o'clock this evening, Houston time. That is about 3 hours from now.
+104:39:34|T|CC|Stand by.
+104:39:37|T|CDR(TRANQ)|Well, we will give you some time to think about that.
+104:39:42|T|CC|Tranquility Base, Houston. We thought about it; we will support it. We're GO at that time. Over.
+104:39:50|T|LMP(TRANQ)|Roger.
+104:39:58|T|CC|You guys are getting prime time TV there.
+104:40:07|T|CDR(TRANQ)|I hope that little TV set works, but we'll see.
 104:40:13|T|CC|Roger.
-104:40:33|T|CC|Hello, Tranquility Base. Houston. Was your eight o'clock Houston time a reference to opening the hatch or starting the PREP for EVA at that time? Over.
-104:40:46|T|CDR(TRANQ)|That would be hatch opening.
-104:40:48|T|CC|That's what we thought. Thank you much.
-104:40:52|T|CDR(TRANQ)|That might be a little later than that, but in other words, start the PREP in about an hour or so.
-104:40:55|O|CMP|Houston, Columbia. Copy NOUN 49?
-104:40:57|T|CMP(COLUMBIA)|Houston, Columbia. Copy NOUN 49?
-104:41:00|T|CC|Stand by, Columbia.
-104:41:00|P|PAO|This is Apollo Control, Houston at 104 hours 44 minutes. You heard that last exchange and there is a very strong indication we might have an early EVA with the hatch opened perhaps at 8:00 Houston time. One other item of significance that this the pressure rise in - depth descent propellant line downstage of the tanks has relieved all aspects of the mission, looking very good at this time. At 104 hours 45 minutes now into the flight of Apollo 11, this is Apollo Control, Houston.
-104:41:00|P|PAO|This is Apollo Control, Houston at 105 hours now into the flight of Apollo 11. We expect a - our - our capsule communicator Owen Garriott to pass along data to spacecraft Columbia, momentarily. We're standing by for that. Meanwhile, I think we should discuss a little further the projected EVA. Our current plan is to have crew members above the Eagle to eat and relax for a little while prior to starting EVA preps. We won't know with certainty or have a reasonable time hack until about an hour before the scheduled event. Right it looks like it could occur at 8:00 Houston time. We have conversation going now with the spacecraft. We'll pick that up.
-104:41:00|P|PAO|This is Apollo Control, Houston. We will shutdown the line at this time and turn to the news conference.
-104:41:01|T|CC|Tranquility Base, Houston. That's fine. We are ready to support you any time, Neil. Over.
-104:41:02|O|CMP|Roger.
-104:41:04|T|CMP(COLUMBIA)|Roger.
-104:41:07|T|CDR(TRANQ)|Roger.
-104:41:10|T|CC|Break. Columbia, we see the NOUN 49. Stand by.
-104:41:36|T|CC|Columbia, Houston. We got the data. We would like a VERB 34. Over.
-104:41:44|O|CMP|Yes, stand by 1, Charlie, for the next ...
-104:41:47|T|CMP(COLUMBIA)|Roger. Stand by one, Charlie, for the next one.
-104:41:50|T|CC|Roger, Columbia. Did - How did Tranquility look to you down there? Over.
-104:41:56|T|CMP(COLUMBIA)|Well, the area looks smooth, but I was unable to see him. I just picked out a distinguishable crater nearby and marked on it.
-104:41:56|O|CMP|Well, the area looks smooth, but I was unable to see them. I just picked out a distinguishable crater nearby and marked on it.
-104:42:08|T|CC|Roger.
-104:42:12|O|CMP|It looks like a nice area, though.
-104:42:14|T|CMP(COLUMBIA)|It looks like a nice area, though.
-104:42:29|T|CC|Hello, Columbia. Houston. I understand you could not see Tranquility. What were you marking on? Over.
-104:42:46|O|CMP|Houston, Columbia. I say again: I did not see them. AUTO optics pointed at a spot very close to the coordinates which you gave me, so I picked out a tiny crater in that area and marked on it, so that I'll be able to have repeatable data, but I was still unable to see them.
-104:42:48|T|CMP(COLUMBIA)|Houston, Columbia. I say again, I could not see him. AUTO optics pointed at a spot very close to the coordinates which you gave me, so I picked a tiny crater in that area and marked on it so I will be able to have repeatable data, but I was unable to see him.
-104:43:05|T|CC|Roger. Copy.
-104:46:11|T|CC|H ello, Tranquility Base. Houston. On our DPS venting and that fuel problem, our heat exchanger is cleared up. It appears that the ice is melted, and we are in good shape now. Out.
-104:49:39|T|CDR(TRANQ)|Houston. Tranquility is going to put the track modes in P00 now.
-104:59:27|T|CC|Columbia, Houston. Over.
-104:59:34|T|CMP(COLUMBIA)|Columbia. Go.
-104:59:35|T|CC|Columbia, Houston. We noticed you are maneuvering very close to gimbal lock. I suggest you move back away. Over.
-104:59:43|T|CMP(COLUMBIA)|Yes. I am going around it, doing this CMC AUTO maneuvers to the PAD values of roll 270, pitch 101, yaw 45.
-104:59:52|T|CC|Roger, Columbia.
-105:00:30|T|CMP(COLUMBIA)|How about sending me a fourth gimbal for Christmas.
-105:00:40|T|CC|Columbia, Houston. You were unreadable. Say again please.
-105:00:46|T|CMP(COLUMBIA)|Disregard.
-105:01:21|T|CC|Columbia, Houston. Several items for you. Over.
-105:01:28|T|CMP(COLUMBIA)|Ready to copy.
-105:01:30|T|CC|Columbia, Houston. First of all, we'd like a wastewater dump to 10 percent on the backside. Secondly, it does not look like we are going to need any plane change at this time, so we will not be uplinking a new REFSMMAT. Third item, I would like all of your CRYO heaters to AUTO, and we are ready for a battery charge, battery BRAVO; it will last about 7 hours. If you should go to sleep, we will be terminating that BATT charge, but at the moment, we can go ahead and start the BATT charge on BATT Bravo. And a final item, for your SM RCS configuration for your rest period, register 1 for the DAP is 11111; DAP register 2, 01100. And your AUTO RCS select switches, quad Alfa, pitch jets on only, quad Bravo all on, quad Charlie and quad Delta all off. Over.
-105:02:57|T|CMP(COLUMBIA)|Roger. Dump wastewater to 10 percent on the backside. Use prior REFSMMAT, CRYO heaters on to AUTO, battery B charge until I go to sleep. DAP is 11111, 01100. Select quads A pitch only on, C and D all up. Over.
-105:03:22|T|CC|Columbia, Houston. Roger.
-105:04:25|T|CC|Columbia, Houston. We will have a state vector update for you a little later. We are not prepared with it right now; and on another subject, from Tranquility Base, they are prepared to begin their EVA early. They expect to begin DEPRESS operations in about 3 hours at 108, approximately 108 GET. Over.
-105:04:58|T|CMP(COLUMBIA)|Sounds good to me. Tell them to eat some lunch before they go.
-105:06:07|T|CC|Columbia, Houston. We'd like your PRD readouts when possible, and we've checked over your EM dump. It all looks okay.
-105:06:48|T|CC|Tranquility Base, Houston. Over. 
-105:06:54|T|LMP(TRANQ)|Go ahead, Houston.
-105:06:56|T|CC|Tranquility, Houston. We'd like your PRD readout, and we have double checked your EM dump. It all looks okay. Over.
-105:07:26|T|CDR(TRANQ)|Roger. Understand our E memory dump was good. CDR's dosimeter is 11014.
-105:07:37|T|LMP(TRANQ)|And LMP is 09011.
-105:07:44|T|CC|Roger, Tranquility. Break. Columbia, we would like for you to REACQ with your high-gain; attempt a manual lock on. Over.
-105:08:01|T|CMP(COLUMBIA)|In work.
-105:08:11|T|LMP(TRANQ)|Houston, Tranquility here. The LMP's readout may possibly be 09017. Over.
-105:08:21|T|CC|Tranquility, Houston. Roger. 09017 is an update on your readout.
-105:08:31|T|CMP(COLUMBIA)|Columbia's in high-gain.
-105:08:32|T|LMP(TRANQ)|I'll let you know for sure when it goes to either 12 or 18.
-105:08:41|T|CC|Tranquility, Houston. Roger. The medics report your latter reading, 17, appears to be the correct one. Over.
-105:08:54|T|LMP(TRANQ)|Roger.
-105:09:11|T|CMP(COLUMBIA)|Columbia's in the high-gain.
-105:09:13|T|CC|Roger, Columbia. You're sounding much better now.
-105:09:57|T|CC|Columbla, Houston. Request P00 in ACCEPT, and we'll uplink another state vector. Over.
-105:10:08|T|CMP(COLUMBIA)|Roger. Going P00 in ACCEPT.
-105:12:02|T|CC|Columbia, Houston. Suggest you put BATT A on your BATT relay bus. Over.
-105:12:12|T|CMP(COLUMBIA)|Okay.
-105:12:46|T|CC|Columbia, Houston. We're through with your computer. You can go to BLOCK.
-105:12:53|T|CMP(COLUMBIA)|Roger. BLOCK.
-105:14:43|T|CC|Tranquility Base, Houston. Over.
-105:14:53|T|LMP(TRANQ)|Go ahead, Houston. Tranquility Base.
-105:14:55|T|CC|Tranquility Base, Houston. We've reviewed the checklist, and about the only change in order to advance the EVA that we've found is that you'll want to delay your lithium hydroxide change until after the EVA rather than before. Over.
-105:15:19|T|LMP(TRANQ)|Roger. We'd just as soon make a change and jettison the old one. Over.
-105:16:21|T|CC|Tranquility Base, Houston. We would like to delay that LOIO - LiOH change until after the EVA. There is a possibility you could jettison the canister when you jettison your PLSS. Over.
-105:16:39|T|LMP(TRANQ)|All right. We'll plan it that way. Over.
-105:16:42|T|CC|Roger, Tranquility.
-105:17:52|T|CC|Columbia, Houston. Over.
-105:17:58|T|CMP(COLUMBIA)|Houston, Columbia.
-105:17:59|T|CC|Columbia, Houston. We show your EVAP OUT temperature running low. Request you go to manual temperature control and bring it up. You can check the procedures in ECS MAL 17. Over.
-105:18:20|T|CMP(COLUMBIA)|Roger, Houston.
-105:19:49|T|CC|Columbia, Houston. I have a P22 update for you.
-105:19:57|T|CMP(COLUMBIA)|Columbia. Go ahead.
-105:19:59|T|CC|Columbia, Houston. Your P22 AUTO - AUTO optics landmark ID on LM. T1, 106 plus 30 plus 31; T2, 106 plus 35 plus 41, 2 nautical miles south. Your TCA, 106 plus 37 plus 16. Shaft angle 357.9 and trunnion angle 44.3. Over.
-105:20:46|T|CMP(COLUMBIA)|Roger. Thank you.
-105:21:35|T|CC|Columbia, Houston. We have your LOS in 3 minutes. AOS will be 106 plus 11. Over.
-105:21:47|T|CMP(COLUMBIA)|Roger.
-105:25:29|T|LMP(TRANQ)|Houston, Tranquility. Over.
-105:25:31|T|CC|Tranquility, Houston. Go ahead.
-105:25:38|T|LMP(TRANQ)|Roger. This is the LM pilot. I'd like to take this opportunity to ask every person listening in, whoever and wherever they may be, to pause for a moment and contemplate the events of the past few hours and to give thanks in his or her own way. Over.
-105:26:08|T|CC|Roger, Tranquility Base.
-105:30:00|P|PAO|This is Apollo Control, Houston at 105 hours 30 minutes on to the mission, Apollo 11. The spacecraft Columbia is now out of range with Mission Control Center, Houston, passing over the far side of the Moon. As it passed out of sight, we read an apolune of 63 nautical miles; a perilune of 56 nautical miles; a velocity of 5367 feet per second. We had conversation both with Tranquility base and Columbia during this span of time. Also, as will come up in that course of conversation. Lunar Module Pilot Buzz Aldrin delivers a message to people everywhere listening. We'll play those tapes for you now.
-105:35:03|T|LMP(TRANQ)|That's about ready to fall off.
-105:35:07|T|CDR(TRANQ)|As a matter of fact, it just doesn't look like it sunk in at all.
-105:40:00|P|PAO|This is Apollo Control, Houston at 105 hours 42 minutes into the flight of Apollo 11. You have heard that statement in our tapes transmission from Lunar Module Pilot, Buzz Aldrin. Our projected time for extravehicular activity, at this point, is still very preliminary. I repeat, it could come as soon as 8:00 p.m. Houston time. We won't know for sure about the time, with reasonable certainty until about an hour before the event. Meanwhile, as we'll soon be progressing toward man's first step on the lunar surface, we have an interesting phenomena here in the mission Control Center, Houston. Something we've never seen before. Our visual of the Lunar Module, our visual display now standing still. Our velocity digitals for Tranquility Base now reading zero. Reverting, if we could, to the terminology of an earlier form of transportation, the railroad. What we're witnessing now, is man's very first trip into space with a station stop along the route. At 105 hours 43 minutes, continuing to monitor the loop, this is Apollo Control, Houston.
+104:40:35|T|CC|Hello, Tranquility Base. Houston. Were your eight o'clock Houston time a reference to opening the hatch or starting the PREP for EVA at that time? Over.
+104:40:48|T|CDR(TRANQ)|That would be hatch opening.
+104:40:50|T|CC|That's what we thought. Thank you much.
+104:40:54|T|CDR(TRANQ)|That might be a little later than that, but in other words, start the PREP in about an hour or so.
+104:40:58|O|CMP|Houston, Columbia. Copy NOUN 49?
+104:40:58|T|CMP(COLUMBIA)|Houston, Columbia. Copy NOUN 49?
+104:41:01|T|CC|Stand by, Columbia.
+104:41:03|T|CC|Tranquility Base, Houston. That's fine. We are ready to support you any time, Neil. Over.
+104:41:06|O|CMP|Roger.
+104:41:06|T|CMP(COLUMBIA)|Roger.
+104:41:11|T|CDR(TRANQ)|Roger.
+104:41:12|T|CC|Break. Columbia, we see the NOUN 49. Stand by.
+104:41:38|T|CC|Columbia, Houston. We got the data. We'd like a VERB 34. Over.
+104:41:49|O|CMP|Yes, stand by 1, Charlie, for the next ...
+104:41:49|T|CMP(COLUMBIA)|Roger. Stand by one, Charlie, for the next one.
+104:41:52|T|CC|Roger, Columbia. Did - How did Tranquility look to you down there? Over.
+104:41:55|T|CMP(COLUMBIA)|Well, the area looks smooth, but I was unable to see him. I just picked out a distinguishable crater nearby and marked on it.
+104:41:55|O|CMP|Well, the area looks smooth, but I was unable to see him. I just picked out a distinguishable crater nearby and marked on it.
+104:42:10|T|CC|Roger.
+104:42:16|O|CMP|It looks like a nice area, though.
+104:42:16|T|CMP(COLUMBIA)|It looks like a nice area, though.
+104:42:31|T|CC|Hello, Columbia. Houston. I understand you could not see Tranquility. What were you marking on? Over.
+104:42:50|O|CMP|Houston, Columbia. I say again: I did not see them. AUTO optics pointed at a spot very close to the coordinates which you gave me, so I picked out a tiny crater in that area and marked on it, so that I'll be able to have repeatable data, but I was still unable to see them.
+104:42:50|T|CMP(COLUMBIA)|Houston, Columbia. I say again, I could not see him. AUTO optics pointed at a spot very close to the coordinates which you gave me, so I picked a tiny crater in that area and marked on it so I will be able to have repeatable data, but I was unable to see him.
+104:43:07|T|CC|Roger. Copy.
+104:44:24|P|PAO|This is Apollo Control, Houston at 104 hours 44 minutes. You heard that last exchange and there is a very strong indication we might have an early EVA with the hatch opened perhaps at 8:00 Houston time. One other item of significance that this the pressure rise in - depth descent propellant line downstage of the tanks has relieved all aspects of the mission, looking very good at this time. At 104 hours 45 minutes now into the flight of Apollo 11, this is Apollo Control, Houston.
+104:46:13|T|CC|Hello, Tranquility Base. Houston. On our DPS venting and that fuel problem, our heat exchanger is cleared up. It appears that the ice is melted, and we are in good shape now. Out.
+104:49:41|T|LMP(TRANQ)|Houston. Tranquility is going to put the track modes in P00 now.
+104:59:02|P|PAO|This is Apollo Control, Houston at 105 hours now into the flight of Apollo 11. We expect a - our - our capsule communicator Owen Garriott to pass along data to spacecraft Columbia, momentarily. We're standing by for that. Meanwhile, I think we should discuss a little further the projected EVA. Our current plan is to have crew members above the Eagle to eat and relax for a little while prior to starting EVA preps. We won't know with certainty or have a reasonable time hack until about an hour before the scheduled event. Right it looks like it could occur at 8:00 Houston time. We have conversation going now with the spacecraft. We'll pick that up.
+104:59:30|T|CC|Columbia, Houston. Over.
+104:59:36|T|CMP(COLUMBIA)|Columbia. Go.
+104:59:37|T|CC|Columbia, Houston. We noticed you are maneuvering very close to gimbal lock. I suggest you move back away. Over.
+104:59:45|T|CMP(COLUMBIA)|Yes. I am going around it, doing this CMC AUTO maneuvers to the PAD values of roll 270, pitch 101, yaw 45.
+104:59:55|T|CC|Roger, Columbia.
+105:00:29|P|PAO|This is Apollo Control, Houston. We will shutdown the line at this time and turn to the news conference.
+105:00:32|T|CMP(COLUMBIA)|How about sending me a fourth gimbal for Christmas.
+105:00:42|T|CC|Columbia, Houston. You were unreadable. Say again please.
+105:00:48|T|CMP(COLUMBIA)|Disregard.
+105:01:24|T|CC|Columbia, Houston. Several items for you. Over.
+105:01:30|T|CMP(COLUMBIA)|Ready to copy.
+105:01:32|T|CC|Columbia, Houston. First of all, we'd like a wastewater dump to 10 percent on the backside. Secondly, it does not look like we are going to need any plane change at this time, so we will not be uplinking a new REFSMMAT. Third item, I would like all of your CRYO heaters to AUTO, and we are ready for a battery charge, battery BRAVO; it will last about 7 hours. If you should go to sleep, we will be terminating that BATT charge, but at the moment, we can go ahead and start the BATT charge on BATT Bravo. And a final item, for your SM RCS configuration for your rest period, register 1 for the DAP is 11111; DAP register 2, 01100. And your AUTO RCS select switches, quad Alfa, pitch jets ON only, quad Bravo all ON, quad Charlie and quad Delta all OFF. Over.
+105:02:59|T|CMP(COLUMBIA)|Roger. Dump wastewater to 10 percent on the backside. Use prior REFSMMAT, CRYO heaters on to AUTO, battery B charge until I go to sleep. DAP is 11111, 01100. Select quads A pitch only on, C and D all up. Over.
+105:03:25|T|CC|Columbia, Houston. Roger.
+105:04:27|T|CC|Columbia, Houston. We will have a state vector update for you a little later. We are not prepared with it right now; and on another subject, from Tranquility Base, they are prepared to begin their EVA early. They expect to begin DEPRESS operations in about 3 hours at 108, approximately 108 GET. Over.
+105:05:00|T|CMP(COLUMBIA)|Sounds good to me. Tell them to eat some lunch before they go.
+105:06:10|T|CC|Columbia, Houston. We'd like your PRD readouts when possible, and we've checked over your EM dump. It all looks okay.
+105:06:51|T|CC|Tranquility Base, Houston. Over. 
+105:06:57|T|LMP(TRANQ)|Go ahead, Houston.
+105:06:58|T|CC|Tranquility, Houston. We'd like your PRD readout, and we have double checked your EM dump. It all looks okay. Over.
+105:07:25|T|CDR(TRANQ)|Roger. Understand our E memory dump was good. CDR's dosimeter is 11014.
+105:07:40|T|LMP(TRANQ)|And LMP is 09011.
+105:07:46|T|CC|Roger, Tranquility. Break. Columbia, we would like for you to REACQ with your high-gain; attempt a manual lock on. Over.
+105:08:03|T|CMP(COLUMBIA)|In work.
+105:08:13|T|LMP(TRANQ)|Houston, Tranquility here. The LMP's readout may possibly be 09017. Over.
+105:08:23|T|CC|Tranquility, Houston. Roger. 09017 is an update on your readout.
+105:08:34|T|CMP(COLUMBIA)|Columbia's in high-gain.
+105:08:34|T|LMP(TRANQ)|I'll let you know for sure when it goes to either 12 or 18.
+105:08:43|T|CC|Tranquility, Houston. Roger. The medics report your latter reading, 17, appears to be the correct one. Over.
+105:08:56|T|LMP(TRANQ)|Roger.
+105:09:14|T|CMP(COLUMBIA)|Columbia's in the high-gain.
+105:09:15|T|CC|Roger, Columbia. You're sounding much better now.
+105:09:59|T|CC|Columbla, Houston. Request P00 and ACCEPT, and we'll uplink another state vector. Over.
+105:10:10|T|CMP(COLUMBIA)|Roger. Going P00 in ACCEPT.
+105:12:04|T|CC|Columbia, Houston. Suggest you put BATT A on your BATT relay bus. Over.
+105:12:15|T|CMP(COLUMBIA)|Okay.
+105:12:48|T|CC|Columbia, Houston. We're through with your computer. You can go to BLOCK.
+105:12:56|T|CMP(COLUMBIA)|Roger. BLOCK.
+105:14:45|T|CC|Tranquility Base, Houston. Over.
+105:14:55|T|LMP(TRANQ)|Go ahead, Houston. Tranquility Base.
+105:14:57|T|CC|Tranquility Base, Houston. We've reviewed the checklist, and about the only change in order to advance the EVA that we've found is that you'll want to delay your lithium hydroxide change until after the EVA rather than before. Over.
+105:15:22|T|LMP(TRANQ)|Roger. We'd just as soon make a change and jettison the old one. Over.
+105:16:23|T|CC|Tranquility Base, Houston. We would like to delay that LOIO - LiOH change until after the EVA. There is a possibility you could jettison the canister when you jettison your PLSS. Over.
+105:16:42|T|LMP(TRANQ)|All right. We'll plan it that way. Over.
+105:16:44|T|CC|Roger, Tranquility.
+105:17:54|T|CC|Columbia, Houston. Over.
+105:18:00|T|CMP(COLUMBIA)|Houston, Columbia.
+105:18:02|T|CC|Columbia, Houston. We show your EVAP OUT temperature running low. Request you go to manual temperature control and bring it up. You can check the procedures in ECS MAL 17. Over.
+105:18:22|T|CMP(COLUMBIA)|Roger. Understand.
+105:19:51|T|CC|Columbia, Houston. I have a P22 update for you.
+105:20:00|T|CMP(COLUMBIA)|Columbia. Go ahead.
+105:20:01|T|CC|Columbia, Houston. Your P22 AUTO - AUTO optics landmark ID on LM. T1, 106 plus 30 plus 31; T2, 106 plus 35 plus 41, 2 nautical miles south. Your TCA, 106 plus 37 plus 16. Shaft angle 357.9 and trunnion angle 44.3. Over.
+105:20:48|T|CMP(COLUMBIA)|Roger. Thank you.
+105:21:38|T|CC|Columbia, Houston. We have your LOS in 3 minutes. AOS will be 106 plus 11. Over.
+105:21:49|T|CMP(COLUMBIA)|Roger.
+105:25:32|T|LMP(TRANQ)|Houston, Tranquility. Over.
+105:25:33|T|CC|Tranquility, Houston. Go ahead.
+105:25:40|T|LMP(TRANQ)|Roger. This is the LM pilot. I'd like to take this opportunity to ask every person listening in, whoever and wherever they may be, to pause for a moment and contemplate the events of the past few hours and to give thanks in his or her own way. Over.
+105:26:10|T|CC|Roger, Tranquility Base.
+105:30:02|P|PAO|This is Apollo Control, Houston at 105 hours 30 minutes on to the mission, Apollo 11. The spacecraft Columbia is now out of range with Mission Control Center, Houston, passing over the far side of the Moon. As it passed out of sight, we read an apolune of 63 nautical miles; a perilune of 56 nautical miles; a velocity of 5,367 feet per second. We had conversation both with Tranquility base and Columbia during this span of time. Also, as will come up in that course of conversation. Lunar Module Pilot Buzz Aldrin delivers a message to people everywhere listening. We'll play those tapes for you now.
+105:35:06|T|LMP(TRANQ)|That's about ready to fall off.
+105:35:09|T|CDR(TRANQ)|As a matter of fact, it just doesn't look like it sunk in at all.
+105:41:48|P|PAO|This is Apollo Control, Houston at 105 hours 42 minutes into the flight of Apollo 11. You heard that statement in our tapes transmission from Lunar Module Pilot, Buzz Aldrin. Our projected time for extravehicular activity, at this point, is still very preliminary. I repeat, it could come as soon as 8:00 p.m. Houston time. We won't know for sure about the time, with reasonable certainty until about an hour before the event. Meanwhile, as we'll soon be progressing toward man's first step on the lunar surface, we have an interesting phenomena here in the Mission Control Center, Houston. Something we've never seen before. Our visual of the Lunar Module, our visual display now standing still. Our velocity digitals for Tranquility Base now reading zero. Reverting, if we could, to the terminology of an earlier form of transportation, the railroad. What we're witnessing now, is man's very first trip into space with a station stop along the route. At 105 hours 43 minutes, continuing to monitor the loop, this is Apollo Control, Houston.
 105:46:00|T||BEGIN LUNAR REV 16
-105:47:17|T|CC|Tranquility Base, Houston. We'd like some estimate of how far along you are with your eating and when you may be ready to start you EVA PREP. Over.
-105:47:43|T|CDR(TRANQ)|I think that we'll be ready to start EVA PREP in about a half an hour or so.
-105:47:50|T|CC|Roger, Tranquility.
-105:50:00|P|PAO|This is Apollo Control, Houston at 105 hours 51 minutes now into the flight of Apollo 11. We've only had one brief conversation over the past several minutes with Tranquility base. Capsule Communicator Owen Garriott asked when Tranquility base might start it's EVA prep, and Armstrong replied, about a half an hour or so. A normal time line for preparations for EVA would be approximately 2 hours. At 105 hours 52 minutes now into the flight of Apollo 11, this is Apollo Control, Houston.
-105:50:00|P|PAO|Mark 1 minute now from time of acquisition on Columbia, now on it's 16th revolution around the Moon.
-105:50:00|P|PAO|The capsule communicator you heard there is Bruce McCandless now on duty. Cliff Charlesworth's team of green Flight Controllers, by in large have returned to the
-105:50:00|P|PAO|Control Center at this point. McCandless talked with both spacecraft and as you heard Neil Armstrong reporting from Tranquility Base, started that EVA preparations are now under way. At 106 hours 14 minutes now into the flight this is Apollo control Houston.
-106:06:00|P|PAO|This is Apollo Control at 107 hours 15 minutes. We'll still have acquisition of Columbia for another 8 minutes. All systems in Eagle still looking good. Cabin pressure 4.86 pounds showing a temperature of 63 degrees in the Eagle's cabin.
-106:06:00|P|PAO|This is Apollo Control. Our best information at this time on the orientation of Eagle that the plus Z axis, that's the leg with the ladder on it, is yaw 13 degrees south of the ground track. The sun behind Eagle with the - the leg with the ladder on it in a generally westly direction along the ground track, but yaw at 13 degrees south from that ground track.
-106:11:07|T|CMP(COLUMBIA)|Houston, Columbia. How do you read?
-106:11:12|T|CC|Columbia, Columbia. This is Houston.
-106:11:14|T|CDR(TRANQ)|Houston, this is Tranquility Base. We are beginning our EVA PREP.
-106:11:23|T|CC|Tranquility Base, this is Houston, Roger. Copy. You're beginning EVA PREP. Break. Break. Columbia, Columbia, this is Houston. Reading you loud and clear. Over.
-106:11:35|T|CMP(COLUMBIA)|You're loud and clear. The wastewater dump is down to 10 percent. I have a question on the P22. Do you want me to do another P22, or is all that information just for my own use in tracking the LM for photographic purposes?
-106:11:49|T|CC|Columbia, this is Houston. We request that you perform another P22. We'd like you to let the AUTO optics take care of the tracking and devote your energies to trying to pick out the LM on the lunar surface. If you can find the LM, of course. We're looking for marks on it; but tracking of geographical features doesn't do us all that much good. Over.
-106:12:18|T|CMP(COLUMBIA)|Okay. Fine. I'll do it. And on the ECS system, the - Whatever the problem was, it seems to have gone away without any changing of J52 sensors or anything like that. My glycol evaporator outlet TEMP is up above 50 now, and it's quite comfortable in the cockpit; so we'll talk more about that one later.
-106:12:43|T|CC|Roger, Columbia. Did you shift into manual control, or did the problem resolve itself under AUTO control? Over.
-106:12:52|T|CMP(COLUMBIA)|The problem went away under AUTO.
-106:12:55|T|CC|Roger. That's the best type. Out.
-106:12:56|T|CMP(COLUMBIA)|I did cycle out of AUTO into - I did cycle out of AUTO into MANUAL, back into AUTO.
-106:13:05|T|CC|Houston. Roger. Out.
-106:15:00|P|PAO|The reference there is to dosimeter readings from the commander and the Lunar Module Pilot. You noted the precision of Buzz Aldrin on that last reading. At 106 hours 24 minutes into the flight of Apollo 11, continuing to stand by, this is Apollo Control, Houston.
-106:17:00|P|PAO|This is Apollo Control at 107 hours 23 minutes, and we've had loss of signal on Columbia. The clock here in the Control Center counting down to depressurization time on Eagle shows we're 36 minutes 39 seconds away from that event. We believe the crew is pretty well on the time line in EVA preparations. We will next acquire Columbia at 108 hours 9 minutes 6 seconds. Columbia's closest approach to Eagle on this next revolution will come at 108 hours 35 minutes 28 seconds when it should be 3 miles south of the track.
-106:22:56|T|CC|Tranquility Base, Tranquility Base, this is Houston. Over.
-106:23:05|T|CDR(TRANQ)|Go ahead, Houston.
-106:23:07|T|CC|Tranquility, this is Houston. We need a second set of PRD readings so that we may establish a rate. Over.
-106:23:19|T|CDR(TRANQ)|Okay. Stand by.
-106:23:30|T|CDR(TRANQ)|CDR is reading 11O14.
-106:23:44|T|LMP(TRANQ)|LMP is reading 09017 and three quarters.
-106:23:52|T|CC|Tranquility, this is Houston. We copy your readings, Out.
-106:27:00|P|PAO|This is Apollo Control. Based on that checklist report from Eagle, the crew appears to be about behind the timeline in EVA preparations.
-106:29:26|T|CMP(COLUMBIA)|Houston, Columbia. How do you read on OMNI D, Dog?
-106:29:30|T|CC|Columb ia, this is Houston. We're reading you loud with background noise on OMNI D. Over.
-106:29:41|T|CMP(COLUMBIA)|Okay. I'll stay on D here for a while. I'm about to go into ...
-106:29:45|T|CC|Roger. Out.
-106:36:14|O|CMP|Houston, Columbia. I'm coming up on my time for the first pass when I may be able to see the LM. Do you have any topographical cue that might help me out here on - AUTO optics is tracking between two craters. One of them, as the LM sees it, would be long at 11 o'clock; the other would be short and behind him at 5 o'clock. They're great big old craters - depressions.
+105:47:19|T|CC|Tranquility Base, Houston. We'd like some estimate of how far along you are with your eating and when you may be ready to start you EVA PREP. Over.
+105:47:45|T|CDR(TRANQ)|I think that we'll be ready to start EVA PREP in about a half an hour or so.
+105:47:52|T|CC|Roger, Tranquility.
+105:51:24|P|PAO|This is Apollo Control, Houston at 105 hours 51 minutes now into the flight of Apollo 11. We've only had one brief conversation over the past several minutes with Tranquility base. Capsule Communicator Owen Garriott asked when Tranquility base might start it's EVA prep, and Armstrong replied, about a half an hour or so. A normal time line for preparations for EVA would be approximately 2 hours. At 105 hours 52 minutes now into the flight of Apollo 11, this is Apollo Control, Houston.
+106:10:02|P|PAO|Mark 1 minute now from time of acquisition on Columbia, now on it's 16th revolution around the Moon.
+106:11:10|T|CMP(COLUMBIA)|Houston, Columbia. How do you read?
+106:11:13|T|CC|Columbia, Columbia. This is Houston.
+106:11:16|T|CDR(TRANQ)|Houston, this is Tranquility Base. We are beginning our EVA PREP.
+106:11:25|T|CC|Tranquility Base, this is Houston, Roger. Copy. You're beginning EVA PREP. Break. Break. Columbia, Columbia, this is Houston. Reading you loud and clear. Over.
+106:11:37|T|CMP(COLUMBIA)|You're loud and clear. The wastewater dump is down to 10 percent. I have a question on the P22. Do you want me to do another P22, or is all that information just for my own use in tracking the LM for photographic purposes?
+106:11:51|T|CC|Columbia, this is Houston. We request that you perform another P22. We'd like you to let the AUTO optics take care of the tracking and devote your energies to trying to pick out the LM on the lunar surface. If you can find the LM, of course. We're looking for marks on it; but tracking of geographical features doesn't do us all that much good. Over.
+106:12:20|T|CMP(COLUMBIA)|Okay. Fine. I'll do it. And on the ECS system, the - Whatever the problem was, it seems to have gone away without any changing of J52 sensors or anything like that. My glycol evaporator outlet TEMP is up above 50 now, and it's quite comfortable in the cockpit; so we'll talk more about that one later.
+106:12:45|T|CC|Roger, Columbia. Did you shift into manual control, or did the problem resolve itself under AUTO control? Over.
+106:12:55|T|CMP(COLUMBIA)|The problem went away under AUTO.
+106:12:57|T|CC|Roger. That's the best type. Out.
+106:12:58|T|CMP(COLUMBIA)|I did cycle out of AUTO into - I did cycle out of AUTO into MANUAL, back into AUTO.
+106:13:07|T|CC|Houston. Roger. Out.
+106:13:18|P|PAO|The capsule communicator you heard there is Bruce McCandless now on duty. Cliff Charlesworth's team of green Flight Controllers, by in large have returned to the Control Center at this point. McCandless talked with both spacecraft and as you heard, Neil Armstrong reporting from Tranquility Base, stated that EVA preparations are now under way. At 106 hours 14 minutes now into the flight this is Apollo Control Houston.
+106:22:57|T|CC|Tranquility Base, Tranquility Base, this is Houston. Over.
+106:23:08|T|CDR(TRANQ)|Go ahead, Houston.
+106:23:10|T|CC|Tranquility, this is Houston. We need a second set of PRD readings so that we may establish a rate. Over.
+106:23:21|T|CDR(TRANQ)|Okay. Stand by.
+106:23:32|T|CDR(TRANQ)|CDR is reading 11O14.
+106:23:46|T|LMP(TRANQ)|LMP is reading 09017 and three quarters.
+106:23:54|T|CC|Tranquility, this is Houston. We copy your readings, Out.
+106:23:59|P|PAO|The reference there is to dosimeter readings from the commander and the Lunar Module Pilot. You noted the precision of Buzz Aldrin on that last reading. At 106 hours 24 minutes into the flight of Apollo 11, continuing to stand by, this is Apollo Control, Houston.
+106:29:28|T|CMP(COLUMBIA)|Houston, Columbia. How do you read on OMNI D, Dog?
+106:29:32|T|CC|Columbia, this is Houston. We're reading you loud with background noise on OMNI D. Over.
+106:29:43|T|CMP(COLUMBIA)|Okay. I'll stay on D here for a while. I'm about to go into ...
+106:29:47|T|CC|Roger. Out.
 106:36:16|T|CMP(COLUMBIA)|Houston, Columbia. I'm coming up on my time for the first pass when I may - -
 106:36:19|T|CC|Now while we've got time, you can.
 106:36:20|T|CMP(COLUMBIA)|- - be able to see the LM. Do you have any topographical cue that might help me out here? AUTO optics is tracking between two craters. One of them, as the LM sees it, would be long at 11 o'clock. The other would be short and behind him at 5 o'clock. They're great big old craters - depressions.
-106:36:44|T|CC|Stand by.
-106:37:34|T|CC|Columbia, this is Houston. The best we can do on topo features is to advise you to look to the west of the irregularly shaped crater, and then work on down to the southwest of it. Over.
-106:38:05|T|CC|Columbia, Houston. Another possibility is the southern rim of the southern of the two oldlooking craters. Over.
-106:38:40|O|CMP|Roger, Houston. Columbia ... up. I kept my eyes glued to the sextant that time, hoping I'd get a flash of reflected light off the LM, but I wasn't able to see any of my scan areas that you suggested.
-106:38:42|T|CMP(COLUMBIA)|Roger, Houston. Columbia ... I kept my eyes glued to the sextant that time hoping I'd get a flash of reflected light off the LM, but I wasn't able to see any of my scan areas that you suggested.
-106:38:56|T|CC|Roger. On that southern of the old craters, there's a small bright crater on the southern rim. One plot would put him slightly to the west of that small bright crater, about 500 to 1000 feet. Do you see anything down there? Over.
-106:39:17|O|CMP|It's going past now, Bruce, but I scanned that area that you are talking about very closely, and no, I did not see them.
-106:39:19|T|CMP(COLUMBIA)|Its going past now, Bruce, but I scanned that area that you are talking about very closely, and no, I did not see anything.
-106:39:26|T|CC|Roger. Out.
-106:40:21|T|CC|Columbia, this is Houston. Over.
-106:40:26|O|CMP|Go ahead.
-106:40:28|T|CMP(COLUMBIA)|Go ahead.
-106:40:33|T|CC|Columbia, this is Houston. On your LAM 2 map, we'd like to confirm the topographical area in which you were looking on this last period of sightings. As we understand you, you were looking in the vicinity of Papa 7 to November 8. Is that correct? Over.
-106:40:57|O|CMP|Stand by 1.
-106:40:59|T|CMP(COLUMBIA)|Stand by one.
+106:36:46|T|CC|Stand by.
+106:37:37|T|CC|Columbia, this is Houston. The best we can do on topo features is to advise you to look to the west of the irregularly shaped crater, and then work on down to the southwest of it. Over.
+106:38:08|T|CC|Columbia, Houston. Another possibility is the southern rim of the southern of the two old-looking craters. Over.
+106:38:44|O|CMP|Roger, Houston. Columbia ... up. I kept my eyes glued to the sextant that time, hoping I'd get a flash of reflected light off the LM, but I wasn't able to see any of my scan areas that you suggested.
+106:38:44|T|CMP(COLUMBIA)|Roger, Houston. Columbia ... I kept my eyes glued to the sextant that time hoping I'd get a flash of reflected light off the LM, but I wasn't able to see any of my scan areas that you suggested.
+106:38:58|T|CC|Roger. On that southern of the old craters, there's a small bright crater on the southern rim. One plot would put him slightly to the west of that small bright crater, about 500 to 1000 feet. Do you see anything down there? Over.
+106:39:21|O|CMP|It's going past now, Bruce, but I scanned that area that you are talking about very closely, and no, I did not see them.
+106:39:21|T|CMP(COLUMBIA)|Its going past now, Bruce, but I scanned that area that you are talking about very closely, and no, I did not see anything.
+106:39:29|T|CC|Roger. Out.
+106:40:23|T|CC|Columbia, this is Houston. Over.
+106:40:30|O|CMP|Go ahead.
+106:40:30|T|CMP(COLUMBIA)|Go ahead.
+106:40:36|T|CC|Columbia, this is Houston. On your LAM 2 map, we'd like to confirm the topographical area in which you were looking on this last period of sightings. As we understand you, you were looking in the vicinity of Papa 7 to November 8. Is that correct? Over.
+106:41:01|O|CMP|Stand by 1.
+106:41:01|T|CMP(COLUMBIA)|Stand by one.
 106:41:01|T|CC|Roger.
-106:42:00|P|PAO|This is Apollo Control at 107 hours 52 minutes. We're 16 minutes away from acquisition of Columbia on it's 17th revolution of the Moon. We do not at this time have a good estimate for the start of the EVA. We'll have to wait until Eagles crew, Neil Armstrong, and Buzz Aldrin, give us some more information about how they're coming along in the preparations for the EVA. Indications are now that they are running on the order of 30 minutes behind the nominal time, preparations line. Maybe a little bit longer. But we'll have to wait until we hear from them again before we can get a good estimate on the time for starting the EVA.
-106:43:00|T|CMP(COLUMBIA)|Houston, Columbia.
-106:43:02|T|CC|Go ahead, Columbia.
-106:43:08|T|CMP(COLUMBIA)|One of the craters I was talking about is located exactly at Mike 6.7.
-106:43:19|T|CC|Roger. We found that one.
-106:43:21|T|CMP(COLUMBIA)|The other one is located at 7 - The other one is located at 7.2, two thirds of the way from Mike to Nan.
-106:43:36|T|CC|Roger. We believe you were looking a little too far to the west and south. Over.
-106:44:03|T|CMP(COLUMBIA)|Roger. Understand. I was looking where auto optics was tracking, on the average, and understand that it should have been more to the north and more to the west; actually a tiny bit outside the circle, huh?
-106:44:17|T|CC|More to the north and a little more to the east. The feature that I was describing to you, the small bright crater on the rim of the large, fairly old crater, would be about Mike 0.8 and 8.2. Over.
-106:44:40|T|CMP(COLUMBIA)|Well, just give me your best estimate as to his location and his coordinate system, and I'll plot it on my map and go from there.
-106:44:48|T|CC|Roger.
-106:48:54|T|CC|Tranquility Base, this is Houston. Can you give us some idea of where you are in the surface checklist at the present time? Over.
+106:43:01|T|CMP(COLUMBIA)|Houston, Columbia.
+106:43:03|T|CC|Go ahead, Columbia.
+106:43:10|T|CMP(COLUMBIA)|One of the craters I was talking about is located exactly at Mike 6.7.
+106:43:21|T|CC|Roger. We found that one.
+106:43:23|T|CMP(COLUMBIA)|The other one is located at 7 - The other one is located at 7.2, two thirds of the way from Mike to Nan.
+106:43:39|T|CC|Roger. We believe you were looking a little too far to the west and south. Over.
+106:44:05|T|CMP(COLUMBIA)|Roger. Understand. I was looking where auto optics was tracking, on the average, and understand that it should have been more to the north and more to the west; actually a tiny bit outside the circle, huh?
+106:44:19|T|CC|More to the north and a little more to the east. The feature that I was describing to you, the small bright crater on the rim of the large, fairly old crater, would be about Mike 0.8 and 8.2. Over.
+106:44:42|T|CMP(COLUMBIA)|Well, just give me your best estimate as to his location in - in this coordinate system, and I'll plot it on my map and go from there.
+106:44:50|T|CC|Roger.
+106:48:55|T|CC|Tranquility Base, this is Houston. Can you give us some idea of where you are in the surface checklist at the present time? Over.
 106:49:03|O|CMP|Houston, Columbia. Over.
-106:49:07|T|LMP(TRANQ)|Okay. We're at the top of page 27.
-106:49:11|T|CC|Roger. Out
+106:49:09|T|LMP(TRANQ)|Okay. We're at the top of page 27.
+106:49:13|T|CC|Roger. Out
 106:49:21|O|CMP|Houston, Columbia. Over.
 106:50:09|O|CMP|Houston, Columbia. Over.
-106:50:29|T|CMP(COLUMBIA)|Houston, Columbia. Over.
-106:50:31|T|CC|Go ahead, Columbia.
-106:50:38|T|CMP(COLUMBIA)|Roger. I finally got you back on OMNI D. I've been unsuccessfully trying to get you on the high-gain, and I've gone COMMAND RESET to PROCESS. How do you read me now?
-106:50:46|T|CC|Roger. Reading you loud with background noise. Understand that's OMNI Delta or OMNI Bravo? Over.
-106:50:56|T|CMP(COLUMBIA)|OMNI Delta and you were cut out. I never got your coordinates on estimated LM position. Over.
-106:51:04|T|CC|Columbia, this is Houston. Estimated LM position is latitude plus 0.799, longitude over 2 plus 11.730. On your chart we would place it - Stand by on the charts and readback on the latitude and longitude.
-106:51:46|T|CMP(COLUMBIA)|Yes. The latitude and longitude over 2, 799 and 11730 are the ones that I been using in P22. But what I'm interested in is - is grid coordinates on that map we're using.
-106:52:01|T|CC|Roger. We'll have them for you in a second.
-106:52:08|T|CMP(COLUMBIA)|Thank you.
-106:53:04|T|CMP(COLUMBIA)|Houston, Columbia. Could you enable the S band relay at least one way from Eagle to Columbia so I can hear what's going on?
-106:53:12|T|CC|Roger. There's not much going on at the present time, Columbia. I'll see what I can do about the relay.
+106:50:31|T|CMP(COLUMBIA)|Houston, Columbia. Over.
+106:50:33|T|CC|Go ahead, Columbia.
+106:50:40|T|CMP(COLUMBIA)|Roger. I finally got you back on OMNI D. I've been unsuccessfully trying to get you on the high-gain, and I've gone COMMAND RESET to PROCESS. How do you read me now?
+106:50:49|T|CC|Roger. Reading you loud with background noise. Understand that's OMNI Delta or OMNI Bravo? Over.
+106:50:58|T|CMP(COLUMBIA)|OMNI Delta and you were cut out. I never got your coordinates on estimated LM position. Over.
+106:51:07|T|CC|Columbia, this is Houston. Estimated LM position is latitude plus 0.799, longitude over 2 plus 11.730. On your charts, we would place it - Stand by on the charts and readback on the latitude and longitude.
+106:51:49|T|CMP(COLUMBIA)|Yes. The latitude and longitude over 2, .799 and 11.730 are the ones that I been using in P22. But what I'm interested in is - is grid coordinates on that map we're using.
+106:52:03|T|CC|Roger. We'll have them for you in a second.
+106:52:10|T|CMP(COLUMBIA)|Thank you.
+106:53:06|T|CMP(COLUMBIA)|Houston, Columbia. Could you enable the S-band relay at least one way from Eagle to Columbia so I can hear what's going on?
+106:53:14|T|CC|Roger. There's not much going on at the present time, Columbia. I'll see what I can do about the relay.
 106:53:21|O|CMP|Okay.
-106:53:23|T|CC|Columbia, this is Houston. Are you aware that Eagle plans the EVA about 4 hours early? Over.
-106:53:33|T|CMP(COLUMBIA)|Affirmative. When's hatch open time in GET estinated?
-106:53:39|T|CC|Roger. Somewhere around 108 hours. We'll have an update for you on that a little later.
-106:53:52|T|CMP(COLUMBIA)|Okay. I haven't heard a word from those guys, and I thought I'd be hearing them through your S band relay.
-106:53:57|T|CC|Roger. They're on about page Surface 27 in the checklist, proceeding in good time.
-106:54:09|T|CMP(COLUMBIA)|Glad to hear it.
-106:54:13|T|CMP(COLUMBIA)|You got a crowd there in MCC?
-106:54:40|T|CC|Roger. You're last, Columbia.
-106:54:46|T|CMP(COLUMBIA)|Roger. I expect you probably have about nine CapcomS and 11 Flight Directors with no place to plug in.
-106:54:53|T|CC|Roger. Out.
-106:55:00|T|CMP(COLUMBIA)|That ratio might even be reversed.
-106:55:37|T|CMP(COLUMBIA)|Glycol evaporator outlet temperature is 50 degrees and the comfort in here is just fine.
-106:55:43|T|CC|Roger. We copy 50 degrees on the glycol, and comfort index fine.
-106:56:25|T|CMP(COLUMBIA)|If you'll excuse me a minute, I'm going to have a cup of coffee.
-106:56:28|T|CC|Roger.
-106:56:37|T|CC|Apollo - Columbia, this is Houston. Your map coordinates are Papa decimal 2 and 6 decimal 3 on the LAM 2 chart. Over.
-106:57:10|T|CC|Columbia, this is Houston. Did you copy the coordinates for the LM? Over.
-106:58:49|T|CC|Columbia, Columbia, this is Houston. If you read we request high-gain antenna, yaw 180, pitch 0. I say again, yaw 180, pitch 0 on the high-gain. Over.
-107:02:15|T|CC|Columbia, Columbia, this is Houston. Do you read? Over.
-107:05:13|O|CMP|Houston, Columbia on the high-gain.
-107:05:15|T|CMP(COLUMBIA)|Houston, Columbia on the high-gain.
-107:05:18|T|CC|Columbia, this is Houston reading you loud and clear. Over.
-107:05:23|O|CMP|Read you loud and clear, Bruce. What's new?
-107:05:25|T|CMP(COLUMBIA)|Read you loud and clear, Bruce.
-107:05:26|T|CC|Roger, Mike. I have the coordinates - -
-107:05:29|T|CMP(COLUMBIA)|What's new?
-107:05:31|T|CC|Well, what's new is I think we have some more coordinates for you on the LM location. Over.
-107:05:39|O|CMP|Ready to copy.
-107:05:41|T|CMP(COLUMBIA)|Ready to copy.
-107:05:43|T|CC|Roger, Mike. Papa 0.2 and 6.3 on your LAM 2 chart. Over.
-107:06:02|T|CMP(COLUMBIA)|Roger. Papa 0.2 and who 0.3?
-107:06:05|T|CC|6.3, I say again, 6.3.
-107:06:17|T|CMP(COLUMBIA)|Thank you. Papa 0.2 and 6.3. I'll try them.
-107:06:21|T|CC|Roger.
-107:06:57|T|CMP(COLUMBIA)|Okay. What you are saying is, if you look at the cat's paw, then that's just about, oh - his middle finger, a little bit - one to two o'clock from his middle finger. Is that right?
-107:07:16|T|CC|Roger. About one to two o'clock from the middle finger if you are using 12 o'clock being to the west. Over.
-107:07:29|T|CMP(COLUMBIA)|That must be the way the cat's faced. Okay. I'm with you.
-107:07:33|T|CC|Okay. And I got LOS amd AOS times for you.
-107:07:40|T|CMP(COLUMBIA)|Go ahead.
-107:07:48|T|CMP(COLUMBIA)|Go ahead, Houston.
-107:07:50|T|CC|Roger. Your LOS at 107 plus 23 plus 03. AOS at 108 plus 09 plus 06. The next pass for COAS tracking: your time of closest approach is 108 35 28. That's 3 miles south of track. Over.
-107:08:28|T|CMP(COLUMBIA)|I understand all that, but with this new information would you like me to try P22 and look for him in a different spot?
-107:08:40|T|CC|Stand by a minute, please.
-107:08:44|T|CMP(COLUMBIA)|Okay. Because I was looking in the wrong place last time. AUTO optics was not pointing me at the coordinates you gave me.
-107:08:53|T|CC|Roger.
-107:10:06|T|CC|Columbia, this is Houston. Over.
-107:10:13|T|CMP(COLUMBIA)|Go ahead.
-107:10:15|T|CC|On your next pass, Columbia, rather than performing a P22 as such, we would like you to look in the vicinity of the coordinates that we gave you, which is our best analysis based on map physics and the trajectory, and we also have another set of coordinates that we would like you to search in the vicinity of. This last one being based on all interpretation of the geological features that were seen by the crew on their way down. The coordinates of this second site are Mike 0.7 and 8.0. I say again, Mike 0.7 and 8.0. I say again, Mike 0.7 and 8.0. Over.
-107:11:08|T|CMP(COLUMBIA)|Roger. Copy. Mike 0.7 and 8.0. The only thing is, my best tool for looking is the sextant and if I'm going to crank the sextant up, I might as well let P22 go at the same time, or don't you think so?
-107:11:24|T|CC|Roger. If you want to go that way, crank it up and then you can drive it around and look where you want. Over.
-107:11:33|T|CMP(COLUMBIA)|Okay.
-107:11:35|T|CC|And if you can find the LM, then by all means, track it or make a note of where it was and we can track it on the next REV. If you are ready, we have a REFSMMAT update that we can pass up to you at this time, if you will give us P00 in ACCEPT. Over.
-107:12:06|T|CMP(COLUMBIA)|Okay. P00 in ACCEPT you got. And this is an updated landing site RESFMMAT. We still believe that a plane change is not required. Is that affirmative?
-107:12:15|T|CC|That's affirmative, Columbia.
-107:12:20|T|CMP(COLUMBIA)|Good show.
-107:15:34|T|CC|Columbia, this is Houston. We are through with the uplink. It's your computer.
-107:15:43|T|CMP(COLUMBIA)|Roger. Thank you.
-107:19:27|T|CMP(COLUMBIA)|Houston, Columbia.
-107:19:30|T|CC|Go ahead, Columbia.
-107:19:34|T|CMP(COLUMBIA)|On our next pass, I'd appreciate the S band relay mode. Over.
-107:19:40|T|CC|Roger. We're working on that. There haven't been any transmissions from Tranquility Base since we last talked to you. We cannot give you a full S band relay without being assured of high-gain antenna. We're working on the partial relay for you. Over.
-107:20:00|T|CMP(COLUMBIA)|Okay. Understand, Bruce. Thank you very much.
-107:20:57|T|CC|Columbia, this is Houston. Approximately 2 minutes to LOS. All your systems are looking good from down here. Over.
-107:21:09|T|CMP(COLUMBIA)|Does it look to you like the 240 controller is properly controlling the glycol evaporator outlet TEMP? It locks all right up here.
-107:21:19|T|CC|Roger, Columbia. During this pass on the front side, it looked okay to us.
-107:21:26|T|CMP(COLUMBIA)|Okay. Thank you.
-107:31:00|T|CDR(TRANQ)|Houston, Tranquility Base.
-107:31:03|T|CC|Go ahead Tranquility Base.
-107:31:09|T|CDR(TRANQ)|Okay. We are on about the middle of page 28, Surface - 28.
-107:31:20|T|CC|Roger, Tranquility. We copy
-107:38:16|T|CDR(TRANQ)|All right -
-107:40:10|T|CDR(TRANQ)|... minimum.
-107:44:35|T|CDR(TRANQ)|I think we'd ... to put ...
+106:53:25|T|CC|Columbia, this is Houston. Are you aware that Eagle plans the EVA about 4 hours early? Over.
+106:53:35|T|CMP(COLUMBIA)|Affirmative. When's hatch open time in GET estinated?
+106:53:41|T|CC|Roger. Somewhere around 108 hours. We'll have an update for you on that a little later.
+106:53:54|T|CMP(COLUMBIA)|Okay. I haven't heard a word from those guys, and I thought I'd be hearing them through your S-band relay.
+106:53:59|T|CC|Roger. They're on about page Surface 27 in the checklist, proceeding in good time.
+106:54:11|T|CMP(COLUMBIA)|Glad to hear it.
+106:54:15|T|CMP(COLUMBIA)|You got a crowd there in MCC?
+106:54:42|T|CC|Roger. You're last, Columbia.
+106:54:48|T|CMP(COLUMBIA)|Roger. I expect you probably have about nine Capcoms and 11 Flight Directors with no place to plug in.
+106:54:55|T|CC|Roger. Out.
+106:55:03|T|CMP(COLUMBIA)|That ratio might even be reversed.
+106:55:39|T|CMP(COLUMBIA)|Glycol evaporator outlet temperature is 50 degrees and the comfort in here is just fine.
+106:55:45|T|CC|Roger. We copy 50 degrees on the glycol, and comfort index fine.
+106:56:27|T|CMP(COLUMBIA)|If you'll excuse me a minute, I'm going to have a cup of coffee.
+106:56:31|T|CC|Roger.
+106:56:38|T|CC|Apollo - Columbia, this is Houston. Your map coordinates are Papa .2 and 6.3 on the LAM 2 chart. Over.
+106:57:12|T|CC|Columbia, this is Houston. Did you copy the coordinates for the LM? Over.
+106:58:51|T|CC|Columbia, Columbia, this is Houston. If you read we request high-gain antenna, yaw 180, pitch 0. I say again, yaw 180, pitch 0 on the high-gain. Over.
+107:02:18|T|CC|Columbia, Columbia, this is Houston. Do you read? Over.
+107:05:18|O|CMP|Houston, Columbia on the high-gain.
+107:05:18|T|CMP(COLUMBIA)|Houston, Columbia on the high-gain.
+107:05:20|T|CC|Columbia, this is Houston reading you loud and clear. Over.
+107:05:27|O|CMP|Read you loud and clear, Bruce. What's new?
+107:05:27|T|CMP(COLUMBIA)|Read you loud and clear, Bruce.
+107:05:29|T|CC|Roger, Mike. I have the coordinates - -
+107:05:31|T|CMP(COLUMBIA)|What's new?
+107:05:33|T|CC|Well, what's new is I think we have some more coordinates for you on the LM location. Over.
+107:05:43|O|CMP|Ready to copy.
+107:05:43|T|CMP(COLUMBIA)|Ready to copy.
+107:05:45|T|CC|Roger, Mike. Papa 0.2 and 6.3 on your LAM 2 chart. Over.
+107:06:04|T|CMP(COLUMBIA)|Roger. Papa 0.2 and who 0.3?
+107:06:07|T|CC|6.3, I say again, 6.3.
+107:06:19|T|CMP(COLUMBIA)|Thank you. Papa 0.2 and 6.3. I'll try them.
+107:06:23|T|CC|Roger.
+107:06:59|T|CMP(COLUMBIA)|Okay. What you are saying is, if you look at the cat's paw, then that's just about, oh - his middle finger, a little bit - one to two o'clock from his middle finger. Is that right?
+107:07:18|T|CC|Roger. About one to two o'clock from the middle finger if you are using 12 o'clock being to the west. Over.
+107:07:31|T|CMP(COLUMBIA)|That must be the way the cat's faced. Okay. I'm with you.
+107:07:34|T|CC|Okay. And I got LOS amd AOS times for you.
+107:07:42|T|CMP(COLUMBIA)|Go ahead.
+107:07:50|T|CMP(COLUMBIA)|Go ahead, Houston.
+107:07:52|T|CC|Roger. Your LOS at 107 plus 23 plus 03. AOS at 108 plus 09 plus 06. The next pass for COAS tracking: your time of closest approach is 108:35:28. That's 3 miles south of track. Over.
+107:08:30|T|CMP(COLUMBIA)|I understand all that, but with this new information would you like me to try P22 and look for him in a different spot?
+107:08:42|T|CC|Stand by a minute, please.
+107:08:47|T|CMP(COLUMBIA)|Okay. Because I was looking in the wrong place last time. AUTO optics was not pointing me at the coordinates you gave me.
+107:08:55|T|CC|Roger.
+107:10:08|T|CC|Columbia, this is Houston. Over.
+107:10:15|T|CMP(COLUMBIA)|Go ahead.
+107:10:16|T|CC|On your next pass, Columbia, rather than performing a P22 as such, we would like you to look in the vicinity of the coordinates that we gave you, which is our best analysis based on map physics and the trajectory, and we also have another set of coordinates that we would like you to search in the vicinity of. This last one being based on an interpretation of the geological features that were seen by the crew on their way down. The coordinates of this second site are Mike 0.7 and 8.0. I say again, Mike 0.7 and 8.0. I say again, Mike 0.7 and 8.0. Over.
+107:11:10|T|CMP(COLUMBIA)|Roger. Copy. Mike 0.7 and 8.0. The only thing is, my best tool for looking is the sextant and if I'm going to crank the sextant up, I might as well let P22 go at the same time, or don't you think so?
+107:11:26|T|CC|Roger. If you want to go that way, crank it up and then you can drive it around and look where you want. Over.
+107:11:35|T|CMP(COLUMBIA)|Okay.
+107:11:36|T|CC|And if you can find the LM, then by all means, track it or make a note of where it was and we can track it on the next REV. If you are ready, we have a REFSMMAT update that we can pass up to you at this time, if you will give us P00 in ACCEPT. Over.
+107:12:08|T|CMP(COLUMBIA)|Okay. P00 in ACCEPT you got. And this is an updated landing site RESFMMAT. We still believe that a plane change is not required. Is that affirmative?
+107:12:17|T|CC|That's affirmative, Columbia.
+107:12:22|T|CMP(COLUMBIA)|Good show.
+107:15:03|P|PAO|This is Apollo Control at 107 hours 15 minutes. We'll still have acquisition of Columbia for another 8 minutes. All systems in Eagle still looking good. Cabin pressure 4.86 pounds showing a temperature of 63 degrees in the Eagle's cabin.
+107:15:36|T|CC|Columbia, this is Houston. We are through with the uplink. It's your computer.
+107:15:45|T|CMP(COLUMBIA)|Roger. Thank you.
+107:16:29|P|PAO|This is Apollo Control. Our best information at this time on the orientation of Eagle that the plus Z axis, that's the leg with the ladder on it, is yawed 13 degrees south of the ground track. The sun behind Eagle with the - the leg with the ladder on it in a generally westly direction along the ground track, but yawed 13 degrees south from that ground track.
+107:19:29|T|CMP(COLUMBIA)|Houston, Columbia.
+107:19:32|T|CC|Go ahead, Columbia.
+107:19:36|T|CMP(COLUMBIA)|On our next pass, I'd appreciate the S-band relay mode. Over.
+107:19:42|T|CC|Roger. We're working on that. There haven't been any transmissions from Tranquility Base since we last talked to you. We cannot give you a full S-band relay without being assured of high-gain antenna. We're working on the partial relay for you. Over.
+107:20:02|T|CMP(COLUMBIA)|Okay. Understand, Bruce. Thank you very much.
+107:20:59|T|CC|Columbia, this is Houston. Approximately 2 minutes to LOS. All your systems are looking good from down here. Over.
+107:21:11|T|CMP(COLUMBIA)|Does it look to you like the 240 controller is properly controlling the glycol evaporator outlet TEMP? It locks all right up here.
+107:21:21|T|CC|Roger, Columbia. During this pass on the front side, it looked okay to us.
+107:21:29|T|CMP(COLUMBIA)|Okay. Thank you.
+107:23:06|P|PAO|This is Apollo Control at 107 hours 23 minutes, and we've had loss of signal on Columbia. The clock here in the Control Center counting down to depressurization time on Eagle shows we're 36 minutes 39 seconds away from that event. We believe the crew is pretty well on the time line in EVA preparations. We will next acquire Columbia at 108 hours 9 minutes 6 seconds. Columbia's closest approach to Eagle on this next revolution will come at 108 hours 35 minutes 28 seconds when it should be 3 miles south of the track.
+107:31:02|T|CDR(TRANQ)|Houston, Tranquility Base.
+107:31:04|T|CC|Go ahead Tranquility Base.
+107:31:11|T|CDR(TRANQ)|Okay. We are on about the middle of page 28, Surface - 28.
+107:31:23|T|CC|Roger, Tranquility. We copy.
+107:33:52|P|PAO|This is Apollo Control. Based on that checklist report from Eagle, the crew appears to be about behind the timeline in EVA preparations.
+107:38:18|T|CDR(TRANQ)|...
+107:40:12|T|CDR(TRANQ)|... minimum.
+107:44:37|T|CDR(TRANQ)|I think we'd ... to put ...
 107:45:00|T||BEGIN LUNAR REV 17
-107:54:00|T|CC|Tranquility Base, this is Houston. Over.
-107:54:09|T|LMP(TRANQ)|Roger. Go ahead, Houston.
-107:54:11|T|CC|Roger, Tranquility. We're coming up in about 6 minutes on GET of 108. If you'd like to start your event timer, we can give you a hack at 108 00. Over.
-107:54:27|T|CDR(TRANQ)|Wilco.
-108:01:03|T|LMP(TRANQ)|Houston, Tranquility. We're ready to start with the electrical checkout. We're going to S band modulate FM. Over.
+107:52:53|P|PAO|This is Apollo Control at 107 hours 52 minutes. We're 16 minutes away from acquisition of Columbia on its 17th revolution of the Moon. We do not at this time have a good estimate for the start of the EVA. We'll have to wait until Eagle's crew, Neil Armstrong, and Buzz Aldrin, give us some more information about how they're coming along in the preparations for the EVA. Indications are now that they are running on the order of 30 minutes behind the nominal time, preparations line. Maybe a little bit longer. But we'll have to wait until we hear from them again before we can get a good estimate on the time for starting the EVA.
+107:54:02|T|CC|Tranquility Base, this is Houston. Over.
+107:54:11|T|LMP(TRANQ)|Roger. Go ahead, Houston.
+107:54:13|T|CC|Roger, Tranquility. We're coming up in about 6 minutes on GET of 108. If you'd like to start your event timer, we can give you a hack at 108:00. Over.
+107:54:29|T|CDR(TRANQ)|Wilco.
+108:01:05|T|LMP(TRANQ)|Houston, Tranquility. We're ready to start with the electrical checkout. We're 16 to S-band modulate FM. Over.
 108:01:14|T|CC|Roger. Tranquility, this is Houston. We copy. Go ahead with the FM. And we missed the mark at 108. Do you want us to try and give you one at 108 05? Over.
-108:01:27|T|CDR(TRANQ)|I think we've got the timer going. We've got 1 minute and 30 seconds.
-108:01:33|T|CDR(TRANQ)|MARK.
-108:01:34|T|CC|Roger. We copy, and you're in SYNC with us.
-108:02:00|P|PAO|This is Apollo Control at 108 hours, 2 minutes. This latest report that the crew is getting the electrical checkout indicates they're about 40 minutes behind the timeline. We will acquire Columbia in 6 minutes.
-108:02:00|P|PAO|We have acquisition of Columbia.
-108:02:00|P|PAO|Audio TECH coast to coast. VH A OFF, VH B OFF. I've got for you PTP COMMAND.
-108:02:55|T|CDR(TRANQ)|It's increase.
-108:02:58|T|CDR(TRANQ)|T/R.
-108:03:01|T|CDR(TRANQ)|In.
-108:04:42|T|CDR(TRANQ)|Help you on that?
-108:04:49|T|CDR(TRANQ)|Feed it, or disconnect, or what?
-108:04:57|T|LMP(TRANQ)|Say again.
-108:05:00|T|CDR(TRANQ)|Connect PLSS electrical umbilical to PGA.
+108:01:29|T|CDR(TRANQ)|I think we've got the timer going. We've got 1 minute and 30 seconds.
+108:01:35|T|CDR(TRANQ)|MARK.
+108:01:36|T|CC|Roger. We copy, and you're in SYNC with us.
+108:02:51|P|PAO|This is Apollo Control at 108 hours, 2 minutes. This latest report that the crew is getting the electrical checkout indicates they're about 40 minutes behind the timeline. We will acquire Columbia in 6 minutes.
+108:02:57|T|CDR(TRANQ)|It's increase.
+108:03:00|T|CDR(TRANQ)|T/R.
+108:03:03|T|CDR(TRANQ)|In.
+108:04:44|T|CDR(TRANQ)|Help you on that?
+108:04:51|T|CDR(TRANQ)|Feed it, or disconnect, or what?
+108:04:59|T|LMP(TRANQ)|Say again.
+108:05:02|T|CDR(TRANQ)|Connect PLSS electrical umbilical to PGA.
 108:05:16|T|LMP(TRANQ)|Let me *** up tight *** have to *** up straight *** up. Got her about ***
 108:06:49|T|LMP(TRANQ)|That's got it.
 108:07:21|T|CDR(TRANQ)|*** Right.
+108:02:00|P|PAO|We have acquisition of Columbia.
+108:02:00|P|PAO|Audio TECH coast to coast. VH A OFF, VH B OFF. I've got for you PTP COMMAND.
 108:07:30|T|CDR(TRANQ)|Fastest VOX in the west.
 108:07:37|T|LMP(TRANQ)|Mark. All right. Okay.
 108:07:43|T|LMP(TRANQ)|Aren't they?
