@@ -9,3 +9,7 @@
 056:05:00|P|PAO|The reference to the friendly geologist refers to Astronaut Jack Schmitt who is here in the Control Center.
 102:43:00|P|PAO|Altitude 4200.
 103:03:00|P|PAO|Neil Armstrong reporting there. No difficulty adapting to the one-sixth gravity of the Moon.
+
+108:02:00|P|PAO|Audio TECH coast to coast. VH A OFF, VH B OFF. I've got for you PTP COMMAND.
+108:22:00|P|PAO|That was a Buzz Adrin's comment.
+
