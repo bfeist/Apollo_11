@@ -9427,26 +9427,26 @@
 108:33:45|T|CDR(TRANQ)|- unlocked?
 108:33:47|T|LMP(TRANQ)|Yes. Locked and aligned.
 108:34:49|T|LMP(TRANQ)|Now, if you'll pull the RCU down.
-108:35:41|T|CDR(TRANQ)|Wonder if we're triggering all the time.
-108:35:44|T|LMP(TRANQ)|I don't think so.
-108:35:48|T|CDR(TRANQ)|Houston, Neil. How do you read?
-108:35:51|T|CC|Neil, this is Houston. Read you loud and clear and I read both the comments that said: "I wonder if we're triggering all the time" and "I don't think so." Prior to that it was relatively quiet. Over.
-108:36:04|T|CDR(TRANQ)|Okay. We're hearing a little bit of background noise, and I just wanted to make sure that we weren't continually keyed.
-108:36:10|T|CC|Don't sound like it.
-108:36:29|T|CDR(TRANQ)|Want to put the light back up?
-108:36:39|T|CC|Neil, this is Houston. Would you verify your RCU vent window's clear? Over.
-108:36:49|T|CDR(TRANQ)|That's verified.
-108:36:50|T|CC|Roger. Out.
-108:37:14|T|LMP(TRANQ)|That's good.
-108:37:17|T|CDR(TRANQ)|Okay.
-108:37:22|T|LMP(TRANQ)|...
+108:35:39|T|CDR(TRANQ)|Wonder if we're triggering all the time.
+108:35:43|T|LMP(TRANQ)|I don't think so.
+108:35:47|T|CDR(TRANQ)|Houston, Neil. How do you read?
+108:35:50|T|CC|Neil, this is Houston. Read you loud and clear and I read both the comments that said: "I wonder if we're triggering all the time" and "I don't think so." Prior to that it was relatively quiet. Over.
+108:36:02|T|CDR(TRANQ)|Okay. We're hearing a little bit of background noise, and I just wanted to make sure that we weren't continually keyed.
+108:36:08|T|CC|Don't sound like it.
+108:36:28|T|CDR(TRANQ)|Want to put the light back up?
+108:36:38|T|CC|Neil, this is Houston. Would you verify your RCU vent window's clear? Over.
+108:36:47|T|CDR(TRANQ)|That's verified.
+108:36:49|T|CC|Roger. Out.
+108:37:13|T|LMP(TRANQ)|That's good.
+108:37:15|T|CDR(TRANQ)|Okay.
+108:37:20|T|LMP(TRANQ)|...
 108:37:43|T|CDR(TRANQ)|Okay. We can stow this.
 108:38:06|T|LMP(TRANQ)|Okay. It is stowed. All right, PREP for EVA.
-108:38:19|T|LMP(TRANQ)|First you connect the water hose.
+108:38:18|T|LMP(TRANQ)|First you connect the water hose.
 108:38:20|T|CDR(TRANQ)|Okay. Let me get yours.
-108:38:39|T|LMP(TRANQ)|Okay. Now we should be able to stow these. Huh?
-108:39:01|P|PAO|Cabin pressures on both vehicles reading 4.9 pounds per square inch. Columbia's temperature - 70 degrees F. Eagle's temperature 61 degrees F.
-108:40:12|T|CC|Columbia, this is Houston. Any joy on the LM that pass? Over.
+108:38:37|T|LMP(TRANQ)|Okay. Now we should be able to stow these. Huh?
+108:38:59|P|PAO|Cabin pressures on both vehicles reading 4.9 pounds per square inch. Columbia's temperature - 70 degrees F. Eagle's temperature 61 degrees F.
+108:40:11|T|CC|Columbia, this is Houston. Any joy on the LM that pass? Over.
 108:40:20|T|LMP(TRANQ)|Okay. They're all stowed. Connect PLSS water hose to PGA. Let's see; let me do that.
 108:41:04|T|LMP(TRANQ)|Okay. That's in and locked.
 108:41:06|T|CDR(TRANQ)|Okay.
@@ -9456,7 +9456,6 @@
 108:41:53|T|CC|Negative. He's been over the hill, here, for a minute or so.
 108:42:00|T|CC|Correction, he should be -
 108:42:02|T|LMP(TRANQ)|Okay.
-108:42:00|P|PAO|In the Control Center, a clock has been set to record the operating time on Neil Armstrong's portable life support system. EVA will be counted from that time.
 108:42:02|T|CC|- losing contact with you in about a minute.
 108:42:09|T|LMP(TRANQ)|Okay.
 108:42:11|T|CDR(TRANQ)|The flag locks are comp - checked. ... locks are checked, blue locks are checked, lock locks, red locks, purge locks; and on this side, the PLSS locks, and lock locks; both sides, water locks and the COMM.
@@ -9466,7 +9465,7 @@
 108:44:22|T|CMP(COLUMBIA)|Columbia reads you loud and clear on OMNI C - Charlie.
 108:44:26|T|CC|Roger. Columbia, I have LOS and AOS times for you this pass with MSFN. LOS 109 plus 21 plus 12. AOS coming around on the corner 110:07:35. Over.
 108:44:53|T|CMP(COLUMBIA)|Thank you. That's fine.
-108:44:56|T|CC|Roger. Out.
+108:44:55|T|CC|Roger. Out.
 108:45:34|T|LMP(TRANQ)|Okay.
 108:45:34|T|CDR(TRANQ)|Okay.
 108:45:45|T|LMP(TRANQ)|All locked. Verify your diverter valve open. Up position.
@@ -9480,11 +9479,11 @@
 108:46:11|T|LMP(TRANQ)|Audible tone.
 108:46:13|T|CDR(TRANQ)|Verified.
 108:46:16|T|LMP(TRANQ)|That's what it is. Yes. ... Why don't you bend down and let me stow that. See if we ....
-108:46:40|T|LMP(TRANQ)|Mine is back to EMU. Already done that pretty well.
-108:46:43|T|CDR(TRANQ)|Pretty well, complete.
+108:46:39|T|LMP(TRANQ)|Mine is back to EMU. Already done that pretty well.
+108:46:44|T|CDR(TRANQ)|Pretty well, complete.
 108:46:49|T|CDR(TRANQ)|Okay.
 108:47:10|T|CC|Columbia, this is Houston. Over.
-108:47:18|T|CMP(COLUMBIA)|Houston, Columbia. Go ahead.
+108:47:17|T|CMP(COLUMBIA)|Houston, Columbia. Go ahead.
 108:47:20|T|CC|Roger. Were you successful in spotting the LM on that pass? Over.
 108:47:28|T|CMP(COLUMBIA)|That's negative. I checked both locations, and no joy.
 108:47:32|T|CC|Okay. If you'd like to look again next pass, we have a different set of coordinates based on the onboard P57 solution of the LM. These are Echo 0.3 and 4.8. I say again Echo 0.3, 4.8, same chart. Over.
@@ -9492,264 +9491,271 @@
 108:48:16|T|CC|Roger.
 108:48:22|T|CMP(COLUMBIA)|That P22 is still pointing in the wrong place.
 108:48:28|T|CC|Columbia, this is Houston. Latitude plus 0.523, longitude divided by 2, 11.710. Over.
-108:48:48|T|CMP(COLUMBIA)|Roger. Understand plus 00523 and plus 11710. Thank you.
-108:48:58|T|CC|Houston. Roger. Out.
-108:49:08|T|CC|Columbia, this is Houston. We're requesting high-gain antenna, pitch, yaw, - pitch 0, yaw 200. That is, pitch 0, yaw 200. Over.
-108:51:42|T|CDR(TRANQ)|... cooling unit circuit ...
-108:52:36|T|CDR(TRANQ)|Houston, this is Neil. How do you read?
-108:52:39|T|CC|Neil, this is Houston. Loud and clear.
-108:52:41|T|LMP(TRANQ)|Okay. That's a little bit better now. There we go.
-108:52:42|T|CDR(TRANQ)|Roger. Read you and clear.
-108:52:47|T|LMP(TRANQ)|You're not too loud and clear, but I think it's the same problem. Houston, how do you read Buzz?
-108:52:52|T|CC|Buzz, this is Houston. Loud and clear. You're really coming in beautifully. Over.
-108:52:58|T|LMP(TRANQ)|Very good.
-108:53:00|T|CDR(TRANQ)|Okay. Cabin REPRESS closed.
-108:53:33|T|LMP(TRANQ)|Okay.
-108:53:41|T|CDR(TRANQ)|Now. Now for the gymnastics.
-108:53:46|T|LMP(TRANQ)|What?
-108:53:47|T|CDR(TRANQ)|Now comes the gymnastics.
-108:53:49|T|LMP(TRANQ)|Oh, I think it'll be a lot easier.
-108:53:56|T|CDR(TRANQ)|Okay, I want to go to DUMP and go down to 3.5 and back to AUTO.
-108:54:08|T|LMP(TRANQ)|Okay, Going dump and it's down to 4.2, 4.1, - -
-108:54:25|T|CDR(TRANQ)|That's 3.5. Are you in AUTO? Verify cabin pressure at 3.5 and LM suit circuit pressure between 3.6 and 4.3.
-108:54:44|T|LMP(TRANQ)|It is. Suit circuit's at about 43.
-108:54:48|T|CDR(TRANQ)|Okay. Verify the PGA pressure is above 45, minus 46.
-108:54:53|T|LMP(TRANQ)|Minus 47.
-108:54:54|T|CC|Neil, this is Houston. Will you give us hack when you start - -
-108:54:57|T|CDR(TRANQ)|...
+108:48:50|T|CMP(COLUMBIA)|Roger. Understand plus 00523 and plus 11710. Thank you.
+108:49:00|T|CC|Houston. Roger. Out.
+108:49:10|T|CC|Columbia, this is Houston. We're requesting high-gain antenna, pitch, yaw, - pitch 0, yaw 200. That is, pitch 0, yaw 200. Over.
+108:51:44|T|CDR(TRANQ)|... cooling unit circuit ...
+108:52:26|P|PAO|In the Control Center, a clock has been setup to record the operating time on Neil Armstrong's portable life support system. EVA will be counted from that time.
+108:52:38|T|CDR(TRANQ)|Houston, this is Neil. How do you read?
+108:52:41|T|CC|Neil, this is Houston. Loud and clear.
+108:52:43|T|LMP(TRANQ)|Okay. That's a little bit better now. There we go.
+108:52:47|T|CDR(TRANQ)|Roger. Read you and clear.
+108:52:49|T|LMP(TRANQ)|You're not too loud and clear, but I think it's the same problem. Houston, how do you read Buzz?
+108:52:54|T|CC|Buzz, this is Houston. Loud and clear. You're really coming in beautifully. Over.
+108:53:00|T|LMP(TRANQ)|Very good.
+108:53:09|T|CDR(TRANQ)|Okay. Cabin REPRESS closed.
+108:53:35|T|LMP(TRANQ)|Okay.
+108:53:43|T|CDR(TRANQ)|Now. Time for the gymnastics.
+108:53:47|T|LMP(TRANQ)|What?
+108:53:48|T|CDR(TRANQ)|Now comes the gymnastics.
+108:53:50|T|LMP(TRANQ)|Oh, I think it'll be a lot easier.
+108:53:58|T|CDR(TRANQ)|Okay, I want to go to DUMP and go down to 3.5 and back to AUTO.
+108:54:10|T|LMP(TRANQ)|Okay, Going dump and it's down to 4.2, 4.1, - -
+108:54:26|T|CDR(TRANQ)|That's 3.5. Are you in AUTO? Verify cabin pressure at 3.5 and LM suit circuit pressure between 3.6 and 4.3.
+108:54:46|T|LMP(TRANQ)|It is. Suit circuit's at about 43.
+108:54:49|T|CDR(TRANQ)|Okay. Verify the PGA pressure is above 45, minus 46.
+108:54:54|T|LMP(TRANQ)|Minus 47.
+108:54:56|T|CC|Neil, this is Houston. Will you give us hack when you start - -
+108:54:58|T|CDR(TRANQ)|Okay...
 108:54:58|T|CC|- - your chronometer. Over.
-108:55:03|T|CDR(TRANQ)|Roger.
-108:55:08|T|LMP(TRANQ)|Give it to them later.
-108:55:12|T|CDR(TRANQ)|Okay. Okay, let's go to dump.
-108:55:17|T|LMP(TRANQ)|Dump. Go to dump.
-108:55:40|T|CDR(TRANQ)|Houston, I'll set my watch at 56. Over.
-108:55:50|T|CC|Roger.
-108:56:00|T|CDR(TRANQ)|3, 2, 1.
-108:56:02|T|CDR(TRANQ)|MARK.
-108:56:03|T|CMP(COLUMBIA)|Houston, Columbia is back on the high-gain.
-108:56:05|T|CC|Roger, Columbia. Loud and clear. And we copied you Mark there, Buzz.
-108:56:09|T|CDR(TRANQ)|Okay. I've got my water warning.
-108:56:18|T|LMP(TRANQ)|Okay. Water warning.
-108:56:20|T|CDR(TRANQ)|Is that yours?
-108:56:21|T|LMP(TRANQ)|Yes. Got mine.
-108:56:22|T|CDR(TRANQ)|Okay. Cabin pressure going towards zero. Verify LM suit circuit 36 to 43. That's verified. FIPGA pressure above 4.5. Okay. 4.7, coming down. Ready to open the hatch when we get to zero.
-108:57:06|T|LMP(TRANQ)|You want to bring down one of your visors now or leave them up? I'll read ... okay.
-108:57:19|T|CDR(TRANQ)|Inner visor down.
-108:58:18|T|CDR(TRANQ)|Four tenths of a pound in the cabin.
-108:59:06|T|CDR(TRANQ)|Down to about 0,2.
-109:01:12|T|LMP(TRANQ)|Sure takes a long time to get all the way down, doesn't it?
-109:01:14|T|CDR(TRANQ)|Yes.
-109:02:45|T|LMP(TRANQ)|Let me see if it will open now.
-109:02:48|T|CDR(TRANQ)|Okay.
-109:03:00|P|PAO|Hatch reported coming open at 109 hours, 8 minutes, 05 seconds.
-109:03:00|P|PAO|Correction - 109:07:35.
-109:03:02|T|CDR(TRANQ)|Open my RCU there, would you, Buzz?
-109:03:52|T|CDR(TRANQ)|Push outward.
-109:04:23|T|CDR(TRANQ)|Need some light?
+108:55:05|T|CDR(TRANQ)|Roger.
+108:55:09|T|LMP(TRANQ)|Give it to them later.
+108:55:11|T|CDR(TRANQ)|Okay. Okay, let's go to dump.
+108:55:18|T|LMP(TRANQ)|Dump. Go to dump.
+108:55:41|T|CDR(TRANQ)|Houston, I'll set my watch at 56. Over.
+108:55:51|T|CC|Roger.
+108:56:02|T|CDR(TRANQ)|3, 2, 1.
+108:56:04|T|CDR(TRANQ)|MARK.
+108:56:04|T|CMP(COLUMBIA)|Houston, Columbia is back on the high-gain.
+108:56:07|T|CC|Roger, Columbia. Loud and clear. And we copied you Mark there, Buzz.
+108:56:14|T|CDR(TRANQ)|Okay. I've got my water window.
+108:56:19|T|LMP(TRANQ)|Okay. Water warning.
+108:56:21|T|CDR(TRANQ)|Is that yours?
+108:56:22|T|LMP(TRANQ)|Yes. Got mine.
+108:56:23|T|CDR(TRANQ)|Okay. Cabin pressure going towards zero. Verify LM suit circuit 36 to 43. That's verified. FIPGA pressure above 4.5. Okay. 4.75, coming down. Ready to open the hatch when we get to zero.
+108:57:08|T|LMP(TRANQ)|You want to bring down one of your visors now or leave them up? I'll read ... 
+108:57:16|T|CDR(TRANQ)|okay.
+108:57:21|T|CDR(TRANQ)|Inner visor's down.
+108:58:17|T|CDR(TRANQ)|Four tenths of a pound in the cabin.
+108:59:07|T|CDR(TRANQ)|Down to about 0.2.
+109:00:59|P|PAO|Coming up on 5 minutes of operation on Neil Armstrong's portable life support system, now.
+109:01:13|T|LMP(TRANQ)|Sure takes a long time to get all the way down, doesn't it?
+109:01:16|T|CDR(TRANQ)|Yes.
+109:02:47|T|LMP(TRANQ)|Let me see if it will open now.
+109:02:49|T|CDR(TRANQ)|Okay.
+109:03:03|T|CDR(TRANQ)|Open my RCU there, would you, Buzz?
+109:03:53|T|CDR(TRANQ)|Push outward.
+109:04:25|T|CDR(TRANQ)|See some light?
 109:04:26|T|LMP(TRANQ)|It's unlocked, yes.
 109:04:27|T|CDR(TRANQ)|Unlocked.
-109:04:37|T|LMP(TRANQ)|That'll be good enough.
-109:04:40|T|CDR(TRANQ)|It'll pop open.
-109:05:23|T|LMP(TRANQ)|Get a steady tone in the background?
-109:05:28|T|CDR(TRANQ)|I have a - static. A little bit of static.
-109:05:34|T|LMP(TRANQ)|I've got a little bit of a steady tone.
-109:05:39|T|CDR(TRANQ)|I don't guess I hear that.
-109:06:15|T|CC|Neil, this is Houston. What's your status on hatch opening? Over.
-109:06:22|T|CDR(TRANQ)|Everything is GO here. Me're just waiting for the cabin pressure to bleed so - to blow enough pressure to open the hatch. It's about 0.1 on our gage now.
-109:06:48|T|LMP(TRANQ)|Sure hate to tug on that thing. Alternative would be to open ... too.
-109:06:59|T|CC|Neil, this is Houston. Over.
-109:07:04|T|CDR(TRANQ)|Go ahead, Houston.
-109:07:05|T|CC|Roger. We're showing a relatively static pressure on your cabin. Do you think you can open the hatch at this pressure of about 1.2 psi?
-109:07:18|T|CDR(TRANQ)|We're going to try it.
-109:07:20|T|CC|Roger.
-109:07:33|T|CDR(TRANQ)|The hatch is coming open.
-109:07:40|T|LMP(TRANQ)|Okay, Hold it from going closed and I'll get the valve to - -
-109:07:43|T|CDR(TRANQ)|Okay.
+109:04:39|T|LMP(TRANQ)|That'll be good enough.
+109:04:41|T|CDR(TRANQ)|It'll pop open.
+109:05:24|T|LMP(TRANQ)|Get a steady tone in the background?
+109:05:30|T|CDR(TRANQ)|I have a - static. I'm getting static.
+109:05:36|T|LMP(TRANQ)|I've got a little bit of a steady tone.
+109:05:40|T|CDR(TRANQ)|I don't guess I hear that.
+109:06:16|T|CC|Neil, this is Houston. What's your status on hatch opening? Over.
+109:06:23|T|CDR(TRANQ)|Everything is GO here. Me're just waiting for the cabin pressure to bleed so - to blow enough pressure to open the hatch. It's about 0.1 on our gauge now.
+109:06:49|T|LMP(TRANQ)|Sure hate to tug on that thing. Alternative would be to open ... too.
+109:07:00|T|CC|Neil, this is Houston. Over.
+109:07:06|T|CDR(TRANQ)|Go ahead, Houston.
+109:07:07|T|CC|Roger. We're showing a relatively static pressure in your cabin. Do you think you can open the hatch at this pressure of about .12 psi?
+109:07:19|T|CDR(TRANQ)|We're going to try it.
+109:07:21|T|CC|Roger.
+109:07:35|T|CDR(TRANQ)|The hatch is coming open.
+109:07:41|T|LMP(TRANQ)|Okay, Hold it from going closed and I'll get the valve to - -
+109:07:44|T|CDR(TRANQ)|Okay.
 109:07:45|T|LMP(TRANQ)|No. I'd better get up first.
-109:08:11|T|LMP(TRANQ)|Okay. The valves in AUTO.
-109:08:12|T|CDR(TRANQ)|Okay.
-109:08:20|T|LMP(TRANQ)|Might want to fill it up to FORWARD.
-109:08:37|T|CDR(TRANQ)|Your window cleared yet? Your water window cleared yet?
-109:08:46|T|LMP(TRANQ)|It was, yes.
-109:08:48|T|CDR(TRANQ)|Mine hasn't cleared yet.
-109:08:55|T|CC|Columbia, this is Houston. Over.
-109:09:00|P|PAO|They've been on the PLSS now for 16 and 1/2 minutes.
-109:09:00|P|PAO|We're 8 minutes away from loss of signal on Columbia.
-109:09:00|P|PAO|Neil Armstrong's suit pressure 4. -
-109:09:01|T|CMP(COLUMBIA)|Columbia. Go ahead.
-109:09:03|T|CC|Columbia, this is Houston. We'd like you to cycle the fans in CRYO hydrogen tank number 1, and LOS time this orbit is 111 19 31.
-109:09:23|T|CC|Correction - Make that for the next orbit. You already have the AOS/LOS for this orbit.
-109:09:35|T|CMP(COLUMBIA)|Roger on time, and you want to cycle the fan in CRYO hydrogen tank 1.
-109:09:41|T|CC|Roger. Out.
-109:10:39|T|CDR(TRANQ)|Have you got your water valve on there?
-109:10:41|T|LMP(TRANQ)|Yes.
-109:12:35|T|CC|Columbia, this is Houston. We show you nearing high-gain antenna scan limits. When you lose lock on us, we request OMNI Delta. OMNI Delta when you lose lock. Over.
-109:12:52|T|CMP(COLUMBIA)|Roger. OMNI Delta.
-109:13:22|T|CDR(TRANQ)|Okay. My window's cleared. I'm going to go to turn my cooling up a little bit.
-109:13:26|T|LMP(TRANQ)|Okay. My window's clear.
-109:13:40|T|CDR(TRANQ)|All RCU windows are clear. And suit circuit is 42 - 43. And I got ascent pressure light, a VF light, and a ECS light.
-109:14:00|T|LMP(TRANQ)|And we've got a water separater light. Hold it and I'll check.
-109:14:03|T|CDR(TRANQ)|All right.
-109:14:05|T|LMP(TRANQ)|And I'll look at your cabin fan 1 circuit breaker, and you look at glycol secondary.
-109:14:26|T|LMP(TRANQ)|I've got good cooling now.
-109:14:28|T|CDR(TRANQ)|Me, too.
-109:14:35|T|LMP(TRANQ)|Okay. Glycol pump secondary circuit breaker open?
-109:14:40|T|CDR(TRANQ)|I can see that. I have to lean this way.
-109:14:48|T|LMP(TRANQ)|Can't go any further.
-109:14:52|T|CDR(TRANQ)|My cabin fan 1 ...
-109:14:58|T|LMP(TRANQ)|Yes, That's good.
-109:15:00|T|CDR(TRANQ)|Can you check it?
-109:15:00|P|PAO|Neil Armstrong on the porch at 109 hours 19 minutes 16 seconds.
-109:15:05|T|LMP(TRANQ)|It's open. Verified.
-109:15:14|T|CDR(TRANQ)|Okay. PGNS radar circuit breaker's open.
-109:15:29|T|LMP(TRANQ)|Well, I'm looking head on at it. I'll get it.
-109:15:32|T|CDR(TRANQ)|Okay. Let's get your antenna.
+109:08:06|P|PAO|Hatch reported coming open at 109 hours, 8 minutes, 05 seconds.
+109:08:12|T|LMP(TRANQ)|Okay. The valves in AUTO.
+109:08:13|T|CDR(TRANQ)|Okay.
+109:08:19|P|PAO|Correction - 109:07:35.
+109:08:22|T|LMP(TRANQ)|Might want to fill it up to FORWARD.
+109:08:39|T|CDR(TRANQ)|Your window cleared yet? Your water window cleared yet?
+109:08:47|T|LMP(TRANQ)|It was, yes.
+109:08:49|T|CDR(TRANQ)|Mine hasn't cleared yet.
+109:08:56|T|CC|Columbia, this is Houston. Over.
+109:09:03|T|CMP(COLUMBIA)|Columbia. Go ahead.
+109:09:04|T|CC|Columbia, this is Houston. We'd like you to cycle the fans in CRYO hydrogen tank number 1, and LOS time this orbit is 111:19:31.
+109:09:24|T|CC|Correction - Make that for the next orbit. You already have the AOS/LOS for this orbit.
+109:09:36|T|CMP(COLUMBIA)|Roger on time, and you want to cycle the fan in CRYO hydrogen tank 1.
+109:09:42|T|CC|Roger. Out.
+109:10:40|T|CDR(TRANQ)|Have you got your water valve on there?
+109:10:42|T|LMP(TRANQ)|Yes.
+109:12:26|P|PAO|They've been on the PLSSs now for 16 and 1/2 minutes.
+109:12:36|T|CC|Columbia, this is Houston. We show you nearing high-gain antenna scan limits. When you lose lock on us, we request OMNI Delta. OMNI Delta when you lose lock. Over.
+109:12:54|T|CMP(COLUMBIA)|Roger. OMNI Delta.
+109:13:06|P|PAO|We're 8 minutes away from loss of signal on Columbia.
+109:13:24|T|CDR(TRANQ)|Okay. My window's cleared. I'm going to go to turn my cooling up a little bit.
+109:13:29|T|LMP(TRANQ)|Okay. My window's clear.
+109:13:41|T|CDR(TRANQ)|All RCU windows are clear. And suit circuit is 42 - 43. And I got ascent pressure light, a VF light, and a ECS light.
+109:14:01|T|LMP(TRANQ)|Yes, and we've got a water separater light.
+109:14:03|T|CDR(TRANQ)|Hold it and I'll check.
+109:14:04|T|LMP(TRANQ)|All right.
+109:14:06|T|LMP(TRANQ)|And I'll look at your cabin fan 1 circuit breaker, and you look at glycol secondary.
+109:14:26|PAO|Neil Armstrong's suit pressure 4. -
+109:14:28|T|LMP(TRANQ)|I've got good cooling now.
+109:14:29|T|CDR(TRANQ)|Me, too.
+109:14:36|T|CDR(TRANQ)|Okay. Glycol pump secondary circuit breaker open?
+109:14:42|T|CDR(TRANQ)|I can see that. I have to lean this way.
+109:14:49|T|LMP(TRANQ)|Can't go any further.
+109:14:53|T|CDR(TRANQ)|My cabin fan 1 ...
+109:14:59|T|LMP(TRANQ)|Yes, That's good.
+109:15:01|T|CDR(TRANQ)|Can you check it?
+109:15:11|T|LMP(TRANQ)|It's open. Verified.
+109:15:16|T|CDR(TRANQ)|Okay. PGNS radar circuit breaker's open.
+109:15:31|T|LMP(TRANQ)|Well, I'm looking head on at it. I'll get it.
+109:15:33|T|CDR(TRANQ)|Okay. Let me get your antenna.
 109:15:33|T|LMP(TRANQ)|You'll have to fix my antenna.
-109:15:43|T|CDR(TRANQ)|Well, ready? - -
-109:15:45|T|LMP(TRANQ)|About ready to go down and get some Moon rock?
-109:15:47|T|CDR(TRANQ)|My antenna's out. Okay. Now we're ready to hook up the LEC here.
-109:16:12|T|LMP(TRANQ)|All right. That should go down with no twists at all. Put the bag up this way, that's even. Neil, are you hooked up to it?
-109:16:26|T|CDR(TRANQ)|Yes. Okay. Now we need to hook this.
-109:16:30|T|LMP(TRANQ)|Move that up there.
-109:16:34|T|CDR(TRANQ)|Okay.
-109:16:38|T|CDR(TRANQ)|Okay. Your visor.
-109:16:49|T|LMP(TRANQ)|Okay. Your back is up against the purse. All right. Now it's on top of the DSKY. Forward and up; now you are clear. Little bit toward me. Straight down, to your left a little bit. Plenty of room. Neil, you're lined up nicely. Toward me a little bit, down. Okay. Now you're clear. You're catching the first hinge on the bottom.
-109:17:26|T|CDR(TRANQ)|What hinge?
-109:17:29|T|LMP(TRANQ)|All right. Move, here roll to the left. Okay. Now you're clear. You're lined up on the platform. Put your left foot to the right a little bit. Okay. That's good. Roll left, Good.
-109:17:54|T|CDR(TRANQ)|Okay. Now I'm going to check PLSS here.
-109:18:05|T|LMP(TRANQ)|Okay. You're not quite squared away. Roll to the - roll right a little. Now you're even.
-109:18:14|T|CDR(TRANQ)|That's okay?
-109:18:15|T|LMP(TRANQ)|That's good. You've got plenty of room to your left. It's a little close on the ...
-109:18:28|T|CDR(TRANQ)|How am I doing?
-109:18:29|T|LMP(TRANQ)|You're doing fine.
-109:18:51|T|LMP(TRANQ)|Okay. Do you want those bags?
-109:18:53|T|CDR(TRANQ)|Yes. Got it.
-109:19:16|T|CDR(TRANQ)|Okay. Houston, I'm on the porch.
-109:19:20|T|CC|Roger, Neil.
-109:19:36|T|LMP(TRANQ)|Okay. Stand by, Neil.
-109:19:37|T|CC|Columbia, Columbia, this is Houston. One minute and 30 seconds to LOS. All systems GO. Over.
+109:15:45|T|CDR(TRANQ)|Well, ready? - -
+109:15:47|T|LMP(TRANQ)|About ready to go down and get some Moon rock?
+109:15:48|T|CDR(TRANQ)|My antenna's out. Okay. Now we're ready to hook up the LEC here.
+109:16:13|T|LMP(TRANQ)|... should go down with no twists now. Put the bag up this way, that's even. Neil, are you hooked up to it?
+109:16:27|T|CDR(TRANQ)|Yes. Okay. Now we need to hook this.
+109:16:32|T|LMP(TRANQ)|Move that up there.
+109:16:35|T|CDR(TRANQ)|Okay.
+109:16:39|T|CDR(TRANQ)|Okay. Your visor.
+109:16:51|T|LMP(TRANQ)|Okay. Your back is up against the purse. All right. Now it's on top of the DSKY. Forward and up; now you're clear. Little bit toward me. Straight down, to your left a little bit. Plenty of room. ... you're lined up nicely. Toward me a little bit, down. Okay. Now you're clear. You're catching the first hinge on the bottom.
+109:17:28|T|CDR(TRANQ)|What hinge?
+109:17:30|T|LMP(TRANQ)|All right. Move, here roll to the left. Okay. Now you're clear. You're lined up on the platform. Put your left foot to the right a little bit. Okay. That's good. Roll left, Good.
+109:17:55|T|CDR(TRANQ)|Okay. Now I'm going to check PLSS here.
+109:18:06|T|LMP(TRANQ)|Okay. You're not quite squared away. Roll to the - roll right a little. Now you're even.
+109:18:16|T|CDR(TRANQ)|That's okay?
+109:18:17|T|LMP(TRANQ)|That's good. You've got plenty of room to your left. It's a little close on the ...
+109:18:29|T|CDR(TRANQ)|How am I doing?
+109:18:30|T|LMP(TRANQ)|You're doing fine.
+109:18:53|T|LMP(TRANQ)|Okay. Do you want those bags?
+109:18:54|T|CDR(TRANQ)|Yes. Got it.
+109:19:18|T|CDR(TRANQ)|Okay. Houston, I'm on the porch.
+109:19:21|T|CC|Roger, Neil.
+109:19:37|T|LMP(TRANQ)|Okay. Stand by, Neil.
+109:19:39|T|CC|Columbia, Columbia, this is Houston. One minute and 30 seconds to LOS. All systems GO. Over.
 109:19:44|O|CMP|Columbia.
-109:19:46|T|CMP(COLUMBIA)|Columbia. Thank you.
+109:19:47|T|CMP(COLUMBIA)|Columbia. Thank you.
 109:19:47|T|LMP(TRANQ)|Stay where you are a minute, Neil.
-109:19:48|T|CDR(TRANQ)|Okay. Need a little slack?
-109:20:00|P|PAO|25 minutes of PLSS time expended now.
-109:20:38|T|CDR(TRANQ)|You need more slack, Buzz?
-109:20:40|T|LMP(TRANQ)|No. Hold it just a minute.
-109:20:41|T|CDR(TRANQ)|Okay.
-109:20:56|T|LMP(TRANQ)|Okay. Everything's nice and straight in here.
-109:20:58|T|CDR(TRANQ)|Okay. Can you pull the door open a little more?
-109:21:00|T|LMP(TRANQ)|All right.
-109:21:03|T|CDR(TRANQ)|Okay.
-109:21:07|T|LMP(TRANQ)|Did you get the MESA out?
-109:21:09|T|CDR(TRANQ)|I'm going to pull it now.
-109:21:18|T|CDR(TRANQ)|Houston, the MESA came down all right.
-109:21:22|T|CC|This is Houston, Roger. We copy. And we're standing by for your TV.
-109:21:39|T|CDR(TRANQ)|Houston, this is Neil. Radio check.
-109:21:42|T|CC|Neil, this is Houston. Loud and clear. Break. Break. Buzz, this is Houston. Radio check, and verify TV circuit breaker in.
-109:21:54|T|LMP(TRANQ)|Roger, TV circuit breaker's in, and read you loud and clear.
-109:22:00|T|CC|And, we're getting a picture on the TV.
-109:22:08|T|LMP(TRANQ)|You got a good picture, huh?
-109:22:11|T|CC|There's a great deal of contrast in it, and currently it's upside down on our monitor, but we can make out a fair amount of detail.
-109:22:28|T|LMP(TRANQ)|Okay. Will you verify the position - the opening I ought to have on the camera?
-109:22:35|T|CC|Stand by.
-109:22:48|T|CC|Okay. Neil, we can see you coming down the ladder now.
-109:22:59|T|CDR(TRANQ)|Okay. I just checked getting back up to that first step, Buzz. It's - not even collapsed too far, but it's adequate to get back up.
-109:23:10|T|CC|Roger. We copy.
-109:23:11|T|CDR(TRANQ)|It takes a pretty good little jump.
-109:23:25|T|CC|Buzz, this is Houston. F/2 - 1/160th second for shadow photography on the sequence camera.
-109:23:35|T|LMP(TRANQ)|Okay.
-109:23:38|T|CDR(TRANQ)|I'm at the foot of the ladder. The LM footpads are only depressed in the surface about 1 or 2 inches, although the surface appears to be very, very fine grained, as you get close to it. It's almost like a powder. Down there, it's very fine.
-109:24:14|T|CDR(TRANQ)|I'm going to step off the LM now.
-109:24:25|T|CDR(TRANQ)|That's one small step for man, one giant leap for Mankind.
-109:24:48|T|CDR(TRANQ)|And the - the surface is fine and powdery. I can - I can pick it up loosely with my toe. It does adhere in fine layers like powdered charcoal to the sole and sides of my boots. I only go in a small fraction of an inch, maybe an eighth of an inch, but I can see the footprints of my boots and the treads in the fine, sandy particles.
-109:25:00|P|PAO|Unofficial time on the first step - 109:24:20.
-109:25:00|P|PAO|The Surgeon says that -
-109:25:00|P|PAO|The Surgeon says the crew is doing well. Data is good, crew is doing well.
-109:25:30|T|CC|Neil, this is Houston. We're copying.
-109:25:45|T|CDR(EVA)|There seems to be no difficulty in moving around as we suspected. It's even perhaps easier than the simulations at one sixth g that we performed in the various simulations on the ground. It's actually no trouble to walk around. Okay. The descent engine did not leave a crater of any size. It has about 1 foot clearance on the ground. We're essentially on a very level place here. I can see some evidence of rays emanating from the descent engine, but a very insignificant amount.
-109:26:54|T|CDR(EVA)|Okay, Buzz, we ready to bring down the camera?
-109:26:59|T|LMP(EVA)|I'm all ready. I think it's been all squared away and in good shape.
-109:27:03|T|CDR(EVA)|Okay.
+109:19:49|T|CDR(TRANQ)|Okay. Need a little slack?
+109:20:16|P|PAO|Neil Armstrong on the porch at 109 hours 19 minutes 16 seconds.
+109:20:39|T|CDR(TRANQ)|You need more slack, Buzz?
+109:20:41|T|LMP(TRANQ)|No. Hold it just a minute.
+109:20:42|T|CDR(TRANQ)|Okay.
+109:20:50|P|PAO|25 minutes of PLSS time expended now.
+109:20:57|T|LMP(TRANQ)|Okay. Everything's nice and straight in here.
+109:21:00|T|CDR(TRANQ)|Okay. Can you pull the door open a little more?
+109:21:03|T|LMP(TRANQ)|All right.
+109:21:05|T|CDR(TRANQ)|Okay.
+109:21:08|T|LMP(TRANQ)|Did you get the MESA out?
+109:21:10|T|CDR(TRANQ)|I'm going to pull it now.
+109:21:20|T|CDR(TRANQ)|Houston, the MESA came down all right.
+109:21:23|T|CC|This is Houston, Roger. We copy. And we're standing by for your TV.
+109:21:41|T|CDR(TRANQ)|Houston, this is Neil. Radio check.
+109:21:44|T|CC|Neil, this is Houston. Loud and clear. Break. Break. Buzz, this is Houston. Radio check, and verify TV circuit breaker in.
+109:21:55|T|LMP(TRANQ)|Roger, TV circuit breaker's in, and read you loud and clear.
+109:22:01|T|CC|Roger.
+109:22:05|T|CC|And, we're getting a picture on the TV.
+109:22:10|T|LMP(TRANQ)|You got a good picture, huh?
+109:22:12|T|CC|There's a great deal of contrast in it, and currently it's upside down on our monitor, but we can make out a fair amount of detail.
+109:22:29|T|LMP(TRANQ)|Okay. Will you verify the position - the opening I ought to have on the camera?
+109:22:36|T|CC|Stand by.
+109:22:50|T|CC|Okay. Neil, we can see you coming down the ladder now.
+109:23:00|T|CDR(TRANQ)|Okay. I just checked getting back up to that first step, Buzz. It's - not even collapsed too far, but it's adequate to get back up.
+109:23:11|T|CC|Roger. We copy.
+109:23:12|T|CDR(TRANQ)|It takes a pretty good little jump.
+109:23:26|T|CC|Buzz, this is Houston. F/2 - 1/160th second for shadow photography on the sequence camera.
+109:23:37|T|LMP(TRANQ)|Okay.
+109:23:39|T|CDR(TRANQ)|I'm at the foot of the ladder. The LM footpads are only depressed in the surface about 1 or 2 inches, although the surface appears to be very, very fine grained, as you get close to it. It's almost like a powder. - ground mass is very fine
+109:24:14|T|CDR(TRANQ)|Okay. I'm going to step off the LM now.
+109:24:26|T|CDR(TRANQ)|That's one small step for man, one giant leap for Mankind.
+109:24:49|T|CDR(TRANQ)|And the - the surface is fine and powdery. I can - I can pick it up loosely with my toe. It does adhere in fine layers like powdered charcoal to the sole and sides of my boots. I only go in a small fraction of an inch, maybe an eighth of an inch, but I can see the footprints of my boots and the treads in the fine, sandy particles.
+109:25:31|T|CC|Neil, this is Houston. We're copying.
+109:25:46|T|CDR(EVA)|There seems to be no difficulty in moving around as we suspected. It's even perhaps easier than the simulations at one sixth g that we performed in various simulations on the ground. It's actually no trouble to walk around. Okay. The descent engine did not leave a crater of any size. It has about 1 foot clearance on the ground. We're essentially on a very level place here. I can see some evidence of rays emanating from the descent engine, but a very insignificant amount.
+109:26:55|T|CDR(EVA)|Okay, Buzz, we ready to bring down the camera?
+109:27:00|T|LMP(EVA)|I'm all ready. I think it's been all squared away and in good shape.
+109:27:05|T|CDR(EVA)|Okay.
 109:27:07|T|LMP(EVA)|Okay. You'll have to pay out all the LEC. It looks like it's coming out nice and evenly.
-109:27:13|T|CDR(EVA)|Okay. It's quite dark here in the shadow and a little hard for me to see that I have good footing. I'll work my way over into the sunlight here without looking directly into the Sun.
-109:27:28|T|LMP(EVA)|Okay. It's taut now.
-109:27:51|T|LMP(EVA)|Okay. I think you're pulling the wrong one.
-109:27:55|T|CDR(EVA)|I'm just - Okay. I'm ready to pull it down now. There was still a little bit left in the -
-109:28:01|T|LMP(EVA)|Okay. Don't hold it quite so tight.
-109:28:02|T|CDR(EVA)|Okay.
-109:28:17|T|CDR(EVA)|Looking up at the LM, I'm standing directly in tne shadow now looking up at Buzz in the window. And I can see everything quite clearly. The light is sufficiently bright backlighted into the front of the LM, that everything is very clearly visible,
-109:28:55|T|LMP(EVA)|Okay. I'm going to be changing the -
-109:28:58|T|CDR(EVA)|Okay.
-109:30:00|P|PAO|35 and a half minutes of PLSS time expended now.
-109:30:23|T|CDR(EVA)|The camera is installed on the RCU bracket, and I'm storing the LEC on the secondary strut.
-109:30:53|T|CDR(EVA)|I'll step out and take some of my first pictures here.
-109:31:05|T|CC|Roger. Neil, we're reading you loud and clear. We see you getting some pictures and the contingency sample.
+109:27:14|T|CDR(EVA)|Okay. It's quite dark here in the shadow and a little hard for me to see that I have good footing. I'll work my way over into the sunlight here without looking directly into the Sun.
+109:27:29|T|LMP(EVA)|Okay. It's taut now.
+109:27:40|PAO|Unofficial time on the first step - 109:24:20.
+109:27:53|T|LMP(EVA)|Okay. I think you're pulling the wrong one.
+109:27:56|T|CDR(EVA)|I'm just - Okay. I'm ready to pull it down now. There was still a little bit left in the -
+109:28:02|T|LMP(EVA)|Okay. Don't hold it quite so tight.
+109:28:04|T|CDR(EVA)|Okay.
+109:28:17|T|CDR(EVA)|Looking up at the LM, I'm standing directly in tne shadow now looking up at Buzz in the windows. And I can see everything quite clearly. The light is sufficiently bright backlighted into the front of the LM, that everything is very clearly visible.
+109:28:57|T|LMP(EVA)|Okay. I'm going to be changing the -
+109:28:59|T|CDR(EVA)|Okay.
+109:30:23|PAO|The surgeon says that -
+109:30:24|T|CDR(EVA)|The camera is installed on the RCU bracket - -
+109:30:30|PAO|The Surgeon says the crew is doing well. Data is good, crew is doing well.
+109:30:35|T|CDR(EVA)|- and I'm storing the LEC on the secondary strut.
+109:30:54|T|CDR(EVA)|I'll step out and take some of my first pictures here.
+109:31:07|T|CC|Roger. Neil, we're reading you loud and clear. We see you getting some pictures and the contingency sample.
+109:31:30|PAO|35 and a half minutes of PLSS time expended now.
 109:32:19|T|CC|Neil, this is Houston. Did you copy about the contingency sample? Over.
-109:32:26|T|CDR(EVA)|Roger. I'm going to get to that just as soon as I finish these picture series.
-109:33:25|T|LMP(EVA)|Okay. Going to get the contingency sample there, Neil.
-109:33:27|T|CDR(EVA)|Right.
-109:33:30|T|LMP(EVA)|Okay. That's good.
-109:33:58|T|LMP(EVA)|Okay. The contingency sample is down and it's .... Looks like it's a little difficult to dig through the initial crust.
-109:34:12|T|CDR(EVA)|This is very interesting. It's a very soft surface, but here and there where I plug with the contingency sample collector, I run into a very hard surface, but it appears to be very cohesive material of the same sort. I'll try to get a rock in here. Just a couple.
-109:34:54|T|LMP(EVA)|That looks beautiful from here, Neil.
-109:34:56|T|CDR(EVA)|It has a stark beauty all its own. It's like much of the high desert of the United States. It's different but it's very pretty out here. Be advised that a lot of the rock samples out here, the hard rock samples, have what appear to be vesicles in the surface. Also, I am looking at one now that appears to have some sort of phenocryst.
-109:35:30|T|CC|Houston. Roger. Out.
-109:35:43|T|LMP(EVA)|Okay. The handle is off the ... in about 6 or 8 inches into the surface. I could - easy -.
-109:35:56|T|CDR(EVA)|Yes, it is. it's - I'm sure I could push it in farther, but it's hard for me to bend down further than that.
-109:36:07|T|LMP(EVA)|Now, you can throw so far.
-109:36:08|T|CDR(EVA)|You can really throw things a long way up here.
-109:36:32|T|CDR(EVA)|That pocket open, Buzz?
-109:36:35|T|LMP(EVA)|Yes, it is. It's not up against your suit though. Hit it back once more. More toward the inside. Okay. That's good.
-109:36:37|T|CDR(EVA)|That in the pocket?
-109:36:42|T|LMP(EVA)|Yes. Push down.
-109:36:55|T|CDR(EVA)|Got it?
-109:36:57|T|LMP(EVA)|No. It's not all the way in. Push it. There you go.
-109:37:08|T|CDR(EVA)|Contingency sample is in the pocket. My oxygen is 81 percent. I have no flags, and I'm in minimum flow.
+109:32:27|T|CDR(EVA)|Roger. I'm going to get to that just as soon as I finish these picture series.
+109:33:26|T|LMP(EVA)|Okay. Going to get the contingency sample there, Neil.
+109:33:28|T|CDR(EVA)|Right.
+109:33:31|T|LMP(EVA)|Okay. That's good.
+109:34:00|T|LMP(EVA)|Okay. The contingency sample is down and it's .... Looks like it's a little difficult to dig through the initial crust.
+109:34:14|T|CDR(EVA)|This is very interesting. It's a very soft surface, but here and there where I plug with the contingency sample collector, I run into a very hard surface, but it appears to be very cohesive material of the same sort. I'll try to get a rock in here. Just a couple.
+109:34:55|T|LMP(EVA)|That looks beautiful from here, Neil.
+109:34:57|T|CDR(EVA)|It has a stark beauty all its own. It's like much of the high desert of the United States. It's different but it's very pretty out here. Be advised that a lot of the rock samples out here, the hard rock samples, have what appear to be vesicles in the surface. Also, I am looking at one now that appears to have some sort of phenocryst.
+109:35:32|T|CC|Houston. Roger. Out.
+109:35:44|T|LMP(EVA)|Okay. The handle is off the ... pushes in about, oh, 6, 8 inches into the surface. I think it's pretty easy ...
+109:35:58|T|CDR(EVA)|Yes, it is. it's - I'm sure I could push it in farther, but it's hard for me to bend down further than that.
+109:36:08|T|LMP(EVA)|Now, you can throw so far.
+109:36:10|T|CDR(EVA)|You can really throw things a long way up here.
+109:36:34|T|CDR(EVA)|My pocket open, Buzz?
+109:36:36|T|LMP(EVA)|Yes, it is. It's not up against your suit though. Hit it back once more. More toward the inside. Okay. That's good.
+109:36:52|T|CDR(EVA)|That in the pocket?
+109:36:54|T|LMP(EVA)|Yes. Push down.
+109:36:56|T|CDR(EVA)|Got it?
+109:36:58|T|LMP(EVA)|No. It's not all the way in. Push it. There you go.
+109:37:10|T|CDR(EVA)|Contingency sample is in the pocket. My oxygen is 81 percent. I have no flags, and I'm in minimum flow.
 109:37:22|T|CC|This is Houston. Roger, Neil.
-109:37:40|T|LMP(EVA)|Okay. I have got the cameras on at one frame a second.
-109:37:44|T|CDR(EVA)|Okay.
-109:37:52|T|LMP(EVA)|And I've got the 80 percent, no flags.
-109:38:00|T|CDR(EVA)|Are you getting a TV picture now, Houston?
-109:38:05|T|CC|Neil, yes we are getting a TV picture.
+109:37:42|T|LMP(EVA)|Okay. I have got the camera going at one frame a second.
+109:37:46|T|CDR(EVA)|Okay.
+109:37:54|T|LMP(EVA)|And I've got the 80 percent, no flags.
+109:38:04|T|CDR(EVA)|Are you getting a TV picture now, Houston?
+109:38:07|T|CC|Neil, yes we are getting a TV picture.
 109:38:22|T|CC|Neil, this is Houston. We're getting a picture. You're not in it at the present time. We can see the bag on the LEC being moved by Buzz, though. Here you come into our field of view.
-109:38:33|T|CDR(EVA)|...
+109:38:35|T|CDR(EVA)|...
 109:38:35|T|LMP(EVA)|Roger.
 109:38:36|T|CDR(EVA)|Hold it a second. First let me move that over the edge for you.
-109:38:41|T|LMP(EVA)|Okay. Are you ready for me to come out?
-109:38:42|T|CDR(EVA)|Yes. Just stand by a second. I'll move this over the handrail.
-109:39:00|P|PAO|45 minutes PLSS time expended.
-109:39:00|P|PAO|It's the sample return containers, the rock boxes that Capcom -
-109:39:00|P|PAO|Both PLSS's nominal on consumables.
-109:39:06|T|CDR(EVA)|Okay.
+109:38:42|T|LMP(EVA)|Okay. Are you ready for me to come out?
+109:38:44|T|CDR(EVA)|Yes. Just stand by a second. I'll move this over the handrail.
+109:39:07|T|CDR(EVA)|Okay.
 109:39:07|T|LMP(EVA)|All right. That's got it. Are you ready?
-109:39:11|T|CDR(EVA)|All set. Okay. You saw what difficulties I was having. I'll try to watch your PLSS from underneath here.
-109:39:43|T|LMP(EVA)|All right. The backup camera's positioned.
-109:39:57|T|CDR(EVA)|Okay. Your PLSS is - Looks like it is clearing okay. Your toes are about to come over the sill. Okay. Now drop your PLSS down. There you go; you're clear. And laterally you're good. You've got an inch clearance on top of your PLSS.
+109:39:13|T|CDR(EVA)|All set. Okay. You saw what difficulties I was having. I'll try to watch your PLSS from underneath here.
+109:39:45|T|LMP(EVA)|All right. The backup camera's positioned.
+109:39:53|T|CDR(EVA)|Okay. Your PLSS is - Looks like it is clearing okay. Your toes are about to come over the sill. Okay. Now drop your PLSS down. There you go; you're clear. And laterally you're good. You've got an inch clearance on top of your PLSS.
 109:40:18|T|LMP(EVA)|Okay. You need a little bit of arching of the back to come down. ... How are are my feet from the edge?
 109:40:27|T|CDR(EVA)|Okay. You're right at the edge of the porch.
-109:40:30|T|LMP(EVA)|Okay. Back in ... little of foot movement - porch. Little arching of the back. Helmet comes up and clears the bulkhead without any trouble at all.
-109:40:48|T|CDR(EVA)|Looks good.
-109:41:08|T|CC|Neil, this is Houston. Based on your camera transfer with the LEC, do you foresee any difficulties in SRC transfer? Over.
-109:41:18|T|CDR(EVA)|Negative.
-109:41:28|T|LMP(EVA)|Okay. Now I want to back up and partially close the hatch.
-109:41:47|T|LMP(EVA)|Making sure not to lock it on my way ¢ut.
-109:41:53|T|CDR(EVA)|(Laughter) A pretty good thought.
-109:41:56|T|LMP(EVA)|That's our home for the next couple of hours and we want to take good care of it. Okay. I'm on the top step and I can look down over the RCU, landing gear pads. It's a very simple matter to hop down from one step to the next.
+109:40:29|T|LMP(EVA)|Okay. Back in from ... small little, uh, foot movements ... porch. Little arching of the back. Helmet comes up and clears the bulkhead without any trouble at all.
+109:40:49|T|CDR(EVA)|Looks good.
+109:40:58|P|PAO|45 minutes PLSS time expended.
+109:41:09|T|CC|Neil, this is Houston. Based on your camera transfer with the LEC, do you foresee any difficulties in SRC transfer? Over.
+109:41:20|T|CDR(EVA)|Negative.
+109:41:25|P|PAO|It's the sample return containers, the rock boxes that Capcom -
+109:41:29|T|LMP(EVA)|Okay. Now I want to back up and partially close the hatch.
+109:41:47|T|LMP(EVA)|Making sure not to lock it on my way out.
+109:41:51|T|CDR(EVA)|(Laughter) Particularly good thought.
+109:41:57|T|LMP(EVA)|That's our home for the next couple of hours and we want to take good care of it. Okay. I'm on the top step and I can look down over the RCU, landing gear pads. It's a very simple matter to hop down from one step to the next.
 109:42:18|T|CDR(EVA)|Yes. I found I could be very comfortable, and walking is also very comfortable.
 109:42:28|T|CDR(EVA)|You've got three more steps and then a long one.
-109:42:42|T|LMP(EVA)|Okay. I'm going to leave that one foot up there and both hands down to about the fourth rung up.
-109:42:50|T|CDR(EVA)|There you go.
-109:42:53|T|LMP(EVA)|Okay. Now I think I'll do the same ...
+109:42:53|T|LMP(EVA)|Okay. I'm going to leave that one foot up there and both hands down to about the fourth rung up.
+109:42:51|T|CDR(EVA)|There you go.
+109:42:54|T|LMP(EVA)|Okay. Now I think I'll do the same ...
 109:43:01|T|CDR(EVA)|A little more. About another inch.
-109:43:05|T|CDR(EVA)|THERE YOU GOT IT.
-109:43:08|T|CDR(EVA)|That's a good step. About a 3-footer.
-109:43:16|T|LMP(EVA)|Beautiful view!
-109:43:18|T|CDR(EVA)|Isn't that something! Magnificent sight out here.
+109:43:06|T|CDR(EVA)|There, you got it.
+109:43:08|T|LMP(EVA)|That's a good step.
+109:43:09|T|CDR(EVA)|Yes. About a 3-footer.
+109:43:18|T|LMP(EVA)|Beautiful view!
+109:43:19|T|CDR(EVA)|Isn't that something! Magnificent sight out here.
 109:43:24|T|LMP(EVA)|Magnificent desolation.
-109:43:47|T|LMP(EVA)|Looks like the secondary strut - little thermal effects on it right here, Neil.
-109:43:54|T|CDR(EVA)|Yes. I noticed that. That seems to be the worst, although similar effects are on - all around.
+109:43:40|P|PAO|Both PLSS's nominal on consumables.
+109:43:49|T|LMP(EVA)|Looks like the secondary strut - little thermal effects on it right here, Neil.
+109:43:55|T|CDR(EVA)|Yes. I noticed that. That seems to be the worst, although similar effects are on - all around.
 109:44:00|T||BEGIN LUNAR REV 18
-109:44:07|T|MS|... powder, isn't it?
+109:44:07|T|LMP(EVA)|... powder, isn't it?
 109:44:09|T|CDR(EVA)|Isn't it fine?
 109:44:11|T|LMP(EVA)|Right in this area I don't think there's much of any ... fine powder ... clods together, and it's hard to tell whether it's a clod or a rock.
 109:44:23|T|CDR(EVA)|Notice how you can kick it out.
