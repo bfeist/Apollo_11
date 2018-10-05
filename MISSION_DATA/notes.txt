@@ -168,6 +168,13 @@
 110:13:17 - Buzz tries different modes of walking
 110:16:11 - Nixon talks to the crew on the surface
 110:24:31 - Buzz has his microphone inside his mouth
+111:10:22 - Good EASEP data
+111:16:54 - Seismic team wants crew to jump for data
+111:32:27 - Laser reflector test successful
+111:37:48 - Reenter LM
+111:42:37 - cabin repress
+112:00:31 - SPAN "pretty incredible"
+112:01:51 - FD - "last pad"
 
 
 
