@@ -176,6 +176,11 @@
 112:00:31 - SPAN "pretty incredible"
 112:01:51 - FD - "last pad"
 112:56:30 - Engine ARM circuit breaker broken
+114:00:04 - joke: "we're going to leave you"
+114:06:16 - Goodnight to Columbia
+114:18:49 - Neil "can't get away with anything anymore"
+114:22:24 - McCandless congratulates Neil and Buzz on behalf of the world
+114:33:07 - Observation questions to the surface crew
 
 
 

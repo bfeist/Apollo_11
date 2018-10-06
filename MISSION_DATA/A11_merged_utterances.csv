@@ -10413,175 +10413,187 @@
 113:29:23|P|PAO|This is Apollo Control at 113 hours 29 minutes. The change-of-shift news briefing is about to start. We will tape any air-ground transmissions during this period for playback after the briefing. If the equipment jettison occurs during the briefing, we will come back up and provide that for you live.
 113:39:00|T||BEGIN LUNAR REV 20
 113:46:23|T|CC|Tranquility Base, this is Houston. Over.
-113:46:29|T|CDR|Roger. Go ahead, Houston.
-113:46:32|T|CC|Roger. On your next depressurization, it's acceptable to use the overhead hatch dump valve in addition to or instead of the forward hatch dump valve to speed up the depressurization of the cabin. I have a T13 update for you, and if you could, sometime here, give us P00 and DATA; we'll uplink you a new CSM state vector. Over.
-113:47:04|T|CDR|All right.
-113:47:19|T|LMP|You've got the DSKY.
-113:47:22|T|CC|Roger. Your T13 time is 124 22 02. Over.
-113:47:40|T|LMP|Roger. It's T13, 124 22 - is that 02? Over.
-113:47:49|T|CC|That's affirmative. That is 02. And do you have a time estimate for us until you're ready to start cabin DEPRESS? Over.
-113:48:05|T|CDR|Fifteen minutes, maybe?
-113:48:10|T|CC|Roger.
+113:46:30|T|CDR|Roger. Go ahead, Houston.
+113:46:33|T|CC|Roger. On your next depressurization, it's acceptable to use the overhead hatch dump valve in addition to or instead of the forward hatch dump valve to speed up the depressurization of the cabin. I have a T13 update for you, and if you could, sometime here, give us P00 and DATA; we'll uplink you a new CSM state vector. Over.
+113:47:05|T|CDR|All right.
+113:47:20|T|LMP|You've got the DSKY.
+113:47:22|T|CC|Roger. Your T13 time is 124:22:02. Over.
+113:47:42|T|LMP|Roger. It's T13, 124 22 - is that 02? Over.
+113:47:50|T|CC|That's affirmative. That is 02. And do you have a time estimate for us until you're ready to start cabin DEPRESS? Over.
+113:48:06|T|CDR|Fifteen minutes, maybe?
+113:48:11|T|CC|Roger.
 113:50:30|T|CC|Tranquility Base, this is Houston. Uplink complete. The computer's yours, and you can go out of DATA.
-113:50:39|T|CDR|Roger.
+113:50:41|T|CDR|Roger.
 113:59:50|T|CC|Tranquility Base, Houston.
-113:59:59|T|CDR|Go ahead. Tranquility Base, here.
-114:00:02|T|CC|Roger. Just want to let you guys know that since you're an hour and a half over your timeline and we're all taking a day off tomorrow, we're going to leave you. See you later.
-114:00:13|T|CDR|I don't blame you a bit.
-114:00:16|T|CC|That's a real great day, guys. I really enjoyed it.
-114:00:23|T|CDR|Thank you. You couldn't have enjoyed it as much as we did.
-114:00:26|T|CC|Roger.
+114:00:00|T|CDR|Go ahead. Tranquility Base, here.
+114:00:04|T|CC|Roger. Just want to let you guys know that since you're an hour and a half over your timeline and we're all taking a day off tomorrow, we're going to leave you. See you later.
+114:00:14|T|CDR|I don't blame you a bit.
+114:00:17|T|CC|That's a real great day, guys. I really enjoyed it.
+114:00:25|T|CDR|Thank you. You couldn't have enjoyed it as much as we did.
+114:00:27|T|CC|Roger.
 114:00:28|T|LMP|It was great.
 114:00:30|T|CC|Sure wish you'd hurry up and get that trash out out of there, though.
-114:00:34|T|CDR|Yes. We're just about to do it.
-114:00:36|T|CC|Okay.
-114:01:00|P|PAO|- hours one minute. We have about 2 minutes worth of tape. We'll play that for you now.
-114:01:00|P|PAO|We're live now. The Capcom voice on that last transmission was Deke Slayton, the director of Flight Crew Operations here at MSC.
-114:01:00|P|PAO|We said good night to Mike Collins and Columbia at 114 hours 6 minutes. And the cabin is coming down now on Tranquility Base. And it's down to about three and a half pounds now and holding that.
-114:01:00|P|PAO|The Tranquility Base pressure coming on down now, one and a half pounds.
-114:01:00|P|PAO|Less than half a pound of pressure now.
-114:04:27|T|CC|Tranquility Base, this is Houston. We show the suit relief valve still in the AUTO position. It should be closed. Over.
-114:05:19|T|CC|Columbia, this is Houston. Over.
-114:05:33|T|CMP|Houston, Columbia. Go ahead.
-114:05:35|T|CC|Roger. We've successfully reacquired high-gain antenna. Unless you have some other traffic with us, I guess we'll bid you a good night and let you get some sleep, Mike. Over.
-114:05:48|T|CMP|Okay. Sounds fine.
-114:05:50|T|CC|And we're going to power down the voice subcarrier part of our uplink to you in order that we don't disturb you while we're talking to Tranquility Base. If you need us, just give us a call, and we can respond with a time lag of about a minute to a minute and a half in setting reconfigured. Over.
-114:06:13|T|CMP|Okay. Thank you.
-114:06:15|T|CC|Roger. And good night.
-114:06:20|T|CMP|Good night, Bruce. Thanks a lot.
+114:00:36|T|CDR|Yes. We're just about to do it.
+114:00:38|T|CC|Okay.
+114:01:14|P|PAO|- hours one minute. We have about 2 minutes worth of tape. We'll play that for you now.
+114:03:01|P|PAO|We're live now. The Capcom voice on that last transmission was Deke Slayton, the director of Flight Crew Operations here at MSC.
+114:03:35|T|CC|Tranquility Base, this is Houston. We show the suit relief valve still in the AUTO position. It should be closed. Over.
+114:05:21|T|CC|Columbia, this is Houston. Over.
+114:05:34|T|CMP|Houston, Columbia. Go ahead.
+114:05:36|T|CC|Roger. We've successfully reacquired high-gain antenna. Unless you have some other traffic with us, I guess we'll bid you a good night and let you get some sleep, Mike. Over.
+114:05:50|T|CMP|Okay. Sounds fine.
+114:05:51|T|CC|And we're going to power down the voice subcarrier part of our uplink to you in order that we don't disturb you while we're talking to Tranquility Base. If you need us, just give us a call, and we can respond with a time lag of about a minute to a minute and a half in getting reconfigured. Over.
+114:06:14|T|CMP|Okay. Thank you.
+114:06:16|T|CC|Roger. And good night.
+114:06:21|T|CMP|Good night, Bruce. Thanks a lot.
+114:06:38|P|PAO|We said good night to Mike Collins and Columbia at 114 hours 6 minutes.
+114:08:30|P|PAO|And the cabin is coming down now on Tranquility Base.
+114:09:01|P|PAO|It's down to about three and a half pounds now, holding there.
 114:09:23|T|CC|Columbia, Columbia, this is Houston. We'd like you to ENABLE the thrusters in Bravo 1 and Bravo 2, AUTO RCS SELECT. Over.
-114:09:46|T|CMP|Okay. Bravo 1 and Bravo 2 ENABLE.
-114:09:49|T|CC|Roger. Out.
-114:10:18|T|CC|Tranquility, this is Houston. For a reference, which dump valve are you using? Over.
-114:10:28|T|CDR|We used the forward dump valve until about 2 psi, and we're using the overhead now.
-114:10:34|T|CC|Roger. Out.
-114:10:37|T|CDR|They're both - they're both open now.
-114:11:00|P|PAO|Unofficial time for start of this second depressurization 114 hours, 8 minutes, 12 seconds. Suit pressur2 is holding at about 3.9 pounds per square inch. The cabin pressure down to about a tenth of a pound now. .04 pounds now. There went something. Looked like a portable life support system. Here comes the other PLSS. Cabin is being repressurized now. The experiments console reports the seismometer recorded both the impacts of those portable life support systems. Cabin pressure up over 1 psi. Up to 2 now. 3 pounds per square inch. 4 pounds. Leveling off to about 4.8.
-114:11:00|P|PAO|Items scheduled to be jettisoned were the two portable life support systems, the lithium hydroxide canister, and the arm rests from the LM. We expect the crew to turn off the TV very shortly switching over to the -
-114:18:27|T|CDR|Houston, Tranquility Base. REPRESS complete.
-114:18:31|T|CC|Roger, Tranquility. We observed your equipment jettison on the TV, and the passive seismic experiment recorded shocks when each PLSS hit the surface. Over.
-114:18:47|T|CDR|You can't get away with anything anymore, can you?
-114:18:51|T|CC|No, indeed.
-114:21:00|P|PAO|Switching over to another telemetry mode when they turn off the TV switch.
+114:09:47|T|CMP|Okay. Bravo 1 and Bravo 2 ENABLE.
+114:09:50|T|CC|Roger. Out.
+114:09:55|P|PAO|The Tranquility Base pressure coming on down now, one and a half pounds.
+114:10:19|T|CC|Tranquility, this is Houston. For a reference, which dump valve are you using? Over.
+114:10:29|T|CDR|We used the forward dump valve until about 2 psi, and we're using the overhead now.
+114:10:35|T|CC|Roger. Out.
+114:10:38|T|CDR|They're both - they're both open now.
+114:10:42|P|PAO|Less than half a pound of pressure now.
+114:11:17|P|PAO|Unofficial time for start of this second depressurization 114 hours, 8 minutes, 12 seconds.
+114:11:55|P|PAO|Suit pressure is holding at about 3.9 pounds per square inch. The cabin pressure down to about a tenth of a pound now.
+114:12:36|P|PAO|.04 pounds now.
+114:13:59|P|PAO|There went something. Looked like a portable life support system.
+114:14:37|P|PAO|Here comes the other PLSS.
+114:16:28|P|PAO|Cabin is being repressurized now. The experiments console reports the seismometer recorded both the impacts of those portable life support systems.
+114:17:00|P|PAO|Cabin pressure up over 1 psi.
+114:17:16|P|PAO|Up to 2 now.
+114:17:31|P|PAO|3 pounds per square inch.
+114:17:47|P|PAO|4 pounds.
+114:18:15|P|PAO|Leveling off to about 4.8.
+114:18:29|T|CDR|Houston, Tranquility Base. REPRESS complete.
+114:18:33|T|CC|Roger, Tranquility. We observed your equipment jettison on the TV, and the passive seismic experiment recorded shocks when each PLSS hit the surface. Over.
+114:18:49|T|CDR|You can't get away with anything anymore, can you?
+114:18:52|T|CC|No, indeed.
+114:19:50|P|PAO|Items scheduled to be jettisoned were the two portable life support systems, the lithium hydroxide canister, and an arm rest from the LM.
+114:21:06|P|PAO|We expect the crew to turn off the TV very shortly switching over to another telemetry mode when they turn off the TV switch.
 114:21:00|P|PAO|And the TV went off at 114 hours 25 minutes 47 seconds.
-114:21:28|T|CC|Tranquility Base, this is Houston. Over.
-114:21:34|T|CDR|Go ahead, Houston.
-114:21:36|T|CC|Roger. When you get back into your surface checklist and come over to the COMM reconfiguration on page Surface 45, we'd like you to enable the ranging feature on your S band. That is, when you come down to S band configuration, instead of CAUTION and WARNING ELECTRONICS, ENABLE TV, we'd like you to go into the RANGE position and leave it there for as long as you conveniently can until you get ready to commence your rest period; and we'll try to get a little more ranging data on you. Over.
-114:22:20|T|CDR|Roger. Copy.
-114:22:23|T|CC|And of course, when you get ready to turn in, go back into caution and warning, ENABLE, and we'd like to say from all of us down here in Houston and really from all of us in all the countries and in the entire world, we think that you've done a magnificent job up there today. Over.
-114:22:46|T|CDR|Thank you very much.
-114:22:48|T|LMP|It's been a long day.
-114:22:51|T|CC|Yes, indeed. Get some rest there and have at it tomorrow.
-114:24:06|T|LMP|Houston, Tranquility. Did you all come up with any other solution that we might try to the mission timer problem? Over.
-114:24:27|T|CC|Stand by, Tranquility. We'll be back with you in just a minute.
-114:25:29|T|LMP|And, Houston, Tranquility. Have you had enough TV for today?
-114:25:34|T|CC|Tranquility, this is Houston. Yes, indeed. It's been a mighty fine presentation there.
-114:25:43|T|LMP|Okay. Signing off. See you again tomorrow.
-114:25:46|T|CC|Roger.
-114:26:53|T|CC|Columbia, Colunbia, this is Houston. Over.
-114:27:00|T|CMP|Go ahead, Houston.
-114:27:02|T|CC|Roger. Sorry to bother you, Columbia. Two things: we request that you select 10 degree deadband in your DAP in accordance with the procedures on Foxtrot 9 7 in your checklist; and secondly, we'd like to leave a display on the DSKY that is not one that's cycling, being continuously updated. What you have when you get through widening the deadband will be a static display, and that'll be satisfactory. Over.
-114:27:41|T|CMP|Okay.
-114:27:42|T|CC|Roger. Goodnight again.
-114:28:09|T|CC|Tranquility Base, this is Houston. Over.
-114:28:16|T|LMP|Roger. Go ahead.
-114:28:19|T|CC|Roger. On your mission timer, we wanted to pull the circuit breaker and let it cool down for an hour and a half to 2 hours. I believe the breaker is currently open. It has been off, so go ahead and reset the mission timer circuit breaker. Put the timer control to RESET and hold it in RESET for 30 seconds, and then slew it to your desired settings left to right, and place the timer control to START. Over.
+114:21:30|T|CC|Tranquility Base, this is Houston. Over.
+114:21:36|T|CDR|Go ahead, Houston.
+114:21:38|T|CC|Roger. When you get back into your surface checklist and come over to the COMM reconfiguration on page Surface 45, we'd like you to enable the ranging feature on your S band. That is, when you come down to S band configuration, instead of CAUTION and WARNING ELECTRONICS, ENABLE TV, we'd like you to go into the RANGE position and leave it there for as long as you conveniently can until you get ready to commence your rest period; and we'll try to get a little more ranging data on you. Over.
+114:22:22|T|LMP|Roger. Copy.
+114:22:24|T|CC|And of course, when you get ready to turn in, go back into caution and warning, ENABLE, and we'd like to say from all of us down here in Houston and really from all of us in all the countries and in the entire world, we think that you've done a magnificent job up there today. Over.
+114:22:48|T|CDR|Thank you very much.
+114:22:50|T|LMP|It's been a long day.
+114:22:52|T|CC|Yes, indeed. Get some rest there and have at it tomorrow.
+114:24:08|T|LMP|Houston, Tranquility. Did you all come up with any other solution that we might try to the mission timer problem? Over.
+114:24:29|T|CC|Stand by, Tranquility. We'll be back with you in just a minute.
+114:25:31|T|LMP|And, Houston, Tranquility. Have you had enough TV for today?
+114:25:35|T|CC|Tranquility, this is Houston. Yes, indeed. It's been a mighty fine presentation there.
+114:25:44|T|LMP|Okay. Signing off. See you again tomorrow.
+114:25:47|T|CC|Roger.
+114:25:57|P|PAO|And the TV went off at 114 hours 25 minutes 47 seconds.
+114:26:54|T|CC|Columbia, Colunbia, this is Houston. Over.
+114:27:02|T|CMP|Go ahead, Houston.
+114:27:03|T|CC|Roger. Sorry to bother you, Columbia. Two things: we request that you select 10 degrees deadband in your DAP in accordance with the procedures on Foxtrot 9-7 in your checklist; and secondly, we'd like to leave a display on the DSKY that is not one that's cycling, being continuously updated. What you have when you get through widening the deadband will be a static display, and that'll be satisfactory. Over.
+114:27:42|T|CMP|Okay.
+114:27:43|T|CC|Roger. Goodnight again.
+114:28:11|T|CC|Tranquility Base, this is Houston. Over.
+114:28:17|T|LMP|Roger. Go ahead.
+114:28:20|T|CC|Roger. On your mission timer, we wanted to pull the circuit breaker and let it cool down for an hour and a half to 2 hours. I believe the breaker is currently open. It has been off, so go ahead and reset the mission timer circuit breaker. Put the timer control to RESET and hold it in RESET for 30 seconds, and then slew it to your desired settings left to right, and place the timer control to START. Over.
 114:29:04|T|LMP|Okay. We'll try it.
-114:29:55|T|CDR|Houston, our mission timer seems to be slewing okay. You want to give us a time hack? Or can we get it off the CMC   LGC, I mean?
-114:30:23|T|CC|Roger, Tranquility. I'll give you a time hack at 114 31 00. It's about 30 seconds from now. Over.
-114:30:51|T|CC|Stand by for a Mark at 114 31.
-114:30:52|T|LMP|Okay. ... you.
-114:30:57|T|CC|Stand by.
-114:31:00|T|CC|MARK.
-114:31:14|T|CC|Tranquility, this is Houston. Did you copy my Mark at 114 31?
-114:31:22|T|CDR|Roger. Thank you, and our mission timer is running now.
-114:31:27|T|CC|Roger. Very good. And, I've got a consumables update for you if you're ready to copy or listen. Over.
-114:31:38|T|LMP|Stand by.
-114:31:43|T|LMP|Okay. Go ahead.
-114:31:45|T|CC|Okay. RCS Alfa is 81 percent, RCS Bravo 75 percent. Coming up on 115 hours GET, descent oxygen is 31.8 pounds or 59 percent; descent amp hours 858, and ascent amp hours 574. Over.
-114:32:28|T|LMP|Roger. Copy. Thank you very much.
-114:32:32|T|CC|Roger. Out.
-114:33:06|T|CC|Tranquility, this is Houston. We also have a set of about 10 questions relating to observations you made, things you may have seen during the EVA. You can either discuss a little later on this evening or sometime later in the mission at your option. How do you feel? Over.
-114:33:35|T|CDR|I guess we can take them up now.
-114:33:39|T|CC|Okay. And your friendly Green Team here has pretty well been relieved by your friendly Maroon Team, and I'll put Owen on with the questions.
-114:33:52|T|CC|Tranquility - -
-114:33:53|T|CDR|Okay. Thank you, Bruce. Go ahead.
-114:33:59|T|CC|Tranquility, Houston. First question here is how your best estimate of the yaw on the - of the LM as compared to the nominal preFlight Plan. Over.
-114:34:16|T|LMP|We got 13 degrees left on the ball, and I think that's probably about right. Looking at the shadow and so on, we prob - probably about 13 degrees left of the shadow.
-114:34:31|T|CC|Roger. That's 13 degrees left of the shadow. And, next question relates to the depth of the bulk sampling that you obtained near the first part of the EVA and any changes in composition that you might have observed during the bulk sampling interval. Over.
+114:29:57|T|CDR|Houston, our mission timer seems to be slewing okay. You want to give us a time hack? Or can we get it off the CMC - LGC, I mean?
+114:30:25|T|CC|Roger, Tranquility. I'll give you a time hack at 114:31:00. It's about 30 seconds from now. Over.
+114:30:52|T|CC|Stand by for a Mark at 114:31.
+114:30:54|T|LMP|Okay. ... you.
+114:30:58|T|CC|Stand by.
+114:31:01|T|CC|MARK.
+114:31:16|T|CC|Tranquility, this is Houston. Did you copy my Mark at 114:31?
+114:31:23|T|CDR|Roger. Thank you, and our mission timer is running now.
+114:31:28|T|CC|Roger. Very good. And, I've got a consumables update for you if you're ready to copy or listen. Over.
+114:31:39|T|CDR|Stand by.
+114:31:44|T|LMP|Okay. Go ahead.
+114:31:46|T|CC|Okay. RCS Alfa is 81 percent, RCS Bravo 75 percent. Coming up on 115 hours GET, descent oxygen is 31.8 pounds or 59 percent; descent amp hours 858, and ascent amp hours 574. Over.
+114:32:30|T|LMP|Roger. Copy. Thank you very much.
+114:32:33|T|CC|Roger. Out.
+114:33:07|T|CC|Tranquility, this is Houston. We also have a set of about 10 questions relating to observations you made, things you may have seen during the EVA. You can either discuss a little later on this evening or sometime later in the mission at your option. How do you feel? Over.
+114:33:36|T|CDR|I guess we can take them up now.
+114:33:40|T|CC|Okay. And your friendly Green Team here has pretty well been relieved by your friendly Maroon Team, and I'll put Owen on with the questions.
+114:33:53|T|CC|Tranquility - -
+114:33:55|T|CDR|Okay. Thank you, Bruce. ... Go ahead.
+114:34:00|T|CC|Tranquility, Houston. First question here is how your best estimate of the yaw on the - of the LM as compared to the nominal preflight Plan. Over.
+114:34:17|T|CDR|We got 13 degrees left on the ball, and I think that's probably about right. Looking at the shadow and so on, we prob - probably about 13 degrees left of the shadow.
+114:34:32|T|CC|Roger. That's 13 degrees left of the shadow. And, next question relates to the depth of the bulk sampling that you obtained near the first part of the EVA and any changes in composition that you might have observed during the bulk sampling interval. Over.
 114:35:02|T|CDR|I'm not sure I understand that question, but we got a good bit of the ground mass in the bulk sample plus a sizable number of selected rock fragments of different types.
-114:35:22|T|CC|Roger, Neil. One of the implications here is the depth from which the bulk sample was collected. Did you manage to get down there several inches or nearer the surface? Over.
-114:35:37|T|CDR|We got some down from as much as 3 inches in the area where I was looking at variation with depth in the bulk sample. There really wasn't appreciable difference, and I didn't run into any hard bed. Later on, or at some other times and other areas, why, I'd get down just a short distance, an inch or two, and couldn't go any further.
-114:36:06|T|CC|Roger. Believe we understand down as deep as 3 inches, did not hit any hard bed, and no significant changes in composition to that depth. Next question, the - the second SRC was packed rather hurriedly due to the time limitation, and wonder if you would be able to provide any more detailed description of the samples which were included in the second SRC. Over.
-114:36:40|T|CDR|We got two core tubes and solar wind and about half of the big sample bag full of assorted rocks which I picked up hurriedly from around the area. I tried to get as many representative types as I could.
-114:37:09|T|CC|Roger, Neil. Next topic here relates to the rays which emanate from the DPS engine burning area. We're wondering if the rays emanating from the - beneath the engine are any darker or lighter than the surrounding surface. Over.
-114:37:42|T|LMP|The ones that I saw back in the aft end of the spacecraft appeared to be a good bit darker; of course, viewed from the aft end, why, they did have the Sun shining directly on them. It seemed as though the material had been baked somewhat and also scattered in a radially outward direction, but in that particular area, this feature didn't extend more than about 2, maybe 3 feet, from the skirt of the engine. Over.
-114:38:24|T|CC|Roger. Understand that near the aft end out to the east that the rays did appear darker. I understand, Buzz, that these were - this was the appearance of the material which had been uncovered by the rays that appeared darker for 2 or 3 feet extending outward. Is that correct?
-114:38:49|T|LMP|No. I wouldn't say it was necessarily material that had been uncovered. I think some of the material might have been baked or in some way caused to be more cohesive and perhaps flow together in some way, I don't know. Now, in other areas, before we started trampling around out front, why, we could see that small erosion had taken place in a radially outward direction, but it had left no significant mark on the surface other than just having eroded it away. Now, it was different back in the - right under the skirt itself. It seems as though the surface had been baked in a streak fashion, and I think a couple of pictures on film will show this. But that didn't extend out very far. Over.
-114:39:48|T|CC|Roger, Tranquility. And this baked appearance that you described, at least the suggestion is that it was due to the heat of the engine at any rate. Next subject, did - -
-114:40:01|T|LMP|I believe so.
-114:40:02|T|CC|Roger. Next subject, did either of the solar panels on the PSE touch the surface of the Moon during deployment? Over.
-114:40:19|T|LMP|I think that two corners did touch, since when it was deployed, both of them didn't come out at the same time. It unfolded a little unevenly, and of course, the terrain that it was on was a little bit - not quite as level as it was - as I would like to have it. And I think that two corners did touch to about 1 inch - no, three quarters to a half an inch deep; and maybe along the bottom, it might have been maybe 3 inches, leaving a small triangular coating on two of the corners; and I think these are on the western ones. Over.
-114:41:06|T|CC|Roger. Understand the description there. And the next subject, on the two core tubes which you collected, how did the driving force required to collect these tubes compare? Was there any difference? Over
-114:41:27|T|LMP|Not significantly. I could get down to about the first 2 inches without much of a problem, and then as I would pound it in about as hard as I could do it, and the second one took two hands on the hammer, and I was putting pretty good dents in the top of the extension rod, and it just wouldn't go much more than - I think the total depth might have been about 8 or 9 inches. But even there, it didn't - For some reason it didn't seem to want to stand up straight. In other words, I'd keep driving it in and it would dig some sort of a hole but it wouldn't - just penetrate in a way that would support it and keep it from falling over, if that makes any sense at all. It didn't really to me. Over.
-114:42:00|P|PAO|The Capcom there was astronaut Owen Garrett, one of the group of five scientists astronauts selected in 1965.
-114:42:22|T|CC|Roger, Buzz. I think I've got the picture. You indicate that little difference between the two samples and that in each case you got down about 2 inches without any problems and then had to continue hammering rather vigorously in order to continue driving it in to a total depth of 8 or 9 inches, and even at that point the rods did not want to stay vertical, that they'd tend to fall over on you even after pounding in that far. Is that correct?
-114:42:59|T|LMP|Yes. That's about it. It wasn't a rapid change in resistive force. And also I noticed when I took the bit off that the material was quite well packed, a good bit darker, and it - The way it adhered to the core tube gave me the distinct impression of being moist. Over.
-114:43:23|T|CC|Roger. Understand the general impression of being moist as it packed in the core tube. Next question: we did copy your comments prior to the EVA of your general description of the area. We wonder if either of you would have any more lengthy description or more detailed description of the general summary of the geology of the area. Over.
-114:44:01|T|LMP|Yes let's - we'll - We'll postpone our answer to that one until tomorrow. Okay?
-114:44:08|T|CC|Yes, indeed. That'll be fine. Just a couple more here, and I think these may not be quite as lengthy as number 7 there. Can you estimate the stroke of the primary and secondary struts? Over.
-114:44:31|T|CDR|Well, I could do it like this, Owen. About all the struts are about equally stroked, and the height from the ground to the first step is about 3 feet or maybe 3 and 1/2 feet, huh?
-114:44:52|T|CC|Roger. Understand, Neil. Next topic, as - just after landing, you pointed out that there was a hill to the west along the plus Z axis from the LM. Are there any large rocks in that direction that might block the solar ray during the sunset - as sunset approaches in your locality - Are there any large rocks that might tend to obscure the ray? Over.
-114:45:32|T|LMP|No. I don't believe so, I think that it's - It's about as level as any other areas that we chose.
-114:45:46|T|CC|Roger. I - -
-114:45:47|T|LMP|There's nothing large, anyway, that's going to get in the way.
-114:45:50|T|CC|Roger. Copy. That's also the way it appeared from the television, I think. And now the final question. You commented, Neil, that on your approach to the landing spot, you had passed over a football field sized crater containing rather large blocks of solid rock perhaps 10 to 15 feet in size. Can you estimate the distance to this football sized crater from your present position? Over.
-114:46:25|T|CDR|I thought we'd be close enough so that when we got outside we could see its rim back there but I couldn't. But I don't think that we're more than a half mile beyond it. That is a half mile west of it.
-114:46:45|T|CC|Roger. So you estimate your present position less than half a mile approximately west of this large crater. Over.
-114:46:56|T|CDR|That's correct.
-114:46:58|T|CC|Okay. Well, that takes care of the questions from our geologists for tonight, and unless you have something else, that'll be all for - from us for the evening. Over.
-114:47:12|T|LMP|Okay. Thank you.
-114:49:01|T|CC|Tranquility Base, Houston. We've now collected all the ranging data that we can use, and you can go back to caution and warning ENABLE. Over.
-114:49:14|T|LMP|Roger. Will do.
-114:52:00|P|PAO|Tranquility Base has confirmed that they left on the lunar surface all the items they had planned to. We have said good night to Neil Armstrong and Buz Aldrin. We will continue to monitor throughout this rest period which is scheduled to end at about 122 hours elapsed time. We're now 114 hours 53 minutes. Should there be any further conversations with either Tranquility Base or Columbia, we will come back up and bring those to you. This is Mission Control, Houston.
-114:52:18|T|CC|Tranquility Base, Houston. Over.
-114:52:27|T|LMP|Go ahead, Houston.
-114:52:28|T|CC|Roger. Two more verifications, here. Can you - will you verify that the disk with messages was placed on the surface as planned, and also that the items listed in the Flight Plan - all of those listed there were jettisoned. Over.
-114:52:48|T|LMP|That's - All that's verified.
-114:52:51|T|CC|Roger. Thank you, and I hope this will be a final good night.
-114:52:57|T|LMP|Okay.
+114:35:23|T|CC|Roger, Neil. One of the implications here is the depth from which the bulk sample was collected. Did you manage to get down there several inches or nearer the surface? Over.
+114:35:38|T|CDR|We got some down from as much as 3 inches in the area where I was looking at variation with depth in the bulk sample. There really wasn't appreciable difference, and I didn't run into any hard bed. Later on, or at some other times and other areas, why, I'd get down just a short distance, an inch or two, and couldn't go any further.
+114:36:07|T|CC|Roger. Believe we understand down as deep as 3 inches, did not hit any hard bed, and no significant changes in composition to that depth. Next question, the - the second SRC was packed rather hurriedly due to the time limitation, and wonder if you would be able to provide any more detailed description of the samples which were included in the second SRC. Over.
+114:36:42|T|CDR|We got two core tubes and solar wind and about half of a big sample bag full of assorted rocks which I picked up hurriedly from around the area. I tried to get as many representative types as I could.
+114:37:10|T|CC|Roger, Neil. Next topic here relates to the rays which emanate from the DPS engine burning area. We're wondering if the rays emanating from the - beneath the engine are any darker or lighter than the surrounding surface. Over.
+114:37:44|T|LMP|The ones that I saw back in the aft end of the spacecraft appeared to be a good bit darker; of course, viewed from the aft end, why, they did have the Sun shining directly on them. It seemed as though the material had been baked somewhat and also scattered in a radially outward direction, but in that particular area, this feature didn't extend more than about 2, maybe 3 feet, from the skirt of the engine. Over.
+114:38:25|T|CC|Roger. Understand that near the aft end out to the east that the rays did appear darker. I understand, Buzz, that these were - this was the appearance of the material which had been uncovered by the rays that appeared darker for 2 or 3 feet extending outward. Is that correct?
+114:38:50|T|LMP|No. I wouldn't say it was necessarily material that had been uncovered. I think some of the material might have been baked or in some way caused to be more cohesive and perhaps flow together in some way, I don't know. Now, in other areas, before we started trampling around out front, why, we could see that small erosion had taken place in a radially outward direction, but it had left no significant mark on the surface other than just having eroded it away. Now, it was different back in the - right under the skirt itself. It seems as though the surface had been baked in a streak fashion, and I think a couple of pictures on film will show this. But that didn't extend out very far. Over.
+114:39:49|T|CC|Roger, Tranquility. And this baked appearance that you described, at least the suggestion is that it was due to the heat of the engine at any rate. Next subject, did - -
+114:40:03|T|LMP|I believe so.
+114:40:04|T|CC|Roger. Next subject, did either of the solar panels on the PSE touch the surface of the Moon during deployment? Over.
+114:40:20|T|LMP|I think that two corners did touch, since when it was deployed, both of them didn't come out at the same time. It unfolded a little unevenly, and of course, the terrain that it was on was a little bit - not quite as level as it was - as I would like to have it. And I think that two corners did touch to about 1 inch - no, three quarters to a half an inch deep; and maybe along the bottom, it might have been maybe 3 inches, leaving a small triangular coating on two of the corners; and I think these are on the western ones. Over.
+114:41:08|T|CC|Roger. Understand the description there. And the next subject, on the two core tubes which you've collected, how did the driving force required to collect these tubes compare? Was there any difference? Over
+114:41:28|T|LMP|Not significantly. I could get down to about the first 2 inches without much of a problem, and then as I would pound it in about as hard as I could do it, and the second one took two hands on the hammer, and I was putting pretty good dents in the top of the extension rod, and it just wouldn't go much more than - I think the total depth might have been about 8 or 9 inches. But even there, it didn't - For some reason it didn't seem to want to stand up straight. In other words, I'd keep driving it in and it would dig some sort of a hole but it wouldn't - just penetrate in a way that would support it and keep it from falling over, if that makes any sense at all. It didn't really to me. Over.
+114:42:26|T|CC|Roger, Buzz. I think I've got the picture. You indicate that little difference between the two samples and that in each case you got down about 2 inches without any problems and then had to continue hammering rather vigorously in order to continue driving it in to a total depth of 8 or 9 inches, and even at that point the rods did not want to stay vertical, that they'd tend to fall over on you even after pounding in that far. Is that correct?
+114:43:02|T|LMP|Yes. That's about it. It wasn't a rapid change in resistive force. And also I noticed when I took the bit off that the material was quite well packed, a good bit darker, and it - The way it adhered to the core tube gave me the distinct impression of being moist. Over.
+114:43:26|T|CC|Roger. Understand the general impression of being moist as it packed in the core tube. Next question: we did copy your comments prior to the EVA of your general description of the area. We wonder if either of you would have any more lengthy description or more detailed description of the general summary of the geology of the area. Over.
+114:44:03|T|CDR|Yes let's - we'll - We'll postpone our answer to that one until tomorrow. Okay?
+114:44:09|T|CC|Yes, indeed. That'll be fine. Just a couple more here, and I think these may not be quite as lengthy as number 7 there. Can you estimate the stroke of the primary and secondary struts? Over.
+114:44:32|T|CDR|Well, I could do it like this, Owen. About all the struts are about equally stroked, and the height from the ground to the first step is about 3 feet or maybe 3 and 1/2 feet, huh?
+114:44:53|T|CC|Roger. Understand, Neil. Next topic, as - just after landing, you pointed out that there was a hill to the west along the plus Z axis from the LM. Are there any large rocks in that direction that might block the solar array during the sunset - as sunset approaches in your locality - Are there any large rocks that might tend to obscure the array? Over.
+114:45:34|T|LMP|No. I don't believe so, I think that it's - it's about as level as any other areas that we chose.
+114:45:47|T|CC|Roger. I - -
+114:45:49|T|LMP|There's nothing large, anyway, that's going to get in the way.
+114:45:51|T|CC|Roger. Copy. That's also the way it appeared from the television, I think. And now the final question. You commented, Neil, that on your approach to the landing spot, you had passed over a football field sized crater containing rather large blocks of solid rock perhaps 10 - 15 feet in size. Can you estimate the distance to this football sized crater from your present position? Over.
+114:46:26|T|CDR|I thought we'd be close enough so that when we got outside we could see its rim back there but I couldn't. But I don't think that we're more than a half mile beyond it. That is a half mile west of it.
+114:46:47|T|CC|Roger. So you estimate your present position less than half a mile approximately west of this large crater. Over.
+114:46:58|T|CDR|That's correct.
+114:47:00|T|CC|Okay. Well, that takes care of the questions from our geologists for tonight, and unless you have something else, that'll be all for - from us for the evening. Over.
+114:47:14|T|LMP|Okay. Thank you.
+114:47:26|P|PAO|The Capcom there was astronaut Owen Garriott, one of the group of five scientists astronauts selected in 1965.
+114:49:03|T|CC|Tranquility Base, Houston. We've now collected all the ranging data that we can use, and you can go back to caution and warning ENABLE. Over.
+114:49:15|T|LMP|Roger. Will do.
+114:52:19|T|CC|Tranquility Base, Houston. Over.
+114:52:28|T|LMP|Go ahead, Houston.
+114:52:29|T|CC|Roger. Two more verifications, here. Can you - will you verify that the disk with messages was placed on the surface as planned, and also that the items listed in the Flight Plan - all of those listed there were jettisoned. Over.
+114:52:50|T|LMP|That's - All that's verified.
+114:52:52|T|CC|Roger. Thank you, and I hope this will be a final good night.
+114:52:58|T|LMP|Okay.
+114:53:20|P|PAO|Tranquility Base has confirmed that they left on the lunar surface all the items they had planned to. We have said goodnight to Neil Armstrong and Buz Aldrin. We will continue to monitor throughout this rest period which is scheduled to end at about 122 hours elapsed time. We're now 114 hours 53 minutes. Should there be any further conversations with either Tranquility Base or Columbia, we will come back up and bring those to you. This is Mission Control, Houston.
 115:37:00|T||BEGIN LUNAR REV 21
-115:50:00|P|PAO|This is Apollo Control at 115 hours 50 minutes. It's been almost an hour since we said good night to Tranquility Base. Dr. Kenneth Biers, the Flight Surgeon on this shift, reports that he does not believe that Neil Armstrong is asleep yet. From his heart rate, he thinks he's resting and perhaps dozing from time to time, but he doesn't believe that he is asleep. Neil is the only one being monitored in Tranquility Base. There is no biomedical instrumentation for Buzz Aldrin. Dr. Biers reports that Mike Collins is sound asleep in Columbia as it orbits the Moon. Columbia has just entered its 21st revolution of the Moon. All systems on the Lunar Module are in good order, showing cabin pressure of 4.9 pounds per square inch, cabin temperature 62 degrees Fahrenheit. We have not heard from Tranquility Base since saying good night and we have not attempted to call them. This is Mission Control, Houston.
-116:50:00|P|PAO|This is Apollo Control at 116 hours 50 minutes. All systems in both Columbia and Tranquility Base still operating very well. No problems. Dr. Kenneth Biers' report is the same as the one an hour ago. The data from Neil Armstrong indicates that he is resting, but he is not believed to be asleep, not following the pattern of sleep, but he is resting. Cabin pressure is holding steady at 4.9 pounds per square inch, temperature at 62 degrees Fahrenheit. The consumables in Tranquility Base are still in good shape, showing 45 and a half per cent of the descent water still remaining, the water very important for cooling on the lunar surface. Showing 63 per cent of the oxygen supply in the Descent Stage still remaining. Both of those consumables in the Ascent Stage very high - have not been used yet. Two water tanks in the Ascent Stage, each one showing 97.6 per cent; the other showing 98.4. Two oxygen tanks in the Ascent Stage, one reading 93 and a half per cent, the other 96.8 per cent. Mike Collins still asleep in Columbia. At 116 hours 52 minutes, all still going well with both spacecrafts. This is Mission Control, Houston.
+115:50:10|P|PAO|This is Apollo Control at 115 hours 50 minutes. It's been almost an hour since we said good night to Tranquility Base. Dr. Kenneth Biers, the Flight Surgeon on this shift, reports that he does not believe that Neil Armstrong is asleep yet. From his heart rate, he thinks he's resting and perhaps dozing from time to time, but he doesn't believe that he is asleep. Neil is the only one being monitored in Tranquility Base. There is no biomedical instrumentation for Buzz Aldrin. Dr. Biers reports that Mike Collins is sound asleep in Columbia as it orbits the Moon. Columbia has just entered its 21st revolution of the Moon. All systems on the Lunar Module are in good order, showing cabin pressure of 4.9 pounds per square inch, cabin temperature 62 degrees Fahrenheit. We have not heard from Tranquility Base since saying good night and we have not attempted to call them. This is Mission Control, Houston.
+116:50:08|P|PAO|This is Apollo Control at 116 hours 50 minutes. All systems in both Columbia and Tranquility Base still operating very well. No problems. Dr. Kenneth Biers' report is the same as the one an hour ago. The data from Neil Armstrong indicates that he is resting, but he is not believed to be asleep, not following the pattern of sleep, but he is resting. Cabin pressure is holding steady at 4.9 pounds per square inch, temperature at 62 degrees Fahrenheit. The consumables in Tranquility Base are still in good shape, showing 45 and a half percent of the descent water still remaining, the water very important for cooling on the lunar surface. Showing 63 per cent of the oxygen supply in the Descent Stage still remaining. Both of those consumables in the Ascent Stage very high - have not been used yet. Two water tanks in the Ascent Stage, each one showing 97.6 percent; the other showing 98.4. Two oxygen tanks in the Ascent Stage, one reading 93 and a half per cent, the other 96.8 per cent. Mike Collins still asleep in Columbia. At 116 hours 52 minutes, all still going well with both spacecrafts. This is Mission Control, Houston.
 117:36:00|T||BEGIN LUNAR REV 22
-117:54:40|P|PAO|This is Apollo Control at 117 hours 54 minutes. All continues to go well with both Columbia orbiting the Moon, now in its 22nd revolution, and Tranquility Base on the surface of the Moon. Flight surgeon Dr. Kenneth Biers says his data continues to indicate that Neil Armstrong may be dozing but he's sure that he is not sleeping soundly or well. Heart rates have been down in the 50's at times, but have not stayed there very long. He believes he may be sleeping fitfully and dozing, but stirring around quite a bit. Mike Collins still sleeping in Columbia and the Lunar Module Pilot Buzz Aldrin is not instrumented so the doctors cannot determine whether he's asleep or not. Cabin pressure in the Lunar Module still holding steady at 4.9 pounds per square inch. Temperature has dropped one degree since last report, now reading 61 degrees Fahrenheit. All consumables are still in good shape. This is Mission Control, Houston.
-118:50:00|P|PAO|This is Apollo Control at 118 hours 50 minutes. Flight Controllers here in Mission Control Center continue to monitor the systems of Eagle at Tranquility base consistently and of Columbia when that spacecraft is within acquisition on the front side of the Moon. And they are in acquisition of Columbia telemetry now, it's in it's 22 revolution. Everything continuing to go very well. All systems normal. Mike Collins is still alseep, very well, in Columbia. Neil Armstrong sleeping fitfully, if indeed he is asleep at all at Tranquility base. Throughout this rest period the cabin pressure has held very steady at 4.9 in the Lunar Module. We're still showing a cabin temperature of 61. This is Mission Control, Houston.
+117:54:10|P|PAO|This is Apollo Control at 117 hours 54 minutes. All continues to go well with both Columbia orbiting the Moon, now in its 22nd revolution, and Tranquility Base on the surface of the Moon. Flight surgeon Dr. Kenneth Biers says his data continues to indicate that Neil Armstrong may be dozing but he's sure that he is not sleeping soundly or well. Heart rates have been down in the 50's at times, but have not stayed there very long. He believes he may be sleeping fitfully and dozing, but stirring around quite a bit. Mike Collins still sleeping in Columbia and the Lunar Module Pilot, Buzz Aldrin is not instrumented so the doctors cannot determine whether he's asleep or not. Cabin pressure in the Lunar Module still holding steady at 4.9 pounds per square inch. Temperature has dropped one degree since last report, now reading 61 degrees Fahrenheit. All consumables are still in good shape. This is Mission Control, Houston.
+118:50:12|P|PAO|This is Apollo Control at 118 hours 50 minutes. Flight Controllers here in Mission Control Center continue to monitor the systems of Eagle at Tranquility Base constantly, and of Columbia when that spacecraft is within acquisition on the front side of the Moon. And they are in acquisition of Columbia telemetry now, it's in it's 22 revolution. Everything continuing to go very well. All systems normal. Mike Collins is still alseep, very well, in Columbia. Neil Armstrong sleeping fitfully, if indeed he is asleep at all at Tranquility Base. Throughout this rest period the cabin pressure has held very steady at 4.9 in the Lunar Module. We're still showing a cabin temperature of 61. This is Mission Control, Houston.
 119:33:00|T||BEGIN LUNAR REV 23
-119:51:00|P|PAO|This is Apollo Control at 119 hours, 51 minutes. The report is the same as it has been throughout the rest period. All systems in both Eagle and Columbia are operating very well, Mike Collins asleep, Neil Armstrong sleeping fitfully. The heart rate goes down into the sleep range but then comes up out of it indicating he is stirring around considerably. Columbia is in its 23rd revolution now in an orbit 62 by 57 nautical miles. Still holding 4.9 pounds per square inch, cabin pressure 61 degrees Fahrenheit temperature. The descent water quantity now shows 39 and one-half percent remaining. Descent oxygen quantity 63 percent remaining. This is Mission Control, Houston.
-120:59:00|P|PAO|This is Apollo Control 120 hours 59 minutes Ground Elapsed Time. We've called the spacecraft Columbia from Mission Control here to wake up Mike Collins. The network is configured so that the LM crew, the Eagle crew, will not be disturbed. Lets join the conversation in progress.
-120:59:04|T|CC|Columbia, Columbia, good morning from Houston.
-120:59:12|T|CMP|Hi, Ron.
-120:59:14|T|CC|Hey, Mike, how's it going this morning?
-120:59:17|T|CMP|How goes it?
-120:59:18|T|CC|Hey, real fine. While you're - -
-120:59:20|T|CMP|I don't know yet, how's it going with you?
-120:59:23|T|CC|Real fine here. Columbia, request P00 and ACCEPT. We'll shove the state vector in for you right away.
-120:59:57|T|CC|Okay. It's coming up now, Columbia. We're going to keep you a little busy here. As soon as we get the state vector in, we'd like you to go ahead and do a P52 option 3 on this night pass, and then when you come on around the other side there, we'll give you some landmark tracking information on prime 130.
-121:00:00|P|PAO|This is Apollo Control. Spacecraft Columbia has gone behind the Moon on the twenty-third lunar revolution. Be acquired again at - well, let's see now, it looks like we don't have acquisition table up yet for next rev. During this pass and the short conversation toward the end of the front side pass with Columbia, the network transmitters have been arranged so that the transmissions would not disturb the crew of Eagle who at this time should be asleep. Not since Adam has any human known such solitude as Mike Collins is experiencing during this 47 minutes of each lunar revolution when he's behind the Moon with no one to talk to except his tape recorder aboard Columbia. While he waits for his comrades to soar with Eagle from Tranquility Base and rejoin him for the trip back to Earth, Collins, with the help of Flight Controllers here in Mission Control Center has kept the Command Module's system going "pocketa-pocketapocketa". At 120 hours, 12 minutes Ground Elapsed Time, this is Apollo Control.
-121:00:29|T|CMP|Okay.
-121:00:34|T|CC|And for your information, we're also going to have Tranquility Base do a P52 when you come around the other time; and I have the P22 information if you're ready to copy.
-121:00:54|T|CMP|Go ahead.
-121:00:56|T|CC|Okay. Track landmark 130 prime using P22, and for information, this will properly position your rendezvous radar transponder. T1 is 122 plus 16 plus 05 - whoops, okay. Stand by.
-121:02:04|T|CC|Columbia, Houston. The computer is yours.
-121:02:12|T|CMP|Okay. And I'd like the grid square of this crater 130 prime. Over.
-121:02:24|T|CC|Columbia, Houston. Say again about 130 prime.
-121:02:31|T|CMP|I'd like its grid square, please.
-121:02:35|T|CC|Roger. Stand by.
-121:04:58|T|CC|Columbia, Houston.
-121:05:08|T|CMP|Go ahead.
-121:05:09|T|CC|Roger. I have the T1 and T2 times and also the longitude of the 130 prime. We're working on the grid squares and we'll get them shortly.
-121:05:26|T|CMP|Okay. Ready to copy.
-121:05:28|T|CC|Okay. T1: 122 plus 16 plus 05. Tango 2 is 122 plus 21 plus 11, and 6 miles north of track. And do you want your NOUN 89 values?
+119:51:04|P|PAO|This is Apollo Control at 119 hours, 51 minutes. The report is the same as it has been throughout the rest periods. All systems in both Eagle and Columbia are operating very well, Mike Collins asleep, Neil Armstrong sleeping fitfully. The heartrate goes down into the sleep range but then comes up out of it indicating he is stirring around considerably. Columbia is in its 23rd revolution, now in an orbit 62 by 57 nautical miles. Still holding 4.9 pounds per square inch cabin pressure, 61 degrees Fahrenheit temperature. The descent water quantity now shows 39 and one-half percent remaining. Descent oxygen quantity 63 percent remaining. This is Mission Control, Houston.
+120:58:42|P|PAO|This is Apollo Control 120 hours 59 minutes Ground Elapsed Time. We've called the spacecraft Columbia from Mission Control here to wake up Mike Collins. The network is configured so that the LM crew, the Eagle crew, will not be disturbed. Lets join the conversation in progress.
+120:59:08|T|CC|Columbia, Columbia, good morning from Houston.
+120:59:16|T|CMP|Good morning, Ron.
+120:59:18|T|CC|Hey, Mike, how's it going this morning?
+120:59:21|T|CMP|How goes it?
+120:59:22|T|CC|Hey, real fine. While you're - -
+120:59:24|T|CMP|I don't know yet, how's it going with you?
+120:59:25|T|CC|Real fine here. Columbia, request P00 and ACCEPT. We'll shove the state vector in for you right away.
+121:00:01|T|CC|Okay. It's coming up now, Columbia. We're going to keep you a little busy here. As soon as we get the state vector in, we'd like you to go ahead and do a P52 option 3 on this night pass, and then when you come on around the other side there, we'll give you some landmark tracking information on prime 130.
+121:00:32|T|CMP|Okay.
+121:00:37|T|CC|And for your information, we're also going to have Tranquility Base do a P52 when you come around the other time; and I have the P22 information if you're ready to copy.
+121:00:58|T|CMP|Go ahead.
+121:00:59|T|CC|Okay. Track landmark 130 prime using P22, and for information, this will properly position your rendezvous radar transponder. T1 is 122 plus 16 plus 05 - whoops, okay. Stand by.
+121:02:07|T|CC|Columbia, Houston. The computer is yours.
+121:02:16|T|CMP|Okay. And I'd like the grid square of this crater 130 prime. Over.
+121:02:27|T|CC|Columbia, Houston. Say again about 130 prime.
+121:02:35|T|CMP|I'd like its grid square, please.
+121:02:38|T|CC|Roger. Stand by.
+121:05:02|T|CC|Columbia, Houston.
+121:05:12|T|CMP|Go ahead.
+121:05:13|T|CC|Roger. I have the T1 and T2 times and also the lat/long of the 130 prime. We're working on the grid squares and we'll get them shortly.
+121:05:30|T|CMP|Okay. Ready to copy.
+121:05:31|T|CC|Okay. T1: 122 plus 16 plus 05. Tango 2 is 122 plus 21 plus 11, and 6 miles north of track. And do you want your NOUN 89 values?
 121:05:58|T|CMP|Yes, please.
 121:06:00|T|CC|Roger. Latitudes, plus 01.243. Longitude over 2, plus 11.844. Altitude, minus 001.46. Over.
 121:06:32|T|CMP|Copy T1: 122 16 05. T2: 122 21 11, 6 miles north, NOUN 89 is plus 01243, plus 11844, minus 00146.
@@ -13744,7 +13756,7 @@
 160:03:53|T|CMP|That's affirmative. I couldn't even find the chlorine.
 160:03:56|T|CC|(Laughing) Yes.
 160:25:45|T|CC|Hello, Apollo 11. Houston. Sorry to bother you, but we'd like to have you do a VERB 34 to get the NOUN 65 off of there. Over.
-161:28:00|P|PAO|This is Apollo Control, 161 hours, 28 minutes Ground Elapsed Time. The crew of Columbia is now in a 10 hour sleep period. The official time they went to sleep according to the surgeon, Dr. Cannon Biers is 160 hours, 42 minutes Ground Elapsed Time, almost an hour ago. The Columbia now is 141,369 nautical miles out from Earth, approaching at a velocity of 1,628 feet per second. Entry clock now showing 33 hours, 34 minutes to entry or 400,000 feet altitude. Here at Mission Control the Black Team of Flight Controllers headed up by Glen Lunnie is moving in to take over for the next eight hours or so. Spacecraft communicator, Charlie Duke will be replaced by Ron Evans, who just entered the room. And at 161 hours, 29 minutes Ground Elapsed Time, this is Apollo Control.
+161:28:00|P|PAO|This is Apollo Control, 161 hours, 28 minutes Ground Elapsed Time. The crew of Columbia is now in a 10 hour sleep period. The official time they went to sleep according to the surgeon, Dr. Cannon Biers is 160 hours, 42 minutes Ground Elapsed Time, almost an hour ago. The Columbia now is 141,369 nautical miles out from Earth, approaching at a velocity of 1,628 feet per second. Entry clock now showing 33 hours, 34 minutes to entry or 400,000 feet altitude. Here at Mission Control the Black Team of Flight Controllers headed up by Glynn Lunnie is moving in to take over for the next eight hours or so. Spacecraft communicator, Charlie Duke will be replaced by Ron Evans, who just entered the room. And at 161 hours, 29 minutes Ground Elapsed Time, this is Apollo Control.
 162:28:00|P|PAO|This is Apollo control at 162 hours, 28 minutes. The Apollo 11 spacecraft Columbia is 138,674 nautical miles from Earth approaching at a velocity of 4692 feet per second. Spacecraft weight, 26,000 pounds. Flight director Glen Lunney has just completed a status check with all of the Flight Controllers here, has gotten very good reports from all of them. The retrofire office here reports that on the present trajectory, Columbia's entry angle is minus 6.56 degrees. The nominal entry angle is minus 6.51 degrees. Retro expects entry velocity to be 36,194 feet per second. He calls these entry conditions excellent. The flight dynamics officer says that tracking is looking very good. Guidance navigation control officer reports the Passive Thermal Control stable, operating very well. Reaction Control System looking very good. ECOMM, the electrical environmental communications office reports cryogenics well balanced. The environmental control system looking good. All of the antennas and the power status in good shape. And, the Flight Surgeon reports the crew sleeping soundly. His data indicates all three crewmen were asleep by 160 hours, 42 minutes, and he reports they have taken no medication. In recovery reports, the weather looks very good in recovery area, and all conditions there are ready for a successful recovery. This is Mission Control at Houston.
 163:28:00|P|PAO|This is Apollo Control at 163 hours 28 minutes. Apollo 11 is 135,920 nautical miles from Earth. Velocity 4,758 feet per second. The crew's been asleep almost three hours now. All systems still performing welt. This is Mission Control Houston.
 164:28:00|P|PAO|This is Apollo Control at 164 hours 28 minutes. Apollo 11 is 133,131 nautical miles from Earth, approaching at a velocity of 4827 feet per second. Crew is asleep. Performance of all systems continues to be normal. We're 30 hours 34 minutes 37 seconds away from entry of Apollo 11 into the Earth's atmosphere. This is Mission Control, Houston.
