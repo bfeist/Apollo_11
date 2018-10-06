@@ -175,6 +175,7 @@
 111:42:37 - cabin repress
 112:00:31 - SPAN "pretty incredible"
 112:01:51 - FD - "last pad"
+112:56:30 - Engine ARM circuit breaker broken
 
 
 

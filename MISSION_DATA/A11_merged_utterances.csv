@@ -10292,142 +10292,125 @@
 112:15:23|T|CMP|Roger. Stand by.
 112:15:49|T|CMP|Ready to copy.
 112:15:51|T|CC|Roger, Columbia. P22 landmark ID is lunar module - make that Tranquility Base; T1, 112:25:08; T2, 112:30:17, 4 nautical miles south. Time of closest approach, 112:31:52; shaft 357.051, trunnion 047.432, roll zero, pitch 250, yaw zero. Readback. Over.
-112:17:06|T|CC|Columbia, this is Houston. Did you copy my P22 update? Over.
-112:17:37|O|CMP|Houston, Columbia.
-112:17:39|T|CMP|Houston, Columbia.
-112:17:45|T|CC|Columbia, this is Houston. Did you copy my P22 PAD?
-112:18:03|T|CC|Columbia, this is Houston. Do you copy my PAD? Over.
-112:18:07|O|CMP|Negative, Bruce. Just give me your latitude - longitude over 2, altitude, and the grid squares. Never mind the other; you're broken up.
-112:18:09|T|CMP|Negative, Bruce. Just give me the latitude and longitude over 2, altitude, and the grid squares. Never mind the other. You're broken up.
-112:18:21|T|CC|Stand by.
-112:18:28|O|CMP|Well, that is, if you have the new information; otherwise, I'll just use the old numbers.
-112:18:30|T|CMP|Well, that is, if you have new information. Otherwise, I'll just use the old numbers.
-112:18:34|T|CC|No, wait a minute. We've got new information.
-112:18:37|O|CMP|Okay.
-112:18:39|T|CMP|Okay.
-112:20:42|T|CC|Tranquility Base, this is Houston. Can you give us some idea of how you're progressing on the PLSS doffing and preparation for DEPRESS?
-112:20:56|T|CDR|Roger, Houston. Tranquility Base. We're in the process of using up what film we have, and I'm just getting ready to change the primary ECS canister. Over.
-112:21:14|T|CC|Roger, Tranquility. We'd like to hold off as long as possible on the lithium hydroxide canister. Make that one of the last things you do in getting ready for the DEPRESS, if you can. Over.
-112:21:31|T|CDR|Roger. We're planning on doing that. I was just wondering how much longer we want to wait, though. We've probably got another half an hour's worth of picture taking, and I guess we could run through an eat cycle and then change the canister, and then DEPRESS. Over.
-112:21:56|T|CC|Roger. That sounds fine to us.
-112:22:02|T|CDR|Well, it'll be a little crowded in here for a while.
-112:22:06|T|CC|Well, we don't mind a bit.
-112:22:17|O|CMP|Houston, Columbia. You got the new coordinates?
-112:22:20|T|CMP|Houston, Columbia. You got the new coordinates?
-112:22:27|T|CC|Columbia. This is Houston. Go ahead.
-112:22:31|O|CMP|Roger. Have you got the new coordinates for me?
-112:22:34|T|CMP|Roger, Have you got the new coordinates for me?
-112:22:37|T|CC|Roger. Latitude 00.691 - that would be plus 00.691 - and longitude over 2 is plus 11.713. The altitude is minus 1.44 nautical miles. Over.
-112:23:13|O|CMP|Roger. Thank you.
-112:23:15|T|CMP|Roger. Thank you.
-112:23:31|T|CC|Columbia, this is Houston. On latitude, make that plus 00.692, rounding off. Over.
-112:23:43|O|CMP|Okay.
-112:23:45|T|CMP|Okay.
-112:23:56|O|CMP|Okay. I read back plus 00692, plus 11713, and minus 00144. And you have a grid square for me?
+112:17:07|T|CC|Columbia, this is Houston. Did you copy my P22 update? Over.
+112:17:40|T|CMP|Houston, Columbia.
+112:17:46|T|CC|Columbia, this is Houston. Did you copy my P22 PAD?
+112:18:03|T|CC|Columbia, this is Houston. Did you copy my PAD? Over.
+112:18:10|T|CMP|Negative, Bruce. Just give me the latitude and longitude over 2, altitude, and the grid squares. Never mind the other. You're broken up.
+112:18:22|T|CC|Stand by.
+112:18:31|T|CMP|Well, that is, if you have new information. Otherwise, I'll just use the old numbers.
+112:18:35|T|CC|No, wait a minute. We've got new information.
+112:18:41|T|CMP|Okay.
+112:19:24|P|PAO|This is Apollo Control at 112 hours, 19 minutes. The inhabitants of Tranquility Base are still in the post EVA clean up period. Still have not fully configured the voice communications, however, we are getting telemetry - good telemetry from Tranquility Base showing a cabin pressure of 5 pounds per square inch, temperature of 60 degrees. We expect to establish communications before too long. During this period the crew is removing the portable life support systems, checking over their spacecrafts systems, getting ready for jettisoning equipment from Tranquility Base. The cabin will be depressurized before too long and equipment will be jettisoned onto the lunar surface.
+112:20:43|T|CC|Tranquility Base, this is Houston. Can you give us some idea of how you're progressing on the PLSS doffing and preparation for DEPRESS?
+112:20:58|T|LMP|Roger, Houston. Tranquility Base. We're in the process of using up what film we have, and I'm just getting ready to change the primary ECS canister. Over.
+112:21:15|T|CC|Roger, Tranquility. We'd like to hold off as long as possible on the lithium hydroxide canister. Make that one of the last things you do in getting ready for the DEPRESS, if you can. Over.
+112:21:32|T|LMP|Roger. We're planning on doing that. I was just wondering how much longer we want to wait, though. We've probably got another half an hour's worth of picture taking, and I guess we could run through an eat cycle and then change the canister, and then DEPRESS. Over.
+112:21:57|T|CC|Roger. That sounds fine to us.
+112:22:03|T|LMP|Well, it'll be a little crowded in here for a while.
+112:22:07|T|CC|Well, we don't mind a bit.
+112:22:21|T|CMP|Houston, Columbia. You got the new coordinates?
+112:22:28|T|CC|Columbia. This is Houston. Go ahead.
+112:22:35|T|CMP|Roger. Have you got the new coordinates for me?
+112:22:38|T|CC|Roger. Latitude 00.691 - that would be plus 00.691 - and longitude over 2 is plus 11.713. The altitude is minus 1.44 nautical miles. Over.
+112:23:17|T|CMP|Roger. Thank you.
+112:23:32|T|CC|Columbia, this is Houston. On latitude, make that plus 00.692, rounding off. Over.
+112:23:46|T|CMP|Okay.
 112:23:59|T|CMP|Okay. I read back plus 00.692, plus 11713, and minus 00144. And you have a grid square for me?
-112:24:10|T|CC|Roger. Standby.
-112:24:25|T|CC|Columbia. This is Houston. Grid coordinates: Kilo 0.9, 6.3, on LAM 2. Over.
-112:24:36|O|CMP|Kilo 0.9 and 6.3. Thank you. One of these grid squares is about as much as you can scan on a single pass.
-112:24:38|T|CMP|Kilo 0.9 and 6.3. Thank you. One of these grid squares is about as much as you can scan on a single pass.
-112:24:48|T|CC|Roger.
-112:25:22|T|CC|And for your information, Columbia, you're approaching the VHF line of site COMM limit with Tranquility Base. LOS will be at 38 minutes plus 25 seconds. Over.
-112:25:38|O|CMP|Roger.
-112:25:40|T|CMP|Roger.
-112:25:42|T|CC|Roger. And we've had to disable the one way MSFN relay owing to a ground site reconfiguration down here. Over.
-112:25:51|O|CMP|Okay.
-112:25:53|T|CMP|Okay.
-112:33:57|O|CMP|Houston, Columbia ...
-112:33:59|T|CMP|Houston, Columbia. ...
-112:34:06|T|CC|This is Houston. Go ahead. Over.
-112:34:10|O|CMP|Roger. I can't see them.
-112:34:12|T|CMP|Roger. I can't see them.
-112:34:17|T|CC|Roger. I guess that takes care of the news for today, Mike.
-112:34:21|O|CMP|Roger. ...
-112:34:23|T|CMP|All right. Roger.
-112:34:29|T|CC|You might be interested in knowing, Mike, that we have gotten reflections back from the laser reflector ray they deployed, and we may be able to get some information out of that a little later.
-112:34:43|O|CMP|Roger. I need a very precise position because I can only do a decent Job of scanning maybe one of those grid squares at a time. The area that we've been sweeping covers 10's and 20's and 30's of them.
+112:24:11|T|CC|Roger. Standby.
+112:24:26|T|CC|Columbia. This is Houston. Grid coordinates: Kilo 0.9, 6.3, on LAM 2. Over.
+112:24:40|T|CMP|Kilo 0.9 and 6.3. Thank you. One of these grid squares is about as much as you can scan on a single pass.
+112:24:49|T|CC|Roger.
+112:25:23|T|CC|And for your information, Columbia, you're approaching the VHF line of site COMM limit with Tranquility Base. LOS will be at 38 minutes plus 25 seconds. Over.
+112:25:42|T|CMP|Roger.
+112:25:43|T|CC|Roger. And we've had to disable the one way MSFN relay owing to a ground site reconfiguration down here. Over.
+112:25:54|T|CMP|Okay.
+112:34:00|T|CMP|Houston, Columbia. No joy.
+112:34:08|T|CC|This is Houston. Go ahead. Over.
+112:34:14|T|CMP|Roger. I can't see them.
+112:34:18|T|CC|Roger. I guess that takes care of the news for today, Mike.
+112:34:25|T|CMP|All right. Roger.
+112:34:31|T|CC|You might be interested in knowing, Mike, that we have gotten reflections back from the laser reflector array they deployed, and we may be able to get some information out of that a little later.
+112:34:47|O|CMP|Roger. I need a very precise position because I can only do a decent job of scanning maybe one of those grid squares at a time. The area that we've been sweeping covers 10's and 20's and 30's of them.
 112:34:45|T|CMP|Roger. I need a very precise position, because I can only do a decent job of scanning maybe one of those grid squares at a time. The area that we've been sweeping covers 10's and 20's and 30's of them.
-112:35:00|T|CC|Roger. We understand. This is intended to be your last P22. We don't want to use up too much fuel in this effort. Over.
-112:35:10|O|CMP|Roger. How's the fuel coming?
-112:35:12|T|CMP|Roger. How's the fuel coming?
-112:35:18|T|CC|Roger. There's no problem fuel wise. It's just that there seems to be a limit to the number of P22's and the number of grid squares you can search over.
-112:35:29|O|CMP|Roger. Well, I'll continue this maneuver then to roll 82, pitch 218, yaw zero, if that's okay with you, and do a P52 in that attitude. And that'll be a ...
-112:35:32|T|CMP|Roger. Well, I'll continue this maneuver then to roll 82, pitch 218, yaw zero, if that's okay with you, and do a P52 in that attitude. And that'll be a sleep ...
-112:35:48|T|CC|Roger. That's fine with us. And P52 in that attitude.
-112:35:59|T|CC|Roger. A P52 and then the sleep attitude.
-112:43:46|T|CC|Tranquility Base, this is Houston. Over.
-112:43:52|T|LMP|Houston, Tranquility Base. Go ahead.
-112:43:55|T|CC|Roger. When you all have a free moment, I have your T8 through T12 block data. Over.
-112:44:08|T|LMP|Roger. Stand by one.
-112:45:24|T|LMP|Houston, Tranquility Base. Ready to copy.
-112:45:29|T|CC|Roger, Tranquility. T8, 114 30 57; T9, 116 29 10; T10, 118 27 23; T11, 120 25 36; T12, 122 23 49. Readback. Over.
-112:46:14|T|LMP|Roger. T8, 114 30 57; T9, 116 29 10; T10, 118 27 23; T11, 120 25 36; T12, 122 23 49. Over.
-112:46:45|T|CC|Readback correct. Houston out.
-112:47:26|T|CMP|Houston. Columbia.
-112:47:49|T|CMP|Houston, Columbia on high-gain.
-112:47:50|T|CDR|Houston, Tranquility Base.
-112:47:54|T|CC|Columbia. Columbia, this is Houston. Over.
-112:48:04|T|CMP|Columbia in the high-gain.
-112:48:06|T|CC|Roger. Reading you loud and clear on the high-gain, Columbia.
-112:48:13|T|CMP|Roger. Going to P52 attitude. You want a crew status report?
+112:35:01|T|CC|Roger. We understand. This is intended to be your last P22. We don't want to use up too much fuel in this effort. Over.
+112:35:14|T|CMP|Roger. How's the fuel coming?
+112:35:19|T|CC|Roger. There's no problem fuel wise. It's just that there seems to be a limit to the number of P22's and the number of grid squares you can search over.
+112:35:33|T|CMP|Roger. Well, I'll continue this maneuver then to roll 82, pitch 218, yaw zero, if that's okay with you, and do a P52 in that attitude. And that'll be a sleep ...
+112:35:50|T|CC|Roger. That's fine with us. And P52 in that attitude.
+112:36:01|T|CC|Roger. A P52 and then the sleep attitude.
+112:43:47|T|CC|Tranquility Base, this is Houston. Over.
+112:43:53|T|LMP|Houston, Tranquility Base. Go ahead.
+112:43:56|T|CC|Roger. When you all have a free moment, I have your T8 through T12 block data. Over.
+112:44:10|T|LMP|Roger. Stand by one.
+112:45:25|T|LMP|Houston, Tranquility Base. Ready to copy.
+112:45:29|T|CC|Roger, Tranquility. T8, 114:30:57; T9, 116:29:10; T10, 118:27:23; T11, 120:25:36; T12, 122:23:49. Readback. Over.
+112:46:14|T|LMP|Roger. T8, 114:30:57; T9, 116:29:10; T10, 118:27:23; T11, 120:25:36; T12, 122:23:49. Over.
+112:46:46|T|CC|Readback correct. Houston out.
+112:47:28|T|CMP|Houston. Columbia.
+112:47:51|T|CMP|Houston, Columbia on high-gain.
+112:47:52|T|CDR|Houston, Tranquility Base.
+112:47:55|T|CC|Columbia. Columbia, this is Houston. Over.
+112:48:03|T|CMP|Columbia on the high-gain.
+112:48:07|T|CC|Roger. Reading you loud and clear on the high-gain, Columbia.
+112:48:14|T|CMP|Roger. Going to P52 attitude. You want a crew status report?
 112:48:21|T|CC|Say again, Columbia?
-112:48:27|T|CMP|I say again, I am maneuvering to the P52 attitude, and do you want a crew status report?
-112:48:34|T|CC|Roger. And go ahead with your crew status report.
-112:48:40|T|CMP|Roger. No medication. Radiation 100.16.
-112:48:46|T|CC|Houston. We copy.
-112:49:15|T|CDR|Houston, Tranquility Base.
-112:49:17|T|CC|Go ahead, Tranquility.
-112:49:23|T|CDR|Roger. The weight of the RCU was 12 ounces. That was by itself without the bag, and the weight of the water from the CDR's PLSS was 12 1/2 ounces. That's reading zero with the bag on.
-112:49:53|T|CC|This is Houston. We copy. And, for your information, the new LM weight after jettison of equipment including lithium hydroxide canister is 10837. Over.
-112:50:11|T|CDR|Okay. 10837.
-112:53:16|T|CMP|Houston, Columbia. Did you copy the P52?
-112:53:30|T|CC|Columbia, this is Houston. Affirmative.
-112:53:39|T|CMP|Okay.
-112:55:05|T|CC|Tranquility Base, this is Houston. In the Flight Plan configuration, we show that the stability control circuit breaker ATCA on panel 16 should be open at this time. Over.
-112:55:49|T|LMP|Houston, Tranquility. Say again which one should be closed?
-112:55:54|T|CC|Roger. Panel 16, row 2, STAB control ATCA, that is A T C A, and it should be open at this time. Over.
-112:56:06|T|LMP|Roger. Coming open.
-112:56:12|T|CC|Roger. Out.
-112:56:28|T|LMP|Housquin - Houston, Tranquility. Do you have a way of showing the configuration of the engine arm circuit breaker? Over. The reason I'm asking is because the end of it appears to be broken off. I think we can push it back in again. I'm not sure we could pull it out if we pushed it in, though. Over.
-112:56:56|T|CC|Roger. We copy. Stand by please.
-112:57:21|T|CC|Tranquility Base, this is Houston. Our telemetry shows the engine arm circuit breaker in the OPEN position at the present time. We want you to leave it open until it is nominally scheduled to be pushed in, which is later on. Over.
-112:57:41|T|LMP|Roger. Copy.
-112:58:00|P|PAO|This is Apollo Control. Dr. Berry reports those dosimeter readings have not changed since yesterday afternoon indicating that the crew was not subjected to radiation on the surface of the Moon or if any a very negligible amount.
+112:48:28|T|CMP|I say again, I am maneuvering to the P52 attitude, and do you want a crew status report?
+112:48:35|T|CC|Roger. And go ahead with your crew status report.
+112:48:41|T|CMP|Roger. No medication. Radiation 100.16.
+112:48:47|T|CC|Houston. We copy.
+112:49:17|T|CDR|Houston, Tranquility Base.
+112:49:18|T|CC|Go ahead, Tranquility.
+112:49:25|T|CDR|Roger. The weight of the RCU was 12 ounces. That was by itself without the bag, and the weight of the water from the CDR's PLSS was 12 1/2 ounces. That's reading zero with the bag on.
+112:49:54|T|CC|This is Houston. We copy. And, for your information, the new LM weight after jettison of equipment including lithium hydroxide canister is 10837. Over.
+112:50:12|T|CDR|Okay. 10837.
+112:53:17|T|CMP|Houston, Columbia. Did you copy the P52?
+112:53:31|T|CC|Columbia, this is Houston. Affirmative.
+112:53:41|T|CMP|Okay.
+112:55:06|T|CC|Tranquility Base, this is Houston. In the Flight Plan configuration, we show that the stability control circuit breaker ATCA on panel 16 should be open at this time. Over.
+112:55:50|T|LMP|Houston, Tranquility. Say again which one should be closed?
+112:55:56|T|CC|Roger. Panel 16, row 2, STAB control ATCA, that is A T C A, and it should be open at this time. Over.
+112:56:08|T|LMP|Roger. Coming open.
+112:56:13|T|CC|Roger. Out.
+112:56:30|T|LMP|Hous - Houston, Tranquility. Do you have a way of showing the configuration of the engine arm circuit breaker? Over. The reason I'm asking is because the end of it appears to be broken off. I think we can push it back in again. I'm not sure we could pull it out if we pushed it in, though. Over.
+112:56:57|T|CC|Roger. We copy. Stand by please.
+112:57:23|T|CC|Tranquility Base, this is Houston. Our telemetry shows the engine arm circuit breaker in the OPEN position at the present time. We want you to leave it open until it is nominally scheduled to be pushed in, which is later on. Over.
+112:57:43|T|LMP|Roger. Copy.
 112:59:39|T|CDR|Houston, Tranquility Base. The CDR's PRD reads 11014.
-112:59:51|T|CC|Roger. 11014 for the CDR.
-113:00:01|T|LMP|Roger. LMP reads 09018. Over.
-113:00:06|T|CC|Roger. 09018.
-113:04:39|T|CMP|Houston, Columbia. Over.
+112:59:53|T|CC|Roger. 11014 for the CDR.
+113:00:02|T|LMP|Roger. LMP reads 09018. Over.
+113:00:08|T|CC|Roger. 09018.
+113:03:16|P|PAO|This is Apollo Control. Dr. Berry reports those dosimeter readings have not changed since yesterday afternoon indicating that the crew was not subject to radiation on the surface of the Moon or if any a very negligible amount.
+113:04:41|T|CMP|Houston, Columbia. Over.
 113:04:43|T|CC|Columbia, this is Houston. Go ahead.
-113:04:48|T|CMP|Roger, Bruce. When you get a few minutes could you give me some words on tomorrow's activities - when they're going to start?
-113:04:57|T|CC|Roger.
-113:09:00|P|PAO|This is Apollo Control - -
-113:11:45|T|CC|Columbia, Columbia, this is Houston. Over.
-113:11:57|T|CC|Columbia, this is Houston. Over.
-113:12:03|T|CMP|Go ahead.
-113:12:05|T|CC|Roger, Mike. Couple of quick Flight Plan update here. First off, we'd like to get an O2 fuel cell purge at time 113 30. You - Are you copying? Over.
-113:12:23|T|CMP|Roger. And copy.
-113:12:26|T|CC|Secondly, we will return to the nominal timeline with your scheduled wakeup of 121 hours and 12 minutes. We sort of slipped by lithium hydroxide canister change number 9 during the EVA and EVA PREP. We'd like you to accomplish that now. The COMM for sleep will be the normal lunar COMM configuration, the RCS configuration. We're requesting you use quads Alfa and Bravo. A DAP data load for R2 should be 01111. Readback. Over.
-113:13:28|T|CMP|Roger. Oxygen fuel cell purge at 113 30. Return to the nominal timeline at 121 hours wakeup. Lithium hydroxide change number 9 right now. Normal lunar COMM sleep configuration, I'm in that now. On the RCS, I understood before you wanted to load the DAP register 2 011000 which made sense, and then later to pitch only on quad A, enable all on quad B, and C and D off. But you don't want to do that any more, huh?
-113:15:20|T|CC|Columbia. This is Houston. On your DAP load in R2, we're requesting a 0 an four 1's, that is, 01111. Over
-113:15:34|T|CMP|Okay.
-113:15:38|T|CC|And you - -
-113:15:39|T|CMP|Load's going in right now.
-113:15:41|T|CC|Roger. And you'll be enabling quads Alfa and Bravo on the AUTO RCS select switches. Disable Charlie and Delta.
-113:15:51|T|CMP|All right.
-113:15:59|T|CC|And we have a little less than 2 minutes to LOS. If you're still up, AOS next time around will be 114 04. Over.
-113:16:18|T|CMP|Roger.
+113:04:50|T|CMP|Roger, Bruce. When you get a few minutes could you give me some words on tomorrow's activities - when they're going to start?
+113:04:58|T|CC|Roger.
+113:11:46|T|CC|Columbia, Columbia, this is Houston. Over.
+113:11:58|T|CC|Columbia, this is Houston. Over.
+113:12:05|T|CMP|Go ahead.
+113:12:06|T|CC|Roger, Mike. Couple of quick Flight Plan update here. First off, we'd like to get an O2 fuel cell purge at time 113:30. You - Are you copying? Over.
+113:12:25|T|CMP|Roger. I'm copying.
+113:12:27|T|CC|Secondly, we will return to the nominal timeline with your scheduled wakeup of 121 hours and 12 minutes. We sort of slipped by lithium hydroxide canister change number 9 during the EVA and EVA PREP. We'd like you to accomplish that now. The COMM for sleep will be the normal lunar COMM configuration, the RCS configuration. We're requesting you use quads Alfa and Bravo. A DAP data load for R2 should be 01111. Readback. Over.
+113:13:28|T|CMP|Roger. Oxygen fuel cell purge at 113:30. Return to the nominal timeline at 121 hours wakeup. Lithium hydroxide change number 9 right now. Normal lunar COMM sleep configuration, I'm in that now. On the RCS, I understood before you wanted to load the DAP register to 01100 which made sense on panel 8 to pitch only on quad A, enable all on quad B, and C and D off. But you don't want to do that any more, huh?
+113:15:21|T|CC|Columbia. This is Houston. On your DAP load in R2, we're requesting a 0 and four 1's, that is, 01111. Over.
+113:15:35|T|CMP|Okay.
+113:15:40|T|CC|And you - -
+113:15:41|T|CMP|Load's going in right now.
+113:15:42|T|CC|Roger. And you'll be enabling quads Alfa and Bravo on the AUTO RCS select switches. Disable Charlie and Delta.
+113:15:52|T|CMP|All right.
+113:16:01|T|CC|And we have a little less than 2 minutes to LOS. If you're still up, AOS next time around will be 114:04. Over.
+113:16:19|T|CMP|Roger.
 113:16:27|T|CC|And, Columbia, if it's agreeable with you, we'd like you to stay awake until we have one successful reacquisition on the high-gain antenna. And I guess you can plan on turning in shortly after AOS this next pass. Over.
-113:16:47|T|CMP|Okay.
-113:16:49|T|CC|Roger. Out.
-113:17:34|T|CC|Tranquility Base, Tranquility Base, this is Houston. Radio check. Over.
-113:17:42|T|CDR|Go ahead. Houston.
-113:17:44|T|CC|Roger. Reading you loud and clear. Just wanted to make sure we still had COMM.
-113:17:52|T|CDR|Roger. We just finished up - we're just finishing up our eat period. Be ready to go back into PREP for DEPRESS.
-113:17:59|T|CC|Roger.
-113:18:00|P|PAO|This is Apollo control 113 hours, 18 minutes. We have had loss of signal from Columbia. We have asked Mike Collins to stay awake through acquisition on the next rev which will be number 20 so that we can check the automatic acquisition mode of the high-gain antenna. Once we've verified that, he will start his rest period. The planned wake up for Command Module Pilot 121 hours.
-113:18:00|P|PAO|This is Apollo control. We're estimating the change-of-shift news briefing for 2:00AM Central Daylight Time. 2:00AM Central Daylight Time for the change-of-shift briefing.
-113:28:00|P|PAO|This is Apollo Control at 113 hours 29 minutes. The change-of-shift news briefing is about to start. We will take any air-ground transmissions during this period for playback after the briefing. If the equipment jettison occurs during the briefing, we will come back up and provide that for you live.
+113:16:48|T|CMP|Okay.
+113:16:51|T|CC|Roger. Out.
+113:17:35|T|CC|Tranquility Base, Tranquility Base, this is Houston. Radio check. Over.
+113:17:44|T|CDR|Go ahead. Houston.
+113:17:45|T|CC|Roger. Reading you loud and clear. Just wanted to make sure we still had COMM.
+113:17:53|T|CDR|Roger. We just finished up - we're just finishing up our eat period. Be ready to go back into PREP for DEPRESS.
+113:18:02|T|CC|Roger.
+113:18:21|P|PAO|This is Apollo control 113 hours, 18 minutes. We have had loss of signal from Columbia. We have asked Mike Collins to stay awake through acquisition on the next rev which will be number 20 so that we can check the automatic acquisition mode of the high-gain antenna. Once we've verified that, he will start his rest period. The planned wake up for Command Module Pilot 121 hours.
+113:22:26|P|PAO|This is Apollo control. We're estimating the change-of-shift news briefing for 2:00AM Central Daylight Time. 2:00AM Central Daylight Time for the change-of-shift briefing.
+113:29:23|P|PAO|This is Apollo Control at 113 hours 29 minutes. The change-of-shift news briefing is about to start. We will tape any air-ground transmissions during this period for playback after the briefing. If the equipment jettison occurs during the briefing, we will come back up and provide that for you live.
 113:39:00|T||BEGIN LUNAR REV 20
 113:46:23|T|CC|Tranquility Base, this is Houston. Over.
 113:46:29|T|CDR|Roger. Go ahead, Houston.
