@@ -10594,323 +10594,321 @@
 121:05:13|T|CC|Roger. I have the T1 and T2 times and also the lat/long of the 130 prime. We're working on the grid squares and we'll get them shortly.
 121:05:30|T|CMP|Okay. Ready to copy.
 121:05:31|T|CC|Okay. T1: 122 plus 16 plus 05. Tango 2 is 122 plus 21 plus 11, and 6 miles north of track. And do you want your NOUN 89 values?
-121:05:58|T|CMP|Yes, please.
-121:06:00|T|CC|Roger. Latitudes, plus 01.243. Longitude over 2, plus 11.844. Altitude, minus 001.46. Over.
-121:06:32|T|CMP|Copy T1: 122 16 05. T2: 122 21 11, 6 miles north, NOUN 89 is plus 01243, plus 11844, minus 00146.
-121:06:51|T|CC|Columbia, affirmative. And at the T1 time, put your rendezvous radar transponder switch to OPERATE.
-121:07:05|T|CMP|All right.
-121:07:06|T|CC|And this 130 prime is the same one that you tracked prior to descent. Over.
-121:07:23|T|CMP|Okay. You've updated your information as to the LM's position and this is your best estimate of where the LM is, is that correct?
-121:07:37|T|CC|Columbia, that's negative. This 130 is the little bitty crater there that you tracked - John Young's crater - that you tracked prior to descent. And we want that - -
-121:07:50|T|CMP|Fine. Okay. You've given up looking for that.
-121:07:53|T|CC|Affirmative. We want this for one last fix on your plane.
-121:08:00|T|CMP|All right. Fine. Understand. Thank you.
-121:08:05|T|CC|And when the LM does his P22 on your transponder, well then, that'll be our last shot at the LM's position.
-121:08:14|T|CMP|Roger. Understand. Do you care whether my transponder is on before T1?
-121:08:35|T|CC|Roger. It'll be on WARMUP prior to that time, and you can go to OPERATE anywhere around that time.
-121:08:44|T|CMP|Yes. I gather it's on its 24 minute warmup now?
-121:08:47|T|CC|Roger.
-121:08:53|T|CC|And, Houston. The computer is yours, you can go to BLOCK anytime.
-121:08:59|T|CMP|Roger. BLOCK, going P52, option 3.
-121:09:02|T|CC|Roger. And we'll see you coming around the other side. About 1 minute to go, and all your systems are looking good.
-121:09:11|T|CMP|Thanks, Ron.
+121:06:01|T|CMP|Yes, please.
+121:06:02|T|CC|Roger. Latitudes, plus 01.243. Longitude over 2, plus 11.844. Altitude, minus 001.46. Over.
+121:06:36|T|CMP|Copy T1: 122:16:05. T2: 122:21:11, 6 miles north, NOUN 89 is plus 01243, plus 11844, minus 00146.
+121:06:55|T|CC|Columbia, affirmative. And at the T1 time, put your rendezvous radar transponder switch to OPERATE.
+121:07:08|T|CMP|All right.
+121:07:09|T|CC|And this 130 prime is the same one that you tracked prior to descent. Over.
+121:07:26|T|CMP|Okay. You've updated your information as to the LM's position and this is your best estimate of where the LM is, is that correct?
+121:07:41|T|CC|Columbia, that's negative. This 130 is the little bitty crater there that you tracked - John Young's crater - that you tracked prior to descent. And we want that - -
+121:07:54|T|CMP|Fine. Okay. You've given up looking for the LM.
+121:07:57|T|CC|Affirmative. We want this for one last fix on your plane.
+121:08:03|T|CMP|All right. Fine. Understand. Thank you.
+121:08:08|T|CC|And when the LM does his P22 on your transponder, well then, that'll be our last shot at the LM's position.
+121:08:18|T|CMP|Roger. Understand. Do you care whether my transponder is on before T1?
+121:08:38|T|CC|Roger. It'll be on WARMUP prior to that time, and you can go to OPERATE anywhere around that time.
+121:08:48|T|CMP|Yes. I gather it's on its 24 minute warmup now?
+121:08:51|T|CC|Roger.
+121:08:56|T|CC|And, Houston. The computer is yours, you can go to BLOCK anytime.
+121:09:03|T|CMP|Roger. BLOCK, going P52, option 3.
+121:09:06|T|CC|Roger. And we'll see you coming around the other side. About 1 minute to go, and all your systems are looking good.
+121:09:15|T|CMP|Thanks, Ron.
 121:32:00|T||BEGIN LUNAR REV 24
-121:40:00|P|PAO|This is Apollo Control. Let's join the call to Tranquility Base.
-121:40:36|T|CC|Tranquility Base, Tranquility Base, Houston. Over.
-121:40:45|T|CDR|Good morning, Houston. Tranquility Base. Over.
-121:40:49|T|CC|Roger. Loud and clear. And how is the resting standing up there. Did you get a chance to curl up on the engine can?
-121:41:02|T|LMP|Roger. Neil has rigged himself a really good hammock with a waste tether, and he's been lying on the ascent engine cover, and I curled up on the floor. Over.
-121:41:14|T|CC|Roger. Copy, Buzz. Got a couple of changes to your surface checklist here, and in general, what we're going to want you to do is P22, tracking the Command Module for one last hack on your position there. And this will be - in other words, P57, P22, and then to press on with the checklist, and the rest of them are a couple of minor changes in the checklist. The main one being that we do not want the rendezvous radar on during the ascent, and we think that this will take care of some of the overflow of program alarms which we're getting during descent.
-121:42:05|T|CDR|Okay. We had the rendezvous radar in SLEW during descent, though.
-121:42:14|T|CC|Tranquility Base, Houston. I missed that. Say again.
-121:42:21|T|CDR|Roger. I say again. We had the rendezvous radar switch in the SLEW position, not the LGC position.
-121:42:33|T|CC|Roger. We copy that. But there's a greater duty cycle on - There's a good 15 percent duty cycle on the ascent program there, so just go ahead and leave it off. And I have the changes there if you want to get out your surface checklist, and I can go ahead and start giving them to you.
-121:42:59|T|CDR|All right. Go ahead. I've got it out.
-121:43:01|T|CC|Okay. Before we start here, request P00 and DATA, and we'll give you some vectors.
-121:43:23|T|CDR|Now you've got P00 and DATA.
-121:43:25|T|CC|Okay. And on Surface 50 will be the first change there.
-121:43:35|T|CDR|Okay. And I understand you want us to do a P57 option 3 and then a P22, is that the general idea? Over.
-121:43:44|T|CC|That's affirmative. So on Surface 50 there, down at the bottom of the page, just after PRO after two recycles, stick in a time of 122 plus 15; do P22 as per PGNS 20 of G&N dictionary. Over.
-121:44:21|T|CDR|Roger. Understand that's 122 15, do P22 as per PGNS 20, G&N dictionary.
-121:44:29|T|CC|Roger. Okay. Let's skip on over to Surface 59.
-121:44:50|T|CDR|Okay.
-121:44:51|T|CC|Okay. This is going to be for one last vent on the DPS tank there, so at the top of the page just after EPS INVERTER 1, CLOSE, add - Okay, after EPS INVERTER 1, CLOSE, add PROP DESCENT HELIUM REG/VENT CLOSE, and then after STABILIZATION/CONTROL AELD, CLOSE, add PROP DISPLAYS/ENGINE 0VERRIDE/LOGIC, CLOSE. Over.
-121:46:02|T|CDR|Roger. Copy. These are two circuit breakers, right?
-121:46:20|T|CC|Tranquility Base, affirmative. Those are just the circuit breakers at that time.
-121:46:53|T|CC|Tranquility Base, Houston. Did you get those two on the propulsion circuit breakers?
-121:47:02|T|CDR|Roger. I have those two.
-121:47:04|T|CC|Okay. Let's go over to Surface 60, and then down the middle of the page, after launch guidance system recommendation from MSFN, then I add the switches there.
-121:47:37|T|CDR|Roger. Go ahead then.
-121:47:38|T|CC|Okay. After launch guidance system recommendation from MSFN, add DESCENT PROPULSION FUEL VENT, OPEN; add DESCENT PROPULSION OXIDIZER VENT, OPEN; add verify talkback gray. Over.
-121:48:22|T|CDR|Roger. DESCENT PROPELLANT FUEL VENT, OPEN; DESCENT PROPELLANT OXIDIZER VENT, OPEN; verify talkback gray.
-121:48:29|T|CC|Roger. You got that one, so that'll be the last vent and it will continue venting. Skip over to Surface 61 down there at TIG minus 17.
-121:49:10|T|CDR|Roger. I'm there. Go ahead.
-121:49:12|T|CC|Okay, at TIG minus 17, delete CB (11). AC Bus A, RENDEZVOUS RADAR, CLOSE, wait 30 seconds; delete PGNS: RENDEZVOUS RADAR, CLOSE; and then add UP DATA LINK switch to VOICE BACKUP. Over
-121:49:47|T|CDR|Roger. I have that. We'll leave those two circuit breakers open, and have the UP DATA LINK to VOICE BACKUP; and we'll make the appropriate changes on the following circuit breaker status card.
-121:50:00|P|PAO|This is Apollo Control. A little over 2 minutes until Columbia comes over the hill again on the 24th Lunar Revolution. In that wake up call to Eagle, the crew described how they slept in the spacecraft by lying on the floor and on the engine cover. Some of the preliminary times being generated now ascent show ignition about 1 minute 26 seconds earlier than the pre-mission Flight Plan. Ignition time now showing 124 hours 22 minutes 0 seconds. Burn will have a magnitude of 6,068 feet per second. Quite a bit of that will be in vertical rise and actually starting from zero feet per second on the lunar surface. The CSI maneuver behind the Moon, the Concentric Sequence Initiate, CSI the acronym being for that maneuver. 125 hours 19 minutes 34 seconds. Consistent Delta height CDH 126 hours 18 minutes 0 seconds. Terminal Phase initiation 126 hours 57 minutes 0 seconds, and Terminal Phase Finalization or the final breaking before docking 127 hours 39 minutes 39.2 seconds. These are Ground computations. And they will be computed by the crew from radar tracking, rendezvous radar. So actually these number computed on the Ground are somewhat academic in that they will be computed in real time by the crew. We're standing by here for Capcom to resume conversation. During this up coming pass here, more definite fix on the Eagle positions will be attempted by using the rendezvous radar from the Eagle in Program 22, rendezvous radar lunar surface navigation program. The transponder on Columbia in the meantime has been warmed up. During the last revolution, Mike Collins was advised to - have the - the transponder warmed up. As of now, the exact location is somewhat vague. And perhaps this rendezvous radar exercise will give a final, more pinpoint location of where Eagle does indeed nest on the Moon. We'll continue to monitor the air-ground circuit. We've had acquisition of signal with Columbia, so likely the conversation will increase here as we get the
-121:50:01|T|CC|Roger. And then you might add a little note down there at the bottom of the page - Note: - This is at the bottom of page 61 - Note: Do not use tape meter in PGNS, i.e., do not place MODE SELECT switch to PGNS. Over.
-121:50:35|T|CDR|Okay. We'll put it in AGS.
-121:50:40|T|CC|Roger. Fair enough. That's some more of that computer load business.
-121:50:49|T|CC|Okay. That's all the changes we have for the checklist here. I've got some - just some general notes, I'll read to you on P22, and just for some information. Over.
-121:51:08|T|CDR|Okay. Then it looks to me like we ought to get hopping on this P57.
-121:51:21|T|CC|Roger. We agree wholeheartedly. And while you're starting on that, I'll read - just read these notes on P22. Call P22 possible program alarm 5.6, range greater than 400 nautical miles, and then use the P22 as described on PGNS 20. Take option 1 in NOUN 06, and use the no update mode. The rendezvous radar will lock on at about 25 degrees elevation above the horizon. If 503 alarm occurs, designate fail. Key a PROCEED and allow the rendezvous radar to search for the CSM. And place the range altitude monitor switch in altitude/altitude rate to prevent the tape meter from driving into the stops. And press on.
-121:52:29|T|CDR|Roger. I think I have that.
-121:58:18|T|CC|Columbia, Columbia, Houston. Over.
-121:59:17|T|CC|Columbia, Columbia, Houston. Over.
-121:59:33|T|CMP|Houston, Columbia.
-121:59:35|T|CC|Roger, Columbia. We'd like a CRYO stir in all four tanks and the standard 1 minute. Over.
-121:59:47|T|CMP|In work.
-121:59:48|T|CC|Roger. And do you have any torquing angles from the P52?
-121:59:55|T|CMP|Roger. Stand by one.
-122:00:12|T|CC|Tranquility, Houston. Request ERROR RESET at this time. Over.
-122:00:21|T|LMP|Roger. ERROR RESET, and would you tell me when you're satisfied with the LGC self test?
-122:00:30|T|CC|Tranquility, LGC is a GO.
-122:00:36|T|LMP|Roger.
-122:00:39|T|CMP|Torquing angles when you're ready.
-122:00:41|T|CC|Columbia, Houston. Go ahead.
-122:00:51|T|CMP|Roger. Stars 25 and 42; angle difference 5 balls; NOUN 93, plus 00165, plus 00186, minus 00039, time of torquing 121 15. Over.
-122:01:12|T|CC|Columbia, Houston. We copy. Thank you.
-122:01:26|T|CMP|And CRYO stir complete.
-122:01:29|T|CC|Roger. Thank you, Columbia.
-122:05:35|T|LMP|Houston, Tranquility. Would you like a recycle on the VERB 6 04? Over.
-122:05:47|T|CC|Tranquility, Houston, We copy. Stand by one.
-122:05:55|T|CC|Tranquility, Houston. Request recycle.
-122:11:43|T|CMP|Houston, Columbia. My rendezvous radar transponder is operating.
-122:11:52|T|CC|Spacecraft calling Houston? Say again.
-122:11:57|T|CMP|This is Columbia saying the rendezvous radar transponder is operating.
-122:12:02|T|CC|Roger. Copy, Columbia.
-122:13:56|T|CC|Tranquility, Houston. Request rendezvous radar breakers in about now.
-122:14:33|T|CC|Columbia, Houston. Request OMNI D - OMNI Delta.
-122:15:00|P|PAO|This is Apollo Control. We have confirmation of radar lock on.
-122:15:47|T|CC|Tranquility Base, Houston. Request you go ahead and start the warmup on the rendezvous radar.
-122:15:56|T|LMP|Roger.
-122:16:58|T|CDR|Houston, you copying NOUN 93?
-122:17:01|T|CC|Tranquility, affirmative. Go.
-122:17:07|T|CDR|Roger. We're going to a torque.
-122:17:10|T|CC|Houston. Roger.
-122:18:00|T|CC|Tranquility Base, Houston. Columbia will be overhead at 122 plus 22 plus 51. His LOS will be 29 35. Over.
-122:18:21|T|LMP|Roger.
-122:20:35|T|CDR|Houston, we'd like to check this on the tape meter against the AGS. We'll go back to altitude - altitude rates as soon as the rate starts to build up. Over.
-122:20:50|T|CC|Tranquility, Houston. Roger.
-122:21:03|T|CDR|On second thought, since that will peg the range rate, I guess maybe we'd better not do that. And for this range that the AGS are showing now, 425 miles with a signal strength of 2.2. It looks like we ought to proceed on this. Over.
-122:21:31|T|CC|Roger. Stand by one. Tranquility, affirmative. Proceed.
-122:21:56|T|LMP|Are you getting the information on the downlink now?
-122:22:04|T|CC|Tranquility, affirmative, and we're saving it. We've got 4 so far, and it's looking good.
-122:22:18|T|CDR|Okay. What do you people think about calling up a VERB 83?
-122:22:41|T|CC|Tranquility, Houston. Stand by on that now. We're getting the data now. We're checking on the VERB 83.
-122:22:50|T|LMP|And we expect that we may lose lock when it passes overhead because of the MAX rate that the radar has.
-122:23:05|T|CC|Tranquility, Houston. Negative on VERB 83.
-122:23:11|T|LMP|Understand.
-122:24:09|T|CDR|We just lost lock.
-122:24:12|T|CC|Tranquility, Houston. Go.
-122:24:23|T|CMP|They've just lost lock, Ron.
-122:24:25|T|CC|Roger. We had about 20 some points before you did that. And for your information, the reason the AGS is a little different there - The reason the AGS is a little different is because the K factor is a little bit wrong.
-122:24:40|T|LMP|Has he already gone? Over. Okay. Okay. Has he already gone overhead, or do you want us to try and get in lock on again?
-122:24:51|T|CMP|Houston, Columbia. You got NOUN 49. Five good marks.
-122:24:57|T|CC|Tranquility, affirmative. Try to lock on again, and you'll lose him at about 29 minutes and 35 seconds.
-122:25:09|T|LMP|Okay. Do you have a real quick procedure how to do that?
-122:25:21|T|CC|Columbia, Houston. Say again about your NOUN 49.
-122:25:28|T|CMP|I say I got five good marks. You got NOUN 49. When you get everything you need off the downlink, let me know.
-122:25:36|T|CC|Columbia, Houston. Stand by one.
-122:25:56|T|CDR|Ron, did you say on the 526 alarm to proceed or do a VERB 32?
-122:26:03|T|CC|Roger. It's just that radar thinks the range is greater than 400 miles now.
-122:26:13|T|CC|Tranquility Base, Houston. Recommend you terminate P22. Over.
-122:26:22|T|CDR|Roger. Will do.
-122:26:24|T|CC|And, Columbia, Houston. Same for you. You can terminate P22.
-122:26:34|T|CMP|I have. I'm running fast.
-122:26:36|T|CC|Roger.
-122:27:14|T|CMP|I'm staying in P22 here a second just to record the NOUN 89 and then over VERB 34.
-122:27:21|T|CC|Columbia, Houston. Roger. We copy, and that's good.
-122:27:57|T|CC|Tranquility, Houston.
-122:28:07|T|LMP|Roger. Go ahead.
-122:28:09|T|CC|Roger. Request S BAND FUNCTION switch to RANGE. We're going to do some ranging on you. Also, I have an updated AGS K factor when you are ready to copy. Over.
-122:28:24|T|CDR|Roger. Go ahead with the K factor.
-122:28:27|T|CC|Roger. 119 plus 59 plus 59.92. Over.
-122:28:44|T|CDR|Roger. A little closer this time.
-122:28:46|T|CC|Yes. It sure is.
-122:28:47|T|LMP|119 59 5992. Over.
-122:28:52|T|CC|Tranquility, Houston. Readback correct.
-122:30:10|T|CC|Columbia, Houston - -
-122:30:11|T|CDR|Houston, Tranquility. I see what you mean now about the K factor.
-122:30:15|T|CC|Roger.
-122:30:23|T|CMP|This is Columbia. Go ahead. And I'd like to know about this P52 coming up. Is that the one I just completed or do you want a pair of them back to back?
-122:30:36|T|CC|Columbia, Houston. You do not need to do another P52 unless you want to. Break. And also, Columbia, when you get a chance, request BATT C and the PYRO readouts. Over.
-122:31:08|T|CMP|BATT C says 37 volts even. PYRO A, 37. PYRO B, 37.
-122:31:20|T|CC|Columbia, Houston. Roger. We copy. Thank you.
-122:31:28|T|CMP|BATT bus B is 37. BATT bus A is 36, or I'd think the gauge is stuck.
-122:31:35|T|CC|Roger. And you're looking good to us - to us, Columbia.
-122:31:43|T|CMP|Yes sir. Keep it that way.
-122:32:06|T|CMP|Columbia is coming up on a VERB 45 ENTER to reset the surface flag.
-122:32:15|T|CC|Columbia, Houston. Negative. Stand by on the VErB 45.
-122:32:22|T|CMP|Roger that.
-122:32:43|T|CMP|And a crew status report from Columbia. I figure I got about 5 hours' good sleep, although you guys probably know better than I do.
-122:32:52|T|CC|Columbia. Roger. We copy.
-122:33:31|T|CC|Columbia, Houston. We've got a couple more vectors to send up to you. They'll be coming up shortly and then you can do the VERB 45 after you get those in. Over.
-122:33:44|T|CMP|Okay. That's fine. Just wanted to make sure that we're both in SYNC on the order.
-122:33:54|T|CC|Roger.
-122:35:24|T|CC|Columbia and Tranquility Base, this is Houston. In case you haven't noticed, the MSFN relay is not activated, so I can go ahead and relay anything if you want to talk directly.
-122:35:44|T|CMP|Columbia. Roger.
-122:35:54|T|CDR|Houston, Tranquility. Be advised we've got - -
-122:35:57|T|CMP|...
-122:36:01|T|CDR|Coming ... on schedule - - showing red right now. We just put a VERB 77 in. I believe that there's ... let me check here.
-122:36:20|T|CC|Tranquility Base, Houston. We've got a lot of static down here. Could you say again?
-122:36:31|T|CDR|Roger. We have four out of eight circuit breaker talkbacks indicating red. We still have the circuit breakers out as of right now. I believe at this moment we have just entered VERB 77 on tape 3052 and are ready to proceed with the hot fire. Is it normal to have these four red flags? Over.
-122:37:09|T|CC|Tranquility Base, Houston. We think that's okay. Go ahead and reset them and press on with the hot fire. Over.
-122:37:28|T|CC|Roger. They are reset.
-122:37:33|T|CC|Columbia, Columbia, Houston. Request P00 and ACCEPT, and we'll send some state vectors up to you.
-122:37:44|T|CMP|Here we going P00 and ACCEPT.
-122:41:58|T|CDR|Houston, Tranquility. I used Capella in the last sighting, and it's a good ways near the edge. A good ways away from the center of detent 4. I'm wondering if it would pay any to use Alpheratz, star number 1. It might be a little closer. However, it would delay things a little, since I'd have to designate the radar out of the way. Over.
-122:42:36|T|CC|Tranquility. Roger. We copy. Stand by 1. And, break, break, Columbia. We're having a little trouble getting the stuff in there. Request high-gain, pitch minus 20, yaw plus 150. Over.
-122:43:06|T|CC|And, Tranquility, Houston. We'd prefer to save the time; press on with Capella. Over.
-122:43:19|T|CDR|Roger.
-122:43:30|T|CC|And, Tranquility, Houston. The RCS check looked mighty fine to us.
-122:43:37|T|CDR|It looks good up here.
-122:43:48|T|CC|Columbia, Columbia, Houston. Over.
-122:44:22|T|CC|Columbia, Houston. Over.
-122:44:57|T|CC|Columbia, Houston in the blind - high-gain. Pitch minus 20, yaw plus 150.
-122:45:52|T|LMP|Houston, Tranquility. Could you give me the fixed portion of the ascent PAD so I can load it in for a P57? Over.
-122:46:02|T|CC|Tranquility. Roger. Stand by one. We want to wait on that P57 until about TIG minus 50 minutes. Over.
-122:46:19|T|LMP|Roger.
-122:47:03|T|CC|Columbia, Columbia, Houston. Over.
-122:48:30|T|CC|Columbia, Columbia, Houston. Over.
-122:50:24|T|LMP|Houston, Tranquility. It turns out that detent 4 isn't usable anyway with the yaw that we have, because the Earth appears in both detent 2 and detent 3.
-122:50:39|T|CC|Tranquility Base, Houston. Roger.
-122:50:54|T|CC|Columbia, Houston. Over.
-122:51:22|T|CC|Tranquility, Houston. I have your LM ascent and CSI data PAD's when you are ready to copy.
-122:51:33|T|CDR|We're ready to copy.
-122:51:36|T|CC|Roger. LM ascent PAD: TIG 124 22 00 00 00 NOUN 76 55349 00322, plus 0017; DEDA 47, plus 37104, minus 70470, plus 58604, plus 56936. Your LM weight 10837. Your T14 126, plus 20, plus 12. Over.
-122:53:18|T|CDR|What figure is the crossrange and NOUN 76?
-122:53:26|T|CC|Roger. Your crossrange for NOUN 76 - By the way, we may update this later, but now it is plus 0017. Over.
-122:53:47|T|CDR|Roger. Readback follows. TIG 124 22 0000 55349 00322, plus 0017, plus 37104, minus 70470, plus 58604, plus 56936. LM weight 10837. T14, 126 20 12. Go.
-122:54:30|T|CC|Tranquility, Houston. Roger. Your readback correct. Now I have your CSI PAD.
-122:54:50|T|CDR|Going to CSI PAD.
-122:54:52|T|CC|Roger. CSI PAD. TIG of CSI 125 19 3470; TIG of TPI 126 57 0000; NOUN 81, 0532 plus 0000; FDAI NA; DEDA 373 03196; DEDA 275 04170; NOUN 86 plus 0532, plus 0000, plus 0012. Tranquility readback.
-122:56:21|T|CDR|CSI Apollo PAD follows. TIG 125 19 3470; TIG of TPI 126 57 0000; NOUN 81, 0532, plus all zeroes, 373 03196 275 04170; NOUN 86 plus 0532, plus 0000, plus 0012. Go.
-122:57:10|T|CC|Tranquility Base, Houston. Your readback is correct. And, Tranquility, no need for any GYRO compensation. It's GO.
-122:57:26|T|LMP|Roger. Understand.
-122:57:34|T|CC|Columbia, Houston. Over.
-122:57:48|T|CC|Columbia, Houston in the blind. Request high-gain. Pitch minus 30, yaw plus 170. Over.
-122:58:00|P|PAO|This is Apollo Control. Some 5 minutes 35 seconds away from loss of signal with the spacecraft Columbia before it goes on the far side of the Moon on the 24th revolution. 1 hour, 18 minutes until ascent ignition and following that the rendezvous sequence completed with the docking at 128 hours approximately. We'll continue to monitor air to ground here as data is passed up to the crew for the upcoming day's activities. Apollo Control standing by at 123 hours and 3 minutes.
-122:58:35|T|CMP|Houston, Columbia on the high-gain. Over.
-122:58:38|T|CC|Roger, Columbia. We still need to finish your uplink there, and then I have your CSI and TPI times and also the lift off.
-122:58:53|T|CMP|Go ahead. Ready to copy.
-122:58:57|T|CC|Roger. LM ascent lift off time: 124 22 0000. Your CSI TIG, say again CSI TIG: 125 19 3470. Your TIG of TPI: 126 57 0000. And the LM's NOUN 81 values for CSI: 0532 - that's 53.2 for DELTA VX, DELTA VY all zeros. Columbia, Houston. Over.
-123:00:12|T|CMP|Roger. I readback lift off TIG 124 22 even, CSI 125 19 3470, TPI 126 57 even, the LM's NOUN 81 for CSI 53.2 DELTA VX. Over.
-123:00:35|T|CC|Columbia, Houston. Roger. Your readback correct.
-123:01:00|T|CC|Columbia, Houston. We're coming up with your second load now.
-123:01:12|T|CMP|Roger that.
-123:01:49|T|CC|Columbia, Houston. The computer is yours, and you can do your VERB 45 ENTER now.
-123:01:58|T|CMP|Roger. Go into BLOCK and VERB 45 ENTER.
-123:02:02|T|CC|Roger.
-123:02:11|T|CMP|How's the Black Team today? All primed and raring to go?
-123:02:14|T|CC|You bet you there, Mike.
-123:02:20|T|CMP|Good signal.
-123:05:43|T|CC|Columbia, Houston. About 3 minutes to LOS, and I have your consumables update.
-123:05:52|T|CMP|Ready to copy.
-123:05:53|T|CC|Roger. At 123 plus 00, RCS total minus 7 percent, Alfa minus 12 percent, Bravo plus 4.5, Charlie minus 7, Delta minus 6.5. Your hydrogen total minus 1.4 pounds, oxygen - oxygen plus 1.7. Over.
-123:06:40|T|CMP|Whoever figured those hydrogens and oxygens out a couple of days ago must have known what he was doing.
-123:06:46|T|CC|Okay. I think I read that oxygen - it's a plus 17 pounds.
-123:06:54|T|CMP|Roger. Still close.
-123:06:56|T|CC|Roger.
-123:07:52|T|CC|Eagle and Columbia, this is the backup crew. Our congratulations for yesterday's performance, and our prayers are with you for the rendezvous. Over.
-123:08:00|O|CDR|Thank you kindly, Jim.
-123:08:00|P|PAO|This is Apollo Control. We've had loss of signal with Columbia going behind the Moon. Toward the end of that pass, Apollo 11 backup commander, Jim Lovell, who's had some experience in Lunar missions came up with his congratulations with his job-well-done. He mentioned that he would be here giving moral support during the rendezvous sequence to follow. There are likely to be further communications with Eagle until the Command Module comes around the corner again some 44 minutes from now We'll bring the circuit back up as communications resume perhaps playing catch up with tape recordings, and at 123 hours, 10 minutes Ground Elapsed Time, 1 hour, 11 minutes to ignition this is Apollo - stand by. We may be - let's listen in again.
-123:08:04|T|CDR|Thank you, Jim.
-123:08:06|T|LMP|Thank you, Jim.
-123:08:06|O|CDR|Glad to have all you big roomful of people looking over our shoulder.
-123:08:10|T|CMP|Glad to have all you big room full of people looking over our shoulder.
-123:08:15|T|CDR|We had a lot of help down there, Jim.
-123:10:32|T|CDR|And, Houston, Tranquility Base is going to give you a few comments with regard to the geology question of last night. We are landed in a relatively smooth crater field of elongate secondary - circular secondary craters, most of which have rims irrespective of their - raised rims irrespective of their size. That's'not universally true. There are - There are a few of the smaller craters around which do not have a discernable rim. The ground mass throughout the area is a very fine sand to a silt. I'd say the thing that would be most like it on Earth is powdered graphite. Immersed in this ground mass are a wide variety of rock shapes, sizes, textures, rounded and angular, many with varying consistencies. As I said, I've seen plain - what looked to be plain basalt and vesicular basalt. Others with no crystals, some with small white phenocrysts, maybe one to less than 5 percent. And the bould - we are in a boulder field where the boulders range generally up to 2 feet with a few larger than that. Now, some of the boulders are lying on top of the surface, some are partially exposed, and some are just barely exposed. And in our traverse around on the surface and particularly working with the scoop, we've run into boulders below the surface - it was probably buried under several inches of the ground mass.
-123:12:55|T|CC|Tranquility, Houston. Roger. Very fine description.
-123:13:05|T|CDR|I suspect this boulder field may have some of its origin with this large sharp edged rocky rim crater that we passed over at final descent. Now yesterday I said that was about the size of a football field, and I have to admit it was a little - little hard to measure coming in. But I thought that it might just fit in the Astrodome as we came by it. And the rocks in the vicinity of the - of this rocky rim crater are much larger than these in this area. Some are 10 feet or so and perhaps bigger, and they are very thickly populated out to about one crater diameter beyond the crater rim. Beyond that, there is some diminishing, and even out in this area the blocks seem to run out in rows with irregular patterns, and then there are paths between them where there are considerably less surface evidence of hard rocks. Over.
-123:14:16|T|CC|Tranquility Base, Houston. We copy. Thank you very much.
-123:14:32|T|CC|And, Tranquility Base, we're through with the ranging. You can take your S band function switch to OFF RESET.
-123:14:42|T|CDR|Roger.
-123:14:45|T|CC|And, Tranquility, I have a LM consumables update for you.
-123:14:53|T|CDR|Roger. Ready to copy.
-123:14:55|T|CC|Okay. At 123 plus 00, RCS Alfa 78 - 78 percent PQMD, Bravo is 76 percent PQMD, descent O2 is 62 percent - 62 percent. Descent ampere hours are 590, 590 remaining, ascent ampere hours are 574, 574 remaining. Over.
-123:15:41|T|CDR|Roger. Copy. Sounds very good. Thank you.
-123:15:44|T|CC|Roger.
-123:18:00|P|PAO|This is Apollo Control. Some 57 minutes 22 seconds away from ignition on the LM ascent back into lunar orbit. Some 30 minutes away from acquisition of the spacecraft Columbia, as it comes around again on the 25th revolution. And the latest information from the scientific experiment placed on the lunar surface last night by the Apollo 11 crew, our Science Support Room reports receiving continuous data from the Passive Seismic Experiment. The Passive Seismic Experiment is part of the early Apollo science experiment package which has the acronym ASEP. Recorded the astronauts footsteps on the Moon; also sent down signals when the crew climbed up the ladder back into the Eagle, and recorded a strong signal when they expended Portable Life Support
+121:10:47|P|PAO|This is Apollo Control. Spacecraft Columbia has gone behind the Moon on the 23rd lunar revolution. Be acquired again at - well, let's see now, it looks like we don't have acquisition table up yet for next rev. During this pass and the short conversation toward the end of the frontside pass with Columbia, the network transmitters have been arranged so that the transmissions would not disturb the crew of Eagle who at this time should still be asleep. Not since Adam has any human known such solitude as Mike Collins is experiencing during the 47 minutes of each lunar revolution when he's behind the Moon with no one to talk to except his tape recorder aboard Columbia. While he waits for his comrades to soar with Eagle from Tranquility Base and rejoin him for the trip back to Earth, Collins, with the help of Flight Controllers here in Mission Control Center has kept the Command Module's system going "pocketa-pocketapocketa". At 120 hours, 12 minutes Ground Elapsed Time, this is Apollo Control.
+121:40:40|T|CC|Tranquility Base, Tranquility Base, Houston. Over.
+121:40:49|T|LMP|Good morning, Houston. Tranquility Base. Over.
+121:40:50|P|PAO|This is Apollo Control. Let's join the call to Tranquility Base.
+121:40:52|T|CC|Roger. Loud and clear. And how is the resting standing up there. Did you get a chance to curl up on the engine can?
+121:41:06|T|LMP|Roger. Neil has rigged himself a really good hammock with a waste tether, and he's been lying on the ascent engine cover, and I curled up on the floor. Over.
+121:41:17|T|CC|Roger. Copy, Buzz. Got a couple of changes to your surface checklist here, and in general, what we're going to want you to do is P22, tracking the Command Module for one last hack on your position there. And this will be - in other words, P57, P22, and then to press on with the checklist, and the rest of them are a couple of minor changes in the checklist. The main one being that we do not want the rendezvous radar on during the ascent, and we think that this will take care of some of the overflow of program alarms that you were getting during descent.
+121:42:08|T|LMP|Okay. We had the rendezvous radar in SLEW during descent, though.
+121:42:17|T|CC|Tranquility Base, Houston. I missed that. Say again.
+121:42:24|T|LMP|Roger. I say again. We had the rendezvous radar switch in the SLEW position, not the LGC position.
+121:42:36|T|CC|Roger. We copy that. But there's a greater duty cycle on - There's a good 15 percent duty cycle on the ascent program there, so just go ahead and leave it off. And I have the changes here if you want to get out your surface checklist, and I can go ahead and start giving them to you.
+121:43:02|T|LMP|All right. Go ahead. I've got it out.
+121:43:04|T|CC|Okay. Before we start here, request P00 and DATA, and we'll give you some vectors.
+121:43:26|T|LMP|Now you've got P00 and DATA.
+121:43:28|T|CC|Okay. And on Surface 50 will be the first change there.
+121:43:38|T|LMP|Okay. And I understand you want us to do a P57 option 3 and then a P22, is that the general idea? Over.
+121:43:47|T|CC|That's affirmative. So on Surface 50 there, down at the bottom of the page, just after PRO after two recycles, stick in a time of 122 plus 15; do P22 as per PGNS 20 of G&N dictionary. Over.
+121:44:25|T|LMP|Roger. Understand that's 122:15, do P22 as per PGNS 20, G&N dictionary.
+121:44:32|T|CC|Roger. Okay. Let's skip on over to Surface 59.
+121:44:54|T|LMP|Okay.
+121:44:55|T|CC|Okay. This is going to be for one last vent on the DPS tank there, so at the top of the page just after EPS INVERTER 1, CLOSE, add - Okay, after EPS INVERTER 1, CLOSE, add PROP DESCENT HELIUM REG/VENT CLOSE, and then after STABILIZATION/CONTROL AELD, CLOSE, add PROP DISPLAYS/ENGINE OVERRIDE/LOGIC, CLOSE. Over.
+121:46:05|T|LMP|Roger. Copy. These are two circuit breakers, right?
+121:46:23|T|CC|Tranquility Base, affirmative. Those are just the circuit breakers at that time.
+121:46:57|T|CC|Tranquility Base, Houston. Did you get those two on the propulsion circuit breakers?
+121:47:05|T|LMP|Roger. I have those two.
+121:47:07|T|CC|Okay. Let's go over to Surface 60, and then down the middle of the page, after launch guidance system recommendation from MSFN, then I add the switches there.
+121:47:40|T|LMP|Roger. Go ahead there.
+121:47:41|T|CC|Okay. After launch guidance system recommendation from MSFN, add DESCENT PROPULSION FUEL VENT, OPEN; add DESCENT PROPULSION OXIDIZER VENT, OPEN; add verify talkback gray. Over.
+121:48:25|T|LMP|Roger. DESCENT PROPELLANT FUEL VENT, OPEN; DESCENT PROPELLANT OXIDIZER VENT, OPEN; verify talkback gray.
+121:48:33|T|CC|Roger. You got that one, so that'll be the last vent and it will continue venting. Skip over to Surface 61 down there at TIG minus 17.
+121:49:14|T|LMP|Roger. I'm there. Go ahead.
+121:49:15|T|CC|Okay, at TIG minus 17, delete CB (11). AC Bus A, RENDEZVOUS RADAR, CLOSE, wait 30 seconds; delete PGNS: RENDEZVOUS RADAR, CLOSE; and then add UP DATA LINK switch to VOICE BACKUP. Over.
+121:49:51|T|LMP|Roger. I have that. We'll leave those two circuit breakers open, and have the UP DATA LINK to VOICE BACKUP; and we'll make the appropriate changes on the following circuit breaker status card.
+121:50:05|T|CC|Roger. And then you might add a little note down there at the bottom of the page - Note: - This is at the bottom of page 61 - Note: Do not use tape meter in PGNS, i.e., do not place MODE SELECT switch to PGNS. Over.
+121:50:38|T|LMP|Okay. We'll put it in AGS.
+121:50:43|T|CC|Roger. Fair enough. That's some more of that computer load business.
+121:50:53|T|CC|Okay. That's all the changes we have for the checklist here. I've got some - just some general notes, I'll read to you on P22, and just for some information. Over.
+121:51:11|T|LMP|Okay. Then it looks to me like we ought to get hopping on this P57.
+121:51:15|T|CC|Roger. We agree wholeheartedly. And while you're starting on that, I'll read - just read these notes on P22. Call P22 possible program alarm 5.6, range greater than 400 nautical miles, and then use P22 as described on PGNS 20. Take option 1 in NOUN 06, and use the "no update" mode. The rendezvous radar will lock on at about 25 degrees elevation above the horizon. If 503 alarm occurs, designate fail. Key a PROCEED and allow the rendezvous radar to search for the CSM. And place the range altitude monitor switch in altitude/altitude rate to prevent the tape meter from driving into the stops. And press on.
+121:52:32|T|LMP|Roger. I think I have that.
+121:54:03|P|PAO|This is Apollo Control. A little over 2 minutes until Columbia comes over the hill again on the 24th Lunar Revolution. In that wake up call to Eagle, the crew described how they slept in the spacecraft by lying on the floor and on the engine cover. Some of the preliminary times being generated now ascent show ignition about 1 minute 26 seconds earlier than the pre-mission Flight Plan. Ignition time now showing 124 hours 22 minutes 0 seconds. Burn will have a magnitude of 6,068 feet per second. Quite a bit of that will be in vertical rise and actually starting from zero feet per second on the lunar surface. The CSI maneuver behind the Moon, the Concentric Sequence Initiate, CSI the acronym being for that maneuver. 125 hours 19 minutes 34 seconds. Consistent Delta Height CDH 126 hours 18 minutes 0 seconds. Terminal Phase Initiation 126 hours 57 minutes 0 seconds, and Terminal Phase Finalization or the final breaking before docking 127 hours 39 minutes 39.2 seconds. These are Ground computations. And they will be computed by the crew from radar tracking, rendezvous radar. So actually these number computed on the Ground are somewhat academic in that they will be computed in real time by the crew. We're standing by here for Capcom to resume conversation. During this upcoming pass here, more definite fix on the Eagle positions will be attempted by using the rendezvous radar from the Eagle in Program 22, rendezvous radar lunar surface navigation program. The transponder on Columbia in the meantime has been warmed up. During the last revolution, Mike Collins was advised to - have the - the transponder warmed up. As of now, the exact location is somewhat vague. And perhaps this rendezvous radar exercise will give a final, more pinpoint location of where Eagle does indeed nest on the Moon. We'll continue to monitor the air-ground circuit. We've had acquisition of signal with Columbia, so likely the conversation will increase here as we get the - the lockon, hopefully, with rendezvous radar as Columbia passes over the Eagle landing site. Still live on air-ground.
+121:58:21|T|CC|Columbia, Columbia, Houston. Over.
+121:59:20|T|CC|Columbia, Columbia, Houston. Over.
+121:59:36|T|CMP|Houston, Columbia.
+121:59:38|T|CC|Roger, Columbia. We'd like a CRYO stir in all four tanks and the standard 1 minute. Over.
+121:59:50|T|CMP|In work.
+121:59:51|T|CC|Roger. And do you have any torquing angles from the P52?
+122:00:01|T|CMP|Roger. Stand by one.
+122:00:15|T|CC|Tranquility, Houston. Request ERROR RESET at this time. Over.
+122:00:25|T|LMP|Roger. ERROR RESET, and would you tell me when you're satisfied with the LGC self test?
+122:00:34|T|CC|Tranquility, LGC is a GO.
+122:00:40|T|LMP|Roger.
+122:00:42|T|CMP|Torquing angles when you're ready.
+122:00:45|T|CC|Columbia, Houston. Go ahead.
+122:00:55|T|CMP|Roger. Stars 25 and 42; angle difference 5 balls; NOUN 93, plus 00165, plus 00186, minus 00039, time of torquing 121:15. Over.
+122:01:15|T|CC|Columbia, Houston. We copy. Thank you.
+122:01:30|T|CMP|And CRYO stir complete.
+122:01:33|T|CC|Roger. Thank you, Columbia.
+122:05:39|T|LMP|Houston, Tranquility. Would you like a recycle on the VERB 604? Over.
+122:05:50|T|CC|Tranquility, Houston, We copy. Stand by one.
+122:05:58|T|CC|Tranquility, Houston. Request recycle.
+122:11:46|T|CMP|Houston, Columbia. My rendezvous radar transponder is operating.
+122:11:55|T|CC|Spacecraft calling Houston? Say again.
+122:12:01|T|CMP|Roger, this is Columbia saying the rendezvous radar transponder is operating. ...
+122:12:07|T|CC|Roger. Copy, Columbia.
+122:13:59|T|CC|Tranquility, Houston. Request rendezvous radar breakers in about now.
+122:14:36|T|CC|Columbia, Houston. Request OMNI D - OMNI Delta.
+122:15:49|T|CC|Tranquility Base, Houston. Request you go ahead and start the warmup on the rendezvous radar.
+122:15:59|T|LMP|Roger.
+122:17:02|T|LMP|Houston, you copying NOUN 93?
+122:17:05|T|CC|Tranquility, affirmative. Go.
+122:17:11|T|LMP|Roger. We're going to a torque.
+122:17:13|T|CC|Houston. Roger.
+122:18:04|T|CC|Tranquility Base, Houston. Columbia will be overhead at 122 plus 22 plus 51. His LOS will be 29:35. Over.
+122:18:25|T|LMP|Roger.
+122:20:39|T|LMP|Houston, we'd like to check this on the tape meter against the AGS. We'll go back to altitude - altitude rates as soon as the rate starts to build up. Over.
+122:20:53|P|PAO|This is Apollo Control. We have confirmation of radar lock on.
+122:20:53|T|CC|Tranquility, Houston. Roger.
+122:21:07|T|LMP|On second thought, since that will peg the range rate, I guess maybe we'd better not do that. And for this range that the AGS are showing now, 425 miles with a signal strength of 2.2. It looks like we ought to proceed on this. Over.
+122:21:33|T|CC|Roger. Stand by one.
+122:21:44|T|CC|Tranquility, affirmative. Proceed.
+122:21:59|T|LMP|Are you getting the information on the downlink now?
+122:22:06|T|CC|Tranquility, affirmative, and we're saving it. We've got 4 points so far, and it's looking good.
+122:22:22|T|LMP|Okay. What do you people think about calling up a VERB 83?
+122:22:44|T|CC|Tranquility, Houston. Stand by on that. We're getting the data now. We're checking on the VERB 83.
+122:22:53|T|LMP|And we expect that we may lose lock when it passes overhead because of the MAX rate that the radar has.
+122:23:08|T|CC|Tranquility, Houston. Negative on VERB 83.
+122:23:15|T|LMP|Understand.
+122:24:11|T|LMP|We just lost lock.
+122:24:15|T|CC|Tranquility, Houston. Go.
+122:24:26|T|LMP|We've just lost lock, Ron.
+122:24:28|T|CC|Roger. We had about 20 some points before you did that. And for your information, the reason the AGS is a little different there - The reason the AGS is a little different is because the K factor is a little bit wrong.
+122:24:42|T|LMP|Has he already gone? Over. Okay. Okay. Has he already gone overhead, or do you want us to try and get in lock on again?
+122:24:54|T|CMP|Houston, Columbia. You got NOUN 49. Five good marks.
+122:24:59|T|CC|Tranquility, affirmative. Try to lock on again, and you'll lose him at about 29 minutes and 35 seconds.
+122:25:12|T|LMP|Okay. Do you have a real quick procedure how to do that?
+122:25:25|T|CC|Columbia, Houston. Say again about your NOUN 49.
+122:25:31|T|CMP|I say I got five good marks. You got NOUN 49. When you get everything you need off the downlink, let me know.
+122:25:39|T|CC|Columbia, Houston. Stand by one.
+122:26:00|T|CDR|Ron, did you say on the 526 alarm to proceed or do a VERB 32?
+122:26:07|T|CC|Roger ...
+122:29:08|T|LMP|It's just that radar thinks the range is greater than 400 miles now.
+122:26:16|T|CC|Tranquility Base, Houston. Recommend you terminate P22. Over.
+122:26:26|T|CDR|Roger. Will do.
+122:26:28|T|CC|And, Columbia, Houston. Same for you. You can terminate P22.
+122:26:37|T|CMP|I have. I'm running fast.
+122:26:40|T|CC|Roger.
+122:27:17|T|CMP|I'm staying in P22 here a second just to record the NOUN 89 and then over VERB 34.
+122:27:25|T|CC|Columbia, Houston. Roger. We copy, and that's good.
+122:28:00|T|CC|Tranquility, Houston.
+122:28:10|T|LMP|Roger. Go ahead.
+122:28:12|T|CC|Roger. Request S BAND FUNCTION switch to RANGE. We're going to do some ranging on you. Also, I have an updated AGS K factor when you are ready to copy. Over.
+122:28:29|T|LMP|Roger. Go ahead with the K factor.
+122:28:30|T|CC|Roger. 119 plus 59 plus 59.92. Over.
+122:28:47|T|LMP|Roger. A little closer this time.
+122:28:49|T|CC|Yes. It sure is.
+122:28:49|T|LMP|119:59 59.92. Over.
+122:28:55|T|CC|Tranquility, Houston. Readback correct.
+122:30:13|T|CC|Columbia, Houston - -
+122:30:15|T|LMP|Houston, Tranquility. I see what you mean now about the K factor.
+122:30:18|T|CC|Roger.
+122:30:27|T|CMP|This is Columbia. Go ahead. And I'd like to know about this P52 coming up. Is that the one I just completed or do you want a pair of them back to back?
+122:30:39|T|CC|Columbia, Houston. You do not need to do another P52 unless you want to. Break. And also, Columbia, when you get a chance, request BATT C and the PYRO readouts. Over.
+122:31:11|T|CMP|BATT C says 37 volts even. PYRO A, 37. PYRO B, 37.
+122:31:24|T|CC|Columbia, Houston. Roger. We copy. Thank you.
+122:31:31|T|CMP|BATT bus B is 37. BATT bus A is 36, or I'd think the gauge is stuck.
+122:31:38|T|CC|Roger. And you're looking good to us - to us, Columbia.
+122:31:46|T|CMP|Yes sir. Keep it that way.
+122:32:09|T|CMP|Columbia is coming up on a VERB 45 ENTER to reset the surface flag.
+122:32:17|T|CC|Columbia, Houston. Negative. Stand by on the VERB 45.
+122:32:25|T|CMP|Roger that.
+122:32:46|T|CMP|And a crew status report from Columbia. I figure I got about 5 hours' good sleep, although you guys probably know better than I do.
+122:32:56|T|CC|Columbia. Roger. We copy.
+122:33:35|T|CC|Columbia, Houston. We've got a couple more vectors to send up to you. They'll be coming up shortly and then you can do the VERB 45 after you get those in. Over.
+122:33:48|T|CMP|Okay. That's fine. Just wanted to make sure that we're both in SYNC on the order.
+122:33:57|T|CC|Roger.
+122:35:26|T|CC|Columbia and Tranquility Base, this is Houston. In case you haven't noticed, the MSFN relay is not activated, so I can go ahead and relay anything if you want to talk directly.
+122:35:47|T|CMP|Columbia. Roger.
+122:35:57|T|LMP|Houston, Tranquility. Be advised we've got - -
+122:36:00|T|CMP|... Coming ... on schedule
+122:36:04|T|LMP|- - showing red right now. We just put a VERB 77 in. I believe that there's ... let me check here.
+122:36:23|T|CC|Tranquility Base, Houston. We've got a lot of static down here. Could you say again?
+122:36:35|T|LMP|Roger. We have four out of eight circuit breaker talkbacks indicating red. We still have the circuit breakers out as of right now. I believe at this moment we have just entered VERB 77 on page 3052 and are ready to proceed with the hot fire. Is it normal to have these four red flags? Over.
+122:37:13|T|CC|Tranquility Base, Houston. We think that's okay. Go ahead and reset them and press on with the hot fire. Over.
+122:37:31|T|LMP|Roger. They are reset.
+122:37:35|T|CC|Columbia, Columbia, Houston. Request P00 and ACCEPT, and we'll send some state vectors up to you.
+122:37:48|T|CMP|Here we going P00 and ACCEPT.
+122:41:01|T|LMP|Houston, Tranquility. I used Capella in the last sighting, and it's a good ways near the edge. A good ways away from the center of detent 4. I'm wondering if it would pay any to use Alpheratz, star number 1. It might be a little closer. However, it would delay things a little, since I'd have to designate the radar out of the way. Over.
+122:42:39|T|CC|Tranquility. Roger. We copy. Stand by 1. And, break, break, Columbia. We're having a little trouble getting the stuff in there. Request high-gain, pitch minus 20, yaw plus 150. Over.
+122:43:10|T|CC|And, Tranquility, Houston. We'd prefer to save the time; press on with Capella. Over.
+122:43:23|T|LMP|Roger.
+122:43:33|T|CC|And, Tranquility, Houston. The RCS check looked mighty fine to us.
+122:43:41|T|CDR|It looks good up here.
+122:43:50|T|CC|Columbia, Columbia, Houston. Over.
+122:44:26|T|CC|Columbia, Houston. Over.
+122:45:00|T|CC|Columbia, Houston in the blind - high-gain. Pitch minus 20, yaw plus 150.
+122:45:56|T|LMP|Houston, Tranquility. Could you give me the Tig portion of the ascent PAD so I can load it in for a P57? Over.
+122:46:06|T|CC|Tranquility. Roger. Stand by one. We want to wait on that P57 until about Tig minus 50 minutes. Over.
+122:46:21|T|LMP|Roger.
+122:47:06|T|CC|Columbia, Columbia, Houston. Over.
+122:48:33|T|CC|Columbia, Columbia, Houston. Over.
+122:50:30|T|LMP|Houston, Tranquility. It turns out that detent 4 isn't usable anyway with the yaw that we have, because the Earth appears in both detent 2 and detent 3.
+122:50:46|T|CC|Tranquility Base, Houston. Roger.
+122:51:01|T|CC|Columbia, Houston. Over.
+122:51:30|T|CC|Tranquility, Houston. I have your LM ascent and CSI data PAD's when you are ready to copy.
+122:51:42|T|LMP|We're ready to copy.
+122:51:44|T|CC|Roger. LM ascent Pad: TIG, 124:22:00:00; Noun 76, 55349, 00322, plus 0017; DEDA 47, plus 37104, minus 70470, plus 58604, plus 56936. Your LM weight 10837. Your T14 126, plus 20, plus 12. Over.
+122:53:22|T|CDR|What - say again the crossrange in NOUN 76?
+122:53:29|T|CC|Roger. Your crossrange for NOUN 76 - By the way, we may update this later, but now it is plus 0017. Over.
+122:53:51|T|CDR|Roger. Readback follows. TIG 124:22:0000, 55349, 00322, plus 0017, plus 37104, minus 70470, plus 58604, plus 56936. LM weight 10837. T14, 126:20:12. Go.
+122:54:34|T|CC|Tranquility, Houston. Roger. Your readback correct. Now I have your CSI PAD.
+122:54:53|T|CDR|Going to CSI PAD.
+122:54:55|T|CC|Roger. CSI Pad. TIG of CSI 125:19:3470; TIG of TPI 126:57:0000; Noun 81, 0532 plus 0000; FDAI, NA; DEDA 373, 03196; DEDA 275, 04170; Noun 86 plus 0532, plus 0000, plus 0012. Tranquility, readback.
+122:56:25|T|CDR|CSI Apollo Pad follows. TIG 125:19:3470; TIG of TPI 126:57:0000; Noun 81, 0532, plus all zeroes; 373, 03196; 275, 04170; Noun 86 plus 0532, plus 0000, plus 0012. Go.
+122:57:12|T|CC|Tranquility Base, Houston. Your readback is correct. And, Tranquility, no need for any GYRO compensation. It's GO.
+122:57:30|T|LMP|Roger. Understand.
+122:57:36|T|CC|Columbia, Houston. Over.
+122:57:50|T|CC|Columbia, Houston in the blind. Request high-gain. Pitch minus 30, yaw plus 170. Over.
+122:58:37|T|CMP|Houston, Columbia on the high-gain. Over.
+122:58:40|T|CC|Roger, Columbia. We still need to finish your uplink there, and then I have your CSI and TPI times and also the liftoff.
+122:58:55|T|CMP|Go ahead. Ready to copy.
+122:58:58|T|CC|Roger. LM ascent lift-off time: 124:22:0000. Your CSI TIG, (I) say again CSI TIG: 125:19:3470. Your TIG of TPI: 126:57 0000. And the LM's Noun 81 values for CSI: 0532 - that's 53.2 for Delta VX; Delta VY all zeros. Columbia, Houston. Over.
+123:00:14|T|CMP|Roger. I readback lift-off TIG 124:22 even, CSI 125:19:3470; TPI 126:57 even; the LM's Noun 81 for CSI, 53.2 Delta VX. Over.
+123:00:37|T|CC|Columbia, Houston. Roger. Your readback correct.
+123:01:02|T|CC|Columbia, Houston. We're coming up with your second load now.
+123:01:14|T|CMP|Roger that.
+123:01:51|T|CC|Columbia, Houston. The computer is yours, and you can do your VERB 45 ENTER now.
+123:02:00|T|CMP|Roger. Go into BLOCK and VERB 45 ENTER.
+123:02:04|T|CC|Roger.
+123:02:12|T|CMP|How's the Black Team today? All primed and raring to go?
+123:02:16|T|CC|You bet you there, Mike.
+123:02:21|T|CMP|Good ...
+123:03:18|P|PAO|This is Apollo Control. Some 5 minutes 35 seconds away from loss of signal with the spacecraft, Columbia before it goes on the far side of the Moon on the 24th revolution. 1 hour, 18 minutes until ascent ignition and following that the rendezvous sequence completed with the docking at 128 hours approximately. We'll continue to monitor air to ground here as data is passed up to the crew for the upcoming day's activities. Apollo Control standing by at 123 hours and 3 minutes.
+123:05:45|T|CC|Columbia, Houston. About 3 minutes to LOS, and I have your consumables update.
+123:05:54|T|CMP|Ready to copy.
+123:05:55|T|CC|Roger. At 123 plus 00, RCS total minus 7 percent, Alfa minus 12 percent, Bravo plus 4.5, Charlie minus 7, Delta minus 6.5. Your hydrogen total minus 1.4 pounds, oxygen - oxygen plus 1.7. Over.
+123:06:41|T|CMP|Whoever figured those hydrogens and oxygens out a couple of days ago must have known what he was doing.
+123:06:47|T|CC|Okay. I think I read that oxygen - it's a plus 17 pounds.
+123:06:55|T|CMP|Roger. Still close.
+123:06:57|T|CC|Roger.
+123:07:53|T|CC|Eagle and Columbia, this is the backup crew. Our congratulations for yesterday's performance, and our prayers are with you for the rendezvous. Over.
+123:08:05|T|CDR|Thank you, Jim.
+123:08:07|T|LMP|Thank you, Jim.
+123:08:11|T|CMP|Glad to have all you big room full of people looking over our shoulder.
+123:08:16|T|CDR|We had a lot of help down there, Jim.
+123:09:29|P|PAO|This is Apollo Control. We've had loss of signal with Columbia going behind the Moon. Toward the end of that pass, Apollo 11 backup commander, Jim Lovell, who's had some experience in Lunar missions came up with his congratulations for a job-well-done. He mentioned that he would be here giving moral support during the rendezvous sequence to follow. There will likely to be further communications with Eagle until the Command Module comes around the corner again some 44 minutes from now We'll bring the circuit back up as communications resume perhaps playing catch up with tape recordings, and at 123 hours, 10 minutes Ground Elapsed Time, 1 hour, 11 minutes to ignition, this is Apollo - stand by. We may be - let's listen in again.
+123:10:33|T|CDR|And, Houston, Tranquility Base is going to give you a few comments with regard to the geology question of last night. We are landed in a relatively smooth crater field of elongate secondary - circular secondary craters, most of which have rims irrespective of their - raised rims irrespective of their size. That's not universally true. There are - There are a few of the smaller craters around which do not have a discernable rim. The ground mass throughout the area is a very fine sand to a silt. I'd say the thing that would be most like it on Earth is powdered graphite. Immersed in this ground mass are a wide variety of rock shapes, sizes, textures, rounded and angular, many with varying consistencies. As I said, I've seen plain - what looked to be plain basalt and vesicular basalt. Others with no crystals, some with small white phenocrysts, maybe one to less than 5 percent. And the bould - we are in a boulder field where the boulders range generally up to 2 feet with a few larger than that. Now, some of the boulders are lying on top of the surface, some are partially exposed, and some are just barely exposed. And in our traverse around on the surface and particularly working with the scoop, we've run into boulders below the surface - it was probably buried under several inches of the ground mass.
+123:12:58|T|CC|Tranquility, Houston. Roger. Very fine description.
+123:13:09|T|CDR|I suspect this boulder field may have some of its origin with this large sharp edged blocky-rimmed crater that we passed over at final descent. Now yesterday I said that was about the size of a football field, and I have to admit it was a little - little hard to measure coming in. But I thought that it might just fit in the Astrodome as we came by it. And the rocks in the vicinity of the - of this blocky-rim crater are much larger than these in this area. Some are 10 feet or so and perhaps bigger, and they are very thickly populated out to about one crater diameter beyond the crater rim. Beyond that, there is some diminishing, and even out in this area the blocks seem to run out in rows with irregular patterns, and then there are paths between them where there are considerably less surface evidence of hard rocks. Over.
+123:14:20|T|CC|Tranquility Base, Houston. We copy. Thank you very much.
+123:14:36|T|CC|And, Tranquility Base, we're through with the ranging. You can take your S-band function switch to OFF RESET.
+123:14:46|T|LMP|Roger.
+123:14:48|T|CC|And, Tranquility, I have a LM consumables update for you.
+123:14:57|T|LMP|Roger. Ready to copy.
+123:14:59|T|CC|Okay. At 123 plus 00, RCS Alfa 78 - 78 percent PQMD, Bravo is 76 percent PQMD, descent O2 is 62 percent - 62 percent. Descent ampere hours are 590, 590 remaining, ascent ampere hours are 574, 574 remaining. Over.
+123:15:44|T|CDR|Roger. Copy. Sounds very good. Thank you.
+123:15:48|T|CC|Roger.
 123:18:00|P|PAO|Backpacks and other pieces of equipment were jettisoned out Eagle's front hatch. Let's rejoin the conversation.
-123:18:35|T|CC|Tranquility Base, Houston.
-123:18:41|T|CDR|Go ahead, Houston.
-123:18:43|T|CC|Roger. For your P57 ..., we did a little looking around, and it looks like Sirius and Rigel out at detent 6 would be real good on that. The Sun angle on Sirius is about 43 degrees, and on Rigel, it's about 55 degrees. Over.
-123:19:08|T|LMP|Roger, Houston. The only trouble is that the Sun is in number 5, the closed one. And it appears to also be close enough to detent 6 to shine on the far side of the cone. And it completely obscures detent 6. I'm - unable to use that at all.
-123:19:37|T|CC|Okay. We understand it now, and thank you.
-123:20:43|T|CC|Tranquility, Houston. For your information, the circuitry looks real fine on that ascent engine arm circuit breaker.
-123:20:54|T|LMP|Roger. I don't think I could get it out now if I wanted to.
-123:21:00|T|CC|Roger. We copy.
-123:21:05|T|LMP|And it looks like in detent 6 I can pick up Venus right at the fringe, but I can't get anything else.
-123:21:15|T|CC|Roger.
-123:21:33|T|CDR|And by the way, Houston, our EVA antenna did retract.
-123:21:37|T|CC|Roger. Mighty fine. Thank you.
-123:22:45|T|CC|Tranquility, Houston.
-123:22:52|T|LMP|Roger. Go ahead.
-123:22:54|T|CC|Roger. It looks like you're going to have to reposition the radar here. We suggest you may want to start your TIG minus 45 minute - that point in the checklist at about TIG minus 50. Over.
-123:23:10|T|LMP|Roger. Why do you think I need to move the radar?
-123:23:14|T|CC|Well, we thought that you probably wouldn't be able to get the star there.
-123:23:36|T|LMP|On the rear detent, the radar can be pointing plus X, and I'm - I'll be using right rear. That's okay.
-123:23:44|T|CC|Roger. That's fine then.
-123:25:43|T|CC|Tranquility Base, Houston. I have one more late checklist change there on the rendezvous radar position for lift off. Over. From page Surface 57.
-123:26:00|T|LMP|Roger. Go ahead.
-123:26:01|T|CC|Okay. On Surface 57 there on your VERB 21 NOUN 73 trunnion, leave it 180; the shaft we'd like 335. Over.
-123:26:25|T|LMP|Roger. Understand. Shaft 335.
-123:26:29|T|CC|Roger. And if the steerable doesn't quite hack it on lift off, looks like the forward OMNI is good for about 30 to 60 seconds after lift off. And then the aft OMNI antenna is good for the rest of the ascent. Over.
-123:26:52|T|LMP|Roger. Copy.
-123:27:10|T|LMP|Houston, we've got two angles here at 3 minutes in ascent. Would you confirm those? Pitch 134 and yaw minus 32. Over.
-123:27:25|T|CC|Tranquility Base. Roger. We verify; those are correct.
-123:28:00|P|PAO|This is Apollo Control. Here in mission Control Center Flight Director Glen Lunney is polling the various positions here in the Control Room on their readiness to go ahead with the ascent from this next pass as the Command Module comes around the Moon, and we're some 53 minutes now away from ascent. Meanwhile back at the scientific experiment situation, another attempt is scheduled today to shoot another laser beam up to the laser retro-reflector, which is the other part of the experiment package left on the Moon. The seismic experiment will continue to record and send back measurements to Mission Control and will probably receive it's strongest signal when the ascent engine ignites and starts Eagle on it's way into lunar orbit and rendezvous with Columbia. There's considerable amount of conversation going on with the crew even though Command Module Columbia is behind the Moon at this time. Rather than disconnect the air-ground line and be in a tape play-back mode, we'll leave a circuit up all the way through to loss of signal on the next rev when both spacecraft will go behind the Moon. At 123 hours, 29 minutes, and standing by, this is Apollo Control.
-123:30:41|T|CC|Tranquility Base, Houston.
-123:30:46|T|CDR|Go ahead.
-123:30:48|T|CC|Roger. Eagle's looking real fine to us down here. We have a fairly high confidence that we know the position of the LM. However, it is possible that we may have a planes change, but the - In the worst case, it would be up to 30 feet per second. And, of course, we don't expect that at all.
+123:18:38|T|CC|Tranquility Base, Houston.
+123:18:44|T|CDR|Go ahead, Houston.
+123:18:46|T|CC|Roger. For your P57 here, we did a little looking around, and it looks like Sirius and Rigel out at detent 6 would be real good on that. The Sun angle on Sirius is about 43 degrees, and on Rigel, it's about 55 degrees. Over.
+123:19:12|T|LMP|Roger, Houston. The only trouble is that the Sun is in number 5, the closed one. And it appears to also be close enough to detent 6 to shine on the far side of the cone. And it completely obscures detent 6. I'm - unable to use that at all.
+123:19:41|T|CC|Okay. We understand it now, and thank you.
+123:20:47|T|CC|Tranquility, Houston. For your information, the circuitry looks real fine on that ascent engine arm circuit breaker.
+123:20:58|T|LMP|Roger. I don't think I could get it out now if I wanted to.
+123:21:03|T|CC|Roger. We copy.
+123:21:07|T|LMP|And it looks like in detent 6 I can pick up Venus right at the fringe, but I can't get anything else.
+123:21:19|T|CC|Roger.
+123:21:36|T|CDR|And by the way, Houston, our EVA antenna did retract.
+123:21:41|T|CC|Roger. Mighty fine. Thank you.
+123:22:49|T|CC|Tranquility, Houston.
+123:22:56|T|LMP|Roger. Go ahead.
+123:22:57|T|CC|Roger. It looks like you're going to have to reposition the radar here. We suggest you may want to start your TIG minus 45 minute - that point in the checklist at about TIG minus 50. Over.
+123:23:14|T|LMP|Roger. Why do you think I need to move the radar?
+123:23:17|T|CC|Well, we thought that you probably wouldn't be able to get the stars there.
+123:23:39|T|LMP|On the rear detent, the radar can be pointing plus X, and I'm - I'll be using right rear. That's okay.
+123:23:47|T|CC|Roger. That's fine then.
+123:24:38|P|PAO|This is Apollo Control. Some 57 minutes 22 seconds away from ignition on the LM ascent back into lunar orbit. Some 30 minutes away from acquisition of the spacecraft Columbia, as it comes around again on the 25th revolution. And the latest information from the scientific experiment placed on the lunar surface last night by the Apollo 11 crew, our Science Support Room reports receiving continuous data from the Passive Seismic Experiment. The Passive Seismic Experiment, part of the Early Apollo Science Experiment Package which has the acronym EASEP. Recorded the astronauts footsteps on the Moon; also sent down signals when the crew climbed up the ladder back into the Eagle, and recorded a strong signal when they expended Portable Life Support backpacks and other pieces of equipment were jettisoned out Eagle's front hatch. Let's rejoin the conversation.
+123:25:46|T|CC|Tranquility Base, Houston. I have one more late checklist change there on the rendezvous radar position for liftoff. Over. From page Surface 57.
+123:26:03|T|LMP|Roger. Go ahead.
+123:26:05|T|CC|Okay. On Surface 57 there on your VERB 21 NOUN 73 trunnion, leave it 180; the shaft we'd like 335. Over.
+123:26:29|T|LMP|Roger. Understand. Shaft 335.
+123:26:32|T|CC|Roger. And if the steerable doesn't quite hack it on liftoff, looks like the forward OMNI is good for about 30 to 60 seconds after liftoff. And then the aft OMNI antenna is good for the rest of the ascent. Over.
+123:26:55|T|LMP|Roger. Copy.
+123:27:13|T|LMP|Houston, we've got two angles here at 3 minutes in ascent. Would you confirm those? Pitch 134 and yaw minus 32. Over.
+123:27:28|T|CC|Tranquility Base. Roger. We verify; those are correct.
+123:28:28|P|PAO|This is Apollo Control. Here in Mission Control Center Flight Director, Glynn Lunney is polling the various positions here in the Control Room on their readiness to go ahead with the ascent from this next pass as the Command Module comes around the Moon, and we're some 53 minutes now away from ascent. Meanwhile back at the scientific experiment situation, another attempt is scheduled today to shoot another laser beam up to the laser retro-reflector, which is the other part of the experiment package left on the Moon. The seismic experiment will continue to record and send back measurements to Mission Control and will probably receive it's strongest signal when the ascent engine ignites and starts Eagle on it's way into lunar orbit and rendezvous with Columbia. There's considerable amount of conversation going on with the crew even though Command Module Columbia is behind the Moon at this time. Rather than disconnect the air-ground line and be in a tape playback mode, we'll leave a circuit up all the way through to loss of signal on the next rev when both spacecraft will go behind the Moon. At 123 hours, 29 minutes, and standing by, this is Apollo Control.
+123:30:43|T|CC|Tranquility Base, Houston.
+123:30:50|T|CDR|Go ahead.
+123:30:51|T|CC|Roger. Eagle's looking real fine to us down here. We have a fairly high confidence that we know the position of the LM. However, it is possible that we may have a planes change, but the - in the worst case, it would be up to 30 feet per second. And, of course, we don't expect that at all.
 123:31:00|T||BEGIN LUNAR REV 25
-123:31:15|T|CDR|Okay.
-123:31:24|T|LMP|Houston, Tranquility Base. Since we've still got plenty of time I think I'll go ahead and recycle on this 604.
-123:31:38|T|CC|Tranquility. Roger. That's okay with us, and we assume that the primary canister is still aboard. Is this correct?
-123:31:52|T|LMP|We have one primary canister onboard and one secondary. The other primary is - out in front of the Z - plus - Z pad. Over.
-123:32:06|T|CC|Roger. We copy. Thank you.
-123:33:41|T|CDR|Ready for the blue bag - -
-123:33:44|T|LMP|The PGNS looks consistent today.
-123:33:47|T|CC|Hey, that's affirmative, by gosh. Looking great.
-123:44:15|T|LMP|Houston, did you copy NOUN 05, and are you looking at 93? Over.
-123:44:21|T|CC|Tranquility Base. It's beautiful.
-123:44:28|T|LMP|Okay. We'll proceed.
-123:44:31|T|CC|Roger.
-123:44:35|T|LMP|I know where the star is; I'm not sure the PGNS knows where gravity is.
-123:44:39|T|CC|Okay.
-123:48:04|T|LMP|Houston, these are your angles, not ours.
-123:48:12|T|CC|Roger, Tranquility.
-123:48:13|T|LMP|Stand by for some change or modification in the angles.
-123:48:23|T|CC|Tranquility Base, Houston. Recommend 334, and that should just keep it out of the limit.
-123:48:32|T|LMP|Okay.
-123:55:17|O|CMP|Houston, Columbia on OMNI D, Delta. Over.
-123:55:19|T|CMP|Houston, Columbia on OMNI D Delta. Over.
-123:55:23|T|CC|Columbia, Houston. Roger. Loud and clear. And if you would like to take it down, we have the latest position of Tranquility Base. Over.
-123:55:33|T|CMP|Go ahead.
-123:55:33|O|CMP|Go ahead.
-123:55:36|T|CC|Roger. It's just west - at west crater, Juliett 0.5, 7.7. Over.
-123:55:52|T|CMP|Understand that it is just west of the crater Juliett 0.5 and 7.7. Is that correct?
-123:56:01|T|CC|Columbia, Houston. That is correct.
-123:56:06|T|CMP|Okay. Thank you, Ron.
-123:56:15|T|CC|Tranquility Base, Houston.
-123:56:20|T|LMP|Go ahead.
-123:56:21|T|CC|Roger. Because of the lower load with the rendezvous radar off, we'd like to have battery 5 and 6 on the line now, 1 and 3 off. Over.
-123:56:53|T|LMP|In work.
-123:56:55|T|CC|Roger. Thank you.
-123:57:36|T|CC|Columbia, Houston. You're still looking mighty fine to us.
-123:57:43|T|CMP|...
-123:58:00|P|PAO|This is Apollo Control. We have confirmation on the ground that the ascent propulsion system propellant tanks have been pressurized.
-123:58:00|P|PAO|This is Apollo Control. Network controller just informed the Flight Director that items called battle shorts have been installed around the network. These are mechanical shorts of critical power supplies and transmitters and the like, so that before they will go off-1ine, they'll actually burn up in critical phases of the mission. They want to get as much data as possible through the burn, so for that reason any circuit breaking function of the equipment is inhibited with these battle shorts. They're not a piece of apparel. In the upcoming ascent some 14 minutes from now, almost 5000 pounds of propellant will be run through the ascent engine to propel the Lunar Module upper stage or
-123:58:00|P|PAO|Ascent Stage to velocity - total velocity of 6068 feet per second. Go through a vertical rise phase at about 50 seconds after liftover - liftoff will begin pitching over, and some 168 miles down range will be inserted into lunar orbit at about 60,000 feet above the surface. With an apolune of approximately forty -
-123:58:09|T|CMP|Columbia is holding inertially at lift off attitude, my DAP is configured as per my procedures at a time of 124 02.
-123:58:19|T|CC|Columbia, Houston. Roger. We copy you.
-123:58:36|T|CMP|I'm using B and D roll.
-123:58:41|T|CC|Tranquility, Houston. Say again.
-123:58:51|T|CDR|Houston, we were not calling.
-123:58:54|T|CC|Roger. Columbia, was that Bravo and Delta roll? Over.
-123:59:00|T|CMP|Columbia, affirmative.
-123:59:03|T|CC|Roger.
+123:31:18|T|CDR|Okay.
+123:31:27|T|LMP|Houston, Tranquility Base. Since we've still got plenty of time I think I'll go ahead and recycle on this 604.
+123:31:42|T|CC|Tranquility. Roger. That's okay with us, and we assume that the primary canister is still aboard. Is this correct?
+123:31:55|T|LMP|We have one primary canister onboard and one secondary. The other primary is - out in front of the Z - plus - Z pad. Over.
+123:32:09|T|CC|Roger. We copy. Thank you.
+123:33:45|T|CDR|Ready for the blue bag - -
+123:33:47|T|LMP|The PGNS looks consistent today.
+123:33:50|T|CC|Hey, that's affirmative, by gosh. Looking great.
+123:44:19|T|LMP|Houston, did you copy NOUN 05, and are you looking at 93? Over.
+123:44:25|T|CC|Tranquility Base. It's beautiful.
+123:44:31|T|LMP|Okay. We'll proceed.
+123:44:34|T|CC|Roger.
+123:44:38|T|LMP|I know where the star is; I'm not sure the PGNS knows where gravity is.
+123:44:42|T|CC|Okay.
+123:48:08|T|LMP|Houston, these are your angles, not ours.
+123:48:14|T|CC|Roger, Tranquility.
+123:48:16|T|LMP|Stand by for some change or modification in the angles.
+123:48:26|T|CC|Tranquility Base, Houston. Recommend 334, and that should just keep it out of the limits.
+123:48:35|T|LMP|Okay.
+124:55:01|P|PAO|This is Apollo Control. We are some 3 minutes to acquisition time for Columbia as it comes around on the 25th lunar revolution. We have had acquisition with Columbia. Some 26 minutes away from ignition time on the ascent burn which will place Eagle back into lunar orbit. Here we go.
+123:55:24|T|CMP|Houston, Columbia on OMNI D Delta. Over.
+123:55:26|T|CC|Columbia, Houston. Roger. Loud and clear. And if you would like to take it down, we have the latest position of Tranquility Base. Over.
+123:55:38|T|CMP|Go ahead.
+123:55:39|T|CC|Roger. It's just west - at west crater, Juliett 0.5, 7.7. Over.
+123:55:57|T|CMP|Understand that it is just west of the crater Juliett 0.5 and 7.7. Is that correct?
+123:56:03|T|CC|Columbia, Houston. That is correct.
+123:56:09|T|CMP|Okay. Thank you, Ron.
+123:56:19|T|CC|Tranquility Base, Houston.
+123:56:24|T|CDR|Go ahead.
+123:56:24|T|CC|Roger. Because of the lower load with the rendezvous radar off, we'd like to have battery 5 and 6 on the line now, 1 and 3 off. Over.
+123:56:39|T|LMP|In work.
+123:56:40|T|CC|Roger. Thank you.
+124:57:06|P|PAO|This is Apollo Control. Here in Mission Control. The lunar orbit chart on the center plot board has disappeared. We now have the various scribing plotters projecting on the center plot board to show the ascent. All of these lines and the various colors that are scribed on by the three sources of primary guidance system, the abort guidance system and the manned spaceflight network all mean something to Flight Dynamics Officer. Let's rejoin the conversation.
+123:57:40|T|CC|Columbia, Houston. You're still looking mighty fine to us.
+123:57:46|T|CMP|...
+123:58:12|T|CMP|Columbia is holding inertially at liftoff attitude, my DAP is configured as per my procedures at a time of 124:02.
+123:58:21|T|CC|Columbia, Houston. Roger. We copy you.
+123:58:39|T|CMP|I'm using B and D roll.
+123:58:45|T|CC|Tranquility, Houston. Say again.
+123:58:53|T|CDR|Houston, we were not calling.
+123:58:55|T|CC|Roger. Columbia, was that Bravo and Delta roll? Over.
+123:59:02|T|CMP|Columbia, affirmative.
+123:59:04|T|CC|Roger.
 124:01:27|T|CC|Columbia and Tranquility, I'll give you a Mark at 20 minutes to go, and that's in about 20 seconds.
 124:01:56|T|CC|Stand by.
 124:01:59|T|CC|MARK.
