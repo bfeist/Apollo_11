@@ -7838,71 +7838,71 @@
 100:17:52|O|CMP|Now, you're looking good.
 100:17:52|T|CC|Eagle, Houston. We see you on the steerable. Over.
 100:17:59|O|LMP|Roger. Eagle's undocked. The Eagle has wings. Looking good.
-100:18:02|T|CDR(EAGLE)|Roger. Eagle is undocked.
+100:18:02|T|CDR|Roger. Eagle is undocked.
 100:18:03|T|CC|Roger. How does it look, Neil?
-100:18:05|T|CDR(EAGLE)|The Eagle has wings.
+100:18:05|T|CDR|The Eagle has wings.
 100:18:06|T|CC|Rog.
-100:18:08|T|CDR(EAGLE)|Looking good.
+100:18:08|T|CDR|Looking good.
 100:18:09|T|CC|Roger, Neil. We got a - If you will give us P00 and DATA, we've got the loads for you.
 100:18:18|O|CMP|Okay. You've got it, P00 and DATA.
-100:18:21|T|LMP(EAGLE)|Okay. You've got it. P00 and DATA.
+100:18:21|T|LMP|Okay. You've got it. P00 and DATA.
 100:18:25|T|CC|Roger. Let us know when you are ready to copy. We have a DOI PAD, and a PDI PAD. Over.
 100:18:42|O|CDR|You check our tracking light, Mike?
-100:18:42|T|CDR(EAGLE)|You check our tracking light, Mike?
+100:18:42|T|CDR|You check our tracking light, Mike?
 100:18:47|O|CMP|It came on.
 100:18:59|O|CMP|Ya, that's working beautifully.
 100:19:03|O|CDR|Track off?
-100:19:03|T|CDR(EAGLE)|Back off?
+100:19:03|T|CDR|Back off?
 100:19:05|O|CMP|It's off.
 100:19:07|T|CDR|Okay. I'm ready to start my yaw maneuver if it suits you, Mike.
 100:19:07|O|CDR|I'm ready to start my yaw maneuver if it suits you, Mike.
 100:20:07|O|CDR|Does it look like you're going to be able to do this without firing any thrusters, Mike?
-100:20:07|T|CDR(EAGLE)|Does it look like you are going to be able to do this without firing any thrusters, Mike?
+100:20:07|T|CDR|Does it look like you are going to be able to do this without firing any thrusters, Mike?
 100:20:14|O|CMP|I'd have to fire laterally once or twice.
 100:20:24|O|CMP|Very small.
 100:20:29|O|LMP|Go ahead, Houston. Eagle is ready to copy.
-100:20:29|T|LMP(EAGLE)|Go ahead, Houston. Eagle is ready to copy.
+100:20:29|T|LMP|Go ahead, Houston. Eagle is ready to copy.
 100:20:32|T|CC|Roger, Eagle. Coming at you with a DOI PAD: 101:36:14.07. Noun 81, minus 00758, plus all balls, plus 00098, plus - correction, 00572, perigee plus 00085 00764 030 000 293. Noun 86, minus 00759, plus all balls, plus 00090. Rest of the PAD is NA. Stand by on your readback. If you are ready to copy the PDI data, I have it for you. Over.
-100:21:51|T|LMP(EAGLE)|Go ahead.
+100:21:51|T|LMP|Go ahead.
 100:21:51|O|LMP|Go ahead.
 100:21:55|T|CC|Understand you are ready to copy the PDI data, Eagle. Over
 100:22:01|O|LMP|That's affirmative. Go ahead with the PDI.
-100:22:01|T|LMP(EAGLE)|That's affirmative. Go ahead with the PDI.
+100:22:01|T|LMP|That's affirmative. Go ahead with the PDI.
 100:22:05|T|CC|Roger. PDI PAD: TIG 102:33:04.36; 09:50, minus 00021; 182, 287, 000; plus 56919. PDI abort, less than 10 minutes, 105:12:30.00. PDI abort, greater than 10 minutes, 103:40:00.00, 107:11:30.00. No PDI plus 12: 102:44:27.00. Noun 81, plus 01223, minus all balls, plus 01889; 01520, plus 00110, 02250. Burn time, 0:46; 000, 190; plus 01187, plus all balls, plus 01911. Noun 11, 103:31:07.00. Noun 37, 105:12:30.00. Ready for your readbacks, Over.
 100:24:40|T|CC|Eagle, Houston. We are through with the computer. You can go, back to BLOCK. Over.
 100:24:49|O|LMP|Roger. Back to Block, and DOI: 101:36:14.07. Minus 0075.8, plus all zeros, plus 0009.8, 0057.2, plus 0008.5, 0076.4, 030, 000, 293; minus 0075.9, plus all zeros, plus 0009.0; NA. Over.
-100:24:49|T|LMP(EAGLE)|Roger. Back to Block, and DOI: 101:36:14.07. Minus 0075.8, plus all zeros, plus 0009.8, 0057.2, plus 0008.5, 0076.4, 030, 000, 293; minus 0075.9, plus all zeros, plus 0009.0; NA. Over.
+100:24:49|T|LMP|Roger. Back to Block, and DOI: 101:36:14.07. Minus 0075.8, plus all zeros, plus 0009.8, 0057.2, plus 0008.5, 0076.4, 030, 000, 293; minus 0075.9, plus all zeros, plus 0009.0; NA. Over.
 100:25:34|T|CC|That was a good readback, Buzz. Go ahead. Over.
 100:25:39|O|LMP|Okay, PDI PAD: 102:33:04.36; 09:50; minus 0002.1; 182, 287, 000; plus 56919. PDI less than 10: 105:12:30.00. PDI abort greater than 10: 103:40:00.00, 107:11:30.00. No PDI plus 12 abort: 102:44:37.00; plus 0122.3, minus all zeros, plus 0188.9; 0152.0, plus 0011.0, 0225.0, 0:46; 000, 190; plus 0118.7, plus 0000.0, plus 0191.1; 103:31:07.00; 105:12:30.00. Over.
-100:25:42|T|LMP(EAGLE)|Okay, PDI PAD: 102:33:04.36; 09:50; minus 0002.1; 182, 287, 000; plus 56919. PDI less than 10: 105:12:30.00. PDI abort greater than 10: 103:40:00.00, 107:11:30.00. No PDI plus 12 abort: 102:44:37.00; plus 0122.3, minus all zeros, plus 0188.9; 0152.0, plus 0011.0, 0225.0, 0:46; 000, 190; plus 0118.7, plus 0000.0, plus 0191.1; 103:31:07.00; 105:12:30.00. Over.
+100:25:42|T|LMP|Okay, PDI PAD: 102:33:04.36; 09:50; minus 0002.1; 182, 287, 000; plus 56919. PDI less than 10: 105:12:30.00. PDI abort greater than 10: 103:40:00.00, 107:11:30.00. No PDI plus 12 abort: 102:44:37.00; plus 0122.3, minus all zeros, plus 0188.9; 0152.0, plus 0011.0, 0225.0, 0:46; 000, 190; plus 0118.7, plus 0000.0, plus 0191.1; 103:31:07.00; 105:12:30.00. Over.
 100:27:24|T|CC|Roger. Good readback, Buzz. Out.
 100:29:03|O|CMP|Neil, I'm maneuvering in roll.
 100:29:03|T|CMP|Neil, I'm maneuvering in roll.
 100:29:06|O|CDR|Roger. I see you.
-100:29:06|T|CDR(EAGLE)|Roger. I see you.
+100:29:06|T|CDR|Roger. I see you.
 100:29:10|O|LMP|Houston, Eagle. Are you copying the fairly large numbers for range and range rate in - VERB 83? And did you - you just give us a state vector that changed one of the two vehicles? Over.
-100:29:10|T|LMP(EAGLE)|Houston, Eagle. Are you copying the fairly large numbers for range and range rate in - VERB 83? And did you - you just give us a state vector that changed one of the two vehicles? Over.
+100:29:10|T|LMP|Houston, Eagle. Are you copying the fairly large numbers for range and range rate in - VERB 83? And did you - you just give us a state vector that changed one of the two vehicles? Over.
 100:29:29|T|CC|Roger, Eagle. We gave you a LM state vector. We have not changed the CSM state vector, however. Over.
 100:29:41|O|LMP|Okay. That explains the difference.
-100:29:41|T|LMP(EAGLE)|Okay. That explains the difference.
+100:29:41|T|LMP|Okay. That explains the difference.
 100:30:17|T|CC|Columbia, Houston. On my Mark 9:30 to ignition.
 100:30:20|T|CC|MARK. 9:30.
 100:30:54|T|CC|Eagle, Houston. Would you have Columbia go to the high-gain, yaw 0, pitch minus 20. Over.
 100:31:05|O|CDR|You want him to go to high-gain, YAW, zero or - say again the numbers.
-100:31:05|T|CDR(EAGLE)|You want him to go to high-gain yaw 0? Say again the numbers.
+100:31:05|T|CDR|You want him to go to high-gain yaw 0? Say again the numbers.
 100:31:13|T|CC|Roger, Neil. Yaw 0, pitch minus 20, high-gain angles. Over.
 100:31:20|O|CDR|Okay. YAW, zero; PITCH, minus 20, on the high-gain.
-100:31:20|T|CDR(EAGLE)|Okay. Yaw 0, pitch minus 20 on the high-gain.
+100:31:20|T|CDR|Okay. Yaw 0, pitch minus 20 on the high-gain.
 100:31:24|T|CC|That's affirmative. We've lost all data with him.
 100:31:24|O|CMP|Yes, I copy that, and I'll do it just as soon as I get to it.
-100:31:26|O|CDR(EAGLE)|To Columbia?
-100:31:26|T|CDR(EAGLE)|To Columbia?
+100:31:26|O|CDR|To Columbia?
+100:31:26|T|CDR|To Columbia?
 100:31:30|O|CDR|Okay, he says he'll do that as soon as he gets around there.
-100:31:30|T|CDR(EAGLE)|He says he'll do that as soon as he gets around there.
+100:31:30|T|CDR|He says he'll do that as soon as he gets around there.
 100:31:33|T|CC|Roger.
 100:31:40|O|CMP|Okay, Neil, I'm all set for the SEP burn, and we're looking good on this phasing.
 100:31:44|O|CDR|Okay.
-100:31:45|T|CDR(EAGLE)|Okay.
+100:31:45|T|CDR|Okay.
 100:32:37|T|CC|Columbia, Houston. How do you read?
 100:32:38|O|CMP|Columbia, reading you loud and clear. Houston, how me?
 100:32:41|T|CMP|Columbia, reading you loud and clear. Houston, how me?
@@ -7914,15 +7914,15 @@
 100:33:55|T|CMP|Columbia understands.
 100:34:39|T|CMP|We're really stabilized, Neil. I haven't burned a thruster in 5 minutes.
 100:35:26|T|CMP|Going to make the small trim maneuvers.
-100:36:22|T|CDR(EAGLE)|Mike, what's going to be your pitch angle at SEP?
+100:36:22|T|CDR|Mike, what's going to be your pitch angle at SEP?
 100:36:28|T|CMP|007 degrees.
-100:36:31|T|CDR(EAGLE)|Okay.
+100:36:31|T|CDR|Okay.
 100:36:45|T|CMP|Is that close enough for you or do you want it to a couple of decimal places?
-100:36:48|T|CDR(EAGLE)|No. That's - that's good.
+100:36:48|T|CDR|No. That's - that's good.
 100:37:31|T|CMP|I think you've got a fine looking flying machine there, Eagle, despite the fact you're upside down.
-100:37:37|T|CDR(EAGLE)|Somebody's upside-down.
+100:37:37|T|CDR|Somebody's upside-down.
 100:38:53|T|CMP|Okay, Eagle. One minute until TIG. You guys take care.
-100:38:57|T|CDR(EAGLE)|See you later.
+100:38:57|T|CDR|See you later.
 100:39:53|T|CMP|Thrusting.
 100:40:20|T|CMP|Houston, Columbia. My DSKY is reading 4.9 in X - 5.0 make it, and EMS 105.4. Over.
 100:40:32|T|CC|Roger. Copy. Columbia, it looks good to us. Over.
@@ -7930,17 +7930,17 @@
 100:41:07|T|CC|Columbia, Houston. We'd like you to terminate average G. Over.
 100:41:17|T|CMP|Roger. In P00.
 100:42:23|P|PAO|This is Apollo Control. That separation maneuver was performed as scheduled. Giving the Command Module a DELTA-V of about 2.5 feet per second, which give a separation to the 2 vehicles of about 1,100 feet at the beginning of the Descent Orbit Insertion maneuver.
-100:43:01|T|CDR(EAGLE)|You're going right down U.S. 1, Mike.
+100:43:01|T|CDR|You're going right down U.S. 1, Mike.
 100:43:05|T|CMP|...
 100:47:21|T|CMP|Eagle, Columbia. At your convenience, I would like to switch over to VHF ranging modes.
-100:47:29|T|LMP(EAGLE)|Roger. Let's go to VHF ranging now.
+100:47:29|T|LMP|Roger. Let's go to VHF ranging now.
 100:47:32|T|CMP|Okay.
 100:47:33|T|CMP|MARK it.
 100:47:58|T|CMP|Eagle, Columbia. I am reading you loud and scratchy. Neil is not coming through too well on his VOX. Could you stay quiet for 15 seconds while I get this locked on?
 100:48:14|T|CMP|Okay.
 100:48:34|T|CMP|I've got a solid lock on. I have you at 0.27 miles.
 100:49:08|T|CC|Eagle, Houston. We've got a state vector for you. We'd like P00 and DATA. Over.
-100:49:15|T|CDR(EAGLE)|You have it.
+100:49:15|T|CDR|You have it.
 100:49:16|T|CC|Thank you, sir.
 100:49:29|T|CC|Columbia, Houston. We have a CSM rescue PAD if you are ready to copy. Over.
 100:49:38|T|CMP|Ready to copy.
@@ -7948,30 +7948,30 @@
 100:50:14|T|CMP|Roger. Tigs follow: phasing 103:40. PDI less than 10, 105:12:30. More than 10, 107:11:30. Over.
 100:50:25|T|CC|Good readback. Out.
 100:50:58|T|CC|Eagle, Houston. When you are ready to copy, I have a lunar surface data PAD for you. Over.
-100:51:09|T|LMP(EAGLE)|Roger. Stand by.
+100:51:09|T|LMP|Roger. Stand by.
 100:51:11|T|CC|We've got the load in, Eagle. You can go back updata link OFF. Over.
-100:51:22|T|LMP(EAGLE)|Roger.
+100:51:22|T|LMP|Roger.
 100:52:17|T|CC|Columbia, Houston. At your convenience we'd like P00 and ACCEPT. We have a couple of state vectors for you. Over.
 100:52:25|T|CMP|Okay. Going to P00 and ACCEPT, and I just got some unexplained roll thruster activity. I might have bumped the hand controller.
 100:52:33|T|CC|Roger. We will look at it. Out.
 100:52:33|T|CMP|...
-100:52:39|T|LMP(EAGLE)|And Eagle is ready to copy lunar surface data card.
+100:52:39|T|LMP|And Eagle is ready to copy lunar surface data card.
 100:52:44|T|CC|Rog, Buzz. Starting with the T-2; T-2 Tig, 102:54:29.00, 103:51:56.00, 106:37:35.00, 109:10:00.00. In the remarks: T-2 occurs at PDI plus 21:26. T-3 time - correction T-3, T-3 Tig: 104:39:41.00, 001:58:15.00, 001:58:54.00. Noun 11: 105:36:23.00, 107:11:30.00. Ready for your readback. Over.
-100:54:21|T|LMP(EAGLE)|Roger. T-2: 102:54:29.00, 103:51:56.00, 106:37:35.00, 109:10:00.00; T-2 is PDI plus 21:26. T-3: 104:39:41.00, 001:58:15.00, 001:58:54.00, 105:36:23.00, 107:11:30.00. Over.
+100:54:21|T|LMP|Roger. T-2: 102:54:29.00, 103:51:56.00, 106:37:35.00, 109:10:00.00; T-2 is PDI plus 21:26. T-3: 104:39:41.00, 001:58:15.00, 001:58:54.00, 105:36:23.00, 107:11:30.00. Over.
 100:55:10|T|CC|Roger. Good readback, Eagle. Out.
 100:55:50|T|CMP|Would you put your tracking light on, please?
-100:55:54|T|LMP(EAGLE)|It's on, Mike.
+100:55:54|T|LMP|It's on, Mike.
 100:55:55|T|CMP|Thank you.
 100:56:21|T|CC|Columbia, Houston. We've got the load in. You can go back to BLOCK. Over.
 100:56:30|T|CMP|Is that for Columbia?
 100:56:32|T|CC|That's affirmative, Columbia.
 100:56:38|T|CMP|Okay. Thank you, Houston.
-100:58:33|T|LMP(EAGLE)|Mike, you want to give us a Mark when you're right at 7 miles - I mean 0.7 of a mile?
+100:58:33|T|LMP|Mike, you want to give us a Mark when you're right at 7 miles - I mean 0.7 of a mile?
 100:58:38|T|CMP|Will do.
-100:58:59|T|LMP(EAGLE)|Okay. We just got 0.7 on the radar.
+100:58:59|T|LMP|Okay. We just got 0.7 on the radar.
 100:59:02|T|CMP|MARK.
 100:59:02|T|CMP|Yes. I'm oscillating between 0.69 and 0.7.
-100:59:08|T|LMP(EAGLE)|Very good. We've got 4,200 on the tapemeter.
+100:59:08|T|LMP|Very good. We've got 4,200 on the tapemeter.
 100:59:13|T|CMP|I'm steady on 0.70 now. Yes. I read you sort of scratchy, but I read you.
 101:00:03|T|CMP|Houston, Apollo - or Houston, Columbia. Over.
 101:00:06|T|CC|Roger. Go, Columbia. Over.
@@ -7995,43 +7995,43 @@
 101:13:18|P|PAO|This is Apollo Control. We're coming up on 15 minutes now until loss of signal with the Lunar Module. Flight Director, Gene Kranz, has just advised his Flight Controllers to review of all their data, take a good close look at the spacecraft in preparation for a GO-NO/GO decision on the Descent Orbit Insertion.
 101:14:12|T|CC|Columbia, Houston. We've lost data with Eagle. Will you please have him select aft OMNI? Over.
 101:14:24|T|CMP|Eagle, this is Columbia. Houston would like you to select aft OMNI.
-101:14:39|T|LMP(EAGLE)|Roger. I got it now. Houston, you reading Eagle now on aft OMNI?
+101:14:39|T|LMP|Roger. I got it now. Houston, you reading Eagle now on aft OMNI?
 101:14:44|T|CC|That's affirmative, Eagle. Reading you five by.
 101:15:01|T|CMP|Roger.
 101:16:19|T|CC|Columbia, Houston. We'll have LOS at 101:28. AOS for you 102:15. Over.
 101:16:32|T|CMP|Thank you.
 101:17:10|T|CC|Eagle, Houston. It appeared to us when you were doing the P52, maneuvering the S band, the high-gain went into the stops. Verify that both S band breakers are in. Over.
-101:17:26|T|LMP(EAGLE)|Roger. I think I'd gone up to 90.0 before it went there. The one on this side is in and I'll check the other later.
+101:17:26|T|LMP|Roger. I think I'd gone up to 90.0 before it went there. The one on this side is in and I'll check the other later.
 101:17:32|T|CC|Okay. Thank you, Buzz.
 101:17:55|T|CC|Eagle, Houston. You are GO for DOI. Over.
-101:18:02|T|LMP(EAGLE)|Roger. Go for DOI. Do you have LOS and AOS times?
+101:18:02|T|LMP|Roger. Go for DOI. Do you have LOS and AOS times?
 101:18:05|T|CC|Roger. For you LOS at 101:28. AOS 102:16. Over.
-101:18:18|T|LMP(EAGLE)|Roger. Copy.
+101:18:18|T|LMP|Roger. Copy.
 101:18:20|T|CC|And, Buzz, S band steerable update for you on the angles at AOS: 219 and yaw 30. Over.
-101:18:34|T|LMP(EAGLE)|Roger. That's in the Flight Plan. Thank you.
+101:18:34|T|LMP|Roger. That's in the Flight Plan. Thank you.
 101:19:11|T|CMP|Houston, Columbia. How are all the systems looking?
 101:19:15|T|CC|Say again, Over.
 101:19:21|T|CMP|Just wanted to get a systems check from you sometime prior to LOS.
 101:19:25|T|CC|Roger.
-101:19:48|T|CDR(EAGLE)|Houston, Eagle. You can - Torquing angles NOUN 93 on four zeros and a 3 are minus 00292, plus 00289, minus 00094.
+101:19:48|T|CDR|Houston, Eagle. You can - Torquing angles NOUN 93 on four zeros and a 3 are minus 00292, plus 00289, minus 00094.
 101:20:07|T|CC|Roger. Copy. Stand by. Roger, Eagle. You can torque it. Over.
-101:20:21|T|CDR(EAGLE)|Roger. Torquing.
+101:20:21|T|CDR|Roger. Torquing.
 101:20:46|T|CC|Columbia, Houston. Your systems are looking good going over the hill. About 7 minutes to LOS.
 101:20:55|T|CMP|Okay, thank you.
 101:22:39|T|CC|Eagle, Houston. Place the BIOMED to Commander. Over.
-101:22:50|T|LMP(EAGLE)|Roger. You got him.
+101:22:50|T|LMP|Roger. You got him.
 101:22:53|T|CC|Thank you, sir.
 101:23:45|T|CC|Eagle, Houston. We've lost the high bit rate. Would you please select low bit rate? Over.
-101:23:54|T|LMP(EAGLE)|You got it.
+101:23:54|T|LMP|You got it.
 101:23:57|T|CC|And, Eagle, on my Mark we'll have 12 minutes to ignition. Over.
-101:24:09|T|LMP(EAGLE)|Roger.
+101:24:09|T|LMP|Roger.
 101:24:10|T|CC|Eagle, Houston. Stand by for my Mark.
 101:24:15|T|CC|MARK.
 101:24:15|T|CC|Twelve minutes to ignition.
-101:24:21|T|LMP(EAGLE)|We copy.
+101:24:21|T|LMP|We copy.
 101:25:29|T|CC|Columbia/Eagle, Houston. Three minutes to LOS. Both looking good going over the hill.
 101:25:37|T|CMP|Columbia. Roger.
-101:25:40|T|LMP(EAGLE)|Eagle. Roger.
+101:25:40|T|LMP|Eagle. Roger.
 101:26:54|O|LMP|Burn time, 30 seconds.
 101:28:25|P|PAO|This is Apollo Control. We've had loss of signal now, and the spacecraft Eagle has been given a GO for Descent Orbit Insertion. That maneuver to occur in 7 minutes 40 seconds. Out of contact - out of radio contact, the DOI maneuver scheduled to come at 101 hours, 36 minutes, 14 seconds, and it will be a 76.4 foot per second burn. The burn duration 29.8 seconds, and the resulting orbit for the LM will be 57.2 by 8.5 nautical miles. When next we acquire the Lunar Module, it should be at an altitude of about 18 nautical miles on its way down to a low point of about 50,000 feet from where the powered descent to the lunar surface will begin. As the spacecraft went around the corner, all systems on both vehicles looked very good. Everything is GO here in Mission Control and aboard the spacecraft for the Descent Orbit Insertion to occur in 6 minutes, 38 seconds. This is Apollo Control, Houston, at 101 hours 29 minutes.
 101:28:44|O|LMP|Okay, state vector looks relatively good. ...
@@ -8284,17 +8284,17 @@
 102:16:22|T|CMP|Columbia. Roger. You don't much care do you?
 102:16:24|T|CC|No, sir.
 102:16:47|P|PAO|We have acquisition of signal from the LM.
-102:17:30|T|LMP(EAGLE)|Houston, Eagle. How do you read?
+102:17:30|T|LMP|Houston, Eagle. How do you read?
 102:17:31|T|CC|Five by, Eagle. We're standing by for your burn report. Over.
-102:17:38|T|LMP(EAGLE)|Roger. The burn was on time. The residuals before nulling: minus 0.1, minus 0.4, minus 0.1, X and Z nulled to zero ... nulling ...
+102:17:38|T|LMP|Roger. The burn was on time. The residuals before nulling: minus 0.1, minus 0.4, minus 0.1, X and Z nulled to zero ... nulling ...
 102:18:21|P|PAO|We're attempting to restore antenna lock through the big 210 foot dish at Goldstone. We'll stand by.
 102:18:28|T|CC|Columbia, Houston. We've lost all data with Eagle. Please have him reacquire on the high-gain, Over.
 102:18:39|T|CMP|Eagle, this is Columbia. Houston would like you to reacquire on the high-gain. They've lost your data. Over.
 102:18:52|T|CMP|Eagle, did you copy Columbia?
 102:18:56|T|CC|Eagle, Houston. Did you call?
-102:19:07|T|LMP(EAGLE)|Eagle, Houston - Houston, Eagle. How do you read now?
+102:19:07|T|LMP|Eagle, Houston - Houston, Eagle. How do you read now?
 102:19:10|T|CC|Roger. Five by, Neil. We copied up to the AGS residuals. Would you please repeat the AGS residuals in the trim - correction - the Sun check? Over.
-102:19:21|T|LMP(EAGLE)|Roger. AGS residuals: minus 0.1, minus 0.2, minus 0.7. And we used the PGNS NOUN 86 for DELTA-VZ which was 9.5, versus yours which was 9.1, and I believe that may explain the difference. Apogee 57.2, perilune 9.1, Sun check to three marks, NOUN 20, minus NOUN 22, plus 0.19, plus 0.16, plus 0.11. Over.
+102:19:21|T|LMP|Roger. AGS residuals: minus 0.1, minus 0.2, minus 0.7. And we used the PGNS NOUN 86 for DELTA-VZ which was 9.5, versus yours which was 9.1, and I believe that may explain the difference. Apogee 57.2, perilune 9.1, Sun check to three marks, NOUN 20, minus NOUN 22, plus 0.19, plus 0.16, plus 0.11. Over.
 102:19:57|T|CC|Roger. Copy. Looks great.
 102:20:04|P|PAO|Guidance says we're GO.
 102:20:13|P|PAO|Now 12 minutes, 54 seconds to ignition. Gene Kranz just advices his Flight Controllers, "Were off to a good start. Play it cool."
@@ -8303,23 +8303,23 @@
 102:22:39|T|CC|Columbia, Houston. We've lost Eagle again. Have him try the high-gain. Over.
 102:22:49|T|CMP|Eagle, this is Columbia. Houston lost you again. They're requesting another try at the high-gain.
 102:24:00|T|CC|Eagle, Houston. We have you now. Do you read? Over.
-102:24:05|T|LMP(EAGLE)|Loud and clear.
+102:24:05|T|LMP|Loud and clear.
 102:24:06|T|CC|Roger. We see your VERB 47.
-102:24:14|T|LMP(EAGLE)|Yes. I don't know what the problem was there. It just started oscillating around in yaw. According to the needle, we're picking up a little oscillation right now, as a matter of fact.
+102:24:14|T|LMP|Yes. I don't know what the problem was there. It just started oscillating around in yaw. According to the needle, we're picking up a little oscillation right now, as a matter of fact.
 102:24:25|T|CC|Roger. We'll work on it.
 102:24:30|P|PAO|Aldrin is referring to the LM steerable antenna - that comment about the oscillations.
-102:24:40|T|CDR(EAGLE)|Horizon checklist right on time.
+102:24:40|T|CDR|Horizon checklist right on time.
 102:24:43|T|CC|Roger.
-102:24:47|T|LMP(EAGLE)|Did you copy the star - I mean the Sun check, Charlie?
+102:24:47|T|LMP|Did you copy the star - I mean the Sun check, Charlie?
 102:24:51|T|CC|That's affirmative. We did, Buzz. Out.
 102:25:28|P|PAO|Eagle is now at 10.7 nautical miles, 7 minutes 37 seconds from ignition.
 102:25:38|T|CC|Eagle, Houston. The AGS initialization looked good to us. Over.
-102:25:46|T|LMP(EAGLE)|Roger.
-102:26:30|T|CDR(EAGLE)|Our radar checks indicate 50,000 foot perilune. Our visual altitude checks steadying out at about 53,000.
+102:25:46|T|LMP|Roger.
+102:26:30|T|CDR|Our radar checks indicate 50,000 foot perilune. Our visual altitude checks steadying out at about 53,000.
 102:26:40|T|CC|Roger. Copy.
-102:26:57|T|LMP(EAGLE)|And, Houston, we got a 500 alarm early in the program. Went to DESCENT 1, proceeded on it, and we're back at AUTO again. Over.
+102:26:57|T|LMP|And, Houston, we got a 500 alarm early in the program. Went to DESCENT 1, proceeded on it, and we're back at AUTO again. Over.
 102:27:09|T|CC|Roger. We saw that, Buzz. Thank you much. Out.
-102:27:12|T|LMP(EAGLE)|All right. I say again - Okay. That wasn't an alarm; that was a code. Okay.
+102:27:12|T|LMP|All right. I say again - Okay. That wasn't an alarm; that was a code. Okay.
 102:27:16|T|CC|Roger. We saw that.
 102:27:25|T|CC|Eagle, Houston. We recommend you yaw 10 right. It will help us on the high-gain signal strength. Over.
 102:27:57|P|PAO|Coming up on 5 minutes to ignition. Gene Kranz getting a GO/NO GO for descent.
@@ -8328,39 +8328,39 @@
 102:28:24|T|CC|Columbia, Houston. We've lost them on the high-gain again. Would you please - We recommend they yaw right 10 degrees and reacquire.
 102:28:37|T|CMP|Eagle, this is Columbia. You're GO for PDI and they recommend you yaw right 10 degrees and try the high-gain again.
 102:28:48|T|CMP|Eagle, you read Columbia?
-102:28:50|T|LMP(EAGLE)|Roger. We read you.
+102:28:50|T|LMP|Roger. We read you.
 102:28:51|T|CMP|Okay.
 102:28:54|T|CC|Eagle, Houston. We read you now. You're GO for PDI. Over.
-102:29:00|T|LMP(EAGLE)|Roger. Understand. AELD control circuit breakers. DECA GIMBAL AC - closed?
-102:29:09|T|CDR(EAGLE)|What?
-102:29:10|T|LMP(EAGLE)|DECA GIMBAL AC - closed? Circuit breaker? COMMAND OVERRIDE - off? GIMBAL ENABLE? RATE SCALE - 25.
+102:29:00|T|LMP|Roger. Understand. AELD control circuit breakers. DECA GIMBAL AC - closed?
+102:29:09|T|CDR|What?
+102:29:10|T|LMP|DECA GIMBAL AC - closed? Circuit breaker? COMMAND OVERRIDE - off? GIMBAL ENABLE? RATE SCALE - 25.
 102:29:25|T|CC|Eagle, Houston. Your alignment is GO on the AGS. On my Mark, 3:30 until ignition.
-102:29:31|T|LMP(EAGLE)|Roger.
+102:29:31|T|LMP|Roger.
 102:29:35|T|CC|Mark.
 102:29:35|T|CC|3:30 until ignition.
-102:29:40|T|LMP(EAGLE)|Roger. Copy. Thrust translation - four jets - Balance couple - ON. TTCA throttle - MINIMUM. Throttle - AUTO CDR. Prop button - RESET. Prop button. Okay. ABORT/ABORT STAGE - RESET. ATT CONTROL - three of them to MODE CONTROL. Okay, MODE CONTROL is set. AGS is reading 400 plus 1. Standing by for ...
+102:29:40|T|LMP|Roger. Copy. Thrust translation - four jets - Balance couple - ON. TTCA throttle - MINIMUM. Throttle - AUTO CDR. Prop button - RESET. Prop button. Okay. ABORT/ABORT STAGE - RESET. ATT CONTROL - three of them to MODE CONTROL. Okay, MODE CONTROL is set. AGS is reading 400 plus 1. Standing by for ...
 102:30:31|P|PAO|Buzz Aldrin reading off the checklist there to Neil Armstrong.
-102:30:47|T|LMP(EAGLE)|Hit VERB 77?
+102:30:47|T|LMP|Hit VERB 77?
 102:30:50|O|CDR|VERB 77 and a VERB 62.
-102:31:07|T|LMP(EAGLE)|Okay. Sequence camera coming on.
+102:31:07|T|LMP|Okay. Sequence camera coming on.
 102:31:07|O|LMP|Okay, sequence camera coming on.
 102:31:22|O|CDR|Should be a little ...
 102:31:35|T|CC|Eagle, Houston. If you'd like to try high-gain, pitch 212, yaw 37. Over.
 102:31:48|O|LMP|Roger. I think I've got you on high-gain now.
-102:31:48|T|LMP(EAGLE)|Roger. I think I've got you on high-gain now.
+102:31:48|T|LMP|Roger. I think I've got you on high-gain now.
 102:31:51|O|CDR|Okay. Hear anything about that?
 102:31:51|T|CC|Roger.
 102:32:00|P|PAO|Coming up on one minute to ignition.
 102:32:06|O|CDR|Say again the angles, though.
-102:32:06|T|LMP(EAGLE)|Say again the angles, though.
+102:32:06|T|LMP|Say again the angles, though.
 102:32:07|T|CC|Roger.
 102:32:08|O|LMP|I'll set them in to use them before we yaw around.
-102:32:08|T|LMP(EAGLE)|I'll set them in to use them before we yaw around.
+102:32:08|T|LMP|I'll set them in to use them before we yaw around.
 102:32:10|T|CC|Roger. Pitch 212, yaw plus 37.
 102:32:19|O|LMP|Copy.
 102:32:23|O|CDR|Okay. What else is left to do here?
 102:32:26|O|LMP|ENGINE ARM, DESCENT. 40 seconds.
-102:32:26|T|LMP(EAGLE)|OMNI's in.
+102:32:26|T|LMP|OMNI's in.
 102:32:33|O|CDR|Is your camera running?
 102:32:35|O|LMP|Camera's running.
 102:32:46|P|PAO|Current altitude about 46,000 feet, continuing to descend.
@@ -8370,7 +8370,7 @@
 102:33:02|O|LMP|ALTITUDE lights, ON? ... proceed?
 102:33:06|O|CDR|Proceed. 1, 0 –
 102:33:11|O|CDR|IGNITION. 10 percent.
-102:33:08|T|LMP(EAGLE)|... 1, 0. IGNITION 10 percent ...
+102:33:08|T|LMP|... 1, 0. IGNITION 10 percent ...
 102:33:18|O|LMP|Just about on time.
 102:33:22|O|CDR|You got the OVERRIDEs ON?
 102:33:25|O|LMP|OVERRIDE is ON. 24. FLASH. THROTTLE, up.
@@ -8379,177 +8379,177 @@
 102:33:46|O|LMP|PGNS holding.
 102:33:54|T|CMP|They've lost you on the OMNIs ...
 102:34:03|O|LMP|Okay, we're reading your relay to us, Mike? I'll leave it in SLEW. Relay it to us. See if they got me now; I got good signal strength on SLEW.
-102:34:03|T|LMP(EAGLE)|...
+102:34:03|T|LMP|...
 102:34:08|T|CMP|Say again, Neil?
-102:34:09|T|LMP(EAGLE)|I'll leave it in SLEW. Relay to us. See if they have got me now. I've got good signal strength in SLEW.
+102:34:09|T|LMP|I'll leave it in SLEW. Relay to us. See if they have got me now. I've got good signal strength in SLEW.
 102:34:16|T|CMP|Okay. You should have him now, Houston.
 102:34:18|T|CC|Eagle, we've got you now. It's looking good. Over.
 102:34:25|O|LMP|Okay, rate of descent looks good.
 102:34:25|T|CC|Eagle - -
-102:34:26|T|LMP(EAGLE)|- - descent looks good.
+102:34:26|T|LMP|- - descent looks good.
 102:34:26|T|CC|Eagle, Houston. Everything is looking good here. Over.
 102:34:32|O|LMP|Roger. Copy.
-102:34:32|T|LMP(EAGLE)|Roger. Copy.
+102:34:32|T|LMP|Roger. Copy.
 102:34:36|T|CC|Eagle, Houston. After yaw around, angles: S band pitch, minus 9, yaw plus 18.
 102:34:48|O|LMP|Copy.
-102:34:48|T|LMP(EAGLE)|Copy.
+102:34:48|T|LMP|Copy.
 102:34:53|O|CDR|Okay. Coming up on the 2 minute point, here; going good. AGS's good?
 102:35:01|O|LMP|AGS and PGNS agree very closely.
-102:35:01|T|LMP(EAGLE)|AGS and PNGS agree very closely.
+102:35:01|T|LMP|AGS and PNGS agree very closely.
 102:35:03|O|CDR|RCS is good; no flag. DPS pressure is good. 1 minute.
 102:35:04|T|CC|Roger.
 102:35:16|O|LMP|30 feet per second. Light's on. Altitude's a little high.
-102:35:16|T|LMP(EAGLE)|Beta ARM. Altitudes are a little high.
+102:35:16|T|LMP|Beta ARM. Altitudes are a little high.
 102:35:25|O|CDR|Okay, we want a 10. Let's get - You want to get rid of this radar?
 102:35:26|P|PAO|2 minutes, 20 seconds everything looking good. We show altitude about 47,000 feet.
 102:35:34|O|LMP|Yes.
 102:35:35|O|CDR|To SLEW?
 102:35:36|O|LMP|SLEW.
 102:35:47|O|LMP|Houston, I'm getting a little fluctuation in the - AC voltage now. Just the meter, maybe, huh?
-102:35:47|T|LMP(EAGLE)|Houston. I'm getting a little fluctuation in the AC voltage now.
+102:35:47|T|LMP|Houston. I'm getting a little fluctuation in the AC voltage now.
 102:35:53|T|CC|Roger.
-102:35:55|T|LMP(EAGLE)|Could be our meter, maybe, huh?
+102:35:55|T|LMP|Could be our meter, maybe, huh?
 102:35:57|T|CC|Stand by, Looking good to us. You're still looking good at 3, coming up 3 minutes.
 102:36:07|O|CDR|Okay, we went by the 3-minute point early. A little long.
 102:36:15|O|LMP|Rate of descent looks real good. Altitude – right about on.
-102:36:15|T|LMP(EAGLE)|... real good .... about on.
+102:36:15|T|LMP|... real good .... about on.
 102:36:20|O|CDR|Our position checks downrange show us to be a little off. AGS - AGS is showing about 2-feet-per-second greater rate of descent.
-102:36:20|T|CDR(EAGLE)|Our. position checks downrange show us to be a little long.
+102:36:20|T|CDR|Our. position checks downrange show us to be a little long.
 102:36:24|T|CC|Roger. Copy.
-102:36:26|T|LMP(EAGLE)|AGS has gone about 2 feet per second greater rate of descent.
+102:36:26|T|LMP|AGS has gone about 2 feet per second greater rate of descent.
 102:36:38|O|CDR|MARK.
 102:36:39|O|CDR|Show us to be about - Stand by. Maybe have to stop that.
-102:36:39|T|CDR(EAGLE)|Show us to be about - Stand by.
+102:36:39|T|CDR|Show us to be about - Stand by.
 102:36:45|O|LMP|Altitude rate looks right down the groove.
-102:36:45|T|LMP(EAGLE)|Altitude ...
+102:36:45|T|LMP|Altitude ...
 102:36:48|O|CDR|Roger. About 2 seconds long - rolling over.
 102:36:58|O|CDR|Okay, now watch that signal strength because -
 102:37:02|O|LMP|Yes, I think it's going to drop.
-102:37:02|T|LMP(EAGLE)|... it's going to stop.
+102:37:02|T|LMP|... it's going to stop.
 102:37:05|O|CDR|Boy, I tell you, this is much harder to do than it was -
 102:37:13|O|LMP|Keep it going.
 102:37:20|T|CC|Eagle, Houston. You are GO to continue - -
 102:37:20|O|LMP|Houston, before we leave you, the ED BATS are GO at 4 minutes.
-102:37:20|T|LMP(EAGLE)|... closed ... GO ... at 4 minutes.
+102:37:20|T|LMP|... closed ... GO ... at 4 minutes.
 102:37:24|T|CC|Roger. You are GO - You are GO to continue powered descent. You are GO to continue powered descent.
 102:37:33|O|LMP|Roger.
-102:37:33|T|LMP(EAGLE)|Roger.
+102:37:33|T|LMP|Roger.
 102:37:35|P|PAO|Altitude 40,000.
 102:37:38|T|CC|And, Eagle, Houston. We've got data dropout. You're still looking good.
 102:37:48|O|CDR|How you look over there? Okay?
 102:38:07|O|LMP|Okay. You got good lockon.
-102:38:04|T|LMP(EAGLE)|... PGNS.
-102:38:10|T|CDR(EAGLE)|We got good lock-on.
+102:38:04|T|LMP|... PGNS.
+102:38:10|T|CDR|We got good lock-on.
 102:38:10|O|CDR|We got a lockon?
 102:38:11|T|LMP|Yes. Altitude light's OUT.
 102:38:11|O|LMP|Yes. Altitude light's out.
 102:38:13|O|CDR|Okay.
-102:38:17|T|LMP(EAGLE)|DELTA-H is minus 2,900.
+102:38:17|T|LMP|DELTA-H is minus 2,900.
 102:38:17|O|LMP|DELTA-H is minus 2,900.
 102:38:21|T|CC|Roger. We copy.
 102:38:22|O|LMP|We got the Earth right out our front window.
-102:38:22|T|LMP(EAGLE)|Got the Earth right out our front window.
+102:38:22|T|LMP|Got the Earth right out our front window.
 102:38:25|O|CDR|Sure enough.
 102:38:26|O|LMP|Houston, you're looking at our DELTA-H.
-102:38:26|T|CDR(EAGLE)|Houston, you're looking at our DELTA-H?
+102:38:26|T|CDR|Houston, you're looking at our DELTA-H?
 102:38:28|T|CC|That's affirmative.
 102:38:29|O|CDR|Program alarm.
-102:38:29|T|CDR(EAGLE)|PROGRAM ALARM.
+102:38:29|T|CDR|PROGRAM ALARM.
 102:38:30|T|CC|It's looking good to us. Over.
 102:38:33|O|CDR|1202; 1202.
-102:38:33|T|CDR(EAGLE)|It's a 1202.
-102:38:35|T|LMP(EAGLE)|1202.
+102:38:33|T|CDR|It's a 1202.
+102:38:35|T|LMP|1202.
 102:38:39|P|PAO|Good radar data. Altitude now 33,500 feet.
 102:38:45|O|CDR|What is it?
 102:38:46|O|LMP|That's in core ...
 102:38:51|O|CDR|Give us a reading on the 1202 program alarm.
-102:38:51|T|CDR(EAGLE)|Give us a reading on the 1202 PROGRAM ALARM.
+102:38:51|T|CDR|Give us a reading on the 1202 PROGRAM ALARM.
 102:38:56|T|CC|Roger. We got - We're GO on that alarm!
 102:39:01|O|LMP|Roger. P30. Okay, looks like about 820. Roger. Copy. 6 foot ...
-102:39:01|T|CDR(EAGLE)|Roger. P30.
+102:39:01|T|CDR|Roger. P30.
 102:39:03|T|CC|6 plus 25, throttle down - -
-102:39:05|T|LMP(EAGLE)|Looks like about 820 -
+102:39:05|T|LMP|Looks like about 820 -
 102:39:05|T|CC|- - 6 plus 25, throttle down.
-102:39:09|T|CDR(EAGLE)|Roger. Copy. 6 plus 25.
+102:39:09|T|CDR|Roger. Copy. 6 plus 25.
 102:39:14|P|PAO|We're still GO. Altitude 27,000 feet.
 102:39:16|O|LMP|Same alarm and it appears to come up when we have a 16/68 up.
-102:39:16|T|LMP(EAGLE)|Same alarm, and it appears to come up when we have a 16/68 up.
+102:39:16|T|LMP|Same alarm, and it appears to come up when we have a 16/68 up.
 102:39:20|T|CC|Roger. Copy.
 102:39:23|O|CDR|Were we - were - was it coming down?
 102:39:26|T|CC|Eagle, Houston. We'll monitor your DELTA-H.
 102:39:27|O|LMP|Yes, it's coming down beautifully.
-102:39:27|T|LMP(EAGLE)|... worked out beautifully.
+102:39:27|T|LMP|... worked out beautifully.
 102:39:31|O|CDR|Roger; it looks good now.
 102:39:31|T|CC|DELTA H - -
-102:39:31|T|CDR(EAGLE)|... looks good now.
+102:39:31|T|CDR|... looks good now.
 102:39:32|T|CC|Roger. DELTA H is looking good to us.
 102:39:37|O|LMP|... THROTTLE, DOWN.
 102:39:37|O|CDR|... THROTTLE, DOWN, on time.
-102:39:37|T|LMP(EAGLE)|Ah! Throttle down - -
-102:39:37|T|CDR(EAGLE)|Throttle down on time!
+102:39:37|T|LMP|Ah! Throttle down - -
+102:39:37|T|CDR|Throttle down on time!
 102:39:40|O|LMP|You can feel it in here when the throttle's down; better than the simulator.
 102:39:40|T|CC|Roger, We copy throttle down - -
-102:39:42|T|LMP(EAGLE)|- - ... throttles down. Better than the simulator.
+102:39:42|T|LMP|- - ... throttles down. Better than the simulator.
 102:39:44|T|CC|Roger.
 102:39:51|O|LMP|AGS and PGNS look real close.
-102:39:51|T|LMP(EAGLE)|AGS and PGNS look real close.
+102:39:51|T|LMP|AGS and PGNS look real close.
 102:39:53|O|CDR|Okay. No flags. RCS is GO; DPS is GO; pressure is - okay.
 102:40:00|P|PAO|Altitude now 21,000 feet. Still looking very good. Velocity down now to 1,200 feet per second.
 102:40:11|T|CC|At 7 minutes, you're looking great to us, Eagle.
 102:40:16|O|LMP|Okay, I'm still on SLEW, so we may tend to lose as we gradually pitch over; let me try AUTO again now, and see what happens. Okay, looks like it's holding.
-102:40:16|T|LMP(EAGLE)|Okay. I'm still on SLEW so we may tend to lose as we gradually pitch over. Let me try AUTO again now and see what happens.
+102:40:16|T|LMP|Okay. I'm still on SLEW so we may tend to lose as we gradually pitch over. Let me try AUTO again now and see what happens.
 102:40:23|T|CC|Roger.
-102:40:25|T|LMP(EAGLE)|Okay. Looks like it's holding.
+102:40:25|T|LMP|Okay. Looks like it's holding.
 102:40:27|T|CC|Roger. We got good data.
 102:40:30|O|CDR|Okay. 07:30 coming up. Should be ...
 102:40:36|P|PAO|Seven minutes 30 seconds into the burn. Altitude 16,300 feet.
 102:40:42|O|LMP|...
 102:40:50|O|CDR|And I have the window. I have that - view – out the window - Going to ...
 102:40:51|T|CC|Eagle, Houston. It's descent 2 fuel to MONITOR. Over.
-102:40:58|T|CDR(EAGLE)|Going to 2.
+102:40:58|T|CDR|Going to 2.
 102:40:59|P|PAO|Altitude 13,500. Velocity 9,100 feet per second.
 102:41:01|O|CDR|Coming up on 8 minutes.
 102:41:04|O|LMP|Could you give us an estimated switchover time, please, Houston?
-102:41:04|T|LMP(EAGLE)|Give us an estimated switchover time please, Houston.
+102:41:04|T|LMP|Give us an estimated switchover time please, Houston.
 102:41:08|T|CC|Roger. Stand by. You're looking great at 8 minutes.
 102:41:12|O|LMP|Okay, 7000, ... Looks good.
 102:41:12|P|PAO|Correction on that velocity, now reading 760 feet per second.
-102:41:13|T|LMP(EAGLE)|At 7000 -
+102:41:13|T|LMP|At 7000 -
 102:41:14|T|CC|Eagle, you've got 30 seconds to P64.
-102:41:17|T|LMP(EAGLE)|... Roger.
+102:41:17|T|LMP|... Roger.
 102:41:20|O|LMP|Roger.
 102:41:28|P|PAO|FIDO says we're go, altitude 9,200 feet.
 102:41:29|T|CC|Eagle, Houston. Coming up 8:30; you're looking great.
 102:41:37|P|PAO|Descent rate 129 feet per second.
 102:41:38|O|LMP|P64.
-102:41:38|T|LMP(EAGLE)|P64.
+102:41:38|T|LMP|P64.
 102:41:40|T|CC|We copy.
 102:41:44|O|CDR|... over. Okay. 5000, 100 feet per second is good, and I'm going to check my attitude control.
 102:41:54|T|CC|Eagle, you're looking great. Coming up 9 minutes.
 102:41:58|P|PAO|We're now in the approach phase. Everything looking good. Altitude 5,200 feet.
 102:42:06|O|CDR|Attitude control is good - manual attitude control is good. Okay, 3070.
-102:42:08|T|CDR(EAGLE)|Manual attitude control is good.
+102:42:08|T|CDR|Manual attitude control is good.
 102:42:10|T|CC|Roger. Copy.
 102:42:12|P|PAO|Altitude 4,200 -
 102:42:13|T|CC|Eagle, Houston. You're GO for landing. Over.
 102:42:19|O|LMP|Roger; understand. Go for landing, 3000 feet. Program alarm - 1201.
-102:42:19|T|LMP(EAGLE)|Roger. Understand. GO for landing. 3000 feet. PROGRAM ALARM.
+102:42:19|T|LMP|Roger. Understand. GO for landing. 3000 feet. PROGRAM ALARM.
 102:42:22|T|CC|Copy.
-102:42:25|T|LMP(EAGLE)|1201
+102:42:25|T|LMP|1201
 102:42:26|O|CDR|1201.
-102:42:26|T|CDR(EAGLE)|1201.
+102:42:26|T|CDR|1201.
 102:42:27|T|CC|Roger. 1201 alarm.
 102:42:29|O|CDR|Okay. 2050.
 102:42:30|T|CC|We're GO. Same type. We're GO.
 102:42:33|O|LMP|2000 feet; 2000 feet.
-102:42:33|T|LMP(EAGLE)|2000 feet. 2000 feet.
+102:42:33|T|LMP|2000 feet. 2000 feet.
 102:42:35|O|CDR|Give me an LPD.
-102:42:36|T|LMP(EAGLE)|Into the AGS, 47 degrees.
+102:42:36|T|LMP|Into the AGS, 47 degrees.
 102:42:36|O|LMP|Into the AGS, 47 degrees.
 102:42:37|O|CDR|Give me an LPD.
 102:42:37|T|CC|Roger.
 102:42:39|O|LMP|47 degrees.
-102:42:39|T|LMP(EAGLE)|47 degrees.
+102:42:39|T|LMP|47 degrees.
 102:42:40|O|CDR|47.
 102:42:42|O|CDR|That's not a bad-looking area. Okay.
 102:42:44|T|CC|Eagle, looking great. You're GO.
@@ -8558,92 +8558,92 @@
 102:43:00|O|CDR|What's LPD?
 102:43:00|T|CC|Roger. 1202. We copy it.
 102:43:03|O|LMP|35 degrees, 35 degrees; 750, ... coming down to 23.
-102:43:03|T|LMP(EAGLE)|35 degrees. 35 degrees. 750. Coming down to 23.
+102:43:03|T|LMP|35 degrees. 35 degrees. 750. Coming down to 23.
 102:43:09|O|CDR|Okay.
 102:43:10|O|LMP|700, 21 down, 33 degrees.
-102:43:10|T|LMP(EAGLE)|700 feet, 21 down, 33 degrees.
+102:43:10|T|LMP|700 feet, 21 down, 33 degrees.
 102:43:12|O|CDR|Pretty rocky area.
 102:43:14|O|LMP|600 feet, down to 19; 540 feet, down to 30, down to 15.
-102:43:14|T|LMP(EAGLE)|600 feet, down at 19.
+102:43:14|T|LMP|600 feet, down at 19.
 102:43:17|O|CDR|I'm going to have to ...
-102:43:18|T|LMP(EAGLE)|540 feet, down at - 30. Down at 15.
+102:43:18|T|LMP|540 feet, down at - 30. Down at 15.
 102:43:18|O|LMP|540 feet, down at - 30. Down at 15.
 102:43:28|O|CDR|Okay.
 102:43:28|O|LMP|Okay, 400 feet, down to 9, 58 forward.
-102:43:28|T|LMP(EAGLE)|At 400 feet, down at 9.
-102:43:32|T|LMP(EAGLE)|... forward.
+102:43:28|T|LMP|At 400 feet, down at 9.
+102:43:32|T|LMP|... forward.
 102:43:34|O|CDR|...
 102:43:35|O|LMP|350 feet, down at 4.
-102:43:32|T|LMP(EAGLE)|350 feet, down at 4.
-102:43:37|T|LMP(EAGLE)|30, ... one-half down.
+102:43:32|T|LMP|350 feet, down at 4.
+102:43:37|T|LMP|30, ... one-half down.
 102:43:37|O|LMP|330 – 6-1/2 down.
-102:43:44|T|LMP(EAGLE)|We're pegged on horizontal velocity.
+102:43:44|T|LMP|We're pegged on horizontal velocity.
 102:43:44|O|LMP|We're pegged on horizontal velocity.
 102:43:49|O|LMP|300 feet down, 3-1/2, 47 forward.
-102:43:46|T|LMP(EAGLE)|300 feet, down 3 1/2, 47 forward.
-102:43:53|T|LMP(EAGLE)|... up.
+102:43:46|T|LMP|300 feet, down 3 1/2, 47 forward.
+102:43:53|T|LMP|... up.
 102:43:53|O|LMP|Coming up - 1 a minute, 1-1/2 down. Moving out.
-102:43:52|T|LMP(EAGLE)|On 1 a minute, 1 1/2 down.
+102:43:52|T|LMP|On 1 a minute, 1 1/2 down.
 102:43:59|O|LMP|270.
-102:43:59|T|CDR(EAGLE)|...70.
+102:43:59|T|CDR|...70.
 102:44:01|O|CDR|Okay, how's the fuel?
 102:44:03|O|LMP|...
 102:44:04|O|CDR|Okay, - this looks like a good area here.
 102:44:07|O|LMP|I got the shadow out there.
-102:44:07|T|LMP(EAGLE)|... shadow out there.
-102:44:10|T|LMP(EAGLE)|50, down at 2 1/2, 19 forward.
+102:44:07|T|LMP|... shadow out there.
+102:44:10|T|LMP|50, down at 2 1/2, 19 forward.
 102:44:10|O|LMP|250, down at 2-1/2, 19 forward.
 102:44:16|O|LMP|Altitude velocity light -
-102:44:16|T|LMP(EAGLE)|Altitude-velocity light.
-102:44:18|T|LMP(EAGLE)|3 1/2 down, 220 feet, 13 forward.
+102:44:16|T|LMP|Altitude-velocity light.
+102:44:18|T|LMP|3 1/2 down, 220 feet, 13 forward.
 102:44:18|O|3-1/2 down, 220 feet; 13 forward.
-102:44:25|T|LMP(EAGLE)|11 forward. Coming down nicely.
+102:44:25|T|LMP|11 forward. Coming down nicely.
 102:44:25|O|11 forward, coming down nicely. 200 feet - -
 102:44:28|O|CDR|... - -
-102:44:28|T|LMP(EAGLE)|200 feet, 4 1/2 down.
+102:44:28|T|LMP|200 feet, 4 1/2 down.
 102:44:27|O|LMP|5-1/2 down, 5-1/2 down.
-102:44:29|T|LMP(EAGLE)|5 1/2 down.
+102:44:29|T|LMP|5 1/2 down.
 102:44:31|O|CDR|I got to get ...
 102:44:33|O|LMP|160 feet, 6-1/2 down.
-102:44:33|T|LMP(EAGLE)|160, 6 - 6 1/2 down.
-102:44:35|T|LMP(EAGLE)|5 1/2 down, 9 forward. Still looks good.
+102:44:33|T|LMP|160, 6 - 6 1/2 down.
+102:44:35|T|LMP|5 1/2 down, 9 forward. Still looks good.
 102:44:35|O|LMP|5-1/2 down, 9 forward. Still looks good.
-102:44:42|T|LMP(EAGLE)|120 feet.
+102:44:42|T|LMP|120 feet.
 102:44:42|O|LMP|120 feet.
 102:44:47|O|LMP|100 feet, 3-1/2 down, 9 forward. 5 percent - Quantity light.
-102:44:45|T|LMP(EAGLE)|100 feet, 3 1/2 down, 9 forward. Five percent.
-102:44:54|T|LMP(EAGLE)|Quantity light.
+102:44:45|T|LMP|100 feet, 3 1/2 down, 9 forward. Five percent.
+102:44:54|T|LMP|Quantity light.
 102:44:57|O|LMP|Okay, 75 feet. And it's looking good; down a half. 6 forward.
-102:44:57|T|LMP(EAGLE)|Okay. 75 feet. There's looking good. Down a half, 6 forward.
+102:44:57|T|LMP|Okay. 75 feet. There's looking good. Down a half, 6 forward.
 102:45:04|T|CC|60 seconds.
-102:45:06|T|LMP(EAGLE)|Lights on. ...
+102:45:06|T|LMP|Lights on. ...
 102:45:06|O|LMP|light's on. 6 - 60 feet down, 2-1/2.
-102:45:10|T|LMP(EAGLE)|Down 2 1/2. Forward. Forward. Good.
+102:45:10|T|LMP|Down 2 1/2. Forward. Forward. Good.
 102:45:14|O|2 forward, 2 forward.
 102:45:18|O|LMP|Looks good.
-102:45:17|T|LMP(EAGLE)|40 feet, down 2 1/2. Kicking up some dust.
+102:45:17|T|LMP|40 feet, down 2 1/2. Kicking up some dust.
 102:45:19|O|LMP|40 feet down, 2-1/2. Picking up some dust.
-102:45:23|T|LMP(EAGLE)|30 feet, 2 1/2 down. Faint shadow.
+102:45:23|T|LMP|30 feet, 2 1/2 down. Faint shadow.
 102:45:23|O|LMP|30 feet, 2-1/2 down - Faint shadow.
-102:45:27|T|LMP(EAGLE)|4 forward. 4 forward. Drifting to the right a little. Okay. Down a half.
+102:45:27|T|LMP|4 forward. 4 forward. Drifting to the right a little. Okay. Down a half.
 102:45:27|O|LMP|4 forward, 4 forward, drifting to the right a little.
 102:45:31|O|LMP|20 feet, down a half; drifting forward just a little bit. Down a half. Good. Okay.
 102:45:33|T|CC|30 seconds.
-102:45:32|T|CDR(EAGLE)|Forward drift?
-102:45:33|T|LMP(EAGLE)|Yes.
-102:45:34|T|LMP(EAGLE)|Okay.
-102:45:42|T|LMP(EAGLE)|CONTACT LIGHT.
+102:45:32|T|CDR|Forward drift?
+102:45:33|T|LMP|Yes.
+102:45:34|T|LMP|Okay.
+102:45:42|T|LMP|CONTACT LIGHT.
 102:45:42|O|LMP|CON...
 102:45:45|O|CDR|SHUTDOWN.
 102:45:46|O|LMP|Okay. ENGINE STOP;
-102:45:46|T|LMP(EAGLE)|Okay. ENGINE STOP.
-102:45:45|T|LMP(EAGLE)|ACA - out of DESCENT.
+102:45:46|T|LMP|Okay. ENGINE STOP.
+102:45:45|T|LMP|ACA - out of DESCENT.
 102:45:45|O|LMP|ACA out of DESCENT.
 102:45:48|O|CDR|Out of DETENT. AUTO -
-102:45:48|T|CDR(EAGLE)|Out of DETENT.
+102:45:48|T|CDR|Out of DETENT.
 102:45:49|O|LMP|AUTO MODE CONTROL, both AUTO; DESCENT ENGINE COMMAND OVERRIDE, OFF; ENGINE ARM, OFF.
-102:45:50|T|LMP(EAGLE)|MODE CONTROL - both AUTO. DESCENT ENGINE COMMAND OVERRIDE - OFF. ENGINE ARM - OFF.
-102:45:55|T|LMP(EAGLE)|413 is in.
+102:45:50|T|LMP|MODE CONTROL - both AUTO. DESCENT ENGINE COMMAND OVERRIDE - OFF. ENGINE ARM - OFF.
+102:45:55|T|LMP|413 is in.
 102:45:55|O|LMP|413 is in.
 102:45:57|O|CDR|ENGINE ARM is OFF.
 102:45:59|T|CC|We copy you down, Eagle.
@@ -10905,387 +10905,394 @@
 123:58:21|T|CC|Columbia, Houston. Roger. We copy you.
 123:58:39|T|CMP|I'm using B and D roll.
 123:58:45|T|CC|Tranquility, Houston. Say again.
-123:58:53|T|CDR|Houston, we were not calling.
+123:58:53|T|LMP|Houston, we were not calling.
 123:58:55|T|CC|Roger. Columbia, was that Bravo and Delta roll? Over.
 123:59:02|T|CMP|Columbia, affirmative.
 123:59:04|T|CC|Roger.
-124:01:27|T|CC|Columbia and Tranquility, I'll give you a Mark at 20 minutes to go, and that's in about 20 seconds.
-124:01:56|T|CC|Stand by.
-124:01:59|T|CC|MARK.
-124:02:00|T|CC|20 minutes.
-124:02:06|T|CMP|Columbia. Roger.
-124:03:26|T|CC|Tranquility Base, Houston.
-124:03:31|T|CDR|Go ahead.
-124:03:32|T|CC|Roger. Just a reminder here, we want to make sure you leave the rendezvous radar circuit breakers pulled. However, we want the rendezvous radar mode switch in LGC, Just as it is on Surface 59.
-124:03:48|T|CDR|Okay.
-124:04:43|T|CC|Tranquility Base, Houston.
-124:04:49|T|CDR|Roger. Go ahead.
-124:04:51|T|CC|Roger. Our guidance recommendation is PGNS, and you're cleared for takeoff.
-124:05:00|T|LMP|Roger. Understand. We're number 1 on the runway.
-124:05:04|T|CC|Roger.
-124:05:47|T|CDR|Houston, Tranquility. We're not sure that we got number 2 tank to fire. It's still showing a high pressure.
-124:06:03|T|CC|Roger. We confirm that. Try it again.
-124:06:12|T|LMP|Okay. We'll go to number 2 this time.
-124:06:15|T|CC|Roger. we concur.
-124:06:24|T|LMP|Roger. No problem.
-124:08:00|P|PAO|- and about 60,000 feet above the surface. With an apolune of approximately 45 nautical miles half a revolution later on the far side of the Moon. We will continue to monitor air-ground here. We are some 1 hour away from loss of signal with the Lunar Module after its insertion. Eagle now 13 minutes away from - 13 minutes, 23 seconds away from ascent ignition. 124 hours, 8 minutes Ground Elapsed Time in the mission. Apollo Control standing by.
-124:08:00|P|PAO|Crew of Eagle going through their pre-ignition checklist.
-124:08:53|T|LMP|Houston, looks like there's very little difference between the two.
-124:09:00|T|CC|Roger.
-124:09:02|T|LMP|We've got number 2 reading 3050 and number 1 is reading - 3000 and it drops down to 2990. So I'm not sure that it's really indicative that it didn't go. Over.
-124:09:17|T|CC|Roger. We copy and we agree.
-124:09:55|T|LMP|Okay. I assume we're - we're GO for lift off, and we'll proceed with the ascent feed.
-124:10:02|T|CC|Roger. That's correct, and we'll go ahead and watch tank 2. If it doesn't - tank 2 doesn't decrease, we'll tell you to close the ascent feeds and open the shutoffs. Over.
-124:10:26|T|LMP|Okay. Ascent feeds are open and shutoffs are closed.
-124:10:31|T|CC|Roger.
-124:10:32|T|LMP|And I've got the cross feed on.
-124:12:06|T|CC|Tranquility Base, little less than 10 minutes here. Everything looks good and we assume the steerable's in track mode AUTO.
-124:12:20|T|LMP|Roger. It is in track mode AUTO.
-124:12:24|T|CC|Roger.
-124:13:10|T|LMP|And both ED batteries are GO.
-124:13:15|T|CC|Tranquility, Houston. Roger.
-124:14:44|T|CMP|Neil, I'm reading you on VHF. You sound good.
-124:14:50|T|CDR|Yes sir. Couldn't be better. It's just purring along.
-124:16:24|O|LMP|BAT 2 and 4 coming OFF.
-124:16:29|O|CDR|Okay, OFF.
-124:16:43|O|LMP|DEAD FACE, barber pole. Okay, on 11, DESCENT ECA and DESCENT ECA CONTROL circuit breakers, OPEN. Just the descent.
-124:16:54|O|CDR|DESCENT ECA and DESCENT ECA CONTROL, OPEN.
-124:16:58|O|LMP|Right. Okay, let's ... and check the APS card.
-124:17:03|O|CDR|Okay.
-124:17:04|O|LMP|STABILIZATION CONTROL circuit breakers, all CLOSED.
-124:17:08|O|CDR|All except APS - no, ...
-124:17:15|O|LMP|RATE SCALE, 25.
-124:17:17|T|LMP|Rate scale, 25?
-124:17:17|O|CDR|25.
-124:17:18|T|CDR|25.
-124:17:18|O|LMP|ATT/TRANSLATION, 4 JETS.
-124:17:19|T|LMP|ATT translation, four jets. Balance couple ON.
-124:17:19|O|CDR|4 JETS.
-124:17:21|O|LMP|BALANCE COUPLE, ON, ...
-124:17:22|O|CDR|BALANCE COUPLE, ON.
-124:17:23|T|CDR|Balance couple, ON.
-124:17:23|O|LMP|TTCA, JETS.
-124:17:24|T|LMP|TTCA jets, PROP PUSHBUTTON RESET, ABORT, ABORT STAGE RESET.
-124:17:24|O|CDR|Check.
-124:17:32|T|CDR|RESET.
-124:17:32|O|LMP|DEADBAND, MINIMUM.
-124:17:33|O|CDR|MIN.
-124:17:34|T|LMP|DEADBAND, MINIMUM. ATT CONTROL to MODE CONTROL; MODE CONTROL, AUTO, both.
-124:17:34|O|LMP|ATT CONTROL, MODE CONTROL.
-124:17:37|O|CDR|Okay.
-124:17:38|O|LMP|MODE CONTROL, AUTO.
-124:17:41|O|CDR|Both AUTO, AUTO.
-124:17:42|T|CDR|AUTO, AUTO.
-124:17:47|O|LMP|Okay, I'm standing by for 2 minutes to - for the guidance steering in the AGS.
-124:17:49|T|LMP|Okay. We're standing by for 2 minutes to - for the guidance steering in the AGS.
+124:01:29|T|CC|Columbia and Tranquility, I'll give you a Mark at 20 minutes to go, and that's in about 20 seconds.
+124:01:57|T|CC|Stand by.
+124:02:01|T|CC|MARK.
+124:02:02|T|CC|20 minutes.
+124:02:07|T|CMP|Columbia. Roger.
+124:03:27|T|CC|Tranquility Base, Houston.
+124:03:32|T|CDR|Go ahead.
+124:03:34|T|CC|Roger. Just a reminder here, we want to make sure you leave the rendezvous radar circuit breakers pulled. However, we want the rendezvous radar mode switch in LGC, just as it is on Surface 59.
+124:03:54|T|CDR|Okay.
+124:04:45|T|CC|Tranquility Base, Houston.
+124:04:51|T|LMP|Roger. Go ahead.
+124:04:52|T|CC|Roger. Our guidance recommendation is PGNS, and you're cleared for takeoff.
+124:05:02|T|LMP|Roger. Understand. We're number 1 on the runway.
+124:05:06|T|CC|Roger.
+124:05:42|P|PAO|This is Apollo Control. We have confirmation on the ground that the ascent propulsion system propellant tanks have been pressurized.
+124:05:49|T|LMP|Houston, Tranquility. We're not sure that we got number 2 tank to fire. It's still showing a high pressure.
+124:06:04|T|CC|Roger. We confirm that. Try it again.
+124:06:14|T|LMP|Okay. We'll go to number 2 this time.
+124:06:16|T|CC|Roger. we concur.
+124:06:26|T|LMP|Roger. No fire.
+124:06:35|P|PAO|This is Apollo Control. Network controller just informed the Flight Director that items called battle shorts have been installed around the network. These are mechanical shorts of critical power supplies and transmitters and the like, so that before they will go off-line, they'll actually burn up in critical phases of the mission. They want to get as much data as possible through the burn, so for that reason any circuit breaking function of the equipment is inhibited with these battle shorts. They're not a piece of apparel. In the upcoming ascent some 14 minutes from now, almost 5000 pounds of propellant will be run through the ascent engine to propel the Lunar Module upper stage - ascent stage to velocity - total velocity of 6068 feet per second. Go through a vertical rise phase at about 50 seconds after liftover - liftoff will begin pitching over, and some 168 miles down range will be inserted into lunar orbit at about 60,000 feet above the surface. With an apolune of approximately 45 nautical miles half a revolution later on the far side of the Moon. We will continue to monitor air-ground here. We are some 1 hour away from loss of signal with the Lunar Module after its insertion. Eagle now 13 minutes away from - 13 minutes, 23 seconds away from ascent ignition. 124 hours, 8 minutes Ground Elapsed Time in the mission. Apollo Control standing by.
+124:08:55|T|LMP|Houston, looks like there's very little difference between the two.
+124:09:02|T|CC|Roger.
+124:09:03|T|LMP|We've got number 2 reading 3050 and number 1 is reading - 3000 and it drops down to 2990. So I'm not sure that it's really indicative that it didn't go. Over.
+124:09:18|T|CC|Roger. We copy and we agree.
+124:09:57|T|LMP|Okay. I assume we're - we're GO for lift off, and we'll proceed with the ascent feed.
+124:10:03|T|CC|Roger. That's correct, and we'll go ahead and watch tank 2. If it doesn't - tank 2 doesn't decrease, we'll tell you to close the ascent feeds and open the shutoffs. Over.
+124:10:28|T|LMP|Okay. Ascent feeds are open and shutoffs are closed.
+124:10:32|T|CC|Roger.
+124:10:33|T|LMP|And I've got the cross feed on.
+124:12:08|T|CC|Tranquility Base, little less than 10 minutes here. Everything looks good and we assume the steerable's in track mode AUTO.
+124:12:21|T|LMP|Roger. It is in track mode AUTO.
+124:12:26|T|CC|Roger.
+124:13:12|T|LMP|And both ED batteries are GO.
+124:13:17|T|CC|Tranquility, Houston. Roger.
+124:14:47|T|CMP|Neil, I'm reading you on VHF. You sound good. Yes sir. Couldn't be better. It's just purring along.
+124:16:28|O|LMP|BAT 2 and 4 coming OFF.
+124:16:33|O|LMP|Okay, OFF.
+124:16:48|O|LMP|DEAD FACE, barber pole. Okay, on 11, DESCENT ECA and DESCENT ECA CONTROL circuit breakers, OPEN. Just the descent.
+124:16:58|O|CDR|DESCENT ECA and DESCENT ECA CONTROL, OPEN.
+124:17:02|O|LMP|Right. Okay, let's ... and check the APS card.
+124:17:08|O|CDR|Okay.
+124:17:09|O|LMP|STABILIZATION CONTROL circuit breakers, all CLOSED.
+124:17:12|O|CDR|All except APS - no, ...
+124:17:19|O|LMP|RATE SCALE, 25.
+124:17:19|T|LMP|Rate scale, 25?
+124:17:20|O|CDR|25.
+124:17:20|T|CDR|25.
+124:17:22|O|LMP|ATT/TRANSLATION, 4 JETS.
+124:17:22|T|LMP|ATT translation, four jets. Balance couple ON.
+124:17:24|O|CDR|4 JETS.
+124:17:24|O|LMP|BALANCE COUPLE, ON, ...
+124:17:24|O|CDR|BALANCE COUPLE, ON.
+124:17:25|T|CDR|Balance couple, ON.
+124:17:26|O|LMP|TTCA, JETS.
+124:17:26|T|LMP|TTCA jets, PROP PUSHBUTTON RESET, ABORT, ABORT STAGE RESET.
+124:17:28|O|CDR|JETS.
+124:17:36|O|LMP|DEADBAND, MINIMUM.
+124:17:36|T|LMP|DEADBAND, MINIMUM.
+124:17:38|O|CDR|MIN.
+124:17:38|O|LMP|ATT CONTROL, MODE CONTROL.
+124:17:38|T|LMP|ATT CONTROL, MODE CONTROL.
+124:17:41|O|CDR|Okay.
+124:17:42|O|LMP|MODE CONTROL, AUTO.
+124:17:42|T|LMP|MODE CONTROL, AUTO.
+124:17:44|O|CDR|AUTO, AUTO.
+124:17:44|T|CDR|AUTO, AUTO.
+124:17:48|P|PAO|Crew of Eagle going through their pre-ignition checklist.
+124:17:51|O|LMP|Okay, I'm standing by for 2 minutes to - for the guidance steering in the AGS.
+124:17:51|T|LMP|Okay. We're standing by for 2 minutes to - for the guidance steering in the AGS.
 124:18:00|P|PAO|The guidance computer aboard the LM, or aboard Eagle will be loaded with the program 12, powered ascent guidance. We'll continue to monitor now at 3 minutes 12 seconds away from ignition as the crew of Eagle goes through their pre-launch checklist.
-124:18:00|P|PAO|Coming up on 2 minutes, Mark T-minus 2 minutes.
-124:18:00|P|PAO|Guidance reports both navigation systems on Eagle are looking good.
-124:18:00|P|PAO|1000 feet high, 80 feet per second vertical rise.
-124:18:00|P|PAO|2600 feet altitude.
-124:18:00|P|PAO|130 feet vertical rise rate.
-124:18:00|P|PAO|Aldrin is reading the horizontal velocity first and then the vertical velocity. It's now 1424 feet per
-124:18:00|P|PAO|second vertical velocity, 187 vertical velocity.
-124:18:00|P|PAO|Height now approaching 32,000 feet.
-124:18:00|P|PAO|Horizontal velocity approaching 2500 feet per second.
-124:18:00|P|PAO|Some 120 miles to go till insertion.
-124:18:00|P|PAO|All 3 data sources are agreeing quite closely here. The 3 color plot board in front of Mission Control here is almost superimposed as each of the 3 colors are scribed on this scribing plotter.
-124:18:03|O|CDR|... ON, right?
-124:18:04|O|LMP|Right.
-124:18:23|T|CC|Eagle, Houston. You're looking good to us.
-124:18:27|O|CDR|Roger.
-124:18:29|T|CDR|Roger.
-124:19:24|O|LMP|Got 26.9 ...
-124:19:26|T|LMP|...
-124:19:59|T|CC|MARK.
-124:20:00|T|CC|TIG minus 2.
-124:20:03|O|LMP|Roger. Guidance steering in the AGS.
-124:20:05|T|LMP|Roger. Guidance steering in the AGS.
-124:20:56|O|LMP|Okay, MASTER ARM, ON?
-124:20:58|T|LMP|Okay. MASTER ARM ON.
-124:20:59|O|CDR|MASTER ARM is ON.
-124:21:14|O|CDR|At 5 seconds, I'm going to get ABORT STAGE and ENGINE ARM. When I get it, proceed.
-124:21:18|O|LMP|Right.
-124:21:20|O|CDR|...
-124:21:26|O|LMP|...?
+124:18:08|O|CDR|... ON, right?
+124:18:10|O|LMP|Right.
+124:18:24|T|CC|Eagle, Houston. You're looking good to us.
+124:18:31|O|CDR|Roger.
+124:18:31|T|CDR|Roger.
+124:18:39|P|PAO|The guidance computer aboard the LM, or aboard Eagle will be loaded with the program 12, powered ascent guidance. We'll continue to monitor now at 3 minutes 12 seconds away from ignition as the crew of Eagle goes through their pre-launch checklist.
+124:19:28|O|LMP|Got 26.9 ...
+124:19:28|T|LMP|...
+124:20:01|P|PAO|Coming up on 2 minutes, Mark T-minus 2 minutes.
+124:20:01|T|CC|MARK.
+124:20:02|T|CC|TIG minus 2.
+124:20:07|O|LMP|Roger. Guidance steering in the AGS.
+124:20:07|T|LMP|Roger. Guidance steering in the AGS.
+124:21:00|O|LMP|Okay, MASTER ARM, ON?
+124:21:00|T|LMP|Okay. MASTER ARM ON.
+124:21:04|O|CDR|MASTER ARM is ON.
+124:21:17|O|CDR|At 5 seconds, I'm going to get ABORT STAGE and ENGINE ARM. When I get it, proceed.
+124:21:22|O|LMP|Right.
+124:21:24|O|CDR|...
+124:21:30|O|LMP|...?
 124:21:27|O|CDR|Yes.
 124:21:28|O|LMP|Okay.
-124:21:31|O|CDR|DSKY blanks.
-124:21:33|T|LMP|DSKY blanks.
-124:21:42|O|LMP|Got that ascent card?
-124:21:44|T|CDR|Got that ascent ... ?
-124:21:44|O|CDR|This one? Place to put it?
-124:21:50|O|LMP|Yes. 9, 8, 7, 6, 5 - ABORT STAGE; ENGINE ARM, ASCENT - Proceed.
-124:21:54|T|LMP|9, 8, 7, 6, 5, abort stage, engine arm ascent, proceed.
-124:22:01|O|CDR|We're off; look at that stuff go all over the place.
-124:22:05|O|LMP|Look at that shadow. Beautifull 26 - 36 feet per second up - -
-124:22:07|T|LMP(EAGLE)|... Beautiful.
-124:22:09|T|LMP(EAGLE)|26, 36 feet per second up. Be advised of the pitchover. Very smooth. Balance couple, OFF. Very quiet ride. There's that one ... on now.
-124:22:10|O|CDR|The Eagle is - -
-124:22:11|O|LMP|- - Be advised of the pitchover - -
-124:22:12|O|CDR|- - pitching over. BALANCE COUPLE, OFF.
-124:22:16|O|LMP|BALANCE COUPLE, OFF. Very quiet ride. There's that ... sticking out now.
-124:22:25|O|CDR|... See if you can see the - Cat's Paw.
-124:22:35|O|CDR|It's all the way out in front of us in that -
-124:22:40|T|CC|Eagle, Houston. Request manual start override.
-124:22:46|O|LMP|Roger. Can't see it.
-124:22:47|T|LMP(EAGLE)|Roger.
-124:22:52|T|LMP(EAGLE)|...
-124:22:52|O|CDR|Do you see the Cat's Paw?
-124:22:53|O|LMP|No.
-124:23:03|O|LMP|This might be it.
-124:23:04|T|CC|Eagle, Houston. One minute and you're looking good.
-124:23:08|O|CDR|Roger. Yes, I think it is.
-124:23:10|T|LMP(EAGLE)|Roger.
-124:23:18|O|LMP|It's a very quiet ride, just a little bit of slow wallowing back and forth - not very much thruster activity.
-124:23:19|T|LMP(EAGLE)|A very quiet ride, just a little bit of slow wallowing back and forth. Not very much thruster activity.
-124:23:31|T|CC|Roger. Mighty fine.
-124:23:35|O|LMP|700, 150 up; beautiful. 9000. PGNS and AGS agree within a foot per second.
-124:23:37|T|LMP(EAGLE)|700, 150 up, beautiful. 9000. PGNS AGS agrees within a foot per second.
+124:21:30|P|PAO|Guidance reports both navigation systems on Eagle are looking good.
+124:21:35|O|CDR|DSKY blanks.
+124:21:35|T|LMP|DSKY blanks.
+124:21:46|O|LMP|Got that ascent card?
+124:21:46|T|CDR|Got that ascent ... ?
+124:21:48|O|CDR|This one? Place to put it?
+124:21:53|O|LMP|Yes. 9, 8, 7, 6, 5 - ABORT STAGE; ENGINE ARM, ASCENT - Proceed.
+124:21:53|T|LMP|Yes. 9, 8, 7, 6, 5, abort stage, engine arm ascent, proceed.
+124:22:05|O|CDR|We're off; look at that stuff go all over the place.
+124:22:09|O|LMP|Look at that shadow. Beautifull 26 - 36 feet per second up - -
+124:22:10|T|LMP|... Beautiful.
+124:22:11|T|LMP|26, 36 feet per second up. Be advised of the pitchover. Very smooth. Balance couple, OFF. Very quiet ride. There's that one ... on now.
+124:22:14|O|CDR|The Eagle has wings
+124:22:14|O|LMP|- - Be advised of the pitchover - -
+124:22:15|O|CDR|- - pitching over. BALANCE COUPLE, OFF.
+124:22:20|O|LMP|BALANCE COUPLE, OFF. Very quiet ride. There's that ... sticking out now.
+124:22:29|O|CDR|... See if you can see the - Cat's Paw.
+124:22:34|P|PAO|1000 feet high, 80 feet per second vertical rise.
+124:22:38|O|CDR|It's all the way out in front of us in that -
+124:22:42|T|CC|Eagle, Houston. Request manual start override.
+124:22:49|O|LMP|Roger. Can't see it.
+124:22:53|P|PAO|2600 feet altitude.
+124:22:55|O|CDR|Do you see the Cat's Paw?
+124:22:57|O|LMP|No.
+124:23:07|T|CC|Eagle, Houston. One minute and you're looking good.
+124:23:08|O|LMP|This might be it.
+124:23:13|O|CDR|Roger. Yes, I think it is.
+124:23:20|P|PAO|130 feet vertical rise rate.
+124:23:21|O|LMP|It's a very quiet ride, just a little bit of slow wallowing back and forth - not very much thruster activity.
+124:23:21|T|LMP|A very quiet ride, just a little bit of slow wallowing back and forth. Not very much thruster activity.
+124:23:32|T|CC|Roger. Mighty fine.
+124:23:39|O|LMP|700, 150 up; beautiful. 9000. PGNS and AGS agree within a foot per second.
+124:23:39|T|LMP|700, 150 up, beautiful. 9000. PGNS AGS agrees within a foot per second.
 124:23:58|O|CDR|Pressures are good.
-124:23:59|T|CC|Eagle, Houston. You're looking good at 2. PGNS, AGS, and MSFN all agree.
-124:24:03|O|LMP|2 minutes the time; 170 is beautiful, 14 000.
-124:24:06|T|LMP(EAGLE)|And that's a thousand, 170 up, beautiful. 14 000. And a foot per second again, AGS to PGNS.
-124:24:12|O|LMP|Within a foot per second again, AGS to PGNS.
-124:24:30|O|LMP|S-band looks like it's holding good - 1500, 182.
-124:24:32|T|LMP(EAGLE)|S band looks like it's holding good, Houston.
-124:24:36|T|CC|Roger. We concur. It's great.
-124:24:38|T|LMP(EAGLE)|1500, 185.
-124:25:01|T|CC|Eagle, Houston. You're GO at 3 minutes. Everything's looking good.
-124:25:05|O|CDR|Roger.
-124:25:07|T|CDR(EAGLE)|Roger.
-124:25:15|O|LMP|Right on H-dot. Coming up here - -
-124:25:17|T|LMP(EAGLE)|Right on H dot.
-124:25:19|O|CDR|Looks like the velocity is sort of - -
-124:25:20|O|LMP|- - this is H-DOT MAX now.
-124:25:21|T|CDR(EAGLE)|Coming up to, ... to the right.
-124:25:21|O|CDR|- - ... right here. Okay.
-124:25:22|T|LMP(EAGLE)|- - this is H dot MAX now.
-124:25:31|O|CDR|Going right down - going right down U.S. 1.
-124:25:35|T|CDR(EAGLE)|We're going right down U.S. 1.
-124:25:39|T|CC|Roger.
-124:26:01|T|CC|Eagle, Houston. Four minutes; you're going right down the track. Everything's great.
-124:26:02|O|CDR|T minus 4 minutes - ... a little fast - we got altitude rate - -
-124:26:11|O|LMP|Now we got - got Sabine off to our right, now.
-124:26:12|T|LMP(EAGLE)|Now we got - got Sabine off to our right now.
-124:26:18|T|CC|Roger.
-124:26:28|O|CDR|Coming up on Schmidt here pretty soon, huh?
-124:26:32|O|LMP|02:40 to go.
-124:26:33|T|LMP(EAGLE)|240 to go.
-124:26:52|O|CDR|Everything's fine. 
-124:26:54|O|LMP|Okay, there's Ritter out there. See him, there it is, right there - and there's Schmidt. Man, that's impressive looking, isn't it?
-124:26:56|T|LMP(EAGLE)|Okay. There's Ritter out there. There it is, right there, there's Schmidt Man, that's impressive looking, isn't it?
-124:27:03|O|CDR|I can't see it. Oh, yes, now I can just get a glimpse.
-124:27:09|O|LMP|5 minutes, 33 - G&N, 54 -
-124:27:10|T|CC|Eagle, Houston. You're looking good.
-124:27:13|T|LMP(EAGLE)|... 55.
-124:27:15|O|CDR|Looking good here. It's a spectacular ride.
-124:27:17|T|CDR(EAGLE)|Looking good here. It's a pretty spectacular ride.
-124:27:39|O|LMP|... off to the right.
-124:27:40|T|LMP(EAGLE)|... of to the right.
-124:27:46|O|CDR|6 minutes.
-124:28:00|O|CDR|Looks like ... off a little here.
-124:28:00|P|PAO|One minute to go in the burn. 4482 feet per second, horizontal velocity.
-124:28:00|P|PAO|Showing a perilune of 9.1 nautical miles, apolune of 47.2 nautical miles on the PNGCS. All three systems are GO. Shutoff velocity showing about 5,537 feet per second plus or minus a foot or so on each of the three systems.
-124:28:00|P|PAO|Here in Mission Control the scribing plotter showing the velocity in height - here we go again.
-124:28:00|P|PAO|Here in Mission Control the scribing plotters have been replaced with the lunar orbit tracking chart showing the Eagle behind Spider some 20 degrees in longitude. Flight Operations Director, Chris Kraft, commented that he felt like some 500,000,000 people around the world are helping push Eagle off the Moon and back into orbit. We're continuing to monitor transmissions between the ground and Eagle and Columbia. Apollo Control standing by.
-124:28:02|T|CC|Eagle, Houston. You're still looking mighty fine.
-124:28:07|O|LMP|Roger. Good agreement in DELTA-V to go in both AGS and PGNS.
-124:28:09|T|LMP(EAGLE)|Roger. Good agreement in DELTA V to go in both AGS and PGNS.
-124:28:13|T|CC|Roger.
+124:24:01|T|CC|Eagle, Houston. You're looking good at 2. PGNS, AGS, and MSFN all agree.
+124:24:08|O|LMP|2 minutes the time; 170 is beautiful, 14,000.
+124:24:08|T|LMP|And that's a thousand, 170 up, beautiful. 14,000. And a foot per second again, AGS to PGNS.
+124:24:16|O|LMP|And, a foot per second again, AGS to PGNS.
+124:24:35|O|LMP|S-band looks like it's holding good - 1500, 182.
+124:24:35|T|LMP|S band looks like it's holding good, Houston.
+124:24:38|T|CC|Roger. We concur. It's great.
+124:24:40|T|LMP|1500, 185.
+124:24:46|P|PAO|Aldrin is reading the horizontal velocity first and then the vertical velocity. It's now 1424 feet per second vertical - velocity, 187 vertical velocity.
+124:25:02|T|CC|Eagle, Houston. You're GO at 3 minutes. Everything's looking good.
+124:25:08|O|CDR|Roger.
+124:25:07|T|CDR|Roger.
+124:25:19|O|LMP|Right on H-dot. Coming up here - -
+124:25:19|T|LMP|Right on H dot.
+124:25:21|O|CDR|Looks like the velocity is sort of - -
+124:25:22|T|LMP|Coming up to, ... to the right.
+124:25:22|O|CDR|- - ... right here. Okay.
+124:25:23|O|LMP|- - this is H-DOT MAX now.
+124:25:23|T|LMP|- - this is H dot MAX now.
+124:25:34|O|CDR|Going right down - 
+124:25:37|O|CDR|We're going right down U.S. 1.
+124:25:37|T|CDR|We're going right down U.S. 1.
+124:25:41|T|CC|Roger.
+124:25:50||P|PAO|Height now approaching 32,000 feet.
+124:26:03|T|CC|Eagle, Houston. Four minutes; you're going right down the track. Everything's great.
+124:26:12|P|PAO|Horizontal velocity approaching 2500 feet per second.
+124:26:12|O|CDR|T minus 4 minutes - ... a little fast - we got altitude rate - -
+124:26:14|O|LMP|Now we got - got Sabine off to our right, now.
+124:26:14|T|LMP|Now we got - got Sabine off to our right, now.
+124:26:20|T|CC|Roger.
+124:26:23|P|PAO|Some 120 miles to go till insertion.
+124:26:32|O|CDR|Coming up on Schmidt here pretty soon, huh?
+124:26:35|O|LMP|2:40 to go.
+124:26:35|T|LMP|2:40 to go.
+124:26:56|O|CDR|Everything's fine. 
+124:26:58|O|LMP|Okay, there's Ritter out there. See him, there it is, right there - and there's Schmidt. Man, that's impressive looking, isn't it?
+124:26:58|T|LMP|Okay. There's Ritter out there. There it is, right there, there's Schmidt Man, that's impressive looking, isn't it?
+124:27:07|O|CDR|I can't see it. Oh, yes, now I can just get a glimpse.
+124:27:10|O|LMP|5 minutes, 33 - G&N, 54 -
+124:27:12|T|CC|Eagle, Houston. You're looking good.
+124:27:13|T|LMP|... 55.
+124:27:18|P|PAO|All 3 data sources are agreeing quite closely here. The 3 color plot board in front of Mission Control here is almost superimposed as each of the 3 colors are scribed on this scribing plotter.
+124:27:19|O|CDR|Looking good here. It's a spectacular ride.
+124:27:19|T|CDR|Looking good here. It's a pretty spectacular ride.
+124:27:42|O|LMP|... off to the right.
+124:27:42|T|LMP|... of to the right.
+124:27:50|O|CDR|6 minutes.
+124:28:04|O|CDR|Looks like ... off a little here.
+124:28:04|T|CC|Eagle, Houston. You're still looking mighty fine.
+124:28:11|O|LMP|Roger. Good agreement in DELTA-V to go in both AGS and PGNS.
+124:28:11|T|LMP|Roger. Good agreement in DELTA V to go in both AGS and PGNS.
+124:28:15|T|CC|Roger.
+124:28:28|P|PAO|One minute to go in the burn. 4482 feet per second, horizontal velocity.
 124:28:30|O|CDR|... three ...
-124:28:33|O|LMP|Alright, 800 to go.
-124:28:34|T|LMP(EAGLE)|Got 800 to go.
-124:28:36|O|CDR|Okay.
-124:28:40|O|LMP|700 to go. Okay, now open up the main shutoff.
-124:28:41|T|LMP(EAGLE)|700 to go. Okay, I'm going to open up the main shutoffs.
-124:28:54|O|LMP|ASCENT FEED's, CLOSED, pressure's holding good; CROSS FEED, ON.
-124:28:56|T|LMP(EAGLE)|Ascent feed closed; pressure's holding good, cross feed ON, 350 to go.
-124:28:59|O|CDR|350 to go, right?
-124:29:00|O|LMP|350 to go. Stand by on the ENGINE ARM.
-124:29:11|T|LMP(EAGLE)|Stand by on the engine arm. 90, okay, OFF, 50.
-124:29:11|O|CDR|Okay, I'm getting ready for ARM, OFF.
-124:29:13|O|LMP|Ready?
+124:28:36|O|LMP|Alright, 800 to go.
+124:28:36|T|LMP|Got 800 to go.
+124:28:39|O|CDR|Okay.
+124:28:43|O|LMP|700 to go. Okay, now open up the main shutoffs.
+124:28:43|T|LMP|700 to go. Okay, now open up the main shutoffs.
+124:28:58|O|LMP|ASCENT FEED's, CLOSED, pressure's holding good; CROSS FEED, ON.
+124:28:58|T|LMP|Ascent feed closed; pressure's holding good, cross feed ON, 350 to go.
+124:29:02|O|CDR|350 to go, right?
+124:29:03|O|LMP|350 to go.
+124:29:13|O|LMP|Stand by on the ENGINE ARM.
+124:29:13|T|LMP|Stand by on the engine arm. 90, okay, OFF, 50.
+124:29:15|O|CDR|Okay, I'm getting ready for ARM, OFF.
+124:29:16|O|LMP|90.
 124:29:14|O|CDR|ARM, OFF.
-124:29:15|O|LMP|OFF. 50 -
-124:29:16|O|CDR|LMP
-124:29:17|T|LMP(EAGLE)|SHUTDOWN.
-124:29:21|O|LMP|We got 5337.3 and 32.8 feet per second, 60 666.
-124:29:23|T|LMP(EAGLE)|We got 53373, 32.8 feet per second, 60 666.
-124:29:33|T|CC|Eagle. Roger. We copy. It's great. Go.
-124:29:33|O|CDR|... up?
-124:29:34|O|LMP|And we got - we got our residuals.
-124:29:35|T|LMP(EAGLE)|And we got - got our residuals.
-124:29:39|O|CDR|Okay - take those out, right?
-124:29:43|O|LMP|Yes, take -
-124:29:45|T|LMP(EAGLE)|...
-124:29:50|T|CC|Eagle, Houston. Trim residuals.
-124:29:51|O|CDR|...
-124:29:53|T|LMP(EAGLE)|...
-124:30:12|O|LMP|We're working on it.
-124:30:14|T|LMP(EAGLE)|We're working on it.
-124:30:33|T|CC|Eagle, Houston. Trim looks good.
-124:30:39|O|CDR|I can't check that - residual.
-124:30:42|O|LMP|That's good.
-124:30:43|T|LMP(EAGLE)|That's good.
-124:30:45|T|CMP|Eagle, Columbia. ... got a solid lock on in VHF ranging and ... 480 feet per second.
-124:30:52|O|LMP|Okay, that sounds a little - little on the high side.
-124:30:53|T|CDR(EAGLE)|Okay. That sounds a little - little on the high side.
-124:30:57|T|CMP|Yes. I'll update it here shortly.
-124:30:57|O|CDR|Okay.
-124:30:58|O|LMP|Okay, Houston, we show 47.3 by 9.5.
-124:30:59|T|CDR(EAGLE)|Okay.
-124:31:00|T|LMP(EAGLE)|Okay, Houston. We show 47.3 by 9.5.
-124:31:07|T|CC|Roger. 47.2 by 9.5.
-124:31:12|O|LMP|The AGS has 9.5 - 46.6.
-124:31:14|T|LMP(EAGLE)|AGS has 9.5, 46.6.
-124:31:23|T|CC|Eagle, Houston. Copy.
-124:31:25|O|CDR|Okay.
-124:31:33|O|CDR|...
-124:31:44|T|CC|Eagle, Houston. Request abort stage, reset, ... PROP reset, and mode control to ATT HOLD when you get a chance to.
-124:31:51|O|LMP|Roger.
-124:31:52|T|LMP(EAGLE)|Roger.
-124:32:16|O|LMP|You want to try ...?
-124:32:20|O|CDR|Yes.
-124:32:23|O|LMP|Circuit breakers in - or do you want to go to align?
-124:32:28|O|CDR|Maybe we'd better get an alignment - ...
-124:32:31|O|LMP|Okay. ...
-124:32:40|O|CDR|Yes.
-124:32:44|T|CC|Eagle, Houston. You can go ahead and proceed with P52 as per nominal.
-124:32:52|O|CDR|Roger, Houston. The Eagle is back in orbit, having left Tranquility Base and leaving behind a replica from our Apollo 11 patch and the olive branch.
-124:32:55|T|CDR(EAGLE)|Roger, Houston. The Eagle is back in orbit, having left Tranquility Base and leaving behind a - a replica from our Apollo 11 patch and the olive branch.
-124:33:15|T|CC|Eagle, Houston. Roger. We copy. The whole world is proud of you.
-124:33:24|O|CDR|We had a lot of help down there.
-124:33:26|T|CDR(EAGLE)|We had a lot of help down there.
-124:33:27|O|LMP|We're going to have to have our rendezvous radar circuit breakers in anyway to get onto your link.
-124:33:30|O|CDR|Yes.
-124:33:37|T|CMP|Eagle, Columbia. I've got 470 now for R dot, and I just broke lock. Could you hold silent for a few seconds here while I reacquire.
-124:33:45|O|LMP|Okay.
-124:34:05|O|CDR|Okay.
-124:34:09|T|CMP|Columbia's reacquired you.
-124:34:09|O|LMP|INVERTER 2, INVERTER 1, circuit breaker open?
-124:34:11|O|CDR|I got INVERTER 1.
-124:34:28|O|LMP|Close the AOT LAMP circuit breaker -
-124:34:44|O|CDR|Going to TRACK here.
-124:34:50|O|LMP|Yes.
-124:34:52|O|CDR|That right?
-124:34:53|O|LMP|Right.
-124:35:19|O|CDR|You know, I didn't see a lot of dust in the cockpit, did you?
-124:35:22|O|LMP|No, there was a fair amount. What did you get, 283?
-124:35:23|T|CC|Columbia, Houston. Request P00 in ACCEPT, and we'll give you a good GO LM vector. Over.
-124:35:31|O|CDR|Yes.
-124:35:37|T|CMP|Roger. Houston. Going to ACCEPT.
-124:37:29|T|CC|Eagle, Houston. You can go ahead and turn your updata link switch off.
-124:37:39|T|CDR(EAGLE)|Roger. It's off.
-124:37:41|T|CC|Roger.
-124:38:00|P|PAO|This is Apollo Control. During the ascent phase, the heart rates on the Eagle crew reached 90 for Neil Armstrong, 120 for Buzz Aldrin. They're now back down in the 80's. For some 28 minutes 15 seconds from loss of signal with Columbia, 29'minutes 52 seconds away from loss of signal on Eagle.
-124:39:06|T|CC|Columbia, Houston. The computer is yours. Press on.
-124:39:12|T|CMP|Okay.
-124:39:24|T|LMP(EAGLE)|Houston, the AGS has a DELTA H of 15.5.
-124:39:31|T|CC|Eagle, Houston. Roger. 15.5.
-124:39:33|T|LMP(EAGLE)|And a maneuver of - and a maneuver of 51.3.
-124:39:41|T|CC|Roger. We copy. And, Eagle, aft OMNI. Over.
-124:39:55|T|LMP(EAGLE)|Roger. Aft OMNI.
-124:40:25|T|CC|Columbia, Houston.
-124:41:16|T|CMP|...
-124:41:20|T|LMP(EAGLE)|Roger. It's on.
-124:41:23|T|CMP|...
-124:41:26|T|LMP(EAGLE)|And I can see it reflecting out my ...
-124:41:43|T|CC|Eagle, Houston in the blind. Try low bit rate. Over.
-124:41:55|T|LMP(EAGLE)|Roger. Low bit rate. I've got a 3.8 signal strength. Over.
-124:42:13|T|CC|Eagle, Houston. Roger. We copy your signal strength 3.8.
-124:42:51|T|LMP(EAGLE)|37, I believe.
-124:48:00|T|CC|Eagle, Houston.
-124:48:00|P|PAO|This is Apollo Control. We are some 3 minutes to acquisition time for Columbia as it comes around on the 25th lunar revolution. We have had acquisition with Columbia. Some 26 minutes away from ignition time on the ascent burn which will place Eagle back into lunar orbit. Here we go.
-124:48:00|P|PAO|This is Apollo Control in Mission Control. The lunar orbit chart on the center plot board has disappeared. We now have the various scribing plotters projecting on the center plot board to show the ascent. All of these lines and the various colors that are scribed on by the three sources of primary guidance system, the abort guidance system and the manned space-wide network all mean something to Flight Dynamics Officer. Let's rejoin the conversation.
-124:48:06|T|CDR(EAGLE)|Roger. Go ahead.
-124:48:07|T|CC|Roger. We saw a very slight jump in cabin and suit pressure there. Could you verify cabin REPRESS valve is closed?
-124:48:24|T|CDR(EAGLE)|Okay. It's closed.
-124:48:26|T|CC|Roger. And we've got about 1 minute to before where you ought to be radar tracking, and we've lost data with you.
-124:48:40|T|CDR(EAGLE)|Okay. ...
-124:49:03|T|LMP(EAGLE)|Okay. Get a pass.
-124:49:26|T|LMP(EAGLE)|Got it? ...
-124:49:42|T|CMP|Eagle, Columbia. You can turn your ... light off.
-124:49:46|T|LMP(EAGLE)|Okay. You got it?
-124:49:48|T|CDR(EAGLE)|Yes.
-124:49:50|T|LMP(EAGLE)|All ready to mark, X and Y. Okay. Marked X now.
-124:49:58|T|CMP|...
-124:50:02|T|LMP(EAGLE)|X or Y? Maybe we ought to be satisfied with three of them.
-124:50:14|T|CMP|...
-124:50:21|T|CC|Columbia, Houston - -
-124:50:22|T|LMP(EAGLE)|... is still on.
-124:50:23|T|CC|- - Say again.
-124:50:25|T|LMP(EAGLE)|X or Y?
-124:50:29|T|CMP|...
-124:50:35|T|LMP(EAGLE)|I can't tell.
-124:50:54|T|LMP(EAGLE)|Okay. Mark Y.
-124:51:06|T|LMP(EAGLE)|That enough? Beautiful! All zeros. Okay. Let's torque them. I'll write them down. Minus 06, plus 64, plus ... 7. Torque ... Radar circuit breakers in?
-124:51:58|T|CMP|...
-124:52:06|T|CDR(EAGLE)|Yes. We're pointed down pretty much. We're going to be up - -
-124:52:08|T|LMP(EAGLE)|Okay. ... circuit - -
-124:52:12|T|CMP|Roger.
-124:52:13|T|LMP(EAGLE)|- - breaker in? Both circuit breakers in?
-124:52:18|T|CMP|... - -
-124:52:19|T|MS|...
+124:29:17|O|LMP|Okay. OFF. 50 -
+124:29:20|O|CDR|SHUTDOWN
+124:29:20|T|LMP|SHUTDOWN.
+124:29:25|O|LMP|We got 5337.3, 32.8 feet per second, 60,666.
+124:29:25|T|LMP|We got 5337.3, 32.8 feet per second, 60,666.
+124:29:35|T|CC|Eagle. Roger. We copy. It's great. Go.
+124:29:37|O|CDR|... up?
+124:29:40|O|LMP|And we got - we got our residuals.
+124:29:40|T|LMP|And we got - got our residuals.
+124:29:43|O|CDR|Okay - take those out, right?
+124:29:47|O|LMP|Yes, take -
+124:29:47|T|LMP|Yes, take -
+124:29:52|T|CC|Eagle, Houston. Trim residuals.
+124:29:54|O|CDR|...
+124:29:54|T|CDR|...
+124:29:59|P|PAO|Showing a perilune of 9.1 nautical miles, apolune of 47.2 nautical miles on the PNGCS. All three systems are GO. Shutoff velocity showing about 5,537 feet per second plus or minus a foot or so on each of the three systems.
+124:30:16|O|LMP|We're working on it.
+124:30:16|T|LMP|We're working on it.
+124:30:36|T|CC|Eagle, Houston. Trim looks good.
+124:30:43|O|CDR|I can't check that - residual.
+124:30:46|O|LMP|That's good.
+124:30:46|T|LMP|That's good.
+124:30:47|T|CMP|Eagle, Columbia. ... got a solid lock on in VHF ranging and ... 480 feet per second.
+124:30:55|O|LMP|Okay, that sounds a little - little on the high side.
+124:30:55|T|CDR|Okay. That sounds a little - little on the high side.
+124:30:59|T|CMP|Yes. I'll update it here shortly.
+124:31:01|O|CDR|Okay.
+124:31:01|T|CDR|Okay.
+124:31:02|O|LMP|Okay, Houston, we show 47.3 by 9.5.
+124:31:02|T|LMP|Okay, Houston. We show 47.3 by 9.5.
+124:31:08|T|CC|Roger. 47.2 by 9.5.
+124:31:16|O|LMP|The AGS has 9.5 - 46.6.
+124:31:16|T|LMP|AGS has 9.5, 46.6.
+124:31:25|T|CC|Eagle, Houston. Copy.
+124:31:46|T|CC|Eagle, Houston. Request abort stage, reset, ... PROP reset, and mode control to ATT HOLD when you get a chance to.
+124:31:54|O|LMP|Will do.
+124:31:54|T|LMP|Will do.
+124:32:20|O|LMP|You want to try ...?
+124:32:24|O|CDR|Yes.
+124:32:25|O|LMP|Circuit breakers in - or do you want to go to align?
+124:32:31|O|CDR|Maybe we'd better get an alignment - ...
+124:32:36|O|LMP|Okay. ...
+124:32:41|P|PAO|Here in Mission Control the scribing plotter showing the velocity and height - here we go again.
+124:32:44|O|CDR|Yes.
+124:32:46|T|CC|Eagle, Houston. You can go ahead and proceed with P52 as per nominal.
+124:32:56|O|CDR|Roger, Houston. The Eagle is back in orbit, having left Tranquility Base and leaving behind a replica from our Apollo 11 patch and the olive branch.
+124:32:56|T|CDR|Roger, Houston. The Eagle is back in orbit, having left Tranquility Base and leaving behind a replica from our Apollo 11 patch and the olive branch.
+124:33:17|T|CC|Eagle, Houston. Roger. We copy. The whole world is proud of you.
+124:33:27|O|CDR|We had a lot of help down there.
+124:33:27|T|CDR|We had a lot of help down there.
+124:33:30|O|LMP|We're going to have to have our rendezvous radar circuit breakers in anyway to get onto your link.
+124:33:34|O|CDR|Yes.
+124:33:39|T|CMP|Eagle, Columbia. I've got 470 now for R dot, and I just broke lock. Could you hold silent for a few seconds here while I reacquire.
+124:33:48|O|LMP|Okay.
+124:34:22|P|PAO|Here in Mission Control the scribing plotters have been replaced with the lunar orbit tracking chart showing the Eagle behind Spider some 20 degrees in longitude. Flight Operations Director, Chris Kraft, commented that he felt like some 500,000,000 people around the world are helping push Eagle off the Moon and back into orbit. We're continuing to monitor transmissions between the ground and Eagle and Columbia. Apollo Control standing by.
+124:34:08|O|CDR|Okay.
+124:34:11|T|CMP|Columbia's reacquired you.
+124:34:13|O|LMP|INVERTER 2, INVERTER 1, circuit breaker open?
+124:34:16|O|CDR|I got INVERTER 1.
+124:34:31|O|LMP|Close the AOT LAMP circuit breaker -
+124:34:47|O|CDR|Going to TRACK here.
+124:34:53|O|LMP|Yes.
+124:34:54|O|CDR|That right?
+124:34:56|O|LMP|Right.
+124:35:22|O|CDR|You know, I didn't see a lot of dust in the cockpit, did you?
+124:35:25|T|CC|Columbia, Houston. Request P00 and ACCEPT, and we'll give you a good GO LM vector. Over.
+124:35:26|O|LMP|Well, there was a fair amount. What did you get, 283?
+124:35:35|O|CDR|Yes.
+124:35:39|T|CMP|Roger. Houston. Going to ACCEPT.
+124:37:30|T|CC|Eagle, Houston. You can go ahead and turn your updata link switch off.
+124:37:41|T|LMP|Roger. It's off.
+124:37:43|T|CC|Roger.
+124:38:41|P|PAO|This is Apollo Control. During the ascent phase, the heart rates on the Eagle crew reached 90 for Neil Armstrong, 120 for Buzz Aldrin. They're now back down in the 80's. For some 28 minutes 15 seconds from loss of signal with Columbia, 29 minutes 52 seconds away from loss of signal on Eagle.
+124:39:07|T|CC|Columbia, Houston. The computer is yours. Press on.
+124:39:14|T|CMP|Okay.
+124:39:26|T|LMP|Houston, the AGS has a DELTA H of 15.5.
+124:39:33|T|CC|Eagle, Houston. Roger. 15.5.
+124:39:35|T|LMP|And a maneuver of - and a maneuver of 51.3.
+124:39:43|T|CC|Roger. We copy. And, Eagle, aft OMNI. Over.
+124:39:57|T|LMP|Roger. Aft OMNI.
+124:40:28|T|CC|Columbia, Houston.
+124:41:18|T|CMP|...
+124:41:22|T|LMP|Roger. It's on.
+124:41:24|T|CMP|...
+124:41:28|T|LMP|And I can see it reflecting out my window ...
+124:41:44|T|CC|Eagle, Houston in the blind. Try low bit rate. Over.
+124:41:57|T|LMP|Roger. Low bit rate. I've got a 3.8 signal strength. Over.
+124:42:15|T|CC|Eagle, Houston. Roger. We copy your signal strength 3.8.
+124:42:53|T|LMP|37, I believe.
+124:43:38|T|LMP|...
+124:43:42|T|CMP|...
+124:43:46|T|LMP|Sounds good, Mike.
+124:43:48|T|CMP|...
+124:44:47|T|LMP|Pull that out ...
+124:45:12|T|LMP|...
+124:46:59|T|LMP|Okay, Mike ...
+124:47:02|T|CDR|... Buzz?
+124:47:05|T|LMP|...
+124:48:02|T|CC|Eagle, Houston.
+124:48:08|T|LMP|Roger. Go ahead.
+124:48:09|T|CC|Roger. We saw a very slight jump in cabin and suit pressure there. Could you verify cabin REPRESS valve is closed?
+124:48:26|T|CDR|Okay. It's closed.
+124:48:28|T|CC|Roger. And we've got about 1 minute to before where you ought to be radar tracking, and we've lost data with you.
+124:48:40|T|CDR|Okay. ...
+124:49:05|T|LMP|Okay. Get a pass.
+124:49:28|T|LMP|Got it? ...
+124:49:44|T|CMP|Eagle, Columbia. You can turn your ... light off.
+124:49:48|T|LMP|Okay. You got it?
+124:49:50|T|CDR|Yes.
+124:49:52|T|LMP|All ready to mark, X and Y. Okay. Marked X now.
+124:49:59|T|CMP|...
+124:50:04|T|LMP|X or Y? Maybe we ought to be satisfied with three of them.
+124:50:16|T|CMP|Columbia ...
+124:50:23|T|CC|Columbia, Houston - -
+124:50:24|T|LMP|... is still on.
+124:50:24|T|CC|- - Say again.
+124:50:27|T|LMP|X or Y?
+124:50:31|T|CMP|...
+124:50:37|T|LMP|I can't tell.
+124:50:56|T|LMP|Okay. Mark Y.
+124:51:08|T|LMP|That enough? Beautiful! All zeros. Okay. Let's torque them. I'll write them down. Minus 06, plus 64, plus ... 7. Torque ... Radar circuit breakers in?
+124:51:59|T|CMP|...
+124:52:08|T|CDR|Yes. We're pointed down pretty much. We're going to be up - -
+124:52:11|T|LMP|Okay. ... circuit - -
+124:52:14|T|CMP|Roger.
+124:52:17|T|LMP|- - both breakers in? Both circuit breakers in?
+124:52:20|T|CMP|... - -
+124:52:20|T|MS|...
 124:52:20|T|CMP|- - ...
-124:52:26|T|LMP(EAGLE)|Okay. AUTO maneuver.
-124:52:36|T|CMP|...
-124:52:40|T|CC|Columbia, Houston. Did you call?
-124:52:51|T|CMP|That's affirmative. I called you before about the VHF ranging. It's not working. ...
-124:53:00|P|PAO|This is Apollo Control. Columbia has gone behind the Moon. Still a little over a minute left until Eagle goes behind the Moon. We'll catch these last few minutes of tracking and any possible conversation.
-124:53:01|T|LMP(EAGLE)|Houston, Eagle. Did you copy our star angle difference and torquing angles.
-124:53:07|T|CC|Eagle, Houston. We didn't have them on the downlink but we copied them on the VOX.
-124:53:18|T|LMP(EAGLE)|Okay. It was zero for star angle difference, minus 06, plus 64, and plus 1.37. Over.
-124:53:28|T|CC|Eagle, Houston. Roger. We have that.
-124:54:02|T|LMP(EAGLE)|That's it. Got a good lockon, Houston.
-124:54:26|T|LMP(EAGLE)|... take that.
-124:54:59|T|LMP(EAGLE)|How about that?
-124:55:28|T|LMP(EAGLE)|Your really think its apogee is 125 21, huh? 25 ... That circuit breaker is in.
-124:55:54|T|LMP(EAGLE)|Engine arm circuit breaker.
-124:57:03|T|LMP(EAGLE)|Okay. There's a mark. Buy that?
-124:57:24|T|CC|Eagle, Houston. If you have time, pitch 162, yaw minus 16.
-124:58:32|T|LMP(EAGLE)|You load the REFSMMAT? Okay.
-124:58:36|T|CMP|Eagle, Columbia. Your Y dot is minus 1.0. Over.
-124:58:44|T|CDR(EAGLE)|Mike, you're ...
-124:58:53|T|CMP|Eagle, do you read Columbia? Over.
-124:59:04|T|CMP|Eagle, this is Columbia. Over.
-124:59:10|T|CMP|Houston, Columbia. Over.
-124:59:12|T|CC|Roger, Columbia. Loud and clear now. This is Houston.
-124:59:17|T|CMP|Roger. Would you tell Eagle his Y dot is minus 1.0. Over.
-124:59:24|T|CC|Roger. Eagle, Columbia says your Y dot is minus 1.0. Over.
-124:59:37|T|CDR(EAGLE)|Roger, Houston. We got that. Thank you.
-124:59:39|T|CC|Roger. And you can go high bit rate now. Eagle can.
-125:00:29|T|CMP|Eagle, Columbia. How do you read?
-125:00:44|T|LMP(EAGLE)|AGS agrees very closely, and pointing ...
-125:00:57|T|CMP|Houston, Columbia is unable to read Eagle on either antenna or on VHF duplex Bravo. You got any suggestions?
-125:01:07|T|CC|Roger. Columbia, we understand. You are unable to read Eagle. Stand by.
-125:01:23|T|CDR(EAGLE)|Houston, tell Columbia that we read him about strength 2.
-125:02:00|T|LMP(EAGLE)|Okay. Wide deadband on.
-125:02:04|T|CMP|Houston, Columbia. Also my VHF ranging is not working now, and I'd like to know whether you'd like me to continue making sextant marks or do nothing. I'm supposed to be doing VHF marks only, and it's for the next 6 or 7 minutes.
-125:02:20|T|CC|Columbia, Houston. Roger. We copy. And, Eagle, looks like the best antenna would be forward for the LM. And, break. Eagle, we missed your loading of the TPI TIG and P32. Could you confirm you've done that?
-125:03:00|T|CC|Columbia, Houston. Recommend you take sextant marks and do not reinitialize. Over.
-125:03:15|T|CMP|Roger, Houston. Columbia's got the VHF ranging back now. I'll stick with the nominal. Thank you.
-125:03:20|T|CC|Roger. Mighty fine.
-125:03:38|T|CMP|Columbia reading you loud and clear now, Eagle.
-125:04:54|T|CC|Columbia, Houston.
-125:05:00|T|CMP|Go ahead, Houston.
-125:05:02|T|CC|Roger. Mike, you can go ahead and get as many VHF and sextant marks as you can here in this period of time.
-125:05:12|T|CMP|Roger. I've just got time for maybe two sextant marks, then get on with the final count.
-125:05:57|T|CC|Eagle and Columbia, about 1 minute till LOS there on Columbia. It looks like we have about 51.5 for CSI, and we tend to confirm your Y dot. And, break. For Eagle, verify VHF Bravo transmitter is off.
-125:06:22|T|LMP(EAGLE)|Roger. VHF Bravo is off.
-125:06:35|T|CC|Eagle, Houston. Recommend aft OMNI and are you GO for CSI, so we can let Columbia know. Over.
-125:06:47|T|LMP(EAGLE)|Roger. We're GO for CSI.
-125:06:52|T|CC|Columbia, Houston. Did you copy? Eagle is GO for CSI.
-125:06:58|T|CMP|No, I did not copy. I'm reading them only intermittently, but thank you.
-125:06:58|O|LMP|...
-125:07:02|T|CC|Roger.
-125:07:08|O|CDR|Okay.
+124:52:28|T|LMP|Okay. AUTO maneuver.
+124:52:38|T|CMP|...
+124:52:42|T|CC|Columbia, Houston. Did you call?
+124:52:52|T|CMP|That's affirmative. I called you before about the VHF ranging. It's not working. ...
+124:53:03|T|LMP|Houston, Eagle. Did you copy our star angle difference and torquing angles.
+124:53:08|T|CC|Eagle, Houston. We didn't have them on the downlink but we copied them on the VOX.
+124:53:20|T|LMP|Okay. It was zero for star angle difference, minus 06, plus 64, and plus 1.37. Over.
+124:53:30|T|CC|Eagle, Houston. Roger. We have that.
+124:54:04|T|LMP|That's it. Got a good lockon, Houston.
+124:54:28|T|LMP|Okay, I'll take this.
+124:55:01|T|LMP|How about that?
+124:55:30|T|LMP|Your really think its apogee is 125 21, huh? 25 ... That circuit breaker is in.
+124:55:56|T|LMP|Engine arm circuit breaker.
+124:57:05|T|LMP|Okay. There's a mark. Buy that?
+124:57:26|T|CC|Eagle, Houston. If you have time, pitch 162, yaw minus 16.
+124:58:34|T|LMP|You load the REFSMMAT? Okay.
+124:58:38|T|CMP|Eagle, Columbia. Your Y dot is minus 1.0. Over.
+124:58:46|T|CDR|Mike, you're ...
+124:58:54|T|CMP|Eagle, do you read Columbia? Over.
+124:59:06|T|CMP|Eagle, this is Columbia. Over.
+124:59:13|T|CMP|Houston, Columbia. Over.
+124:59:14|T|CC|Roger, Columbia. Loud and clear now. This is Houston.
+124:59:19|T|CMP|Roger. Would you tell Eagle his Y dot is minus 1.0. Over.
+124:59:26|T|CC|Roger. Eagle, Columbia says your Y dot is minus 1.0. Over.
+124:59:39|T|CDR|Roger, Houston. We got that. Thank you.
+124:59:41|T|CC|Roger. And you can go high bit rate now. Eagle can.
+125:00:15|T|LMP|... Neil.
+125:00:30|T|CMP|Eagle, Columbia. How do you read?
+125:00:46|T|LMP|AGS agrees very closely, and pointing ...
+125:00:59|T|CMP|Houston, Columbia is unable to read Eagle on either antenna or on VHF duplex Bravo. You got any suggestions?
+125:01:09|T|CC|Roger. Columbia, we understand. You are unable to read Eagle. Stand by.
+125:01:25|T|CDR|Houston, tell Columbia that we read him about strength 2.
+125:02:02|T|LMP|Okay. Wide deadband on.
+125:02:06|T|CMP|Houston, Columbia. Also my VHF ranging is not working now, and I'd like to know whether you'd like me to continue making sextant marks or do nothing. I'm supposed to be doing VHF marks only, and it's for the next 6 or 7 minutes.
+125:02:22|T|CC|Columbia, Houston. Roger. We copy. And, Eagle, looks like the best antenna would be forward for the LM. And, break. Eagle, we missed your loading of the TPI TIG and P32. Could you confirm you've done that?
+125:03:02|T|CC|Columbia, Houston. Recommend you take sextant marks and do not reinitialize. Over.
+125:03:17|T|CMP|Roger, Houston. Columbia's got the VHF ranging back now. I'll stick with the nominal. Thank you.
+125:03:23|T|CC|Roger. Mighty fine.
+125:03:40|T|CMP|Columbia reading you loud and clear now, Eagle.
+125:04:56|T|CC|Columbia, Houston.
+125:05:02|T|CMP|Go ahead, Houston.
+125:05:03|T|CC|Roger. Mike, you can go ahead and get as many VHF and sextant marks as you can here in this period of time.
+125:05:14|T|CMP|Roger.
+125:05:23|T|CMP|I've just got time for maybe two sextant marks, then get on with the final count.
+125:05:59|T|CC|Eagle and Columbia, about 1 minute till LOS there on Columbia. It looks like we have about 51.5 for CSI, and we tend to confirm your Y dot. And, break. For Eagle, verify VHF Bravo transmitter is off.
+125:06:24|T|LMP|Roger. VHF Bravo is off.
+125:06:37|T|CC|Eagle, Houston. Recommend aft OMNI and are you GO for CSI, so we can let Columbia know. Over.
+125:06:48|T|LMP|Roger. We're GO for CSI.
+125:06:53|T|CC|Columbia, Houston. Did you copy? Eagle is GO for CSI.
+125:07:01|T|CMP|No, I did not copy. I'm reading them only intermittently, but thank you.
+125:07:00|O|LMP|...
+125:07:05|T|CC|Roger.
+125:07:11|O|CDR|Okay.
+125:07:37|PAO|This is Apollo Control. We have had loss of signal with Eagle. Quite scratchy as Eagle went over the hill to complete the 25th lunar revolution as it gets to the midpoint on the lunar far side. Ascent burn just completed went quite well on time at 124 hours 22 minutes 0 seconds ground elapsed time. Coming up on this rev, approximately 10 minutes from now as a matter of fact, will be the concentric sequence initiate maneuver, CSI, which will raise the Eagle's perilune to some 45 nautical miles. Eagle now is in an orbit measuring 9.4 nautical miles at insertion or perilune, and 46.7 at apolune, This CSI maneuver will be made approximately at apolune. Therefore, the effect takes place 180 degrees later and has the effect of raising perilune to the desired 45 nautical miles. This maneuver will take place at 125 hours 19 minutes 34.7 seconds. He will have a DELTA-V or velocity change of 51.5 feet per second. All of these maneuvers, incidentally, in the rendezvous sequence by Eagle will be made by using the Reaction Control System of Eagle. Following the CSI at 126 hours 18 minutes 0 seconds a 9.2 foot per second burn, probably mostly a radial burn, at 126 hours 18 minutes will twist the Eagle's orbit to equal distance from the orbit of Columbia, what they call a constant DELTA height, or CDH maneuver. At 126 hours 57 minutes 00 seconds, terminal phase initiation, TPI. In this maneuver the crew visually thrusts along the line of sight toward Columbia when the line of sight is some 27 degrees above the local horizontal. This maneuver will have a magnitude of about 24.9 feet per second, and, in turn, it raises the apolune to 60.5 nautical miles, which is approximately the altitude Columbia's orbiting. Terminal phase finalization. TPF 127 hours 39 minutes 39.2 seconds. This is the start time for a series of small burns which are a combination of mid-course correction and velocity match maneuvers to bring Eagle in with Columbia and match the velocity so that they station-keep for a short period for photography, etc., and move on in to docking at approximately 128 hours ground elapsed time. In all of these maneuvers Mike Collins aboard Columbia is spring loaded to do what is called a mirror image maneuver approximately a minute after the Eagle is scheduled to make its maneuver, and if for some reason Eagle can not make the maneuver, Collins would do the exact same maneuver only in reverse so that Columbia would in effect begin a CSM active rendezvous with Eagle. As Eagle went over the hill on the 25th revolution, a velocity was being measured at 5410 feet per second. Eagle's weight somewhat lighter than when it started out in excess of 32,000 pounds, it's now shrunk to some 5885 pounds. Some 39 minutes 20 seconds away from acquisition of Columbia. 41 minutes 45 seconds from acquisition of Eagle as the 2 vehicles come around on the 26th revolution. The crew will likely describe how the CSI burn went, which is some 5 minutes away from this point, and at 125 hours 14 minutes ground elapsed time, this is Apollo Control.
 125:07:39|O|CDR|No. We'll wait until CDH.
 125:08:00|P|PAO|This is Apollo Control. We have had loss of signal with Eagle. Quite scratchy as Eagle went over the hill to complete the 25th lunar revolution as it gets to the midpoint on the lunar far side. Ascent burn just completed went quite well on time at 124 hours 22 minutes 0 seconds Ground Elapsed Time. Coming up on this rev, approximately 10 minutes from now as a matter of fact, will be the concentric sequence initiate maneuver, CSI, which will raise the Eagle's perilune to some 45 nautical miles. Eagle now is in an orbit measuring 9.4 nautical miles at insertion or perilune, and 46.7 at apolune, This CSI maneuver will be made approximately at apolune. Therefore, the effect takes place 180 degrees later and has the effect of raising perilune to the desired 45 nautical miles. This maneuver will take place at 125 hours 19 minutes 34.7 seconds. He will have a DELTA-V or velocity change of 51.5 feet per second. All of these maneuvers, incidentally, in the rendezvous sequence by Eagle will be made by using the Reaction Control System of Eagle. Following the CSI at 126 hours 18 minutes 0 seconds a 9.2 foot per second burn, probably mostly a radial burn, at 126 hours 18 minutes will twist the Eagle's orbit to equal distance from the orbit of Columbia, what they call a constant DELTA height, or CDH maneuver. At 126 hours 57 minutes 00 seconds, terminal phase initiation, TPI. In this maneuver the crew visually thrusts along the line of sight toward Columbia when the line of sight is some 27 degrees above the local horizontal. This maneuver will have a magnitude of about 24.9 feet per second, and, in turn, it raises the apolune to 60.5 nautical miles, which is approximately the altitude Columbia's orbiting. Terminal phase finalization. TPF 127 hours 39 minutes 39.2 seconds. This is the start time for a series of small burns which are a combination of mid-course correction and velocity match maneuvers to bring Eagle in with Columbia and match the velocity so that they station-keep for a short period for photography, etc., and move on in to docking at approximately 128 hours Ground Elapsed Time. In all of these maneuvers Mike Collins aboard Columbia is spring loaded to do what is called a mirror image maneuver approximately a minute after the Eagle is scheduled to make its maneuver, and if for some reason Eagle can not make the maneuver, Collins would do the exact same maneuver only in reverse so that Columbia would in effect begin a CSM active rendezvous with Eagle. As Eagle went over the hill on the 25th revolution, a velocity was being measured at 5410 feet per second. Eagle's weight somewhat lighter than when it started out in excess of
 125:08:00|P|PAO|32,000 pounds, it's now shrunk to some 5885 pounds. Some 39 minutes 20 seconds away from acquisition of Columbia. 41 minutes 45 seconds from acquisition of Eagle as the 2 vehicles come around on the 26th revolution. The crew will likely describe how the CSI burn went, which is some 5 minutes away from this point, and at 125 hours 14 minutes Ground Elapsed Time, this is Apollo Control.
 125:08:09|T|CC|Eagle, Houston. We'll see you coming around the other side. Your AOS time - is 1 minute ahead of the Flight Plan.
 125:08:17|O|CDR|Okay, thank you.
-125:08:18|T|CDR(EAGLE)|Okay. Thank you.
+125:08:18|T|CDR|Okay. Thank you.
 125:08:37|O|CDR|Okay.
 125:09:31|O|CDR|No, I didn't; go ahead, Mike.
 125:09:39|O|CDR|I think we are now, finally, and I think I have you in sight.
@@ -11414,66 +11421,66 @@
 125:57:22|T|CMP|Houston, Columbia. Over.
 125:57:38|T|CMP|Houston, Columbia. Over.
 125:58:12|T|CMP|Houston, Columbia. Over.
-125:58:24|T|LMP(EAGLE)|Houston, this is Eagle. Over.
+125:58:24|T|LMP|Houston, this is Eagle. Over.
 125:58:27|T|CC|Hey, Eagle. Houston loud and clear. Columbia was very weak. We were unable to read him.
-125:58:36|T|LMP(EAGLE)|Roger. We saw you come up over the horizon and it looks like you had a laser operating. Could you confirm that?
+125:58:36|T|LMP|Roger. We saw you come up over the horizon and it looks like you had a laser operating. Could you confirm that?
 125:58:46|T|CC|Eagle, Houston. Stand by. We'll check it. And, Eagle, Houston. Can you give us a burn report?
-125:59:01|T|LMP(EAGLE)|Roger. Stand by.
-125:59:24|T|LMP(EAGLE)|Okay. The CSI burn was on scheduled time of 125 19 3470, 51.5 feet per second was our solution. After chasing residuals a little bit, we ended up with a minus 0.2, plus 0.7, and minus 0.1. And in the AGS, at that time, we had plus 0.4, plus 0.9, and plus 0.3.
+125:59:01|T|LMP|Roger. Stand by.
+125:59:24|T|LMP|Okay. The CSI burn was on scheduled time of 125 19 3470, 51.5 feet per second was our solution. After chasing residuals a little bit, we ended up with a minus 0.2, plus 0.7, and minus 0.1. And in the AGS, at that time, we had plus 0.4, plus 0.9, and plus 0.3.
 125:59:57|T|CC|Eagle - Eagle, Houston. We copy. Any plane change? Over.
-126:00:04|T|LMP(EAGLE)|No. There was no plane change on CSI, and CSM had a 2.3 foot per second burn. We had a 2.9, and we elected to postpone that. Over.
+126:00:04|T|LMP|No. There was no plane change on CSI, and CSM had a 2.3 foot per second burn. We had a 2.9, and we elected to postpone that. Over.
 126:00:18|T|CC|Roger. We copy, Eagle. Thank you.
 126:00:28|T|CMP|Houston, how do you read Columbia now?
 126:00:41|T|CMP|Eagle, how about asking them for some high-gain angles for me, will you, please?
-126:00:46|T|LMP(EAGLE)|Roger, Houston, do you have some high-gain angles for Columbia? Over.
+126:00:46|T|LMP|Roger, Houston, do you have some high-gain angles for Columbia? Over.
 126:00:54|T|CC|Roger, Eagle. And, Columbia, stand by. We'll have them for you shortly.
 126:01:15|T|CC|Eagle, Houston. Could you verify you switched lithium hydroxide canisters? Over.
-126:01:24|T|LMP(EAGLE)|That's affirmative. We started getting an erratic indication on primary, so we switched to secondary, and it was again erratic and I thought it might have been a sensor. But it's settled down now, and we're on the secondary. Over.
+126:01:24|T|LMP|That's affirmative. We started getting an erratic indication on primary, so we switched to secondary, and it was again erratic and I thought it might have been a sensor. But it's settled down now, and we're on the secondary. Over.
 126:01:38|T|CC|Roger. We copy. Mighty fine.
 126:01:47|T|CC|Columbia and Eagle. Request OMNI Delta for Columbia.
 126:01:57|T|CMP|Roger, Houston. I've been in Delta the whole time but it doesn't ...
-126:02:09|T|CDR(EAGLE)|Houston. Columbia's been on Delta, but he hasn't had much luck with you.
+126:02:09|T|CDR|Houston. Columbia's been on Delta, but he hasn't had much luck with you.
 126:02:18|T|CC|Eagle, Houston. Roger. We copy.
 126:03:20|T|CMP|Eagle, are you ready to copy your Y dot?
-126:03:29|T|CDR(EAGLE)|Go ahead.
+126:03:29|T|CDR|Go ahead.
 126:03:30|T|CMP|...
 126:04:25|T|CC|Eagle, Houston. At your convenience, we'd like to go ahead and try your lithium hydroxides on the primary and let us take a look at it down here.
 126:05:04|T|CC|Columbia, Houston. Over.
 126:05:09|T|CMP|Go ahead, Houston. ...
-126:05:39|T|CDR(EAGLE)|Houston, Eagle. Columbia's been reading you loud and clear on his OMNI's, but he hasn't had any luck in transmitting to you.
+126:05:39|T|CDR|Houston, Eagle. Columbia's been reading you loud and clear on his OMNI's, but he hasn't had any luck in transmitting to you.
 126:05:50|T|CC|Roger, Eagle. Mighty fine. We don't hear Columbia though.
-126:06:00|T|CDR(EAGLE)|Okay.
+126:06:00|T|CDR|Okay.
 126:07:00|P|PAO|Apollo Control here. Less than a minute remaining until the constant DELTA height or CDH maneuver. We'll continue to monitor the air-ground. This small magnitude radial burn to put Eagle in a orbit that's concentric with -
-126:07:32|T|LMP(EAGLE)|We're burning ours, Mike. Minus 1.8.
+126:07:32|T|LMP|We're burning ours, Mike. Minus 1.8.
 126:08:32|T|CC|Eagle, Houston. ...
 126:08:40|T|CC|Columbia, Houston. ...
 126:09:42|T|CC|Columbia, Houston. Over.
 126:09:59|T|CC|Columbia, Houston. You can go ahead and go to REACQ in the high-gain. We should get you then.
-126:10:16|T|LMP(EAGLE)|Do you have some angles for him, Houston?
+126:10:16|T|LMP|Do you have some angles for him, Houston?
 126:10:18|T|CC|Roger. Pitch minus 30, yaw 180, for Columbia.
-126:10:29|T|LMP(EAGLE)|Okay. And what was your CSI - CDH solution, Mike?
+126:10:29|T|LMP|Okay. And what was your CSI - CDH solution, Mike?
 126:10:43|T|CMP|...
-126:11:18|T|LMP(EAGLE)|Roger. Copy. Thank you.
-126:11:31|T|CDR(EAGLE)|And, Houston, Eagle. Got an ECS light - a CO2 light. Partial pressure's reading about one half millimeter.
+126:11:18|T|LMP|Roger. Copy. Thank you.
+126:11:31|T|CDR|And, Houston, Eagle. Got an ECS light - a CO2 light. Partial pressure's reading about one half millimeter.
 126:11:42|T|CC|Eagle and Columbia, Houston. Roger. We copy.
 126:12:03|T|CMP|Houston, how do you read Columbia?
 126:12:08|T|CC|Columbia, Houston. Go.
 126:12:22|T|CC|Eagle, Houston. We're sure that's a sensor problem. You can leave it on PRIMARY.
-126:12:30|T|CDR(EAGLE)|Okay.
-126:12:41|T|CDR(EAGLE)|Roger. We pulled the circuit breakers.
+126:12:30|T|CDR|Okay.
+126:12:41|T|CDR|Roger. We pulled the circuit breakers.
 126:12:45|T|CC|Roger, Eagle.
-126:13:01|T|CDR(EAGLE)|And our water separator apparently isn't working too well. We're getting a lot of water through the suit loop, and we've changed water separators, but it doesn't seem to have improved the situation any.
+126:13:01|T|CDR|And our water separator apparently isn't working too well. We're getting a lot of water through the suit loop, and we've changed water separators, but it doesn't seem to have improved the situation any.
 126:13:20|T|CC|Eagle, Houston. Roger. We copy.
 126:13:47|T|CMP|Eagle, Columbia. Standing by to back you up on the burn. Just let me know how it's going.
-126:13:53|T|CDR(EAGLE)|Okay.
-126:13:58|T|LMP(EAGLE)|Okay. You want to know what our NOUN 81 is?
+126:13:53|T|CDR|Okay.
+126:13:58|T|LMP|Okay. You want to know what our NOUN 81 is?
 126:14:03|T|CMP|Ready to copy.
-126:14:05|T|LMP(EAGLE)|Okay. I think you already got the burn time; minus 8.1, minus 1.8, minus 18.2.
+126:14:05|T|LMP|Okay. I think you already got the burn time; minus 8.1, minus 1.8, minus 18.2.
 126:14:19|T|CMP|Okay, that's pretty close agreement. And, for burn time, I still have 126 17 46.
-126:14:26|T|LMP(EAGLE)|Roger.
+126:14:26|T|LMP|Roger.
 126:15:06|T|CC|Eagle, Houston. For warm feeling, we are agreeing with your CDH.
-126:15:15|T|LMP(EAGLE)|Congratulations.
-126:15:28|T|LMP(EAGLE)|Unfortunately, the chart doesn't agree with it, because the range rate at 36 minutes was off the chart.
+126:15:15|T|LMP|Congratulations.
+126:15:28|T|LMP|Unfortunately, the chart doesn't agree with it, because the range rate at 36 minutes was off the chart.
 126:17:00|P|PAO|- the Eagle in an orbit that's concentric with. Here we go. 30 seconds.
 126:17:00|P|PAO|This is Apollo Control. Range now showing 91.3 nautical miles, range rate, rate of closure 119 feet per second.
 126:17:00|P|PAO|This is Apollo Control. Range between Eagle and Columbia now showing 67.5 nautical miles. Range rate, closure rate, 121 feet per second.
@@ -11481,68 +11488,68 @@
 126:17:00|P|PAO|This is Apollo Control the Black Team of Flight Controllers here in Mission Control are more or less in an advisory capacity during this rendezvous sequence. They're actively computing maneuver times, but in the final analysis it's onboard computations by the crew of Columbia and Eagle which really bring about the rendezvous. Standing by.
 126:17:00|P|PAO|which nearly bring about to rendezvous. Standing by at 126 hours 37 minutes Ground Elapsed Times. Some 24 minutes away from ignition on the thrust along the line of sight for Terminal Phase Initiate.
 126:17:18|T|CMP|Thirty seconds.
-126:17:20|T|CDR(EAGLE)|We're ready to burn.
+126:17:20|T|CDR|We're ready to burn.
 126:17:21|T|CMP|Okay.
 126:17:31|T|CMP|Yes. I'm ready. ...
 126:18:49|T|CMP|Burn complete?
-126:18:51|T|CDR(EAGLE)|Burn complete.
+126:18:51|T|CDR|Burn complete.
 126:18:52|T|CMP|Thank you.
 126:19:47|T|CC|Eagle, Houston. When you get a chance, are your LCG's hooked up? And if so, what does the LCG accumulator show?
 126:20:37|T|CMP|Eagle, Columbia. Passing over the Landing Site. It sure is great to look down there and not see you.
-126:20:46|T|LMP(EAGLE)|...
+126:20:46|T|LMP|...
 126:21:04|T|CC|Eagle, Houston.
-126:21:08|T|CDR(EAGLE)|Go ahead.
+126:21:08|T|CDR|Go ahead.
 126:21:09|T|CC|Roger. Did you copy on the LCG, there, and the reading on the water accumulator?
-126:21:15|T|CDR(EAGLE)|Yes. Roger. I did. I'm getting ...
-126:22:20|T|LMP(EAGLE)|Houston, the water accumulator is right on the line between the red and the green. Over.
+126:21:15|T|CDR|Yes. Roger. I did. I'm getting ...
+126:22:20|T|LMP|Houston, the water accumulator is right on the line between the red and the green. Over.
 126:22:26|T|CC|Eagle, Houston. Roger. We copy.
 126:24:13|T|CC|Eagle, Houston.
-126:24:19|T|LMP(EAGLE)|Houston, Eagle.
+126:24:19|T|LMP|Houston, Eagle.
 126:24:20|T|CC|Roger. On the water problem, we can't add anything more to it, except the fact that it looks like the water accumulators are up to speed to us down here.
-126:24:35|T|CDR(EAGLE)|Okay. It's not going to be too much trouble.
+126:24:35|T|CDR|Okay. It's not going to be too much trouble.
 126:24:39|T|CC|Roger. Fine.
-126:24:40|T|LMP(EAGLE)|It's just in one suit, too, for some reason.
+126:24:40|T|LMP|It's just in one suit, too, for some reason.
 126:26:29|T|CC|Columbia, Houston. Our COMM problem was traced to a ground station here.
 126:26:38|T|CMP|Okay. Glad to hear it.
 126:26:39|T|CC|Roger. You're mighty fine now.
-126:32:35|T|LMP(EAGLE)|Range rate at 30.
+126:32:35|T|LMP|Range rate at 30.
 126:32:43|T|CMP|I have a TPI TIG when you guys want to compare them.
-126:32:48|T|LMP(EAGLE)|Stand by.
-126:33:05|T|LMP(EAGLE)|... 19.8.
-126:33:15|T|LMP(EAGLE)|Go ahead, Mike. What have you got?
+126:32:48|T|LMP|Stand by.
+126:33:05|T|LMP|... 19.8.
+126:33:15|T|LMP|Go ahead, Mike. What have you got?
 126:33:19|T|CMP|127 02 3450.
-126:33:25|T|LMP(EAGLE)|You're about 32 seconds ... than we are.
+126:33:25|T|LMP|You're about 32 seconds ... than we are.
 126:33:29|T|CMP|Okay, fine.
-126:35:01|T|LMP(EAGLE)|...
+126:35:01|T|LMP|...
 126:39:12|T|SC|... and I'll do it.
-126:39:52|T|LMP(EAGLE)|... want to get another ... data update ...
+126:39:52|T|LMP|... want to get another ... data update ...
 126:40:50|T|CMP|Mark it ... range.
-126:42:55|T|LMP(EAGLE)|Mark.
-126:42:56|T|LMP(EAGLE)|Range rate at 40.
+126:42:55|T|LMP|Mark.
+126:42:56|T|LMP|Range rate at 40.
 126:44:16|T|CMP|Buzz, I would like to confirm that your TPI TIG is 127 02 02. Over.
-126:44:25|T|LMP(EAGLE)|We haven't settled on a final one yet. The last one was - stand by.
+126:44:25|T|LMP|We haven't settled on a final one yet. The last one was - stand by.
 126:45:04|T|CMP|Roger. Understand.
 126:45:12|T|CMP|Just as soon as you know what TPI TIG is going to be, I would appreciate a call.
-126:45:18|T|LMP(EAGLE)|Okay.
+126:45:18|T|LMP|Okay.
 126:45:24|T|CMP|Last I got was 32 seconds earlier than mine which would make it 127 02 02.
 126:45:40|T|CMP|Thank you. Are you going to be revising that one?
-126:45:44|T|LMP(EAGLE)|I think probably so. How late - How late can you take a revision?
+126:45:44|T|LMP|I think probably so. How late - How late can you take a revision?
 126:45:56|T|CMP|Well, to stay on my time line, I should have it in the next couple of minutes.
 126:48:00|P|PAO|This is Apollo Control about 6 and 1/2 minutes to ignition on the thermal phase maneuver in which the crew Eagle will thrust along the line of sight toward Columbia. Distance now between the two spacecraft
 126:48:00|P|PAO|some 38.6 nautical miles closing at a rate of 110 feet per second.
-126:48:07|T|LMP(EAGLE)|Okay. Latest estimate, 127 03 39.
+126:48:07|T|LMP|Okay. Latest estimate, 127 03 39.
 126:48:14|T|CMP|Thank you kindly,
 126:48:41|T|CC|Eagle, Houston.
-126:48:45|T|LMP(EAGLE)|Roger. Go ahead.
+126:48:45|T|LMP|Roger. Go ahead.
 126:48:47|T|CC|Roger. In the event of the possibility that we may have had some water channeling in those hydroxide canisters, we recommend you stay in the cabin mode from now on. Over.
-126:49:03|T|LMP(EAGLE)|Roger.
+126:49:03|T|LMP|Roger.
 126:51:25|T|CC|Eagle, Houston.
-126:51:30|T|LMP(EAGLE)|Go ahead.
+126:51:30|T|LMP|Go ahead.
 126:51:32|T|CC|Roger. I'd better clarify that cabin mode a little bit there. What we mean is you go ahead and stay in the cabin mode. Helmets and gloves on are your option. And we really have no concern with the CO2. Over.
-126:51:52|T|LMP(EAGLE)|Roger. Understand.
-126:52:51|T|LMP(EAGLE)|Mike, you already loaded that time? We've got a final one here.
+126:51:52|T|LMP|Roger. Understand.
+126:52:51|T|LMP|Mike, you already loaded that time? We've got a final one here.
 126:52:58|T|CMP|I've already loaded it. I don't think it'll make much difference.
-126:53:01|T|LMP(EAGLE)|Roger. Only 9 seconds difference.
+126:53:01|T|LMP|Roger. Only 9 seconds difference.
 126:53:04|T|CMP|MARKS next.
 126:54:06|T|CC|Columbia, Houston.
 126:54:12|T|CMP|Columbia. Go ahead.
@@ -11556,22 +11563,22 @@
 126:55:27|T|CC|Columbia, Houston. Logic looks good. You can arm your PYRO's at your convenience.
 126:55:36|T|CMP|Thank you.
 126:55:55|T|CMP|Eagle, Columbia's starting to maneuver to TPI attitude.
-126:55:58|T|CDR(EAGLE)|Okay.
+126:55:58|T|CDR|Okay.
 126:57:20|T|CC|Eagle and Columbia, Houston. All your solutions look good to us. Out.
-126:58:18|T|LMP(EAGLE)|And, Mike, if you want our target DELTA V, I'll give it to you.
+126:58:18|T|LMP|And, Mike, if you want our target DELTA V, I'll give it to you.
 126:58:22|T|CMP|Ready to copy.
-126:58:23|T|LMP(EAGLE)|127 03 3082, plus 22.7, plus 1.7, minus 10.6. Over.
+126:58:23|T|LMP|127 03 3082, plus 22.7, plus 1.7, minus 10.6. Over.
 126:58:41|T|CMP|127 03 3082, plus 22.7, plus 1.7, minus 10.6. Thank you.
 126:59:00|P|PAO|This is Apollo Control. We've apparently had loss of signal with Columbia and Eagle as they went behind the Moon on the 26th revolution. Next maneuver scheduled for about 33 minutes from now. While both vehicles are behind this will be the breaking series of maneuvers coming down to docking, or station keeping first and then docking at about 128 hours Ground Elapsed Time. And at 127 hours 6 minutes Ground Elapsed Time in the flight of Apollo 11, this is Mission Control.
-127:00:55|T|CDR(EAGLE)|I'm showing a good bit of out of plane velocity on my cross pointers, Mike.
+127:00:55|T|CDR|I'm showing a good bit of out of plane velocity on my cross pointers, Mike.
 127:01:03|T|CMP|Roger. I have no indication of it.
 127:02:31|O|CMP|Coming up on 1 minute to TIG. Neil, how's it looking?
 127:02:32|T|CMP|Coming up on 1 minute to TIG, Neil. How's it looking?
 127:02:36|O|CDR|Pretty good.
-127:02:38|T|CDR(EAGLE)|Pretty good.
+127:02:38|T|CDR|Pretty good.
 127:02:40|T|CMP|Good.
 127:02:41|O|LMP|That last out of plane was in the AGS, not the radar.
-127:02:43|T|CDR(EAGLE)|That out of plane was in the AGS, not in the radar.
+127:02:43|T|CDR|That out of plane was in the AGS, not in the radar.
 127:02:45|O|CMP|Alright.
 127:02:47|T|CMP|Roger that.
 127:03:05|O|LMP|...
@@ -11579,13 +11586,13 @@
 127:03:47|O|CDR|Ready to burn?
 127:03:48|O|LMP|Okay.
 127:03:50|O|CDR|We're burning.
-127:03:52|T|CDR(EAGLE)|We're burning.
+127:03:52|T|CDR|We're burning.
 127:03:54|T|CMP|That a boy!
 127:04:32|O|CDR|Okay, that's it.
 127:04:34|O|CMP|Burn complete?
 127:04:35|O|CDR|Burn's complete. Did you read? Burn's complete.
 127:04:36|T|CMP|Burn complete?
-127:04:40|T|CDR(EAGLE)|Read burn complete.
+127:04:40|T|CDR|Read burn complete.
 127:04:40|O|CMP|Thank you.
 127:04:42|T|CMP|Roger. Thank you.
 127:04:43|T|CC|Eagle, Houston. Aft OMNI, low bit rate, an we'll see you at 127 plus 51.
@@ -11804,10 +11811,10 @@
 127:51:32|O|LMP|I don't think so. If you did it right now you'd - -
 127:51:36|O|CMP|... I got the Earth coming up already; it's fantastic!
 127:51:40|O|CDR|Okay, you got me.
-127:51:42|T|CDR(EAGLE)|Okay. You've got me.
+127:51:42|T|CDR|Okay. You've got me.
 127:52:00|T|CC|Eagle and Columbia, Houston. Standing by.
 127:52:00|O|CC|Eagle and Columbia, Houston. Standing by.
-127:52:05|T|CDR(EAGLE)|Roger. We're stationkeeping.
+127:52:05|T|CDR|Roger. We're stationkeeping.
 127:52:05|O|CDR|Roger; we're stationkeeping.
 127:52:08|T|CC|Roger.
 127:52:08|O|CC|Roger.
@@ -11819,15 +11826,15 @@
 127:53:28|O|LMP|That's it - going to AGS?
 127:53:32|O|CDR|Yes, ... ATT DEADBAND.
 127:54:11|O|CDR|Okay, Mike, I'll get - try to get in position here, and then you got it.
-127:54:13|T|CDR(EAGLE)|Okay, Mike. I'll get - try to get in position here, then you got it.
+127:54:13|T|CDR|Okay, Mike. I'll get - try to get in position here, then you got it.
 127:54:18|O|CMP|Okay.
 127:54:37|O|CDR|How does the roll attitude look?
-127:54:39|T|CDR(EAGLE)|How does the roll attitude look?
+127:54:39|T|CDR|How does the roll attitude look?
 127:54:41|O|CMP|...
 127:54:47|O|CDR|Let's see how the DSKY thinks it looks.
 127:54:52|O|CMP|Have you stopped rolling yet?
 127:54:54|O|CDR|I'll stop. Matter of fact, I can stop right here, if you like that.
-127:54:55|T|CDR(EAGLE)|I'll stop. Matter of fact, I can stop right here if you like that.
+127:54:55|T|CDR|I'll stop. Matter of fact, I can stop right here if you like that.
 127:54:59|O|CMP|Need a little bit more. That's the way; keep it going. Need a little more ... That's the way, keep going - go a little bit more - go ahead - go ahead - okay, stop. Okay, I got it now.
 127:55:27|O|LMP|You got the ... in ...?
 127:55:36|O|CDR|Yes. Right there. Okay, ... 1 -
@@ -11837,11 +11844,11 @@
 127:56:30|T|CC|Eagle, Houston. Middle gimbal. And you might pass to Columbia, we don't have him yet.
 127:56:33|O|LMP|That's right.
 127:56:34|O|CMP|Okay, Buzz.
-127:56:35|T|CDR(EAGLE)|That's right.
+127:56:35|T|CDR|That's right.
 127:57:12|O|LMP|We got a platform to make.
 127:57:13|O|CDR|Okay.
 127:57:32|O|CDR|I'm not going to do a thing, Mike; I'm just letting her hold in ATTITUDE HOLD.
-127:57:34|T|CDR(EAGLE)|I'm not going to do a thing, Mike. I'm just letting her hold in ATTITUDE HOLD.
+127:57:34|T|CDR|I'm not going to do a thing, Mike. I'm just letting her hold in ATTITUDE HOLD.
 127:57:38|O|CMP|Okay.
 127:57:40|T|CMP|Okay.
 127:57:55|O|CDR|I think we ought to be at 4 JETS for this, ... AGS.
@@ -11861,8 +11868,8 @@
 127:59:35|O|LMP|Okay, they're pulled.
 127:59:39|O|CDR|Pull it out.
 127:59:40|O|LMP|Okay. Circuit breakers - -
-128:00:50|T|CDR(EAGLE)|You ...
-128:00:56|T|CDR(EAGLE)|Okay.
+128:00:50|T|CDR|You ...
+128:00:56|T|CDR|Okay.
 128:03:12|T|CDR|Okay. We're all yours. Roger.
 128:03:17|T|CMP|Okay. Okay, I have thrusters B3 and C4 safetied.
 128:03:30|T|LMP|Okay.
