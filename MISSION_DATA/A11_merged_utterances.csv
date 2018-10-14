@@ -11568,33 +11568,33 @@
 126:58:25|T|LMP|127:03:30.82, plus 22.7, plus 1.7, minus 10.6. Over.
 126:58:43|T|CMP|127:03:30.82, plus 22.7, plus 1.7, minus 10.6. Thank you.
 127:00:57|T|CDR|I'm showing a good bit of out of plane velocity on my cross pointers, Mike.
-127:01:03|T|CMP|Roger. I have no indication of it.
-127:02:31|O|CMP|Coming up on 1 minute to TIG. Neil, how's it looking?
-127:02:32|T|CMP|Coming up on 1 minute to TIG, Neil. How's it looking?
-127:02:36|O|CDR|Pretty good.
-127:02:38|T|CDR|Pretty good.
-127:02:40|T|CMP|Good.
-127:02:41|O|LMP|That last out of plane was in the AGS, not the radar.
-127:02:43|T|CDR|That out of plane was in the AGS, not in the radar.
-127:02:45|O|CMP|Alright.
-127:02:47|T|CMP|Roger that.
-127:03:05|O|LMP|...
-127:03:07|O|CDR|Okay.
-127:03:47|O|CDR|Ready to burn?
-127:03:48|O|LMP|Okay.
-127:03:50|O|CDR|We're burning.
-127:03:52|T|CDR|We're burning.
-127:03:54|T|CMP|That a boy!
-127:04:32|O|CDR|Okay, that's it.
-127:04:34|O|CMP|Burn complete?
-127:04:35|O|CDR|Burn's complete. Did you read? Burn's complete.
+127:01:05|T|CMP|Roger. I have no indication of it.
+127:02:34|O|CMP|Coming up on 1 minute to TIG. Neil, how's it looking?
+127:02:34|T|CMP|Coming up on 1 minute to TIG, Neil. How's it looking?
+127:02:40|O|CDR|Pretty good.
+127:02:40|T|CDR|Pretty good.
+127:02:43|T|CMP|Good.
+127:02:45|O|LMP|That out of plane was in the AGS, not in the radar.
+127:02:45|T|CDR|Last out of plane was in the AGS, not in the radar.
+127:02:49|O|CMP|Roger that.
+127:02:49|T|CMP|Roger that.
+127:03:09|O|LMP|...
+127:03:11|O|CDR|Okay.
+127:03:51|O|CDR|Ready to burn?
+127:03:52|O|LMP|Okay.
+127:03:54|O|CDR|We're burning.
+127:03:54|T|CDR|We're burning.
+127:03:56|T|CMP|That a boy!
+127:04:37|O|CDR|Okay, that's it.
+127:04:38|O|CMP|Burn complete?
+127:04:38|O|CDR|Burn's complete. Did you read? Burn's complete.
 127:04:36|T|CMP|Burn complete?
-127:04:40|T|CDR|Read burn complete.
-127:04:40|O|CMP|Thank you.
-127:04:42|T|CMP|Roger. Thank you.
-127:04:43|T|CC|Eagle, Houston. Aft OMNI, low bit rate, an we'll see you at 127 plus 51.
-127:04:43|O|CC|Eagle, Houston. Aft OMNI, LOW BIT RATE, and we'll see you at 127 plus 51.
-127:05:07|O|LMP|Okay, ... ... 5, huh?
+127:04:43|T|CDR|Read burn complete.
+127:04:44|O|CMP|Roger. Thank you.
+127:04:44|T|CMP|Roger. Thank you.
+127:04:45|T|CC|Eagle, Houston. Aft OMNI, low bit rate, an we'll see you at 127 plus 51.
+127:04:45|O|CC|Eagle, Houston. Aft OMNI, LOW BIT RATE, and we'll see you at 127 plus 51.
+127:05:11|O|LMP|Okay, ... ... 5, huh?
 127:06:10|O|CDR|Well - say when ... Oh, wait a minute.
 127:06:50|O|LMP|Chart at 26/7 forward for -
 127:06:55|O|CDR|Pretty reasonable.
