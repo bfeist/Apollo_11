@@ -184,6 +184,9 @@
 121:40:52 - Crew describes where they slept
 123:07:53 - Backup crew - Jim Lovell calls Columbia and Eagle
 123:10:33 - Neil gives geology observations from question the night before
+125:10:23|O|CDR|Well, the ground's got 51 5, and we got 51 5. Yes. First time we've ever agreed on anything.
+125:19:50 - Eagle burn
+
 
 
 
