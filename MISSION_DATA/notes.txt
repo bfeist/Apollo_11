@@ -186,6 +186,7 @@
 123:10:33 - Neil gives geology observations from question the night before
 125:10:23|O|CDR|Well, the ground's got 51 5, and we got 51 5. Yes. First time we've ever agreed on anything.
 125:19:50 - Eagle burn
+127:22:34|O|CMP|You're not confused on which end to dock with, are you?
 
 
 

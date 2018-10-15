@@ -11595,296 +11595,292 @@
 127:04:45|T|CC|Eagle, Houston. Aft OMNI, low bit rate, an we'll see you at 127 plus 51.
 127:04:45|O|CC|Eagle, Houston. Aft OMNI, LOW BIT RATE, and we'll see you at 127 plus 51.
 127:05:11|O|LMP|Okay, ... ... 5, huh?
-127:06:10|O|CDR|Well - say when ... Oh, wait a minute.
-127:06:50|O|LMP|Chart at 26/7 forward for -
-127:06:55|O|CDR|Pretty reasonable.
-127:06:59|O|LMP|AGS had these residuals after its completion after the burn.
-127:07:39|O|CDR|I can't see you, Michael.
-127:07:44|O|CMP|... moving in at ...
-127:07:50|O|CDR|Okay. I got good radar; I just can't see you.
-127:08:03|O|CMP|...
-127:08:49|O|LMP|Do you think that pressure dropped?
-127:08:51|O|CDR|Yes.
-127:08:54|O|LMP|It doesn't show up in the ... books. I don't see any reason why we don't take them all back. All that we've got - -
-127:09:00|O|CDR|All got data.
-127:09:02|O|LMP|We all got something ...
-127:10:20|O|LMP|Okay, you try getting it - ...?
-127:10:25|O|CDR|No, I haven't been; do you want me to?
-127:10:27|O|LMP|No, I got to keep the chart.
-127:10:58|O|CDR|... can take this update for them.
-127:12:00|O|LMP|On the track about, huh?
-127:12:21|O|LMP|Boy, my shoulders sure hurt.
-127:12:23|O|CDR|Mine are, too.
-127:12:26|O|LMP|Last night I couldn't get this far from the ...
-127:12:30|O|CDR|I was the same way.
-127:13:00|O|LMP|Use all the green tape, did you?
-127:14:31|O|CDR|I got it in sight now, Mike.
-127:14:34|O|CMP|...
-127:15:33|O|LMP|...
-127:15:39|O|CDR|Okay.
-127:16:08|O|SC|(Yawn)
-127:16:12|O|CMP|...
-127:16:18|O|LMP|Yes, so do we.
-127:16:19|O|CDR|A hundred and what?
-127:16:33|O|CMP|...
-127:16:37|O|LMP|Okay, NOUN 81, minus 0, plus 0.4, plus 0.9.
-127:16:49|O|CMP|And now, plus 0.4, plus 0.9. ...
-127:16:58|O|LMP|And 15 minutes after TPI, I've got - -
-127:17:03|O|CMP|...
-127:17:35|O|CDR|M-1.
-127:17:36|O|LMP|...
-127:17:53|O|LMP|... your burn's a little late.
-127:18:04|O|CDR|... be burning - ...
-127:18:12|O|LMP|Okay, ... the ... on? There it is.
-127:18:28|O|LMP|Neil, I guarantee you that the burn is precise, okay?
-127:18:31|O|CDR|...
-127:18:33|O|LMP|Good.
-127:18:39|O|CMP|... good burn ...
-127:18:43|O|CDR|No, it's not going to be late. Maybe 5 seconds.
-127:19:17|O|CDR|Burn complete.
-127:19:19|O|CMP|Thank you.
-127:20:13|O|CDR|Well, it's all over but the docking.
-127:20:26|O|CDR|Check the start out there.
-127:20:32|O|LMP|Okay.
+127:05:51|P|PAO|This is Apollo Control. We've apparently had loss of signal with Columbia and Eagle as they went behind the Moon on the 26th revolution. Next maneuver scheduled for about 33 minutes from now. While both vehicles are behind this will be the breaking series of maneuvers coming down to docking, or station keeping first and then docking at about 128 hours Ground Elapsed Time. And at 127 hours 6 minutes Ground Elapsed Time in the flight of Apollo 11, this is Mission Control.
+127:06:14|O|CDR|Well - say when ... Oh, wait a minute.
+127:06:55|O|LMP|Chart at 26/7 forward for -
+127:07:00|O|CDR|Pretty reasonable.
+127:07:03|O|LMP|AGS had these residuals after its completion after the burn.
+127:07:44|O|CDR|I can't see you, Michael.
+127:07:48|O|CMP|... moving in at ... P76 .. 
+127:07:55|O|CDR|Okay. I got good radar; I just can't see you.
+127:08:08|O|CMP|...
+127:08:54|O|LMP|Do you think that pressure dropped?
+127:08:56|O|CDR|Yes.
+127:08:58|O|LMP|It doesn't show up in the ... books. I don't see any reason why we don't take them all back. All that we've got - -
+127:09:05|O|CDR|Oh, we've got data.
+127:09:07|O|LMP|We all got something ...
+127:10:25|O|LMP|Okay, you try getting it - ...?
+127:10:30|O|CDR|No, I haven't been; do you want me to?
+127:10:33|O|LMP|No, I got to keep the chart.
+127:11:03|O|CDR|... can take this update for them.
+127:12:05|O|LMP|On the track about, huh?
+127:12:27|O|LMP|Boy, my shoulders sure hurt.
+127:12:29|O|CDR|Mine are, too.
+127:12:32|O|LMP|Last night I couldn't get this far from the ...
+127:12:35|O|CDR|I was the same way.
+127:13:06|O|LMP|Use all the green tape, did you?
+127:14:37|O|CDR|I have you in sight now, Mike.
+127:14:39|O|CMP|...
+127:15:38|O|LMP|...
+127:15:45|O|CDR|Okay.
+127:16:13|O|SC|(Yawn)
+127:16:17|O|CMP|...
+127:16:23|O|LMP|Yes, so do we.
+127:16:24|O|CDR|A hundred and what?
+127:16:39|O|CMP|...
+127:16:42|O|LMP|Okay, NOUN 81, minus 0, plus 0.4, plus 0.9.
+127:16:55|O|CMP|And now, plus 0.4, plus 0.9. ...
+127:17:04|O|LMP|And 15 minutes after TPI, I've got - -
+127:17:08|O|CMP|...
+127:17:41|O|CDR|M-1.
+127:17:59|O|LMP|... your burn's a little late.
+127:18:10|O|CDR|... be burning - ...
+127:18:18|O|LMP|Okay, ... the ... on? There it is.
+127:18:34|O|LMP|Neil, I guarantee you that the burn is precise, okay?
+127:18:38|O|CDR|...
+127:18:39|O|LMP|Good.
+127:18:45|O|CMP|... good burn ...
+127:18:49|O|CDR|No, it's not going to be late. Maybe 5 seconds.
+127:19:23|O|CDR|Burn complete.
+127:19:25|O|CMP|Thank you.
+127:20:19|O|LMP|Well, it's all over but the docking.
+127:20:32|O|LMP|Check the start out there.
+127:20:38|O|LMP|Okay.
 127:20:41|O|CDR|...
-127:20:51|O|LMP|You still got him?
-127:20:55|O|CDR|Yes. I probably won't when the sun gets in my telescope.
-127:21:06|O|LMP|... ... hold the ...
-127:21:11|O|CMP|Now I can't see - -
-127:21:13|O|CDR|The what?
-127:21:14|O|LMP|Won't hold the ...
-127:21:19|O|CMP|... going right down the ... and it sure has been nice.
-127:21:23|O|CDR|Okay. I just got sight of you in the sunlight here.
-127:21:27|O|CMP|Okay.
-127:21:29|O|LMP|Oh, I've got him.
-127:21:43|O|LMP|...
-127:21:51|O|CDR|I've got him now, too.
-127:22:00|O|LMP|Sure enough.
-127:22:11|O|CMP|Well, I see you don't have any landing gear.
-127:22:15|O|CDR|That's good.
-127:22:19|O|CMP|...
-127:22:27|O|CDR|You're not confused on which end to dock with, are you?
-127:22:34|O|CMP|...
-127:22:58|O|CDR|Okay, Mike, if there's some data bags around there - I may have one or two in my temporary stowage - why, we may want them in addition to the other regular bags, so we can put some of this data back in it.
-127:23:13|O|CMP|In the data bags?
-127:23:16|O|CDR|Yes, there are a couple of different LM bags that I left in there.
-127:23:21|O|CMP|Okay, well, why don't we ... back over there and ...?
-127:23:26|O|CDR|Right.
-127:23:39|O|CMP|... bring the bag ...
-127:23:45|O|CDR|Could be.
-127:23:47|O|CMP|Alright.
-127:24:13|O|CMP|Okay, ... have a plastic one and a ...
-127:24:23|O|CMP|Bring the ... back.
+127:20:57|O|LMP|You still got him?
+127:21:01|O|CDR|Yes. I probably won't when the sun gets in my telescope.
+127:21:13|O|LMP|... ... hold the ...
+127:21:18|O|CMP|Now I can't see - -
+127:21:19|O|CDR|The what?
+127:21:20|O|LMP|Won't hold the gimbal lock.
+127:21:25|O|CMP|... going right down the ... and it sure has been nice.
+127:21:29|O|CDR|Okay. I just got sight of you in the sunlight here.
+127:21:33|O|CMP|Okay.
+127:21:35|O|LMP|Oh, I've got him.
+127:21:50|O|LMP|...
+127:21:58|O|CDR|I've got him now, too.
+127:22:07|O|LMP|Sure enough.
+127:22:17|O|CMP|Well, I see you don't have any landing gear.
+127:22:21|O|CDR|That's good.
+127:22:25|O|CMP|...
+127:22:34|O|CMP|You're not confused on which end to dock with, are you?
+127:22:40|O|CMP|...
+127:23:05|O|LMP|Okay, Mike, if there's some data bags around there - I may have one or two in my temporary stowage - why, we may want them in addition to the other regular bags, so we can put some of this data back in it.
+127:23:19|O|CMP|In the data bags?
+127:23:23|O|CDR|Yes, there are a couple of different LM bags that I left in there.
+127:23:28|O|CMP|Okay, well, why don't we ... back over there and ...?
+127:23:33|O|CDR|Right.
+127:23:45|O|CMP|... bring the bag ...
+127:23:52|O|CDR|Could be.
+127:23:54|O|CMP|Alright.
+127:24:20|O|CMP|Okay, ... have a plastic one and a ...
+127:24:28|O|CMP|Bring the ... back.
 127:24:40|O|CDR|I think we'll make it (laughter).
-127:24:44|O|LMP|Don't tell that to poor ..., though (laughter).
-127:24:47|O|CMP|...
-127:24:56|O|CDR|We'll see you at ...
-127:25:02|O|CDR|Okay.
-127:25:31|O|CDR|One of those two bright spots is bound to be Mike.
-127:25:36|O|LMP|How about picking the closest one?
-127:25:44|O|CDR|Good idea.
-127:26:17|O|LMP|... this light?
-127:26:21|O|CDR|Is that alright?
-127:26:37|O|CDR|Okay, at 49 000 feet, we're supposed to be 65 feet per second - our little old chart says. And our LOS rate's supposed to be about O.1; it's about point - -
-127:26:51|O|CMP|...
-127:26:55|O|LMP|Okay.
+127:24:47|O|LMP|Don't tell that to poor ..., though (laughter).
+127:24:55|O|CMP|...
+127:25:03|O|CDR|We'll see you at ...
+127:25:09|O|CDR|Okay.
+127:25:38|O|CDR|One of those two bright spots is bound to be Mike.
+127:25:43|O|LMP|How about picking the closest one?
+127:25:51|O|CDR|Good idea.
+127:26:24|O|LMP|... this light?
+127:26:28|O|CDR|LOS,
+127:26:44|O|CDR|Okay, at 49,000 feet, we're supposed to be 65 feet per second - our little old chart says. And our LOS rate's supposed to be about O.1; it's about point - -
+127:26:59|O|CMP|...
+127:27:02|O|LMP|Okay.
 127:27:00|T||BEGIN LUNAR REV 27
-127:27:08|O|CMP|...
-127:27:16|O|CDR|Right - that's ...
-127:27:26|O|LMP|12 on here, right?
-127:27:29|O|CDR|Not exactly.
-127:27:30|O|LMP|Not exactly?
-127:27:32|O|CDR|You're a little less. You're 10 seconds less in ... About that ...
-127:28:23|O|CDR|Look's like you're making a high ... on us, Michael.
-127:28:27|O|CMP|Yes, ...
+127:27:15|O|CMP|...
+127:27:23|O|CDR|Right - that's ...
+127:27:33|O|LMP|12 on here, right?
+127:27:36|O|CDR|Not exactly.
+127:27:37|O|LMP|Not exactly?
+127:27:38|O|LMP|You're a little less. You're 10 seconds less in ... About that ...
+127:28:31|O|CDR|Look's like you're making a high ... on us, Michael.
+127:28:34|O|CMP|Yes, ...
 127:29:26|O|CMP|... let me move in just a ...
-127:29:31|O|CDR|No, we aren't that - confident.
-127:30:08|O|CDR|...?
-127:30:12|O|LMP|We've got about 54.
-127:30:47|O|CDR|You got ... to ...?
-127:30:49|O|LMP|Huh?
-127:30:50|O|CDR|The ...?
-127:30:51|O|LMP|Yes. ...
-127:31:05|O|CDR|Let's try this mid-course out.
-127:31:08|O|LMP|Right. Okay, it's ...
-127:31:37|O|LMP|...
-127:31:40|O|CDR|Is that right, I hope?
-127:31:42|O|LMP|Yes.
-127:31:59|O|CDR|It should be 70.
-127:32:25|O|LMP|Okay, I can see the shape of your vehicle now, Mike.
-127:32:42|O|CDR|Oh, yes - got your high-gain in sight; your tracking light - whole vehicle shows. I see that you're pointed at me. Now, you're turning a little bit - great.
-127:33:39|O|CMP|...
-127:33:49|O|CMP|Are you burning yet?
-127:33:50|O|CDR|We're burning.
-127:33:51|O|CMP|...
-127:34:15|O|LMP|Good enough.
-127:34:21|O|CDR|Seems like when you get down to around 110, you just keep chasing him. You put it in – stick it in one axis, and it goes through - out of another, especially when ... stays about the same.
-127:34:30|O|LMP|If it's ..., it's definite.
-127:34:43|O|LMP|Okay, now, let's see; we want to change the DAP - that what we want to do?
-127:34:48|O|CDR|Yes.
-127:34:49|O|CMP|I need a P76 now, Buzz.
-127:34:54|O|LMP|Okay, you got the time for the burn; NOUN 81 was plus 0.1, plus 1.2, plus 0.5.
-127:35:05|O|CMP|...
-127:35:23|O|LMP|... plus ...
-127:35:38|O|CDR|Okay. ... 45 -
-127:36:14|O|CDR|8.2 miles, 40 feet per second.
-127:36:26|O|LMP|You can have your place now.
-127:36:49|O|CMP|...
-127:36:52|O|CDR|Okay.
-127:37:01|O|LMP|Can you see our tracking light, now?
-127:37:04|O|CMP|... but you're in between my sextant and my COAS.
-127:38:33|O|LMP|Where'd you put the ...?
-127:38:35|O|CDR|My what?
-127:38:36|O|LMP|Your ... for ...
-127:38:39|O|CDR|It's in the bottom over ...
-127:39:30|O|CMP|... pick me up ...
-127:39:33|O|CDR|I got you.
-127:39:34|O|CMP|Okay. Don't ... other spacecraft.
-127:39:40|O|LMP|No, I'm not going to lose you, brother.
-127:39:49|O|CMP|What have you got for ...? ... I have 6.8 and 9 miles, ... out. Oh, that checks.
-127:40:06|O|CDR|Got ... up? I thought I made it pretty clear.
-127:40:20|O|LMP|Not as sporty a ... as we thought, huh?
-127:40:25|O|CDR|That wasn't - bad at all; the alignment was - pretty dicey.
-127:40:31|O|LMP|Yes, sir.
-127:40:34|O|CDR|That was just luck (laughter).
-127:40:39|O|LMP|I hope you ...
-127:40:49|O|LMP|I'll be glad to get to the ...
-127:40:52|O|CDR|Yes, but I hate to ...; will you get ...?
-127:40:57|O|LMP|Okay.
-127:41:02|O|CDR|Oh, it'll come off, I guess - ...
-127:41:07|O|LMP|These screws here - -
-127:41:08|O|CDR|Alright, there's a couple of bolts - -
-127:41:10|O|LMP|- - these screws here might do it.
-127:41:13|O|CDR|- - there's a couple of bolts down there that have come loose - if I remember. ... I'llget them.
-127:41:21|O|CMP|I'm slowly closing at 32 feet per second and a mile and a half.
-127:41:25|O|CDR|Okay, I've got a mile and a half and 32-1/2.
-127:41:28|O|CMP|...
-127:41:40|O|LMP|Take ...
-127:41:43|O|CDR|Yes, I guess it'll take us another - 6 minutes or something like that.
-127:41:47|O|LMP|Yes.
-127:41:48|O|CMP|... we got 15 ...
-127:41:57|O|CMP|...
-127:42:01|O|CDR|Okay.
-127:42:23|O|LMP|That's going to hit the braking gate right on the schedule.
-127:42:30|O|CDR|Yes.
-127:43:02|O|CDR|Okay, let's put P47 in.
-127:43:22|O|CDR|I don't know why I lost my - I'm at - oh, did you - you lost your transponder, Mike - I think.
-127:43:33|O|CMP|... pitch up a bit.
-127:43:36|O|CDR|I wish you would.
-127:43:43|O|CMP|I have 0.7 mile and I got you at 31 feet per second, ... look good.
-127:43:50|O|LMP|Okay, ...
-127:43:53|O|CMP|...?
-127:43:57|O|LMP|Okay, we're getting it.
-127:43:59|O|CMP|... -
-127:44:12|O|CMP|Are you ... forward now?
-127:44:15|O|LMP|Yes - yes, we're in good shape, Mike; we're braking.
-127:44:17|O|CMP|Okay.
-127:44:52|O|CMP|...
-127:44:53|O|CDR|Flying all over us.
-127:46:13|O|CDR|Okay, we're about 11 feet a second coming in at you
-127:46:17|O|CMP|...
-127:46:43|O|CMP|That's good. What ... are you in?
-127:47:05|O|LMP|Hope we're not going to get a pitch straight down.
-127:47:16|O|CDR|We've got a - pitchdown and then a yaw to do - ...
-127:47:55|O|CMP|...
-127:47:59|O|CDR|Looks good.
-127:49:06|O|CMP|I'm sure you're going to get ..., I'll tell you that.
-127:49:11|O|CDR|It flies good, though.
-127:49:16|O|CMP|...?
-127:49:50|O|CDR|Okay, now, if I pitch over, I'm going to be looking right into the sun.
-127:50:00|O|CMP|...
-127:50:00|P|PAO|This is Apollo Control. 127 hours 50 minutes Ground Elapsed Time. We're less than a minute now away from acquisition of the spacecraft, Columbia. Hopefully, we find within a few feet of it, will be Eagle. Docking should take place about 10 minutes from now, according to the Flight Plan. However, this is a crew option matter. We're standing by for word that data is coming in from the two spacecraft. This is lunar revolution number 27 for Columbia. We have LM AOS
-127:50:09|O|LMP|Hope you know how to roll.
-127:50:11|O|CMP|Yes, I do. I ...
-127:50:23|O|LMP|You want to end up with that window – opposite his right window so you don't want to roll right. Right?
-127:50:32|O|CDR|Yes.
-127:50:34|O|LMP|The only trouble is, it's towards - towards 90, isn't it?
-127:50:56|O|LMP|You could - you -
-127:50:58|O|CDR|If I roll 120 - it'll roll left
-127:51:06|O|LMP|90, huh? ... 60?
-127:51:21|O|CDR|Well, why don't I start to roll - -
-127:51:24|O|LMP|Yes, I think if you roll up 60 –
-127:51:29|O|CDR|I'll be looking into his left window when I pitch up.
-127:51:32|O|LMP|I don't think so. If you did it right now you'd - -
-127:51:36|O|CMP|... I got the Earth coming up already; it's fantastic!
-127:51:40|O|CDR|Okay, you got me.
-127:51:42|T|CDR|Okay. You've got me.
-127:52:00|T|CC|Eagle and Columbia, Houston. Standing by.
-127:52:00|O|CC|Eagle and Columbia, Houston. Standing by.
-127:52:05|T|CDR|Roger. We're stationkeeping.
-127:52:05|O|CDR|Roger; we're stationkeeping.
-127:52:08|T|CC|Roger.
-127:52:08|O|CC|Roger.
-127:52:24|O|LMP|Pitch up ... pass right up just a little, you got a better view - bottom side - ... - move back.
-127:52:45|O|CMP|... - that's right.
-127:53:08|O|CDR|Okay. I'm getting about into the right attitude, I think. ...
-127:53:18|O|LMP|Yes.
-127:53:21|O|CDR|That roll's pretty far; I don't know just how much - so that's - Oh, it's going to go BLOCK!
-127:53:28|O|LMP|That's it - going to AGS?
-127:53:32|O|CDR|Yes, ... ATT DEADBAND.
-127:54:11|O|CDR|Okay, Mike, I'll get - try to get in position here, and then you got it.
-127:54:13|T|CDR|Okay, Mike. I'll get - try to get in position here, then you got it.
-127:54:18|O|CMP|Okay.
-127:54:37|O|CDR|How does the roll attitude look?
-127:54:39|T|CDR|How does the roll attitude look?
-127:54:41|O|CMP|...
-127:54:47|O|CDR|Let's see how the DSKY thinks it looks.
-127:54:52|O|CMP|Have you stopped rolling yet?
-127:54:54|O|CDR|I'll stop. Matter of fact, I can stop right here, if you like that.
-127:54:55|T|CDR|I'll stop. Matter of fact, I can stop right here if you like that.
-127:54:59|O|CMP|Need a little bit more. That's the way; keep it going. Need a little more ... That's the way, keep going - go a little bit more - go ahead - go ahead - okay, stop. Okay, I got it now.
-127:55:27|O|LMP|You got the ... in ...?
-127:55:36|O|CDR|Yes. Right there. Okay, ... 1 -
-127:55:55|O|LMP|Well, we might need to at least have a platform ...
-127:56:01|O|CDR|Yes.
-127:56:27|O|CMP|Okay, now, Neil, when you feel us contact, you're going to turn ... seconds, is that right?
-127:56:30|T|CC|Eagle, Houston. Middle gimbal. And you might pass to Columbia, we don't have him yet.
-127:56:33|O|LMP|That's right.
-127:56:34|O|CMP|Okay, Buzz.
-127:56:35|T|CDR|That's right.
-127:57:12|O|LMP|We got a platform to make.
-127:57:13|O|CDR|Okay.
-127:57:32|O|CDR|I'm not going to do a thing, Mike; I'm just letting her hold in ATTITUDE HOLD.
-127:57:34|T|CDR|I'm not going to do a thing, Mike. I'm just letting her hold in ATTITUDE HOLD.
-127:57:38|O|CMP|Okay.
-127:57:40|T|CMP|Okay.
-127:57:55|O|CDR|I think we ought to be at 4 JETS for this, ... AGS.
-127:58:04|O|LMP|HOLD.
-127:58:13|O|CDR|...
-127:58:42|O|CDR|He's about 15 feet out now.
-127:58:45|O|LMP|Okay, I'd better try out the radar.
-127:58:52|O|CDR|Don't you want to beef up that radar?
-127:58:59|O|LMP|Yes.
-127:59:00|O|CDR|Good.
-127:59:06|O|CDR|Ready to pull the circuit breakers?
-127:59:08|O|LMP|Okay. You ready?
-127:59:10|O|CDR|Yes.
-127:59:12|O|LMP|They're pulled.
-127:59:14|O|CDR|He's 10 feet. About 5 feet, I guess.
-127:59:23|O|CDR|Looks good, Mike.
-127:59:35|O|LMP|Okay, they're pulled.
-127:59:39|O|CDR|Pull it out.
-127:59:40|O|LMP|Okay. Circuit breakers - -
-128:00:50|T|CDR|You ...
-128:00:56|T|CDR|Okay.
-128:03:12|T|CDR|Okay. We're all yours. Roger.
-128:03:17|T|CMP|Okay. Okay, I have thrusters B3 and C4 safetied.
-128:03:30|T|LMP|Okay.
-128:03:43|T|CMP|I'm pumping up cabin pressure.
-128:04:29|T|CMP|That was a funny one. You know, I didn't feel it shock, and I thought things were pretty steady. I went to RETRACT there, and that's when all hell broke loose. Were you guys - did it appear to you to be - that you were jerking around quite a bit during the retrack cycle?
-128:04:50|T|CDR|Yes. It seemed to happen at the time I put the plus X thrust to it, and apparently it wasn't centered, because somehow or other I accidentally got off in attitude and then the attitude hold system started firing.
-128:05:00|P|PAO|This is Apollo Control. Communications are somewhat scratchy with Apollo 11. Columbia and Eagle now reunited to become Apollo 11 again. Our best estimate on the time of docking is some 3 minutes after the pre-mission time of 128 hours. Continuing to monitor this 27th lunar orbit for the two-way communications between the two spacecraft.
-128:05:09|T|CMP|Yes. I was sure busy there for a couple of seconds.
-128:05:19|T|CMP|Are you hearing me all right? I got a horrible squeal.
-128:05:22|T|CDR|Yes. I agree with that, but we hear you okay. Over.
-128:05:36|T|CMP|Houston, Apollo 11. Over.
-128:05:39|T|CC|Apollo 11, Houston. Go.
-128:05:44|T|CMP|Roger. I'm supposed to adjust the oxygen flow in this thing to six tenths of a pound per hour, but being as how this transducer is not working right, could you give me an updated number?
-128:05:55|T|CC|Affirmative. You want to go ahead and adjust your O2 flow until it just goes off the peg, and then crank the direct O2 valve back down about 5 degrees. Over.
-128:06:14|T|CMP|Boy, you were really waiting for that one, weren't you? Okay, Ron. Thank you.
-128:06:59|T|CMP|Houston, I did that, and I believe we are flowing oxygen, but the gage is just pegged FULL SCALE LOW.
-128:07:08|T|CC|Roger. That's fine. That's what we expect.
-128:07:13|T|CMP|Okay.
+127:29:38|O|CDR|No, we aren't that - confident.
+127:30:16|O|CDR|...?
+127:30:20|O|LMP|We've got about 54.
+127:30:55|O|CDR|You got ... to ...?
+127:30:57|O|LMP|Huh?
+127:30:58|O|CDR|The ...?
+127:30:59|O|LMP|Yes. ...
+127:31:13|O|CDR|Let's try this mid-course out.
+127:31:16|O|LMP|Okay. ...
+127:31:44|O|LMP|...
+127:31:48|O|CDR|Is that right, I hope?
+127:31:50|O|LMP|Yes.
+127:32:07|O|CDR|It should be 70.
+127:32:33|O|CDR|Okay, I can see the shape of your vehicle now, Mike.
+127:32:50|O|CDR|Oh, yes - got your high-gain in sight; your tracking light - whole vehicle shows. I see that you're pointed at me. Now, you're turning a little bit - great.
+127:33:47|O|CMP|...
+127:33:57|O|CMP|Are you burning yet?
+127:33:58|O|CDR|We're burning.
+127:33:59|O|CMP|...
+127:34:25|O|LMP|Good enough.
+127:34:29|O|CDR|Seems like when you get down to around 110, you just keep chasing him. You put it in – stick it in one axis, and it goes through - out of another, especially when ... stays about the same.
+127:34:38|O|LMP|If it's ..., it's definite.
+127:34:51|O|LMP|Okay, now, let's see; we want to change the DAP - that what we want to do?
+127:34:57|O|CDR|Yes.
+127:34:58|O|CMP|I need a P76 now, Buzz.
+127:35:02|O|LMP|Okay, you got the time for the burn; NOUN 81 was plus 0.1, plus 1.2, plus 0.5.
+127:35:13|O|CMP|Okay, I got it.
+127:35:31|O|LMP|... plus ...
+127:35:46|O|CDR|Okay. ... 45 -
+127:36:22|O|CDR|8.2 miles, 40 feet per second.
+127:36:35|O|LMP|You can have your place now.
+127:36:57|O|CMP|...
+127:37:01|O|CDR|Okay.
+127:37:10|O|LMP|Can you see our tracking light, now?
+127:37:13|O|CMP|Negative, Buzz. You're in between my sextant and my COAS.
+127:38:42|O|LMP|Where'd you put the ...?
+127:38:44|O|CDR|My what?
+127:38:45|O|LMP|Your ... for ...
+127:38:48|O|CDR|It's in the bottom over ...
+127:39:39|O|CMP|... pick me up ...
+127:39:42|O|CDR|I got you.
+127:39:43|O|CMP|Okay. Don't ... other spacecraft.
+127:39:48|O|LMP|No, I'm not going to lose you, brother.
+127:39:59|O|CMP|What have you got for ...? ... I have 6.8 and 9 miles, ... out. Oh, that checks.
+127:40:15|O|CDR|Got ... up? I thought I made it pretty clear.
+127:40:29|O|LMP|Not as sporty a ... as we thought, huh?
+127:40:34|O|CDR|That wasn't - bad at all; the alignment was - pretty dicey.
+127:40:40|O|LMP|Yes, sir.
+127:40:41|O|CDR|That was just luck (laughter).
+127:40:48|O|LMP|I hope you ...
+127:40:57|O|LMP|I'll be glad to get to the antenna ...
+127:41:01|O|CDR|Yes, but I hate to ...; will you get ...?
+127:41:06|O|LMP|Okay.
+127:41:11|O|CDR|Oh, it'll come off, I guess - ...
+127:41:15|O|LMP|These screws here - -
+127:41:18|O|CDR|Alright, there's a couple of bolts - -
+127:41:19|O|LMP|- - these screws here might do it.
+127:41:22|O|CDR|- - there's a couple of bolts down there that have come loose - if I remember. ... I'll get them.
+127:41:30|O|CMP|I'm slowly closing at 32 feet per second and a mile and a half.
+127:41:34|O|CDR|Okay, I've got a mile and a half and 32-1/2.
+127:41:36|O|CMP|Beautiful. ...
+127:41:49|O|LMP|Take ...
+127:41:51|O|CDR|Yes, I guess it'll take us another - 6 minutes or something like that.
+127:41:56|O|LMP|Yes.
+127:41:57|O|CMP|... we got 15 ...
+127:42:06|O|CMP|...
+127:42:09|O|CDR|Okay.
+127:42:32|O|LMP|That's going to hit the braking gate right on the schedule.
+127:42:39|O|CDR|Yes.
+127:43:11|O|CDR|Okay, let's put P47 in.
+127:43:32|O|CDR|I don't know why I lost my - I'm at - oh, did you - you lost your transponder, Mike - I think.
+127:43:42|O|CMP|... pitch up a bit.
+127:43:45|O|LMP|I wish you would.
+127:43:52|O|CMP|I have 0.7 mile and I got you at 31 feet per second, ... look good.
+127:43:58|O|LMP|Okay, ...
+127:44:02|O|CMP|...?
+127:44:06|O|LMP|Okay, we're getting it.
+127:44:08|O|CMP|... simulator ... -
+127:44:21|O|CMP|Are you ... now?
+127:44:25|O|LMP|Yes - yes, we're in good shape, Mike; we're braking.
+127:44:27|O|CMP|Okay.
+127:45:01|O|CDR|Flying all over us.
+127:46:22|O|CDR|Okay, we're about 11 feet a second coming in at you.
+127:46:27|O|CMP|...
+127:46:53|O|CMP|That's good. What ... are you in?
+127:47:15|O|LMP|Hope we're not going to get a pitch straight down.
+127:47:25|O|CDR|We've got a - pitchdown and then a yaw to do - ...
+127:48:05|O|CMP|...
+127:49:16|O|CMP|I'm sure you're going to get ..., I'll tell you that.
+127:49:21|O|CDR|It flies good, though.
+127:49:26|O|CMP|...?
+127:50:00|O|CDR|Okay, now, if I pitch over, I'm going to be looking right into the sun.
+127:50:11|O|CMP|...
+127:50:19|O|LMP|Hope you know how to roll.
+127:50:21|P|PAO|This is Apollo Control. 127 hours 50 minutes Ground Elapsed Time. We're less than a minute now away from acquisition of the spacecraft, Columbia. Hopefully, we find within a few feet of it, will be Eagle. Docking should take place about 10 minutes from now, according to the Flight Plan. However, this is a crew option matter. We're standing by for word that data is coming in from the two spacecraft. This is lunar revolution number 27 for Columbia. We have LM AOS
+127:50:21|O|CMP|Yes, I do. I ...
+127:50:33|O|LMP|You want to end up with that window – opposite his right window so you don't want to roll right. Right?
+127:50:42|O|CDR|Yes.
+127:50:44|O|LMP|The only trouble is, it's towards - towards 90, isn't it?
+127:51:06|O|LMP|You could - you -
+127:51:08|O|CDR|If I roll 120 - it'll roll left
+127:51:16|O|LMP|90, huh? ... 60?
+127:51:31|O|CDR|Well, why don't I start to roll - -
+127:51:33|O|LMP|Yes, I think if you roll up 60 –
+127:51:38|O|LMP|I'll be looking into his left window when I pitch up.
+127:51:43|O|CDR|I don't think so.
+127:51:44|O|LMP|If you did it right now you'd - -
+127:51:45|O|CMP|... I got the Earth coming up already; it's fantastic!
+127:51:50|O|CDR|Okay, you got me.
+127:52:01|T|CC|Eagle and Columbia, Houston. Standing by.
+127:52:10|T|CDR|Roger. We're stationkeeping.
+127:52:10|O|CDR|Roger; we're stationkeeping.
+127:52:09|T|CC|Roger.
+127:52:09|O|CC|Roger.
+127:52:28|O|LMP|Pitch up ... pass right up just a little, you got a better view - bottom side - ... - move back.
+127:52:49|O|CMP|... - that's right.
+127:53:12|O|CDR|Okay. I'm getting about into the right attitude, I think. ...
+127:53:24|O|LMP|Yes.
+127:53:25|O|CDR|That roll's pretty far; I don't know just how much - so that's - Oh, it's going to go BLOCK!
+127:53:32|O|LMP|That's it - going to AGS?
+127:53:36|O|CDR|Yes, ... ATT DEADBAND.
+127:54:15|O|CDR|Okay, Mike, I'll get - try to get in position here, then then you got it.
+127:54:15|T|CDR|Okay, Mike. I'll get - try to get in position here, then you got it.
+127:54:22|O|CMP|Okay.
+127:54:41|O|CDR|How does the roll attitude look?
+127:54:41|T|CDR|How does the roll attitude look?
+127:54:45|O|CMP|...
+127:54:50|O|CDR|Let's see how the DSKY thinks it looks.
+127:54:56|O|CMP|Have you stopped rolling yet?
+127:54:57|O|CDR|I'll stop. Matter of fact, I can stop right here, if you like that.
+127:54:57|T|CDR|I'll stop. Matter of fact, I can stop right here, if you like that.
+127:55:03|O|CMP|Need a little bit more. That's the way; keep it going. Need a little more ... That's the way, keep going - go a little bit more - go ahead - go ahead - okay, stop. Okay, I got it from here.
+127:55:31|O|LMP|You got the ... in ...?
+127:55:40|O|CDR|Yes. Right there. Okay, ... 1 -
+127:55:59|O|LMP|Well, we might need to at least have a platform ...
+127:56:05|O|CDR|Yes.
+127:56:31|O|CMP|Okay, now, Neil, when you feel us contact, you're going to turn ... seconds, is that right?
+127:56:31|T|CC|Eagle, Houston. Middle gimbal. And you might pass to Columbia, we don't have him yet.
+127:56:37|O|LMP|That's right.
+127:56:37|T|CDR|That's right.
+127:56:39|O|CMP|Okay, Buzz.
+127:57:15|O|LMP|We got a platform to make.
+127:57:17|O|CDR|Okay.
+127:57:36|O|CDR|I'm not going to do a thing, Mike; I'm just letting her hold in ATTITUDE HOLD.
+127:57:36|T|CDR|I'm not going to do a thing, Mike. I'm just letting her hold in ATTITUDE HOLD.
+127:57:42|O|CMP|Okay.
+127:57:42|T|CMP|Okay.
+127:57:59|O|CDR|I think we ought to be at 4 JETS for this, ... AGS.
+127:58:08|O|LMP|HOLD.
+127:58:17|O|CDR|...
+127:58:46|O|CDR|He's about 15 feet out now.
+127:58:49|O|LMP|Okay, I'd better try out the radar.
+127:58:56|O|CDR|Don't you want to beef up that radar?
+127:58:03|O|LMP|Yes.
+127:59:04|O|CDR|Good.
+127:59:10|O|CDR|Ready to pull the circuit breakers?
+127:59:12|O|LMP|Okay. You ready?
+127:59:14|O|CDR|Yes.
+127:59:16|O|LMP|They're pulled.
+127:59:18|O|CDR|He's 10 feet. About 5 feet, I guess.
+127:59:27|O|CDR|Looks good, Mike.
+127:59:38|O|LMP|Okay, they're pulled.
+127:59:43|O|CDR|Pull it out.
+127:59:44|O|LMP|Okay. Circuit breakers - -
+128:00:52|T|CDR|You grey?
+128:00:58|T|CDR|Okay.
+128:03:14|T|CDR|Okay. We're all yours ... Columbia.
+128:03:19|T|CMP|Okay. Okay, I have thrusters B3 and C4 safetied.
+128:03:32|T|LMP|Okay.
+128:03:45|T|CMP|I'm pumping up cabin pressure.
+128:04:31|T|CMP|That was a funny one. You know, I didn't feel it shock, and I thought things were pretty steady. I went to RETRACT there, and that's when all hell broke loose. Were you guys - did it appear to you to be - that you were jerking around quite a bit during the retrack cycle?
+128:04:52|T|CDR|Yes. It seemed to happen at the time I put the plus X thrust to it, and apparently it wasn't centered, because somehow or other I accidentally got off in attitude and then the attitude hold system started firing.
+128:05:12|T|CMP|Yes. I was sure busy there for a couple of seconds.
+128:05:21|T|CMP|Are you hearing me all right? I got a horrible squeal.
+128:05:24|T|CDR|Yes. I agree with that, but we hear you okay. Over.
+128:05:38|T|CMP|Houston, Apollo 11. Over.
+128:05:40|T|CC|Apollo 11, Houston. Go.
+128:05:46|T|CMP|Roger. I'm supposed to adjust the oxygen flow in this thing to six tenths of a pound per hour, but being as how this transducer is not working right, could you give me an updated number?
+128:05:56|T|CC|Affirmative. You want to go ahead and adjust your O2 flow until it just goes off the peg, and then crank the direct O2 valve back down about 5 degrees. Over.
+128:06:16|T|CMP|Boy, you were really waiting for that one, weren't you? Okay, Ron. Thank you.
+128:07:01|T|CMP|Houston, I did that, and I believe we are flowing oxygen, but the gage is just pegged FULL SCALE LOW.
+128:07:09|T|CC|Roger. That's fine. That's what we expect.
+128:07:15|T|CMP|Okay.
 128:07:24|T|CMP|Okay. I'm going to go ahead with the tunnel leak check.
 128:07:32|T|CC|Columbia, Houston. I have a new LM weight for you whenever you're ready to copy.
 128:07:45|T|CMP|Not right now, Ron. Remind me of it later, would you please?
