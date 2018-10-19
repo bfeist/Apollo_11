@@ -11881,12 +11881,13 @@
 128:07:01|T|CMP|Houston, I did that, and I believe we are flowing oxygen, but the gage is just pegged FULL SCALE LOW.
 128:07:09|T|CC|Roger. That's fine. That's what we expect.
 128:07:15|T|CMP|Okay.
-128:07:24|T|CMP|Okay. I'm going to go ahead with the tunnel leak check.
-128:07:32|T|CC|Columbia, Houston. I have a new LM weight for you whenever you're ready to copy.
-128:07:45|T|CMP|Not right now, Ron. Remind me of it later, would you please?
-128:07:50|T|CC|Roger. We'll stand by.
-128:08:56|T|CMP|Houston, Apollo 11. I let P47 run longer than I should. I may have deteriorated our state vector slightly.
-128:09:06|T|CC|Roger, Apollo 11. That's okay. We'll see later.
+128:07:26|T|CMP|Okay. I'm going to go ahead with the tunnel leak check.
+128:07:34|T|CC|Columbia, Houston. I have a new LM weight for you whenever you're ready to copy.
+128:07:47|T|CMP|Not right now, Ron. Remind me of it later, would you please?
+128:07:52|T|CC|Roger. We'll stand by.
+128:08:58|T|CMP|Houston, Apollo 11. I let P47 run longer than I should. I may have deteriorated our state vector slightly.
+128:09:07|T|CC|Roger, Apollo 11. That's okay. We'll see later.
+128:10:28|P|PAO|This is Apollo Control. Communications are somewhat scratchy with Apollo 11. Columbia and Eagle now reunited to become Apollo 11 again. Our best estimate on the time of docking is some 3 minutes after the pre-mission time of 128 hours. Continuing to monitor this 27th lunar orbit for the two-way communications between the two spacecraft.
 128:11:03|T|CMP|Houston, Apollo 11. Go ahead with your DAP up, please.
 128:11:07|T|CC|Roger. Your LM weight, 5785. For an R1 we'd like to have 61102, R2 01111. Use BD roll. Over.
 128:11:35|T|CMP|Roger. I'm configured now at ... for BD roll, and I have thrusters C4 and B3 turned off, and I copy register 1 61102 01111 and LM weight 5785. Thank you.
