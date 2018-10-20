@@ -11965,36 +11965,36 @@
 128:49:49|T|CDR|Okay.
 128:50:21|T|CMP|You say you wanted the probe now?
 128:53:48|T|CC|Eagle, Houston.
-128:53:53|T|CDR|Houston, Eagle. Go ahead.
-128:53:54|T|CC|Roger. That ACA out of detent didn't quite do it because the mode control switches were off. Request guidance control to PGNS and then back to AGS, and that will zero the AGS, there. Over.
-128:54:12|T|CDR|Say again, please.
-128:54:14|T|CC|Roger. Request guidance control switch to PGNS and then back to AGS. Over.
-128:54:23|T|CDR|Okay. We still have both mode control switches off. Over.
-128:54:28|T|CC|That's okay. That's good.
-128:54:39|T|CDR|And I thought I'd just take about 5 seconds here and see if I could get 000 gone, since we're fairly close to gimbal lock right now.
-128:54:56|T|CC|Eagle, Houston. That's fine.
-128:56:00|P|PAO|This is Apollo Control. Some 6 minutes 40 seconds remaining until Apollo 11 goes behind the Moon on the 27th revolution. The signal from the passive seismometer, which was left on the Moon by the crew of Eagle, was lost for 30 minutes beginning about 5 minutes before Eagle took off this morning. The signal was lost because of a equipment problem that the Canary Island tracking station. The Seismic equipment is back on line now, and is beginning to record lunar day surface temperatures. The dust detector recorded zero dust after Eagle lift off. The laser ground station have not yet acquired a return signal from the Laser Ranging Retro Reflector. Five minutes away from loss of signal with Apollo 11. We will continue to monitor the air-to-ground as the spacecraft goes over the hill. The crew now is engaged in the decontamination procedures inside the Lunar Module prior to transferring back into the Command Module.
-128:56:00|P|PAO|This is Apollo Control. We've had loss of signal as Apollo 11 went around the back side of the Moon on the 27th rev. We'll have acquisition with Apollo 11 approximately 45 minutes from now. At - Let's see - Would you believe they don't have the next tables up for the next rev. At any rate, 45 minutes from now, and at 129 hours 4 minutes Ground Elapsed Time, this is Apollo Control.
-128:58:03|T|CC|Columbia and Eagle, Houston. About 5 minutes to LOS. Your LM jet time will be 131 plus 52, and I have the rest of the maneuver PAD if you want it now, or I can give it to you on the next time around.
-128:58:25|T|CMP|Stand by one.
-128:58:43|T|CMP|Could you read it around the next time around, please?
-128:58:47|T|CC|Sure, Mike. That's fine. We'll get it to you then.
-129:01:52|T|CC|Apollo 11, Houston. About a minute and a half to LOS. You're looking great. It's been a mighty fine day.
-129:02:02|T|CMP|Boy, you're not kidding.
+128:53:55|T|CDR|Houston, Eagle. Go ahead.
+128:53:56|T|CC|Roger. That ACA out of detent didn't quite do it because the mode control switches were off. Request guidance control to PGNS and then back to AGS, and that will zero the AGS errors. Over.
+128:54:14|T|CDR|Say again, please.
+128:54:15|T|CC|Roger. Request guidance control switch to PGNS and then back to AGS. Over.
+128:54:25|T|CDR|Okay. We still have both mode control switches off. Over.
+128:54:30|T|CC|That's okay. That's good.
+128:54:41|T|LMP|And I thought I'd just take about 5 seconds here and see if I could get 000 gone, since we're fairly close to gimbal lock right now.
+128:54:58|T|CC|Eagle, Houston. That's fine.
+128:56:43|P|PAO|This is Apollo Control. Some 6 minutes 40 seconds remaining until Apollo 11 goes behind the Moon on the 27th revolution. The signal from the passive seismometer, which was left on the Moon by the crew of Eagle, was lost for 30 minutes beginning about 5 minutes before Eagle took off this morning. The signal was lost because of a equipment problem that the Canary Island tracking station. The Seismic equipment is back on line now, and is beginning to record lunar day surface temperatures. The dust detector recorded zero dust after Eagle lift-off. The laser ground station have not yet acquired a return signal from the Laser Ranging Retro Reflector. Five minutes away from loss of signal with Apollo 11. We will continue to monitor the air-to-ground as the spacecraft goes over the hill. The crew now is engaged in the decontamination procedures inside the Lunar Module prior to transferring back into the Command Module.
+128:58:05|T|CC|Columbia and Eagle, Houston. About 5 minutes to LOS. Your LM jett time will be 131 plus 52, and I have the rest of the maneuver PAD if you want it now, or I can give it to you on the next time around.
+128:58:27|T|CMP|Stand by one.
+128:584543|T|CMP|Could you read it around the next time around, please?
+128:58:48|T|CC|Sure, Mike. That's fine. We'll get it to you then.
+129:01:53|T|CC|Apollo 11, Houston. About a minute and a half to LOS. You're looking great. It's been a mighty fine day.
+129:02:03|T|CMP|Boy, you're not kidding.
+129:03:32|P|PAO|This is Apollo Control. We've had loss of signal as Apollo 11 went around the back side of the Moon on the 27th rev. We'll have acquisition with Apollo 11 approximately 45 minutes from now. At - Let's see - Would you believe they don't have the next tables up for the next rev. At any rate, 45 minutes from now, and at 129 hours 4 minutes Ground Elapsed Time, this is Apollo Control.
 129:04:08|O|LMP|Now, here are a couple of bags - and I think it's self-explanatory what goes in them.
-129:04:14|O|CDR|Yes.
+129:04:15|O|CDR|Yes.
 129:04:18|O|LMP|... water.
 129:04:41|O|LMP|Now, where are those things?
 129:04:44|O|CDR|They're at the over ...
 129:04:55|O|LMP|Maybe I could slide out of here ...
-129:05:20|O|LMP|Hey, Michael, you all tied up there?
+129:05:20|O|LMP|Hey, Michelle, you all tied up there?
 129:05:25|O|CMP|...
 129:05:27|O|LMP|Get ready for those million-dollar boxes. Got a lot of weight; now, watch it.
 129:05:52|O|CMP|You intend to keep ...?
 129:05:57|O|CDR|Yes.
-129:06:14|O|LMP|That's all your input, are you sure?
+129:06:15|O|LMP|That's all your input, are you sure?
 129:06:17|O|CMP|Yes.
-129:06:18|O|LMP|Okay.
+129:06:17|O|LMP|Okay.
 129:06:32|O|LMP|Use what?
 129:06:34|O|CDR|Use lithium hydroxide.
 129:07:06|O|CDR|That thing still doesn't fit. No, they didn't fix it.
@@ -12006,7 +12006,7 @@
 129:07:24|O|CDR|Get some tape.
 129:07:26|O|LMP|Yes.
 129:07:29|O|CDR|Still got some here?
-129:07:30|O|LMP|Yes.
+129:07:31|O|LMP|Yes.
 129:07:31|O|CMP|...
 129:07:35|O|CDR|Okay.
 129:08:54|O|CDR|Do you want to vacuum off any of those – those ... spills or anything?
@@ -12018,7 +12018,7 @@
 129:10:35|O|LMP|About how many pictures did you take with – the closeup camera?
 129:10:39|O|CDR|I don't know; 30 maybe, 40?
 129:10:56|O|LMP|I hope I took the thing apart correctly.
-129:11:03|O|CDR|Push the cutter bar down first?
+129:11:04|O|CDR|Push the cutter bar down first?
 129:11:05|O|LMP|Yes.
 129:11:07|O|CDR|It's all right, then.
 129:11:29|O|CDR|How are you doing?
@@ -12026,7 +12026,7 @@
 129:11:33|O|CDR|(Laughter) Well, that stuff can't ... tell; think of Bobby ...
 129:11:42|O|LMP|Say, you did get a couple of hard ones in there, didn't you?
 129:11:46|O|CDR|Yes.
-129:12:15|O|LMP|I guess we leave this here or do you want to take it up?
+129:12:16|O|LMP|I guess we leave this here or do you want to take it up?
 129:12:19|O|CDR|I'd leave that here.
 129:12:22|O|LMP|That might be a little hard to explain.
 129:12:24|O|CDR|Yes.
@@ -12036,13 +12036,13 @@
 129:12:53|O|CDR|Okay.
 129:12:54|O|CMP|... get rid of this ...
 129:12:58|O|CDR|Okay. If you want to have a look at what the moon looks like, you can open that up and look. Don't open the bag, though.
-129:13:00|P|PAO|This is Apollo Control at 129 hours, 13 minutes. Apollo 11 is now 36 minutes 40 seconds from coming around the other side of the Moon for reacquisition on the 28th revolution. We're nearing the end of the 27th revolution at this time. On the backside of the Moon, Armstrong and Aldrin should be involved in preparing for transferring back to the Command Module with Mike Collins, and they'll be cleaning up equipment and vacuuming off any particles of dust that remain before transferring to the Command Module. About 15 minutes after we reacquire we would expect Neil Armstrong to be ready for the transfer to the Command Module. Buzz Aldrin to follow along behind about 30 or 40 minutes later. Here in Mission Control we're presently completing the shift change. Flight Director, Gene Kranz is replacing Glenn Lunney, and the Capsule Communicator on this shift will be Astronaut Charlie Duke. The change-of-shift briefing is scheduled to occur in the news center at 6 p.m. Central Daylight Time. At 129 hours, 14 minutes, this is Apollo Control, Houston.
+129:13:26|P|PAO|This is Apollo Control at 129 hours, 13 minutes. Apollo 11 is now 36 minutes 40 seconds from coming around the other side of the Moon for reacquisition on the 28th revolution. We're nearing the end of the 27th revolution at this time. On the backside of the Moon, Armstrong and Aldrin should be involved in preparing for transferring back to the Command Module with Mike Collins, and they'll be cleaning up equipment and vacuuming off any particles of dust that remain before transferring to the Command Module. About 15 minutes after we reacquire we would expect Neil Armstrong to be ready for the transfer to the Command Module. Buzz Aldrin to follow along behind about 30 or 40 minutes later. Here in Mission Control we're presently completing the shift change. Flight Director, Gene Kranz is replacing Glenn Lunney, and the Capsule Communicator on this shift will be Astronaut Charlie Duke. The change-of-shift briefing is scheduled to occur in the news center at 6 p.m. Central Daylight Time. At 129 hours, 14 minutes, this is Apollo Control, Houston.
 129:13:26|O|CMP|...
 129:13:29|O|CDR|You'd never have guessed, huh? (Laughter)
 129:14:00|O|CDR|What did you do with that checklist?
 129:14:03|O|LMP|It's back yonder.
 129:14:05|O|CDR|What?
-129:14:07|O|LMP|It's behind the hatch.
+129:14:08|O|LMP|It's behind the hatch.
 129:14:17|O|CMP|What was that bag ...?
 129:14:20|O|CDR|Contingency sample.
 129:14:23|O|CMP|Rock?
@@ -12052,7 +12052,7 @@
 129:14:46|O|LMP|Say, you got a screwdriver, Mike?
 129:14:48|O|CMP|Yes.
 129:14:50|O|LMP|Yes?
-129:14:51|O|CMP|Yes, I guess I have; just a second.
+129:14:52|O|CMP|Yes, I guess I have; just a second.
 129:14:53|O|CDR|You know, that - that one's just a bunch of trash that we want to take back – LM parts, odds and ends, and it won't stay closed by itself; we'll have to figure something out for it.
 129:15:16|O|LMP|Ouch! Alright, here's your checklist.
 129:16:36|O|LMP|You vacuum all this stuff?
@@ -12061,7 +12061,7 @@
 129:16:46|O|CDR|...
 129:17:05|O|LMP|Okay. It looks to me like - what we're going to do is vacuum you out and get you out of here. I'll - throw the switches down there.
 129:17:16|O|CDR|How about the data bag?
-129:17:18|O|LMP|No, I need this bag.
+129:17:16|O|LMP|No, I need this bag.
 129:17:20|O|CDR|Well, I've got one here. I'll go try to get some more - when I go over. Okay?
 129:17:26|O|LMP|Okay. Give me the vacuum tube.
 129:17:38|O|CDR|Let me get my back to you first.
@@ -12080,166 +12080,163 @@
 129:26:13|O|CDR|...
 129:26:14|O|LMP|Yes.
 129:26:15|O|CDR|...
-129:26:17|O|LMP|Just a minute.
+129:26:16|O|LMP|Just a minute.
 129:26:36|O|LMP|Say, I need some of those data books.
 129:27:59|O|LMP|Where did you put the book? Where did you put the first one? In here? Okay.
 129:28:28|O|CDR|...
-129:28:33|O|LMP|No, we can leave those two here. No, I don't want either of those two. No, I think the others might be -
+129:28:32|O|LMP|No, we can leave those two here. No, I don't want either of those two. No, I think the others might be -
 129:28:55|O|CDR|... we leave these bags here.
-129:28:59|O|LMP|Okay.
+129:28:58|O|LMP|Okay.
 129:29:18|O|LMP|Hey, have you been over it, Mike?
 129:29:21|O|CMP|... really ...
 129:29:31|O|LMP|How about calling them and asking them for – if those angles are still good? Right at lock-lock with them?
 129:29:43|O|CMP|... last time ...
 129:29:47|O|LMP|Oh, okay. I'm sorry.
-129:50:55|T|CC|Hello, Eagle. Houston. Do you read? Over.
-129:51:02|T|CDR|Houston, this is Columbia. Reading you loud and clear. We're all three back inside; the hatch is installed. We're running a pressure check leak check. Everything's going well.
-129:51:11|T|CC|Roger, Eagle. Correction - Roger, Columbia. We copy. You guys are speedy; you beat us to the punch. We had a couple of things for you.
-129:51:25|T|CDR|What are they?
-129:51:26|T|CC|Oh, it was just - We wanted you to close the CO2 sensor breaker and give us an RCS onboard readout out of Eagle, but that's all. Columbia, Houston. We've got a state vector for you if you'll give us P00 in ACCEPT. Over.
-129:51:54|T|CDR|Buzz says the CO2 sensor circuit breaker is IN
-129:51:58|T|CC|Roger. Thank you very much.
-129:52:09|T|CDR|The RCS quantity was approximately 60 at A and 45 percent at B.
-129:52:14|T|CC|Roger.
-129:52:19|T|CDR|And we're going P00 in ACCEPT.
-129:52:21|T|CC|Roger. Thank you.
-129:54:07|T|CC|Columbia, Houston. Your friendly White Team's going to be on till we get you on the way home, and we'd like to congratulate everybody on a successful rendezvous and a beautiful EVA. It was a great show for everybody. Over.
-129:54:25|T|CMP|Thank you, sir. I'll tell Neil and Buzz.
-129:54:39|T|CDR|Houston, the hatch passes its integrity check. I'm going to go to LM tunnel VENT now, and leave it there.
-129:54:47|T|CC|Roger, Colualbia. We copy. That's good, and we'd like a readout on the TEP of about the time you - that Eagle selected the secondary loop. Over.
-129:55:05|T|CDR|Stand by.
-129:55:17|T|CC|Hello, Columbia. Houston. We got the load in. You can do the VERB 66 and the computer is yours. Over.
-129:55:24|T|CDR|Roger.
-129:56:01|T|LMP|Houston, Apollo 11. I'd say that the secondary loop was actuated about 15 to 20 minutes ago. Over.
-129:56:11|T|CC|Roger. Copy. Columbia. Thank you very much.
-129:57:20|T|CC|Columbia, Houston. It looks like you guys are so speedy on us that we're thinking about moving up jettison time to about a GET of 130 plus 30, if that's okay with you all. Over.
-129:57:41|T|CMP|That's fine. I've still got to get a P30 PAD from you.
-129:57:49|T|CC|Roger. We want to talk to you about that. Mike, we can - for your druthers, we can do it either way. We can either let you do it in the jettison in P30 - correction P47, or we can send you a P30 target load up and then you - let you call P41, whichever you want to do. Over.
-129:58:13|T|CMP|Yes, I see. Ron was going to give me a P30 PAD and the Flight Plan says P47. Out of the two, I prefer to go to P30, P41 route.
-129:58:20|T|CC|Roger. Beautiful. We've got the load. If you'll give us P00 and ACCEPT, we'll send you a load up. Stand by.
-129:58:41|T|CC|Columbia, Houston. We'd like you to terminate direct O2 flow, and stand by on your P00 and ACCEPT. We'll have to generate a new load due to the moveup on time. Over.
-129:58:56|T|CMP|Roger.
-130:02:13|T|CC|Columbia, Houston. Over.
-130:02:19|T|CMP|Go ahead.
-130:02:21|T|CC|Roger, Mike. It looks like if we move up this jettison time and give you a new load, it would require a new attitude, and we can't do that due to the LM already closed out, and it would fight us all the way around and we'd lose COMM with it. We're thinking separating in P47 in about 10 minutes. We're looking at trajectories and we'll be right with you momentarily. Over.
-130:02:46|T|CMP|Okay. It's no big thing with me either way.
-130:02:48|T|CC|Roger.
-130:04:34|T|CC|Hello, Columbia. Houston. We'd like you to start down your jettison checklist. We recommend picking up page F11 - 12 and we'd like to jettison at 10 minutes. That'll be 130 14 45. Over.
-130:04:54|T|CMP|Right.
-130:04:57|T|CC|Columbia, Houston. If that's not satisfactory, let us know. Over.
-130:05:05|T|CMP|Right.
-130:05:36|T|CDR|Houston, Columbia. How about a GO for logic BUS ARM.
-130:05:40|T|CC|Stand by.
-130:05:48|T|CC|Columbia, Houston. You've got a GO.
-130:05:55|T|CDR|Thank you.
-130:06:46|T|CC|Columbia, Houston. You can undock at your convenience, correction, jettison at your convenience. We would like you to jettison Eagle and stationkeep - in P47 and stationkeep, and we'll have another attitude and a maneuver for you so we'll be okay for TEI. Over.
-130:07:08|T|CDR|Roger that.
-130:07:45|T|CMP|And I'm standing by to go to P47 just as soon as you give me a go for PYRO ARM.
-130:07:49|T|CC|Roger. I thought we gave you that. Mike, you're GO for PYRO ARM and you're GO for jettison.
-130:07:57|T|CMP|Okay.
-130:09:13|T|CMP|Okay. Let her go in 10 seconds.
-130:09:15|T|CC|Copy. Out.
-130:09:40|T|CMP|NOUN 83 reading minus four balls, minus three balls, 3 or - correction - minus - both register 1 and register 2 are reading minus four balls 3, register 3 is zeros, the EMS remained on 100.0. A fairly loud noise, and it appears to be departing - oh, I would guess several feet per second.
-130:10:06|T|CC|Roger, can you kind of stationkeep with it, Mike? Just stand by now.
-130:10:12|T|CMP|Will do.
-130:10:23|T|CC|Columbia, Houston. Don't try to chase it, just hold what you've got.
-130:10:32|T|LMP|Charlie, did it hold cabin pressure this time?
-130:10:35|T|CC|Say again, Buzz. Over.
-130:10:37|T|LMP|Okay. I thrusted back - I thrusted back toward it a little bit, Charlie, and I'm now reading NOUN 83, plus four balls 4, minus four balls 8, and you want me to kill average D. Right?
-130:10:52|T|CC|Stand by. That's affirmative. You can exit P47.
-130:11:05|T|CDR|There she goes. It was a good one.
-130:11:08|T|CC|Roger dodger. We got Eagle looking good. It's holding cabin pressure and it picked up about 2 feet per second from that jettison.
-130:11:19|T|LMP|I believe that. I can see some cracks on the outer coating around the tunnel. In the thermal protective covering, I don't think it has anything to do with the structure.
-130:11:35|T|CC|Roger.
-130:12:43|T|CC|Hello, Columbia, Houston. We'll have an attitude and a little blip burn for you in about 130 30, so we can separate from Eagle. Over.
-130:12:56|T|CMP|That's fine.
-130:16:00|P|PAO|This is Apollo Control at 130 hours 16 minutes. We reacquired Apollo 11 about 25 minutes ago, at 129 51. At that time Mike Collins reported that all 3 crewmen were in the Command Module. The transfer occurring while the spacecraft were on the back side of the Moon. They had closed out the LM early and had transferred to the second coolant loop. That decision was made in Mission Control because the secondary loop was on, the primary loop disabled in the close out process. We did not want to have the LM docked to the CSM for an undue length of time, because the primary guidance system is not cooled. The decision was initially made to jettison the LM at 130 hours 30 minutes, however the crew continued ahead of schedule. They were ready to jettison ahead of that time, and Collins reported at 130 10 about, 17 minutes ago, that they were, had jettisoned the LM and said it had departed at several feet per second, and we heard a comment from Buzz Aldrin, that he noticed some cracks in the thermo covering around the LM tunnel, docking area, however he said it did not appear to be a structural crack but merely some cracks in the thermal covering. We are currently scheduled to perform the small Reaction Control System maneuver with the Command and Service Module for separation from the LM at 130 hours 30 minutes, or about 12 minutes from now. We'll pick up this pass as it began on tape and when we've caught up, we'll continue to follow the activity live.
-130:16:49|T|CC|Columbia, Houston. Would you start a maneuver to a pitch of 230 for this little tweak burn? Over.
-130:17:01|T|CMP|Roger. Pitch 230.
-130:17:03|T|CC|Roger, Mike. And verify track mode in AUTO for the high-gain.
-130:17:15|T|CMP|We're in REACQ. Is that all right?
-130:17:17|T|CC|Say again. We need AUTO.
-130:17:23|T|CMP|Negative, we're in REACQ - AUTO REACQ.
-130:17:26|T|CC|Roger. We need AUTO, please, sir.
-130:17:31|T|CMP|Okay. You got it.
-130:17:42|T|CMP|Roll zero, pitch 320, yaw zero?
-130:17:47|T|CC|Right now that's what we're looking at. Stand by. We might have you roll so we can keep the high-gain. Stand by.
-130:17:56|T|CMP|Roger.
-130:19:05|T|CC|Columbia, Houston. Over.
-130:19:09|T|CMP|Go ahead.
-130:19:10|T|CC|Roger, Mike - -
-130:19:11|T|CDR|Apollo 11, these days.
-130:19:12|T|CC|Oh, Roger, Apollo 11. We got you going to a posigrade attitude and we want you - this burn will be using minus X thrusters at about 2 or 3 feet per second, and we got a load for you. We'll send it up momentarily. Over.
-130:19:33|T|CMP|Okay.
-130:20:56|T|CC|Apollo 11, Houston. Would you give us P00 and ACCEPT? We have a load for you. Over.
-130:21:02|T|CMP|You got it.
-130:21:04|T|CC|Roger, Mike. And our pitch attitude's a little wrong here. If you're ready to copy, I'll give you the SEP PAD. Over.
-130:21:13|T|CMP|Go ahead. Ready to copy.
-130:21:14|T|CC|Roger. Starting with NOUN 33: 130 30 0000, plus 00020, plus all zeros, plus all zeros. Roll all zeros, pitch 230, yaw zero. NOUN 44 is NA. DELTA-VP 00020, burn time 007, DELTA-VC 00020. We have - The rest of the PAD is NA.
-130:22:15|T|CMP|Roger. GET 130 hours 30 minutes, DELTA-VX 2.0, roll zero, pitch 230, yaw zero, DELTA-VC, 2.0.
-130:22:32|T|CC|That's affirmative, Apollo 11. And, Mike, it's similar to the SEP burn prior to flight after the undocking here. And the P41 you should see on register 1 - 2, and then you burn minus X until you read 4. Over.
-130:24:11|T|CC|Apollo 11, Houston. Computer's yours. Over.
-130:24:19|T|CMP|Roger, Charlie. We switched our OMNI D - Delta, and I lost that last transmission. Would you say again, please? The thing I'm wondering about specifically is that earlier you said it would be minus X thrusters and the PAD indicates plus X. Do you want me to null that to zero or do you want to add 2 and leave it as a 4?
-130:24:39|T|CC|Roger, Apollo 11. The way we gave it to you in the attitude we're in, it'll be just like the SEP burn that you had yesterday. You'll see - NOUN 85 will give you a plus 2 and then you just burn minus X until you read 4. Over.
-130:24:58|T|CMP|Understand.
-130:25:50|T|CC|Apollo 11, Houston. We see you in P41 now. It might take you a couple of minutes to integrate these vectors that we gave you and if you don't make TIG, it's pretty insensitive. You can just let P41 bring you up to TIG, and when you get to zero, you can burn on that. Over.
-130:26:12|T|CMP|Okay.
-130:30:26|T|CMP|Okay. Burn complete. Residuals: plus three balls 40, plus four balls 7, plus four balls 2, DELTA-V counter 102.1. Over.
-130:30:38|T|CC|Copy, Apollo 11. Looks good to us. Over.
-130:30:43|T|CMP|Okay.
-130:33:24|T|CMP|Houston, Apollo 11. How about coming up with a good communications attitude for us to go to between now and the time we maneuver at TEI attitude.
-130:33:33|T|CC|Roger, sir. Stand by.
-130:34:40|T|CC|Hello, Apollo 11, Houston. A couple of things for you. Over.
-130:34:46|T|CMP|Go ahead.
-130:34:47|T|CC|Okay. Mike, you can maneuver to your preliminary TEI attitude as shown on page 398 of the Flight Plan, and the high-gain angles are good as shown in the Flight Plan, and we'd like you to dump the wastewater at 131 05 down to 10 percent. Over.
-130:35:13|T|CMP|Okay. Understand. I'm going to go to roll 1.1, pitch zero - or 52.6, and yaw 13.8, and you want a wastewater dump 10 percent starting at 131 05.
-130:35:28|T|CC|That's affirmative. Right out the LOS.
-130:36:00|P|PAO|This is Apollo Control at 130 hours 46 minutes. That Command Module separation, maneuver, which occurred at 130 hours 30 minutes, was a 2 foot per second retrograde burn. Burn duration was 7 seconds. The Flight Dynamics Officer reports that at transearth injection, which is scheduled to occur as per the Flight Plan, at about 135 hours 25 minutes, and at that time, the CSM will be about 20 miles ahead of the LM and about I mile below.
-130:37:10|T|CMP|Maneuver is in progress, Houston.
+129:50:56|T|CC|Hello, Eagle. Houston. Do you read? Over.
+129:51:05|T|CMP|Houston, this is Columbia. Reading you loud and clear. We're all three back inside; the hatch is installed. We're running a pressure integrity check. Everything's going well.
+129:51:13|T|CC|Roger, Eagle. Correction - Roger, Columbia. We copy. You guys are speedy; you beat us to the punch, here. We had a couple of things for you.
+129:51:27|T|CMP|What are they?
+129:51:28|T|CC|Oh, it was just - We wanted you to close the CO2 sensor breaker and give us an RCS onboard readout out of Eagle, but that's all.
+129:51:37|T|CC|Columbia, Houston. We've got a state vector for you if you'll give us P00 in ACCEPT. Over.
+129:51:56|T|CMP|Buzz says the CO2 sensor circuit breaker is IN
+129:52:00|T|CC|Roger. Thank you very much.
+129:52:11|T|CMP|The RCS quantity was approximately 60 at A and 45 percent at B.
+129:52:16|T|CC|Roger.
+129:52:21|T|CMP|And we're going P00 in ACCEPT.
+129:52:23|T|CC|Roger. Thank you.
+129:54:08|T|CC|Columbia, Houston. Your friendly White Team's going to be on till we get you on the way home, and we'd like to congratulate everybody on a successful rendezvous and a beautiful EVA. It was a great show for everybody. Over.
+129:54:26|T|CMP|Thank you, sir. I'll tell Neil and Buzz.
+129:54:45|T|CDR|Houston, the hatch passes its integrity check. I'm going to go to LM tunnel VENT now, and leave it there.
+129:54:53|T|CC|Roger, Colualbia. We copy. That's good, and we'd like a readout on the GET of about the time you - that Eagle selected the secondary loop. Over.
+129:55:07|T|CDR|Stand by.
+129:55:18|T|CC|Hello, Columbia. Houston. We got the load in. You can do the VERB 66 and the computer is yours. Over.
+129:55:26|T|CDR|Roger.
+129:56:03|T|LMP|Houston, Apollo 11. I'd say that the secondary loop was actuated about 15 to 20 minutes ago. Over.
+129:56:13|T|CC|Roger. Copy. Columbia. Thank you very much.
+129:57:22|T|CC|Columbia, Houston. It looks like you guys are so speedy on us that we're thinking about moving up jettison time to about a GET of 130 plus 30, if that's okay with you all. Over.
+129:57:43|T|CMP|That's fine. I've still got to get a P30 PAD from you.
+129:57:51|T|CC|Roger. We want to talk to you about that. Mike, we can - for your druthers, we can do it either way. We can either let you do it in the jettison in P30 - correction P47, or we can send you a P30 target load up and then you - let you call P41, whichever you want to do. Over.
+129:58:15|T|CMP|Yes, I see. Ron was going to give me a P30 PAD and the Flight Plan says P47. Out of the two, I prefer to go to P30, P41 route.
+129:58:22|T|CC|Roger. Beautiful. We've got the load. If you'll give us P00 in ACCEPT, we'll send you a load up. Stand by.
+129:58:43|T|CC|Columbia, Houston. We'd like you to terminate direct O2 flow, and stand by on your P00 in ACCEPT. We'll have to generate a new load due to the moveup on time. Over.
+129:58:58|T|CMP|Roger.
+130:02:15|T|CC|Columbia, Houston. Over.
+130:02:21|T|CMP|Go ahead.
+130:02:22|T|CC|Roger, Mike. It looks like if we move up this jettison time and give you a new load, it would require a new attitude, and we can't do that due to the LM already closed out, and it would fight us all the way around and we'd lose COMM with it. We're thinking separating in P47 in about 10 minutes. We're looking at trajectories and we'll be right with you momentarily. Over.
+130:02:48|T|CMP|Okay. It's no big thing with me either way.
+130:02:50|T|CC|Roger.
+130:04:35|T|CC|Hello, Columbia. Houston. We'd like you to start down your jettison checklist. We recommend picking up page F11 - 12 and we'd like to jettison at 10 minutes. That'll be 130:14:45. Over.
+130:04:56|T|CMP|Right.
+130:04:59|T|CC|Columbia, Houston. If that's not satisfactory, let us know. Over.
+130:05:07|T|CMP|Right.
+130:05:38|T|CDR|Houston, Columbia. How about a GO for logic BUS ARM.
+130:05:41|T|CC|Stand by.
+130:05:50|T|CC|Columbia, Houston. You've got a GO.
+130:05:57|T|CDR|Thank you.
+130:06:48|T|CC|Columbia, Houston. You can undock at your convenience, correction, jettison at your convenience. We would like you to jettison Eagle and stationkeep - in P47 and stationkeep, and we'll have another attitude and a maneuver for you so we'll be okay for TEI. Over.
+130:07:10|T|CDR|Roger that.
+130:07:47|T|CMP|Okay. I'm standing by to go to P47 just as soon as you give me a go for PYRO ARM.
+130:07:51|T|CC|Roger. I thought we gave you that. Mike, you're GO for PYRO ARM and you're GO for jettison.
+130:07:58|T|CMP|Okay.
+130:09:14|T|CMP|Okay. Let her go in 10 seconds.
+130:09:17|T|CC|Copy. Out.
+130:09:41|T|CMP|NOUN 83 reading minus four balls, minus three balls, 3 or - correction - minus - both register 1 and register 2 are reading minus four balls 3, register 3 is zeros, the EMS remained on 100.0. A fairly loud noise, and it appears to be departing - oh, I would guess several feet per second.
+130:10:07|T|CC|Roger, can you kind of stationkeep with it, Mike? Just stand by now.
+130:10:14|T|CMP|Will do.
+130:10:25|T|CC|Columbia, Houston. Don't try to chase it, just hold what you've got.
+130:10:34|T|LMP|Charlie, did it hold cabin pressure this time?
+130:10:37|T|CC|Say again, Buzz. Over.
+130:10:39|T|CMP|Okay. I thrusted back - I thrusted back toward it a little bit, Charlie, and I'm now reading NOUN 83, plus four balls 4, minus four balls 8, and you want me to kill average D. Right?
+130:10:55|T|CC|Stand by. That's affirmative. You can exit P47.
+130:11:07|T|CMP|There she goes. It was a good one.
+130:11:09|T|CC|Roger dodger. We got Eagle looking good. It's holding cabin pressure and it picked up about 2 feet per second from that jettison.
+130:11:21|T|LMP|I believe that. I can see some cracks on the outer coating around the tunnel. In the thermal protective covering, I don't think it has anything to do with the structure.
+130:11:36|T|CC|Roger.
+130:12:45|T|CC|Hello, Columbia, Houston. We'll have an attitude and a little blip burn for you in about 130:30, so we can separate from Eagle. Over.
+130:12:58|T|CMP|That's fine.
+130:16:07|P|PAO|This is Apollo Control at 130 hours 16 minutes. We reacquired Apollo 11 about 25 minutes ago, at 129:51. At that time Mike Collins reported that all 3 crewmen were in the Command Module. The transfer occurring while the spacecraft were on the back side of the Moon. They had closed out the LM early and had transferred to the second coolant loop. That decision was made in Mission Control because the secondary loop was on, the primary loop disabled in the close out process. We did not want to have the LM docked to the CSM for an undue length of time, because the primary guidance system is not cooled. The decision was initially made to jettison the LM at 130 hours 30 minutes, however the crew continued ahead of schedule. They were ready to jettison ahead of that time, and Collins reported at 130 10 about, 17 minutes ago, that they were, had jettisoned the LM and said it had departed at several feet per second, and we heard a comment from Buzz Aldrin, that he noticed some cracks in the thermo covering around the LM tunnel, docking area, however he said it did not appear to be a structural crack but merely some cracks in the thermal covering. We are currently scheduled to perform the small Reaction Control System maneuver with the Command and Service Module for separation from the LM at 130 hours 30 minutes, or about 12 minutes from now. We'll pick up this pass as it began on tape and when we've caught up, we'll continue to follow the activity live.
+130:16:51|T|CC|Columbia, Houston. Would you start a maneuver to a pitch of 230 for this little tweak burn? Over.
+130:17:03|T|CMP|Roger. Pitch 230.
+130:17:05|T|CC|Roger, Mike. And verify track mode in AUTO for the high-gain.
+130:17:17|T|CMP|We're in REACQ. Is that all right?
+130:17:19|T|CC|Say again. We need AUTO.
+130:17:25|T|CMP|Negative, we're in REACQ - AUTO REACQ.
+130:17:27|T|CC|Roger. We need AUTO, please, sir.
+130:17:32|T|CMP|Okay. You got it.
+130:17:44|T|CMP|Roll zero, pitch 320, yaw zero?
+130:17:49|T|CC|Right now that's what we're looking at. Stand by. We might have you roll so we can keep the high-gain. Stand by.
+130:17:57|T|CMP|Roger.
+130:19:06|T|CC|Columbia, Houston. Over.
+130:19:11|T|CMP|Go ahead.
+130:19:12|T|CC|Roger, Mike - -
+130:19:12|T|CDR|Apollo 11, these days.
+130:19:14|T|CC|Oh, Roger, Apollo 11. We got you going to a posigrade attitude and we want you - this burn will be using minus X thrusters at about 2 or 3 feet per second, and we got a load for you. We'll send it up momentarily. Over.
+130:19:34|T|CMP|Okay.
+130:20:57|T|CC|Apollo 11, Houston. Would you give us P00 and ACCEPT? We have a load for you. Over.
+130:21:04|T|CMP|You got it.
+130:21:05|T|CC|Roger, Mike. And our pitch attitude's a little wrong here. If you're ready to copy, I'll give you the SEP PAD. Over.
+130:21:15|T|CMP|Go ahead. Ready to copy.
+130:21:16|T|CC|Roger. Starting with Noun 33: 130:30:00.00, plus 00020, plus all zeros, plus all zeros. Roll all zeros, pitch 230, yaw zero. Noun 44 is NA. Delta-VT 00020, burn time 0:07, Delta-VC 00020. We have - the rest of the PAD is NA.
+130:22:17|T|CMP|Roger. GET 130 hours, 30 minutes; Delta-VX 2.0, roll zero, pitch 230, yaw zero, Delta-VT 2.0.
+130:22:33|T|CC|That's affirmative, Apollo 11. And, Mike, it's similar to the SEP burn prior to right after the undocking here. And the P41 you should see on register 1 - 2, and then you burn minus X until you read 4. Over.
+130:24:13|T|CC|Apollo 11, Houston. Computer's yours. Over.
+130:24:21|T|CMP|Roger, Charlie. We switched our OMNI D - Delta, and I lost that last transmission. Would you say again, please? The thing I'm wondering about specifically is that earlier you said it would be minus X thrusters and the PAD indicates plus X. Do you want me to null that to zero or do you want to add 2 and leave it as a 4?
+130:24:40|T|CC|Roger, Apollo 11. The way we gave it to you in the attitude we're in, it'll be just like the SEP burn that you had yesterday. You'll see - NOUN 85 will give you a plus 2 and then you just burn minus X until you read 4. Over.
+130:25:00|T|CMP|Understand.
+130:25:52|T|CC|Apollo 11, Houston. We see you in P41 now. It might take you a couple of minutes to integrate these vectors that we gave you and if you don't make TIG, it's pretty insensitive. You can just let P41 bring you up to TIG, and when you get to zero, you can burn on that. Over.
+130:26:14|T|CMP|Okay.
+130:30:27|T|CMP|Okay. Burn complete. Residuals: plus three balls 40, plus four balls 7, plus four balls 2, DELTA-V counter 102.1. Over.
+130:30:39|T|CC|Copy, Apollo 11. Looks good to us. Over.
+130:30:45|T|CMP|Okay.
+130:33:26|T|CMP|Houston, Apollo 11. How about coming up with a good communications attitude for us to go to between now and the time we maneuver to TEI attitude.
+130:33:34|T|CC|Roger, sir. Stand by.
+130:34:42|T|CC|Hello, Apollo 11, Houston. A couple of things for you. Over.
+130:34:47|T|CMP|Go ahead.
+130:34:49|T|CC|Okay. Mike, you can maneuver to your preliminary TEI attitude as shown on page 398 of the Flight Plan, and the high-gain angles are good as shown in the Flight Plan, and we'd like you to dump the wastewater at 131:05 down to 10 percent. Over.
+130:35:14|T|CMP|Okay. Understand. I'm going to go to roll 1.1, pitch zero - or 52.6, and yaw 13.8, and you want a wastewater dump 10 percent starting at 131:05.
+130:35:30|T|CC|That's affirmative. Right out the LOS.
+130:37:13|T|CMP|Maneuver is in progress, Houston.
 130:37:14|T|CC|Copy, 11. Out.
-130:40:14|T|CC|Apollo 11, Houston. Over.
-130:46:46|T|CMP|Apollo 11 under high-gain. How do you read?
-130:46:50|T|CC|Five by, 11. How me? Over.
-130:46:54|T|CMP|You're loud and clear, Charlie. What - What numbers are you looking at for TEI TIG preliminary; 135 hours 23 minutes, something like that?
-130:47:05|T|CC|That's affirmative, Mike. We're looking at about nominal time. We've considered kicking it up a REV, but we don't think this REV track is going to be any good since we had the RCS burn and we need some more tracking to get you a good TEI. Over.
-130:47:26|T|CMP|That's what we're looking for.
-130:47:27|T|CC|Roger.
-130:47:39|T|CC|11, Houston. Looks like it's going to be pretty relaxed time here for the next couple of hours. We'll have you a PAD, of course, the next REV or so, and we'll keep you posted on TEI. Looks like nominal time. Over.
-130:47:52|T|CMP|Thank you, Charlie.
-130:47:57|T|CC|And your little maneuver back here a moment ago will put you about 20 miles ahead of the LM at TEI.
-130:48:07|T|CMP|Okay.
-130:48:42|T|CMP|Imagine that place has cleared out a little bit after that rendezvous. You can find a place to sit down almost, huh?
-130:48:47|T|CC|Roger. Our MOCR's about empty right now. We're taking it a little easy. How does it feel up there to have some company?
-130:48:57|T|CMP|Damn good, I'll tell you.
-130:49:00|T|CC|I'll bet. I bet, you'd almost be talking to yourself up there after 10 REVS or so.
-130:49:07|T|CMP|No, no. It's a happy home here. It'd be nice to have company. As a matter of fact, it'd be nice to have a couple of hundred million Americans up here.
-130:49:18|T|CC|Roger. Well, they were with you in spirit.
-130:49:19|T|CMP|Let them see what they're getting for their money.
-130:49:22|T|CC|Roger. Well, they were with you in spirit anyway, at least that many. We heard on the news today, 11, that last night - yesterday after you made your landing, New York Times came out with a - headlines, the largest headlines they've ever used in the history of the newspaper.
-130:49:48|T|CMP|Save us a copy.
-130:49:55|T|CDR|I'm glad to hear it was fit to print.
-130:49:59|T|CC|It was great.
-130:50:08|T|CC|That's why we didn't read you up any newscast. There really wasn't anything to talk about.
-130:50:15|T|CMP|Hello, there, Boss.
-130:51:00|P|PAO|This is Apollo Control. We've had loss of signal now. At the present time we show Apollo 11 in an orbit with a high point of 62.6 nautical miles and a low point or pericynthian of 54.9. The spacecraft is traveling at a speed of 5 thousand 3 hundred 55 feet per second. We will reacquire the spacecraft in a little over 45 minutes on the 21st revolution. At 131 hours 3 minutes this is Apollo Control, Houston.
-130:51:36|T|CC|Apollo 11, Houston. We've got 10 minutes to LOS; see you over the hill at 131 48. Over.
-130:51:45|T|CMP|Okay, Charlie. I'll dump the water as soon as we go around the corner.
-130:51:48|T|CC|Roger. Everything's looking real good now.
-130:51:53|T|CMP|Yes. Same here.
-130:57:08|T|CC|Hello, Apollo 11. Houston. Coming up about 4 30 LOS. You're looking great on all your systems. Eagle is purring right along after an hour 30 without any cooling. The PNGS is still looking good. Over.
-130:57:24|T|CMP|Roger.
-131:00:26|T|CC|Apollo 11, Houston. Will you verify that your rendezvous radar transponder is off? Over.
-131:00:26|O|CC|...
-131:00:34|O|LMP|It's not, but I'll get it off.
-131:00:36|O|CDR|Okay.
-131:00:38|T|CMP|It's not, but I'll get it off.
-131:00:41|T|CC|Roger. We were seeing - believe it or not, we were seeing some funnies on the Eagle's rendezvous radar, and that was the only theory that we had. It looked like it was a good one.
-131:00:41|O|CC|Roger. We were seeing - believe it or not, we were seeing some funnies on the Eagle's rendezvous radar - -
+130:40:16|T|CC|Apollo 11, Houston. Over.
+130:46:09|P|PAO|This is Apollo Control at 130 hours 46 minutes. That Command Module separation maneuver, which occurred at 130 hours 30 minutes, was a 2 foot per second retrograde burn. Burn duration was 7 seconds. The Flight Dynamics Officer reports that at transearth injection, which is scheduled to occur as per the Flight Plan, at about 135 hours 25 minutes, and at that time, the CSM will be about 20 miles ahead of the LM and about I mile below.
+130:46:48|T|CMP|Apollo 11 under high-gain. How do you read?
+130:46:51|T|CC|Five by, 11. How me? Over.
+130:46:56|T|CMP|You're loud and clear, Charlie. What - What numbers are you looking at for TEI TIG preliminary; 135 hours 23 minutes, something like that?
+130:47:07|T|CC|That's affirmative, Mike. We're looking at about nominal time. We've considered kicking it up a REV, but we don't think this REV track is going to be any good since we had the RCS burn and we need some more tracking to get you a good TEI. Over.
+130:47:27|T|CMP|That's what we're looking for.
+130:47:29|T|CC|Roger.
+130:47:41|T|CC|11, Houston. Looks like it's going to be pretty relaxed time here for the next couple of hours. We'll have you a PAD, of course, the next REV or so, and we'll keep you posted on TEI. Looks like nominal time. Over.
+130:47:54|T|CMP|Thank you, Charlie.
+130:47:58|T|CC|And your little maneuver back here a moment ago will put you about 20 miles ahead of the LM at TEI.
+130:48:09|T|CMP|Okay.
+130:48:43|T|CMP|Imagine that place has cleared out a little bit after that rendezvous. You can find a place to sit down almost, huh?
+130:48:49|T|CC|Roger. Our MOCR's about empty right now. We're taking it a little easy. How does it feel up there to have some company?
+130:48:59|T|CMP|Damn good, I'll tell you.
+130:49:01|T|CC|I'll bet. I bet, you'd almost be talking to yourself up there after 10 REVS or so.
+130:49:09|T|CMP|No, no. It's a happy home here. It'd be nice to have company. As a matter of fact, it'd be nice to have a couple of hundred million Americans up here.
+130:49:20|T|CC|Roger. Well, they were with you in spirit.
+130:49:21|T|CMP|Let them see what they're getting for their money.
+130:49:23|T|CC|Roger. Well, they were with you in spirit anyway, at least that many. We heard on the news today, 11, that last night after you - yesterday after you made your landing, New York Times came out with a - headlines, the largest headlines they've ever used in the history of the newspaper.
+130:49:49|T|CMP|Save us a copy.
+130:49:57|T|CDR|I'm glad to hear it was fit to print.
+130:50:00|T|CC|It was great.
+130:50:10|T|CC|That's why we didn't read you up any newscast today. There really wasn't anything to talk about.
+130:50:17|T|CMP|Hello, there, Boss.
+130:51:37|T|CC|Apollo 11, Houston. We've got 10 minutes to LOS; see you over the hill at 131:48. Over.
+130:51:46|T|CMP|Okay, Charlie. I'll dump the water as soon as we go around the corner.
+130:51:50|T|CC|Roger. Everything's looking real good now.
+130:51:55|T|CMP|Yes. Same here.
+130:57:09|T|CC|Hello, Apollo 11. Houston. Coming up about 4:30 LOS. You're looking great on all your systems. Eagle is purring right along after an hour 30 without any cooling. The PNGS is still looking good. Over.
+130:57:26|T|CMP|Roger.
+131:00:28|T|CC|Apollo 11, Houston. Will you verify that your rendezvous radar transponder is off? Over.
+131:00:40|T|CMP|It's not, but I'll get it off.
+131:00:42|T|CC|Roger. We were seeing - believe it or not, we were seeing some funnies on the Eagle's rendezvous radar, and that was the only theory that we had. It looked like it was a good one.
+131:00:42|O|CC|Roger. We were seeing - believe it or not, we were seeing some funnies on the Eagle's rendezvous radar - -
 131:00:48|O|LMP|What do you do with it?
 131:00:49|O|CC|- - and that was the only theory that we had - it looked like it was a good one.
 131:00:52|O|LMP|Hey - what do you do with it?
 131:00:54|O|CMP|Just turn it down to off.
-131:00:55|T|CMP|Good theory.
+131:00:56|T|CMP|Good theory.
 131:00:56|O|LMP|This goes off - -
 131:00:57|O|CMP|No, no, no, no, that's not the one - it's this switch right next to that IMU - -
 131:01:00|O|LMP|Oh.
@@ -12251,6 +12248,7 @@
 131:01:49|O|CMP|Huh?
 131:01:58|O|LMP|Oh, no.
 131:01:59|O|CMP|So, that's just the contingency.
+131:02:03|P|PAO|This is Apollo Control. We've had loss of signal now. At the present time we show Apollo 11 in an orbit with a high point of 62.6 nautical miles and a low point or pericynthian of 54.9. The spacecraft is traveling at a speed of 5 thousand 3 hundred 55 feet per second. We will reacquire the spacecraft in a little over 45 minutes on the 21st revolution. At 131 hours 3 minutes this is Apollo Control, Houston.
 131:02:04|O|LMP|No, negative.
 131:02:06|O|CMP|That's the contingency.
 131:02:08|O|LMP|We move the drogue there. ...
@@ -12400,32 +12398,33 @@
 131:47:18|O|CDR|Yes, that's sure - the way that thing was working - the way that thing was working and stayed locked on all the way down - Gees, it was a beautiful thing.
 131:47:44|O|CDR|You mean you didn't ...?
 131:47:53|O|LMP|Getting all the damn alarms.
-131:48:00|P|PAO|This is Apollo Control at 131 hours 48 minutes. We're standing by to reacquire Apollo - Apollo 11. Acquisition should come in about 5 seconds. This revolution should be relatively quiet. We don't have a great deal of activity scheduled. The crew may have time to get something to eat, and here on the ground we will be computing the information needed for their transearth injection burn. We do have data now from the spacecraft. We'll standby for a call to the crew.
-131:48:00|P|PAO|This is Apollo Control. We suspect the crew is having something to eat at this time which probably accounts for the relatively quiet period. One of the things that we are watching with interest here in Mission Control is the Lunar Module. At the time Aldrin and Armstrong left the LM and came back into the Service Module, they switched over to the secondary cooling loop as part of a test that we are running to determine just how long the primary guidance and navigation system will last without cooling. The primary guidance system is not cooled on the secondary loop which provides backup cooling for the secondary guidance system and it has always been a point of interest as to just how long the primary guidance system will survive without cooling - estimates range up to several hours. The LM TEL COMM Controller reports that at this time we are seeing some rise in the PIPAS. These are the Pulse Integrating Pendulum - Pendulous Accelerometers which - the primary guidance system uses to detect changes in motion and attitude and of course they are an essential item in the - the primary guidance system. We are seeing a gradual rise in temperature but the TEL COMM engineer reports that the primary guidance system still looks very good. At the time the crew reported they were back that Armstrong and Aldrin reported that they were back in the Command Module, we asked them what time they did switch over to the secondary loop. Armstrong estimated that that occurred about 129 hours 40 minutes which was a little over 2 hours ago. We will continue to monitor the LM and to observe the performance of the primary guidance system. All systems on the command Service Module continue to function very well at this time and the same can be said for the Lunar Module. At the present time we show Apollo 11 in a orbit 62.5 nautical miles by 54.2. The spacecraft traveling at a speed of 5349 feet per second.
+131:47:37|P|PAO|This is Apollo Control at 131 hours 48 minutes. We're standing by to reacquire Apollo - Apollo 11. Acquisition should come in about 5 seconds. This revolution should be relatively quiet. We don't have a great deal of activity scheduled. The crew may have time to get something to eat, and here on the ground will be computing the information needed for their transearth injection burn. We do have data now from the spacecraft. We'll standby for a call to the crew.
 131:48:06|O|LMP|Boy, I thought for a while there that some of those might get a little ... - ... I'd reset the program alarm in time for a ... out of there.
-131:49:29|T|CC|Hello, Apollo 11. Houston. We are standing by. Everything is looking great here. Over.
-131:49:42|T|LMP|Apollo 11. Roger.
-131:59:00|P|PAO|This is Apollo Control at 132 hours, 15 minutes. We have some preliminary figures on the transearth injection maneuver scheduled to occur about 3 hours, 8 minutes from now. The time of ignition is - stand by just a moment. The time of ignition would be 135 hours, 23 minutes 41 seconds.
-132:16:00|T|CC|Hello, Apollo 11. Houston. If you guys want it, we've got some news, here, we can read up. Over.
-132:16:09|T|CDR|Be pleased to have it.
-132:16:11|T|CC|Roger, Neil. Starting off: Congratulatory messages on the Apollo 11 mission have been pouring into the White House from world leaders in a steady stream all day. Among the latest are telegrams from Prime Minister Harold Wilson of Great Britain and the King of Belgium. The world's press has been dominated by news of Apollo 11. Some newsmen estimate that more than 60 percent of the news used in papers across the country today concerned your mission. The New York Times which, we mentioned before, has had such a demand for its edition of the paper today (even though it ran 950 000 copies) said it will reprint the whole thing on Thursday as a souvenir edition. And Premier Alexei Kosygin has sent congratulations to you and President Nixon through former Vice President Humphrey who is visiting Russia. The cosmonauts have also issued a statement of congratulations. Humphrey quoted Kosygin as saying "I want you to tell the President and the American people that the Soviet Union desires to work with the United States in the cause of peace."
-132:17:21|T|CC|And Mrs. Robert Goddard said today that her husband would have been so happy. "He wouldn't have shouted or anything. He would just have glowed." She added, "That was his dream, sending a rocket to the Moon." People around the world had many reasons to be happy about the Apollo 11 mission. The Italian police reported that Sunday night was the most crime free night of the year. And in London, a boy who had the faith to bet $5 with a bookie that a man would reach the Moon before 1970 collected $24.000. That's pretty good odds.
+131:49:31|T|CC|Hello, Apollo 11. Houston. We are standing by. Everything is looking great here. Over.
+131:49:44|T|LMP|Apollo 11. Roger.
+131:55:24|P|PAO|This is Apollo Control. We suspect the crew are having something to eat at this time which probably accounts for the relatively quiet period. One of the things that we are watching with interest here in Mission Control is the Lunar Module. At the time Aldrin and Armstrong left the LM and came back into the Service Module, they switched over to the secondary cooling loop as part of a test that we are running to determine just how long the primary guidance and navigation system will last without cooling. The primary guidance system is not cooled on the secondary loop which provides backup cooling for the secondary guidance system and it has always been a point of interest as to just how long the primary guidance system will survive without cooling - estimates range up to several hours. The LM TEL COMM Controller reports that at this time we are seeing some rise in the PIPAS. These are the Pulse Integrating Pendulum - Pendulous Accelerometers which - the primary guidance system uses to detect changes in motion and attitude and of course they are an essential item in the - the primary guidance system. We are seeing a gradual rise in temperature but the TEL COMM engineer reports that the primary guidance system still looks very good. At the time the crew reported they were back that Armstrong and Aldrin reported that they were back in the Command Module, we asked them what time they did switch over to the secondary loop. Armstrong estimated that that occurred about 129 hours 40 minutes which was a little over 2 hours ago. We will continue to monitor the LM and to observe the performance of the primary guidance system. All systems on the Command and Service Module continue to function very well at this time and the same can be said for the Lunar Module. At the present time we show Apollo 11 in a orbit 62.5 nautical miles by 54.2. The spacecraft traveling at a speed of 5,349 feet per second.
+132:15:29|P|PAO|This is Apollo Control at 132 hours, 15 minutes. We have some preliminary figures on the transearth injection maneuver scheduled to occur about 3 hours, 8 minutes from now. The time of ignition is - stand by just a moment. The time of ignition would be 135 hours, 23 minutes 41 seconds.
+132:16:02|T|CC|Hello, Apollo 11. Houston. If you guys want it, we've got some news, here, we can read up. Over.
+132:16:11|T|CDR|Be pleased to have it.
+132:16:13|T|CC|Roger, Neil. Starting off: Congratulatory messages on the Apollo 11 mission have been pouring into the White House from world leaders in a steady stream all day. Among the latest are telegrams from Prime Minister, Harold Wilson of Great Britain and the King of Belgium. The world's press has been dominated by news of Apollo 11. Some newsmen estimate that more than 60 percent of the news used in papers across the country today concerned your mission. The New York Times, which we mentioned before, has had such a demand for its edition of the paper today (even though it ran 950,000 copies) said it will reprint the whole thing on Thursday as a souvenir edition. And Premier Alexei Kosygin has sent congratulations to you and President Nixon through former Vice President Humphrey who is visiting Russia. The cosmonauts have also issued a statement of congratulations. Humphrey quoted Kosygin as saying "I want you to tell the President and the American people that the Soviet Union desires to work with the United States in the cause of peace."
+132:17:22|T|CC|And Mrs. Robert Goddard said today that her husband would have been so happy. "He wouldn't have shouted or anything. He would just have glowed." She added, "That was his dream, sending a rocket to the Moon." People around the world had many reasons to be happy about the Apollo 11 mission. The Italian police reported that Sunday night was the most crime free night of the year. And in London, a boy who had the faith to bet $5 with a bookie that a man would reach the Moon before 1970 collected $24,000. That's pretty good odds.
 132:18:00|T|CC|You're probably interested in the comments your wives have made. Neil, Jan had said about yesterday's activities, "The evening was unbelievably perfect. It is an honor and a privilege to share with my husband, the crew, the Manned Spacecraft Center, the American public, and all mankind; the magnificent experience of the beginning of lunar exploration." She was then asked if she considered the Moon landing the greatest moment in her life. She said "No, that was the day we were married." And Mike, Pat said simply, "It was fantastically marvelous." Buzz, Joan said - apparently couldn't quite believe the EVA on the Moon. She said, "It was hard to think it was real until the men actually moved. After the Moon touchdown, I wept because I was so happy." But she added, "The best part of the mission will be the splashdown."
-132:18:52|T|CC|In other news, and there was a little bit, another explorer: Thor Heyerdahl had to give up his attempt to sail a papyrus boat across the Atlantic. The storm damaged boat was abandoned about 650 miles from Bermuda. The speed of the craft had been reduced to about 25 miles a day, and Heyerdahl said the object of the voyage had not been to provide an endurance test for the crew.
-132:19:21|T|CC|Looking at the world of sports, let's see here. While you were busy the other day, Joe Namath and football Commissioner Pete Rozelle made the announcement that "Broadway Joe" had agreed to sell his interest in the Bachelors III restaurant and report to the New York Jets. Joe arrived at the Jets' training camp today and had his first workout. Several other Jet players who had held out along with Joe also reported. And Davy Hill, from Jackson, Michigan, won his third major golf in as many starts in the past week. He won the Philadelphia Classic. Hill has won four tournaments so far this year and is the leading money winner this year with a cool $129.000. And in baseball, the west division of the National League remains a tight race. LA and San Francisco are one game behind league leading Atlanta. The Astros have a record of 48 wins and 48 losses, and are now in fifth place, seven games out. A twin bill between the Astros and Cincinnati last night was postponed because of rain. The Chicago Cubs are still in first place in the East Division. They lead the New York Mets by four and one half games. And in the American League, Baltimore is breezing toward the Eastern Division title. They lead second place Boston by 11 games. Looking ahead, the All Star baseball game is scheduled for tomorrow. And President Nixon was scheduled to see the game and then leave immediately after the game for the Pacific splashdown area before going on his tour of Europe. And that about covers the news this day. You guys have been making most of it and I'm sure we couldn't fill you in on any of the details that you don't already know. Out.
-132:21:22|T|CDR|Thank you much, Charlie.
-132:21:24|T|CC|You're welcome.
-132:21:42|T|CC|11, Houston. We've got a preliminary TEI 30 PAD, if you're ready to copy.
-132:22:06|T|CMP|Ready to copy.
-132:22:10|T|CC|Roger. Coming at you. TEI 30, SPS/G&N: 36691; minus 061, plus 067 135 23 4149; NOUN 81, plus 32020, plus 06713, minus 02773 181 054 013; NOUN 44, HA is NA, plus 00230 32833 228, DELTA VC 32625 24 1510 355. Next three lines are NA. NOUN 61 plus 1103, minus - minus 17237 11806 36275 195 04 52. Your set stars are Deneb and Vega, 242 172 012. We like two jet ullage to 16 seconds. The horizon will be on the 11 degree mark at TIG minus 2 minutes. And other comments: your sextant star is visible after GET of 134 50. Ready for your readback. Over.
-132:24:00|P|PAO|This is Apollo Control at 132 hours, 29 minutes. That last string of numbers read up to the spacecraft included the information the crew will need to start them on their way back to Earth in about 2 hours, 54 minutes. The time of ignition for the transearth injection burn again is 135 hours, 23 minutes, 42 seconds. They will burn their 20,500 pound thrust service propulsion system engine for 2 minutes, 28 seconds and increasing their speed by 3283 feet per second. And our preliminary estimate is that that will put them into the Pacific Ocean at the primary landing site at 195 hours, 18 minutes, 47 seconds, Ground Elapsed Time, or almost precisely on the Flight Plan. The spacecraft weight at the time they do the transearth injection burn will be 36,691 pounds. We'll continue to stand by for any communication from the spacecraft. We now have about 29 minutes, 30 seconds until the Apollo 11 goes around the corner and behind the Moon out of radio contact.
-132:24:39|T|CMP|Roger. We have a TEI 30, SPS/G&N: 36691, minus 061, plus 067 135 23 4149; plus 32020, plus 06713, minus 02773 181 054 013; NA, plus 00230, plus 32833 228 32625, 24 1510 355; NA three times, plus 1103, minus 17237 11806 36275 195 04 52. Deneb and Vega 242 172 012, two jet ullage, 16 seconds; horizon 11 degree line at TIG minus 2 minutes; sextant star visible after 134 50. Over.
-132:25:58|T|CC|Roger, Mike. Good readback. Out.
-132:39:00|P|PAO|This is Apollo Control. We're now about 30 seconds from loss of signal with Apollo 11 on the 29th revolution. We'll be reacquiring in about 46 minutes. As the spacecraft comes around on its 30th revolution, that will be the next to the last full revolution in lunar orbit. The transearth injection maneuver will be performed at the end of the 30th revolution, just after - actually, just after beginning the 31st revolution of the Moon. Apollo 11 is now in an orbit with a high point of 62.6 nautical miles and a low point of 54.2. The current spacecraft velocity is 5,356 feet per second, and we show an orbital weight of 36,691 pounds. We have loss of signal now. We'll be coming back up when we reacquire in about 45 minutes. At 133 hours, this is Apollo Control, Houston.
-132:53:02|T|CC|Hello, Apollo 11. Houston. Seven minutes to LOS; next AOS 133 46. You're looking good going over the hill. Out.
-132:59:10|O|CMP|Will that one do? ...
-132:59:48|O|LMP|Are you staying in this inertial attitude? Let's just leave it in REACQ then; it works just like a charm.
-132:59:55|O|CMP|Yes, that's right.
+132:18:53|T|CC|In other news, and there was a little bit, another explorer: Thor Heyerdahl had to give up his attempt to sail a papyrus boat across the Atlantic. The storm-damaged boat was abandoned about 650 miles from Bermuda. The speed of the craft had been reduced to about 25 miles a day, and Heyerdahl said the object of the voyage had not been to provide an endurance test for the crew.
+132:19:22|T|CC|Looking at the world of sports, let's see here. While you were busy the other day, Joe Namath and football Commissioner Pete Rozelle made the announcement that "Broadway Joe" had agreed to sell his interest in the Bachelors III restaurant and report to the New York Jets. Joe arrived at the Jets' training camp today and had his first workout. Several other Jet players who had held out along with Joe also reported. And Davy Hill, from Jackson, Michigan, won his third major golf in as many starts in the past week. He won the Philadelphia Classic. Hill has won four tournaments so far this year and is the leading money winner this year with a cool $129,000. And in baseball, the west division of the National League remains a tight race. LA and San Francisco are one game behind league leading Atlanta. The Astros have a record of 48 wins and 48 losses, and are now in fifth place, seven games out. A twin bill between the Astros and Cincinnati last night was postponed because of rain. The Chicago Cubs are still in first place in the East Division. They lead the New York Mets by four and one half games. And in the American League, Baltimore is breezing toward the Eastern Division title. They lead second place Boston by 11 games. Looking ahead, the All Star baseball game is scheduled for tomorrow. And President Nixon was scheduled to see the game and then leave immediately after the game for the Pacific splashdown area before going on his tour of Europe. And that about covers the news this day. You guys have been making most of it and I'm sure we couldn't fill you in on any of the details that you don't already know. Out.
+132:21:24|T|CDR|Thank you much, Charlie.
+132:21:25|T|CC|You're welcome.
+132:21:43|T|CC|11, Houston. We've got a preliminary TEI 30 PAD, if you're ready to copy.
+132:22:09|T|CMP|Ready to copy.
+132:22:11|T|CC| Rog. Coming at you. TEI-30, SPS/G&N: 36691; minus 0.61, plus 0.67; 135:23:41.49. Noun 81, plus 3202.0, plus 0671.3, minus 0277.3; 181, 054, 013. Noun 44, HA is NA, plus 0023.0; 3283.3, 2:28. Delta-VC, 3262.5; 24, 151.0 35.5. Next three lines are NA. Noun 61 plus 11.03, minus - minus 172.37; 1180.6, 36275, 195:04:52. Your set stars are Deneb and Vega, 242, 172, 012. We like two-jet ullage for 16 seconds. And the horizon will be on the 11-degree mark at TIG minus 2 minutes. And then the other comments: your sextant star is visible after GET of 134:50. Ready for your readback. Over.
+132:24:39|T|CMP| Roger. We have a TEI-30, SPS/G&N: 36691, minus 0.61, plus 0.67; 135:23:41.49. Plus 3202.0, plus 0671.3, minus 0277.3; 181, 054, 013. NA, plus 0023.0; plus 3283.3, 2:28, 3262.5; 24, 151.0, 35.5. NA three times. Plus 11.03, minus 172.37; 1180.6, 36275, 195:04:52. Deneb and Vega, 242, 172, 012. Two-jet ullage, 16 seconds. Horizon 11-degree line at TIG minus 2 minutes. Sextant star visible after 134:50. Over.
+132:26:00|T|CC|Roger, Mike. Good readback. Out.
+132:28:54|P|PAO|This is Apollo Control at 132 hours, 29 minutes. That last string of numbers read up to the spacecraft included the information the crew will need to start them on their way back to Earth in about 2 hours, 54 minutes. The time of ignition for the transearth injection burn again is 135 hours, 23 minutes, 42 seconds. They will burn their 20,500 pound thrust service propulsion system engine for 2 minutes, 28 seconds and increasing their speed by 3,283 feet per second. And our preliminary estimate is that that will put them into the Pacific Ocean at the primary landing site at 195 hours, 18 minutes, 47 seconds, Ground Elapsed Time, or almost precisely on the Flight Plan.
+132:30:01|P|PAO|The spacecraft weight at the time they do the transearth injection burn will be 36,691 pounds. We'll continue to stand by for any communication from the spacecraft. We now have about 29 minutes, 30 seconds until the Apollo 11 goes around the corner and behind the Moon out of radio contact.
+132:53:04|T|CC|Hello, Apollo 11. Houston. Seven minutes to LOS; next AOS 133:46. You're looking good going over the hill. Out.
+132:59:09|O|CMP|Will that one do? ...
+132:59:29|P|PAO|This is Apollo Control. We're now about 30 seconds from loss of signal with Apollo 11 on the 29th revolution. We'll be reacquiring in about 46 minutes. As the spacecraft comes around on its 30th revolution, that will be the next to the last full revolution in lunar orbit. The transearth injection maneuver will be performed at the end of the 30th revolution, just after - actually, just after beginning the 31st revolution of the Moon. Apollo 11 is now in an orbit with a high point of 62.6 nautical miles and a low point of 54.2. The current spacecraft velocity is 5,356 feet per second, and we show an orbital weight of 36,691 pounds. We have loss of signal now. We'll be coming back up when we reacquire in about 45 minutes. At 133 hours, this is Apollo Control, Houston.
+132:59:47|O|LMP|Are you staying in this inertial attitude? Let's just leave it in REACQ then; it works just like a charm.
+132:59:56|O|CMP|Yes, that's right.
 133:00:09|O|CDR|How about that?
 133:00:55|O|CDR|Beautiful.
 133:00:59|O|CMP|405 and 404 - What's the matter with it? (Laughter)
