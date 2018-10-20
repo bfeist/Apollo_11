@@ -11888,83 +11888,83 @@
 128:08:58|T|CMP|Houston, Apollo 11. I let P47 run longer than I should. I may have deteriorated our state vector slightly.
 128:09:07|T|CC|Roger, Apollo 11. That's okay. We'll see later.
 128:10:28|P|PAO|This is Apollo Control. Communications are somewhat scratchy with Apollo 11. Columbia and Eagle now reunited to become Apollo 11 again. Our best estimate on the time of docking is some 3 minutes after the pre-mission time of 128 hours. Continuing to monitor this 27th lunar orbit for the two-way communications between the two spacecraft.
-128:11:03|T|CMP|Houston, Apollo 11. Go ahead with your DAP up, please.
-128:11:07|T|CC|Roger. Your LM weight, 5785. For an R1 we'd like to have 61102, R2 01111. Use BD roll. Over.
-128:11:35|T|CMP|Roger. I'm configured now at ... for BD roll, and I have thrusters C4 and B3 turned off, and I copy register 1 61102 01111 and LM weight 5785. Thank you.
-128:11:52|T|CC|Roger, Columbia.
-128:13:57|T|CMP|Houston, Columbia has completed the leak check, and proceeding with opening the hatch dump valve.
-128:14:07|T|CC|Roger, Columbia. Understand you're doing the leak check. I missed anything after that.
-128:14:13|T|CMP|I say the leak check is complete, and I'm proceeding with opening the hatch dump valve.
-128:14:23|T|CC|Eagle - Columbia, Roger.
-128:15:00|P|PAO|This is Apollo Control still rather noisy communications here on the 27th lunar revolution. 39 minutes remaining until Apollo 11 goes behind the Moon. We'll leave the circuit up and try to monitor the conversation between the two spacecraft or between the Apollo 11 and the ground for the remainder of this pass - try to ascertain the status onboard as far as transferring the crew and other items back into the Command Module. The cleanup in the LM getting all the items dusted off prior to bringing them back in the Command Module. At 128 hours 25 minutes Ground Elapsed Time, standing by, this is Apollo Control.
-128:20:03|T|CMP|Eagle, Columbia.
-128:20:07|T|LMP|Go ahead.
-128:20:08|T|CMP|My hatch is removed. You can open yours, and I'll start passing stuff up to you.
-128:20:12|T|LMP|Okay.
-128:20:22|T|CMP|No. Stand by one, first.
-128:20:27|T|LMP|Okay.
-128:28:30|T|LMP|Mike, you ...
-128:28:32|T|CMP|Yes, everything is going fine. Be with you in just a second.
-128:30:10|T|CC|Eagle, Houston. Over.
-128:30:16|T|LMP|Go ahead, Houston, Eagle here.
-128:30:17|T|CC|Roger. Any time prior to jettison there, we'd like an AGS to PGNS align: 400 plus 30 000. Over.
-128:30:34|T|LMP|Okay. Any particular attitude you would like the PGNS in when we do that?
-128:30:47|T|LMP|No. We're not getting any. Could you give us some course align gimbal angles to move the PGNS to, and then we will align the AGS to the PGNS. Over.
-128:30:58|T|CC|Roger. Eagle. We concur. Stand by on the gimbal angles. And also, Eagle, while we've got the Command Module direct O2 on there, there's a possibility that your cabin relief might relieve if we get up around cabin pressure of about 5.4 or 5.5.
-128:31:24|T|LMP|Roger.
-128:32:05|T|CC|Eagle, Houston.
-128:32:10|T|LMP|Roger. Go ahead.
-128:32:11|T|CC|Roger. All we are trying to do is get PGNS and AGS aligned together. Doesn't make any difference on the gimbal angle.
-128:32:28|T|CDR|...
-128:32:34|T|LMP|Okay. We are pretty close to 000. Is that all right?
-128:32:38|T|CC|Eagle, that's beautiful.
-128:32:44|T|LMP|Now, you might want to take into account what will happen when the CSM maneuvers to jettison attitude.
-128:32:56|T|CC|Eagle, Houston. We don't care what - All we are trying to do is get a drift rate and see how long it takes them to drift apart on the thing after you jettison.
-128:33:08|T|LMP|Okay. Will we be jettisoning at about this attitude? That's okay. I'll align the AGS with the PGNS. You can tell me a little later if you need some help.
-128:33:22|T|CC|Eagle, Houston. That's fine.
-128:36:31|T|CMP|Houston, Columbia. You want me to roll over and get high-gain or anything like that?
-128:36:38|T|CC|Columbia, Houston. I can give you some REACQ angles for the high-gain on the LM jettison attitude. Then you can go there whenever you want to. The angles are pitch minus 50, and yaw zero.
-128:37:02|T|CMP|Okay.
-128:38:07|T|CMP|Houston, Columbia. Say again the jettison roll, pitch, and yaw, please.
-128:38:22|T|CC|Columbia, Houston. Roll zero, pitch 025, and yaw zero. Over.
-128:38:36|T|CMP|Roger. Understand roll zero, pitch 025, yaw zero.
-128:38:40|T|CC|That's affirmative.
-128:39:13|T|CMP|... in progress. We've moving. Houston.
-128:40:09|T|LMP|Houston, Eagle. Over.
-128:40:12|T|CC|Eagle, Houston. Go.
-128:40:18|T|LMP|Roger. It doesn't appear as though the red hose is going to be much of a competitor to the leading vacuum cleaner brands. Over.
-128:40:27|T|CC|There's a little noise there, Buzz. Say again.
-128:41:54|T|CC|Eagle, Houston.
-128:42:02|T|LMP|Roger. Go ahead.
-128:42:05|T|CC|Roger. Just a reminder to be sure to zero the AGS errors before you enable the AGS attitude hold there after you get in burn attitude.
-128:42:26|T|LMP|Roger. You mean SEP attitude?
-128:42:47|T|CMP|Houston, how do you read Columbia on high-gain now?
-128:42:50|T|CC|Hey, Columbia. Houston. Mighty fine; loud and clear.
-128:42:56|T|CMP|Same here, Ron. Thanks.
-128:43:00|T|CC|And Eagle, Houston. Your steerable antenna angles for jettison attitude are - Over.
-128:43:22|T|CDR|Roger. Go ahead.
-128:43:23|T|CC|Roger. Pitch 165, yaw 68. Over.
-128:43:35|T|CDR|Roger. Pitch 165, yaw 68.
-128:43:38|T|CC|Eagle, Houston. Correct.
-128:45:07|T|CC|Columbia, Houston.
-128:45:13|T|CMP|Columbia. Go ahead.
-128:45:15|T|CC|Roger, Mike. You want to tweak the O2 flow up just a bit there?
-128:45:22|T|CMP|Okay. Coming up. Houston, do you have any preferences as to what you want us to do with the probe? Over.
-128:45:36|T|CC|Columbia, Houston. Stand by one.
-128:45:43|T|CMP|Okay. Eagle says they've got a place for it inside there, so no problem.
-128:45:48|T|CC|Roger. That's all we were assuming.
-128:46:50|T|CC|Eagle, Houston.
-128:47:06|T|CDR|Eagle. Go ahead.
-128:47:07|T|CC|Roger. Neil, it looks like your steerable's good. You can put your track mode to slew and high bit rate, please. Over.
-128:47:19|T|CDR|Okay. Track mode to slew and high bit rate.
-128:47:48|T|CMP|Okay. Stand by just one, please.
-128:48:24|T|CMP|Okay. Shoot them on down.
-128:49:28|T|CC|Eagle, Houston.
-128:49:35|T|CDR|Go ahead, Houston.
-128:49:36|T|CC|Roger. Neil, just a reminder again, the ACA out of detent to zero; the AGS out of there just in case you go to ATTITUDE HOLD shortly.
-128:49:47|T|CDR|Okay.
-128:50:20|T|CMP|You say you wanted the probe now?
-128:53:46|T|CC|Eagle, Houston.
+128:11:05|T|CMP|Houston, Apollo 11. Go ahead with your DAP up, please.
+128:11:09|T|CC|Roger. Your LM weight, 5785. For an R1 we'd like to have 61102, R2 01111. Use BD roll. Over.
+128:11:37|T|CMP|Roger. I'm configured now at ... for BD roll, and I have thrusters C4 and B3 turned off, and I copy register 1 61102 01111 and LM weight 5785. Thank you.
+128:11:54|T|CC|Roger, Columbia.
+128:13:59|T|CMP|Houston, Columbia has completed the leak check, and proceeding with opening the hatch dump valve.
+128:14:09|T|CC|Roger, Columbia. Understand you're doing the leak check. I missed anything after that.
+128:14:15|T|CMP|I say the leak check is complete, and I'm proceeding with opening the hatch dump valve.
+128:14:25|T|CC|Eagle - or, Columbia, Roger.
+128:20:05|T|CMP|Eagle, Columbia.
+128:20:09|T|CDR|Go ahead.
+128:20:10|T|CMP|My hatch is removed. You can open yours, and I'll start passing stuff up to you.
+128:20:14|T|CDR|Okay.
+128:20:24|T|CMP|No. Stand by one, first.
+128:20:29|T|CDR|Okay.
+128:24:22|P|PAO|This is Apollo Control. Still rather noisy communications here on the 27th lunar revolution. 39 minutes remaining until Apollo 11 goes behind the Moon. We'll leave the circuit up and try to monitor the conversation between the two spacecraft or between the Apollo 11 and the ground for the remainder of this pass - try to ascertain the status onboard as far as transferring the crew and other items back into the Command Module. The cleanup in the LM getting all the items dusted off prior to bringing them back into the Command Module. At 128 hours 25 minutes Ground Elapsed Time, standing by, this is Apollo Control.
+128:28:32|T|LMP|Mike, you still there?
+128:28:34|T|CMP|Yes, everything is going fine. Be with you in just a second.
+128:30:12|T|CC|Eagle, Houston. Over.
+128:30:18|T|LMP|Go ahead, Houston, Eagle here.
+128:30:19|T|CC|Roger. Any time prior to jettison there, we'd like an AGS to PGNS align: 400 plus 30,000. Over.
+128:30:36|T|LMP|Okay. Any particular attitude you would like the PGNS in when we do that?
+128:30:49|T|LMP|No. We're not getting any. Could you give us some course align gimbal angles to move the PGNS to, and then we will align the AGS to the PGNS. Over.
+128:31:00|T|CC|Roger. Eagle. We concur. Stand by on the gimbal angles. And also, Eagle, while we've got the Command Module direct O2 on there, there's a possibility that your cabin relief might relieve if we get up around cabin pressure of about 5.4 or 5.5.
+128:31:26|T|LMP|Roger.
+128:32:07|T|CC|Eagle, Houston.
+128:32:12|T|LMP|Roger. Go ahead.
+128:32:13|T|CC|Roger. All we are trying to do is get PGNS and AGS aligned together. Doesn't make any difference on the gimbal angle.
+128:32:30|T|CMP|Okedey ...
+128:32:36|T|LMP|Okay. We are pretty close to 000. Is that all right?
+128:32:40|T|CC|Eagle, that's beautiful.
+128:32:46|T|LMP|Now, you might want to take into account what will happen when the CSM maneuvers to jettison attitude.
+128:32:58|T|CC|Eagle, Houston. We don't care what - All we are trying to do is get a drift rate and see how long it takes them to drift apart on the thing after you jettison.
+128:33:10|T|LMP|Okay. Will we be jettisoning at about this attitude? That's okay. I'll align the AGS with the PGNS. You just tell me a little later if you need some help.
+128:33:24|T|CC|Eagle, Houston. That's fine.
+128:36:33|T|CMP|Houston, Columbia. You want me to roll over and get high-gain or anything like that?
+128:36:40|T|CC|Columbia, Houston. I can give you some REACQ angles for the high-gain on the LM jettison attitude. Then you can go there whenever you want to. The angles are pitch minus 50, and yaw zero.
+128:37:04|T|CMP|Okay.
+128:38:09|T|CMP|Houston, Columbia. Say again the jettison roll, pitch, and yaw, please.
+128:38:24|T|CC|Columbia, Houston. Roll zero, pitch 025, and yaw zero. Over.
+128:38:38|T|CMP|Roger. Understand roll zero, pitch 025, yaw zero.
+128:38:42|T|CC|Affirmative.
+128:39:14|T|CMP|... in progress. We've moving. Houston.
+128:40:11|T|LMP|Houston, Eagle. Over.
+128:40:14|T|CC|Eagle, Houston. Go.
+128:40:20|T|LMP|Roger. It doesn't appear as though the red hose is going to be much of a competitor to the leading vacuum cleaner brands. Over.
+128:40:29|T|CC|There's a little noise there, Buzz. Say again.
+128:41:56|T|CC|Eagle, Houston.
+128:42:04|T|LMP|Roger. Go ahead.
+128:42:06|T|CC|Roger. Just a reminder to be sure to zero the AGS errors before you enable the AGS attitude hold there after you get in burn attitude.
+128:42:28|T|LMP|Roger. You mean SEP attitude?
+128:42:49|T|CMP|Houston, how do you read Columbia on high-gain now?
+128:42:52|T|CC|Hey, Columbia. Houston. Mighty fine; loud and clear.
+128:42:58|T|CMP|Same here, Ron. Thanks.
+128:43:03|T|CC|And Eagle, Houston. Your steerable antenna angles for jettison attitude are - Over.
+128:43:24|T|LMP|Roger. Go ahead.
+128:43:25|T|CC|Roger. Pitch 165, yaw 68. Over.
+128:43:36|T|LMP|Roger. Pitch 165, yaw 68.
+128:43:40|T|CC|Eagle, Houston. Correct.
+128:45:09|T|CC|Columbia, Houston.
+128:45:15|T|CMP|Columbia. Go ahead.
+128:45:16|T|CC|Roger, Mike. You want to tweak the O2 flow up just a bit there?
+128:45:24|T|CMP|Okay. Coming up. Houston, do you have any preference as to what you want us to do with the probe? Over.
+128:45:38|T|CC|Columbia, Houston. Stand by one.
+128:45:45|T|CMP|Okay. Eagle says they've got a place for it inside there, so no problem.
+128:45:50|T|CC|Roger. That's all we were assuming.
+128:46:51|T|CC|Eagle, Houston.
+128:47:08|T|CDR|Eagle. Go ahead.
+128:47:09|T|CC|Roger. Neil, it looks like your steerable's good. You can put your track mode to slew and high bit rate, please. Over.
+128:47:21|T|CDR|Okay. Track mode to slew and high bit rate.
+128:47:50|T|CMP|Okay. Stand by just one, please.
+128:48:26|T|CMP|Okay. Shoot them on down.
+128:49:29|T|CC|Eagle, Houston.
+128:49:37|T|CDR|Go ahead, Houston.
+128:49:38|T|CC|Roger. Neil, just a reminder again, the ACA out of detent to zero; the AGS out of there just in case you go to ATTITUDE HOLD shortly.
+128:49:49|T|CDR|Okay.
+128:50:21|T|CMP|You say you wanted the probe now?
+128:53:48|T|CC|Eagle, Houston.
 128:53:53|T|CDR|Houston, Eagle. Go ahead.
 128:53:54|T|CC|Roger. That ACA out of detent didn't quite do it because the mode control switches were off. Request guidance control to PGNS and then back to AGS, and that will zero the AGS, there. Over.
 128:54:12|T|CDR|Say again, please.
