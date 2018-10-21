@@ -12559,362 +12559,367 @@
 134:08:31|T|CC|Yes, sir.
 134:10:09|P|PAO|This is Apollo Control at 134 hours, 10 minutes. We have about 47 minutes, 30 seconds before losing contact with Apollo 11 as it goes behind the Moon in preparation for the transearth injection burn. With the burn we would reacquire the spacecraft at 135 hours, 34 minutes, 11 seconds. Without the transearth injection burn on the upcoming revolution we would reacquire at 135 hours, 43 minutes, 50 seconds. The final figures on that burn as passed up to the crew a few minutes ago are as follows: ignition will occur at 135 hours, 23 minutes, 42 seconds. The burn duration will be 2 minutes, 28 seconds. And that will add 3284 feet per second to the spacecraft velocity starting it on its path back to Earth. And we would consume about 10,000 pounds of propellant with that burn. Splash would occur according to our preliminary figures, just about precisely as predicted in the Flight Plan. We'll continue to monitor now for any further conversation from the spacecraft.
 134:16:55|T|CC|Hello, Apollo 11. Houston. After the burn, we'd like you to trim X and Z. Over.
-134:17:05|T|CMP|Okay, Charlie.
-134:17:07|T|CC|Roger. And that's to 0.2 foot per second, as shown in the Flight Plan.
-134:17:23|T|CMP|Sounds like there's a story behind that one, too.
-134:17:28|T|CC|We'll tell you when you get back.
-134:20:22|T|CC|Hello, Apollo 11. Houston. Would you verify that you've stirred up the CRYO's? Over.
-134:20:31|T|CMP|Roger. We've stirred them up.
-134:20:33|T|CC|Thank you, sir.
-134:25:00|P|PAO|This is Apollo control at 134 hours, 32 minutes. Flight director Gene Kranz just requested his Flight Controllers to view all of their data, take a good look at the spacecraft, and be prepared to make go, no go recommendations shortly for the transearth injection burn. That maneuver now 51 minutes, 27 seconds away. All systems on the spacecraft looking good at this point. The cabin temperature has been running about 72 degrees. At this time, the crew is aligning the platform on their guidance system. The stable platform used as a attitude reference for the upcoming burn. We've had very little conversation both here in the Control Center and from the spacecraft on this pass. We'll continue to stand by and monitor.
-134:37:53|T|CC|Apollo 11, Houston. You are GO for TEI. Over.
-134:37:59|T|CMP|Apollo 11. Thank you.
-134:45:00|P|PAO|This is Apollo Control at 134 hours 48 minutes. It continues very quiet out here in Mission Control. The Flight Controllers have been observing the crew inputs through their computer and monitoring as the crew prepares for the trans Earth injection burn, scheduled to occur in about 35 minutes from now. We have now 9 minutes 20 seconds until loss of signal. The spacecraft currently traveling at a speed of 5,329 feet per second and the altitude is 62.5 nautical miles. At the time of the trans Earth injection burn, the Lunar Module, Eagle, should be about 20 miles behind the Command Module.
-134:45:00|P|PAO|The crew has a go for the trans Earth injection at the beginning of the 31 revolution. All systems on the spacecraft are looking very good at this point. You heard Capcom Charlie Duke advise Mike Collins that we will reacquire the spacecraft on the other side of the Moon. Now with the burn the Ground Elapsed Time of 135 hours 34 minutes and 5 seconds. Without the burn we reacquire at 135 hours 44 minutes 3 seconds. We now have 6 minutes 50 seconds until loss of signal. We will continue to monitor.
-134:45:00|P|PAO|Thirty seconds now until loss of signal. We've had a last status check from the Flight Director and all around the room the word is go. We're now 26 minutes 23 seconds from the trans Earth injection maneuver - 20 seconds until loss of signal.
-134:45:00|P|PAO|And we have loss of signal now. We should next reacquire Apollo 11 at 135 hours 34 minutes 5 seconds. We are now 25 minutes 38 seconds from trans Earth injection.
-134:49:25|T|CC|Hello, Apollo 11. Houston. You've got about 8 minutes till LOS. Your AOS with the burn, 135 34 05, no burn 135 44. Over.
-134:49:43|T|CMP|Okay. Thank you.
-134:49:46|T|CC|Yes, sir.
-134:56:35|T|CC|Apollo 11, Houston. One minute to LOS. Go sic 'em.
-134:56:41|T|CMP|Thank you, sir. We'll do it.
-134:57:22|O|CDR|Yes. We can get VERB 64 before we come over the hill and see what looks good.
-134:57:28|O|LMP|Okay. LOS.
-134:57:30|O|CDR|Okay. I'm ready to proceed now.
-134:57:34|O|LMP|Do it.
-134:57:37|O|CDR|Here we go.
-134:57:42|O|CMP|Say, you guys, ... anything you want to do?
-134:57:56|O|CDR|I got to make a star check, yet.
-134:58:07|O|LMP|You're not going to fool around with that camera anymore, are you?
-134:58:09|O|CDR|No.
-134:58:11|O|CMP|I'll take care of it for you.
-134:58:13|O|CDR|Post - we might - after post - after PDI if you can put it somewhere where you can get at it. Going away from the moon. I just didn't want it in my way - -
-134:58:25|O|CMP|Get all - -
-134:58:26|O|CDR|Well, yes, pull it - pull it out of the way.
-134:58:27|O|LMP|Neil, the handle -
-134:58:29|O|CDR|I have it right here. That durn near has a roll in it - it -
-134:58:38|O|CMP|I'll bet you ... likes this.
-134:58:42|O|CDR|No. I don't care about any - Well, if it's annoying - let me - I can get it if it is. ... star check ... I don't care about ...
-135:00:00|O|LMP|What's that pad say about horizon on the 100-degree - -
-135:00:05|O|CMP|2 minutes prior, 100-degree line,
-135:00:18|O|CDR|You got double lines?
-135:00:19|O|CMP|Yes, I got double line on the 30, so I can use that as a head position ... look down between them.
-135:00:25|O|CDR|They're not - they're not parallel? Can you see in the one-eye position?
-135:00:30|O|CMP|What I'm saying is, on the 30 degree, I have both panes of glass - -
-135:00:34|O|LMP|Yes.
-135:00:36|O|CMP|- - and if you line those up then, then is your eye in the right position for all the others?
-135:00:39|O|LMP|Yes.
-135:00:40|O|CMP|Okay.
-135:00:41|O|CDR|What's the shaft and trunnion number?
-135:00:45|O|CMP|1511.
-135:00:47|O|CDR|What? 1511?
-135:00:52|O|CMP|151 - -
-135:00:54|O|CDR|1511.
-135:00:55|O|CMP|We're a long way from being there, Neil; we're rolling over at a very slow rate.
-135:00:58|O|CDR|Okay.
-135:01:00|O|CMP|You want an extra ... - we got a lot of gas - -
-135:01:01|O|CDR|No, no, no.
-135:01:02|O|CMP|Be happy to zip on around.
-135:02:16|O|CMP|This thing is taking forever to get around here; we've got 20 minutes to TIG. I think I'll speed it up a bit, if you don't mind.
-135:02:24|O|CDR|Hey, you got - 1, 0.1, point 1 you mean?
-135:02:29|O|CMP|Yes.
-135:02:44|O|CMP|You know, if you hit this hand controller like you do in the simulator, MINIMUM IMPULSE, just bang it, it'll bang over and bang back, and it'll fire two opposing pulses, and you get nothing. You know that?
-135:02:53|O|CDR|(Laughter) Yes.
-135:05:18|O|CMP|Oh, shit. ... yaw out 14 degrees. Why in the hell didn't I do that? Read that number wrong.
-135:05:29|O|CDR|Yes, it should have been 1.4 degrees yaw.
-135:05:37|O|LMP|That "1" gets moved over so far.
-135:05:40|O|CMP|Yes, the goddam "1" in this computer, you know - trunnion angle, it's there; DELTA-V, it's there; angles, it's there. It's probably over here for something although I can't think for what, but there, there, there, and there, of course – there is four places.
-135:05:55|O|LMP|Okay, we're there, Neil; by the time you can get down there and get your eyeball out the window - -
-135:05:59|O|CDR|Hey, what did you do with those numbers again?
-135:06:01|O|CMP|Oh, we'll crank them in the computer.
-135:06:03|O|CDR|Oh, I got them.
-135:06:08|O|CMP|Questioning the accuracy of the computer?
-135:06:14|O|CDR|...
-135:06:23|O|CMP|Okay, you satisfied with that?
-135:06:24|O|LMP|ENTER.
-135:06:27|O|CMP|Give me the numbers.
-135:06:29|O|CDR|1519, CMC OPTICS ZERO, OFF, VERB 41, NOUN 91.
-135:06:37|O|CMP|You mean after I went to all this work of cranking those numbers in you're going to drive back to zero?
-135:06:43|O|LMP|We got PROGRAM ALARM and an OPERATOR ERROR.
-135:06:46|O|MS|(Laughter)
-135:06:47|O|CMP|Christ. Give me the numbers, 1519 and what?
-135:06:54|O|LMP|It won't pass with that number.
-135:06:58|O|CDR|1511 - 357.
-135:07:01|O|CMP|357, okay.
-135:07:15|O|CMP|357 and 1511. There's supposed to be a star there.
-135:07:26|O|CDR|That's right, if you put them in - in the right order. That 151.1 is shaft.
-135:07:36|O|CMP|Yes. I got a star in the - in the sextant.
-135:07:38|O|CDR|Good, it passes. Let's press on.
-135:07:41|O|CMP|I'm not sure it's Gienah.
-135:07:43|O|CDR|Good. There'll be no way of telling - You got 16 minutes until TIG. Did it pass?
-135:07:51|O|CMP|OPTICS ZERO - -
-135:07:52|O|CDR|OPTICS ZERO and MANUAL. The mode is manual already, isn't it? Okay?
-135:07:59|O|LMP|Alright. VERB 37, ENTER; 40, ENTER. Okay.
-135:08:08|O|CDR|Okay, BMAG MODE, three, to RATE 2.
-135:08:13|O|CMP|BMAG MODE, three, to RATE 2.
-135:08:15|O|CDR|SPACECRAFT CONTROL, CMC, AUTO.
-135:08:19|O|CMP|CMC, AUTO.
-135:08:23|O|CDR|Proceed.
-135:08:25|O|CMP|I'll proceed with this ...
-135:08:27|O|LMP|Huh? ... Don't you like this one? Alright.
-135:08:33|O|CMP|Let's not proceed.
-135:08:35|O|LMP|Alright. Stand by. Align spacecraft in roll. Already there.
-135:08:41|O|CDR|GDC align.
-135:08:44|O|CMP|Okay, that's a good one. One - standby 1, and I'll get that.
-135:09:33|O|CMP|Okay. GDC aligned.
-135:09:39|O|LMP|Circuit breakers: STABILIZATION CONTROL, panel 8, CLOSED.
-135:09:41|O|CDR|STABILIZATION CONTROL circuit breakers are CLOSED.
-135:09:52|O|LMP|Okay. SPS circuit breakers - eight of them, CLOSED. Twelve of them closed.
-135:09:57|O|CDR|SPS, 12 of them closed - 2, 4, 6, 8, 10, 12, CLOSED. Okay?
-135:10:15|O|CMP|...
-135:10:20|O|CDR|Say again.
-135:10:22|O|CMP|I lost my clip.
-135:10:24|O|LMP|ATT DEADBAND, MINIMUM.
-135:10:26|O|CMP|ATT DEADBAND, MINIMUM.
-135:10:27|O|LMP|RATE, LOW.
-135:10:28|O|CMP|RATE, LOW.
-135:10:29|O|LMP|LIMIT CYCLE, ON.
-135:10:30|O|CMP|Okay.
-135:10:32|O|LMP|MAN ATT, three - RATE COMMAND.
-135:10:34|O|CMP|MANUAL ATTITUDE, three, to RATE COMMAND. They are.
-135:10:41|O|LMP|BMAG MO - BMAG MODE, three, to RATE 2.
-135:10:46|O|CMP|BMAG MODE, three, to RATE 2.
-135:10:51|O|LMP|ROTATIONAL CONTROL POWER, DIRECT, two of them, OFF.
-135:10:53|O|CMP|Okay; OFF, OFF.
-135:10:55|O|LMP|SCS TVC, two, to RATE COMMAND.
-135:10:59|O|CMP|RATE COMMAND, RATE COMMAND.
-135:11:02|O|LMP|TVC GIMBAL DRIVE, PITCH and YAW, to AUTO.
-135:11:05|O|CMP|AUTO, AUTO.
-135:11:09|O|LMP|What's the time?
-135:11:11|O|CMP|We have 12 minutes to go.
-135:11:54|O|CMP|Got the HELIUM VALVES, AUTO and barber pole?
-135:11:58|O|LMP|I'll get those.
-135:12:00|O|CMP|Okay. I was just wondering if they were on – not questioning your checklist, just out of curiosity.
-135:12:29|O|LMP|You going to pitch up after the burn?
-135:12:33|O|CMP|Sounds like a good idea; let's look at the moon after the burn. That'll give us high-gain, right?
-135:12:41|O|LMP|Check.
-135:12:52|O|CDR|Okay, 10 minutes until TIG.
-135:12:55|O|CMP|Alright.
-135:13:10|O|CDR|It's hot in here, isn't it?
-135:13:17|O|LMP|... boiling any water.
-135:13:21|O|CDR|You do it all?
-135:13:22|O|LMP|No. It's not too hot, it's 65.
-135:13:31|O|CMP|Those temperatures are deceptive. I don't know where they measure it, but the cold point is -
-135:13:36|O|CDR|Okay. Sunrise, now 10 minutes prior to TIG; I should have the horizon on the 10-degree line, huh?
-135:13:43|O|CMP|No, 10 degrees - 2 minutes.
-135:13:45|O|CDR|2 minutes; that's more like it, there.
-135:14:00|O|CMP|... this COAS as far as steering and everything goes, it's hopeless.
-135:14:09|O|CDR|...
-135:14:12|O|CMP|I'm graphically reminded of it at this moment. Yes. I see a horizon. It looks like we are going forward (laughter).
-135:14:26|O|CDR|Shades of Gemini.
-135:14:29|O|CMP|It is most important that we be going forward (laughter).
-135:14:40|O|CMP|There's only one really bad mistake you can make there.
-135:14:50|O|LMP|Shades of Gemini retrofire, are you sure we're - (laughter) - No, let 's see - the motors point this way and the gases escape that way, therefore imparting a thrust that-a-way.
-135:15:03|O|CDR|Yes, horizon looks good.
-135:15:06|O|LMP|Okay, we got 8-1/2 to TIG.
-135:15:28|O|CMP|Somewhere along the line, I think I'll trim this maneuver just for the hell of it. Would this be a good time to do it, Buzz, at 8 minutes prior? You don't care when I do it, do you?
-135:15:35|O|LMP|No, it probably would be after we - when the gimbals are out.
-135:15:38|O|CMP|Oh, yes, alright. Okay.
-135:15:47|O|CDR|Beautiful looking horizon, it's hard to describe.
-135:15:50|O|LMP|We can see it if we look through that thing you have.
-135:15:53|O|CMP|Where's ...?
-135:15:55|O|LMP|Here or here? God, it has an eerie look to it. It's not a horizon, it's just a band.
-135:16:03|O|CMP|You won't be able to see it, Neil, ...
-135:16:07|O|CDR|Which way?
-135:16:09|O|CMP|This way. Plus X ...
-135:16:14|O|CDR|It was really eerie when it first came - -
-135:16:17|O|LMP|You got to look through the part of the window that isn't -
-135:16:20|O|CDR|Yes. And the way the terminator is, you don't see the whole moon at all, you just see a - -
-135:16:24|O|CMP|I know, I was looking at it upside down for a while.
-135:16:27|O|CDR|Yes, and then that scares you, because that says you're going retrograde, right? Well, let's see, if it's upside down, you're going backwards.
-135:16:33|O|LMP|Yes.
-135:16:40|O|CDR|Okay, it looks good, I'll tell you.
-135:16:44|O|CMP|Alright, we'recoming up on bus tie time; we've got a little over 6:50 until TIG.
-135:17:05|O|CDR|Ready for the bus ties.
-135:17:07|O|CMP|Yes, sir. Whenever you are; it's about 6 minutes.
-135:17:10|O|CDR|... ON, verified.
-135:17:15|O|CMP|Okay.
-135:17:16|O|CDR|..., ON. ... and a half.
-135:17:22|O|CMP|Alright.
-135:17:26|O|CDR|Okay. TVC SERVO POWER 1 to AC1.
-135:17:30|O|CMP|1 to AC1.
-135:17:32|O|CDR|2 to AC2.
-135:17:33|O|CMP|2 to AC2.
-135:17:34|O|CDR|TRANSLATIONAL CONTROL POWER, ON.
-135:17:36|O|CMP|ON.
-135:17:38|O|CDR|ROTATION CONTROL POWER, NORMAL, number 2, AC.
-135:17:41|O|CMP|AC.
-135:17:44|O|CDR|Arm ROTATION CONTROLLER, number 2.
-135:17:46|O|CMP|ARMED. So far, so good.
-135:17:59|O|CDR|Okay. When do you want the gimbal motors on?
-135:18:01|O|CMP|Oh, at about 5-1/2 minutes.
-135:18:04|O|CDR|Okay, that's right now.
-135:18:05|O|CMP|Right now?
-135:18:06|O|CDR|Yes.
-135:18:07|O|CMP|Okay.
-135:18:08|O|CDR|Here comes PITCH 1, ready?
-135:18:09|O|CMP|No.
-135:18:10|O|CDR|Wait a minute. Okay. Go.
-135:18:11|O|CMP|PITCH 1.
-135:18:12|O|CDR|PITCH 1 -
-135:18:13|O|CDR|MARK it.
-135:18:15|O|CMP|Got it.
-135:18:16|O|CDR|YAW 1 -
-135:18:17|O|CDR|MARK it.
-135:18:18|O|CMP|Got it.
-135:18:19|O|CDR|Okay. TRANSLATION CONTROLLER, clockwise.
-135:18:22|O|CMP|Clockwise.
-135:18:24|O|CDR|Verify no MTVC.
-135:18:28|O|CMP|Verified.
-135:18:32|O|CDR|GIMBAL MOTORS, PITCH 2, YAW 2, OFF.
-135:18:34|O|CMP|PITCH 2 -
-135:18:35|O|CDR|MARK it.
-135:18:36|O|CMP|Got it.
-135:18:37|O|CDR|YAW 2 -
-135:18:38|O|CDR|MARK it.
-135:18:39|O|CMP|Got it.
-135:18:40|O|CDR|Okay. Set GPI trim.
-135:18:43|O|LMP|Alright, where are they on this pad? Let's see, that's plus - -
-135:18:46|O|CDR|Minus - on pitch, minus 0.6.
-135:18:50|O|LMP|Okay, minus 0.6. Very good.
-135:18:52|O|CDR|Plus 66.
-135:18:55|O|LMP|And plus 6 - -
-135:18:56|O|CMP|0.6.
-135:18:57|O|LMP|Okay, Neil, those look good to you? They look good to me.
+134:17:07|T|CMP|Okay, Charlie.
+134:17:08|T|CC|Roger. And that's to 0.2 foot per second, as shown in the Flight Plan.
+134:17:25|T|CMP|Sounds like there's a story behind that one, too.
+134:17:30|T|CC|We'll tell you when you get back.
+134:20:24|T|CC|Hello, Apollo 11. Houston. Would you verify that you've stirred up the CRYO's? Over.
+134:20:33|T|CMP|Roger. We've stirred them up.
+134:20:34|T|CC|Thank you, sir.
+134:31:53|P|PAO|This is Apollo control at 134 hours, 32 minutes. Flight Director, Gene Kranz just requested his Flight Controllers to view all of their data, take a good look at the spacecraft, and be prepared to make go, no go recommendations shortly for the transearth injection burn. That maneuver now 51 minutes, 27 seconds away. All systems on the spacecraft looking good at this point. The cabin temperature has been running about 72 degrees. At this time, the crew is aligning the platform on their guidance system. The stable platform used as a attitude reference for the upcoming burn. We've had very little conversation both here in the Control Center and from the spacecraft on this pass. We'll continue to stand by and monitor.
+134:37:54|T|CC|Apollo 11, Houston. You are GO for TEI. Over.
+134:38:01|T|CMP|Apollo 11. Thank you.
+134:47:51|P|PAO|This is Apollo Control at 134 hours 48 minutes. It continues very quiet here in Mission Control. The Flight Controllers have been observing the crew inputs through their computer and monitoring as the crew prepares for the transearth injection burn, scheduled to occur in about 35 minutes from now. We have now 9 minutes 20 seconds until loss of signal. The spacecraft currently traveling at a speed of 5,329 feet per second and the altitude is 62.5 nautical miles. At the time of the transearth injection burn, the Lunar Module, Eagle, should be about 20 miles behind the Command Module.
+134:49:27|T|CC|Hello, Apollo 11. Houston. You've got about 8 minutes till LOS. Your AOS with the burn, 135:34:05, no burn 135:44. Over.
+134:49:45|T|CMP|Okay. Thank you.
+134:49:47|T|CC|Yes, sir.
+134:50:17|P|PAO|The crew has a go for the trans Earth injection at the beginning of the 31 revolution. All systems on the spacecraft are looking very good at this point. You heard Capcom, Charlie Duke advise Mike Collins that we will reacquire the spacecraft on the other side of the Moon. Now with the burn the Ground Elapsed Time of 135 hours 34 minutes and 5 seconds. Without the burn we reacquire at 135 hours 44 minutes 3 seconds. We now have 6 minutes 50 seconds until loss of signal. We will continue to monitor.
+134:56:36|T|CC|Apollo 11, Houston. One minute to LOS. Go sic 'em.
+134:56:43|T|CMP|Thank you, sir. We'll do it.
+134:57:10|P|PAO|Thirty seconds now until loss of signal. We've had a last status check from the Flight Director and all around the room the word is go. We're now 26 minutes 23 seconds from the transearth injection maneuver - 20 seconds until loss of signal.
+134:57:35|O|CMP|Yes. We can get VERB 64 before we come over the hill and see what looks good.
+134:57:42|O|LMP|Okay. LOS.
+134:57:43|O|CDR|Okay. I'm ready to proceed now.
+134:57:45|O|LMP|Do it.
+134:57:48|O|CDR|Here we go.
+134:57:57|O|CMP|Say, you guys, ... anything you want to do?
+134:57:52|P|PAO|And we have loss of signal now. We should next reacquire Apollo 11 at 135 hours 34 minutes 5 seconds. We are now 25 minutes 38 seconds from trans Earth injection.
+134:56:01|O|CDR|I got to make a star check, yet.
+134:58:11|O|LMP|You're not going to fool around with that camera anymore, are you?
+134:58:14|O|CDR|No.
+134:58:6|O|CMP|I'll take care of it for you.
+134:58:17|O|CDR|Post - we might - after post - after PDI if you can put it somewhere where you can get at it. Going away from the moon. I just didn't want it in my way - -
+134:58:28|O|CMP|Get all - -
+134:58:29|O|CDR|Well, yes, pull it - pull it out of the way.
+134:58:32|O|LMP|Neil, the handle -
+134:58:33|O|CDR|I have it right here. That durn near has a roll in it - it -
+134:58:43|O|LMP|I'll bet you ... likes this.
+134:58:47|O|CMP|No. I don't care about any - Well, if it's annoying - let me - I can get it if it is. ... star check ... I don't care about ...
+135:00:04|O|CMP|What's that pad say about horizon on the 100-degree - -
+135:00:07|O|LMP|...
+135:00:07|O|CMP|3 lines, 2 minutes prior -
+135:00:09|O|LMP|100-degree line
+135:00:22|O|LMP|You got double lines?
+135:00:24|O|CMP|Yes, I got double line on the 30, so I can use that as a head position ... look down between them.
+135:00:30|O|LMP|They're not - they're not parallel? Can you see in the one-eye position?
+135:00:35|O|CMP|What I'm saying is, on the 30 degree, I have both panes of glass - -
+135:00:38|O|LMP|Yes. And if you line those up then, then is your eye in the right position for all the others?
+135:00:43|O|CMP|Yes.
+135:00:43|O|LMP|Okay.
+135:00:44|O|CMP|PNGS.
+135:00:45|O|CDR|What's the shaft and trunnion number?
+135:00:49|O|LMP|1511.
+135:00:51|O|CDR|What?
+135:00:54|O|LMP|1511.
+135:00:56|O|CDR|151 - -
+135:00:57|O|CDR|1511.
+135:00:59|O|CMP|We're a long way from being there, Neil; we're rolling over at a very slow rate.
+135:01:03|O|CDR|Okay.
+135:01:03|O|CMP|You want to expedite? We've got a lot of gas - -
+135:01:05|O|CDR|No, no, no.
+135:01:05|O|CMP|Be happy to zip on around.
+135:02:20|O|CMP|This thing is taking forever to get around here; we've got 20 minutes to TIG. I think I'll speed it up a bit, if you don't mind.
+135:02:29|O|LMP|Hey, you got - 1, 0.1, point 1 you mean?
+135:02:32|O|CMP|Yes.
+135:02:48|O|CMP|You know, if you hit this hand controller like you do in the simulator, MINIMUM IMPULSE, just bang it, it'll bang over and bang back, and it'll fire two opposing pulses, and you get nothing. You know that?
+135:02:57|O|CDR|(Laughter) Yes.
+135:05:22|O|CMP|Oh, shit. ... yaw out 14 degrees. Why in the hell didn't I do that? Read that number wrong.
+135:05:31|O|CDR|Yes, it should have been 1.4 degrees yaw.
+135:05:40|O|LMP|That "1" gets moved over so far.
+135:05:43|O|CMP|Yes, the goddam "1" in this computer, you know - trunnion angle, it's there; DELTA-V, it's there; angles, it's there. It's probably over here for something although I can't think for what, but there, there, there, and there, of course – there is four places.
+135:05:58|O|LMP|Okay, we're there, Neil; by the time you can get down there and get your eyeball out the window - -
+135:06:02|O|CDR|Hey, what did you do with those numbers again?
+135:06:04|O|CMP|Oh, we'll crank them in the computer.
+135:06:07|O|CDR|Oh, I got them.
+135:06:11|O|CMP|Questioning the accuracy of the computer?
+135:06:17|O|CDR|...
+135:06:26|O|CMP|Okay, you satisfied with that?
+135:06:28|O|LMP|ENTER.
+135:06:31|O|CDR|Give me the numbers.
+135:06:32|O|LMP|151.9, CMC OPTICS ZERO, OFF, VERB 41, NOUN 91.
+135:06:40|O|CDR|You mean after I went to all this work of cranking those numbers in you're going to drive back to zero?
+135:06:46|O|LMP|We got PROGRAM ALARM and an OPERATOR ERROR.
+135:06:47|O|CDR|(Laughter)
+135:06:51|O|CMP|Christ.
+135:06:52|O|CDR|Give me the numbers, 151.9 and what?
+135:06:58|O|LMP|It won't pass with that number. 151.1 - 357.
+135:07:04|O|CDR|357, okay.
+135:07:19|O|CDR|357 and 151.1. There's supposed to be a star there.
+135:07:30|O|LMP|That's right, if you put them in - in the right order. That 151.1 is shaft.
+135:07:38|O|CDR|Yes. I got a star in the - in the sextant.
+135:07:41|O|CDR|Good, it passes. Let's press on.
+135:07:44|O|CMP|I'm not sure it's Gienah.
+135:07:47|O|CDR|Well, good. There'll be no way of telling - You got 16 minutes until TIG. Did it pass?
+135:07:54|O|LMP|OPTICS ZERO - -
+135:07:55|O|CMP|OPTICS ZERO and MANUAL. The mode is manual already, isn't it? Okay?
+135:08:02|O|LMP|Alright. VERB 37, ENTER; 40, ENTER. Okay.
+135:08:13|O|CDR|Okay, BMAG MODE, three, to RATE 2.
+135:08:16|O|CMP|BMAG MODE, three, to RATE 2.
+135:08:19|O|CDR|SPACECRAFT CONTROL, CMC, AUTO.
+135:08:21|O|CMP|CMC, AUTO.
+135:08:26|O|CDR|Proceed.
+135:08:28|O|CMP|I'll proceed with this ...
+135:08:31|O|LMP|Huh? ... Don't you like this one? Alright.
+135:08:36|O|CMP|Let's not proceed.
+135:08:37|O|LMP|Alright. Stand by. Align spacecraft in roll. Already there.
+135:08:45|O|LMP|GDC align.
+135:08:47|O|CMP|Okay, that's a good one. One - standby 1, and I'll get that.
+135:09:36|O|CMP|Okay. GDC aligned.
+135:09:42|O|LMP|Circuit breakers: STABILIZATION CONTROL, panel 8, CLOSED.
+135:09:46|O|CMP|STABILIZATION CONTROL circuit breakers are CLOSED.
+135:09:55|O|LMP|Okay. SPS circuit breakers - eight of them, CLOSED. Twelve of them closed.
+135:10:00|O|CMP|SPS, 12 of them closed - 2, 4, 6, 8, 10, 12, CLOSED. Okay.
+135:10:18|O|CDR|...
+135:10:23|O|CMP|Say again.
+135:10:25|O|LMP|I lost my clip. ATT DEADBAND, MINIMUM.
+135:10:28|O|CMP|ATT DEADBAND, MINIMUM.
+135:10:30|O|LMP|RATE, LOW.
+135:10:31|O|CMP|RATE, LOW.
+135:10:32|O|LMP|LIMIT CYCLE, ON.
+135:10:33|O|CMP|Okay.
+135:10:34|O|LMP|MAN ATT, three - RATE COMMAND.
+135:10:37|O|CMP|MANUAL ATTITUDE, three, to RATE COMMAND. They are.
+135:10:44|O|LMP|BMAG MO - BMAG MODE, three, to RATE 2.
+135:10:49|O|CMP|BMAG MODE, three, to RATE 2.
+135:10:54|O|LMP|ROTATIONAL CONTROL POWER, DIRECT, two of them, OFF.
+135:10:56|O|CMP|Okay; OFF, OFF.
+135:10:58|O|LMP|SCS TVC, two, to RATE COMMAND.
+135:11:02|O|CMP|RATE COMMAND, RATE COMMAND.
+135:11:04|O|LMP|TVC GIMBAL DRIVE, PITCH and YAW, to AUTO.
+135:11:08|O|CMP|AUTO, AUTO.
+135:11:12|O|LMP|What's the time?
+135:11:14|O|CMP|We have 12 minutes to go.
+135:11:57|O|CMP|Got the HELIUM VALVES, AUTO and barber pole.
+135:12:01|O|LMP|I'll get those.
+135:12:02|O|CMP|Okay. I was just wondering if they were on – not questioning your checklist, just out of curiosity.
+135:12:32|O|LMP|You going to pitch up after the burn?
+135:12:36|O|CMP|Sounds like a good idea; let's look at the moon after the burn.
+135:12:41|O|LMP|That'll give us high-gain, right?
+135:12:44|O|CMP|Check.
+135:12:55|O|CMP|Okay, 10 minutes until TIG.
+135:12:58|O|LMP|Alright.
+135:13:13|O|LMP|It's hot in here, isn't it?
+135:13:19|O|CMP|... boiling any water.
+135:13:23|O|LMP|You do it all?
+135:13:24|O|CMP|No.
+135:13:30|O|LMP|It's not too hot, it's 65.
+135:13:34|O|CMP|Those temperatures are deceptive. I don't know where they measure it, but the cold point is -
+135:13:39|O|CDR|Okay. Sunrise, now 10 minutes prior to TIG; I should have the horizon on the 10-degree line, huh?
+135:13:46|O|CDR|No, 2 degrees - 2 minutes.
+135:13:48|O|CMP|2 minutes; that's more like it, there.
+135:14:03|O|CMP|... this COAS as far as steering and everything goes, it's hopeless.
+135:14:12|O|CDR|...
+135:14:14|O|CMP|I'm graphically reminded of it at this moment. Ah-ha, I see a horizon.
+135:14:24|O|CDR|It looks like we are going forward (laughter).
+135:14:28|O|CMP|Shades of Gemini.
+135:14:31|O|CDR|It is most important that we be going forward (laughter).
+135:14:42|O|CDR|There's only one really bad mistake you can make there.
+135:14:52|O|CMP|Shades of Gemini retrofire, are you sure we're - (laughter) - No, let 's see - the motors point this way and the gases escape that way, therefore imparting a thrust that-a-way.
+135:15:05|O|CMP|Yes, horizon looks good.
+135:15:08|O|CMP|Okay, we got 8-1/2 to TIG.
+135:15:31|O|CMP|Somewhere along the line, I think I'll trim this maneuver just for the hell of it. Would this be a good time to do it, Buzz, at 8 minutes prior? You don't care when I do it, do you?
+135:15:37|O|LMP|No, it probably would be after we - when the gimbals are out.
+135:15:40|O|CMP|Oh, yes, alright. Okay.
+135:15:49|O|CMP|Beautiful looking horizon, it's hard to describe.
+135:15:52|O|LMP|We can see it if we look through that thing you have.
+135:15:55|O|CMP|It's worth seeing. ... god, it has an eerie look to it. It's not a horizon, it's just a band.
+135:16:05|O|CMP|You won't be able to see it, Neil, ...
+135:16:10|O|CDR|Which way?
+135:16:11|O|CMP|This way. Plus X ...
+135:16:16|O|CMP|It was really eerie when it first came - -
+135:16:19|O|LMP|You got to look through the part of the window that isn't -
+135:16:21|O|CDR|Yes. And the way the terminator is, you don't see the whole Moon at all, you just see a - -
+135:16:26|O|CDR|I know, I was looking at it upside down for a while.
+135:16:29|O|CDR|Yes, and then that scares you, because that says you're going retrograde, right? Well, let's see, if it's upside down, you're going backwards.
+135:16:35|O|LMP|Yes.
+135:16:40|O|CMP|Okay, it looks good, I'll tell you.
+135:16:46|O|CMP|Alright, we'recoming up on bus tie time; we've got a little over 6:50 until TIG.
+135:17:08|O|CDR|Ready for the bus ties.
+135:17:09|O|CMP|Yes, sir. Whenever you are; it's about 6 minutes.
+135:17:12|O|LMP|... ON, verified.
+135:17:16|O|CMP|Okay.
+135:17:17|O|LMP|..., ON. ... and a half.
+135:17:24|O|CMP|Alright.
+135:17:28|O|LMP|Okay. TVC SERVO POWER 1 to AC1.
+135:17:32|O|CMP|1 to AC1.
+135:17:34|O|LMP|2 to AC2.
+135:17:35|O|CMP|2 to AC2.
+135:17:36|O|LMP|TRANSLATIONAL CONTROL POWER, ON.
+135:17:38|O|CMP|ON.
+135:17:39|O|LMP|ROTATION CONTROL POWER, NORMAL, number 2, AC.
+135:17:42|O|CMP|AC.
+135:17:45|O|LMP|Arm ROTATION CONTROLLER, number 2.
+135:17:48|O|CMP|ARMED. So far, so good.
+135:18:00|O|CMP|Okay. When do you want the gimbal motors on?
+135:18:02|O|LMP|Oh, at about 5-1/2 minutes.
+135:18:06|O|CMP|Okay, that's right now.
+135:18:07|O|LMP|Right now?
+135:18:08|O|CMP|Yes.
+135:18:09|O|LMP|Okay.
+135:18:10|O|CMP|Here comes PITCH 1, ready?
+135:18:11|O|LMP|No.
+135:18:11|O|CMP|Wait a minute. Okay.
+135:18:14|O|LMP|Go. PITCH 1.
+135:18:14|O|CMP|PITCH 1 -
+135:18:15|O|CMP|MARK it.
+135:18:16|O|LMP|Got it.
+135:18:17|O|CMP|YAW 1 -
+135:18:18|O|CMP|MARK it.
+135:18:19|O|LMP|Got it.
+135:18:21|O|CMP|Okay.
+135:18:22|O|LMP|TRANSLATION CONTROLLER, clockwise.
+135:18:25|O|CMP|Clockwise.
+135:18:26|O|LMP|Verify no MTVC.
+135:18:30|O|CMP|Verified.
+135:18:34|O|LMP|GIMBAL MOTORS, PITCH 2, YAW 2, OFF.
+135:18:36|O|CMP|PITCH 2 -
+135:18:37|O|CMP|MARK it.
+135:18:38|O|LMP|Got it.
+135:18:39|O|CMP|YAW 2 -
+135:18:40|O|CMP|MARK it.
+135:18:41|O|LMP|Got it.
+135:18:41|O|CMP|Okay.
+135:18:42|O|LMP|Set GPI trim.
+135:18:44|O|CMP|Alright, where are they on this pad? Let's see, that's plus - -
+135:18:48|O|CDR|Minus - on pitch, minus 0.6.
+135:18:51|O|CMP|Okay, minus 0.6. Very good.
+135:18:55|O|CDR|Plus 66.
+135:18:57|O|CMP|And plus 6 - -
+135:18:58|O|CDR|0.6.
+135:18:59|O|CMP|Okay, Neil, those look good to you? They look good to me. ...
 135:19:00|T||BEGIN LUNAR REV 31
-135:19:00|O|LMP|CDR
-135:19:00|P|PAO|This is Apollo Control. We're now less than 30 seconds from the time in which trans-Earth injection is scheduled, the burn to start Apollo 11 on its trajectory back to Earth. We're now 15 seconds from the scheduled ignition time. That burn will last about 2 minutes 28 seconds and consume 10,000 pounds of propellant. The crew should be burning at this time. Of course, that maneuver is performed on the back side of the Moon. We have no data from the spacecraft here in Mission Control at this time. We won't know how the burn went for about another ten minutes, which is the time of which we're scheduled to reacquire Apollo 11. During the course of this burn the spacecraft will increase its speed by about 3280 feet per second, or about 2240 miles per hour.
-135:19:00|P|PAO|Trans-Earth injection should be completed in about 10 seconds from now. And we should have shut-down at this time. At this point Apollo 11 should be traveling at a speed of about 8660 feet per second, or about 5900 miles per hour. It should be on its way back to Earth, headed for Splashdown in the Pacific Ocean at 195 hours 18 minutes. With a successful burn we should reacquire Apollo 11 in 7 minutes 20 seconds from now.
-135:19:02|O|CDR|Okay. GPI set. Verify MTVC.
-135:19:09|O|CMP|Okay. MTVC verified; I'm on trim now.
-135:19:18|O|CDR|Proceed to trim.
-135:19:20|O|LMP|Does it look to you like the ... the right way?
-135:19:24|O|CMP|Yes.
-135:19:27|O|LMP|Alright. ... we're coming up on ... out to your right.
-135:19:30|O|CMP|Okay.
-135:19:33|O|CDR|Okay, verify MTVC.
-135:19:36|O|CMP|Verified.
-135:19:37|O|CDR|TRANSLATION CONTROLLER, NEUTRAL.
-135:19:38|O|CMP|NEUTRAL.
-135:19:39|O|CDR|GPI return to zero, zero.
-135:19:40|O|CMP|It does.
-135:19:41|O|CDR|ROT CONTROL POWER, NORMAL, number 2, to AC/DC.
-135:19:44|O|CMP|AC/DC.
-135:19:45|O|CDR|SPACECRAFT CONTROL, CMC.
-135:19:47|O|CMP|CMC.
-135:19:48|O|LMP|Trim.
-135:19:49|O|CMP|We did.
-135:19:51|O|CDR|Okay. BMAG MODE, three, to ATT 1/RATE 2.
-135:19:53|O|CMP|ATT 1/RATE 2.
-135:19:55|O|LMP|ENTER.
-135:19:56|O|CMP|ENTER.
-135:19:58|O|CDR|Verify CMC.
-135:19:59|O|CMP|CMC verified; AUTO verified.
-135:20:00|O|LMP|Proceed.
-135:20:02|O|CDR|Okay, for the GIMBAL DRIVE. Up, down, zero. Up, down, zero. Okay, standing by for P-AX, OFF, and the Y-AX, OFF –
-135:20:19|O|CDR|MARK it.
-135:20:21|O|CDR|Good trim.
-135:20:23|O|LMP|ROTATIONAL CONTROL POWER, DIRECT, two, MAIN A/MAIN B.
-135:20:26|O|CMP|MAIN A/MAIN B.
-135:20:28|O|LMP|SPS HELIUM VALVES, two of them, verified AUTO; LIMIT CYCLE, OFF.
-135:20:34|O|CMP|Okay, LIMIT CYCLE's OFF.
-135:20:36|O|LMP|FDAI SCALE, 50/15.
-135:20:38|O|CMP|50/15.
+135:19:03|O|CMP|Okay. GPI set.
+135:19:09|O|LMP|Verify MTVC.
+135:19:11|O|CMP|Okay. MTVC verified; I'm on trim now. Proceed to trim.
+135:19:22|O|LMP|Does it look to you like the ... the right way?
+135:19:25|O|CDR|Yes.
+135:19:29|O|LMP|Alright. ... we're coming up on ... out to your right. Okay.
+135:19:35|O|CMP|Okay.
+135:19:36|O|LMP|Verify MTVC.
+135:19:37|O|CMP|Verified.
+135:19:38|O|LMP|TRANSLATION CONTROLLER, NEUTRAL.
+135:19:39|O|CMP|NEUTRAL.
+135:19:40|O|LMP|GPI return to zero, zero.
+135:19:41|O|CMP|It does.
+135:19:43|O|LMP|ROT CONTROL POWER, NORMAL, number 2, to AC/DC.
+135:19:46|O|CMP|AC/DC.
+135:19:47|O|CDR|SPACECRAFT CONTROL, CMC.
+135:19:48|O|CMP|CMC.
+135:19:49|O|LMP|Trim.
+135:19:50|O|CMP|We did.
+135:19:52|O|LMP|Okay. BMAG MODE, three, to ATT 1/RATE 2.
+135:19:54|O|CMP|ATT 1/RATE 2.
+135:19:57|O|LMP|ENTER.
+135:19:58|O|CMP|ENTER.
+135:19:59|O|LMP|Verify CMC.
+135:20:01|O|CMP|CMC verified; AUTO verified.
+135:20:03|O|LMP|Proceed.
+135:20:03|O|CMP|Okay, for the GIMBAL DRIVE. Up, down, zero. Up, down, zero. Okay, standing by for P-AX, OFF, and the Y-AX, OFF –
+135:20:21|O|CMP|MARK it.
+135:20:24|O|CMP|Good trim.
+135:20:24|O|LMP|ROTATIONAL CONTROL POWER, DIRECT, two, MAIN A/MAIN B.
+135:20:28|O|CMP|MAIN A/MAIN B.
+135:20:29|O|LMP|SPS HELIUM VALVES, two of them, verified AUTO; LIMIT CYCLE, OFF.
+135:20:35|O|CMP|Okay, LIMIT CYCLE's OFF.
+135:20:37|O|LMP|FDAI SCALE, 50/15.
+135:20:39|O|CMP|50/15.
 135:20:42|O|LMP|Okay, wait for 2 minutes for DELTA-V THRUST A.
-135:20:46|O|CDR|2 minutes to get our horizon check at 10 degrees.
-135:20:48|O|LMP|Yes, and - sneaking up on there, looks pretty darn good. Looks like we're darn near right.
-135:21:10|O|CDR|Just about midnight in Houston town.
-135:21:15|O|CMP|Yes.
-135:21:16|O|LMP|Okay, coming up on 2 minutes, and this damn horizon check is going to be, would you believe, perfect?
-135:21:23|O|CDR|I hope so.
-135:21:24|O|LMP|Fantastic. First time we ever got a perfect horizon check. Spent too many hours in the simulator looking for an unreal horizon. Alright, horizon check passes.
-135:21:37|O|CMP|Beautiful.
-135:21:38|O|LMP|2 minutes - -
-135:21:39|O|CDR|DELTA-V THRUST A - -
-135:21:40|O|CMP|NORMAL.
-135:21:41|O|CDR|- - DELTA-V - -
-135:21:42|O|LMP|TRANSLATION CONTROLLER, ARMED.
-135:21:43|O|CDR|- - okay, DELTA-V THRUST A, NORMAL; stand by for a malfunction - it's not there. Very good.
-135:21:49|O|CMP|Probably get the sun in your window on that burn.
-135:21:51|O|CDR|Yes, I believe it.
-135:21:52|O|CMP|The sun - -
-135:21:53|O|LMP|ROTATIONAL HAND CONTROLLER, number 2, ARMED.
-135:21:58|O|CMP|ROTATIONAL HAND CONTROLLER, number 2, is ARMED.
-135:22:01|O|CDR|Alright.
+135:20:48|O|CDR|2 minutes to get our horizon check at 10 degrees.
+135:20:50|O|CMP|Yes, and it's sneaking up on there, looks pretty darn good. Looks like we're darn near there.
+135:20:59|O|LMP|...
+135:21:12|O|CDR|Just about midnight in Houston town.
+135:21:16|O|CMP|Yes.
+135:21:17|O|CMP|Okay, coming up on 2 minutes, and this damned horizon check is going to be, would you believe, perfect?
+135:21:24|O|LMP|I hope so.
+135:21:25|O|CMP|Fantastic. First time we ever got a perfect horizon check. Spent too many hours in the simulator looking for an unreal horizon. Alright, horizon check passes.
+135:21:38|O|LMP|Beautiful.
+135:21:39|O|CMP|2 minutes. DELTA-V THRUST A - -
+135:21:41|O|LMP|NORMAL.
+135:21:43|O|CMP|- - DELTA-V - -
+135:21:43|O|LMP|TRANSLATION CONTROLLER, ARMED.
+135:21:45|O|CMP|- - okay, DELTA-V THRUST A, NORMAL; stand by for a malfunction - it's not there. Very good.
+135:21:50|O|CDR|Probably get the Sun in your window on that burn.
+135:21:52|O|CMP|Yes, I believe it.
+135:21:54|O|CMP|The sun - -
+135:21:54|O|LMP|ROTATIONAL HAND CONTROLLER, number 2, ARMED.
+135:21:59|O|CMP|ROTATIONAL HAND CONTROLLER, number 2, is ARMED.
+135:22:02|O|CDR|Alright.
 135:22:04|O|CMP|Ullage is going to be 16 seconds at 2 JETS.
-135:22:07|O|LMP|TAPE RECORDER is going to COMMAND RESET on the HIGH BIT RATE.
-135:22:25|O|CMP|Got to go from STANDBY to NORMAL.
-135:22:28|O|LMP|I'll do that in 35 seconds.
-135:22:29|O|CDR|Ullage is 16 seconds, 2 JETS.
-135:22:30|O|CMP|16 seconds, 2 JETS, confirmed.
-135:22:40|O|CMP|Coming up on 1 minute -
-135:22:42|O|CMP|MARK it.
-135:23:03|O|CMP|Okay, stand by for 35 seconds.
-135:23:07|O|CMP|MARK it -
+135:22:09|O|LMP|TAPE RECORDER is going to COMMAND RESET on the HIGH BIT RATE.
+135:22:25|O|CMP|Ive got to go from STANDBY to NORMAL. I'll do that in 35 seconds.
+135:22:29|O|LMP|Ullage is 16 seconds, 2 JETS.
+135:22:31|O|CMP|16 seconds, 2 JETS, confirmed. Circuit breakers are staying in. Everything looks good.
+135:22:41|O|CMP|Coming up on 1 minute -
+135:22:43|O|CMP|MARK it.
+135:23:04|O|CMP|Okay, stand by for 35 seconds.
+135:23:08|O|CMP|MARK it -
 135:23:08|O|CMP|DSKY blanks; EMS is in NORMAL.
-135:23:13|O|LMP|Check.
-135:23:17|O|CMP|Coming up on 15 seconds.
-135:23:18|O|CDR|Okay, I'll get the 99.
-135:23:23|O|CMP|Okay. Stand by - -
-135:23:24|O|CDR|... valve?
+135:23:15|O|LMP|Check.
+135:23:16|P|PAO|This is Apollo Control. We're now less than 30 seconds from the time in which transearth injection is scheduled, the burn to start Apollo 11 on its trajectory back to Earth. We're now 15 seconds from the scheduled ignition time. That burn will last about 2 minutes 28 seconds and consume 10,000 pounds of propellant. The crew should be burning at this time. Of course, that maneuver is performed on the back side of the Moon. We have no data from the spacecraft here in Mission Control at this time. We won't know how the burn went for about another ten minutes, which is the time of which we're scheduled to reacquire Apollo 11. During the course of this burn the spacecraft will increase its speed by about 3280 feet per second, or about 2240 miles per hour.
+135:19:02|P|PAO|Trans-Earth injection should be completed in about 10 seconds from now. And we should have shut-down at this time. At this point Apollo 11 should be traveling at a speed of about 8,660 feet per second, or about 5,900 miles per hour. It should be on its way back to Earth, headed for Splashdown in the Pacific Ocean at 195 hours 18 minutes. With a successful burn we should reacquire Apollo 11 in 7 minutes 20 seconds from now.
+135:23:17|O|LMP|Coming up on 15 seconds.
+135:23:19|O|CMP|Okay, I'll get the 99, Neil.
+135:23:21|O|CDR|Okay.
+135:23:24|O|CMP|Okay. Stand by - -
+135:23:25|O|CDR|... valve?
 135:23:25|O|CMP|- - stand by for ullage. Ullage.
-135:23:28|O|LMP|Got the ullage.
-135:23:42|O|MS|... 5, 4, 3, 2 -
+135:23:29|O|LMP|Got the ullage.
+135:23:36|O|LMP|... 5, 4, 3, 2 -
 135:23:44|O|CMP|Burn! A good one. Nice - -
-135:23:45|O|LMP|I got two balls - -
-135:23:46|O|CMP|- - okay, here comes the other two - -
-135:23:47|O|LMP|- - barber pole, gray, the other two are on good.
-135:23:51|O|CMP|Man, that feels like g, doesn't it?
-135:23:56|O|LMP|I caught up - I caught up for a short while, but ...
-135:24:03|O|CMP|... pressures are good. Busy in steering, but it's holding right in there.
-135:24:13|O|LMP|How is it, Mike?
-135:24:19|O|CMP|It's really busy in roll, but it's holding in its deadband. Looks like it's holding instead of plus or minus 5, more like plus or minus 8 - It's possible that we have a roll-thruster problem, but if we have, it's taking it out. No point in worrying about it. Okay, coming up on 1 minute -
-135:24:44|O|CMP|MARK it -
-135:24:45|O|CMP|1 minute. Chamber pressure's holding right on 100.
-135:24:46|O|LMP|... time looks good.
-135:24:48|O|CMP|Gimbals look good; total attitude looks good. Rates are damped out - a little bit. Still a little busy, light ...
-135:25:01|O|CDR|... still ahead.
-135:25:08|O|CDR|Should I be going ...?
-135:25:11|O|CMP|Follow the needle; follow the needle ... Take it off. Okay. Looking good.
-135:25:21|O|LMP|This was ... - -
-135:25:22|O|MS|...
+135:23:46|O|LMP|I got two balls - -
+135:23:47|O|CMP|- - okay, here comes the other two - -
+135:23:48|O|LMP|- - barber pole, gray, the other two are on good.
+135:23:52|O|CMP|Man, that feels like g, doesn't it?
+135:23:57|O|LMP|I caught up - I caught up for a short while, but ...
+135:24:02|O|CDR|... pretty good. Tank pressures are good. ...
+135:24:07|O|CMP|Busy in steering, but it's holding right in there.
+135:24:14|O|LMP|...
+135:24:20|O|CMP|It's really busy in roll, but it's holding in its deadband. Looks like it's holding instead of plus or minus 5, more like plus or minus 8 - It's possible that we have a roll-thruster problem, but if we have, it's taking it out. No point in worrying about it. Okay, coming up on 1 minute -
+135:24:43|O|CMP|MARK it -
+135:24:44|O|CMP|1 minute. Chamber pressure's holding right on 100.
+135:24:47|O|LMP|... time looks good.
+135:24:48|O|CMP|Gimbals look good; total attitude looks good. Rates are damped out - a little bit. Still a little busy, light vehicle. Light vehicle.
+135:25:03|O|LMP|... still ahead.
+135:24:05|O|CMP|Still busy in roll.
+135:25:09|O|CDR|Should I be going ...?
+135:25:12|O|CMP|Follow the needle; follow the needle ... Take it off. Okay. Looking good.
+135:25:22|O|LMP|This was ... - -
+135:25:23|O|MS|...
 135:25:24|O|CMP|How's that nitrogen pressure? Okay?
-135:25:25|O|CDR|Yes.
-135:25:26|O|CMP|Good.
-135:25:36|O|CDR|... pressures are GO.
-135:25:42|O|CMP|2 minutes -
+135:25:26|O|CDR|Yes.
+135:25:27|O|CMP|Good.
+135:25:33|O|CDR|... pressures are GO.
+135:25:43|O|CMP|2 minutes -
 135:25:43|O|CMP|MARK it -
 135:25:45|O|CMP|Hits the end of that roll deadband, it really comes crisply back.
-135:25:55|O|CMP|Okay, chamber pressure's falling off a little bit; now it's going back up; chamber pressure's oscillating just a tad.
+135:25:56|O|CMP|Okay, chamber pressure's falling off a little bit; now it's going back up; chamber pressure's oscillating just a tad.
 135:26:04|O|CDR|10 seconds left, ... - -
-135:26:05|O|CMP|We don't care about the chamber pressure, ... watch yourself for - brace yourself - Standing by for ENGINE, OFF.
-135:26:11|O|CDR|It should be shutdown now.
+135:26:05|O|CMP|Okay. We don't care about the chamber pressure, ... watch yourself for - brace yourself - Standing by for ENGINE, OFF.
+135:26:12|O|CDR|It should be shutdown now.
 135:26:15|O|CMP|Okay?
 135:26:16|O|CDR|SHUTDOWN. 4 -
-135:26:18|O|LMP|... going to gray and barber pole.
-135:26:21|O|CMP|Okay?
-135:26:22|O|LMP|Okay.
-135:26:23|O|CMP|Let's look at what we got. DELTA-V TRRUST A and B are OFF - -
-135:26:26|O|LMP|A and B are OFF.
-135:26:27|O|CMP|- - SPS valves, CLOSED?
-135:26:29|O|LMP|Okay.
-135:26:30|O|CMP|Stand by for the GIMBAL MOTORS.
-135:26:31|O|LMP|Okay.
-135:26:32|O|LMP|PITCH 1, OFF -
-135:26:34|O|LMP|YAW 1, OFF.
-135:26:38|O|CMP|Got it.
-135:26:39|O|LMP|PITCH 2, OFF.
-135:26:41|O|CMP|Got it.
-135:26:42|O|LMP|YAW 2, OFF.
-135:26:44|O|CMP|Got it. TVC SERVO POWER 1 and 2 are OFF?
-135:26:47|O|LMP|OFF, OFF.
-135:26:50|O|CMP|MAIN BUS TIE's coming ON - okay.
+135:26:19|O|LMP|... going to gray and barber pole.
+135:26:22|O|CMP|Okay?
+135:26:23|O|CDR|Okay.
+135:26:24|O|LMP|Let's look at what we got. DELTA-V THRUST A and B are OFF - -
+135:26:27|O|CMP|A and B are OFF.
+135:26:27|O|LMP|- - SPS valves, CLOSED?
+135:26:30|O|LMP|Okay. Stand by for the GIMBAL MOTORS.
+135:26:32|O|CMP|Okay. PITCH 1, OFF -
+135:26:37|O|CMP|YAW 1, OFF.
+135:26:39|O|LMP|Got it.
+135:26:40|O|CMP|PITCH 2, OFF.
+135:26:42|O|LMP|Got it.
+135:26:43|O|CMP|YAW 2, OFF.
+135:26:45|O|LMP|Got it. TVC SERVO POWER 1 and 2 are OFF?
+135:26:48|O|CMP|OFF, OFF.
+135:26:50|O|LMP|MAIN BUS TIE's coming ON - okay.
 135:26:55|O|LMP|Proceed.
 135:26:59|O|CMP|Beautiful.
 135:27:02|O|CDR|X and - 0.2.
-135:27:06|O|CMP|X and Z, 0.2 -
-135:27:07|O|CDR|X and Z, good.
-135:27:08|O|CMP|F. Okay, and Z is down. Okay, then - you want to record those - five balls - -
+135:27:06|O|CDR|X and Z, 0.2 -
+135:27:07|O|CMP|X and Z, good.
+135:27:08|O|CMP|F. Okay, and Z is down. Okay, then those - you want to record those - five balls - -
 135:27:23|O|LMP|Let me record them - -
 135:27:24|O|CMP|- - five balls, plus 0.0, and I call it 0.8, it was hanging on 0.7 for a while, and it was zeroed and down. I'd give them - it was 0.1 down – plus 0.1. Now it's on zero, shit. Can't read those residuals; they dance all over the place.
 135:27:40|O|CDR|Okay, the residuals were 0.1, 3.9, and point - -
@@ -12924,24 +12929,24 @@
 135:27:55|O|CDR|EMS MODE to STANDBY.
 135:27:57|O|CMP|STANDBY.
 135:27:58|O|CDR|BMAG MODE, three, to RATE 2. DEADBAND, MAX - -
-135:28:01|O|CMP|Three to RATE 2; DEADBAND, MAX - -
-135:28:02|O|LMP|... OFF, ... OFF - -
-135:28:03|O|CDR|Got the burn time to be about 02:30. You in BIT RATE LOW?
+135:28:02|O|CMP|Three to RATE 2; DEADBAND, MAX - -
+135:28:06|O|LMP|... POWER OFF, ... OFF - -
+135:28:12|O|CDR|Got the burn time to be about 02:30. You in BIT RATE LOW?
 135:28:08|O|LMP|02:30 or 02:31 - -
 135:28:15|O|CMP|Okay. Let's go. ROTATIONAL CONTROL POWER, DIRECT, two of them, OFF?
 135:28:23|O|LMP|OFF, OFF. Good show.
 135:28:31|O|CMP|We want to pitch over, I guess. Don't know if it matters much which way.
-135:28:40|O|CDR|Oh, probably -up will be the best - -
+135:28:40|O|CDR|Oh, probably up will be the best - -
 135:28:44|O|LMP|Pitch up.
-135:28:46|O|CDR|- - to keep the moon in sight.
-135:28:49|O|CMP|Alright, is that ROTATIONAL CONTROL POWER, DIRECT, two of them, OFF?
-135:28:52|O|CDR|Yes, I do.
-135:28:53|O|CMP|Circuit breakers - SPS PITCH 1, PITCH 2, YAW 1, YAW 2, OPEN?
-135:28:56|O|CDR|They're open.
+135:28:44|O|CDR|- - to keep the moon in sight.
+135:28:49|O|LMP|Alright, is that ROTATIONAL CONTROL POWER, DIRECT, two of them, OFF?
+135:28:52|O|CMP|Yes, I do.
+135:28:53|O|LMP|Circuit breakers - SPS PITCH 1, PITCH 2, YAW 1, YAW 2, OPEN?
+135:28:56|O|CMP|They're open.
 135:28:58|O|CMP|Proceed.
-135:29:00|O|CDR|I think you did that already.
+135:29:00|O|CMP|I think you did that already.
 135:29:04|O|CMP|Hey, Neil, you want to proceed on these?
-135:29:05|O|CDR|Yes.
+135:29:06|O|CDR|Yes.
 135:29:06|O|CMP|Okay, where do we go, P00? To get the high-gain?
 135:29:11|O|CDR|We want - Yes, P00's good - and we want a VERB 48.
 135:29:16|O|LMP|Yes. Get in P00 and do a VERB 83.
@@ -12951,113 +12956,118 @@
 135:29:35|O|LMP|No - yes. VERB - oh, okay.
 135:29:38|O|CDR|Ah - -
 135:29:40|O|LMP|I don't know ... -
-135:29:41|O|CDR|Well, it says change spacecraft weight.
-135:29:44|O|CMP|DAP update. Yes - -
-135:29:45|O|CDR|You've got your - -
-135:29:46|O|CMP|- - 10101 does change - it has been changed. Okay, we've done that.
-135:29:52|O|CDR|...
+135:29:42|O|CDR|Well, it says change spacecraft weight.
+135:29:45|O|CMP|DAP update. Yes - -
+135:29:46|O|CDR|You've got your - -
+135:29:46|O|CMP|- - 101 is okay - it has been changed. Okay, we've done that.
+135:29:53|O|CDR|...
 135:29:53|O|CMP|... Service Module RCS - -
-135:29:55|O|LMP|I've done that. Done that.
+135:29:56|O|CDR|I've done that. Done that.
 135:29:56|O|CMP|Oh. Okay - -
 135:29:57|O|CDR|VERB 83.
-135:29:58|O|CMP|- - RCS monitors checked - (Laughter) Okay, here comes Buzz's baby - VERB 83 - de-dum-de-dum-de-dum. Operator error (laughter).
-135:30:08|O|LMP|... you don't know how to do it.
+135:29:57|O|CMP|- - RCS monitors checked - (Laughter) Okay, here comes Buzz's baby - VERB 83 - de-dum-de-dum-de-dum. Operator error (laughter).
+135:30:07|O|LMP|... you don't know how to do it.
 135:30:09|O|CMP|(Laughter)
-135:30:13|O|LMP|Look at that, would you? Look at that.
-135:30:14|O|CMP|Isn't that beautiful?
-135:30:15|O|CDR|Pretty good.
+135:30:13|O|LMP|Look at that, would you? Look at that. Isn't that beautiful?
+135:30:16|O|CDR|Pretty good.
 135:30:16|O|CMP|A thing of beauty is a joy forever.
 135:30:22|O|LMP|Alright, now call the VERB 89 in and see which way that - -
 135:30:25|O|CMP|Oh, come on, you're not serious.
 135:30:45|O|LMP|... know to find out which way the ... is -
 135:30:49|O|CMP|Okay.
-135:30:50|O|LMP|- - you were wrong. ...
-135:31:07|O|CMP|Okay, we got to visually acquire moon, take pictures, and then you got a P52 to do.
+135:30:51|O|LMP|- - you were wrong. ...
+135:31:07|O|CDR|Okay, we got to visually acquire moon, take pictures, and then you got a P52 to do.
 135:31:15|O|CDR|... some unknown reason - -
-135:31:17|O|LMP|We haven't got any damned program ready to call up. ... It's the only way you can do it. Supposed to do a VERB 66 and then put numbers ... apogee ... and then look at altitude and altitude rate - -
+135:31:16|O|LMP|We haven't got any damned program ready to call up. ... It's the only way you can do it. Supposed to do a VERB 66 and then put numbers ... apogee ... and then look at altitude and altitude rate - -
 135:31:34|O|CDR|What are you doing, Mike? What you taking pictures of -
 135:31:40|O|CMP|Oh, I don't know. Wasting film, I guess.
 135:31:43|O|CDR|You can take some pretty good pictures out of the hatch, here.
-135:31:46|O|CMP|You're right. This crapping thing - ... set on f:4 or 5.6; that's probably about right.
-135:31:57|O|LMP|Here's a ring that came from somewhere; I wonder where (singing).
-135:32:04|O|CDR|You want to take pictures over here? Go ahead, why don't you just set up that - -
-135:32:07|O|CMP|I'll check window 3.
-135:32:10|O|CDR|- - set up that tape and let it do its thing; it's still got a long way to go for ...
-135:32:15|O|LMP|Alright, now, do we want black and white, color, 250, or 80? I've got all options over here.
-135:32:19|O|CDR|Oh, we'll probably want - How many cameras you got?
+135:31:46|O|CMP|You're right. This crapping thing - god dammit ... set on f:4 or 5.6; that's probably about right.
+135:31:57|O|LMP|Here's a ring that came from somewhere
+135:32:02|O|CDR|I wonder where (singing).
+135:32:04|O|CMP|You want to take pictures over here? Go ahead, why don't you just set up that - -
+135:32:07|O|LMP|I'll check window 3.
+135:32:09|O|CMP|- - set up that tape and let it do its thing; it's still got a long way to go for ...
+135:32:14|O|CMP|Alright, now, do we want black and white, color, 250, or 80? I've got all options over here.
+135:32:18|O|CDR|Oh, we'll probably want - How many cameras you got?
 135:32:21|O|LMP|Let me have a camera. How many cameras?
-135:32:23|O|CMP|Well, only one camera, but I've got ... lenses.
-135:32:28|O|LMP|You're a poor ...
-135:32:29|O|CDR|Well, let's take some color, and -
-135:32:38|O|CMP|Want the 80, right? On this one?
+135:32:22|O|CMP|Well, only one camera, but I've got ... lenses.
+135:32:27|O|LMP|You're a poor ...
+135:32:28|O|CDR|Well, let's take some color, and -
+135:32:37|O|CMP|Want the 80, right? On this one?
 135:32:46|O|LMP|Yes, I think you want to get - -
-135:32:49|O|CMP|Let me know when I'm in a - in a good attitude to stop this pitch. How about right now?
+135:32:48|O|CMP|Let me know when I'm in a - in a good attitude to stop this pitch. How about right now?
 135:32:54|O|CDR|Stop. What are you doing?
 135:32:56|O|CMP|I'm rolling.
 135:32:58|O|LMP|What for? What do you want to roll for?
-135:33:00|P|PAO|This is Apollo Control. We're now less than 1 minute from reacquiring Apollo 11. When last we heard from the spacecraft all systems were looking very good and we were in very good shape for the transearth injection maneuver. At this point Apollo 11 should be about 10,000 pounds lighter and on its way back to Earth. We're now 32 seconds from reacquiring. We'll stand by for communications with the spacecraft.
-135:33:00|P|PAO|And there's the cue, we have acquisition of signal. And we have data right on schedule. Rog. Zero minus 0.7 minus 0.2.
-135:33:00|P|PAO|Most of the conversations so far has been from Neil Armstrong and Mike Collins. That last comment came from Collins. Our first report after acquisition was from Neil Armstrong. That transearth injection burn was very close to nominal. At this time we show the spacecraft traveling at a speed of 7,603 feet per second. The velocity already beginning to drop off and we're at an altitude of 445 nautical miles now from the Moon. This is Apollo Control. We now show the spacecraft traveling at 7,378 feet per second. Altitude 568 nautical miles. The next order of business will
-135:33:00|P|PAO|be to get the crew to sleep. Flight Director, Gene Kranz, requested his Flight Controllers, prior to acquisition of signal to review their procedures and to take as many steps as possible to get the crew to sleep as soon as possible. There will be a press conference in the building 1 auditorium. We estimate the time on that at about 12:300 Central Daylight Time. And our LM telecommunications engineer reports that we've just had acquisition of signal from Eagle which is still in lunar orbit. The last fix that we had on Eagle's orbit showed an apogee of 64. 1 and a para - apocynthion rather of 64. 1 and a pericynthion of 64.4 nautical miles. The spacecraft altitude is now climbed to almost 700 nautical miles from the Moon. We show a weight of 26,510 pounds. About 10,000 pounds less than what we had actually about 1100 or 11,000 pounds - lets correct that - about 10,100 pounds less than what we had prior to the transearth injection burn.
-135:33:02|O|CMP|I was off in roll; I'm taking it back to where I should have been. This is a pretty good attitude right here, looks to me -
-135:33:14|O|LMP|Alright, I've seen enough of VERB 83, Mike - -
-135:33:16|O|CMP|Here you go.
-135:33:20|O|LMP|- - unless you want to call a VERB 89.
+135:33:13|P|PAO|This is Apollo Control. We're now less than 1 minute from reacquiring Apollo 11. When last we heard from the spacecraft all systems were looking very good and we were in very good shape for the transearth injection maneuver. At this point Apollo 10 - Apollo 11 should be about 10,000 pounds lighter and on its way back to Earth. We're now 32 seconds from reacquiring. We'll stand by for communications with the spacecraft.
+135:33:13|O|LMP|Alright, I've seen enough of VERB 83, Mike - -
+135:33:17|O|CMP|Here you go.
+135:33:19|O|LMP|- - unless you want to call a VERB 89.
 135:33:24|O|CMP|Not me; I'd rather take pictures.
-135:33:32|O|CDR|What time is AOS?
-135:33:35|O|LMP|Haven't the foggiest.
+135:33:31|O|CDR|What time is AOS?
+135:33:34|O|LMP|Haven't the foggiest.
 135:33:36|O|CMP|It's 135:34.
-135:33:40|O|CDR|That's right now.
-135:33:42|O|LMP|Give me a VERB 51.
+135:33:39|O|CDR|That's right now.
+135:33:41|O|LMP|Give me a VERB 51.
 135:33:55|O|CDR|Anybody got any choice greetings they want to make to Houston?
-135:33:58|O|CMP|No, I - the best burn I've ever seen in my life, I'll tell you. I guess you guys have seen two good ones today.
-135:34:09|O|LMP|Oh, a couple.
-135:34:11|O|CMP|Yes, more than two. AOS.
-135:34:34|O|LMP|Yes, we sure as hell have.
-135:34:38|O|CDR|Get the burn status.
-135:34:41|O|LMP|Hey, I hope somebody's getting the picture of the Earth coming up.
-135:34:44|O|CMP|... Not quite pitched far enough. Well, maybe I can get it out - -
-135:34:53|O|CDR|I can get around to here.
-135:34:54|O|CMP|- - your window.
-135:34:57|O|CDR|Upside down; turn the camera upside down; then it'll look right.
-135:35:14|T|CC|Hello Apollo 11. Houston. How did it go? Over.
-135:35:22|T|CMP|Time to open up the LRL doors, Charlie.
-135:35:25|T|CC|Roger. We got you coming home. It's well stocked.
-135:35:33|T|CDR|Okay, Burn status: DELTA-TIG was zero, burn time was 2 plus 30. PAD angles: DELTA VGX after trim was 0.1, VGY 0.9, VGZ 0.1. DELTA-VC minus 17.9, fuel 10.6, OX 10.4, unbalance minus 50.
-135:36:01|T|CC|Roger. Copy, Neil. Sounds good to us.
-135:36:16|T|CC|And Apollo 11, Houston. All your systems look real good to us. We'll keep you posted.
-135:36:27|T|CDR|Roger.
-135:36:28|T|CDR|Hey, Charlie boy, looking good here. That was a beautiful burn. They don't come any finer.
-135:36:31|T|CC|Roger.
-135:36:48|T|CC|Apollo 11, Houston. I wondered if you've compared your state vector accuracy with the one in the LM flights? Over.
-135:36:59|T|CDR|Yes, sir, and it looked very nice. VERB 83 was plus 00070 and minus 00008.
-135:37:10|T|CC|Roger.
-135:37:38|T|CC|11, Houston. I was looking at your bank Bravo nitrogen tank. It didn't leak a bit - correction - didn't leak a bit this time. Over.
-135:37:51|T|CDR|Roger. Looked good here.
-135:37:53|T|CMP|Chamber pressure was hanging in there around 100. The latter part, of the burn it started oscillating a little bit and got down a little bit below 100.
-135:37:59|T|CC|Roger.
-135:38:00|T|CMP|96 or so.
+135:33:59|O|CMP|No, I - the best burn I've ever seen in my life, I'll tell you. I guess you guys have seen two good ones today.
+135:34:08|O|LMP|Oh, a couple.
+135:34:09|O|CMP|Yes, more than two.
+135:34:13|O|LMP|AOS.
+135:34:17|P|PAO|And there's the cue, we have acquisition of signal.
+135:33:01|O|CMP|I was off in roll; I'm taking it back to where I should have been. This is a pretty good attitude right here, looks to me -
+135:34:34|O|LMP|There, we sure as hell have.
+135:34:37|O|LMP|Get the burn status.
+135:34:40|O|LMP|Hey, I hope somebody's getting the picture of the Earth coming up.
+135:34:44|O|CDR|... Not quite pitched far enough. Well, maybe I can get it out - -
+135:34:45|P|PAO|And we have data right on schedule. Rog. Zero minus 0.7 minus 0.2.
+135:34:50|O|LMP|I can get around to here.
+135:34:51|O|CDR|- - your window.
+135:34:56|O|CDR|Upside down; turn the camera upside down; then it'll look right.
+135:35:16|T|CC|Hello Apollo 11. Houston. How did it go? Over.
+135:35:23|T|CDR|Time to open up the LRL doors, Charlie.
+135:35:26|T|CC|Roger. We got you coming home. It's well stocked.
+135:35:34|T|CDR|Okay, Burn status: DELTA-TIG was zero, burn time was 2 plus 30. PAD angles: DELTA VGX after trim was 0.1, VGY 0.9, VGZ 0.1. DELTA-VC minus 17.9, fuel 10.6, OX 10.4, unbalance minus 50.
+135:36:03|T|CC|Roger. Copy, Neil. Sounds good to us.
+135:36:17|T|CC|And Apollo 11, Houston. All your systems look real good to us. We'll keep you posted.
+135:36:28|T|CDR|Roger.
+135:36:28|T|CMP|Hey, Charlie boy, looking good here. That was a beautiful burn. They don't come any finer.
+135:36:33|T|CC|Roger.
+135:36:49|T|CC|Apollo 11, Houston. I wondered if you've compared your state vector accuracy with the one in the LM flights? Over.
+135:36:00|T|CDR|Yes, sir, and it looked very nice. VERB 83 was plus 00070 and minus 00008.
+135:37:11|T|CC|Roger.
+135:37:40|T|CC|11, Houston. I was looking at your bank Bravo nitrogen tank. It didn't leak a bit - correction - didn't leak a bit this time. Over.
+135:37:53|T|CDR|Roger. Looked good here.
+135:37:55|T|CMP|Chamber pressure was hanging in there around 100. The latter part, of the burn it started oscillating a little bit and got down a little bit below 100.
 135:38:01|T|CC|Roger.
-135:46:00|P|PAO|This is Apollo control. The flight dynamics officer reports that the burn very nominal. Almost precisely as planned, the burn duration was about 3 seconds long, but the velocity change was almost precisely what we had been expecting. At the present time, Apollo 11 is 1076 nautical miles from the Moon. The velocity continuing to drop off, down now to 6698 feet per second.
-135:47:24|T|CC|Apollo 11, Houston. Would you give us P00 in ACCEPT? We've got a REFSMMAT for you. Over.
-135:47:36|T|CMP|Okay.
-135:47:37|T|CC|Thank you.
-135:50:07|T|CC|Hello, Apollo 11. Houston. We've got the load in. You can go back to BLOCK. Over.
-135:50:16|T|CMP|We're there.
-135:50:18|T|CC|Roger.
-135:50:38|T|CMP|Your Command Module film seems to be working out pretty well, Charlie, the amount we carried. Looks like we carried just about what we needed.
-135:50:45|T|CC|Wonderful.
-135:50:51|T|CMP|We have one 16 millimeter roll on the ASA 1000 color interior film. We were thinking of shooting that during the entry, out window number 4 on a bracket, and you might get the camera guide sometime in the next couple of days and give us all the good settings for that.
-135:51:09|T|CC|Roger.
-135:54:46|T|CC|Hello, Apollo 11. Houston. I wondered if during the TEI burn you utilized the oxidizer flow valve on the PUGS. Over.
-135:55:06|T|LMP|Yes, we did. Based on your very excellent briefing I was expecting the thing to continue desiring increase for the whole time, so we started out with it in INCREASE. I saw that we pretty quickly crossed the line and started falling about 6 or 7 percent behind, so I was still expecting it to move up, and then I went down to FULL DECREASE and brought it back down to a difference of 2 percent. Over.
-135:55:40|T|CC|Roger. Thank you very much, Buzz.
-135:55:41|T|LMP|Two tenths of a percent, I'm sorry.
-135:55:43|T|CC|Roger. Thank you.
-135:59:37|T|CC|Apollo 11, Houston. You can go to PTC attitude and torque at your - and do the P52 and torque at your convenience. Over.
-135:59:50|T|CMP|Hey, we got to take some more pictures, Charlie. Is there any constraint, normally, in staying here for awhile?
-135:59:55|T|CC|No, sir.
-136:00:00|T|CMP|Thank you.
+135:38:01|T|CMP|96 or so.
+135:38:04|T|CC|Roger.
+135:38:28|P|PAO|Most of the conversations so far has been from Neil Armstrong and Mike Collins. That last comment came from Collins. Our first report after acquisition was from Neil Armstrong.
+135:39:38|P|PAO|That transearth injection burn was very close to nominal. At this time we show the spacecraft traveling at a speed of 7,603 feet per second. The velocity already beginning to drop off and we're at an altitude of 445 nautical miles now from the Moon.
+135:43:01|P|PAO|This is Apollo Control. We now show the spacecraft traveling at 7,378 feet per second. Altitude 568 nautical miles. The next order of business will be to get the crew to sleep. Flight Director, Gene Kranz, requested his Flight Controllers, prior to acquisition of signal to review their procedures and to take as many steps as possible to get the crew to sleep as soon as possible. There will be a press conference in the building 1 auditorium. We estimate the time on that at about 12:30 Central Daylight Time.
+135:44:16|P|PAO|And our LM telecommunications engineer reports that we've just had acquisition of signal from Eagle which is still in lunar orbit. The last fix that we had on Eagle's orbit showed an apogee of 64.1 and a para - apocynthion rather of 64.1 and a pericynthion of 64.4 nautical miles.
+135:44:49|P|PAO|The spacecraft altitude is now climbed to almost 700 nautical miles from the Moon. We show a weight of 26,510 pounds. About 10,000 pounds less than what we had actually about 1100 or 11,000 pounds - lets correct that - about 10,100 pounds less than what we had prior to the transearth injection burn.
+135:47:26|T|CC|Apollo 11, Houston. Would you give us P00 in ACCEPT? We've got a REFSMMAT for you. Over.
+135:47:37|T|CMP|Okay.
+135:47:39|T|CC|Thank you.
+135:50:09|T|CC|Hello, Apollo 11. Houston. We've got the load in. You can go back to BLOCK. Over.
+135:50:18|T|CMP|We're there.
+135:50:20|T|CC|Roger.
+135:50:40|T|CMP|Your Command Module film seems to be working out pretty well, Charlie, the amount we carried. Looks like we carried just about what we needed.
+135:50:47|T|CC|Wonderful.
+135:50:53|T|CMP|We have one 16 millimeter roll on the ASA 1000 color interior film. We were thinking of shooting that during the entry, out window number 4 on a bracket, and you might get the camera guys sometime in the next couple of days and give us all the good settings for that.
+135:51:11|T|CC|Roger.
+135:52:00|P|PAO|This is Apollo control. The flight dynamics officer reports that the burn very nominal. Almost precisely as planned, the burn duration was about 3 seconds long, but the velocity change was almost precisely what we had been expecting. At the present time, Apollo 11 is 1076 nautical miles from the Moon. The velocity continuing to drop off, down now to 6,698 feet per second.
+135:54:48|T|CC|Hello, Apollo 11. Houston. I wondered if during the TEI burn you utilized the oxidizer flow valve on the PUGS. Over.
+135:55:05|T|LMP|Yes, we did. Based on your very excellent briefing I was expecting the thing to continue desiring increase for the whole time, so we started out with it in INCREASE. I saw that we pretty quickly crossed the line and started falling about 6 or 7 percent behind, so I was still expecting it to move up, and then I went down to FULL DECREASE and brought it back down to a difference of 2 percent. Over.
+135:55:41|T|CC|Roger. Thank you very much, Buzz.
+135:55:43|T|LMP|Two tenths of a percent, I'm sorry.
+135:55:45|T|CC|Roger. Thank you.
+135:59:39|T|CC|Apollo 11, Houston. You can go to PTC attitude and torque at your - and do the P52 and torque at your convenience. Over.
+135:59:52|T|CMP|Hey, we got to take some more pictures, Charlie. Is there any constraint, normally, in staying here for awhile?
+135:59:57|T|CC|No, sir.
+136:00:02|T|CMP|Thank you.
 136:20:37|T|CC|Go ahead, 11. Over.
 136:20:42|T|CMP|How does that tracking look, or is it too early to tell?
 136:20:45|T|CC|Stand by, Mike.
