@@ -13068,166 +13068,165 @@
 135:59:52|T|CMP|Hey, we got to take some more pictures, Charlie. Is there any constraint, normally, in staying here for awhile?
 135:59:57|T|CC|No, sir.
 136:00:02|T|CMP|Thank you.
-136:20:37|T|CC|Go ahead, 11. Over.
-136:20:42|T|CMP|How does that tracking look, or is it too early to tell?
-136:20:45|T|CC|Stand by, Mike.
-136:21:12|T|CC|Apollo 11, Houston. FIDO's are looking at the data. It's too early to tell yet exactly. It's looking real good so far. We'll have you some answers shortly on trajectory. Over.
-136:21:27|T|CMP|Okay. What FIDO is that?
-136:21:33|T|CC|That's Jay Green.
-136:21:40|T|CMP|Howdy, Jay.
-136:21:54|T|CC|11, Houston. We have a DAP CSM update for you.
-136:22:03|T|CMP|Go ahead.
-136:22:04|T|CC|Roger. CSM weight, Mike: 26370. Over.
-136:22:12|T|CMP|Thank you, sir.
-136:22:14|T|CC|Welcome.
-136:24:11|T|CC|Apollo 11, Houston. We've taken your onboard vector and propagated it forward, and it's looking real good. We only got about 24 minutes of tracking now. Really too early to tell on the radar. Over.
-136:24:26|T|CMP|Roger. Understand.
-136:28:08|T|CC|Hello, Apollo 11. Houston. Mike, did you notice any transients at ignition on TEI? Over.
-136:28:21|T|CMP|Yes. The transients were more noticeable than on the previous burns, Charlie. I just wrote it off on the fact we had a light Command Module, but there was considerable roll activity which dampened down after the first 20 seconds, I would guess, of the burn; but then there was also some pitch and yaw activity. I don't believe it was abnormal, and it seemed to be deadbanding ratherly crisply in roll plus or minus about 8 degrees either side of the center line; and after the first couple of - oh, after the first 20 seconds or so, the gimbals were quiet, and pitch and yaw were relatively quiet. Before that, there was some oscillation but mostly just in rates. Total attitude hung in there pretty well.
-136:29:12|T|CC|Roger. Thank you much. We were looking at the playback, and we saw some things that - right at start up. We'll be back with you later on that.
-136:29:22|T|CMP|Okay.
-136:42:26|T|CC|Apollo 11, Houston. Have you finished taking pictures? Over.
-136:42:36|T|CMP|We're just finishing up, Charlie.
-136:42:38|T|CC|Roger.
-136:42:45|T|CMP|About to get started on the P52 here pretty soon.
-136:42:48|T|CC|Copy.
-136:42:50|T|CMP|Another eight or nine of them.
-136:44:00|P|PAO|This is Apollo Control at 136 hours, 44 minutes. Apollo 11 is now 3,720 nautical miles from the Moon and traveling at a speed of 5,367 feet per second. During the press conference we accumulated about 4 minutes of taped conversation with the crew. The crew reports at this time that they are completing taking pictures and they are getting ready to realign their guidance system platform. We'll pick up the tape conversation and then stand by for any following live communications with the crew. We anticipate that they will be shortly beginning their pre-sleep checklist in preparation for a well deserved rest period.
-136:44:00|P|PAO|This is Apollo Control. That brings us up to date with the taped conversation. We'll stand by for any further live communication from the crew before they begin their sleep period. We've gotten some preliminary figures from the Flight Dynamics Officer on that transearth injection burn after a review of the telemetry data and it shows that our change in velocity was nominal 3,283.5 feet per second. We also show a nominal burn time of 2 minutes, 28 seconds. The crew reported the burn time about 2 to 3 seconds long based on their onboard data. The ground data shows the burn to have been just about nominal. Based on the preliminary tracking it would appear that the splash down would occur almost precisely as predicted or planned in the Flight Plan. That would be at 195 hours and 18 minutes, 40 seconds Ground Elapsed Time. And we would expect that splash down time to change some what during the transearth coast particularly as the need or lack of need for mid-course correction becomes more apparent with additional tracking. At this time Apollo 11 is 4,086 nautical miles from the Moon
-136:44:00|P|PAO|traveling at almost precisely 1 mile per second, 5,283 feet per second and that's just updated 5,280 feet per second.
-136:44:00|P|PAO|That exchange was between Donald K, Deke, Slayton, Director of Flight Crew Operations at the Manned Spacecraft Center and astronaut Neil Armstrong.
-136:52:26|T|CC|Hello, Apollo 11. Houston. You can crank up on the PTC at any time. Over.
-136:52:33|T|CMP|All right-o.
-136:52:45|T|CC|Apollo 11, Houston.
-136:52:50|T|CDR|Go ahead, Houston.
-136:52:52|T|CC|Roger, 11. This is the regional Capcom. Congratulations on an outstanding job. You guys have really put on a great show up there. I think it's about time you powered down and got a little rest, however. You've had a mighty long day here. Hope you're all going to get a good sleep on the way back. I look forward to seeing you when you get back here. Don't fraternize with any of those bugs in route except for the Hornet.
-136:53:21|T|CDR|Okay. Thank you, boss. We'll - We're looking forward to a little rest and a restful trip back. And see you when we get there.
-136:53:30|T|CC|Roger. You've earned it.
-136:54:13|T|CC|Hello, Apollo 11. Houston. We'd like you to turn off O2 tank number 1 heaters. Over.
-136:54:27|T|CMP|It's off. Thank you.
-136:54:29|T|CC|Roger.
-136:54:57|T|CC|Hello, Apollo 11. Houston. For your information, the LGC in Eagle just went belly up at 7 hours. Over.
-136:55:10|T|CDR|Okay. Very good, ... death of a real winner, there.
+136:20:38|T|CC|Go ahead, 11. Over.
+136:20:43|T|CMP|How does that tracking look, or is it too early to tell?
+136:20:46|T|CC|Stand by, Mike.
+136:21:13|T|CC|Apollo 11, Houston. FIDOs are looking at the data. It's too early to tell yet exactly. It's looking real good so far. We'll have you some answers shortly on trajectory. Over.
+136:21:32|T|CMP|Okay. What FIDO is that?
+136:21:34|T|CC|That's Jay Green.
+136:21:41|T|CMP|Howdy, Jay.
+136:21:55|T|CC|11, Houston. We have a DAP CSM update for you.
+136:22:04|T|CMP|Go ahead.
+136:22:05|T|CC|Roger. CSM weight, Mike: 26370. Over.
+136:22:14|T|CMP|Thank you, sir.
+136:22:16|T|CC|Welcome.
+136:24:13|T|CC|Apollo 11, Houston. We've taken your onboard vector and propagated it forward, and it's looking real good. We only got about 24 minutes of tracking now. Really too early to tell on the radar. Over.
+136:24:27|T|CMP|Roger. Understand.
+136:28:10|T|CC|Hello, Apollo 11. Houston. Mike, did you notice any transients at ignition on TEI? Over.
+136:28:22|T|CMP|Yes. The transients were more noticeable than on the previous burns, Charlie. I just wrote it off on the fact we had a light Command Module, but there was considerable roll activity which dampened down after the first 20 seconds, I would guess, of the burn; but then there was also some pitch and yaw activity. I don't believe it was abnormal, and it seemed to be deadbanding ratherly crisply in roll plus or minus about 8 degrees either side of the center line; and after the first couple of - oh, after the first 20 seconds or so, the gimbals were quiet, and pitch and yaw were relatively quiet. Before that, there was some oscillation but mostly just in rates. Total attitude hung in there pretty well.
+136:29:14|T|CC|Roger. Thank you much. We were looking at the playback, and we saw some things that - right at start up. We'll be back with you later on that.
+136:29:24|T|CMP|Okay.
+136:42:28|T|CC|Apollo 11, Houston. Have you finished taking pictures? Over.
+136:42:37|T|CMP|We're just finishing up, Charlie.
+136:42:39|T|CC|Roger.
+136:42:51|T|CDR|About to get started on the P52 here pretty soon.
+136:42:49|T|CC|Copy.
+136:42:51|T|CMP|Another eight or nine hours.
+136:43:52|P|PAO|This is Apollo Control at 136 hours, 44 minutes. Apollo 11 is now 3,720 nautical miles from the Moon and traveling at a speed of 5,367 feet per second. During the press conference we accumulated about 4 minutes of taped conversation with the crew. The crew reports at this time that they are completing taking pictures and they are getting ready to realign their guidance system platform. We'll pick up the tape conversation and then stand by for any following live communications with the crew. We anticipate that they will be shortly beginning their pre-sleep checklist in preparation for a well deserved rest period.
+136:49:41|P|PAO|This is Apollo Control. That brings us up to date with the taped conversation. We'll stand by for any further live communication from the crew before they begin their sleep period. We've gotten some preliminary figures from the Flight Dynamics Officer on that transearth injection burn after a review of the telemetry data and it shows that our change in velocity was nominal 3,283.5 feet per second. We also show a nominal burn time of 2 minutes, 28 seconds. The crew reported the burn time about 2 to 3 seconds long based on their onboard data. The ground data shows the burn to have been just about nominal. Based on the preliminary tracking it would appear that the splash down would occur almost precisely as predicted or planned in the Flight Plan. That would be at 195 hours and 18 minutes, 40 seconds Ground Elapsed Time. And we would expect that splash down time to change somewhat during the transearth coast particularly as the need or lack of need for mid-course correction becomes more apparent with additional tracking. At this time Apollo 11 is 4,086 nautical miles from the Moon, and traveling at almost precisely 1 mile per second, 5,283 feet per second and that's just updated 5,280 feet per second.
+136:52:27|T|CC|Hello, Apollo 11. Houston. You can crank up on the PTC at any time. Over.
+136:52:34|T|LMP|All right-o.
+136:52:46|T|CC|Apollo 11, Houston.
+136:52:52|T|CDR|Go ahead, Houston.
+136:52:5|T|CC|Roger, 11. This is the regional Capcom. Congratulations on an outstanding job. You guys have really put on a great show up there. I think it's about time you powered down and got a little rest, however. You've had a mighty long day here. Hope you're all going to get a good sleep on the way back. I look forward to seeing you when you get back here. Don't fraternize with any of those bugs in route except for the Hornet.
+136:53:22|T|CDR|Okay. Thank you, boss. We'll - We're looking forward to a little rest and a restful trip back, and see you when we get there.
+136:53:31|T|CC|Roger. You've earned it.
+136:53:41|P|PAO|That exchange was between Donald K. "Deke" Slayton, Director of Flight Crew Operations at the Manned Spacecraft Center, and astronaut Neil Armstrong.
+136:54:15|T|CC|Hello, Apollo 11. Houston. We'd like you to turn off O2 tank number 1 heaters. Over.
+136:54:28|T|CMP|It's off. Thank you.
+136:54:30|T|CC|Roger.
+136:54:58|T|CC|Hello, Apollo 11. Houston. For your information, the LGC in Eagle just went belly up at 7 hours. Over.
+136:55:12|T|CDR|Okay. Very good, ... death of a real winner, there.
 136:55:26|T|CMP|Charlie, we're going to rotate about pitch 270 degrees on the way home vice 1 - or 090 on the way out. Right?
-136:55:34|T|CC|Right, sir.
-136:55:39|T|CMP|Okay. VERB 49 maneuver to that attitude is in progress.
-136:55:43|T|CC|Roger.
-136:56:14|T|CDR|Houston, crew status report. Radiation: CDR 11017, CMP 10019,LMP 09020. No medication.
-136:56:29|T|CC|Say again, please, Neil. We - you were breaking up. We missed that. Over.
-136:56:37|T|CDR|Okay. This is crew status report. Radiation: CDR 11017, CMP 10019, LMP 09020. No medication.
-136:56:56|T|CC|Roger. Thank you.
-136:57:00|T|CC|And we didn't get any crew status report from you this morning. Wondered if you could give us an estimate of sleep last night. Over.
-136:57:12|T|CDR|Okay ...
-136:57:48|T|CDR|Okay. We'll take a guess, Charlie, and try to give an equivalent amount. Oh, it's CDR 3, and LMP 4.
-136:58:00|T|CC|Roger. Thank you very much.
-136:58:25|T|CDR|And, Charlie, you want the fans cycled ... Right?
-136:58:30|T|CC|That's affirmative, and we'd like you to disable quads Charlie and Delta. Over.
-136:58:38|T|CMP|Okay. Charlie and Delta.
-136:59:09|T|CC|Apollo 11, Houston. If it's convenient, we'd like to go through your onboard readout. Over.
-136:59:21|T|CMP|Of what?
-136:59:22|T|CC|Oh, excuse me. It's on the Flight Plan, 3102. We'd like BATTS and RCS. Over.
+136:55:35|T|CC|Right, sir.
+136:55:40|T|CMP|Okay. VERB 49 maneuver to that attitude is in progress.
+136:55:44|T|CC|Roger.
+136:56:16|T|CDR|Houston, crew status report. Radiation: CDR 11017, CMP 10019, LMP 09020. No medication.
+136:56:30|T|CC|Say again, please, Neil. We - you were breaking up. We missed that. Over.
+136:56:39|T|CDR|Okay. This is crew status report. Radiation: CDR 11017, CMP 10019, LMP 09020. No medication.
+136:56:57|T|CC|Roger. Thank you.
+136:57:02|T|CC|And we didn't get any crew status report from you this morning. Wondered if you could give us an estimate of sleep last night. Over.
+136:57:14|T|CDR|Okay ...
+136:57:49|T|CDR|Okay. We'll take a guess, Charlie, and try to give an equivalent amount. Oh, it's CDR 3, and LMP 4.
+136:58:01|T|CC|Roger. Thank you very much.
+136:58:27|T|CDR|And, Charlie, you want the fans cycled ... Right?
+136:58:32|T|CC|That's affirmative, and we'd like you to disable quads Charlie and Delta. Over.
+136:58:40|T|CDR|Okay. Charlie and Delta.
+136:59:10|T|CC|Apollo 11, Houston. If it's convenient, we'd like to go through your onboard readout. Over.
+136:59:22|T|CMP|Of what?
+136:59:23|T|CC|Oh, excuse me. It's on the Flight Plan, 3102. We'd like BATTS and RCS. Over.
 136:59:33|T|CMP|Stand by.
-137:00:38|T|CMP|Ready to copy, Houston?
-137:00:40|T|CC|Roger. Go ahead.
-137:00:44|T|CMP|BATT Charlie 370, PYRO BATT A 370, BATT B 370; RCS, 55, 65, 64, and 62. Over.
-137:00:59|T|CC|Roger. We copy all that. Thank you much.
-137:01:05|T|CMP|Roger.
-137:17:01|T|CC|Apollo 11, Houston. A couple of questions for the Moon walkers, if you got a second. Over.
-137:17:09|T|CDR|Go ahead.
-137:17:11|T|CC|Roger, Neil. We're seeing some temperature rises on the passive seismic experiment that are a little higher than normal and were wondering if you could verify the deployed position. We understand it's about 40 feet from the LM in the eleven o'clock position. Over.
-137:17:37|T|CDR|No. It's about in the nine or nine thirty position, and I'd say it's about 50 or 60 feet.
-137:17:50|T|CC|Roger. Copy. Also, did you notice - was there any indication of any dust cloud as you lifted off? Over.
-137:18:02|T|CDR|Not very much. There was quite a bit of Kapton and parts of the LM that went out in all directions, usually for great distances, as far as I can tell. But I don't remember seeing anything of a dust cloud to speak of.
-137:18:21|T|CC|Roger. Understand all you could see was parts of the LM going out. What was your - your first - first comment? Over.
-137:18:35|T|CDR|I don't remember. Just that the Kapton and other parts on the LM staging scattering all around the area for great distances, but I didn't see much dust.
-137:18:50|T|CC|Roger. Thank you very much.
-137:21:09|T|CMP|Houston, Apollo 11. Could you keep me honest on the lithium hydroxide changes? When do you have the next one scheduled for?
-137:21:16|T|CC|Stand by.
-137:22:09|T|CC|Apollo 11, Houston. Mike, on that canister, we had you due to change one at 133 before TEI, and it's on page 399. The next one we got is at 147. Over.
-137:22:30|T|CMP|Okay.
-137:24:00|P|PAO|This is Apollo control at 137 hours, 27 minutes. At this time, Apollo 11 is traveling at a speed of about 4982 feet per second. At about 5900 nautical miles from the Moon, and about 198,900 nautical miles from Earth. A short while ago, you heard Neil Armstrong make a few descriptive comments of the scene on the lunar surface at the time the planned Ascent Stage lifted off. Armstrong reported seeing very little dust, but quite a bit of debris from the LM. He referred to the Kapton, which is a plastic-like insulation material generally silver or gold in color which is found on the outside surface of the LM. And, we also had a report at 136 hours, 54 minutes, about 40 minutes or so ago that the LM guidance computer had finally stopped putting out any data, and that was about 7 hours, 13 minutes after the primary guidance system was deprived of the coolant, a test of how the system would continue to operate without coolant. The platform apparently begin to become unuseable after about 4 hours, and the computer itself finally gave up after about 7 hours, 13 minutes. Both items going considerably longer than had previously been predicted. The Lunar Module Ascent Stage still in lunar orbit. We are continuing to get data from it. All other systems appear to be functioning well at this time. The LM orbit we show as currently 64.4 nautical miles for height of apocynthion, 54.4 nautical miles for pericynthion. And, the LM is in its 23rd revolution, and here's a call to the crew.
-137:25:31|T|CC|Hello, Apollo 11, Houston. We'd like to extend our damping period for another 5 minutes; let the rates get way down. Over.
-137:25:42|T|CMP|11. Roger.
-137:30:12|T|CMP|Houston, Apollo 11.
-137:30:14|T|CC|Go ahead, 11. Over.
-137:30:19|T|CMP|Roger, Charlie. Like to bring you up to date on our chlorination status. In compartment B4, we have one, two, three, four, five, six, seven - correction, we have eight pockets for chlorine and buffer ampules, of which - Let me correct that. We have seven pockets, of which one is empty and always has been empty, leaving six remaining. On the other side over there in B7, we have another container with seven pockets, so we have a total of seven plus six, and those are filled with six chlorines and seven buffers. Now, I've been using one chlorine and one buffer per day which, at this point in time, prior to this chlorination I'm about to do, leaves me one chlorine and two buffers. Seems to me I'm one chlorine short, and that being the case, I'd like to ask your advice on postponing this chlorination using the last container until some later date, like maybe tomorrow. Over.
-137:31:41|T|CC|Roger. We copy, Mike. Stand by.
-137:31:46|T|CMP|Okay.
-137:37:21|T|CC|Hello, Apollo 11. Houston. Check in A1, Mike, and see what you can find in there. Over.
-137:37:34|T|CC|We think you might have some more chlorine up in A1. Over.
-137:38:25|T|CC|Hello, Apollo 11. Houston.
-137:38:42|T|CMP|Houston, Apollo 11.
-137:38:50|T|CC|Apollo 11, Houston. Do you read? You're breaking up. Over.
-137:38:57|T|CMP|Roger. Read.
-137:39:02|T|CC|Roger, 11. You're breaking up. Mike, please look in compartment A1. We think there might be some more chlorine up there. Over.
-137:39:21|T|CMP|Eureka!
-137:39:26|T|CC|11, Houston. Reading you about one by. Over.
-137:41:43|T|CC|11, Houston. We're having a downlink problem. That's the reason we can't read you. We're switching sites. Stand by.
-137:42:02|T|CC|Hello, Apollo 11. Houston. How do you read now? Over.
-137:42:09|T|CMP|Fine.
-137:42:10|T|CC|Roger. You're five by now, too, Mike. Thank you much. Did you copy that about A1 on that chlorine?
-137:42:20|T|CMP|Eureka!
-137:42:21|T|CC|How about that, sports fans!
-137:44:00|P|PAO|This is Apollo Control at 137 hours, 52 minutes. Apollo 11 crew has signed off for the night, starting a well deserved rest period. Duration of the rest period is programmed for 10 hours, however, the wake up time is not critical. It's very likely that we'll let them sleep until they wake up of their own accord. At this time Columbia is 7,045 nautical miles away from the Moon, headed toward home at a velocity of 4,868 feet per second.
-137:45:26|T|CC|Apollo 11, Houston. We're having a little trouble getting the yaw rate damped out to the appropriate value. We'd like you all to be quite like mice for a couple of minutes and let's see if that will help it out. Over.
-137:45:45|T|CC|11, Houston. You did great work there. We're ready to spin it up. Over.
-137:46:30|T|CC|11, Houston. Did you copy? Over.
-137:46:43|T|LMP|Yes. We read you, Charlie. Would you stand by a minute?
-137:46:46|T|CC|Roger. No hurry.
-137:47:18|T|CC|11, Houston. Shift change time, here. White Team bids you good night; we'll see you tomorrow. Over.
-137:47:27|T|CDR|Good night, Charlie. Thank you.
-137:47:30|T|LMP|Good night, Charlie. Thank you.
-137:47:33|T|CMP|Adios.
-137:47:35|T|CC|Adios. Thanks again for a great show, you guys.
-137:47:41|T|CMP|Thanks for a great job down there.
-138:01:52|T|CC|Apollo 11, Houston. Over.
-138:01:59|T|CMP|Good morning, Ron.
-138:02:00|P|PAO|This is Apollo Control at 138 hours 02 minutes. Capcom Owen Garriott has just put in a call to the crew and is passing up some antenna information to them. Here's that conversation.
-138:02:00|P|PAO|This is Apollo Control. Ten minutes ago we logged what we expect to be our last contact with Eagle in lunar orbit. That coming at 137 hours 55 minutes Elapsed Time. At that time the battery power fell below the level where the secondary guidance system could hold the attitude of the vehicle within the sphere of antenna limits. We do not expect to establish contact with Eagle again. We'll continue to stand by here live. There may be a little more conversation before the crew turns in for the night.
-138:02:00|P|PAO|This is Apollo Control at 138 hours 11 minutes. We do not intend to contact the crew during this rest period again. We will take this lying down now and come back up if there is further conversation. This is Mission Control, Houston.
-138:02:01|T|CC|Howdy there, Mike. We're ready to go ahead and have you switch to your OMNI positions for your sleep period, and we would like the following high-gain switch positions: your high-gain antenna in MANUAL, beam width WIDE, pitch is minus 50, and yaw is a plus 270. And just follow the Flight Plan for remaining COMM configuration. Over.
-138:02:37|T|CDR|Roger. Out.
-138:02:48|T|CMP|You "Purple" people keep funny hours.
-138:02:52|T|CC|Your COMM is pretty weak at this point, Mike. Please say again.
-138:02:59|T|CMP|Roger. Disregard.
-138:03:39|T|CMP|Houston, Apollo 11.
-138:03:41|T|CC|Go ahead, 11.
-138:03:56|T|CMP|It's on the way now.
-138:06:20|T|CC|Apollo 11, Houston. We'd like for you to go ahead and put your S band antenna OMNI to OMNI and OMNI B. Over.
-138:07:51|T|CC|Apollo 11, Houston. How do you read me through Honeysuckle now? Over.
-138:08:02|T|CMP|You're loud and clear. Over.
-138:08:03|T|CC|Very good. Reading you better now. And did you copy we'd appreciate going S band OMNI and OMNI B at this time? Over.
-138:08:14|T|CMP|That's the configuration we're in.
-138:08:17|T|CC|Okay. Thank you.
-138:08:24|T|CMP|I'll say you "Purple" people keep funny hours.
-139:00:00|P|PAO|This is Apollo control at 139 hours. The crew of Apollo 11 is in the rest period. We have not contacted them within the last hour, and have not heard from them. All systems aboard the spacecraft performing well. Apollo 11 is now 10,149 nautical miles from the Moon approaching the Earth at a velocity of 4659 feet per second. Spacecraft weight is 26,510 pounds. This is Mission Control, Houston.
-140:00:00|P|PAO|This is Apollo Control at 140 hours. Apollo 11 is now 12,835 nautical miles from the Moon. Velocity 4552 feet per second. All systems still performing well. Dr. Kenneth Biers, the Flight Surgeon, reports his data indicates all three of the crewmen are asleep. This is Mission Control, Houston.
-141:00:00|P|PAO|This is Apollo Control at 141 hours. Apollo 11 is 15,488 nautical miles from the Moon. Velocity 4,480 feet per second. The crew is still asleep. All systems continuing to perform very well. This is Mission Control, Houston.
-142:03:00|P|PAO|This is Apollo Control at 142 hours 03 minutes. Apollo 11 is 18,243 nautical miles from the Moon. Velocity 4426 feet per second. Apollo 11 is in the Passive Thermal Control mode, the performance of all systems nominal, and the crew is asleep. This is Mission Control, Houston.
-143:00:00|P|PAO|This is Apollo Control at 143 hours. Apollo 11 is 20,704 nautical miles from the Moon, velocity 4390 feet per second. The crew is still is the rest period. The weather bureau's space flight meteorology group reported this morning that weather conditions in the primary landing area are expected to the acceptable, the sky partly cloudy, the winds easterly at 10 knots, and seas of 3 feet are predicted. Tropical storm Claudia is now located 2300 miles east of the landing area and will not affect the weather in the landing area Thursday. This is Mission Control Houston.
-144:00:00|P|PAO|This is Apollo Control at 144 hours. Apollo 11 is 23,289 nautical miles from the Moon approaching the Earth at a velocity of 4,361 feet per second. All systems performing well, and the crew still in their rest period. It does not appear likely that we will perform mid-course correction number 5 scheduled for approximately 150 1/2 hours elapsed time. However, a firm decision on this mid-course will not be made for approximately 3 1/2 hours. This is Mission Control, Houston.
-145:00:00|P|PAO|This is Apollo Control at 145 hours. Apollo 11 is 25,857 nautical miles from the Moon. Heading toward home at 4338 feet per second. Apollo 11 will leave the Moon's sphere of influence at an elapse time of 148 hours 7 minutes 23 seconds. This is Mission Control, Houston.
-146:00:00|P|PAO|This is Apollo Control at 146 hours. We have heard nothing from the crew. We assume they are still asleep, and that sleep period began at about 137 hours, 47 minutes. At this time, Apollo 11 is 28,421 nautical miles from the Moon, and traveling at a speed of 4322 feet per second. The decision on mid-course correction number 5 is still tending toward not doing that mid-course, however the decision hasn't been made final, and there will be some additional tracking prior to firming up that decision. At this point it appears that the mid-course path number 5 opportunity would require about 4 to 5 feet per second. By waiting until the opportunity of mid-course correction 6, about 7 feet per second would be required. We do not plan to awaken the crew, at least immediately. Let them continue sleeping. All spacecraft systems continue to look very good to us from the ground. We've completed the change-of-shift here in Mission Control. Flight Director, Clifford Charlesworth, has relieved Milton Windler, and our capsule communicator is Astronaut Bruce McCandless. At 146 hours, 2 minutes, this is Apollo Control, Houston.
-147:00:00|P|PAO|This is Apollo Control at 147 hours. The Flight Surgeon reported a short while ago that the crew appeared still to be sleeping, however, we have seen some signs of activity aboard the spacecraft. We suspect they may be awakening shortly. At the present time Apollo 11 is 30,980 nautical miles from the Moon and the speed is 4308 feet per second. The Flight Plan for today is relatively quiet and we are continuing to await the crew's own awakening - we don't plan to awaken them from the ground at this time. At 147 hours, 1 minute, this is Mission Control, Houston.
-147:30:00|P|PAO|This is Apollo Control at 147 hours 30 minutes. The Flight Surgeon reported a short while ago that the Lunar Module Pilot, Buzz Aldrin, appears to be up at this time. Both Armstrong and Collins appear still to be sleeping. At the present time Apollo 11 is 32,253 nautical miles from the Moon and traveling at a speed of 4303 feet per second. Flight Director Clifford Charlesworth has elected to perform the mid-course correction maneuver scheduled at transearth injection plus 15 hours. That would be at about 150 hours 25 minutes Ground Elapsed Time. The exact time of that mid-course correction is not critical and it could move around somewhat. We expect that it would be a velocity change of about 5 feet per second. We expect there will be some conversation with the crew before too much longer. We'll come back up when we hear from the spacecraft. This is Apollo Control at 147 hours 32 minutes.
-147:39:00|P|PAO|This is Apollo Control at 147 hours, 39 minutes. The Flight Surgeon reports that all 3 crew are now awake. We expect to be hearing a Good Morning from the spacecraft before too much longer so we'll stand by for that. We said Good Night to the crew last night at about 137 hours, and 47 minutes so they have apparently had a good 10-hour rest period and we'll probably be getting a crew status report indicating just how much sleep each of the crewmen got. We'll stand by for any conversation with the spacecraft.
+137:00:40|T|CMP|Ready to copy, Houston?
+137:00:41|T|CC|Roger. Go ahead.
+137:00:45|T|CMP|BATT Charlie 370, PYRO BATT A 370, BATT B 370; RCS, 55, 65, 64, and 62. Over.
+137:01:01|T|CC|Roger. We copy all that. Thank you much.
+137:01:07|T|CMP|Roger.
+137:17:03|T|CC|Apollo 11, Houston. A couple of questions for the Moon walkers, if you got a second. Over.
+137:17:11|T|CDR|Go ahead.
+137:17:12|T|CC|Roger, Neil. We're seeing some temperature rises on the passive seismic experiment that are a little higher than normal and were wondering if you could verify the deployed position. We understand it's about 40 feet from the LM in the eleven o'clock position. Over.
+137:17:39|T|CDR|No. It's about in the nine or nine thirty position, and I'd say it's about 50 or 60 feet.
+137:17:51|T|CC|Roger. Copy. Also, did you notice - was there any indication of any dust cloud as you lifted off? Over.
+137:18:03|T|CDR|Not very much. There was quite a bit of Kapton and parts of the LM that went out in all directions, usually for great distances, as far as I can tell. But I don't remember seeing anything of a dust cloud to speak of.
+137:18:22|T|CC|Roger. Understand all you could see was parts of the LM going out. What was your - your first - first comment? Over.
+137:18:37|T|CDR|I don't remember. Just that the Kapton and other parts on the LM staging scattering all around the area for great distances, but I didn't see much dust.
+137:18:51|T|CC|Roger. Thank you very much.
+137:21:10|T|CMP|Houston, Apollo 11. Could you keep me honest on the lithium hydroxide changes? When do you have the next one scheduled for?
+137:21:18|T|CC|Stand by.
+137:22:10|T|CC|Apollo 11, Houston. Mike, on that canister, we had you due to change one at 133 before TEI, and it's on page 399. The next one we got is at 147. Over.
+137:22:32|T|CMP|Okay.
+137:25:33|T|CC|Hello, Apollo 11, Houston. We'd like to extend our damping period for another 5 minutes; let the rates get way down. Over.
+137:25:44|T|CDR|11. Roger.
+137:27:19|P|PAO|This is Apollo control at 137 hours, 27 minutes. At this time, Apollo 11 is traveling at a speed of about 4,982 feet per second. At about 5,900 nautical miles from the Moon, and about 198,900 nautical miles from Earth. A short while ago, you heard Neil Armstrong make a few descriptive comments of the scene on the lunar surface at the time the planned Ascent Stage lifted off. Armstrong reported seeing very little dust, but quite a bit of debris from the LM. He referred to the Kapton, which is a plastic-like insulation material generally silver or gold in color which is found on the outside surfaces of the LM. And, we also had a report at 136 hours, 54 minutes, about 40 minutes or so ago that the LM guidance computer had finally stopped putting out any data, and that was about 7 hours, 13 minutes after the primary guidance system was deprived of the coolant, in a test of how the system would continue to operate without coolant. The platform apparently began to become unuseable after about 4 hours, and the computer itself finally gave up after about 7 hours, 13 minutes. Both items going considerably longer than had previously been predicted. The Lunar Module Ascent Stage still in lunar orbit. We are continuing to get data from it. All other systems appear to be functioning well at this time. The LM orbit we show as currently 64.4 nautical miles for height of apocynthion, 54.4 nautical miles for pericynthion. And, the LM is in its 23rd revolution, and here's a call to the crew.
+137:30:13|T|CMP|Houston, Apollo 11.
+137:30:15|T|CC|Go ahead, 11. Over.
+137:30:20|T|CMP|Roger, Charlie. Like to bring you up to date on our chlorination status. In compartment B4, we have one, two, three, four, five, six, seven - correction, we have eight pockets for chlorine and buffer ampules, of which - Let me correct that. We have seven pockets, of which one is empty and always has been empty, leaving six remaining. On the other side over there in B7, we have another container with seven pockets, so we have a total of seven plus six, and those are filled with six chlorines and seven buffers. Now, I've been using one chlorine and one buffer per day which, at this point in time, prior to this chlorination I'm about to do, leaves me one chlorine and two buffers. Seems to me I'm one chlorine short, and that being the case, I'd like to ask your advice on postponing this chlorination using the last container until some later date, like maybe tomorrow. Over.
+137:31:43|T|CC|Roger. We copy, Mike. Stand by.
+137:31:47|T|CMP|Okay.
+137:37:22|T|CC|Hello, Apollo 11. Houston. Check in A1, Mike, and see what you can find in there. Over.
+137:37:35|T|CC|We think you might have some more chlorine up in A1. Over.
+137:38:27|T|CC|Hello, Apollo 11. Houston.
+137:38:43|T|CMP|Houston, Apollo 11.
+137:38:52|T|CC|Apollo 11, Houston. Do you read? You're breaking up. Over.
+137:38:58|T|CMP|Roger. Read.
+137:39:04|T|CC|Roger, 11. You're breaking up. Mike, please look in compartment A1. We think there might be some more chlorine up there. Over.
+137:40:23|T|CMP|Eureka!
+137:40:27|T|CC|11, Houston. Reading you about one by. Over.
+137:41:44|T|CC|11, Houston. We're having a downlink problem. That's the reason we can't read you. We're switching sites. Stand by.
+137:42:03|T|CC|Hello, Apollo 11. Houston. How do you read now? Over.
+137:42:11|T|CMP|Fine.
+137:42:12|T|CC|Roger. You're five by now, too, Mike. Thank you much. Did you copy that about A1 on that chlorine?
+137:42:21|T|CMP|Eureka!
+137:42:23|T|CC|How about that, sports fans!
+137:45:27|T|CC|Apollo 11, Houston. We're having a little trouble getting the yaw rate damped out to the appropriate value. We'd like you all to be quite like mice for a couple of minutes and let's see if that will help it out. Over.
+137:45:47|T|CC|11, Houston. You did great work there. We're ready to spin it up. Over.
+137:46:32|T|CC|11, Houston. Did you copy? Over.
+137:46:44|T|CDR|Yes. We read you, Charlie. Would you stand by a minute?
+137:46:47|T|CC|Roger. No hurry.
+137:47:19|T|CC|11, Houston. Shift change time, here. White Team bids you good night; we'll see you tomorrow. Over.
+137:47:28|T|CDR|Good night, Charlie. Thank you.
+137:47:32|T|LMP|Good night, Charlie. Thank you.
+137:47:34|T|CMP|Adios.
+137:47:36|T|CC|Adios. Thanks again for a great show, you guys.
+137:47:43|T|CMP|Thanks for a great job down there.
+137:52:21|P|PAO|This is Apollo Control at 137 hours, 52 minutes. Apollo 11 crew has signed off for the night, starting a well deserved rest period. Duration of the rest period is programmed for 10 hours, however, the wake up time is not critical. It's very likely that we'll let them sleep until they wake up of their own accord. At this time Columbia is 7,045 nautical miles away from the Moon, headed toward home at a velocity of 4,868 feet per second.
+138:01:35|P|PAO|This is Apollo Control at 138 hours 02 minutes. Capcom Owen Garriott has just put in a call to the crew and is passing up some antenna information to them. Here's that conversation.
+138:01:53|T|CC|Apollo 11, Houston. Over.
+138:02:00|T|CMP|Good morning, Ron.
+138:02:02|T|CC|Howdy there, Mike. We're ready to go ahead and have you switch to your OMNI positions for your sleep period, and we would like the following high-gain switch positions: your high-gain antenna in MANUAL, beam width WIDE, pitch is minus 50, and yaw is a plus 270. And just follow the Flight Plan for remaining COMM configuration. Over.
+138:02:38|T|CDR|Roger. Out.
+138:02:49|T|CMP|You "Purple" people keep funny hours.
+138:02:53|T|CC|Your COMM is pretty weak at this point, Mike. Please say again.
+138:03:00|T|CMP|Oh, disregard.
+138:03:40|T|CMP|Houston, Apollo 11.
+138:03:42|T|CC|Go ahead, 11.
+138:03:57|T|CMP|It's on the way now.
+138:04:23|P|PAO|This is Apollo Control. Ten minutes ago we logged what we expect to be our last contact with Eagle in lunar orbit. That coming at 137 hours 55 minutes Elapsed Time. At that time the battery power fell below the level where the secondary guidance system could hold the attitude of the vehicle within the sphere of antenna limits. We do not expect to establish contact with Eagle again. We'll continue to stand by here live. There may be a little more conversation before the crew turns in for the night.
+138:06:22|T|CC|Apollo 11, Houston. We'd like for you to go ahead and put your S band antenna OMNI to OMNI and OMNI B. Over.
+138:07:52|T|CC|Apollo 11, Houston. How do you read me through Honeysuckle now? Over.
+138:08:03|T|CMP|You're loud and clear, Owen.
+138:08:04|T|CC|Very good. Reading you better now. And did you copy we'd appreciate going S-Band OMNI and OMNI B at this time? Over.
+138:08:16|T|CMP|That's the configuration we're in.
+138:08:18|T|CC|Okay. Thank you.
+138:08:26|T|CMP|I'll say you "Purple" people keep funny hours.
+138:11:26|P|PAO|This is Apollo Control at 138 hours 11 minutes. We do not intend to contact the crew during this rest period again. We will take this line down now and come back up if there is further conversation. This is Mission Control, Houston.
+139:00:10|P|PAO|This is Apollo control at 139 hours. The crew of Apollo 11 is in the rest period. We have not contacted them within the last hour, and have not heard from them. All systems aboard the spacecraft performing well. Apollo 11 is now 10,149 nautical miles from the Moon approaching the Earth at a velocity of 4659 feet per second. Spacecraft weight is 26,510 pounds. This is Mission Control, Houston.
+140:00:07|P|PAO|This is Apollo Control at 140 hours. Apollo 11 is now 12,835 nautical miles from the Moon. Velocity 4,552 feet per second. All systems still performing well. Dr. Kenneth Biers, the Flight Surgeon, reports his data indicates all three of the crewmen are asleep. This is Mission Control, Houston.
+141:00:02|P|PAO|This is Apollo Control at 141 hours. Apollo 11 is 15,488 nautical miles from the Moon. Velocity 4,480 feet per second. The crew is still asleep. All systems continuing to perform very well. This is Mission Control, Houston.
+142:03:07|P|PAO|This is Apollo Control at 142 hours 03 minutes. Apollo 11 is 18,243 nautical miles from the Moon. Velocity 4,426 feet per second. Apollo 11 is in the Passive Thermal Control mode, the performance of all systems nominal, and the crew is asleep. This is Mission Control, Houston.
+143:00:01|P|PAO|This is Apollo Control at 143 hours. Apollo 11 is 20,704 nautical miles from the Moon, velocity 4,390 feet per second. The crew is still is the rest period. The weather bureau's space flight meteorology group reported this morning that weather conditions in the primary landing area are expected to the acceptable, the sky partly cloudy, the winds easterly at 10 knots, and seas of 3 feet are predicted. Tropical storm Claudia is now located 2300 miles east of the landing area and will not affect the weather in the landing area Thursday. This is Mission Control Houston.
+144:00:01|P|PAO|This is Apollo Control at 144 hours. Apollo 11 is 23,289 nautical miles from the Moon approaching the Earth at a velocity of 4,361 feet per second. All systems performing well, and the crew still in their rest period. It does not appear likely that we will perform mid-course correction number 5 scheduled for approximately 150 1/2 hours elapsed time. However, a firm decision on this mid-course will not be made for approximately 3 1/2 hours. This is Mission Control, Houston.
+145:00:00|P|PAO|This is Apollo Control at 145 hours. Apollo 11 is 25,857 nautical miles from the Moon. Heading toward home at 4,338 feet per second. Apollo 11 will leave the Moon's sphere of influence at an elapse time of 148 hours 7 minutes 23 seconds. This is Mission Control, Houston.
+146:00:01|P|PAO|This is Apollo Control at 146 hours. We have heard nothing from the crew. We assume they are still asleep, and that sleep period began at about 137 hours, 47 minutes. At this time, Apollo 11 is 28,421 nautical miles from the Moon, and traveling at a speed of 4,322 feet per second. The decision on mid-course correction number 5 is still tending toward not doing that mid-course, however the decision hasn't been made finally, and there will be some additional tracking prior to firming up that decision. At this point it appears that the mid-course path number 5 opportunity would require about 4 to 5 feet per second. By waiting until the opportunity of mid-course correction 6, about 7 feet per second would be required. We do not plan to awaken the crew, at least immediately. Let them continue sleeping. All spacecraft systems continue to look very good to us from the ground. We've completed the change-of-shift here in Mission Control. Flight Director, Clifford Charlesworth, has relieved Milton Windler, and our capsule communicator is Astronaut, Bruce McCandless. At 146 hours, 2 minutes, this is Apollo Control, Houston.
+147:00:05|P|PAO|This is Apollo Control at 147 hours. The Flight Surgeon reported a short while ago that the crew appeared still to be sleeping, however, we have seen some signs of activity aboard the spacecraft. We suspect they may be awakening shortly. At the present time Apollo 11 is 30,980 nautical miles from the Moon and the speed is 4,308 feet per second. The Flight Plan for today is relatively quiet and we are continuing to await the crew's own awakening - we don't plan to awaken them from the ground at this time. At 147 hours, 1 minute, this is Mission Control, Houston.
+147:30:03|P|PAO|This is Apollo Control at 147 hours 30 minutes. The Flight Surgeon reported a short while ago that the Lunar Module Pilot, Buzz Aldrin, appears to be up at this time. Both Armstrong and Collins appear still to be sleeping. At the present time Apollo 11 is 32,253 nautical miles from the Moon and traveling at a speed of 4,303 feet per second. Flight Director, Clifford Charlesworth has elected to perform the mid-course correction maneuver scheduled at transearth injection plus 15 hours. That would be at about 150 hours 25 minutes Ground Elapsed Time. The exact time of that mid-course correction is not critical and it could move around somewhat. We expect that it would be a velocity change of about 5 feet per second. We expect there will be some conversation with the crew before too much longer. We'll come back up when we hear from the spacecraft. This is Apollo Control at 147 hours 32 minutes.
+147:38:49|P|PAO|This is Apollo Control at 147 hours, 39 minutes. The Flight Surgeon reports that all 3 crew are now awake. We expect to be hearing a "good morning" from the spacecraft before too much longer so we'll stand by for that. We said "good night" to the crew last night at about 137 hours, and 47 minutes so they have apparently had a good 10-hour rest period and we'll probably be getting a crew status report indicating just how much sleep each of the crewmen got. We'll stand by for any conversation with the spacecraft.
 147:47:11|T|CMP|Good afternoon, Houston. Apollo 11. Over.
-147:47:24|T|CC|Good morning, 11. This is Houston. Over.
-147:47:31|T|CMP|Okay. Crew status report: 88 and 8.5.
+147:47:23|T|CC|Good morning, 11. This is Houston. Over.
+147:47:30|T|CMP|Okay. Crew status report: 8, 8 and 8.5.
 147:47:38|T|CC|Roger. 88 and 8.5. When you're ready, we've got a small Flight Plan update for you.
 147:48:14|T|LMP|Houston, we're ready to copy.
 147:48:16|T|CC|Roger. At about 148 hours, if you've not already done so, a CO2 filter change, and the H2 purge line heater on 20 minutes before the O2 and H2 purge. At 148 hours, we'd like you to initiate a charge on battery Alfa instead of at 151 hours, and leave the charge on until we notify you further. At 150 hours GET, wastewater dump to 10 percent. We do plan to burn mid-course correction 5. It will be an RCS burn about 5 feet per second at about the nominal time in the Flight Plan. Over.
 147:49:24|T|LMP|Roger. Understand. We'll be accomplishing the filter change shortly, the purge line heater is on ..., O2 and H2 purge shortly, and at 148 will initiate a charge on battery A until you notify us further. At 150 hours, wastewater dump to 10 percent. And we're looking forward to mid-course correction 5 at about 5 feet per second at the nominal time. Over.
-147:49:52|T|CC|Roger. I've got your consumables update, if you're ready to copy.
+147:49:51|T|CC|Roger. I've got your consumables update, if you're ready to copy.
 147:50:02|T|LMP|Copy.
 147:50:04|T|CC|Okay. At GET of 147 plus 00, RCS total minus 2.0 percent, which is about minus 14 pounds. Alfa minus 12.0, Bravo plus 10.0, minus 3.0, minus 2.0. Hydrogen total minus 1.5 pounds, O2 total plus 20 pounds. Over.
 147:50:50|T|LMP|Roger. I copy, and our onboard readouts: Alfa, ... 2 percent, Bravo 54 percent, Cocoa's 64 percent, Delta 61 percent. Over.
 147:51:19|T|CC|Roger, 11. Would you read that quad Alfa again, please, Buzz. You're cutting out. It may be - are you operating on VOX? Over.
 147:51:29|T|LMP|Negative. Alfa is 53 percent. Over.
-147:51:36|T|CC|Roger. We copy.
+147:51:35|T|CC|Roger. We copy.
 147:51:53|T|CC|11, from down here on telemetry, all your systems look to be in good shape.
 148:01:51|T|CC|Apollo 11, this is Houston. Over.
-148:01:57|T|CMP|Go ahead.
+148:01:56|T|CMP|Go ahead.
 148:01:58|T|CC|Roger. Would you ask Buzz to check his biomedical TM sensors for a loose or dried out sensor? We're getting an erratic electrocardiogram reading. That would be one of the three sternal leads. Over.
 148:02:18|T|CMP|Okay.
 148:02:45|T|CMP|...
