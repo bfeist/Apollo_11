@@ -12428,146 +12428,137 @@
 133:00:09|O|CDR|How about that?
 133:00:55|O|CDR|Beautiful.
 133:00:59|O|CMP|405 and 404 - What's the matter with it? (Laughter)
-133:01:02|O|LMP|403 I think we ...
-133:01:09|O|CMP|... alignment, oops, I got 404 again.
+133:01:02|O|LMP|403 I think we ... alignment.
+133:01:12|O|LMP|Oops, I got 404 again.
 133:01:55|O|CMP|How about that, wise asses! Huh?
 133:01:58|O|LMP|You had a - you had to work though, didn't you?
 133:03:08|O|CMP|... O2 fuel cell's ....
 133:03:17|O|CDR|This is not dumping.
 133:03:19|O|CMP|I figured that.
-133:03:25|O|CDR|Did you try the other line?
+133:03:25|O|LMP|Did you try the other line?
 133:03:26|O|CMP|Well - no, I haven't tried a whole number of alternatives. In fact, number 1 is not dumping. My guess would be that it's something to do with this connection in the UCD or something like that. When you try to dump your ... regular urine bag, ... It's so goddam smelly, I hate to grab it and dick around with it, but I guess I got to.
-133:03:47|O|CDR|Not entirely. I think I'd rather stick around ...
 133:04:40|O|CDR|...
 133:05:36|O|LMP|How long does it take to warm up this thing? 3 hours?
 133:05:38|O|CMP|...
 133:05:46|O|CDR|What state vector is in the LM slot? The LM?
 133:05:54|O|LMP|... minus a few feet per second. ...
-133:05:59|O|CDR|Well, we got something in the LM slot ...
-133:06:03|O|CMP|Well, that's just an old vectors, because I never did VERB 66, I don't think, after ...
+133:06:03|O|CDR|Well, we got something in the LM slot ...
+133:06:09|O|CMP|Well, that's just an old vector, because I never did VERB 66, I don't think, after ...
 133:06:32|O|LMP|We got 22 feet per second. Almost have to be LM - previous to the SEP burn.
-133:10:11|O|CDR|Well, when it gets to be light, we got to ...
-133:10:19|O|LMP|Well, we probably ought to - ... TPI.
-133:10:27|O|CMP|Yes, the maneuver ... right amount of ...
+133:10:11|O|CMP|Well, when it gets to be light, we got to ...
+133:10:19|O|CDR|Well, we probably ought to - ... TPI.
+133:10:27|O|CMP|Yes, the maneuver ... right amount of film ... I've got half a magazine of black and white and half a magazine of color left ...
 133:11:24|O|CDR|... give me a waste bag ....
-133:11:31|O|CMP|Yes, just ... a lot ... there.
-133:12:17|O|CMP|It was back here.
+133:11:31|O|CMP|Yes, just ... a lot ... by the helmets there ...
+133:12:16|O|CMP|... glove bag too.
 133:12:19|O|LMP|Yes.
 133:13:03|O|CMP|Who took the roll of tape?
-133:13:08|O|CDR|Isn't it in its place? Closet?
-133:13:10|O|CMP|No, no, it's not in there. It doesn't have that closet anymore. The last I saw it, it was up on the MDC. I gave it - I handed it to one of you guys to -
+133:13:06|O|CDR|Isn't it in its place? Closet?
+133:13:09|O|CMP|No, no, it's not in there. It doesn't have that closet anymore. The last I saw it, it was up on the MDC. I gave it - I handed it to one of you guys to -
 133:13:17|O|LMP|Yes, I stuck it someplace.
 133:13:25|O|CMP|Let's invent a new home for it because that old home is full of that smelly old urine bag.
 133:13:34|O|CDR|The floodlight isn't - hasn't even made the bottom of the package warm yet, fellows.
-133:13:39|O|LMP|Well, when it goes up there, we'll have to put it up here.
+133:13:38|O|LMP|Well, when it goes up there, we'll have to put it up here.
 133:17:10|O|CMP|I got the tape - right underneath your couch. Okay?
 133:17:19|O|LMP|Alright.
-133:17:25|O|CMP|Okay, we need a new home for the tape. Anybody got any good suggestions?
+133:17:26|O|CMP|Okay, we need a new home for the tape. Anybody got any good suggestions?
 133:17:36|O|CMP|Okay?
-133:17:39|O|LMP|Alright.
-133:18:02|O|CMP|We believed you, though.
-133:19:29|O|CMP|(Yawn)
-133:19:40|O|CDR|...
-133:20:05|O|LMP|Go ahead.
-133:21:25|O|CDR|I think we had a ...
-133:21:44|O|CDR|Not a burn ...
-133:21:55|O|CMP|Oh, God, why ... (laughter) ...
-133:22:10|O|CDR|... but right now, I am for a nice beer.
-133:22:54|O|CDR|..., some water here. Mike, do you remember trying to get water into a grapefruit-pineapple drink?
+133:17:40|O|LMP|Alright.
+133:18:03|O|CMP|We believed you, though. ...
+133:19:30|O|CMP|(Yawn)
+133:19:39|O|CDR|...
+133:20:02|O|LMP|...
+133:20:04|O|LMP|Go ahead.
+133:21:26|O|CDR|I think we had a ...
+133:21:43|O|CDR|Not a burn ...
+133:21:57|O|CMP|Oh, God, why ... (laughter) ...
+133:22:10|O|CMP|... but right now, I am for a nice beer.
+133:22:52|O|LMP|... some water here. Mike, do you remember trying to get water into a grapefruit-pineapple drink?
 133:23:00|T||BEGIN LUNAR REV 30
-133:23:05|O|CMP|No, don't do it.
-133:23:06|O|CDR|Yes.
-133:23:07|O|CMP|Don't do it.
+133:23:06|O|CMP|No, don't do it. Yes. Don't do it.
 133:23:13|O|LMP|Couldn't get it in, huh?
-133:23:15|O|CDR|No.
-133:23:51|O|CMP|..., Buzz?
+133:23:16|O|CDR|No.
+133:23:52|O|CMP|..., Buzz?
 133:23:59|O|LMP|... some of that.
-133:24:59|O|CMP|There's a piece of that great bread that has mold all over it.
-133:26:45|O|LMP|You got the Flight Plan?
-133:26:51|O|CDR|...
-133:27:05|O|LMP|...
-133:27:08|O|CMP|Probably are. I purged them this morning when I woke up, Buzz. Probably did the hydrogen as well.
-133:27:16|O|LMP|47, 32, 47?
-133:33:37|O|CMP|That was quite a wild gyration for docking.
-133:33:40|O|LMP|It was.
-133:33:42|O|CMP|Son-of-a-bitching - -
-133:33:43|O|LMP|You did a pretty good ...
-133:33:49|O|CMP|If I'd known how it was going to develop, I wouldn't have gone as far with the bottle as I did. I was in the habit of it, you know, as soon as contact is made, I look at it. It looks okay, I fire the bottle right away.
-133:33:56|O|CDR|...
-133:33:57|O|CMP|No, I would.
-133:33:58|O|CDR|...
-133:33:59|O|CMP|No, no.
-133:34:00|O|CDR|...
-133:34:01|O|CMP|... No sooner than I fired that goddamned bottle, than wow; and away we went.
-133:34:10|O|LMP|...
-133:34:32|O|CDR|No - they're way down so, I don't know - just ...
-133:34:34|O|CMP|Then, when I fired the bottle, and then, just about all that came ... since the thing started, I went back to CMC, AUTO, ... bothering me. And just about that time all those ..., my God, those flashes ... I thought they were ... I thought we were ...
-133:35:10|O|CDR|... I mean later on ... all those ...
-133:37:06|O|LMP|Look at this.
-133:37:08|O|CDR|Yes.
-133:37:09|O|LMP|Figured nobody could see where we were ....
-133:38:08|O|CMP|Hey, did we decide the ... back?
-133:38:38|O|CMP|No, the data should go to the log ... The only good thing there you can say about it is ...
-133:38:55|O|LMP|... you guys. ... love them ...
-133:39:51|O|CMP|All that probe and drogue and tunnel and claptrap works; all that EVA transfer, you can forget about that and all those crazy procedures for taking that probe apart.
-133:40:12|O|LMP|At least, we can forget them until the debriefing.
-133:40:14|O|CMP|Yes (laughter).
-133:40:55|O|LMP|...
-133:41:23|O|CMP|This thing ... make a great ...
-133:42:04|O|CDR|Picked up the CSM problem.
-133:42:38|O|CMP|I've never thought about it.
-133:42:50|O|CDR|...?
-133:42:51|O|CMP|No.
-133:42:54|O|LMP|All at once.
-133:43:19|O|CDR|None of them.
-133:44:31|O|CDR|Yes.
-133:44:44|O|CDR|... long time.
-133:44:51|O|CMP|It's ...?
-133:45:00|P|PAO|This is Apollo Control at 133 hours 45 minutes. We're now 50 seconds from reacquiring Apollo 11 on the 30th revolution of the Moon. This will be our last front side pass before transearth injection. On this revolution we'll be passing up to the crew the final computations for their transearth injection maneuver, which is scheduled to occur at 135 hours 23 minutes 42 seconds, or about 1 hour 38 minutes from now. We should have acquisition of signal now in about 10 seconds. We'll stand by.
-133:45:00|P|PAO|We have acquired the signal from the spacecraft now. We're standing by at this time for a call from the crew or for Capcom Charlie Duke to put in a call to the crew from the ground. We presently show the Lunar Module in an orbit 63.3 by 56 nautical miles, the command Service Module is in an orbit 63.2 by 53.9. At the time of the transearth injection burn we expect that the Command Module will be about 1 mile below the LM and about 20 miles in front of it.
-133:45:34|O|CDR|You got something ...?
-133:45:38|O|CMP|Yes. Yes, sir. Purring across the deep. Okay. Look at that.
-133:49:44|T|CC|Hello, Apollo 11. Houston. We're standing by.
-133:49:54|T|CMP|Roger. Apollo 11.
-133:49:56|T|CC|Roger. We'd like you, sometime at your convenience, to stir up the CRYO's on this pass. And we're wondering if you got the fuel cell purge. Over.
-133:50:08|T|CMP|Roger. ... fuel cell purge ...
-133:50:12|T|CC|Say again. You're breaking up.
-133:50:18|T|CMP|Roger. The O2 fuel cell purge is complete.
-133:50:22|T|CC|Roger. Copy.
-133:52:42|T|CC|Hello, Apollo 11, Houston. We've got a load for you, if you give us P00 and ACCEPT. The load consists of a CSM pre TEI state vector that's going in the CSM slot, and a post-TEI state vector that'll go into the LM slot, if that's okay; and also a TEI target load. Any comments? Over.
-133:53:07|T|CMP|Very good. Thank you very much.
-133:53:08|T|CC|Yes, sir.
-133:53:09|T|CMP|P00 and ACCEPT. You got it.
-133:53:10|T|CC|Thank you.
-133:53:31|T|CC|And, 11, Houston. A reminder: you can scratch the VERB 66 at 134 30.
-133:53:41|T|CMP|Understand.
-133:54:03|T|CC|And, 11, Houston. For your information, Eagle, we had an ISS fail light came on at about 3 19 due to a CDU overheating; and at about this time at AOS it looks like we're about to lose the platform.
-133:54:25|T|CMP|...
-133:55:00|P|PAO|This is Apollo Control. At this time the crew should be involved in their pre-transearth injection status checks. They will also be aligning the platform on their spacecraft guidance system and will be passing up the final information for the transearth injection burn computed on the ground. A few minutes ago you heard Charlie Duke advise the crew that we show the LM platform is about to go. We've mentioned that prior to leaving the Lunar Module the crew had deactivated the primary cooling loop placing the secondary cooling loop in operation aboard the LM. This means that the primary guidance system does not get cooling. This is part of a preplanned test to find out just how long the primary guidance system would continue to function without cooling. We had predicted in advance that it would - may not - possibly not last much longer than a hour or so, but at the time Charlie Duke reported the platform had just gone down on the LM, it had been in operation without cooling a little more than four hours. We had an approximate time from the crew of transferring to the secondary cooling loop of about 129 hours 40 minutes and we got the report from Duke that the LM guidance platform was no longer usable at 133 hours 55 minutes. We'll continue to standby for any further conversation from the crew. We're now one hour twenty minutes ten seconds away from transearth injection which will occur on the backside of the Moon at the beginning of the thirty-first revolution.
-134:00:09|T|CC|Apollo 11, Houston. We got the load in. You can have the computer - -
-134:00:12|T|LMP|11. Are you through with the computer?
-134:00:14|T|CC|That's affirmative, Buzz.
-134:00:20|T|LMP|All right. That's timing for you.
-134:00:41|T|CC|And, Apollo 11, Houston. Your friendly White Team has your coming home information, if you're ready to copy. Over.
-134:00:56|T|LMP|Stand by.
-134:01:14|T|LMP|Apollo 11. Ready to copy.
-134:01:16|T|CC|Roger, 11. Got two PADS for you, TEI 30 and then a TEI 31. TEI 30 SPS/G&N: 36691, minus 061, plus 066 135 23 4156. NOUN 81: 32 - correction, plus 32011, plus 06818, minus 02650 181 054 014. Apogee is NA, perigee plus 00230 3286 - correction, 32836; burn time 2 28 32628 24 1511 357. Next three lines are NA. NOUN 61: plus 1103, minus 17237 11806 36275 195 04 52. Set stars are Deneb and Vega, 242 172 012. We'd like ullage from two jets for 16 seconds, and the horizon is on the 10 degree line at TIG minus 2 minutes; and your sextant star is visible after 134 plus 50. Stand by on your readback. I have a TEI 31 if you're ready to copy. Over.
-134:04:14|T|LMP|Roger. TEI 30, SPS/G&N: 36691, minus 061, plus 066 135 23 4156, plus 32011, plus 06 818, minus 02650, 181 054 014; apogee NA, plus 00230 32836 228 32628 42 1511 357, NA three lines, plus 1103, minus 17237 11806 36275 195 04 52, Deneb and Vega, 242 172 012, two jet ullage, 16 seconds, horizon out of the window, 10 degrees, TIG minus 2 minutes, sextant star at 134 10. Over.
-134:05:00|P|PAO|This is Apollo Control at 134 hours, 10 minutes. We have about 47 minutes, 30 seconds before losing contact with Apollo 11 as it goes behind the Moon in preparation for the transearth injection burn. With the burn we would reacquire the spacecraft at 135 hours, 34 minutes, 11 seconds. Without the transearth injection burn on the upcoming revolution we would reacquire at 135 hours, 43 minutes, 50 seconds. The final figures on that burn as passed up to the crew a few minutes ago are as follows: ignition will occur at 135 hours, 23 minutes, 42 seconds. The burn duration will be 2 minutes, 28 seconds. That will add 3284 feet per second to the spacecraft velocity starting it on its path back to Earth. And we would consume about 10,000 pounds of propellant with that burn. Splash would occur according to our preliminary figures, just about precisely as predicted in the Flight Plan. We'll continue to monitor now for any further conversation from the spacecraft.
-134:05:43|T|CC|Roger, Buzz. Good readback. You're very weak. If you're ready to copy, I got a TEI 31 for you. Over.
-134:06:01|T|LMP|All right. Go ahead.
-134:06:09|T|CC|Apollo 11, Houston. You were cut out. Say again.
-134:06:17|T|LMP|Roger. Stand by one.
-134:06:18|T|CC|Roger.
-134:06:24|T|LMP|All right. Go ahead. I'm ready to copy.
-134:06:27|T|CC|Roger, 11. TEI 31, SPS/G&N: 36691, minus 061, plus 066 137 22 3985, plus 32838, plus 06845, minus 02487, NA, pitch 052. Rest of the PAD is NA. Ready for your readback. Over.
-134:07:25|T|LMP|Roger. TEI 31, SPS/G&N: 36691 minus 061, plus 066, 137 22 3985, plus 32838, plus 06845, minus 02487, NA, pitch 052. The rest is NA. Over.
-134:07:56|T|CC|Roger. Good readback. And, Buzz, did you say sextant star is visible after 134 50?
-134:08:11|T|LMP|No. I wrote down 134 10. I wasn't real sure about that.
-134:08:18|T|CC|Roger. It went by me there. RETRO caught it. It's 134 50. Over.
-134:08:26|T|LMP|Okay. 134 50. Thank you.
-134:08:29|T|CC|Yes, sir.
-134:16:53|T|CC|Hello, Apollo 11. Houston. After the burn, we'd like you to trim X and Z. Over.
+133:25:00|O|CMP|There's a piece of that great bread that has mold all over it.
+133:26:47|O|LMP|...
+133:26:50|O|CDR|You got the Flight Plan?
+133:26:53|O|LMP|...
+133:27:09|O|CMP|Probably are. I purged them this morning when I woke up, Buzz. Probably did the hydrogen as well. 
+133:27:16|O|LMP|... 47, 32, 47?
+133:33:40|O|CMP|That look like a wild gyration for docking.
+133:33:43|O|LMP|It was.
+133:33:44|O|CMP|Son-of-a-bitching - -
+133:33:45|O|LMP|You did a pretty good ...
+133:33:51|O|CMP|If I'd known how it was going to develop, I wouldn't have gone as far with the bottle as I did. I was in the habit of it, you know, as soon as contact is made, I look at it. It looks okay, I fire the bottle right away. I figured, why not ... no sooner than I fired that goddamned bottle, than wow; and away we went.
+133:34:12|O|LMP|...
+133:34:34|O|CDR|No - they're way down so, I don't know - just ...
+133:34:37|O|CMP|At contact ... then, when I fired the bottle, and then, just about all that came ... since the thing started, I went back to CMC, AUTO, ... bothering me. And just about that time all those ..., my God, those flashes ... I thought they were ... I thought we were ...
+133:35:13|O|CDR|... I mean later on ... all those ...
+133:37:10|O|LMP|Pretty good ... figured nobody could see where we were (laughter) ...
+133:38:10|O|CMP|Hey, did we decide the window ... back?
+133:38:40|O|CMP|No, the data should go to the log ... The only good thing there you can say about it is ...
+133:38:59|O|LMP|... you guys. ... love them ...
+133:39:54|O|CMP|All that probe and drogue and tunnel and claptrap works; all that EVA transfer, you can forget about that and all those crazy procedures for taking that probe apart.
+133:40:15|O|LMP|At least, we can forget them until the debriefing.
+133:40:18|O|CMP|Yes (laughter).
+133:40:58|O|LMP|...
+133:41:26|O|CMP|This thing ... make a great ...
+133:42:06|O|CDR|... picked up the CSM problem. ...
+133:42:41|O|CMP|I've never thought about it.
+133:42:52|O|CDR|...?
+133:42:54|O|CMP|No.
+133:43:00|O|CMP|All ... over there? ... all at once.
+133:43:22|O|CDR|None of them.
+133:44:46|O|LMP|... long time.
+133:44:49|P|PAO|This is Apollo Control at 133 hours 45 minutes. We're now 50 seconds from reacquiring Apollo 11 on the 30th revolution of the Moon. This will be our last front side pass before transearth injection. On this revolution we'll be passing up to the crew the final computations for their transearth injection maneuver, which is scheduled to occur at 135 hours 23 minutes 42 seconds, or about 1 hour 38 minutes from now. We should have acquisition of signal now in about 10 seconds. We'll stand by.
+133:44:55|O|CMP|Buzz left?
+133:44:56|O|CDR|... problem ... (laughter)
+133:45:38|O|LMP|You got a problem ...?
+133:45:43|O|CDR|Yes. Yes, sir. Purring across the ... Okay. Look at that ...
+133:46:16|P|PAO|We have acquired the signal from the spacecraft.
+133:47:10|P|PAO|We're standing by at this time for a call from the crew or for Capcom Charlie Duke to put in a call to the crew from the ground. We presently show the Lunar Module in an orbit 63.3 by 56 nautical miles, the Command and Service Module is in an orbit 63.2 by 53.9. At the time of the transearth injection burn we expect that the Command Module will be about 1 mile below the LM and about 20 miles in front of it.
+133:49:46|T|CC|Hello, Apollo 11. Houston. We're standing by.
+133:49:56|T|LMP|Roger. Apollo 11.
+133:49:58|T|CC|Roger. We'd like you, sometime at your convenience, to stir up the CRYOs on this pass. And we're wondering if you got the fuel cell purge. Over.
+133:50:10|T|LMP|Roger. ... fuel cell purge ...
+133:50:14|T|CC|Say again. You're breaking up.
+133:50:20|T|LMP|Roger. The O2 fuel cell purge is complete.
+133:50:23|T|CC|Roger. Copy.
+133:52:43|T|CC|Hello, Apollo 11, Houston. We've got a load for you, if you give us P00 in ACCEPT. The load consists of a CSM pre TEI state vector that's going in the CSM slot, and a post-TEI state vector that'll go into the LM slot, if that's okay; and also a TEI target load. Any comments? Over.
+133:53:09|T|CMP|Very good. Thank you very much.
+133:53:10|T|CC|Yes, sir.
+133:53:11|T|CMP|P00 and ACCEPT. You got it.
+133:53:12|T|CC|Thank you.
+133:53:32|T|CC|And, 11, Houston. A reminder: you can scratch the VERB 66 at 134:30.
+133:53:43|T|CMP|Understand.
+133:54:05|T|CC|And, 11, Houston. For your information, Eagle, we had an ISS fail light came on at about 319 due to a CDU overheating; and at about this time at AOS it looks like we're about to lose the platform.
+133:54:27|T|CMP|...
+133:57:46|P|PAO|This is Apollo Control. At this time the crew should be involved in their pre-transearth injection status checks. They will also be aligning the platform on their spacecraft guidance system and will be passing up the final information for the transearth injection burn computed on the ground. A few minutes ago you heard Charlie Duke advise the crew that we show the LM platform is about to go. We've mentioned that prior to leaving the Lunar Module the crew had deactivated the primary coolant loop placing the secondary coolant loop in operation aboard the LM. This means that the primary guidance system does not get cooling. This is part of a preplanned test to find out just how long the primary guidance system would continue to function without cooling. We had predicted in advance that it would - may not - possibly not last much longer than a hour or so, but at the time Charlie Duke reported the platform had just gone down on the LM, it had been in operation without cooling a little more than four hours. We had an approximate time from the crew of transferring to the secondary coolant loop of about 129 hours 40 minutes and we got the report from Duke that the LM guidance platform was no longer usable at 133 hours 55 minutes. We'll continue to standby for any further conversation from the crew. We're now 1 hour 24 minutes, 10 seconds away from transearth injection which will occur on the backside of the Moon at the beginning of the 31st revolution.
+134:00:11|T|CC|Apollo 11, Houston. We got the load in. You can have the computer - -
+134:00:13|T|LMP|11. Are you through with the computer?
+134:00:16|T|CC|That's affirmative, Buzz.
+134:00:22|T|LMP|All right. That's timing for you.
+134:00:43|T|CC|And, Apollo 11, Houston. Your friendly White Team has your coming home information, if you're ready to copy. Over.
+134:00:58|T|LMP|Stand by.
+134:01:16|T|LMP|Apollo 11. Ready to copy.
+134:01:17|T|CC|Rog, 11. Got two PADs for you, TEI-30 and then a TEI-31. TEI-30, SPS/G&N: 36691, minus 0.61, plus 0.66; 135:23:41.56. Noun 81: 32 - correction, plus 3201.1, plus 0681.8, minus 0265.0; 181, 054, 014. Apogee is NA, perigee plus 0023.0; 3286 - correction, 32836; burn time 2:28, 3262.8; 24, 151.1, 35.7. Next three lines are NA. Noun 61: plus 11.03, minus 172.37; 1180.6, 36275, 195:04:52. Set stars are Deneb and Vega, 242, 172, 012. We'd like ullage from two jets for 16 seconds, and the horizon is on the 10-degree line at TIG minus 2 minutes, and your sextant star is visible after 134 plus 50. Stand by on your readback. I have a TEI-31 if you're ready to copy. Over.
+134:04:12|T|LMP|Roger. TEI-30, SPS/G&N: 36691, minus 0.61, plus 0.66; 135:23:41.56; plus 3201.1, plus 0681.8, minus 0265.0; 181, 054, 014. Apogee NA, plus 0023.0; 32836, 2:28, 32628; 24, 151.1, 35.7. NA three times. Plus 11.03, minus 172.37; 1180.6, 36275, 195:04:52. Deneb and Vega, 242, 172, 012. Two-jet ullage, 16 seconds. Horizon out-of-the-window, 10 degrees, TIG minus 2 minutes. Sextant star at 134:10. Over.
+134:05:45|T|CC|Roger, Buzz. Good readback. You're very weak. If you're ready to copy, I got a TEI 31 for you. Over.
+134:06:03|T|LMP|All right. Go ahead.
+134:06:10|T|CC|Apollo 11, Houston. You were cut out. Say again.
+134:06:19|T|LMP|Roger. Stand by one.
+134:06:20|T|CC|Roger.
+134:06:26|T|LMP|All right. Go ahead. I'm ready to copy.
+134:06:28|T|CC|Roger, 11. TEI-31, SPS/G&N: 36691, minus 0.61, plus 0.66, 137:22:39.85. Plus 3283.8, plus 0684.5, minus 0248.7. NA, pitch 052. Rest of the PAD is NA. Ready for your readback. Over.
+134:07:26|T|LMP|Roger. TEI-31, SPS/G&N: 36691; minus 0.61, plus 0.66; 137:22:39.85. Plus 3283.8, plus 0684.5, minus 0248.7. NA, pitch 052. The rest is NA. Over.
+134:07:58|T|CC|Roger. Good readback. And, Buzz, did you say sextant star is visible after 134:50?
+134:08:13|T|LMP|No. I wrote down 134:10. I wasn't real sure about that.
+134:08:20|T|CC|Roger. It went by me there. RETRO caught it. It's 134:50. Over.
+134:08:28|T|LMP|Okay. 134:50. Thank you.
+134:08:31|T|CC|Yes, sir.
+134:10:09|P|PAO|This is Apollo Control at 134 hours, 10 minutes. We have about 47 minutes, 30 seconds before losing contact with Apollo 11 as it goes behind the Moon in preparation for the transearth injection burn. With the burn we would reacquire the spacecraft at 135 hours, 34 minutes, 11 seconds. Without the transearth injection burn on the upcoming revolution we would reacquire at 135 hours, 43 minutes, 50 seconds. The final figures on that burn as passed up to the crew a few minutes ago are as follows: ignition will occur at 135 hours, 23 minutes, 42 seconds. The burn duration will be 2 minutes, 28 seconds. And that will add 3284 feet per second to the spacecraft velocity starting it on its path back to Earth. And we would consume about 10,000 pounds of propellant with that burn. Splash would occur according to our preliminary figures, just about precisely as predicted in the Flight Plan. We'll continue to monitor now for any further conversation from the spacecraft.
+134:16:55|T|CC|Hello, Apollo 11. Houston. After the burn, we'd like you to trim X and Z. Over.
 134:17:05|T|CMP|Okay, Charlie.
 134:17:07|T|CC|Roger. And that's to 0.2 foot per second, as shown in the Flight Plan.
 134:17:23|T|CMP|Sounds like there's a story behind that one, too.
