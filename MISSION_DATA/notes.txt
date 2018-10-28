@@ -254,6 +254,15 @@
 177:34:38 - Collins give speech about the trip to the Moon
 177:38:20 - Buzz gives philosophical speech
 177:41:42 - Armstrong gives speech thanking all who contributed
+178:24:39 - White team starts shift
+181:42:06 - Targeted landing spot changed to account for weather
+182:03:47 - White team says goodbye
+182:08:16 - Sleep period starts
+182:07:29 - McDonald observatory sees Apollo 11 in their telescope
+189:00:00 - Maroon team starts shift
+189:28:36 - Crew wakes up
+190:23:58|T|CC|Air Canada says it has accepted 2300 reservations for flights to the Moon in the past 5 days.
+193:02:28 - Lovell teases crew
 
 
 

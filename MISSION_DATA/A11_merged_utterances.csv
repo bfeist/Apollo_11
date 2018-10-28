@@ -13447,15 +13447,15 @@
 153:43:47|T|CMP|How could I forget. I used to be a "Green" one.
 153:45:41|T|CC|Hello, Apollo 11, Houston. Your White Team is now on. We're standing by for an exciting evening of TV and a presleep report. Over.
 153:49:01|P|PAO|This is Apollo Control. 153 hours 49 minutes Ground Elapsed Time. Apollo 11, homeward bound, is now 161,015 nautical miles out from Earth. Velocity now 4,216 feet per second. Some 3 1/2 minutes of recorded air-to-ground transmissions have accumulated during the recent change-of-shift Press Conference here in Apollo News Center. Let's play that tape back now.
-153:53:02|T|(Unidentifiable Noise)
+153:53:02|T|(Unidentifiable Noise - Sound of Train)
 153:53:12|T|SC|(Laughter)
 153:53:30|T|CC|Apollo 11, Houston. You sure you don't have anybody else in there with you?
 153:53:38|T|CMP|Houston, Apollo 11. Say again, please.
 153:53:40|T|CC|We had some strange noises coming down on the downlink, and it sounded like you had some friends up there.
 153:53:55|T|CMP|Where - where'd the White Team go during their off hours anyway?
 153:55:59|T|CC|Say again.
-153:56:30|T||(Unidentifiable Noise)
-153:53:59|T||(Unidentifiable Noise)
+153:56:30|T||(Unidentifiable Noise - Sound of Train)
+153:53:59|T||(Unidentifiable Noise - Sound of Train)
 154:04:21|P|PAO|This is Apollo Control. Still no explanation, the weird noises emanating from Apollo 11, if indeed it is from Apollo 11 and it's reported from network that it's being received on the downlink at two different stations in the Manned Space Flight Network. Perhaps it will all shake out later in the mission as to what these strange noises are. We'll come back up again as conversation is resumed with Apollo 11 now 160,410 nautical miles out from Earth traveling at 4,228 feet per second. At 154 hours, 5 minutes Ground Elapsed Time this is Apollo Control.
 154:40:57|T|CC|Apollo 11, Houston. Over.
 154:41:05|T|LMP|Go ahead, Houston.
@@ -14031,361 +14031,367 @@
 177:56:29|T|CC|And lastly, we would like to know if your stowage configuration for entry is going to conform to the nominal. The RETRO's down here are anxious to get an accurate c.g. computed for you, and in particular, where the LEVA's are being stowed. Over.
 177:56:53|T|CDR|Okay. We think we are going to put the LEVA's and helmets in the hatch bag, and we'll let you know any other nonstandard stowage locations that we complete this evening.
 177:57:07|T|CC|This is Houston. Roger. Out.
-178:06:57|T|CDR|Houston, Apollo 11.
-178:07:01|T|CC|Go ahead, 11.
-178:07:03|T|CDR|Roger. The magazine we'll be using for entry tomorrow is magazine M. Over.
+178:06:56|T|LMP|Houston, Apollo 11.
+178:07:00|T|CC|Go ahead, 11.
+178:07:03|T|LMP|Roger. The magazine we'll be using for entry tomorrow is magazine M. Over.
 178:07:10|T|CC|Roger. Understand. Magazine M as in Mike.
-178:07:14|T|CDR|That's right.
-178:07:19|T|CC|Thank you. Out.
-178:17:38|T|CC|Apollo 11, this is Houston. Your friendly Green Team going off for the night, and going off for the last time. We wish to bid you a good night and Godspeed.
+178:07:14|T|LMP|That's right.
+178:07:18|T|CC|Thank you. Out.
+178:17:37|T|CC|Apollo 11, this is Houston. Your friendly Green Team going off for the night, and going off for the last time. We wish to bid you a goodnight and Godspeed.
 178:17:51|T|CDR|Thank you. We appreciate all that fine work done by the Green Team, and we'll be thanking you in person when we get back.
 178:18:00|T|CC|Roger. We'll see you on the ground.
 178:18:03|T|LMP|Really enjoyed working with all of you. Thanks very much. Over.
-178:18:08|T|CC|Roger.
-178:18:09|T|CMP|As usual, all you Greenies.
-178:18:11|T|CC|They're all smiles down here, even the trench.
-178:22:00|P|PAO|This is Apollo Control. Here in the Mission's Control room of Mission Control Center the white team of Flight Controllers under Flight Director Gene Kranz settling in for the 10 hour shift ahead until 5:00 A.M. Green Team Flight Director Cliff Charlesworth is now enroute to the Houston Apollo News Center and shortly will be there for his change-of-shift Press Conference estimating about 10 minutes for his arrival. We'll continue to monitor the Apollo 11 air to ground circuit should the communications resume. Standing by 178 hours, 25 minutes Ground Elapsed Time, this is Apollo Control.
-178:22:00|P|PAO|This is Apollo Control. Apollo 11 now 88,442 nautical miles out from Earth approaching at a velocity of 6299 feet per second. change-of-shift Press Conference with Green Team Flight Director Cliff Charlesworth due to begin any moment now in the NASA Apollo News Center Auditorium. And at 178 hours, 34 minutes Ground Elapsed Time, this is Apollo Control.
+178:18:07|T|CC|Roger.
+178:18:08|T|CMP|As usual, all you Greenies.
+178:18:10|T|CC|They're all smiles down here, even the trench.
+178:24:39|P|PAO|This is Apollo Control. Here in the Mission Operations Control Room of Mission Control Center the white team of Flight Controllers under Flight Director, Gene Kranz settling in for the 10 hour shift ahead until 5:00am. Green Team Flight Director, Cliff Charlesworth is now enroute to the Houston Apollo News Center and shortly will be there for his change-of-shift Press Conference estimating about 10 minutes for his arrival. We'll continue to monitor the Apollo 11 air/ground circuit should the communications resume. Standing by 178 hours, 25 minutes Ground Elapsed Time, this is Apollo Control.
+178:33:35|P|PAO|This is Apollo Control. Apollo 11 now 88,442 nautical miles out from Earth approaching at a velocity of 6,299 feet per second. change-of-shift press conference with Green Team Flight Director, Cliff Charlesworth due to begin any moment now in the NASA Apollo News Center Auditorium. And at 178 hours, 34 minutes Ground Elapsed Time, this is Apollo Control.
 178:40:30|T|CMP|Houston, Apollo 11.
-178:40:35|T|CC|Apollo 11, this is Houston. Over.
-178:40:40|T|CMP|Roger. How's our thruster firing activity? We're about ready to crank up PTC if you are.
+178:40:34|T|CC|Apollo 11, this is Houston. Over.
+178:40:39|T|CMP|Roger. How's our thruster firing activity? We're about ready to crank up PTC if you are.
 178:40:46|T|CC|Roger. Go ahead.
 178:40:49|T|CMP|Okay. Thank you.
-178:56:51|T|CC|Apollo 11, this is Houston. Over.
-178:56:55|T|CDR|Go ahead, Houston.
-178:56:57|T|CC|11, we'd like you to shift to an OMNI antenna configuration at the present time. We're requesting the S band antenna OMNI switch to Bravo and the S band antenna OMNI switch to OMNI. The high-gain antenna track in MANUAL. Pitch minus 50, yaw 270. Over.
+178:56:50|T|CC|Apollo 11, this is Houston. Over.
+178:56:55|T|LMP|Go ahead, Houston.
+178:56:57|T|CC|11, we'd like you to shift to an OMNI antenna configuration at the present time. We're requesting the S-band antenna OMNI switch to Bravo, and the S-band antenna OMNI switch to OMNI. The high-gain antenna track in MANUAL. Pitch minus 50, yaw 270. Over.
 178:57:25|T|LMP|Roger. I'll do that right now.
 178:57:30|T|CC|Roger. And if Mike has a minute, we'd like to do a little bit of troubleshooting. It seems he's either flat chested or something because we've lost respiration rate on the BIOMED telemetry. That is, the ZPN trace down here is flat.
-178:57:56|T|LMP|He was shaving a little bit ago. He might have just let it slip. Hold on a moment.
-178:58:06|T|CMP|All the blasted wires are all connected, is all I know.
+178:57:55|T|LMP|He was shaving a little bit ago. He might have just let it slip. Hold on a moment.
+178:58:05|T|CMP|All the blasted wires are all connected, is all I know.
 178:58:11|T|CC|Okay, Mike. We had a request that you disconnect the yellow connector from the signal conditioner and verify that it looks okay, reconnect it and then, if you would, check the two electrodes that are placed one on each side of your lower rib cage. Over.
-178:58:36|T|CMP|I bet you there's a smile on Charlesworth's face.
+178:58:35|T|CMP|I bet you there's a smile on Charlesworth's face.
 178:58:41|T|CC|Cliff is not on right now. Gene Kranz just relieved him a few minutes ago.
-178:58:50|T|CMP|Roger that.
+178:58:49|T|CMP|Roger that.
 178:59:56|T|CMP|All those wires and things look normal up here.
-179:00:00|T|CC|Roger, Mike. We could see variations on our traces. You've connected and disconnected, but the medics still don't have a signal.
+178:59:59|T|CC|Roger, Mike. We could see variations on our traces. You've connected and disconnected, but the medics still don't have a signal.
 179:00:16|T|CC|Looks like you're sending us a message of some sort.
 179:00:29|T|CMP|Well, I promise to let you know if I stop breathing.
 179:03:23|T|CC|Apollo 11, Apollo 11, this is Houston broadcasting in the blind. Request OMNI Bravo. Request OMNI Bravo. Over.
-179:09:00|P|PAO|This is Apollo Control, 179 hours, 9 minutes Ground Elapsed Time. During the past half hour there have been some exchanges between the spacecraft communicator Bruce McCandless here in Mission Control and the crew of Apollo 11. One item they're trying to sort out and troubleshoot some difficulties with the biomedical sensors attached to the chest of Command Module Pilot Mike Collins. Let's play back the accumulated tape and hopefully by the time it's ended, we will have picked up communications again and we'll rejoin the conversation live. Roll tape please.
+179:09:02|P|PAO|This is Apollo Control, 179 hours, 9 minutes Ground Elapsed Time. During the past half hour there have been some exchanges between the spacecraft communicator, Bruce McCandless here in Mission Control and the crew of Apollo 11. One item they're trying to sort out and troubleshoot some difficulties with the biomedical sensors attached to the chest of Command Module Pilot, Mike Collins. Let's play back the accumulated tape and hopefully by the time it's ended, we will have picked up communications again and we'll rejoin the conversation live. Roll tape please.
 179:10:45|T|CC|Apollo 11, this is Houston. Communication reestablished.
 179:10:51|T|SC|...
-179:11:51|T|CC|Apollo 11, this is Houston. Will you confirm you're in OMNI Bravo? Over.
-179:12:08|T|LMP|Okay. That ought to give it to you.
+179:11:50|T|CC|Apollo 11, this is Houston. Will you confirm you're in OMNI Bravo? Over.
+179:12:08|T|CMP|Okay. That ought to give it to you.
 179:12:12|T|CC|Roger. Out.
-179:14:51|T|CC|Apollo 11, this is Houston. Mike, we're still getting a flat trace on you for the impedance pneumograph. Before you turn in this evening, you might try putting some fresh paste in the sensors, and if that doesn't work, the medics have agreed to forget about it. Over.
+179:14:50|T|CC|Apollo 11, this is Houston. Mike, we're still getting a flat trace on you for the impedance pneumograph. Before you turn in this evening, you might try putting some fresh paste in the sensors, and if that doesn't work, the medics have agreed to forget about it. Over.
 179:15:17|T|CDR|Mike's off the loop right now. I'll convey that message.
 179:15:20|T|CC|Okay. Thank you.
-179:15:46|T|CMP|Houston, Apollo 11. Say again.
+179:15:45|T|CMP|Houston, Apollo 11. Say again.
 179:15:50|T|CC|Roger, Mike. The trace on your respiration rate is still flat. If you have time this evening before turning in, we would suggest that you try putting some fresh paste in the two electrodes that go on the side of your lower rib cage; and if that doesn't work, just give up on it.
 179:16:13|T|CMP|...
-179:19:00|P|PAO|This is Apollo Control. Columbia now 85,198 nautical miles out from Earth, approaching Earth at a velocity of 6443 feet per second. Still standing by for resumption of air to ground communications which may be difficult in as much as Capcom is leaving the room. We'll continue to monitor air to ground as the crew prepares for they're pre-sleep checklists, sets up the Passive Thermal Control mode and sacks out for about a 10-hour rest period in preparation for tomorrow's entry and subsequent recovery in the mid-Pacific aboard the carrier Hornet now hove-to on the aiming point or near the aiming point. Standing by at 179 hours, 27 minutes Ground Elapsed Time, this is Apollo Control.
-179:44:00|P|PAO|This is Apollo Control. Columbia now 82,972 nautical miles out from Earth traveling inbound at 6,546 feet per second. There has been no further communications with the crew of Apollo 11 in the last half hour or so. At this time they should be going through their pre-sleep check list or possibly their evening meal before beginning a 7 hour rest period. We'll take down the circuit at this time and come back when and if the conversation resumes prior to - the time the crew begins their rest period. At 180 hours 03 minutes Ground Elapsed Time, this is Apollo Control.
-180:07:45|T|SC|(Sound of Train)
+179:25:34|P|PAO|This is Apollo Control. Columbia now 85,198 nautical miles out from Earth, approaching Earth at a velocity of 6,443 feet per second. Still standing by for resumption of air-to-ground communications which may be difficult in as much as Capcom is leaving the room. We'll continue to monitor air-to-ground as the crew prepares for their pre-sleep checklists, sets up the Passive Thermal Control mode and sacks out for about a 10-hour rest period in preparation for tomorrow's entry and subsequent recovery in the mid-Pacific aboard the carrier, Hornet now hove-to on the aiming point or near the aiming point. Standing by at 179 hours, 27 minutes, Ground Elapsed Time, this is Apollo Control.
+180:01:59|P|PAO|This is Apollo Control. Columbia now 82,972 nautical miles out from Earth traveling inbound at 6,546 feet per second. There have been no further communications with the crew of Apollo 11 in the last half hour or so. At this time they should be going through their pre-sleep checklist or possibly their evening meal before beginning a 7-hour rest period. We'll take down the circuit at this time and come back when and if the conversation resumes prior to - the time the crew begins their rest period. At 180 hours 03 minutes Ground Elapsed Time, this is Apollo Control.
+180:07:41|T|SC|(Sound of Train)
 180:08:17|T|CC|Hey, 11, this is Houston. You might tell Buzz not to exercise quite so strenuously. Over.
-180:08:30|T|LMP|What's the problem?
+180:08:29|T|LMP|What's the problem?
 180:08:32|T|CC|Say again.
-180:08:36|T|LMP|What's the problem?
-180:08:42|T|CC|Okay. That's one - that's one on us. (Laughter)
+180:08:35|T|LMP|What's the problem?
+180:08:41|T|CC|Okay. That's one - that's one on us. (Laughter)
 180:09:19|T|CC|11, Houston. Seriously, that comment was just aimed at your musical selection.
 180:09:26|T|LMP|Okay.
 180:09:39|T|SC|(Sound of train)
-180:09:59|T|CMP|Come on Neil, not so fast.
+180:09:59|T|LMP|Come on Neil, not so fast.
 180:10:02|T|SC|(Sound of train)
-180:10:19|T|CMP|You have an ergometer up here.
-180:10:30|T|CC|What was that? Real time exercise?
-180:10:35|T|CMP|Just trying to be your ergometer.
+180:10:19|T|CDR|You have an ergometer up here.
+180:10:29|T|CC|What was that? Real-time exercise?
+180:10:34|T|CMP|Just trying to be your ergometer.
 180:10:37|T|CC|Roger.
-180:21:22|T|CC|Apollo 11, this is Houston. Over.
-180:21:28|T|CDR|Go ahead, Houston.
-180:21:30|T|CC|We'd like to know what your plans are as far as turning in this evening. Our - in the Flight Plan we show you commencing a rest period at about 182 hours, and what are you planning to do on that? We're going to be watching the weather here, and we expect to have an update on the weather, I guess, in about half hour or 45 minutes to pass to you. Over.
-180:21:57|T|CDR|We're going to probably stick with the Flight Plan pretty much. We are going to - if - check the lights in the northwest corner of the U.S. and southwest corner of Canada. If we can see up that high into the northern hemisphere. Other than that, we'll be on the Flight Plan.
-180:22:21|T|CC|Roger. For your information, the laser from McDonald Observatory in West Texas will be up from about 181 hours and 30 minutes, on for 1 hour. You should be able to spot the Earth out of the number 1 window every time you pass roll 357 degrees and they, of course, are in West Texas. Over.
+180:21:21|T|CC|Apollo 11, this is Houston. Over.
+180:21:27|T|CMP|Go ahead, Houston.
+180:21:29|T|CC|We'd like to know what your plans are as far as turning in this evening. Our - in the Flight Plan we show you commencing a rest period at about 182 hours, and what are you planning to do on that? We're going to be watching the weather here, and we expect to have an update on the weather, I guess, in about half hour or 45 minutes to pass to you. Over.
+180:21:58|T|CDR|We're going to probably stick with the Flight Plan pretty much. We are going to - if - check the lights in the northwest corner of the U.S. and southwest corner of Canada. If we can see up that high into the northern hemisphere. Other than that, we'll be on the Flight Plan.
+180:22:20|T|CC|Roger. For your information, the laser from McDonald Observatory in West Texas will be up from about 181 hours and 30 minutes, on for 1 hour. You should be able to spot the Earth out of the number 1 window every time you pass roll 357 degrees and they, of course, are in West Texas. Over.
 180:22:47|T|CDR|Okay. Thank you.
-180:23:07|T|CMP|How about the number 5 window?
+180:23:08|T|LMP|How about the number 5 window?
 180:23:16|T|CC|Stand by a minute.
-180:23:24|T|CC|Roger. For the number 5 window. That'll be - every time you pass 230 degrees in roll. Over.
-180:23:32|T|CMP|Beautiful. Thank you.
-180:23:36|T|CMP|You guys are on your toes down there.
-180:23:39|T|CC|Roger. - -
-180:23:40|T|CDR|You have a new, new star chart. You must have a new, new star chart. Huh?
+180:23:23|T|CC|Roger. For the number 5 window. That'll be - every time you pass 230 degrees in roll. Over.
+180:23:31|T|LMP|Beautiful. Thank you.
+180:23:36|T|LMP|You guys are on your toes down there.
+180:23:38|T|CC|Roger. - -
+180:23:38|T|LMP|You have a new, new star chart. You must have a new, new star chart. Huh?
 180:23:45|T|CC|Oh, we got a fresh, fresh FAO here.
-180:25:00|P|PAO|This is Apollo Control. 180 hours 25 minutes Ground Elapsed Time. We have some 4 minutes accumulated tape in recent transmission between Columbia and the ground. We'll roll these tapes at this time.
-180:36:56|T|CDR|Houston, Apollo 11. How much longer do you want us to keep charging battery B?
-180:37:17|T|CC|11, this is Houston. Nominally we're looking for about another hour and a half, but what we'd like to do is continue charging until shortly before you turn in for the night. Over.
-180:37:30|T|CDR|That'll be fine. Are you going to want to charge A again at all?
+180:25:20|P|PAO|This is Apollo Control. 180 hours 25 minutes Ground Elapsed Time. We have some 4 minutes accumulated tape in recent transmissions between Columbia and the ground. We'll roll these tapes at this time.
+180:36:56|T|LMP|Houston, Apollo 11. How much longer do you want us to keep charging battery B?
+180:37:16|T|CC|11, this is Houston. Nominally we're looking for about another hour and a half, but what we'd like to do is continue charging until shortly before you turn in for the night. Over.
+180:37:29|T|LMP|That'll be fine. Are you going to want to charge A again at all?
 180:37:36|T|CC|Negative, 11.
-180:37:40|T|CDR|Okay.
-180:40:00|P|PAO|This is Apollo Control. The weird noise has been reported by network controllers as not being on the down link from the spacecraft. Now it's stopped. Lets leave the circuit open here in the period prior to the time the crew goes to sleep and monitor the air ground circuit.
-180:42:18|T|CC|11, this is Houston. At about 180:45, we'll be handing over from Goldstone to Honeysuckle, and I'm handing over to Charlie. See you when you get back. Over.
+180:37:39|T|LMP|Okay.
+180:42:17|T|CC|11, this is Houston. At about 180:45, we'll be handing over from Goldstone to Honeysuckle, and I'm handing over to Charlie. See you when you get back. Over.
 180:42:32|T|CDR|Okay, Bruce. Good night. Thank you.
 180:42:35|T|CC|Roger. Good night.
-180:42:36|T|LMP|Thank you very much, Bruce. It's been a pleasure working with you.
+180:42:35|T|LMP|Thank you very much, Bruce. It's been a pleasure working with you.
 180:42:38|T|CC|Have a nice trip down.
-181:00:00|P|PAO|This is Apollo Control. We've been standing by now for quite some time for resumption of communications but apparently no one is saying anything tonight. Apollo 11 now 78,134 nautical miles out from Earth, approaching at 6785 feet per second. And at 181 hours, 17 minutes Ground Elapsed Time, this is Apollo Control.
-181:26:46|T|CMP|Houston, Apollo 11. Over.
+180:57:06|P|PAO|This is Apollo Control. The weird noise has been reported by network controllers as not being on the down link from the spacecraft. Now it's stopped. Lets leave the circuit open here in the period prior to the time the crew goes to sleep and monitor the air ground circuit.
+181:17:21|P|PAO|This is Apollo Control. We've been standing by now for quite some time for resumption of communications but apparently no one is saying anything tonight. Apollo 11 now 78,134 nautical miles out from Earth, approaching at 6,785 feet per second. And at 181 hours, 17 minutes Ground Elapsed Time, this is Apollo Control.
+181:26:45|T|CMP|Houston, Apollo 11. Over.
 181:26:55|T|CC|Apollo 11, Houston. Go ahead.
-181:27:00|P|PAO|This is Apollo Control. We've had one brief communication from Apollo 11. Spacecraft Communicator Bruce McCandless is out of the room, the Assistant Flight Director Chuck Lewis went down to the console to talk. Let's play that tape back and rejoin live when the conversation picks up again.
-181:27:00|P|PAO|I stand corrected. That's Charlie Duke on the Capcom slot. Bruce McCandless on the last half hour has been relieved. Charlie is likely to respond. Now he's putting on his headset. We'll listen in.
 181:27:02|T|CMP|Roger, Houston. For RETRO, I have the anticipated location of all the entry stowage, and I suggest you pull out the entry checklist, and we'll go through those maps in the front of it.
 181:27:19|T|CC|Apollo 11, Houston. Could you stand by just a few minutes? Charlie and Flight are out getting a weather briefing. They'll be back shortly.
 181:27:33|T|CMP|Is this Ken?
 181:27:35|T|CC|Say again?
-181:27:40|T|CMP|Is this Owen?
-181:27:42|T|CC|No, this is Chuck Lewis. Charlie Duke is out with Flight getting a weather briefing right now.
-181:27:50|T|CMP|Okay. They're out drinking coffee. I know.
-181:27:52|T|CC|(Laughter) They'll be back momentarily.
+181:27:39|T|CMP|Is this Owen?
+181:27:41|T|CC|No, this is Chuck Lewis. Charlie Duke is out with Flight getting a weather briefing right now.
+181:27:49|T|CMP|Okay. They're out drinking coffee. I know.
+181:27:51|T|CC|(Laughter) They'll be back momentarily.
+181:28:29|P|PAO|This is Apollo Control. We've had one brief communication from Apollo 11. Spacecraft Communicator, Bruce McCandless is out of the room, the Assistant Flight Director Chuck Lewis went down to the console to talk. Let's play that tape back and rejoin live when the conversation picks up again.
+181:29:04|P|PAO|I stand corrected. That's Charlie Duke on the Capcom slot. Bruce McCandless on the last half hour has been relieved. Charlie is likely to respond now. He's putting on his headset. We'll listen in.
 181:35:55|T|CC|Hello, Apollo 11. Houston. Over.
 181:36:00|T|CMP|Roger, Houston. Apollo 11. Did you get the word on the entry checklist?
 181:36:05|T|CC|Roger, Mike. We sure did. We're ready to talk about it, if you are. Over.
-181:36:13|T|CMP|I think the quickest thing is to go through page by page, the first part of the entry checklist where it has a map. Starting on the page with compartment L2 and L3. Are you with me?
+181:36:12|T|CMP|I think the quickest thing is to go through page by page, the first part of the entry checklist where it has a map. Starting on the page with compartment L2 and L3. Are you with me?
 181:36:25|T|CC|Roger. With you.
 181:36:28|T|CMP|Okay. L2 is as shown. L3 is as shown; there is about half the food remaining in L3.
-181:36:35|T|CC|Roger.
-181:36:36|T|CMP|Where it says - where it says "And note," the CMP PGA is located in the L shaped bag with the other two PGA's. The LM shield was jettisoned with the - Correction, the CMP's helmet shield was jettisoned with the LM, and his helmet and gloves, instead of being in the sleep restraint, are in the hatch bags.
-181:37:06|T|CC|Okay. Let's see now. Your PGA is in the L shaped bag with the other two PGA's, and your helmet and gloves are in the L shaped bag instead of the sleep restraint.
+181:36:34|T|CC|Roger.
+181:36:36|T|CMP|Where it says - where it says "And note," the CMP PGA is located in the L-shaped bag with the other two PGAs. The LM shield was jettisoned with the - Correction, the CMP's helmet shield was jettisoned with the LM, and his helmet and gloves, instead of being in the sleep restraint, are in the hatch bags.
+181:37:06|T|CC|Okay. Let's see now. Your PGA is in the L-shaped bag with the other two PGAs, and your helmet and gloves are in the L-shaped bag instead of the sleep restraint.
 181:37:21|T|CMP|The helmet and gloves are in the hatch bag, the great big bag that's underneath the left hand couch that you put the hatch in.
-181:37:30|T|CC|Roger. I thought I - That's what I copied. Okay. Go ahead.
-181:37:37|T|CMP|Okay. The next page is identical except a nitpicking point: out R1 we got the entry checklist. Other than that it is identical, and the third page has got some changes.
+181:37:29|T|CC|Roger. I thought I - That's what I copied. Okay. Go ahead.
+181:37:36|T|CMP|Okay. The next page is identical except a nitpicking point: out R1 we got the entry checklist. Other than that it is identical, and the third page has got some changes.
 181:37:49|T|CC|Go ahead.
-181:37:50|T|CMP|In A1 - Are you with me? I'm over there in compartment A1, now.
+181:37:49|T|CMP|In A1 - Are you with me? I'm over there in compartment A1, now.
 181:37:56|T|CC|Go ahead, Mike. Over.
-181:38:04|T|CMP|In compartment A1, the 16 millimeter magazine will be located in window number 4 instead of 5. Tissue dispensers; there is only one of them left. And compartment U3, the 16 millimeter bracket is on window 4, and the PGA bag - add the CMP's PGA, plus add two LCG's. And compartment A8 delete two LCG's, add one PPK, making a total of four, and add 10 pounds of LM miscellaneous equipment. We told you five the other day. We think ten is probably closer. Over.
+181:38:04|T|CMP|Okay. Compartment A1, the 16 millimeter magazine will be located in window number 4 instead of 5. Tissue dispensers; there is only one of them left. And compartment U3, the 16 millimeter bracket is on window 4, and the PGA bag - add the CMP's PGA, plus add two LCGs. And compartment A8 delete two LCGs, add one PPK, making a total of four, and add 10 pounds of LM miscellaneous equipment. We told you five the other day. We think ten is probably closer. Over.
 181:38:57|T|CC|Copy.
 181:39:04|T|CMP|And that's all the changes on that page. Ready for the next page?
 181:39:07|T|CC|Roger. Go ahead, Mike.
 181:39:12|T|CMP|On your next page, in compartment B1, we estimate about 15 percent of that food is remaining. In B2 we took PPK out of there and put trash in it. In B3, the 16 millimeter cable, the 18 millimeter lens, and the right angle mirror are on window number 4. And that there brings you all up to date.
-181:39:42|T|CC|Roger. How about the LEVVA's, Mike? Where did you put those? Over.
+181:39:42|T|CC|Roger. How about the LEVAs, Mike? Where did you put those? Over.
 181:39:53|T|CMP|They're in the hatch bag.
 181:39:56|T|CC|Roger. Stand by. Our only concern, 11, is with the stuff you got in the hatch bag. That's pretty big bulk between you and A8, and we'd like to talk about moving that over to the sleep restraint. If you will stand by. I'll verify that. Over.
-181:40:16|T|CMP|Okay.
+181:40:15|T|CMP|Okay.
 181:41:16|T|CC|11, Houston. Our recommendation on the gear you got in the helmet bag - correction, hatch bag, would be to remove that stuff and put it in the sleep restraint under the right couch. The reason is that the hatch bag straps are only configured for zero g, and it is a pretty difficult job getting it lashed down. With the gear in the sleep restraint, it's a pretty standard lash down procedure, and you could also use the Beta cord that you have on hoard. You concur? Over.
-181:42:03|T|CMP|Yes. We'll look at it, Charlie, and let you know.
-181:42:06|T|CC|Roger. And I got a couple of other things, Mike. We need to terminate battery B charge at this time, and also, the weather is clobbering in at our targeted landing point due to scattered thunderstorms. We don't want to tangle with one of those, so we are going to move the - your aim point uprange. Correction, it will be downrange, to target for 1500 nautical mile entry so we can guarantee uplift control. The new coordinates are 13 degrees, 19 minutes north, 169 10 minutes west. The weather in that area is super. We got 2000 scattered, 8000 scattered with 10 miles visibility and 6 foot seas and the Hornet is sitting in great position to get to that targeted positton. Over.
-181:43:21|T|CMP|Roger.
-181:47:00|P|PAO|This is Apollo Control. To recap briefly, the conversation a few moments ago between Charlie Duke and the crew of Columbia. Because of forecast thunderstorms in the prime recovery area in the mid-pacific for tomorrow the Apollo Spacecrafts lifting capabilities will be used to stretch the entry path some 215 nautical miles farther down range toward Hawaii to a new landing point, aiming point with the very rough preliminary coordinates of 13 degrees 19 minutes north by 169 degrees 10 minutes west. These numbers will be refined through the night as retrofire officer exercises the computer and comes up with more definitive numbers. These will be passed on as they are available. Apollo 11 now 75 thousand 9 hundred 51 nautical miles out from Earth approaching at 6 thousand 8 hundred 99 feet per second. At 181 hours 50 minutes and standing by on the air ground circuit this is Apollo Control.
+181:42:02|T|CMP|Yes. We'll look at it, Charlie, and let you know.
+181:42:06|T|CC|Roger. And I got a couple of other things, Mike. We need to terminate battery B charge at this time, and also, the weather is clobbering in at our targeted landing point due to scattered thunderstorms. We don't want to tangle with one of those, so we are going to move the - your aim point uprange. Correction, it will be downrange, to target for 1500 nautical mile entry so we can guarantee uplift control. The new coordinates are 13 degrees, 19 minutes north, 169, 10 minutes west. The weather in that area is super. We got 2000 scattered, 8000 scattered with 10 miles visibility and 6-foot seas and the Hornet is sitting in great position to get to that targeted positon. Over.
+181:43:20|T|CMP|Roger.
+181:49:31|P|PAO|This is Apollo Control. To recap briefly, the conversation a few moments ago between Charlie Duke and the crew of Columbia. Because of forecast thunderstorms in the prime recovery area in the mid-pacific for tomorrow the Apollo Spacecraft's lifting capabilities will be used to stretch the entry path some 215 nautical miles farther downrange toward Hawaii to a new landing point, aiming point with the very rough preliminary coordinates of 13 degrees 19 minutes north by 169 degrees 10 minutes west. These numbers will be refined through the night as retrofire officer exercises a computer and comes up with more definitive numbers. These will be passed on as they are available. Apollo 11 now 75,951 nautical miles out from Earth approaching at 6,899 feet per second. At 181 hours 50 minutes and standing by on the air ground circuit this is Apollo Control.
 181:51:59|T|CC|Apollo 11, Houston. Some of the general last minute updates here. On the entry, we had told you on the camera to set it at 50 feet. It turns out the biggest number on the camera is 25 feet, so just set it at infinity. Over.
 181:52:19|T|CMP|Roger. Infinity.
-181:57:00|P|PAO|This is Apollo Control. All good nights having been said, the crew of Apollo 11 is now preparing to get their 10 hours rest and their last night in space. Here in the Control Center one of the 10 by 10 Eidophor television projectors - a drawing has been projected on the screen ribbing Capcom Charlie Duke for his slight error yesterday on the television pass where he mistook the Moon for Earth. It has the spacecraft midway between the Moon and Earth and it says, "Neil, I just spotted a continent on the Moon. Charlie, the camera's on Earth now." Apollo 11 now 74,906 nautical miles out from Earth approaching at 6954 feet per second. And at 182 hours, 6 minutes Ground Elapsed Time, this is Apollo Control.
-181:57:42|T|CC|Hello, Apollo 11. Houston. We're ready to put you to bed and say good night, if you give us your crew status report and verify that you changed out the CO2 canister a moment ago. Over.
+181:57:42|T|CC|Hello, Apollo 11. Houston. We're ready to put you to bed and say goodnight, if you give us your crew status report and verify that you changed out the CO2 canister a moment ago. Over.
 181:57:55|T|CDR|Stand by.
 182:00:43|T|CDR|Okay, Charlie. Crew status report follows: CDR 11023, CMP 10025, LMP 09027. Canister change complete.
 182:01:01|T|CC|Roger. Thank you very much there.
-182:01:02|T|CDR|All men okay.
-182:01:03|T|CC|Roger. Thank you. Could you give us an onboard readout, please, sir?
+182:01:02|T|CDR|No medication.
+182:01:02|T|CC|Roger. Thank you. Could you give us an onboard readout, please, sir?
 182:01:08|T|CDR|Stand by. Okay. BAT C 37, PYRO BAT A 37, BAT B 37, RCS A 51, B 63, C 62, D 58.
 182:01:26|T|CC|Roger. Copy. Thank you much.
-182:03:47|T|CC|Apollo 11, Houston. It's good night from the White Team for the last time. We'll be off when you wake up in the morning. It's been a pleasure working with you guys. It was a beautiful show from all three of you. We appreciate it very much, and we'll see you when you get out of the LRL. Over.
+182:03:47|T|CC|Apollo 11, Houston. It's goodnight from the White Team for the last time. We'll be off when you wake up in the morning. It's been a pleasure working with you guys. It was a beautiful show from all three of you. We appreciate it very much, and we'll see you when you get out of the LRL. Over.
 182:04:04|T|CDR|Okay, Charlie. Thanks to you and all the White Team for a great job down there all the way through. Thank you.
 182:04:11|T|CMP|Outstanding.
+182:04:13|T|CC|Thank you.
 182:04:13|T|LMP|... very much, Charlie. Thanks.
 182:04:16|T|CC|Thanks to you guys, too.
 182:04:36|T|CC|And, 11, Houston. Mike, you get your chance at landing tomorrow. No go-arounds.
 182:04:44|T|CMP|Roger. You're going to let me land closer to Hawaii, too, aren't you?
 182:04:47|T|CC|That's right, sir.
+182:05:15|P|PAO|This is Apollo Control. All goodnights having been said, the crew of Apollo 11 is now preparing to get their 10 hours rest and their last night in space. Here in the Control Center one of the 10 by 10 Eidophor television projectors - a drawing has been projected on the screen ribbing Capcom Charlie Duke for his slight error yesterday on the television pass where he mistook the Moon for Earth. It has the spacecraft midway between the Moon and Earth and it says, "Neil, I just spotted a continent on the Moon. Charlie, the camera's on Earth now." Apollo 11 now 74,906 nautical miles out from Earth approaching at 6,954 feet per second. And at 182 hours, 6 minutes Ground Elapsed Time, this is Apollo Control.
 182:07:59|T|CC|11, Houston. We got some word just a moment ago that the McDonald Observatory is - said they had picked up the spacecraft in their telescope. Over.
 182:08:09|T|CDR|Outstanding. We have been looking for their laser but haven't had much luck yet.
 182:08:16|T|CC|Roger. We'll pass it on to them, Neil. Thank you.
-182:10:00|P|PAO|This is Apollo Control. 182 hours 10 minutes Ground Elapsed Time. We thought that was all the air-to-ground for tonight prior to the crew going to sleep, but just a few moments ago, there was a brief exchange reporting to Apollo 11 crew that the McDonald Observation or West Texas had the spacecraft in their telescope field of view. Let's roll that tape now and then shut it down again.
-183:25:00|P|PAO|This is Apollo Control, 183 hours, 25 minutes Ground Elapsed Time. Columbia spacecraft, now - 69,520 nautical miles out from Earth. Approaching at 7,262 feet per second. Crew now in their rest period. Started their sleep period a little over an hour ago. To reiterate the change in landing point, this is a weather avoidance situation where thunder storms are forecast for the landing point - the original landing point in the Pacific, therefore, after the normal entry interface the lifting characteristics of the Apollo Command Module will be used to extend entry range some 250 nautical miles farther down range toward Hawaii to a preliminary aiming point, that is the aiming point may shift around between now and entry which is some 11 hours, 36 minutes from now. But at any rate the aiming point as calculated now is some 13 degrees 19 minutes north latitude, by 169 degrees 10 minutes west longitude. The preliminary time of drogue decline is 195 hours, 12 minutes. As you were - yes 195 hours, I2 minutes, 4 seconds. And the net extension of - over the earlier splash time is something like 40 seconds. At 183 hours, 27 minutes Ground Elapsed Time, this is Apollo Control.
-185:29:00|P|PAO|This is Apollo Control at 185 hours 29 minutes Ground Elapsed Time. 9 hours 33 minutes until entry. Crew is still asleep at this time, scheduled to wake up at 189 hours Ground Elapsed Time, some 3 and one half hours from now. We've had no word from the crew since the scheduled sleep period began. Apollo 11 now 61,034 nautical miles out from the Earth, and velocity of 7815 feet per second. At 185 hours 30 minutes Ground Elapsed Time, this is Apollo Control.
-186:28:00|P|PAO|This is Apollo Control 186 hours 28 minutes Ground Elapsed Time. 8 hours 35 minutes to entry. Crew of Columbia still asleep at this time. Some 2 and a half hours away from wakeup time at 189 hours Ground Elapsed Time. Because of weather avoidance in the prime recovery zone in the mid-Pacific, southwest of Hawaii, it has been decided some time ago to shift the landing point - aiming point - some 215 nautical miles downrange from the pre-mission aiming point. And all the numbers concerned with entry and post-entry events have been generated, and we shall forward them at this time. Pencils ready? Command Module-Service Module separation, 194:48:07 Ground Elapsed Time, 11:20:08 Central Daylight Time; entry interface, that's 400,000 feet above the Earth's surface, Ground Elapsed Time 195:03:07, 11:35:08 Central Daylight Time; begin blackout, 195:03:25 Ground Elapsed Time, 11:35:26 Central Daylight Time; 05G, 195:03:35 GET, 11:35:36 CDT; end of blackout, 195:06:56 GET, 11:38:57 CDT; drogue parachutes deploy, 195:12:04 GET, 11:44:05 CDT; main parachutes deploy, 195:12:52, 11:44:53 CDT; touchdown, 195:17:49 GET, 11:49:50 CDT. Maximum G-1oading to be pulled during the entry phase will be 6.12G's. Entry velocity, that's at entry interface of 400,000 feet, will be 36,194 feet per second. Flight path angle, minus 6.5 degrees. Aiming point location, 13 degrees 19 minutes north latitude, 169 degrees 09 minutes west longitude. At 186 hours 32 minutes Ground Elapsed Time, this is Apollo Control.
-187:28:00|P|PAO|This is Apollo control 187 hours, 28 minutes Ground Elapsed Time. 7 hours, 34 minutes to entry. Flight surgeon Ken Beers reports that all three crew members are sleeping soundly at this time. Their sleep period will end probably at 189 hours although they may sleep an additional hour to 190 hours. Spacecraft being tracked now through the Guam station. A line projected out from Earth to what is called a sub-satellite point or a point directly under the spacecraft would put it over dead center of Australia. At 187 hours, 29 minutes Ground Elapsed Time, this is Apollo control.
-188:28:00|P|PAO|This is Apollo Control 188 hours, 28 minutes Ground Elapsed Time. Apollo 11 now 46,254 nautical miles out from Earth. Velocity continuing to increase, now 9,081 feet per second. There will be a dramatic increase in velocity as the spacecraft gets closer in. Here in Mission Control Center the entry team headed up by Flight Director Milt Windler is beginning to come aboard. Hand over in progress from Gene Kranz white team. The crew is still asleep at this time. They're some 6 hours, 34 minutes from entry interface. And at 188 hours, 29 minutes Ground Elapsed Time, this is Apollo Control.
-188:43:00|P|PAO|This is Apollo Control at 188 hours 43 minutes. Mid course correction number 7 has been canceled, and we will add one hour of rest time to the Flight Plan. Crew will be awakened at 190 hours elapsed time. To repeat, we have canceled mid-course correction number 7 and we will allow the crew to sleep until 190 hours elapsed time. This is Mission Control Houston.
-189:28:00|P|PAO|This is Apollo Control at 189 hours 28 minutes. Apollo 11 is 40,961 nautical miles from the Earth. Approaching at a velocity of 9,671 feet per second. Mid course correction number 7 has been canceled and as a result we will let the crew sleep until an elapsed time of 190 hours. Weather in the recovery area. Well we're getting a call from Apollo 11, now. Let's listen to that.
-189:28:00|P|PAO|The crew gave us a call at 189 hours, 29 minutes. We advised them of the cancellation of the mid-course correction. Weather in the recovery area - skies will be partly cloudy. Cloud base is at 2,000 feet scattered. Wind, east north east at 18 knots. 6 foot sea. Temperature 80 degrees. This landing area is 215 miles to the northeast from the original landing area, moved because of thunder showers in the original area. This new location should allow the recovery ship USS Hornet to arrive in Hawaii 4 to 5 hours earlier than originally planned. We expect that it may be possible for the carrier to arrive at Pearl Harbor somewhere between 8 and 9 o'clock, on July 26, that's Saturday.
-189:28:00|P|PAO|The crew is probably preparing breakfast now and it's not likely that we'll hear a lot from them right away, but we'll continue to stay up alive for any conversation.
-189:28:00|P|PAO|Visibility in the recovery area is 10 miles.
-189:28:00|P|PAO|Clock shows we are 5 1/2 hours away from entry interface the point at which Apollo 11 will enter the Earth's atmosphere. That's scheduled to occur at an elapsed time of 195 hours, 3 minutes, 7 seconds. We expect landing at 195 hours, 17 minutes, 49 seconds.
-189:28:00|P|PAO|This is Apollo Control. Apollo 11 is now 38,793 nautical miles from the Earth. Velocity 9,947 feet per second.
-189:28:35|T|CDR|Hello, Houston. Apollo 11.
+182:10:02|P|PAO|This is Apollo Control. 182 hours 10 minutes Ground Elapsed Time. We thought that was all the air-to-ground for tonight prior to the crew going to sleep, but just a few moments ago, there was a brief exchange reporting to Apollo 11 crew that the McDonald Observatory in ... West Texas had the spacecraft in their telescope field of view. Let's roll that tape now and then shut it down again.
+182:11:00|P|PAO|This is Apollo Control. That completes the very brief exchange of a few moments ago. At 182 hours, 11 minutes, this is Apollo Control.
+183:25:07|P|PAO|This is Apollo Control, 183 hours, 25 minutes Ground Elapsed Time. Columbia spacecraft, now 69,520 nautical miles out from Earth. Approaching at 7,262 feet per second. Crew now in their rest period. Started their sleep period a little over an hour ago. To reiterate the change in landing point, this is a weather avoidance situation where thunderstorms are forecast for the aiming point - the original aiming point in the Pacific, therefore, after the normal entry interface the lifting characteristics of the Apollo Command Module will be used to extend the entry range some 215 nautical miles farther down range, toward Hawaii, to a preliminary aiming point, that is the aiming point may shift around between now and entry which is some 11 hours, 36 minutes from now. But at any rate the aiming point as calculated now is some 13 degrees 19 minutes north latitude, by 169 degrees 10 minutes west longitude. The preliminary time of drogue deploy is 195 hours, 12 minutes. As you were - yes 195 hours, 12 minutes, 4 seconds. And the net extension over the earlier splash time is something like 40 seconds. At 183 hours, 27 minutes Ground Elapsed Time, this is Apollo Control.
+185:29:04|P|PAO|This is Apollo Control at 185 hours, 29 minutes Ground Elapsed Time. 9 hours, 33 minutes until entry. Crew is still asleep at this time, scheduled to wake up at 189 hours Ground Elapsed Time, some 3 1/2  hours from now. We've had no word from the crew since the scheduled sleep period began. Apollo 11 now 61,034 nautical miles out from the Earth, and velocity of 7,815 feet per second. At 185 hours 30 minutes Ground Elapsed Time, this is Apollo Control.
+186:27:49|P|PAO|This is Apollo Control 186 hours, 28 minutes Ground Elapsed Time. 8 hours, 35 minutes to entry. Crew of Columbia still asleep at this time. Some 2 1/2 hours away from wakeup time at 189 hours Ground Elapsed Time. Because of weather avoidance in the prime recovery zone in the mid-Pacific, southwest of Hawaii, it has been decided some time ago to shift the landing point, or aiming point - some 215 nautical miles downrange from the pre-mission aiming point. And all of the numbers concerned with entry and post-entry events have been generated, and we shall forward them at this time. Pencils ready? Command Module-Service Module separation, 194:48:07 Ground Elapsed Time, 11:20:08 Central Daylight Time; entry interface, that's 400,000 feet above the Earth's surface, Ground Elapsed Time 195:03:07, 11:35:08 Central Daylight Time; begin blackout, 195:03:25 Ground Elapsed Time, 11:35:26 Central Daylight Time; .05g, 195:03:35 GET, 11:35:36 CDT; end of blackout, 195:06:56 GET, 11:38:57 CDT; drogue parachutes deploy, 195:12:04 GET, 11:44:05 CDT; main parachutes deploy, 195:12:52, 11:44:53 CDT; touchdown, 195:17:49 GET, 11:49:50 CDT. Maximum G-loading to be pulled during the entry phase will be 6.12gs. Entry velocity, that's at entry interface of 400,000 feet, will be 36,194 feet per second. Flight path angle, minus 6.5 degrees. Aiming point location, 13 degrees 19 minutes north latitude, 169 degrees 09 minutes west longitude. At 186 hours, 32 minutes Ground Elapsed Time, this is Apollo Control.
+187:28:15|P|PAO|This is Apollo control 187 hours, 28 minutes Ground Elapsed Time. 7 hours, 34 minutes to entry. Flight Surgeon, Ken Beers reports that all three crew members are sleeping soundly at this time. Their sleep period will end probably at 189 hours although they may sleep an additional hour to 190 hours. Spacecraft being tracked now through the Guam station. A line projected out from Earth to what's called a sub-satellite point or a point directly under the spacecraft would put it over dead center of Australia. At 187 hours, 29 minutes Ground Elapsed Time, this is Apollo control.
+188:28:10|P|PAO|This is Apollo Control 188 hours, 28 minutes Ground Elapsed Time. Apollo 11 now 46,254 nautical miles out from Earth. Velocity continuing to increase, now 9,081 feet per second. There will be a dramatic increase in velocity as the spacecraft gets closer in. Here in Mission Control Center the entry team headed up by Flight Director, Milt Windler is beginning to come aboard. Handover in progress from Gene Kranz' white team. The crew is still asleep at this time. They're some 6 hours, 34 minutes from entry interface. And at 188 hours, 29 minutes Ground Elapsed Time, this is Apollo Control.
+188:43:10|P|PAO|This is Apollo Control at 188 hours 43 minutes. Mid-course correction number 7 has been canceled, and we will add one hour of rest time to the Flight Plan. Crew will be awakened at 190 hours elapsed time. To repeat, we have canceled mid-course correction number 7 and we will allow the crew to sleep until 190 hours elapsed time. This is Mission Control Houston.
+189:28:01|P|PAO|This is Apollo Control at 189 hours 28 minutes. Apollo 11 is 40,961 nautical miles from the Earth. Approaching at a velocity of 9,671 feet per second. Mid-course correction number 7 has been canceled and as a result we will let the crew sleep until an elapsed time of 190 hours. Weather in the recovery area.
+189:28:36|T|CDR|Hello, Houston. Apollo 11.
+189:28:38|P|PAO|Well we're getting a call from Apollo 11, now. Let's listen to that.
 189:28:39|T|CC|Apollo 11, Houston. Go.
 189:28:43|T|CDR|Roger. Good morning. What's the status on mid-course 7?
 189:28:47|T|CC|Roger. We were going to let you sleep in until about 190 hours. Mid-course 7 is not required.
-189:28:54|T|CDR|Okay. Thank you.
-189:52:00|P|PAO|- - headed up by Flight Director Milt Windler is beginning to come aboard, handover and progress from Gene Kranz, white team. Crew still asleep at this time. Some 6 hours, 34 minutes from entry interface. And, at 188 hours, 29 minutes Ground Elapsed Time this is Apollo control.
-189:52:00|P|PAO|This is Apollo control at 190 hours, 10 minutes. Apollo 11's distance from Earth, 36,956 nautical miles. Velocity, 10,195 feet per second.
+189:28:55|T|CDR|Okay. Thank you.
+189:29:36|P|PAO|The crew gave us a call at 189 hours, 29 minutes. We advised them of the cancellation of the mid-course correction. Weather in the recovery area - skies will be partly cloudy. Cloud base is at 2,000 feet scattered. Wind, east north-east at 18 knots. 6 foot sea. Temperature 80 degrees. This landing area is 215 miles to the northeast from the original landing area, moved because of thundershowers in the original area. This new location should allow the recovery ship, USS Hornet to arrive in Hawaii 4 to 5 hours earlier than originally planned. We expect that it may be possible for the carrier to arrive at Pearl Harbor somewhere between 8 and 9 o'clock, on July 26, that's Saturday.
+189:31:18|P|PAO|The crew is probably preparing breakfast now and it's not likely that we'll hear a lot from them right away, but we'll continue to stay up alive for any conversation.
+189:32:11|P|PAO|Visibility in the recovery area is 10 miles.
+189:33:08|P|PAO|Clock shows we are 5 1/2 hours away from entry interface the point at which Apollo 11 will enter the Earth's atmosphere. That's scheduled to occur at an elapsed time of 195 hours, 3 minutes, 7 seconds. We expect landing at 195 hours, 17 minutes, 49 seconds.
+189:51:11|P|PAO|This is Apollo Control. Apollo 11 is now 38,793 nautical miles from the Earth. Velocity 9,947 feet per second.
+190:10:33|P|PAO|This is Apollo control at 190 hours, 10 minutes. Apollo 11's distance from Earth, 36,956 nautical miles. Velocity, 10,195 feet per second.
 190:19:07|T|CC|Apollo 11. Good morning from Houston. Over.
-190:19:12|T|CDR|Good morning, 11.
+190:19:13|T|CDR|Good morning, 11.
 190:19:15|T|CC|Roger. We saw you up stirring around, and we thought that you were probably eating your breakfast there. Just in general, we'll probably start coming up with the uplink of the state vectors and the target loads and what have you at about 190:50, somewhere in that area, and get you started to work.
-190:19:34|T|CDR|Okay.
+190:19:35|T|CDR|Okay.
 190:19:37|T|CC|And in the meantime, while you're eating your breakfast there, I've got the Maroon Bugle all standing by here to give you the morning news.
 190:19:45|T|CDR|Glad to hear it.
-190:19:48|T|CC|Okay. Apollo 11 remains the prime story with the world awaiting your landing today at about 11:49 a.m. Houston time. In Washington, House tax reformers have fashioned a provision which would make it impossible for wealthy individuals to avoid income tax entirely through tax free investments or special allowances. Under the proposal tentatively adopted by the House Ways and Means Committee, everyone would pay taxes on at least half of their income.
+190:19:48|T|CC|Okay. Apollo 11 remains the prime story with the world awaiting your landing today at about 11:49am Houston time. In Washington, House tax reformers have fashioned a provision which would make it impossible for wealthy individuals to avoid income tax entirely through tax-free investments or special allowances. Under the proposal tentatively adopted by the House Ways and Means Committee, everyone would pay taxes on at least half of their income.
 190:20:25|T|CDR|Hang on a minute.
 190:20:30|T|CC|Roger. Standing by.
-190:22:28|T|CDR|Okay. Okay, Ron. We're ready to go again. Thank you.
-190:22:36|T|CC|Roger. Continuing with the Maroon Bugle. President Nixon surprised your wives with a phone call from San Francisco just before he boarded a plane to fly out to meet you. All of them were very touched by your television broadcast. Jan and Pat watched from Mission Control here. The launch of Intelsat from the Cape was postponed for the fourth time last night. The problem was said to be a malfunctioning nitrogen regulator in the second stage of Delta. A new attempt will be made to launch it tonight. The research submarine Ben Franklin, which is studying the Gulf Stream, set a record by drifting 24 hours from 10 to 100 feet above the ocean floor in 1300 feet of water off the Georgia coast. The mission is led by Jacques Picard. Wally Schirra has been elected to a 5 year term on the board of trustees of the Detroit Institute of Technology. He will serve on the Institute's development committee. Air Canada says it has accepted 2300 reservations for flights to the Moon in the past 5 days. It might be noted that more than 100 have been made by men for their mothers in law. And finally, it appears that rather than killing romantic songs about the Moon, you have inspired hundreds of song writers. Nashville, Tennessee, which probably houses the largest collection of recording companies and song publishers in the country, now reports it is being flooded by Moon songs. Some will make it. The song at the top of the best sellers list this week is, "In the year 2525." Morning Bugle. Out.
+190:22:29|T|CDR|Okay. Okay, Ron. We're ready to go again. Thank you.
+190:22:36|T|CC|Roger. Continuing with the Maroon Bugle. President Nixon surprised your wives with a phone call from San Francisco just before he boarded a plane to fly out to meet you. All of them were very touched by your television broadcast. Jan and Pat watched from Mission Control here. The launch of Intelsat from the Cape was postponed for the fourth time last night. The problem was said to be a malfunctioning nitrogen regulator in the second stage of Delta. A new attempt will be made to launch it tonight. The research submarine, Ben Franklin, which is studying the Gulf Stream, set a record by drifting 24 hours from 10 to 100 feet above the ocean floor in 1300 feet of water off the Georgia coast. The mission is led by Jacques Picard. Wally Schirra has been elected to a 5 year term on the board of trustees of the Detroit Institute of Technology. He will serve on the Institute's development committee.
+190:23:58|T|CC|Air Canada says it has accepted 2300 reservations for flights to the Moon in the past 5 days. It might be noted that more than 100 have been made by men for their mothers-in-law. And finally, it appears that rather than killing romantic songs about the Moon, you have inspired hundreds of song writers. Nashville, Tennessee, which probably houses the largest collection of recording companies and song publishers in the country, now reports it is being flooded by Moon songs. Some will make it. The song at the top of the best sellers list this week is, "In the year 2525." Morning Bugle. Out.
 190:24:51|T|CDR|Thank you very much, Ron.
-190:27:00|P|PAO|This is Apollo. Control at 190 hours, 34 minutes. Apollo 11's distance from the Earth 34,622 nautical miles, velocity 10,534 feet per second.
-190:31:42|T|CDR|Houston, crew status report: 5.5 7 5.5.
-190:31:52|T|CC|Apollo 11, Houston. Roger. We copy. And I have your consumables update, if you're ready to copy.
+190:31:43|T|CDR|Houston, crew status report: 5.5, 7, 5.5.
+190:31:53|T|CC|Apollo 11, Houston. Roger. We copy. And I have your consumables update, if you're ready to copy.
 190:32:00|T|CDR|Go ahead.
-190:32:01|T|CC|Roger. GET 189 plus 00: RCS total minus 1 percent; Alfa minus 11; Bravo plus 10; Charlie minus 1; Delta minus 1; H2 total minus 0.76 pounds; oxygen total plus 17.6 pounds. Over.
-190:32:41|T|CDR|Okay. It doesn't look like we're going to be able to get quite back on the Flight Plan.
+190:32:02|T|CC|Roger. GET 189 plus 00: RCS total minus 1 percent; Alfa minus 11; Bravo plus 10; Charlie minus 1; Delta minus 1; H2 total minus 0.76 pounds; oxygen total plus 17.6 pounds. Over.
+190:32:42|T|CDR|Okay. It doesn't look like we're going to be able to get quite back on the Flight Plan.
 190:32:46|T|CC|Not quite; just about though.
-190:45:13|T|CC|Apollo 11, Houston. Request P00 and ACCEPT, and we'll send your REFSMMAT, state vector, and entry target load. Over.
+190:34:36|P|PAO|This is Apollo. Control at 190 hours, 34 minutes. Apollo 11's distance from the Earth 34,622 nautical miles, velocity 10,534 feet per second.
+190:45:12|T|CC|Apollo 11, Houston. Request P00 and ACCEPT, and we'll send your REFSMMAT, state vector, and entry target load. Over.
 190:45:23|T|CDR|You have it.
 190:45:29|T|CC|Roger. It'll be coming up.
-190:47:00|P|PAO|This is Apollo Control at 190 hours 56 minutes. Apollo 11's distance from Earth 32,447 nautical miles; velocity 10,876 feet per second.
-190:48:04|T|CC|Apollo 11, Houston. Can you tell us where the visor assemblies ended up, there?
+190:48:03|T|CC|Apollo 11, Houston. Can you tell us where the visor assemblies ended up, there?
 190:48:12|T|CDR|We're going to follow your suggestion and stow them under right hand couch.
-190:48:17|T|CC|Roger. Mighty fine. Break. The weather forecast in the landing area right now is 2000 scattered, high scattered, 10 miles. The wind about 080 at 18 knots. You'll have about 3- to 6 foot waves. Your Delta H is plus 10 feet. And it looks like you'll be landing about 10 minutes before sunrise. Over.
-190:48:49|T|CDR|Okay. Sounds good.
+190:48:17|T|CC|Roger. Mighty fine. Break. The weather forecast in the landing area right now is 2,000 scattered, high scattered, 10 miles. The wind about 080 at 18 knots. You'll have about 3 to 6 foot waves. Your Delta H is plus 10 feet. And it looks like you'll be landing about 10 minutes before sunrise. Over.
+190:48:50|T|CDR|Okay. Sounds good.
 190:48:52|T|CC|Roger.
-190:50:31|T|CC|Apollo 11, Houston. All three loads are in. The computer is yours. Over.
+190:50:32|T|CC|Apollo 11, Houston. All three loads are in. The computer is yours. Over.
 190:50:38|T|CDR|Roger.
 190:50:40|T|CC|And Mike, if you're on loop there, to extend the range and the constant g reentry, here, I've got a little procedure, if you would like to listen to it.
 190:50:56|T|CMP|Stand by one.
 190:50:57|T|CC|Roger.
 190:51:01|T|CMP|I'm right in the middle of my orange juice. Be with you in about 5 minutes.
-190:51:04|T|CC|Sure, no problem, standing by.
-190:52:24|T|LMP|Houston, Apollo 11. Hey, Ron, I wonder if you could give us a good Navy explanation for this Delta H time. Over.
+190:51:05|T|CC|Sure, no problem, standing by.
+190:52:24|T|LMP|Houston, Apollo 11. Hey, Ron, I wonder if you could give us a good Navy explanation for this Delta H term. Over.
 190:52:35|T|CC|Roger. Let me think about it, and I'll come back.
-190:52:38|T|LMP|You too, huh?
-190:52:41|T|CC|(Laughter) Right.
-190:52:48|T|LMP|Collins has got one, but I'm not sure I buy it.
+190:52:39|T|LMP|You too, huh?
+190:52:40|T|CC|(Laughter) Right.
+190:52:49|T|LMP|Collins has got one, but I'm not sure I buy it.
+190:56:09|P|PAO|This is Apollo Control at 190 hours 56 minutes. Apollo 11's distance from Earth 32,447 nautical miles; velocity 10,876 feet per second.
 190:58:16|T|CC|Apollo 11, Houston.
-190:58:21|T|LMP|Go ahead.
-190:58:22|T|CC|Roger, 11. We don't have to worry about it any more. The altimeter out there is now standard, 29.92; but basically what it means is that if I give you a plus 10 feet, for instance, that means that you will hit the water with the ailtimeter reading 10 feet. Over.
+190:58:20|T|LMP|Go ahead.
+190:58:21|T|CC|Roger, 11. We don't have to worry about it any more. The altimeter out there is now standard, 29.92; but basically what it means is that if I give you a plus 10 feet, for instance, that means that you will hit the water with the ailtimeter reading 10 feet. Over.
 190:58:41|T|CMP|All right.
 190:58:43|T|LMP|Ah, Collins was wrong.
-191:07:00|P|PAO|This is Apollo Control at 191 hours, 15 minutes. Apollo 11 is now 30,469 nautical miles from Earth approaching at a velocity of 11,221 feet per second.
-191:27:00|P|PAO|This is Apollo Control at 191 hours 38 minutes. Apollo 11's distance from Earth now 27,979 nautical miles, velocity 11,689 feet per second.
-191:43:31|T|CC|Apollo 11, Houston. I have your entry PAD. Over.
-191:43:42|T|LMP|Stand by.
+191:15:29|P|PAO|This is Apollo Control at 191 hours, 15 minutes. Apollo 11 is now 30,469 nautical miles from Earth approaching at a velocity of 11,221 feet per second.
+191:38:52|P|PAO|This is Apollo Control at 191 hours 38 minutes. Apollo 11's distance from Earth now 27,979 nautical miles, velocity 11,689 feet per second.
+191:43:32|T|CC|Apollo 11, Houston. I have your entry PAD. Over.
+191:43:42|T|CDR|Stand by.
 191:43:46|T|CC|Roger. Standing by.
-191:43:54|T|LMP|Okay, I'm ready to copy.
-191:43:57|T|CC|Roger. Entry PAD: area is the mid Pacific, roll 000, 152, 001, GET 194 46 06, 267, latitude plus 1332, minus 16917, 064, 36194, 649, range to go 14045, 36275, 195 03 06, 00 28, DL max 154, 084, 22400, 18000, D0 400, 02 13, 00 17, 03 51, 09 02, sextant star 45 0189, 277, boresight star, none available, lift vector up. Comments: GDC align, Vega and Deneb, roll 078, pitch 223, yaw 340. Additional comments: Use nonexit EMS pattern, EI minus 30, horizon check GET 194 33 06. Pitch 298. You'll get P65, but no P66. Additional note: Initial bank angle in P67 may not be full lift. Apollo 11, Houston. Read back.
-191:48:00|P|PAO|This is Apollo Control at 192 hours 2 minutes. This will be first time in Apollo that crews have flown lift vector UP during reentry. Normally, lift vector is down. However, we want to extend the range by 215 miles so for a short period about a minute and 25 seconds during the blackout period the spacecraft will be flown with lift vector up. The computer program for that is number 65, up control. Apollo 11 is now 25,301 nautical miles from Earth, velocity has increased to 12,263 feet per second.
-191:48:46|T|LMP|Okay, Ron, For MIDPAC: 000, 152, 001, 194, 46 06, 267, plus 1332, minus 16917, 064, 36194, 649, 14045, 36275, 195 03 06, 0028, 154, 084, 2240, 180, 400, 02 13, 00 17, 03 51, 09 02, 45, 0189, 277, none available, lift vector up, GDC align, Vega and Deneb, roll 078, pitch 223, yaw 340. Use nonexit EMS. EI minus 30, horizon check 194 33 06, pitch 298. Initial bank angle in P67 may not be full lift, and we will get P65 but no P66.
+191:43:54|T|CDR|Okay, I'm ready to copy.
+191:43:57|T|CC|Roger. Entry PAD: area is the mid-Pacific, roll, 000, 152, 001; GET 194:46:06, 267; latitude, plus 13.32, minus 169.17; 06.4; 36194, 6.49; range to go, 1404.5, 36275; 195:03:06, 00:28, DL max, 1.54, 0.84, 22400, 18000; D0 4.00, 02:13; 00:17, 03:51, 09:02; sextant star, 45, 018.9, 27.7; boresight star, none available; lift vector, Up. Comments: GDC align, Vega and Deneb, roll 078, pitch 223, yaw 340. Additional comments: Use non-exit EMS pattern; EI minus 30 horizon check, GET 194:33:06; pitch 298. You'll get P65, but no P66. Additional note: Initial bank angle in P67 may not be full lift. Apollo 11, Houston. Read back.
+191:48:47|T|CDR|Okay, Ron. For MIDPAC: 000, 152, 001; 194:46:06, 267; plus 13.32, minus 169.17; 06.4; 36194, 6.49; 1404.5, 36275; 195:03:06, 0028, 1.54, 0.84, 2240, 180, 4.00, 02:13; 00:17, 03:51, 09:02; 45, 018.9, 27.7; none available; lift vector, Up; GDC align, Vega and Deneb, roll 078, pitch 223, yaw 340. Use non-exit EMS. EI minus 30 horizon check, 194:33:06, pitch 298. Initial bank angle in P67 may not be full lift, and we will get P65 but no P66.
 191:50:30|T|CC|Apollo 11, Houston. Roger. On your GDC align pitch, it should be 233, 233 in the pitch. Over.
-191:50:41|T|LMP|Okay. I've got a 233.
-191:50:47|T|CC|Also your DL and MAX and MIN, I'm sure. are 22 400 and 18 000. Over.
-191:50:56|T|LMP|Yes. That's right.
-191:50:58|T|CC|Okay. If you'll dig out your entry checklist there on page E6 1, I'll update your RETRO times there for the various altitudes. Over.
-191:51:10|T|LMP|Okay. Go ahead.
-191:51:14|T|CC|Okay. On page E6 1, your RRT is 07 20, your 50K is 08 16; 40K is 08 30; your 24K is 09 02; and your 10K is 09 51. 0wer.
-191:52:06|T|LMP|Okay. RRT, 07 20, 50 000, 08 16. That's - 07 20 is - is the time of steam pressure peg from RRT; and 40 000, 08 30; 24 000, 09 02; 10 000, 09 51.
+191:50:41|T|CDR|Okay. I've got a 233.
+191:50:47|T|CC|Also your VL and MAX and MIN, I'm sure. are 22,400 and 18,000. Over.
+191:50:56|T|CDR|Yes. That's right.
+191:50:58|T|CC|Okay. If you'll dig out your entry checklist there on page E6-1, I'll update your RETRO times there for the various altitudes. Over.
+191:51:11|T|CDR|Okay. Go ahead.
+191:51:14|T|CC|Okay. On page E6-1, your RRT is 07:20, your 50k is 08:16; 40k is 08:30; your 24k is 09:02; and your 10k is 09:51. Over.
+191:52:06|T|CDR|Okay. RRT, 07:20; 50,000, 08:16. That's - 07:20 is - is the time the steam pressure's pegged from RRT; and 40,000, 08:30; 24,000, 09:02; 10,000, 09:51.
 191:52:48|T|CC|11, Houston. You started out right, and then the numbers you read back were correct; but I didn't get your comment in between there.
-191:52:58|T|LMP|I assume that - all I wanted to know is that first time, 07 20, that's the time of steam pressure peg. Right?
+191:52:58|T|CDR|I assume that - all I wanted to know is that first time, 07:20, that's the time of steam pressure peg. Right?
 191:53:04|T|CC|That's affirmative.
-191:53:06|T|LMP|Okay.
-191:58:05|T|CMP|Houston, Apollo 11. Ron, I'm ready to copy your message about the constant drag level.
+191:53:07|T|LMP|Okay.
+191:58:06|T|CMP|Houston, Apollo 11. Ron, I'm ready to copy your message about the constant drag level.
 191:58:13|T|CC|Okay, Mike. Of course, this is in the event the G&N and the EMS quits and you have to fly the constant g; and what we're trying to do is extend the constant g range from 1100 to 1500 miles. We've run this procedure in the simulator, and it works fine. Basically, I'll go through it - just go through it, and then if you have any questions come back. But it's the same lift vector up until MAX g, and then lift vector down, and then modulate the lift vector until g dot goes to zero. Okay. This procedure is essentially the same so far. And then hold g dot zero until you pass the RETRO elapsed time of V circular; and then after you pass this RETRO elapsed time of V circular, roll to a gimbal angle of 45 degrees, and then hold this constant bank angle of 45 degrees until you come to the RETRO elapsed time of drogues. Over.
-191:59:44|T|CMP|Okay. It sounds straightforward enough. Understand constant g backup backup procedure, lift vector up until MAX g and then lift vector down; then modulate until bank angle until g dot equals zero. Maintain g dot equals zero until subcircular, then roll 45 degrees and hold until drogue time. Over.
-192:00:07|T|CC|Okay. That's mighty fine, Mike. That's correct.
-192:03:00|P|PAO|This is Apollo Control at 192 hours 30 minutes. Apollo 11 now 22,130 nautical miles from Earth; velocity 13,053 feet per second. We're 2 hours 32 minutes 32 seconds away from entry interface.
-192:33:00|P|PAO|This is Apollo Control at 192 hours, 48 minutes. Apollo 11 is 19,914 nautical miles from the Earth approaching at a velocity of 13,695 feet per second. We're 2 hours, 14 minutes, 16 seconds away from entry into the atmosphere, the U.S. Air Force C-135 crew will attempt to photograph this re-entry of the Command Module. Aircraft designated A-1ots for airborne light-weight optical tracker system will attempt to record the entry on 70-millimeter still film. Pilot of that aircraft is the ARIA Squadron Commander. Three of his ARIA Aircraft will be in the entry area to provide communications during re-entry of the Command Module. Crew of ALOTS includes the Commander, Colonel Robert W. Hoffman of Wichita Falls, Texas. The pilot who is the ARIA Squadron Commander Colonel Oakley W. Baron of Kankakee, Illinois, Co-Pilot Lt. Col. Wallace L. Emory, San Angelo, Texas. Navigators are Lt. Col. Ervin O. Stewart, Jr., Greensboro, North Carolina, and Major Charles W. Hinton, Mt. Auburn, Illinois. The photographic Specialist Master Sergeant Paul T. Swieczkowski whose home town is not listed. Col. Baron's nickname is the Red Baron who is a veteran of more than 10,000 flying hours, and has flown more than 80 different types of aircraft.
-192:33:00|P|PAO|Normally the mission Control Center here in Houston will not attempt to contact Apollo 11 after drogue chute deployment. We will stay off the air and let the recovery forces attempt to establish voice contact. If for some reason, Capcom does want to communicate with the crew, he will request clearance from the recovery forces before putting in a call.
-192:53:00|P|PAO|This is Apollo Control at 192 hours, 55 minutes. A few of the entry event times have changed from a second to 4 seconds. Others remain the same. Here's the updated times: entry, 195 hours, 3 minutes, 7 seconds; begin blackout, 195:03:25, 05g 195:03:36; end blackout, 195:07:00; drogue shoot deployment, 195:12:08; main shoot deployment, 195:12:56; landing 195:17:53. Maximum G load expected during the entry, 6.20.
+191:59:45|T|CMP|Okay. It sounds straightforward enough. Understand constant g backup backup procedure, lift vector up until MAX g and then lift vector down; then modulate until - bank angle until g dot equals zero. Maintain g dot equals zero until subcircular, then roll 45 degrees and hold until drogue time. Over.
+192:00:08|T|CC|Okay. That's mighty fine, Mike. That's correct.
+192:02:13|P|PAO|This is Apollo Control at 192 hours 2 minutes. This will be first time in Apollo that crews have flown lift vector UP during reentry. Normally, lift vector is down. However, we want to extend the range by 215 miles so for a short period about a minute and 24 - 25 seconds during the blackout period the spacecraft will be flown with lift vector up. The computer program for that is number 65, up control. Apollo 11 is now 25,301 nautical miles from Earth, velocity has increased to 12,263 feet per second.
+192:30:18|P|PAO|This is Apollo Control at 192 hours 30 minutes. Apollo 11 now 22,130 nautical miles from Earth; velocity 13,053 feet per second. We're 2 hours, 32 minutes, 32 seconds away from entry interface.
+192:48:28|P|PAO|This is Apollo Control at 192 hours, 48 minutes. Apollo 11 is 19,914 nautical miles from the Earth approaching at a velocity of 13,695 feet per second. We're 2 hours, 14 minutes, 16 seconds away from entry into the atmosphere. And, the U.S. Air Force C-135 crew will attempt to photograph this re-entry of the Command Module. Aircraft designated A-lots for airborne light-weight optical tracker system will attempt to record the entry on 70-millimeter still film. Pilot of that aircraft is the ARIA Squadron Commander. Three of his ARIA Aircraft will be in the entry area to provide communications during re-entry of the Command Module. Crew of ALOTS includes the aircraft Commander, Colonel Robert W. Hoffman of Wichita Falls, Texas. The pilot, who is the ARIA Squadron Commander, Colonel Oakley W. Baron of Kankakee, Illinois, Co-Pilot, Lt. Col. Wallace L. Emory, San Angelo, Texas. Navigators are Lt. Col. Ervin O. Stewart, Jr., Greensboro, North Carolina, and Major Charles W. Hinton, Mt. Auburn, Illinois. The photographic Specialist, Master Sergeant Paul T. Swieczkowski whose home town is not listed. Col. Baron's nickname is the Red Baron who is a veteran of more than 10,000 flying hours, and has flown more than 80 different types of aircraft.
+192:52:14|P|PAO|Normally, the mission Control Center here in Houston will not attempt to contact Apollo 11 after drogue chute deployment. We will stay off the air and let the recovery forces attempt to establish voice contact. If for some reason, Capcom does want to communicate with the crew, he will request clearance from the recovery forces before putting in a call.
+192:55:51|P|PAO|This is Apollo Control at 192 hours, 55 minutes. A few of the entry event times have changed from a second to 4 seconds. Others remain the same. Here's the updated times: entry, 195 hours, 3 minutes, 7 seconds; begin blackout, 195:03:25; .05g, 195:03:36; end blackout, 195:07:00; drogue shoot deployment, 195:12:08; main shoot deployment, 195:12:56; landing, 195:17:53. Maximum G load expected during the entry, 6.20.
 193:01:57|T|CMP|This entry time line is my kind of time line. Nice and slow.
 193:02:03|T|CC|Okay, 11. Houston. Roger. It sure is. EECOMM is anxiously awaiting his big moment here for the logic sequence check whenever you're ready.
-193:02:14|T|CDR|Okay. We'll be ready for that in just a flash.
+193:02:15|T|CMP|Okay. We'll be ready for that in just a flash.
 193:02:17|T|CC|Roger.
 193:02:28|T|CC|Apollo 11, Houston.
 193:02:31|T|CMP|Go ahead, Ron.
-193:02:32|T|CC|This is Jim, Mike. Backup crew is still standing by. I just want to remind you that the most difficult part of your mission is going to be after recovery.
-193:02:42|T|CMP|Well, we're looking forward to all parts of it.
-193:02:45|T|CC|Please don't sneeze.
+193:02:33|T|CC|This is Jim, Mike. Backup crew is still standing by. I just want to remind you that the most difficult part of your mission is going to be after recovery.
+193:02:43|T|CMP|Well, we're looking forward to all parts of it.
+193:02:46|T|CC|Please don't sneeze.
 193:02:53|T|CMP|Keep the mice healthy.
-193:03:00|P|PAO|And the Apollo 11 backup crew there has joined Capcom Ron Evans at his console, Jim Lovell , Bill Anders and Fred Haise. Also Donald K. Slayton, Director of Flight Crew Operations, is at that console.
-193:03:00|P|PAO|This is Apollo Control at 193 hours, 10 minutes. Apollo 11 is now 17,158 nautical miles from Earth. Velocity 14,633 feet per second.
 193:03:03|T|CMP|The Earth is really getting bigger up here and, of course, we see a crescent.
-193:03:08|T|CC|Yes.
-193:03:12|T|CMP|We've been taking pictures and we have four exposures to go, and we'll take those and then pack the camera.
+193:03:09|T|CC|Yes.
+193:03:11|T|CMP|We've been taking pictures and we have four exposures to go, and we'll take those and then pack the camera.
+193:03:38|P|PAO|And the Apollo 11 backup crew has joined Capcom, Ron Evans at his console, Jim Lovell, Bill Anders, and Fred Haise. Also, Donald K. Slayton, Director of Flight Crew Operations, is at that console.
 193:05:18|T|CMP|Houston, Apollo 11. We're ready for the logic check whenever you are. We're standing by to arm the logic. We've got ELS logic on, ELS AUTO, and all the circuit breakers in.
 193:05:30|T|CC|Apollo 11, Houston. Roger. You can press on with the SECS logic.
 193:05:35|T|CMP|Okay. Logic 1 coming on.
 193:05:37|T|CMP|MARK it.
-193:05:39|T|CMP|Logic 2 coming on.
-193:05:40|T|CMP|MARK it.
+193:05:40|T|CMP|Logic 2 coming on.
+193:05:41|T|CMP|MARK it.
 193:05:50|T|CC|Apollo 11, Houston. Logic checks good. You're GO for PYRO ARM.
-193:05:56|T|CMP|Thank you, sir.
+193:05:57|T|CMP|Thank you, sir.
 193:07:09|T|LMP|Houston, Apollo 11 has got VHF A Simplex on whenever you want to make a COMM check.
-193:07:20|T|CC|Apollo 11, Houston. Roger. You faded out a little bit there, Buzz. I understand you have the VHF Simplex A on now. Is that correct? Over.
+193:07:21|T|CC|Apollo 11, Houston. Roger. You faded out a little bit there, Buzz. I understand you have the VHF Simplex A on now. Is that correct? Over.
 193:07:29|T|LMP|That affirmative. VHF Simplex A and we're TR on VHF.
 193:07:35|T|CC|Roger. Mighty fine. We'll watch it as you are coming on in and let you know when the intelligibility is up. We'll make a voice check with you at that time.
-193:07:50|T|CDR|Houston, Apollo 11. I've been holding here in SCS control MINIMUM DEADBAND RATE LOW with the limit cycle on, just as a matter of curiosity, if you guys wanted some fuel numbers from that.
+193:07:50|T|CMP|Houston, Apollo 11. I've been holding here in SCS control MINIMUM DEADBAND RATE LOW with the limit cycle on, just as a matter of curiosity, if you guys wanted some fuel numbers from that.
 193:08:07|T|CC|11, Houston. Roger. We copy and we've been figuring it out.
-193:08:13|T|CDR|Okay.
+193:08:14|T|CDR|Okay.
 193:08:18|T|CMP|It's a pleasure to be able to waste gas.
 193:08:23|T|CC|Roger. That's affirmative.
+193:10:12|P|PAO|This is Apollo Control at 193 hours, 10 minutes. Apollo 11 is now 17,158 nautical miles from Earth. Velocity 14,633 feet per second.
 193:16:11|T|CC|Apollo 11, Houston with a little recovery force information. Over.
 193:16:17|T|CMP|Go ahead.
-193:16:18|T|CC|Roger. The Hornet is on station just far enough off the target point to keep from getting hit. Recovery 1, or the chopper, is there; they're on station. And Hawaii Rescue 1 and 2, the C 130's, are within 40 minutes of your target point. Over.
-193:16:50|T|CMP|Sounds good. Thank you.
-193:18:00|P|PAO|This is Apollo Control at 193 hours 20 minutes. Apollo 11 is 15,854 nautical miles from Earth, velocity 15,154 feet per second. We're just - we're 1 hour 43 minutes away from entry and here are the altitudes at which the entry events are expected to occur. Entry at 75 statute miles, beginning blackout at 62 statute miles, 05 g 57 statute miles, end blackout 41 statute miles, drogue chute deployment 23,300 feet, and main chute deployment 10,500 feet
+193:16:18|T|CC|Roger. The Hornet is on station just far enough off the target point to keep from getting hit. Recovery 1, or the choppers there, they're on station. And Hawaii Rescue 1 and 2, the C-130s, are within 40 minutes of your target point. Over.
+193:16:51|T|CMP|Sounds good. Thank you.
+193:20:04|P|PAO|This is Apollo Control at 193 hours 20 minutes. Apollo 11 is 15,854 nautical miles from Earth, velocity 15,154 feet per second. We're just - we're 1 hour 43 minutes away from entry and here are the altitudes at which the entry events are expected to occur. Entry at 75 statute miles, beginning blackout at 62 statute miles, .05g, 57 statute miles, end blackout, 41 statute miles, drogue chute deployment, 23,300 feet, and main chute deployment 10,500 feet
 193:25:08|T|CC|Apollo 11, Houston.
-193:25:11|T|CDR|Go ahead.
+193:25:12|T|CDR|Go ahead.
 193:25:13|T|CC|Roger. Just to get a little downlink here to check out our VHF: I show us about an hour and 37 minutes, approximately, from entry interface. Over.
-193:25:26|T|LMP|Okay. That's about right.
+193:25:27|T|LMP|Okay. That's about right.
 193:25:28|T|CC|Okay. Looks like we're together on that, and I guess we're standing by for you to whip into the entry attitude.
-193:25:37|T|LMP|Okay. We've just been taking a couple of last minute pictures. We've finished the EMS entry check, primary water EVAP activation.
-193:25:46|T|CC|Roger. Mighty fine.
-193:28:00|P|PAO|This is Apollo Control at 193 hours 30 minutes. Apollo 11 now 14,374 nautical miles from Earth; velocity 15,788. We expect entry velocity at 36,194 feet per second.
-193:28:00|P|PAO|Capcom that time was Fred Haise, the backup Lunar Module Pilot.
+193:25:38|T|LMP|Okay. We've just been taking a couple of last minute pictures. We've finished the EMS entry check, primary water EVAP activation.
+193:25:47|T|CC|Roger. Mighty fine.
+193:30:00|P|PAO|This is Apollo Control at 193 hours 30 minutes. Apollo 11 now 14,374 nautical miles from Earth; velocity 15,788. We expect entry velocity at 36,194 feet per second.
+193:30:00|P|PAO|Capcom that time was Fred Haise, the backup Lunar Module Pilot.
 193:28:00|P|PAO|At 193 hours 40 minutes, Apollo 11's distance from Earth is 13,044 nautical miles; velocity 16,439 feet per second.
-193:31:22|T|CC|Apollo 11, Houston.
-193:31:26|T|CMP|Go ahead.
+193:31:23|T|CC|Apollo 11, Houston.
+193:31:27|T|CMP|Go ahead.
 193:31:28|T|CC|Roger, Mike. We recommend the left VHF antenna for VHF.
-193:31:33|T|CC|And this is your friendly backup CMP. Have a good trip, and may - remember to come in BEF.
+193:31:35|T|CC|And this is your friendly backup CMP. Have a good trip, and may - remember to come in BEF.
 193:31:42|T|CMP|You better believe. Thank you kindly.
 193:31:48|T|CMP|We can see the Moon passing by the window and it looks what I considered to be a correct size.
-193:33:26|T|LMP|Houston, Apollo 11. Like to switch to S band OMNI C. I just did a minute ago, and noticed a loss of signal strength, over.
-193:33:34|T|CC|Roger, Apollo 11. Go ahead and try it again now that you're in attitude.
+193:33:26|T|LMP|Houston, Apollo 11. Like to switch to S-band OMNI C. I just did a minute ago, and noticed a loss of signal strength, over.
+193:33:35|T|CC|Roger, Apollo 11. Go ahead and try it again now that you're in attitude.
 193:33:42|T|LMP|Roger. Going OMNI C.
 193:37:10|T|CC|Apollo 11, Houston.
-193:37:31|T|CC|Apollo 11, Houston. Recommend antenna Bravo. Over.
-193:41:08|T|CC|Apollo 11, Houston. Recomend antenna Bravo, or at least a better one. Over.
-193:47:35|T|CC|Apollo 11, Houston.
+193:37:32|T|CC|Apollo 11, Houston. Recommend antenna Bravo. Over.
+193:41:08|T|CC|Apollo 11, Houston. Recommend antenna Bravo, or at least a better one. Over.
+193:47:36|T|CC|Apollo 11, Houston.
 193:47:39|T|CDR|Go ahead, Ron.
 193:47:40|T|CC|Roger. Faces are red here. We lost data with you there for a while. Did you do the P52? Over.
-193:47:47|T|CDR|That's affirmative, we completed the P52. We'll give you the data from it in just a second. We passed our sextant star check at entry attitude, and right now we're maneuvering to our first horizon cheek pitch attitude of 298 degrees.
-193:48:00|P|PAO|Apollo Control at 193 hours, 50 minutes. Apollo 11's distance now 11,463 nautical miles approaching at a velocity of 17,322 feet per second. We're just under an hour away from scheduled Command Module-Service Module separation and about an hour and 12 minutes away from entry.
-193:48:00|P|PAO|This is Apollo Control at 194 hours. Apollo 11's distance from Earth now 10,066 nautical miles. Velocity 18,227 feet per second.
-193:48:00|P|PAO|That was Mike Collins.
-193:48:00|P|PAO|Apollo 11 is 1 hour away now from entry into the Earth's atmosphere.
+193:47:48|T|CDR|That's affirmative, we completed the P52. We'll give you the data from it in just a second. We passed our sextant star check at entry attitude, and right now we're maneuvering to our first horizon cheek pitch attitude of 298 degrees.
 193:48:05|T|CC|Roger. Copy that, 11.
+193:50:00|P|PAO|Apollo Control at 193 hours, 50 minutes. Apollo 11's distance now 11,463 nautical miles approaching at a velocity of 17,322 feet per second. We're just under an hour away from scheduled Command Module-Service Module separation and about an hour and 12 minutes away from entry.
 193:58:53|T|CC|Apollo 11, Houston. About 4 minutes to 1 hour, and I'll give you a mark at 1 hour. Was a Command Module preheat necessary? Over.
 193:59:03|T|CMP|Negative that.
 193:59:06|T|CC|Roger. Copy. Negative Command Module preheat.
-194:02:06|T|CC|Apollo 11, Houston.
-194:02:09|T|CMP|Go ahead.
+194:00:00|P|PAO|This is Apollo Control at 194 hours. Apollo 11's distance from Earth now 10,066 nautical miles. Velocity 18,227 feet per second.
+194:00:00|P|PAO|That was Mike Collins.
+194:00:00|P|PAO|Apollo 11 is 1 hour away now from entry into the Earth's atmosphere.
+194:02:07|T|CC|Apollo 11, Houston.
+194:02:10|T|CMP|Go ahead.
 194:02:11|T|CC|Roger. We don't want to jettison the hydrogen tank that stratified, so could you cycle the fans in tank 2 please? Hydrogen tank 2.
-194:02:26|T|CMP|You better believe, that old Service Module has taken good care of us. We want to take good care of it.
+194:02:22|T|CMP|You better believe, that old Service Module has taken good care of us. We want to take good care of it.
 194:02:30|T|CC|It sure has, hasn't it.
 194:02:33|T|CMP|It's been a champ.
-194:03:00|P|PAO|This is Apollo Control at 194 hours, 10 minutes. Apollo 11 is now 8 5 -
-194:03:00|P|PAO|Spacecraft distance is 8,393 nautical miles. Velocity 19,512 feet per second. Rescue and ARIA aircraft are reported on station, and the Hornet's helicopters containing the swimmers are recorded airborne. Swim 1 is helicopter number 53. Three swimmers from that helo are expected to place the collar on the spacecraft, flotation collar. Crew of swim 1 consists of Lieutenant Commander Donald G. Pitchmand, pilot.
-194:04:48|T|CC|11, Houston. I'll give you a time hack at 58 minutes to go. It's about 15 seconds yet.
-194:04:57|T|CMP|Thank you.
+194:00:00|P|PAO|This is Apollo Control at 194 hours. Apollo 11's distance from Earth now 10,066 nautical miles. Velocity 18,227 feet per second.
+194:02:37|P|PAO|That was Mike Collins.
+194:03:07|P|PAO|Apollo 11 is 1 hour away now from entry into the Earth's atmosphere.
+194:04:49|T|CC|11, Houston. I'll give you a time hack at 58 minutes to go. It's about 15 seconds yet.
+194:04:58|T|CMP|Thank you.
 194:05:04|T|CC|Stand by.
-194:05:07|T|CC|MARK.
-194:05:08|T|CC|58 minutes.
+194:05:08|T|CC|MARK.
+194:05:09|T|CC|58 minutes.
 194:05:13|T|LMP|Roger.
+194:10:04|P|PAO|This is Apollo Control at 194 hours, 10 minutes. Apollo 11 is now 8 5 -
 194:10:13|T|CC|Apollo 11, Houston.
 194:10:16|T|LMP|Go ahead, Houston. Apollo 11.
-194:10:17|T|CC|Roger. We have our update at the state vector out there for you. Request P00 and ACCEPT. Over.
-194:10:28|T|LMP|Okay. You've got it.
-194:10:32|T|CC|Okay. Here it comes.
-194:11:55|T|CC|Apollo 11, Houston.
-194:11:58|T|LMP|Go ahead.
+194:10:18|T|CC|Roger. We have our updated state vector out there for you. Request P00 and ACCEPT. Over.
+194:10:29|T|LMP|Okay. You've got it.
+194:10:33|T|CC|Okay. Here it comes.
+194:10:49|P|PAO|Spacecraft distance is 8,393 nautical miles. Velocity 19,512 feet per second. Rescue and ARIA aircraft are reported on station, and the Hornet's helicopters containing the swimmers are recorded airborne. Swim 1 is helicopter number 53. Three swimmers from that helo are expected to place the collar on the spacecraft, flotation collar. Crew of swim 1 consists of Lieutenant Commander, Donald G. Pitchmand, pilot.
+194:11:56|T|CC|Apollo 11, Houston.
+194:11:59|T|CDR|Go ahead.
 194:12:00|T|CC|Roger. The computer is yours now. Looks like you're in VHF range, here. So we'll try a VHF check for you. We'll just send VHF up to you. Stand by.
 194:12:11|T|LMP|Okay.
-194:12:25|T|CC|Apollo 11, Houston. VHF check on Simplex Alfa. Over.
+194:12:26|T|CC|Apollo 11, Houston. VHF check on Simplex Alfa. Over.
 194:12:32|T|LMP|Roger, Houston. Apollo 11, VHF Simplex Alfa, loud and clear. How me? Over.
-194:12:38|T|CC|Roger, 11. Houston. You're loud. The standard VHF noise, though, makes you realize that S band is good.
+194:12:38|T|CC|Roger, 11. Houston. You're loud. The standard VHF noise, though, makes you realize that S-band is good.
 194:12:48|T|LMP|Roger. Understand. Thank you.
-194:13:00|P|PAO|Swim One's pilot Commander Richmond is from Orlando, Florida. Copilot Lt. William W. Strawn of Plymouth, Michigan, Crewman James R. Johnson, Raleigh, North Carolina. The swimmers aboard Swim One are Lt JG John McLachlan of Spokane, Washington, PH2 Terry A. Muehlenbach, Chatsworth, California, and ADJ3 Mitchell L. Bucklew, Sanford, Florida. These 3 swimmers are scheduled to attach the flotation collar and then move away from the Command Module while helicopter number 66, designated Recovery One, moves into the area and deploys 1 swimmer, Lt. Clancey Hatelberg.
+194:13:20|T|CC|Apollo 11, Houston. Back up S-band now, and we're standing by for Command Module RCS aetivation.
+194:13:28|T|LMP|Okay. We're just about there.
+194:14:04|P|PAO|Swim One's pilot Commander Richmond is from Orlando, Florida. Copilot Lt. William W. Strawn of Plymouth, Michigan, Crewman James R. Johnson, Raleigh, North Carolina. The swimmers aboard Swim One are Lt JG John McLachlan of Spokane, Washington, PH2 Terry A. Muehlenbach, Chatsworth, California, and ADJ3 Mitchell L. Bucklew, Sanford, Florida. These 3 swimmers are scheduled to attach the flotation collar and then move away from the Command Module while helicopter number 66, designated Recovery One, moves into the area and deploys 1 swimmer, Lt. Clancey Hatelberg.
 194:13:00|P|PAO|Lt. Clancey Hatelberg, Chippewa Falls, Wisconsin, will deploy from Recovery One wearing a biological isolation garment and he will hand to the crew through the hatch their biological isolation garments. At 194 hours 16 minutes Apollo 11 is 7512 nautical miles from Earth, velocity 20,304 feet per second.
 194:13:00|P|PAO|The crew of helicopter 66, Recovery One the pilot Cdr. D. S. Jones of Madison, Wiscon; Copilot LtJG Bruce A. Johnson, Bremerton, Washington, andl the 2 crewmen who will assist the astronauts into the Helo AWHC Norvel L. Wood of Carmi, Illinois and AWHC Stanley G. Robnett of Portales, New Mexico.
 194:13:00|P|PAO|At 194 hours 22 minutes distance is 6509 nautical miles velocity 21,366 feet per second.
 194:13:00|P|PAO|Helo number 64 is designated Swim Two.
 194:13:00|P|PAO|If that helicopter than Swim One to the landing point swimmers will be deployed from Swim Two to attach the collar. Those swimmers are LtJG Wesley T. Chesser of Arlington, Virginia, QM3 Michael G. Mallary of Alderwood Mannor, Washington, and SN John M. Wolfram of Fort Atkinson, Wisconsin. The Helo's crew consists of pilot Lt. Richard J. Barrett of Squannanoa, North Carolina, copilot Lt. George Ro. Conn, Imperial Beach, California, AWH2 Curtis E. Hill, Black Rock Arkansas, and AWH2 Richard B. Seaton, Hibbing, Minnesota.
-194:13:19|T|CC|Apollo 11, Houston. Backup S band now, and we're standing by for Command Module RCS aetivation.
-194:13:27|T|LMP|Okay. We're just about there.
 194:15:15|T|CC|Apollo 11, Houston, you're GO for PYRO ARM.
 194:15:19|T|CMP|Thank you, Houston.
 194:16:36|T|CC|Apollo 11, Houston. Your Command Module pressurization looks mighty fine to us.
