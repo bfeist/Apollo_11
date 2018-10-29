@@ -524,7 +524,7 @@
 001:13:14|O|CDR|There are two pieces on the back of them ...
 001:13:17|O|LMP|You think so, huh?
 001:13:18|O|CDR|Yes, over, just a little up toward the ...
-001:13:28|O|LMP|Now, ... better off .... It's rolling around, so I can start looking outside, upside down.
+001:13:28|O|LMP|Now, ... better off ... It's rolling around, so I can start looking outside, upside down.
 001:13:53|O|CDR|I don't know, I think we'd almost be better just by looking at the monitor, Buzz.
 001:13:58|O|LMP|Yes, yes, but this way I think I'll know how to - know which way to move it.
 001:14:06|O|CDR|Are you going the right way for those hoses? It looks to me like you ought to roll over the other way.
@@ -4574,7 +4574,7 @@
 075:53:59|O|CDR|May be - might be 5 by the time I get my ...
 075:54:05|O|CMP|Okay, she's steering like a champ; chamber pressure sneaking up to 100.
 075:54:10|O|CDR|Look at the ...
-075:54:11|O|CMP|..., didn't recognize it ....
+075:54:11|O|CMP|..., didn't recognize it ...
 075:54:23|O|CMP|Pitch trim is holding a little over 2; it's oscillating between 2 and 2.4, roughly. Yaw trim is oscillating between minus 0.5 and zero. It's just sort of aimlessly wandering back and forth between those values. Rates are still wandering; they're deadbanding the rates in all three axes; they're plus or minus 0.1 a degree.
 075:54:53|O|CDR|We're now predicting 5 seconds early, 05:57.
 075:54:57|O|CMP|Chamber pressure is 100 psi even.
@@ -7136,7 +7136,7 @@
 096:04:11|O|CDR|...
 096:04:12|O|CMP|Okay, I'm going to ... camera out of its way.
 096:04:33|O|LMP|...
-096:04:40|O|CMP|Okay, I wouldn't be surprised .... all over this goddam stuff.
+096:04:40|O|CMP|Okay, I wouldn't be surprised ... all over this goddam stuff.
 096:05:00|O|CMP|A three-ring circus. I got a fuel cell purge in progress and trying to set up cameras and brackets, watch an AUTO maneuver, and -
 096:05:22|O|CMP|Jesus Christ!
 096:07:58|O|CMP|NORMAL, NORMAL.
@@ -8412,7 +8412,7 @@
 102:35:57|T|CC|Stand by, Looking good to us. You're still looking good at 3, coming up 3 minutes.
 102:36:07|O|CDR|Okay, we went by the 3-minute point early. A little long.
 102:36:15|O|LMP|Rate of descent looks real good. Altitude – right about on.
-102:36:15|T|LMP|... real good .... about on.
+102:36:15|T|LMP|... real good ... about on.
 102:36:20|O|CDR|Our position checks downrange show us to be a little off. AGS - AGS is showing about 2-feet-per-second greater rate of descent.
 102:36:20|T|CDR|Our. position checks downrange show us to be a little long.
 102:36:24|T|CC|Roger. Copy.
@@ -9478,7 +9478,7 @@
 108:46:09|T|CDR|Me, too.
 108:46:11|T|LMP|Audible tone.
 108:46:13|T|CDR|Verified.
-108:46:16|T|LMP|That's what it is. Yes. ... Why don't you bend down and let me stow that. See if we ....
+108:46:16|T|LMP|That's what it is. Yes. ... Why don't you bend down and let me stow that. See if we ...
 108:46:39|T|LMP|Mine is back to EMU. Already done that pretty well.
 108:46:44|T|CDR|Pretty well, complete.
 108:46:49|T|CDR|Okay.
@@ -9694,7 +9694,7 @@
 109:33:26|T|LMP|Okay. Going to get the contingency sample there, Neil.
 109:33:28|T|CDR|Right.
 109:33:31|T|LMP|Okay. That's good.
-109:34:00|T|LMP|Okay. The contingency sample is down and it's .... Looks like it's a little difficult to dig through the initial crust.
+109:34:00|T|LMP|Okay. The contingency sample is down and it's ... Looks like it's a little difficult to dig through the initial crust.
 109:34:14|T|CDR|This is very interesting. It's a very soft surface, but here and there where I plug with the contingency sample collector, I run into a very hard surface, but it appears to be very cohesive material of the same sort. I'll try to get a rock in here. Just a couple.
 109:34:55|T|LMP|That looks beautiful from here, Neil.
 109:34:57|T|CDR|It has a stark beauty all its own. It's like much of the high desert of the United States. It's different but it's very pretty out here. Be advised that a lot of the rock samples out here, the hard rock samples, have what appear to be vesicles in the surface. Also, I am looking at one now that appears to have some sort of phenocryst.
@@ -9949,7 +9949,7 @@
 110:22:56|T|LMP|Now, let's move that over this way.
 110:23:01|P|PAO|Neil Armstrong has the scoop for the bulk sample collection.
 110:23:05|T|LMP|Okay. I've got it.
-110:23:33|T|LMP|The blue color of my boots has completely disappeared now into this ... still don't know exactly what color to describe this other than greyish cocoa color. It seems to be covering most of the lighter part of the boot ... color that ... very fine particles ....
+110:23:33|T|LMP|The blue color of my boots has completely disappeared now into this ... still don't know exactly what color to describe this other than greyish cocoa color. It seems to be covering most of the lighter part of the boot ... color that ... very fine particles ...
 110:24:13|T|CC|Buzz, this is Houston. You're cutting out on the end of your transmissions. Can you speak a little more closely into your microphone? Over.
 110:24:24|T|LMP|Roger. I'll try that.
 110:24:26|T|CC|Beautiful.
@@ -12432,7 +12432,7 @@
 133:01:12|O|LMP|Oops, I got 404 again.
 133:01:55|O|CMP|How about that, wise asses! Huh?
 133:01:58|O|LMP|You had a - you had to work though, didn't you?
-133:03:08|O|CMP|... O2 fuel cell's ....
+133:03:08|O|CMP|... O2 fuel cell's ...
 133:03:17|O|CDR|This is not dumping.
 133:03:19|O|CMP|I figured that.
 133:03:25|O|LMP|Did you try the other line?
@@ -12448,7 +12448,7 @@
 133:10:11|O|CMP|Well, when it gets to be light, we got to ...
 133:10:19|O|CDR|Well, we probably ought to - ... TPI.
 133:10:27|O|CMP|Yes, the maneuver ... right amount of film ... I've got half a magazine of black and white and half a magazine of color left ...
-133:11:24|O|CDR|... give me a waste bag ....
+133:11:24|O|CDR|... give me a waste bag ...
 133:11:31|O|CMP|Yes, just ... a lot ... by the helmets there ...
 133:12:16|O|CMP|... glove bag too.
 133:12:19|O|LMP|Yes.
@@ -14536,56 +14536,364 @@
 195:17:48|T|SWIM 1|Roger. This is SWIM 1, Apollo 11.
 195:17:54|T|CDR|... 300 feet.
 195:17:56|T|SWIM 1|Roger. You're looking real good.
-195:18:18|T|SWIM 1|SPLASHDOWN!
+195:18:18|T|SWIM 1|Splashdown! Apollo has splashdown.
+195:18:25|T|HORNET|Hornet, copy. Understand splashdown.
+195:18:42|T|SC|... splashdown. 
+195:18:49|T|SWIM 1|This is Swim 1. The Command Module is at stable 2, stable 2. Over.
+195:18:55|T|HORNET|Hornet, roger.
+195:19:01|T|AIRBOSS|Okay, Hornet. This is Air Boss. Presently orbiting the CM at 1,000 feet. ...
+195:19:08|T|HORNET|Roger.
 195:19:09|P|PAO|Stable 2 is upside down. The flotation bags will right the spacecraft.
+195:19:10|T|SWIM 1|This is Swim 1 in a hover beside the Command Module. The Command Module ... is in stable 2. The dye marker is deployed and ... The chutes appear to be detached and are downwind of the Command Module.
+195:19:27|T|HORNET|Hornet, roger.
+195:19:34|T|SC|...
+195:19:36|T|AIRBOSS|Roger, thank you. 235, 13 235 ...
+195:20:08|T|SWIM 1|This is Swim 1. The Command Module is still in Stable 2. The - the dye marker is beginning to trail out ... with the wind. The main chutes are detached and streaming downwind.
+195:20:23|T|HORNET|Hornet, copy. 
 195:20:36|P|PAO|It normally takes 8 to 10 minutes for the flotation bags to right the spacecraft. Swim 1 is getting ready to deploy swimmers.
+195:21:02|T|AIRBOSS|This is Air Boss, Recovery 1 and Photo 1, go to high frequency ...
+195:21:08|T|RECOVERY|Roger, Recovery 1.
+195:21:12|T|RECOVERY|Photo 1, Photo 1. Could you ... Over.
+195:21:15|T|SWIM 1|This is Swim 1 ...
+195:21:21|T|RECOVERY|Photo 1.
+195:21:24|T|RECOVERY|Hornet, copy. 
+195:21:59|T|RECOVERY|Photo, are you going to pick up commentary?
+195:22:01|T|PHOTO 1|This is Photo 1. Roger.
+195:22:03|T|HORNET|... Air Boss 1, this is Hornet bridge. Request commentary if available, over.
+195:22:08|T|AIRBOSS|Visible trailing ... The wind is 060, 15 knots. ... 30 degrees to the vertical toward the downwind side.
+195:22:36|T|AIRBOSS|Recovery 1, the drogue chutes shall be clear of all aircraft.
+195:22:43|T|RECOVERY|It's a few miles to the north.
+195:22:48|T|AIRBOSS|This is Air Boss. We currently have 3 helos on the scene. The drogue chutes splashed down approximately 1,500 yards on a bearing of 240 from the Command Module.
+195:22:03|T|AIRBOSS|And Hornet, this is Air Boss. Are you copying the commentary?
+195:23:06|T|RECOVERY|This is Hornet, copy affirmative.
+195:23:11|T|PHOTO 1|This is Photo One. The 3 ... is ... plus 20 feet and two flotation bags are visible at this time. The ... to go to 4. ... Module ... above the other ... of the vertical axis ...
+195:24:01|T|HORNET|Hornet, I didn't copy Photo 1's full report. Understand 2 flotation bags deployed and in stable 1 now. Is that correct? Over.
+195:24:08|T|PHOTO 1|... it is upright, but it isn't ... stable 2.
+195:24:19|T|AIRBOSS|Understand still stable 2.
+195:24:21|T|PHOTO 1|...
 195:24:25|P|PAO|Apollo 11 reported still in stable 2, but gradually righting itself.
+195:24:30|T|RECOVERY|Air Boss comment. I am not copying Photo 1. Would you relay. Over.
+195:24:34|T|AIRBOSS|This is Air Boss 1. Photo 1 says that it is still in stable 2. The bags are inflating ... It is not absolutely inverted now, it's 70 degrees to the vertical axis. Still stable 2.
+195:24:51|T|PHOTO 1|This is Photo 1. The module is now 90 degrees to the vertical axis.
+195:25:00|T|PHOTO 1|This is Photo 1. The Command Module is stable 1, flotation bags are inflated.
 195:25:13|P|PAO|Apollo 11 is stable 1 now, stable 1.
+195:25:16|T|PHOTO 1|...
+195:25:30|T|HORNET|Air Boss 1, this is Hornet Bridge. Say when it is stable 1. Over.
+195:25:50|T|AIRBOSS|... stability above the vertical axis is approximately 30 degrees.
+195:25:58|T|HORNET|Hornet,. Roger.
+195:26:02|T|HORNET|Air Boss, Hornet. Recovery 1 is ready to deploy swimmers in 1 minute, Swim Two, Swim Two. ...
+195:26:13|T|HORNET|...
+195:26:24|T|HORNET|Hornet, roger.
+195:26:34|T|RECOVERY|... behind it has rolled ... has rolled forward.
 195:26:39|P|PAO|Swimmers to deploy in about 1 minute.
+195:26:46|T|SWIM 2|Swim 2 is in position. ... we are going to lower the first swimmer.
+195:26:54|T|AIRBOSS|Roger, Swim 2 start recovery at once. You are cleared.
+195:26:58|T|RECOVERY|Okay, commencing.
+195:27:00|T|SWIM 2|Swim 2 is commencing to put the first swimmer in the water.
+195:27:11|T|PHOTO 1|The hatch of the capsule is now to the up-wind to the first swimmer. This is Photo 1. There are no dye markers in the water. The first swimmer.
+195:27:43|T|HORNET|This is the Hornet. Did SWIM 2 drop its first swimmer.
+195:27:45|T|AIRBOSS|That's affirmative. This is Air Boss. The swimmer is in the water.
+195:27:48|T|PHOTO 1|The swimmer is in the water and he is connecting ... deployed.
+195:28:12|T|HORNET|Hornet, the sea anchor has been attached and is deployed.
+195:28:16|T|HORNET|This is Hornet. Roger. I copy Swim 1 now.
+195:28:19|T|SWIM 2|The sea anchor is deployed ...
+195:28:24|T|AIRBOSS|Roger, copy.
 195:28:28|P|PAO|The sea anchor has been deployed by the swimmer.
-195:29:50|P|PAO|3 swimmers in the water from Swim Two, Swim Two Helo.
+195:28:34|T|CDR|Copy 1. Apollo 11.
+195:28:40|T|PHOTO 1|This is Photo 1. The first swimmer has given a thumbs up. Swim 2 is standing ... for 2 swimmers and the floatation collar.
+195:28:56|T|AIRBOSS|Apollo 11, Air Boss. Condition of the crew?
+195:28:59|T|CDR|Air Boss, Apollo 11. Everyone inside, our checklist is complete, awaiting swimmers.
+195:29:08|T|AIRBOSS|Thank you, Apollo 11.
+195:28:11|T|SWIM 2|... for 2 swimmers and the flotation collar secured to the Command Module.
+195:28:25|T|HORNET|Air Boss, Hornet. What's the condition?
+195:28:28|T|SWIM 2|The crew is excellent. Both checklists have been completed. They are ready to take on the swimmers.
+195:28:39|T|SWIM 2|Two swimmers ... the water.
+195:29:50|P|PAO|Three swimmers in the water from Swim 2, Swim 2 Helo.
+195:30:06|T|SWIM 2|...
+195:30:14|T|AIRBOSS|Apollo 11, this is Air Boss. Are you copying the narration or following the sequence of recovery operations?
+195:30:19|T|PHOTO 1|This is Photo 1. The ...
+195:30:24|T|CDR|... just before that last call. We've just been picking up your Comm now.
+195:30:40|T|SWIM 2|... flotation collar half-way around the Command Module.
 195:30:46|P|PAO|The crew has reported to Air Boss that they are in excellent condition.
 195:31:02|P|PAO|Flotation collar is about half way around the spacecraft now.
+195:31:09|T|SWIM 2|The Command Module ... quite well ... vertical axis of ... downwind ... 10 degrees. ... the flotation collar ... to Photo 1. The uprighting bags. 2 are fully inflated, 1 is partially inflated.
+195:31:02|T|AIRBOSS|Air Boss. Are you copying?
+195:31:02|T|PHOTO 1|Affirmative, roger.
+195:31:02|T|PHOTO 1|The flotation collar has been attached ... flotation.
 195:32:15|P|PAO|The flotation collar is attached now.
 195:32:27|P|PAO|And the collar is inflated.
+195:32:27|T|PHOTO 1|Photo 1, the swimmers are - the lift has approached.
 195:32:56|P|PAO|Air boss reporting the spacecraft riding very smoothly.
+195:32:56|T|HORNET|Swan, this is Hornet. Bridge, request the tacan on top. Over.
+195:32:56|T|PHOTO 1|This is Photo 1. The raft is in the water - 241-degree radial - nine miles.
+195:32:56|T|AIRBOSS|Stand - Stand by, Hornet.
+195:32:56|T|PHOTO 1|The raft is inflated.
+195:32:56|T|PHOTO 1|... Command Module.
+195:32:56|T|PHOTO 1|Photo 1, I repeat very - from Hornet, 241-degree radial, 9 miles. Over.
+195:32:56|T|HORNET|Hornet. Roger.
+195:32:56|T|PHOTO 1|Photo 1, ...
+195:32:56|T|AIRBOSS|Hornet. This is Air boss 1.
+195:32:56|T|PHOTO 1|This is Photo 1. The ... has commenced his approach to drop the second raft upwind.
+195:32:56|T|AIRBOSS|Apollo 11 this is Air Boss 1. We have the Command Module on radar bearing of 244, ... 12 miles.
+195:32:56|T|PHOTO 1|Second raft is in the water. Seventy five feet upwind ... Raft number 2 is inflated ... and number 2 is being ...
+195:32:56|T|PHOTO 1|Recovery 1 has moved into position. Standing by to deploy the swimmer.
+195:32:56|T|HORNET|Roger.
 195:35:24|P|PAO|Recovery 1 getting ready to deploy the swimmer with the biological isolation garments. The other swimmers -
+195:35:24|T|PHOTO 1|This is Photo 1, the weather in the area ... 2,000 feet ... appear to be ... One swimmer is in raft number 1. One swimmer in raft number 2 ... deploy the sea anchor.
+195:35:24|T|SC|... copy ... in position.
+195:35:24|T|PHOTO 1|Recovery ... is making his approach to drop the...
+195:35:24|T|SC|Alright, copy.
+195:35:24|T|SC|...
+195:35:24|T|PHOTO 1|The swimmer is in the water. ...
+195:35:24|T|HORNET|Hornet. Roger.
+195:35:24|T|PHOTO 1|Swimmer is in the raft number 2. Recovery 1 is in position, standing by to lower the bag of BIGs.
+195:35:24|T|HORNET|Hornet. Roger.
 195:37:21|P|PAO|The swimmer with the biological isolation garments is in the raft next to the spacecraft. That's Lt. Clancy Hatleberg of Chippawaw Falls, Wisconsin. He's also wearing a biological isolation garment.
+195:37:21|T|PHOTO 1|Recovery 1 is in position, lowering the bag of BIGs at this time.
+195:37:21|T|HORNET|Roger.
 195:37:57|P|PAO|And the HELO is lowering the astronauts BIGS, or biological isolation garments to Lt. Hatleberg.
+195:37:57|T|PHOTO 1|The bag of BIGs is...
+195:37:57|T|HORNET|Hornet. Roger.
 195:38:36|P|PAO|And the report is that the bag of BIGS is in raft number 2.
+195:38:36|T|PHOTO 1|The swimmers are unloading the net at this time.
+195:38:36|T|PHOTO 1|This is Photo 1. The bag of BIGs and decontaminant are in raft number 2 - module is very stable, very stable. There's only ... about the vertical axis, a ...
+195:38:36|T|HORNET|Roger.
+195:38:36|T|HORNET|Air Boss, Hornet. What's the present condition of the astronauts?
+195:38:36|T|AIRBOSS|Hornet, ...
+195:38:36|T|HORNET|Affirmative. Determine the present condition of the astronauts?
+195:38:36|T|AIRBOSS|Hello. This is Air Boss 1 - [what is] your condition?
+195:38:36|T|CMP|Our condition is all three excellent. We're just fine. Take your time.
+195:38:36|T|AIRBOSS|All right. Okay.
 195:40:00|P|PAO|That was Mike Collins reporting the crew was excellent.
+195:40:00|T|PHOTO 1|This is Photo 1. The - One swimmer is ... trying to don ... one swimmer in raft No. 1. Full scuba.
+195:40:00|T|HORNET|All right, we copy. BIG swimmer preparing to don BIG suit. One swimmer in raft 1 with full scuba. What are the other swimmers doing?.
+195:40:00|T|PHOTO 1|This is Photo 1. The other two swimmers are ... Over.
 195:41:01|P|PAO|Lt. Hatleberg putting on his biological isolation garment.
+195:41:01|T|PHOTO 1|This is Photo 1. The visibility ... 15 miles.
+195:41:01|T|AIRBOSS|Roger.
+195:41:01|T|AIRBOSS|Photo 1, this is Air Boss. ... sea state ...
+195:41:01Spacecraft: This is Photo 1. The winds are from 065 or 060, 15 to 20 knots - 4 to 6 feet. Over.
+195:41:01|T|AIRBOSS|Roger.
+195:41:01|T|SWIMMER 1|This is Photo 1. The BIG swimmer is making adjustments to his garment. He has his helmet on - raised to his shoulders. He's trying to zip it up at this time.
+195:41:01|T|HORNET|Hornet. Roger.
 195:42:55|P|PAO|The ship reports it is now 7 miles from the spacecraft.
+195:42:55|T|PHOTO 1|This is Photo 1. The BIG swimmer is ... helmet at this time.
+195:42:55|T|AIRBOSS|Copy.
+195:42:55|T|RECOVERY|Photo ... What is the position of the sea dye marker?
+195:42:55|T|SWIMMER 1|This is Swimmer 1, reported earlier there was no dye marker ... five minutes ...
+195:42:55|T|RECOVERY|...
+195:42:55|T|PHOTO 1|This is Photo 1. The ... has his mask ...
+195:42:55|T|RECOVERY|...
+195:42:55|T|PHOTO 1|This is Photo 1. The ... has ... his helmet. ... holding the Command Module.
+195:42:55|T|AIRBOSS|Recovery 1, this is Air Boss ... report ...
+195:42:55|T|CMP|This is Apollo 11. Tell everybody take your sweet time. We're doing just fine in here. It's not as stable as the Hornet, but almost.
+195:42:55|T|PHOTO 1|This is Photo 1. Apollo 11 reports everything is fine. Not as stable as the Hornet but almost. Over.
+195:42:55|T|RECOVERY|Hornet, Roger.
+195:42:55|T|PHOTO 1|This is Photo 1, Raft number 2 is within 10 feet of the Command Module at this time.
+195:42:55|T|AIRBOSS|Roger.
+195:42:55|T|PHOTO 1|Photo 1, my big trouble is trying to transport to raft number 2 to ... transfer the ...
 195:46:06|P|PAO|Unofficial splash time, 195 hours, 18 minutes, 21 seconds.
+195:46:06|T|PHOTO 1|... swimmer is ... number 1 at this time. We recovered ... Command Module ...
+195:46:06|T|PHOTO 1|The three swimmers ...
 195:47:23|P|PAO|Hornet reports the other swimmers are now upwind of the Command Module leaving Lt. Hatleberg in his BIG and with the decontaminate that will be placed around the hatch and on the -
+195:47:23|T|PHOTO 1|This is Photo 1. The BIG swimmer is securing ...
+195:47:23|T|SWIMMER 1|This is Photo 1. The BIG swimmer has transferred ... the BIGs ...
 195:48:12|P|PAO|Lt. Hatleberg is now transferring the BIGS to the crew.
+195:48:12|T|PHOTO 1|This is Photo 1. The ... the hatch ...
 195:48:26|P|PAO|The Hornet now estimates they are 4 and three-quarters miles away from the spacecraft.
+195:48:26|T|PHOTO 1|The hatch is closed.
 195:48:42|P|PAO|The BIGS are in the Command Module and the hatch has been closed again.
+195:48:42|T|SWIMMER 1|... This is Swimmer ... Radio check. Over.
+195:48:42|T|RECOVERY|Loud and clear. Loud and clear.
+195:48:42|T|SWIMMER 1|Swim ... Read you the same. Over.
+195:48:42|T|RECOVERY|Roger. Out.
 195:49:04|P|PAO|Lt. Hatleberg is called the BIG swimmer.
+195:49:04|T|SWIMMER 1|This is Swimmer 1. The BIG swimmer is ... procedures ... Command Module.
 195:49:51|P|PAO|The big swimmer is now spraying the hatch area and the top deck and around the hatch on the Command Module with the decontaminate.
+195:49:51|T|HORNET|Apollo 11, this is Hornet. We're 4 miles out, making our approach.
+195:49:51|T|SC|... at this time ...
 195:50:30|P|PAO|The Hornet advises the crew they are 4 miles away.
+195:50:30|T|SWIMMER 1|This is Swimmer 1. The BIG swimmer has attached the flotation collar and is now in raft number 1.
+195:50:30|T|SWIMMER 1|This is Swimmer No. 1. The BIG swimmer is still in raft number 1.
+195:50:30|T|HORNET|Swimmer 1, Hornet. Understand BIG swimmer has completed his decontamination of the Command Module, is that correct?
+195:50:30|T|SWIMMER 1|This is Swimmer 1. The ... on the flotation collar.
+195:50:30|T|HORNET|Roger.
+195:50:30|T|PHOTO 1|Photo 1, Hornet, I passed - from Pacific Chief, you are cutting out. You may be releasing your teeth too early on transmissions. Over.
+195:50:30|T|SWIMMER 1|This is Swimmer 1. Roger. Out.
 195:53:05|P|PAO|The Hornet reports it was 13 miles from the aim point at splash. The carrier was 13 miles from the aim point at splash.
-195:54:31|P|PAO|The big swimmer has reported communicating with the astronauts by visual hand signals through the hatch window.
+195:53:05|T|SWIMMER 1|This is Swimmer 1. Earlier ... that he had made preparations to commence...
+195:53:05|T|RECOVERY|Roger.
+195:53:05|T|SWIMMER 1|This is Swimmer 1, the BIG swimmer ...
+195:54:31|P|PAO|The BIG swimmer has reported communicating with the astronauts by visual hand signals through the hatch window.
+195:54:31|T|SWIMMER|Photo 1, the crew ...
+195:54:31|T|SWIMMER|Photo 1. The astronauts have opened the hatch. The first astronaut - got out of the hatch. The first - astronaut, right.
+195:54:31|T|SWIMMER|Photo 1, the...
 195:56:37|P|PAO|The first astronaut is now emerging.
+195:56:37|T|SWIMMER|... up wind.
+195:56:37|T|SWIMMER|This is ... There is a Photo 1 the position very shortly. Position - report on the first astronaut is up.
+195:56:37|T|HORNET|Roger.
+195:56:37|T|SWIMMER|Photo 1.
 195:40:40|P|PAO|Astronaut number 2 coming out the hatch now.
-195:58:06|P|PAO|And the third crewmen is out of the spacecraft now.
+195:40:40|T|SWIMMER|The second one. That is ... The third astronaut is out of the hatch.
+195:58:06|P|PAO|And the third crewman is out of the spacecraft now.
+195:58:06|T|SWIMMER|...
 195:58:20|P|PAO|Hatch is closed and secured.
+195:58:20|T|SWIMMER|Every crewman out. All the astronauts are out.
+195:58:20|T|HORNET|Roger.
 195:59:06|P|PAO|Hornet now reports that the swimmer is having some difficulty securing the hatch and one of the astronauts is helping him.
+195:59:06|T|SWIMMER|... locked ... are in. ... Report of hatch secure. All three astronauts are out. ...
 196:00:08|P|PAO|Hatch is now reported secure.
+196:00:08|T|SWIMMER|This is Photo 1 ...
 196:00:31|P|PAO|Hornet now 1 1/4 miles from the spacecraft.
+196:00:31|T|SWIMMER|...
+196:00:31|T|SWIMMER|(Garble] Photo 1 ... decontaminant on the upper portion of the Command Module.
+196:00:31|T|HORNET|Hornet. Roger.
+196:00:31|T|SWIMMER|...
 196:01:27|P|PAO|And the Lt. Hatleberg sprayed decontaminate around the hatch.
+196:01:27|T|SWIMMER|... Photo 1, I have decontaminated ... spraying on the forward portion of the Command Module. ...
+196:01:27|T|HORNET|Hornet, Roger.
+196:01:27|T|SWIMMER|I am now scrubbing ...
+196:01:27|T|HORNET|Roger.
 196:02:40|P|PAO|And the swimmer now scrubbing down the Command Module with the decontaminate.
-196:03:36|P|PAO|The swimmer has now started scrubbing the astronauts biological isolations garments with the decontaminate.
+196:02:40|T|SWIMMER|Photo 1 (garbled). I have completed scrubbing the Command Module. ... Photo 1 ... the first ast ...
+196:03:36|P|PAO|The swimmer has now started scrubbing the astronauts' biological isolations garments with the decontaminate.
+196:03:36|T|SWIMMER|(garbled) Photo 1 is ... complete. And now I'm scrubbing the shoulders of the first astronaut.
 196:03:57|P|PAO|Hornet estimates distance three-quarters of a mile now.
+196:03:57|T|SWIMMER|Photo 1, swimmer is scrubbing the arms and shoulders of the first astronaut.
+196:03:57|T|HORNET|Hornet, Roger.
+196:03:57|T|SWIM 1|The first astronaut is now having his BIG put on him.
+196:03:57|T|HORNET|Hornet, Roger.
+196:03:57|T|SWIM 1|The swimmer has completed decontaminating the first astronaut.
+196:03:57|T|HORNET|Hornet, over.
+196:03:57|T|SWIM 1|Coming to the BIG for the second astronaut.
 195:05:46|P|PAO|And the first astronaut has been scrubbed down and the swimmer has started the decontamination processes on the BIG of the second astronaut.
+195:05:46||T|SWIM 1|...
+195:05:46||T|HORNET|Roger.
+195:05:46||T|SWIM 1|The swimmer has scrubbed the front side of the second astronaut. He is now in the BIG.
+195:05:46||T|HORNET|Roger.
+195:05:46||T|SWIM 1|Swim 1. The swimmer has completed the ...
+195:05:46||T|HORNET|Roger.
 196:07:33|P|PAO|Scrub down on the second astronaut completed.
+196:07:33|T|HORNET|Hornet, roger.
+196:07:33|T|SWIM 1|This is Swim 1. The swimmer is scrubbing the back of the third astronaut ...
+196:07:33|T|HORNET|Hornet, Roger.
+196:07:33|T|SWIM 1|Swim 1. The swimmer is scrubbing the arm, shoulder and the head of the astronaut ...
+196:07:33|T|HORNET|Hornet. Hard to see, isn't it?
+196:07:33|T|HORNET|Swim 1. Hornet. You cut out. Say again.
+196:07:33|T|AIRBOSS|Hornet, this is Air Boss. He says stand by for a call from the recovery station.
+196:07:33|T|HORNET|Roger.
+196:07:33|T|SWIM 1|This is Swim 1. The third astronaut has been scrubbed. The first and second ...
+196:07:33|T|HORNET|Hornet, roger.
 196:09:39|P|PAO|And the third astronaut has been scrubbed down, and now the astronauts are scrubbing down the swimmer.
+196:09:39|T|SWIM 1|The Swimmer 1 is ready and standing by for completion of the decontamination procedure.
+196:09:39|T|HORNET|Hornet, roger.
+196:09:39|T|PHOTO 1|This is Photo One. The ... Both in ... situation ...
+196:09:39|T|HORNET|Roger.
+196:09:39|T|SWIM 1|Swim One has the astronaut 1 and 2 are still in the ...
+196:09:39|T|HORNET|Hornet, Roger.
+196:09:39|T|SWIM 1|Swim One, the...
+196:09:39|T|HORNET|Hornet, roger.
+196:09:39|T|SWIM 1|This is Swim 1. Decontamination of the BIG swimmer is complete. The BIG swimmer is now decontaminating ... number 1.
+196:09:39|T|HORNET|Hornet, Roger.
+196:09:39|T|SWIM 1|The BIG swimmer has given the signal to the swimming team ... prepare to close the Command Module.
+196:09:39|T|HORNET|Roger.
 196:12:18|PAO|The other swimmers will now proceed to the Command Module. It has been decontaminated, and the swimmers will remain on their scuba air.
+196:12:18|T|HORNET|Photo 1, Hornet. Request you reconfirm that they are decontaminating raft number 1.
+196:12:18|T|HORNET|All right. Photo 1, that is affirmative. Decontaminating raft number 1. The others ...
+196:12:18|T|HORNET|This is Hornet. Roger, out.
+196:12:18|T|PHOTO 1|This is Photo 1, raft number 2 is now closing the Command Module. All 3 swimmers are on full scuba.
+196:12:18|T|HORNET|Photo, Roger.
+196:12:18|T|RECOVERY 1|Recovery 1 is in position. Standing by.
+196:12:18|T|HORNET|Recovery, Rog.
+196:12:18|T|RECOVERY 1|The raft number 2 is at the Command Module. The swimmers are taking their positions.
+196:12:18|T|HORNET|Roger.
+196:12:18|T|RECOVERY 1|Recovery 1 is commencing his approach.
+196:12:18|T|HORNET|Hornet, copy.
+196:12:18|T|RECOVERY 1|Raft 1 is riding very smooth.
+196:12:18|T|HORNET|Hornet, Roger.
+196:12:18|T|RECOVERY 1|Recovery 1. The astronauts are in a cheerful mood. They are waving at the photographers. ...
+196:12:18|T|HORNET|Photo 1, Hornet. Understand recovery is making approach to pick up the first astronaut?
+196:12:18|T|PHOTO 1|This is Photo 1. He's in position ready to commence recovery. Over.
+196:12:18|T|HORNET|Hornet, Roger.
+196:12:18|T|PHOTO 1|Hornet, this is Photo 1. Recovery 1 is commencing his first approach.
+196:12:18|T|HORNET|Hornet, Roger.
 196:17:19|P|PAO|And Recovery 1 going in now to pick up the first astronaut.
+196:17:19|T|PHOTO 1|This is Photo 1. The net is being lowered.
+196:17:19|T|HORNET|Roger.
+196:17:19|T|PHOTO 1|This is Photo 1. The net is at the raft. The first astronaut is climbing into the net, and the first astronaut is in the net on the way up, clear of the Command Module. The first astronaut is half way up. The first astronaut is at the hatch.
+196:17:19|T|HORNET|Roger.
+196:17:19|T|PHOTO 1|The first astronaut is in the helicopter, the net is on its way down.
+196:17:19|T|HORNET|Hornet, Roger.
+196:17:19|T|PHOTO 1|Recovery 1 is commencing his second approach. The net is at the raft, the second astronaut is in the net, and the net is on its way up, clear of the Command Module.
+196:17:19|T|HORNET|Hornet, Roger.
+196:17:19|T|PHOTO 1|The net is at the hatch.
+196:17:19|T|HORNET|Hornet, Roger.
+196:17:19|T|PHOTO 1|The second astronaut is in the helicopter.
+196:17:19|T|HORNET|Hornet, Roger.
+196:17:19|T|PHOTO 1|The net is on its way down, Recovery 1 is making a third approach.
+196:17:19|T|HORNET|Roger.
+196:17:19|T|PHOTO 1|The net is at the raft, in, the third astronaut is climbing in the net, the third astronaut is in the net and on his way up, clear of the Command Module. The third astronaut is half way up.
+196:17:19|T|HORNET|Hornet, Roger.
+196:17:19|T|PHOTO 1|The third astronaut is in the hatch, he is climbing in the helicopter.
+196:17:19|T|HORNET|Hornet, Roger.
+196:17:19|T|PHOTO 1|All three astronauts are aboard.
+196:17:19|T|HORNET|..., Photo 1.
+196:17:19|T|PHOTO 1|Roger, this is Photo 1. We have hatch on the Recovery 1 is closed.
+196:17:19|T|RECOVERY 1|This is Recovery 1. I have three astronauts aboard. Switching power frequency, power frequency.
+196:17:19|T|SWIM 2|Swim 2 is in position.
+196:17:19|T|HORNET|Roger. ...
+196:17:19|T|SWIM 2|This is Swim 2 alongside the Command Module. The BIG swimmer's decontaminating the module at this time. Three swimmers are in the raft. ...
 196:23:11|P|PAO|Mission Director George Hage has just thanked the Flight Controllers assembled here in the Control Center on behalf of himself and Gen. Phillips for the way in which they conducted this mission.
-196:24:22|P|PAO|No cigars being lit up here yet. We're waiting until the crew is on the carrier. A few are being wetted in anticipation of a match, but we don't see any lit yet.
+196:23:11|T|AIRBOSS|Stand by Swim 1 and 3. This is Air Boss. I haven't seen any more of the 2 drogue chutes nor the apex chute.
+196:23:11196:24:22|P|PAO|No cigars being lit up here yet. We're waiting until the crew is on the carrier. A few are being wetted in anticipation of a match, but we don't see any lit yet.
+196:23:11|T|SWIM 2|This is Swim 2. ...
+196:23:11|T|HORNET|Hornet, Roger.
 196:25:28|P|PAO|The elevator will take recovery 1 down to the hangar deck and where the crew will enter the mobile quarantine facility.
 196:25:52|P|PAO|And the flags are waving and the cigars are being lit up. And clear across the big board in front is President John F. Kennedy's message to Congress of May, 1961: I believe that this nation should commit itself to achieving the goal before this decade is out of landing a man on the Moon and returning him safely to Earth. That has been accomplished.
+196:25:52|T|SWIM 2|This is Swim 2. ... the Command Module very well. It's extremely stable.
 196:27:42|P|PAO|The Apollo 11 plaque has been hung in the mission Control Center - a replica of the crew patch.
 196:30:24|P|PAO|This Control Center becoming jammed with people as - people from the staff support rooms coming in here. We've never seen this many people in the Control Center at one time before.
-196:30:24|P|PAO|This is Apollo Control. The participants in the post-recovery news conference have left the Control Center, and the post-recovery news conference will begin within the next few minutes in the MSC building 1 auditorium.
+196:30:24|T|SPEAKER|President Nixon waving to the astronauts. The curtains have been drawn. There they are in the rear window. President is receiving applause from the crowd. Astronauts gather in the window.
+196:30:24|T|NIXON|Nell, Buzz, and Mike. I want you to know that I think I'm luckiest man in the world. And I say this not only because I have the honor to be President of the United States, but particularly because I have the privilege of speaking for so many in welcoming you back to Earth. I could tell you about all the messages we received in Washington. Over one hundred foreign governments, Emperors, and Presidents and Prime Ministers and Kings have sent the most warm messages that we have ever received. They represent over 2 billion people on this Earth. All of them who have had the opportunity through television to see what you have done. And then I also bring you messages from members of the Cabinet and members of the Senate and members of the House and Space Agency. And in the streets of San Francisco where people stopped me a few days ago, and you all love that city, I know, as I do. But most important, I had a telephone call yesterday. The toll wasn't, incidentally, as great as the one I made to you fellows on the Moon. (Laughter) I made that collect, just in case you didn't know. But I called the three of, in my view, three of the greatest ladies and most courageous ladies in the whole world today, your wives. And from Jan and Joan and Pat, I bring their love and their congratulations. We think that it is just wonderful that they could have participated, at least through television, in this return; we're only sorry they couldn't be here. And also, I've got to let you in on a little secret - I made a date with them. (Laughter) I invited them to dinner on the 13th of August, right after you come out of quarantine. It will be a state dinner held in Los Angeles. The governors of all the fifty States will be there, the ambassadors, others from around the world and in America. And they told me that you would come too. And all I want to know - will you come? We want to honor you then.
+196:30:24|T|CDR|We'll do anything you say, Mr. President. Just anything.
+196:30:24|T|NIXON|One question, I think, all of us would like to ask. As we saw you bouncing around in that boat out there, I wonder if that wasn't the hardest part of the journey. Was that - did any of you get seasick?
+196:30:24|T|CDR|No, we didn't. And it was one of the harder parts, but it was one of the most pleasant, we can assure you.
+196:30:24|T|NIXON|Yes, well, I just know that you can sense what we all sense. When you get back now - incidentally, have you been able to follow some of the things that happened when you've gone. Did you know about the All-Star game?
+196:30:24|T|CDR|Yes, sir. The Capsule Communicators have been giving us daily news stories.
+196:30:24|T|CMP|They daily post us.
+196:30:24|T|NIXON|Were you American League or National League?
+196:30:24|T|CDR|I'm [a?] National League man.
+196:30:24|T|LMP|I'm non-partisan, sir.
+196:30:24|T|CMP|That's right.
+196:30:24|T|NIXON|There's the politician in the group, right.
+196:30:24|T|CDR|We're sorry you missed that game.
+196:30:24|T|NIXON|Yes, well - you knew that too.
+196:30:24|T|CDR|We hear that...
+196:30:24|T|NIXON|The rain...
+196:30:24|T|CDR|The rain. Well, we haven't been able to control the weather yet, but that's something we can look forward to as tomorrow's challenge.
+196:30:24|T|NIXON|Right, right. Well, I can only summarize it because I don't want to hold you now. You have so much more to do. And gee, you look great - do you feel as good as you look?
+196:30:24|T|CDR|Oh, we feel just perfectly, Mr. President.
+196:30:24|T|NIXON|Yeah, I understand your - Frank Borman says you're a little younger by reason of having gone into space, is that right. Do you feel that way, a little younger?
+196:30:24|T|CMP|We're a lot younger than Frank Borman. (Laughter).
+196:30:24|T|NIXON|There he is, over there. Come on over Frank, so they can see you. You going to take that lying down?
+196:30:24|T|LMP|It looks like he has aged in the last couple of days .
+196:30:24|T|NIXON|Come on, Frank.
+196:30:24|T|BORMAN|Mr. President, the one thing I wanted. You know we have a poet in Mike Collins and he really gave me a hard time for describing new words of fantastic and beautiful. And you - and counted them, in three minutes up there you used four fantastics and two beautifuls. (Laughter).
+196:30:24|T|NIXON|Well, just let me close off with this one thing. I was thinking as you know, as you came down and we knew it was a success, and it had only been eight days, just a week, a long week. But this is the greatest week in the history of the world since the creation. Because as a result of what happened in this week, the world is bigger infinitely. And also, as I'm going to find on this trip around the world, and as Secretary Rogers will find as he covers the other countries and Asia, as a result of what you've done the world's never been closer together before. And we just thank you for that. And I only hope that all of us in government, all of us in America, that as a result of what you've done, we can do our job a little better. We can reach for the stars, just as you have reached so far for the stars. We don't want to hold you any longer. Anybody have a last re... How about promotions, do you think we could arrange something? (Laughter)
+196:30:24|T|CDR|We're just pleased to be back and very honored that you were so kind as to come out here and welcome us back, and we look forward to getting out of this quarantine...
+196:30:24|T|CMP|Great.
+196:30:24|T|CDR|...and talking without having glass between us.
+196:30:24|T|NIXON|And incidentally, the speeches that you have to make at this dinner can be very short. And if you want to say fantastic or beautiful, that's all right with us. Don't try to think of any new adjectives; they've all been said. And now, I think incidentally, that all of us who - the millions that are seeing us on television now, are seeing you, would feel as I do that in a sense our prayers have been answered, and I think it would be very appropriate if Chaplain Piirto, the Chaplain of this ship were to offer a prayer of thanksgiving. If he would step up now. Chaplain, thank you.
+196:30:24|T|Chaplain|Let us pray. Lord, God, our Heavenly Father. Our minds are staggered and our spirit exalted with the magnitude and precision of this entire Apollo 11 mission. We have spent the past week in communal anxiety and hope as our astronauts sped through the glories and dangers of the heavens. As we try to understand and analyze the scope of this achievement for human life, our reason is overwhelmed with abounding gratitude and joy, even as we realize the increasing challenges of the future. This magnificent event illustrates anew what man can accomplish when purpose is firm and intent corporate. A man on the Moon was promised in this decade. And, though some were unconvinced, the reality is with us this morning, in the persons of astronauts Armstrong, Aldrin, and Collins. We applaud their splendid exploits and we pour out our thanksgiving for their safe return to us, to their families, to all mankind. From our inmost beings, we sing humble, yet exuberant praise. May the great effort and commitment seen in this project, Apollo, inspire our lives to move similarly in other areas of need. May we the people by our enthusiasm and devotion and insight move to new landings in brotherhood, human concern, and mutual respect. May our country, afire with inventive leadership and backed by a committed followership, blaze new trails into all areas of human cares. See our enthusiasm and bless our joy with dedicated purpose for the many needs at hand. Link us in friendship with peoples throughout the world as we strive together to better the human condition. Grant us peace, beginning in our own hearts, and a mind attuned with good will toward our neighbor. All this we pray as our thanksgiving rings out to Thee. In the name of our Lord, amen.
+196:30:24|T|CMP|Amen.
+196:30:24|T|SPEAKER|The astronauts stood at attention.
+
+
+
+
+
+
+
+
+
+
