@@ -14386,193 +14386,206 @@
 194:12:48|T|LMP|Roger. Understand. Thank you.
 194:13:20|T|CC|Apollo 11, Houston. Back up S-band now, and we're standing by for Command Module RCS aetivation.
 194:13:28|T|LMP|Okay. We're just about there.
-194:14:04|P|PAO|Swim One's pilot Commander Richmond is from Orlando, Florida. Copilot Lt. William W. Strawn of Plymouth, Michigan, Crewman James R. Johnson, Raleigh, North Carolina. The swimmers aboard Swim One are Lt JG John McLachlan of Spokane, Washington, PH2 Terry A. Muehlenbach, Chatsworth, California, and ADJ3 Mitchell L. Bucklew, Sanford, Florida. These 3 swimmers are scheduled to attach the flotation collar and then move away from the Command Module while helicopter number 66, designated Recovery One, moves into the area and deploys 1 swimmer, Lt. Clancey Hatelberg.
-194:13:00|P|PAO|Lt. Clancey Hatelberg, Chippewa Falls, Wisconsin, will deploy from Recovery One wearing a biological isolation garment and he will hand to the crew through the hatch their biological isolation garments. At 194 hours 16 minutes Apollo 11 is 7512 nautical miles from Earth, velocity 20,304 feet per second.
-194:13:00|P|PAO|The crew of helicopter 66, Recovery One the pilot Cdr. D. S. Jones of Madison, Wiscon; Copilot LtJG Bruce A. Johnson, Bremerton, Washington, andl the 2 crewmen who will assist the astronauts into the Helo AWHC Norvel L. Wood of Carmi, Illinois and AWHC Stanley G. Robnett of Portales, New Mexico.
-194:13:00|P|PAO|At 194 hours 22 minutes distance is 6509 nautical miles velocity 21,366 feet per second.
-194:13:00|P|PAO|Helo number 64 is designated Swim Two.
-194:13:00|P|PAO|If that helicopter than Swim One to the landing point swimmers will be deployed from Swim Two to attach the collar. Those swimmers are LtJG Wesley T. Chesser of Arlington, Virginia, QM3 Michael G. Mallary of Alderwood Mannor, Washington, and SN John M. Wolfram of Fort Atkinson, Wisconsin. The Helo's crew consists of pilot Lt. Richard J. Barrett of Squannanoa, North Carolina, copilot Lt. George Ro. Conn, Imperial Beach, California, AWH2 Curtis E. Hill, Black Rock Arkansas, and AWH2 Richard B. Seaton, Hibbing, Minnesota.
-194:15:15|T|CC|Apollo 11, Houston, you're GO for PYRO ARM.
-194:15:19|T|CMP|Thank you, Houston.
+194:14:04|P|PAO|Swim One's pilot Commander, Richmond is from Orlando, Florida. Copilot, Lt. William W. Strawn of Plymouth, Michigan. Crewman, James R. Johnson, Raleigh, North Carolina. The swimmers aboard Swim One are Lt JG John McLachlan of Spokane, Washington, PH2 Terry A. Muehlenbach, Chatsworth, California, and ADJ3 Mitchell L. Bucklew, Sanford, Florida. These 3 swimmers are scheduled to attach the flotation collar, and then move away from the Command Module while helicopter number 66, designated Recovery One, moves into the area and deploys 1 swimmer, Lt. Clancey Hatelberg.
+194:15:16|T|CC|Apollo 11, Houston, you're GO for PYRO ARM.
+194:15:20|T|CMP|Thank you, Houston.
+194:15:34|P|PAO|Lt. Clancey Hatelberg, Chippewa Falls, Wisconsin, will deploy from Recovery 1 wearing a biological isolation garment and he will hand to the crew, through the hatch their biological isolation garments.
+194:16:09|P|PAO|At 194 hours 16 minutes Apollo 11 is 7,512 nautical miles from Earth, velocity 20,304 feet per second.
 194:16:36|T|CC|Apollo 11, Houston. Your Command Module pressurization looks mighty fine to us.
-194:16:41|T|LMP|Looks good here, Ron.
+194:16:42|T|CDR|Looks good here, Ron.
 194:16:46|T|CC|And 11, Houston, I've got an update for about four items on your entry PAD.
-194:16:55|T|LMP|Ready to copy.
-194:16:57|T|CC|Roger. Your MAX g, 063; your NOUN 60, your Gamma, at 400K, 648; your range to go on the EMS, 14033; and your RETRO time for V circular, 02 14. Over.
-194:17:40|T|LMP|Roger. Copy MAX g 6.3; R2 at NOUN 60, 6.48; range to go, EMS, 14033; RET V circular, 02 14. Over.
+194:16:56|T|LMP|Ready to copy.
+194:16:57|T|CC|Roger. Your MAX g, 06.3; your NOUN 60, your Gamma, at 400K, 6.48; your range to go on the EMS, 14033; and your RETRO time for V circular, 02:14. Over.
+194:17:41|T|LMP|Roger. Copy MAX g 6.3; R2 at NOUN 60, 6.48; range to go, EMS, 14033; RET V circular, 02:14. Over.
 194:17:58|T|CC|Roger. Readback is correct there.
-194:24:37|T|LMP|Houston, Apollo 11.
-194:24:39|T|CC|Apollo 11, Houston. GO.
-194:24:43|T|LMP|Roger. The first horizon check 194 23 06 at a pitch angle of 298 does not quite fall on the 31 7 line. It's just a little high. It's within 5 degrees tolerance.
+194:18:37|P|PAO|The crew of helicopter 66, Recovery 1 the pilot Cdr. D. S. Jones of Madison, Wiscon; Copilot Lt JG Bruce A. Johnson, Bremerton, Washington, and 2 crewmen who will assist the astronauts into the helo AWHC Norvel L. Wood of Carmi, Illinois and AWHC Stanley G. Robnett of Portales, New Mexico.
+194:22:19|P|PAO|At 194 hours 22 minutes distance is 6,509 nautical miles velocity 21,366 feet per second.
+194:24:37|T|CMP|Houston, Apollo 11.
+194:24:40|T|CC|Apollo 11, Houston. GO.
+194:24:43|T|CMP|Roger. The first horizon check 194:23:06 at a pitch angle of 298 does not quite fall on the 31 7 line. It's just a little high. It's within 5 degrees tolerance.
 194:24:57|T|CC|Apollo 11, Houston. The horizon check there was supposed to be at 33. Over.
-194:25:05|T|LMP|Okay. That's fine, sir. Thank you.
+194:25:06|T|CMP|Okay. That's fine, sir. Thank you.
 194:25:07|T|CC|Roger.
-194:28:00|P|PAO|Apollo 11's distance now 5411 nautical miles; velocity 22,642 feet per second.
-194:28:00|P|PAO|Distance 3896 nautical miles; velocity 24,915 feet per second.
-194:28:00|P|PAO|And we're about 10 minutes away from the scheduled separation time now.
-194:28:00|P|PAO|Apollo 11's distance now is 3000 nautical miles; velocity 26,685 feet per second. In the next 20 minutes Apollo 11 will add almost 10,000 feet per second to that figure.
-194:29:00|T|CC|Apollo 11, Houston. Command module RCS looks fine to us.
-194:29:05|T|CDR|Same here, Ron. Looks very good. Doesn't make as much noise as we thought. Some of them are barely audible.
-194:29:11|T|CC|Roger.
-194:29:16|T|CC|And 11, Houston. Weather still holding real fine in the recovery area.
-194:29:21|T|CDR|Roger.
-194:29:22|T|CC|Looks like it's about 1500 scattered, high scattered. And it's still 3  to 6 foot waves.
+194:26:39|P|PAO|Helo number 64 is designated Swim Two.
+194:26:46|P|PAO|If that helicopter than Swim One to the landing point swimmers will be deployed from Swim Two to attach the collar. Those swimmers are Lt. JG Wesley T. Chesser of Arlington, Virginia, QM3 Michael G. Mallary of Alderwood Mannor, Washington, and SN John M. Wolfram of Fort Atkinson, Wisconsin. The Helo's crew consists of pilot Lt. Richard J. Barrett of Squannanoa, North Carolina, copilot Lt. George Ro. Conn, Imperial Beach, California, AWH2 Curtis E. Hill, Black Rock Arkansas, and AWH2 Richard B. Seaton, Hibbing, Minnesota.
+194:28:43|P|PAO|Apollo 11's distance now 5,411 nautical miles; velocity 22,642 feet per second.
+194:29:01|T|CC|Apollo 11, Houston. Command module RCS looks fine to us.
+194:29:06|T|CMP|Same here, Ron. Looks very good. Doesn't make as much noise as we thought. Some of them are barely audible.
+194:29:12|T|CC|Roger.
+194:29:16|T|CC|And 11, Houston. Weather still holding real fine in the recovery area. Looks like it's about 1,500 scattered, high scattered. And it's still 3 to 6 foot waves.
 194:29:29|T|CDR|Hey, that part of it sounds good.
 194:29:33|T|CC|Roger.
 194:30:00|T|CC|11, Houston, I'll give you another Mark at 33 minutes. Stand by.
-194:30:07|T|CC|MARK.
-194:30:10|T|CMP|Roger that.
-194:32:37|T|CMP|Houston, Apollo 11. Do you have any recommended settings to catch the sunset. Over.
-194:32:48|T|CC|Roger. Well, the time is 36 41. And stand by for some settings.
-194:32:59|T|LMP|Okay. I'll probably only be doing it maybe - part of it at six frames a second, some it at one. So I could be changing settings as it goes through.
+194:30:08|T|CC|MARK.
+194:30:11|T|CMP|Roger that.
+194:32:38|T|LMP|Houston, Apollo 11. Do you have any recommended settings to catch the sunset. Over.
+194:32:48|T|CC|Roger. Well, the time is 36:41. And stand by for some settings.
+194:33:00|T|LMP|Okay. I'll probably only be doing it maybe - part of it at six frames a second, some it at one. So I could be changing settings as it goes through.
 194:33:09|T|CC|Roger. Copy.
 194:33:19|T|CMP|And the horizon check passes; it's right on the money.
 194:33:24|T|CC|Hey, mighty fine. Sounds good.
-194:35:07|T|CC|Apollo 11, Houston. On the shooting at the Sun, f:16th at 1 over 250.
-194:35:18|T|LMP|Understand f:16 at 1 over 250.
-194:35:22|T|CC|Roger.
+194:35:08|T|CC|Apollo 11, Houston. On the shooting at the Sun, f:16th at 1/250.
+194:35:19|T|LMP|Understand f:16 at 1/250.
+194:35:23|T|CC|Roger.
 194:37:05|T|CMP|And the Sun is going down on schedule. It's getting real dark in here.
 194:37:11|T|CC|Apollo 11. Houston. Copy.
-194:43:00|P|PAO|Technical difficulties have interrupted the radio-TV news pool feed from the carrier USS HORNET and also the news-writers copy feed from that ship.
-194:43:00|P|PAO|Guidance Officer reports the Command Module computer looks good and the guidance and navigation system is GO aboard the spacecraft.
-194:43:00|P|PAO|We are awaiting confirmation of separation. We confirm separation now from on the ground readings from telemetry. We confirm separation.
-194:43:00|P|PAO|Altitude 1288 nautical miles, velocity 31,232 feet per second.
-194:48:54|T|CC|Apollo 11, Houston. We see you getting ready for SEP. Everything looks mighty fine down here.
-194:48:59|T|CMP|Same here, Ron. Thank you.
-194:50:42|T|CC|Apollo 11, Houston. You're still looking mighty fine from here. You're cleared for landing.
-194:50:47|T|CDR|We appreciate that, Ron. Thank you.
-194:50:49|T|CMP|Roger. Gears down and locked.
+194:37:20|P|PAO|Distance 3,896 nautical miles; velocity 24,915 feet per second.
+194:38:13|P|PAO|And we're about 10 minutes away from the scheduled separation time now.
+194:42:20|P|PAO|Apollo 11's distance now is 3,000 nautical miles; velocity 26,685 feet per second. In the next 20 minutes Apollo 11 will add almost 10,000 feet per second to that figure.
+194:45:43|P|PAO|Technical difficulties have interrupted the radio-TV news pool feed from the carrier USS HORNET and also the news-writers copy feed from that ship.
+194:47:41|P|PAO|Guidance Officer reports the Command Module computer looks good and the guidance and navigation system is GO aboard the spacecraft.
+194:47:54|T|CC|Apollo 11, Houston. We see you getting ready for SEP. Everything looks mighty fine down here.
+194:48:00|T|CMP|Same here, Ron. Thank you.
+194:49:36|P|PAO|We are awaiting confirmation of separation.
+194:49:49|P|PAO|We confirm separation now from on the ground readings from telemetry. We confirm separation.
+194:50:41|T|CC|Apollo 11, Houston. You're still looking mighty fine from here. You're cleared for landing.
+194:50:48|T|CMP|We appreciate that, Ron. Thank you.
+194:50:50|T|LMP|Roger. Gears down and locked.
 194:50:52|T|CC|Roger.
-194:50:54|T|CMP|Thank you.
-194:53:00|P|PAO|Flight Director, Milt Windler, has just informed recovery "We're on the final for the carrier."
-194:53:00|P|PAO|800 nautical miles high. Velocity 33,000 feet per second. Guidance reports Apollo 11 right down the middle of the corridor. 7 minutes away from entry.
-194:53:00|P|PAO|Velocity 34,630 feet per second.
-194:53:00|P|PAO|Velocity coming up on 35,000 feet per second now. 3 minutes to entry. Apollo 11 in the proper attitude and -
-194:53:00|P|PAO|Apollo 11 lined up right down the middle of the entry corridor. Velocity's now 35,578 feet per second. We're a minute and 45 seconds from entry. Black out will begin 18 seconds after entry.
-194:54:40|T|LMP|Houston, we got the Service Module going by. A little high and a little bit to the right.
+194:52:23|P|PAO|Altitude 1,288 nautical miles, velocity 31,232 feet per second.
+194:53:51|P|PAO|Flight Director, Milt Windler, has just informed recovery "We're on the final for the carrier."
+194:54:41|T|LMP|Houston, we got the Service Module going by. A little high and a little bit to the right.
 194:54:49|T|CC|Roger. Thank you.
 194:54:53|T|CMP|And it's rotating just like it should be. Thrusters are firing.
-194:55:05|T|CC|Good. It's got a lot of gas there to burn out, too.
+194:55:01|T|CC|Good. It's got a lot of gas there to burn out, too.
 194:55:07|T|LMP|It's coming across now from right to left.
 194:55:13|T|CC|Houston. Roger.
-194:57:07|T|LMP|Houston, Apollo 11. You going to turn on the tape recorder shortly?
+194:55:34|P|PAO|800 nautical miles high. Velocity 33,000 feet per second. 
+194:56:03|P|PAO|Guidance reports Apollo 11 right down the middle of the corridor. 7 minutes away from entry.
+194:57:08|T|LMP|Houston, Apollo 11. You going to turn on the tape recorder shortly?
 194:57:19|T|CC|11, Houston. You can go ahead and turn it on.
-194:57:24|T|LMP|Okay. I'll have to go to command reset to do that.
+194:57:25|T|LMP|Okay. I'll have to go to command reset to do that.
 194:57:34|T|CC|11, Houston. That's negative. All you have to do is turn it on. That'll be fine.
 194:57:44|T|LMP|I guess I don't know how to turn it on, then. I got PCM, ANTILOG RECORD, FORWARD; high bit rate, and barber pole.
 194:58:03|T|CC|11, Houston. We'll send the ON command from down here, see if it works.
 194:58:07|T|LMP|Okay.
+194:58:53|P|PAO|Velocity 34,630 feet per second.
 194:58:56|T|LMP|Got our friend the Moon whipping by the field of view right now.
-194:59:01|T|CC|Roger. Copy.
-195:00:32|T|CC|11, Houston. We'll have you for about 3 or 4 minutes through Redstone and then pick you up after blackout through ARIA.
-195:00:41|T|LMP|Roger.
-195:01:00|P|PAO|36,000 feet per second.
-195:01:00|P|PAO|We're at entry time. Blackout very shortly. Range to go to splash 1533 nautical miles. There's blackout. This blackout period should last for about 3 minutes 45 seconds. At blackout we were showing velocity 36,237 feet per second. Range to go to splash 1510 nautical miles. The elapse time for end of blackout 195 hours 7 minutes even. Drogue shoot deployment time is 195 hours 12 minutes 8 seconds. And the Control Center will not attempt to communicate with Apollo 11 after drogue deploy time. It will leave the air ways clear for the recovery forces.
-195:01:00|P|PAO|ARIA 3 reported a visual contact.
-195:01:00|P|PAO|We're at 3 minutes 20 seconds since entry, and the blackout should end about 3 minutes 53 seconds after entry. We're about 11 minutes away from landing. ARIA 3 would - is the up range ARIA aircraft.
-195:01:00|P|PAO|The Hornet reports Air-Boss 1 has visual contact.
-195:01:00|P|PAO|The Hornet now reports a visual contact. Visual contact from the recovery ship.
-195:01:00|P|PAO|Hornet reports momentary visual contact has now disappeared behind clouds.
-195:01:48|T|LMP|Houston, Apollo 11. I'm going to go to COMMAND RESET and turn the tape on.
-195:01:54|T|CC|...
-195:02:00|T|CC|11, Houston. Recommend negative on that. That will put us in low bit rate.
+194:59:02|T|CC|Roger. Copy.
+194:59:37|P|PAO|Velocity coming up on 35,000 feet per second.
+195:00:12|P|PAO|3 minutes to entry.
+195:00:29|P|PAO|Apollo 11 in the proper attitude and -
+195:00:31|T|CC|11, Houston. We'll have you for about 3 or 4 minutes through Redstone and then pick you up after blackout through ARIA.
+195:00:42|T|LMP|Roger.
+195:00:59|P|PAO|Apollo 11 lined up right down the middle of the entry corridor. Velocity's now 35,578 feet per second.
+195:01:21|P|PAO|We're a minute and 45 seconds from entry. Blackout will begin 18 seconds after entry.
+195:01:49|T|LMP|Houston, Apollo 11. I'm going to go to COMMAND RESET and turn the tape on.
+195:01:55|T|CC|...
+195:02:01|T|CC|11, Houston. Recommend negative on that. That will put us in low bit rate.
 195:02:12|T|LMP|Okay. I already put it to COMMAND RESET, but I still have barber pole on the tape. And now my switch is high bit rate.
-195:02:22|T|CC|Okay. That will be fine. On 225, there, if you can reach it, Buzz, the last two circuit breakers in the second row from the bottom, punch those in.
-195:02:42|T|CC|And 11, Houston, don't mess around with that 225 there.
+195:02:23|T|CC|Okay. That will be fine. On 225, there, if you can reach it, Buzz, the last two circuit breakers in the second row from the bottom, punch those in.
+195:02:38|P|PAO|36,000 feet per second.
+195:02:43|T|CC|And 11, Houston, don't mess around with that 225 there.
 195:02:48|T|LMP|Okay.
 195:03:01|T|CC|And 11, Houston. You're going over the hill there shortly. You're looking mighty fine to us.
 195:03:06|T|CDR|See you later.
-195:07:15|T|CC|Apollo 11, Houston through ARIA.
-195:07:37|T|CC|Apollo 11, Houston through ARIA.
+195:03:09|P|PAO|We're at entry time. Blackout very shortly. Range to go to splash 1,533 nautical miles. There's blackout.
+195:03:36|P|PAO|This blackout period should last for about 3 minutes 45 seconds. At blackout we were showing velocity 36,237 feet per second. Range to go to splash, 1,510 nautical miles.
+195:04:10|P|PAO|The elapse time for end of blackout 195 hours, 7 minutes even.
+195:04:43|P|PAO|Drogue shoot deployment time is 195 hours, 12 minutes 8 seconds.
+195:04:59|P|PAO|And the Control Center will not attempt to communicate with Apollo 11 after drogue deploy time. It will leave the airways clear for the recovery forces.
+195:06:04|P|PAO|ARIA 3 reported a visual contact.
+195:06:27|P|PAO|We're at 3 minutes 20 seconds since entry, and the blackout should end about 3 minutes 53 seconds after entry.
+195:07:00|P|PAO|We're about 11 minutes away from landing. ARIA 3 would - is the up range ARIA aircraft.
+195:07:14|T|CC|Apollo 11, Houston through ARIA.
+195:07:36|T|CC|Apollo 11, Houston through ARIA.
 195:08:10|T|CC|Apollo 11, Houston through ARIA 4.
-195:09:08|T|CC|Apollo 11, Houston through ARIA. Standing by. Over.
+195:08:49|P|PAO|The Hornet reports Air-Boss 1 has visual contact.
+195:09:09|T|CC|Apollo 11, Houston through ARIA. Standing by. Over.
 195:09:45|T|CC|Apollo 11, Houston in the blind. AIR BOSS has visual contact.
-195:10:00|P|PAO|We're 7 minutes, 44 seconds from entry. Drogue shoot deployment scheduled for an elapsed time for an entry of 9 minutes, 1 second.
-195:10:00|P|PAO|Hawaii rescue 2 reports an S-band contact with the spacecraft.
-195:10:00|P|PAO|Apollo 11 reports right on. We take that to mean that the drogues deployed on time.
-195:10:00|P|PAO|Apollo 11 should be on main chutes now. Hornet reports a sonic boom a short time ago. We're just under 4 minutes to landing. We will continue to monitor for any conversations between the spacecraft and recovery forces, but we will not initiate a call from now on for the spacecraft from the Control Center.
-195:10:00|P|PAO|Hornet has voice contact. Aircraft reports visual with 3 full chutes.
-195:10:00|P|PAO|Hornet reports spacecraft right on target point.
-195:10:00|P|PAO|That's Neil Armstrong giving the position report.
-195:10:00|P|PAO|Stable 2 is upside down. The flotation bags will right the spacecraft.
-195:10:00|P|PAO|It normally takes 8 to 10 minutes for the rotation bags to right the spacecraft. Swim 1 is getting ready to deploy swimmers.
+195:10:00|P|PAO|The Hornet now reports a visual contact. Visual contact from the recovery ship.
+195:10:38|P|PAO|Hornet reports momentary visual contact has now disappeared behind clouds.
+195:10:51|P|PAO|We're 7 minutes, 44 seconds from entry. Drogue chute deployment scheduled for an elapsed time for an entry of 9 minutes, 1 second.
 195:11:18|T|CC|Apollo 11, Houston. Standing by for your DSKY reading. Over.
+195:11:25|P|PAO|Hawaii rescue 2 reports an S-band contact with the spacecraft.
 195:11:49|T|CC|Apollo 11, Houston. Stand by for your miss distance. Over.
 195:12:04|T|CC|Apollo 11, Houston. Standing by for your DSKY reading. Over.
-195:12:09|T|CC|DROGUES.
+195:12:10|T|CC|DROGUES.
 195:12:22|T|CC|Apollo 11, Houston. Your DSKY reading, please. Over.
 195:12:31|T|CDR|Roger. We were ... right on ... 169, 17.
+195:12:49|P|PAO|Apollo 11 reports right on. We take that to mean that the drogues deployed on time.
 195:12:53|T|CDR|Reading 1330, 1069, 15.
-195:15:03|T|HORNET|Apollo 11, Apollo 11. This is Hornet. Hornet. Over.
+195:13:22|P|PAO|Apollo 11 should be on main chutes now.
+195:13:35|P|PAO|Hornet reports a sonic boom a short time ago.
+195:14:08|P|PAO|We're just under 4 minutes to landing.
+195:14:26|P|PAO|We will continue to monitor for any conversations between the spacecraft and recovery forces, but we will not initiate a call from now on for the spacecraft from the Control Center.
+195:15:04|T|HORNET|Apollo 11, Apollo 11. This is Hornet. Hornet. Over.
 195:15:07|T|CDR|Hello, Hornet. This is Apollo 11 reading you loud and clear. Our position 1330, 16915.
 195:15:19|T|HORNET|11, Hornet. Copy 1330, 1675. Any further data? Over.
 195:15:24|T|CDR|330, 169, 15.
-195:15:31|T|HORNET|Do you have an error?
+195:15:32|T|HORNET|Do you have an error?
 195:15:39|T|HORNET|We have that. And what is condition of the crew?
-195:15:45|T|HORNET|11, this is Hornet. What's your error of splashdown and condition of crew? Over.
+195:15:42|P|PAO|Hornet has voice contact. Aircraft reports visual with 3 full chutes.
+195:15:46|T|HORNET|11, this is Hornet. What's your error of splashdown and condition of crew? Over.
 195:15:52|T|CDR|The condition of crew ... 4000 - 3500 feet, on the way down.
 195:16:00|T|HORNET|11, this is Hornet. Copy. 11, Hornet. What's your splashdown error? Over.
-195:16:06|T|SC|Okay. Our splashdown error is by latitude, longitude, 1330 16 ... 15. That's ...
+195:16:06|T|CDR|Okay. Our splashdown error is by latitude, longitude, 1330 16 ... 15. That's ...
 195:16:19|T|HORNET|Hornet. Roger, out.
+195:16:38|P|PAO|Hornet reports spacecraft right on target point.
 195:16:44|T|CDR|Okay, Hornet. Apollo 11 is out.
 195:16:48|T|HORNET|Roger. 2500 on chutes.
-195:17:00|T|SWIM 1|SWIM 1 has ... contact 150, holding ... 190.
-195:17:13|T|HORNET|Hornet. Roger. 0ut.
-195:17:19|T|SWIM 1|... bearing 200.
+195:16:59|T|SWIM 1|SWIM 1 has ... contact 150, holding ... 190.
+195:17:13|T|HORNET|Hornet. Roger. Out.
+195:17:20|T|SWIM 1|... bearing 200.
 195:17:24|T|CDR|Apollo 11 at 1500 feet.
 195:17:27|T|HORNET|Hornet. Roger. Copy. Out.
-195:17:32|T|SWIM 1|Swim 1. Have a visual dead ahead about a mile?
+195:17:31|P|PAO|That's Neil Armstrong giving the position report.
+195:17:33|T|SWIM 1|Swim 1. Have a visual dead ahead about a mile?
 195:17:42|T|HORNET|Hornet. Roger.
-195:17:42|T||... ... spacecraft.
+195:17:43|T||... ... spacecraft.
 195:17:48|T|SWIM 1|Roger. This is SWIM 1, Apollo 11.
 195:17:54|T|CDR|... 300 feet.
 195:17:56|T|SWIM 1|Roger. You're looking real good.
 195:18:18|T|SWIM 1|SPLASHDOWN!
-195:20:00|P|PAO|Apollo 11 reported still in stable 2, but gradually righting itself.
-195:20:00|P|PAO|Apollo 11 is stable 1 now, stable 1.
-195:20:00|P|PAO|Swimmers to deploy in about 1 minute.
-195:20:00|P|PAO|The sea anchor has been deployed by the swimmer.
-195:20:00|P|PAO|3 swimmers in the water from Swim Two, Swim Two Helo.
-195:20:00|P|PAO|The crew has reported to Air Boss that they are in excellent condition. Flotation collar is about half way around the spacecraft now.
-195:30:00|P|PAO|The flotation collar is attached now.
-195:30:00|P|PAO|And the collar is inflated.
-195:30:00|P|PAO|Air boss reporting the spacecraft riding very smoothly.
-195:30:00|P|PAO|Recovery 1 getting ready to deploy the swimmer with the biological isolation garments. The other swimmers -
-195:30:00|P|PAO|The swimmer with the biological isolation garments is in the raft next to the spacecraft. That's Lt. Clancy Hatleberg of Chippawaw Falls, Wisconsin. He's also wearing a biological isolation garment.
-195:30:00|P|PAO|And the HELO is lowering the astronauts BIGS, or biological isolation garments to Lt. Hatleberg.
-195:30:00|P|PAO|And the report is that the bag of BIGS is in raft number 2.
-195:30:00|P|PAO|That was Mike Collins reporting the crew was excellent.
-195:30:00|P|PAO|Lt. Hatleberg putting on his biological isolation garment.
-195:41:00|P|PAO|The ship reports it is now 7 miles from the spacecraft.
-195:41:00|P|PAO|Unofficial splash time is 195 hours, 18 minutes, 21 seconds.
-195:41:00|P|PAO|Hornet reports the other swimmers are now upwind of the Command Module leaving Lt. Hatleberg in his BIG and with the decontaminate that will be placed around the hatch and on the -
-195:41:00|P|PAO|Lt. Hatleberg is now transferring the BIGS to the crew.
-195:41:00|P|PAO|The Hornet now estimates they are 4 and three-quarters miles away from the spacecraft.
-195:41:00|P|PAO|The BIGS are in the Command Module and the hatch has been closed again.
-195:41:00|P|PAO|Lt. Hatleberg is called the BIG swimmer.
-195:41:00|P|PAO|The big swimmer is now spraying the hatch area and the top deck and around the hatch on the Command Module with the decontaminate.
-195:41:00|P|PAO|The Hornet advises the crew they are 4 miles away.
-195:41:00|P|PAO|The Hornet reports it was 13 miles along the aim point at splash. The carrier was 13 miles from the aim point at splash.
-195:41:00|P|PAO|The big swimmer has reported communicating with the astronauts by visual hand signals through the hatch window.
-195:53:00|P|PAO|The first astronaut is now emerging.
-195:53:00|P|PAO|Astronaut number 2 coming up the hatch now.
-195:53:00|P|PAO|And the third crewmen is out of the spacecraft now.
-195:53:00|P|PAO|Hatch is closed and secured.
-195:53:00|P|PAO|Hornet now reports that the swimmer is having some difficulty in securing the hatch and one of the astronauts is helping him.
-195:53:00|P|PAO|Hatch is now supported secure.
-195:53:00|P|PAO|Hornet now 1 and one-quarter miles from the spacecraft.
-195:53:00|P|PAO|And the Lt. Hatleberg sprayed decontaminate around the hatch.
-195:53:00|P|PAO|And the swimmer now scrubbing down the Command Module with the decontaminate.
-195:53:00|P|PAO|The swimmer has now started scrubbing the astronauts biological isolations garments with the decontaminate.
-195:53:00|P|PAO|Hornet estimates distance three-quarters of a mile now.
-195:53:00|P|PAO|And the first astronaut has been scrubbed down and the swimmer has started the decontaminated processes on the BIG of the second astronaut.
-195:53:00|P|PAO|Scrub down on the second astronaut completed.
-195:53:00|P|PAO|And the third astronaut has been scrubbed down, and now the astronauts are scrubbing down the swimmer.
-195:53:00|P|PAO|The other swimmers will now proceed to the Command Module. It has been decontaminated, and the swimmers will remain on their scuba air.
-196:13:00|P|PAO|And Recovery 1 going in now to pick up the first astronaut.
-196:13:00|P|PAO|Mission Director George Hage has just thanked the Flight Controllers assembled here in the Control Center on behalf of himself and Gen. Phillips for the way in which they conducted this mission.
-196:13:00|P|PAO|No cigars being lit up here yet. We're waiting until the crew is on the carrier. A few are being wetted in anticipation of a match, but we don't see any lit yet.
-196:23:00|P|PAO|The elevator will take recovery 1 down to the hangar deck and where the crew will enter the mobile quarantine facility. And the flags are waving and the cigars are being lit up. And clear across the big board in front is President John F. Kennedy's message to Congress of May, 1961: I believe that this Nation should commit itself to achieving the goal before this decade is out of landing a man on the Moon and returning him safely to Earth. That has been accomplished.
-196:23:00|P|PAO|The Apollo 11 plaque has been hung in the mission Control Center - a replica of the crew patch.
-196:23:00|P|PAO|This Control Center becoming jammed with people as - people from the staff support room is coming in here. We've never seen this many people in the Control Center at one time before.
-196:23:00|P|PAO|This is Apollo Control. The participants in the post-recovery news conference have left the Control Center, and the post-recovery news conference will begin within the next few minutes in the MSC building 1 auditorium.
+195:19:09|P|PAO|Stable 2 is upside down. The flotation bags will right the spacecraft.
+195:20:36|P|PAO|It normally takes 8 to 10 minutes for the flotation bags to right the spacecraft. Swim 1 is getting ready to deploy swimmers.
+195:24:25|P|PAO|Apollo 11 reported still in stable 2, but gradually righting itself.
+195:25:13|P|PAO|Apollo 11 is stable 1 now, stable 1.
+195:26:39|P|PAO|Swimmers to deploy in about 1 minute.
+195:28:28|P|PAO|The sea anchor has been deployed by the swimmer.
+195:29:50|P|PAO|3 swimmers in the water from Swim Two, Swim Two Helo.
+195:30:46|P|PAO|The crew has reported to Air Boss that they are in excellent condition.
+195:31:02|P|PAO|Flotation collar is about half way around the spacecraft now.
+195:32:15|P|PAO|The flotation collar is attached now.
+195:32:27|P|PAO|And the collar is inflated.
+195:32:56|P|PAO|Air boss reporting the spacecraft riding very smoothly.
+195:35:24|P|PAO|Recovery 1 getting ready to deploy the swimmer with the biological isolation garments. The other swimmers -
+195:37:21|P|PAO|The swimmer with the biological isolation garments is in the raft next to the spacecraft. That's Lt. Clancy Hatleberg of Chippawaw Falls, Wisconsin. He's also wearing a biological isolation garment.
+195:37:57|P|PAO|And the HELO is lowering the astronauts BIGS, or biological isolation garments to Lt. Hatleberg.
+195:38:36|P|PAO|And the report is that the bag of BIGS is in raft number 2.
+195:40:00|P|PAO|That was Mike Collins reporting the crew was excellent.
+195:41:01|P|PAO|Lt. Hatleberg putting on his biological isolation garment.
+195:42:55|P|PAO|The ship reports it is now 7 miles from the spacecraft.
+195:46:06|P|PAO|Unofficial splash time, 195 hours, 18 minutes, 21 seconds.
+195:47:23|P|PAO|Hornet reports the other swimmers are now upwind of the Command Module leaving Lt. Hatleberg in his BIG and with the decontaminate that will be placed around the hatch and on the -
+195:48:12|P|PAO|Lt. Hatleberg is now transferring the BIGS to the crew.
+195:48:26|P|PAO|The Hornet now estimates they are 4 and three-quarters miles away from the spacecraft.
+195:48:42|P|PAO|The BIGS are in the Command Module and the hatch has been closed again.
+195:49:04|P|PAO|Lt. Hatleberg is called the BIG swimmer.
+195:49:51|P|PAO|The big swimmer is now spraying the hatch area and the top deck and around the hatch on the Command Module with the decontaminate.
+195:50:30|P|PAO|The Hornet advises the crew they are 4 miles away.
+195:53:05|P|PAO|The Hornet reports it was 13 miles from the aim point at splash. The carrier was 13 miles from the aim point at splash.
+195:54:31|P|PAO|The big swimmer has reported communicating with the astronauts by visual hand signals through the hatch window.
+195:56:37|P|PAO|The first astronaut is now emerging.
+195:40:40|P|PAO|Astronaut number 2 coming out the hatch now.
+195:58:06|P|PAO|And the third crewmen is out of the spacecraft now.
+195:58:20|P|PAO|Hatch is closed and secured.
+195:59:06|P|PAO|Hornet now reports that the swimmer is having some difficulty securing the hatch and one of the astronauts is helping him.
+196:00:08|P|PAO|Hatch is now reported secure.
+196:00:31|P|PAO|Hornet now 1 1/4 miles from the spacecraft.
+196:01:27|P|PAO|And the Lt. Hatleberg sprayed decontaminate around the hatch.
+196:02:40|P|PAO|And the swimmer now scrubbing down the Command Module with the decontaminate.
+196:03:36|P|PAO|The swimmer has now started scrubbing the astronauts biological isolations garments with the decontaminate.
+196:03:57|P|PAO|Hornet estimates distance three-quarters of a mile now.
+195:05:46|P|PAO|And the first astronaut has been scrubbed down and the swimmer has started the decontamination processes on the BIG of the second astronaut.
+196:07:33|P|PAO|Scrub down on the second astronaut completed.
+196:09:39|P|PAO|And the third astronaut has been scrubbed down, and now the astronauts are scrubbing down the swimmer.
+196:12:18|PAO|The other swimmers will now proceed to the Command Module. It has been decontaminated, and the swimmers will remain on their scuba air.
+196:17:19|P|PAO|And Recovery 1 going in now to pick up the first astronaut.
+196:23:11|P|PAO|Mission Director George Hage has just thanked the Flight Controllers assembled here in the Control Center on behalf of himself and Gen. Phillips for the way in which they conducted this mission.
+196:24:22|P|PAO|No cigars being lit up here yet. We're waiting until the crew is on the carrier. A few are being wetted in anticipation of a match, but we don't see any lit yet.
+196:25:28|P|PAO|The elevator will take recovery 1 down to the hangar deck and where the crew will enter the mobile quarantine facility.
+196:25:52|P|PAO|And the flags are waving and the cigars are being lit up. And clear across the big board in front is President John F. Kennedy's message to Congress of May, 1961: I believe that this nation should commit itself to achieving the goal before this decade is out of landing a man on the Moon and returning him safely to Earth. That has been accomplished.
+196:27:42|P|PAO|The Apollo 11 plaque has been hung in the mission Control Center - a replica of the crew patch.
+196:30:24|P|PAO|This Control Center becoming jammed with people as - people from the staff support rooms coming in here. We've never seen this many people in the Control Center at one time before.
+196:30:24|P|PAO|This is Apollo Control. The participants in the post-recovery news conference have left the Control Center, and the post-recovery news conference will begin within the next few minutes in the MSC building 1 auditorium.

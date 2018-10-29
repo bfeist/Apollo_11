@@ -263,6 +263,8 @@
 189:28:36 - Crew wakes up
 190:23:58|T|CC|Air Canada says it has accepted 2300 reservations for flights to the Moon in the past 5 days.
 193:02:28 - Lovell teases crew
+195:03:01 - Reentry
+195:18:18 - Splashdown
 
 
 
