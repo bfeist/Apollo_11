@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="slidertest.css" />
+    <link rel="stylesheet" type="text/css" href="slidertest2.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script src="js/peaks.js"></script>
-    <script src="slidertest.js"></script>
+    <script src="slidertest2.js"></script>
 </head>
 <body>
 
@@ -29,9 +29,12 @@
 
     <div class="panel panel-default">
         <div class="panel-heading">
-            <span class="panel-title" style="font-size: 2em;">Historical Recorder 1</span>
+            <span class="panel-title" style="font-size: 2em;">Tape:</span>
             <a data-toggle="tooltip" title="<img src='/images/869-AAC-TrackSheet-01_640.JPG' />">
-                <kbd>hover for channel list</kbd>
+                <kbd>HR1</kbd>
+            </a>
+            <a data-toggle="tooltip" title="<img src='/images/870-AAC-TrackSheet-01_640.JPG' />">
+                <kbd>HR2</kbd>
             </a>
         </div>
         <div class="panel-body">
@@ -94,19 +97,9 @@
     </div>
 
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <span class="panel-title" style="font-size: 2em;">Historical Recorder 2</span>
-            <a data-toggle="tooltip" title="<img src='/images/870-AAC-TrackSheet-01_640.JPG' />">
-                <kbd>hover for channel list</kbd>
-            </a>
-        </div>
         <div class="panel-body">
             <div id="hr2-waveform-visualiser-container"></div>
-            <div>
-                <audio id="hr2-audio-element" controls=controls>
-                    <source id="hr2-track" src="http://dev.apolloinrealtime.org/mp3/T868a_defluttered_mp3_16/defluttered_A11_T868a_HR2U_CH20.mp3" type="audio/mpeg"/>
-                </audio>
-            </div>
+            
             <div class="btn-group-toggle" data-toggle="buttons">
                 <button class="btn btn-tape hr2-tape-button active">T868a</button>
                 <button class="btn btn-tape hr2-tape-button">T868b</button>

@@ -9,6 +9,7 @@ var hr2ActiveTape = "T870";
 var hr1ActiveChannel = "2";
 var hr2ActiveChannel = "2";
 var mediaURL = "http://dev.apolloinrealtime.org"
+var gInterval;
 
 $( document ).ready(function() {
     console.log( "ready!" );
@@ -40,28 +41,6 @@ $( document ).ready(function() {
         // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
     });
 
-
-    var options = {
-        container: document.getElementById('hr2-waveform-visualiser-container'),
-        mediaElement: document.querySelector('#hr2-audio-element'),
-        dataUri: {
-            arraybuffer: mediaURL + '/mp3/T868a_defluttered_mp3_16/audiowaveform/defluttered_A11_T868a_HR2U_CH20.dat'
-            // arraybuffer: 'https://droplet2static.nyc3.digitaloceanspaces.com/defluttered_A11_T870_HR2L_CH12_16.dat'
-        },
-        zoomLevels: [512, 1024, 2048, 4096],
-        keyboard: true,
-        pointMarkerColor: '#006eb0',
-        showPlayheadTime: false,
-        height: 100
-    };
-
-    hr2PeaksInstance = peaks.init(options);
-
-    hr2PeaksInstance.on('peaks.ready', function() {
-        console.log('hr2 peaks.ready');
-        // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
-    });
-
     var tapeButtons = document.querySelectorAll('.hr1-tape-button, .hr2-tape-button');
     for(var i=0; i < tapeButtons.length; i++){
         tapeButtons[i].addEventListener('click', buttonClick_selectTape);
@@ -82,7 +61,6 @@ function mainApplication() {
     var slider = document.getElementById("myRange");
     var missionTimeDisplay = document.getElementById("missionTimeDisplay");
     var HR1Display = document.getElementById("HR1Display");
-    var HR2Display = document.getElementById("HR2Display");
 
     // Update the current slider value (each time you drag the slider handle)
     slider.oninput = function () {
@@ -90,20 +68,30 @@ function mainApplication() {
         missionTimeDisplay.innerHTML = secondsToTimeStr(sliderMissionSeconds);
 
         var HR1TapeData = getTapeByGETseconds(sliderMissionSeconds, "HR1");
-        var HR2TapeData = getTapeByGETseconds(sliderMissionSeconds, "HR2");
 
         if (HR1TapeData.length !== 0) {
             HR1Display.innerHTML = HR1TapeData[0] + ": " + secondsToTimeStr(sliderMissionSeconds - timeStrToSeconds(HR1TapeData[2]));
-        }
-        if (HR2TapeData.length !== 0) {
-            HR2Display.innerHTML = HR2TapeData[0] + ": " + secondsToTimeStr(sliderMissionSeconds - timeStrToSeconds(HR2TapeData[2]));
         }
     };
 
     slider.onmouseup = function() {
         console.log("range changed");
         playFromSliderValue();
-    }
+    };
+
+    var gInterval = setInterval(function(){
+        var sliderVal = $('#myRange').val();
+        var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
+        var HR1TapeData = getTapeByGETseconds(sliderMissionSeconds, "HR1");
+
+        currSeconds = hr1PeaksInstance.player.getCurrentTime();
+        missionSeconds = currSeconds + timeStrToSeconds(HR1TapeData[2]);
+        missionTimeDisplay.innerHTML = secondsToTimeStr(missionSeconds);
+
+        slider.value = ((missionSeconds * 100) / missionDurationSeconds);
+
+    }, 1000);
+
 }
 
 function playFromSliderValue() {
@@ -112,19 +100,15 @@ function playFromSliderValue() {
     var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
 
     var HR1TapeData = getTapeByGETseconds(sliderMissionSeconds, "HR1");
-    var HR2TapeData = getTapeByGETseconds(sliderMissionSeconds, "HR2");
 
     if (HR1TapeData.length !== 0) {
         $("button:contains('" + HR1TapeData[0] + "')")[0].click();
         hr1PeaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(HR1TapeData[2]));
         hr1PeaksInstance.player.play();
     }
-    if (HR2TapeData.length !== 0) {
-        $("button:contains('" + HR2TapeData[0] + "')")[0].click();
-        hr2PeaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(HR2TapeData[2]));
-        hr2PeaksInstance.player.play();
-    }
 }
+
+
 
 function buttonClick_selectTape() {
     if (this.classList.contains("hr1-tape-button")) {
@@ -208,13 +192,6 @@ function setTapeAndChannel(hr_type) {
         hr1PeaksInstance = peaks.init(options);
         hr1PeaksInstance.on('peaks.ready', function() {
             console.log('hr1 peaks.ready');
-            // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
-        });
-    } else {
-        hr2PeaksInstance.destroy();
-        hr2PeaksInstance = peaks.init(options);
-        hr2PeaksInstance.on('peaks.ready', function() {
-            console.log('hr2 peaks.ready');
             // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
         });
     }

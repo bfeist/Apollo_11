@@ -1,0 +1,140 @@
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.timediv {
+    display: flex;
+    align-items: center;
+}
+
+.timespan {
+    float: left;
+    width: 180px;
+}
+
+
+/*http://blog.koalite.com/bbg/*/
+.btn-tape {
+    color: #FFFFFF;
+    background-color: #1F3EDB;
+    border-color: #1F3EDB;
+}
+
+.btn-tape:hover,
+.btn-tape:focus,
+.btn-tape:active,
+.btn-tape.active,
+.open .dropdown-toggle.btn-tape {
+    color: #FFFFFF;
+    background-color: #49247A;
+    border-color: #0C1580;
+}
+
+.btn-tape:active,
+.btn-tape.active,
+.open .dropdown-toggle.btn-tape {
+    background-image: none;
+}
+
+.btn-tape.disabled,
+.btn-tape[disabled],
+fieldset[disabled] .btn-tape,
+.btn-tape.disabled:hover,
+.btn-tape[disabled]:hover,
+fieldset[disabled] .btn-tape:hover,
+.btn-tape.disabled:focus,
+.btn-tape[disabled]:focus,
+fieldset[disabled] .btn-tape:focus,
+.btn-tape.disabled:active,
+.btn-tape[disabled]:active,
+fieldset[disabled] .btn-tape:active,
+.btn-tape.disabled.active,
+.btn-tape[disabled].active,
+fieldset[disabled] .btn-tape.active {
+    background-color: #1F3EDB;
+    border-color: #0C1580;
+}
+
+.btn-tape .badge {
+    color: #1F3EDB;
+    background-color: #FFFFFF;
+}
+
+
+/*http://blog.koalite.com/bbg/*/
+.btn-channel {
+    color: #FFFFFF;
+    background-color: #6E6E6E;
+    border-color: #6E6E6E;
+}
+
+.btn-channel:hover,
+.btn-channel:focus,
+.btn-channel:active,
+.btn-channel.active,
+.open .dropdown-toggle.btn-channel {
+    color: #FFFFFF;
+    background-color: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.btn-channel:active,
+.btn-channel.active,
+.open .dropdown-toggle.btn-channel {
+    background-image: none;
+}
+
+.btn-channel.disabled,
+.btn-channel[disabled],
+fieldset[disabled] .btn-channel,
+.btn-channel.disabled:hover,
+.btn-channel[disabled]:hover,
+fieldset[disabled] .btn-channel:hover,
+.btn-channel.disabled:focus,
+.btn-channel[disabled]:focus,
+fieldset[disabled] .btn-channel:focus,
+.btn-channel.disabled:active,
+.btn-channel[disabled]:active,
+fieldset[disabled] .btn-channel:active,
+.btn-channel.disabled.active,
+.btn-channel[disabled].active,
+fieldset[disabled] .btn-channel.active {
+    background-color: #b9b9b9;
+    border-color: #3D3D3D;
+}
+
+.btn-channel .badge {
+    color: #6E6E6E;
+    background-color: #FFFFFF;
+}}
