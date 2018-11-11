@@ -2,14 +2,15 @@ var missionDurationSeconds = 784086;
 var countdownSeconds = 74706;
 var gTapeRangesHR1 = [];
 var gTapeRangesHR2 = [];
-// var gTapeData = [];
 var gPeaksInstance;
-var gActiveTape = "T869";
+var gActiveTape = "T867";
 var gActiveChannel = "14";
-// var mediaURL = "http://dev.apolloinrealtime.org";
-var mediaURL = window.location.hostname;
+var gCurrGETSeconds = -74706; //start at beginning of countdown
 
 var gInterval;
+
+// var mediaURL = "http://dev.apolloinrealtime.org";
+var mediaURL = window.location.hostname;
 
 $( document ).ready(function() {
     console.log( "ready!" );
@@ -53,7 +54,7 @@ $( document ).ready(function() {
     $.when(ajaxGetTapeRangeData()).done(function() {
         console.log("APPREADY: Ajax loaded");
         mainApplication();
-        playFromSliderValue();
+        playFromCurrGET();
     });
 });
 
@@ -71,78 +72,62 @@ function mainApplication() {
 
     // Update the current slider value (each time you drag the slider handle)
     slider.oninput = function () {
-        var sliderMissionSeconds = (((this.value - 1) * missionDurationSeconds) / 99) - countdownSeconds;
-        missionTimeDisplay.innerHTML = secondsToTimeStr(sliderMissionSeconds);
+        gCurrGETSeconds = (((this.value - 1) * missionDurationSeconds) / 99) - countdownSeconds;
+        missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
 
-        var tapeData = getTapeByGETseconds(sliderMissionSeconds, gActiveChannel);
+        var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
 
         if (tapeData.length !== 0) {
-            tapeDisplay.innerHTML = tapeData[0] + " " + tapeData[1] + ": " + secondsToTimeStr(sliderMissionSeconds - timeStrToSeconds(tapeData[2]));
+            tapeDisplay.innerHTML = tapeData[0] + " " + tapeData[1] + ": " + secondsToTimeStr(gCurrGETSeconds - timeStrToSeconds(tapeData[2]));
         }
     };
 
     slider.onmouseup = function() {
         console.log("range changed");
-        loadTapeAndChannel();
-        playFromSliderValue();
+        loadChannelSoundfile();
+        playFromCurrGET();
     };
 }
 
-function playFromSliderValue() {
-    console.log("playFromSliderValue()");
-    var sliderVal = $('#myRange').val();
-    var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
+function playFromCurrGET() {
+    console.log("playFromCurrGET()");
+    // var sliderVal = $('#myRange').val();
+    // var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
 
-    var tapeData = getTapeByGETseconds(sliderMissionSeconds, gActiveChannel);
+    var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
 
     if (tapeData.length !== 0) {
-        gPeaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(tapeData[2]));
+        gPeaksInstance.player.seek(gCurrGETSeconds - timeStrToSeconds(tapeData[2]));
         gPeaksInstance.player.play();
     }
 
     gInterval = setInterval(function(){
-        // console.log("interval firing");
+        console.log("interval firing");
         var missionTimeDisplay = document.getElementById("missionTimeDisplay");
         var tapeDisplay = document.getElementById("tapeDisplay");
         var slider = document.getElementById("myRange");
-        var sliderVal = slider.value;
-        var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
-        var tapeData = getTapeByGETseconds(sliderMissionSeconds, gActiveChannel);
+        // var sliderVal = slider.value;
+        // var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
+        var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
         if (tapeData.length !== 0) {
             var currSeconds = gPeaksInstance.player.getCurrentTime();
-            var missionSeconds = currSeconds + timeStrToSeconds(tapeData[2]);
-            missionTimeDisplay.innerHTML = secondsToTimeStr(missionSeconds);
-            tapeDisplay.innerHTML = tapeData[0] + " " + tapeData[1] + ": " + secondsToTimeStr(missionSeconds - timeStrToSeconds(tapeData[2]));
+            gCurrGETSeconds = currSeconds + timeStrToSeconds(tapeData[2]);
+            missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
+            tapeDisplay.innerHTML = tapeData[0] + " " + tapeData[1] + ": " + secondsToTimeStr(gCurrGETSeconds - timeStrToSeconds(tapeData[2]));
 
-            slider.value = (((missionSeconds + countdownSeconds) * 99) / missionDurationSeconds);
+            slider.value = (((gCurrGETSeconds + countdownSeconds) * 99) / missionDurationSeconds);
         }
     }, 1000);
 }
 
+function loadChannelSoundfile() {
+    // var sliderVal = $('#myRange').val();
+    // console.log(sliderVal);
+    // var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
 
-function buttonClick_selectChannel() {
-    console.log("select-channel-button clicked: " + $(this).text());
-    makeOnlySelectedButtonActive(this);
-
-    clearInterval(gInterval); //clear the slider update playback interval
-    gPeaksInstance.player.pause();
-
-    gActiveChannel = $(this).text();
-    loadTapeAndChannel();
-    playFromSliderValue();
-}
-
-function makeOnlySelectedButtonActive(context) {
-    $(context).siblings().not(context).removeClass('active');
-}
-
-function loadTapeAndChannel() {
-    var sliderVal = $('#myRange').val();
-    console.log(sliderVal);
-    var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
-
-    var tapeData = getTapeByGETseconds(sliderMissionSeconds, gActiveChannel);
+    var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
     if (tapeData.length !== 0) {
+        gActiveTape = tapeData[0];
         var channel = (gActiveChannel > 30) ? gActiveChannel - 30 : gActiveChannel;
 
         var filename = "defluttered_A11_" + tapeData[0] + "_" + tapeData[1] + "_CH" + channel;
@@ -177,6 +162,22 @@ function loadTapeAndChannel() {
     } else {
         alert("No data for this channel on this tape at this time");
     }
+}
+
+function buttonClick_selectChannel() {
+    console.log("select-channel-button clicked: " + $(this).text());
+    makeOnlySelectedButtonActive(this);
+
+    clearInterval(gInterval); //clear the slider update playback interval
+    gPeaksInstance.player.pause();
+
+    gActiveChannel = $(this).text();
+    loadChannelSoundfile();
+    playFromCurrGET();
+}
+
+function makeOnlySelectedButtonActive(context) {
+    $(context).siblings().not(context).removeClass('active');
 }
 
 function getTapeByGETseconds(seconds, channel) {

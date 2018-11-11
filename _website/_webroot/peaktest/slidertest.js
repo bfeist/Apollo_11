@@ -107,7 +107,7 @@ function mainApplication() {
 }
 
 function playFromSliderValue() {
-    console.log("playFromSliderValue()");
+    console.log("playFromCurrGET()");
     var sliderVal = $('#myRange').val();
     var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
 

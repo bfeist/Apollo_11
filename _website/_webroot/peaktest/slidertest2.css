@@ -43,6 +43,10 @@
     width: 220px;
 }
 
+.channelbuttons {
+
+}
+
 
 /*http://blog.koalite.com/bbg/*/
 .btn-tape {
@@ -97,6 +101,8 @@ fieldset[disabled] .btn-tape.active {
     color: #FFFFFF;
     background-color: #6E6E6E;
     border-color: #6E6E6E;
+    margin-right: 5px;
+    margin-top: 1px;
 }
 
 .btn-channel:hover,
