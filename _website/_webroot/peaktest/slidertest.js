@@ -2,7 +2,7 @@ var missionDurationSeconds = 784086;
 var countdownSeconds = 74706;
 var gTapeRangesHR1 = [];
 var gTapeRangesHR2 = [];
-var hr1PeaksInstance;
+var gPeaksInstance;
 var hr2PeaksInstance;
 var hr1ActiveTape = "T869";
 var hr2ActiveTape = "T870";
@@ -33,9 +33,9 @@ $( document ).ready(function() {
         height: 100
     };
 
-    hr1PeaksInstance = peaks.init(options);
+    gPeaksInstance = peaks.init(options);
 
-    hr1PeaksInstance.on('peaks.ready', function() {
+    gPeaksInstance.on('peaks.ready', function() {
         console.log('hr1 peaks.ready');
         // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
     });
@@ -116,8 +116,8 @@ function playFromSliderValue() {
 
     if (HR1TapeData.length !== 0) {
         $("button:contains('" + HR1TapeData[0] + "')")[0].click();
-        hr1PeaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(HR1TapeData[2]));
-        hr1PeaksInstance.player.play();
+        gPeaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(HR1TapeData[2]));
+        gPeaksInstance.player.play();
     }
     if (HR2TapeData.length !== 0) {
         $("button:contains('" + HR2TapeData[0] + "')")[0].click();
@@ -204,9 +204,9 @@ function setTapeAndChannel(hr_type) {
     };
 
     if (hr_type === "HR1") {
-        hr1PeaksInstance.destroy();
-        hr1PeaksInstance = peaks.init(options);
-        hr1PeaksInstance.on('peaks.ready', function() {
+        gPeaksInstance.destroy();
+        gPeaksInstance = peaks.init(options);
+        gPeaksInstance.on('peaks.ready', function() {
             console.log('hr1 peaks.ready');
             // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
         });

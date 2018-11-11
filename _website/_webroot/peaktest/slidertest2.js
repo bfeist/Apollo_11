@@ -2,13 +2,13 @@ var missionDurationSeconds = 784086;
 var countdownSeconds = 74706;
 var gTapeRangesHR1 = [];
 var gTapeRangesHR2 = [];
-var hr1PeaksInstance;
-var hr2PeaksInstance;
-var hr1ActiveTape = "T869";
-var hr2ActiveTape = "T870";
-var hr1ActiveChannel = "2";
-var hr2ActiveChannel = "2";
-var mediaURL = "http://dev.apolloinrealtime.org"
+// var gTapeData = [];
+var gPeaksInstance;
+var gActiveTape = "T869";
+var gActiveChannel = "14";
+// var mediaURL = "http://dev.apolloinrealtime.org";
+var mediaURL = window.location.hostname;
+
 var gInterval;
 
 $( document ).ready(function() {
@@ -21,11 +21,10 @@ $( document ).ready(function() {
     });
 
     var options = {
-        container: document.getElementById('hr1-waveform-visualiser-container'),
-        mediaElement: document.querySelector('#hr1-audio-element'),
+        container: document.getElementById('waveform-visualiser-container'),
+        mediaElement: document.querySelector('#audio-element'),
         dataUri: {
-            arraybuffer: mediaURL + '/mp3/T867_defluttered_mp3_16/audiowaveform/defluttered_A11_T867_HR1L_CH14.dat'
-            // arraybuffer: 'https://droplet2static.nyc3.digitaloceanspaces.com/defluttered_A11_T870_HR2L_CH12_16.dat'
+            arraybuffer: '/mp3/T867_defluttered_mp3_16/audiowaveform/defluttered_A11_T867_HR1L_CH14.dat'
         },
         zoomLevels: [512, 1024, 2048, 4096],
         keyboard: true,
@@ -34,64 +33,59 @@ $( document ).ready(function() {
         height: 100
     };
 
-    hr1PeaksInstance = peaks.init(options);
+    gPeaksInstance = peaks.init(options);
 
-    hr1PeaksInstance.on('peaks.ready', function() {
+    gPeaksInstance.on('peaks.ready', function() {
         console.log('hr1 peaks.ready');
         // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
     });
 
-    var tapeButtons = document.querySelectorAll('.hr1-tape-button, .hr2-tape-button');
-    for(var i=0; i < tapeButtons.length; i++){
+    var tapeButtons = document.querySelectorAll('.btn-tape');
+    for(var i=0; i < tapeButtons.length; i++) {
         tapeButtons[i].addEventListener('click', buttonClick_selectTape);
     }
 
-    var channelButtons = document.querySelectorAll('.hr1-channel-button, .hr2-channel-button');
-    for(var i=0; i < channelButtons.length; i++){
+    var channelButtons = document.querySelectorAll('.btn-channel');
+    for(i=0; i < channelButtons.length; i++) {
         channelButtons[i].addEventListener('click', buttonClick_selectChannel);
     }
 
-    $.when(ajaxGetTapeRangeData()).done(function(){
+    $.when(ajaxGetTapeRangeData()).done(function() {
         console.log("APPREADY: Ajax loaded");
         mainApplication();
+        playFromSliderValue();
     });
 });
 
 function mainApplication() {
     var slider = document.getElementById("myRange");
     var missionTimeDisplay = document.getElementById("missionTimeDisplay");
-    var HR1Display = document.getElementById("HR1Display");
+    var tapeDisplay = document.getElementById("tapeDisplay");
+
+
+    slider.onmousedown = function() {
+        console.log("mousedown");
+        clearInterval(gInterval); //clear the slider update playback interval
+        gPeaksInstance.player.pause();
+    };
 
     // Update the current slider value (each time you drag the slider handle)
     slider.oninput = function () {
         var sliderMissionSeconds = (((this.value - 1) * missionDurationSeconds) / 99) - countdownSeconds;
         missionTimeDisplay.innerHTML = secondsToTimeStr(sliderMissionSeconds);
 
-        var HR1TapeData = getTapeByGETseconds(sliderMissionSeconds, "HR1");
+        var tapeData = getTapeByGETseconds(sliderMissionSeconds, gActiveChannel);
 
-        if (HR1TapeData.length !== 0) {
-            HR1Display.innerHTML = HR1TapeData[0] + ": " + secondsToTimeStr(sliderMissionSeconds - timeStrToSeconds(HR1TapeData[2]));
+        if (tapeData.length !== 0) {
+            tapeDisplay.innerHTML = tapeData[0] + " " + tapeData[1] + ": " + secondsToTimeStr(sliderMissionSeconds - timeStrToSeconds(tapeData[2]));
         }
     };
 
     slider.onmouseup = function() {
         console.log("range changed");
+        loadTapeAndChannel();
         playFromSliderValue();
     };
-
-    var gInterval = setInterval(function(){
-        var sliderVal = $('#myRange').val();
-        var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
-        var HR1TapeData = getTapeByGETseconds(sliderMissionSeconds, "HR1");
-
-        currSeconds = hr1PeaksInstance.player.getCurrentTime();
-        missionSeconds = currSeconds + timeStrToSeconds(HR1TapeData[2]);
-        missionTimeDisplay.innerHTML = secondsToTimeStr(missionSeconds);
-
-        slider.value = ((missionSeconds * 100) / missionDurationSeconds);
-
-    }, 1000);
-
 }
 
 function playFromSliderValue() {
@@ -99,51 +93,42 @@ function playFromSliderValue() {
     var sliderVal = $('#myRange').val();
     var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
 
-    var HR1TapeData = getTapeByGETseconds(sliderMissionSeconds, "HR1");
+    var tapeData = getTapeByGETseconds(sliderMissionSeconds, gActiveChannel);
 
-    if (HR1TapeData.length !== 0) {
-        $("button:contains('" + HR1TapeData[0] + "')")[0].click();
-        hr1PeaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(HR1TapeData[2]));
-        hr1PeaksInstance.player.play();
+    if (tapeData.length !== 0) {
+        gPeaksInstance.player.seek(sliderMissionSeconds - timeStrToSeconds(tapeData[2]));
+        gPeaksInstance.player.play();
     }
+
+    gInterval = setInterval(function(){
+        // console.log("interval firing");
+        var missionTimeDisplay = document.getElementById("missionTimeDisplay");
+        var tapeDisplay = document.getElementById("tapeDisplay");
+        var slider = document.getElementById("myRange");
+        var sliderVal = slider.value;
+        var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
+        var tapeData = getTapeByGETseconds(sliderMissionSeconds, gActiveChannel);
+        if (tapeData.length !== 0) {
+            var currSeconds = gPeaksInstance.player.getCurrentTime();
+            var missionSeconds = currSeconds + timeStrToSeconds(tapeData[2]);
+            missionTimeDisplay.innerHTML = secondsToTimeStr(missionSeconds);
+            tapeDisplay.innerHTML = tapeData[0] + " " + tapeData[1] + ": " + secondsToTimeStr(missionSeconds - timeStrToSeconds(tapeData[2]));
+
+            slider.value = (((missionSeconds + countdownSeconds) * 99) / missionDurationSeconds);
+        }
+    }, 1000);
 }
 
-
-
-function buttonClick_selectTape() {
-    if (this.classList.contains("hr1-tape-button")) {
-        var hr_type = "HR1";
-    } else {
-        hr_type = "HR2";
-    }
-    console.log("select-tape-button clicked: " + hr_type + ": " + $(this).text());
-    makeOnlySelectedButtonActive(this);
-
-    if (hr_type === "HR1") {
-        hr1ActiveTape = $(this).text();
-    } else {
-        hr2ActiveTape = $(this).text();
-    }
-
-    setTapeAndChannel(hr_type);
-}
 
 function buttonClick_selectChannel() {
-    if (this.classList.contains("hr1-channel-button")) {
-        var hr_type = "HR1";
-    } else {
-        hr_type = "HR2";
-    }
-    console.log("select-channel-button clicked: " + hr_type + ": " + $(this).text());
+    console.log("select-channel-button clicked: " + $(this).text());
     makeOnlySelectedButtonActive(this);
 
-    if (hr_type === "HR1") {
-        hr1ActiveChannel = $(this).text();
-    } else {
-        hr2ActiveChannel = $(this).text();
-    }
+    clearInterval(gInterval); //clear the slider update playback interval
+    gPeaksInstance.player.pause();
 
-    setTapeAndChannel(hr_type);
+    gActiveChannel = $(this).text();
+    loadTapeAndChannel();
     playFromSliderValue();
 }
 
@@ -151,55 +136,53 @@ function makeOnlySelectedButtonActive(context) {
     $(context).siblings().not(context).removeClass('active');
 }
 
-function setTapeAndChannel(hr_type) {
+function loadTapeAndChannel() {
+    var sliderVal = $('#myRange').val();
+    console.log(sliderVal);
+    var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
 
-    var activeTape = (hr_type === "HR1") ? hr1ActiveTape : hr2ActiveTape;
-    var activeChannel = (hr_type === "HR1") ? hr1ActiveChannel : hr2ActiveChannel;
+    var tapeData = getTapeByGETseconds(sliderMissionSeconds, gActiveChannel);
+    if (tapeData.length !== 0) {
+        var channel = (gActiveChannel > 30) ? gActiveChannel - 30 : gActiveChannel;
 
-    var tapeData = [];
-    var tapeRanges = (hr_type === "HR1") ? gTapeRangesHR1 : gTapeRangesHR2;
+        var filename = "defluttered_A11_" + tapeData[0] + "_" + tapeData[1] + "_CH" + channel;
+        // var waveformContainer = (hr_type === "HR1") ? "hr1-waveform-visualiser-container" : "hr2-waveform-visualiser-container";
+        var waveformContainer = "waveform-visualiser-container";
+        // var audioElementName = (hr_type === "HR1") ? "hr1-audio-element" : "hr2-audio-element";
+        var audioElementName = "audio-element";
+        var audioElement = document.getElementById(audioElementName);
 
-    for (var index = 0; index < tapeRanges.length; ++index) {
-        if (tapeRanges[index][0] === activeTape) {
-            tapeData = tapeRanges[index];
-            break;
-        }
-    }
+        audioElement.src = "/mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
+        audioElement.load();
 
-    var filename = "defluttered_A11_" + tapeData[0] + "_" + tapeData[1] + "_CH" + activeChannel;
-    var waveformContainer = (hr_type === "HR1") ? "hr1-waveform-visualiser-container" : "hr2-waveform-visualiser-container";
-    var audioElementName = (hr_type === "HR1") ? "hr1-audio-element" : "hr2-audio-element";
-    var audioElement = document.getElementById(audioElementName);
+        var options = {
+            container: document.getElementById(waveformContainer),
+            mediaElement: audioElement,
+            dataUri: {
+                arraybuffer: "/mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform/" + filename + '.dat'
+            },
+            zoomLevels: [512, 1024, 2048, 4096],
+            keyboard: true,
+            pointMarkerColor: '#006eb0',
+            showPlayheadTime: false,
+            height: 100
+        };
 
-    audioElement.src = mediaURL + "/mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
-    audioElement.load();
-
-    var options = {
-        container: document.getElementById(waveformContainer),
-        mediaElement: audioElement,
-        dataUri: {
-            arraybuffer: mediaURL + "/mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform/" + filename + '.dat'
-        },
-        zoomLevels: [512, 1024, 2048, 4096],
-        keyboard: true,
-        pointMarkerColor: '#006eb0',
-        showPlayheadTime: false,
-        height: 100
-    };
-
-    if (hr_type === "HR1") {
-        hr1PeaksInstance.destroy();
-        hr1PeaksInstance = peaks.init(options);
-        hr1PeaksInstance.on('peaks.ready', function() {
-            console.log('hr1 peaks.ready');
+        gPeaksInstance.destroy();
+        gPeaksInstance = peaks.init(options);
+        gPeaksInstance.on('peaks.ready', function () {
+            console.log('peaks.ready');
             // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
         });
+    } else {
+        alert("No data for this channel on this tape at this time");
     }
 }
 
-function getTapeByGETseconds(seconds, tapeType) {
+function getTapeByGETseconds(seconds, channel) {
+    var intChannel = parseInt(channel);
     var rec = [];
-    var tapeRanges = (tapeType === "HR1") ? gTapeRangesHR1 : gTapeRangesHR2;
+    var tapeRanges = (intChannel <= 30) ? gTapeRangesHR1 : gTapeRangesHR2;
     for (var index = 0; index < tapeRanges.length; ++index) {
         var startSeconds = timeStrToSeconds(tapeRanges[index][2]);
         var endSeconds = timeStrToSeconds(tapeRanges[index][3]);
