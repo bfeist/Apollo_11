@@ -37,7 +37,7 @@ $( document ).ready(function() {
     gPeaksInstance = peaks.init(options);
 
     gPeaksInstance.on('peaks.ready', function() {
-        console.log('hr1 peaks.ready');
+        console.log('peaks.ready');
         // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
     });
 
@@ -102,12 +102,10 @@ function playFromCurrGET() {
     }
 
     gInterval = setInterval(function(){
-        console.log("interval firing");
+        // console.log("interval firing");
         var missionTimeDisplay = document.getElementById("missionTimeDisplay");
         var tapeDisplay = document.getElementById("tapeDisplay");
         var slider = document.getElementById("myRange");
-        // var sliderVal = slider.value;
-        // var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
         var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
         if (tapeData.length !== 0) {
             var currSeconds = gPeaksInstance.player.getCurrentTime();
@@ -121,10 +119,6 @@ function playFromCurrGET() {
 }
 
 function loadChannelSoundfile() {
-    // var sliderVal = $('#myRange').val();
-    // console.log(sliderVal);
-    // var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
-
     var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
     if (tapeData.length !== 0) {
         gActiveTape = tapeData[0];
@@ -171,13 +165,17 @@ function buttonClick_selectChannel() {
     clearInterval(gInterval); //clear the slider update playback interval
     gPeaksInstance.player.pause();
 
-    gActiveChannel = $(this).text();
+    gActiveChannel = $(this).text().substr(0, $(this).text().indexOf(' - ')); //get channel number from button label
     loadChannelSoundfile();
     playFromCurrGET();
 }
 
 function makeOnlySelectedButtonActive(context) {
-    $(context).siblings().not(context).removeClass('active');
+    const active = document.querySelector('.active');
+    if(active){
+        active.classList.remove('active');
+    }
+    $(context).addClass('active');
 }
 
 function getTapeByGETseconds(seconds, channel) {
@@ -194,6 +192,8 @@ function getTapeByGETseconds(seconds, channel) {
     }
     return rec;
 }
+
+//------------ data import
 
 function ajaxGetTapeRangeData() {
     var urlStr = "data/tape_ranges.csv";

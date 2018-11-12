@@ -43,56 +43,19 @@
     width: 220px;
 }
 
+
 .channelbuttons {
-
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.channelbuttons>* {
+    flex: 1 1 20px;
 }
 
-
-/*http://blog.koalite.com/bbg/*/
-.btn-tape {
-    color: #FFFFFF;
-    background-color: #1F3EDB;
-    border-color: #1F3EDB;
-}
-
-.btn-tape:hover,
-.btn-tape:focus,
-.btn-tape:active,
-.btn-tape.active,
-.open .dropdown-toggle.btn-tape {
-    color: #FFFFFF;
-    background-color: #49247A;
-    border-color: #0C1580;
-}
-
-.btn-tape:active,
-.btn-tape.active,
-.open .dropdown-toggle.btn-tape {
-    background-image: none;
-}
-
-.btn-tape.disabled,
-.btn-tape[disabled],
-fieldset[disabled] .btn-tape,
-.btn-tape.disabled:hover,
-.btn-tape[disabled]:hover,
-fieldset[disabled] .btn-tape:hover,
-.btn-tape.disabled:focus,
-.btn-tape[disabled]:focus,
-fieldset[disabled] .btn-tape:focus,
-.btn-tape.disabled:active,
-.btn-tape[disabled]:active,
-fieldset[disabled] .btn-tape:active,
-.btn-tape.disabled.active,
-.btn-tape[disabled].active,
-fieldset[disabled] .btn-tape.active {
-    background-color: #1F3EDB;
-    border-color: #0C1580;
-}
-
-.btn-tape .badge {
-    color: #1F3EDB;
-    background-color: #FFFFFF;
+.buttondiv {
+    max-width: 225px;
 }
 
 
@@ -103,6 +66,7 @@ fieldset[disabled] .btn-tape.active {
     border-color: #6E6E6E;
     margin-right: 5px;
     margin-top: 1px;
+    /*padding: 0.05rem .5rem;*/
 }
 
 .btn-channel:hover,
