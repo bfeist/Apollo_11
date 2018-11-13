@@ -3,6 +3,11 @@ import json
 import os
 import re
 
+# This script is step 2 after runnnig write_audiowaveform_noiserange_data.py which create the input files
+# for this script
+# This script pivots the activity range files into a single json per tape with one entry per second that contains
+# an array showing which channels are active in that second
+
 def getsec(timeString):
     l = timeString.split(':')
     #print l

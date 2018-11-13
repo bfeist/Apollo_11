@@ -7,7 +7,7 @@ var gActiveTape = "T867";
 var gActiveChannel = "14";
 var gCurrGETSeconds = -74706; //start at beginning of countdown
 
-var gInterval;
+var gInterval = null;
 
 // var mediaURL = "http://dev.apolloinrealtime.org";
 var mediaURL = window.location.hostname;
@@ -21,9 +21,11 @@ $( document ).ready(function() {
         html: true
     });
 
+    var player = document.querySelector('#audio-element');
+
     var options = {
         container: document.getElementById('waveform-visualiser-container'),
-        mediaElement: document.querySelector('#audio-element'),
+        mediaElement: player,
         dataUri: {
             arraybuffer: '/mp3/T867_defluttered_mp3_16/audiowaveform/defluttered_A11_T867_HR1L_CH14.dat'
         },
@@ -51,6 +53,19 @@ $( document ).ready(function() {
         channelButtons[i].addEventListener('click', buttonClick_selectChannel);
     }
 
+    player.onplay = function() {
+        console.log("player play");
+        if (gInterval == null) {
+            playFromCurrGET();
+        }
+    };
+
+    player.onpause = function() {
+        console.log("player pause");
+        clearInterval(gInterval); //clear the slider update playback interval
+        gInterval = null;
+    };
+
     $.when(ajaxGetTapeRangeData()).done(function() {
         console.log("APPREADY: Ajax loaded");
         mainApplication();
@@ -67,6 +82,7 @@ function mainApplication() {
     slider.onmousedown = function() {
         console.log("mousedown");
         clearInterval(gInterval); //clear the slider update playback interval
+        gInterval = null;
         gPeaksInstance.player.pause();
     };
 
@@ -101,6 +117,8 @@ function playFromCurrGET() {
         gPeaksInstance.player.play();
     }
 
+    clearInterval(gInterval);
+    gInterval = null;
     gInterval = setInterval(function(){
         // console.log("interval firing");
         var missionTimeDisplay = document.getElementById("missionTimeDisplay");

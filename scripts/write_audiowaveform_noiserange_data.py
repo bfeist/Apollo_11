@@ -4,6 +4,12 @@ import os
 import numpy
 from pprint import pprint
 
+# This script generates data files that contain time ranges of tape channels that contain activity
+# It reads through all 30-track mp3 folders and creates a /noiseranges subfolder with one csv per channel
+# The step after creating these datafiles is to run write_audiowaveform_tape_json.py which pivots these data files
+# into a single json per tape with one entry per second that contains an array showing which channels are active
+# in that second
+
 # samples_per_ms = 8
 samples_per_peakval = 128
 samples_per_second = 8000
