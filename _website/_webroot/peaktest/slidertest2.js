@@ -129,7 +129,7 @@ function playFromCurrGET() {
             var currSeconds = gPeaksInstance.player.getCurrentTime();
             gCurrGETSeconds = currSeconds + timeStrToSeconds(tapeData[2]);
             missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
-            tapeDisplay.innerHTML = tapeData[0] + " " + tapeData[1] + ": " + secondsToTimeStr(gCurrGETSeconds - timeStrToSeconds(tapeData[2]));
+            tapeDisplay.innerHTML = tapeData[0] + " " + tapeData[1] + " CH" + gActiveChannel + ": " + secondsToTimeStr(gCurrGETSeconds - timeStrToSeconds(tapeData[2]));
 
             slider.value = (((gCurrGETSeconds + countdownSeconds) * 99) / missionDurationSeconds);
         }
