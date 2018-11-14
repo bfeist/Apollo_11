@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="slidertest3.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/peaks.js"></script>
+    <script src="slidertest3.js"></script>
+</head>
+<body>
+
+<div class="container-fluid" id="main-body">
+    <h1>Apollo 11 30-track tape time selector prototype</h1>
+    <p>Slide the bar to simulate a change in Ground Elapsed Time (GET) and see the resulting 30-track tape number and cue time for that tape to play a given GET.</p>
+    <div class="timediv">
+        <span class="h4 timespan">GET: <span id="missionTimeDisplay">-20:45:06</span></span>
+        <span class="h6 timespan">Tape: <span id="tapeDisplay">T867</span></span>&nbsp;&nbsp;
+    </div>
+    <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="0" class="slider" id="myRange" step="0.001"/>
+    </div>
+    <!--<div>Selected tape: <span id="selectedTape">T869</span></div>-->
+    <!--<div>Selected channel: <span id="selectedChannel">2</span></div>-->
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <span class="panel-title" style="font-size: 2em;">Tape:</span>
+            <a data-toggle="tooltip" title="<img src='/images/869-AAC-TrackSheet-01_640.JPG' />">
+                <kbd>CH 1-30</kbd>
+            </a>
+            <a data-toggle="tooltip" title="<img src='/images/870-AAC-TrackSheet-01_640.JPG' />">
+                <kbd>CH 31-60</kbd>
+            </a>
+        </div>
+        <div class="panel-body">
+            <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="row channelbuttons">
+                    <div class="buttondiv"><div id="alight-1" class="alight">&nbsp;</div><button class="btn-sm btn-channel">1 - HR1 Datastream</button></div>
+                    <div class="buttondiv"><div id="alight-2" class="alight">&nbsp;</div><button class="btn-sm btn-channel">2 - FLIGHT OPS DIR</button></div>
+                    <div class="buttondiv"><div id="alight-3" class="alight">&nbsp;</div><button class="btn-sm btn-channel">3 - MISSION DIRECTOR</button></div>
+                    <div class="buttondiv"><div id="alight-4" class="alight">&nbsp;</div><button class="btn-sm btn-channel disabled">4 - DOD MANAGER</button></div>
+                    <div class="buttondiv"><div id="alight-5" class="alight">&nbsp;</div><button class="btn-sm btn-channel">5 - OPS AND PRO</button></div>
+                    <div class="buttondiv"><div id="alight-6" class="alight">&nbsp;</div><button class="btn-sm btn-channel">6 - ASST FLIGHT DIR</button></div>
+                    <div class="buttondiv"><div id="alight-7" class="alight">&nbsp;</div><button class="btn-sm btn-channel">7 - FLIGHT DIRECTOR [L]</button></div>
+                    <div class="buttondiv"><div id="alight-8" class="alight">&nbsp;</div><button class="btn-sm btn-channel">8 - FLIGHT DIRECTOR [R]</button></div>
+                    <div class="buttondiv"><div id="alight-9" class="alight">&nbsp;</div><button class="btn-sm btn-channel">9 - FLT PLANS OFFICER</button></div>
+                    <div class="buttondiv"><div id="alight-10" class="alight">&nbsp;</div><button class="btn-sm btn-channel disabled">10 - NETWORK CTRLR [L]</button></div>
+                    <div class="buttondiv"><div id="alight-11" class="alight">&nbsp;</div><button class="btn-sm btn-channel">11 - NETWORK CTRLR [R]</button></div>
+                    <div class="buttondiv"><div id="alight-12" class="alight">&nbsp;</div><button class="btn-sm btn-channel">12 - SURGEON [L]</button></div>
+                    <div class="buttondiv"><div id="alight-13" class="alight">&nbsp;</div><button class="btn-sm btn-channel">13 - SURGEON [R]</button></div>
+                    <div class="buttondiv"><div id="alight-14" class="alight">&nbsp;</div><button class="btn-sm btn-channel active">14 - CAPCOM [L]</button></div>
+                    <div class="buttondiv"><div id="alight-15" class="alight">&nbsp;</div><button class="btn-sm btn-channel">15 - CAPCOM [R]</button></div>
+                    <div class="buttondiv"><div id="alight-16" class="alight">&nbsp;</div><button class="btn-sm btn-channel">16 - INCO</button></div>
+                    <div class="buttondiv"><div id="alight-17" class="alight">&nbsp;</div><button class="btn-sm btn-channel">17 - EECOM</button></div>
+                    <div class="buttondiv"><div id="alight-18" class="alight">&nbsp;</div><button class="btn-sm btn-channel">18 - GNC</button></div>
+                    <div class="buttondiv"><div id="alight-19" class="alight">&nbsp;</div><button class="btn-sm btn-channel">19 - RETRO</button></div>
+                    <div class="buttondiv"><div id="alight-20" class="alight">&nbsp;</div><button class="btn-sm btn-channel">20 - FIDO</button></div>
+                    <div class="buttondiv"><div id="alight-21" class="alight">&nbsp;</div><button class="btn-sm btn-channel">21 - GUIDO [L]</button></div>
+                    <div class="buttondiv"><div id="alight-22" class="alight">&nbsp;</div><button class="btn-sm btn-channel">22 - GUIDO [R]</button></div>
+                    <div class="buttondiv"><div id="alight-23" class="alight">&nbsp;</div><button class="btn-sm btn-channel">23 - LOAD CONTROL</button></div>
+                    <div class="buttondiv"><div id="alight-24" class="alight">&nbsp;</div><button class="btn-sm btn-channel">24 - RCS</button></div>
+                    <div class="buttondiv"><div id="alight-25" class="alight">&nbsp;</div><button class="btn-sm btn-channel">25 - CCATS CMD</button></div>
+                    <div class="buttondiv"><div id="alight-26" class="alight">&nbsp;</div><button class="btn-sm btn-channel">26 - TIC</button></div>
+                    <div class="buttondiv"><div id="alight-27" class="alight">&nbsp;</div><button class="btn-sm btn-channel">27 - CCATS TM</button></div>
+                    <div class="buttondiv"><div id="alight-28" class="alight">&nbsp;</div><button class="btn-sm btn-channel">28 - TRACK [L]</button></div>
+                    <div class="buttondiv"><div id="alight-29" class="alight">&nbsp;</div><button class="btn-sm btn-channel">29 - TRACK [R]</button></div>
+                    <div class="buttondiv"><div id="alight-30" class="alight">&nbsp;</div><button class="btn-sm btn-channel">30 - HR1 VOICE ANNOTATION</button></div>
+                    <div class="buttondiv"><div id="alight-31" class="alight">&nbsp;</div><button class="btn-sm btn-channel">31 - HR2 Datastream</button></div>
+                    <div class="buttondiv"><div id="alight-32" class="alight">&nbsp;</div><button class="btn-sm btn-channel">32 - NASA RECOVERY COORD</button></div>
+                    <div class="buttondiv"><div id="alight-33" class="alight">&nbsp;</div><button class="btn-sm btn-channel">33 - ASST NASA RCVY COORD</button></div>
+                    <div class="buttondiv"><div id="alight-34" class="alight">&nbsp;</div><button class="btn-sm btn-channel">34 - RECOVERY STATUS</button></div>
+                    <div class="buttondiv"><div id="alight-35" class="alight">&nbsp;</div><button class="btn-sm btn-channel">35 - RECOVERY EVALUATOR</button></div>
+                    <div class="buttondiv"><div id="alight-36" class="alight">&nbsp;</div><button class="btn-sm btn-channel disabled">36 - DOD COORD</button></div>
+                    <div class="buttondiv"><div id="alight-37" class="alight">&nbsp;</div><button class="btn-sm btn-channel disabled">37 - DOD PRIMARY OP</button></div>
+                    <div class="buttondiv"><div id="alight-38" class="alight">&nbsp;</div><button class="btn-sm btn-channel disabled">38 - DOD MANAGER [RCVY]</button></div>
+                    <div class="buttondiv"><div id="alight-39" class="alight">&nbsp;</div><button class="btn-sm btn-channel disabled">39 - DOD EXEC</button></div>
+                    <div class="buttondiv"><div id="alight-40" class="alight">&nbsp;</div><button class="btn-sm btn-channel disabled">40 - DOD ASST FOR COMM 1</button></div>
+                    <div class="buttondiv"><div id="alight-41" class="alight">&nbsp;</div><button class="btn-sm btn-channel disabled">41 - DOD PIO</button></div>
+                    <div class="buttondiv"><div id="alight-42" class="alight">&nbsp;</div><button class="btn-sm btn-channel">42 - COMM TECH [3RD FL]</button></div>
+                    <div class="buttondiv"><div id="alight-43" class="alight">&nbsp;</div><button class="btn-sm btn-channel">43 - COMM CTRLR [3RD FL]</button></div>
+                    <div class="buttondiv"><div id="alight-44" class="alight">&nbsp;</div><button class="btn-sm btn-channel">44 - SPACE ENVIRONMENT</button></div>
+                    <div class="buttondiv"><div id="alight-45" class="alight">&nbsp;</div><button class="btn-sm btn-channel">45 - COMPUTER SUPPORT</button></div>
+                    <div class="buttondiv"><div id="alight-46" class="alight">&nbsp;</div><button class="btn-sm btn-channel">46 - SPAN</button></div>
+                    <div class="buttondiv"><div id="alight-47" class="alight">&nbsp;</div><button class="btn-sm btn-channel">47 - BOOSTER [L]</button></div>
+                    <div class="buttondiv"><div id="alight-48" class="alight">&nbsp;</div><button class="btn-sm btn-channel">48 - BOOSTER [C]</button></div>
+                    <div class="buttondiv"><div id="alight-49" class="alight">&nbsp;</div><button class="btn-sm btn-channel">49 - BOOSTER [R]</button></div>
+                    <div class="buttondiv"><div id="alight-50" class="alight">&nbsp;</div><button class="btn-sm btn-channel">50 - 3 FLIGHT DIRECTOR LOOP</button></div>
+                    <div class="buttondiv"><div id="alight-51" class="alight">&nbsp;</div><button class="btn-sm btn-channel">51 - 3 AFD CONF LOOP</button></div>
+                    <div class="buttondiv"><div id="alight-52" class="alight">&nbsp;</div><button class="btn-sm btn-channel">52 - 3 GOSS 2 LOOP</button></div>
+                    <div class="buttondiv"><div id="alight-53" class="alight">&nbsp;</div><button class="btn-sm btn-channel">53 - ALSEP EAO 2</button></div>
+                    <div class="buttondiv"><div id="alight-54" class="alight">&nbsp;</div><button class="btn-sm btn-channel">54 - 3 MOCR DYN LOOP</button></div>
+                    <div class="buttondiv"><div id="alight-55" class="alight">&nbsp;</div><button class="btn-sm btn-channel">55 - 3 GOSS CONF LOOP</button></div>
+                    <div class="buttondiv"><div id="alight-56" class="alight">&nbsp;</div><button class="btn-sm btn-channel">56 - 3 GOSS 4 LOOP</button></div>
+                    <div class="buttondiv"><div id="alight-57" class="alight">&nbsp;</div><button class="btn-sm btn-channel">57 - LM GNC ENGINEER</button></div>
+                    <div class="buttondiv"><div id="alight-58" class="alight">&nbsp;</div><button class="btn-sm btn-channel">58 - LM EECOM ENGINEER</button></div>
+                    <div class="buttondiv"><div id="alight-59" class="alight">&nbsp;</div><button class="btn-sm btn-channel">59 - EXPMT ACTIVITIES OFSR</button></div>
+                    <div class="buttondiv"><div id="alight-60" class="alight">&nbsp;</div><button class="btn-sm btn-channel">60 - HR2 VOICE ANNOTATION</button></div>
+
+                </div>
+            </div>
+            <div id="waveform-visualiser-container"></div>
+            <div>
+                <audio id="audio-element" controls=controls>
+                    <source id="track" src="http://dev.apolloinrealtime.org/mp3/T867_defluttered_mp3_16/defluttered_A11_T867_HR1L_CH14.mp3" type="audio/mpeg"/>
+                </audio>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
