@@ -204,12 +204,12 @@ function loadChannelSoundfile() {
         });
 
         var tapeDataHR1 = getTapeByGETseconds(gCurrGETSeconds, 10);
-        var activityJSONUrlHR1 = "/mp3/" + tapeDataHR1[0] + "_defluttered_mp3_16/" + tapeDataHR1[0] + "_defluttered_mp3_16noiseranges.json";
-        ajaxGetTapeActivityJSONHR1(activityJSONUrlHR1);
+        var noiserangeJSONUrlHR1 = "/mp3/" + tapeDataHR1[0] + "_defluttered_mp3_16/" + tapeDataHR1[0] + "_defluttered_mp3_16noiseranges.json";
+        ajaxGetTapeActivityJSONHR1(noiserangeJSONUrlHR1);
 
         var tapeDataHR2 = getTapeByGETseconds(gCurrGETSeconds, 40);
-        var activityJSONUrlHR2 = "/mp3/" + tapeDataHR2[0] + "_defluttered_mp3_16/" + tapeDataHR2[0] + "_defluttered_mp3_16noiseranges.json";
-        ajaxGetTapeActivityJSONHR2(activityJSONUrlHR2);
+        var noiserangeJSONUrlHR2 = "/mp3/" + tapeDataHR2[0] + "_defluttered_mp3_16/" + tapeDataHR2[0] + "_defluttered_mp3_16noiseranges.json";
+        ajaxGetTapeActivityJSONHR2(noiserangeJSONUrlHR2);
 
     } else {
         alert("No data for this channel on this tape at this time");
