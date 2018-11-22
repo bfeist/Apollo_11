@@ -5,17 +5,19 @@ var gActiveTapeActivityArrayHR2 = [];
 
 window.onload = function() {
     $.when(ajaxGetTapeRangeData()).done(function() {
-        console.log("APPREADY: Ajax loaded");
+        console.log("APPREADY: ajaxGetTapeRangeData Ajax loaded");
 
         var tapeDataHR1 = getTapeByGETseconds(0, 10);
         var noiserangeJSONUrlHR1 = "/mp3/" + tapeDataHR1[0] + "_defluttered_mp3_16/" + tapeDataHR1[0] + "_defluttered_mp3_16noiseranges.json";
-        ajaxGetTapeActivityJSONHR1(noiserangeJSONUrlHR1);
 
         var tapeDataHR2 = getTapeByGETseconds(0, 40);
         var noiserangeJSONUrlHR2 = "/mp3/" + tapeDataHR2[0] + "_defluttered_mp3_16/" + tapeDataHR2[0] + "_defluttered_mp3_16noiseranges.json";
-        ajaxGetTapeActivityJSONHR2(noiserangeJSONUrlHR2);
 
-        mainApplication();
+        $.when(ajaxGetTapeActivityJSONHR1(noiserangeJSONUrlHR1),
+            ajaxGetTapeActivityJSONHR2(noiserangeJSONUrlHR2)).done(function() {
+            console.log("APPREADY: both ajaxGetTapeActivity Ajax loaded");
+            mainApplication();
+        });
     });
 };
 
@@ -29,31 +31,119 @@ function mainApplication() {
     paper.install(window);
 
     var tempGroup = new paper.Group;
+    // var channelCount = 0;
+    // for (var i = 0; i < 480; i = i + 8) {
+    //     channelCount++;
+    //     var endVal = parseInt(Math.random()*1000);
+    //     var channelStartPoint = new paper.Point(0, AddPoint5IfOdd(i));
+    //     var channelEndPoint = new paper.Point(AddPoint5IfOdd(endVal), AddPoint5IfOdd(i));
+    //     var aLine = new paper.Path.Line(channelStartPoint, channelEndPoint);
+    //     // console.log('line :' + channelStartPoint + ' ' + channelEndPoint);
+    //     aLine.strokeColor = 'black';
+    //     if (channelCount % 10 === 0) {
+    //         aLine.strokeColor = 'red';
+    //     }
+    //     aLine.strokeWidth = 4;
+    //
+    //     aLine.onMouseEnter = function(event) {
+    //         this.strokeColor = 'blue';
+    //     };
+    //
+    //     aLine.onMouseLeave = function(event) {
+    //         this.strokeColor = 'black';
+    //     };
+    //     tempGroup.addChild(aLine);
+    // }
+
+    // tempGroup.appendChild(createChannelLine(5000, 5050, 13, 1));
+
+    var startSecond = 0;
+    var endSecond = 1000;
+    // var channelNum = 13;
+    // var yCoord = 0;
+    var toolTipRectPath;
+
     var channelCount = 0;
-    for (var i = 0; i < 480; i = i + 8) {
+    for (var iCh = 0; iCh < 240; iCh = iCh + 4) {
         channelCount++;
-        var endVal = parseInt(Math.random()*1000);
-        var channelStartPoint = new paper.Point(0, AddPoint5IfOdd(i));
-        var channelEndPoint = new paper.Point(AddPoint5IfOdd(endVal), AddPoint5IfOdd(i));
-        var aLine = new paper.Path.Line(channelStartPoint, channelEndPoint);
-        // console.log('line :' + channelStartPoint + ' ' + channelEndPoint);
-        aLine.strokeColor = 'black';
-        if (channelCount % 10 === 0) {
-            aLine.strokeColor = 'red';
+        var activeTapeActivityArray = [];
+        var tapeChannelNum = 0;
+        if (channelCount <= 30) {
+            activeTapeActivityArray = gActiveTapeActivityArrayHR1;
+            tapeChannelNum = channelCount;
+        } else {
+            activeTapeActivityArray = gActiveTapeActivityArrayHR2;
+            tapeChannelNum = channelCount - 30;
         }
-        aLine.strokeWidth = 4;
 
-        aLine.onMouseEnter = function(event) {
-            this.strokeColor = 'blue';
-        };
+        var lineGroup = new paper.Group;
+        var xCoord = 0;
+        var yCoord = iCh;
+        var currSegStart = -1;
+        var prevXCoordActive = false;
+        for (var i = startSecond; i <= endSecond; i++) {
+            if (activeTapeActivityArray[i].includes(tapeChannelNum)) {
+                if (!prevXCoordActive) {
+                    currSegStart = xCoord;
+                    prevXCoordActive = true;
+                }
+            } else {
+                if (prevXCoordActive) {
+                    var startPoint = new paper.Point(currSegStart, yCoord);
+                    var endPoint = new paper.Point(xCoord, yCoord);
+                    var aLine = new paper.Path.Line(startPoint, endPoint);
+                    aLine.strokeColor = 'black';
+                    lineGroup.addChild(aLine);
+                    prevXCoordActive = false;
+                }
+            }
+            xCoord++;
+        }
+        if (lineGroup.children.length > 0) {
+            var lineGroupRaster = lineGroup.rasterize();
+            lineGroupRaster.name = 'ch' + channelCount;
+            tempGroup.addChild(lineGroupRaster);
 
-        aLine.onMouseLeave = function(event) {
-            this.strokeColor = 'black';
-        };
-        tempGroup.addChild(aLine);
+            lineGroupRaster.onMouseEnter = function(event) {
+                // this.strokeColor = 'blue';
+                // console.log("onMouseEnter");
+
+                var tooltipGroup = new paper.Group;
+                tooltipGroup.name = 'tooltip';
+
+                var tooltipRect = new paper.Rectangle(event.point.x + 10, event.point.y - 20, 50, 20);
+                // var tooltipRect = new paper.Rectangle(this.position + new paper.Point(-20, -40), new paper.Size(40, 28));
+                var tooltip = new paper.Path.Rectangle(tooltipRect);
+                tooltip.fillColor = 'white';
+                tooltip.strokeColor = 'black';
+                tooltipGroup.addChild(tooltip);
+
+                var tooltipText = new paper.PointText({
+                    justification: 'left',
+                    fontWeight: 'bold',
+                    // fontFamily: graphFontFamily,
+                    fontSize: 11,
+                    fillColor: 'black'
+                });
+                tooltipText.content = this.name;
+                tooltipText.point = new paper.Point(event.point.x + 20, event.point.y - 6);
+                tooltipGroup.addChild(tooltipText);
+
+                this.parent.addChild(tooltipGroup);
+            };
+
+            lineGroupRaster.onMouseLeave = function(event) {
+                // this.strokeColor = 'black';
+                // console.log("onMouseLeave");
+                this.parent.children['tooltip'].remove();
+                view.draw();
+            };
+        }
+        lineGroup.remove();
+        lineGroup = null;
     }
-
 }
+
 
 function getTapeByGETseconds(seconds, channel) {
     var intChannel = parseInt(channel);
@@ -63,6 +153,7 @@ function getTapeByGETseconds(seconds, channel) {
         var startSeconds = timeStrToSeconds(tapeRanges[index][2]);
         var endSeconds = timeStrToSeconds(tapeRanges[index][3]);
         if (seconds >= startSeconds && seconds <= endSeconds) {
+            console.log('getTapeByGETseconds: seconds:' + seconds + ' channel: ' + channel + ' tape: ' + tapeRanges[index][0]);
             rec = tapeRanges[index];
             break;
         }
