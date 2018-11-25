@@ -2,6 +2,22 @@ var gTapeRangesHR1 = [];
 var gTapeRangesHR2 = [];
 var gActiveTapeActivityArrayHR1 = [];
 var gActiveTapeActivityArrayHR2 = [];
+var gCurrGETSeconds = 0;
+var gInterval;
+var gChannelLinesGroup;
+var gTimeCursurGroup;
+
+var gTool;
+var gTooltipGroup;
+
+var gColors = {
+    activeLine: 'black',
+    cursorColor: 'red',
+    cursorFillColor: 'black',
+    tooltipColor: 'black',
+    tooltipFillColor: 'white'
+};
+// var gCurrGETSeconds = -74768; //start at beginning of countdown
 
 window.onload = function() {
     $.when(ajaxGetTapeRangeData()).done(function() {
@@ -21,127 +37,175 @@ window.onload = function() {
     });
 };
 
+$(window).resize(resizeAndRedrawCanvas);
+
+function resizeAndRedrawCanvas()
+{
+    var canvas = document.getElementById('myCanvas');
+    var desiredWidth = $(window).width(); // For instance: $(window).width();
+    var desiredHeight = 225; // For instance $('#canvasContainer').height();
+
+    canvas.width = desiredWidth;
+    canvas.height = desiredHeight;
+
+    view.viewSize = new Size(desiredWidth, desiredHeight);
+    view.draw();
+}
+
 function mainApplication() {
     // Get a reference to the canvas object
     var canvas = document.getElementById('myCanvas');
-    canvas.width = 1000;
-    canvas.height = 1000;
+    // canvas.width = 1000;
+    canvas.height = 225;
 
     paper.setup(canvas);
     paper.install(window);
+    gChannelLinesGroup = new paper.Group;
+    gTool = new paper.Tool();
+    gTooltipGroup = new paper.Group;
+    gTimeCursurGroup = new paper.Group;
 
-    var tempGroup = new paper.Group;
-    // var channelCount = 0;
-    // for (var i = 0; i < 480; i = i + 8) {
-    //     channelCount++;
-    //     var endVal = parseInt(Math.random()*1000);
-    //     var channelStartPoint = new paper.Point(0, AddPoint5IfOdd(i));
-    //     var channelEndPoint = new paper.Point(AddPoint5IfOdd(endVal), AddPoint5IfOdd(i));
-    //     var aLine = new paper.Path.Line(channelStartPoint, channelEndPoint);
-    //     // console.log('line :' + channelStartPoint + ' ' + channelEndPoint);
-    //     aLine.strokeColor = 'black';
-    //     if (channelCount % 10 === 0) {
-    //         aLine.strokeColor = 'red';
-    //     }
-    //     aLine.strokeWidth = 4;
-    //
-    //     aLine.onMouseEnter = function(event) {
-    //         this.strokeColor = 'blue';
-    //     };
-    //
-    //     aLine.onMouseLeave = function(event) {
-    //         this.strokeColor = 'black';
-    //     };
-    //     tempGroup.addChild(aLine);
-    // }
+    gInterval = setInterval(function(){
+        console.log("interval firing");
+        drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), $(window).width());
+        drawTimeCursor();
+        gCurrGETSeconds++;
+    }, 1000);
 
-    // tempGroup.appendChild(createChannelLine(5000, 5050, 13, 1));
+    gTool.onMouseMove = function (event) {
+        // paper.project.activeLayer.children['tooltip'].remove();
+        gTooltipGroup.removeChildren();
 
-    var startSecond = 0;
-    var endSecond = 1000;
-    // var channelNum = 13;
-    // var yCoord = 0;
-    var toolTipRectPath;
+        var tooltipRect = new paper.Rectangle(event.point.x + 10, event.point.y - 20, 100, 20);
+        // var tooltipRect = new paper.Rectangle(this.position + new paper.Point(-20, -40), new paper.Size(40, 28));
+        var tooltip = new paper.Path.Rectangle(tooltipRect);
+        tooltip.fillColor = gColors.tooltipFillColor;
+        tooltip.strokeColor = gColors.tooltipColor;
+        gTooltipGroup.addChild(tooltip);
 
-    var channelCount = 0;
-    for (var iCh = 0; iCh < 240; iCh = iCh + 4) {
-        channelCount++;
-        var activeTapeActivityArray = [];
-        var tapeChannelNum = 0;
-        if (channelCount <= 30) {
-            activeTapeActivityArray = gActiveTapeActivityArrayHR1;
-            tapeChannelNum = channelCount;
-        } else {
-            activeTapeActivityArray = gActiveTapeActivityArrayHR2;
-            tapeChannelNum = channelCount - 30;
-        }
+        var tooltipText = new paper.PointText({
+            justification: 'left',
+            fontWeight: 'bold',
+            // fontFamily: graphFontFamily,
+            fontSize: 11,
+            fillColor:  gColors.tooltipColor
+        });
 
-        var lineGroup = new paper.Group;
-        var xCoord = 0;
-        var yCoord = iCh;
-        var currSegStart = -1;
-        var prevXCoordActive = false;
-        for (var i = startSecond; i <= endSecond; i++) {
-            if (activeTapeActivityArray[i].includes(tapeChannelNum)) {
-                if (!prevXCoordActive) {
-                    currSegStart = xCoord;
-                    prevXCoordActive = true;
-                }
-            } else {
-                if (prevXCoordActive) {
-                    var startPoint = new paper.Point(currSegStart, yCoord);
-                    var endPoint = new paper.Point(xCoord, yCoord);
-                    var aLine = new paper.Path.Line(startPoint, endPoint);
-                    aLine.strokeColor = 'black';
-                    lineGroup.addChild(aLine);
-                    prevXCoordActive = false;
+        var hoverChannelNum = "ch00";
+        if (event.item)
+            for (var itemChildrenCounter = 0; itemChildrenCounter <= event.item.children.length; itemChildrenCounter++) {
+                if (event.item.children[itemChildrenCounter] !== undefined) {
+                    if (event.item.children[itemChildrenCounter].contains(event.point)) {
+                        // console.log("mouse on item: " + event.item.children[itemChildrenCounter].name);
+                        hoverChannelNum = event.item.children[itemChildrenCounter].name;
+                    }
                 }
             }
-            xCoord++;
-        }
-        if (lineGroup.children.length > 0) {
-            var lineGroupRaster = lineGroup.rasterize();
-            lineGroupRaster.name = 'ch' + channelCount;
-            tempGroup.addChild(lineGroupRaster);
-
-            lineGroupRaster.onMouseEnter = function(event) {
-                // this.strokeColor = 'blue';
-                // console.log("onMouseEnter");
-
-                var tooltipGroup = new paper.Group;
-                tooltipGroup.name = 'tooltip';
-
-                var tooltipRect = new paper.Rectangle(event.point.x + 10, event.point.y - 20, 50, 20);
-                // var tooltipRect = new paper.Rectangle(this.position + new paper.Point(-20, -40), new paper.Size(40, 28));
-                var tooltip = new paper.Path.Rectangle(tooltipRect);
-                tooltip.fillColor = 'white';
-                tooltip.strokeColor = 'black';
-                tooltipGroup.addChild(tooltip);
-
-                var tooltipText = new paper.PointText({
-                    justification: 'left',
-                    fontWeight: 'bold',
-                    // fontFamily: graphFontFamily,
-                    fontSize: 11,
-                    fillColor: 'black'
-                });
-                tooltipText.content = this.name;
-                tooltipText.point = new paper.Point(event.point.x + 20, event.point.y - 6);
-                tooltipGroup.addChild(tooltipText);
-
-                this.parent.addChild(tooltipGroup);
-            };
-
-            lineGroupRaster.onMouseLeave = function(event) {
-                // this.strokeColor = 'black';
-                // console.log("onMouseLeave");
-                this.parent.children['tooltip'].remove();
-                view.draw();
-            };
-        }
-        lineGroup.remove();
-        lineGroup = null;
+        tooltipText.content = hoverChannelNum + " " + secondsToTimeStr(gCurrGETSeconds - Math.round($(window).width() / 2) + event.point.x);
+        tooltipText.point = new paper.Point(event.point.x + 20, event.point.y - 6);
+        gTooltipGroup.addChild(tooltipText);
     }
+    resizeAndRedrawCanvas();
+}
+
+function drawChannels(startSecond, durationSeconds) {
+    gChannelLinesGroup.removeChildren();
+    var channelCount = 0;
+    var lineCounter = 0;
+    for (var iCh = 0; iCh < 240; iCh = iCh + 4) {
+        channelCount++;
+
+        if (![1, 4, 10, 31, 36, 37, 38, 39, 40, 41].includes(channelCount)) { //don't display redacted channels
+            lineCounter++;
+
+            //get tape start/end based on GET
+            var tapeData = getTapeByGETseconds(startSecond, channelCount);
+            var tapeStartSecond = startSecond - timeStrToSeconds(tapeData[2]);
+            var tapeEndSecond = tapeStartSecond + durationSeconds;
+
+            var activeTapeActivityArray = [];
+            var tapeChannelNum;
+            if (channelCount <= 30) {
+                activeTapeActivityArray = gActiveTapeActivityArrayHR1;
+                tapeChannelNum = channelCount;
+            } else {
+                activeTapeActivityArray = gActiveTapeActivityArrayHR2;
+                tapeChannelNum = channelCount - 30;
+            }
+
+            var lineGroup = new paper.Group;
+            var xCoord = 0;
+            var yCoord = lineCounter * 4;
+            var currSegStart = -1;
+            var prevXCoordActive = false;
+            for (var i = tapeStartSecond; i <= tapeEndSecond; i++) {
+                if (activeTapeActivityArray[i].includes(tapeChannelNum)) {
+                    if (!prevXCoordActive) {
+                        currSegStart = xCoord;
+                        prevXCoordActive = true;
+                    }
+                } else {
+                    if (prevXCoordActive) {
+                        var startPoint = new paper.Point(currSegStart, yCoord);
+                        var endPoint = new paper.Point(xCoord, yCoord);
+                        var aLine = new paper.Path.Line(startPoint, endPoint);
+                        aLine.strokeColor = gColors.activeLine;
+                        aLine.strokeWidth = 2;
+                        aLine.name = "CH" + tapeChannelNum;
+                        lineGroup.addChild(aLine);
+                        prevXCoordActive = false;
+                    }
+                }
+                xCoord++;
+            }
+            if (prevXCoordActive) {
+                startPoint = new paper.Point(currSegStart, yCoord);
+                endPoint = new paper.Point(xCoord, yCoord);
+                aLine = new paper.Path.Line(startPoint, endPoint);
+                aLine.strokeColor = gColors.activeLine;
+                aLine.strokeWidth = 2;
+                aLine.name = "CH" + tapeChannelNum;
+                lineGroup.addChild(aLine);
+            }
+
+            if (lineGroup.children.length > 0) {
+                var lineGroupRaster = lineGroup.rasterize();
+                lineGroupRaster.name = 'ch' + channelCount;
+                gChannelLinesGroup.addChild(lineGroupRaster);
+            }
+            lineGroup.remove();
+            lineGroup = null;
+        }
+    }
+}
+
+function drawTimeCursor() {
+    gTimeCursurGroup.removeChildren();
+    var startPoint = new paper.Point(Math.round($(window).width() / 2), 0);
+    var endPoint = new paper.Point(Math.round($(window).width() / 2), 210);
+    var aLine = new paper.Path.Line(startPoint, endPoint);
+    aLine.strokeColor = gColors.cursorColor;
+    aLine.strokeWidth = 2;
+    aLine.name = "timeCursor";
+    gTimeCursurGroup.addChild(aLine);
+
+    var timeText = new paper.PointText({
+        justification: 'left',
+        fontWeight: 'bold',
+        fontSize: 11,
+        fillColor: gColors.cursorColor
+    });
+    timeText.content = secondsToTimeStr(gCurrGETSeconds);
+    timeText.point = new paper.Point(Math.round($(window).width() / 2) - timeText.bounds.width / 2, 220);
+    var cornerSize = new paper.Size(3, 3);
+    var timeTextRect = new paper.Path.RoundRectangle(timeText.bounds, cornerSize);
+    //var timeTextRect = new paper.Path.Rectangle(timeText.bounds);
+    timeTextRect.strokeColor = gColors.cursorColor;
+    timeTextRect.fillColor = gColors.cursorFillColor;
+    //timeTextRect.opacity = 0.5;
+    timeTextRect.scale(1.1, 1.2);
+    gTimeCursurGroup.addChild(timeTextRect);
+    gTimeCursurGroup.addChild(timeText);
 }
 
 
@@ -153,7 +217,7 @@ function getTapeByGETseconds(seconds, channel) {
         var startSeconds = timeStrToSeconds(tapeRanges[index][2]);
         var endSeconds = timeStrToSeconds(tapeRanges[index][3]);
         if (seconds >= startSeconds && seconds <= endSeconds) {
-            console.log('getTapeByGETseconds: seconds:' + seconds + ' channel: ' + channel + ' tape: ' + tapeRanges[index][0]);
+            // console.log('getTapeByGETseconds: seconds:' + seconds + ' channel: ' + channel + ' tape: ' + tapeRanges[index][0]);
             rec = tapeRanges[index];
             break;
         }

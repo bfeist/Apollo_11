@@ -159,9 +159,9 @@ function playFromCurrGET() {
         }
         for (i = 1; i <= 60; i++) {
             if (channelsActiveThisSecond.includes(i)) {
-                $('#alight-' + i.toString()).css("background-image", 'url("/images/greenlightblink.gif")');
+                $('#alight-' + i.toString()).css("background-image", 'url("images/greenlightblink.gif")');
             } else {
-                $('#alight-' + i.toString()).css("background-image", 'url("/images/blanklight.png")');
+                $('#alight-' + i.toString()).css("background-image", 'url("images/blanklight.png")');
             }
         }
     }, 1000);

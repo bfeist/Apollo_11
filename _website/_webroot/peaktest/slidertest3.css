@@ -72,7 +72,7 @@
 .alight {
     display:inline-block;
     width: 10px;
-    background-image: url("/images/blanklight.png");
+    background-image: url("images/blanklight.png");
     background-repeat: no-repeat;
     background-size: 10px 10px;
     background-position: center;
