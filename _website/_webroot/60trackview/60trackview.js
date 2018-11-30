@@ -1,3 +1,6 @@
+const missionDurationSeconds = 784086;
+const countdownSeconds = 74768;
+
 var gTapeRangesHR1 = [];
 var gTapeRangesHR2 = [];
 var gActiveTapeActivityArrayHR1 = [];
@@ -23,10 +26,10 @@ window.onload = function() {
     $.when(ajaxGetTapeRangeData()).done(function() {
         console.log("APPREADY: ajaxGetTapeRangeData Ajax loaded");
 
-        var tapeDataHR1 = getTapeByGETseconds(0, 10);
+        var tapeDataHR1 = getTapeByGETseconds(gCurrGETSeconds, 10);
         var noiserangeJSONUrlHR1 = "/mp3/" + tapeDataHR1[0] + "_defluttered_mp3_16/" + tapeDataHR1[0] + "_defluttered_mp3_16noiseranges.json";
 
-        var tapeDataHR2 = getTapeByGETseconds(0, 40);
+        var tapeDataHR2 = getTapeByGETseconds(gCurrGETSeconds, 40);
         var noiserangeJSONUrlHR2 = "/mp3/" + tapeDataHR2[0] + "_defluttered_mp3_16/" + tapeDataHR2[0] + "_defluttered_mp3_16noiseranges.json";
 
         $.when(ajaxGetTapeActivityJSONHR1(noiserangeJSONUrlHR1),
@@ -53,8 +56,9 @@ function resizeAndRedrawCanvas()
 }
 
 function mainApplication() {
-    // Get a reference to the canvas object
     var canvas = document.getElementById('myCanvas');
+    var slider = document.getElementById("myRange");
+    var missionTimeDisplay = document.getElementById("missionTimeDisplay");
     // canvas.width = 1000;
     canvas.height = 225;
 
@@ -69,6 +73,8 @@ function mainApplication() {
         console.log("interval firing");
         drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), $(window).width());
         drawTimeCursor();
+        missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
+        slider.value = (((gCurrGETSeconds + countdownSeconds) * 99) / missionDurationSeconds);
         gCurrGETSeconds++;
     }, 1000);
 
@@ -104,8 +110,45 @@ function mainApplication() {
         tooltipText.content = hoverChannelNum + " " + secondsToTimeStr(gCurrGETSeconds - Math.round($(window).width() / 2) + event.point.x);
         tooltipText.point = new paper.Point(event.point.x + 20, event.point.y - 6);
         gTooltipGroup.addChild(tooltipText);
-    }
+    };
     resizeAndRedrawCanvas();
+
+    slider.onmousedown = function() {
+        console.log("mousedown");
+        clearInterval(gInterval); //clear the slider update playback interval
+        gInterval = null;
+        // gPeaksInstance.player.pause();
+    };
+
+    // Update the current slider value (each time you drag the slider handle)
+    slider.oninput = function () {
+        gCurrGETSeconds = (((this.value - 1) * missionDurationSeconds) / 99) - countdownSeconds;
+        missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
+
+        drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), $(window).width());
+        drawTimeCursor();
+
+        // var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
+
+        // if (tapeData.length !== 0) {
+        //     tapeDisplay.innerHTML = tapeData[0] + " " + tapeData[1] + ": " + secondsToTimeStr(gCurrGETSeconds - timeStrToSeconds(tapeData[2]));
+        // }
+    };
+
+    slider.onmouseup = function() {
+        console.log("range changed");
+        var tapeDataHR1 = getTapeByGETseconds(gCurrGETSeconds, 10);
+        var noiserangeJSONUrlHR1 = "/mp3/" + tapeDataHR1[0] + "_defluttered_mp3_16/" + tapeDataHR1[0] + "_defluttered_mp3_16noiseranges.json";
+
+        var tapeDataHR2 = getTapeByGETseconds(gCurrGETSeconds, 40);
+        var noiserangeJSONUrlHR2 = "/mp3/" + tapeDataHR2[0] + "_defluttered_mp3_16/" + tapeDataHR2[0] + "_defluttered_mp3_16noiseranges.json";
+
+        $.when(ajaxGetTapeActivityJSONHR1(noiserangeJSONUrlHR1),
+            ajaxGetTapeActivityJSONHR2(noiserangeJSONUrlHR2)).done(function() {
+            console.log("APPREADY: both ajaxGetTapeActivity Ajax loaded");
+            mainApplication();
+        });
+    };
 }
 
 function drawChannels(startSecond, durationSeconds) {
@@ -138,7 +181,7 @@ function drawChannels(startSecond, durationSeconds) {
             var yCoord = lineCounter * 4;
             var currSegStart = -1;
             var prevXCoordActive = false;
-            for (var i = tapeStartSecond; i <= tapeEndSecond; i++) {
+            for (var i = parseInt(tapeStartSecond); i <= tapeEndSecond; i++) {
                 if (activeTapeActivityArray[i].includes(tapeChannelNum)) {
                     if (!prevXCoordActive) {
                         currSegStart = xCoord;
