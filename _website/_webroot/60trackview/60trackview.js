@@ -93,8 +93,10 @@ var gTooltipGroup;
 // var gCurrGETSeconds = -74768; //start at beginning of countdown
 
 window.onload = function() {
+    paper.install(window);
+
     $.when(ajaxGetTapeRangeData()).done(function() {
-        console.log("APPREADY: ajaxGetTapeRangeData Ajax loaded");
+        trace("APPREADY: ajaxGetTapeRangeData Ajax loaded");
 
         var tapeDataHR1 = getTapeByGETseconds(gCurrGETSeconds, 10);
         var noiserangeJSONUrlHR1 = "/mp3/" + tapeDataHR1[0] + "_defluttered_mp3_16/" + tapeDataHR1[0] + "_defluttered_mp3_16noiseranges.json";
@@ -104,7 +106,7 @@ window.onload = function() {
 
         $.when(ajaxGetTapeActivityJSONHR1(noiserangeJSONUrlHR1),
             ajaxGetTapeActivityJSONHR2(noiserangeJSONUrlHR2)).done(function() {
-            console.log("APPREADY: both ajaxGetTapeActivity Ajax loaded");
+            trace("APPREADY: both ajaxGetTapeActivity Ajax loaded");
             mainApplication();
         });
     });
@@ -112,8 +114,7 @@ window.onload = function() {
 
 $(window).resize(resizeAndRedrawCanvas);
 
-function resizeAndRedrawCanvas()
-{
+function resizeAndRedrawCanvas() {
     var canvas = document.getElementById('myCanvas');
     var desiredWidth = $(window).width(); // For instance: $(window).width();
     var desiredHeight = 225; // For instance $('#canvasContainer').height();
@@ -126,6 +127,7 @@ function resizeAndRedrawCanvas()
 }
 
 function mainApplication() {
+    trace("mainApplication ()");
     var canvas = document.getElementById('myCanvas');
     var slider = document.getElementById("myRange");
     var missionTimeDisplay = document.getElementById("missionTimeDisplay");
@@ -133,7 +135,6 @@ function mainApplication() {
     canvas.height = 225;
 
     paper.setup(canvas);
-    paper.install(window);
     gChannelLinesGroup = new paper.Group;
     gTool = new paper.Tool();
     gTooltipGroup = new paper.Group;
@@ -157,7 +158,7 @@ function mainApplication() {
     gPeaksInstance = peaks.init(options);
 
     gPeaksInstance.on('peaks.ready', function() {
-        console.log('peaks.ready');
+        trace('peaks.ready');
         // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
     });
 
@@ -169,7 +170,7 @@ function mainApplication() {
             for (var itemChildrenCounter = 0; itemChildrenCounter <= event.item.children.length; itemChildrenCounter++) {
                 if (event.item.children[itemChildrenCounter] !== undefined) {
                     if (event.item.children[itemChildrenCounter].contains(event.point)) {
-                        // console.log("mouse on item: " + event.item.children[itemChildrenCounter].name);
+                        // trace("mouse on item: " + event.item.children[itemChildrenCounter].name);
                         hoverChannelNum = event.item.children[itemChildrenCounter].name;
                     }
                 }
@@ -206,7 +207,7 @@ function mainApplication() {
             for (var itemChildrenCounter = 0; itemChildrenCounter <= event.item.children.length; itemChildrenCounter++) {
                 if (event.item.children[itemChildrenCounter] !== undefined) {
                     if (event.item.children[itemChildrenCounter].contains(event.point)) {
-                        // console.log("mouse on item: " + event.item.children[itemChildrenCounter].name);
+                        // trace("mouse on item: " + event.item.children[itemChildrenCounter].name);
                         hoverChannelNum = event.item.children[itemChildrenCounter].name;
                     }
                 }
@@ -225,7 +226,7 @@ function mainApplication() {
     };
 
     slider.onmousedown = function() {
-        console.log("slider mousedown");
+        trace("slider mousedown");
         clearInterval(gInterval); //clear the slider update playback interval
         gInterval = null;
         // gPeaksInstance.player.pause();
@@ -241,7 +242,7 @@ function mainApplication() {
     };
 
     slider.onmouseup = function() {
-        console.log("slider mouseup");
+        trace("slider mouseup");
         var tapeDataHR1 = getTapeByGETseconds(gCurrGETSeconds, 10);
         var noiserangeJSONUrlHR1 = "/mp3/" + tapeDataHR1[0] + "_defluttered_mp3_16/" + tapeDataHR1[0] + "_defluttered_mp3_16noiseranges.json";
 
@@ -250,7 +251,7 @@ function mainApplication() {
 
         $.when(ajaxGetTapeActivityJSONHR1(noiserangeJSONUrlHR1),
             ajaxGetTapeActivityJSONHR2(noiserangeJSONUrlHR2)).done(function() {
-            console.log("APPREADY: both ajaxGetTapeActivity Ajax loaded");
+            trace("slider mouseup: both ajaxGetTapeActivity Ajax loaded");
             startInterval();
         });
         loadChannelSoundfile();
@@ -264,7 +265,7 @@ function mainApplication() {
 
 function startInterval() {
     gInterval = setInterval(function(){
-        console.log("interval firing");
+        trace("interval firing");
         var slider = document.getElementById("myRange");
         var missionTimeDisplay = document.getElementById("missionTimeDisplay");
         var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
@@ -311,7 +312,7 @@ function loadChannelSoundfile() {
         gPeaksInstance.destroy();
         gPeaksInstance = peaks.init(options);
         gPeaksInstance.on('peaks.ready', function () {
-            console.log('peaks.ready');
+            trace('peaks.ready');
             // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
         });
     } else {
@@ -320,7 +321,7 @@ function loadChannelSoundfile() {
 }
 
 function playFromCurrGET() {
-    console.log("playFromCurrGET()");
+    trace("playFromCurrGET()");
     // var sliderVal = $('#myRange').val();
     // var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
 
@@ -442,7 +443,7 @@ function drawChannels(startSecond, durationSeconds) {
                 lineGroup = null;
             }
             else {
-                console.log("tapedata wrong");
+                trace("tapedata wrong");
             }
         }
     }
@@ -486,7 +487,7 @@ function getTapeByGETseconds(seconds, channel) {
         var startSeconds = timeStrToSeconds(tapeRanges[index][2]);
         var endSeconds = timeStrToSeconds(tapeRanges[index][3]);
         if (seconds >= startSeconds && seconds <= endSeconds) {
-            // console.log('getTapeByGETseconds: seconds:' + seconds + ' channel: ' + channel + ' tape: ' + tapeRanges[index][0]);
+            // trace('getTapeByGETseconds: seconds:' + seconds + ' channel: ' + channel + ' tape: ' + tapeRanges[index][0]);
             rec = tapeRanges[index];
             break;
         }
@@ -507,7 +508,7 @@ function ajaxGetTapeRangeData() {
 }
 
 function processTapeRangeData(allText) {
-    //console.log("processTapeRangeData");
+    //trace("processTapeRangeData");
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
@@ -516,7 +517,7 @@ function processTapeRangeData(allText) {
         rec.push(data[1]);
         rec.push(data[2]);
         rec.push(data[3]);
-        // console.log(timeStrToSeconds(data[2]));
+        // trace(timeStrToSeconds(data[2]));
         if (data[1].includes("HR1")){
             gTapeRangesHR1.push(rec);
         } else{
@@ -528,6 +529,7 @@ function processTapeRangeData(allText) {
 }
 
 function ajaxGetTapeActivityJSONHR1(jsonUrl) {
+    trace("ajaxGetTapeActivityJSONHR1(): " + jsonUrl);
     return $.ajax({
         type: "GET",
         url: jsonUrl,
@@ -544,6 +546,7 @@ function processActivityJSONHR1(data) {
 }
 
 function ajaxGetTapeActivityJSONHR2(jsonUrl) {
+    trace("ajaxGetTapeActivityJSONHR2(): " + jsonUrl);
     return $.ajax({
         type: "GET",
         url: jsonUrl,
@@ -607,5 +610,16 @@ function AddPoint5IfOdd(number) {
         return number + 0.5
     } else {
         return number;
+    }
+}
+
+function trace(str) {
+    var debug = true;
+    if (debug === true) {
+        try {
+            console.log(str);
+        } catch (e) {
+            //no console, no trace
+        }
     }
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="waveform.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/paper-full.js"></script>
+    <script src="js/waveform-data.js"></script>
+    <script src="waveform.js"></script>
+</head>
+<body>
+<div class="timediv">
+    <span class="h4 timespan">GET: <span id="missionTimeDisplay">-20:45:06</span></span>
+</div>
+<div class="slidecontainer">
+    <input type="range" min="1" max="100" value="0" class="slider" id="myRange" step="0.001"/>
+</div>
+<div>
+    <canvas id="myCanvas"></canvas>
+</div>
+<div>
+    <canvas id="myCanvas2"></canvas>
+</div>
+<div id="waveform-visualiser-container"></div>
+<div>
+    <audio id="audio-element" controls=controls>
+        <source id="track" src="http://dev.apolloinrealtime.org/mp3/T867_defluttered_mp3_16/defluttered_A11_T867_HR1L_CH14.mp3" type="audio/mpeg"/>
+    </audio>
+</div>
+</body>
+</html>
