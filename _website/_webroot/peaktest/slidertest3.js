@@ -111,7 +111,7 @@ function mainApplication() {
 function playFromCurrGET() {
     console.log("playFromCurrGET()");
     // var sliderVal = $('#myRange').val();
-    // var sliderMissionSeconds = (((sliderVal - 1) * missionDurationSeconds) / 99) - countdownSeconds;
+    // var sliderMissionSeconds = (((sliderVal - 1) * cMissionDurationSeconds) / 99) - cCountdownSeconds;
 
     var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
     var tapeCueTimeSeconds = gCurrGETSeconds - timeStrToSeconds(tapeData[2]);

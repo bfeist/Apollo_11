@@ -1,5 +1,8 @@
-const missionDurationSeconds = 784086;
-const countdownSeconds = 74768;
+const cMissionDurationSeconds = 784086;
+const cCountdownSeconds = 74768;
+const cCanvasHeight = 300;
+const cWavVerticaloffset = 190;
+const cWavHeight = 100;
 
 const cTrackNames = {
     ch1: 'HR1 Datastream',
@@ -78,15 +81,21 @@ const cColors = {
 
 var gTapeRangesHR1 = [];
 var gTapeRangesHR2 = [];
-var gPeaksInstance;
 var gActiveTape = "T867";
 var gActiveChannel = 14;
 var gActiveTapeActivityArrayHR1 = [];
 var gActiveTapeActivityArrayHR2 = [];
-var gCurrGETSeconds = -70000;
+var gCurrGETSeconds = -69500;
 var gInterval;
 var gChannelLinesGroup;
 var gTimeCursorGroup;
+
+var gWaveform;
+var gWaveform4096;
+var gWaveform2048;
+var gWaveform1024;
+var gWaveform512;
+var gPaperWaveformGroup;
 
 var gTool;
 var gTooltipGroup;
@@ -116,14 +125,11 @@ $(window).resize(resizeAndRedrawCanvas);
 
 function resizeAndRedrawCanvas() {
     var canvas = document.getElementById('myCanvas');
-    var canvas2 = document.getElementById('myCanvas2');
     var desiredWidth = $(window).width(); // For instance: $(window).width();
-    var desiredHeight = 225; // For instance $('#canvasContainer').height();
+    var desiredHeight = cCanvasHeight; // For instance $('#canvasContainer').height();
 
     canvas.width = desiredWidth;
     canvas.height = desiredHeight;
-    canvas2.width = desiredWidth;
-    canvas.height = 100;
 
     view.viewSize = new Size(desiredWidth, desiredHeight);
     view.draw();
@@ -135,7 +141,7 @@ function mainApplication() {
     var slider = document.getElementById("myRange");
     var missionTimeDisplay = document.getElementById("missionTimeDisplay");
     // canvas.width = 1000;
-    canvas.height = 225;
+    canvas.height = cCanvasHeight;
 
     paper.setup(canvas);
     gChannelLinesGroup = new paper.Group;
@@ -143,28 +149,8 @@ function mainApplication() {
     gTooltipGroup = new paper.Group;
     gTimeCursorGroup = new paper.Group;
 
-    var player = document.querySelector('#audio-element');
-
-    var options = {
-        container: document.getElementById('waveform-visualiser-container'),
-        mediaElement: player,
-        dataUri: {
-            arraybuffer: '/mp3/T867_defluttered_mp3_16/audiowaveform/defluttered_A11_T867_HR1L_CH14.dat'
-        },
-        zoomLevels: [512, 1024, 2048, 4096],
-        // zoomLevels: [8192],
-        keyboard: true,
-        pointMarkerColor: '#006eb0',
-        showPlayheadTime: false,
-        height: 100
-    };
-
-    gPeaksInstance = peaks.init(options);
-
-    gPeaksInstance.on('peaks.ready', function() {
-        trace('peaks.ready');
-        // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
-    });
+    var datFile = '/mp3/T867_defluttered_mp3_16/audiowaveform/defluttered_A11_T867_HR1L_CH14.dat';
+    ajaxGetWaveData(datFile);
 
     gTool.onMouseMove = function (event) {
         // paper.project.activeLayer.children['tooltip'].remove();
@@ -181,16 +167,16 @@ function mainApplication() {
             }
         }
 
-        if (hoverChannelNum !== undefined) {
+        if (hoverChannelNum !== undefined && hoverChannelNum !== 'wav') {
             var tooltipText = new paper.PointText({
                 justification: 'left',
                 fontWeight: 'bold',
                 // fontFamily: graphFontFamily,
                 fontSize: 11,
-                fillColor:  cColors.tooltipColor
+                fillColor: cColors.tooltipColor
             });
 
-            tooltipText.content = hoverChannelNum + " - " + cTrackNames[hoverChannelNum] + " \n"
+            tooltipText.content = event.point.y + hoverChannelNum + " - " + cTrackNames[hoverChannelNum] + " \n"
                 + secondsToTimeStr(gCurrGETSeconds - Math.round($(window).width() / 2) + event.point.x);
             tooltipText.point = new paper.Point(event.point.x + 20, event.point.y + 13);
             gTooltipGroup.addChild(tooltipText);
@@ -199,33 +185,40 @@ function mainApplication() {
             tooltip.fillColor = cColors.tooltipFillColor;
             tooltip.strokeColor = cColors.tooltipColor;
 
+
             gTooltipGroup.addChild(tooltip);
-            tooltip.sendToBack();
+            tooltip.moveBelow(tooltipText);
+            gTooltipGroup.bringToFront();
         }
     };
 
     gTool.onMouseDown = function (event) {
-        //set channel
-        var hoverChannelNum = undefined;
-        if (event.item) {
-            for (var itemChildrenCounter = 0; itemChildrenCounter <= event.item.children.length; itemChildrenCounter++) {
-                if (event.item.children[itemChildrenCounter] !== undefined) {
-                    if (event.item.children[itemChildrenCounter].contains(event.point)) {
-                        // trace("mouse on item: " + event.item.children[itemChildrenCounter].name);
-                        hoverChannelNum = event.item.children[itemChildrenCounter].name;
+        if (event.point.y <= 203) {
+            //set channel
+            var hoverChannelNum = undefined;
+            if (event.item) {
+                for (var itemChildrenCounter = 0; itemChildrenCounter <= event.item.children.length; itemChildrenCounter++) {
+                    if (event.item.children[itemChildrenCounter] !== undefined) {
+                        if (event.item.children[itemChildrenCounter].contains(event.point)) {
+                            // trace("mouse on item: " + event.item.children[itemChildrenCounter].name);
+                            hoverChannelNum = event.item.children[itemChildrenCounter].name;
+                        }
                     }
                 }
             }
-        }
-        if (hoverChannelNum !== undefined) {
-            gActiveChannel = parseInt(hoverChannelNum.substr(2,2));
-            loadChannelSoundfile();
-        }
+            if (hoverChannelNum !== undefined && hoverChannelNum !== 'wav') {
+                gActiveChannel = parseInt(hoverChannelNum.substr(2, 2));
+                loadChannelSoundfile();
+            }
 
-        //set GET
-        var mouseGEToffset = event.point.x - Math.round($(window).width() / 2);
-        gCurrGETSeconds = gCurrGETSeconds + mouseGEToffset;
-
+            //set GET
+            var mouseGEToffset = event.point.x - Math.round($(window).width() / 2);
+            gCurrGETSeconds = gCurrGETSeconds + mouseGEToffset;
+        } else {
+            //set GET from wav click
+            mouseGEToffset = (event.point.x - Math.round($(window).width() / 2)) * gWaveform512.seconds_per_pixel;
+            gCurrGETSeconds = gCurrGETSeconds + mouseGEToffset;
+        }
         playFromCurrGET();
     };
 
@@ -238,7 +231,7 @@ function mainApplication() {
 
     // Update the current slider value (each time you drag the slider handle)
     slider.oninput = function () {
-        gCurrGETSeconds = (((this.value - 1) * missionDurationSeconds) / 99) - countdownSeconds;
+        gCurrGETSeconds = (((this.value - 1) * cMissionDurationSeconds) / 99) - cCountdownSeconds;
         missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
 
         drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), $(window).width());
@@ -262,6 +255,8 @@ function mainApplication() {
         playFromCurrGET();
     };
 
+    gPaperWaveformGroup = new paper.Group;
+
     playFromCurrGET();
     startInterval();
     resizeAndRedrawCanvas();
@@ -272,54 +267,70 @@ function startInterval() {
         trace("interval firing");
         var slider = document.getElementById("myRange");
         var missionTimeDisplay = document.getElementById("missionTimeDisplay");
+        var player = document.getElementById("audio-element");
+
         var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
-        var currSeconds = gPeaksInstance.player.getCurrentTime();
+        var currSeconds = player.currentTime;
         currSeconds = currSeconds === undefined ? 1 : currSeconds;
         gCurrGETSeconds = currSeconds + timeStrToSeconds(tapeData[2]);
         drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), $(window).width());
         drawTimeCursor();
         missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
-        slider.value = (((gCurrGETSeconds + countdownSeconds) * 99) / missionDurationSeconds);
+        slider.value = (((gCurrGETSeconds + cCountdownSeconds) * 99) / cMissionDurationSeconds);
         // gCurrGETSeconds++;
     }, 1000);
 }
 
+function wavDataLoaded() {
+    paper.view.onFrame = function(event) {
+        var player = document.getElementById('audio-element');
+        var canvas = document.getElementById('myCanvas');
+        // gCurrGETSeconds = player.currentTime;
+
+        gPaperWaveformGroup.removeChildren();
+
+        var wavePath1 = new paper.Path({
+            strokeWidth: 0.5,
+            strokeColor: cColors.activeLineSelectedChannel,
+            fillColor: cColors.activeLineSelectedChannel,
+            name: "wav"
+        });
+
+        var offsetStart = Math.round(player.currentTime * gWaveform512.pixels_per_second) - Math.round(canvas.width / 2);
+        offsetStart = (offsetStart < 0) ? 0 : offsetStart;
+        var offsetEnd = offsetStart + canvas.width;
+
+        gWaveform512.offset(offsetStart, offsetEnd);
+        // trace("gWaveform offset_duration: " + gWaveform4096.offset_duration);
+
+        gWaveform512.min.forEach(function (val, x) {
+            wavePath1.add(new Point(x + 0.1, interpolateHeight(cWavHeight, val) + 0.5 + cWavVerticaloffset));
+        });
+        gWaveform512.max.reverse().forEach(function (val, x) {
+            wavePath1.add(new Point(gWaveform512.offset_length - x - 0.5, interpolateHeight(cWavHeight, val) - 0.5 + cWavVerticaloffset));
+        });
+        // var wavePath1Raster = wavePath1.rasterize();
+        gPaperWaveformGroup.addChild(wavePath1);
+
+        gPaperWaveformGroup.moveBelow(gTimeCursorGroup);
+    }
+}
+
 function loadChannelSoundfile() {
     var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
+    var player = document.getElementById("audio-element");
+
     if (tapeData.length !== 0 && tapeData[0] !== 'T999') {
         gActiveTape = tapeData[0];
         var channel = (gActiveChannel > 30) ? gActiveChannel - 30 : gActiveChannel;
-
         var filename = "defluttered_A11_" + tapeData[0] + "_" + tapeData[1] + "_CH" + channel;
-        // var waveformContainer = (hr_type === "HR1") ? "hr1-waveform-visualiser-container" : "hr2-waveform-visualiser-container";
-        var waveformContainer = "waveform-visualiser-container";
-        // var audioElementName = (hr_type === "HR1") ? "hr1-audio-element" : "hr2-audio-element";
-        var audioElementName = "audio-element";
-        var audioElement = document.getElementById(audioElementName);
 
-        audioElement.src = "/mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
-        audioElement.load();
+        player.src = "/mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
+        player.load();
 
-        var options = {
-            container: document.getElementById(waveformContainer),
-            mediaElement: audioElement,
-            dataUri: {
-                arraybuffer: "/mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform/" + filename + '.dat'
-            },
-            zoomLevels: [512, 1024, 2048, 4096],
-            // zoomLevels: [8192],
-            keyboard: true,
-            pointMarkerColor: '#006eb0',
-            showPlayheadTime: false,
-            height: 100
-        };
+        var datFile = "/mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform/" + filename + '.dat';
+        ajaxGetWaveData(datFile);
 
-        gPeaksInstance.destroy();
-        gPeaksInstance = peaks.init(options);
-        gPeaksInstance.on('peaks.ready', function () {
-            trace('peaks.ready');
-            // document.getElementsByClassName("overview-container")[0].style.visibility = 'hidden';
-        });
     } else {
         alert("No tape audio for this channel at this time");
     }
@@ -327,6 +338,7 @@ function loadChannelSoundfile() {
 
 function playFromCurrGET() {
     trace("playFromCurrGET()");
+    var player = document.getElementById("audio-element");
     // var sliderVal = $('#myRange').val();
     // var sliderMissionSeconds = (((sliderVal - 1) * cMissionDurationSeconds) / 99) - cCountdownSeconds;
 
@@ -334,8 +346,8 @@ function playFromCurrGET() {
     var tapeCueTimeSeconds = gCurrGETSeconds - timeStrToSeconds(tapeData[2]);
 
     // if (tapeData.length !== 0) {
-    gPeaksInstance.player.seek(tapeCueTimeSeconds);
-    gPeaksInstance.player.play();
+    player.currentTime = tapeCueTimeSeconds;
+    player.play();
     // }
 }
 
@@ -457,11 +469,11 @@ function drawChannels(startSecond, durationSeconds) {
 
 function drawTimeCursor() {
     gTimeCursorGroup.removeChildren();
-    var startPoint = new paper.Point(Math.round($(window).width() / 2), 0);
-    var endPoint = new paper.Point(Math.round($(window).width() / 2), 210);
+    var startPoint = new paper.Point(Math.round($(window).width() / 2) + 0.5, 0);
+    var endPoint = new paper.Point(Math.round($(window).width() / 2) + 0.5, cCanvasHeight - 10);
     var aLine = new paper.Path.Line(startPoint, endPoint);
     aLine.strokeColor = cColors.cursorColor;
-    aLine.strokeWidth = 2;
+    aLine.strokeWidth = 1;
     aLine.name = "timeCursor";
     gTimeCursorGroup.addChild(aLine);
 
@@ -472,7 +484,7 @@ function drawTimeCursor() {
         fillColor: cColors.cursorColor
     });
     timeText.content = secondsToTimeStr(gCurrGETSeconds);
-    timeText.point = new paper.Point(Math.round($(window).width() / 2) - timeText.bounds.width / 2, 220);
+    timeText.point = new paper.Point(Math.round($(window).width() / 2) - timeText.bounds.width / 2, cCanvasHeight - 10);
     var cornerSize = new paper.Size(3, 3);
     var timeTextRect = new paper.Path.RoundRectangle(timeText.bounds, cornerSize);
     //var timeTextRect = new paper.Path.Rectangle(timeText.bounds);
@@ -568,6 +580,26 @@ function processActivityJSONHR2(data) {
     gActiveTapeActivityArrayHR2 = data;
 }
 
+function ajaxGetWaveData(url) {
+    const xhr = new XMLHttpRequest();
+// .dat file generated by audiowaveform program
+    xhr.responseType = 'arraybuffer';
+    xhr.open("GET", url);
+
+    xhr.addEventListener('load', function (progressEvent) {
+        gWaveform = WaveformData.create(progressEvent.target);
+        gWaveform4096 = gWaveform.resample({scale: 4096});
+        gWaveform2048 = gWaveform.resample({scale: 2048});
+        gWaveform1024 = gWaveform.resample({scale: 1024});
+        gWaveform512 = gWaveform.resample({scale: 512});
+
+        trace("APPREADY: gWaveform Ajax loaded");
+        trace(gWaveform.duration);
+        wavDataLoaded();
+    });
+    xhr.send();
+}
+
 //------------ helpers
 
 function secondsToTimeStr(totalSeconds) {
@@ -628,4 +660,9 @@ function trace(str) {
             //no console, no trace
         }
     }
+}
+
+function interpolateHeight(total_height, size) {
+    var amplitude = 256;
+    return total_height - (size + 128) * total_height / amplitude;
 }

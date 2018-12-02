@@ -75,7 +75,6 @@ function mainApplication() {
         audio = document.getElementById('audio-element');
         gCurrGETSeconds = audio.currentTime;
 
-        gLastPlayerTime = gCurrGETSeconds;
         gPaperWaveformGroup.removeChildren();
         gTimeCursorGroup.removeChildren();
 
@@ -84,13 +83,6 @@ function mainApplication() {
             strokeColor: 'green',
             fillColor: 'green'
         });
-
-        // trace("gWaveform seconds_per_pixel: " + gWaveform.seconds_per_pixel);
-        // trace("gWaveform pixels_per_second: " + gWaveform.pixels_per_second);
-        //
-        // trace("gWaveform4096 seconds_per_pixel: " + gWaveform4096.seconds_per_pixel);
-        // trace("gWaveform4096 pixels_per_second: " + gWaveform4096.pixels_per_second);
-
 
         var offsetStart = Math.round(gCurrGETSeconds * gWaveform512.pixels_per_second) - Math.round(canvas.width / 2);
         var offsetEnd = offsetStart + canvas.width;
@@ -104,7 +96,6 @@ function mainApplication() {
         gWaveform512.max.reverse().forEach(function (val, x) {
             wavePath1.add(new Point(gWaveform512.offset_length - x - 0.5, interpolateHeight(canvas.height, val) - 0.5));
         });
-
         // var wavePath1Raster = wavePath1.rasterize();
         gPaperWaveformGroup.addChild(wavePath1);
 
@@ -115,10 +106,6 @@ function mainApplication() {
         aLine.strokeWidth = 1;
         aLine.name = "timeCursor";
         gTimeCursorGroup.addChild(aLine);
-
-        // gCurrGETSeconds++;
-
-        gLastPlayerTime = gCurrGETSeconds;
     }
 }
 
@@ -145,7 +132,7 @@ function ajaxGetWaveData(url) {
 function resizeAndRedrawCanvas() {
     var canvas = document.getElementById('myCanvas');
     var desiredWidth = $(window).width(); // For instance: $(window).width();
-    var desiredHeight = 225; // For instance $('#canvasContainer').height();
+    var desiredHeight = 100; // For instance $('#canvasContainer').height();
 
     canvas.width = desiredWidth;
     canvas.height = desiredHeight;
