@@ -68,15 +68,15 @@ const cTrackNames = {
 };
 
 const cColors = {
-    activeLine: 'black',
-    activeLineSelectedChannel: '#00FF00',
-    inactiveLine: '#DDDDDD',
-    inactiveLineSelectedChannel: '#cdffcc',
-    fillerLine: '#FFFFFF',
+    activeLine: '#636363',
+    activeLineSelectedChannel: '#7cb7e0',
+    inactiveLine: '#1c1c1c',
+    inactiveLineSelectedChannel: '#214557',
+    fillerLine: '#000000',
     cursorColor: 'red',
-    cursorFillColor: 'black',
-    tooltipColor: 'black',
-    tooltipFillColor: 'white'
+    cursorFillColor: '#000000',
+    tooltipColor: '#DDDDDD',
+    tooltipFillColor: '#000000'
 };
 
 var gTapeRangesHR1 = [];
@@ -194,7 +194,7 @@ function mainApplication() {
     };
 
     gTool.onMouseDown = function (event) {
-        if (event.point.y <= 203) {
+        if (event.point.y <= 203) { //if in the top mulitrack area
             //set channel
             var hoverChannelNum = undefined;
             if (event.item) {
@@ -215,12 +215,14 @@ function mainApplication() {
             //set GET
             var mouseGEToffset = event.point.x - Math.round($(window).width() / 2);
             gCurrGETSeconds = gCurrGETSeconds + mouseGEToffset;
-        } else {
+        } else { //if in the wav form area
             //set GET from wav click
             mouseGEToffset = (event.point.x - Math.round($(window).width() / 2)) * gWaveform512.seconds_per_pixel;
             gCurrGETSeconds = gCurrGETSeconds + mouseGEToffset;
         }
         playFromCurrGET();
+        drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), $(window).width());
+        drawTimeCursor();
     };
 
     slider.onmousedown = function() {
