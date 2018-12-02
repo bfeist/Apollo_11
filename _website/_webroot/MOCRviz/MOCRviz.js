@@ -89,6 +89,7 @@ var gCurrGETSeconds = -69500;
 var gInterval;
 var gChannelLinesGroup;
 var gTimeCursorGroup;
+var gChannelNameGroup;
 
 var gWaveform;
 var gWaveform4096;
@@ -148,9 +149,7 @@ function mainApplication() {
     gTool = new paper.Tool();
     gTooltipGroup = new paper.Group;
     gTimeCursorGroup = new paper.Group;
-
-    var datFile = '/mp3/T867_defluttered_mp3_16/audiowaveform/defluttered_A11_T867_HR1L_CH14.dat';
-    ajaxGetWaveData(datFile);
+    gChannelNameGroup = new paper.Group;
 
     gTool.onMouseMove = function (event) {
         // paper.project.activeLayer.children['tooltip'].remove();
@@ -176,8 +175,10 @@ function mainApplication() {
                 fillColor: cColors.tooltipColor
             });
 
-            tooltipText.content = event.point.y + hoverChannelNum + " - " + cTrackNames[hoverChannelNum] + " \n"
-                + secondsToTimeStr(gCurrGETSeconds - Math.round($(window).width() / 2) + event.point.x);
+            // tooltipText.content = hoverChannelNum + " - " + cTrackNames[hoverChannelNum] + " \n"
+            //     + secondsToTimeStr(gCurrGETSeconds - Math.round($(window).width() / 2) + event.point.x);
+            tooltipText.content = cTrackNames[hoverChannelNum] + " \n" +
+                secondsToTimeStr(gCurrGETSeconds - Math.round($(window).width() / 2) + event.point.x);
             tooltipText.point = new paper.Point(event.point.x + 20, event.point.y + 13);
             gTooltipGroup.addChild(tooltipText);
 
@@ -257,9 +258,11 @@ function mainApplication() {
 
     gPaperWaveformGroup = new paper.Group;
 
+    resizeAndRedrawCanvas();
+    loadChannelSoundfile();
     playFromCurrGET();
     startInterval();
-    resizeAndRedrawCanvas();
+
 }
 
 function startInterval() {
@@ -330,10 +333,31 @@ function loadChannelSoundfile() {
 
         var datFile = "/mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform/" + filename + '.dat';
         ajaxGetWaveData(datFile);
-
+        drawChannelName();
     } else {
         alert("No tape audio for this channel at this time");
     }
+}
+
+function drawChannelName() {
+    gChannelNameGroup.removeChildren();
+    var channelText = new paper.PointText({
+        justification: 'left',
+        fontSize: 14,
+        fillColor: cColors.tooltipColor,
+        strokeColor: cColors.tooltipColor
+    });
+    channelText.content = cTrackNames['ch' + gActiveChannel];
+    channelText.point = new paper.Point(10, cCanvasHeight - 75);
+    var cornerSize = new paper.Size(3, 3);
+
+    var channelTextRect = new paper.Path.RoundRectangle(channelText.bounds, cornerSize);
+    channelTextRect.strokeColor = cColors.tooltipColor;
+    channelTextRect.fillColor = cColors.tooltipFillColor;
+    channelTextRect.scale(1.1, 1.2);
+
+    gChannelNameGroup.addChild(channelTextRect);
+    gChannelNameGroup.addChild(channelText);
 }
 
 function playFromCurrGET() {
