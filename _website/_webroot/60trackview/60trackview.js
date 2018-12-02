@@ -86,7 +86,7 @@ var gActiveTapeActivityArrayHR2 = [];
 var gCurrGETSeconds = -70000;
 var gInterval;
 var gChannelLinesGroup;
-var gTimeCursurGroup;
+var gTimeCursorGroup;
 
 var gTool;
 var gTooltipGroup;
@@ -138,7 +138,7 @@ function mainApplication() {
     gChannelLinesGroup = new paper.Group;
     gTool = new paper.Tool();
     gTooltipGroup = new paper.Group;
-    gTimeCursurGroup = new paper.Group;
+    gTimeCursorGroup = new paper.Group;
 
     var player = document.querySelector('#audio-element');
 
@@ -149,6 +149,7 @@ function mainApplication() {
             arraybuffer: '/mp3/T867_defluttered_mp3_16/audiowaveform/defluttered_A11_T867_HR1L_CH14.dat'
         },
         zoomLevels: [512, 1024, 2048, 4096],
+        // zoomLevels: [8192],
         keyboard: true,
         pointMarkerColor: '#006eb0',
         showPlayheadTime: false,
@@ -303,6 +304,7 @@ function loadChannelSoundfile() {
                 arraybuffer: "/mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform/" + filename + '.dat'
             },
             zoomLevels: [512, 1024, 2048, 4096],
+            // zoomLevels: [8192],
             keyboard: true,
             pointMarkerColor: '#006eb0',
             showPlayheadTime: false,
@@ -434,13 +436,14 @@ function drawChannels(startSecond, durationSeconds) {
                     }
                 }
 
-                if (lineGroup.children.length > 0) {
-                    var lineGroupRaster = lineGroup.rasterize();
-                    lineGroupRaster.name = 'ch' + channelCount;
-                    gChannelLinesGroup.addChild(lineGroupRaster);
-                }
-                lineGroup.remove();
-                lineGroup = null;
+                // if (lineGroup.children.length > 0) {
+                //     var lineGroupRaster = lineGroup.rasterize();
+                //     lineGroupRaster.name = 'ch' + channelCount;
+                //     gChannelLinesGroup.addChild(lineGroupRaster);
+                // }
+                // lineGroup.remove();
+                // lineGroup = null;
+                gChannelLinesGroup.addChild(lineGroup);
             }
             else {
                 trace("tapedata wrong");
@@ -450,14 +453,14 @@ function drawChannels(startSecond, durationSeconds) {
 }
 
 function drawTimeCursor() {
-    gTimeCursurGroup.removeChildren();
+    gTimeCursorGroup.removeChildren();
     var startPoint = new paper.Point(Math.round($(window).width() / 2), 0);
     var endPoint = new paper.Point(Math.round($(window).width() / 2), 210);
     var aLine = new paper.Path.Line(startPoint, endPoint);
     aLine.strokeColor = cColors.cursorColor;
     aLine.strokeWidth = 2;
     aLine.name = "timeCursor";
-    gTimeCursurGroup.addChild(aLine);
+    gTimeCursorGroup.addChild(aLine);
 
     var timeText = new paper.PointText({
         justification: 'left',
@@ -474,8 +477,8 @@ function drawTimeCursor() {
     timeTextRect.fillColor = cColors.cursorFillColor;
     //timeTextRect.opacity = 0.5;
     timeTextRect.scale(1.1, 1.2);
-    gTimeCursurGroup.addChild(timeTextRect);
-    gTimeCursurGroup.addChild(timeText);
+    gTimeCursorGroup.addChild(timeTextRect);
+    gTimeCursorGroup.addChild(timeText);
 }
 
 
