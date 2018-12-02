@@ -92,7 +92,6 @@ var gActiveTapeActivityArrayHR1 = [];
 var gActiveTapeActivityArrayHR2 = [];
 var gCurrGETSeconds = -69500;
 var gLastRoundedGET = -69500;
-var gInterval;
 
 var gChannelLinesGroup;
 var gTimeCursorGroup;
@@ -284,14 +283,15 @@ function mainApplication() {
 
     slider.onmousedown = function() {
         trace("slider mousedown");
-        gTapesDataLoaded = false;
         // gPeaksInstance.player.pause();
     };
 
     // Update the current slider value (each time you drag the slider handle)
     slider.oninput = function () {
+        trace("slider oninput");
         gCurrGETSeconds = (((this.value - 1) * cMissionDurationSeconds) / 99) - cCountdownSeconds;
         missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
+        gLastRoundedGET = Math.round(gCurrGETSeconds);
 
         drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), $(window).width());
         drawTimeCursor();
@@ -299,6 +299,8 @@ function mainApplication() {
 
     slider.onmouseup = function() {
         trace("slider mouseup");
+        gCurrGETSeconds = (((this.value - 1) * cMissionDurationSeconds) / 99) - cCountdownSeconds;
+        missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
         gLastRoundedGET = Math.round(gCurrGETSeconds);
 
         var tapeDataHR1 = getTapeByGETseconds(gCurrGETSeconds, 10);
@@ -306,6 +308,8 @@ function mainApplication() {
 
         var tapeDataHR2 = getTapeByGETseconds(gCurrGETSeconds, 40);
         var noiserangeJSONUrlHR2 = "/mp3/" + tapeDataHR2[0] + "_defluttered_mp3_16/" + tapeDataHR2[0] + "_defluttered_mp3_16noiseranges.json";
+
+        gTapesDataLoaded = false;
 
         $.when(ajaxGetTapeActivityJSONHR1(noiserangeJSONUrlHR1),
             ajaxGetTapeActivityJSONHR2(noiserangeJSONUrlHR2)).done(function() {
