@@ -1,10 +1,12 @@
 const cMissionDurationSeconds = 784086;
 const cCountdownSeconds = 74768;
 const cNumberOfActiveTapeChannels = 50;
+
 const cCanvasHeight = 350;
+const cWavVerticaloffset = (cCanvasHeight / 2 + 65);
+const cWavHeight = 100;
 const cChannelStrokeWidth = 4;
 const cFillerStrokeWidth = 1;
-const cWavHeight = 100;
 
 const cTrackInfo = {
     ch1: ['HR1 Datastream', ''],
@@ -172,9 +174,9 @@ function mainApplication() {
             // paper.project.activeLayer.children['tooltip'].remove();
             gTooltipGroup.removeChildren();
 
-            var availableChannelsIndex = Math.round((event.point.y - cChannelStrokeWidth / 2) / (cChannelStrokeWidth + cFillerStrokeWidth));
+            var availableChannelsIndex = Math.trunc((event.point.y - cChannelStrokeWidth / 2) / (cChannelStrokeWidth + cFillerStrokeWidth));
             availableChannelsIndex = availableChannelsIndex > cNumberOfActiveTapeChannels - 1 ? cNumberOfActiveTapeChannels - 1 : availableChannelsIndex;
-            availableChannelsIndex = availableChannelsIndex < 1 ? 1 : availableChannelsIndex;
+            availableChannelsIndex = availableChannelsIndex < 0 ? 0 : availableChannelsIndex;
             var hoverChannelNum = 'ch' + cAvailableChannelsArray[availableChannelsIndex];
 
             var tooltipText = new paper.PointText({
@@ -206,7 +208,7 @@ function mainApplication() {
             //determine channel clicked
             var availableChannelsIndex = Math.round((event.point.y - cChannelStrokeWidth / 2) / (cChannelStrokeWidth + cFillerStrokeWidth));
             availableChannelsIndex = availableChannelsIndex > cNumberOfActiveTapeChannels - 1 ? cNumberOfActiveTapeChannels - 1 : availableChannelsIndex;
-            availableChannelsIndex = availableChannelsIndex < 1 ? 1 : availableChannelsIndex;
+            availableChannelsIndex = availableChannelsIndex < 0 ? 0 : availableChannelsIndex;
             var hoverChannelNum = 'ch' + cAvailableChannelsArray[availableChannelsIndex];
 
             gActiveChannel = parseInt(hoverChannelNum.substr(2, 2));
@@ -229,72 +231,67 @@ function mainApplication() {
 
     paper.view.onFrame = function(event) {
         var player = document.getElementById("audio-element");
-        var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
-        var currSeconds = player.currentTime;
-        currSeconds = currSeconds === undefined ? 0 : currSeconds;
-        gCurrGETSeconds = currSeconds + timeStrToSeconds(tapeData[2]);
+        if (!player.paused) {            
+            var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
+            var currSeconds = player.currentTime;
+            currSeconds = currSeconds === undefined ? 0 : currSeconds;
+            gCurrGETSeconds = currSeconds + timeStrToSeconds(tapeData[2]);
 
-        if (gTapesDataLoaded && Math.round(gCurrGETSeconds) > gLastRoundedGET) {
-            var slider = document.getElementById("myRange");
-            slider.value = (((gCurrGETSeconds + cCountdownSeconds) * 99) / cMissionDurationSeconds);
+            if (gTapesDataLoaded && Math.round(gCurrGETSeconds) > gLastRoundedGET) {
+                var slider = document.getElementById("myRange");
+                slider.value = (((gCurrGETSeconds + cCountdownSeconds) * 99) / cMissionDurationSeconds);
 
-            var missionTimeDisplay = document.getElementById("missionTimeDisplay");
-            missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
+                var missionTimeDisplay = document.getElementById("missionTimeDisplay");
+                missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
 
-            drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), $(window).width());
-            drawTimeCursor();
+                drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), $(window).width());
+                drawTimeCursor();
 
-            gLastRoundedGET = Math.round(gCurrGETSeconds);
-        }
+                gLastRoundedGET = Math.round(gCurrGETSeconds);
+            }
 
-        if (gWavDataLoaded) {
-            const cWavVerticaloffset = (cCanvasHeight / 2 + 65);
-            var canvas = document.getElementById('myCanvas');
-            // gCurrGETSeconds = player.currentTime;
+            if (gWavDataLoaded) {
+                // gCurrGETSeconds = player.currentTime;
+                gPaperWaveformGroup.removeChildren();
 
-            gPaperWaveformGroup.removeChildren();
+                var wavePath1 = new paper.Path({
+                    strokeWidth: 0.5,
+                    strokeColor: cColors.activeLineSelectedChannel,
+                    fillColor: cColors.activeLineSelectedChannel,
+                    name: "wav"
+                });
 
-            var wavePath1 = new paper.Path({
-                strokeWidth: 0.5,
-                strokeColor: cColors.activeLineSelectedChannel,
-                fillColor: cColors.activeLineSelectedChannel,
-                name: "wav"
-            });
+                var offsetStart = Math.round(player.currentTime * gWaveform512.pixels_per_second) - Math.round($(window).width() / 2);
+                offsetStart = (offsetStart < 0) ? 0 : offsetStart;
+                var offsetEnd = offsetStart + $(window).width();
 
-            var offsetStart = Math.round(player.currentTime * gWaveform512.pixels_per_second) - Math.round(canvas.width / 2);
-            offsetStart = (offsetStart < 0) ? 0 : offsetStart;
-            var offsetEnd = offsetStart + canvas.width;
+                gWaveform512.offset(offsetStart, offsetEnd);
 
-            gWaveform512.offset(offsetStart, offsetEnd);
-            // trace("gWaveform offset_duration: " + gWaveform4096.offset_duration);
-
-            gWaveform512.min.forEach(function (val, x) {
-                wavePath1.add(new Point(x + 0.1, interpolateHeight(cWavHeight, val) + 0.5 + cWavVerticaloffset));
-            });
-            gWaveform512.max.reverse().forEach(function (val, x) {
-                wavePath1.add(new Point(gWaveform512.offset_length - x - 0.5, interpolateHeight(cWavHeight, val) - 0.5 + cWavVerticaloffset));
-            });
-            // var wavePath1Raster = wavePath1.rasterize();
-            gPaperWaveformGroup.addChild(wavePath1);
-
-            gPaperWaveformGroup.moveBelow(gTimeCursorGroup);
+                gWaveform512.min.forEach(function (val, x) {
+                    wavePath1.add(new Point(x + 0.1, interpolateHeight(cWavHeight, val) + 0.5 + cWavVerticaloffset));
+                });
+                gWaveform512.max.reverse().forEach(function (val, x) {
+                    wavePath1.add(new Point(gWaveform512.offset_length - x - 0.5, interpolateHeight(cWavHeight, val) - 0.5 + cWavVerticaloffset));
+                });
+                // var wavePath1Raster = wavePath1.rasterize();
+                gPaperWaveformGroup.addChild(wavePath1);
+                gPaperWaveformGroup.moveBelow(gTimeCursorGroup);
+            }
         }
     };
 
     slider.onmousedown = function() {
         trace("slider mousedown");
         // gPeaksInstance.player.pause();
+        gTapesDataLoaded = false;
     };
 
     // Update the current slider value (each time you drag the slider handle)
     slider.oninput = function () {
         trace("slider oninput");
-        gCurrGETSeconds = (((this.value - 1) * cMissionDurationSeconds) / 99) - cCountdownSeconds;
-        missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
-        gLastRoundedGET = Math.round(gCurrGETSeconds);
-
-        drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), $(window).width());
-        drawTimeCursor();
+        var tempGET = (((this.value - 1) * cMissionDurationSeconds) / 99) - cCountdownSeconds;
+        missionTimeDisplay.innerHTML = secondsToTimeStr(tempGET);
+        // gLastRoundedGET = Math.round(tempGET);
     };
 
     slider.onmouseup = function() {
@@ -315,7 +312,8 @@ function mainApplication() {
             ajaxGetTapeActivityJSONHR2(noiserangeJSONUrlHR2)).done(function() {
             trace("slider mouseup: both ajaxGetTapeActivity Ajax loaded");
             gTapesDataLoaded = true;
-            // startInterval();
+            drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), $(window).width());
+            drawTimeCursor();
         });
         loadChannelSoundfile();
         playFromCurrGET();
@@ -343,6 +341,8 @@ function loadChannelSoundfile() {
         player.load();
 
         var datFile = "/mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform/" + filename + '.dat';
+
+        trace("loading tape: " + filename + " :datFile: " + datFile);
 
         gWavDataLoaded = false;
         ajaxGetWaveData(datFile);
@@ -393,18 +393,22 @@ function playFromCurrGET() {
 
 //CANVAS ---
 
-function drawChannels(startSecond, durationSeconds) {
+function drawChannels(startGETSecond, durationSeconds) {
     gChannelLinesGroup.removeChildren();
-    var partialSecond = startSecond % 1;
+    var partialSecond = startGETSecond % 1;
 
     // for (var iCh = 0; iCh < 60 * (cChannelStrokeWidth + cFillerStrokeWidth); iCh = iCh + cChannelStrokeWidth + cFillerStrokeWidth) {
 
     cAvailableChannelsArray.forEach(function (channelNum, x) {
         //get tape start/end based on GET
-        var tapeData = getTapeByGETseconds(gCurrGETSeconds, channelNum);
-        if (tapeData.length !== 0) {
-            var tapeTimeStartSecond = startSecond - timeStrToSeconds(tapeData[2]);
-            var tapeTimeEndSecond = tapeTimeStartSecond + durationSeconds;
+        var tapeData = getTapeByGETseconds(startGETSecond, channelNum);
+        if (tapeData.length > 0) {
+            var tapeIntervalStartSecond = (startGETSecond + cCountdownSeconds) - (timeStrToSeconds(tapeData[2]) + cCountdownSeconds);
+            var tapeIntervalEndSecond = tapeIntervalStartSecond + durationSeconds;
+
+            // if (tapeIntervalEndSecond + cCountdownSeconds > timeStrToSeconds(tapeData[3]) + cCountdownSeconds) {
+            //     tapeIntervalEndSecond = timeStrToSeconds(tapeData[3]);
+            // }
 
             var activeTapeActivityArray = [];
             var tapeChannelNum;
@@ -448,7 +452,7 @@ function drawChannels(startSecond, durationSeconds) {
             lineGroup.addChild(inactiveLine);
 
             if (activeTapeActivityArray.length !== 0) { //if there is tape data for this GET then draw activity
-                for (var i = Math.round(tapeTimeStartSecond); i <= tapeTimeEndSecond; i++) {
+                for (var i = Math.round(tapeIntervalStartSecond); i <= tapeIntervalEndSecond; i++) {
                     if (activeTapeActivityArray[i].includes(tapeChannelNum)) {
                         if (!prevXCoordActive) {
                             currSegStart = xCoord;
@@ -548,6 +552,9 @@ function getTapeByGETseconds(seconds, channel) {
             break;
         }
     }
+    if (rec.length == 0) {
+        trace("getTapeByGETseconds returing empty rec");
+    }
     return rec;
 }
 
@@ -590,15 +597,14 @@ function ajaxGetTapeActivityJSONHR1(jsonUrl) {
         type: "GET",
         url: jsonUrl,
         dataType: "json",
-        success: function(data) {processActivityJSONHR1(data);},
+        success: function(data) {
+            trace ("ajaxGetTapeActivityJSONHR1 returned data")
+            gActiveTapeActivityArrayHR1 = data;
+        },
         error: function(xhr, ajaxOptions, thrownError){
             // alert(xhr.status);
         }
     });
-}
-
-function processActivityJSONHR1(data) {
-    gActiveTapeActivityArrayHR1 = data;
 }
 
 function ajaxGetTapeActivityJSONHR2(jsonUrl) {
@@ -607,15 +613,14 @@ function ajaxGetTapeActivityJSONHR2(jsonUrl) {
         type: "GET",
         url: jsonUrl,
         dataType: "json",
-        success: function(data) {processActivityJSONHR2(data);},
+        success: function(data) {
+            trace ("ajaxGetTapeActivityJSONHR2 returned data")
+            gActiveTapeActivityArrayHR2 = data;
+        },
         error: function(xhr, ajaxOptions, thrownError){
             // alert(xhr.status);
         }
     });
-}
-
-function processActivityJSONHR2(data) {
-    gActiveTapeActivityArrayHR2 = data;
 }
 
 function ajaxGetWaveData(url) {
