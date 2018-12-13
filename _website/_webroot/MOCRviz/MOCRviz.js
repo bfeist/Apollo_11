@@ -95,6 +95,7 @@ var gActiveTapeActivityArrayHR2 = [];
 var gCurrGETSeconds = -69500;
 var gLastRoundedGET = -69500;
 
+
 var gChannelLinesGroup;
 var gTimeCursorGroup;
 var gChannelNameGroup;
@@ -108,12 +109,22 @@ var gWaveform2048;
 var gWaveform1024;
 var gWaveform512;
 var gPaperWaveformGroup;
+var gLastWaveformFullDrawGET = 0;
+var gLastWaveformOnFrameGET = 0;
+var gWaveformRefresh = false;
+var gLastChannelsFullDrawGET = 0;
+var gLastChannelsOnFrameGET = 0;
 
 var gTool;
 var gTooltipGroup;
 // var gCurrGETSeconds = -74768; //start at beginning of countdown
 
+var gPlayer;
+var gOnplaying = true;
+var gOnpause = false;
+
 window.onload = function() {
+    gPlayer = document.getElementById("audio-element");
     paper.install(window);
 
     $.when(ajaxGetTapeRangeData()).done(function() {
@@ -174,7 +185,7 @@ function mainApplication() {
             // paper.project.activeLayer.children['tooltip'].remove();
             gTooltipGroup.removeChildren();
 
-            var availableChannelsIndex = Math.trunc((event.point.y - cChannelStrokeWidth / 2) / (cChannelStrokeWidth + cFillerStrokeWidth));
+            var availableChannelsIndex = Math.round((event.point.y - cChannelStrokeWidth / 2) / (cChannelStrokeWidth + cFillerStrokeWidth));
             availableChannelsIndex = availableChannelsIndex > cNumberOfActiveTapeChannels - 1 ? cNumberOfActiveTapeChannels - 1 : availableChannelsIndex;
             availableChannelsIndex = availableChannelsIndex < 0 ? 0 : availableChannelsIndex;
             var hoverChannelNum = 'ch' + cAvailableChannelsArray[availableChannelsIndex];
@@ -225,64 +236,75 @@ function mainApplication() {
             gLastRoundedGET = Math.round(gCurrGETSeconds);
         }
         playFromCurrGET();
-        drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), $(window).width());
+        drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), true);
+        gWaveformRefresh = true;
         drawTimeCursor();
+
     };
 
     paper.view.onFrame = function(event) {
-        var player = document.getElementById("audio-element");
-        if (!player.paused) {            
-            var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
-            var currSeconds = player.currentTime;
-            currSeconds = currSeconds === undefined ? 0 : currSeconds;
-            gCurrGETSeconds = currSeconds + timeStrToSeconds(tapeData[2]);
+        if (!gPlayer.paused) {
+            if (gTapesDataLoaded) {
+                var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
+                var currSeconds = gPlayer.currentTime;
+                currSeconds = currSeconds === undefined ? 0 : currSeconds;
+                gCurrGETSeconds = currSeconds + timeStrToSeconds(tapeData[2]);
 
-            if (gTapesDataLoaded && Math.round(gCurrGETSeconds) > gLastRoundedGET) {
+                // if (gTapesDataLoaded && Math.round(gCurrGETSeconds) > gLastRoundedGET) {
                 var slider = document.getElementById("myRange");
                 slider.value = (((gCurrGETSeconds + cCountdownSeconds) * 99) / cMissionDurationSeconds);
 
                 var missionTimeDisplay = document.getElementById("missionTimeDisplay");
                 missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
 
-                drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), $(window).width());
+                drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), false);
                 drawTimeCursor();
 
                 gLastRoundedGET = Math.round(gCurrGETSeconds);
+                // }
             }
-
             if (gWavDataLoaded) {
-                // gCurrGETSeconds = player.currentTime;
-                gPaperWaveformGroup.removeChildren();
+                if (gWaveformRefresh || gCurrGETSeconds > gLastWaveformFullDrawGET + ($(window).width() * gWaveform512.seconds_per_pixel)) {
+                    gWaveformRefresh = false;
+                    gLastWaveformFullDrawGET = gCurrGETSeconds;
+                    gLastWaveformOnFrameGET = gCurrGETSeconds;
+                    gPaperWaveformGroup.removeChildren();
 
-                var wavePath1 = new paper.Path({
-                    strokeWidth: 0.5,
-                    strokeColor: cColors.activeLineSelectedChannel,
-                    fillColor: cColors.activeLineSelectedChannel,
-                    name: "wav"
-                });
+                    var wavePath1 = new paper.Path({
+                        strokeWidth: 0.1,
+                        strokeColor: cColors.activeLineSelectedChannel,
+                        fillColor: cColors.activeLineSelectedChannel,
+                        name: "wav"
+                    });
 
-                var offsetStart = Math.round(player.currentTime * gWaveform512.pixels_per_second) - Math.round($(window).width() / 2);
-                offsetStart = (offsetStart < 0) ? 0 : offsetStart;
-                var offsetEnd = offsetStart + $(window).width();
+                    var offsetStart = Math.round(gPlayer.currentTime * gWaveform512.pixels_per_second) - Math.round($(window).width() / 2);
+                    offsetStart = (offsetStart < 0) ? 0 : offsetStart;
+                    var offsetEnd = offsetStart + $(window).width() * 2;
 
-                gWaveform512.offset(offsetStart, offsetEnd);
+                    gWaveform512.offset(offsetStart, offsetEnd);
 
-                gWaveform512.min.forEach(function (val, x) {
-                    wavePath1.add(new Point(x + 0.1, interpolateHeight(cWavHeight, val) + 0.5 + cWavVerticaloffset));
-                });
-                gWaveform512.max.reverse().forEach(function (val, x) {
-                    wavePath1.add(new Point(gWaveform512.offset_length - x - 0.5, interpolateHeight(cWavHeight, val) - 0.5 + cWavVerticaloffset));
-                });
-                // var wavePath1Raster = wavePath1.rasterize();
-                gPaperWaveformGroup.addChild(wavePath1);
-                gPaperWaveformGroup.moveBelow(gTimeCursorGroup);
+                    gWaveform512.min.forEach(function (val, x) {
+                        wavePath1.add(new Point(x + 0.1, interpolateHeight(cWavHeight, val) + 0.5 + cWavVerticaloffset));
+                    });
+                    gWaveform512.max.reverse().forEach(function (val, x) {
+                        wavePath1.add(new Point(gWaveform512.offset_length - x - 0.5, interpolateHeight(cWavHeight, val) - 0.5 + cWavVerticaloffset));
+                    });
+                    // var wavePath1Raster = wavePath1.rasterize();
+                    gPaperWaveformGroup.addChild(wavePath1);
+                    gPaperWaveformGroup.moveBelow(gTimeCursorGroup);
+                } else {
+                    var pixelsToMove = (gLastWaveformOnFrameGET - gCurrGETSeconds) * gWaveform512.pixels_per_second;
+                    gPaperWaveformGroup.translate(new Point(pixelsToMove, 0));
+                    gLastWaveformOnFrameGET = gCurrGETSeconds;
+                }
             }
         }
     };
 
     slider.onmousedown = function() {
         trace("slider mousedown");
-        // gPeaksInstance.player.pause();
+        // gPeaksInstance.gPlayer.pause();
+        // pauseAudio();
         gTapesDataLoaded = false;
     };
 
@@ -312,11 +334,24 @@ function mainApplication() {
             ajaxGetTapeActivityJSONHR2(noiserangeJSONUrlHR2)).done(function() {
             trace("slider mouseup: both ajaxGetTapeActivity Ajax loaded");
             gTapesDataLoaded = true;
-            drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), $(window).width());
+            drawChannels(gCurrGETSeconds - Math.round($(window).width() / 2), true);
+            gWaveformRefresh = true;
             drawTimeCursor();
         });
         loadChannelSoundfile();
         playFromCurrGET();
+    };
+
+    // On video playing toggle values
+    gPlayer.onplaying = function() {
+        gOnplaying = true;
+        gOnpause = false;
+    };
+
+    // On video pause toggle values
+    gPlayer.onpause = function() {
+        gOnplaying = false;
+        gOnpause = true;
     };
 
     gPaperWaveformGroup = new paper.Group;
@@ -330,15 +365,14 @@ function mainApplication() {
 
 function loadChannelSoundfile() {
     var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
-    var player = document.getElementById("audio-element");
 
     if (tapeData.length !== 0 && tapeData[0] !== 'T999') {
         gActiveTape = tapeData[0];
         var channel = (gActiveChannel > 30) ? gActiveChannel - 30 : gActiveChannel;
         var filename = "defluttered_A11_" + tapeData[0] + "_" + tapeData[1] + "_CH" + channel;
 
-        player.src = "/mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
-        player.load();
+        gPlayer.src = "/mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
+        gPlayer.load();
 
         var datFile = "/mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform/" + filename + '.dat';
 
@@ -378,7 +412,6 @@ function drawChannelName() {
 
 function playFromCurrGET() {
     trace("playFromCurrGET()");
-    var player = document.getElementById("audio-element");
     // var sliderVal = $('#myRange').val();
     // var sliderMissionSeconds = (((sliderVal - 1) * cMissionDurationSeconds) / 99) - cCountdownSeconds;
 
@@ -386,127 +419,138 @@ function playFromCurrGET() {
     var tapeCueTimeSeconds = gCurrGETSeconds - timeStrToSeconds(tapeData[2]);
 
     // if (tapeData.length !== 0) {
-    player.currentTime = tapeCueTimeSeconds;
-    player.play();
+    gPlayer.currentTime = tapeCueTimeSeconds;
+    // gPlayer.play();
+    playAudio();
     // }
 }
 
 //CANVAS ---
 
-function drawChannels(startGETSecond, durationSeconds) {
-    gChannelLinesGroup.removeChildren();
-    var partialSecond = startGETSecond % 1;
+function drawChannels(startGETSecond, forceRefresh) {
+    if (forceRefresh || startGETSecond > gLastChannelsFullDrawGET + $(window).width()) {
+        gChannelLinesGroup.removeChildren();
+        var partialSecond = startGETSecond % 1;
 
-    // for (var iCh = 0; iCh < 60 * (cChannelStrokeWidth + cFillerStrokeWidth); iCh = iCh + cChannelStrokeWidth + cFillerStrokeWidth) {
+        gLastChannelsFullDrawGET = startGETSecond;
+        gLastChannelsOnFrameGET = startGETSecond;
 
-    cAvailableChannelsArray.forEach(function (channelNum, x) {
-        //get tape start/end based on GET
-        var tapeData = getTapeByGETseconds(startGETSecond, channelNum);
-        if (tapeData.length > 0) {
-            var tapeIntervalStartSecond = (startGETSecond + cCountdownSeconds) - (timeStrToSeconds(tapeData[2]) + cCountdownSeconds);
-            var tapeIntervalEndSecond = tapeIntervalStartSecond + durationSeconds;
+        var durationSeconds = $(window).width() * 2;
 
-            // if (tapeIntervalEndSecond + cCountdownSeconds > timeStrToSeconds(tapeData[3]) + cCountdownSeconds) {
-            //     tapeIntervalEndSecond = timeStrToSeconds(tapeData[3]);
-            // }
+        cAvailableChannelsArray.forEach(function (channelNum, x) {
+            //get tape start/end based on GET
+            var tapeData = getTapeByGETseconds(startGETSecond, channelNum);
+            if (tapeData.length > 0) {
+                var tapeIntervalStartSecond = (startGETSecond + cCountdownSeconds) - (timeStrToSeconds(tapeData[2]) + cCountdownSeconds);
+                var tapeIntervalEndSecond = tapeIntervalStartSecond + durationSeconds;
 
-            var activeTapeActivityArray = [];
-            var tapeChannelNum;
-            if (channelNum <= 30) {
-                activeTapeActivityArray = gActiveTapeActivityArrayHR1;
-                tapeChannelNum = channelNum;
-            } else {
-                activeTapeActivityArray = gActiveTapeActivityArrayHR2;
-                tapeChannelNum = channelNum - 30;
-            }
+                // if (tapeIntervalEndSecond + cCountdownSeconds > timeStrToSeconds(tapeData[3]) + cCountdownSeconds) {
+                //     tapeIntervalEndSecond = timeStrToSeconds(tapeData[3]);
+                // }
 
-            var lineGroup = new paper.Group;
-            var xCoord = 0 + partialSecond;
-            var yCoord = x * (cChannelStrokeWidth + cFillerStrokeWidth) + cChannelStrokeWidth / 2;
-            var currSegStart = -1;
-            var prevXCoordActive = false;
+                var activeTapeActivityArray = [];
+                var tapeChannelNum;
+                if (channelNum <= 30) {
+                    activeTapeActivityArray = gActiveTapeActivityArrayHR1;
+                    tapeChannelNum = channelNum;
+                } else {
+                    activeTapeActivityArray = gActiveTapeActivityArrayHR2;
+                    tapeChannelNum = channelNum - 30;
+                }
 
-            // draw filler line background
-            // var fillerLine = new paper.Path.Line({
-            //     from: [xCoord, yCoord + cChannelStrokeWidth - 1],
-            //     to: [durationSeconds, yCoord + cChannelStrokeWidth - 1],
-            //     strokeWidth: 4,
-            //     strokeColor: cColors.fillerLine,
-            //     // strokeColor: 'white',
-            //     name: 'ch' + channelNum
-            // });
-            // lineGroup.addChild(fillerLine);
+                var lineGroup = new paper.Group;
+                var xCoord = 0 + partialSecond;
+                var yCoord = x * (cChannelStrokeWidth + cFillerStrokeWidth) + cChannelStrokeWidth / 2;
+                var currSegStart = -1;
+                var prevXCoordActive = false;
 
-            //draw inactive line background
-            var inactiveLine = new paper.Path.Line({
-                from: [xCoord, yCoord],
-                to: [durationSeconds, yCoord],
-                strokeWidth: cChannelStrokeWidth
-                // name: 'ch' + channelCount
-            });
-            if (channelNum === gActiveChannel) {
-                inactiveLine.strokeColor = cColors.inactiveLineSelectedChannel;
-            } else {
-                inactiveLine.strokeColor = cColors.inactiveLine;
-            }
-            lineGroup.addChild(inactiveLine);
+                // draw filler line background
+                // var fillerLine = new paper.Path.Line({
+                //     from: [xCoord, yCoord + cChannelStrokeWidth - 1],
+                //     to: [durationSeconds, yCoord + cChannelStrokeWidth - 1],
+                //     strokeWidth: 4,
+                //     strokeColor: cColors.fillerLine,
+                //     // strokeColor: 'white',
+                //     name: 'ch' + channelNum
+                // });
+                // lineGroup.addChild(fillerLine);
 
-            if (activeTapeActivityArray.length !== 0) { //if there is tape data for this GET then draw activity
-                for (var i = Math.round(tapeIntervalStartSecond); i <= tapeIntervalEndSecond; i++) {
-                    if (activeTapeActivityArray[i].includes(tapeChannelNum)) {
-                        if (!prevXCoordActive) {
-                            currSegStart = xCoord;
-                            prevXCoordActive = true;
-                        }
-                    } else {
-                        if (prevXCoordActive) {
-                            var aLine = new paper.Path.Line({
-                                from: [currSegStart, yCoord],
-                                to: [xCoord, yCoord],
-                                strokeWidth: cChannelStrokeWidth
-                                // name: "ch" + tapeChannelNum
-                            });
-                            if (channelNum === gActiveChannel) {
-                                aLine.strokeColor = cColors.activeLineSelectedChannel;
-                            } else {
-                                aLine.strokeColor = cColors.activeLine;
+                //draw inactive line background
+                var inactiveLine = new paper.Path.Line({
+                    from: [xCoord, yCoord],
+                    to: [durationSeconds, yCoord],
+                    strokeWidth: cChannelStrokeWidth
+                    // name: 'ch' + channelCount
+                });
+                if (channelNum === gActiveChannel) {
+                    inactiveLine.strokeColor = cColors.inactiveLineSelectedChannel;
+                } else {
+                    inactiveLine.strokeColor = cColors.inactiveLine;
+                }
+                lineGroup.addChild(inactiveLine);
+
+                if (activeTapeActivityArray.length !== 0) { //if there is tape data for this GET then draw activity
+                    for (var i = Math.round(tapeIntervalStartSecond); i <= tapeIntervalEndSecond; i++) {
+                        if (activeTapeActivityArray[i].includes(tapeChannelNum)) {
+                            if (!prevXCoordActive) {
+                                currSegStart = xCoord;
+                                prevXCoordActive = true;
                             }
-                            lineGroup.addChild(aLine);
-                            prevXCoordActive = false;
+                        } else {
+                            if (prevXCoordActive) {
+                                var aLine = new paper.Path.Line({
+                                    from: [currSegStart, yCoord],
+                                    to: [xCoord, yCoord],
+                                    strokeWidth: cChannelStrokeWidth
+                                    // name: "ch" + tapeChannelNum
+                                });
+                                if (channelNum === gActiveChannel) {
+                                    aLine.strokeColor = cColors.activeLineSelectedChannel;
+                                } else {
+                                    aLine.strokeColor = cColors.activeLine;
+                                }
+                                lineGroup.addChild(aLine);
+                                prevXCoordActive = false;
+                            }
                         }
+                        xCoord++;
                     }
-                    xCoord++;
-                }
-                if (prevXCoordActive) {
-                    aLine = new paper.Path.Line({
-                        from: [currSegStart, yCoord],
-                        to: [xCoord, yCoord],
-                        strokeWidth: cChannelStrokeWidth
-                        // name: "ch" + tapeChannelNum
-                    });
-                    if (channelNum === gActiveChannel) {
-                        aLine.strokeColor = cColors.activeLineSelectedChannel;
-                    } else {
-                        aLine.strokeColor = cColors.activeLine;
+                    if (prevXCoordActive) {
+                        aLine = new paper.Path.Line({
+                            from: [currSegStart, yCoord],
+                            to: [xCoord, yCoord],
+                            strokeWidth: cChannelStrokeWidth
+                            // name: "ch" + tapeChannelNum
+                        });
+                        if (channelNum === gActiveChannel) {
+                            aLine.strokeColor = cColors.activeLineSelectedChannel;
+                        } else {
+                            aLine.strokeColor = cColors.activeLine;
+                        }
+                        lineGroup.addChild(aLine);
                     }
-                    lineGroup.addChild(aLine);
                 }
-            }
 
-            // if (lineGroup.children.length > 0) {
-            //     var lineGroupRaster = lineGroup.rasterize();
-            //     lineGroupRaster.name = 'ch' + channelCount;
-            //     gChannelLinesGroup.addChild(lineGroupRaster);
-            // }
-            // lineGroup.remove();
-            // lineGroup = null;
-            lineGroup.name = 'ch' + channelNum;
-            gChannelLinesGroup.addChild(lineGroup);
-        }
-        else {
-            trace("tapedata wrong");
-        }
-    });
+                // if (lineGroup.children.length > 0) {
+                //     var lineGroupRaster = lineGroup.rasterize();
+                //     lineGroupRaster.name = 'ch' + channelCount;
+                //     gChannelLinesGroup.addChild(lineGroupRaster);
+                // }
+                // lineGroup.remove();
+                // lineGroup = null;
+                lineGroup.name = 'ch' + channelNum;
+                gChannelLinesGroup.addChild(lineGroup);
+            }
+            else {
+                trace("tapedata wrong");
+            }
+        });
+    } else {
+        var pixelsToMove = gLastChannelsOnFrameGET - startGETSecond;
+        gChannelLinesGroup.translate(new Point(pixelsToMove, 0));
+
+        gLastChannelsOnFrameGET = startGETSecond;
+    }
 }
 
 function drawTimeCursor() {
@@ -556,6 +600,20 @@ function getTapeByGETseconds(seconds, channel) {
         trace("getTapeByGETseconds returing empty rec");
     }
     return rec;
+}
+
+// Play video function
+function playAudio() {
+    if (gPlayer.paused && !gOnplaying) {
+        gPlayer.play();
+    }
+}
+
+// Pause video function
+function pauseAudio() {
+    if (!gPlayer.paused && !gOnpause) {
+        gPlayer.pause();
+    }
 }
 
 //------------ data import
