@@ -1,5 +1,6 @@
 const cMissionDurationSeconds = 784086;
 const cCountdownSeconds = 74768;
+const cAppStartGET = -74768;
 const cNumberOfActiveTapeChannels = 50;
 
 const cCanvasHeight = 350;
@@ -91,8 +92,8 @@ var gTapeRangesHR2 = [];
 var gActiveTape = "T867";
 var gActiveChannel = 14;
 var gTapesActivityArray = [];
-var gCurrGETSeconds = -69500;
-var gLastRoundedGET = -69500;
+var gCurrGETSeconds = cAppStartGET;
+var gLastRoundedGET = cAppStartGET;
 
 
 var gChannelLinesGroup;
@@ -107,11 +108,11 @@ var gWaveform2048;
 var gWaveform1024;
 var gWaveform512;
 var gPaperWaveformGroup;
-var gLastWaveformFullDrawGET = 0;
-var gLastWaveformOnFrameGET = 0;
+var gLastWaveformFullDrawGET = -1000000;
+var gLastWaveformOnFrameGET = -1000000;
 var gWaveformRefresh = false;
-var gLastChannelsFullDrawGET = 0;
-var gLastChannelsOnFrameGET = 0;
+var gLastChannelsFullDrawGET = -1000000;
+var gLastChannelsOnFrameGET = -1000000;
 
 var gTool;
 var gTooltipGroup;
@@ -187,7 +188,7 @@ function mainApplication() {
                 fillColor: cColors.tooltipColor
             });
 
-            tooltipText.content = cTrackInfo[hoverChannelNum][0] + " \n" + secondsToTimeStr(gCurrGETSeconds - Math.round($(window).width() / 2) + event.point.x);
+            tooltipText.content = hoverChannelNum + " " + cTrackInfo[hoverChannelNum][0] + " \n" + secondsToTimeStr(gCurrGETSeconds - Math.round($(window).width() / 2) + event.point.x);
             tooltipText.point = new paper.Point(event.point.x + 20, event.point.y + 13);
             gTooltipGroup.addChild(tooltipText);
 
@@ -221,6 +222,9 @@ function mainApplication() {
         }
         gCurrGETSeconds = gCurrGETSeconds + mouseGEToffset;
         gCurrGETSeconds = gCurrGETSeconds < cCountdownSeconds * -1 ? cCountdownSeconds * -1 : gCurrGETSeconds;
+        if (gCurrGETSeconds > (cMissionDurationSeconds - cCountdownSeconds)) {
+            gCurrGETSeconds = cMissionDurationSeconds - cCountdownSeconds;
+        }
         gLastRoundedGET = Math.round(gCurrGETSeconds);
 
         playFromCurrGET();
@@ -240,11 +244,10 @@ function mainApplication() {
             var slider = document.getElementById("myRange");
             slider.value = (((gCurrGETSeconds + cCountdownSeconds) * 99) / cMissionDurationSeconds);
 
-            if (Math.round(gCurrGETSeconds) > gLastRoundedGET) {
-                var missionTimeDisplay = document.getElementById("missionTimeDisplay");
-                missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
-                gLastRoundedGET = Math.round(gCurrGETSeconds);
-            }
+            var missionTimeDisplay = document.getElementById("missionTimeDisplay");
+            missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
+            gLastRoundedGET = Math.round(gCurrGETSeconds);
+
             drawChannels(false);
             drawTimeCursor();
 
@@ -354,6 +357,7 @@ function mainApplication() {
     loadChannelSoundfile();
     playFromCurrGET();
     drawChannels(true);
+    drawTimeCursor();
     // startInterval();
 
 }
@@ -443,7 +447,7 @@ function drawChannels(forceRefresh) {
             //get interval start/end based on GET
 
             var lineGroup = new paper.Group;
-            var xCoord = 0 + partialSecond;
+            var xCoord = partialSecond;
             var yCoord = x * (cChannelStrokeWidth + cFillerStrokeWidth) + cChannelStrokeWidth / 2;
             var currSegStart = -1;
             var prevXCoordActive = false;
@@ -517,8 +521,8 @@ function drawChannels(forceRefresh) {
 
 function drawTimeCursor() {
     gTimeCursorGroup.removeChildren();
-    var startPoint = new paper.Point(Math.round($(window).width() / 2) + 0.5, 0);
-    var endPoint = new paper.Point(Math.round($(window).width() / 2) + 0.5, cCanvasHeight - 100);
+    var startPoint = new paper.Point($(window).width() / 2 + 0.5, 0);
+    var endPoint = new paper.Point($(window).width() / 2 + 0.5, cCanvasHeight - 10);
     var aLine = new paper.Path.Line(startPoint, endPoint);
     aLine.strokeColor = cColors.cursorColor;
     aLine.strokeWidth = 1;
@@ -532,7 +536,7 @@ function drawTimeCursor() {
         fillColor: cColors.cursorColor
     });
     timeText.content = secondsToTimeStr(gCurrGETSeconds);
-    timeText.point = new paper.Point(Math.round($(window).width() / 2) - timeText.bounds.width / 2, cCanvasHeight - 10);
+    timeText.point = new paper.Point($(window).width() / 2 - timeText.bounds.width / 2, cCanvasHeight - 10);
     var cornerSize = new paper.Size(3, 3);
     var timeTextRect = new paper.Path.RoundRectangle(timeText.bounds, cornerSize);
     //var timeTextRect = new paper.Path.Rectangle(timeText.bounds);

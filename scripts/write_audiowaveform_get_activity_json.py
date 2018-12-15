@@ -59,7 +59,7 @@ HR2_tape_ranges.append(['', '', end_GETseconds])
 # currHR2 = getTapeByGET(GET, 'HR2')
 
 #make giant activity arrays
-HR1_complete_activity = []
+HR1_complete_activity = [[]]
 for idx, val in enumerate(HR1_tape_ranges):
     try:
         tapeActivityArrayIndexStart = 0
