@@ -3,23 +3,25 @@ import json
 import os
 import re
 
-# This script is step 2 after runnnig write_audiowaveform_noiserange_data.py which create the input files
+# This script is step 2 after running write_audiowaveform_noiserange_data.py which create the input files
 # for this script
 # This script pivots the activity range files into a single json per tape with one entry per second that contains
 # an array showing which channels are active in that second
 
 
-def getsec(timeString):
-    l = timeString.split(':')
-    #print l
-    return (int(l[0]) * 3600) + (int(l[1]) * 60) + int(l[2])
+def getsec(s):
+    l = s.split(':')
+    if l[0][0:1] != "-":
+        return int(l[0]) * 3600 + int(l[1]) * 60 + int(l[2])
+    else:
+        return int(l[0]) * 3600 + (int(l[1]) * 60 * -1) + (int(l[2]) * -1)
 
 
 for tapeName in os.listdir(r'F:/mp3'):
     directory = 'F:/mp3/' + tapeName + '/noiseranges'
     # directory = os.fsencode(directory)
 
-    if not os.path.isfile('F:/mp3/' + tapeName + '/' + tapeName + '_noiseranges.json'):
+    if not os.path.isfile('F:/mp3/' + tapeName + '/' + tapeName + 'noiseranges.json'):
 
         # directory = 'F:/mp3/T648_defluttered_mp3_16/noiseranges'
 
@@ -72,7 +74,6 @@ for tapeName in os.listdir(r'F:/mp3'):
             for second in range(0, maxHighestEndSecond):
                 secondItem.clear()
                 for ichannelnum in range(2, 31):
-
                     try:
                         secondHasNoise = tapeChannelSecondsArray[ichannelnum][second]
                     except:

@@ -4,6 +4,7 @@ import os
 import numpy
 from pprint import pprint
 
+# Step 1. 2 is write_audiowaveform_tape_json.py.
 # This script generates data files that contain time ranges of tape channels that contain activity
 # It reads through all 30-track mp3 folders and creates a /noiseranges subfolder with one csv per channel
 # The step after creating these datafiles is to run write_audiowaveform_tape_json.py which pivots these data files
