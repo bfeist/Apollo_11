@@ -90,8 +90,7 @@ var gTapeRangesHR1 = [];
 var gTapeRangesHR2 = [];
 var gActiveTape = "T867";
 var gActiveChannel = 14;
-var gActiveTapeActivityArrayHR1 = [];
-var gActiveTapeActivityArrayHR2 = [];
+var gTapesActivityArray = [];
 var gCurrGETSeconds = -69500;
 var gLastRoundedGET = -69500;
 
@@ -101,7 +100,6 @@ var gTimeCursorGroup;
 var gChannelNameGroup;
 
 var gWavDataLoaded = false;
-var gTapesDataLoaded = false;
 
 var gWaveform;
 var gWaveform4096;
@@ -122,26 +120,17 @@ var gTooltipGroup;
 var gPlayer;
 var gOnplaying = true;
 var gOnpause = false;
+var gSliderDragging = false;
 
 window.onload = function() {
     gPlayer = document.getElementById("audio-element");
     paper.install(window);
 
-    $.when(ajaxGetTapeRangeData()).done(function() {
-        trace("APPREADY: ajaxGetTapeRangeData Ajax loaded");
+    $.when(ajaxGetTapeRangeData(),
+        ajaxGetTapesActivityData()).done(function() {
+        trace("APPREADY: Ajax loaded");
 
-        var tapeDataHR1 = getTapeByGETseconds(gCurrGETSeconds, 10);
-        var noiserangeJSONUrlHR1 = "/mp3/" + tapeDataHR1[0] + "_defluttered_mp3_16/" + tapeDataHR1[0] + "_defluttered_mp3_16noiseranges.json";
-
-        var tapeDataHR2 = getTapeByGETseconds(gCurrGETSeconds, 40);
-        var noiserangeJSONUrlHR2 = "/mp3/" + tapeDataHR2[0] + "_defluttered_mp3_16/" + tapeDataHR2[0] + "_defluttered_mp3_16noiseranges.json";
-
-        $.when(ajaxGetTapeActivityJSONHR1(noiserangeJSONUrlHR1),
-            ajaxGetTapeActivityJSONHR2(noiserangeJSONUrlHR2)).done(function() {
-            trace("APPREADY: both ajaxGetTapeActivity Ajax loaded");
-            gTapesDataLoaded = true;
-            mainApplication();
-        });
+        mainApplication();
     });
 
     document.getElementById('myCanvas').addEventListener("mouseleave", function(event) {
@@ -227,14 +216,13 @@ function mainApplication() {
 
             //set GET
             var mouseGEToffset = event.point.x - Math.round($(window).width() / 2);
-            gCurrGETSeconds = gCurrGETSeconds + mouseGEToffset;
-            gLastRoundedGET = Math.round(gCurrGETSeconds);
         } else { //if in the wav form area
-            //set GET from wav click
             mouseGEToffset = (event.point.x - Math.round($(window).width() / 2)) * gWaveform512.seconds_per_pixel;
-            gCurrGETSeconds = gCurrGETSeconds + mouseGEToffset;
-            gLastRoundedGET = Math.round(gCurrGETSeconds);
         }
+        gCurrGETSeconds = gCurrGETSeconds + mouseGEToffset;
+        gCurrGETSeconds = gCurrGETSeconds < cCountdownSeconds * -1 ? cCountdownSeconds * -1 : gCurrGETSeconds;
+        gLastRoundedGET = Math.round(gCurrGETSeconds);
+
         playFromCurrGET();
         drawChannels(true);
         gWaveformRefresh = true;
@@ -243,26 +231,23 @@ function mainApplication() {
     };
 
     paper.view.onFrame = function(event) {
-        if (!gPlayer.paused) {
-            if (gTapesDataLoaded) {
-                var tapeDataOnFrame = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
-                var currSeconds = gPlayer.currentTime;
-                currSeconds = currSeconds === undefined ? 0 : currSeconds;
-                gCurrGETSeconds = currSeconds + timeStrToSeconds(tapeDataOnFrame[2]);
+        if (!gPlayer.paused && !gSliderDragging) {
+            var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
+            var currSeconds = gPlayer.currentTime;
+            currSeconds = currSeconds === undefined ? 0 : currSeconds;
+            gCurrGETSeconds = currSeconds + timeStrToSeconds(tapeData[2]);
 
+            var slider = document.getElementById("myRange");
+            slider.value = (((gCurrGETSeconds + cCountdownSeconds) * 99) / cMissionDurationSeconds);
 
-                var slider = document.getElementById("myRange");
-                slider.value = (((gCurrGETSeconds + cCountdownSeconds) * 99) / cMissionDurationSeconds);
-
-                if (gTapesDataLoaded && Math.round(gCurrGETSeconds) > gLastRoundedGET) {
-                    var missionTimeDisplay = document.getElementById("missionTimeDisplay");
-                    missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
-                    gLastRoundedGET = Math.round(gCurrGETSeconds);
-                }
-                drawChannels(false);
-                drawTimeCursor();
-
+            if (Math.round(gCurrGETSeconds) > gLastRoundedGET) {
+                var missionTimeDisplay = document.getElementById("missionTimeDisplay");
+                missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
+                gLastRoundedGET = Math.round(gCurrGETSeconds);
             }
+            drawChannels(false);
+            drawTimeCursor();
+
             if (gWavDataLoaded) {
                 if (gWaveformRefresh || gCurrGETSeconds > gLastWaveformFullDrawGET + ($(window).width() * gWaveform512.seconds_per_pixel)) {
                     gWaveformRefresh = false;
@@ -278,7 +263,23 @@ function mainApplication() {
                     });
 
                     var offsetStart = Math.round(gPlayer.currentTime * gWaveform512.pixels_per_second) - Math.round($(window).width() / 2);
-                    offsetStart = (offsetStart < 0) ? 0 : offsetStart;
+                    var lineXVal = Math.round($(window).width() / 2);
+                    if (offsetStart < 0) {
+                        gWaveformRefresh = true;
+                        lineXVal = Math.round($(window).width() / 2) + offsetStart;
+
+                        // Draw play cursor over wav
+                        var startPoint = new paper.Point(lineXVal + 0.5, cCanvasHeight - 100);
+                        var endPoint = new paper.Point(lineXVal + 0.5, cCanvasHeight - 10);
+                        var aLine = new paper.Path.Line(startPoint, endPoint);
+                        aLine.strokeColor = cColors.cursorColor;
+                        aLine.strokeWidth = 1;
+                        aLine.name = "offsetCursor";
+
+                        gTimeCursorGroup.addChild(aLine);
+
+                        offsetStart = 0;
+                    }
                     var offsetEnd = offsetStart + $(window).width() * 2;
 
                     gWaveform512.offset(offsetStart, offsetEnd);
@@ -292,11 +293,13 @@ function mainApplication() {
                     // var wavePath1Raster = wavePath1.rasterize();
                     gPaperWaveformGroup.addChild(wavePath1);
                     gPaperWaveformGroup.moveBelow(gTimeCursorGroup);
+
                 } else {
                     var pixelsToMove = (gLastWaveformOnFrameGET - gCurrGETSeconds) * gWaveform512.pixels_per_second;
                     gPaperWaveformGroup.translate(new Point(pixelsToMove, 0));
                     gLastWaveformOnFrameGET = gCurrGETSeconds;
                 }
+
             }
         }
     };
@@ -305,7 +308,7 @@ function mainApplication() {
         trace("slider mousedown");
         // gPeaksInstance.gPlayer.pause();
         // pauseAudio();
-        gTapesDataLoaded = false;
+        gSliderDragging = true;
     };
 
     // Update the current slider value (each time you drag the slider handle)
@@ -318,28 +321,19 @@ function mainApplication() {
 
     slider.onmouseup = function() {
         trace("slider mouseup");
+
         gCurrGETSeconds = (((this.value - 1) * cMissionDurationSeconds) / 99) - cCountdownSeconds;
         missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
         gLastRoundedGET = Math.round(gCurrGETSeconds);
 
-        var tapeDataHR1 = getTapeByGETseconds(gCurrGETSeconds, 10);
-        var noiserangeJSONUrlHR1 = "/mp3/" + tapeDataHR1[0] + "_defluttered_mp3_16/" + tapeDataHR1[0] + "_defluttered_mp3_16noiseranges.json";
-
-        var tapeDataHR2 = getTapeByGETseconds(gCurrGETSeconds, 40);
-        var noiserangeJSONUrlHR2 = "/mp3/" + tapeDataHR2[0] + "_defluttered_mp3_16/" + tapeDataHR2[0] + "_defluttered_mp3_16noiseranges.json";
-
-        gTapesDataLoaded = false;
-
-        $.when(ajaxGetTapeActivityJSONHR1(noiserangeJSONUrlHR1),
-            ajaxGetTapeActivityJSONHR2(noiserangeJSONUrlHR2)).done(function() {
-            trace("slider mouseup: both ajaxGetTapeActivity Ajax loaded: gActiveTapeActivityArrayHR1.length = " + gActiveTapeActivityArrayHR1.length + " gActiveTapeActivityArrayHR2.length = " + gActiveTapeActivityArrayHR2.length);
-            gTapesDataLoaded = true;
-            drawChannels(true);
-            gWaveformRefresh = true;
-            drawTimeCursor();
-        });
         loadChannelSoundfile();
+        gWaveformRefresh = true;
+
         playFromCurrGET();
+        drawChannels(true);
+        drawTimeCursor();
+
+        gSliderDragging = false;
     };
 
     // On video playing toggle values
@@ -359,6 +353,7 @@ function mainApplication() {
     resizeAndRedrawCanvas();
     loadChannelSoundfile();
     playFromCurrGET();
+    drawChannels(true);
     // startInterval();
 
 }
@@ -429,6 +424,14 @@ function playFromCurrGET() {
 
 function drawChannels(forceRefresh) {
     var startGETSeconds = gCurrGETSeconds - Math.round($(window).width() / 2);
+    var durationSeconds = $(window).width() * 2;
+
+    var displayRangeStart = startGETSeconds + cCountdownSeconds;
+    var displayRangeEnd = displayRangeStart + durationSeconds;
+
+    if (displayRangeEnd > gTapesActivityArray.length - 1)
+        displayRangeEnd = gTapesActivityArray.length - 1;
+
     if (forceRefresh || startGETSeconds > gLastChannelsFullDrawGET + $(window).width()) {
         gChannelLinesGroup.removeChildren();
         var partialSecond = startGETSeconds % 1;
@@ -436,28 +439,8 @@ function drawChannels(forceRefresh) {
         gLastChannelsFullDrawGET = startGETSeconds;
         gLastChannelsOnFrameGET = startGETSeconds;
 
-        var durationSeconds = $(window).width() * 2;
-
         cAvailableChannelsArray.forEach(function (channelNum, x) {
-            //get tape start/end based on GET
-            var tapeData = getTapeByGETseconds(startGETSeconds, channelNum);
-
-            var tapeIntervalStartSecond = startGETSeconds - timeStrToSeconds(tapeData[2]);
-            var tapeIntervalEndSecond = tapeIntervalStartSecond + durationSeconds;
-
-            var activeTapeActivityArray = [];
-            var tapeChannelNum;
-            if (channelNum <= 30) {
-                activeTapeActivityArray = gActiveTapeActivityArrayHR1;
-                tapeChannelNum = channelNum;
-            } else {
-                activeTapeActivityArray = gActiveTapeActivityArrayHR2;
-                tapeChannelNum = channelNum - 30;
-            }
-
-            if (tapeIntervalEndSecond >= activeTapeActivityArray.length - 1) {
-                tapeIntervalEndSecond = activeTapeActivityArray.length - 1;
-            }
+            //get interval start/end based on GET
 
             var lineGroup = new paper.Group;
             var xCoord = 0 + partialSecond;
@@ -478,12 +461,9 @@ function drawChannels(forceRefresh) {
                 inactiveLine.strokeColor = cColors.inactiveLine;
             }
             lineGroup.addChild(inactiveLine);
-
-            trace("tapeIntervalStartSecond: " + tapeIntervalStartSecond + " tapeIntervalEndSecond: " + tapeIntervalEndSecond);
-
-            if (activeTapeActivityArray.length !== 0) { //if there is tape data for this GET then draw activity
-                for (var i = Math.round(tapeIntervalStartSecond); i <= tapeIntervalEndSecond; i++) {
-                    if (activeTapeActivityArray[i].includes(tapeChannelNum)) {
+            for (var i = Math.round(displayRangeStart); i <= displayRangeEnd; i++) {
+                if (i >= 0) {
+                    if (gTapesActivityArray[i].includes(channelNum)) {
                         if (!prevXCoordActive) {
                             currSegStart = xCoord;
                             prevXCoordActive = true;
@@ -505,23 +485,24 @@ function drawChannels(forceRefresh) {
                             prevXCoordActive = false;
                         }
                     }
-                    xCoord++;
                 }
-                if (prevXCoordActive) {
-                    aLine = new paper.Path.Line({
-                        from: [currSegStart, yCoord],
-                        to: [xCoord, yCoord],
-                        strokeWidth: cChannelStrokeWidth
-                        // name: "ch" + tapeChannelNum
-                    });
-                    if (channelNum === gActiveChannel) {
-                        aLine.strokeColor = cColors.activeLineSelectedChannel;
-                    } else {
-                        aLine.strokeColor = cColors.activeLine;
-                    }
-                    lineGroup.addChild(aLine);
-                }
+                xCoord++;
             }
+            if (prevXCoordActive) {
+                aLine = new paper.Path.Line({
+                    from: [currSegStart, yCoord],
+                    to: [xCoord, yCoord],
+                    strokeWidth: cChannelStrokeWidth
+                    // name: "ch" + tapeChannelNum
+                });
+                if (channelNum === gActiveChannel) {
+                    aLine.strokeColor = cColors.activeLineSelectedChannel;
+                } else {
+                    aLine.strokeColor = cColors.activeLine;
+                }
+                lineGroup.addChild(aLine);
+            }
+
             lineGroup.name = 'ch' + channelNum;
             gChannelLinesGroup.addChild(lineGroup);
 
@@ -537,7 +518,7 @@ function drawChannels(forceRefresh) {
 function drawTimeCursor() {
     gTimeCursorGroup.removeChildren();
     var startPoint = new paper.Point(Math.round($(window).width() / 2) + 0.5, 0);
-    var endPoint = new paper.Point(Math.round($(window).width() / 2) + 0.5, cCanvasHeight - 10);
+    var endPoint = new paper.Point(Math.round($(window).width() / 2) + 0.5, cCanvasHeight - 100);
     var aLine = new paper.Path.Line(startPoint, endPoint);
     aLine.strokeColor = cColors.cursorColor;
     aLine.strokeWidth = 1;
@@ -632,36 +613,19 @@ function processTapeRangeData(allText) {
     gTapeRangesHR2 = gTapeRangesHR2.sort(Comparator);
 }
 
-function ajaxGetTapeActivityJSONHR1(jsonUrl) {
-    trace("ajaxGetTapeActivityJSONHR1(): " + jsonUrl);
+function ajaxGetTapesActivityData() {
+    trace("ajaxGetTapeActivityData()");
     return $.ajax({
         type: "GET",
-        url: jsonUrl,
+        url: "/mp3/tape_activity.json",
         dataType: "json",
         async: false,
         success: function(data) {
-            trace ("ajaxGetTapeActivityJSONHR1 returned data")
-            gActiveTapeActivityArrayHR1 = data;
+            trace ("ajaxGetTapeActivityData returned data");
+            gTapesActivityArray = data;
         },
         error: function(xhr, ajaxOptions, thrownError){
-            // alert(xhr.status);
-        }
-    });
-}
-
-function ajaxGetTapeActivityJSONHR2(jsonUrl) {
-    trace("ajaxGetTapeActivityJSONHR2(): " + jsonUrl);
-    return $.ajax({
-        type: "GET",
-        url: jsonUrl,
-        dataType: "json",
-        async: false,
-        success: function(data) {
-            trace ("ajaxGetTapeActivityJSONHR2 returned data")
-            gActiveTapeActivityArrayHR2 = data;
-        },
-        error: function(xhr, ajaxOptions, thrownError){
-            // alert(xhr.status);
+            alert(xhr.status);
         }
     });
 }

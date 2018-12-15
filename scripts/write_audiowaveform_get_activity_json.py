@@ -47,7 +47,7 @@ HR1_tape_ranges.sort(key=lambda x: x[2])
 HR2_tape_ranges.sort(key=lambda x: x[2])
 
 start_GETseconds = HR1_tape_ranges[0][2]
-end_GETseconds = getsec(HR1_tape_ranges[len(HR1_tape_ranges)-1][3])
+end_GETseconds = getsec(HR1_tape_ranges[len(HR1_tape_ranges)-1][4])
 
 # add a fake last item to each array that contains a start time.
 # This start time is the end time of the last tape (for getTapeByGET function)
@@ -70,9 +70,10 @@ for idx, val in enumerate(HR1_tape_ranges):
     except:
         break
     HR1_complete_activity.extend(tapeData[tapeActivityArrayIndexStart:tapeActivityArrayIndexEnd])
+    print("HR1 processed " + val[0] + " items: " + str(tapeActivityArrayIndexEnd - tapeActivityArrayIndexStart))
     if tapeActivityArrayIndexEnd > len(tapeData): # extend dataset with silence if noise ends before end of file. This maintains 1 array element per second
         padding = tapeActivityArrayIndexEnd - len(tapeData) + 1
-        print("HR1 " + val[0] + " extending by " + str(padding))
+        print("HR1 " + val[0] + " padded with " + str(padding))
         HR1_complete_activity.extend([ [] for i in range(padding)])
 
 HR2_complete_activity = []
@@ -86,9 +87,10 @@ for idx, val in enumerate(HR2_tape_ranges):
     except:
         break
     HR2_complete_activity.extend(tapeData[tapeActivityArrayIndexStart:tapeActivityArrayIndexEnd])
+    print("HR2 processed " + val[0] + " items: " + str(tapeActivityArrayIndexEnd - tapeActivityArrayIndexStart))
     if tapeActivityArrayIndexEnd > len(tapeData): # extend dataset with silence if noise ends before end of file. This maintains 1 array element per second
         padding = tapeActivityArrayIndexEnd - len(tapeData) + 1
-        print("HR2 " + val[0] + " extending by " + str(padding))
+        print("HR2 " + val[0] + " padded with " + str(padding))
         HR2_complete_activity.extend([ [] for i in range(padding)])
 
 # merge two complete activity arrays and renumber HR2 numbers
