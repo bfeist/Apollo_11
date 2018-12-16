@@ -45,7 +45,7 @@
 000:00:06|P|PAO|Liftoff on Apollo 11.
 000:00:11|P|PAO|Tower cleared!
 000:00:13|T|CDR|Roger. We got a roll program.
-000:00:15|T|CMP|Roger. Roll.
+000:00:15|T|CC|Roger. Roll.
 000:00:15|P|PAO|Neil Armstrong reporting their roll and pitch program which puts Apollo 11 on a proper heading.
 000:00:29|P|PAO|Plus 30 seconds.
 000:00:33|T|CDR|Roll's complete and the pitch is programed.
@@ -694,9 +694,9 @@
 001:37:10|T|CC|Roger. P37 format, TLI plus 5: 00744 6485, minus 165, 02506. Read back. Over.
 001:37:30|T|LMP|Roger. TLI plus 90, SPS G&N: 63481, minus 153, plus 132, 004 10 25 38, minus 04761, plus 00001, plus 53361, 180 193 000, not applicable, plus 00203 53573 633 53349, 33 1578 122, not available, minus 0252, minus 02580 11887 34345 016 03 50. Vega and Deneb, 071 291 341. No ullage, undocked. P37, TLI plus 5: 00744 6485, minus 165 02506. Over.
 001:39:03|T|CC|Apollo 11, this is Houston. Readback correct. For your information, Goldstone reports receiving approximately 1 minute of FM downlink carrier. We were getting ready to request you confirm on the S-band AUX switches, the S-band AUX tape switch to OFF and the S-band AUX TV switch to TV. Over.
-001:39:28|T|CDR|Yes, I confirm that that is the configuration we were in.
+001:39:28|T|CMP|Yes, I confirm that that is the configuration we were in.
 001:39:32|T|CC|Roger. Let us do a little more detective work here and we'll see if we can come up with something.
-001:39:37|T|CDR|Okay.
+001:39:37|T|CMP|Okay.
 001:39:53|T|LMP|Houston, Apollo 11 is ready to go ahead with the - extend the docking probe, and ready to go with the RCS hot fire when you're ready to monitor. Over.
 001:40:06|T|CC|Roger. Go ahead with the probe, now.
 001:40:12|T|CDR|Roger.

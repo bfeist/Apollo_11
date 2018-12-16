@@ -1,13 +1,13 @@
 trace("INIT: Loading index.js");
 //app control flags
 var gStopCache = false;
-var gCdnEnabled = true;
+var gCdnEnabled = false;
 var gOffline = false;
 
 //constants
 var gMissionDurationSeconds = 784086;
 var gCountdownSeconds = 74768;
-var gDefaultStartTimeId = '-000105';
+var gDefaultStartTimeId = '-000110';
 var gFontLoaderDelay = 3; //seconds
 var gBackground_color_active = "#222222";
 

@@ -45,7 +45,7 @@
 0000006|PAO|Liftoff on Apollo 11.
 0000011|PAO|Tower cleared!
 0000013|CDR|Roger. We got a roll program.
-0000015|CMP|Roger. Roll.
+0000015|CC|Roger. Roll.
 0000015|PAO|Neil Armstrong reporting their roll and pitch program which puts Apollo 11 on a proper heading.
 0000029|PAO|Plus 30 seconds.
 0000033|CDR|Roll's complete and the pitch is programed.

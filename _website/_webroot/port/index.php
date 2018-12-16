@@ -6,7 +6,7 @@
     <meta http-equiv="Expires" content="0" />
     <link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
 
-    <title>Apollo 17 in Real-time</title>
+    <title>Apollo 11 in Real-time</title>
     <link rel="image_src" href="http://apollo17.org/img/screenshot.png" / >
     <meta name="description" content="A real-time interactive journey through the Apollo 17 mission. Relive every moment as it occurred in 1972. 300+ hours of audio, 22+ hours of video, 4,200+ photos." />
 

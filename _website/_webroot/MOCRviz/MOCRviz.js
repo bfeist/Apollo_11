@@ -243,14 +243,18 @@ function mainApplication() {
                 if (parentMissionTimeSeconds >= gCurrGETSeconds - 1 && parentMissionTimeSeconds <= gCurrGETSeconds + 1) {
                     // then we're close enough, don't correct the time
                 } else {
-                    gCurrGETSeconds = parentMissionTimeSeconds;
+                    if (parentMissionTimeSeconds !== NaN) {
+                        gCurrGETSeconds = parentMissionTimeSeconds;
 
-                    loadChannelSoundfile();
-                    gWaveformRefresh = true;
+                        loadChannelSoundfile();
+                        gWaveformRefresh = true;
 
-                    playFromCurrGET();
-                    drawChannels(true);
-                    drawTimeCursor();
+                        playFromCurrGET();
+                        drawChannels(true);
+                        drawTimeCursor();
+                    } else {
+                        trace("parentMissionTimeSeconds is NaN!");
+                    }
                 }
             }
 
@@ -699,6 +703,10 @@ function timeStrToSeconds(timeStr) {
     //if (totalSeconds > 230400)
     //    totalSeconds -= 9600;
     return totalSeconds;
+}
+
+function timeStrToTimeId(timeStr) {
+    return timeStr.split(":").join("");
 }
 
 function padZeros(num, size) {
