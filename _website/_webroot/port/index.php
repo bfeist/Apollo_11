@@ -54,23 +54,18 @@
     <script type="text/javascript" src="lib/webfontloader.js"></script>
     <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="lib/jquery_plugins.js"></script>
-<!--    <script type="text/javascript" src="lib/jquery-ui.js"></script>-->
     <script type="text/javascript" src="lib/jquery.fullscreen.js"></script>
     <script type="text/javascript" src='lib/jquery.lazyload.js'></script>
-<!--    <script type="text/javascript" src='lib/jquery.browser.js'></script>-->
-    <script type="text/javascript" src="lib/paper-full.js"></script>
+    <script type="text/javascript" src="lib/paper-full.min.js"></script>
     <script type="text/javascript" src="lib/date.js"></script>
-<!--    <script type="text/javascript" src="lib/moment.js"></script>-->
-<!--    <script type="text/javascript" src="lib/readable-range.js"></script>-->
     <script type="text/javascript" src='lib/share.js'></script>
     <script type="text/javascript" src='lib/jquery.waitforimages.min.js'></script>
-
     <script type="text/javascript" src='lib/size_manager.js'></script>
     <script type="text/javascript" src='lib/help_overlay_manager.js'></script>
     <script type="text/javascript" src='lib/modemizr.js'></script>
     <script type="text/javascript" src="navigator.js"></script>
-    <script type="text/javascript" src="index.js?nocache=1.2"></script>
-    <script type="text/javascript" src="ajax.js?nocache=1.2"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="ajax.js"></script>
 
 </head>
 <body>

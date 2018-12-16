@@ -406,8 +406,8 @@ function drawTier1() {
         //
         //var from = new paper.Point(itemLocX - 10, gTier1Top);
         //var to = new paper.Point(itemLocX, gTier2Top + (gTier1Height / 2));
-        //var a = new RGBColor(255,255,255);
-        //var b = new RGBColor(0,0,0);
+        //var a = new Color(255,255,255);
+        //var b = new Color(0,0,0);
         //var gradient = new paper.Gradient([a,b]);
         //var gradientColor = new GradientColor(gradient, from, to);
         //stageTickFade.fillColor = gradientColor;
@@ -508,12 +508,12 @@ function drawTier1NavBox(seconds) {
 
     var leftAlphaRect = new paper.Rectangle(gTier1Left, gTier1Top, gTier1NavBoxLocX - gTier1Left, gTier1Height);
     var leftAlphaRectPath = paper.Path.RoundRectangle(leftAlphaRect, cornerSize);
-    leftAlphaRectPath.fillColor = new paper.RGBColor(0,0,0, gAlphaRectOpacity);
+    leftAlphaRectPath.fillColor = new paper.Color(0,0,0, gAlphaRectOpacity);
     gTier1NavGroup.addChild(leftAlphaRectPath);
 
     var rightAlphaRect = new paper.Rectangle(gTier1NavBoxLocX + navBoxWidth, gTier1Top, gTier1Width - gTier1NavBoxLocX + navBoxWidth , gTier1Height);
     var rightAlphaRectPath = paper.Path.RoundRectangle(rightAlphaRect, cornerSize);
-    rightAlphaRectPath.fillColor = new paper.RGBColor(0,0,0, gAlphaRectOpacity);
+    rightAlphaRectPath.fillColor = new paper.Color(0,0,0, gAlphaRectOpacity);
     gTier1NavGroup.addChild(rightAlphaRectPath);
 
     //add zoom fades
@@ -795,12 +795,12 @@ function drawTier2NavBox(seconds) {
 
     var leftAlphaRect = new paper.Rectangle(gTier2Left, gTier2Top, gTier2NavBoxLocX - gTier2Left, gTier2Height);
     var leftAlphaRectPath = paper.Path.RoundRectangle(leftAlphaRect, cornerSize);
-    leftAlphaRectPath.fillColor = new paper.RGBColor(0, 0, 0, gAlphaRectOpacity);
+    leftAlphaRectPath.fillColor = new paper.Color(0, 0, 0, gAlphaRectOpacity);
     gTier2NavGroup.addChild(leftAlphaRectPath);
 
     var rightAlphaRect = new paper.Rectangle(gTier2NavBoxLocX + navBoxWidth, gTier2Top, gTier1Width - gTier2NavBoxLocX + navBoxWidth , gTier2Height);
     var rightAlphaRectPath = paper.Path.RoundRectangle(rightAlphaRect, cornerSize);
-    rightAlphaRectPath.fillColor = new paper.RGBColor(0, 0, 0, gAlphaRectOpacity);
+    rightAlphaRectPath.fillColor = new paper.Color(0, 0, 0, gAlphaRectOpacity);
     gTier2NavGroup.addChild(rightAlphaRectPath);
 
     //add zoom fades
