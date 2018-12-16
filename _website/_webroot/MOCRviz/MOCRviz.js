@@ -236,6 +236,24 @@ function mainApplication() {
 
     paper.view.onFrame = function(event) {
         if (!gPlayer.paused && !gSliderDragging) {
+
+            // SYNC WITH PARENT GET CLOCK
+            if (parent.gCurrMissionTime !== '' && parent.gCurrMissionTime !== undefined) {
+                var parentMissionTimeSeconds = timeStrToSeconds(parent.gCurrMissionTime);
+                if (parentMissionTimeSeconds >= gCurrGETSeconds - 1 && parentMissionTimeSeconds <= gCurrGETSeconds + 1) {
+                    // then we're close enough, don't correct the time
+                } else {
+                    gCurrGETSeconds = parentMissionTimeSeconds;
+
+                    loadChannelSoundfile();
+                    gWaveformRefresh = true;
+
+                    playFromCurrGET();
+                    drawChannels(true);
+                    drawTimeCursor();
+                }
+            }
+
             var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
             var currSeconds = gPlayer.currentTime;
             currSeconds = currSeconds === undefined ? 0 : currSeconds;
@@ -247,6 +265,8 @@ function mainApplication() {
             var missionTimeDisplay = document.getElementById("missionTimeDisplay");
             missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
             gLastRoundedGET = Math.round(gCurrGETSeconds);
+
+            //trace(parent.gCurrMissionTime);
 
             drawChannels(false);
             drawTimeCursor();
@@ -671,18 +691,13 @@ function secondsToTimeStr(totalSeconds) {
 
 function timeStrToSeconds(timeStr) {
     var sign = timeStr.substr(0,1);
-    if (sign === "-") {
-        var signToggle = -1;
-        timeStr = timeStr.substr(1);
-    } else {
-        signToggle = 1;
-    }
-
     var hours = parseInt(timeStr.substr(0,3));
     var minutes = parseInt(timeStr.substr(4,2));
     var seconds = parseInt(timeStr.substr(7,2));
-
+    var signToggle = (sign == "-") ? -1 : 1;
     var totalSeconds = Math.round(signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds));
+    //if (totalSeconds > 230400)
+    //    totalSeconds -= 9600;
     return totalSeconds;
 }
 
