@@ -2,18 +2,18 @@ __author__ = 'Feist'
 import requests
 import re
 
-urlArray = ["a17.landing.html", "a17.postland.html", "a17.eva1prep.html", "a17.1ststep.html", "a17.lrvdep.html", "a17.lrvload.html", "a17.alsepoff.html", "a17.alsepdep.html", "a17.deepcore.html", "a17.trvsta1.html", "a17.sta1.html", "a17.trvlm1.html", "a17.clsout1.html", "a17.eva1post.html", "a17.eva2wake.html", "a17.eva2prep.html", "a17.outcam.html", "a17.trvsta2.html", "a17.sta2.html", "a17.trvsta3.html", "a17.trvsta4.html", "a17.sta4.html", "a17.trvsta5.html", "a17.sta5.html", "a17.clsout2.html", "a17.eva2post.html", "a17.eva3prep.html", "a17.trvsta6.html", "a17.sta6.html", "a17.sta7.html", "a17.sta8.html", "a17.trvsta9.html", "a17.sta9.html", "a17.trvlm3.html", "a17.clsout3.html", "a17.eva3post.html", "a17.launch.html"]
+urlArray = ["01launch.html", "02earth-orbit-tli.html", "03tde.html", "04nav-housekeep.html", "05day2-mcc.html", "06day2-tv.html", "07day2-laser.html", "08day3-africa-breakfast.html", "09day3-entering-eagle.html", "10day3-flight-plan-update.html", "11day4-loi1.html", "12day4-loi2.html", "13day4-eagle-checkout.html", "14day5-landing-prep.html", "15day5-undock-doi.html", "19day6-rendezvs-dock.html", "20day6-reboard-lmjett.html", "21day6-tei.html", "22day7-leave-lsi.html", "23day7-tv-food-prep.html", "24day8-news-checks.html", "25day8-reentry-stowage.html", "26day9-reentry.html"]
 
-# urlArray = ["a17.eva3post.html"]
+urlArray = ["01launch.html"]
 
-outputFilePath = "../../MISSION_DATA/commentaryALSJ.csv"
+outputFilePath = "../MISSION_DATA/commentaryALSJ.csv"
 outputFile = open(outputFilePath, "w")
 outputFile.write("")
 outputFile.close()
 outputFile = open(outputFilePath, "a")
 
 for url in urlArray:
-    page = requests.get('http://www.hq.nasa.gov/alsj/a17/' + url)
+    page = requests.get('https://history.nasa.gov/afj/ap11fj/' + url)
     pageAscii = page.text.encode('ascii', 'ignore')
     lines = pageAscii.split('\r')
     timestamp = ''
@@ -21,20 +21,12 @@ for url in urlArray:
     gCommentaryEnded = False
     gConcatenatedLine = ''
     for line in lines:
-        timestamp_match = re.search(r'<b>.\d\d:\d\d:\d\d</b>', line)
-        if timestamp_match:
-            timestamp = line[timestamp_match.start()+3:timestamp_match.end()-4]
+        timestamp_match = re.search(r'a name="(\d{7})"', line)
+        if timestamp_match is not None:
+            timestamp = timestamp_match.group(1)
             # print 'Timestamp found:', timestamp
-        else:
-            pass
 
         commentarySegment = ''
-        # commentaryCompleteMatch = re.search(r'\[.*\]', line)
-        # if commentaryCompleteMatch:
-        #     gCommentaryStarted = True
-        #     gCommentaryEnded = True
-        #     commentarySegment = line[commentaryCompleteMatch.start() + 1 : commentaryCompleteMatch.end() - 1] # remove square brackets
-        # else:
 
         commentaryStartMatch = re.search(r'\[', line)
         if commentaryStartMatch:

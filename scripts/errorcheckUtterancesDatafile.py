@@ -33,7 +33,7 @@ for curFile in ["A11_merged_utterances.csv"]:
             print("------------- row length not 4: " + str(len(row)))
 
         colonTable = str.maketrans(dict.fromkeys(':'))
-        strippedTimestamp = row[0].translate(colonTable) # remove colons
+        strippedTimestamp = row[0].translate(colonTable)  # remove colons
         if strippedTimestamp != "" and int(strippedTimestamp) > 0:  # don't analyze tape change lines (blank timestamp) or pre-launch segment
             if int(strippedTimestamp) < prevRowTimestamps[0].intTimestamp:
                 print("Timestamp order error on line: " + str(curRow))
