@@ -37,6 +37,8 @@ itemStarted = False  #tracks if we've found a new filename and need to go throug
 blockquoteStarted = False #tracks if we're in the middle of gathering description data, including GET
 
 image_name = ''
+filename = ''
+hrfilename = ''
 timestamp = ''
 description = ''
 
@@ -48,21 +50,34 @@ for line in lines:
         if start_match:
             gSectionStart = True
     else:
-        if linecounter == 6189:
+        if linecounter == 6337:
             print('test area')
 
         image_name_match = re.search(r'\s*?(<p> )?([[a-zA-Z0-9-\s\']+?)(\s\(OF300\))?\s\(\s(<a name)', line)
         if image_name_match is not None:
             # if len(new_image_name) < 17:  #try to catch bad filenames
             description = cleanseString(description)
-            print(str(linecounter) + " GET: " + timestamp + " Name: " + image_name + " Description: " + description)
-            outputFile.write(timestamp + "|" + image_name + "|" + description + "\n")
+            filename = hrfilename if hrfilename != '' else filename
+            print(str(linecounter) + " GET: " + timestamp + " Name: " + image_name + " Filename: " + filename + " Description: " + description)
+            outputFile.write(timestamp + "|" + image_name + "|" + filename + "|" + description + "\n")
+
             timestamp = ''
             image_name = ''
+            filename = ''
+            hrfilename = ''
             description = ''
 
             image_name = image_name_match.group(2).strip()
             itemStarted = True
+
+        if itemStarted:
+            file_name_match = re.search(r'href="(.+?.jpg)"', line)
+            if file_name_match is not None:
+                filename = file_name_match.group(1).strip()
+
+            hrfile_name_match = re.search(r'href="(.+?HR.jpg)"', line)
+            if hrfile_name_match is not None:
+                hrfilename = hrfile_name_match.group(1).strip()
 
         if not blockquoteStarted:
             double_blockquote_match = re.search(r'<blockquote>(.*)</blockquote>', line)  #look for open and close blockquote on the same line
@@ -88,6 +103,7 @@ for line in lines:
             timestamp = GET_match.group(1)
 
 description = cleanseString(description)
-print(str(linecounter) + " GET: " + timestamp + " Name: " + image_name + " Description: " + description)
-outputFile.write(timestamp + "|" + image_name + "|" + description + "\n")
+filename = hrfilename if hrfilename != '' else filename
+print(str(linecounter) + " GET: " + timestamp + " Name: " + image_name + " Filename: " + filename + " Description: " + description)
+outputFile.write(timestamp + "|" + image_name + "|" + filename + "|" + description + "\n")
 outputFile.close()
