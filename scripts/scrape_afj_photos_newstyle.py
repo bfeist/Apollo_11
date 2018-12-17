@@ -6,7 +6,7 @@ urlArray = ["01launch.html", "02earth-orbit-tli.html", "03tde.html", "04nav-hous
 
 # urlArray = ["01launch.html"]
 
-outputFilePath = "../MISSION_DATA/scraped_AFJ_photoinfo_newstyle.csv"
+outputFilePath = "../MISSION_DATA/scraped_photoinfo_AFJ_newstyle.csv"
 outputFile = open(outputFilePath, "w")
 outputFile.write("")
 outputFile.close()

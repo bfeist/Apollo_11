@@ -13,7 +13,7 @@ urlArray = ["08day3-africa-breakfast.html", "09day3-entering-eagle.html", "10day
 
 # urlArray = ["08day3-africa-breakfast.html"]
 
-outputFilePath = "../MISSION_DATA/scraped_commentaryAFJ_fromoldstyle.csv"
+outputFilePath = "../MISSION_DATA/scraped_commentary_AFJ_fromoldstyle.csv"
 outputFile = open(outputFilePath, "w")
 outputFile.write("")
 outputFile.close()
@@ -44,8 +44,7 @@ for url in urlArray:
         commentary_match = re.search(r'<blockquote><font color="#000080"><i>\[(.*)\]', line)
         if commentary_match is not None:
             if not any(re.findall(r'omm break.|ong pause|href="audio', commentary_match.group(1), re.IGNORECASE)):
-                commentary = commentary_match.group(1).strip()
-                commentary = cleanseString(commentary)
+                commentary = cleanseString(commentary_match.group(1))
                 print(str(linecounter) + " GET: " + timestamp + " Commentary: " + commentary)
                 outputFile.write(timestamp + "|" + commentary + "\n")
                 commentary = ''
