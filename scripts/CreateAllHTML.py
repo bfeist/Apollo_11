@@ -18,20 +18,10 @@ for utterance_row in utterance_reader:
     timeline_index_id = utterance_row[0].replace(":", "")
     if utterance_row[1] != "":  # if not a TAPE change or title row
         words_modified = utterance_row[3]
-        # words_modified = words_modified.replace("O2", "O<sub>2</sub>")
-        # words_modified = words_modified.replace("H2", "H<sub>2</sub>")
-        # words_modified = words_modified.replace("Tig ", "T<sub>ig</sub> ")
         who_modified = utterance_row[2]
-        # who_modified = who_modified.replace("CDR", "Cernan")
-        # who_modified = who_modified.replace("CMP", "Evans")
-        # who_modified = who_modified.replace("LMP", "Schmitt")
-        # who_modified = who_modified.replace("PAO", "Public Affairs")
-        # who_modified = who_modified.replace("CC", "Mission Control")
-        # attribution_modified = utterance_row[0]
-
         output_utterance_data_file.write(timeline_index_id + "|" + who_modified + "|" + words_modified + "\n")
     # print cur_row
-
+output_utterance_data_file.close()
 
 # WRITE ALL commentary ITEMS
 output_commentary_data_file_name_and_path = "../_website/_webroot/port/indexes/commentaryData.csv"
@@ -46,9 +36,6 @@ commentary_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
 for commentary_row in commentary_reader:
     cur_row += 1
     timeid = commentary_row[0].replace(":", "")
-    # words_modified = commentary_row[3].replace("O2", "O<sub>2</sub>")
-    # words_modified = words_modified.replace("H2", "H<sub>2</sub>")
-
     # if commentary_row[1] == "ALSJ" and commentary_row[2] == "":
     #     pass
     # else:
@@ -90,4 +77,4 @@ sorted_list = sorted(photo_list, key=operator.itemgetter(0))
 for list_item in sorted_list:
     outputLine = '{0}|{1}|{2}|{3}\n'.format(list_item[0], list_item[1], list_item[2], list_item[3])
     output_photo_index_file.write(outputLine)
-
+output_photo_index_file.close()

@@ -152,6 +152,7 @@
 102:20:38 - Secure doors in the MOCR
 102:27:57 - GO/NO GO for powered descent.
 102:42:01 - GO/NO GO for landing.
+102:46:02 - Eagle has landed.
 102:52:46 - Kranz - "come on, let's keep the chatter down"
 102:57:07|T|CC|Roger. Tranquility. Be advised there's lots of smiling faces in this room and all over the world. Over.
 105:25:41 - Buzz contemplates events.
@@ -184,9 +185,11 @@
 121:40:52 - Crew describes where they slept
 123:07:53 - Backup crew - Jim Lovell calls Columbia and Eagle
 123:10:33 - Neil gives geology observations from question the night before
+124:22:05 - Ascent from the surface
 125:10:23|O|CDR|Well, the ground's got 51 5, and we got 51 5. Yes. First time we've ever agreed on anything.
 125:19:50 - Eagle burn
 127:22:34|O|CMP|You're not confused on which end to dock with, are you?
+128:00:52 - DOCKED
 129:04:08|O|LMP|Now, here are a couple of bags - and I think it's self-explanatory what goes in them.
 129:05:27 - Transferring lunar samples to CM
 129:12:16 - Bathroom humour

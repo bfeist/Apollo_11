@@ -1145,9 +1145,9 @@ function getSearchResultHTML(searchArrayIndex) {
     var searchObject = gSearchData[searchArrayIndex];
 
     var who_modified = searchObject[2];
-    who_modified = who_modified.replace(/CDR/g, "Cernan");
-    who_modified = who_modified.replace(/CMP/g, "Evans");
-    who_modified = who_modified.replace(/LMP/g, "Schmitt");
+    who_modified = who_modified.replace(/CDR/g, "Armstrong");
+    who_modified = who_modified.replace(/CMP/g, "Collins");
+    who_modified = who_modified.replace(/LMP/g, "Aldrin");
     who_modified = who_modified.replace(/PAO/g, "Public Affairs");
     who_modified = who_modified.replace(/CC/g, "Mission Control");
 
