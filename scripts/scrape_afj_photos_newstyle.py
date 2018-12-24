@@ -6,7 +6,7 @@ urlArray = ["01launch.html", "02earth-orbit-tli.html", "03tde.html", "04nav-hous
 
 # urlArray = ["01launch.html"]
 
-outputFilePath = "../MISSION_DATA/scraped_photoinfo_AFJ_newstyle.csv"
+outputFilePath = "../MISSION_DATA/scraped_data/scraped_photoinfo_AFJ_newstyle.csv"
 outputFile = open(outputFilePath, "w")
 outputFile.write("")
 outputFile.close()
@@ -23,7 +23,7 @@ for url in urlArray:
 
     for line in lines:
         linecounter += 1
-        if linecounter == 234:
+        if linecounter == 608:
             print('test area')
         timestamp_match = re.search(r'a name="(\d{7})"', line)
         if timestamp_match is not None:
@@ -43,9 +43,19 @@ for url in urlArray:
                 if sm_photo_url[:4] != 'http':
                     sm_photo_url = 'https://history.nasa.gov/afj/ap11fj/' + sm_photo_url
 
-            print(str(linecounter) + " timestamp: " + timestamp + " small: " + sm_photo_url + " big: " + big_photo_url)
-            outputFile.write(timestamp + "|" + sm_photo_url + "|" + big_photo_url + "\n")
-            photosection = False
+            caption_match = re.search(r'<div class="caption">(.*)</div>', line)
+            if caption_match is not None:
+                if " - " in caption_match.group(1):
+                    captionObj = caption_match.group(1).split(' - ')
+                    photoname = captionObj[0]
+                    caption = captionObj[1]
+                else:
+                    photoname = ''
+                    caption = caption_match.group(1)
+
+                print(str(linecounter) + " timestamp: " + timestamp + " photoname: " + photoname + " small: " + sm_photo_url + " big: " + big_photo_url + " caption: " + caption)
+                outputFile.write(timestamp + "|" + photoname + "|" + sm_photo_url + "|" + big_photo_url + "|" + caption + "\n")
+                photosection = False
 
         photosection_match = re.search(r'<div class="photo">', line)
         if photosection_match is not None:

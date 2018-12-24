@@ -324,11 +324,11 @@ function findClosestCommentary(secondsSearch) {
 
 function findClosestPhoto(secondsSearch) {
     //console.log("scrollToClosestCommentary():" + secondsSearch);
-    if (gCurrVideoStartSeconds == 230400) {
-        if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
-            secondsSearch = secondsSearch + 9600;
-        }
-    }
+    // if (gCurrVideoStartSeconds == 230400) {
+    //     if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+    //         secondsSearch = secondsSearch + 9600;
+    //     }
+    // }
     var timeId = secondsToTimeId(secondsSearch);
     var photoTimeId = gPhotoIndex[gPhotoIndex.length - 1];
     for (var i = 0; i < gPhotoIndex.length; ++i) {
@@ -984,12 +984,13 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
     var attribution = commentaryObject[1];
     var who_modified = commentaryObject[2];
     if (who_modified.length == 0) {
-        //attribution = attribution.replace(/ALSJ/g, '<a href="http://www.hq.nasa.gov/alsj/frame.html" target="alsj">ALSJ</a> Commentary');
+        attribution = attribution.replace('ALSJ', '<a href="https://www.hq.nasa.gov/alsj/a11/a11.html" target="alsj">ALSJ</a> Commentary');
+        attribution = attribution.replace('AFJ', '<a href="https://history.nasa.gov/afj/ap11fj/index.html" target="alsj">AFJ</a> Commentary');
     }
     if (who_modified.length != 0) {
-        who_modified = who_modified.replace(/CDR/g, "Cernan");
-        who_modified = who_modified.replace(/CMP/g, "Evans");
-        who_modified = who_modified.replace(/LMP/g, "Schmitt");
+        who_modified = who_modified.replace(/CDR/g, "Armstrong");
+        who_modified = who_modified.replace(/CMP/g, "Collins");
+        who_modified = who_modified.replace(/LMP/g, "Aldrin");
         if (who_modified == "summary")
             who_modified = '';
     } else {
@@ -1048,26 +1049,10 @@ function populatePhotoGallery() {
     for (var i = 0; i < gPhotoIndex.length; i++) {
         var photoObject = gPhotoData[i];
         var html = $('#photoGalleryTemplate').html();
-        if (photoObject[2] != "") {
-            var photoTypePath = "flight";
-            var filename = "AS17-" + photoObject[1];
-        } else {
-            photoTypePath = "supporting";
-            filename = photoObject[1];
-        }
-        filename = filename + ".jpg";
 
-        if (gCdnEnabled) {
-            //var cdnNum = getRandomInt(1, 5);
-            var cdnNum = '';
-            var serverUrl = "http://cdn" + cdnNum + ".apollo17.org";
-        } else {
-            serverUrl = "http://apollo17.org";
-        }
+        var imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
 
-        html = html.replace(/@serverUrl/g , serverUrl);
-        html = html.replace(/@photoTypePath/g , photoTypePath);
-        html = html.replace(/@filename/g ,filename);
+        html = html.replace(/@imageURL/g , imageURL);
         html = html.replace(/@timestamp/g , timeIdToTimeStr(photoObject[0]));
         var timeid = photoObject[0];
         html = html.replace(/@timeid/g , timeid);
@@ -1113,43 +1098,16 @@ function loadPhotoHtml(photoIndex) {
     var html = $('#photoTemplate').html();
 
     var photoTimeId = photoObject[0];
-    var magCode = photoObject[2];
-    if (magCode != "") {
-        var photoTypePath = "flight";
-        var filename = "AS17-" + photoObject[1];
-    } else {
-        photoTypePath = "supporting";
-        filename = photoObject[1];
-    }
-    var photographer = photoObject[3];
-    var description = photoObject[4];
+    var imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
+    var photoName = photoObject[1];
+    var source = "ALSJ";
+    var caption = photoObject[3];
 
-    //display prerendered 1024 height photos if photo div height smaller than 1024
-    if (photoDiv.height() <= 1024) {
-        var sizePath = "1024";
-    } else {
-        sizePath = "2100";
-    }
-    //var fullSizePath = (photoTypePath == "supporting") ? "2100" : "4175";
-    var fullSizePath = "2100";
-
-    if (gCdnEnabled) {
-        //var cdnNum = getRandomInt(1, 5);
-        var cdnNum = '';
-        var serverUrl = "http://cdn" + cdnNum + ".apollo17.org";
-    } else {
-        serverUrl = "http://apollo17.org";
-    }
-
-    html = html.replace(/@photoTypePath/g , photoTypePath);
-    html = html.replace(/@fullSizePath/g , fullSizePath);
-    html = html.replace(/@serverUrl/g , serverUrl);
-    html = html.replace(/@sizepath/g , sizePath);
-    html = html.replace(/@filename/g , filename);
+    html = html.replace(/@imageURL/g , imageURL);
+    html = html.replace(/@photo_name/g , photoName);
     html = html.replace(/@timeStr/g,  timeIdToTimeStr(photoTimeId));
-    html = (magCode != "") ? html.replace("@mag_code", "Mag " + magCode) : html.replace("@mag_code", "");
-    html = (photographer != "") ? html.replace("@photographer", photographer) : html.replace("@photographer", "");
-    html = html.replace("@description", description);
+    html = (source !== "") ? html.replace("@source", source) : html.replace("@source", "");
+    html = html.replace("@caption", caption);
 
     photoDiv.html('');
     photoDiv.append(html);

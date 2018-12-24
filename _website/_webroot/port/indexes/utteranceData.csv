@@ -117,7 +117,7 @@
 0000818|CC|Apollo 11, Houston. You are GO at 8 minutes.
 0000821|CDR|AGS just got the mixture ratio shift.
 0000825|CC|Roger. We got PU shift down here, too.
-0000836|CDR|Well, it looks like a nice day for it. These thunderstorms down range is about all.
+0000836|CMP|Well, it looks like a nice day for it. These thunderstorms down range is about all.
 0000837||GRAND BAHAMA ISLANDS (REV 1)
 0000852|CC|11, this is Houston. You are GO for staging. Over.
 0000855|CDR|Understand, GO for staging. And - -
@@ -247,7 +247,7 @@
 0003549|CMP|Yes.
 0003550|LMP|About with that white mark?
 0003551|CMP|Yes, one's for the 18, and one's for the 75; I – I think just as long it looks like it's out and ... the window, that's the main thing.
-0003600|PAO|This is Apollo Control at 36 minutes. That's the end of the tape. We have a report on the launch heart rates now from the Flight Surgeon. Commander, Neil Armstrong's heart rate 110, Command Module Pilot Mike Collins 99, Lunar Module pilot 88. These compare with their first Gemini flights, their first liftoff back in the Gemini program. Armstrong's heart rate was 146 at that time, Collins was 125, Aldrin was 110. We have acquisition at Tananarive now. We'll stand by live now through that station.
+0003600|PAO|This is Apollo Control at 36 minutes. That's the end of the tape. We have a report on the launch heart rates now from the Flight Surgeon. Commander, Neil Armstrong's heart rate 110, Command Module Pilot, Mike Collins 99, Lunar Module Pilot, Buzz Aldrin 88. These compare with their first Gemini flights, their first liftoff back in the Gemini program. Armstrong's heart rate was 146 at that time, Collins was 125, Aldrin was 110. We have acquisition at Tananarive now. We'll stand by live now through that station.
 0003641|CDR|Did you get a secondary radiator leak check?
 0003643|LMP|Yes, we did that.
 0003644|CDR|Okay. We're not hearing them over Tananarive.
@@ -694,9 +694,9 @@
 0013710|CC|Roger. P37 format, TLI plus 5: 00744 6485, minus 165, 02506. Read back. Over.
 0013730|LMP|Roger. TLI plus 90, SPS G&N: 63481, minus 153, plus 132, 004 10 25 38, minus 04761, plus 00001, plus 53361, 180 193 000, not applicable, plus 00203 53573 633 53349, 33 1578 122, not available, minus 0252, minus 02580 11887 34345 016 03 50. Vega and Deneb, 071 291 341. No ullage, undocked. P37, TLI plus 5: 00744 6485, minus 165 02506. Over.
 0013903|CC|Apollo 11, this is Houston. Readback correct. For your information, Goldstone reports receiving approximately 1 minute of FM downlink carrier. We were getting ready to request you confirm on the S-band AUX switches, the S-band AUX tape switch to OFF and the S-band AUX TV switch to TV. Over.
-0013928|CDR|Yes, I confirm that that is the configuration we were in.
+0013928|CMP|Yes, I confirm that that is the configuration we were in.
 0013932|CC|Roger. Let us do a little more detective work here and we'll see if we can come up with something.
-0013937|CDR|Okay.
+0013937|CMP|Okay.
 0013953|LMP|Houston, Apollo 11 is ready to go ahead with the - extend the docking probe, and ready to go with the RCS hot fire when you're ready to monitor. Over.
 0014006|CC|Roger. Go ahead with the probe, now.
 0014012|CDR|Roger.

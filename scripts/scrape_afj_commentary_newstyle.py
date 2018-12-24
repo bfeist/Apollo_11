@@ -13,7 +13,7 @@ urlArray = ["01launch.html", "02earth-orbit-tli.html", "03tde.html", "04nav-hous
 
 # urlArray = ["01launch.html"]
 
-outputFilePath = "../MISSION_DATA/scraped_commentary_AFJ_fromnewstyle.csv"
+outputFilePath = "../MISSION_DATA/scraped_data/scraped_commentary_AFJ_fromnewstyle.csv"
 outputFile = open(outputFilePath, "w")
 outputFile.write("")
 outputFile.close()
@@ -58,8 +58,8 @@ for url in urlArray:
         if commentary_match is not None:
             commentary_single_line_match = re.search(r'<div class="comment">(.*)</div>', line)
             if commentary_single_line_match is not None:
-                if 'omm break.' not in commentary_match.group(1):
-                    commentary = commentary_match.group(1).strip()
+                if 'omm break.' not in commentary_single_line_match.group(1):
+                    commentary = commentary_single_line_match.group(1).strip()
                     commentary = cleanseString(commentary)
                     print(str(linecounter) + " GET: " + timestamp + " Commentary: " + commentary)
                     outputFile.write(timestamp + "|" + commentary + "\n")

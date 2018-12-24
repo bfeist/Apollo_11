@@ -25,7 +25,7 @@ urlArray = ["a11.landing.html", "a11.postland.html", "a11.evaprep.html", "a11.st
 
 # urlArray = ["a11.landing.html"]
 
-outputFilePath = "../MISSION_DATA/scraped_commentary_ALSJ.csv"
+outputFilePath = "../MISSION_DATA/scraped_data/scraped_commentary_ALSJ.csv"
 outputFile = open(outputFilePath, "w")
 outputFile.write("")
 outputFile.close()

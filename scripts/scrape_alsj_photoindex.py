@@ -16,7 +16,7 @@ def cleanseString(str):
 urlArray = ["https://www.hq.nasa.gov/office/pao/History/alsj/a11/images11.html"]
 filename = "./data/scrape_alsj_image_page_cleaned_page_data.html"
 
-outputFilePath = "../MISSION_DATA/scraped_photoinfo_ALSJ.csv"
+outputFilePath = "../MISSION_DATA/scraped_data/scraped_photoinfo_ALSJ.csv"
 outputFile = open(outputFilePath, "w")
 outputFile.write("")
 outputFile.close()

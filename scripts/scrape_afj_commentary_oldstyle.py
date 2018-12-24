@@ -13,7 +13,7 @@ urlArray = ["08day3-africa-breakfast.html", "09day3-entering-eagle.html", "10day
 
 # urlArray = ["08day3-africa-breakfast.html"]
 
-outputFilePath = "../MISSION_DATA/scraped_commentary_AFJ_fromoldstyle.csv"
+outputFilePath = "../MISSION_DATA/scraped_data/scraped_commentary_AFJ_fromoldstyle.csv"
 outputFile = open(outputFilePath, "w")
 outputFile.write("")
 outputFile.close()
