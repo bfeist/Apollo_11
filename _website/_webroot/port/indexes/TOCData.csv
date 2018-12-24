@@ -1,298 +1,248 @@
--023722|1|Video: Preparation and Countdown
--012224|2|Flight Director check-in
--011540|2|Countdown Cutoff
--000759|2|Countdown Resumes
+-204608|1|Preparation and Countdown
+-000350|2|Launch Operations Manager wishes crew godspeed
 -000100|2|One Minute
 0000000|1|Lift-off
-0000234|2|S-II Staging
-0000920|2|S-IVB Staging
-0001154|1|Earth orbit insertion
-0005356|2|STDN REV 1
-0011725|2|GOLDSTONE REV 1
-0022510|2|AUSTRALIA REV 2
-0024900|2|HAWAII REV 2
-0025312|2|GO For Trans-Lunar Injection (TLI)
-0030115|2|GOLDSTONE REV 2
-0031229|1|Trans-Lunar Injection maneuver
-0034243|2|S-IVB/Command and Service Module separation
-0035032|2|Video: Trans-Lunar docking initiated
-0035652|2|Trans-Lunar docking capture
-0044506|2|Spacecraft ejection
-0044953|2|Video: S-IVB visible
-0054950|2|Photographing Earth - "fragile-appearing piece of blue"
-0055225|2|Schmitt: "I'm not keeping you awake, am I?"
-0090001|1|Crew Sleep Period Start
-0150245|1|Crew wake-up
-0180255|2|News read to crew
-0211457|2|Cernan describes launch experience
-0245132|2|Schmitt philosophical about observing the earth
-0252626|1|Crew Sleep Period Start
-0330038|1|Crew wake-up
-0341007|2|Video: Crew filming each other while listening to the news
-0353000|1|First mid-course correction
-0370033|2|Crew listening to music
-0391033|2|Schmitt eats his first peanut butter sandwich in orbit
-0425932|2|Video: Start of onboard heat flow and convection experiment
-0453018|2|Video: Continuation of onboard heat flow and convection experiment
-0483612|1|Crew Sleep Period Start
-0563540|1|Crew wake-up with music (Difficulty waking up)
-0595753|2|Entering the LM 2nd time
-0625733|2|Description of clock change maneuver
-0650000|2|Mission control center time update (+2:40:00)
-0680751|2|ALFMED flash observations experiment begins
-0692548|2|Schmitt asks a difficult flight dynamics question
-0731745|2|Half way to the moon
-0734715|1|Crew Sleep Period Start
-0813028|1|Crew wake-up
-0841245|2|Scientific instrument module door jettison
-0861215|2|Loss of communication with Mission Control
-0864630|2|Crew can see the moon for the first time
-0874706|2|Jack Schmitt "speechless"
-0884338|1|Entering Lunar orbit
-0890901|2|Video: Far side of the moon
-0894003|2|S-IVB lunar impact
-0901811|2|"Flash" observed on the lunar surface
-0923441|2|GO for descent orbit insertion
-0924537|2|Photos of Earth setting on lunar horizon
-0933500|1|Descent orbit insertion reported
-0940936|2|Crew teasing Capcom
-0961628|2|Crew listens to the news
-0974728|1|Crew Sleep Period Start
-1054500|1|Crew wake-up (music)
-1065317|2|Video: Earth and moon through telescope
-1100800|1|Lunar Module undocking and separation
-1104734|1|Video: Command Module from LM
-1124949|2|Powered Descent Initiation
-1125208|1|Begin Lunar landing
-1125748|2|Video: Landing camera on
-1130213|2|Landed at Taurus-Littrow
-1134351|2|Post-landing Activities
-1144111|2|Lunch with questions from Mission Control
-1151712|1|EVA-1 Prep
-1160000|2|Getting spacesuits on
-1170138|2|EVA-1 Watches started
-1171042|1|Down the Ladder
-1171135|2|Video: 16mm Film
-1171450|2|"Don't lock the hatch"
-1171857|2|Jack Schmitt challenges the next generation
-1172450|2|Rover Deployment
-1173109|2|Lunar Roving Vehicle (LRV) offloaded
-1174416|2|LRV deployed
-1174824|2|LRV Test Drive
-1181402|1|First TV Picture
-1182157|2|United States flag deployed
-1183443|2|Cosmic ray experiment deployed
-1185119|2|LRV fender broken
-1190449|2|Departed for Apollo Lunar Surface Experiments Package (ALSEP) site
-1191252|1|Arrived at ALSEP site
-1202720|2|Schmitt running on lunar surface
-1203938|2|Cernan: "who's winning the football game?"
-1204606|1|ALSEP deployed
-1205930|2|Deep core sample
-1210107|2|Schmitt falls while retrieving the deep core sample
-1213542|2|Singing - "strolling on the moon one day"
-1215102|2|Departed for Station 1 (Steno Crater)
-1220615|1|Video: Station 1
-1223647|2|Departed for Surface Electrical Properties (SEP) experiment site
-1225456|2|Video: SEP experiment site
-1231339|2|Departed for the Lunar Module
-1231803|1|Video: Arrived back at Lunar Module
-1241345|2|Lunar Module cabin repressurized
-1241404|2|Post-EVA-1 Activities
-1262537|1|Geology debrief on EVA-1
-1274833|2|Lunar dust hay fever
-1281012|2|Schmitt and Joe Allen teasing each other
-1285410|1|Surface Crew sleep period
-1362658|2|Communications with Ron Evans in lunar orbit
-1365503|1|Surface Crew wake-up (music)
-1381306|2|EVA planning discussion
-1382837|1|EVA-2 Prep
-1383157|2|Instructions to build a replacement fender
-1403420|2|EVA-2 Watches started
-1404541|1|Video: EVA-2
-1411900|2|LRV loaded for traverse
-1412155|2|Departed for SEP experiment site
-1412705|1|SEP site
-1413148|2|Departed for Station 2 (South Massif - Nansen Crater)
-1424550|1|Video: Station 2
-1425048|2|Cernan dusts lens at Station 2 "can I change your oil?"
-1425945|2|Cernan "busting my butt"
-1431940|2|Camera on "mother earth"
-1432230|2|"You know, I look out there, I'm not sure I really believe it all."
-1432613|2|"Maybe time's different in space. Adventures in space and time."
-1434044|2|"One-scoop-Schmitt, they call me."
-1434726|2|Departed for Station 3 (Lara Crater)
-1435736|2|Schmitt fooled by an orange reflection
-1441633|2|Capcom expresses how smoothly the mission is going
-1443035|1|Video: Station 3
-1445052|2|"Help twinkle toes"
-1445626|2|"Houston Ballet Foundation requesting your services for next season"
-1450447|2|Departed for Station 4 (Shorty Crater)
-1452348|1|Video: Station 4
-1452629|2|Orange soil discovered
-1452859|2|Camera gets a cleaning
-1455447|2|Departed for Station 5 (Camelot Crater)
-1462550|1|Video: Station 5
-1465030|2|Cernan hopping along and singing
-1465557|2|Departed for the Lunar Module
-1471223|2|Arrived at the Lunar Module
-1473740|2|Cernan shooting with the 500mm
-1475204|2|Dusting the camera and philosophizing
-1480947|2|Lunar Module cabin repressurized
-1504612|1|Crew listens to news while eating dinner
-1522520|1|Surface Crew sleep period begins
-1544023|2|Communications with Ron Evans in lunar orbit
-1550840|2|Description of EVA2 read to Evans
-1602402|1|Surface Crew wake-up (music)
-1604139|2|News read to the crew over breakfast
-1610415|2|(audio missing)
-1631241|2|(audio resumes)
-1631242|1|EVA-3 Prep
-1633234|2|EVA-3 Watches started
-1634615|1|Video: EVA-3
-1635611|2|LRV loaded for traverse
-1640016|2|Cosmic ray experiment retrieved
-1640708|2|Schmitt, "Tallest man on the moon"
-1641119|2|Departed for SEP site
-1641835|1|SEP site
-1642127|2|Departed for Station 6 (Tracy's Rock)
-1645310|1|Video: Station 6
-1650057|2|Schmitt's face visible on video
-1650800|2|Hammering boulder to retrieve fragments
-1653642|2|Cernan falls
-1653654|2|"Remind me to dust my camera"
-1654827|2|Photo: Lunar Module in the far distance
-1660210|2|Departed for Station 7 (North Massif)
-1661100|1|Video: Station 7
-1661124|2|Cernan is getting "tired of dusting"
-1661438|2|Photography of large boulder
-1662950|2|Departed for Station 8 (Sculptured Hills)
-1663910|2|Commentary: Crew discusses how adaptable they were
-1665001|1|Video: Station 8
-1665126|2|"I think your LMP just ran away"
-1665624|2|Schmitt rolls bolder downhill
-1670657|2|Schmitt running
-1670726|2|Schmitt skis down hill
-1671003|2|Cernan: "I can cover ground like a kangaroo"
-1672530|2|Teasing CAPCOM, Bob Parker
-1673228|2|Departed for Station 9 (Van Serg Crater)
-1673444|2|Trying to blow dust off the camera
-1675548|1|Video: Station 9
-1680223|2|Singing "Tiptoe Through the Tulips"
-1680432|2|Standing on edge of Van Serg giving geology observations
-1682048|2|Simultaneous panoramas
-1684557|2|Capcom asks about strange object in camera view
-1684707|2|Return to the Lunar Module
-1691519|2|Schmitt, "Need your oil changed?"
-1691857|1|Video: Arrived at Lunar Module
-1693045|2|Photos of Earth above Lunar Module
-1694315|2|Speech to the youth of the world
-1694650|2|Uncovering of the plaque
-1695144|2|Throwing object
-1695248|2|LRV driven to its final resting place (VIP site)
-1701358|2|ALSEP photography completed
-1701957|2|LRV Parked
-1702141|2|Schmitt walking back to LM
-1702208|2|Cernan's speech about aerospace
-1702820|2|Cernan walking back to LM
-1702959|2|Schmitt throws his geology hammer
-1703936|2|Video shot of Earth
-1704117|1|Cernan's Last Steps speech
-1704700|2|Lunar Module cabin repressurized
-1720152|2|Chat with Charlie Duke
-1733027|1|Debrief on EVA questions over dinner
-1734413|2|Spurt of dust by the window. "Sleigh with it?"
-1752107|1|Crew Sleep Period Start
-1794112|1|Ron Evans wake-up in Command Module
-1795716|2|Ken Mattingly to Evans: "Jack's making up new geological terms as he goes along."
-1814723|2|Jim Fletcher speaks with Ron Evans
-1820015|2|Houston news read up to Evans
-1823357|2|Command Module orbital burn
-1833112|1|Surface Crew wake-up. Crew wakes up early and sings to Mission Control
-1833708|2|Schmitt reads xmas poem
-1875339|2|GO for lunar liftoff
-1875833|1|Video: Preparation for Lunar Liftoff
-1880119|2|Lunar ascent
-1885815|2|Terminal phase initiation
-1893622|1|Video: Beginning rendezvous with Command Module
-1894132|2|Good to see you
-1900141|2|Video: Preparation for Lunar Docking
-1901734|2|Lunar Docking
-1902042|2|Message from the President
-1904130|2|Hatch opened and crew reunited
-1923704|2|Challenger (LM) closeout
-1933904|2|Cernan and Schmitt playfully teasing Evans
-1935803|2|Video: Lunar Module jettison
-1940331|1|Separation maneuver
-1953831|2|Lunar Module de-orbit firing
-1955244|2|Lunar Module impact
-1955924|2|Surface TV camera permanently switched off
-1984536|1|Crew Sleep Period Start
-2073710|1|Crew wake-up (music)
-2080203|2|Mission Control reads the morning news to the crew
-2080809|2|Flight Director, Gerry Griffin sends greetings and congratulations
-2101723|2|"Can't tell about these geologists"
-2121457|2|Searching for scissors
-2123445|2|Turning off voice so "transcribers can catch up with Jack"
-2141803|1|Scientific experiment summary
-2143318|2|Laughter in mission control about Schmitt's biomed
-2202736|1|Crew Sleep Period Start
-2281101|1|Crew Wake-up (music)
-2340435|2|Mapping camera cover closed in error
-2360752|2|GO for TEI (Transearth Injection)
-2362152|1|Prep for Trans-Earth Injection
-2364208|2|Trans-Earth Injection burn initiated
-2365734|2|Video: Moon, as trip home begins
-2370207|2|Schmitt, "Humans don't get to see the far side, but a trend has been started"
-2371652|2|Reference to "wow woozle" uttered at launch
-2372645|2|Geology summary of lunar exploration
-2373824|2|Speech from Cernan Apollo heritage
-2375842|2|Retro betting there will be no mid-course corrections
-2380244|2|Capcom teasing Schmitt about his weather reports
-2381250|2|Crew and mission control play music for each other
-2400307|2|"Spectacular view" of the moon
-2402935|2|Capcom teases crew about their biomed harnesses
-2430844|1|Crew Sleep Period Start
-2493701|2|Public Affairs summarizes milestone of trip home
-2503000|1|Crew Wake-up (music)
-2523729|2|69th anniversary of man's first flight in a heavier-than-air powered machine
-2551422|1|Start transearth EVA
-2562627|2|Video: TV camera test
-2573829|2|Ron loses a pen out the hatch
-2574045|2|Video: Hatch is fully open
-2574518|2|Evans waves at the camera
-2574910|2|Evans: "Hey, this is great! Talk - talk about being a spaceman"
-2580221|2|"Hello mom!"
-2582927|1|Cabin repressurizing
-2615917|2|Cernan freezing "something off"
-2654017|2|Preliminary mission science summary read to the crew
-2655853|2|Report on Ron Evans' family's reaction to his EVA
-2674338|1|Crew sleep period start
-2712200|2|Crew passes half-way mark on return to Earth
-2750002|1|Crew wake-up (music)
-2755811|2|Sports and news to the crew
-2760457|2|Looking for Santa
-2760953|2|Mission Control guidance team ribbing the NAVY ship crew
-2822553|2|CMP eating upside down
-2840636|1|Video: Television interview with the crew
-2852427|2|Santa visits the MOCR
-2861513|2|Schmitt: "Doesn't it bother you to wield such power, Gordy?"
-2861824|2|"First time we've seen the Earth in several days"
-2904016|1|Crew sleep period start
-2980853|1|Crew wake-up (music)
-3010030|2|Christmas spirit. "Looks like it's really snowing" (out the window)
-3011718|1|Second mid-course correction
-3040340|1|Command module/service module separation
-3041746|1|Reentery begins
-3041857|2|Video: Begin blackout
-3042622|2|Drogue chute
-3042714|2|Main parachute
-3042855|2|Pre-splashdown
-3043150|1|Splashdown
-3042233|2|Video: Mission Control
-3043344|1|Crew retrieval
-3052428|1|Video: Crew on-board USS Ticonderoga
-3052732|1|Speeches by the crew
-3053513|1|MOCR Celebration
-3054048|1|MOCR (Audio)
-3053524|0|End of coverage
+0001151|1|Entered Earth Orbit
+0012011|2|lost hasselblad
+0024418|1|Trans-Lunar Injection (TLI)
+0025303|2|saturn "magnificent ride"
+0031944|2|16mm filming
+0032048|2|flies like a spacecraft instead of a simulator
+0035306|2|Neil can see most of the world
+0042846|2|RCS propellant concern
+0045219|2|Amstrong describes his view out the window
+0045328|2|Collins jokes about his view
+0052031|2|Eating lunch
+0052347|2|Wishing Dr. George Mueller a happy birthday
+0080408|2|Collins debates trunnion measurements with Mission Control
+0111956|2|Eating peanut butter and jelly
+0231422|2|News report: Man on Mars by 2000, hippies, loch ness
+0244535|2|Collins says Earth is a "beautiful sight"
+0251115|2|Jim Lovell says hello
+0264506|1|Mid-course correction 2
+0271524|2|Collins joking about Aldrin
+0271707|2|Aldrin: View "out of this world"
+0272241|2|Observing zero-phase point of the ocean
+0272747|2|Lovell and Aldrin talk about Gemini
+0272843|2|Armstrong jokes about cramped quarters
+0280814|2|McCandless jokes about beautiful view
+0283922|2|Eating with music in background
+0284218|2|Music: Cover Me by Bettye Swann
+0305125|2|White team shift starts
+0305133|2|Collins exercising
+0305941|2|Goldstone comm tech discussion about tv signal
+0312248|2|Duke calls Armstrong "Plasticman"
+0312645|2|Collins jokes about being at a high altitude
+0324033|2|Collins jokes about crew using DSKY
+0325057|2|Collins jokes that he can see the runway
+0325328|1|Just past half-way
+0340131|2|Video: Neil describes Earth
+0341418|2|Duke jokes about Buzz holding cue cards
+0341425|2|Collins describes their "comfortable home"
+0360808|2|Music audible
+0481055|2|Collins jokes about the best kind of CAPCOM
+0505358|2|Music barely audible
+0512940|2|Press conference on Luna 15 with Frank Borman
+0535205|2|News report: Thor Heyerdahl, baseball, porridge eating championship
+0545351|2|Collins says master alarm is a pleasing tone
+0550900|2|Video: TV broadcast
+0551119|2|Kranz "prefer the flight controllers use their consoles for looking at data"
+0552520|2|Collins jokes stagehands don't know where to stand
+0553237|2|Cernan visits the MOCR
+0560344|2|Duke joking about possible wardrobe malfunction
+0560746|2|Jack Schmitt visits the MOCR
+0563447|2|Collins "hello there Earthlings"
+0563806|2|Is collins allowed in the LM?
+0564241|2|Neil sends best wishes to Scout jamboree
+0572507|2|Moon cheese
+0584147|2|Music audible
+0591012|2|Music from crew (unidentified). "Who's on horns?"
+0613955|1|Entering Lunar sphere of influence
+0713359|2|Solar corona visible
+0721739|2|Collins "no more meetings"
+0722924|2|News Report: Fred Haise - Neil is Czar, sports, astrologer
+0731724|2|Crew sees Moon up close for the first time
+0731810|2|Neil jokes about bringing the MOCR to the Moon
+0732032|2|Collins jokes about "The Czar"
+0752939|2|Lunar Orbit Insertion (LOI) status check
+0754944|1|Lunar Orbit Insertion (LOI) burn
+0755155|2|Aldrin is not going to look at the electrical
+0755625|2|LOI burn shutdown
+0755629|2|Collins loves MIT
+0755914|2|Collins excited about good burn
+0755324|1|Entering Lunar Orbit
+0760218|2|Preparing for pictures of Earthrise
+0760632|2|Collins: "Plenty of earthrises, I guess."
+0760705|2|Collins wants to void meteors
+0760919|2|Armstrong - Monster mountains
+0761036|2|Collins could spend his life "geologizing" one crater
+0761106|2|Collins accuses Aldrin of being unscientific
+0761432|2|Collins: "Golly damn! A geologist up here would just go crazy."
+0761512|2|Earthrise on first lunar orbit
+0762156|2|Burn status perfect
+0763434|2|Armstrong: "There's no substitute for actually being here."
+0763749|2|Lovell smiling about seeing mount Marilyn
+0764249|2|Recording comments for posterity
+0773500|2|Armstrong follows Flight Plan
+0782411|2|Video: TV on
+0785745|2|Aldrin says goodbye
+0794943|2|Aldrin: "Let's burn."
+0801334|2|Aldrin talks to "All those listening to the tape"
+0802805|2|Collins wants to stop PTC to get Earthrise
+0803119|2|Collins realizes they're going backwards
+0822000|2|Before earthrise photo
+0822855|2|Aldrin questions Flight Plan
+0825830|2|Armstrong describes spectacular view
+0832028|2|Changing dishes to test communications with Eagle
+0834901|2|Aldrin wants to listen to music
+0840114|2|Aldrin raids the pantry
+0840220|2|Collins amazed at how quickly he has adapted
+0840723|2|Music: John Stewart - Mother Country
+0841108|2|Aldrin wonders about bringing sliderule into LM
+0841108|2|Music: Peggy Lee - Spinning Wheel
+0841352|2|Music: Peggy Lee - Everyday People
+0841700|2|Music: Lou Rawls - Three O'clock in the Morning
+0842207|2|Music: Glen Campbell - Galveston
+0842527|2|Music: Glen Campbell - Gentle On My Mind
+0842827|2|Music: Tennessee Ernie Ford - Take My Hand, Precious Lord
+0851250|2|Music: Barbara Streisand - People
+0852024|2|Music: unidentified
+0854452|2|Aldrin talks about wardrobe function
+0854818|2|Music: unidentified
+0855651|2|Music: unidentified
+0860401|2|Music: Frank Sinatra - It's Nice To Go Trav'ling
+0861216|2|Music: Bettye Swann - Angel Of The Morning
+0862304|2|Music: The Lettermen - Put Your Head On My Shoulder
+0862848|2|Earthrise photos
+0951617|2|News report: Prayers, Aldrin's son, bunny girl, miss universe
+0955330|2|Loud noise startles Collins
+0992501|2|GO for undocking
+0994322|2|Collins teasing Armstrong about being Czar
+1001205|1|Separation for landing
+1003347|2|GO for separation maneuver (prior to DOI)
+1003736|2|Somebody's upside-down.
+1011732|2|GO/NO-GO for DOI
+1011732|1|Descent Orbit Insertion
+1015413|2|List of officials in the viewing gallery
+1022003|2|Kranz: "We're off to a good start. Play it cool."
+1022038|2|Secure doors in the MOCR
+1022757|2|GO/NO-GO for powered descent.
+1024201|2|GO/NO-GO for landing.
+1024602|1|Eagle has landed
+1025246|2|Kranz: "come on, let's keep the chatter down"
+1025707|2|Smiling faces
+1052541|2|Aldrin contemplates events
+1062354|2|McCandless laughs at Aldrin's accurate PRD reading
+1065448|2|Collins comments on the crowd in the MOCR
+1083020|2|Collins compliments Eagle crew
+1091918|1|On the porch
+1092250|2|Coming down the ladder
+1092426|2|First step
+1093054|2|Armstrong reminded to get a contingency sample
+1094129|2|Aldrin closes the hatch making sure not to lock it
+1094319|2|Aldrin: "Magnificent desolation"
+1095242|2|Armstrong reads the plaque
+1101317|2|Aldrin tries different modes of walking
+1101611|2|Nixon talks to the crew on the surface
+1102431|2|Aldrin has his microphone inside his mouth
+1111022|2|Good EASEP data
+1111654|2|Seismic team wants crew to jump for data
+1113227|2|Laser reflector test successful
+1113748|2|Reenter LM
+1114237|2|Cabin repress
+1120031|2|SPAN "pretty incredible"
+1120151|2|FD - "last pad"
+1125630|2|Engine ARM circuit breaker broken
+1140004|2|Slayton jokes with crew
+1140616|2|Goodnight to Columbia
+1141849|2|Armstrong "can't get away with anything anymore"
+1142224|2|McCandless congratulates Neil and Buzz on behalf of the world
+1143307|2|Observation questions to the surface crew
+1214052|2|Crew describes where they slept
+1230753|2|Jim Lovell calls Columbia and Eagle
+1231033|2|Armstrong gives geology observations from question the night before
+1242205|1|Ascent from Lunar surface
+1251023|2|Armstrong: "First time we've ever agreed on anything."
+1251950|2|Rendezvous burn
+1272234|2|Collins jokes about docking
+1280052|1|Docked with Command Module
+1290408|2|Bathroom humour
+1290527|2|Transferring lunar samples to CM
+1291216|2|Bathroom humour
+1291258|2|Look in the lunar sample container
+1300914|1|LM jettison
+1304849|2|Duke askes Collins what it's like to have company
+1304923|2|NY Times uses largest headline text in history
+1305010|2|Deke jokes with Collins
+1321602|2|News report: Telegrams, cosmonauts, Goddard, wives, sports
+1333954|2|Collins excited about the success of the mission
+1350522|2|Collins complains about computer interface layout
+1350640|2|Crew tripple checking TEI numbers
+1350942|2|Collins and Aldrin run through TEI burn checklist
+1351424|2|Armstrong jokes about 'going forward'
+1352117|2|2 minutes to TEI. Collins thinks horizon check is going to be perfect
+1352336|1|Trans-Earth Injection (TEI)
+1352746|2|Collins loves the SPS engine
+1352957|2|Collins teases Aldrin about VERB 83
+1353134|2|Collins says he's wasting film
+1353214|2|Collins choosing film type
+1360152|2|Press conference starts
+1365245|2|Slayton contratulates the crew
+1371703|2|Questions for the EVA crew
+1480742|2|Collins teasing Bill Shaffer
+1482248|2|News report: President, Luna 15, weather, sports
+1484348|2|Apollo 11 affects Dow Jones
+1484529|2|Collins describes docking
+1513358|2|CAPCOM tries to determin landing location
+1514126|2|Armstrong describes his visit to Little West Crater
+1515338|2|Loss of communications with Apollo 11
+1521712|2|Attempt to reacquire communications with Apollo 11
+1524348|2|Communications reestablished
+1524828|2|Collins: Earth getting larger, Moon getting smaller
+1534541|2|White Team comes on shift relieving Green Team
+1535302|2|Crew plays a prank on Mission Control
+1553551|2|Moonstruck Canadian
+1553641|2|Duke mistakes the Moon for Earth
+1553639|2|Video: TV transmission starts
+1554031|2|Armstrong shows the sample return containers
+1554702|2|Aldrin demonstrates gyroscope principles
+1554845|2|Collins demonstrates water in zero g
+1560720|2|Collins asks for evening news
+1570355|2|News report: Nixon predicts visiting other planets within 31 years
+1570611|2|Duke jokes about drinking milk from spoons
+1575339|2|Aldrin exercises and surprises flight surgeon
+1575634|2|Collins jokes about how "busy" the White Team is
+1575929|2|Music: Lunar Rhapsody - Les Baxter (Music Out Of The Moon)
+1582042|2|PTC malfunction explained by Duke
+1600430|1|Sleep period starts
+1661154|2|Flight controllers asking each other for matches
+1692805|2|PAO describes child helping to repair Guam tracking antenna
+1705958|1|Crew wakes up
+1715348|2|Garriot reads recovery area weather report
+1733531|2|News report: Spain, Tax, South Korea, West coast lights for Apollo
+1733759|2|Module McGee
+1733936|2|Buzz wants to know when his lawn was last cut
+1734037|2|Garriot calls Aldrin household to ask about the lawn
+1735248|2|Collins teasing Al Bean
+1741309|2|Green team on shift
+1741737|2|McCandless asked about unidentified noise from previous day
+1742407|1|Apollo 11 crosses half-way point to Earth
+1743013|2|Ground conversation about chipping in for flags for the capcoms
+1744226|2|Collins teasing Dave Reed
+1744405|2|Collins bantering about being forced to sit at the MOCR console
+1773116|2|Video: TV broadcast starts
+1773224|2|Armstrong talks about Jules Verne
+1773438|2|Collins give speech about the trip to the Moon
+1773820|2|Buzz gives philosophical speech
+1774142|2|Armstrong gives speech thanking all who contributed
+1782439|2|White team starts shift
+1814206|2|Targeted landing spot changed to account for weather
+1820347|2|White team says goodbye
+1820816|1|Sleep period starts
+1820729|2|McDonald observatory sees Apollo 11 in their telescope
+1890000|2|Maroon team starts shift
+1892836|1|Crew wakes up
+1902358|2|Air Canada accepts lunar reservations
+1930228|2|Lovell teases crew
+1950301|1|Re-entring Earth's Atmosphere
+1951818|1|Crew recovery
