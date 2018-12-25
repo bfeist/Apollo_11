@@ -62,6 +62,7 @@ photos_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
 for photo_row in photos_reader:
     tempRecord.clear()
     if photo_row[0] != "" and photo_row[0] != "skip":  # if timestamp not blank and photo not marked to skip
+        tempRecord.append(int(photo_row[0].replace(":", "")))  #integer photo id for sorting
         tempRecord.append(photo_row[0].replace(":", ""))  #photo_index_id
         tempRecord.append(photo_row[1])  #photo_name
         tempRecord.append(photo_row[2])  #photo_filename
@@ -76,7 +77,7 @@ sorted_list = sorted(photo_list, key=operator.itemgetter(0))
 
 
 for list_item in sorted_list:
-    outputLine = '{0}|{1}|{2}|{3}\n'.format(list_item[0], list_item[1], list_item[2], list_item[3])
+    outputLine = '{0}|{1}|{2}|{3}\n'.format(list_item[1], list_item[2], list_item[3], list_item[4])
     output_photo_index_file.write(outputLine)
 output_photo_index_file.close()
 
