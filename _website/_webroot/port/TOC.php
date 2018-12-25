@@ -32,7 +32,7 @@
     </li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('-000350')" class="tocitem" id="tocid-000350"><span class="TOCTimestamp">-00:03:50</span>
+        <li onclick="parent.seekToTime('-000352')" class="tocitem" id="tocid-000352"><span class="TOCTimestamp">-00:03:52</span>
         <span class="TOC_item">Launch Operations Manager wishes crew godspeed</span>
     </li>
     <li onclick="parent.seekToTime('-000100')" class="tocitem" id="tocid-000100"><span class="TOCTimestamp">-00:01:00</span>
@@ -119,14 +119,14 @@
     <li onclick="parent.seekToTime('0272843')" class="tocitem" id="tocid0272843"><span class="TOCTimestamp">027:28:43</span>
         <span class="TOC_item">Armstrong jokes about cramped quarters</span>
     </li>
-    <li onclick="parent.seekToTime('0280814')" class="tocitem" id="tocid0280814"><span class="TOCTimestamp">028:08:14</span>
-        <span class="TOC_item">McCandless jokes about beautiful view</span>
+    <li onclick="parent.seekToTime('0280813')" class="tocitem" id="tocid0280813"><span class="TOCTimestamp">028:08:13</span>
+        <span class="TOC_item">McCandless jokes about PTC</span>
     </li>
     <li onclick="parent.seekToTime('0283922')" class="tocitem" id="tocid0283922"><span class="TOCTimestamp">028:39:22</span>
         <span class="TOC_item">Eating with music in background</span>
     </li>
     <li onclick="parent.seekToTime('0284218')" class="tocitem" id="tocid0284218"><span class="TOCTimestamp">028:42:18</span>
-        <span class="TOC_item">Music: Cover Me by Bettye Swann</span>
+        <span class="TOC_item">Music: Bettye Swann - Cover Me</span>
     </li>
     <li onclick="parent.seekToTime('0305125')" class="tocitem" id="tocid0305125"><span class="TOCTimestamp">030:51:25</span>
         <span class="TOC_item">White team shift starts</span>
@@ -395,8 +395,8 @@
     <li onclick="parent.seekToTime('0862304')" class="tocitem" id="tocid0862304"><span class="TOCTimestamp">086:23:04</span>
         <span class="TOC_item">Music: The Lettermen - Put Your Head On My Shoulder</span>
     </li>
-    <li onclick="parent.seekToTime('0862848')" class="tocitem" id="tocid0862848"><span class="TOCTimestamp">086:28:48</span>
-        <span class="TOC_item">Earthrise photos</span>
+    <li onclick="parent.seekToTime('0862840')" class="tocitem" id="tocid0862840"><span class="TOCTimestamp">086:28:40</span>
+        <span class="TOC_item">Earthrise photos Rev 6</span>
     </li>
     <li onclick="parent.seekToTime('0951617')" class="tocitem" id="tocid0951617"><span class="TOCTimestamp">095:16:17</span>
         <span class="TOC_item">News report: Prayers, Aldrin's son, bunny girl, miss universe</span>
@@ -411,7 +411,10 @@
         <span class="TOC_item">Collins teasing Armstrong about being Czar</span>
     </li>
     </ul>
-        <li onclick="parent.seekToTime('1001205')" class="tocitem" id="tocid1001205"><span class="TOCTimestamp">100:12:05</span>
+        <li onclick="parent.seekToTime('1001153')" class="tocitem" id="tocid1001153"><span class="TOCTimestamp">100:11:53</span>
+        <span class="TOC_item">Eagle undocks from Columbia</span>
+    </li>
+    <li onclick="parent.seekToTime('1001205')" class="tocitem" id="tocid1001205"><span class="TOCTimestamp">100:12:05</span>
         <span class="TOC_item">Separation for landing</span>
     </li>
     

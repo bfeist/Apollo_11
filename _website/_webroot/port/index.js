@@ -1050,7 +1050,12 @@ function populatePhotoGallery() {
         var photoObject = gPhotoData[i];
         var html = $('#photoGalleryTemplate').html();
 
-        var imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
+        var filetypematch = photoObject[1].match(/A11-\d\d-\d\d\d\d/g);
+        if (filetypematch !== null) {
+            var imageURL = 'http://tothemoon.ser.asu.edu/data_a70/AS11/extra/'  + photoObject[1] + '.thumb.png';
+        } else {
+            imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
+        }
 
         html = html.replace(/@imageURL/g , imageURL);
         html = html.replace(/@timestamp/g , timeIdToTimeStr(photoObject[0]));
