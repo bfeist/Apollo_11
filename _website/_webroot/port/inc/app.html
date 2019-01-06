@@ -19,7 +19,7 @@
 
       <!-- navigator -->
       <div id="navigator" class="navigator-wrapper">
-        <canvas id="myCanvas" resize keepalive="true"></canvas>
+        <canvas id="navCanvas" resize keepalive="true"></canvas>
       </div>
 
     </div>
@@ -130,7 +130,7 @@
 
     </div> <!-- video-block -->
     <div class="thirtytrack-block">
-      <div class="buttondiv"><button class="thirtytrack-btn">Mission Control</button></div>
+      <div class="buttondiv"><button id="thirtytrack-btn">Listen To Mission Control</button></div>
     </div>
     <div class="photo-block">
         <div class="monitor photo-wrapper" data-js-class="SizeManager" data-sm-parent=".photo-block">
@@ -147,9 +147,11 @@
                 <div id="geosampleTable"></div>
               </div>
             </div>
+            <div id="thirtytrackplaceholder">
             <!--<div class="thirtytrack-overlay">-->
               <!--<iframe  src="/MOCRviz/MOCRviz.html" style="display: block; width: 100%; height: 100%; border: none;"></iframe>-->
             <!--</div>-->
+            </div>
             <div id="photodiv"></div>
           </div>
         </div>

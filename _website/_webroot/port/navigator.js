@@ -85,7 +85,7 @@ function initNavigator() {
     trace("NAV: initNavigator");
 
     paper.install(window);
-    paper.setup('myCanvas');
+    paper.setup('navCanvas');
     //init navigator
     gCurrMissionTime = timeIdToTimeStr(gDefaultStartTimeId); //set clock to start time; //TODO make this handle t parameter time
 
@@ -110,7 +110,7 @@ function initNavigator() {
 
 
     tool.onMouseMove = function (event) {
-        //trace("on mouse move");
+        trace("on mouse move");
         gMouseOnNavigator = true;
 
         var mouseXSeconds;
@@ -173,20 +173,20 @@ function initNavigator() {
         seekToTime(timeStrToTimeId(gCurrMissionTime));
     };
 
-    $('#myCanvas').mouseleave(function() {
+    $('#navCanvas').mouseleave(function() {
+        trace("$('#navCanvas').mouseleave triggered");
         onMouseOutHandler();
     });
 
     $(document).bind("mouseleave",function(event) {
-        //trace("$(document)mouseleave triggered");
+        trace("$(document)mouseleave triggered");
         onMouseOutHandler();
-        //trace("left window");
     });
 }
 
 function onMouseOutHandler() {
+    //trace("onMouseOutHandler()");
     gMouseOnNavigator = false;
-    //trace("mycanvas mouseleave");
 
     $('#navigatorKey').css('display', '');
     if (typeof gNavCursorGroup != "undefined") {

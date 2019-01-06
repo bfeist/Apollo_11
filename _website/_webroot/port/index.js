@@ -2,7 +2,6 @@ trace("INIT: Loading index.js");
 //app control flags
 var gStopCache = false;
 var gCdnEnabled = false;
-var gOffline = false;
 
 //constants
 var gMissionDurationSeconds = 784086;
@@ -19,7 +18,7 @@ var gApplicationReadyIntervalID = null;
 var gShareButtonObject;
 
 //global flags
-var gApplicationReady = gOffline ? 1 : 0; //starts at 0, or start at 1 if "offline" to skip youtube checker
+var gApplicationReady = 0;
 var gFontsLoaded = false;
 var gSplashImageLoaded = false;
 var gMustInitNav = true;
@@ -40,6 +39,7 @@ var gCurrentHighlightedCommentaryIndex;
 var gDashboardManuallyToggled = false;
 var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
 var gMissionTimeParamSent = 0;
+var gMOCRToggled = false;
 
 //global mission state trackers
 var gCurrMissionTime = '';
@@ -178,14 +178,7 @@ function onPlayerStateChange(event) {
 function setAutoScrollPoller() {
     trace("autoScrollPoller()");
     return window.setInterval(function () {
-        var totalSec = gOffline ? timeStrToSeconds(gCurrMissionTime) + 1 : player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
-
-        if (gCurrVideoStartSeconds == 230400) {
-            if (player.getCurrentTime() > 3600) { //if at 065:00:00 or greater, add 002:40:00 to time
-                //trace("adding 9600 seconds to autoscroll target due to MET time change");
-                totalSec = totalSec + 9600;
-            }
-        }
+        var totalSec = player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
         gCurrMissionTime = secondsToTimeStr(totalSec);
 
         if (gCurrMissionTime != gLastTimeIdChecked) {
@@ -215,12 +208,10 @@ function setAutoScrollPoller() {
             }
         }
 
-        if (!gOffline) {
-            if (player.isMuted() == true) {
-                $('#soundBtn > img').removeClass('mute');
-            } else {
-                $('#soundBtn > img').addClass('mute');
-            }
+        if (player.isMuted() == true) {
+            $('#soundBtn > img').removeClass('mute');
+        } else {
+            $('#soundBtn > img').addClass('mute');
         }
     }, 500); //polling frequency in milliseconds
 }
@@ -428,43 +419,41 @@ function seekToTime(timeId) { // transcript click handling --------------------
     var totalSeconds = timeIdToSeconds(timeId);
     gCurrMissionTime = secondsToTimeStr(totalSeconds); //set mission time right away to speed up screen refresh
 
-    if (!gOffline) {
-        var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2, 11);
-        for (var i = 0; i < gMediaList.length; ++i) {
-            var itemStartTimeSeconds = timeStrToSeconds(gMediaList[i][1]);
-            var itemEndTimeSeconds = timeStrToSeconds(gMediaList[i][2]);
+    var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2, 11);
+    for (var i = 0; i < gMediaList.length; ++i) {
+        var itemStartTimeSeconds = timeStrToSeconds(gMediaList[i][1]);
+        var itemEndTimeSeconds = timeStrToSeconds(gMediaList[i][2]);
 
-            if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this video in loop contains the time we want to seek to
-                var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
-                //adjust for 000:02:40 time addition at 065:00:00 -- only the 65 hours-in video needs this manual adjustment, all others have their startTime listed including the time change
-                if (itemStartTimeSeconds == 230400) {
-                    if (seekToSecondsWithOffset > 3600) { //if at 065:00:00 or greater, subtract 000:02:40 to time
-                        trace("seekToTime(): subtracting 9600 seconds from " + seekToSecondsWithOffset + " due to MET time change");
-                        seekToSecondsWithOffset = seekToSecondsWithOffset - 9600;
-                    }
+        if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this video in loop contains the time we want to seek to
+            var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
+            //adjust for 000:02:40 time addition at 065:00:00 -- only the 65 hours-in video needs this manual adjustment, all others have their startTime listed including the time change
+            if (itemStartTimeSeconds == 230400) {
+                if (seekToSecondsWithOffset > 3600) { //if at 065:00:00 or greater, subtract 000:02:40 to time
+                    trace("seekToTime(): subtracting 9600 seconds from " + seekToSecondsWithOffset + " due to MET time change");
+                    seekToSecondsWithOffset = seekToSecondsWithOffset - 9600;
                 }
-                gCurrVideoStartSeconds = itemStartTimeSeconds;
-                gCurrVideoEndSeconds = itemEndTimeSeconds;
-                gPlaybackState = "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
-                //change youtube video if the correct video isn't already playing
-                if (currVideoID !== gMediaList[i][0]) {
-                    trace("seekToTime(): changing video from: " + currVideoID + " to: " + gMediaList[i][0]);
-                    gNextVideoStartTime = seekToSecondsWithOffset;
-                    player.loadVideoById(gMediaList[i][0], seekToSecondsWithOffset);
-                } else {
-                    trace("seekToTime(): no need to change video. Seeking to " + timeId);
-                    player.seekTo(seekToSecondsWithOffset, true);
-                }
-                showPhotoByTimeId(findClosestPhoto(totalSeconds));
-                setTimeout(function() {
-                    scrollTranscriptToTimeId(findClosestUtterance(totalSeconds));
-                    scrollCommentaryToTimeId(findClosestCommentary(totalSeconds));
-                    scrollToClosestTOC(totalSeconds);
-                    redrawAll();
-                },100);
-
-                break;
             }
+            gCurrVideoStartSeconds = itemStartTimeSeconds;
+            gCurrVideoEndSeconds = itemEndTimeSeconds;
+            gPlaybackState = "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
+            //change youtube video if the correct video isn't already playing
+            if (currVideoID !== gMediaList[i][0]) {
+                trace("seekToTime(): changing video from: " + currVideoID + " to: " + gMediaList[i][0]);
+                gNextVideoStartTime = seekToSecondsWithOffset;
+                player.loadVideoById(gMediaList[i][0], seekToSecondsWithOffset);
+            } else {
+                trace("seekToTime(): no need to change video. Seeking to " + timeId);
+                player.seekTo(seekToSecondsWithOffset, true);
+            }
+            showPhotoByTimeId(findClosestPhoto(totalSeconds));
+            setTimeout(function() {
+                scrollTranscriptToTimeId(findClosestUtterance(totalSeconds));
+                scrollCommentaryToTimeId(findClosestCommentary(totalSeconds));
+                scrollToClosestTOC(totalSeconds);
+                redrawAll();
+            },100);
+
+            break;
         }
     }
 }
@@ -1646,6 +1635,22 @@ function getGeosampleHTML(samplenumber, paperHtml, compendiumHtml) {
     return html;
 }
 
+function toggleMOCROverlay() {
+    if (gMOCRToggled === false) {
+        var html = $('#MOCROverlayTemplate').html();
+        $('#thirtytrackplaceholder').append(html);
+        $('#soundBtn').removeClass('mute');
+        player.mute();
+        gMOCRToggled = true;
+    } else {
+        $('#thirtytrackplaceholder').empty();
+        $('#soundBtn').addClass('mute');
+        player.unMute();
+        gMOCRToggled = false;
+    }
+}
+
+
 function toggleFullscreen() {
     if ($(document).fullScreen() == false) {
         $(document).fullScreen(true);
@@ -1804,20 +1809,18 @@ jQuery(function ($) {
 
     $("#soundBtn")
         .click(function(){
-            if (!gOffline) {
-                if (player.isMuted() == true) {
-                    ga('send', 'event', 'button', 'click', 'unmute');
-                    player.unMute();
-                    // var btnIcon = "ui-icon-volume-on";
-                    // var btnText = "Mute";
-                    $(this).addClass('mute');
-                } else {
-                    ga('send', 'event', 'button', 'click', 'mute');
-                    player.mute();
-                    // btnIcon = "ui-icon-volume-off";
-                    // btnText = "Un-Mute";
-                    $(this).removeClass('mute');
-                }
+            if (player.isMuted() == true) {
+                ga('send', 'event', 'button', 'click', 'unmute');
+                player.unMute();
+                // var btnIcon = "ui-icon-volume-on";
+                // var btnText = "Mute";
+                $(this).addClass('mute');
+            } else {
+                ga('send', 'event', 'button', 'click', 'mute');
+                player.mute();
+                // btnIcon = "ui-icon-volume-off";
+                // btnText = "Un-Mute";
+                $(this).removeClass('mute');
             }
         });
 
@@ -1844,6 +1847,11 @@ jQuery(function ($) {
             //gShareButtonObject.toggle(); //this is already happening within the share button div itself.
         });
 
+    $("#thirtytrack-btn")
+        .click(function(){
+        ga('send', 'event', 'tab', 'click', 'mocr');
+        toggleMOCROverlay();
+    });
 
     //tab button events
     $("#transcriptTab").click(function(){
@@ -1868,6 +1876,8 @@ jQuery(function ($) {
             scrollCommentaryToCurrMissionTime();
         },100);
     });
+
+
 
 });
 

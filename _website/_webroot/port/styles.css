@@ -1735,7 +1735,7 @@ header {
   /*width: 60%;*/ /* this is done via jquery in index.js */
 }
 
-.thirtytrack-btn {
+#thirtytrack-btn {
     /*margin-right: 2em;*/
     border-width: 0px;
     border-radius: 4px;
@@ -1768,12 +1768,12 @@ header {
     transform: rotate(90deg);
     transform-origin: 1% 50%;
 }
-.thirtytrack-btn,
-.thirtytrack-btn:visited,
-.thirtytrack-btn:hover,
-.thirtytrack-btn:active,
-.thirtytrack-btn:focus,
-.thirtytrack-btn{
+#thirtytrack-btn,
+#thirtytrack-btn:visited,
+#thirtytrack-btn:hover,
+#thirtytrack-btn:active,
+#thirtytrack-btn:focus,
+#thirtytrack-btn{
     /*color: #444;*/
     color: #000;
     text-decoration: none;

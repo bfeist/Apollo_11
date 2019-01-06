@@ -162,4 +162,10 @@
     </div>
 </script>
 
+<script type="text/html" id="MOCROverlayTemplate">
+    <div class="thirtytrack-overlay">
+        <iframe  src="/MOCRviz/MOCRviz.html" style="display: block; width: 100%; height: 100%; border: none;"></iframe>
+    </div>
+</script>
+
 </html>
