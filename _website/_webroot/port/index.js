@@ -202,6 +202,7 @@ function setAutoScrollPoller() {
             if (!gMouseOnNavigator && !gMustInitNav) {
                 //redrawAll();
                 updateNavigator();
+                paper.view.draw();
             } else {
                 drawCursor(totalSec);
                 paper.view.draw();

@@ -109,8 +109,8 @@ function initNavigator() {
         }, 250);
 
 
-    tool.onMouseMove = function (event) {
-        trace("on mouse move");
+    paper.view.onMouseMove = function (event) {
+        // trace("on mouse move: " + event.point);
         gMouseOnNavigator = true;
 
         var mouseXSeconds;
@@ -152,7 +152,7 @@ function initNavigator() {
 
     };
 
-    tool.onMouseUp = function (event) {
+    paper.view.onMouseUp = function (event) {
         var mouseXSeconds;
         if (event.point.y < gTier1Top + gTier1Height + gTierSpacing) { //if tier1 clicked
             trace("NAV: Tier1 clicked");
@@ -173,10 +173,15 @@ function initNavigator() {
         seekToTime(timeStrToTimeId(gCurrMissionTime));
     };
 
-    $('#navCanvas').mouseleave(function() {
-        trace("$('#navCanvas').mouseleave triggered");
+    paper.view.onMouseLeave = function(event) {
+        trace("paper.view.onMouseLeave triggered");
         onMouseOutHandler();
-    });
+    };
+
+    // $('#navCanvas').mouseout(function() {
+    //     trace("$('#navCanvas').mouseout triggered");
+    //     onMouseOutHandler();
+    // });
 
     $(document).bind("mouseleave",function(event) {
         trace("$(document)mouseleave triggered");
@@ -189,9 +194,9 @@ function onMouseOutHandler() {
     gMouseOnNavigator = false;
 
     $('#navigatorKey').css('display', '');
-    if (typeof gNavCursorGroup != "undefined") {
+    // if (typeof gNavCursorGroup != "undefined") {
         gNavCursorGroup.removeChildren();
-    }
+    // }
    redrawAll();
 }
 

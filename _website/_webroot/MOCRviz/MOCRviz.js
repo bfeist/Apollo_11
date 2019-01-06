@@ -235,6 +235,11 @@ function mainApplication() {
     };
 
     paper.view.onFrame = function(event) {
+        if (parent.gPlaybackState === 'paused') {
+            gPlayer.pause();
+        } else {
+            gPlayer.play();
+        }
         if (!gPlayer.paused && !gSliderDragging) {
 
             // SYNC WITH PARENT GET CLOCK
