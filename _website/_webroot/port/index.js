@@ -113,21 +113,19 @@ function onPlayerReady(event) {
 // The API calls this function when the player's state changes.
 // The function indicates that when playing a video (state=1)
 function onPlayerStateChange(event) {
-    //trace("onPlayerStateChange():state: " + event.data);
-    if (event.data == YT.PlayerState.PLAYING) {
+    // trace("onPlayerStateChange():state: " + event.data);
+    if (event.data === YT.PlayerState.PLAYING) {
         //trace("onPlayerStateChange():PLAYER PLAYING");
-        gPlaybackState = "normal";
         $("#playPauseBtn > img").addClass('pause');
 
-        if (gNextVideoStartTime != -1) {
+        if (gNextVideoStartTime !== -1) {
             //trace("onPlayerStateChange():PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
             player.seekTo(gNextVideoStartTime, true);
             gNextVideoStartTime = -1;
         }
-        if (gPlaybackState == "unexpectedbuffering") {
+        if (gPlaybackState === "unexpectedbuffering") {
             //trace("onPlayerStateChange():PLAYING: was unexpected buffering so calling findClosestUtterance");
             ga('send', 'event', 'transcript', 'click', 'youtube scrub');
-            //scrollToTimeID(findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds));
             scrollTranscriptToTimeId(findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds));
             scrollCommentaryToTimeId(findClosestCommentary(event.target.getCurrentTime() + gCurrVideoStartSeconds));
             scrollToClosestTOC(event.target.getCurrentTime() + gCurrVideoStartSeconds);
@@ -137,7 +135,8 @@ function onPlayerStateChange(event) {
             gIntervalID = setAutoScrollPoller();
             //trace("onPlayerStateChange():INTERVAL: PLAYING: Interval started because was null: " + gIntervalID);
         }
-    } else if (event.data == YT.PlayerState.PAUSED) {
+        gPlaybackState = "normal";
+    } else if (event.data === YT.PlayerState.PAUSED) {
         //clear polling for mission time scrolling if video is paused
         window.clearInterval(gIntervalID);
         //trace("onPlayerStateChange():PAUSED: interval stopped: " + gIntervalID);
@@ -145,20 +144,20 @@ function onPlayerStateChange(event) {
         gPlaybackState = "paused";
         $("#playPauseBtn > img").removeClass('pause');
 
-    } else if (event.data == YT.PlayerState.BUFFERING) {
-        //trace("onPlayerStateChange():BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
-        if (gPlaybackState == "transcriptclicked") {
+    } else if (event.data === YT.PlayerState.BUFFERING) {
+        // trace("onPlayerStateChange():BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
+        if (gPlaybackState === "transcriptclicked") {
             gPlaybackState = "normal";
         } else {
             //buffering for unknown reason, probably due to scrubbing video
             trace("onPlayerStateChange():unexpected buffering");
             gPlaybackState = "unexpectedbuffering";
         }
-    } else if (event.data == YT.PlayerState.ENDED) { //load next video
+    } else if (event.data === YT.PlayerState.ENDED) { //load next video
         //trace("onPlayerStateChange():ENDED. Load next video.");
         var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2,11);
         for (var i = 0; i < gMediaList.length; ++i) {
-            if (gMediaList[i][0] == currVideoID) {
+            if (gMediaList[i][0] === currVideoID) {
                 trace("onPlayerStateChange():Ended. Changing video from: " + currVideoID + " to: " + gMediaList[i + 1][0]);
                 currVideoID = gMediaList[i + 1][0];
                 break;
@@ -178,7 +177,7 @@ function onPlayerStateChange(event) {
 function setAutoScrollPoller() {
     trace("autoScrollPoller()");
     return window.setInterval(function () {
-        var totalSec = player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
+        var totalSec = player.getCurrentTime() + gCurrVideoStartSeconds + 1;
         gCurrMissionTime = secondsToTimeStr(totalSec);
 
         if (gCurrMissionTime != gLastTimeIdChecked) {
@@ -195,7 +194,7 @@ function setAutoScrollPoller() {
             showPhotoByTimeId(timeId);
 
             displayHistoricalTimeDifferenceByTimeId(timeId);
-            updateDashboard(timeId);
+            // updateDashboard(timeId);
             manageOverlaysAutodisplay(timeId);
 
             //scroll nav cursor
@@ -484,14 +483,6 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
         minutes: minutes * conversionMultiplier,
         seconds: seconds * conversionMultiplier
     });
-
-    if (parseInt(timeId) > 650000) {
-        //trace("displayHistoricalTimeDifferenceByTimeId(): subtracting 2 hours 40 minutes from time due to MET time change");
-        timeidDate.add({
-            hours: -2,
-            minutes: -40
-        });
-    }
 
     //HISTORICAL TIME DIFF DISABLED. MOMENT LIBRARY DISABLED
     //var nowDate = Date.now();

@@ -1,6 +1,6 @@
 const cMissionDurationSeconds = 784086;
 const cCountdownSeconds = 74768;
-const cAppStartGET = -74768;
+const cAppStartGET = -000110;
 const cNumberOfActiveTapeChannels = 50;
 
 const cCanvasHeight = 350;
@@ -227,6 +227,10 @@ function mainApplication() {
         }
         gLastRoundedGET = Math.round(gCurrGETSeconds);
 
+        if (parent.gCurrMissionTime !== '' && parent.gCurrMissionTime !== undefined) {
+            parent.seekToTime(secondsToTimeId(gCurrGETSeconds));
+        }
+
         playFromCurrGET();
         drawChannels(true);
         gWaveformRefresh = true;
@@ -235,9 +239,9 @@ function mainApplication() {
     };
 
     paper.view.onFrame = function(event) {
-        if (parent.gPlaybackState === 'paused') {
+        if (parent.gPlaybackState === 'paused' || parent.gPlaybackState === 'unexpectedbuffering') {
             gPlayer.pause();
-        } else {
+        } else if (parent.gPlaybackState === 'normal' && gPlayer.paused) {
             gPlayer.play();
         }
         if (!gPlayer.paused && !gSliderDragging) {
@@ -261,6 +265,11 @@ function mainApplication() {
                         trace("parentMissionTimeSeconds is NaN!");
                     }
                 }
+            }
+
+            // hide player element if in iframe
+            if (parent.gCurrMissionTime !== undefined) {
+                $('#audio-element').hide();
             }
 
             var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
@@ -696,6 +705,11 @@ function secondsToTimeStr(totalSeconds) {
         timeStr = "-" + timeStr.substr(1); //change timeStr to negative, replacing leading zero in hours with "-"
     }
     return timeStr;
+}
+
+function secondsToTimeId(seconds) {
+    var timeId = secondsToTimeStr(seconds).split(":").join("");
+    return timeId;
 }
 
 function timeStrToSeconds(timeStr) {
