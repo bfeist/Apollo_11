@@ -1,7 +1,7 @@
 import csv
 import json
 
-# This script is step 3 after running write_audiowaveform_tape_json.py which creates the input files
+# This script is step 3of3 after running write_audiowaveform_tape_json.py which creates the input files
 # for this script
 # This script creates channel activity from 1-60 by GET, discarding HR1 HR2 tape information. This json is consumed by
 # javascript to display the tape channel activity

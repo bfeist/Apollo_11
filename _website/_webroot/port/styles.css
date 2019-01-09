@@ -1137,8 +1137,9 @@ body.splash-loaded .splash-content {
   content: " ";
   display: block;
   background-size: cover;
-  background-position: left bottom;
-  background-image: url("img/bg_panorama.jpg");
+  background-position: left top;
+  /*background-image: url("img/bg_panorama.jpg");*/
+  background-image: url("img/AS11-40-5962.jpg");
   background-repeat: no-repeat;
   top: 0;
   /*bottom: 0;*/
@@ -1257,7 +1258,7 @@ body.splash-loaded .splash-content {
   width: 1px;
 }
 .splash-content .patch-overlay {
-  background-image: url("img/a17_patch_overlay.png");
+  background-image: url("img/a11_patch_overlay.png");
   position: absolute;
   bottom: 1.5em;
   right: 1.5em;
