@@ -177,7 +177,7 @@ function onPlayerStateChange(event) {
 function setAutoScrollPoller() {
     trace("autoScrollPoller()");
     return window.setInterval(function () {
-        var totalSec = player.getCurrentTime() + gCurrVideoStartSeconds + 1;
+        var totalSec = player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
         gCurrMissionTime = secondsToTimeStr(totalSec);
 
         if (gCurrMissionTime != gLastTimeIdChecked) {

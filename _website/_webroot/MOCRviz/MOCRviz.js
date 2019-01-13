@@ -408,10 +408,10 @@ function loadChannelSoundfile() {
         var channel = (gActiveChannel > 30) ? gActiveChannel - 30 : gActiveChannel;
         var filename = "defluttered_A11_" + tapeData[0] + "_" + tapeData[1] + "_CH" + channel;
 
-        gPlayer.src = "/mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
+        gPlayer.src = "/11mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
         gPlayer.load();
 
-        var datFile = "/mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform_512/" + filename + '.dat';
+        var datFile = "/11mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform_512/" + filename + '.dat';
 
         trace("loading tape: " + filename + " :datFile: " + datFile);
 
@@ -659,7 +659,7 @@ function ajaxGetTapesActivityData() {
     trace("ajaxGetTapeActivityData()");
     return $.ajax({
         type: "GET",
-        url: "/mp3/tape_activity.json",
+        url: "/11mp3/tape_activity.json",
         dataType: "json",
         async: false,
         success: function(data) {
