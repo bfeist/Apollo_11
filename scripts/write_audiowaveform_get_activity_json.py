@@ -14,22 +14,6 @@ def getsec(s):
     else:
         return int(l[0]) * 3600 + (int(l[1]) * 60 * -1) + (int(l[2]) * -1)
 
-#
-# def getTapeByGET(GETseconds, HRtype):
-#     tapeItem = []
-#     if HRtype == 'HR1':
-#         for idx, val in enumerate(HR1_tape_ranges):
-#             if GETseconds >= val[2] and GETseconds <= HR1_tape_ranges[idx + 1][2]:
-#                 tapeItem = val
-#                 break
-#     if HRtype == 'HR2':
-#         for idx, val in HR2_tape_ranges:
-#             if GETseconds >= val[2] and GETseconds <= HR2_tape_ranges[idx + 1][2]:
-#                 tapeItem = val
-#                 break
-#     return tapeItem
-
-
 # load and sort tape ranges per HR
 
 HR1_tape_ranges = []
@@ -50,7 +34,7 @@ start_GETseconds = HR1_tape_ranges[0][2]
 end_GETseconds = getsec(HR1_tape_ranges[len(HR1_tape_ranges)-1][4])
 
 # add a fake last item to each array that contains a start time.
-# This start time is the end time of the last tape (for getTapeByGET function)
+# This start time is the end time of the last tape
 HR1_tape_ranges.append(['', '', end_GETseconds])
 HR2_tape_ranges.append(['', '', end_GETseconds])
 
@@ -71,7 +55,7 @@ for idx, val in enumerate(HR1_tape_ranges):
         break
     HR1_complete_activity.extend(tapeData[tapeActivityArrayIndexStart:tapeActivityArrayIndexEnd])
     print("HR1 processed " + val[0] + " items: " + str(tapeActivityArrayIndexEnd - tapeActivityArrayIndexStart))
-    if tapeActivityArrayIndexEnd > len(tapeData): # extend dataset with silence if noise ends before end of file. This maintains 1 array element per second
+    if tapeActivityArrayIndexEnd > len(tapeData):  # extend dataset with silence if noise ends before end of file. This maintains 1 array element per second
         padding = tapeActivityArrayIndexEnd - len(tapeData) + 1
         print("HR1 " + val[0] + " padded with " + str(padding))
         HR1_complete_activity.extend([ [] for i in range(padding)])
@@ -105,8 +89,19 @@ for i in range(len(HR1_complete_activity)):
     complete_activity_item = HR1_complete_activity[i] + HR2_nested_item
     complete_activity.append(complete_activity_item.copy())
 
-with open('F:/mp3/tape_activity.json', 'w') as outfile:
-    json.dump(complete_activity, outfile)
-    # print(json.dumps({"channelsInSeconds": secondsChannelArray}, indent=3))
+lastIterativeItem = 0
+for i in range(1000, len(complete_activity), 1000):
+    filename = 'tape_activity_' + str(lastIterativeItem) + '-' + str(i - 1) + '.json'
+    with open('F:/mp3/tape_activity/' + filename, 'w') as outfile:
+        json.dump(complete_activity[lastIterativeItem:i], outfile)
+    lastIterativeItem = i
+
+filename = 'tape_activity_' + str(lastIterativeItem) + '-' + str(len(complete_activity)) + '.json'
+with open('F:/mp3/tape_activity/' + filename, 'w') as outfile:
+    json.dump(complete_activity[lastIterativeItem:len(complete_activity)], outfile)
+
+# with open('F:/mp3/tape_activity.json', 'w') as outfile:
+#     json.dump(complete_activity, outfile)
+#     # print(json.dumps({"channelsInSeconds": secondsChannelArray}, indent=3))
 print('done')
 

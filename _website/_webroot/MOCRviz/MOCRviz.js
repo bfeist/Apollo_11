@@ -91,7 +91,10 @@ var gTapeRangesHR1 = [];
 var gTapeRangesHR2 = [];
 var gActiveTape = "T867";
 var gActiveChannel = 14;
-var gTapesActivityArray = [];
+var gTapesActivityRangeArray = [];
+var gTapesActivityStartIndex;
+var gActiveTapesActivityFilenames = ["", "", ""];
+
 var gCurrGETSeconds = cAppStartGET;
 var gLastRoundedGET = cAppStartGET;
 
@@ -127,9 +130,8 @@ window.onload = function() {
     gPlayer = document.getElementById("audio-element");
     paper.install(window);
 
-    $.when(ajaxGetTapeRangeData(),
-        ajaxGetTapesActivityData()).done(function() {
-        trace("APPREADY: Ajax loaded");
+    $.when(ajaxGetTapeRangeData()).done(function() {
+        trace("APPREADY: Tape Range data loaded");
 
         mainApplication();
     });
@@ -232,10 +234,8 @@ function mainApplication() {
         }
 
         playFromCurrGET();
-        drawChannels(true);
+        refreshTapeActivityDisplay(true);
         gWaveformRefresh = true;
-        drawTimeCursor();
-
     };
 
     paper.view.onFrame = function(event) {
@@ -259,7 +259,7 @@ function mainApplication() {
                         gWaveformRefresh = true;
 
                         playFromCurrGET();
-                        drawChannels(true);
+                        refreshTapeActivityDisplay(true);
                         drawTimeCursor();
                     } else {
                         trace("parentMissionTimeSeconds is NaN!");
@@ -284,10 +284,8 @@ function mainApplication() {
             missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
             gLastRoundedGET = Math.round(gCurrGETSeconds);
 
-            //trace(parent.gCurrMissionTime);
-
-            drawChannels(false);
-            drawTimeCursor();
+            //update active channels display
+            refreshTapeActivityDisplay(false);
 
             if (gWavDataLoaded) {
                 if (gWaveformRefresh || gCurrGETSeconds > gLastWaveformFullDrawGET + ($(window).width() * gWaveform512.seconds_per_pixel)) {
@@ -371,7 +369,7 @@ function mainApplication() {
         gWaveformRefresh = true;
 
         playFromCurrGET();
-        drawChannels(true);
+        refreshTapeActivityDisplay(true);
         drawTimeCursor();
 
         gSliderDragging = false;
@@ -394,10 +392,7 @@ function mainApplication() {
     resizeAndRedrawCanvas();
     loadChannelSoundfile();
     playFromCurrGET();
-    drawChannels(true);
-    drawTimeCursor();
-    // startInterval();
-
+    refreshTapeActivityDisplay(true);
 }
 
 function loadChannelSoundfile() {
@@ -462,21 +457,27 @@ function playFromCurrGET() {
     // }
 }
 
-//CANVAS ---
+function refreshTapeActivityDisplay(forceRefresh) {
+    var calcedTapesActivityFilenames = getTapeActivityRanges(gCurrGETSeconds);
+    if (calcedTapesActivityFilenames[0] !== gActiveTapesActivityFilenames[0] || forceRefresh === true) {
+        ajaxGetTapesActivityDataRange(calcedTapesActivityFilenames);
+    } else {
+        drawChannels(false);
+        drawTimeCursor();
+    }
+}
 
+//CANVAS ---
 function drawChannels(forceRefresh) {
     var startGETSeconds = gCurrGETSeconds - Math.round($(window).width() / 2);
-    var durationSeconds = $(window).width() * 2;
+    var displayRangeStart = startGETSeconds + cCountdownSeconds - gTapesActivityStartIndex - 1;
+    var durationSeconds = gTapesActivityRangeArray.length - displayRangeStart;
 
-    var displayRangeStart = startGETSeconds + cCountdownSeconds;
     var displayRangeEnd = displayRangeStart + durationSeconds;
 
-    if (displayRangeEnd > gTapesActivityArray.length - 1)
-        displayRangeEnd = gTapesActivityArray.length - 1;
-
-    if (forceRefresh || startGETSeconds > gLastChannelsFullDrawGET + $(window).width()) {
+    if ((forceRefresh || startGETSeconds > gLastChannelsFullDrawGET + $(window).width()) && gTapeRangesHR1 !== []) {
         gChannelLinesGroup.removeChildren();
-        var partialSecond = startGETSeconds % 1;
+        var partialSecond = gCurrGETSeconds % 1;
 
         gLastChannelsFullDrawGET = startGETSeconds;
         gLastChannelsOnFrameGET = startGETSeconds;
@@ -503,9 +504,9 @@ function drawChannels(forceRefresh) {
                 inactiveLine.strokeColor = cColors.inactiveLine;
             }
             lineGroup.addChild(inactiveLine);
-            for (var i = Math.round(displayRangeStart); i <= displayRangeEnd; i++) {
+            for (var i = Math.round(displayRangeStart); i < displayRangeEnd; i++) {
                 if (i >= 0) {
-                    if (gTapesActivityArray[i].includes(channelNum)) {
+                    if (gTapesActivityRangeArray[i].includes(channelNum)) {
                         if (!prevXCoordActive) {
                             currSegStart = xCoord;
                             prevXCoordActive = true;
@@ -622,7 +623,6 @@ function pauseAudio() {
 }
 
 //------------ data import
-
 function ajaxGetTapeRangeData() {
     var urlStr = "data/tape_ranges.csv";
     return $.ajax({
@@ -655,20 +655,82 @@ function processTapeRangeData(allText) {
     gTapeRangesHR2 = gTapeRangesHR2.sort(Comparator);
 }
 
-function ajaxGetTapesActivityData() {
-    trace("ajaxGetTapeActivityData()");
-    return $.ajax({
-        type: "GET",
-        url: "/11mp3/tape_activity.json",
-        dataType: "json",
-        async: false,
-        success: function(data) {
-            trace ("ajaxGetTapeActivityData returned data");
-            gTapesActivityArray = data;
-        },
-        error: function(xhr, ajaxOptions, thrownError){
-            alert(xhr.status);
-        }
+// function ajaxGetTapesActivityData() {
+//     trace("ajaxGetTapeActivityData()");
+//     return $.ajax({
+//         type: "GET",
+//         url: "/11mp3/tape_activity.json",
+//         dataType: "json",
+//         async: false,
+//         success: function(data) {
+//             trace ("ajaxGetTapeActivityData returned data");
+//             gTapesActivityArray = data;
+//         },
+//         error: function(xhr, ajaxOptions, thrownError){
+//             alert(xhr.status);
+//         }
+//     });
+// }
+
+function getTapeActivityRanges(activeSec) {
+    activeSec = activeSec + cCountdownSeconds;
+
+    var nearestStart = Math.floor(activeSec/1000) * 1000;
+    if (nearestStart > 0) {
+        var startRange = nearestStart - 1000;
+    } else {
+        startRange = 0;
+    }
+    var tapesActivity1filename = "tape_activity_" + startRange.toString() + "-" + (nearestStart - 1).toString() + ".json";
+    var tapesActivity2filename = "tape_activity_" + nearestStart.toString() + "-" + (nearestStart + 999).toString() + ".json";
+
+    var nearestEnd = Math.ceil(activeSec/1000)*1000;
+    if (nearestEnd + 1000 > 784140) {  //if greater than total length of tape activity data
+        var endRange = 784140;
+    } else {
+        endRange = nearestEnd + 1000;
+    }
+    var tapesActivity3filename = "tape_activity_" + nearestEnd.toString() + "-" + (endRange - 1).toString() + ".json";
+
+    gTapesActivityStartIndex = startRange;
+
+    var tapesActivityFilenames = [];
+    tapesActivityFilenames.push(tapesActivity1filename);
+    tapesActivityFilenames.push(tapesActivity2filename);
+    tapesActivityFilenames.push(tapesActivity3filename);
+
+    return tapesActivityFilenames
+}
+
+function ajaxGetTapesActivityDataRange(tapesActivityFilenames) {
+    trace("ajaxGetTapesActivityDataRange(): "  + tapesActivityFilenames.toString());
+
+    gActiveTapesActivityFilenames = tapesActivityFilenames;
+
+    var tapeActivityDataPath = '/11mp3/tape_activity/';
+
+    var tapeActivity1;
+    var tapeActivity2;
+    var tapeActivity3;
+
+    $.when(
+        $.getJSON(tapeActivityDataPath + tapesActivityFilenames[0], function(data) {
+            tapeActivity1 = data;
+        }),
+        $.getJSON(tapeActivityDataPath + tapesActivityFilenames[1], function(data) {
+            tapeActivity2 = data;
+        }),
+        $.getJSON(tapeActivityDataPath + tapesActivityFilenames[2], function(data) {
+            tapeActivity3 = data;
+        })
+    ).then(function() {
+        gTapesActivityRangeArray = [];
+        gTapesActivityRangeArray = gTapesActivityRangeArray.concat(tapeActivity1);
+        gTapesActivityRangeArray = gTapesActivityRangeArray.concat(tapeActivity2);
+        gTapesActivityRangeArray = gTapesActivityRangeArray.concat(tapeActivity3);
+
+        drawChannels(true);
+        drawTimeCursor();
     });
 }
 
