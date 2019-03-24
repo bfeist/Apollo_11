@@ -65,7 +65,13 @@
     <li onclick="parent.seekToTime('0032048')" class="tocitem" id="tocid0032048"><span class="TOCTimestamp">003:20:48</span>
         <span class="TOC_item">flies like a spacecraft instead of a simulator</span>
     </li>
-    <li onclick="parent.seekToTime('0035306')" class="tocitem" id="tocid0035306"><span class="TOCTimestamp">003:53:06</span>
+    </ul>
+        <li onclick="parent.seekToTime('0032101')" class="tocitem" id="tocid0032101"><span class="TOCTimestamp">003:21:01</span>
+        <span class="TOC_item">Transposition and Docking</span>
+    </li>
+    
+<ul class="TOCli TOC2">
+        <li onclick="parent.seekToTime('0035306')" class="tocitem" id="tocid0035306"><span class="TOCTimestamp">003:53:06</span>
         <span class="TOC_item">Neil can see most of the world</span>
     </li>
     <li onclick="parent.seekToTime('0042846')" class="tocitem" id="tocid0042846"><span class="TOCTimestamp">004:28:46</span>
@@ -395,8 +401,8 @@
     <li onclick="parent.seekToTime('0862304')" class="tocitem" id="tocid0862304"><span class="TOCTimestamp">086:23:04</span>
         <span class="TOC_item">Music: The Lettermen - Put Your Head On My Shoulder</span>
     </li>
-    <li onclick="parent.seekToTime('0862840')" class="tocitem" id="tocid0862840"><span class="TOCTimestamp">086:28:40</span>
-        <span class="TOC_item">Earthrise photos Rev 6</span>
+    <li onclick="parent.seekToTime('0863238')" class="tocitem" id="tocid0863238"><span class="TOCTimestamp">086:32:38</span>
+        <span class="TOC_item">Earthrise 16mm and photos Rev 6</span>
     </li>
     <li onclick="parent.seekToTime('0951617')" class="tocitem" id="tocid0951617"><span class="TOCTimestamp">095:16:17</span>
         <span class="TOC_item">News report: Prayers, Aldrin's son, bunny girl, miss universe</span>
@@ -460,6 +466,9 @@
     </li>
     <li onclick="parent.seekToTime('1025707')" class="tocitem" id="tocid1025707"><span class="TOCTimestamp">102:57:07</span>
         <span class="TOC_item">Smiling faces</span>
+    </li>
+    <li onclick="parent.seekToTime('1030256')" class="tocitem" id="tocid1030256"><span class="TOCTimestamp">103:02:56</span>
+        <span class="TOC_item">Program Alarms discussion</span>
     </li>
     <li onclick="parent.seekToTime('1052541')" class="tocitem" id="tocid1052541"><span class="TOCTimestamp">105:25:41</span>
         <span class="TOC_item">Aldrin contemplates events</span>
@@ -555,7 +564,7 @@
         <span class="TOC_item">Armstrong gives geology observations from question the night before</span>
     </li>
     </ul>
-        <li onclick="parent.seekToTime('1242205')" class="tocitem" id="tocid1242205"><span class="TOCTimestamp">124:22:05</span>
+        <li onclick="parent.seekToTime('1242204')" class="tocitem" id="tocid1242204"><span class="TOCTimestamp">124:22:04</span>
         <span class="TOC_item">Ascent from Lunar surface</span>
     </li>
     
