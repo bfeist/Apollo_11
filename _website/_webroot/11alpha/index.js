@@ -81,9 +81,9 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 function onYouTubeIframeAPIReady() {
     trace("INIT: onYouTubeIframeAPIReady():creating player object");
     player = new YT.Player('player', {
-        videoId: 'FQZPTe8KMUc',
-        width: '100%',
-        height: '100%',
+        videoId: 'pLs5mc0Ng5k',
+        // width: '100%',
+        height: '200%',
         playerVars: {
             frameborder: 0,
             iv_load_policy: 3,
@@ -98,6 +98,7 @@ function onYouTubeIframeAPIReady() {
             'onStateChange': onPlayerStateChange
         }
     });
+    player.setPlaybackQuality('hd1080');
 }
 
 // The API will call this function when the video player is ready.
@@ -117,6 +118,7 @@ function onPlayerStateChange(event) {
     if (event.data === YT.PlayerState.PLAYING) {
         //trace("onPlayerStateChange():PLAYER PLAYING");
         $("#playPauseBtn > img").addClass('pause');
+        player.setPlaybackQuality('hd1080');
 
         if (gNextVideoStartTime !== -1) {
             //trace("onPlayerStateChange():PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
@@ -146,6 +148,7 @@ function onPlayerStateChange(event) {
 
     } else if (event.data === YT.PlayerState.BUFFERING) {
         // trace("onPlayerStateChange():BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
+        event.target.setPlaybackQuality('hd1080');
         if (gPlaybackState === "transcriptclicked") {
             gPlaybackState = "normal";
         } else {
@@ -169,6 +172,7 @@ function onPlayerStateChange(event) {
         player.iv_load_policy = 3;
         gNextVideoStartTime = 0; //force next video to start at 0 seconds in the play event handler
         player.loadVideoById(currVideoID, 0);
+        player.setPlaybackQuality('hd1080');
     }
 }
 // </editor-fold>
@@ -440,7 +444,8 @@ function seekToTime(timeId) { // transcript click handling --------------------
             if (currVideoID !== gMediaList[i][0]) {
                 trace("seekToTime(): changing video from: " + currVideoID + " to: " + gMediaList[i][0]);
                 gNextVideoStartTime = seekToSecondsWithOffset;
-                player.loadVideoById(gMediaList[i][0], seekToSecondsWithOffset);
+                player.loadVideoById(gMediaList[i][0], seekToSecondsWithOffset, 'hd1080');
+                player.setPlaybackQuality('hd1080');
             } else {
                 trace("seekToTime(): no need to change video. Seeking to " + timeId);
                 player.seekTo(seekToSecondsWithOffset, true);
@@ -1031,9 +1036,13 @@ function populatePhotoGallery() {
         var photoObject = gPhotoData[i];
         var html = $('#photoGalleryTemplate').html();
 
-        var filetypematch = photoObject[1].match(/A11-\d\d-\d\d\d\d/g);
+        var photoName = photoObject[1];
+        var filetypematch = photoName.match(/AS11-(\d\d)-(\d\d\d\d)/g);
         if (filetypematch !== null) {
-            var imageURL = 'http://tothemoon.ser.asu.edu/data_a70/AS11/extra/'  + photoObject[1] + '.thumb.png';
+            var rollNum = RegExp.$1;
+            var imgNum = RegExp.$2;
+            // var imageURL = 'http://tothemoon.ser.asu.edu/data_a70/AS11/extra/'  + photoObject[1] + '.thumb.png';
+            var imageURL = 'https://www.lpi.usra.edu/resources/apollo/images/thumb/AS11/' + rollNum + '/' + imgNum + '.jpg';
         } else {
             imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
         }
@@ -1084,8 +1093,19 @@ function loadPhotoHtml(photoIndex) {
     var html = $('#photoTemplate').html();
 
     var photoTimeId = photoObject[0];
-    var imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
     var photoName = photoObject[1];
+    var filetypematch = photoName.match(/AS11-(\d\d)-(\d\d\d\d)/g);
+    if (filetypematch !== null) {
+        var rollNum = RegExp.$1;
+        var imgNum = RegExp.$2;
+        if (photoObject[2] !== '') {
+            var imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
+        } else {
+            imageURL = 'https://www.lpi.usra.edu/resources/apollo/images/print/AS11/' + rollNum + '/' + imgNum + '.jpg';
+        }
+    } else {
+        imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
+    }
     var source = "ALSJ";
     var caption = photoObject[3];
 

@@ -1823,6 +1823,12 @@ img.aspect-holder {
   right: 0;
   bottom: 0;
 }
+
+#player-iframe-wrapper {
+    width: 200%;
+    transform: scale(0.5);
+    transform-origin: left top;
+}
 /* block the youtube player from hover */
 /*.player-wrapper:before {*/
     /*content:'';*/
