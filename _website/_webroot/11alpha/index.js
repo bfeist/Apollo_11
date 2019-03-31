@@ -430,13 +430,6 @@ function seekToTime(timeId) { // transcript click handling --------------------
 
         if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this video in loop contains the time we want to seek to
             var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
-            //adjust for 000:02:40 time addition at 065:00:00 -- only the 65 hours-in video needs this manual adjustment, all others have their startTime listed including the time change
-            if (itemStartTimeSeconds == 230400) {
-                if (seekToSecondsWithOffset > 3600) { //if at 065:00:00 or greater, subtract 000:02:40 to time
-                    trace("seekToTime(): subtracting 9600 seconds from " + seekToSecondsWithOffset + " due to MET time change");
-                    seekToSecondsWithOffset = seekToSecondsWithOffset - 9600;
-                }
-            }
             gCurrVideoStartSeconds = itemStartTimeSeconds;
             gCurrVideoEndSeconds = itemEndTimeSeconds;
             gPlaybackState = "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed

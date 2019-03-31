@@ -13,14 +13,21 @@ output_utterance_data_file = open(output_utterance_data_file_name_and_path, "a")
 cur_row = 0
 input_file_path = "../MISSION_DATA/A11_merged_utterances.csv"
 utterance_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
+lasttimestamp = ''
+lastwho = ''
 for utterance_row in utterance_reader:
     cur_row += 1
-    timeid = "timeid" + utterance_row[0].replace(":", "")
+    # timeid = "timeid" + utterance_row[0].replace(":", "")
     timeline_index_id = utterance_row[0].replace(":", "")
     if utterance_row[1] != "":  # if not a TAPE change or title row
         words_modified = utterance_row[3]
         who_modified = utterance_row[2]
-        output_utterance_data_file.write(timeline_index_id + "|" + who_modified + "|" + words_modified + "\n")
+        if timeline_index_id == lasttimestamp and who_modified == lastwho:
+            pass
+        else:
+            output_utterance_data_file.write(timeline_index_id + "|" + who_modified + "|" + words_modified + '|' + utterance_row[1] + "\n")
+        lasttimestamp = timeline_index_id
+        lastwho = who_modified
     # print cur_row
 output_utterance_data_file.close()
 
