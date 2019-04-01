@@ -291,6 +291,20 @@ function processUtteranceData(allText) {
         if (data[0] != "") {
             gUtteranceDataLookup[data[0]] = curRow;
             gUtteranceIndex[i] = data[0];
+            data[1] = data[1].replace(/CDR/g, "Armstrong");
+            data[1] = data[1].replace(/CMP/g, "Collins");
+            data[1] = data[1].replace(/LMP/g, "Aldrin");
+            data[1] = data[1].replace(/PAO/g, "Public Affairs");
+            data[1] = data[1].replace(/CC/g, "Mission Control");
+            data[2] = data[2].replace(/O2/g, "O<sub>2</sub>");
+            data[2] = data[2].replace(/H2/g, "H<sub>2</sub>");
+            data[2] = data[2].replace(/Tig /ig, "T<sub>ig</sub> ");
+            data[2] = data[2].replace(/Tig./ig, "T<sub>ig</sub>.");
+            data[2] = data[2].replace(/DELTA-VC/ig, "DELTA-V<sub>c</sub>");
+            data[2] = data[2].replace(/DELTA-VT/ig, "DELTA-V<sub>t</sub>");
+            data[2] = data[2].replace(/VGX /g, "V<sub>gx</sub> ");
+            data[2] = data[2].replace(/VGY /g, "V<sub>gy</sub> ");
+            data[2] = data[2].replace(/VGZ /g, "V<sub>gz</sub> ");
             gUtteranceData.push(data);
             curRow ++;
         }
@@ -302,9 +316,26 @@ function processCommentaryData(allText) {
     var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gCommentaryIndex[curRow] = data[0];
             gCommentaryDataLookup[data[0]] = curRow;
+            if (data[2].length === 0) {
+                data[1] = data[1].replace('ALSJ', '<a href="https://www.hq.nasa.gov/alsj/a11/a11.html" target="alsj">ALSJ</a> Commentary');
+                data[1] = data[1].replace('AFJ', '<a href="https://history.nasa.gov/afj/ap11fj/index.html" target="alsj">AFJ</a> Commentary');
+            }
+            data[2] = data[2].replace(/CDR/g, "Armstrong");
+            data[2] = data[2].replace(/CMP/g, "Collins");
+            data[2] = data[2].replace(/LMP/g, "Aldrin");
+            data[2] = data[2].replace(/PAO/g, "Public Affairs");
+            data[2] = data[2].replace(/CC/g, "Mission Control");
+            data[3] = data[3].replace(/O2/g, "O<sub>2</sub>");
+            data[3] = data[3].replace(/H2/g, "H<sub>2</sub>");
+            data[3] = data[3].replace(/Tig /ig, "T<sub>ig</sub> ");
+            data[3] = data[3].replace(/DELTA-VC/ig, "DELTA-V<sub>c</sub>");
+            data[3] = data[3].replace(/DELTA-VT/ig, "DELTA-V<sub>t</sub>");
+            data[3] = data[3].replace(/VGX /g, "V<sub>gx</sub> ");
+            data[3] = data[3].replace(/VGY /g, "V<sub>gy</sub> ");
+            data[3] = data[3].replace(/VGZ /g, "V<sub>gz</sub> ");
             gCommentaryData.push(data);
             curRow ++;
         }

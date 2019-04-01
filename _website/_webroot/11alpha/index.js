@@ -800,16 +800,7 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     var utteranceObject = gUtteranceData[utteranceIndex];
 
     var who_modified = utteranceObject[1];
-    who_modified = who_modified.replace(/CDR/g, "Armstrong");
-    who_modified = who_modified.replace(/CMP/g, "Collins");
-    who_modified = who_modified.replace(/LMP/g, "Aldrin");
-    who_modified = who_modified.replace(/PAO/g, "Public Affairs");
-    who_modified = who_modified.replace(/CC/g, "Mission Control");
-
     var words_modified = utteranceObject[2];
-    words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
-    words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
-    words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
 
     for (var i = 0; i < gGeoData.length; i++) {
         if (gGeoData[i][0] === utteranceObject[0]) {
@@ -962,25 +953,7 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
 
     var attribution = commentaryObject[1];
     var who_modified = commentaryObject[2];
-    if (who_modified.length == 0) {
-        attribution = attribution.replace('ALSJ', '<a href="https://www.hq.nasa.gov/alsj/a11/a11.html" target="alsj">ALSJ</a> Commentary');
-        attribution = attribution.replace('AFJ', '<a href="https://history.nasa.gov/afj/ap11fj/index.html" target="alsj">AFJ</a> Commentary');
-    }
-    if (who_modified.length != 0) {
-        who_modified = who_modified.replace(/CDR/g, "Armstrong");
-        who_modified = who_modified.replace(/CMP/g, "Collins");
-        who_modified = who_modified.replace(/LMP/g, "Aldrin");
-        if (who_modified == "summary")
-            who_modified = '';
-    } else {
-        who_modified = '';
-    }
     var words_modified = commentaryObject[3];
-    words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
-    words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
-    words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
-    words_modified = words_modified.replace(/@alsjurl/g, '<a href="https://www.hq.nasa.gov/alsj');
-    words_modified = words_modified.replace(/@alsjt/g, ' target="alsj"');
 
     var html = $('#commentaryTemplate').html();
 
@@ -1127,7 +1100,8 @@ function performSearch() {
                 var html = getSearchResultHTML(counter);
                 var searchResultTextIndex = html.toLowerCase().indexOf(searchText);
                 var foundWord = getWordAt(html, searchResultTextIndex);
-                html = html.replace(foundWord, "<span class='searchResultHighlight'>" + foundWord + "</span>");
+                // html = html.replace(foundWord, "<span class='searchResultHighlight'>" + foundWord + "</span>");
+                html = html.slice(0, searchResultTextIndex) + "<span class='searchResultHighlight'>==></span>" + html.slice(searchResultTextIndex);
                 searchResultsTable.append(html);
                 //trace("performSearch():found: " + counter);
                 searchResultCount++;
@@ -1144,16 +1118,7 @@ function getSearchResultHTML(searchArrayIndex) {
     var searchObject = gSearchData[searchArrayIndex];
 
     var who_modified = searchObject[2];
-    who_modified = who_modified.replace(/CDR/g, "Armstrong");
-    who_modified = who_modified.replace(/CMP/g, "Collins");
-    who_modified = who_modified.replace(/LMP/g, "Aldrin");
-    who_modified = who_modified.replace(/PAO/g, "Public Affairs");
-    who_modified = who_modified.replace(/CC/g, "Mission Control");
-
     var words_modified = searchObject[3];
-    words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
-    words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
-    words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
 
     var html = $('#searchResultTemplate').html();
     var timeId = searchObject[0];
@@ -1161,24 +1126,24 @@ function getSearchResultHTML(searchArrayIndex) {
     html = html.replace("@timestamp", timeIdToTimeStr(searchObject[0]));
     html = html.replace("@who", who_modified);
     html = html.replace("@words", words_modified);
-    if (who_modified == "Public Affairs" || who_modified == "") {
+    if (who_modified === "Public Affairs" || who_modified === "") {
         var uttTypeStr = "utt_pao";
-    } else if (who_modified == "Mission Control") {
+    } else if (who_modified === "Mission Control") {
         uttTypeStr = "utt_capcom";
     } else {
         uttTypeStr = "utt_crew";
     }
     html = html.replace(/@uttType/g, uttTypeStr);
-    if (searchObject[4] == 0) { //0 for utterance
+    if (searchObject[4] === 0) { //0 for utterance
         html = html.replace(/@entrytypevar/g, "transcript");
         html = html.replace(/@entrytype/g, "");
-    } else if (searchObject[4] == 1) { //1 for commentary
+    } else if (searchObject[4] === 1) { //1 for commentary
         html = html.replace(/@entrytypevar/g, "commentary");
         html = html.replace(/@entrytype/g, "Commentary");
-    } else if (searchObject[4] == 2) { //2 for geosample
+    } else if (searchObject[4] === 2) { //2 for geosample
         html = html.replace(/@entrytypevar/g, "geology");
         html = html.replace(/@entrytype/g, "Geology Sample");
-    } else if (searchObject[4] == 3) { //3 for photo
+    } else if (searchObject[4] === 3) { //3 for photo
         html = html.replace(/@entrytypevar/g, "photo");
         html = html.replace(/@entrytype/g, "Photo");
     }
