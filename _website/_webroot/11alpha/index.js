@@ -1099,9 +1099,9 @@ function performSearch() {
             if ( gSearchData[counter][3].toLowerCase().indexOf(searchText) != -1) {
                 var html = getSearchResultHTML(counter);
                 var searchResultTextIndex = html.toLowerCase().indexOf(searchText);
-                var foundWord = getWordAt(html, searchResultTextIndex);
+                // var foundWord = getWordAt(html, searchResultTextIndex);
                 // html = html.replace(foundWord, "<span class='searchResultHighlight'>" + foundWord + "</span>");
-                html = html.slice(0, searchResultTextIndex) + "<span class='searchResultHighlight'>==></span>" + html.slice(searchResultTextIndex);
+                html = html.slice(0, searchResultTextIndex) + "<span class='searchResultHighlight'>" + html.slice(searchResultTextIndex, searchResultTextIndex + searchText.length) + "</span>" + html.slice(searchResultTextIndex + searchText.length);
                 searchResultsTable.append(html);
                 //trace("performSearch():found: " + counter);
                 searchResultCount++;

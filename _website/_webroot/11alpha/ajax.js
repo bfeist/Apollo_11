@@ -299,7 +299,7 @@ function processUtteranceData(allText) {
             data[2] = data[2].replace(/O2/g, "O<sub>2</sub>");
             data[2] = data[2].replace(/H2/g, "H<sub>2</sub>");
             data[2] = data[2].replace(/Tig /ig, "T<sub>ig</sub> ");
-            data[2] = data[2].replace(/Tig./ig, "T<sub>ig</sub>.");
+            data[2] = data[2].replace(/Tig\./ig, "T<sub>ig</sub>.");
             data[2] = data[2].replace(/DELTA-VC/ig, "DELTA-V<sub>c</sub>");
             data[2] = data[2].replace(/DELTA-VT/ig, "DELTA-V<sub>t</sub>");
             data[2] = data[2].replace(/VGX /g, "V<sub>gx</sub> ");
@@ -396,7 +396,7 @@ function createSearchData() {
         tmpItem[0] = gUtteranceData[counter][0];
         tmpItem[1] = "";
         tmpItem[2] = gUtteranceData[counter][1];
-        tmpItem[3] = gUtteranceData[counter][2];
+        tmpItem[3] = gUtteranceData[counter][2].replace(/(<([^>]+)>)/ig,""); //strip HTML tags
         tmpItem[4] = 0;
         gSearchData.push(tmpItem);
     }
