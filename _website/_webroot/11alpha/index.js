@@ -4,9 +4,12 @@ var gStopCache = false;
 var gCdnEnabled = false;
 
 //constants
-var gMissionDurationSeconds = 784086;
+var gMissionDurationSeconds = 713311;
 var gCountdownSeconds = 74768;
 var gDefaultStartTimeId = '-000110';
+var gLaunchDate = Date.parse("1969-07-16 13:33");
+var gCountdownStartDate = Date.parse("1969-07-15 4:46:58pm");
+
 var gFontLoaderDelay = 3; //seconds
 var gBackground_color_active = "#222222";
 
@@ -461,7 +464,6 @@ function seekToTime(timeId) { // transcript click handling --------------------
 
 function displayHistoricalTimeDifferenceByTimeId(timeId) {
     //trace("displayHistoricalTimeDifferenceByTimeId():" + timeid);
-    var launchDate = Date.parse("1972-12-07 0:33 -500");
 
     var sign = timeId.substr(0,1);
     var hours = Math.abs(parseInt(timeId.substr(0,3)));
@@ -469,11 +471,11 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
     var seconds = parseInt(timeId.substr(5,2));
 
     var conversionMultiplier = 1;
-    if (sign == "-") { //if on countdown, subtract the mission time from the launch moment
+    if (sign === "-") { //if on countdown, subtract the mission time from the launch moment
         conversionMultiplier = -1;
     }
 
-    var timeidDate = new Date(launchDate.getTime());
+    var timeidDate = new Date(gLaunchDate.getTime());
 
     timeidDate.add({
         hours: hours * conversionMultiplier,
@@ -503,8 +505,7 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
 }
 
 function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" button
-    var launchDate = Date.parse("1972-12-07 0:33am -500");
-    var countdownStartDate = Date.parse("1972-12-06 9:55:39pm -500");
+
     //var nowDate = Date.parse("2015-12-06 10:00pm -500");
     var nowDate = Date.now();
 
@@ -512,28 +513,31 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     //if (histDate.dst()) {
     //    histDate.setHours(histDate.getHours() + 1); //TODO test DST offset
     //}
-    histDate.setMonth(countdownStartDate.getMonth());
-    histDate.setYear(countdownStartDate.getYear());
+    histDate.setMonth(gCountdownStartDate.getMonth());
+    histDate.setYear(gCountdownStartDate.getYear());
+
+    if (nowDate.getDay() < 15) { //apollo 11 countdown on 15th and splash on 24
+        histDate.setDate(15);
+    } else if (nowDate.getDay() > 24) {
+        histDate.setDate(24);
+    }
 
     // Convert dates to milliseconds
     var histDate_ms = histDate.getTime();
-    var countdownStartDate_ms = countdownStartDate.getTime();
-    var launchDate_ms = launchDate.getTime();
+    var countdownStartDate_ms = gCountdownStartDate.getTime();
+    var launchDate_ms = gLaunchDate.getTime();
 
     if (histDate_ms < countdownStartDate_ms) { //if now is before the countdownStartDate, shift forward days to start on first day of the mission
         //var daysToMoveForward = Math.ceil((countdownStartDate_ms - histDate_ms) / (1000 * 60 * 60 * 24));
-        var daysToMoveForward = 6;
+        var daysToMoveForward = 1;
         histDate_ms += (1000 * 60 * 60 * 24) * daysToMoveForward;
     } else if (histDate_ms > launchDate_ms + (gMissionDurationSeconds * 1000)) { //hist date occurs after mission ended, shift backward days to start on first day of the mission
         //var daysToMoveBackward = Math.floor((histDate_ms - countdownStartDate_ms) / (1000 * 60 * 60 * 24));
-        var daysToMoveBackward = 12;
+        var daysToMoveBackward = 1;
         histDate_ms -= (1000 * 60 * 60 * 24) * daysToMoveBackward;
     }
 
     var timeSinceLaunch_ms = histDate_ms - launchDate_ms;
-    if (timeSinceLaunch_ms / 1000 > 65 * 60 * 60) { //if past 65 hours into the mission, add the 2:40 MET time switch
-        timeSinceLaunch_ms += 9600 * 1000;
-    }
 
     return secondsToTimeId(timeSinceLaunch_ms / 1000);
 }
@@ -1885,21 +1889,18 @@ function initSplash() {
 }
 
 function setSplashHistoricalSubtext() {
-    var launchDate = Date.parse("1972-12-07 0:33am -500");
-    var countdownStartDate = Date.parse("1972-12-06 9:55:39pm -500");
-    //var currDate = Date.parse("1972-12-07 0:34am -500");
     var currDate = Date.now();
 
     var currDate_ms = currDate.getTime();
-    var countdownStartDate_ms = countdownStartDate.getTime();
-    var launchDate_ms = launchDate.getTime();
+    var countdownStartDate_ms = gCountdownStartDate.getTime();
+    var launchDate_ms = gLaunchDate.getTime();
     var missionEndDate_ms = launchDate_ms + (gMissionDurationSeconds * 1000);
 
     //if (currDate_ms >= countdownStartDate_ms && currDate_ms < missionEndDate_ms) { //check if during mission anniversary
         //$('.section.now').css('display', '');
    //     $('.historicalSubtext').html("<b>Mission Anniversary.</b><BR>45 years ago, to the second.");
    // } else {
-        $('.historicalSubtext').text("(45 years ago)");  //todo make this calculate how many years ago
+        $('.historicalSubtext').text("(49 years ago)");  //todo make this calculate how many years ago
    // }
 }
 
