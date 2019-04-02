@@ -3,9 +3,9 @@
 -000100|2|One Minute
 0000000|1|Lift-off
 0001151|1|Entered Earth Orbit
-0012011|2|lost hasselblad
+0012011|2|Lost hasselblad
 0024418|1|Trans-Lunar Injection (TLI)
-0025303|2|saturn "magnificent ride"
+0025303|2|Saturn "magnificent ride"
 0031944|2|16mm filming
 0032048|2|flies like a spacecraft instead of a simulator
 0032101|1|Transposition and Docking
@@ -17,6 +17,8 @@
 0052347|2|Wishing Dr. George Mueller a happy birthday
 0080408|2|Collins debates trunnion measurements with Mission Control
 0111956|2|Eating peanut butter and jelly
+0124704|1|Crew Sleep Period Start
+0225012|1|Crew wake-up
 0231422|2|News report: Man on Mars by 2000, hippies, loch ness
 0244535|2|Collins says Earth is a "beautiful sight"
 0251115|2|Jim Lovell says hello
@@ -41,6 +43,8 @@
 0341418|2|Duke jokes about Buzz holding cue cards
 0341425|2|Collins describes their "comfortable home"
 0360808|2|Music audible
+0365310|1|Crew Sleep Period Start
+0480900|1|Crew wake-up
 0481055|2|Collins jokes about the best kind of CAPCOM
 0505358|2|Music barely audible
 0512940|2|Press conference on Luna 15 with Frank Borman
@@ -58,7 +62,9 @@
 0572507|2|Moon cheese
 0584147|2|Music audible
 0591012|2|Music from crew (unidentified). "Who's on horns?"
+0605139|1|Crew Sleep Period Start
 0613955|1|Entering Lunar sphere of influence
+0691024|1|Crew wake-up
 0713359|2|Solar corona visible
 0721739|2|Collins "no more meetings"
 0722924|2|News Report: Fred Haise - Neil is Czar, sports, astrologer
@@ -115,6 +121,8 @@
 0861216|2|Music: Bettye Swann - Angel Of The Morning
 0862304|2|Music: The Lettermen - Put Your Head On My Shoulder
 0863238|2|Earthrise 16mm and photos Rev 6
+0863255|1|Crew Sleep Period Start
+0933240|1|Crew wake-up
 0951617|2|News report: Prayers, Aldrin's son, bunny girl, miss universe
 0955330|2|Loud noise startles Collins
 0992501|2|GO for undocking
@@ -151,16 +159,19 @@
 1111022|2|Good EASEP data
 1111654|2|Seismic team wants crew to jump for data
 1113227|2|Laser reflector test successful
-1113748|2|Reenter LM
+1113748|1|Reentering Lunar Module
 1114237|2|Cabin repress
 1120031|2|SPAN "pretty incredible"
 1120151|2|FD - "last pad"
 1125630|2|Engine ARM circuit breaker broken
 1140004|2|Slayton jokes with crew
-1140616|2|Goodnight to Columbia
+1140616|1|Columbia Sleep Period Start
 1141849|2|Armstrong "can't get away with anything anymore"
 1142224|2|McCandless congratulates Neil and Buzz on behalf of the world
 1143307|2|Observation questions to the surface crew
+1145258|1|Tranquility Base Sleep Period Start
+1205908|1|Columbia Wake-up
+1214040|1|Tranquility Base Wake-up
 1214052|2|Crew describes where they slept
 1230753|2|Jim Lovell calls Columbia and Eagle
 1231033|2|Armstrong gives geology observations from question the night before
@@ -192,6 +203,8 @@
 1360152|2|Press conference starts
 1365245|2|Slayton contratulates the crew
 1371703|2|Questions for the EVA crew
+1380826|1|Crew Sleep Period Start
+1474711|1|Crew Wake-up
 1480742|2|Collins teasing Bill Shaffer
 1482248|2|News report: President, Luna 15, weather, sports
 1484348|2|Apollo 11 affects Dow Jones
@@ -217,10 +230,10 @@
 1575634|2|Collins jokes about how "busy" the White Team is
 1575929|2|Music: Lunar Rhapsody - Les Baxter (Music Out Of The Moon)
 1582042|2|PTC malfunction explained by Duke
-1600430|1|Sleep period starts
+1600459|1|Crew sleep period starts
 1661154|2|Flight controllers asking each other for matches
 1692805|2|PAO describes child helping to repair Guam tracking antenna
-1705958|1|Crew wakes up
+1705958|1|Crew wake-up
 1715348|2|Garriot reads recovery area weather report
 1733531|2|News report: Spain, Tax, South Korea, West coast lights for Apollo
 1733759|2|Module McGee
@@ -241,11 +254,11 @@
 1782439|2|White team starts shift
 1814206|2|Targeted landing spot changed to account for weather
 1820347|2|White team says goodbye
-1820816|1|Sleep period starts
+1820816|1|Crew Sleep Period Start
 1820729|2|McDonald observatory sees Apollo 11 in their telescope
 1890000|2|Maroon team starts shift
-1892836|1|Crew wakes up
+1892836|1|Crew wake-up
 1902358|2|Air Canada accepts lunar reservations
 1930228|2|Lovell teases crew
 1950301|1|Re-entring Earth's Atmosphere
-1951818|1|Crew recovery
+1951818|1|Splashdown and recovery

@@ -28,7 +28,6 @@ var gLastTOCTimeId = '';
 var gLastCommentaryTimeId = '';
 var gLastUtteranceTimeId = '';
 var gLastTimeIdChecked = '';
-var gLastLROOverlaySegment = '';
 var gLastVideoSegmentDashboardHidden = '';
 var gUtteranceDisplayStartIndex;
 var gUtteranceDisplayEndIndex;
@@ -198,7 +197,7 @@ function setAutoScrollPoller() {
             showPhotoByTimeId(timeId);
 
             displayHistoricalTimeDifferenceByTimeId(timeId);
-            // updateDashboard(timeId);
+            updateDashboard(timeId);
             manageOverlaysAutodisplay(timeId);
 
             //scroll nav cursor
@@ -1172,7 +1171,7 @@ function updateDashboard(timeId) {
 
     //Display day
     var dashMissionDay = Math.ceil(timeIdInSeconds / 86400);
-    dashMissionDay = dashMissionDay == 0 ? 1 : dashMissionDay;
+    dashMissionDay = dashMissionDay === 0 ? 1 : dashMissionDay;
     $('#dashMissionDay').html(dashMissionDay);
 
     //Display Mission Stage
@@ -1191,7 +1190,7 @@ function updateDashboard(timeId) {
             break;
         }
     }
-    if (dashCrewStatus.substr(dashCrewStatus.length - 15, 8) == 'sleeping') {
+    if (dashCrewStatus.substr(dashCrewStatus.length - 15, 8) === 'sleeping') {
         var wakeTimeStr = gCrewStatusData[counter + 1][0];
         var timeToWakeup = secondsToTimeStr(timeStrToSeconds(wakeTimeStr) - timeStrToSeconds(gCurrMissionTime));
         dashCrewStatus += '<BR>Wake-up in: <span class="value">' + timeToWakeup + '</span>';
@@ -1200,10 +1199,10 @@ function updateDashboard(timeId) {
 
     var calculateVelocity;
     var calculateDistanceFromEarth;
-    if (timeIdInSeconds < timeStrToSeconds("088:43:38")) { //trans-lunar coast
+    if (timeIdInSeconds < timeStrToSeconds("075:49:44")) { //trans-lunar coast
         calculateVelocity = true;
         calculateDistanceFromEarth = true
-    } else if (timeIdInSeconds > timeStrToSeconds("236:22:59")){ //trans-earth coast
+    } else if (timeIdInSeconds > timeStrToSeconds("135:23:36")){ //trans-earth coast
         calculateVelocity = true;
         calculateDistanceFromEarth = true;
     } else { //lunar orbit
@@ -1212,30 +1211,27 @@ function updateDashboard(timeId) {
     }
     //Display velocity
     if (calculateVelocity) {
-        if (timeIdInSeconds < timeStrToSeconds("304:32:00")) {
+        if (timeIdInSeconds < timeStrToSeconds("195:18:18")) {
             for (counter = 0; counter < gTelemetryData.length; counter++) {
                 if (timeStrToSeconds(gTelemetryData[counter][0]) < timeIdInSeconds) {
-                    if (gTelemetryData[counter][1] != "") {
+                    if (gTelemetryData[counter][1] !== "") {
                         var prevVelocityTimestampObject = gTelemetryData[counter];
                     }
                 } else {
-                    if (gTelemetryData[counter][1] != "") {
+                    if (gTelemetryData[counter][1] !== "") {
                         var nextVelocityTimestampObject = gTelemetryData[counter];
                         break;
                     }
                 }
             }
             var startSeconds = timeStrToSeconds(prevVelocityTimestampObject[0]);
-            startSeconds = startSeconds > 230400 ? startSeconds - 9600 : startSeconds;
             var startVelocity = parseInt(prevVelocityTimestampObject[1]);
-            var currSecondsAdjusted = timeIdInSeconds > 230400 ? timeIdInSeconds - 9600 : timeIdInSeconds;
 
             var endSeconds = timeStrToSeconds(nextVelocityTimestampObject[0]);
-            endSeconds = endSeconds > 230400 ? endSeconds - 9600 : endSeconds;
             var endVelocity = parseInt(nextVelocityTimestampObject[1]);
             var secondsRange = endSeconds - startSeconds;
             var velocityRange = endVelocity - startVelocity;
-            var currentPositionInSecondsRange = currSecondsAdjusted - startSeconds;
+            var currentPositionInSecondsRange = timeIdInSeconds - startSeconds;
             var currentVelocityFPS = ((currentPositionInSecondsRange * velocityRange) / secondsRange) + startVelocity;
 
         } else {
@@ -1256,30 +1252,27 @@ function updateDashboard(timeId) {
 
     //Display distance from Earth
     if (calculateDistanceFromEarth) {
-        if (timeIdInSeconds > 0 && timeIdInSeconds < timeStrToSeconds("304:32:00")) {
+        if (timeIdInSeconds > 0 && timeIdInSeconds < timeStrToSeconds("195:18:18")) {
             for (counter = 0; counter < gTelemetryData.length; counter++) {
                 if (timeStrToSeconds(gTelemetryData[counter][0]) < timeIdInSeconds) {
-                    if (gTelemetryData[counter][2] != "") {
+                    if (gTelemetryData[counter][2] !== "") {
                         var prevDistanceEarthTimestampObject = gTelemetryData[counter];
                     }
                 } else {
-                    if (gTelemetryData[counter][2] != "") {
+                    if (gTelemetryData[counter][2] !== "") {
                         var nextDistanceEarthTimestampObject = gTelemetryData[counter];
                         break;
                     }
                 }
             }
             startSeconds = timeStrToSeconds(prevDistanceEarthTimestampObject[0]);
-            startSeconds = startSeconds > 230400 ? startSeconds - 9600 : startSeconds;
             var startDistanceEarth = parseFloat(prevDistanceEarthTimestampObject[2]);
-            currSecondsAdjusted = timeIdInSeconds > 230400 ? timeIdInSeconds - 9600 : timeIdInSeconds;
 
             endSeconds = timeStrToSeconds(nextDistanceEarthTimestampObject[0]);
-            endSeconds = endSeconds > 230400 ? endSeconds - 9600 : endSeconds;
             var endDistanceEarth = parseFloat(nextDistanceEarthTimestampObject[2]);
             secondsRange = endSeconds - startSeconds;
             var distanceEarthRange = endDistanceEarth - startDistanceEarth;
-            currentPositionInSecondsRange = currSecondsAdjusted - startSeconds;
+            currentPositionInSecondsRange = timeIdInSeconds - startSeconds;
             var currentDistanceEarthNM = ((currentPositionInSecondsRange * distanceEarthRange) / secondsRange) + startDistanceEarth;
 
         } else {
@@ -1301,7 +1294,7 @@ function updateDashboard(timeId) {
                 break;
             }
         }
-        var dashLunarOrbit = '<span class="value">In lunar orbit.</span> Orbit: <span class="value">' + orbitNum + '/75</span>';
+        var dashLunarOrbit = '<span class="value">In lunar orbit.</span> Orbit: <span class="value">' + orbitNum + '/31</span>';
         var dashLunarOrbitSelector = $('#dashLunarOrbit');
         dashLunarOrbitSelector.css('display', 'block');
         dashLunarOrbitSelector.html(dashLunarOrbit);
@@ -1315,40 +1308,23 @@ function updateDashboard(timeId) {
 }
 
 function manageOverlaysAutodisplay(timeId) {
-    // //trace("manageOverlaysAutodisplay()");
-    // //look to see if the current time is within a video segment
-    // var inVideoSegment = false;
-    // for (var counter = 0; counter < gVideoSegments.length; counter ++) {
-    //     if (timeStrToSeconds(gVideoSegments[counter][0]) <= timeIdToSeconds(timeId) && timeStrToSeconds(gVideoSegments[counter][1]) >= timeIdToSeconds(timeId)) {
-    //         inVideoSegment = true;
-    //         //Fade in LRO message if it hasn't been displayed in this video segment yet
-    //         if (gVideoSegments[counter][2] == "3D") {
-    //             if (gLastLROOverlaySegment != gVideoSegments[counter][0]) {
-    //                 gLastLROOverlaySegment = gVideoSegments[counter][0];
-    //                 trace("manageOverlaysAutodisplay():In LRO segment");
-    //                 $('#LRO-overlay').fadeIn();
-    //                 setTimeout(function () {
-    //                     $('#LRO-overlay').fadeOut();
-    //                 }, 8000);
-    //             }
-    //         } else { //when on non-3D video segment
-    //             gLastLROOverlaySegment = ''; //reset LRO overlay rule. This causes LRO overlay to show after jumping back onto a different video, then playing into LRO segment
-    //         }
-    //         //hide dashboard overlay if it is displayed (once per video segment)
-    //         if ($('.dashboard-overlay').css('display').toLowerCase() != 'none' && gLastVideoSegmentDashboardHidden != gVideoSegments[counter][0] && !gDashboardManuallyToggled) {
-    //             gLastVideoSegmentDashboardHidden = gVideoSegments[counter][0];
-    //             hideDashboardOverlay();
-    //         }
-    //         break;
-    //     }
-    // }
-    // if (!inVideoSegment && $('.dashboard-overlay').css('display').toLowerCase() == 'none' && !gDashboardManuallyToggled) {
-    //     showDashboardOverlay();
-    //     gLastLROOverlaySegment = '';
-    //     gLastVideoSegmentDashboardHidden = '';
-    // }
-    if (!gDashboardManuallyToggled) {
-        hideDashboardOverlay();
+    //trace("manageOverlaysAutodisplay()");
+    //look to see if the current time is within a video segment
+    var inVideoSegment = false;
+    for (var counter = 0; counter < gVideoSegments.length; counter ++) {
+        if (timeStrToSeconds(gVideoSegments[counter][0]) <= timeIdToSeconds(timeId) && timeStrToSeconds(gVideoSegments[counter][1]) >= timeIdToSeconds(timeId)) {
+            inVideoSegment = true;
+            //hide dashboard overlay if it is displayed (once per video segment)
+            if ($('.dashboard-overlay').css('display').toLowerCase() !== 'none' && gLastVideoSegmentDashboardHidden !== gVideoSegments[counter][0] && !gDashboardManuallyToggled) {
+                gLastVideoSegmentDashboardHidden = gVideoSegments[counter][0];
+                hideDashboardOverlay();
+            }
+            break;
+        }
+    }
+    if (!inVideoSegment && $('.dashboard-overlay').css('display').toLowerCase() === 'none' && !gDashboardManuallyToggled) {
+        showDashboardOverlay();
+        gLastVideoSegmentDashboardHidden = '';
     }
 }
 
@@ -1365,13 +1341,13 @@ function padZeros(num, size) {
 function toggleSearchOverlay() {
     var searchOverlaySelector = $('.search-overlay');
     var searchBtnSelector =  $('#searchBtn');
-    if (searchOverlaySelector.css('display').toLowerCase() == 'none') {
+    if (searchOverlaySelector.css('display').toLowerCase() === 'none') {
         //searchOverlaySelector.css('display', 'block');
         searchOverlaySelector.fadeIn();
         searchBtnSelector.removeClass('subdued');
         searchBtnSelector.addClass('primary');
         $('#searchInputField').focus();
-        if ($('.dashboard-overlay').css('display').toLowerCase() != 'none') { //turn off dashboard if it's up
+        if ($('.dashboard-overlay').css('display').toLowerCase() !== 'none') { //turn off dashboard if it's up
             toggleDashboardOverlay();
         }
     } else {

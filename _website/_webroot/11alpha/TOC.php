@@ -48,7 +48,7 @@
     
 <ul class="TOCli TOC2">
         <li onclick="parent.seekToTime('0012011')" class="tocitem" id="tocid0012011"><span class="TOCTimestamp">001:20:11</span>
-        <span class="TOC_item">lost hasselblad</span>
+        <span class="TOC_item">Lost hasselblad</span>
     </li>
     </ul>
         <li onclick="parent.seekToTime('0024418')" class="tocitem" id="tocid0024418"><span class="TOCTimestamp">002:44:18</span>
@@ -57,7 +57,7 @@
     
 <ul class="TOCli TOC2">
         <li onclick="parent.seekToTime('0025303')" class="tocitem" id="tocid0025303"><span class="TOCTimestamp">002:53:03</span>
-        <span class="TOC_item">saturn "magnificent ride"</span>
+        <span class="TOC_item">Saturn "magnificent ride"</span>
     </li>
     <li onclick="parent.seekToTime('0031944')" class="tocitem" id="tocid0031944"><span class="TOCTimestamp">003:19:44</span>
         <span class="TOC_item">16mm filming</span>
@@ -95,7 +95,16 @@
     <li onclick="parent.seekToTime('0111956')" class="tocitem" id="tocid0111956"><span class="TOCTimestamp">011:19:56</span>
         <span class="TOC_item">Eating peanut butter and jelly</span>
     </li>
-    <li onclick="parent.seekToTime('0231422')" class="tocitem" id="tocid0231422"><span class="TOCTimestamp">023:14:22</span>
+    </ul>
+        <li onclick="parent.seekToTime('0124704')" class="tocitem" id="tocid0124704"><span class="TOCTimestamp">012:47:04</span>
+        <span class="TOC_item">Crew Sleep Period Start</span>
+    </li>
+    <li onclick="parent.seekToTime('0225012')" class="tocitem" id="tocid0225012"><span class="TOCTimestamp">022:50:12</span>
+        <span class="TOC_item">Crew wake-up</span>
+    </li>
+    
+<ul class="TOCli TOC2">
+        <li onclick="parent.seekToTime('0231422')" class="tocitem" id="tocid0231422"><span class="TOCTimestamp">023:14:22</span>
         <span class="TOC_item">News report: Man on Mars by 2000, hippies, loch ness</span>
     </li>
     <li onclick="parent.seekToTime('0244535')" class="tocitem" id="tocid0244535"><span class="TOCTimestamp">024:45:35</span>
@@ -173,7 +182,16 @@
     <li onclick="parent.seekToTime('0360808')" class="tocitem" id="tocid0360808"><span class="TOCTimestamp">036:08:08</span>
         <span class="TOC_item">Music audible</span>
     </li>
-    <li onclick="parent.seekToTime('0481055')" class="tocitem" id="tocid0481055"><span class="TOCTimestamp">048:10:55</span>
+    </ul>
+        <li onclick="parent.seekToTime('0365310')" class="tocitem" id="tocid0365310"><span class="TOCTimestamp">036:53:10</span>
+        <span class="TOC_item">Crew Sleep Period Start</span>
+    </li>
+    <li onclick="parent.seekToTime('0480900')" class="tocitem" id="tocid0480900"><span class="TOCTimestamp">048:09:00</span>
+        <span class="TOC_item">Crew wake-up</span>
+    </li>
+    
+<ul class="TOCli TOC2">
+        <li onclick="parent.seekToTime('0481055')" class="tocitem" id="tocid0481055"><span class="TOCTimestamp">048:10:55</span>
         <span class="TOC_item">Collins jokes about the best kind of CAPCOM</span>
     </li>
     <li onclick="parent.seekToTime('0505358')" class="tocitem" id="tocid0505358"><span class="TOCTimestamp">050:53:58</span>
@@ -225,8 +243,14 @@
         <span class="TOC_item">Music from crew (unidentified). "Who's on horns?"</span>
     </li>
     </ul>
-        <li onclick="parent.seekToTime('0613955')" class="tocitem" id="tocid0613955"><span class="TOCTimestamp">061:39:55</span>
+        <li onclick="parent.seekToTime('0605139')" class="tocitem" id="tocid0605139"><span class="TOCTimestamp">060:51:39</span>
+        <span class="TOC_item">Crew Sleep Period Start</span>
+    </li>
+    <li onclick="parent.seekToTime('0613955')" class="tocitem" id="tocid0613955"><span class="TOCTimestamp">061:39:55</span>
         <span class="TOC_item">Entering Lunar sphere of influence</span>
+    </li>
+    <li onclick="parent.seekToTime('0691024')" class="tocitem" id="tocid0691024"><span class="TOCTimestamp">069:10:24</span>
+        <span class="TOC_item">Crew wake-up</span>
     </li>
     
 <ul class="TOCli TOC2">
@@ -404,7 +428,16 @@
     <li onclick="parent.seekToTime('0863238')" class="tocitem" id="tocid0863238"><span class="TOCTimestamp">086:32:38</span>
         <span class="TOC_item">Earthrise 16mm and photos Rev 6</span>
     </li>
-    <li onclick="parent.seekToTime('0951617')" class="tocitem" id="tocid0951617"><span class="TOCTimestamp">095:16:17</span>
+    </ul>
+        <li onclick="parent.seekToTime('0863255')" class="tocitem" id="tocid0863255"><span class="TOCTimestamp">086:32:55</span>
+        <span class="TOC_item">Crew Sleep Period Start</span>
+    </li>
+    <li onclick="parent.seekToTime('0933240')" class="tocitem" id="tocid0933240"><span class="TOCTimestamp">093:32:40</span>
+        <span class="TOC_item">Crew wake-up</span>
+    </li>
+    
+<ul class="TOCli TOC2">
+        <li onclick="parent.seekToTime('0951617')" class="tocitem" id="tocid0951617"><span class="TOCTimestamp">095:16:17</span>
         <span class="TOC_item">News report: Prayers, Aldrin's son, bunny girl, miss universe</span>
     </li>
     <li onclick="parent.seekToTime('0955330')" class="tocitem" id="tocid0955330"><span class="TOCTimestamp">095:53:30</span>
@@ -524,10 +557,13 @@
     <li onclick="parent.seekToTime('1113227')" class="tocitem" id="tocid1113227"><span class="TOCTimestamp">111:32:27</span>
         <span class="TOC_item">Laser reflector test successful</span>
     </li>
-    <li onclick="parent.seekToTime('1113748')" class="tocitem" id="tocid1113748"><span class="TOCTimestamp">111:37:48</span>
-        <span class="TOC_item">Reenter LM</span>
+    </ul>
+        <li onclick="parent.seekToTime('1113748')" class="tocitem" id="tocid1113748"><span class="TOCTimestamp">111:37:48</span>
+        <span class="TOC_item">Reentering Lunar Module</span>
     </li>
-    <li onclick="parent.seekToTime('1114237')" class="tocitem" id="tocid1114237"><span class="TOCTimestamp">111:42:37</span>
+    
+<ul class="TOCli TOC2">
+        <li onclick="parent.seekToTime('1114237')" class="tocitem" id="tocid1114237"><span class="TOCTimestamp">111:42:37</span>
         <span class="TOC_item">Cabin repress</span>
     </li>
     <li onclick="parent.seekToTime('1120031')" class="tocitem" id="tocid1120031"><span class="TOCTimestamp">112:00:31</span>
@@ -542,10 +578,13 @@
     <li onclick="parent.seekToTime('1140004')" class="tocitem" id="tocid1140004"><span class="TOCTimestamp">114:00:04</span>
         <span class="TOC_item">Slayton jokes with crew</span>
     </li>
-    <li onclick="parent.seekToTime('1140616')" class="tocitem" id="tocid1140616"><span class="TOCTimestamp">114:06:16</span>
-        <span class="TOC_item">Goodnight to Columbia</span>
+    </ul>
+        <li onclick="parent.seekToTime('1140616')" class="tocitem" id="tocid1140616"><span class="TOCTimestamp">114:06:16</span>
+        <span class="TOC_item">Columbia Sleep Period Start</span>
     </li>
-    <li onclick="parent.seekToTime('1141849')" class="tocitem" id="tocid1141849"><span class="TOCTimestamp">114:18:49</span>
+    
+<ul class="TOCli TOC2">
+        <li onclick="parent.seekToTime('1141849')" class="tocitem" id="tocid1141849"><span class="TOCTimestamp">114:18:49</span>
         <span class="TOC_item">Armstrong "can't get away with anything anymore"</span>
     </li>
     <li onclick="parent.seekToTime('1142224')" class="tocitem" id="tocid1142224"><span class="TOCTimestamp">114:22:24</span>
@@ -554,7 +593,19 @@
     <li onclick="parent.seekToTime('1143307')" class="tocitem" id="tocid1143307"><span class="TOCTimestamp">114:33:07</span>
         <span class="TOC_item">Observation questions to the surface crew</span>
     </li>
-    <li onclick="parent.seekToTime('1214052')" class="tocitem" id="tocid1214052"><span class="TOCTimestamp">121:40:52</span>
+    </ul>
+        <li onclick="parent.seekToTime('1145258')" class="tocitem" id="tocid1145258"><span class="TOCTimestamp">114:52:58</span>
+        <span class="TOC_item">Tranquility Base Sleep Period Start</span>
+    </li>
+    <li onclick="parent.seekToTime('1205908')" class="tocitem" id="tocid1205908"><span class="TOCTimestamp">120:59:08</span>
+        <span class="TOC_item">Columbia Wake-up</span>
+    </li>
+    <li onclick="parent.seekToTime('1214040')" class="tocitem" id="tocid1214040"><span class="TOCTimestamp">121:40:40</span>
+        <span class="TOC_item">Tranquility Base Wake-up</span>
+    </li>
+    
+<ul class="TOCli TOC2">
+        <li onclick="parent.seekToTime('1214052')" class="tocitem" id="tocid1214052"><span class="TOCTimestamp">121:40:52</span>
         <span class="TOC_item">Crew describes where they slept</span>
     </li>
     <li onclick="parent.seekToTime('1230753')" class="tocitem" id="tocid1230753"><span class="TOCTimestamp">123:07:53</span>
@@ -659,7 +710,16 @@
     <li onclick="parent.seekToTime('1371703')" class="tocitem" id="tocid1371703"><span class="TOCTimestamp">137:17:03</span>
         <span class="TOC_item">Questions for the EVA crew</span>
     </li>
-    <li onclick="parent.seekToTime('1480742')" class="tocitem" id="tocid1480742"><span class="TOCTimestamp">148:07:42</span>
+    </ul>
+        <li onclick="parent.seekToTime('1380826')" class="tocitem" id="tocid1380826"><span class="TOCTimestamp">138:08:26</span>
+        <span class="TOC_item">Crew Sleep Period Start</span>
+    </li>
+    <li onclick="parent.seekToTime('1474711')" class="tocitem" id="tocid1474711"><span class="TOCTimestamp">147:47:11</span>
+        <span class="TOC_item">Crew Wake-up</span>
+    </li>
+    
+<ul class="TOCli TOC2">
+        <li onclick="parent.seekToTime('1480742')" class="tocitem" id="tocid1480742"><span class="TOCTimestamp">148:07:42</span>
         <span class="TOC_item">Collins teasing Bill Shaffer</span>
     </li>
     <li onclick="parent.seekToTime('1482248')" class="tocitem" id="tocid1482248"><span class="TOCTimestamp">148:22:48</span>
@@ -735,8 +795,8 @@
         <span class="TOC_item">PTC malfunction explained by Duke</span>
     </li>
     </ul>
-        <li onclick="parent.seekToTime('1600430')" class="tocitem" id="tocid1600430"><span class="TOCTimestamp">160:04:30</span>
-        <span class="TOC_item">Sleep period starts</span>
+        <li onclick="parent.seekToTime('1600459')" class="tocitem" id="tocid1600459"><span class="TOCTimestamp">160:04:59</span>
+        <span class="TOC_item">Crew sleep period starts</span>
     </li>
     
 <ul class="TOCli TOC2">
@@ -748,7 +808,7 @@
     </li>
     </ul>
         <li onclick="parent.seekToTime('1705958')" class="tocitem" id="tocid1705958"><span class="TOCTimestamp">170:59:58</span>
-        <span class="TOC_item">Crew wakes up</span>
+        <span class="TOC_item">Crew wake-up</span>
     </li>
     
 <ul class="TOCli TOC2">
@@ -817,7 +877,7 @@
     </li>
     </ul>
         <li onclick="parent.seekToTime('1820816')" class="tocitem" id="tocid1820816"><span class="TOCTimestamp">182:08:16</span>
-        <span class="TOC_item">Sleep period starts</span>
+        <span class="TOC_item">Crew Sleep Period Start</span>
     </li>
     
 <ul class="TOCli TOC2">
@@ -829,7 +889,7 @@
     </li>
     </ul>
         <li onclick="parent.seekToTime('1892836')" class="tocitem" id="tocid1892836"><span class="TOCTimestamp">189:28:36</span>
-        <span class="TOC_item">Crew wakes up</span>
+        <span class="TOC_item">Crew wake-up</span>
     </li>
     
 <ul class="TOCli TOC2">
@@ -844,7 +904,7 @@
         <span class="TOC_item">Re-entring Earth's Atmosphere</span>
     </li>
     <li onclick="parent.seekToTime('1951818')" class="tocitem" id="tocid1951818"><span class="TOCTimestamp">195:18:18</span>
-        <span class="TOC_item">Crew recovery</span>
+        <span class="TOC_item">Splashdown and recovery</span>
     </li>
 	</div>
 </body>
