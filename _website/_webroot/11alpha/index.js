@@ -542,6 +542,30 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     return secondsToTimeId(timeSinceLaunch_ms / 1000);
 }
 
+function getHistoricalDateTimeByTimeId(timeId) {
+    //trace("getHistoricalDateTimeByTimeId():" + timeid);
+
+    var sign = timeId.substr(0, 1);
+    var hours = Math.abs(parseInt(timeId.substr(0, 3)));
+    var minutes = parseInt(timeId.substr(3, 2));
+    var seconds = parseInt(timeId.substr(5, 2));
+
+    var conversionMultiplier = 1;
+    if (sign === "-") { //if on countdown, subtract the mission time from the launch moment
+        conversionMultiplier = -1;
+    }
+
+    var timeidDate = new Date(gLaunchDate.getTime());
+
+    timeidDate.add({
+        hours: hours * conversionMultiplier,
+        minutes: minutes * conversionMultiplier,
+        seconds: seconds * conversionMultiplier
+    });
+
+    return timeidDate;
+}
+
 // </editor-fold>
 
 // <editor-fold desc="scrolling things------------------------------------------------">
@@ -1174,8 +1198,11 @@ function updateDashboard(timeId) {
     var timeIdInSeconds = timeIdToSeconds(timeId);
 
     //Display day
-    var dashMissionDay = Math.ceil(timeIdInSeconds / 86400);
-    dashMissionDay = dashMissionDay === 0 ? 1 : dashMissionDay;
+    var missionCurrDate = getHistoricalDateTimeByTimeId(timeId);
+    var dashMissionDay = missionCurrDate.getDate();
+    dashMissionDay = (dashMissionDay - 16) + 1; //16th for launch day of month
+    // var dashMissionDay = Math.ceil(timeIdInSeconds / 86400);
+    // dashMissionDay = dashMissionDay === 0 ? 1 : dashMissionDay;
     $('#dashMissionDay').html(dashMissionDay);
 
     //Display Mission Stage
