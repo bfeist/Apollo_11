@@ -32,8 +32,29 @@
     </li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('-000352')" class="tocitem" id="tocid-000352"><span class="TOCTimestamp">-00:03:52</span>
-        <span class="TOC_item">Launch Operations Manager wishes crew godspeed</span>
+        <li onclick="parent.seekToTime('-041703')" class="tocitem" id="tocid-041703"><span class="TOCTimestamp">-04:17:03</span>
+        <span class="TOC_item">Video: Campers</span>
+    </li>
+    <li onclick="parent.seekToTime('-033054')" class="tocitem" id="tocid-033054"><span class="TOCTimestamp">-03:30:54</span>
+        <span class="TOC_item">Video: Suit-up</span>
+    </li>
+    <li onclick="parent.seekToTime('-030524')" class="tocitem" id="tocid-030524"><span class="TOCTimestamp">-03:05:24</span>
+        <span class="TOC_item">Video: Leaving crew quarters</span>
+    </li>
+    <li onclick="parent.seekToTime('-024051')" class="tocitem" id="tocid-024051"><span class="TOCTimestamp">-02:40:51</span>
+        <span class="TOC_item">Video: Entering pad elevator</span>
+    </li>
+    <li onclick="parent.seekToTime('-012100')" class="tocitem" id="tocid-012100"><span class="TOCTimestamp">-01:21:00</span>
+        <span class="TOC_item">Video: Launch VIP area</span>
+    </li>
+    <li onclick="parent.seekToTime('-010733')" class="tocitem" id="tocid-010733"><span class="TOCTimestamp">-01:07:33</span>
+        <span class="TOC_item">Video: Firing room</span>
+    </li>
+    <li onclick="parent.seekToTime('-005601')" class="tocitem" id="tocid-005601"><span class="TOCTimestamp">-00:56:01</span>
+        <span class="TOC_item">Video: CC television coverage begins</span>
+    </li>
+    <li onclick="parent.seekToTime('-000352')" class="tocitem" id="tocid-000352"><span class="TOCTimestamp">-00:03:52</span>
+        <span class="TOC_item">Good luck and godspeed</span>
     </li>
     <li onclick="parent.seekToTime('-000100')" class="tocitem" id="tocid-000100"><span class="TOCTimestamp">-00:01:00</span>
         <span class="TOC_item">One Minute</span>
@@ -282,7 +303,7 @@
     
 <ul class="TOCli TOC2">
         <li onclick="parent.seekToTime('0755155')" class="tocitem" id="tocid0755155"><span class="TOCTimestamp">075:51:55</span>
-        <span class="TOC_item">Aldrin is not going to look at the electrical</span>
+        <span class="TOC_item">Aldrin electrical</span>
     </li>
     <li onclick="parent.seekToTime('0755625')" class="tocitem" id="tocid0755625"><span class="TOCTimestamp">075:56:25</span>
         <span class="TOC_item">LOI burn shutdown</span>
@@ -291,11 +312,11 @@
         <span class="TOC_item">Collins loves MIT</span>
     </li>
     <li onclick="parent.seekToTime('0755914')" class="tocitem" id="tocid0755914"><span class="TOCTimestamp">075:59:14</span>
-        <span class="TOC_item">Collins excited about good burn</span>
+        <span class="TOC_item">Good burn excitement</span>
     </li>
     </ul>
         <li onclick="parent.seekToTime('0755324')" class="tocitem" id="tocid0755324"><span class="TOCTimestamp">075:53:24</span>
-        <span class="TOC_item">Entering Lunar Orbit</span>
+        <span class="TOC_item">In Lunar Orbit</span>
     </li>
     
 <ul class="TOCli TOC2">
@@ -303,19 +324,19 @@
         <span class="TOC_item">Preparing for pictures of Earthrise</span>
     </li>
     <li onclick="parent.seekToTime('0760632')" class="tocitem" id="tocid0760632"><span class="TOCTimestamp">076:06:32</span>
-        <span class="TOC_item">Collins: "Plenty of earthrises, I guess."</span>
+        <span class="TOC_item">Plenty of earthrises</span>
     </li>
     <li onclick="parent.seekToTime('0760705')" class="tocitem" id="tocid0760705"><span class="TOCTimestamp">076:07:05</span>
         <span class="TOC_item">Collins wants to void meteors</span>
     </li>
     <li onclick="parent.seekToTime('0760919')" class="tocitem" id="tocid0760919"><span class="TOCTimestamp">076:09:19</span>
-        <span class="TOC_item">Armstrong - Monster mountains</span>
+        <span class="TOC_item">Monster mountains</span>
     </li>
     <li onclick="parent.seekToTime('0761036')" class="tocitem" id="tocid0761036"><span class="TOCTimestamp">076:10:36</span>
-        <span class="TOC_item">Collins could spend his life "geologizing" one crater</span>
+        <span class="TOC_item">Geologizing one crater</span>
     </li>
     <li onclick="parent.seekToTime('0761106')" class="tocitem" id="tocid0761106"><span class="TOCTimestamp">076:11:06</span>
-        <span class="TOC_item">Collins accuses Aldrin of being unscientific</span>
+        <span class="TOC_item">Aldrin being "unscientific"</span>
     </li>
     <li onclick="parent.seekToTime('0761432')" class="tocitem" id="tocid0761432"><span class="TOCTimestamp">076:14:32</span>
         <span class="TOC_item">Collins: "Golly damn! A geologist up here would just go crazy."</span>
