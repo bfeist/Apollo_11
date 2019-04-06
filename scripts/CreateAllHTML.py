@@ -73,10 +73,11 @@ for photo_row in photos_reader:
         tempRecord.append(photo_row[0].replace(":", ""))  #photo_index_id
         tempRecord.append(photo_row[1])  #photo_name
         tempRecord.append(photo_row[2])  #photo_filename
-        if photo_row[3].startswith('"') and photo_row[3].endswith('"'):
-            caption = photo_row[3][1:len(photo_row[3]) - 1].replace('""', '"')
+        tempRecord.append(photo_row[3])  #custom_url
+        if photo_row[4].startswith('"') and photo_row[4].endswith('"'):
+            caption = photo_row[4][1:len(photo_row[4]) - 1].replace('""', '"')
         else:
-            caption = photo_row[3]
+            caption = photo_row[4]
         tempRecord.append(caption)
         photo_list.append(tempRecord.copy())
 
@@ -84,7 +85,7 @@ sorted_list = sorted(photo_list, key=operator.itemgetter(0))
 
 
 for list_item in sorted_list:
-    outputLine = '{0}|{1}|{2}|{3}\n'.format(list_item[1], list_item[2], list_item[3], list_item[4])
+    outputLine = '{0}|{1}|{2}|{3}|{4}\n'.format(list_item[1], list_item[2], list_item[3], list_item[4], list_item[5])
     output_photo_index_file.write(outputLine)
 output_photo_index_file.close()
 

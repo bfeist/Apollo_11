@@ -1036,6 +1036,8 @@ function populatePhotoGallery() {
             var imgNum = RegExp.$2;
             // var imageURL = 'http://tothemoon.ser.asu.edu/data_a70/AS11/extra/'  + photoObject[1] + '.thumb.png';
             var imageURL = 'https://www.lpi.usra.edu/resources/apollo/images/thumb/AS11/' + rollNum + '/' + imgNum + '.jpg';
+        } else if (photoObject[3] !== '') { //if custom image URL in datafile
+            imageURL = photoObject[3];
         } else {
             imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
         }
@@ -1078,7 +1080,7 @@ function showPhotoByTimeId(timeId) {
 
 function loadPhotoHtml(photoIndex) {
     //trace('loadPhotoHtml():' + photoIndex);
-    if (typeof photoIndex == "undefined") {
+    if (typeof photoIndex === "undefined") {
         trace('**invalid photo call');
     }
     var photoDiv = $("#photodiv");
@@ -1093,14 +1095,18 @@ function loadPhotoHtml(photoIndex) {
         var imgNum = RegExp.$2;
         if (photoObject[2] !== '') {
             var imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
+        } else if (photoObject[3] !== '') { //if custom image URL in datafile
+            imageURL = photoObject[3];
         } else {
             imageURL = 'https://www.lpi.usra.edu/resources/apollo/images/print/AS11/' + rollNum + '/' + imgNum + '.jpg';
         }
+    } else if (photoObject[3] !== '') { //if custom image URL in datafile
+        imageURL = photoObject[3];
     } else {
         imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
     }
     var source = "ALSJ";
-    var caption = photoObject[3];
+    var caption = photoObject[4];
 
     html = html.replace(/@imageURL/g , imageURL);
     html = html.replace(/@photo_name/g , photoName);
@@ -1242,7 +1248,7 @@ function updateDashboard(timeId) {
     }
     //Display velocity
     if (calculateVelocity) {
-        if (timeIdInSeconds < timeStrToSeconds("195:18:18")) {
+        if (timeIdInSeconds < timeStrToSeconds("195:18:18")) { //splashdown time
             for (counter = 0; counter < gTelemetryData.length; counter++) {
                 if (timeStrToSeconds(gTelemetryData[counter][0]) < timeIdInSeconds) {
                     if (gTelemetryData[counter][1] !== "") {

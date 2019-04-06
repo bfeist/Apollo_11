@@ -419,15 +419,13 @@ function createSearchData() {
         var photoObject = gPhotoData[counter];
         var photoTimeId = photoObject[0];
         var filename = photoObject[1];
-        var magCode = photoObject[2];
-        var photographer = photoObject[3];
         var description = photoObject[4];
 
         tmpItem = [];
         tmpItem[0] = photoTimeId;
         tmpItem[1] = "";
         tmpItem[2] = "";
-        tmpItem[3] = "Photo: " + filename + "; Mag: " + magCode + "; Photographer: " + photographer + "; Description: " + description;
+        tmpItem[3] = "Photo: " + filename + "; Description: " + description;
         tmpItem[4] = 3; //type 3 is photo
         gSearchData.push(tmpItem);
     }
