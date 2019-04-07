@@ -143,7 +143,7 @@
 0001116|PAO|We are predicting third stage shutdown at 11 minutes, 42 seconds.|P
 0001127|PAO|Velocity 25,254 feet per second. Downrange 1,400 miles now. Altitude 102.8 nautical miles.|P
 0001142|CDR|Shutdown.|T
-0001145|CMP|SECO. We are showing 101.4 by 103.6.|T
+0001145|CDR|SECO. We are showing 101.4 by 103.6.|T
 0001145|PAO|Shutdown right on time.|P
 0001150|CC|Roger. Shutdown. We copy 101.4 by 103.6.|T
 0001205|CC|Apollo 11, this is Houston. You are confirmed GO for orbit.|T

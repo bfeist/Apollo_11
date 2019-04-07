@@ -1,6 +1,6 @@
 const cMissionDurationSeconds = 784086;
 const cCountdownSeconds = 74768;
-const cAppStartGET = -000110;
+const cAppStartGET = -000109;
 const cNumberOfActiveTapeChannels = 50;
 
 const cCanvasHeight = 350;
@@ -72,8 +72,8 @@ const cTrackInfo = {
     ch60: ['HR2 VOICE ANNOTATION', '']
 };
 
-cRedactedChannelsArray = [1, 4, 10, 31, 36, 37, 38, 39, 40, 41];
-cAvailableChannelsArray = [2, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 32, 33, 34, 35, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60];
+cRedactedChannelsArray = [1, 4, 10, 30, 31, 36, 37, 38, 39, 40, 41, 60];
+cAvailableChannelsArray = [2, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 32, 33, 34, 35, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59];
 
 const cColors = {
     activeLine: '#636363',
@@ -238,111 +238,6 @@ function mainApplication() {
         gWaveformRefresh = true;
     };
 
-    paper.view.onFrame = function(event) {
-        if (parent.gPlaybackState === 'paused' || parent.gPlaybackState === 'unexpectedbuffering') {
-            gPlayer.pause();
-        } else if (parent.gPlaybackState === 'normal' && gPlayer.paused) {
-            gPlayer.play();
-        }
-        if (!gPlayer.paused && !gSliderDragging) {
-
-            // SYNC WITH PARENT GET CLOCK
-            if (parent.gCurrMissionTime !== '' && parent.gCurrMissionTime !== undefined) {
-                var parentMissionTimeSeconds = timeStrToSeconds(parent.gCurrMissionTime);
-                if (parentMissionTimeSeconds >= gCurrGETSeconds - 1 && parentMissionTimeSeconds <= gCurrGETSeconds + 1) {
-                    // then we're close enough, don't correct the time
-                } else {
-                    if (parentMissionTimeSeconds !== NaN) {
-                        gCurrGETSeconds = parentMissionTimeSeconds;
-
-                        loadChannelSoundfile();
-                        gWaveformRefresh = true;
-
-                        playFromCurrGET();
-                        refreshTapeActivityDisplay(true);
-                        drawTimeCursor();
-                    } else {
-                        trace("parentMissionTimeSeconds is NaN!");
-                    }
-                }
-            }
-
-            // hide player element if in iframe
-            if (parent.gCurrMissionTime !== undefined) {
-                $('#audio-element').hide();
-            }
-
-            var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
-            var currSeconds = gPlayer.currentTime;
-            currSeconds = currSeconds === undefined ? 0 : currSeconds;
-            gCurrGETSeconds = currSeconds + timeStrToSeconds(tapeData[2]);
-
-            var slider = document.getElementById("myRange");
-            slider.value = (((gCurrGETSeconds + cCountdownSeconds) * 99) / cMissionDurationSeconds);
-
-            var missionTimeDisplay = document.getElementById("missionTimeDisplay");
-            missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
-            gLastRoundedGET = Math.round(gCurrGETSeconds);
-
-            //update active channels display
-            refreshTapeActivityDisplay(false);
-
-            if (gWavDataLoaded) {
-                if (gWaveformRefresh || gCurrGETSeconds > gLastWaveformFullDrawGET + ($(window).width() * gWaveform512.seconds_per_pixel)) {
-                    gWaveformRefresh = false;
-                    gLastWaveformFullDrawGET = gCurrGETSeconds;
-                    gLastWaveformOnFrameGET = gCurrGETSeconds;
-                    gPaperWaveformGroup.removeChildren();
-
-                    var wavePath1 = new paper.Path({
-                        strokeWidth: 0.1,
-                        strokeColor: cColors.activeLineSelectedChannel,
-                        fillColor: cColors.activeLineSelectedChannel,
-                        name: "wav"
-                    });
-
-                    var offsetStart = Math.round(gPlayer.currentTime * gWaveform512.pixels_per_second) - Math.round($(window).width() / 2);
-                    var lineXVal = Math.round($(window).width() / 2);
-                    if (offsetStart < 0) {
-                        gWaveformRefresh = true;
-                        lineXVal = Math.round($(window).width() / 2) + offsetStart;
-
-                        // Draw play cursor over wav
-                        var startPoint = new paper.Point(lineXVal + 0.5, cCanvasHeight - 100);
-                        var endPoint = new paper.Point(lineXVal + 0.5, cCanvasHeight - 10);
-                        var aLine = new paper.Path.Line(startPoint, endPoint);
-                        aLine.strokeColor = cColors.cursorColor;
-                        aLine.strokeWidth = 1;
-                        aLine.name = "offsetCursor";
-
-                        gTimeCursorGroup.addChild(aLine);
-
-                        offsetStart = 0;
-                    }
-                    var offsetEnd = offsetStart + $(window).width() * 2;
-
-                    gWaveform512.offset(offsetStart, offsetEnd);
-
-                    gWaveform512.min.forEach(function (val, x) {
-                        wavePath1.add(new Point(x + 0.1, interpolateHeight(cWavHeight, val) + 0.5 + cWavVerticaloffset));
-                    });
-                    gWaveform512.max.reverse().forEach(function (val, x) {
-                        wavePath1.add(new Point(gWaveform512.offset_length - x - 0.5, interpolateHeight(cWavHeight, val) - 0.5 + cWavVerticaloffset));
-                    });
-                    // var wavePath1Raster = wavePath1.rasterize();
-                    gPaperWaveformGroup.addChild(wavePath1);
-                    gPaperWaveformGroup.moveBelow(gTimeCursorGroup);
-
-                } else {
-                    var pixelsToMove = (gLastWaveformOnFrameGET - gCurrGETSeconds) * gWaveform512.pixels_per_second;
-                    gPaperWaveformGroup.translate(new Point(pixelsToMove, 0));
-                    gLastWaveformOnFrameGET = gCurrGETSeconds;
-                }
-
-            }
-        }
-    };
-
     slider.onmousedown = function() {
         trace("slider mousedown");
         // gPeaksInstance.gPlayer.pause();
@@ -393,6 +288,117 @@ function mainApplication() {
     loadChannelSoundfile();
     playFromCurrGET();
     refreshTapeActivityDisplay(true);
+    return window.setInterval(function () {
+        //trace("setIntroTimeUpdatePoller()");
+        frameUpdateOnTimer();
+    }, 50);
+}
+
+function frameUpdateOnTimer() {
+// paper.view.onFrame = function(event) {
+    if (parent.gPlaybackState === 'paused' || parent.gPlaybackState === 'unexpectedbuffering') {
+        gPlayer.pause();
+    } else if (parent.gPlaybackState === 'normal' && gPlayer.paused) {
+        gPlayer.play();
+    }
+    if (!gPlayer.paused && !gSliderDragging) {
+
+        // SYNC WITH PARENT GET CLOCK
+        if (parent.gCurrMissionTime !== '' && parent.gCurrMissionTime !== undefined) {
+            var parentMissionTimeSeconds = timeStrToSeconds(parent.gCurrMissionTime);
+            if (parentMissionTimeSeconds >= gCurrGETSeconds - 1 && parentMissionTimeSeconds <= gCurrGETSeconds + 1) {
+                // then we're close enough, don't correct the time
+            } else {
+                if (parentMissionTimeSeconds !== NaN) {
+                    gCurrGETSeconds = parentMissionTimeSeconds;
+
+                    loadChannelSoundfile();
+                    gWaveformRefresh = true;
+
+                    playFromCurrGET();
+                    refreshTapeActivityDisplay(true);
+                    drawTimeCursor();
+                } else {
+                    trace("parentMissionTimeSeconds is NaN!");
+                }
+            }
+        }
+
+        // hide player element if in iframe
+        if (parent.gCurrMissionTime !== undefined) {
+            $('#audio-element').hide();
+        }
+
+        var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
+        var currSeconds = gPlayer.currentTime;
+        currSeconds = currSeconds === undefined ? 0 : currSeconds;
+        gCurrGETSeconds = currSeconds + timeStrToSeconds(tapeData[2]);
+
+        var slider = document.getElementById("myRange");
+        slider.value = (((gCurrGETSeconds + cCountdownSeconds) * 99) / cMissionDurationSeconds);
+
+        var missionTimeDisplay = document.getElementById("missionTimeDisplay");
+        missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
+        gLastRoundedGET = Math.round(gCurrGETSeconds);
+
+        //update active channels display
+        refreshTapeActivityDisplay(false);
+
+        if (gWavDataLoaded) {
+            var pixelsToMove = (gLastWaveformOnFrameGET - gCurrGETSeconds) * gWaveform512.pixels_per_second;
+            if (gWaveformRefresh || gCurrGETSeconds > gLastWaveformFullDrawGET + ($(window).width() * gWaveform512.seconds_per_pixel)) {
+                gWaveformRefresh = false;
+                gLastWaveformFullDrawGET = gCurrGETSeconds;
+                gLastWaveformOnFrameGET = gCurrGETSeconds;
+                gPaperWaveformGroup.removeChildren();
+
+                var wavePath1 = new paper.Path({
+                    strokeWidth: 0.1,
+                    strokeColor: cColors.activeLineSelectedChannel,
+                    fillColor: cColors.activeLineSelectedChannel,
+                    name: "wav"
+                });
+
+                var offsetStart = Math.round(gPlayer.currentTime * gWaveform512.pixels_per_second) - Math.round($(window).width() / 2);
+                var lineXVal = Math.round($(window).width() / 2);
+                if (offsetStart < 0) {
+                    gWaveformRefresh = true;
+                    lineXVal = Math.round($(window).width() / 2) + offsetStart;
+
+                    // Draw play cursor over wav
+                    var startPoint = new paper.Point(lineXVal + 0.5, cCanvasHeight - 100);
+                    var endPoint = new paper.Point(lineXVal + 0.5, cCanvasHeight - 10);
+                    var aLine = new paper.Path.Line(startPoint, endPoint);
+                    aLine.strokeColor = cColors.cursorColor;
+                    aLine.strokeWidth = 1;
+                    aLine.name = "offsetCursor";
+
+                    gTimeCursorGroup.addChild(aLine);
+
+                    offsetStart = 0;
+                }
+                var offsetEnd = offsetStart + $(window).width() * 2;
+
+                gWaveform512.offset(offsetStart, offsetEnd);
+
+                gWaveform512.min.forEach(function (val, x) {
+                    wavePath1.add(new Point(x + 0.1, interpolateHeight(cWavHeight, val) + 0.5 + cWavVerticaloffset));
+                });
+                gWaveform512.max.reverse().forEach(function (val, x) {
+                    wavePath1.add(new Point(gWaveform512.offset_length - x - 0.5, interpolateHeight(cWavHeight, val) - 0.5 + cWavVerticaloffset));
+                });
+                // var wavePath1Raster = wavePath1.rasterize();
+                gPaperWaveformGroup.addChild(wavePath1);
+                gPaperWaveformGroup.moveBelow(gTimeCursorGroup);
+
+            } else if (Math.abs(pixelsToMove) > 1) {
+                // console.log("wav: " + pixelsToMove);
+                gPaperWaveformGroup.translate(new Point(pixelsToMove, 0));
+                gLastWaveformOnFrameGET = gCurrGETSeconds;
+            }
+
+        }
+    }
 }
 
 function loadChannelSoundfile() {
@@ -475,6 +481,7 @@ function drawChannels(forceRefresh) {
 
     var displayRangeEnd = displayRangeStart + durationSeconds;
 
+    var pixelsToMove = gLastChannelsOnFrameGET - startGETSeconds;
     if ((forceRefresh || startGETSeconds > gLastChannelsFullDrawGET + $(window).width()) && gTapeRangesHR1 !== []) {
         gChannelLinesGroup.removeChildren();
         var partialSecond = gCurrGETSeconds % 1;
@@ -550,10 +557,9 @@ function drawChannels(forceRefresh) {
             gChannelLinesGroup.addChild(lineGroup);
 
         });
-    } else {
-        var pixelsToMove = gLastChannelsOnFrameGET - startGETSeconds;
+    } else if (Math.abs(pixelsToMove) > 0.25) {
+        // console.log("channels: " + pixelsToMove);
         gChannelLinesGroup.translate(new Point(pixelsToMove, 0));
-
         gLastChannelsOnFrameGET = startGETSeconds;
     }
 }

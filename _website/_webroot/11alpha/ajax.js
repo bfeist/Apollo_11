@@ -28,7 +28,7 @@ $.when(
 //--------------- index file handling --------------------
 
 function ajaxGetVideoURLData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (cCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
@@ -36,7 +36,7 @@ function ajaxGetVideoURLData() {
         urlStr = "./";
     }
     urlStr += "indexes/videoURLData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += cStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -45,7 +45,7 @@ function ajaxGetVideoURLData() {
     });
 }
 function ajaxGetTOCData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (cCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
@@ -53,7 +53,7 @@ function ajaxGetTOCData() {
         urlStr = "./";
     }
     urlStr += "indexes/TOCData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += cStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -62,7 +62,7 @@ function ajaxGetTOCData() {
     });
 }
 function ajaxGetUtteranceData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (cCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
@@ -70,7 +70,7 @@ function ajaxGetUtteranceData() {
         urlStr = "./";
     }
     urlStr += "indexes/utteranceData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += cStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -79,7 +79,7 @@ function ajaxGetUtteranceData() {
     });
 }
 function ajaxGetCommentaryData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (cCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
@@ -87,7 +87,7 @@ function ajaxGetCommentaryData() {
         urlStr = "./";
     }
     urlStr += "indexes/commentaryData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += cStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -96,7 +96,7 @@ function ajaxGetCommentaryData() {
     });
 }
 function ajaxGetPhotoData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (cCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
@@ -104,7 +104,7 @@ function ajaxGetPhotoData() {
         urlStr = "./";
     }
     urlStr += "indexes/photoData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += cStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -113,7 +113,7 @@ function ajaxGetPhotoData() {
     });
 }
 function ajaxGetMissionStagesData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (cCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
@@ -121,7 +121,7 @@ function ajaxGetMissionStagesData() {
         urlStr = "./";
     }
     urlStr += "indexes/missionStagesData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += cStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -130,7 +130,7 @@ function ajaxGetMissionStagesData() {
     });
 }
 function ajaxGetVideoSegmentData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (cCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
@@ -138,7 +138,7 @@ function ajaxGetVideoSegmentData() {
         urlStr = "./";
     }
     urlStr += "indexes/videoSegmentData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += cStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -147,7 +147,7 @@ function ajaxGetVideoSegmentData() {
     });
 }
 function ajaxGetTelemetryData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (cCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
@@ -155,7 +155,7 @@ function ajaxGetTelemetryData() {
         urlStr = "./";
     }
     urlStr += "indexes/telemetryData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += cStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -164,7 +164,7 @@ function ajaxGetTelemetryData() {
     });
 }
 function ajaxCrewStatusData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (cCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
@@ -172,7 +172,7 @@ function ajaxCrewStatusData() {
         urlStr = "./";
     }
     urlStr += "indexes/crewStatusData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += cStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -182,7 +182,7 @@ function ajaxCrewStatusData() {
 }
 
 function ajaxOrbitData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (cCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
@@ -190,7 +190,7 @@ function ajaxOrbitData() {
         urlStr = "./";
     }
     urlStr += "indexes/orbitData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += cStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -200,7 +200,7 @@ function ajaxOrbitData() {
 }
 
 function ajaxGeoData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (cCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
@@ -208,7 +208,7 @@ function ajaxGeoData() {
         urlStr = "./";
     }
     urlStr += "indexes/geoData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += cStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -218,7 +218,7 @@ function ajaxGeoData() {
 }
 
 function ajaxGeoCompendiumData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (cCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
@@ -226,7 +226,7 @@ function ajaxGeoCompendiumData() {
         urlStr = "./";
     }
     urlStr += "indexes/geoCompendiumData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += cStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -236,7 +236,7 @@ function ajaxGeoCompendiumData() {
 }
 
 function ajaxPaperData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (cCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
@@ -244,7 +244,7 @@ function ajaxPaperData() {
         urlStr = "./";
     }
     urlStr += "indexes/paperData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += cStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -367,7 +367,7 @@ function processMissionStagesData(allText) {
             gMissionStages[i - 1][3] = data[0]; //append this item's start time as the last item's end time
         }
     }
-    gMissionStages[gMissionStages.length - 1][3] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
+    gMissionStages[gMissionStages.length - 1][3] = secondsToTimeStr(cMissionDurationSeconds); //insert last end time as end of mission
 }
 function processVideoSegmentData(allText) {
     //console.log("processVideoSegmentData");
@@ -456,7 +456,7 @@ function processTelemetryData(allText) {
             gTelemetryData[i - 1][5] = data[0]; //append this item's start time as the last item's end time
         }
     }
-    gTelemetryData[gTelemetryData.length - 1][5] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
+    gTelemetryData[gTelemetryData.length - 1][5] = secondsToTimeStr(cMissionDurationSeconds); //insert last end time as end of mission
 }
 
 function processCrewStatusData(allText) {
@@ -471,7 +471,7 @@ function processCrewStatusData(allText) {
             gCrewStatusData[i - 1][2] = data[0]; //append this item's start time as the last item's end time
         }
     }
-    gCrewStatusData[gCrewStatusData.length - 1][2] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
+    gCrewStatusData[gCrewStatusData.length - 1][2] = secondsToTimeStr(cMissionDurationSeconds); //insert last end time as end of mission
 }
 
 function processOrbitData(allText) {

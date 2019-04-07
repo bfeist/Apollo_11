@@ -143,7 +143,7 @@
 000:11:16|P|PAO|We are predicting third stage shutdown at 11 minutes, 42 seconds.
 000:11:27|P|PAO|Velocity 25,254 feet per second. Downrange 1,400 miles now. Altitude 102.8 nautical miles.
 000:11:42|T|CDR|Shutdown.
-000:11:45|T|CMP|SECO. We are showing 101.4 by 103.6.
+000:11:45|T|CDR|SECO. We are showing 101.4 by 103.6.
 000:11:45|P|PAO|Shutdown right on time.
 000:11:50|T|CC|Roger. Shutdown. We copy 101.4 by 103.6.
 000:12:05|T|CC|Apollo 11, this is Houston. You are confirmed GO for orbit.
@@ -154,7 +154,7 @@
 000:12:31|T||VANGUARD (REV 1)
 000:13:27|T|CC|Apollo 11, this is Houston. The booster has been configured for orbital coast. Both spacecraft are looking good. Over.
 000:13:35|T|CDR|Roger.
-000:14:33|T|CC|Apollo 11, this is Houston. Vanguard LOS at 15 35; AOS Canaries at 16 30. Over.
+000:14:33|T|CC|Apollo 11, this is Houston. Vanguard LOS at 15:35; AOS Canaries at 16:30. Over.
 000:14:43|T|CDR|Okay. Thank you.
 000:14:43|T||CANARY (REV 1)
 000:14:56|P|PAO|This is Apollo Control. Based on a vector from the instrument unit of the third stage of the Saturn V, here on the ground we're showing an orbit of 102.5 by 99.7 nautical miles. The flight dynamics officer, Dave Reed, wants to get some radar tracking to refine this orbit and he will report a refined orbit after more radar tracking.

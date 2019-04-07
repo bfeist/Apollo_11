@@ -1,17 +1,16 @@
 trace("INIT: Loading index.js");
 //app control flags
-var gStopCache = false;
-var gCdnEnabled = false;
+const cStopCache = false;
+const cCdnEnabled = false;
 
 //constants
-var gMissionDurationSeconds = 713311;
-var gCountdownSeconds = 74768;
-var gDefaultStartTimeId = '-000110';
-var gLaunchDate = Date.parse("1969-07-16 13:33");
-var gCountdownStartDate = Date.parse("1969-07-15 4:46:58pm");
+const cMissionDurationSeconds = 713311;
+const cCountdownSeconds = 74768;
+const cDefaultStartTimeId = '-000109';
+const cLaunchDate = Date.parse("1969-07-16 9:33 -500");
+const cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -500");
 
-var gFontLoaderDelay = 3; //seconds
-var gBackground_color_active = "#222222";
+const cBackground_color_active = "#222222";
 
 //global control objects
 var player;
@@ -19,10 +18,15 @@ var gIntervalID = null;
 var gIntroInterval = null;
 var gApplicationReadyIntervalID = null;
 var gShareButtonObject;
+var YT = {
+    loading: 0,
+    loaded: 0
+};
 
 //global flags
 var gApplicationReady = 0;
 var gFontsLoaded = false;
+var gFontLoaderDelay = 3; //seconds
 var gSplashImageLoaded = false;
 var gMustInitNav = true;
 var gPlaybackState = "normal";
@@ -100,11 +104,11 @@ function onYouTubeIframeAPIReady() {
             'onStateChange': onPlayerStateChange
         }
     });
-    player.setPlaybackQuality('hd1080');
+    // player.setPlaybackQuality('hd1080');
 }
 
 // The API will call this function when the video player is ready.
-function onPlayerReady(event) {
+function onPlayerReady() {
     gApplicationReady += 1; //increment app ready indicator.
     trace("APPREADY: onPlayerReady: " + gApplicationReady);
     //if (gMissionTimeParamSent == 0) {
@@ -117,9 +121,10 @@ function onPlayerReady(event) {
 // The function indicates that when playing a video (state=1)
 function onPlayerStateChange(event) {
     // trace("onPlayerStateChange():state: " + event.data);
+    var playPauseBtn = $("#playPauseBtn").find("img");
     if (event.data === YT.PlayerState.PLAYING) {
         //trace("onPlayerStateChange():PLAYER PLAYING");
-        $("#playPauseBtn > img").addClass('pause');
+        playPauseBtn.addClass('pause');
         player.setPlaybackQuality('hd1080');
 
         if (gNextVideoStartTime !== -1) {
@@ -146,7 +151,7 @@ function onPlayerStateChange(event) {
         //trace("onPlayerStateChange():PAUSED: interval stopped: " + gIntervalID);
         gIntervalID = null;
         gPlaybackState = "paused";
-        $("#playPauseBtn > img").removeClass('pause');
+        playPauseBtn.removeClass('pause');
 
     } else if (event.data === YT.PlayerState.BUFFERING) {
         // trace("onPlayerStateChange():BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
@@ -186,8 +191,8 @@ function setAutoScrollPoller() {
         var totalSec = player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
         gCurrMissionTime = secondsToTimeStr(totalSec);
 
-        if (gCurrMissionTime != gLastTimeIdChecked) {
-            if (parseInt(totalSec) % 10 == 0) { //every 10 seconds, fire a playing event
+        if (gCurrMissionTime !== gLastTimeIdChecked) {
+            if (parseInt(totalSec) % 10 === 0) { //every 10 seconds, fire a playing event
                 ga('send', 'event', 'playback', 'playing', gCurrMissionTime);
             }
 
@@ -214,10 +219,11 @@ function setAutoScrollPoller() {
             }
         }
 
-        if (player.isMuted() == true) {
-            $('#soundBtn > img').removeClass('mute');
+        var soundBtnImg = $('#soundBtn').find('img');
+        if (player.isMuted() === true) {
+            soundBtnImg.removeClass('mute');
         } else {
-            $('#soundBtn > img').addClass('mute');
+            soundBtnImg.addClass('mute');
         }
     }, 500); //polling frequency in milliseconds
 }
@@ -233,7 +239,7 @@ function setApplicationReadyPoller() {
     return window.setInterval(function () {
         trace("setApplicationReadyPoller(): Checking if App Ready");
 
-        if (gFontLoaderDelay <= 0 && gFontsLoaded == false) {
+        if (gFontLoaderDelay <= 0 && gFontsLoaded === false) {
             trace ('INIT: giving up on font loader');
             gFontsLoaded = true;
         }
@@ -247,7 +253,7 @@ function setApplicationReadyPoller() {
 
         if (gApplicationReady >= 4) {
             trace("APPREADY = 4! App Ready!");
-            if (gMissionTimeParamSent != 0) {
+            if (gMissionTimeParamSent !== 0) {
                 fadeOutSplash();
                 initializePlayback();
             }
@@ -283,7 +289,7 @@ function findClosestUtterance(secondsSearch) {
 
 function scrollToClosestTOC(secondsSearch) {
     trace("findClosestTOC():" + secondsSearch);
-    if (gCurrVideoStartSeconds == 230400) {
+    if (gCurrVideoStartSeconds === 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
             secondsSearch = secondsSearch + 9600;
         }
@@ -302,7 +308,7 @@ function scrollToClosestTOC(secondsSearch) {
 
 function findClosestCommentary(secondsSearch) {
     //trace("scrollToClosestCommentary():" + secondsSearch);
-    if (gCurrVideoStartSeconds == 230400) {
+    if (gCurrVideoStartSeconds === 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
             secondsSearch = secondsSearch + 9600;
         }
@@ -374,15 +380,15 @@ function oneMinuteToLaunchButtonClick() {
 
 function initializePlayback() {
     trace("initializePlayback()");
-    if (gMissionTimeParamSent == 0) {
-        //repopulateUtterances(findClosestUtterance(timeIdToSeconds(gDefaultStartTimeId))); //jump to default start time (usually 1 minute to launch)
-        //repopulateCommentary(findClosestCommentary(timeIdToSeconds(gDefaultStartTimeId)));
-        seekToTime(gDefaultStartTimeId);
+    if (gMissionTimeParamSent === 0) {
+        //repopulateUtterances(findClosestUtterance(timeIdToSeconds(cDefaultStartTimeId))); //jump to default start time (usually 1 minute to launch)
+        //repopulateCommentary(findClosestCommentary(timeIdToSeconds(cDefaultStartTimeId)));
+        seekToTime(cDefaultStartTimeId);
     } else {
         var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
         //paramMissionTime = paramMissionTime.replace(/%3A/g, ":");
         paramMissionTime = decodeURIComponent(paramMissionTime);
-        if (paramMissionTime == 'rt') {
+        if (paramMissionTime === 'rt') {
             historicalButtonClick();
         } else {
             window.clearInterval(gIntroInterval);
@@ -475,7 +481,7 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
         conversionMultiplier = -1;
     }
 
-    var timeidDate = new Date(gLaunchDate.getTime());
+    var timeidDate = new Date(cLaunchDate.getTime());
 
     timeidDate.add({
         hours: hours * conversionMultiplier,
@@ -513,8 +519,8 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     //if (histDate.dst()) {
     //    histDate.setHours(histDate.getHours() + 1); //TODO test DST offset
     //}
-    histDate.setMonth(gCountdownStartDate.getMonth());
-    histDate.setYear(gCountdownStartDate.getYear());
+    histDate.setMonth(cCountdownStartDate.getMonth());
+    histDate.setYear(cCountdownStartDate.getYear());
 
     if (nowDate.getDay() < 15) { //apollo 11 countdown on 15th and splash on 24
         histDate.setDate(15);
@@ -522,16 +528,20 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
         histDate.setDate(24);
     }
 
+    if (histDate < cLaunchDate) { //bump to same time next day
+        histDate.setDate(16);
+    }
+
     // Convert dates to milliseconds
     var histDate_ms = histDate.getTime();
-    var countdownStartDate_ms = gCountdownStartDate.getTime();
-    var launchDate_ms = gLaunchDate.getTime();
+    var countdownStartDate_ms = cCountdownStartDate.getTime();
+    var launchDate_ms = cLaunchDate.getTime();
 
     if (histDate_ms < countdownStartDate_ms) { //if now is before the countdownStartDate, shift forward days to start on first day of the mission
         //var daysToMoveForward = Math.ceil((countdownStartDate_ms - histDate_ms) / (1000 * 60 * 60 * 24));
         var daysToMoveForward = 1;
         histDate_ms += (1000 * 60 * 60 * 24) * daysToMoveForward;
-    } else if (histDate_ms > launchDate_ms + (gMissionDurationSeconds * 1000)) { //hist date occurs after mission ended, shift backward days to start on first day of the mission
+    } else if (histDate_ms > launchDate_ms + (cMissionDurationSeconds * 1000)) { //hist date occurs after mission ended, shift backward days to start on first day of the mission
         //var daysToMoveBackward = Math.floor((histDate_ms - countdownStartDate_ms) / (1000 * 60 * 60 * 24));
         var daysToMoveBackward = 1;
         histDate_ms -= (1000 * 60 * 60 * 24) * daysToMoveBackward;
@@ -555,7 +565,7 @@ function getHistoricalDateTimeByTimeId(timeId) {
         conversionMultiplier = -1;
     }
 
-    var timeidDate = new Date(gLaunchDate.getTime());
+    var timeidDate = new Date(cLaunchDate.getTime());
 
     timeidDate.add({
         hours: hours * conversionMultiplier,
@@ -580,7 +590,7 @@ function scrollTOCToTimeId(timeId) {
         var TOCContainer = TOCFrameContents.find('.TOC_container');
         var TOCElement = TOCFrameContents.find('#tocid' + timeId);
         TOCFrameContents.find('.tocitem').css("background-color", ""); //clear all element highlights
-        TOCElement.css("background-color", gBackground_color_active); //set new element highlights
+        TOCElement.css("background-color", cBackground_color_active); //set new element highlights
 
         flashTab("tocTab");
 
@@ -601,7 +611,7 @@ function scrollCommentaryToTimeId(timeId) { //timeid must exist in commentary
 
         gCurrentHighlightedCommentaryIndex = gCommentaryDataLookup[timeId];
 
-        if (typeof gCommentaryDisplayStartIndex == 'undefined') {
+        if (typeof gCommentaryDisplayStartIndex === 'undefined') {
             repopulateCommentary(timeId);
             //check if timeId is already loaded into commentary div
         } else if (gCommentaryDataLookup[timeId] < gCommentaryDisplayStartIndex + 49) { //prepend
@@ -623,10 +633,10 @@ function scrollCommentaryToTimeId(timeId) { //timeid must exist in commentary
         }
         commentaryTable.children("*").css("background-color", ""); //clear all element highlights
         var highlightedCommentaryElement = $(".comid" + timeId);
-        highlightedCommentaryElement.css("background-color", gBackground_color_active); //set new element highlights
+        highlightedCommentaryElement.css("background-color", cBackground_color_active); //set new element highlights
 
         var newScrollDestination = commentaryDiv.scrollTop() + highlightedCommentaryElement.offset().top - commentaryDiv.offset().top;
-        commentaryDiv.animate({scrollTop: newScrollDestination}, '1000', 'swing', function () {
+        commentaryDiv.animate({scrollTop: newScrollDestination}, 500, 'swing', function () {
             //console.log('Finished animating commentary: ' + newScrollDestination);
             trimCommentary();
         });
@@ -647,7 +657,7 @@ function scrollTranscriptToTimeId(timeId) {
         gCurrentHighlightedUtteranceIndex = gUtteranceDataLookup[timeId];
 
         //check if utteranceDiv is empty
-        if (typeof gUtteranceDisplayStartIndex == 'undefined') {
+        if (typeof gUtteranceDisplayStartIndex === 'undefined') {
             repopulateUtterances(timeId);
             //check if timeId is already loaded into utterance div
         } else if (gUtteranceDataLookup[timeId] < gUtteranceDisplayStartIndex + 49) { //prepend - always have 50 lines above current time
@@ -669,10 +679,10 @@ function scrollTranscriptToTimeId(timeId) {
         }
         utteranceTable.children("*").css("background-color", ""); //clear all element highlights
         var highlightedTranscriptElement = $(".uttid" + timeId);
-        highlightedTranscriptElement.css("background-color", gBackground_color_active); //set new element highlights
+        highlightedTranscriptElement.css("background-color", cBackground_color_active); //set new element highlights
 
         var newScrollDestination = utteranceDiv.scrollTop() + highlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
-        utteranceDiv.animate({scrollTop: newScrollDestination}, '1000', 'swing', function () {
+        utteranceDiv.animate({scrollTop: newScrollDestination}, 500, 'swing', function () {
             //trace('Finished animating: ' + scrollDestination);
             trimUtterances();
         });
@@ -681,26 +691,13 @@ function scrollTranscriptToTimeId(timeId) {
     }
 }
 
-function flashTab(tabName, tabNum, flashColor) {
+function flashTab(tabName) {
     var flashDuration = 500; //in ms
     var $tab = $('#' + tabName);
     if (!$tab.hasClass('selected')) {
         //trace("flash tab");
         $tab.addClass("blink_me");
         setTimeout(function(){$tab.removeClass("blink_me")}, flashDuration);
-
-        //$tab.effect("highlight", {color: flashColor}, flashDuration); //blink the tab
-        //$tab.css("background-color", flashColor);
-
-        //$tab.animate({
-        //    backgroundColor: flashColor
-        //}, 500, function() {
-        //    trace("tab flash animation complete.");
-        //    $tab.css("background-color", "");
-        //});
-        //$tab.effect("bounce", "slow");
-        //$("#" + tabName).effect("pulsate", {times: 2, color: flashColor}, flashDuration); //blink the tab
-        //$("#" + tabName).fadeTo(200, 0.5).fadeTo(200, 1.0); //blink the tab
     }
 }
 
@@ -875,7 +872,7 @@ function repopulateCommentary(timeId) {
     var commentaryDiv = $('#commentaryDiv');
     var highlightedCommentaryElement = $(".comid" + timeId);
     var newScrollDestination = commentaryDiv.scrollTop() + highlightedCommentaryElement.offset().top - commentaryDiv.offset().top;
-    commentaryDiv.animate({scrollTop: newScrollDestination}, '1000', 'swing', function () {
+    commentaryDiv.animate({scrollTop: newScrollDestination}, 500, 'swing', function () {
         //trace('Finished animating: ' + scrollDestination);
         //trimUtterances();
     });
@@ -971,8 +968,7 @@ function trimCommentary() {
     }
 }
 
-function getCommentaryObjectHTML(commentaryIndex, style) {
-    style = style || '';
+function getCommentaryObjectHTML(commentaryIndex) {
     //console.log("getCommentaryObjectHTML():" + commentaryIndex);
     var commentaryObject = gCommentaryData[commentaryIndex];
 
@@ -984,11 +980,11 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
 
     var html = $('#commentaryTemplate').html();
 
-    if (typeof commentaryObject != 'object') {
+    if (typeof commentaryObject !== 'object') {
         trace("something very wrong");
     }
 
-    if (who_modified != '') {
+    if (who_modified !== '') {
         html = html.replace('@whocell', '<td class="who @comType">@who</td>');
         html = html.replace('@wordscell', '<td class="spokenwords @comType">@words <span class="attribution">@attribution</span></td>');
     } else {
@@ -998,7 +994,7 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
 
     html = html.replace(/@comid/g, comId);
     html = html.replace("@timestamp", timeIdToTimeStr(comId));
-    if (attribution != '') {
+    if (attribution !== '') {
         html = html.replace("@attribution", "(" + attribution + ")");
     } else {
         html = html.replace("@attribution", "");
@@ -1006,7 +1002,7 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
     html = html.replace("@who", who_modified);
     html = html.replace("@words", words_modified);
 
-    if (who_modified == '') {
+    if (who_modified === '') {
         var comTypeStr = "com_support";
     } else {
         comTypeStr = "com_crew";
@@ -1072,7 +1068,7 @@ function showPhotoByTimeId(timeId) {
         $(photoGalleryImageTimeId).addClass('selected');
 
         var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight - 40; //added offset for ted design
-        photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
+        photoGalleryDiv.animate({scrollTop: scrollDest}, 500, 'swing', function() {
             //trace('Finished animating gallery: ' + scrollDest);
         });
     }
@@ -1129,7 +1125,7 @@ function performSearch() {
     searchResultsTable.html('');
     if (searchText.length > 1) {
         for (var counter = 0; counter < gSearchData.length; counter++) {
-            if ( gSearchData[counter][3].toLowerCase().indexOf(searchText) != -1) {
+            if ( gSearchData[counter][3].toLowerCase().indexOf(searchText) !== -1) {
                 var html = getSearchResultHTML(counter);
                 var searchResultTextIndex = html.toLowerCase().indexOf(searchText);
                 // var foundWord = getWordAt(html, searchResultTextIndex);
@@ -1186,13 +1182,13 @@ function getSearchResultHTML(searchArrayIndex) {
 function searchResultClick(searchResultId, itemType) {
     toggleSearchOverlay();
     seekToTime(searchResultId);
-    if (itemType == "transcript" || itemType == "geology" || itemType == "photo") {
+    if (itemType === "transcript" || itemType === "geology" || itemType === "photo") {
         activateTab("transcriptTab");
         scrollTranscriptToCurrMissionTime();
-    } else if (itemType == "commentary") {
+    } else if (itemType === "commentary") {
         activateTab("commentaryTab");
         scrollCommentaryToCurrMissionTime();
-    } else if (itemType == "toc") {
+    } else if (itemType === "toc") {
         activateTab("tocTab");
         scrollTOCToCurrMissionTime();
     }
@@ -1317,8 +1313,8 @@ function updateDashboard(timeId) {
         }
         numDecimals = 1;
         if (currentDistanceEarthNM < 100) numDecimals = 2;
-        currentDistanceEarthNM = parseFloat(Math.round(currentDistanceEarthNM * 100) / 100).toFixed(numDecimals);
-        var currentDistanceEarthKM = parseFloat(Math.round(currentDistanceEarthNM * 1.852 * 100) / 100).toFixed(numDecimals);
+        currentDistanceEarthNM = (Math.round(currentDistanceEarthNM * 100) / 100).toFixed(numDecimals);
+        var currentDistanceEarthKM = (Math.round(currentDistanceEarthNM * 1.852 * 100) / 100).toFixed(numDecimals);
         var dashDistanceEarth = '<span class="value">' + numberWithCommas(currentDistanceEarthNM) + '</span> nautical miles (<span class="value">' + numberWithCommas(currentDistanceEarthKM) + '</span> km)';
         $('#dashLunarOrbit').css('display', 'none');
 
@@ -1348,18 +1344,19 @@ function manageOverlaysAutodisplay(timeId) {
     //trace("manageOverlaysAutodisplay()");
     //look to see if the current time is within a video segment
     var inVideoSegment = false;
+    var dashboardOverlay = $('.dashboard-overlay');
     for (var counter = 0; counter < gVideoSegments.length; counter ++) {
         if (timeStrToSeconds(gVideoSegments[counter][0]) <= timeIdToSeconds(timeId) && timeStrToSeconds(gVideoSegments[counter][1]) >= timeIdToSeconds(timeId)) {
             inVideoSegment = true;
             //hide dashboard overlay if it is displayed (once per video segment)
-            if ($('.dashboard-overlay').css('display').toLowerCase() !== 'none' && gLastVideoSegmentDashboardHidden !== gVideoSegments[counter][0] && !gDashboardManuallyToggled) {
+            if (dashboardOverlay.css('display').toLowerCase() !== 'none' && gLastVideoSegmentDashboardHidden !== gVideoSegments[counter][0] && !gDashboardManuallyToggled) {
                 gLastVideoSegmentDashboardHidden = gVideoSegments[counter][0];
                 hideDashboardOverlay();
             }
             break;
         }
     }
-    if (!inVideoSegment && $('.dashboard-overlay').css('display').toLowerCase() === 'none' && !gDashboardManuallyToggled) {
+    if (!inVideoSegment && dashboardOverlay.css('display').toLowerCase() === 'none' && !gDashboardManuallyToggled) {
         showDashboardOverlay();
         gLastVideoSegmentDashboardHidden = '';
     }
@@ -1398,7 +1395,7 @@ function toggleSearchOverlay() {
 
 function toggleDashboardOverlay() {
     gDashboardManuallyToggled = true; //because dashboard manually clicked, turn off auto dashboard toggle to disable auto show/hide. Seeking resets this.
-    if ($('.dashboard-overlay').css('display').toLowerCase() == 'none') {
+    if ($('.dashboard-overlay').css('display').toLowerCase() === 'none') {
         showDashboardOverlay();
     } else {
         hideDashboardOverlay();
@@ -1419,7 +1416,7 @@ function showDashboardOverlay() {
     //});
     dashboardBtnSelector.removeClass('subdued');
     dashboardBtnSelector.addClass('primary');
-    if ($('.search-overlay').css('display').toLowerCase() != 'none') { //turn off search if it's up
+    if ($('.search-overlay').css('display').toLowerCase() !== 'none') { //turn off search if it's up
         toggleSearchOverlay();
     }
 }
@@ -1435,7 +1432,7 @@ function hideDashboardOverlay() {
 
 function toggleGeosampleOverlay() {
     var geosampleOverlaySelector = $('.geosample-overlay');
-    if (geosampleOverlaySelector.css('display').toLowerCase() == 'none') {
+    if (geosampleOverlaySelector.css('display').toLowerCase() === 'none') {
         geosampleOverlaySelector.fadeIn();
     } else {
         geosampleOverlaySelector.fadeOut();
@@ -1479,7 +1476,7 @@ function updateGeosampleOverlay(geoDataIndex) {
                 } else if (gPaperData[paperCounter][0] !== "") { // if no DOI, use Bibcode link to ADS if available
                     linkURL = "https://ui.adsabs.harvard.edu/#abs/" + gPaperData[paperCounter][0] + "/abstract";
                 } else { // fall back to using google scholar
-                    linkURL = "https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&q=" + gPaperData[paperCounter][1] + "+" + gPaperData[paperCounter][2]
+                    linkURL = "https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&q=" + gPaperData[paperCounter][1] + "+" + gPaperData[paperCounter][2];
                     linkURL = linkURL.replace(' ', '+');
                     linkURL = encodeURI(linkURL);
                 }
@@ -1524,13 +1521,13 @@ function updateGeosampleOverlay(geoDataIndex) {
         jQuery.ajax({
             url: '/indexes/geosampledetails/' + sampleNumberArray[counter] + '.csv',
             success: function (data) {
-                if (data.isOk == false) {
+                if (data.isOk === false) {
                     alert(data.message);
                 }
                 var sampleID = this.url.substring(this.url.length - 9, this.url.length - 4);
                 var allImages = data.split('|');
                 var geoImagesDivSelector = $("#geoImages" + sampleID);
-                html = '<div class="sampleimagessubtitle">Sample Photography</div>';
+                var html = '<div class="sampleimagessubtitle">Sample Photography</div>';
                 html = html + '<ul class="flex-container">';
 
                 for (var i = 0; i < allImages.length; i++) {
@@ -1539,7 +1536,7 @@ function updateGeosampleOverlay(geoDataIndex) {
                 html = html + "</ul>";
                 geoImagesDivSelector.html(html);
             },
-            error: function (data) {
+            error: function () {
                 //remove images div if no images file containing image list is found
                 var sampleID = this.url.substring(this.url.length - 9, this.url.length - 4);
                 var element = document.getElementById("geoImages" + sampleID);
@@ -1552,7 +1549,7 @@ function updateGeosampleOverlay(geoDataIndex) {
         jQuery.ajax({
             url: 'http://api.moondb.org/specimen/' + sampleNumberArray[counter],
             success: function (data) {
-                if (data.isOk == false) {
+                if (data.isOk === false) {
                     alert(data.message);
                 }
                 var sampleID = this.url.substring(this.url.length - 5, this.url.length);
@@ -1603,7 +1600,7 @@ function updateGeosampleOverlay(geoDataIndex) {
         });
     }
     var geosampleOverlaySelector = $('.geosample-overlay');
-    if (geosampleOverlaySelector.css('display').toLowerCase() == 'none') {
+    if (geosampleOverlaySelector.css('display').toLowerCase() === 'none') {
         geosampleOverlaySelector.fadeIn();
     }
 }
@@ -1635,7 +1632,7 @@ function toggleMOCROverlay() {
 
 
 function toggleFullscreen() {
-    if ($(document).fullScreen() == false) {
+    if ($(document).fullScreen() === false) {
         $(document).fullScreen(true);
     } else {
         $(document).fullScreen(false);
@@ -1656,7 +1653,7 @@ function secondsToTimeStr(totalSeconds) {
 
 function secondsToTimeId(seconds) {
     var timeId = secondsToTimeStr(seconds).split(":").join("");
-    return timeId;
+    return secondsToTimeStr(seconds).split(":").join("");
 }
 
 function timeIdToSeconds(timeId) {
@@ -1664,7 +1661,7 @@ function timeIdToSeconds(timeId) {
     var hours = parseInt(timeId.substr(0,3));
     var minutes = parseInt(timeId.substr(3,2));
     var seconds = parseInt(timeId.substr(5,2));
-    var signToggle = (sign == "-") ? -1 : 1;
+    var signToggle = (sign === "-") ? -1 : 1;
     var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
     //if (totalSeconds > 230400)
     //    totalSeconds -= 9600;
@@ -1684,10 +1681,8 @@ function timeStrToSeconds(timeStr) {
     var hours = parseInt(timeStr.substr(0,3));
     var minutes = parseInt(timeStr.substr(4,2));
     var seconds = parseInt(timeStr.substr(7,2));
-    var signToggle = (sign == "-") ? -1 : 1;
+    var signToggle = (sign === "-") ? -1 : 1;
     var totalSeconds = Math.round(signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds));
-    //if (totalSeconds > 230400)
-    //    totalSeconds -= 9600;
     return totalSeconds;
 }
 
@@ -1746,7 +1741,7 @@ function numberWithCommas(x) {
 //on doc init
 jQuery(function ($) {
     trace("INIT: jQuery(function ($)");
-    if (typeof $.getUrlVar('t') != "undefined") {
+    if (typeof $.getUrlVar('t') !== "undefined") {
         gMissionTimeParamSent = 1;
     } else {
         gMissionTimeParamSent = 0;
@@ -1781,7 +1776,7 @@ jQuery(function ($) {
 
     $("#playPauseBtn")
         .click(function(){
-            if (gPlaybackState == "paused") {
+            if (gPlaybackState === "paused") {
                 ga('send', 'event', 'button', 'click', 'play');
                 player.playVideo();
             } else {
@@ -1792,7 +1787,7 @@ jQuery(function ($) {
 
     $("#soundBtn")
         .click(function(){
-            if (player.isMuted() == true) {
+            if (player.isMuted() === true) {
                 ga('send', 'event', 'button', 'click', 'unmute');
                 player.unMute();
                 // var btnIcon = "ui-icon-volume-on";
@@ -1884,8 +1879,8 @@ function scrollCommentaryToCurrMissionTime() {
 }
 
 //on fullscreen toggle
-$(window).bind('fullscreenchange', function(e) {
-    var state = document.fullScreen || document.mozFullScreen || document.webkitIsFullScreen;
+$(window).bind('fullscreenchange', function() {
+    // var state = document.fullScreen || document.mozFullScreen || document.webkitIsFullScreen;
     redrawAll();
 });
 
@@ -1922,12 +1917,12 @@ function initSplash() {
 }
 
 function setSplashHistoricalSubtext() {
-    var currDate = Date.now();
+    // var currDate = Date.now();
 
-    var currDate_ms = currDate.getTime();
-    var countdownStartDate_ms = gCountdownStartDate.getTime();
-    var launchDate_ms = gLaunchDate.getTime();
-    var missionEndDate_ms = launchDate_ms + (gMissionDurationSeconds * 1000);
+    // var currDate_ms = currDate.getTime();
+    // var countdownStartDate_ms = cCountdownStartDate.getTime();
+    // var launchDate_ms = cLaunchDate.getTime();
+    // var missionEndDate_ms = launchDate_ms + (cMissionDurationSeconds * 1000);
 
     //if (currDate_ms >= countdownStartDate_ms && currDate_ms < missionEndDate_ms) { //check if during mission anniversary
         //$('.section.now').css('display', '');
@@ -1987,35 +1982,35 @@ $(document).ready(function() {
             button_text: ""
         },
         networks: {
-            facebook: {
-                app_id: "1639595472942714",
-                before: function(element) {
-                    var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
-                    this.title = "Apollo 17 in Real-time - Moment: " + gCurrMissionTime;
-                    this.url = "http://apollo17.org?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
-                    this.description = timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2];
-                    var nearestPhotoObject = gPhotoData[gPhotoDataLookup[findClosestPhoto(timeStrToSeconds(gCurrMissionTime))]];
-                    if (nearestPhotoObject[3] != "") {
-                        var photoTypePath = "flight";
-                        var filename = "AS17-" + nearestPhotoObject[1];
-                    } else {
-                        photoTypePath = "supporting";
-                        filename = nearestPhotoObject[1];
-                    }
-                    filename = filename + ".jpg";
-                    this.image = "http://apollo17.org/mission_images/" + photoTypePath + "/1024/" + filename;
-                },
-                after: function() {
-                    trace("User shared facebook: ", this.url);
-                    ga('send', 'event', 'share', 'click', 'facebook');
-                    //gShareButtonObject.close();
-                }
-            },
+            // facebook: {
+            //     app_id: "1639595472942714",
+            //     before: function(element) {
+            //         var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
+            //         this.title = "Apollo 11 in Real-time - Moment: " + gCurrMissionTime;
+            //         this.url = "http://apolloinrealtime.org/11/?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
+            //         this.description = timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2];
+            //         // var nearestPhotoObject = gPhotoData[gPhotoDataLookup[findClosestPhoto(timeStrToSeconds(gCurrMissionTime))]];
+            //         // if (nearestPhotoObject[3] !== "") {
+            //         //     var photoTypePath = "flight";
+            //         //     var filename = "AS17-" + nearestPhotoObject[1];
+            //         // } else {
+            //         //     photoTypePath = "supporting";
+            //         //     filename = nearestPhotoObject[1];
+            //         // }
+            //         // filename = filename + ".jpg";
+            //         // this.image = "http://apollo17.org/mission_images/" + photoTypePath + "/1024/" + filename;
+            //     },
+            //     after: function() {
+            //         trace("User shared facebook: ", this.url);
+            //         ga('send', 'event', 'share', 'click', 'facebook');
+            //         //gShareButtonObject.close();
+            //     }
+            // },
             twitter: {
-                before: function(element) {
+                before: function() {
                     var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
-                    this.url = "http://apollo17.org?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
-                    this.description = "%23Apollo17 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2].substr(0, 67) + "... %23NASA";
+                    this.url = "http://apolloinrealtime.org/11/?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
+                    this.description = "%23Apollo11 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2].substr(0, 67) + "... %23NASA";
                 },
                 after: function() {
                     trace("User shared twitter: ", this.url);
@@ -2025,10 +2020,10 @@ $(document).ready(function() {
             },
 
             email: {
-                before: function(element) {
+                before: function() {
                     var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
-                    this.title = "Apollo 17 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]);
-                    this.description = sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2] + "     " + "http://apollo17.org?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
+                    this.title = "Apollo 11 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]);
+                    this.description = sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2] + "     " + "http://apolloinrealtime.org/11/?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
                 },
                 after: function() {
                     trace("User shared email: ", this.title);
