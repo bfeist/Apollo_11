@@ -154,7 +154,7 @@
 0001231||VANGUARD (REV 1)|T
 0001327|CC|Apollo 11, this is Houston. The booster has been configured for orbital coast. Both spacecraft are looking good. Over.|T
 0001335|CDR|Roger.|T
-0001433|CC|Apollo 11, this is Houston. Vanguard LOS at 15 35; AOS Canaries at 16 30. Over.|T
+0001433|CC|Apollo 11, this is Houston. Vanguard LOS at 15:35; AOS Canaries at 16:30. Over.|T
 0001443|CDR|Okay. Thank you.|T
 0001443||CANARY (REV 1)|T
 0001456|PAO|This is Apollo Control. Based on a vector from the instrument unit of the third stage of the Saturn V, here on the ground we're showing an orbit of 102.5 by 99.7 nautical miles. The flight dynamics officer, Dave Reed, wants to get some radar tracking to refine this orbit and he will report a refined orbit after more radar tracking.|P
@@ -1522,7 +1522,7 @@
 0041746|CC|Roger, 11. We recommend you turn the O2 fans on manually and ensure that the O2 heaters are in the AUTOMATIC position.|T
 0041757|CDR|Roger. O2 heaters are ON, and we're going to cycle the O2 fans now.|T
 0041801|CC|Roger. O2 heaters to AUTO, or you can watch them in the ON position, and O2 fans manual ON.|T
-0042815|CC|Apollo 11, this ls Houston. Over.|T
+0042815|CC|Apollo 11, this is Houston. Over.|T
 0042820|CMP|Houston, Apollo 11.|T
 0042822|CC|Roger. In reference to your question on RCS usage: it looks like you are about 18, maybe 20 pounds below nominal at the present time. No problem at all. Over.|T
 0042834|CMP|Right.|T
