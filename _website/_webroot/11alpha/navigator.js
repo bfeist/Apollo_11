@@ -23,8 +23,10 @@ var gTier3Left;
 var gTier1Group;
 var gTier1NavGroup;
 var gTier2Group;
+var gTier2BoarderGroup;
 var gTier2NavGroup;
 var gTier3Group;
+var gTier3BoarderGroup;
 var gCursorGroup;
 var gNavCursorGroup;
 
@@ -34,7 +36,12 @@ var gTier2NavBoxLocX;
 var gLastTier2TextPosition;
 
 var gTier2StartSeconds;
+var gTier2LastOnFrameStartGETSeconds;
+var gTier2LastFullRefreshStartSeconds;
+
 var gTier3StartSeconds;
+var gTier3LastOnFrameStartGETSeconds;
+var gTier3LastFullRefreshStartSeconds;
 
 var gTier1PixelsPerSecond;
 var gTier1SecondsPerPixel;
@@ -92,8 +99,10 @@ function initNavigator() {
     gTier1Group = new paper.Group;
     gTier1NavGroup = new paper.Group;
     gTier2Group = new paper.Group;
+    gTier2BoarderGroup = new paper.Group;
     gTier2NavGroup = new paper.Group;
     gTier3Group = new paper.Group;
+    gTier3BoarderGroup = new paper.Group;
     gCursorGroup = new paper.Group;
     gNavCursorGroup = new paper.Group;
     // var tool = new paper.Tool();
@@ -126,7 +135,7 @@ function initNavigator() {
             drawTier1NavBox(mouseXSeconds);
             drawTier2();
             drawTier2NavBox(mouseXSeconds);
-            drawTier3();
+            drawTier3(true);
         } else if (event.point.y >= gTier1Top + gTier1Height + gTierSpacing && event.point.y < gTier2Top + gTier2Height + gTierSpacing) {// if in tier2
             mouseXSeconds = (event.point.x - gTier2Left) * gTier2SecondsPerPixel + gTier2StartSeconds;
             if (mouseXSeconds < gTier2StartSeconds) {
@@ -135,7 +144,7 @@ function initNavigator() {
                 mouseXSeconds = gTier2StartSeconds + (gTier2Width * gTier2SecondsPerPixel);
             }
             drawTier2NavBox(mouseXSeconds);
-            drawTier3();
+            drawTier3(true);
         } else if (event.point.y > gTier2Top + gTier2Height + gTierSpacing) { //if in tier3
             mouseXSeconds = (event.point.x - gTier3Left) * gTier3SecondsPerPixel + gTier3StartSeconds;
         }
@@ -243,7 +252,7 @@ function redrawAll() {
     drawTier1NavBox(timeStrToSeconds(gCurrMissionTime));
     drawTier2();
     drawTier2NavBox(timeStrToSeconds(gCurrMissionTime));
-    drawTier3();
+    drawTier3(true);
     drawCursor(timeStrToSeconds(gCurrMissionTime));
 
     //render navigator
@@ -264,7 +273,7 @@ function updateNavigator() {
     drawTier1NavBox(curSeconds);
     drawTier2();
     drawTier2NavBox(curSeconds);
-    drawTier3();
+    drawTier3(false);
     drawCursor(curSeconds);
 
     //render navigator
@@ -864,240 +873,258 @@ function drawTier2NavBox(seconds) {
      gTier2NavGroup.addChild(zoomRect);
 }
 
-function drawTier3() {
-    gTier3Group.removeChildren();
-    var tempGroup = new paper.Group;
-
-    var tierBottom = gTier3Height + gTier3Top;
-    var tierRect = new paper.Rectangle(1, gTier3Top, gNavigatorWidth - 1, gTier3Height);
-    var cornerSize = new paper.Size(5, 5);
-    var tierRectPath = paper.Path.RoundRectangle(tierRect, cornerSize);
-    //var tierRectPath = paper.Path.Rectangle(tierRect);
-    tierRectPath.fillColor = 'black';
-    tierRectPath.strokeColor = gColorTier3BoxStroke;
-    tempGroup.addChild(tierRectPath);
-
+function drawTier3(forceRefresh) {
     var secondsOnTier3 = gTier3SecondsPerPixel * gTier3Width;
 
-    // draw video segments boxes
-    for (var i = 0; i <= gVideoSegments.length - 1; i++) {
-        //draw if video segment start is before end of viewport, and video segment end is after start of viewport
-        if (timeStrToSeconds(gVideoSegments[i][0]) <= gTier3StartSeconds + secondsOnTier3 && timeStrToSeconds(gVideoSegments[i][1]) >= gTier3StartSeconds) {
-            var rectStartX = gTier3Left + (timeStrToSeconds(gVideoSegments[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
-            var rectWidth = ((timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier3PixelsPerSecond);
-            if (rectStartX < 0) {
-                rectWidth -= Math.abs(rectStartX);
+    var pixelsToMove = gTier3LastOnFrameStartGETSeconds - gTier3StartSeconds;
+    if (forceRefresh || gTier3StartSeconds > gTier3LastFullRefreshStartSeconds + secondsOnTier3) {
+
+        gTier3LastFullRefreshStartSeconds = gTier3StartSeconds;
+        gTier3LastOnFrameStartGETSeconds = gTier3StartSeconds;
+
+        gTier3BoarderGroup.removeChildren();
+        gTier3Group.removeChildren();
+        var tempGroup = new paper.Group;
+
+        var tierBottom = gTier3Height + gTier3Top;
+
+        // draw tier 3 boarder
+        var tierRect = new paper.Rectangle(1, gTier3Top, gNavigatorWidth - 1, gTier3Height);
+        var cornerSize = new paper.Size(5, 5);
+        var tierRectPath = paper.Path.RoundRectangle(tierRect, cornerSize);
+        //var tierRectPath = paper.Path.Rectangle(tierRect);
+        // tierRectPath.fillColor = 'black';
+        tierRectPath.strokeColor = gColorTier3BoxStroke;
+        // tempGroup.addChild(tierRectPath);
+        gTier3BoarderGroup.addChild(tierRectPath);
+        // gTier3BoarderGroup.sendToBack();
+
+        // draw video segments boxes
+        for (var i = 0; i <= gVideoSegments.length - 1; i++) {
+            //draw if video segment start is before end of viewport, and video segment end is after start of viewport
+            if (timeStrToSeconds(gVideoSegments[i][0]) <= gTier3StartSeconds + (secondsOnTier3 * 2) && timeStrToSeconds(gVideoSegments[i][1]) >= gTier3StartSeconds) {
+                var rectStartX = gTier3Left + (timeStrToSeconds(gVideoSegments[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
+                var rectWidth = ((timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier3PixelsPerSecond);
+                if (rectStartX < 0) {
+                    rectWidth -= Math.abs(rectStartX);
+                }
+                if (rectStartX < gTier3Left + 2) {
+                    rectStartX = gTier3Left + 2;
+                }
+                if (rectWidth > (gTier3Width * 2) - rectStartX - 1) {
+                    rectWidth = (gTier3Width * 2) - rectStartX + gTier3Left - 3;
+                }
+                var rectTop = (gTier3Top + gTier3Height) - gTier3Height / gHeightVideoRectDenominator;
+                var rectHeight = gTier3Height / gHeightVideoRectDenominator - 2;
+                var vidRect = new paper.Path.Rectangle(rectStartX, rectTop, rectWidth, rectHeight);
+                if (gVideoSegments[i][2] === "3D") {
+                    vidRect.fillColor = gColorVideo3DRenderRegionBackground;
+                    vidRect.strokeColor = gColorVideo3DRenderRegionStroke;
+                } else {
+                    vidRect.fillColor = gColorVideoRegionBackground;
+                    vidRect.strokeColor = gColorVideoRegionStroke;
+                }
+                tempGroup.addChild(vidRect);
             }
-            if (rectStartX < gTier3Left + 2) {
-                rectStartX = gTier3Left + 2;
-            }
-            if (rectWidth > gTier3Width - rectStartX - 1) {
-                rectWidth = gTier3Width - rectStartX + gTier3Left - 3;
-            }
-            var rectTop = (gTier3Top + gTier3Height) - gTier3Height / gHeightVideoRectDenominator;
-            var rectHeight = gTier3Height / gHeightVideoRectDenominator - 2;
-            var vidRect = new paper.Path.Rectangle(rectStartX, rectTop, rectWidth, rectHeight);
-            if (gVideoSegments[i][2] === "3D") {
-                vidRect.fillColor = gColorVideo3DRenderRegionBackground;
-                vidRect.strokeColor = gColorVideo3DRenderRegionStroke;
-            } else {
-                vidRect.fillColor = gColorVideoRegionBackground;
-                vidRect.strokeColor = gColorVideoRegionStroke;
-            }
-            tempGroup.addChild(vidRect);
         }
-    }
 
-    //display time ticks
-    var missionDurationStr = secondsToTimeStr(cMissionDurationSeconds);
-    var missionDurationHours = parseInt(missionDurationStr.substr(0,3));
-    for (i = 0; i < missionDurationHours * 2; i++) {
-        itemSecondsFromLeft = (i * 60 * 60) / 2 - gTier3StartSeconds;
-        if (itemSecondsFromLeft > secondsOnTier3)
-            break;
-        if (itemSecondsFromLeft >= 0) {
-            var itemLocX = gTier3Left + itemSecondsFromLeft * gTier3PixelsPerSecond;
-            barHeight = gTier3Height / gHeightTimeTickDenominator;
-            barTop = tierBottom - barHeight;
-            topPoint = new paper.Point(itemLocX, barTop);
-            bottomPoint = new paper.Point(itemLocX, tierBottom);
-            aLine = new paper.Path.Line(topPoint, bottomPoint);
-            aLine.strokeColor = gColorTimeTicks;
-
-            stageText = new paper.PointText({
-                justification: 'left',
-                fontFamily: graphFontFamily,
-                //fontWeight: 'bold',
-                fontSize: 9 + gFontScaleFactor,
-                fillColor: gColorTimeTicks
-            });
-            textTop = gTier3Top + gTier3Height - 5;
-            stageText.point = new paper.Point(itemLocX - 2 , textTop);
-            stageText.rotate(-90);
-            var tickTimeSeconds = (i / 2) * 60 * 60;
-            stageText.content = secondsToTimeStr(tickTimeSeconds);
-
-            tempGroup.addChild(stageText);
-            tempGroup.addChild(aLine);
-        }
-    }
-
-    // draw lunar orbits
-    for (i = 0; i <= gOrbitData.length - 1; i++) {
-        //draw if orbit start is before end of viewport, and stage end is after start of viewport
-        if (timeStrToSeconds(gOrbitData[i][0]) <= gTier3StartSeconds + secondsOnTier3 && timeStrToSeconds(gOrbitData[i][2]) >= gTier3StartSeconds) {
-            itemLocX = gTier3Left + (timeStrToSeconds(gOrbitData[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
-
-            var drawTick = true;
-            if (itemLocX < gTier3Left + 1) {
-                itemLocX = gTier3Left + 1;
-                drawTick = false;
-            }
-            topPoint = new paper.Point(itemLocX, gTier3Top);
-            bottomPoint = new paper.Point(itemLocX, gTier3Top + 12 + gFontScaleFactor);
-
-            if (drawTick) {
-                var orbitStroke = new paper.Path.Line(topPoint, bottomPoint);
-                orbitStroke.strokeColor = gColorTOCStroke;
-                tempGroup.addChild(orbitStroke); // draw orange tick for stage
-            }
-
-            var orbitText = new paper.PointText({
-                justification: 'left',
-                fontFamily: graphFontFamily,
-                //fontWeight: 'bold',
-                fontSize: 8 + gFontScaleFactor,
-                fillColor: gColorTOCText
-            });
-            var textTop = gTier3Top + 10;
-            orbitText.point = new paper.Point(itemLocX + 2 , textTop);
-            orbitText.content = "Begin lunar orbit " + gOrbitData[i][1] + "/75";
-
-            //var stageTextRect = new paper.Path.Rectangle(stageText.bounds);
-            //stageTextRect.fillColor ='black';
-            //tempGroup.addChild(stageTextRect); //blank out area behind text
-            tempGroup.addChild(orbitText); // text label
-        }
-    }
-
-    // draw mission stages
-    for (i = 0; i <= gMissionStages.length - 1; i++) {
-        //draw if stage start is before end of viewport, and stage end is after start of viewport
-        if (timeStrToSeconds(gMissionStages[i][0]) <= gTier3StartSeconds + secondsOnTier3 && timeStrToSeconds(gMissionStages[i][3]) >= gTier3StartSeconds) {
-            itemLocX = gTier3Left + (timeStrToSeconds(gMissionStages[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
-
-            var drawStageTick = true;
-            if (itemLocX < gTier3Left + 1) {
-                itemLocX = gTier3Left + 1;
-                drawStageTick = false;
-            }
-            topPoint = new paper.Point(itemLocX, gTier3Top);
-            bottomPoint = new paper.Point(itemLocX, gTier3Top + (gTier3Height / 3));
-
-            if (drawStageTick) {
-                var stageStroke = new paper.Path.Line(topPoint, bottomPoint);
-                stageStroke.strokeColor = gColorMissionStageStroke;
-                stageStroke.strokeWidth = 2;
-                tempGroup.addChild(stageStroke); // draw grey outline of stage segment
-            }
-
-            var stageText = new paper.PointText({
-                justification: 'left',
-                fontFamily: graphFontFamily,
-                //fontWeight: 'bold',
-                fontSize: 10 + gFontScaleFactor,
-                fillColor: gColorMissionStageText
-            });
-            textTop = gTier3Top + (gTier3Height / 3) - 5;
-            stageText.point = new paper.Point(itemLocX + 2 , textTop);
-            stageText.content = gMissionStages[i][1];
-
-            var stageTextRect = new paper.Path.Rectangle(stageText.bounds);
-            stageTextRect.fillColor ='black';
-            tempGroup.addChild(stageTextRect); //blank out area behind text
-            tempGroup.addChild(stageText); // text label
-        }
-    }
-
-    //display photo ticks
-    for (i = 0; i < gPhotoData.length; i++) {
-        if (gPhotoData[i][0] !== "") {
-            itemSecondsFromLeft = timeIdToSeconds(gPhotoData[i][0]) - gTier3StartSeconds;
-            if (itemSecondsFromLeft > secondsOnTier3)
+        //display time ticks
+        var missionDurationStr = secondsToTimeStr(cMissionDurationSeconds);
+        var missionDurationHours = parseInt(missionDurationStr.substr(0, 3));
+        for (i = 0; i < missionDurationHours * 2; i++) {
+            itemSecondsFromLeft = (i * 60 * 60) / 2 - gTier3StartSeconds;
+            if (itemSecondsFromLeft > secondsOnTier3 * 2)
                 break;
             if (itemSecondsFromLeft >= 0) {
-                itemLocX = gTier3Left + (itemSecondsFromLeft * gTier3PixelsPerSecond);
-                barHeight = gTier3Height / gHeightPhotoTickDenominator;
-                var barTop = tierBottom - barHeight;
+                var itemLocX = gTier3Left + itemSecondsFromLeft * gTier3PixelsPerSecond;
+                barHeight = gTier3Height / gHeightTimeTickDenominator;
+                barTop = tierBottom - barHeight;
                 topPoint = new paper.Point(itemLocX, barTop);
                 bottomPoint = new paper.Point(itemLocX, tierBottom);
                 aLine = new paper.Path.Line(topPoint, bottomPoint);
-                aLine.strokeColor = gColorPhotoTicks;
-                aLine.strokeWidth = 1.5;
+                aLine.strokeColor = gColorTimeTicks;
+
+                stageText = new paper.PointText({
+                    justification: 'left',
+                    fontFamily: graphFontFamily,
+                    //fontWeight: 'bold',
+                    fontSize: 9 + gFontScaleFactor,
+                    fillColor: gColorTimeTicks
+                });
+                textTop = gTier3Top + gTier3Height - 5;
+                stageText.point = new paper.Point(itemLocX - 2, textTop);
+                stageText.rotate(-90);
+                var tickTimeSeconds = (i / 2) * 60 * 60;
+                stageText.content = secondsToTimeStr(tickTimeSeconds);
+
+                tempGroup.addChild(stageText);
                 tempGroup.addChild(aLine);
             }
         }
-    }
 
-    //display utterance ticks
-    for (i = 0; i < gUtteranceData.length; i++) {
-        itemSecondsFromLeft = timeIdToSeconds(gUtteranceData[i][0]) - gTier3StartSeconds;
-        if (itemSecondsFromLeft > secondsOnTier3)
-            break;
-        if (itemSecondsFromLeft >= 0) {
-            itemLocX = itemSecondsFromLeft * gTier3PixelsPerSecond;
-            var barHeight = gTier3Height / gHeightUtteranceTickDenominator;
-            if (gUtteranceData[i][1] === "PAO") {
-                barHeight = barHeight * 1.5;
+        // draw lunar orbits
+        for (i = 0; i <= gOrbitData.length - 1; i++) {
+            //draw if orbit start is before end of viewport, and stage end is after start of viewport
+            if (timeStrToSeconds(gOrbitData[i][0]) <= gTier3StartSeconds + (secondsOnTier3 * 2) && timeStrToSeconds(gOrbitData[i][2]) >= gTier3StartSeconds) {
+                itemLocX = gTier3Left + (timeStrToSeconds(gOrbitData[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
+
+                var drawTick = true;
+                if (itemLocX < gTier3Left + 1) {
+                    itemLocX = gTier3Left + 1;
+                    drawTick = false;
+                }
+                topPoint = new paper.Point(itemLocX, gTier3Top);
+                bottomPoint = new paper.Point(itemLocX, gTier3Top + 12 + gFontScaleFactor);
+
+                if (drawTick) {
+                    var orbitStroke = new paper.Path.Line(topPoint, bottomPoint);
+                    orbitStroke.strokeColor = gColorTOCStroke;
+                    tempGroup.addChild(orbitStroke); // draw orange tick for stage
+                }
+
+                var orbitText = new paper.PointText({
+                    justification: 'left',
+                    fontFamily: graphFontFamily,
+                    //fontWeight: 'bold',
+                    fontSize: 8 + gFontScaleFactor,
+                    fillColor: gColorTOCText
+                });
+                var textTop = gTier3Top + 10;
+                orbitText.point = new paper.Point(itemLocX + 2, textTop);
+                orbitText.content = "Begin lunar orbit " + gOrbitData[i][1] + "/75";
+
+                //var stageTextRect = new paper.Path.Rectangle(stageText.bounds);
+                //stageTextRect.fillColor ='black';
+                //tempGroup.addChild(stageTextRect); //blank out area behind text
+                tempGroup.addChild(orbitText); // text label
             }
-            barTop = tierBottom - barHeight;
-            topPoint = new paper.Point(itemLocX, barTop);
-            bottomPoint = new paper.Point(itemLocX, tierBottom);
-            aLine = new paper.Path.Line(topPoint, bottomPoint);
-            if (gUtteranceData[i][1] === "PAO") {
-                aLine.strokeColor = gColorUtteranceTicksPAO;
-            } else if (gUtteranceData[i][1] === "CC") {
-                aLine.strokeColor = gColorUtteranceTicksCC;
-            } else {
-                aLine.strokeColor = gColorUtteranceTicksCrew;
-            }
-            tempGroup.addChild(aLine);
         }
-    }
 
-    //display TOC ticks and text
-    //display TOC ticks at varying heights
-    for (i = 0; i < gTOCData.length; i++) {
-        var textPosition = (i % 2) + 1;
-        var itemSecondsFromLeft = timeStrToSeconds(gTOCData[i][0]) - gTier3StartSeconds;
-        if (itemSecondsFromLeft >= 0 && itemSecondsFromLeft <= secondsOnTier3) {
-            itemLocX = gTier3Left + (itemSecondsFromLeft * gTier3PixelsPerSecond);
+        // draw mission stages
+        for (i = 0; i <= gMissionStages.length - 1; i++) {
+            //draw if stage start is before end of viewport, and stage end is after start of viewport
+            if (timeStrToSeconds(gMissionStages[i][0]) <= gTier3StartSeconds + (secondsOnTier3 * 2) && timeStrToSeconds(gMissionStages[i][3]) >= gTier3StartSeconds) {
+                itemLocX = gTier3Left + (timeStrToSeconds(gMissionStages[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
 
-            if (textPosition === 1) {
-                barTop = gTier3Top + gTier3Height / 3;
-            } else {
-                barTop = gTier3Top + (gTier3Height / 3) + (gTier3Height / 4.2);
+                var drawStageTick = true;
+                if (itemLocX < gTier3Left + 1) {
+                    itemLocX = gTier3Left + 1;
+                    drawStageTick = false;
+                }
+                topPoint = new paper.Point(itemLocX, gTier3Top);
+                bottomPoint = new paper.Point(itemLocX, gTier3Top + (gTier3Height / 3));
+
+                if (drawStageTick) {
+                    var stageStroke = new paper.Path.Line(topPoint, bottomPoint);
+                    stageStroke.strokeColor = gColorMissionStageStroke;
+                    stageStroke.strokeWidth = 2;
+                    gTier3BoarderGroup.addChild(stageStroke); // draw grey outline of stage segment
+                }
+
+                var stageText = new paper.PointText({
+                    justification: 'left',
+                    fontFamily: graphFontFamily,
+                    //fontWeight: 'bold',
+                    fontSize: 10 + gFontScaleFactor,
+                    fillColor: gColorMissionStageText
+                });
+                textTop = gTier3Top + (gTier3Height / 3) - 5;
+                stageText.point = new paper.Point(itemLocX + 2, textTop);
+                stageText.content = gMissionStages[i][1];
+
+                var stageTextRect = new paper.Path.Rectangle(stageText.bounds);
+                stageTextRect.fillColor = 'black';
+                gTier3BoarderGroup.addChild(stageTextRect); //blank out area behind text
+                gTier3BoarderGroup.addChild(stageText); // text label
             }
-            var barBottom = barTop + 12 + gFontScaleFactor;
-            var topPoint = new paper.Point(itemLocX, barTop);
-            var bottomPoint = new paper.Point(itemLocX, barBottom);
-            var aLine = new paper.Path.Line(topPoint, bottomPoint);
-            aLine.strokeColor = gColorTOCStroke;
-            tempGroup.addChild(aLine);
-            var itemText = new paper.PointText({
-                justification: 'left',
-                fontFamily: graphFontFamily,
-                fontSize: 10 + gFontScaleFactor,
-                fillColor: gColorTOCText
-            });
-            itemText.point = new paper.Point(itemLocX + 2 , barBottom - 2);
-            itemText.content = gTOCData[i][2];
-            tempGroup.addChild(itemText);
         }
+
+        //display photo ticks
+        for (i = 0; i < gPhotoData.length; i++) {
+            if (gPhotoData[i][0] !== "") {
+                itemSecondsFromLeft = timeIdToSeconds(gPhotoData[i][0]) - gTier3StartSeconds;
+                if (itemSecondsFromLeft > secondsOnTier3 * 2)
+                    break;
+                if (itemSecondsFromLeft >= 0) {
+                    itemLocX = gTier3Left + (itemSecondsFromLeft * gTier3PixelsPerSecond);
+                    barHeight = gTier3Height / gHeightPhotoTickDenominator;
+                    var barTop = tierBottom - barHeight;
+                    topPoint = new paper.Point(itemLocX, barTop);
+                    bottomPoint = new paper.Point(itemLocX, tierBottom);
+                    aLine = new paper.Path.Line(topPoint, bottomPoint);
+                    aLine.strokeColor = gColorPhotoTicks;
+                    aLine.strokeWidth = 1.5;
+                    tempGroup.addChild(aLine);
+                }
+            }
+        }
+
+        //display utterance ticks
+        for (i = 0; i < gUtteranceData.length; i++) {
+            itemSecondsFromLeft = timeIdToSeconds(gUtteranceData[i][0]) - gTier3StartSeconds;
+            if (itemSecondsFromLeft > secondsOnTier3 * 2)
+                break;
+            if (itemSecondsFromLeft >= 0) {
+                itemLocX = itemSecondsFromLeft * gTier3PixelsPerSecond;
+                var barHeight = gTier3Height / gHeightUtteranceTickDenominator;
+                if (gUtteranceData[i][1] === "PAO") {
+                    barHeight = barHeight * 1.5;
+                }
+                barTop = tierBottom - barHeight;
+                topPoint = new paper.Point(itemLocX, barTop);
+                bottomPoint = new paper.Point(itemLocX, tierBottom);
+                aLine = new paper.Path.Line(topPoint, bottomPoint);
+                if (gUtteranceData[i][1] === "PAO") {
+                    aLine.strokeColor = gColorUtteranceTicksPAO;
+                } else if (gUtteranceData[i][1] === "CC") {
+                    aLine.strokeColor = gColorUtteranceTicksCC;
+                } else {
+                    aLine.strokeColor = gColorUtteranceTicksCrew;
+                }
+                tempGroup.addChild(aLine);
+            }
+        }
+
+        //display TOC ticks and text
+        //display TOC ticks at varying heights
+        for (i = 0; i < gTOCData.length; i++) {
+            var textPosition = (i % 2) + 1;
+            var itemSecondsFromLeft = timeStrToSeconds(gTOCData[i][0]) - gTier3StartSeconds;
+            if (itemSecondsFromLeft >= 0 && itemSecondsFromLeft <= secondsOnTier3 * 2) {
+                itemLocX = gTier3Left + (itemSecondsFromLeft * gTier3PixelsPerSecond);
+
+                if (textPosition === 1) {
+                    barTop = gTier3Top + gTier3Height / 3;
+                } else {
+                    barTop = gTier3Top + (gTier3Height / 3) + (gTier3Height / 4.2);
+                }
+                var barBottom = barTop + 12 + gFontScaleFactor;
+                var topPoint = new paper.Point(itemLocX, barTop);
+                var bottomPoint = new paper.Point(itemLocX, barBottom);
+                var aLine = new paper.Path.Line(topPoint, bottomPoint);
+                aLine.strokeColor = gColorTOCStroke;
+                tempGroup.addChild(aLine);
+                var itemText = new paper.PointText({
+                    justification: 'left',
+                    fontFamily: graphFontFamily,
+                    fontSize: 10 + gFontScaleFactor,
+                    fillColor: gColorTOCText
+                });
+                itemText.point = new paper.Point(itemLocX + 2, barBottom - 2);
+                itemText.content = gTOCData[i][2];
+                tempGroup.addChild(itemText);
+            }
+        }
+
+        if (tempGroup.children.length > 0) {
+            var t3Raster = tempGroup.rasterize();
+            gTier3Group.addChild(t3Raster);
+        }
+        tempGroup.remove();
+        // gTier3Group.addChild(tempGroup);
+    } else {
+        // console.log("channels: " + pixelsToMove);
+        gTier3Group.translate(new Point(pixelsToMove, 0));
+        gTier3LastOnFrameStartGETSeconds = gTier3StartSeconds;
     }
-    if (tempGroup.children.length > 0) {
-        var t3Raster = tempGroup.rasterize();
-        gTier3Group.addChild(t3Raster);
-    }
-    tempGroup.remove();
 }

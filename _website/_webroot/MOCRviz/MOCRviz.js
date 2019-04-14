@@ -104,17 +104,13 @@ var gChannelNameGroup;
 
 var gWavDataLoaded = false;
 
-var gWaveform;
-var gWaveform4096;
-var gWaveform2048;
-var gWaveform1024;
 var gWaveform512;
 var gPaperWaveformGroup;
 var gLastWaveformFullDrawGET = -1000000;
 var gLastWaveformOnFrameGET = -1000000;
 var gWaveformRefresh = false;
 var gLastChannelsFullDrawGET = -1000000;
-var gLastChannelsOnFrameGET = -1000000;
+var gLastChannelsOnFrameStartGETSeconds = -1000000;
 
 var gTool;
 var gTooltipGroup;
@@ -308,7 +304,7 @@ function frameUpdateOnTimer() {
             if (parentMissionTimeSeconds >= gCurrGETSeconds - 1 && parentMissionTimeSeconds <= gCurrGETSeconds + 1) {
                 // then we're close enough, don't correct the time
             } else {
-                if (parentMissionTimeSeconds !== NaN) {
+                if (parent.gCurrMissionTime !== undefined) {
                     gCurrGETSeconds = parentMissionTimeSeconds;
 
                     loadChannelSoundfile();
@@ -480,13 +476,13 @@ function drawChannels(forceRefresh) {
 
     var displayRangeEnd = displayRangeStart + durationSeconds;
 
-    var pixelsToMove = gLastChannelsOnFrameGET - startGETSeconds;
+    var pixelsToMove = gLastChannelsOnFrameStartGETSeconds - startGETSeconds;
     if ((forceRefresh || startGETSeconds > gLastChannelsFullDrawGET + $(window).width()) && gTapeRangesHR1 !== []) {
         gChannelLinesGroup.removeChildren();
         var partialSecond = gCurrGETSeconds % 1;
 
         gLastChannelsFullDrawGET = startGETSeconds;
-        gLastChannelsOnFrameGET = startGETSeconds;
+        gLastChannelsOnFrameStartGETSeconds = startGETSeconds;
 
         cAvailableChannelsArray.forEach(function (channelNum, x) {
             //get interval start/end based on GET
@@ -559,7 +555,7 @@ function drawChannels(forceRefresh) {
     } else if (Math.abs(pixelsToMove) > 0.25) {
         // console.log("channels: " + pixelsToMove);
         gChannelLinesGroup.translate(new Point(pixelsToMove, 0));
-        gLastChannelsOnFrameGET = startGETSeconds;
+        gLastChannelsOnFrameStartGETSeconds = startGETSeconds;
     }
 }
 
@@ -784,7 +780,7 @@ function timeStrToSeconds(timeStr) {
     var hours = parseInt(timeStr.substr(0,3));
     var minutes = parseInt(timeStr.substr(4,2));
     var seconds = parseInt(timeStr.substr(7,2));
-    var signToggle = (sign == "-") ? -1 : 1;
+    var signToggle = (sign === "-") ? -1 : 1;
     var totalSeconds = Math.round(signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds));
     //if (totalSeconds > 230400)
     //    totalSeconds -= 9600;
