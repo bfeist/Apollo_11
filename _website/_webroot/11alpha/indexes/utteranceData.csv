@@ -556,11 +556,11 @@
 0011653|CDR|Okay, that was correct. You - you were asking about that.|O
 0011658|CMP|And you have 6 frames per second, and it's color; you got 15 minutes worth - 6 frames a second, f:8, infinity, 1/250th.|O
 0011718|LMP|Okay. The only question is, how much do we want to indicate on that?|O
-0011728|LMP|Outside of it|O
+0011728|LMP|Outside of it ...|O
 0011732|CMP|On the magazine?|O
-0011737|CMP|Yes.|O
-0011742|CDR|How does zero g feel? Your head feel funny, anybody, or anything like that?|O
-0011746|CMP|No, I don't know, it just feels like we're going around upside down.|O
+0011737|LMP|Yes.|O
+0011742|CMP|How does zero g feel? Your head feel funny, anybody, or anything like that?|O
+0011746|CDR|No, I don't know, it just feels like we're going around upside down.|O
 0011748|LMP|... I don't know - even feel that.|O
 0011751|CDR|I feel the horizon coming up.|O
 0011753|CMP|Oh, yes.|O
@@ -568,7 +568,7 @@
 0011757|CMP|... 90 degrees the wrong way - -|O
 0011759|CDR|- - are you ready for this briefing? Buzz?|O
 0011801|LMP|Yes, let me get this.|O
-0011802|CDR|Oh! Okay.|O
+0011802|CDR|Oh, Okay.|O
 0011805|CMP|Oh, yes, stand by for sunrise.|O
 0011810|CDR|Say, we got the rookie with us; he hasn't seen so many of those.|O
 0011814|CDR|(Laughter) Okay. 30 seconds.|O
@@ -1233,129 +1233,129 @@
 0031419|CMP|Okay. PYRO B coming armed. My intent is to use bottle primary 1, as per the checklist; therefore, I just turned A on.|T
 0031426|CC|Roger. We concur with the logic.|T
 0031611|PAO|We're waiting confirmation of separation.|P
-0031629|LMP|- - two, ARMED.|O
-0031629|CMP|Two, ARMED.|O
-0031630|LMP|CMC MODE, AUTO.|O
-0031631|CMP|AUTO.|O
-0031632|LMP|Start the digital event timer.|O
-0031633|CMP|Okay, start.|O
-0031636|LMP|And we're going to translate plus X and hold.|O
-0031637|CMP|Yes.|O
-0031638|LMP|CM/LAUNCH VEHICLE SEP pushbutton?|O
-0031640|CMP|Yes.|O
-0031641|LMP|Watch the tank pressure and the engine light.|O
-0031643|CMP|Are you on tank pressures? You are.|O
-0031648|LMP|And you're going to go to 100.8?|O
-0031650|CMP|Yes.|O
-0031658|LMP|You want to -|O
-0031700|CMP|Here we go.|O
-0031700|CDR|Okay, Houston; we're about to SEP.|O
-0031702|CC|This is Houston. We copy.|O
-0031702|CMP|Thrusting -|O
-0031705|CDR|SEP.|O
-0031706|LMP|Look at that trash. Jesus.|O
-0031710|CDR|SEP complete.|O
-0031712|CC|Roger.|T
-0031712|LMP|Got DELTA-V?|O
-0031713|CMP|Okay, got 0.7; I'm going to stop there and - -|O
-0031716|LMP|... go to RELEASE; DELTA-V indicator minus 100.8 - -|O
-0031717|PAO|We confirm the separation here on the ground.|P
-0031720|CMP|Okay.|O
-0031721|LMP|- - SERVICE MODULE RCS PROPELLANT, verify eight of them gray.|O
-0031723|CMP|Okay, you got problems there. Get the ... – there you go.|O
-0031727|CDR|I'll get them.|O
-0031728|LMP|Okay, okay.|O
-0031731|CMP|What else? Did - -|O
-0031733|LMP|CM - -|O
-0031734|CDR|PRIMARY and SECONDARY PROPELLANT B went barber pole at SEP.|O
-0031741|CC|That was SECONDARY PROPELLANT on quad Bravo?|O
-0031746|CDR|Quad Bravo, yes. Both the PRIMARY and SECONDARY talkbacks went barber pole.|O
-0031751|CMP|..., three, OPEN.|O
-0031752|LMP|Okay, your - -|O
-0031752|CC|Roger; we copy.|O
-0031755|LMP|- - ... This is the one that ... 0.5, right? Is it - Mike, you key a VERB 62?|O
-0031803|CMP|Yes.|O
-0031803|LMP|PROCEED and you're pitching?|O
-0031805|CDR|She's pitching.|O
-0031806|CMP|Trying - to turn itself off again; look at this.|O
-0031810|CDR|Is it holding it this time?|O
-0031812|CMP|Watch, it'll probably go back to RATE COMMAND.|O
-0031815|CDR|That slows it down?|O
-0031817|CMP|... keeps pitching.|O
-0031820|LMP|Your MAN ATT, PITCH, to ACCEL COMMAND?|O
-0031824|CDR|It went to RATE - Okay, I see a SLA panel going out.|O
-0031828|LMP|Okay, you got to get a pitch rate in there -|O
-0031835|CDR|See that SLA panel?|O
-0031839|LMP|Is it flying - yet?|O
-0031843|CMP|It's alright. She's darn well unbelievable - something.|O
-0031852|CDR|I see it ...|O
-0031856|LMP|Do I need some circuit breaker in to get - -|O
-0031857|CDR|I see another - No, that's alright.|O
-0031859|LMP|- - to get this camera going? Mike?|O
-0031902|CMP|No, you need the power on over there, though.|O
-0031904|LMP|I turned it on.|O
-0031905|CDR|I got it. ... beautiful.|O
-0031906|CMP|You sure you have the right power switch on?|O
-0031909|CDR|Boy, that's - -|O
-0031910|LMP|Yes.|O
-0031910|CMP|You got him?|O
-0031911|CDR|Yes, Mike.|O
-0031912|LMP|No, I don't.|O
-0031912|CMP|To the right over here.|O
-0031913|CDR|Can you see him?|O
-0031914|LMP|No, I don't see - -|O
-0031915|CDR|He's a little bit to our right.|O
-0031916|LMP|Okay, I see him.|O
-0031918|CDR|We need about a 5-degree right, and we need to stop our - -|O
-0031921|CMP|Okay. We'll stop here.|O
-0031923|CDR|- - ... and we're pretty far away from him, too.|O
-0031930|CMP|Okay, watch it, we should be stopping here.|O
-0031944|LMP|How long do we want to run this film?|O
-0031951|CDR|How does he look, Mike?|O
-0031952|CMP|He's - he's fine.|O
-0031958|CDR|Okay, you got 100.4 now.|O
-0031959|CMP|Yes, I know; those numbers don't mean anything. They were 99-something when we turned around; don't ask me why. I thrusted toward him quite a bit, and I don't know why those numbers were screwed up, but they were.|O
-0032018|CDR|Buzz, how does he look to you; looks like he's getting closer to me.|O
-0032020|CMP|... get the BMAG?|O
-0032022|LMP|Okay.|O
-0032023|CDR|Yes, it looks like he's drifting down just a tad, and he's supposed to be.|O
-0032031|CMP|How are our eight gray talkbacks; they still good?|O
-0032032|CDR|Very good.|O
-0032048|CMP|Flies like a spacecraft instead of a simulator. Hope that's good.|O
-0032057|CMP|Sure beautiful. I hope you got some pictures, Buzz.|O
-0032100|LMP|I got the 16 millimeter going - -|O
-0032101|CDR|Is it going?|O
-0032102|LMP|- - 16 frames at f:8 - -|O
-0032103|CDR|Good.|O
-0032105|LMP|- - 70, 1/250th, ...|O
-0032108|CDR|Beautiful.|O
-0032110|LMP|It really looks nice, doesn't it?|O
-0032111|CMP|Hey, we're closing in a leisurely fashion.|O
-0032117|LMP|Hey, how long does this ...?|O
-0032121|CMP|It's on the - it's printed - -|O
-0032122|CDR|Yes.|O
-0032123|CMP|- - yes, it's six frames at 15; I suggest toward the end you probably goose it up a little bit.|O
-0032128|LMP|You want to get the whole thing?|O
-0032129|CDR|I don't care - ... tell by looking at ...|O
-0032137|CDR|The thing is, with this sitting there, I can't get much with the Hasselblad. That window's no good, I'm afraid.|O
-0032151|CDR|Can I hold something for you?|O
-0032153|LMP|Take a couple of ...|O
-0032159|CMP|Yes, you might look - if you're looking for something to do, you might just look over my panel 1 and 8 and all that and make sure all the switches are - to your liking.|O
-0032208|CC|Apollo 11, this is Houston. Radio check. Over.|T
-0032209|CDR|I'll do it.|O
-0032210|LMP|...|O
-0032222|CDR|Be sure that your RCS is working anyway.|O
-0032228|LMP|How far out are you, Mike?|O
-0032230|CMP|I'm still quite a ways. That's definitely a SLA panel - there's no doubt about that. Sure looks like ... panel. That stuff's hitting from the S-IVB from us. Gees, look it - that one thing just hit the - gyro package on the S-band antenna.|O
-0032230|PAO|The Goldstone station reports a very weak signal. We believe that Mike Collins is now maneuvering the spacecraft in the transposition and docking maneuver, and the antenna patterns aren't too good at the moment, so we have a weak signal strength.|P
-0032251|LMP|Yes, things occasionally come scooting out.|O
-0032257|CMP|...|O
-0032258|LMP|And, occasionally, you know, a little piece of something hits the - what do you call that - covering? The whole LM quivers every so often. All - all the surface of it, Neil, you know, just kind of shakes like that.|O
-0032316|CDR|Yes?|O
-0032317|LMP|Just in one spot; it's not being hit. I hope it doesn't come in ... - -|O
-0032322|CMP|Stand by; we're getting pretty close.|O
-0032323|CDR|Just from the APS firing, you think?|O
-0032329|CMP|Stand by; we're closing.|O
+0031628|LMP|- - two, ARMED.|O
+0031628|CMP|Two, ARMED.|O
+0031629|LMP|CMC MODE, AUTO.|O
+0031630|CMP|AUTO.|O
+0031631|LMP|Start the digital event timer.|O
+0031632|CMP|Okay, start.|O
+0031635|LMP|And we're going to translate plus X and hold.|O
+0031636|CMP|Yes.|O
+0031637|LMP|CM/LAUNCH VEHICLE SEP pushbutton?|O
+0031639|CMP|Yes.|O
+0031640|LMP|Watch the tank pressure and the engine light.|O
+0031642|CMP|Are you on tank pressures? You are.|O
+0031647|LMP|And you're going to go to 100.8?|O
+0031649|CMP|Yes.|O
+0031657|LMP|You want to -|O
+0031659|CMP|Here we go.|O
+0031659|CDR|Okay, Houston; we're about to SEP.|O
+0031701|CC|This is Houston. We copy.|O
+0031701|CMP|Thrusting -|O
+0031704|CDR|SEP.|O
+0031705|LMP|Look at that trash. Jesus.|O
+0031709|CDR|SEP complete.|O
+0031711|CC|Roger.|T
+0031711|LMP|Got DELTA-V?|O
+0031712|CMP|Okay, got 0.7; I'm going to stop there and - -|O
+0031715|LMP|... go to RELEASE; DELTA-V indicator minus 100.8 - -|O
+0031716|PAO|We confirm the separation here on the ground.|P
+0031719|CMP|Okay.|O
+0031720|LMP|- - SERVICE MODULE RCS PROPELLANT, verify eight of them gray.|O
+0031722|CMP|Okay, you got problems there. Get the ... – there you go.|O
+0031726|CDR|I'll get them.|O
+0031727|LMP|Okay, okay.|O
+0031730|CMP|What else? Did - -|O
+0031732|LMP|CM - -|O
+0031733|CDR|PRIMARY and SECONDARY PROPELLANT B went barber pole at SEP.|O
+0031740|CC|That was SECONDARY PROPELLANT on quad Bravo?|O
+0031745|CDR|Quad Bravo, yes. Both the PRIMARY and SECONDARY talkbacks went barber pole.|O
+0031750|CMP|..., three, OPEN.|O
+0031751|LMP|Okay, your - -|O
+0031751|CC|Roger; we copy.|O
+0031754|LMP|- - ... This is the one that ... 0.5, right? Is it - Mike, you key a VERB 62?|O
+0031802|CMP|Yes.|O
+0031802|LMP|PROCEED and you're pitching?|O
+0031804|CDR|She's pitching.|O
+0031805|CMP|Trying - to turn itself off again; look at this.|O
+0031809|CDR|Is it holding it this time?|O
+0031811|CMP|Watch, it'll probably go back to RATE COMMAND.|O
+0031814|CDR|That slows it down?|O
+0031816|CMP|... keeps pitching.|O
+0031819|LMP|Your MAN ATT, PITCH, to ACCEL COMMAND?|O
+0031823|CDR|It went to RATE - Okay, I see a SLA panel going out.|O
+0031827|LMP|Okay, you got to get a pitch rate in there -|O
+0031834|CDR|See that SLA panel?|O
+0031838|LMP|Is it flying - yet?|O
+0031842|CMP|It's alright. She's darn well unbelievable - something.|O
+0031851|CDR|I see it ...|O
+0031855|LMP|Do I need some circuit breaker in to get - -|O
+0031856|CDR|I see another - No, that's alright.|O
+0031858|LMP|- - to get this camera going? Mike?|O
+0031901|CMP|No, you need the power on over there, though.|O
+0031903|LMP|I turned it on.|O
+0031904|CDR|I got it. ... beautiful.|O
+0031905|CMP|You sure you have the right power switch on?|O
+0031908|CDR|Boy, that's - -|O
+0031909|LMP|Yes.|O
+0031909|CMP|You got him?|O
+0031910|CDR|Yes, Mike.|O
+0031911|LMP|No, I don't.|O
+0031911|CMP|To the right over here.|O
+0031912|CDR|Can you see him?|O
+0031913|LMP|No, I don't see - -|O
+0031914|CDR|He's a little bit to our right.|O
+0031915|LMP|Okay, I see him.|O
+0031917|CDR|We need about a 5-degree right, and we need to stop our - -|O
+0031920|CMP|Okay. We'll stop here.|O
+0031922|CDR|- - ... and we're pretty far away from him, too.|O
+0031929|CMP|Okay, watch it, we should be stopping here.|O
+0031943|LMP|How long do we want to run this film?|O
+0031950|CDR|How does he look, Mike?|O
+0031951|CMP|He's - he's fine.|O
+0031957|CDR|Okay, you got 100.4 now.|O
+0031958|CMP|Yes, I know; those numbers don't mean anything. They were 99-something when we turned around; don't ask me why. I thrusted toward him quite a bit, and I don't know why those numbers were screwed up, but they were.|O
+0032017|CDR|Buzz, how does he look to you; looks like he's getting closer to me.|O
+0032019|CMP|... get the BMAG?|O
+0032021|LMP|Okay.|O
+0032022|CDR|Yes, it looks like he's drifting down just a tad, and he's supposed to be.|O
+0032030|CMP|How are our eight gray talkbacks; they still good?|O
+0032031|CDR|Very good.|O
+0032047|CMP|Flies like a spacecraft instead of a simulator. Hope that's good.|O
+0032056|CMP|Sure beautiful. I hope you got some pictures, Buzz.|O
+0032059|LMP|I got the 16 millimeter going - -|O
+0032100|CDR|Is it going?|O
+0032101|LMP|- - 16 frames at f:8 - -|O
+0032102|CDR|Good.|O
+0032104|LMP|- - 70, 1/250th, ...|O
+0032107|CDR|Beautiful.|O
+0032108|CDR|It really looks nice, doesn't it?|O
+0032110|CMP|Hey, we're closing in a leisurely fashion.|O
+0032116|LMP|Hey, how long does this ...?|O
+0032120|CMP|It's on the - it's printed - -|O
+0032121|CDR|Yes.|O
+0032122|CMP|- - yes, it's six frames at 15; I suggest toward the end you probably goose it up a little bit.|O
+0032127|LMP|You want to get the whole thing?|O
+0032128|CDR|I don't care - ... tell by looking at ...|O
+0032136|CDR|The thing is, with this sitting there, I can't get much with the Hasselblad. That window's no good, I'm afraid.|O
+0032150|CDR|Can I hold something for you?|O
+0032152|LMP|Take a couple of ...|O
+0032158|CMP|Yes, you might look - if you're looking for something to do, you might just look over my panel 1 and 8 and all that and make sure all the switches are - to your liking.|O
+0032207|CC|Apollo 11, this is Houston. Radio check. Over.|T
+0032208|CDR|I'll do it.|O
+0032209|LMP|...|O
+0032221|CDR|Be sure that your RCS is working anyway.|O
+0032227|LMP|How far out are you, Mike?|O
+0032229|CMP|I'm still quite a ways. That's definitely a SLA panel - there's no doubt about that. Sure looks like ... panel. That stuff's hitting from the S-IVB from us. Gees, look it - that one thing just hit the - gyro package on the S-band antenna.|O
+0032229|PAO|The Goldstone station reports a very weak signal. We believe that Mike Collins is now maneuvering the spacecraft in the transposition and docking maneuver, and the antenna patterns aren't too good at the moment, so we have a weak signal strength.|P
+0032250|LMP|Yes, things occasionally come scooting out.|O
+0032256|CMP|...|O
+0032257|LMP|And, occasionally, you know, a little piece of something hits the - what do you call that - covering? The whole LM quivers every so often. All - all the surface of it, Neil, you know, just kind of shakes like that.|O
+0032315|CDR|Yes?|O
+0032316|LMP|Just in one spot; it's not being hit. I hope it doesn't come in ... - -|O
+0032321|CMP|Stand by; we're getting pretty close.|O
+0032322|CDR|Just from the APS firing, you think?|O
+0032328|CMP|Stand by; we're closing.|O
 0032356|CC|Apollo 11, Apollo 11, this is Houston broadcasting in the blind. Request OMNI Bravo if you read us. Request OMNI Bravo. Out.|T
 0032413|CC|Apollo 11, this is Houston. How do you read?|T
 0032440|LMP|Okay - -|O
@@ -4463,7 +4463,7 @@
 0754900|CMP|- - and the ball valve.|O
 0754901|LMP|Right.|O
 0754912|CDR|35 seconds; DSKY's blank, EMS MODE, NORMAL. Okay.|O
-0754924|CDR|Yes, the moon is there, boy - in all its splendor.|O
+0754924|CDR|Man, the moon is there, boy - in all its splendor.|O
 0754928|CMP|Man, it's a - -|O
 0754930|CDR|Plaster of paris gray to me.|O
 0754932|LMP|Man, look at it.|O
@@ -11862,7 +11862,7 @@
 1300747|CMP|Okay. I'm standing by to go to P47 just as soon as you give me a go for PYRO ARM.|T
 1300751|CC|Roger. I thought we gave you that. Mike, you're GO for PYRO ARM and you're GO for jettison.|T
 1300758|CMP|Okay.|T
-1300914|CMP|Okay. Let her go in 10 seconds.|T
+1300914|CMP|Okay. Letting her go in 10 seconds.|T
 1300917|CC|Copy. Out.|T
 1300941|CMP|NOUN 83 reading minus four balls, minus three balls, 3 or - correction - minus - both register 1 and register 2 are reading minus four balls 3, register 3 is zeros, the EMS remained on 100.0. A fairly loud noise, and it appears to be departing - oh, I would guess several feet per second.|T
 1301007|CC|Roger, can you kind of stationkeep with it, Mike? Just stand by now.|T

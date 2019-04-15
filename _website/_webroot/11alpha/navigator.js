@@ -1036,7 +1036,7 @@ function drawTier3(forceRefresh, drawForwardForScrolling) {
                     var stageStroke = new paper.Path.Line(topPoint, bottomPoint);
                     stageStroke.strokeColor = gColorMissionStageStroke;
                     stageStroke.strokeWidth = 2;
-                    gTier3BoarderGroup.addChild(stageStroke); // draw grey outline of stage segment
+                    tempGroup.addChild(stageStroke); // draw grey outline of stage segment
                 }
 
                 var stageText = new paper.PointText({
@@ -1052,8 +1052,13 @@ function drawTier3(forceRefresh, drawForwardForScrolling) {
 
                 var stageTextRect = new paper.Path.Rectangle(stageText.bounds);
                 stageTextRect.fillColor = 'black';
-                gTier3BoarderGroup.addChild(stageTextRect); //blank out area behind text
-                gTier3BoarderGroup.addChild(stageText); // text label
+                if (drawStageTick) {
+                    tempGroup.addChild(stageTextRect); //blank out area behind text
+                    tempGroup.addChild(stageText); // text label
+                } else {
+                    gTier3BoarderGroup.addChild(stageTextRect); //blank out area behind text
+                    gTier3BoarderGroup.addChild(stageText); // text label
+                }
             }
         }
 

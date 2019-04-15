@@ -63,7 +63,16 @@
         <li onclick="parent.seekToTime('0000000')" class="tocitem" id="tocid0000000"><span class="TOCTimestamp">000:00:00</span>
         <span class="TOC_item">Lift-off</span>
     </li>
-    <li onclick="parent.seekToTime('0001151')" class="tocitem" id="tocid0001151"><span class="TOCTimestamp">000:11:51</span>
+    
+<ul class="TOCli TOC2">
+        <li onclick="parent.seekToTime('0000242')" class="tocitem" id="tocid0000242"><span class="TOCTimestamp">000:02:42</span>
+        <span class="TOC_item">Stage 2</span>
+    </li>
+    <li onclick="parent.seekToTime('0000912')" class="tocitem" id="tocid0000912"><span class="TOCTimestamp">000:09:12</span>
+        <span class="TOC_item">Stage 3</span>
+    </li>
+    </ul>
+        <li onclick="parent.seekToTime('0001151')" class="tocitem" id="tocid0001151"><span class="TOCTimestamp">000:11:51</span>
         <span class="TOC_item">Entered Earth Orbit</span>
     </li>
     
