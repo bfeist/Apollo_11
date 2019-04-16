@@ -40,7 +40,7 @@ const cTrackInfo = {
     ch29: ['TRACK [R]', 'Instrumentation Tracking Controller, Unified S-Band.'],
     ch30: ['HR1 VOICE ANNOTATION', ''],
     ch31: ['HR2 Datastream', ''],
-    ch32: ['NASA RECOVERY COORD', 'NASA Recovery Officer - In charge of the Recovery Operations Control Room (ROCR).'],
+    ch32: ['RECOVERY', 'NASA Recovery Officer - In charge of the Recovery Operations Control Room (ROCR).'],
     ch33: ['ASST NASA RCVY COORD', 'NASA Assistant Recovery Officer - Taking the lead for interfacing with other ROCR personnel.'],
     ch34: ['RECOVERY STATUS', 'Recovery Operations Control Room (ROCR), Recovery Status Monitor - Assembling and displaying, on ROCR group displays, information on recovery force positions and status, pertinent recovery weather data and significant mission events.'],
     ch35: ['RECOVERY EVALUATOR', 'Recovery Operations Control Room (ROCR), Evaluator / Display Controller - Assimilating and evaluating all data necessary to select the most desirable target points for any situation and recommending them to the Recovery Officer.'],
@@ -58,13 +58,13 @@ const cTrackInfo = {
     ch47: ['BOOSTER [L]', 'Monitored and evaluated performance of propulsion-related aspects of the launch vehicle during prelaunch and ascent. During the Apollo program there were three Booster positions, who worked only until Trans Lunar Injection (TLI); after that, their consoles were vacated. Booster had the power to send an abort command to the spacecraft. All Booster technicians were employed at the Marshall Space Flight Center and reported to JSC for the launches. (left seat)'],
     ch48: ['BOOSTER [C]', 'Monitored and evaluated performance of propulsion-related aspects of the launch vehicle during prelaunch and ascent. During the Apollo program there were three Booster positions, who worked only until Trans Lunar Injection (TLI); after that, their consoles were vacated. Booster had the power to send an abort command to the spacecraft. All Booster technicians were employed at the Marshall Space Flight Center and reported to JSC for the launches. (center seat)'],
     ch49: ['BOOSTER [R]', 'Monitored and evaluated performance of propulsion-related aspects of the launch vehicle during prelaunch and ascent. During the Apollo program there were three Booster positions, who worked only until Trans Lunar Injection (TLI); after that, their consoles were vacated. Booster had the power to send an abort command to the spacecraft. All Booster technicians were employed at the Marshall Space Flight Center and reported to JSC for the launches. (right seat)'],
-    ch50: ['3 FLIGHT DIRECTOR LOOP', 'FD clean voice-only recording of Flight Director [R]'],
-    ch51: ['3 AFD CONF LOOP', 'Assistant Flight Director - Comm line.'],
-    ch52: ['3 GOSS 2 LOOP', 'Ground Operational Support System (GOSS) - Comm line.'],
+    ch50: ['FLIGHT DIRECTOR LOOP', 'FD clean voice-only recording of Flight Director [R]'],
+    ch51: ['AFD CONF LOOP', 'Assistant Flight Director - Comm line.'],
+    ch52: ['GOSS 2 LOOP', 'Ground Operational Support System (GOSS) - Comm line.'],
     ch53: ['ALSEP EAO 2', ''],
-    ch54: ['3 MOCR DYN LOOP', 'Comm line.'],
-    ch55: ['3 GOSS CONF LOOP', 'Ground Operational Support System (GOSS) - Comm line.'],
-    ch56: ['3 GOSS 4 LOOP', 'Ground Operational Support System (GOSS) - Comm line.'],
+    ch54: ['MOCR DYN LOOP', 'Comm line.'],
+    ch55: ['GOSS CONF LOOP', 'Ground Operational Support System (GOSS) - Comm line.'],
+    ch56: ['GOSS 4 LOOP', 'Ground Operational Support System (GOSS) - Comm line.'],
     ch57: ['CONTROL', 'Lunar Module Guidance, Navigation, and Controls Systems Engineer.'], //LM GNC ENGINEER
     ch58: ['TELCOM', 'Lunar Module Electrical, Environmental and Consumables Management Engineer.'], //LM EECOM ENGINEER
     ch59: ['EXPMT ACTIVITIES OFSR', 'Experiments Officer.'],
@@ -77,6 +77,7 @@ cAvailableChannelsArray = [2, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 
 const cColors = {
     activeLine: '#636363',
     activeLineSelectedChannel: '#7cb7e0',
+    // activeLineSelectedChannel: '#92d3ff',
     inactiveLine: '#292929',
     inactiveLineSelectedChannel: '#214557',
     fillerLine: '#000000',
@@ -90,6 +91,7 @@ var gTapeRangesHR1 = [];
 var gTapeRangesHR2 = [];
 var gActiveTape = "T867";
 var gActiveChannel = 14;
+var gActiveChannel = 52;
 var gTapesActivityRangeArray = [];
 var gTapesActivityStartIndex;
 var gActiveTapesActivityFilenames = ["", "", ""];
@@ -114,6 +116,7 @@ var gLastChannelsOnFrameStartGETSeconds = -1000000;
 
 var gTool;
 var gTooltipGroup;
+var gHoverHighlightGroup;
 // var gCurrGETSeconds = -74768; //start at beginning of countdown
 
 var gPlayer;
@@ -122,6 +125,8 @@ var gOnpause = false;
 var gSliderDragging = false;
 
 window.onload = function() {
+    positionChannelButtons();
+
     gPlayer = document.getElementById("audio-element");
     paper.install(window);
 
@@ -163,6 +168,7 @@ function mainApplication() {
     gChannelLinesGroup = new paper.Group;
     gTool = new paper.Tool();
     gTooltipGroup = new paper.Group;
+    gHoverHighlightGroup = new paper.Group;
     gTimeCursorGroup = new paper.Group;
     gChannelNameGroup = new paper.Group;
 
@@ -196,8 +202,24 @@ function mainApplication() {
             gTooltipGroup.addChild(tooltip);
             tooltip.moveBelow(tooltipText);
             gTooltipGroup.bringToFront();
+
+            //draw hover highlight line
+            var xCoord = 0;
+            var yCoord = availableChannelsIndex * (cChannelStrokeWidth + cFillerStrokeWidth) + cChannelStrokeWidth / 2;
+
+            gHoverHighlightGroup.removeChildren();
+            var hoverLine = new paper.Path.Line({
+                from: [xCoord, yCoord],
+                to: [Math.round($(window).width()), yCoord],
+                strokeWidth: cChannelStrokeWidth
+                // name: 'ch' + channelCount
+            });
+            hoverLine.strokeColor = new paper.Color(0.57255, 0.82745, 1.00000, .6);
+            gHoverHighlightGroup.addChild(hoverLine);
+
         } else {
             gTooltipGroup.removeChildren();
+            gHoverHighlightGroup.removeChildren();
         }
     };
 
@@ -403,13 +425,12 @@ function loadChannelSoundfile() {
         gActiveTape = tapeData[0];
         var channel = (gActiveChannel > 30) ? gActiveChannel - 30 : gActiveChannel;
         var filename = "defluttered_A11_" + tapeData[0] + "_" + tapeData[1] + "_CH" + channel;
-
-        gPlayer.src = "/11mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
-        gPlayer.load();
-
         var datFile = "/11mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform_512/" + filename + '.dat';
+        var audioFile = "/11mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
 
-        trace("loading tape: " + filename + " :datFile: " + datFile);
+        trace("loading tape: " + audioFile + " :datFile: " + datFile);
+        gPlayer.src = audioFile;
+        gPlayer.load();
 
         gWavDataLoaded = false;
         ajaxGetWaveData(datFile);
@@ -440,7 +461,7 @@ function drawChannelName() {
     gChannelNameGroup.addChild(channelTextRect);
     gChannelNameGroup.addChild(channelText);
 
-    document.getElementById("channelDescription").innerHTML = cTrackInfo['ch' + gActiveChannel][1];
+    // document.getElementById("channelDescription").innerHTML = cTrackInfo['ch' + gActiveChannel][1];
 }
 
 function playFromCurrGET() {
@@ -552,7 +573,7 @@ function drawChannels(forceRefresh) {
             gChannelLinesGroup.addChild(lineGroup);
 
         });
-    } else if (Math.abs(pixelsToMove) > 0.25) {
+    } else if (Math.abs(pixelsToMove) > 1) {
         // console.log("channels: " + pixelsToMove);
         gChannelLinesGroup.translate(new Point(pixelsToMove, 0));
         gLastChannelsOnFrameStartGETSeconds = startGETSeconds;
@@ -586,6 +607,187 @@ function drawTimeCursor() {
     timeTextRect.scale(1.1, 1.2);
     gTimeCursorGroup.addChild(timeTextRect);
     gTimeCursorGroup.addChild(timeText);
+}
+
+function positionChannelButtons() {
+    //set alt text
+    for (var counter = 1; counter < 60; counter++) {
+        var altText = cTrackInfo["ch" + counter][0] + ": " + cTrackInfo["ch" + counter][1];
+        $('#btn-ch' + counter).attr("title", altText);
+    }
+
+    var buttonWidth = 75;
+    var buttonHeight = 18;
+    var buttonGap = 1;
+    var aisleGap = 20;
+    var rowGap = 40;
+
+    //trench
+    var x = 60;
+    var y = 0;
+    var xsub = 0;
+
+    $('#btndiv-ch47').css({"left": x + "px", "top": y + "px"}); //BOOSTER
+    $('#btn-ch47').css({"width": buttonWidth + "px"});
+        xsub = x;
+        $('#btndiv-ch48').css({"left": xsub + "px", "top": y + buttonHeight + "px"}); //[C]
+        $('#btn-ch48').css({"width": buttonWidth / 2 - 1 + "px"});
+        $('#btndiv-ch49').css({"left": xsub + buttonWidth / 2 + "px", "top": y + buttonHeight + "px"}); //[R]
+        $('#btn-ch49').css({"width": buttonWidth / 2 + "px"});
+    x = x + buttonWidth + buttonGap;
+    $('#btndiv-ch19').css({"left": x + "px", "top": y + "px"}); //RETRO
+    $('#btn-ch19').css({"width": buttonWidth + "px"});
+    x = x + buttonWidth + aisleGap;
+    $('#btndiv-ch20').css({"left": x + "px", "top": y + "px"}); //FIDO
+    $('#btn-ch20').css({"width": buttonWidth + "px"});
+    x = x + buttonWidth + buttonGap;
+    $('#btndiv-ch21').css({"left": x + "px", "top": y + "px"}); //GUIDO
+    $('#btn-ch21').css({"width": buttonWidth + "px"});
+        xsub = x;
+        $('#btndiv-ch22').css({"left": xsub + buttonWidth / 2 + "px", "top": y + buttonHeight + "px"}); //[R]
+        $('#btn-ch22').css({"width": buttonWidth / 2 + "px"});
+
+    y = y + rowGap;
+
+    //row 2
+    x = 50;
+    aisleGap = 40;
+    $('#btndiv-ch12').css({"left": x + "px", "top": y + "px"}); //SURGEON
+    $('#btn-ch12').css({"width": buttonWidth + "px"});
+        xsub = x;
+        $('#btndiv-ch13').css({"left": xsub + buttonWidth / 2 + "px", "top": y + buttonHeight + "px"}); //[R]
+        $('#btn-ch13').css({"width": buttonWidth / 2 + "px"});
+    x = x + buttonWidth + buttonGap;
+    $('#btndiv-ch14').css({"left": x + "px", "top": y + "px"}); //CAPCOM
+    $('#btn-ch14').css({"width": buttonWidth + "px"});
+        xsub = x;
+        $('#btndiv-ch15').css({"left": xsub + buttonWidth / 2 + "px", "top": y + buttonHeight + "px"}); //[R]
+        $('#btn-ch15').css({"width": buttonWidth / 2 + "px"});
+    x = x + buttonWidth + aisleGap;
+    buttonWidth = buttonWidth - 10;
+    $('#btndiv-ch17').css({"left": x + "px", "top": y + "px"}); //EECOM
+    $('#btn-ch17').css({"width": buttonWidth + "px"});
+    x = x + buttonWidth + buttonGap;
+    buttonWidth = buttonWidth - 20;
+    $('#btndiv-ch18').css({"left": x + "px", "top": y + "px"}); //GNC
+    $('#btn-ch18').css({"width": buttonWidth + "px"});
+    x = x + buttonWidth + buttonGap;
+    buttonWidth = buttonWidth + 20;
+    $('#btndiv-ch58').css({"left": x + "px", "top": y + "px"}); //TELCOM
+    $('#btn-ch58').css({"width": buttonWidth + "px"});
+    x = x + buttonWidth + buttonGap;
+    $('#btndiv-ch57').css({"left": x + "px", "top": y + "px"}); //CONTROL
+    $('#btn-ch57').css({"width": buttonWidth + "px"});
+
+    y = y + rowGap;
+    //row 3
+    x = 0;
+    $('#btndiv-ch16').css({"left": x + "px", "top": y + "px"}); //INCO
+    $('#btn-ch16').css({"width": buttonWidth + "px"});
+    x = x + buttonWidth + buttonGap;
+    $('#btndiv-ch5').css({"left": x + "px", "top": y + "px"}); //O&P
+    $('#btn-ch5').css({"width": buttonWidth + "px"});
+        xsub = x;
+        $('#btndiv-ch9').css({"left": xsub + "px", "top": y + buttonHeight + "px"}); //FLT PLANS OFCR
+        $('#btn-ch9').css({"width": buttonWidth / 2 - 1 + "px"});
+    x = x + buttonWidth + buttonGap;
+    $('#btndiv-ch6').css({"left": x + "px", "top": y + "px"}); //AFD
+    $('#btn-ch6').css({"width": buttonWidth + "px"});
+    x = x + buttonWidth + aisleGap;
+    buttonWidth = buttonWidth + 10;
+    $('#btndiv-ch50').css({"left": x + "px", "top": y + "px"}); //FLIGHT
+    $('#btn-ch50').css({"width": buttonWidth + "px"});
+        xsub = x;
+        $('#btndiv-ch7').css({"left": xsub + "px", "top": y + buttonHeight + "px"}); //FLIGHT L
+        $('#btn-ch7').css({"width": buttonWidth / 2 - 1 + "px"});
+        $('#btndiv-ch8').css({"left": xsub + buttonWidth / 2 + "px", "top": y + buttonHeight + "px"}); //FLIGHT R
+        $('#btn-ch8').css({"width": buttonWidth / 2 + "px"});
+
+    x = x + buttonWidth + aisleGap;
+    buttonWidth = buttonWidth + 20;
+    $('#btndiv-ch11').css({"left": x + "px", "top": y + "px"}); //NETWORK
+    $('#btn-ch11').css({"width": buttonWidth + "px"});
+        xsub = x;
+        $('#btndiv-ch42').css({"left": xsub + "px", "top": y + buttonHeight + "px"}); //COMM TECH
+        $('#btn-ch42').css({"width": buttonWidth / 2 - 1 + "px"});
+        $('#btndiv-ch43').css({"left": xsub + buttonWidth / 2 + "px", "top": y + buttonHeight + "px"}); //COMM CTRLR
+        $('#btn-ch43').css({"width": buttonWidth / 2 + "px"});
+
+    y = y + rowGap;
+    //row 4
+    buttonWidth = buttonWidth - 20;
+    x = 271;
+    $('#btndiv-ch2').css({"left": x + "px", "top": y + "px"}); //DIR FLIGHT OPS
+    $('#btn-ch2').css({"width": buttonWidth + "px"});
+    x = x + buttonWidth + aisleGap;
+    $('#btndiv-ch3').css({"left": x + "px", "top": y + "px"}); //MISSION DIR
+    $('#btn-ch3').css({"width": buttonWidth + "px"});
+
+
+    y = y + rowGap;
+    //backrooms 1
+    x = 0;
+    $('#btndiv-ch44').css({"left": x + "px", "top": y + "px"}); //SPACE ENV
+    $('#btn-ch44').css({"width": buttonWidth + "px"});
+    x = x + buttonWidth + buttonGap;
+    $('#btndiv-ch45').css({"left": x + "px", "top": y + "px"}); //COMP SUP
+    $('#btn-ch45').css({"width": buttonWidth + "px"});
+    x = x + buttonWidth + buttonGap;
+    $('#btndiv-ch46').css({"left": x + "px", "top": y + "px"}); //SPAN
+    $('#btn-ch46').css({"width": buttonWidth + "px"});
+    x = x + buttonWidth + buttonGap;
+    $('#btndiv-ch59').css({"left": x + "px", "top": y + "px"}); //EXPMT
+    $('#btn-ch59').css({"width": buttonWidth + "px"});
+    x = x + buttonWidth + buttonGap;
+    $('#btndiv-ch53').css({"left": x + "px", "top": y + "px"}); //EASEP
+    $('#btn-ch53').css({"width": buttonWidth + "px"});
+
+    y = y + rowGap / 2;
+    //backrooms 2
+    buttonWidth = 96;
+    x = 0;
+    $('#btndiv-ch28').css({"left": x + "px", "top": y + "px"}); //TRACK
+    $('#btn-ch28').css({"width": buttonWidth + "px"});
+        xsub = x;
+        $('#btndiv-ch15').css({"left": xsub + buttonWidth / 2 + "px", "top": y + buttonHeight + "px"}); //[R]
+        $('#btn-ch15').css({"width": buttonWidth / 2 + "px"});
+    x = x + buttonWidth + buttonGap;
+    $('#btndiv-ch32').css({"left": x + "px", "top": y + "px"}); //RCVY
+    $('#btn-ch32').css({"width": buttonWidth + "px"});
+        xsub = x;
+        $('#btndiv-ch33').css({"left": xsub + "px", "top": y + buttonHeight + "px"}); //ASST
+        $('#btn-ch33').css({"width": buttonWidth / 3 - 1 + "px"});
+        $('#btndiv-ch34').css({"left": xsub + buttonWidth / 3 + "px", "top": y + buttonHeight + "px"}); //STUS
+        $('#btn-ch34').css({"width": buttonWidth / 3 - 1 + "px"});
+        $('#btndiv-ch35').css({"left": xsub + (buttonWidth / 3) * 2 + "px", "top": y + buttonHeight + "px"}); //EVAL
+        $('#btn-ch35').css({"width": buttonWidth / 3 + "px"});
+    x = x + buttonWidth + buttonGap;
+    buttonWidth = buttonWidth + 20;
+    $('#btndiv-ch23').css({"left": x + "px", "top": y + "px"}); //CCATS
+    $('#btn-ch23').css({"width": buttonWidth + "px"});
+        xsub = x;
+        $('#btndiv-ch24').css({"left": xsub + "px", "top": y + buttonHeight + "px"}); //RTC
+        $('#btn-ch24').css({"width": buttonWidth / 4 - 1 + "px"});
+        $('#btndiv-ch25').css({"left": xsub + buttonWidth / 4 + "px", "top": y + buttonHeight + "px"}); //CMD
+        $('#btn-ch25').css({"width": buttonWidth / 4 - 1 + "px"});
+        $('#btndiv-ch26').css({"left": xsub + (buttonWidth / 4) * 2 + "px", "top": y + buttonHeight + "px"}); //TIC
+        $('#btn-ch26').css({"width": buttonWidth / 4 - 1 + "px"});
+        $('#btndiv-ch27').css({"left": xsub + (buttonWidth / 4) * 3 + "px", "top": y + buttonHeight + "px"}); //TM
+        $('#btn-ch27').css({"width": buttonWidth / 4 + "px"});
+    x = x + buttonWidth + buttonGap;
+    $('#btndiv-ch51').css({"left": x + "px", "top": y + "px"}); //CONF LOOP
+    $('#btn-ch51').css({"width": buttonWidth + "px"});
+        xsub = x;
+        $('#btndiv-ch52').css({"left": xsub + "px", "top": y + buttonHeight + "px"}); //RTC
+        $('#btn-ch52').css({"width": buttonWidth / 4 - 1 + "px"});
+        $('#btndiv-ch54').css({"left": xsub + buttonWidth / 4 + "px", "top": y + buttonHeight + "px"}); //CMD
+        $('#btn-ch54').css({"width": buttonWidth / 4 - 1 + "px"});
+        $('#btndiv-ch55').css({"left": xsub + (buttonWidth / 4) * 2 + "px", "top": y + buttonHeight + "px"}); //TIC
+        $('#btn-ch55').css({"width": buttonWidth / 4 - 1 + "px"});
+        $('#btndiv-ch56').css({"left": xsub + (buttonWidth / 4) * 3 + "px", "top": y + buttonHeight + "px"}); //TM
+        $('#btn-ch56').css({"width": buttonWidth / 4 + "px"});
+
+
 }
 
 

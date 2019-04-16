@@ -895,7 +895,7 @@ function drawTier3(forceRefresh, drawForwardForScrolling) {
 
     var pixelsToMove = gTier3LastOnFrameStartGETSeconds - gTier3StartSeconds;
     if (forceRefresh || gTier3StartSeconds > gTier3LastFullRefreshStartSeconds + secondsOnTier3) {
-        trace("Redrawing tier 3");
+        // trace("Redrawing tier 3");
 
         gTier3LastFullRefreshStartSeconds = gTier3StartSeconds;
         gTier3LastOnFrameStartGETSeconds = gTier3StartSeconds;
@@ -1146,7 +1146,7 @@ function drawTier3(forceRefresh, drawForwardForScrolling) {
         tempGroup.remove();
         // gTier3Group.addChild(tempGroup);
     } else {
-        trace("Scrolling tier 3");
+        // trace("Scrolling tier 3");
         gTier3Group.translate(new Point(pixelsToMove, 0));
         gTier3LastOnFrameStartGETSeconds = gTier3StartSeconds;
     }
