@@ -76,6 +76,27 @@ canvas{
     font-weight: bold;
 }
 
+.btn-active {
+    background-color: #636363;
+    color: #000000;
+}
+
+.btn-inactive {
+
+    background-color: #292929;
+    color: #595959;
+}
+
+.btn-selected {
+    background-color: #7cb7e0;
+    color: #000000;
+}
+
+.btn-hover {
+    background-color: #7cb7e0;
+    color: #000000;
+}
+
 .secondary {
     font-size: 0.8em;
     width: 33px;

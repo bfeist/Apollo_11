@@ -264,6 +264,7 @@ function processVideoURLData(allText) {
         rec.push(data[0]);
         rec.push(data[1]);
         rec.push(data[2]);
+        rec.push(data[3]);
         gMediaList.push(rec);
     }
 }

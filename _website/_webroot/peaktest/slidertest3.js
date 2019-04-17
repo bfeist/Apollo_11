@@ -29,7 +29,7 @@ $( document ).ready(function() {
         container: document.getElementById('waveform-visualiser-container'),
         mediaElement: player,
         dataUri: {
-            arraybuffer: '/mp3/T867_defluttered_mp3_16/audiowaveform/defluttered_A11_T867_HR1L_CH14.dat'
+            arraybuffer: '/11mp3/T867_defluttered_mp3_16/audiowaveform/defluttered_A11_T867_HR1L_CH14.dat'
         },
         zoomLevels: [512, 1024, 2048, 4096],
         keyboard: true,
@@ -180,14 +180,14 @@ function loadChannelSoundfile() {
         var audioElementName = "audio-element";
         var audioElement = document.getElementById(audioElementName);
 
-        audioElement.src = "/mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
+        audioElement.src = "/11mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
         audioElement.load();
 
         var options = {
             container: document.getElementById(waveformContainer),
             mediaElement: audioElement,
             dataUri: {
-                arraybuffer: "/mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform/" + filename + '.dat'
+                arraybuffer: "/11mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform/" + filename + '.dat'
             },
             zoomLevels: [512, 1024, 2048, 4096],
             keyboard: true,
@@ -204,11 +204,11 @@ function loadChannelSoundfile() {
         });
 
         var tapeDataHR1 = getTapeByGETseconds(gCurrGETSeconds, 10);
-        var noiserangeJSONUrlHR1 = "/mp3/" + tapeDataHR1[0] + "_defluttered_mp3_16/" + tapeDataHR1[0] + "_defluttered_mp3_16noiseranges.json";
+        var noiserangeJSONUrlHR1 = "/11mp3/" + tapeDataHR1[0] + "_defluttered_mp3_16/" + tapeDataHR1[0] + "_defluttered_mp3_16noiseranges.json";
         ajaxGetTapeActivityJSONHR1(noiserangeJSONUrlHR1);
 
         var tapeDataHR2 = getTapeByGETseconds(gCurrGETSeconds, 40);
-        var noiserangeJSONUrlHR2 = "/mp3/" + tapeDataHR2[0] + "_defluttered_mp3_16/" + tapeDataHR2[0] + "_defluttered_mp3_16noiseranges.json";
+        var noiserangeJSONUrlHR2 = "/11mp3/" + tapeDataHR2[0] + "_defluttered_mp3_16/" + tapeDataHR2[0] + "_defluttered_mp3_16noiseranges.json";
         ajaxGetTapeActivityJSONHR2(noiserangeJSONUrlHR2);
 
     } else {

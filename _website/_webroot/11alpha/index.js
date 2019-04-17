@@ -2,6 +2,7 @@ trace("INIT: Loading index.js");
 //app control flags
 const cStopCache = false;
 const cCdnEnabled = false;
+const cYTSDHDListIndex = 0; //0 for SD  1 for HD
 
 //constants
 const cMissionDurationSeconds = 713311;
@@ -167,14 +168,14 @@ function onPlayerStateChange(event) {
         //trace("onPlayerStateChange():ENDED. Load next video.");
         var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2,11);
         for (var i = 0; i < gMediaList.length; ++i) {
-            if (gMediaList[i][0] === currVideoID) {
-                trace("onPlayerStateChange():Ended. Changing video from: " + currVideoID + " to: " + gMediaList[i + 1][0]);
-                currVideoID = gMediaList[i + 1][0];
+            if (gMediaList[i][cYTSDHDListIndex] === currVideoID) {
+                trace("onPlayerStateChange():Ended. Changing video from: " + currVideoID + " to: " + gMediaList[i + 1][cYTSDHDListIndex]);
+                currVideoID = gMediaList[i + 1][cYTSDHDListIndex];
                 break;
             }
         }
-        gCurrVideoStartSeconds = timeStrToSeconds(gMediaList[i + 1][1]);
-        gCurrVideoEndSeconds = timeStrToSeconds(gMediaList[i + 1][2]);
+        gCurrVideoStartSeconds = timeStrToSeconds(gMediaList[i + 1][2]);
+        gCurrVideoEndSeconds = timeStrToSeconds(gMediaList[i + 1][3]);
 
         player.iv_load_policy = 3;
         gNextVideoStartTime = 0; //force next video to start at 0 seconds in the play event handler
@@ -433,8 +434,8 @@ function seekToTime(timeId) { // transcript click handling --------------------
 
     var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2, 11);
     for (var i = 0; i < gMediaList.length; ++i) {
-        var itemStartTimeSeconds = timeStrToSeconds(gMediaList[i][1]);
-        var itemEndTimeSeconds = timeStrToSeconds(gMediaList[i][2]);
+        var itemStartTimeSeconds = timeStrToSeconds(gMediaList[i][2]);
+        var itemEndTimeSeconds = timeStrToSeconds(gMediaList[i][3]);
 
         if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this video in loop contains the time we want to seek to
             var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
@@ -442,10 +443,10 @@ function seekToTime(timeId) { // transcript click handling --------------------
             gCurrVideoEndSeconds = itemEndTimeSeconds;
             gPlaybackState = "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
             //change youtube video if the correct video isn't already playing
-            if (currVideoID !== gMediaList[i][0]) {
-                trace("seekToTime(): changing video from: " + currVideoID + " to: " + gMediaList[i][0]);
+            if (currVideoID !== gMediaList[i][cYTSDHDListIndex]) {
+                trace("seekToTime(): changing video from: " + currVideoID + " to: " + gMediaList[i][cYTSDHDListIndex]);
                 gNextVideoStartTime = seekToSecondsWithOffset;
-                player.loadVideoById(gMediaList[i][0], seekToSecondsWithOffset, 'hd1080');
+                player.loadVideoById(gMediaList[i][cYTSDHDListIndex], seekToSecondsWithOffset, 'hd1080');
                 player.setPlaybackQuality('hd1080');
             } else {
                 trace("seekToTime(): no need to change video. Seeking to " + timeId);

@@ -140,6 +140,11 @@ window.onload = function() {
         trace("canvas mouseleave triggered");
         gTooltipGroup.removeChildren();
     });
+
+    var channelButtons = document.querySelectorAll('.btn-channel');
+    for(var i = 0; i < channelButtons.length; i++) {
+        channelButtons[i].addEventListener('click', buttonClick_selectChannel);
+    }
 };
 
 $(window).resize(resizeAndRedrawCanvas);
@@ -217,9 +222,29 @@ function mainApplication() {
             hoverLine.strokeColor = new paper.Color(0.57255, 0.82745, 1.00000, .6);
             gHoverHighlightGroup.addChild(hoverLine);
 
+            //highlight hovered button
+            for (var counter = 1; counter <= 60; counter++) {
+                var buttonId = '#btn-ch' + counter;
+                var buttonSelector = $(buttonId);
+                if (counter === cAvailableChannelsArray[availableChannelsIndex]) {
+                    // buttonSelector.removeClass('btn-active');
+                    // buttonSelector.removeClass('btn-inactive');
+                    buttonSelector.addClass('btn-hover');
+                } else {
+                    buttonSelector.removeClass('btn-hover');
+                }
+            }
+
         } else {
             gTooltipGroup.removeChildren();
             gHoverHighlightGroup.removeChildren();
+
+            //remove button hovers
+            for (counter = 1; counter <= 60; counter++) {
+                buttonId = '#btn-ch' + counter;
+                buttonSelector = $(buttonId);
+                buttonSelector.removeClass('btn-hover');
+            }
         }
     };
 
@@ -486,6 +511,7 @@ function refreshTapeActivityDisplay(forceRefresh) {
     } else {
         drawChannels(false);
         drawTimeCursor();
+        setChannelButtonColors();
     }
 }
 
@@ -749,8 +775,8 @@ function positionChannelButtons() {
     $('#btndiv-ch28').css({"left": x + "px", "top": y + "px"}); //TRACK
     $('#btn-ch28').css({"width": buttonWidth + "px"});
         xsub = x;
-        $('#btndiv-ch15').css({"left": xsub + buttonWidth / 2 + "px", "top": y + buttonHeight + "px"}); //[R]
-        $('#btn-ch15').css({"width": buttonWidth / 2 + "px"});
+        $('#btndiv-ch29').css({"left": xsub + buttonWidth / 2 + "px", "top": y + buttonHeight + "px"}); //[R]
+        $('#btn-ch29').css({"width": buttonWidth / 2 + "px"});
     x = x + buttonWidth + buttonGap;
     $('#btndiv-ch32').css({"left": x + "px", "top": y + "px"}); //RCVY
     $('#btn-ch32').css({"width": buttonWidth + "px"});
@@ -786,8 +812,50 @@ function positionChannelButtons() {
         $('#btn-ch55').css({"width": buttonWidth / 4 - 1 + "px"});
         $('#btndiv-ch56').css({"left": xsub + (buttonWidth / 4) * 3 + "px", "top": y + buttonHeight + "px"}); //TM
         $('#btn-ch56').css({"width": buttonWidth / 4 + "px"});
+}
 
+function setChannelButtonColors() {
+    var activeSec = gCurrGETSeconds + cCountdownSeconds;
 
+    var nearestStart = Math.floor(activeSec/1000) * 1000;
+    if (nearestStart > 0) {
+        var startRange = nearestStart - 1000;
+    } else {
+        startRange = 0;
+    }
+
+    var startGETSeconds = gCurrGETSeconds - Math.round($(window).width() / 2);
+    var displayRangeStart = startGETSeconds + cCountdownSeconds - gTapesActivityStartIndex - 1;
+    var displayCurrSecond = Math.round(displayRangeStart + gCurrGETSeconds);
+
+    for (var counter = 1; counter <= 60; counter++) {
+        var buttonId = '#btn-ch' + counter;
+        var buttonSelector = $(buttonId);
+        buttonSelector.removeClass('btn-active');
+        buttonSelector.removeClass('btn-inactive');
+        buttonSelector.removeClass('btn-selected');
+
+        if (gTapesActivityRangeArray[displayCurrSecond].includes(counter)) {
+            buttonSelector.addClass('btn-active');
+        } else {
+            buttonSelector.addClass('btn-inactive');
+        }
+    }
+    var activeChannelSelector = $('#btn-ch' + gActiveChannel);
+    activeChannelSelector.addClass('btn-selected');
+}
+
+function buttonClick_selectChannel() {
+    console.log("select-channel-button clicked: " + $(this).attr('id'));
+
+    // clearInterval(gInterval); //clear the slider update playback interval
+    // gPeaksInstance.player.pause();
+
+    gActiveChannel = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2)); //get channel number from button label
+    loadChannelSoundfile();
+    playFromCurrGET();
+    refreshTapeActivityDisplay(true);
+    gWaveformRefresh = true;
 }
 
 
