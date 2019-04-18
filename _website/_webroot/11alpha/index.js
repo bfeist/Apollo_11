@@ -432,6 +432,15 @@ function seekToTime(timeId) { // transcript click handling --------------------
     var totalSeconds = timeIdToSeconds(timeId);
     gCurrMissionTime = secondsToTimeStr(totalSeconds); //set mission time right away to speed up screen refresh
 
+    //if MOCRviz loaded, seek that as well
+    if (gMOCRToggled) {
+        var MOCRvizIframeSelector = $('#MOCRvizIframe')[0];
+        MOCRvizIframeSelector.contentWindow.gCurrGETSeconds = totalSeconds;
+        MOCRvizIframeSelector.contentWindow.playFromCurrGET();
+        MOCRvizIframeSelector.contentWindow.refreshTapeActivityDisplay(true);
+        MOCRvizIframeSelector.contentWindow.gWaveformRefresh = true;
+    }
+
     var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2, 11);
     for (var i = 0; i < gMediaList.length; ++i) {
         var itemStartTimeSeconds = timeStrToSeconds(gMediaList[i][2]);
@@ -1623,6 +1632,9 @@ function toggleMOCROverlay() {
         $('#soundBtn').removeClass('mute');
         player.mute();
         gMOCRToggled = true;
+        $('#MOCRvizIframe').load(function(){
+            console.log('iframe loaded successfully');
+        });
     } else {
         $('#thirtytrackplaceholder').empty();
         $('#soundBtn').addClass('mute');

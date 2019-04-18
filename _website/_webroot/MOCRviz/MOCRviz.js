@@ -156,7 +156,22 @@ window.onload = function() {
     }
 };
 
-$(window).resize(resizeAndRedrawCanvas);
+$(window).on("resize", function() {
+    resizeAndRedrawCanvas();
+    positionChannelButtons();
+    positionIsometricElements();
+});
+var resizeTimer;
+$(window).on('resize', function(e) {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+        // Run code here, resizing has "stopped"
+        resizeAndRedrawCanvas();
+        positionChannelButtons();
+        positionIsometricElements();
+        refreshTapeActivityDisplay(true);
+    }, 250);
+});
 
 function resizeAndRedrawCanvas() {
     var canvas = document.getElementById('myCanvas');
@@ -322,18 +337,12 @@ function frameUpdateOnTimer() {
             if (parentMissionTimeSeconds >= gCurrGETSeconds - 1 && parentMissionTimeSeconds <= gCurrGETSeconds + 1) {
                 // then we're close enough, don't correct the time
             } else {
-                if (parent.gCurrMissionTime !== undefined) {
-                    gCurrGETSeconds = parentMissionTimeSeconds;
-
-                    loadChannelSoundfile();
-                    gWaveformRefresh = true;
-
-                    playFromCurrGET();
-                    refreshTapeActivityDisplay(true);
-                    drawTimeCursor();
-                } else {
-                    trace("parentMissionTimeSeconds is NaN!");
-                }
+                gCurrGETSeconds = parentMissionTimeSeconds;
+                loadChannelSoundfile();
+                gWaveformRefresh = true;
+                playFromCurrGET();
+                refreshTapeActivityDisplay(true);
+                drawTimeCursor();
             }
         }
 
@@ -461,6 +470,12 @@ function playFromCurrGET() {
     trace("playFromCurrGET()");
 
     var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
+
+    // SYNC WITH PARENT GET CLOCK
+    if (parent.gCurrMissionTime !== '' && parent.gCurrMissionTime !== undefined) {
+        var parentMissionTimeSeconds = timeStrToSeconds(parent.gCurrMissionTime);
+        gCurrGETSeconds = parentMissionTimeSeconds;
+    }
     var tapeCueTimeSeconds = gCurrGETSeconds - timeStrToSeconds(tapeData[2]);
 
     // if (tapeData.length !== 0) {
@@ -789,9 +804,11 @@ function setChannelButtonAndDotColors() {
 
         if (gTapesActivityRangeArray[currSecondindex].includes(counter)) {
             if (!buttonSelector.hasClass('btn-active'))
+                buttonSelector.removeClass('btn-inactive');
                 buttonSelector.addClass('btn-active');
         } else {
             if (!buttonSelector.hasClass('btn-inactive'))
+                buttonSelector.removeClass('btn-active');
                 buttonSelector.addClass('btn-inactive');
         }
     }
@@ -804,9 +821,11 @@ function setChannelButtonAndDotColors() {
 
         if (gTapesActivityRangeArray[currSecondindex].includes(counter)) {
             if (!dotSelector.hasClass('dot-active'))
+                dotSelector.removeClass('dot-inactive');
                 dotSelector.addClass('dot-active');
         } else {
             if (!dotSelector.hasClass('dot-inactive'))
+                dotSelector.removeClass('dot-active');
                 dotSelector.addClass('dot-inactive');
         }
     }
@@ -815,7 +834,7 @@ function setChannelButtonAndDotColors() {
 }
 
 function channelButtons_click() {
-    console.log("select-channel-button clicked: " + $(this).attr('id'));
+    // console.log("select-channel-button clicked: " + $(this).attr('id'));
 
     gActiveChannel = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2)); //get channel number from button label
     loadChannelSoundfile();
@@ -825,7 +844,7 @@ function channelButtons_click() {
 }
 
 function channelButtons_hover() {
-    console.log("select-channel-button hovered: " + $(this).attr('id'));
+    // console.log("select-channel-button hovered: " + $(this).attr('id'));
     //show button hover
     var hoverChannelNum = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2));
     $('.btn-channel').removeClass('btn-hover');
@@ -875,11 +894,12 @@ function positionIsometricElements() {
 
     var isoSelector = $('#isometric');
     var btnSelector = $('#btn-ch57');
+    var isometricImageSelector = $('#isometricImage');
     var offset = btnSelector.offset();
     var leftPosition = offset.left + btnSelector.width() + 20;
     //position the background image
     isoSelector.css({"left": leftPosition + "px"});
-    var isoWidth = $('#isometricImage').width();
+    var isoWidth = isometricImageSelector.width();
     var screenRemainderWidth = Math.round($(window).width()) - leftPosition;
     var scalePercentage = ((100 * screenRemainderWidth) / isoWidth) / 100;
 
@@ -887,40 +907,44 @@ function positionIsometricElements() {
     isoSelector.css('transform', 'scale(' + scalePercentage + ')');
 
     //make the image visible after resize
-    $('#isometricImage').css('display','block');
+    isometricImageSelector.css('display','block');
 
     // transform: scale(0.5);
     // transform-origin: 0 0;
 
-    isoSelector.append("<span id='dot47' class='isometric_dot' style='left:" + 36 + "px;top:" + 245 + "px'></span>"); //BOOSTER
-    isoSelector.append("<span id='dot19' class='isometric_dot' style='left:" + 127 + "px;top:" + 195 + "px'></span>"); //RETRO
-    isoSelector.append("<span id='dot20' class='isometric_dot' style='left:" + 218 + "px;top:" + 151 + "px'></span>"); //FIDO
-    isoSelector.append("<span id='dot21' class='isometric_dot' style='left:" + 307 + "px;top:" + 102 + "px'></span>"); //GUIDO
+    isoSelector.append("<span id='dot47' class='isometric_dot' style='left:" + 35 + "px;top:" + 245 + "px'>B</span>"); //BOOSTER
+    isoSelector.append("<span id='dot19' class='isometric_dot' style='left:" + 127 + "px;top:" + 195 + "px'>R</span>"); //RETRO
+    isoSelector.append("<span id='dot20' class='isometric_dot' style='left:" + 218 + "px;top:" + 151 + "px'>F</span>"); //FIDO
+    isoSelector.append("<span id='dot21' class='isometric_dot' style='left:" + 307 + "px;top:" + 102 + "px'>G</span>"); //GUIDO
 
-    isoSelector.append("<span id='dot12' class='isometric_dot' style='left:" + 196 + "px;top:" + 280 + "px'></span>"); //SURGEON
-    isoSelector.append("<span id='dot14' class='isometric_dot' style='left:" + 279 + "px;top:" + 231 + "px'></span>"); //CAPCOM
-    isoSelector.append("<span id='dot17' class='isometric_dot' style='left:" + 366 + "px;top:" + 166 + "px'></span>"); //EECOM
-    isoSelector.append("<span id='dot18' class='isometric_dot' style='left:" + 416 + "px;top:" + 136 + "px'></span>"); //GNC
-    isoSelector.append("<span id='dot58' class='isometric_dot' style='left:" + 469 + "px;top:" + 105 + "px'></span>"); //TELCOM
-    isoSelector.append("<span id='dot57' class='isometric_dot' style='left:" + 528 + "px;top:" + 71 + "px'></span>"); //CONTROL
+    isoSelector.append("<span id='dot12' class='isometric_dot' style='left:" + 196 + "px;top:" + 280 + "px'>S</span>"); //SURGEON
+    isoSelector.append("<span id='dot14' class='isometric_dot' style='left:" + 279 + "px;top:" + 231 + "px'>C</span>"); //CAPCOM
+    isoSelector.append("<span id='dot17' class='isometric_dot' style='left:" + 366 + "px;top:" + 166 + "px'>E</span>"); //EECOM
+    isoSelector.append("<span id='dot18' class='isometric_dot' style='left:" + 416 + "px;top:" + 136 + "px'>G</span>"); //GNC
+    isoSelector.append("<span id='dot58' class='isometric_dot' style='left:" + 469 + "px;top:" + 105 + "px'>T</span>"); //TELCOM
+    isoSelector.append("<span id='dot57' class='isometric_dot' style='left:" + 528 + "px;top:" + 71 + "px'>C</span>"); //CONTROL
 
-    isoSelector.append("<span id='dot16' class='isometric_dot' style='left:" + 217 + "px;top:" + 366 + "px'></span>"); //INCO
-    isoSelector.append("<span id='dot5' class='isometric_dot' style='left:" + 286 + "px;top:" + 323 + "px'></span>"); //O&P
-    isoSelector.append("<span id='dot6' class='isometric_dot' style='left:" + 344 + "px;top:" + 291 + "px'></span>"); //AFD
-    isoSelector.append("<span id='dot50' class='isometric_dot' style='left:" + 454 + "px;top:" + 214 + "px'></span>"); //FLIGHT
-    isoSelector.append("<span id='dot11' class='isometric_dot' style='left:" + 538 + "px;top:" + 161 + "px'></span>"); //NETWORK
-    isoSelector.append("<span id='dot43' class='isometric_dot' style='left:" + 581 + "px;top:" + 130 + "px'></span>"); //COMM CONTROLLER
+    isoSelector.append("<span id='dot16' class='isometric_dot' style='left:" + 217 + "px;top:" + 366 + "px'>I</span>"); //INCO
+    isoSelector.append("<span id='dot5' class='isometric_dot' style='left:" + 286 + "px;top:" + 323 + "px'>O</span>"); //O&P
+    isoSelector.append("<span id='dot6' class='isometric_dot' style='left:" + 344 + "px;top:" + 291 + "px'>A</span>"); //AFD
+    isoSelector.append("<span id='dot50' class='isometric_dot' style='left:" + 454 + "px;top:" + 214 + "px'>FD</span>"); //FLIGHT
+    isoSelector.append("<span id='dot11' class='isometric_dot' style='left:" + 538 + "px;top:" + 161 + "px'>N</span>"); //NETWORK
+    isoSelector.append("<span id='dot43' class='isometric_dot' style='left:" + 581 + "px;top:" + 130 + "px'>C</span>"); //COMM CONTROLLER
 
     isoSelector.append("<span id='dot61' class='isometric_dot' style='left:" + 456 + "px;top:" + 316 + "px'></span>"); //unused
-    isoSelector.append("<span id='dot2' class='isometric_dot' style='left:" + 550 + "px;top:" + 247 + "px'></span>"); //DIR FLIGHT OPS
-    isoSelector.append("<span id='dot3' class='isometric_dot' style='left:" + 645 + "px;top:" + 182 + "px'></span>"); //MISSION DIRECTOR
-    isoSelector.append("<span id='dot8' class='isometric_dot' style='left:" + 686 + "px;top:" + 155 + "px'></span>"); //FD R
+    isoSelector.append("<span id='dot2' class='isometric_dot' style='left:" + 550 + "px;top:" + 247 + "px'>F</span>"); //DIR FLIGHT OPS
+    isoSelector.append("<span id='dot3' class='isometric_dot' style='left:" + 645 + "px;top:" + 182 + "px'>M</span>"); //MISSION DIRECTOR
+    isoSelector.append("<span id='dot8' class='isometric_dot' style='left:" + 686 + "px;top:" + 155 + "px'>FR</span>"); //FD R
 
-    //scale to match buttons
+    //set alt text
+    for (var counter = 1; counter < 60; counter++) {
+        var altText = cTrackInfo["ch" + counter][0] + ": " + cTrackInfo["ch" + counter][1];
+        $('#dot' + counter).attr("title", altText);
+    }
 }
 
 function isometric_dots_hover() {
-    console.log("isometric_dots_hover hovered: " + $(this).attr('id'));
+    // console.log("isometric_dots_hover hovered: " + $(this).attr('id'));
     var hoverChannelNum = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('dot') + 3));
 
     //show dot hover
@@ -1056,6 +1080,7 @@ function processTapeRangeData(allText) {
 // }
 
 function getTapeActivityRanges(activeSec) {
+    // trace("getTapeActivityRanges: " + activeSec);
     activeSec = activeSec + cCountdownSeconds;
 
     var nearestStart = Math.floor(activeSec/1000) * 1000;
