@@ -44,17 +44,15 @@ canvas{
     cursor: pointer;
 }
 
-#MOCRButtons {
-    position: relative;
+#canvasContainer {
+    position: fixed;
+    z-index: 5;
 }
 
-#isometric {
-    float: left;
-}
 
 #channelbuttons {
-    float: left;
-    position: relative;
+    position: fixed;
+    top: 350px;
     width: 100%;
     /*height: 250px;*/
     /*border-color: #DDDDDD;*/
@@ -62,18 +60,19 @@ canvas{
     /*border-style: solid;*/
     font-size: 0.7em;
     font-weight: bold;
+    z-index: 4;
 }
 
 .buttondiv {
     position: absolute;
-    left: 200px;
-    top: 500px;
 }
 
 .btn-channel {
     border: none;
     width: 100px;
     font-weight: bold;
+    background-color: #292929;
+    color: #595959;
 }
 
 .btn-active {
@@ -108,4 +107,48 @@ canvas{
 
 #audioDiv {
     display: none;
+}
+
+#isometric {
+    position: fixed;
+    /*transform: scale(0.5);*/
+    transform-origin: left top;
+    top: 320px;
+    z-index: 4;
+}
+
+#isometricImage {
+    display: none;
+}
+
+
+.isometric_dot {
+    height: 44px;
+    width: 44px;
+    background-color: #292929;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 200px;
+}
+
+.dot-active {
+    background-color: #636363;
+}
+
+.dot-inactive {
+    background-color: #292929;
+}
+
+.dot-selected {
+    background-color: #7cb7e0;
+}
+
+.dot-hover {
+    background-color: #7cb7e0;
+}
+
+#dot61 {
+    background-color: #000000;
 }

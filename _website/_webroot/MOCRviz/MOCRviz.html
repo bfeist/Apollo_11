@@ -19,17 +19,13 @@
     <div class="slidecontainer" style='display: none;'>
         <input type="range" min="1" max="100" value="0" class="slider" id="myRange" step="0.001"/>
     </div>
-    <div>
+    <div id='canvasContainer'>
         <canvas id="myCanvas"></canvas>
     </div>
     <!--<div class="" id="channelDescription">-->
         <!--Spacecraft Communicator – or Capsule Communicator - An astronaut who provided all the voice communications between the ground and the spacecraft. (left seat)-->
     <!--</div>-->
-    <div class="MOCRButtons">
-        <!--<div id="isometric">-->
-            <!--<img src="img/MOCR_consoles_dark.png" height="250px">-->
-        <!--</div>-->
-        <div id="channelbuttons">
+    <div id="channelbuttons">
         <div id="btndiv-ch1" class="buttondiv"><button id="btn-ch1" class="btn-channel hidden">1 - HR1 Datastream</button></div>
             <div id="btndiv-ch2" class="buttondiv"><button id="btn-ch2" class="btn-channel">FOD</button></div>
             <div id="btndiv-ch3" class="buttondiv"><button id="btn-ch3" class="btn-channel">M DIR</button></div>
@@ -81,18 +77,21 @@
             <div id="btndiv-ch49" class="buttondiv"><button id="btn-ch49" class="btn-channel secondary">[R]</button></div>
             <div id="btndiv-ch50" class="buttondiv"><button id="btn-ch50" class="btn-channel">FLIGHT</button></div>
             <div id="btndiv-ch51" class="buttondiv"><button id="btn-ch51" class="btn-channel">CONF LOOP</button></div>
-            <div id="btndiv-ch52" class="buttondiv"><button id="btn-ch52" class="btn-channel secondary">2</button></div>
+            <div id="btndiv-ch52" class="buttondiv"><button id="btn-ch52" class="btn-channel secondary">GS2</button></div>
             <div id="btndiv-ch53" class="buttondiv"><button id="btn-ch53" class="btn-channel">EASEP</button></div>
             <div id="btndiv-ch54" class="buttondiv"><button id="btn-ch54" class="btn-channel secondary">DYN</button></div>
             <div id="btndiv-ch55" class="buttondiv"><button id="btn-ch55" class="btn-channel secondary">CON</button></div>
-            <div id="btndiv-ch56" class="buttondiv"><button id="btn-ch56" class="btn-channel secondary">4</button></div>
+            <div id="btndiv-ch56" class="buttondiv"><button id="btn-ch56" class="btn-channel secondary">GS4</button></div>
             <div id="btndiv-ch57" class="buttondiv"><button id="btn-ch57" class="btn-channel">CONTROL</button></div>
             <div id="btndiv-ch58" class="buttondiv"><button id="btn-ch58" class="btn-channel">TELCOM</button></div>
             <div id="btndiv-ch59" class="buttondiv"><button id="btn-ch59" class="btn-channel">EXPMT AO</button></div>
         <div class="buttondiv"><button id="btn-ch60" class="btn-channel hidden">HR2 VOICE ANNOTATION</button></div>
-        </div>
     </div>
-    <div id="audioDiv">
+    <div id="isometric">
+        <img id="isometricImage" src="img/MOCR_consoles_dark_faded.png">
+    </div>
+
+        <div id="audioDiv">
         <audio id="audio-element" controls=controls autoplay>
             <source id="track" src="http://dev.apolloinrealtime.org/11mp3/T867_defluttered_mp3_16/defluttered_A11_T867_HR1L_CH14.mp3" type="audio/mpeg" />
         </audio>

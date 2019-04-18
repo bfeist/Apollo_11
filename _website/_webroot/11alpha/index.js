@@ -89,8 +89,8 @@ function onYouTubeIframeAPIReady() {
     trace("INIT: onYouTubeIframeAPIReady():creating player object");
     player = new YT.Player('player', {
         videoId: 'pLs5mc0Ng5k',
-        // width: '100%',
-        height: '200%',
+        width: '100%',
+        height: '100%',
         playerVars: {
             frameborder: 0,
             iv_load_policy: 3,

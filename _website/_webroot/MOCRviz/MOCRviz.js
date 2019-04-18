@@ -126,6 +126,7 @@ var gSliderDragging = false;
 
 window.onload = function() {
     positionChannelButtons();
+    positionIsometricElements();
 
     gPlayer = document.getElementById("audio-element");
     paper.install(window);
@@ -143,7 +144,16 @@ window.onload = function() {
 
     var channelButtons = document.querySelectorAll('.btn-channel');
     for(var i = 0; i < channelButtons.length; i++) {
-        channelButtons[i].addEventListener('click', buttonClick_selectChannel);
+        channelButtons[i].addEventListener('click', channelButtons_click);
+        channelButtons[i].addEventListener('mouseover', channelButtons_hover);
+        channelButtons[i].addEventListener('mouseleave', channelButtons_mouseleave);
+    }
+
+    var dotsSelector = document.querySelectorAll('.isometric_dot');
+    for(i = 0; i < dotsSelector.length; i++) {
+        dotsSelector[i].addEventListener('click', isometric_dots_click);
+        dotsSelector[i].addEventListener('mouseover', isometric_dots_hover);
+        dotsSelector[i].addEventListener('mouseleave', isometric_dots_mouseleave);
     }
 };
 
@@ -223,17 +233,12 @@ function mainApplication() {
             gHoverHighlightGroup.addChild(hoverLine);
 
             //highlight hovered button
-            for (var counter = 1; counter <= 60; counter++) {
-                var buttonId = '#btn-ch' + counter;
-                var buttonSelector = $(buttonId);
-                if (counter === cAvailableChannelsArray[availableChannelsIndex]) {
-                    // buttonSelector.removeClass('btn-active');
-                    // buttonSelector.removeClass('btn-inactive');
-                    buttonSelector.addClass('btn-hover');
-                } else {
-                    buttonSelector.removeClass('btn-hover');
-                }
-            }
+            $('.btn-channel').removeClass('btn-hover');
+            $('#btn-' + hoverChannelNum).addClass('btn-hover');
+
+            //highlight hovered dot
+            $('.isometric_dot').removeClass('dot-hover');
+            $('#dot' + hoverChannelNum.substr(hoverChannelNum.indexOf('ch') + 2)).addClass('dot-hover');
 
         } else {
             gTooltipGroup.removeChildren();
@@ -333,7 +338,7 @@ function mainApplication() {
     return window.setInterval(function () {
         //trace("setIntroTimeUpdatePoller()");
         frameUpdateOnTimer();
-    }, 50);
+    }, 100);
 }
 
 function frameUpdateOnTimer() {
@@ -511,7 +516,7 @@ function refreshTapeActivityDisplay(forceRefresh) {
     } else {
         drawChannels(false);
         drawTimeCursor();
-        setChannelButtonColors();
+        setChannelButtonAndDotColors();
     }
 }
 
@@ -814,38 +819,41 @@ function positionChannelButtons() {
         $('#btn-ch56').css({"width": buttonWidth / 4 + "px"});
 }
 
-function setChannelButtonColors() {
-    var activeSec = gCurrGETSeconds + cCountdownSeconds;
-
-    var nearestStart = Math.floor(activeSec/1000) * 1000;
-    if (nearestStart > 0) {
-        var startRange = nearestStart - 1000;
-    } else {
-        startRange = 0;
-    }
-
-    var startGETSeconds = gCurrGETSeconds - Math.round($(window).width() / 2);
-    var displayRangeStart = startGETSeconds + cCountdownSeconds - gTapesActivityStartIndex - 1;
-    var displayCurrSecond = Math.round(displayRangeStart + gCurrGETSeconds);
+function setChannelButtonAndDotColors() {
+    var currSecondindex = Math.round(gCurrGETSeconds + cCountdownSeconds - gTapesActivityStartIndex - 1);
 
     for (var counter = 1; counter <= 60; counter++) {
-        var buttonId = '#btn-ch' + counter;
-        var buttonSelector = $(buttonId);
-        buttonSelector.removeClass('btn-active');
-        buttonSelector.removeClass('btn-inactive');
+        var buttonSelector = $('#btn-ch' + counter);
         buttonSelector.removeClass('btn-selected');
 
-        if (gTapesActivityRangeArray[displayCurrSecond].includes(counter)) {
-            buttonSelector.addClass('btn-active');
+        if (gTapesActivityRangeArray[currSecondindex].includes(counter)) {
+            if (!buttonSelector.hasClass('btn-active'))
+                buttonSelector.addClass('btn-active');
         } else {
-            buttonSelector.addClass('btn-inactive');
+            if (!buttonSelector.hasClass('btn-inactive'))
+                buttonSelector.addClass('btn-inactive');
         }
     }
     var activeChannelSelector = $('#btn-ch' + gActiveChannel);
     activeChannelSelector.addClass('btn-selected');
+
+    for (counter = 1; counter <= 60; counter++) {
+        var dotSelector = $('#dot' + counter);
+        dotSelector.removeClass('dot-selected');
+
+        if (gTapesActivityRangeArray[currSecondindex].includes(counter)) {
+            if (!dotSelector.hasClass('dot-active'))
+                dotSelector.addClass('dot-active');
+        } else {
+            if (!dotSelector.hasClass('dot-inactive'))
+                dotSelector.addClass('dot-inactive');
+        }
+    }
+    activeChannelSelector = $('#dot' + gActiveChannel);
+    activeChannelSelector.addClass('dot-selected');
 }
 
-function buttonClick_selectChannel() {
+function channelButtons_click() {
     console.log("select-channel-button clicked: " + $(this).attr('id'));
 
     // clearInterval(gInterval); //clear the slider update playback interval
@@ -856,6 +864,152 @@ function buttonClick_selectChannel() {
     playFromCurrGET();
     refreshTapeActivityDisplay(true);
     gWaveformRefresh = true;
+}
+
+function channelButtons_hover() {
+    console.log("select-channel-button hovered: " + $(this).attr('id'));
+    //show button hover
+    var hoverChannelNum = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2));
+    $('.btn-channel').removeClass('btn-hover');
+    $('#btn-ch' + hoverChannelNum).addClass('btn-hover');
+
+    //show dot hover
+    $('.isometric_dot').removeClass('dot-hover');
+    $('#dot' + hoverChannelNum).addClass('dot-hover');
+
+    //draw hover highlight line
+    for (var i = 0; i < cAvailableChannelsArray.length; i++) {
+        if (cAvailableChannelsArray[i] === hoverChannelNum) {
+            var availableChannelsIndex = i;
+            break;
+        }
+    }
+    var xCoord = 0;
+    var yCoord = availableChannelsIndex * (cChannelStrokeWidth + cFillerStrokeWidth) + cChannelStrokeWidth / 2;
+
+    gHoverHighlightGroup.removeChildren();
+    var hoverLine = new paper.Path.Line({
+        from: [xCoord, yCoord],
+        to: [Math.round($(window).width()), yCoord],
+        strokeWidth: cChannelStrokeWidth
+        // name: 'ch' + channelCount
+    });
+    hoverLine.strokeColor = new paper.Color(0.57255, 0.82745, 1.00000, .6);
+    gHoverHighlightGroup.addChild(hoverLine);
+}
+
+function channelButtons_mouseleave() {
+    for (var counter = 1; counter <= 60; counter++) {
+        var buttonSelector = $('#btn-ch' + counter);
+        buttonSelector.removeClass('btn-hover');
+        var dotSelector = $('#dot' + counter);
+        dotSelector.removeClass('dot-hover');
+    }
+    gHoverHighlightGroup.removeChildren();
+}
+
+function positionIsometricElements() {
+    // $('#isometricImage').on('click', function(e) {
+    //     var offset = $(this).offset();
+    //     // console.log("X: " + (e.pageX - offset.left).toString() + " - Y: " + (e.pageY - offset.top).toString());
+    //     console.log("X: " + (e.pageX - offset.left - 22).toString() + ", Y: " + (e.pageY - offset.top - 22).toString());
+    // });
+
+    var isoSelector = $('#isometric');
+    var btnSelector = $('#btn-ch57');
+    var offset = btnSelector.offset();
+    var leftPosition = offset.left + btnSelector.width() + 20;
+    //position the background image
+    isoSelector.css({"left": leftPosition + "px"});
+    var isoWidth = $('#isometricImage').width();
+    var screenRemainderWidth = Math.round($(window).width()) - leftPosition;
+    var scalePercentage = ((100 * screenRemainderWidth) / isoWidth) / 100;
+
+    scalePercentage = scalePercentage > 0.6 ? 0.6 : scalePercentage;
+    isoSelector.css('transform', 'scale(' + scalePercentage + ')');
+
+    //make the image visible after resize
+    $('#isometricImage').css('display','block');
+
+    // transform: scale(0.5);
+    // transform-origin: 0 0;
+
+    isoSelector.append("<span id='dot47' class='isometric_dot' style='left:" + 36 + "px;top:" + 245 + "px'></span>"); //BOOSTER
+    isoSelector.append("<span id='dot19' class='isometric_dot' style='left:" + 127 + "px;top:" + 195 + "px'></span>"); //RETRO
+    isoSelector.append("<span id='dot20' class='isometric_dot' style='left:" + 218 + "px;top:" + 151 + "px'></span>"); //FIDO
+    isoSelector.append("<span id='dot21' class='isometric_dot' style='left:" + 307 + "px;top:" + 102 + "px'></span>"); //GUIDO
+
+    isoSelector.append("<span id='dot12' class='isometric_dot' style='left:" + 196 + "px;top:" + 280 + "px'></span>"); //SURGEON
+    isoSelector.append("<span id='dot14' class='isometric_dot' style='left:" + 279 + "px;top:" + 231 + "px'></span>"); //CAPCOM
+    isoSelector.append("<span id='dot17' class='isometric_dot' style='left:" + 366 + "px;top:" + 166 + "px'></span>"); //EECOM
+    isoSelector.append("<span id='dot18' class='isometric_dot' style='left:" + 416 + "px;top:" + 136 + "px'></span>"); //GNC
+    isoSelector.append("<span id='dot58' class='isometric_dot' style='left:" + 469 + "px;top:" + 105 + "px'></span>"); //TELCOM
+    isoSelector.append("<span id='dot57' class='isometric_dot' style='left:" + 528 + "px;top:" + 71 + "px'></span>"); //CONTROL
+
+    isoSelector.append("<span id='dot16' class='isometric_dot' style='left:" + 217 + "px;top:" + 366 + "px'></span>"); //INCO
+    isoSelector.append("<span id='dot5' class='isometric_dot' style='left:" + 286 + "px;top:" + 323 + "px'></span>"); //O&P
+    isoSelector.append("<span id='dot6' class='isometric_dot' style='left:" + 344 + "px;top:" + 291 + "px'></span>"); //AFD
+    isoSelector.append("<span id='dot50' class='isometric_dot' style='left:" + 454 + "px;top:" + 214 + "px'></span>"); //FLIGHT
+    isoSelector.append("<span id='dot11' class='isometric_dot' style='left:" + 538 + "px;top:" + 161 + "px'></span>"); //NETWORK
+    isoSelector.append("<span id='dot43' class='isometric_dot' style='left:" + 581 + "px;top:" + 130 + "px'></span>"); //COMM CONTROLLER
+
+    isoSelector.append("<span id='dot61' class='isometric_dot' style='left:" + 456 + "px;top:" + 316 + "px'></span>"); //unused
+    isoSelector.append("<span id='dot2' class='isometric_dot' style='left:" + 550 + "px;top:" + 247 + "px'></span>"); //DIR FLIGHT OPS
+    isoSelector.append("<span id='dot3' class='isometric_dot' style='left:" + 645 + "px;top:" + 182 + "px'></span>"); //MISSION DIRECTOR
+    isoSelector.append("<span id='dot8' class='isometric_dot' style='left:" + 686 + "px;top:" + 155 + "px'></span>"); //FD R
+
+    //scale to match buttons
+}
+
+function isometric_dots_hover() {
+    console.log("isometric_dots_hover hovered: " + $(this).attr('id'));
+    var hoverChannelNum = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('dot') + 3));
+
+    //show dot hover
+    $('.isometric_dot').removeClass('dot-hover');
+    $('#dot' + hoverChannelNum).addClass('dot-hover');
+
+    //show hover on buttons
+    $('.btn-channel').removeClass('btn-hover');
+    $('#btn-ch' + hoverChannelNum).addClass('btn-hover');
+
+    //draw hover highlight line
+    for (var i = 0; i < cAvailableChannelsArray.length; i++) {
+        if (cAvailableChannelsArray[i] === hoverChannelNum) {
+            var availableChannelsIndex = i;
+            break;
+        }
+    }
+    var xCoord = 0;
+    var yCoord = availableChannelsIndex * (cChannelStrokeWidth + cFillerStrokeWidth) + cChannelStrokeWidth / 2;
+
+    gHoverHighlightGroup.removeChildren();
+    var hoverLine = new paper.Path.Line({
+        from: [xCoord, yCoord],
+        to: [Math.round($(window).width()), yCoord],
+        strokeWidth: cChannelStrokeWidth
+        // name: 'ch' + channelCount
+    });
+    hoverLine.strokeColor = new paper.Color(0.57255, 0.82745, 1.00000, .6);
+    gHoverHighlightGroup.addChild(hoverLine);
+}
+
+function isometric_dots_click() {
+    gActiveChannel = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('dot') + 3)); //get channel number from dot label
+    loadChannelSoundfile();
+    playFromCurrGET();
+    refreshTapeActivityDisplay(true);
+    gWaveformRefresh = true;
+}
+
+function isometric_dots_mouseleave() {
+    for (var counter = 1; counter <= 60; counter++) {
+        var dotSelector = $('#dot' + counter);
+        dotSelector.removeClass('dot-hover');
+        var buttonSelector = $('#btn-ch' + counter);
+        buttonSelector.removeClass('btn-hover');
+    }
+    gHoverHighlightGroup.removeChildren();
 }
 
 
