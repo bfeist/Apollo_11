@@ -91,7 +91,7 @@ var gTapeRangesHR1 = [];
 var gTapeRangesHR2 = [];
 var gActiveTape = "T867";
 var gActiveChannel = 14;
-var gActiveChannel = 52;
+// var gActiveChannel = 52;
 var gTapesActivityRangeArray = [];
 var gTapesActivityStartIndex;
 var gActiveTapesActivityFilenames = ["", "", ""];

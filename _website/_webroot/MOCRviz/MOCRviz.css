@@ -35,6 +35,7 @@ canvas{
     border: none;
     width: 100px;
     font-weight: bold;
+    white-space:nowrap;
     background-color: #292929;
     color: #595959;
 }
