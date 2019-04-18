@@ -122,7 +122,6 @@ var gHoverHighlightGroup;
 var gPlayer;
 var gOnplaying = true;
 var gOnpause = false;
-var gSliderDragging = false;
 
 window.onload = function() {
     positionChannelButtons();
@@ -174,7 +173,6 @@ function resizeAndRedrawCanvas() {
 function mainApplication() {
     trace("mainApplication ()");
     var canvas = document.getElementById('myCanvas');
-    var slider = document.getElementById("myRange");
     var missionTimeDisplay = document.getElementById("missionTimeDisplay");
     // canvas.width = 1000;
     canvas.height = cCanvasHeight;
@@ -285,38 +283,6 @@ function mainApplication() {
         gWaveformRefresh = true;
     };
 
-    slider.onmousedown = function() {
-        trace("slider mousedown");
-        // gPeaksInstance.gPlayer.pause();
-        // pauseAudio();
-        gSliderDragging = true;
-    };
-
-    // Update the current slider value (each time you drag the slider handle)
-    slider.oninput = function () {
-        trace("slider oninput");
-        var tempGET = (((this.value - 1) * cMissionDurationSeconds) / 99) - cCountdownSeconds;
-        missionTimeDisplay.innerHTML = secondsToTimeStr(tempGET);
-        // gLastRoundedGET = Math.round(tempGET);
-    };
-
-    slider.onmouseup = function() {
-        trace("slider mouseup");
-
-        gCurrGETSeconds = (((this.value - 1) * cMissionDurationSeconds) / 99) - cCountdownSeconds;
-        missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
-        gLastRoundedGET = Math.round(gCurrGETSeconds);
-
-        loadChannelSoundfile();
-        gWaveformRefresh = true;
-
-        playFromCurrGET();
-        refreshTapeActivityDisplay(true);
-        drawTimeCursor();
-
-        gSliderDragging = false;
-    };
-
     // On video playing toggle values
     gPlayer.onplaying = function() {
         gOnplaying = true;
@@ -348,7 +314,7 @@ function frameUpdateOnTimer() {
     } else if (parent.gPlaybackState === 'normal' && gPlayer.paused) {
         gPlayer.play();
     }
-    if (!gPlayer.paused && !gSliderDragging) {
+    if (!gPlayer.paused) {
 
         // SYNC WITH PARENT GET CLOCK
         if (parent.gCurrMissionTime !== '' && parent.gCurrMissionTime !== undefined) {
@@ -380,9 +346,6 @@ function frameUpdateOnTimer() {
         var currSeconds = gPlayer.currentTime;
         currSeconds = currSeconds === undefined ? 0 : currSeconds;
         gCurrGETSeconds = currSeconds + timeStrToSeconds(tapeData[2]);
-
-        var slider = document.getElementById("myRange");
-        slider.value = (((gCurrGETSeconds + cCountdownSeconds) * 99) / cMissionDurationSeconds);
 
         var missionTimeDisplay = document.getElementById("missionTimeDisplay");
         missionTimeDisplay.innerHTML = secondsToTimeStr(gCurrGETSeconds);
@@ -496,8 +459,6 @@ function drawChannelName() {
 
 function playFromCurrGET() {
     trace("playFromCurrGET()");
-    // var sliderVal = $('#myRange').val();
-    // var sliderMissionSeconds = (((sliderVal - 1) * cMissionDurationSeconds) / 99) - cCountdownSeconds;
 
     var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
     var tapeCueTimeSeconds = gCurrGETSeconds - timeStrToSeconds(tapeData[2]);
@@ -855,9 +816,6 @@ function setChannelButtonAndDotColors() {
 
 function channelButtons_click() {
     console.log("select-channel-button clicked: " + $(this).attr('id'));
-
-    // clearInterval(gInterval); //clear the slider update playback interval
-    // gPeaksInstance.player.pause();
 
     gActiveChannel = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2)); //get channel number from button label
     loadChannelSoundfile();
