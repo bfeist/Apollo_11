@@ -532,9 +532,9 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     histDate.setMonth(cCountdownStartDate.getMonth());
     histDate.setYear(cCountdownStartDate.getYear());
 
-    if (nowDate.getDay() < 15) { //apollo 11 countdown on 15th and splash on 24
+    if (nowDate.getDate() < 15) { //apollo 11 countdown on 15th and splash on 24
         histDate.setDate(15);
-    } else if (nowDate.getDay() > 24) {
+    } else if (nowDate.getDate() > 24) {
         histDate.setDate(24);
     }
 
