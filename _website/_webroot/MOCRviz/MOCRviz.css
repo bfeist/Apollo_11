@@ -72,6 +72,8 @@ canvas{
 
 #audioDiv {
     display: none;
+    position: fixed;
+    top: 600px;
 }
 
 #isometric {

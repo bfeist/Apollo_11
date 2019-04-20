@@ -122,6 +122,7 @@ var gHoverHighlightGroup;
 var gPlayer;
 var gOnplaying = true;
 var gOnpause = false;
+var gWaitForPlayer = -1;
 
 window.onload = function() {
     positionChannelButtons();
@@ -298,6 +299,11 @@ function mainApplication() {
         gWaveformRefresh = true;
     };
 
+    // hide player element if in iframe
+    // if (!parent.gCurrMissionTime !== undefined) {
+    //     $('#audioDiv').show();
+    // }
+
     // On video playing toggle values
     gPlayer.onplaying = function() {
         gOnplaying = true;
@@ -323,18 +329,26 @@ function mainApplication() {
 }
 
 function frameUpdateOnTimer() {
-// paper.view.onFrame = function(event) {
     if (parent.gPlaybackState === 'paused' || parent.gPlaybackState === 'unexpectedbuffering') {
         gPlayer.pause();
     } else if (parent.gPlaybackState === 'normal' && gPlayer.paused) {
         gPlayer.play();
     }
-    if (!gPlayer.paused) {
 
+    //wait for gPlayer to be ready before seeking to player position (safari fix)
+    if (gWaitForPlayer !== -1) {
+        if (!isNaN(gPlayer.duration)) {
+            gPlayer.currentTime = gWaitForPlayer;
+            playAudio();
+            gWaitForPlayer = -1;
+            refreshTapeActivityDisplay(true);
+        }
+    }
+    if (!gPlayer.paused) {
         // SYNC WITH PARENT GET CLOCK
         if (parent.gCurrMissionTime !== '' && parent.gCurrMissionTime !== undefined) {
             var parentMissionTimeSeconds = timeStrToSeconds(parent.gCurrMissionTime);
-            if (parentMissionTimeSeconds >= gCurrGETSeconds - 1 && parentMissionTimeSeconds <= gCurrGETSeconds + 1) {
+            if (parentMissionTimeSeconds >= gCurrGETSeconds - 2 && parentMissionTimeSeconds <= gCurrGETSeconds + 2) {
                 // then we're close enough, don't correct the time
             } else {
                 gCurrGETSeconds = parentMissionTimeSeconds;
@@ -344,11 +358,6 @@ function frameUpdateOnTimer() {
                 refreshTapeActivityDisplay(true);
                 drawTimeCursor();
             }
-        }
-
-        // hide player element if in iframe
-        if (parent.gCurrMissionTime !== undefined) {
-            $('#audio-element').hide();
         }
 
         var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
@@ -431,12 +440,15 @@ function loadChannelSoundfile() {
         var audioFile = "/11mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
 
         trace("loading tape: " + audioFile + " :datFile: " + datFile);
-        gPlayer.src = audioFile;
-        gPlayer.load();
-
-        gWavDataLoaded = false;
-        ajaxGetWaveData(datFile);
-        drawChannelName();
+        if (gPlayer.src.substr(gPlayer.src.length - 20) !== audioFile.substr(audioFile.length - 20)) {
+            gPlayer.src = audioFile;
+            gPlayer.load();
+            gWavDataLoaded = false;
+            ajaxGetWaveData(datFile);
+            drawChannelName();
+        } else {
+            trace("gPlayer src already same as audioFile. Do not reload audio element or dat file.")
+        }
     } else {
         trace("loadChannelSoundfile(): !!!!!!!!!!!!! No tape audio for this channel at this time");
     }
@@ -478,21 +490,19 @@ function playFromCurrGET() {
     }
     var tapeCueTimeSeconds = gCurrGETSeconds - timeStrToSeconds(tapeData[2]);
 
-    // if (tapeData.length !== 0) {
-    gPlayer.currentTime = tapeCueTimeSeconds;
-    // gPlayer.play();
-    playAudio();
-    // }
+    gWaitForPlayer = tapeCueTimeSeconds;
 }
 
 function refreshTapeActivityDisplay(forceRefresh) {
-    var calcedTapesActivityFilenames = getTapeActivityRanges(gCurrGETSeconds);
-    if (calcedTapesActivityFilenames[0] !== gActiveTapesActivityFilenames[0] || forceRefresh === true) {
-        ajaxGetTapesActivityDataRange(calcedTapesActivityFilenames);
-    } else {
-        drawChannels(false);
-        drawTimeCursor();
-        setChannelButtonAndDotColors();
+    if (gWaitForPlayer == -1) {
+        var calcedTapesActivityFilenames = getTapeActivityRanges(gCurrGETSeconds);
+        if (calcedTapesActivityFilenames[0] !== gActiveTapesActivityFilenames[0] || forceRefresh === true) {
+            ajaxGetTapesActivityDataRange(calcedTapesActivityFilenames);
+        } else {
+            drawChannels(false);
+            drawTimeCursor();
+            setChannelButtonAndDotColors();
+        }
     }
 }
 
@@ -803,13 +813,15 @@ function setChannelButtonAndDotColors() {
         buttonSelector.removeClass('btn-selected');
 
         if (gTapesActivityRangeArray[currSecondindex].includes(counter)) {
-            if (!buttonSelector.hasClass('btn-active'))
+            if (!buttonSelector.hasClass('btn-active')) {
                 buttonSelector.removeClass('btn-inactive');
                 buttonSelector.addClass('btn-active');
+            }
         } else {
-            if (!buttonSelector.hasClass('btn-inactive'))
+            if (!buttonSelector.hasClass('btn-inactive')) {
                 buttonSelector.removeClass('btn-active');
                 buttonSelector.addClass('btn-inactive');
+            }
         }
     }
     var activeChannelSelector = $('#btn-ch' + gActiveChannel);
@@ -830,7 +842,7 @@ function setChannelButtonAndDotColors() {
         }
     }
     activeChannelSelector = $('#dot' + gActiveChannel);
-    activeChannelSelector.addClass('dot-selected');
+    activeChannelSelector.addClass('dot-selected'); 
 }
 
 function channelButtons_click() {
