@@ -77,6 +77,11 @@ var gGeoData = [];
 var gGeoCompendiumData = [];
 var gPaperData = [];
 
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    var url = "http://msn.com/";
+    $(location).attr('href',url);
+}
+
 //load the youtube API
 var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
@@ -1958,7 +1963,6 @@ $(document).ready(function() {
     //myCanvasElement.css("width", $('.headerRight').width());
 
     proportionalWidthOnPhotoBlock();
-
     initSplash();
 
     gApplicationReadyIntervalID = setApplicationReadyPoller();

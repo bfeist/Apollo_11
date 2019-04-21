@@ -99,7 +99,6 @@ var gActiveTapesActivityFilenames = ["", "", ""];
 var gCurrGETSeconds = cAppStartGET;
 var gLastRoundedGET = cAppStartGET;
 
-
 var gChannelLinesGroup;
 var gTimeCursorGroup;
 var gChannelNameGroup;
@@ -123,6 +122,8 @@ var gPlayer;
 var gOnplaying = true;
 var gOnpause = false;
 var gWaitForPlayer = -1;
+
+var gChannelbuttonsHeight = 0;
 
 window.onload = function() {
     positionChannelButtons();
@@ -157,20 +158,22 @@ window.onload = function() {
     }
 };
 
-$(window).on("resize", function() {
-    resizeAndRedrawCanvas();
-    positionChannelButtons();
-    positionIsometricElements();
-});
-var resizeTimer;
+// $(window).on("resize", function() {
+//     resizeAndRedrawCanvas();
+//     positionChannelButtons();
+//     positionIsometricElements();
+// });
+var gResizeTimer;
 $(window).on('resize', function(e) {
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(function() {
+    clearTimeout(gResizeTimer);
+    gResizeTimer = setTimeout(function() {
         // Run code here, resizing has "stopped"
-        resizeAndRedrawCanvas();
-        positionChannelButtons();
-        positionIsometricElements();
-        refreshTapeActivityDisplay(true);
+        if (parent.gMobileSite !== true) {
+            resizeAndRedrawCanvas();
+            positionChannelButtons();
+            positionIsometricElements();
+            refreshTapeActivityDisplay(true);
+        }
     }, 250);
 });
 
@@ -803,6 +806,8 @@ function positionChannelButtons() {
         $('#btn-ch55').css({"width": buttonWidth / 4 - 1 + "px"});
         $('#btndiv-ch56').css({"left": xsub + (buttonWidth / 4) * 3 + "px", "top": y + buttonHeight + "px"}); //TM
         $('#btn-ch56').css({"width": buttonWidth / 4 + "px"});
+
+    gChannelbuttonsHeight = y + buttonHeight;
 }
 
 function setChannelButtonAndDotColors() {
@@ -908,15 +913,35 @@ function positionIsometricElements() {
     var btnSelector = $('#btn-ch57');
     var isometricImageSelector = $('#isometricImage');
     var offset = btnSelector.offset();
-    var leftPosition = offset.left + btnSelector.width() + 20;
-    //position the background image
-    isoSelector.css({"left": leftPosition + "px"});
-    var isoWidth = isometricImageSelector.width();
-    var screenRemainderWidth = Math.round($(window).width()) - leftPosition;
-    var scalePercentage = ((100 * screenRemainderWidth) / isoWidth) / 100;
+    if (parent.gMobileSite !== true) {
+        var leftPosition = offset.left + btnSelector.width() + 20;
+        //position the background image
+        isoSelector.css({"left": leftPosition + "px"});
+        var isoWidth = isometricImageSelector.width();
+        var screenRemainderWidth = Math.round($(window).width()) - leftPosition;
+        var scalePercentage = ((100 * screenRemainderWidth) / isoWidth) / 100;
 
-    scalePercentage = scalePercentage > 0.6 ? 0.6 : scalePercentage;
-    isoSelector.css('transform', 'scale(' + scalePercentage + ')');
+        scalePercentage = scalePercentage > 0.6 ? 0.6 : scalePercentage;
+        isoSelector.css('transform', 'scale(' + scalePercentage + ')');
+    } else { //if on mobile site
+        isoSelector.css({"top": "305px"});
+        isoWidth = isometricImageSelector.width();
+        screenRemainderWidth = Math.round($(window).width());
+        scalePercentage = ((100 * screenRemainderWidth) / isoWidth) / 100;
+        // scalePercentage = scalePercentage > 0.6 ? 0.6 : scalePercentage;
+        isoSelector.css('transform', 'scale(' + scalePercentage + ')');
+
+        //move buttons below MOCR ISO
+        // var bottom = gChannelbuttonsHeight + isometricImageSelector.outerHeight(true) + 250;
+        // $('#channelbuttons').css("top", bottom + "px");
+        $('#channelbuttons').css("top", "530px");
+
+        var channelButtonsWidth = offset.left + btnSelector.width() + 20;
+        screenRemainderWidth = Math.round($(window).width());
+        scalePercentage = ((100 * screenRemainderWidth) / channelButtonsWidth) / 100;
+        $('#channelbuttons').css('transform', 'scale(' + scalePercentage + ')');
+
+    }
 
     //make the image visible after resize
     isometricImageSelector.css('display','block');
