@@ -13,6 +13,8 @@ const cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -500");
 
 const cBackground_color_active = "#222222";
 
+const cRedactedChannelsArray = [1, 4, 10, 30, 31, 36, 37, 38, 39, 40, 41, 60];
+
 //global control objects
 var player;
 var gIntervalID = null;
@@ -47,6 +49,9 @@ var gDashboardManuallyToggled = false;
 var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
 var gMissionTimeParamSent = 0;
 var gMOCRToggled = false;
+
+var gTapesActivityStartIndex = 0;
+var gTapesActivityRangeArray = [];
 
 //global mission state trackers
 var gCurrMissionTime = '';
@@ -231,6 +236,9 @@ function setAutoScrollPoller() {
         } else {
             soundBtnImg.addClass('mute');
         }
+
+        refreshTapeActivityDisplay();
+
     }, 500); //polling frequency in milliseconds
 }
 
@@ -1843,7 +1851,7 @@ jQuery(function ($) {
             //gShareButtonObject.toggle(); //this is already happening within the share button div itself.
         });
 
-    $("#thirtytrack-btn")
+    $(".thirtybtn-channel")
         .click(function(){
         ga('send', 'event', 'tab', 'click', 'mocr');
         toggleMOCROverlay();
@@ -1970,6 +1978,68 @@ function thirtyButtons_hover() {
 }
 function thirtyButtons_mouseleave() {
     $('.thirtybtn-channel').removeClass('thirtybtn-hover');
+}
+
+function refreshTapeActivityDisplay() {
+    getTapeActivityRanges(timeStrToSeconds(gCurrMissionTime));
+    setChannelButtonColors();
+}
+function getTapeActivityRanges(activeSec) {
+    // trace("getTapeActivityRanges: " + activeSec);
+    activeSec = activeSec + cCountdownSeconds;
+
+    var nearestStart = Math.floor(activeSec/1000)*1000;
+    if (nearestStart < 0) {
+        nearestStart = 0;
+    }
+    var nearestEnd = Math.ceil(activeSec/1000)*1000;
+    if (nearestEnd > (cMissionDurationSeconds + cCountdownSeconds)) {  //if greater than total length of tape activity data
+        var endRange = cMissionDurationSeconds + cCountdownSeconds;
+    } else {
+        endRange = nearestEnd;
+    }
+    var tapesActivityfilename = "tape_activity_" + nearestStart.toString() + "-" + (endRange - 1).toString() + ".json";
+
+    if (nearestStart !== gTapesActivityStartIndex) {
+        gTapesActivityStartIndex = nearestStart;
+        ajaxGetTapesActivityDataRange(tapesActivityfilename);
+    }
+}
+function ajaxGetTapesActivityDataRange(tapesActivityFilename) {
+    trace("ajaxGetTapesActivityDataRange(): "  + tapesActivityFilename.toString());
+
+    var tapeActivityDataPath = '/11mp3/tape_activity/';
+    var tapeActivity;
+    $.when(
+        $.getJSON(tapeActivityDataPath + tapesActivityFilename, function(data) {
+            tapeActivity = data;})
+    ).then(function() {
+        gTapesActivityRangeArray = [];
+        gTapesActivityRangeArray = tapeActivity;
+    });
+}
+function setChannelButtonColors() {
+    if (gTapesActivityRangeArray.length > 0) {
+        var currSecondindex = Math.round(timeStrToSeconds(gCurrMissionTime) + cCountdownSeconds - gTapesActivityStartIndex - 1);
+        for (var counter = 1; counter <= 60; counter++) {
+            if (!cRedactedChannelsArray.includes(counter)) {
+                var buttonSelector = $('#btn-ch' + counter);
+                buttonSelector.removeClass('thirtybtn-selected');
+
+                if (gTapesActivityRangeArray[currSecondindex].includes(counter)) {
+                    if (!buttonSelector.hasClass('thirtybtn-active')) {
+                        buttonSelector.removeClass('thirtybtn-inactive');
+                        buttonSelector.addClass('thirtybtn-active');
+                    }
+                } else {
+                    if (!buttonSelector.hasClass('thirtybtn-inactive')) {
+                        buttonSelector.removeClass('thirtybtn-active');
+                        buttonSelector.addClass('thirtybtn-inactive');
+                    }
+                }
+            }
+        }
+    }
 }
 
 //on document ready
