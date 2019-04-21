@@ -1951,9 +1951,25 @@ function setSplashHistoricalSubtext() {
 }
 
 function proportionalWidthOnPhotoBlock() {
-    var photoBlockWidth = $('body').width() - $('.video-block').width() - 1 - 30;
+    var photoBlockWidth = $('body').width() - ($('.video-block').width() + $('.thirtytrack-block').width()) - 1;
     //trace("trying to set photo block width: " + photoBlockWidth);
     $('.photo-block').width(photoBlockWidth);
+}
+
+function thirtyButtons_click() {
+    // console.log("select-channel-button clicked: " + $(this).attr('id'));
+    gActiveChannel = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2)); //get channel number from button label
+}
+function thirtyButtons_hover() {
+    // console.log("select-channel-button hovered: " + $(this).attr('id'));
+    //show button hover
+    var hoverChannelNum = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2));
+    $('.thirtybtn-channel').removeClass('thirtybtn-hover');
+    $('#btn-ch' + hoverChannelNum).addClass('thirtybtn-hover');
+
+}
+function thirtyButtons_mouseleave() {
+    $('.thirtybtn-channel').removeClass('thirtybtn-hover');
 }
 
 //on document ready
@@ -1964,6 +1980,13 @@ $(document).ready(function() {
 
     proportionalWidthOnPhotoBlock();
     initSplash();
+
+    var channelButtons = document.querySelectorAll('.thirtybtn-channel');
+    for(var i = 0; i < channelButtons.length; i++) {
+        channelButtons[i].addEventListener('click', thirtyButtons_click);
+        channelButtons[i].addEventListener('mouseover', thirtyButtons_hover);
+        channelButtons[i].addEventListener('mouseleave', thirtyButtons_mouseleave);
+    }
 
     gApplicationReadyIntervalID = setApplicationReadyPoller();
 

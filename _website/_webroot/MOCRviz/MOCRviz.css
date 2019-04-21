@@ -30,7 +30,7 @@ canvas{
 
 .btn-channel {
     border: none;
-    width: 100px;
+    /*width: 100px;*/
     font-weight: bold;
     white-space:nowrap;
     background-color: #292929;

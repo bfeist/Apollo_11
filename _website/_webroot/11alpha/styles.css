@@ -1730,59 +1730,92 @@ header {
 }
 .thirtytrack-block {
     float: left;
-    width: 20px;
+    width: 70px;
 }
 .photo-block {
   /*width: 60%;*/ /* this is done via jquery in index.js */
 }
 
-#thirtytrack-btn {
-    /*margin-right: 2em;*/
-    border-width: 0px;
-    border-radius: 4px;
-    display: block;
-    float: left;
-    margin-bottom: 1px;
-    /*padding: 1em 1em 3em 1em;*/
-    width: 50em;
-    font-size: 1em;
-    transition: all 1s ease-in-out;
-    /*cursor: not-allowed;*/
-    /*font-family: 'Michroma', sans-serif;*/
+#thirtytrack-container {
+    margin-top: 10px;
+}
+
+/*.thirtytrack-btn {*/
+    /*!*margin-right: 2em;*!*/
+    /*border-width: 0px;*/
+    /*border-radius: 4px;*/
+    /*display: block;*/
+    /*float: left;*/
+    /*margin-bottom: 1px;*/
+    /*!*padding: 1em 1em 3em 1em;*!*/
+    /*!*width: 50em;*!*/
+    /*font-size: 1em;*/
+    /*transition: all 1s ease-in-out;*/
+    /*!*cursor: not-allowed;*!*/
+    /*!*font-family: 'Michroma', sans-serif;*!*/
+    /*font-family: 'Oswald', sans-serif;*/
+    /*!*color: #fff;*!*/
+    /*!*background-color: #828282;*!*/
+    /*!*border-right: 1px solid rgba(130, 130, 130, .65);*!*/
+    /*!*border-bottom: 1px solid rgba(130, 130, 130, .65);*!*/
+
+    /*background-color: rgba(215, 160, 108, .9);*/
+    /*border-right: 1px solid rgba(215, 160, 108, 1);*/
+    /*border-bottom: 1px solid rgba(215, 160, 108, 1);*/
+
+    /*!*background-color: rgba(130, 130, 130, .8);*!*/
+    /*box-shadow: inset -1px -1px 7px 3px #515151;*/
+
+    /*!*-webkit-transform: rotate(90deg);*!*/
+    /*!*-moz-transform: rotate(90deg);*!*/
+    /*!*-o-transform: rotate(90deg);*!*/
+    /*!*-ms-transform: rotate(90deg);*!*/
+    /*!*transform: rotate(90deg);*!*/
+    /*!*transform-origin: 1% 50%;*!*/
+/*}*/
+
+#thirtytrack-title {
+    /*font-family: 'Roboto Mono', sans-serif;*/
     font-family: 'Oswald', sans-serif;
-    /*color: #fff;*/
-    /*background-color: #828282;*/
-    /*border-right: 1px solid rgba(130, 130, 130, .65);*/
-    /*border-bottom: 1px solid rgba(130, 130, 130, .65);*/
-
-    background-color: rgba(215, 160, 108, .9);
-    border-right: 1px solid rgba(215, 160, 108, 1);
-    border-bottom: 1px solid rgba(215, 160, 108, 1);
-
-    /*background-color: rgba(130, 130, 130, .8);*/
-    box-shadow: inset -1px -1px 7px 3px #515151;
-
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    transform-origin: 1% 50%;
-}
-#thirtytrack-btn,
-#thirtytrack-btn:visited,
-#thirtytrack-btn:hover,
-#thirtytrack-btn:active,
-#thirtytrack-btn:focus,
-#thirtytrack-btn{
-    /*color: #444;*/
-    color: #000;
-    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
 }
 
-.thirtytrack-btn:hover {
-    background-color: #FFC688;
+.thirtybtn-channel {
+    border: none;
+    width: 70px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    white-space:nowrap;
+    background-color: #292929;
+    color: #595959;
+    padding: 1px 1px;
+    margin-bottom: 2px;
 }
+
+.thirtybtn-active {
+    background-color: #636363;
+    color: #000000;
+}
+
+.thirtybtn-inactive {
+
+    background-color: #292929;
+    color: #595959;
+}
+
+.thirtybtn-selected {
+    background-color: #7cb7e0;
+    color: #000000;
+}
+
+.thirtybtn-hover {
+    background-color: #7cb7e0;
+    color: #000000;
+}
+
 
 .thirtytrack-overlay {
     display: block;
