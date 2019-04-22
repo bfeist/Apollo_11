@@ -858,6 +858,7 @@ function channelButtons_click() {
     playFromCurrGET();
     refreshTapeActivityDisplay(true);
     gWaveformRefresh = true;
+    setControllerDetails();
 }
 
 function channelButtons_hover() {
@@ -941,6 +942,7 @@ function positionIsometricElements() {
         scalePercentage = ((100 * screenRemainderWidth) / channelButtonsWidth) / 100;
         $('#channelbuttons').css('transform', 'scale(' + scalePercentage + ')');
 
+        $('#controller-details').css('top', '710px');
     }
 
     //make the image visible after resize
@@ -1019,6 +1021,7 @@ function isometric_dots_click() {
     playFromCurrGET();
     refreshTapeActivityDisplay(true);
     gWaveformRefresh = true;
+    setControllerDetails();
 }
 
 function isometric_dots_mouseleave() {
@@ -1031,6 +1034,10 @@ function isometric_dots_mouseleave() {
     gHoverHighlightGroup.removeChildren();
 }
 
+function setControllerDetails() {
+    $('#controller-name').text(cTrackInfo['ch' + gActiveChannel][0]);
+    $('#controller-description').text(cTrackInfo['ch' + gActiveChannel][1]);
+}
 
 function getTapeByGETseconds(seconds, channel) {
     var intChannel = parseInt(channel);

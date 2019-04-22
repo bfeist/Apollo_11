@@ -31,3 +31,35 @@ h3 {
 .missionElapsedTime {
     padding-left: 10px;
 }
+
+.splash-content {
+  overflow: auto;
+  font-size: 16px;
+  font-family: 'Michroma', sans-serif;
+  position: fixed;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  display: block;
+  background-color: #000;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+
+  background-size: cover;
+  background-position: center top;
+  background-image: url("/11alpha/img/AS11-40-5962.jpg");
+  background-repeat: no-repeat;
+}
+
+#block-clicks {
+  position: fixed;
+  top: 80px;
+  height: 240px;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: #FFF;
+  opacity: 0;
+}

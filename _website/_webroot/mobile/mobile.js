@@ -17,6 +17,12 @@ $(document).ready(function() {
     }
     displayHistoricalTimeDifferenceByTimeId(timeStrToTimeId(gCurrMissionTime));
     setTimeUpdatePoller();
+
+    var splashLayerSelector = document.querySelectorAll('.splash-content');
+    splashLayerSelector[0].addEventListener('click', function() {
+        $('.splash-content').hide();
+    });
+
 });
 
 function setTimeUpdatePoller() {

@@ -124,3 +124,17 @@ canvas{
 #dot61 { /*unused MOCR position*/
     background-color: #000000;
 }
+
+#controller-details {
+    position: fixed;
+}
+
+#controller-name {
+    color: #7cb7e0;
+    font-size: 13px;
+}
+
+#controller-description {
+    color: #636363;
+    font-size: 13px;
+}
