@@ -2048,8 +2048,6 @@ $(document).ready(function() {
     //myCanvasElement.css("height", $('.outer-north').height());  // fix height for broken firefox div height
     //myCanvasElement.css("width", $('.headerRight').width());
 
-    channelButtons[i].addEventListener('click', thirtyButtons_click);
-
     proportionalWidthOnPhotoBlock();
     initSplash();
 
