@@ -2,6 +2,8 @@ trace("INIT: Loading index.js");
 //app control flags
 const cStopCache = false;
 const cCdnEnabled = false;
+// const cCdnRoot = '/11mp3';
+const cCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
 const cYTSDHDListIndex = 0; //0 for SD  1 for HD
 
 //constants
@@ -82,8 +84,9 @@ var gGeoData = [];
 var gGeoCompendiumData = [];
 var gPaperData = [];
 
+//mobile detect and redirect
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    var url = "http://msn.com/";
+    var url = "/mobile/";
     $(location).attr('href',url);
 }
 
@@ -1638,24 +1641,6 @@ function getGeosampleHTML(samplenumber, paperHtml, compendiumHtml) {
     return html;
 }
 
-function toggleMOCROverlay() {
-    if (gMOCRToggled === false) {
-        var html = $('#MOCROverlayTemplate').html();
-        $('#thirtytrackplaceholder').append(html);
-        $('#soundBtn').removeClass('mute');
-        player.mute();
-        gMOCRToggled = true;
-        $('#MOCRvizIframe').load(function(){
-            console.log('iframe loaded successfully');
-        });
-    } else {
-        $('#thirtytrackplaceholder').empty();
-        $('#soundBtn').addClass('mute');
-        player.unMute();
-        gMOCRToggled = false;
-    }
-}
-
 
 function toggleFullscreen() {
     if ($(document).fullScreen() === false) {
@@ -1851,12 +1836,6 @@ jQuery(function ($) {
             //gShareButtonObject.toggle(); //this is already happening within the share button div itself.
         });
 
-    $(".thirtybtn-channel")
-        .click(function(){
-        ga('send', 'event', 'tab', 'click', 'mocr');
-        toggleMOCROverlay();
-    });
-
     //tab button events
     $("#transcriptTab").click(function(){
         ga('send', 'event', 'tab', 'click', 'transcript');
@@ -1967,7 +1946,34 @@ function proportionalWidthOnPhotoBlock() {
 function thirtyButtons_click() {
     // console.log("select-channel-button clicked: " + $(this).attr('id'));
     gActiveChannel = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2)); //get channel number from button label
+
+    if (gMOCRToggled === false) {
+        var html = $('#MOCROverlayTemplate').html();
+        html = html.replace(/@ch/g , gActiveChannel);
+        $('#thirtytrackplaceholder').append(html);
+        $('#soundBtn').removeClass('mute');
+        player.mute();
+        gMOCRToggled = true;
+        $('#MOCRvizIframe').load(function(){
+            console.log('iframe loaded successfully');
+        });
+    } else { //MOCRviz already open so just change channel
+        var MOCRvizIframeSelector = $('#MOCRvizIframe')[0];
+        MOCRvizIframeSelector.contentWindow.gActiveChannel = gActiveChannel;
+        MOCRvizIframeSelector.contentWindow.loadChannelSoundfile();
+        MOCRvizIframeSelector.contentWindow.setControllerDetails();
+        MOCRvizIframeSelector.contentWindow.playFromCurrGET();
+        MOCRvizIframeSelector.contentWindow.refreshTapeActivityDisplay(true);
+    }
 }
+
+function closeMOCRviz() {
+    $('#thirtytrackplaceholder').empty();
+    $('#soundBtn').addClass('mute');
+    player.unMute();
+    gMOCRToggled = false;
+}
+
 function thirtyButtons_hover() {
     // console.log("select-channel-button hovered: " + $(this).attr('id'));
     //show button hover
@@ -1985,7 +1991,7 @@ function refreshTapeActivityDisplay() {
     setChannelButtonColors();
 }
 function getTapeActivityRanges(activeSec) {
-    // trace("getTapeActivityRanges: " + activeSec);
+    // trace("index.js getTapeActivityRanges: " + activeSec);
     activeSec = activeSec + cCountdownSeconds;
 
     var nearestStart = Math.floor(activeSec/1000)*1000;
@@ -1998,6 +2004,9 @@ function getTapeActivityRanges(activeSec) {
     } else {
         endRange = nearestEnd;
     }
+    if (nearestStart > nearestEnd) {
+        trace("!!!!!!!!!!! getTapeActivityRanges bug")
+    }
     var tapesActivityfilename = "tape_activity_" + nearestStart.toString() + "-" + (endRange - 1).toString() + ".json";
 
     if (nearestStart !== gTapesActivityStartIndex) {
@@ -2008,7 +2017,7 @@ function getTapeActivityRanges(activeSec) {
 function ajaxGetTapesActivityDataRange(tapesActivityFilename) {
     trace("ajaxGetTapesActivityDataRange(): "  + tapesActivityFilename.toString());
 
-    var tapeActivityDataPath = '/11mp3/tape_activity/';
+    var tapeActivityDataPath = cCdnRoot + '/tape_activity/';
     var tapeActivity;
     $.when(
         $.getJSON(tapeActivityDataPath + tapesActivityFilename, function(data) {
@@ -2020,7 +2029,7 @@ function ajaxGetTapesActivityDataRange(tapesActivityFilename) {
 }
 function setChannelButtonColors() {
     if (gTapesActivityRangeArray.length > 0) {
-        var currSecondindex = Math.round(timeStrToSeconds(gCurrMissionTime) + cCountdownSeconds - gTapesActivityStartIndex - 1);
+        var currSecondindex = Math.round(timeStrToSeconds(gCurrMissionTime) + cCountdownSeconds - gTapesActivityStartIndex);
         for (var counter = 1; counter <= 60; counter++) {
             if (!cRedactedChannelsArray.includes(counter)) {
                 var buttonSelector = $('#btn-ch' + counter);
@@ -2028,16 +2037,21 @@ function setChannelButtonColors() {
 
                 if (gTapesActivityRangeArray[currSecondindex].includes(counter)) {
                     if (!buttonSelector.hasClass('thirtybtn-active')) {
-                        buttonSelector.removeClass('thirtybtn-inactive');
                         buttonSelector.addClass('thirtybtn-active');
                     }
                 } else {
-                    if (!buttonSelector.hasClass('thirtybtn-inactive')) {
+                    if (buttonSelector.hasClass('thirtybtn-active')) {
                         buttonSelector.removeClass('thirtybtn-active');
-                        buttonSelector.addClass('thirtybtn-inactive');
                     }
                 }
             }
+        }
+        $('.btn-channel').removeClass('thirtybtn-selected');
+        //if MOCRviz loaded, highlight selected channel
+        if (gMOCRToggled) {
+            var MOCRvizIframeSelector = $('#MOCRvizIframe')[0];
+            var channelnum = MOCRvizIframeSelector.contentWindow.gActiveChannel;
+            $('#btn-ch' + channelnum).addClass('thirtybtn-selected');
         }
     }
 }

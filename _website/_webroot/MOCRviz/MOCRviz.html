@@ -3,9 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="js/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="js/entypo.min.css" />
     <link rel="stylesheet" type="text/css" href="MOCRviz.css" />
     <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/jquery_plugins.js"></script>
     <script src="js/js/bootstrap.min.js"></script>
     <script src="js/peaks.js"></script>
     <script src="js/paper-full.js"></script>
@@ -16,6 +19,7 @@
     <div class="timediv" style='display: none;'>
         <span class="h4 timespan">GET: <span id="missionTimeDisplay">-20:45:06</span></span>
     </div>
+    <span class="close-btn" onclick="closeMOCRviz();">Close</span>
     <div id='canvasContainer'>
         <canvas id="myCanvas"></canvas>
     </div>

@@ -2,6 +2,9 @@ const cMissionDurationSeconds = 784086;
 const cCountdownSeconds = 74768;
 const cAppStartGET = -000109;
 
+// const cCdnRoot = '/11mp3';
+const cCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
+
 const cCanvasHeight = 350;
 const cWavVerticaloffset = (cCanvasHeight / 2 + 60);
 const cWavHeight = 100;
@@ -71,8 +74,8 @@ const cTrackInfo = {
     ch60: ['HR2 VOICE ANNOTATION', '']
 };
 
-cRedactedChannelsArray = [1, 4, 10, 30, 31, 36, 37, 38, 39, 40, 41, 60];
-cAvailableChannelsArray = [2, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 32, 33, 34, 35, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59];
+const cRedactedChannelsArray = [1, 4, 10, 30, 31, 36, 37, 38, 39, 40, 41, 60];
+const cAvailableChannelsArray = [2, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 32, 33, 34, 35, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59];
 
 const cColors = {
     activeLine: '#636363',
@@ -300,6 +303,7 @@ function mainApplication() {
         playFromCurrGET();
         refreshTapeActivityDisplay(true);
         gWaveformRefresh = true;
+        setControllerDetails();
     };
 
     // hide player element if in iframe
@@ -321,14 +325,22 @@ function mainApplication() {
 
     gPaperWaveformGroup = new paper.Group;
 
+    getChannelParameter();
     resizeAndRedrawCanvas();
     loadChannelSoundfile();
     playFromCurrGET();
     refreshTapeActivityDisplay(true);
+    setControllerDetails();
     return window.setInterval(function () {
         //trace("setIntroTimeUpdatePoller()");
         frameUpdateOnTimer();
     }, 100);
+}
+
+function getChannelParameter() {
+    var paramChannel = $.getUrlVar('ch');
+    paramChannel = decodeURIComponent(paramChannel);
+    gActiveChannel = parseInt(paramChannel);
 }
 
 function frameUpdateOnTimer() {
@@ -439,18 +451,18 @@ function loadChannelSoundfile() {
         gActiveTape = tapeData[0];
         var channel = (gActiveChannel > 30) ? gActiveChannel - 30 : gActiveChannel;
         var filename = "defluttered_A11_" + tapeData[0] + "_" + tapeData[1] + "_CH" + channel;
-        var datFile = "/11mp3/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform_512/" + filename + '.dat';
-        var audioFile = "/11mp3/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
+        var datFile = cCdnRoot + "/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform_512/" + filename + '.dat';
+        var audioFile = cCdnRoot + "/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
 
-        trace("loading tape: " + audioFile + " :datFile: " + datFile);
         if (gPlayer.src.substr(gPlayer.src.length - 20) !== audioFile.substr(audioFile.length - 20)) {
+            trace("loading tape: " + audioFile + " :datFile: " + datFile);
             gPlayer.src = audioFile;
             gPlayer.load();
             gWavDataLoaded = false;
             ajaxGetWaveData(datFile);
             drawChannelName();
         } else {
-            trace("gPlayer src already same as audioFile. Do not reload audio element or dat file.")
+            // trace("loading tape: gPlayer src already same as audioFile. Do not reload audio element or dat file.")
         }
     } else {
         trace("loadChannelSoundfile(): !!!!!!!!!!!!! No tape audio for this channel at this time");
@@ -612,6 +624,7 @@ function drawTimeCursor() {
 
     var timeText = new paper.PointText({
         justification: 'left',
+        fontFamily: 'Roboto Mono',
         fontWeight: 'bold',
         fontSize: 11,
         fillColor: cColors.cursorColor
@@ -924,6 +937,8 @@ function positionIsometricElements() {
 
         scalePercentage = scalePercentage > 0.6 ? 0.6 : scalePercentage;
         isoSelector.css('transform', 'scale(' + scalePercentage + ')');
+
+        $('#controller-details').css('top', '600px');
     } else { //if on mobile site
         isoSelector.css({"top": "305px"});
         isoWidth = isometricImageSelector.width();
@@ -1059,6 +1074,10 @@ function getTapeByGETseconds(seconds, channel) {
     return rec;
 }
 
+function closeMOCRviz() {
+    parent.closeMOCRviz();
+}
+
 // Play video function
 function playAudio() {
     if (gPlayer.paused && !gOnplaying) {
@@ -1159,7 +1178,7 @@ function ajaxGetTapesActivityDataRange(tapesActivityFilenames) {
 
     gActiveTapesActivityFilenames = tapesActivityFilenames;
 
-    var tapeActivityDataPath = '/11mp3/tape_activity/';
+    var tapeActivityDataPath = cCdnRoot + '/tape_activity/';
 
     var tapeActivity1;
     var tapeActivity2;
