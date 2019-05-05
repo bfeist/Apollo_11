@@ -340,7 +340,9 @@ function mainApplication() {
 function getChannelParameter() {
     var paramChannel = $.getUrlVar('ch');
     paramChannel = decodeURIComponent(paramChannel);
-    gActiveChannel = parseInt(paramChannel);
+    if (paramChannel !== 'undefined') {
+        gActiveChannel = parseInt(paramChannel);
+    }
 }
 
 function frameUpdateOnTimer() {
@@ -509,7 +511,7 @@ function playFromCurrGET() {
 }
 
 function refreshTapeActivityDisplay(forceRefresh) {
-    if (gWaitForPlayer == -1) {
+    if (gWaitForPlayer === -1) {
         var calcedTapesActivityFilenames = getTapeActivityRanges(gCurrGETSeconds);
         if (calcedTapesActivityFilenames[0] !== gActiveTapesActivityFilenames[0] || forceRefresh === true) {
             ajaxGetTapesActivityDataRange(calcedTapesActivityFilenames);
@@ -626,7 +628,7 @@ function drawTimeCursor() {
         justification: 'left',
         fontFamily: 'Roboto Mono',
         fontWeight: 'bold',
-        fontSize: 11,
+        fontSize: 12,
         fillColor: cColors.cursorColor
     });
     timeText.content = secondsToTimeStr(gCurrGETSeconds);
@@ -826,41 +828,43 @@ function positionChannelButtons() {
 function setChannelButtonAndDotColors() {
     var currSecondindex = Math.round(gCurrGETSeconds + cCountdownSeconds - gTapesActivityStartIndex - 1);
 
-    for (var counter = 1; counter <= 60; counter++) {
-        var buttonSelector = $('#btn-ch' + counter);
-        buttonSelector.removeClass('btn-selected');
+    if (gTapesActivityRangeArray.length !== 0) {
+        for (var counter = 1; counter <= 60; counter++) {
+            var buttonSelector = $('#btn-ch' + counter);
+            buttonSelector.removeClass('btn-selected');
 
-        if (gTapesActivityRangeArray[currSecondindex].includes(counter)) {
-            if (!buttonSelector.hasClass('btn-active')) {
-                buttonSelector.removeClass('btn-inactive');
-                buttonSelector.addClass('btn-active');
-            }
-        } else {
-            if (!buttonSelector.hasClass('btn-inactive')) {
-                buttonSelector.removeClass('btn-active');
-                buttonSelector.addClass('btn-inactive');
+            if (gTapesActivityRangeArray[currSecondindex].includes(counter)) {
+                if (!buttonSelector.hasClass('btn-active')) {
+                    buttonSelector.removeClass('btn-inactive');
+                    buttonSelector.addClass('btn-active');
+                }
+            } else {
+                if (!buttonSelector.hasClass('btn-inactive')) {
+                    buttonSelector.removeClass('btn-active');
+                    buttonSelector.addClass('btn-inactive');
+                }
             }
         }
-    }
-    var activeChannelSelector = $('#btn-ch' + gActiveChannel);
-    activeChannelSelector.addClass('btn-selected');
+        var activeChannelSelector = $('#btn-ch' + gActiveChannel);
+        activeChannelSelector.addClass('btn-selected');
 
-    for (counter = 1; counter <= 60; counter++) {
-        var dotSelector = $('#dot' + counter);
-        dotSelector.removeClass('dot-selected');
+        for (counter = 1; counter <= 60; counter++) {
+            var dotSelector = $('#dot' + counter);
+            dotSelector.removeClass('dot-selected');
 
-        if (gTapesActivityRangeArray[currSecondindex].includes(counter)) {
-            if (!dotSelector.hasClass('dot-active'))
-                dotSelector.removeClass('dot-inactive');
+            if (gTapesActivityRangeArray[currSecondindex].includes(counter)) {
+                if (!dotSelector.hasClass('dot-active'))
+                    dotSelector.removeClass('dot-inactive');
                 dotSelector.addClass('dot-active');
-        } else {
-            if (!dotSelector.hasClass('dot-inactive'))
-                dotSelector.removeClass('dot-active');
+            } else {
+                if (!dotSelector.hasClass('dot-inactive'))
+                    dotSelector.removeClass('dot-active');
                 dotSelector.addClass('dot-inactive');
+            }
         }
+        activeChannelSelector = $('#dot' + gActiveChannel);
+        activeChannelSelector.addClass('dot-selected');
     }
-    activeChannelSelector = $('#dot' + gActiveChannel);
-    activeChannelSelector.addClass('dot-selected'); 
 }
 
 function channelButtons_click() {
@@ -938,7 +942,7 @@ function positionIsometricElements() {
         scalePercentage = scalePercentage > 0.6 ? 0.6 : scalePercentage;
         isoSelector.css('transform', 'scale(' + scalePercentage + ')');
 
-        $('#controller-details').css('top', '600px');
+        $('#controller-details').css('top', '610px');
     } else { //if on mobile site
         isoSelector.css({"top": "305px"});
         isoWidth = isometricImageSelector.width();
