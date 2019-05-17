@@ -53,7 +53,8 @@
         ga('send', 'pageview');
     </script>
     <script type="text/javascript" src="lib/webfontloader.js"></script>
-    <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
+<!--    <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script type="text/javascript" src="lib/jquery_plugins.js"></script>
     <script type="text/javascript" src="lib/jquery.fullscreen.js"></script>
     <script type="text/javascript" src='lib/jquery.lazyload.js'></script>

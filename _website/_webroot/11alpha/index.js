@@ -2,7 +2,7 @@ trace("INIT: Loading index.js");
 //app control flags
 const cStopCache = false;
 const cCdnEnabled = false;
-// const cCdnRoot = '/11mp3';
+// const cSpacesCdnRoot = '/11mp3';
 const cCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
 const cYTSDHDListIndex = 0; //0 for SD  1 for HD
 

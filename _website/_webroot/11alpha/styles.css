@@ -896,10 +896,10 @@ canvas[resize] {
 .help-overlay.body .quote .attribution {
   /*font-size: 20px;*/
   color: #999999;
-  margin-top: 20px;
+  margin-top: 5px;
     /*line-height: 29px;*/
         font-style: normal;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.2;
 }
 .help-overlay.body .credits {
@@ -917,7 +917,7 @@ canvas[resize] {
 .help-overlay.body .credits .section-header {
   color: #FFF;
   /*font-size: 18px;*/
-  font-size: 1.25em;
+  font-size: 1.45em;
 }
 .help-overlay.body .credits .accent {
   color: #EEEEEE;

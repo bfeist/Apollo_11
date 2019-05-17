@@ -2,8 +2,12 @@ const cMissionDurationSeconds = 784086;
 const cCountdownSeconds = 74768;
 const cAppStartGET = -000109;
 
-// const cCdnRoot = '/11mp3';
-const cCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
+// const cSpacesCdnRoot = '/11mp3';
+const cSpacesCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
+// const cSpacesCdnRoot = 'https://apollortdospace-26f5.kxcdn.com ';
+
+const cWebCdnRoot = '';
+// const cWebCdnRoot = 'https://apollort-26f5.kxcdn.com';
 
 const cCanvasHeight = 350;
 const cWavVerticaloffset = (cCanvasHeight / 2 + 60);
@@ -453,8 +457,8 @@ function loadChannelSoundfile() {
         gActiveTape = tapeData[0];
         var channel = (gActiveChannel > 30) ? gActiveChannel - 30 : gActiveChannel;
         var filename = "defluttered_A11_" + tapeData[0] + "_" + tapeData[1] + "_CH" + channel;
-        var datFile = cCdnRoot + "/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform_512/" + filename + '.dat';
-        var audioFile = cCdnRoot + "/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
+        var datFile = cSpacesCdnRoot + "/" + tapeData[0] + "_defluttered_mp3_16/audiowaveform_512/" + filename + '.dat';
+        var audioFile = cSpacesCdnRoot + "/" + tapeData[0] + "_defluttered_mp3_16/" + filename + '.mp3';
 
         if (gPlayer.src.substr(gPlayer.src.length - 20) !== audioFile.substr(audioFile.length - 20)) {
             trace("loading tape: " + audioFile + " :datFile: " + datFile);
@@ -1098,7 +1102,7 @@ function pauseAudio() {
 
 //------------ data import
 function ajaxGetTapeRangeData() {
-    var urlStr = "data/tape_ranges.csv";
+    var urlStr = cWebCdnRoot + "/MOCRviz/data/tape_ranges.csv";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -1182,7 +1186,7 @@ function ajaxGetTapesActivityDataRange(tapesActivityFilenames) {
 
     gActiveTapesActivityFilenames = tapesActivityFilenames;
 
-    var tapeActivityDataPath = cCdnRoot + '/tape_activity/';
+    var tapeActivityDataPath = cSpacesCdnRoot + '/tape_activity/';
 
     var tapeActivity1;
     var tapeActivity2;
