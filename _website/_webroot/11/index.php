@@ -166,7 +166,7 @@
 
 <script type="text/html" id="MOCROverlayTemplate">
     <div class="thirtytrack-overlay">
-        <iframe id="MOCRvizIframe" src="/MOCRviz/MOCRviz.html?v=0.1&ch=@ch" style="display: block; width: 100%; height: 100%; border: none;"></iframe>
+        <iframe id="MOCRvizIframe" src="./MOCRviz/MOCRviz.html?v=0.1&ch=@ch" style="display: block; width: 100%; height: 100%; border: none;"></iframe>
     </div>
 </script>
 
