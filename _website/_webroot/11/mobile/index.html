@@ -1,29 +1,47 @@
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="mobile.css" />
+    <link rel="stylesheet" type="text/css" href="./mobile.css" />
     <link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet'>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script type="text/javascript" src="lib/jquery-2.1.4.js"></script>
     <script type="text/javascript" src="lib/date.js"></script>
-    <script type="text/javascript" src="mobile.js"></script>
+    <script type="text/javascript" src="./mobile.js"></script>
 </head>
 <body>
-<div class="content-wrapper">
-    <h1>Apollo 11 in Real Time</h1>
-    <h2>A real-time journey through the first landing on the Moon.</h2>
+<div class="title-content">
+    <div class="content-wrapper">
+        <div class="patch"></div>
+        <div class="patch-right">
+            <div class="heading-wrapper">
+                <div class="heading">APOLLO 11</div>
+                <div class="heading-realtime">IN REAL TIME</div>
+            </div>
+            <div class="subheading1">Follow the first landing on the Moon</div>
+        </div>
+    </div>
+    <div class="histtime">
+        <span class="historicalDate date">Thu Dec 07 1972</span>
+        <span class="historicalTime time">12:32:00 AM</span>
+        <!--<span class="missionElapsedTime time">000:00:00</span>-->
+    </div>
 </div>
-<div class="histtime">
-    <span class="historicalDate date">Thu Dec 07 1972</span>
-    <span class="historicalTime time">12:32:00 AM</span>
-    <!--<span class="missionElapsedTime time">000:00:00</span>-->
-</div>
-<iframe id="MOCRvizIframe" src="../MOCRviz/MOCRviz.html" style="display: block; width: 100%; height: 100%; border: none;"></iframe>
-<div id="block-clicks">
-</div>
+<div id="thirtytrack-iframe"></div>
+<!--<div id="block-clicks">-->
+<!--</div>-->
 <div class="splash-content">
-    Testing
+    <div class="splash-btn-container">
+        <a class="splash-btn" onclick="historicalButtonClick(); return false;">
+            <span id="labelRealtime" class="splash-btn-title">Join in Progress</span>
+        </a>
+    </div>
 </div>
 </body>
+
+<script type="text/html" id="MOCROverlayTemplate">
+    <iframe id="MOCRvizIframe" src="../MOCRviz/MOCRviz.html" style="display: block; width: 100%; height: 100%; border: none;"></iframe>
+</script>
+
 </html>

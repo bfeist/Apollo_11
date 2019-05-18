@@ -34,10 +34,10 @@ h3 {
 
 .splash-content {
   overflow: auto;
-  font-size: 16px;
+  font-size: 1e,;
   font-family: 'Michroma', sans-serif;
   position: fixed;
-  top: 80px;
+  top: 70px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -49,17 +49,140 @@ h3 {
 
   background-size: cover;
   background-position: center top;
-  background-image: url("/11alpha/img/AS11-40-5962.jpg");
+  background-image: url("../img/AS11-40-5962.jpg");
   background-repeat: no-repeat;
 }
 
 #block-clicks {
   position: fixed;
-  top: 80px;
+  top: 70px;
   height: 240px;
   left: 0;
   right: 0;
   display: block;
   background-color: #FFF;
   opacity: 0;
+}
+
+.title-content .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: relative;
+
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),1px 1px 9px rgba(0, 0, 0, 1)
+}
+
+.title-content .content-wrapper:after {
+    content: " ";
+    clear: both;
+    display: block;
+    /*border-right: 1px solid #444;*/
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 1px;
+}
+.title-content .patch {
+    background-image: url("../img/Apollo_11_insignia_200.png");
+    width: 3em;
+    height:3em;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    flex: none;
+    margin-right: 10px;
+}
+
+.title-content .patch-right {
+    flex: none;
+}
+
+.title-content .heading-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title-content .heading {
+    font-family: 'Michroma', sans-serif;
+    font-size: 1.1em;
+    color: #FFF;
+    line-height: 1;
+    flex: none;
+    /*margin-bottom: 6px;*/
+}
+
+.title-content .heading-realtime {
+    font-family: 'Michroma', sans-serif;
+    flex: none;
+    background-color: white;
+    color: black;
+    font-size: 0.6em;
+    font-weight: bold;
+
+    padding: 2 12 4 12;
+    margin-left: 20px;
+    border-radius: 5px;
+
+    text-shadow: none;
+}
+
+.title-content .subheading1 {
+    font-family: 'Roboto Mono', sans-serif;
+    color: white;
+    font-size: 0.7em;
+    margin-top: 0.8em;
+}
+
+.title-content .subheading2 {
+    font-family: 'Roboto Mono', sans-serif;
+    color: #5E92A6;
+    font-size: 0.5em;
+}
+
+.splash-btn-container {
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.splash-btn {
+    flex: none;
+    margin-right: 0.8em;
+    border-radius: 4px;
+    display: block;
+    float: left;
+    padding: 0.6em 1em 1em 1em;
+    width: 6em;
+    font-size: 1em;
+    transition: all .15s ease-in-out;
+
+    /*font-family: 'Michroma', sans-serif;*/
+    font-family: 'Oswald', sans-serif;
+    /*font-family: 'Roboto Mono', sans-serif;*/
+    /*font-weight: 700;*/
+
+    -webkit-transition: all .15s ease-in-out;
+
+    cursor: pointer;
+    box-shadow: inset -1px -1px 7px 3px rgba(0, 0, 0, 0.25);
+    /*background-color: #5E92A6;*/
+    background-color: rgba(94, 146, 166, .9);
+    border-right: 1px solid rgb(93, 153, 177);
+    border-bottom: 1px solid rgb(93, 153, 177);
+}
+
+.splash-btn-title {
+    font-family: 'Michroma', sans-serif;
+    font-weight: 700;
 }

@@ -20,6 +20,9 @@ $(document).ready(function() {
 
     var splashLayerSelector = document.querySelectorAll('.splash-content');
     splashLayerSelector[0].addEventListener('click', function() {
+        var html = $('#MOCROverlayTemplate').html();
+        $('#thirtytrack-iframe').append(html);
+
         $('.splash-content').hide();
     });
 
@@ -32,6 +35,8 @@ function setTimeUpdatePoller() {
             // gCurrMissionTime = secondsToTimeStr(MOCRvizIframeSelector.contentWindow.gCurrGETSeconds);
             gCurrMissionTime = secondsToTimeStr(timeStrToSeconds(gCurrMissionTime) + 1);
             displayHistoricalTimeDifferenceByTimeId(timeStrToTimeId(gCurrMissionTime));
+
+            $('#MOCRvizIframe').contents().find(".close-btn").css('display', 'none');
         }
     }, 1000);
 }

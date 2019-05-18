@@ -1756,6 +1756,7 @@ header {
 
 .thirtybtn-channel {
     border: none;
+    border-radius: 3px;
     width: 70px;
     font-family: 'Roboto Mono', sans-serif;
     font-size: 11px;
@@ -1764,7 +1765,7 @@ header {
     white-space:nowrap;
     background-color: #292929;
     color: #595959;
-    padding: 1px 1px;
+    padding: 1px 2px;
     margin-bottom: 2px;
 }
 

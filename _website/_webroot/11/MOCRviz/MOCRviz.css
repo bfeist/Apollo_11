@@ -62,7 +62,8 @@ canvas{
 .btn-channel {
     border: none;
     /*width: 100px;*/
-    font-family: "Roboto Mono";
+    border-radius: 3px;
+    font-family: "Roboto Mono", sans-serif;
     font-weight: bold;
     white-space:nowrap;
     background-color: #292929;
