@@ -1229,6 +1229,7 @@ function ajaxGetWaveData(url) {
         trace("APPREADY: gWaveform Ajax loaded");
         // trace(gWaveform512.duration);
         gWavDataLoaded = true;
+        gWaveformRefresh = true;
         // wavDataLoaded();
     });
     xhr.send();
