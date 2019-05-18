@@ -1326,6 +1326,25 @@ body.app-ready .splash-btn.activated.selected {
     background-color: #c0c0c0;
 }
 
+.splash-btn.credits {
+    display: block;
+    float: left;
+    width: 10em;
+    height: 1em;
+    font-size: 1em;
+    /*font-family: 'Michroma', sans-serif;*/
+    font-family: 'Oswald', sans-serif;
+    /*font-family: 'Roboto Mono', sans-serif;*/
+    /*font-weight: 700;*/
+    border-right: 1px solid rgba(130, 130, 130, .65);
+    border-bottom: 1px solid rgba(130, 130, 130, .65);
+    background-color: #828282;
+    /*background-color: rgba(130, 130, 130, .8);*/
+    box-shadow: inset -1px -1px 7px 3px #515151;
+    padding: 1em 1em 2.3em 1em;
+    margin-top: 2em;
+}
+
 
 .blink_me {
     animation: blinker 0.2s linear 2;

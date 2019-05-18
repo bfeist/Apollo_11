@@ -74,9 +74,9 @@
 
   <?php include "inc/app.html"; ?>
 
-  <?php include "inc/help_about.html"; ?>
-
   <?php include "inc/splash.html"; ?>
+
+  <?php include "inc/help_about.html"; ?>
 
 </body>
 

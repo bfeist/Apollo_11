@@ -1829,6 +1829,16 @@ jQuery(function ($) {
 
             //gShareButtonObject.toggle();
         });
+    $("#aboutSplashBtn")
+        .click(function(){
+            ga('send', 'event', 'button', 'click', 'help');
+
+            $('[data-js-class="HelpOverlayManager"]').each(function() {
+                $(this).data('helpOverlayManager').showHelp();
+            });
+
+            //gShareButtonObject.toggle();
+        });
 
     $("#shareBtn")
         .click(function(){
