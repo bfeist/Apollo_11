@@ -1102,7 +1102,7 @@ function pauseAudio() {
 
 //------------ data import
 function ajaxGetTapeRangeData() {
-    var urlStr = cWebCdnRoot + "/MOCRviz/data/tape_ranges.csv";
+    var urlStr = cWebCdnRoot + "./data/tape_ranges.csv";
     return $.ajax({
         type: "GET",
         url: urlStr,
