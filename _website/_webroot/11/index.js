@@ -2025,7 +2025,7 @@ function getTapeActivityRanges(activeSec) {
     }
 }
 function ajaxGetTapesActivityDataRange(tapesActivityFilename) {
-    trace("ajaxGetTapesActivityDataRange(): "  + tapesActivityFilename.toString());
+    trace("ajaxGetTapesActivityDataRange()main: "  + tapesActivityFilename.toString());
 
     var tapeActivityDataPath = cCdnRoot + '/tape_activity/';
     var tapeActivity;

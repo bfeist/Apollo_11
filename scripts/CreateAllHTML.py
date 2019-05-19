@@ -3,7 +3,7 @@ import operator
 from quik import FileLoader
 
 # -------------------- Write Utterance Data
-output_utterance_data_file_name_and_path = "../_website/_webroot/11alpha/indexes/utteranceData.csv"
+output_utterance_data_file_name_and_path = "../_website/_webroot/11/indexes/utteranceData.csv"
 output_utterance_data_file = open(output_utterance_data_file_name_and_path, "w")
 output_utterance_data_file.write("")
 output_utterance_data_file.close()
@@ -32,7 +32,7 @@ for utterance_row in utterance_reader:
 output_utterance_data_file.close()
 
 # WRITE ALL commentary ITEMS
-output_commentary_data_file_name_and_path = "../_website/_webroot/11alpha/indexes/commentaryData.csv"
+output_commentary_data_file_name_and_path = "../_website/_webroot/11/indexes/commentaryData.csv"
 output_commentary_data_file = open(output_commentary_data_file_name_and_path, "w")
 output_commentary_data_file.write("")
 output_commentary_data_file.close()
@@ -55,7 +55,7 @@ output_commentary_data_file.close()
 
 
 # --------------------------------- Write photo index
-output_photo_index_file_name_and_path = "../_website/_webroot/11alpha/indexes/photoData.csv"
+output_photo_index_file_name_and_path = "../_website/_webroot/11/indexes/photoData.csv"
 output_photo_index_file = open(output_photo_index_file_name_and_path, "w")
 output_photo_index_file.write("")
 output_photo_index_file.close()
@@ -93,14 +93,14 @@ output_photo_index_file.close()
 # -------------------- Write TOC
 template_loader = FileLoader('./templates')
 
-output_TOC_file_name_and_path = "../_website/_webroot/11alpha/TOC.php"
+output_TOC_file_name_and_path = "../_website/_webroot/11/TOC.php"
 output_TOC_file = open(output_TOC_file_name_and_path, "w")
 output_TOC_file.write("")
 output_TOC_file.close()
 
 output_TOC_file = open(output_TOC_file_name_and_path, "ab")
 
-output_TOC_index_file_name_and_path = "../_website/_webroot/11alpha/indexes/TOCData.csv"
+output_TOC_index_file_name_and_path = "../_website/_webroot/11/indexes/TOCData.csv"
 output_TOC_index_file = open(output_TOC_index_file_name_and_path, "w")
 output_TOC_index_file.write("")
 output_TOC_index_file.close()

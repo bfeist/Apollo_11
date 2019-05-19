@@ -102,6 +102,7 @@ var gActiveChannel = 14;
 var gTapesActivityRangeArray = [];
 var gTapesActivityStartIndex;
 var gActiveTapesActivityFilenames = ["", "", ""];
+var gGettingTapeActivity = false;
 
 var gCurrGETSeconds = cAppStartGET;
 var gLastRoundedGET = cAppStartGET;
@@ -304,7 +305,7 @@ function mainApplication() {
             parent.seekToTime(secondsToTimeId(gCurrGETSeconds));
         }
 
-        playFromCurrGET();
+        playFromCurrGET(false);
         refreshTapeActivityDisplay(true);
         gWaveformRefresh = true;
         setControllerDetails();
@@ -332,7 +333,7 @@ function mainApplication() {
     getChannelParameter();
     resizeAndRedrawCanvas();
     loadChannelSoundfile();
-    playFromCurrGET();
+    playFromCurrGET(true);
     refreshTapeActivityDisplay(true);
     setControllerDetails();
     return window.setInterval(function () {
@@ -375,7 +376,7 @@ function frameUpdateOnTimer() {
                 gCurrGETSeconds = parentMissionTimeSeconds;
                 loadChannelSoundfile();
                 gWaveformRefresh = true;
-                playFromCurrGET();
+                playFromCurrGET(false);
                 refreshTapeActivityDisplay(true);
                 drawTimeCursor();
             }
@@ -499,15 +500,17 @@ function drawChannelName() {
     // document.getElementById("channelDescription").innerHTML = cTrackInfo['ch' + gActiveChannel][1];
 }
 
-function playFromCurrGET() {
+function playFromCurrGET(syncWithParent) {
     trace("playFromCurrGET()");
 
     var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
 
-    // SYNC WITH PARENT GET CLOCK
-    if (parent.gCurrMissionTime !== '' && parent.gCurrMissionTime !== undefined) {
-        var parentMissionTimeSeconds = timeStrToSeconds(parent.gCurrMissionTime);
-        gCurrGETSeconds = parentMissionTimeSeconds;
+    if (syncWithParent) {
+        // SYNC WITH PARENT GET CLOCK
+        if (parent.gCurrMissionTime !== '' && parent.gCurrMissionTime !== undefined) {
+            var parentMissionTimeSeconds = timeStrToSeconds(parent.gCurrMissionTime);
+            gCurrGETSeconds = parentMissionTimeSeconds;
+        }
     }
     var tapeCueTimeSeconds = gCurrGETSeconds - timeStrToSeconds(tapeData[2]);
 
@@ -518,6 +521,7 @@ function refreshTapeActivityDisplay(forceRefresh) {
     if (gWaitForPlayer === -1) {
         var calcedTapesActivityFilenames = getTapeActivityRanges(gCurrGETSeconds);
         if (calcedTapesActivityFilenames[0] !== gActiveTapesActivityFilenames[0] || forceRefresh === true) {
+            trace("refreshTapeActivityDisplay(): gCurrGETSeconds: " + gCurrGETSeconds);
             ajaxGetTapesActivityDataRange(calcedTapesActivityFilenames);
         } else {
             drawChannels(false);
@@ -830,7 +834,7 @@ function positionChannelButtons() {
 }
 
 function setChannelButtonAndDotColors() {
-    var currSecondindex = Math.round(gCurrGETSeconds + cCountdownSeconds - gTapesActivityStartIndex - 1);
+    var currSecondindex = Math.round(gCurrGETSeconds + cCountdownSeconds - gTapesActivityStartIndex);
 
     if (gTapesActivityRangeArray.length !== 0) {
         for (var counter = 1; counter <= 60; counter++) {
@@ -876,7 +880,7 @@ function channelButtons_click() {
 
     gActiveChannel = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2)); //get channel number from button label
     loadChannelSoundfile();
-    playFromCurrGET();
+    playFromCurrGET(true);
     refreshTapeActivityDisplay(true);
     gWaveformRefresh = true;
     setControllerDetails();
@@ -1041,7 +1045,7 @@ function isometric_dots_hover() {
 function isometric_dots_click() {
     gActiveChannel = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('dot') + 3)); //get channel number from dot label
     loadChannelSoundfile();
-    playFromCurrGET();
+    playFromCurrGET(true);
     refreshTapeActivityDisplay(true);
     gWaveformRefresh = true;
     setControllerDetails();
@@ -1182,8 +1186,6 @@ function getTapeActivityRanges(activeSec) {
 }
 
 function ajaxGetTapesActivityDataRange(tapesActivityFilenames) {
-    trace("ajaxGetTapesActivityDataRange(): "  + tapesActivityFilenames.toString());
-
     gActiveTapesActivityFilenames = tapesActivityFilenames;
 
     var tapeActivityDataPath = cSpacesCdnRoot + '/tape_activity/';
@@ -1192,29 +1194,37 @@ function ajaxGetTapesActivityDataRange(tapesActivityFilenames) {
     var tapeActivity2;
     var tapeActivity3;
 
-    $.when(
-        $.getJSON(tapeActivityDataPath + tapesActivityFilenames[0], function(data) {
-            tapeActivity1 = data;
-        }),
-        $.getJSON(tapeActivityDataPath + tapesActivityFilenames[1], function(data) {
-            tapeActivity2 = data;
-        }),
-        $.getJSON(tapeActivityDataPath + tapesActivityFilenames[2], function(data) {
-            tapeActivity3 = data;
-        })
-    ).then(function() {
+    if (!gGettingTapeActivity) {
+        trace("ajaxGetTapesActivityDataRange()MOCRviz: "  + tapesActivityFilenames.toString());
+        gGettingTapeActivity = true;
         gTapesActivityRangeArray = [];
-        gTapesActivityRangeArray = gTapesActivityRangeArray.concat(tapeActivity1);
-        gTapesActivityRangeArray = gTapesActivityRangeArray.concat(tapeActivity2);
-        gTapesActivityRangeArray = gTapesActivityRangeArray.concat(tapeActivity3);
+        $.when(
+            $.getJSON(tapeActivityDataPath + tapesActivityFilenames[0], function (data) {
+                tapeActivity1 = data;
+            }),
+            $.getJSON(tapeActivityDataPath + tapesActivityFilenames[1], function (data) {
+                tapeActivity2 = data;
+            }),
+            $.getJSON(tapeActivityDataPath + tapesActivityFilenames[2], function (data) {
+                tapeActivity3 = data;
+            })
+        ).then(function () {
+            gGettingTapeActivity = false;
+            gTapesActivityRangeArray = [];
+            gTapesActivityRangeArray = gTapesActivityRangeArray.concat(tapeActivity1);
+            gTapesActivityRangeArray = gTapesActivityRangeArray.concat(tapeActivity2);
+            gTapesActivityRangeArray = gTapesActivityRangeArray.concat(tapeActivity3);
 
-        drawChannels(true);
-        drawTimeCursor();
-    });
+            drawChannels(true);
+            drawTimeCursor();
+        });
+    }
 }
 
 function ajaxGetWaveData(url) {
     const xhr = new XMLHttpRequest();
+
+    gWavDataLoaded = false;
 // .dat file generated by audiowaveform program
     xhr.responseType = 'arraybuffer';
     xhr.open("GET", url);
