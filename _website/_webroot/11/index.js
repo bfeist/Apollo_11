@@ -50,6 +50,8 @@ var gCurrentHighlightedCommentaryIndex;
 var gDashboardManuallyToggled = false;
 var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
 var gMissionTimeParamSent = 0;
+
+var gActiveChannel;
 var gMOCRToggled = false;
 
 var gTapesActivityStartIndex = 0;
@@ -403,7 +405,6 @@ function initializePlayback() {
         seekToTime(cDefaultStartTimeId);
     } else {
         var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
-        //paramMissionTime = paramMissionTime.replace(/%3A/g, ":");
         paramMissionTime = decodeURIComponent(paramMissionTime);
         if (paramMissionTime === 'rt') {
             historicalButtonClick();
@@ -413,6 +414,22 @@ function initializePlayback() {
             //repopulateUtterances(findClosestUtterance(timeStrToSeconds(paramMissionTime)));
             //repopulateCommentary(findClosestCommentary(timeStrToSeconds(paramMissionTime)));
             seekToTime(timeStrToTimeId(paramMissionTime));
+        }
+
+        if (typeof $.getUrlVar('ch') !== "undefined") {
+            //open mocr channel
+            var paramMOCRchannel = $.getUrlVar('ch');
+            gActiveChannel = decodeURIComponent(paramMOCRchannel);
+
+            var html = $('#MOCROverlayTemplate').html();
+            html = html.replace(/@ch/g, gActiveChannel);
+            $('#thirtytrackplaceholder').append(html);
+            $('#soundBtn').removeClass('mute');
+            player.mute();
+            gMOCRToggled = true;
+            $('#MOCRvizIframe').load(function () {
+                console.log('iframe loaded successfully');
+            });
         }
     }
     clearInterval(gApplicationReadyIntervalID);
@@ -2142,9 +2159,14 @@ $(document).ready(function() {
             // },
             twitter: {
                 before: function() {
-                    var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
-                    this.url = "http://apolloinrealtime.org/11/?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
-                    this.description = "%23Apollo11 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2].substr(0, 67) + "... %23NASA";
+                    if (gMOCRToggled) {
+                        this.url = "https://apolloinrealtime.org/11/?t=" + gCurrMissionTime + "%26ch=" + $('#MOCRvizIframe')[0].contentWindow.gActiveChannel;
+                        this.description = "%23Apollo11 in Real-time. Mission control audio channel " + $('#MOCRvizIframe')[0].contentWindow.cTrackInfo['ch' + $('#MOCRvizIframe')[0].contentWindow.gActiveChannel][0] + " at " + gCurrMissionTime + " %23NASA";
+                    } else {
+                        var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
+                        this.url = "https://apolloinrealtime.org/11!/?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
+                        this.description = "%23Apollo11 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2].substr(0, 67) + "... %23NASA";
+                    }
                 },
                 after: function() {
                     trace("User shared twitter: ", this.url);
@@ -2157,7 +2179,7 @@ $(document).ready(function() {
                 before: function() {
                     var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
                     this.title = "Apollo 11 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]);
-                    this.description = sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2] + "     " + "http://apolloinrealtime.org/11/?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
+                    this.description = sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2] + "     " + "https://apolloinrealtime.org/11/?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
                 },
                 after: function() {
                     trace("User shared email: ", this.title);

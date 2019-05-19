@@ -15,7 +15,7 @@ const cWavHeight = 100;
 const cChannelStrokeWidth = 4;
 const cFillerStrokeWidth = 1;
 
-const cTrackInfo = {
+var cTrackInfo = {
     ch1: ['HR1 Datastream', ''],
     ch2: ['FLIGHT OPS DIR', 'Overall responsibility for the mission interface to program Management.'],
     ch3: ['MISSION DIRECTOR', 'The primary interface between NASA Headquarters and the Flight Control Team.'],
