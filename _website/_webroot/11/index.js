@@ -2046,11 +2046,11 @@ function ajaxGetTapesActivityDataRange(tapesActivityFilename) {
 
     var tapeActivityDataPath = cCdnRoot + '/tape_activity/';
     var tapeActivity;
+    gTapesActivityRangeArray = [];
     $.when(
         $.getJSON(tapeActivityDataPath + tapesActivityFilename, function(data) {
             tapeActivity = data;})
     ).then(function() {
-        gTapesActivityRangeArray = [];
         gTapesActivityRangeArray = tapeActivity;
     });
 }

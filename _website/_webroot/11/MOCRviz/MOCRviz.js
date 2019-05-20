@@ -384,7 +384,6 @@ function frameUpdateOnTimer() {
             } else {
                 gCurrGETSeconds = parentMissionTimeSeconds;
                 loadChannelSoundfile();
-                gWaveformRefresh = true;
                 playFromCurrGET(false);
                 refreshTapeActivityDisplay(true);
                 drawTimeCursor();
@@ -510,9 +509,7 @@ function drawChannelName() {
 }
 
 function playFromCurrGET(syncWithParent) {
-    trace("playFromCurrGET()");
-
-    var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
+    // trace("playFromCurrGET(): syncWithParent: " + syncWithParent);
 
     if (syncWithParent) {
         // SYNC WITH PARENT GET CLOCK
@@ -520,8 +517,10 @@ function playFromCurrGET(syncWithParent) {
             gCurrGETSeconds = timeStrToSeconds(parent.gCurrMissionTime);
         }
     }
+    var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
     var tapeCueTimeSeconds = gCurrGETSeconds - timeStrToSeconds(tapeData[2]);
 
+    // trace("playFromCurrGET(): gWaitForPlayer: " + tapeCueTimeSeconds);
     gWaitForPlayer = tapeCueTimeSeconds;
 }
 
