@@ -330,6 +330,11 @@ function mainApplication() {
 
     gPaperWaveformGroup = new paper.Group;
 
+    // SYNC WITH PARENT GET CLOCK
+    if (parent.gCurrMissionTime !== '' && parent.gCurrMissionTime !== undefined) {
+        gCurrGETSeconds = timeStrToSeconds(parent.gCurrMissionTime);
+    }
+
     getChannelParameter();
     resizeAndRedrawCanvas();
     loadChannelSoundfile();
@@ -363,7 +368,11 @@ function frameUpdateOnTimer() {
             gPlayer.currentTime = gWaitForPlayer;
             playAudio();
             gWaitForPlayer = -1;
-            refreshTapeActivityDisplay(true);
+            trace("frameUpdateOnTimer(): play command issued");
+            setTimeout(function () {
+                trace("frameUpdateOnTimer(): timeout fired to refreshTapeActivityDisplay");
+                refreshTapeActivityDisplay(true);
+            }, 500);
         }
     }
     if (!gPlayer.paused) {
@@ -508,8 +517,7 @@ function playFromCurrGET(syncWithParent) {
     if (syncWithParent) {
         // SYNC WITH PARENT GET CLOCK
         if (parent.gCurrMissionTime !== '' && parent.gCurrMissionTime !== undefined) {
-            var parentMissionTimeSeconds = timeStrToSeconds(parent.gCurrMissionTime);
-            gCurrGETSeconds = parentMissionTimeSeconds;
+            gCurrGETSeconds = timeStrToSeconds(parent.gCurrMissionTime);
         }
     }
     var tapeCueTimeSeconds = gCurrGETSeconds - timeStrToSeconds(tapeData[2]);
@@ -521,7 +529,7 @@ function refreshTapeActivityDisplay(forceRefresh) {
     if (gWaitForPlayer === -1) {
         var calcedTapesActivityFilenames = getTapeActivityRanges(gCurrGETSeconds);
         if (calcedTapesActivityFilenames[0] !== gActiveTapesActivityFilenames[0] || forceRefresh === true) {
-            trace("refreshTapeActivityDisplay(): gCurrGETSeconds: " + gCurrGETSeconds);
+            trace("refreshTapeActivityDisplay()MOCRviz: gCurrGETSeconds: " + gCurrGETSeconds);
             ajaxGetTapesActivityDataRange(calcedTapesActivityFilenames);
         } else {
             drawChannels(false);
