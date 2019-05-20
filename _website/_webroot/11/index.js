@@ -1,21 +1,21 @@
 trace("INIT: Loading index.js");
 //app control flags
-const cStopCache = false;
-const cCdnEnabled = false;
+var cStopCache = false;
+var cCdnEnabled = false;
 // const cSpacesCdnRoot = '/11mp3';
-const cCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
-const cYTSDHDListIndex = 0; //0 for SD  1 for HD
+var cCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
+var cYTSDHDListIndex = 0; //0 for SD  1 for HD
 
 //constants
-const cMissionDurationSeconds = 713311;
-const cCountdownSeconds = 74768;
-const cDefaultStartTimeId = '-000109';
-const cLaunchDate = Date.parse("1969-07-16 9:33 -500");
-const cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -500");
+var cMissionDurationSeconds = 713311;
+var cCountdownSeconds = 74768;
+var cDefaultStartTimeId = '-000109';
+var cLaunchDate = Date.parse("1969-07-16 9:33 -500");
+var cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -500");
 
-const cBackground_color_active = "#222222";
+var cBackground_color_active = "#222222";
 
-const cRedactedChannelsArray = [1, 4, 10, 30, 31, 36, 37, 38, 39, 40, 41, 60];
+var cRedactedChannelsArray = [1, 4, 10, 30, 31, 36, 37, 38, 39, 40, 41, 60];
 
 //global control objects
 var player;
@@ -94,7 +94,11 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 //load the youtube API
 var tag = document.createElement('script');
-tag.src = "https://www.youtube.com/iframe_api";
+if (window.location.protocol === 'https:') {
+    tag.src = "https://www.youtube.com/iframe_api";
+} else {
+    tag.src = "http://www.youtube.com/iframe_api";
+}
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
