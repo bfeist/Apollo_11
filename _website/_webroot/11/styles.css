@@ -742,6 +742,7 @@ canvas[resize] {
       width: 55%;
     padding-left: 9%;
       text-align: right;
+    font-size: .89em;
 }
 
 .help-overlay.body .quote a {
@@ -764,10 +765,11 @@ canvas[resize] {
     width: 100%;
 }
 
-.help-overlay.body .credits {
-  width: 40%;
-  /*padding-right: 5%;*/
-  padding-right: 0%;
+.help-overlay.body .quote .section-header {
+    /*color: #FFF;*/
+    color: #5E92A6;
+    /*font-size: 18px;*/
+    font-size: 1.45em;
 }
 .help-overlay.body .quote .text {
   /*font-size: 24px;*/
@@ -777,19 +779,32 @@ canvas[resize] {
     line-height: 1.4;
 }
 .help-overlay.body .quote .attribution {
-  /*font-size: 20px;*/
-  color: #999999;
-  margin-top: 5px;
+    /*font-size: 20px;*/
+    color: #999999;
+    margin-top: 5px;
     /*line-height: 29px;*/
-        font-style: normal;
+    font-style: normal;
     font-size: 0.8em;
     line-height: 1.2;
 }
+.help-overlay.body .quote .intro p {
+    /*font-size: 20px;*/
+    color: #999999;
+    margin-top: 5px;
+    /*line-height: 29px;*/
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
 .help-overlay.body .credits {
-  /*font-size: 16px;*/
-  color: #999999;
-  /*line-height: 20px;*/
-  font-size: .89em;
+    width: 40%;
+    /*padding-right: 5%;*/
+    padding-right: 0;
+    /*font-size: 16px;*/
+    color: #999999;
+    /*line-height: 20px;*/
+    font-size: .89em;
     overflow-y: auto;
 }
 .help-overlay.body .credits p {

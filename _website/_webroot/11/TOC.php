@@ -494,6 +494,9 @@
     <li onclick="parent.seekToTime('1003736')" class="tocitem" id="tocid1003736"><span class="TOCTimestamp">100:37:36</span>
         <span class="TOC_item">Somebody's upside-down.</span>
     </li>
+    <li onclick="parent.seekToTime('1003953')" class="tocitem" id="tocid1003953"><span class="TOCTimestamp">100:39:53</span>
+        <span class="TOC_item">Pre-landing separation</span>
+    </li>
     <li onclick="parent.seekToTime('1011732')" class="tocitem" id="tocid1011732"><span class="TOCTimestamp">101:17:32</span>
         <span class="TOC_item">GO/NO-GO for DOI</span>
     </li>
