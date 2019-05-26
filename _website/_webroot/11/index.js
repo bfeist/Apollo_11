@@ -1545,7 +1545,11 @@ function updateGeosampleOverlay(geoDataIndex) {
         for (var compendiumCounter = 0; compendiumCounter < gGeoCompendiumData.length; compendiumCounter++) {
             if (gGeoCompendiumData[compendiumCounter][1].includes(sampleNumberArray[counter])) {
                 var compendiumSampleNumber = gGeoCompendiumData[compendiumCounter][0];
-                compendiumHtml = '<span> - <a href="http://curator.jsc.nasa.gov/lunar/lsc/' + compendiumSampleNumber + '.pdf" target="geoImage">Lunar Sample Compendium (PDF)</a></span>';
+                if (gGeoCompendiumData[compendiumCounter][2] === 'compendium') {
+                    compendiumHtml = '<span> - <a href="https://curator.jsc.nasa.gov/lunar/lsc/' + compendiumSampleNumber + '.pdf" target="geoImage">Lunar Sample Compendium (PDF)</a></span>';
+                } else {
+                    compendiumHtml = '<span> - <a href="https://curator.jsc.nasa.gov/lunar/catalogs/apollo11/' + compendiumSampleNumber + '.pdf" target="geoImage">Lunar Sample Information Catalog (PDF)</a></span>';
+                }
                 break;
             }
         }
@@ -1566,7 +1570,7 @@ function updateGeosampleOverlay(geoDataIndex) {
 
         //get sample images
         jQuery.ajax({
-            url: '/indexes/geosampledetails/' + sampleNumberArray[counter] + '.csv',
+            url: './indexes/geosampledetails/' + sampleNumberArray[counter] + '.csv',
             success: function (data) {
                 if (data.isOk === false) {
                     alert(data.message);

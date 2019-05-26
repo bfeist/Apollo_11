@@ -387,7 +387,7 @@ function createSearchData() {
         tmpItem[1] = "";
         tmpItem[2] = "";
 
-        tmpItem[3] = "Geology sample description: " + gGeoData[counter][1] + "; Sample bag: " + gGeoData[counter][2] + "; Sample Numbers: " + gGeoData[counter][5].replace(/`/g, ", ");
+        tmpItem[3] = "Geology sample container; Sample bag: " + gGeoData[counter][2] + "; Sample Numbers: " + gGeoData[counter][5].replace(/`/g, ", ");
         tmpItem[4] = 2;
         gSearchData.push(tmpItem);
     }
@@ -492,6 +492,7 @@ function processGeoCompendiumData(allText) {
             var tmpItem = [];
             tmpItem[0] = data[0];
             tmpItem[1] = data[1];
+            tmpItem[2] = data[2];
             gGeoCompendiumData.push(tmpItem);
         }
     }
