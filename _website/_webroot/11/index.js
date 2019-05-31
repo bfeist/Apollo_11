@@ -145,7 +145,7 @@ function onPlayerReady() {
 // The function indicates that when playing a video (state=1)
 function onPlayerStateChange(event) {
     // trace("onPlayerStateChange():state: " + event.data);
-    var playPauseBtn = $("#playPauseBtn").find("img");
+    var playPauseBtn = $("#playPauseBtn");
     if (event.data === YT.PlayerState.PLAYING) {
         //trace("onPlayerStateChange():PLAYER PLAYING");
         playPauseBtn.addClass('pause');
@@ -243,11 +243,11 @@ function setAutoScrollPoller() {
             }
         }
 
-        var soundBtnImg = $('#soundBtn').find('img');
+        var soundBtn = $('#soundBtn');
         if (player.isMuted() === true) {
-            soundBtnImg.removeClass('mute');
+            soundBtn.removeClass('mute');
         } else {
-            soundBtnImg.addClass('mute');
+            soundBtn.addClass('mute');
         }
 
         refreshTapeActivityDisplay();
