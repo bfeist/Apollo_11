@@ -1,9 +1,13 @@
 trace("INIT: Loading index.js");
 //app control flags
 var cStopCache = false;
-var cCdnEnabled = false;
-// const cSpacesCdnRoot = '/11mp3';
-var cCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
+
+var cSpacesCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
+// var cSpacesCdnRoot = 'https://apollortdospace-26f5.kxcdn.com';
+
+var cWebCdnRoot = '';
+// var cWebCdnRoot = 'https://apollort-26f5.kxcdn.com';
+
 var cYTSDHDListIndex = 1; //0 for SD  1 for HD
 
 //constants
@@ -2052,7 +2056,7 @@ function getTapeActivityRanges(activeSec) {
 function ajaxGetTapesActivityDataRange(tapesActivityFilename) {
     trace("ajaxGetTapesActivityDataRange()main: "  + tapesActivityFilename.toString());
 
-    var tapeActivityDataPath = cCdnRoot + '/tape_activity/';
+    var tapeActivityDataPath = cSpacesCdnRoot + '/tape_activity/';
     var tapeActivity;
     gTapesActivityRangeArray = [];
     $.when(

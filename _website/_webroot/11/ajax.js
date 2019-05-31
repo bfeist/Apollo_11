@@ -28,12 +28,7 @@ $.when(
 //--------------- index file handling --------------------
 
 function ajaxGetVideoURLData() {
-    if (cCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://apollort-26f5.kxcdn.com/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/videoURLData.csv";
+    var urlStr = cWebCdnRoot + "/11/indexes/videoURLData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -43,12 +38,7 @@ function ajaxGetVideoURLData() {
     });
 }
 function ajaxGetTOCData() {
-    if (cCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://apollort-26f5.kxcdn.com/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/TOCData.csv";
+    var urlStr = cWebCdnRoot + "/11/indexes/TOCData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -58,12 +48,7 @@ function ajaxGetTOCData() {
     });
 }
 function ajaxGetUtteranceData() {
-    if (cCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://apollort-26f5.kxcdn.com/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/utteranceData.csv";
+    var urlStr = cWebCdnRoot + "/11/indexes/utteranceData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -73,12 +58,7 @@ function ajaxGetUtteranceData() {
     });
 }
 function ajaxGetCommentaryData() {
-    if (cCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://apollort-26f5.kxcdn.com/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/commentaryData.csv";
+    var urlStr = cWebCdnRoot + "/11/indexes/commentaryData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -88,12 +68,7 @@ function ajaxGetCommentaryData() {
     });
 }
 function ajaxGetPhotoData() {
-    if (cCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://apollort-26f5.kxcdn.com/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/photoData.csv";
+    var urlStr = cWebCdnRoot + "/11/indexes/photoData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -103,12 +78,7 @@ function ajaxGetPhotoData() {
     });
 }
 function ajaxGetMissionStagesData() {
-    if (cCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://apollort-26f5.kxcdn.com/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/missionStagesData.csv";
+    var urlStr = cWebCdnRoot + "/11/indexes/missionStagesData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -118,12 +88,7 @@ function ajaxGetMissionStagesData() {
     });
 }
 function ajaxGetVideoSegmentData() {
-    if (cCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://apollort-26f5.kxcdn.com/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/videoSegmentData.csv";
+    var urlStr = cWebCdnRoot + "/11/indexes/videoSegmentData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -133,12 +98,7 @@ function ajaxGetVideoSegmentData() {
     });
 }
 function ajaxGetTelemetryData() {
-    if (cCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://apollort-26f5.kxcdn.com/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/telemetryData.csv";
+    var urlStr = cWebCdnRoot + "/11/indexes/telemetryData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -148,12 +108,7 @@ function ajaxGetTelemetryData() {
     });
 }
 function ajaxCrewStatusData() {
-    if (cCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://apollort-26f5.kxcdn.com/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/crewStatusData.csv";
+    var urlStr = cWebCdnRoot + "/11/indexes/crewStatusData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -164,12 +119,7 @@ function ajaxCrewStatusData() {
 }
 
 function ajaxOrbitData() {
-    if (cCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://apollort-26f5.kxcdn.com/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/orbitData.csv";
+    var urlStr = cWebCdnRoot + "/11/indexes/orbitData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -180,12 +130,7 @@ function ajaxOrbitData() {
 }
 
 function ajaxGeoData() {
-    if (cCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://apollort-26f5.kxcdn.com/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/geoData.csv";
+    var urlStr = cWebCdnRoot + "/11/indexes/geoData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -196,12 +141,7 @@ function ajaxGeoData() {
 }
 
 function ajaxGeoCompendiumData() {
-    if (cCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://apollort-26f5.kxcdn.com/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/geoCompendiumData.csv";
+    var urlStr = cWebCdnRoot + "/11/indexes/geoCompendiumData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -212,13 +152,7 @@ function ajaxGeoCompendiumData() {
 }
 
 function ajaxPaperData() {
-    if (cCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        //var cdnNum = getRandomInt(1, 5);
-        var urlStr = "https://apollort-26f5.kxcdn.com/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/paperData.csv";
+    var urlStr = cWebCdnRoot + "/11/indexes/paperData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -249,7 +183,7 @@ function processTOCData(allText) {
     var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gTOCIndex[i] = data[0];
             gTOCDataLookup[data[0]] = curRow;
             data[0] = timeIdToTimeStr(data[0]);
@@ -264,7 +198,7 @@ function processUtteranceData(allText) {
     var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gUtteranceDataLookup[data[0]] = curRow;
             gUtteranceIndex[i] = data[0];
             data[1] = data[1].replace(/CDR/g, "Armstrong");
@@ -322,7 +256,7 @@ function processPhotoData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
-        if (allTextLines[i] != "") {
+        if (allTextLines[i] !== "") {
             var data = allTextLines[i].split('|');
             gPhotoData.push(data);
             gPhotoDataLookup[data[0]] = curRow;
@@ -336,7 +270,7 @@ function processMissionStagesData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gMissionStages.push(data);
         }
         if (i > 0) {
@@ -350,7 +284,7 @@ function processVideoSegmentData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gVideoSegments.push(data);
         }
     }
@@ -425,7 +359,7 @@ function processTelemetryData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gTelemetryData.push(data);
         }
         if (i > 0) {
@@ -440,7 +374,7 @@ function processCrewStatusData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gCrewStatusData.push(data);
         }
         if (i > 0) {
@@ -455,7 +389,7 @@ function processOrbitData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gOrbitData.push(data);
         }
         if (i > 0) {
@@ -470,7 +404,7 @@ function processGeoData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             var tmpItem = [];
             tmpItem[0] = timeStrToTimeId(data[0]);
             tmpItem[1] = data[1];
@@ -488,7 +422,7 @@ function processGeoCompendiumData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             var tmpItem = [];
             tmpItem[0] = data[0];
             tmpItem[1] = data[1];
@@ -503,7 +437,7 @@ function processPaperData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "Bibcode") {
+        if (data[0] !== "Bibcode") {
             var tmpItem = [];
             tmpItem[0] = data[0]; // bibcode
             tmpItem[1] = data[1]; // Year
