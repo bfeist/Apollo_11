@@ -4,7 +4,7 @@ var cStopCache = false;
 var cCdnEnabled = false;
 // const cSpacesCdnRoot = '/11mp3';
 var cCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
-var cYTSDHDListIndex = 0; //0 for SD  1 for HD
+var cYTSDHDListIndex = 1; //0 for SD  1 for HD
 
 //constants
 var cMissionDurationSeconds = 713311;
