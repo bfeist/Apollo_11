@@ -2176,7 +2176,7 @@ $(document).ready(function() {
                         this.description = "%23Apollo11 in Real-time. Mission control audio channel " + $('#MOCRvizIframe')[0].contentWindow.cTrackInfo['ch' + $('#MOCRvizIframe')[0].contentWindow.gActiveChannel][0] + " at " + gCurrMissionTime + " %23NASA";
                     } else {
                         var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
-                        this.url = "https://apolloinrealtime.org/11!/?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
+                        this.url = "https://apolloinrealtime.org/11/?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
                         this.description = "%23Apollo11 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2].substr(0, 67) + "... %23NASA";
                     }
                 },
