@@ -1967,10 +1967,10 @@
 010:07:51|T|CC|Copy.
 010:08:52|T|CC|Hello, Apollo 11. Houston. We'd like - The rates are looking pretty good right now on the PTC, but we'd like you to continue holding. Over.
 010:09:00|T|CMP|Okay. Fine.
-010:20:30|T|CC|Hello, Apollo 11. Houston. Your rates look really great, now. You can start your PTC.
-010:20:36|T|CMP|Okay. Thanks, Charlie.
-010:21:52|T|CDR|Houston, you read 11?
-010:21:54|T|CC|Roger. Go ahead, 11. Over.
+010:20:28|T|CC|Hello, Apollo 11. Houston. Your rates look really great, now. You can start your PTC.
+010:20:34|T|CMP|Okay. Thanks, Charlie.
+010:21:50|T|CDR|Houston, you read 11?
+010:21:52|T|CC|Roger. Go ahead, 11. Over.
 010:21:56|T|CDR|Roger. If you'd like to delay PTC just for 10 minutes or so, we can shoot you some TV of a seven-eights Earth. That's - We'll leave that up to you.
 010:22:12|T|CC|Roger. Stand by.
 010:22:50|T|CC|Hello, Apollo 11. Houston. We'll have our answer for you on the TV in about 1 minute. Over.
@@ -4357,7 +4357,7 @@
 075:37:44|T|CC|Stand by for a Mark at TIG minus 12.
 075:37:50|T|CC|MARK.
 075:37:51|T|CC|TIG minus 12.
-075:37:55|T|CDR|Ya, we're right on, Bruce. Thank you.
+075:37:55|T|CMP|Ya, we're right on, Bruce. Thank you.
 075:37:57|T|CC|Roger. Out.
 075:38:28|P|PAO|We are 3 minutes away from loss of signal. Apollo 11 is 425 nautical miles from the Moon, velocity 7,368 feet per second, weight 96,012 pounds.
 075:39:26|T|CC|Two minutes to LOS.
@@ -4370,7 +4370,7 @@
 075:40:41|O|CDR|Roger.
 075:40:42|T|CDR|Roger.
 075:40:48|O|CDR|Everything looks okay up here.
-075:40:49|T|CDR|Everything looks okay up here.
+075:40:48|T|CDR|Everything looks okay up here.
 075:40:52|T|CC|Roger. Out.
 075:40:52|O|CMP|9 minutes.
 075:41:15|O|LMP|Well, let's let them look at the main bus ties coming on, alright?
@@ -4771,7 +4771,7 @@
 076:03:51|O|LMP|... Eyeballing and chattering. We got the burn status report? That's all?
 076:04:02|O|CMP|Ready to go.
 076:04:04|O|LMP|Okay, that looks good. Give me a VERB - 64.
-076:04:11|O|CMp|What happened?
+076:04:11|O|CMP|What happened?
 076:04:26|O|LMP|Ought to wash this window over here - -
 076:04:27|O|CDR|You have a map so we can look at ...
 076:04:29|O|LMP|Anybody got a - -
@@ -8349,7 +8349,7 @@
 102:31:51|O|CDR|Okay. Hear anything about that?
 102:31:51|T|CC|Roger.
 102:32:00|P|PAO|Coming up on one minute to ignition.
-102:32:06|O|CDR|Say again the angles, though.
+102:32:06|O|LMP|Say again the angles, though.
 102:32:06|T|LMP|Say again the angles, though.
 102:32:07|T|CC|Roger.
 102:32:08|O|LMP|I'll set them in to use them before we yaw around.

@@ -1936,10 +1936,10 @@
 0100751|CC|Copy.|T
 0100852|CC|Hello, Apollo 11. Houston. We'd like - The rates are looking pretty good right now on the PTC, but we'd like you to continue holding. Over.|T
 0100900|CMP|Okay. Fine.|T
-0102030|CC|Hello, Apollo 11. Houston. Your rates look really great, now. You can start your PTC.|T
-0102036|CMP|Okay. Thanks, Charlie.|T
-0102152|CDR|Houston, you read 11?|T
-0102154|CC|Roger. Go ahead, 11. Over.|T
+0102028|CC|Hello, Apollo 11. Houston. Your rates look really great, now. You can start your PTC.|T
+0102034|CMP|Okay. Thanks, Charlie.|T
+0102150|CDR|Houston, you read 11?|T
+0102152|CC|Roger. Go ahead, 11. Over.|T
 0102156|CDR|Roger. If you'd like to delay PTC just for 10 minutes or so, we can shoot you some TV of a seven-eights Earth. That's - We'll leave that up to you.|T
 0102212|CC|Roger. Stand by.|T
 0102250|CC|Hello, Apollo 11. Houston. We'll have our answer for you on the TV in about 1 minute. Over.|T
@@ -4326,7 +4326,7 @@
 0753744|CC|Stand by for a Mark at TIG minus 12.|T
 0753750|CC|MARK.|T
 0753751|CC|TIG minus 12.|T
-0753755|CDR|Ya, we're right on, Bruce. Thank you.|T
+0753755|CMP|Ya, we're right on, Bruce. Thank you.|T
 0753757|CC|Roger. Out.|T
 0753828|PAO|We are 3 minutes away from loss of signal. Apollo 11 is 425 nautical miles from the Moon, velocity 7,368 feet per second, weight 96,012 pounds.|P
 0753926|CC|Two minutes to LOS.|T
@@ -4338,7 +4338,6 @@
 0754041|CDR|Roger.|O
 0754042|CDR|Roger.|T
 0754048|CDR|Everything looks okay up here.|O
-0754049|CDR|Everything looks okay up here.|T
 0754052|CC|Roger. Out.|T
 0754052|CMP|9 minutes.|O
 0754115|LMP|Well, let's let them look at the main bus ties coming on, alright?|O
@@ -4737,7 +4736,7 @@
 0760351|LMP|... Eyeballing and chattering. We got the burn status report? That's all?|O
 0760402|CMP|Ready to go.|O
 0760404|LMP|Okay, that looks good. Give me a VERB - 64.|O
-0760411|CMp|What happened?|O
+0760411|CMP|What happened?|O
 0760426|LMP|Ought to wash this window over here - -|O
 0760427|CDR|You have a map so we can look at ...|O
 0760429|LMP|Anybody got a - -|O
@@ -8226,8 +8225,7 @@
 1023151|CDR|Okay. Hear anything about that?|O
 1023151|CC|Roger.|T
 1023200|PAO|Coming up on one minute to ignition.|P
-1023206|CDR|Say again the angles, though.|O
-1023206|LMP|Say again the angles, though.|T
+1023206|LMP|Say again the angles, though.|O
 1023207|CC|Roger.|T
 1023208|LMP|I'll set them in to use them before we yaw around.|O
 1023210|CC|Roger. Pitch 212, yaw plus 37.|T

@@ -8,7 +8,7 @@ var cSpacesCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
 var cWebCdnRoot = '';
 // var cWebCdnRoot = 'https://apollort-26f5.kxcdn.com';
 
-var cYTSDHDListIndex = 1; //0 for SD  1 for HD
+var cYTSDHDListIndex = 0; //0 for SD  1 for HD
 
 //constants
 var cMissionDurationSeconds = 713311;
@@ -17,7 +17,7 @@ var cDefaultStartTimeId = '-000109';
 var cLaunchDate = Date.parse("1969-07-16 9:33 -500");
 var cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -500");
 
-var cBackground_color_active = "#222222";
+var cBackground_color_active = "#1e1e1e";
 
 var cRedactedChannelsArray = [1, 4, 10, 30, 31, 36, 37, 38, 39, 40, 41, 60];
 
@@ -1816,12 +1816,12 @@ jQuery(function ($) {
 
     $("#playPauseBtn")
         .click(function(){
-            if (gPlaybackState === "paused") {
-                ga('send', 'event', 'button', 'click', 'play');
-                player.playVideo();
-            } else {
+            if ($("#playPauseBtn").hasClass('pause')) {
                 ga('send', 'event', 'button', 'click', 'pause');
                 player.pauseVideo();
+            } else {
+                ga('send', 'event', 'button', 'click', 'play');
+                player.playVideo();
             }
         });
 
