@@ -60,52 +60,52 @@ for paper in adsPaperArray:
 
 # get curation papers from csv files and concat them into a single array of arrays
 
-# curationInputFilePath = "./curation_papers/"
-# for filename in os.listdir(curationInputFilePath):
-#     print("curation: " + filename)
-#     if filename[-4:] == ".csv":
-#         fileReader = csv.reader(open(curationInputFilePath + filename, "rU"), delimiter='|')
-#         first_row = True
-#         for row in fileReader:
-#             tempArray = []
-#             tempArray.append(filename[:5])
-#             tempArray.append("" if row[0] == "nan" else row[0])
-#             tempArray.append("" if row[1] == "nan" else row[1])
-#             tempArray.append("" if row[2] == "nan" else row[2])
-#             tempArray.append("" if row[3] == "nan" else row[3])
-#             tempArray.append("" if row[4] == "nan" else row[4])
-#             tempArray.append("" if row[5] == "nan" else row[5])
-#             tempArray.append("" if row[6] == "nan" else row[6])
-#             tempArray.append("" if row[7] == "nan" else row[7])
-#             tempArray.append("" if row[8] == "nan" else row[8])
-#             tempArray.append("" if row[9] == "nan" else row[9])  # DOI
-#             curationPaperArray.append(tempArray)
-#
-# # pivot found curation papers to list all samples referenced within a given paper
-# # and add that sample list to the end of each paper record
-# seen = set()
-# uniq = []
-#
-# for paper in curationPaperArray:
-#     searchTerm = paper[2] + paper[3]  # year plus title is unique key
-#     sampleNumList = []
-#     for paper2 in curationPaperArray:  # find occurrences of search term, and add sample num of hits to a new field
-#         if searchTerm == paper2[2] + paper2[3]:
-#             sampleNumList.append(paper2[0])
-#
-#     paper.append('; '.join(sampleNumList))  # add samples list to last field of each paper record
-#
-#     # de-dupe papers array
-#     if searchTerm not in seen:
-#         uniq.append(searchTerm)
-#         seen.add(searchTerm)
-#         dedupedCurationPaperArray.append(paper)
+curationInputFilePath = "./curation_papers/"
+for filename in os.listdir(curationInputFilePath):
+    print("curation: " + filename)
+    if filename[-4:] == ".csv":
+        fileReader = csv.reader(open(curationInputFilePath + filename, "rU"), delimiter='|')
+        first_row = True
+        for row in fileReader:
+            tempArray = []
+            tempArray.append(filename[:5])
+            tempArray.append("" if row[0] == "nan" else row[0])
+            tempArray.append("" if row[1] == "nan" else row[1])
+            tempArray.append("" if row[2] == "nan" else row[2])
+            tempArray.append("" if row[3] == "nan" else row[3])
+            tempArray.append("" if row[4] == "nan" else row[4])
+            tempArray.append("" if row[5] == "nan" else row[5])
+            tempArray.append("" if row[6] == "nan" else row[6])
+            tempArray.append("" if row[7] == "nan" else row[7])
+            tempArray.append("" if row[8] == "nan" else row[8])
+            tempArray.append("" if row[9] == "nan" else row[9])  # DOI
+            curationPaperArray.append(tempArray)
 
-#
+# pivot found curation papers to list all samples referenced within a given paper
+# and add that sample list to the end of each paper record
+seen = set()
+uniq = []
+
+for paper in curationPaperArray:
+    searchTerm = paper[2] + paper[3]  # year plus title is unique key
+    sampleNumList = []
+    for paper2 in curationPaperArray:  # find occurrences of search term, and add sample num of hits to a new field
+        if searchTerm == paper2[2] + paper2[3]:
+            sampleNumList.append(paper2[0])
+
+    paper.append('; '.join(sampleNumList))  # add samples list to last field of each paper record
+
+    # de-dupe papers array
+    if searchTerm not in seen:
+        uniq.append(searchTerm)
+        seen.add(searchTerm)
+        dedupedCurationPaperArray.append(paper)
+
+
 # Merge ADS and curation arrays into single array
-#
-# masterPaperArray = dedupedCurationPaperArray + dedupedAdsPaperArray
-masterPaperArray = dedupedAdsPaperArray
+
+masterPaperArray = dedupedCurationPaperArray + dedupedAdsPaperArray
+# masterPaperArray = dedupedAdsPaperArray
 
 # sort papers by date
 sortedMasterPaperArray = sorted(masterPaperArray, key=operator.itemgetter(2), reverse=True)
