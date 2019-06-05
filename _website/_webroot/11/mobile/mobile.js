@@ -1,12 +1,18 @@
 //constants
-const cMissionDurationSeconds = 713311;
-const cCountdownSeconds = 74768;
-const cDefaultStartTimeId = '-000109';
-const cLaunchDate = Date.parse("1969-07-16 9:33 -500");
-const cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -500");
+var cMissionDurationSeconds = 713311;
+var cCountdownSeconds = 74768;
+var cDefaultStartTimeId = '-000109';
+var cLaunchDate = Date.parse("1969-07-16 9:33 -500");
+var cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -500");
 
 var gCurrMissionTime = '';
 var gMobileSite = true;
+
+//non-mobile detect and redirect
+if(! /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    var url = "..";
+    $(location).attr('href',url);
+}
 
 $(document).ready(function() {
     var t = getUrlParameter('t');

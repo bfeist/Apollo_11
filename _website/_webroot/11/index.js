@@ -91,7 +91,7 @@ var gGeoCompendiumData = [];
 var gPaperData = [];
 
 //mobile detect and redirect
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     var url = "./mobile/";
     $(location).attr('href',url);
 }
@@ -1325,8 +1325,10 @@ function updateDashboard(timeId) {
         if (currentVelocityFPS < 100) numDecimals = 2;
         currentVelocityFPS = parseFloat(Math.round(currentVelocityFPS * 100) / 100).toFixed(numDecimals);
         var currentVelocityKPH = parseFloat(Math.round(currentVelocityFPS * 1.09728 * 100) / 100).toFixed(numDecimals);
+        var currentVelocityMPH = parseFloat(Math.round(currentVelocityFPS * 0.681818 * 100) / 100).toFixed(numDecimals);
         var currentVelocityMach = parseFloat(Math.round(currentVelocityFPS * 0.00088863 * 10) / 10).toFixed(1);
-        var dashVelocity = '<span class="value">' + numberWithCommas(currentVelocityFPS) + '</span> feet per second (<span class="value">' +  numberWithCommas(currentVelocityKPH) + '</span> km/h) (Mach <span class="value">' +  currentVelocityMach + '</span>)';
+
+        var dashVelocity = '<span class="value">' + numberWithCommas(currentVelocityFPS) + '</span> feet per second (<span class="value">' +  numberWithCommas(currentVelocityKPH) + '</span> km/h, <span class="value">' + numberWithCommas(currentVelocityMPH) + '</span> mph, Mach <span class="value">' +  currentVelocityMach + '</span>)';
         $('#dashVelocityDiv').css('display', 'block');
     } else {
         $('#dashVelocityDiv').css("display", "none");
@@ -1829,10 +1831,12 @@ jQuery(function ($) {
         .click(function(){
             if (player.isMuted() === true) {
                 ga('send', 'event', 'button', 'click', 'unmute');
-                player.unMute();
-                // var btnIcon = "ui-icon-volume-on";
-                // var btnText = "Mute";
-                $(this).addClass('mute');
+                if (gMOCRToggled) {
+                    closeMOCRviz(); //includes unmuting player and adding class below
+                } else {
+                    player.unMute();
+                    $(this).addClass('mute');
+                }
             } else {
                 ga('send', 'event', 'button', 'click', 'mute');
                 player.mute();

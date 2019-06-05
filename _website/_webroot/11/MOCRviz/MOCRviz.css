@@ -22,7 +22,8 @@ canvas{
     height: 30px;
     border-radius: 50%;
     /*background-color: rgba(215, 160, 108, 1);*/
-    background-color: #5E92A6;
+    /*background-color: #5E92A6;*/
+    background-color: #FFFFFF;
     text-indent: -999px;
     overflow: hidden;
     transition: background-color .25s ease-in-out;
