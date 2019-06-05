@@ -355,10 +355,11 @@ function getChannelParameter() {
 }
 
 function frameUpdateOnTimer() {
-    if (parent.gPlaybackState === 'paused' || parent.gPlaybackState === 'unexpectedbuffering') {
-        gPlayer.pause();
-    } else if (parent.gPlaybackState === 'normal' && gPlayer.paused) {
+    if (parent.gPlaybackState === 'normal' && gPlayer.paused) {
         gPlayer.play();
+    }
+    if (parent.gPlaybackState !== 'normal' && !gPlayer.paused) {
+        gPlayer.pause();
     }
 
     //wait for gPlayer to be ready before seeking to player position (safari fix)

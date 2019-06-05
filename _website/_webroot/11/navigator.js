@@ -179,10 +179,11 @@ function initNavigator() {
         redrawAll();
         trace("NAV: Jumping to " + gCurrMissionTime);
         seekToTime(timeStrToTimeId(gCurrMissionTime));
+        onMouseOutHandler();
     };
 
     paper.view.onMouseLeave = function() {
-        trace("paper.view.onMouseLeave triggered");
+        // trace("paper.view.onMouseLeave triggered");
         onMouseOutHandler();
     };
 
@@ -192,7 +193,7 @@ function initNavigator() {
     // });
 
     $(document).bind("mouseleave",function() {
-        trace("$(document)mouseleave triggered");
+        // trace("$(document)mouseleave triggered");
         onMouseOutHandler();
     });
 }
