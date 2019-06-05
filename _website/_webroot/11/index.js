@@ -1936,6 +1936,7 @@ $(window).bind('fullscreenchange', function() {
 $(window).resize($.throttle(function(){ //scale image proportionally to image viewport on load
     console.log('***window resize');
     proportionalWidthOnPhotoBlock();
+    $('#thirtytrack-container').css({ height: $(window).innerHeight() - 233 });
     redrawAll();
 }, 250));
 
@@ -2106,6 +2107,7 @@ $(document).ready(function() {
     //myCanvasElement.css("width", $('.headerRight').width());
 
     proportionalWidthOnPhotoBlock();
+    $('#thirtytrack-container').css({ height: $(window).innerHeight() - 233 });
     initSplash();
 
     var channelButtons = document.querySelectorAll('.thirtybtn-channel');

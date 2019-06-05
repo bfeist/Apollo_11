@@ -1717,16 +1717,23 @@ header {
   max-width: 720px;
 }
 .thirtytrack-block {
-    float: left;
     width: 70px;
 }
+
 .photo-block {
   /*width: 60%;*/ /* this is done via jquery in index.js */
 }
 
 #thirtytrack-container {
-    margin-top: 10px;
+
+    overflow-y: scroll;
+    overflow-x:hidden;
+    /*height: 200px;*/
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
 }
+
+#thirtytrack-container::-webkit-scrollbar { width: 0 !important }
 
 /*.thirtytrack-btn {*/
     /*!*margin-right: 2em;*!*/
@@ -1764,6 +1771,7 @@ header {
 
 #thirtytrack-title {
     /*font-family: 'Roboto Mono', sans-serif;*/
+    margin-top: 10px;
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
     text-align: center;
