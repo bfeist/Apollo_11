@@ -13,8 +13,8 @@
     <meta property="fb:app_id" content="2082429458513047" />
     <meta property="og:title" content="Apollo 11 in Real-time" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Apollo_11_insignia.png/761px-Apollo_11_insignia.png" />
-    <meta property="og:url" content="http://apolloinrealtime.org/" />
+    <meta property="og:image" content="https://apolloinrealtime.org/11/img/screenshot.png" />
+    <meta property="og:url" content="https://apolloinrealtime.org/" />
     <meta property="og:description" content="A real-time interactive journey through the Apollo 11 mission. Relive every moment as it occurred in 1969." />
     <meta property="og:site_name" content="Apollo 11 in Real-time" />
 

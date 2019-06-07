@@ -2040,7 +2040,7 @@
 010:47:29|T|LMP|Okay.
 010:47:30|T|CC|And, Buzz, we'll be terminating the battery charge in about a half hour.
 010:47:35|T|LMP|Roger.
-010:47:59|T|CC|Hello, Apollo 11. Houston. You can terminate the TV at your convenience. We've got enough take. And you can start PTC at your convenience. The rates look super for starting up. Over.
+010:47:59|T|CC|Hello, Apollo 11. Houston. You can terminate the TV at your convenience. We've got enough tape. And you can start PTC at your convenience. The rates look super for starting up. Over.
 010:48:14|T|CDR|Roger, Charlie.
 010:50:35|P|PAO|This is Apollo Control at 10 hours, 51 minutes. That TV transmission lasted about 15 minutes. Goldstone reported that we did get good quality on it. We estimate that it will be somewhere between an hour and a half or two hours before we have the television available here in Houston to play back. The lines will have to be called up between Goldstone and Mission Control Center, and the conversion equipment brought up online before we'll be able to play back the television from that transmission. At the beginning of the TV transmission, the spacecraft was approximately 50,980 nautical miles from Earth, and at the conclusion they were about 52,248 nautical miles from Earth.
 010:57:32|T|CC|Apollo 11, Houston. We have a Flight Plan update for you and some P37 block data, if you're ready to copy. Over.
@@ -8403,7 +8403,7 @@
 102:35:34|O|LMP|Yes.
 102:35:35|O|CDR|To SLEW?
 102:35:36|O|LMP|SLEW.
-102:35:47|O|LMP|Houston, I'm getting a little fluctuation in the - AC voltage now. Just the meter, maybe, huh?
+102:35:47|O|LMP|Houston, I'm getting a little fluctuation in the AC voltage now.
 102:35:47|T|LMP|Houston. I'm getting a little fluctuation in the AC voltage now.
 102:35:53|T|CC|Roger.
 102:35:55|T|LMP|Could be our meter, maybe, huh?
@@ -8411,10 +8411,11 @@
 102:36:07|O|CDR|Okay, we went by the 3-minute point early. A little long.
 102:36:15|O|LMP|Rate of descent looks real good. Altitude – right about on.
 102:36:15|T|LMP|... real good ... about on.
-102:36:20|O|CDR|Our position checks downrange show us to be a little off. AGS - AGS is showing about 2-feet-per-second greater rate of descent.
-102:36:20|T|CDR|Our. position checks downrange show us to be a little long.
+102:36:20|T|CDR|Our position checks downrange show us to be a little long.
+102:36:20|O|CDR|Our position checks downrange show us to be a little long.
 102:36:24|T|CC|Roger. Copy.
 102:36:26|T|LMP|AGS has gone about 2 feet per second greater rate of descent.
+102:36:26|O|LMP|AGS - AGS is showing about 2-feet-per-second greater rate of descent.
 102:36:38|O|CDR|MARK.
 102:36:39|O|CDR|Show us to be about - Stand by. Maybe have to stop that.
 102:36:39|T|CDR|Show us to be about - Stand by.

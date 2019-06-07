@@ -765,7 +765,7 @@
         <span class="TOC_item">Collins describes docking</span>
     </li>
     <li onclick="parent.seekToTime('1513358')" class="tocitem" id="tocid1513358"><span class="TOCTimestamp">151:33:58</span>
-        <span class="TOC_item">CAPCOM tries to determin landing location</span>
+        <span class="TOC_item">CAPCOM tries to determine landing location</span>
     </li>
     <li onclick="parent.seekToTime('1514126')" class="tocitem" id="tocid1514126"><span class="TOCTimestamp">151:41:26</span>
         <span class="TOC_item">Armstrong describes his visit to Little West Crater</span>

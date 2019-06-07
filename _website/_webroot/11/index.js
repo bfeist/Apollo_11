@@ -14,7 +14,7 @@ var cYTSDHDListIndex = 0; //0 for SD  1 for HD
 var cMissionDurationSeconds = 713311;
 var cCountdownSeconds = 74768;
 var cDefaultStartTimeId = '-000109';
-var cLaunchDate = Date.parse("1969-07-16 9:33 -500");
+var cLaunchDate = Date.parse("1969-07-16 9:32 -500");
 var cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -500");
 
 var cBackground_color_active = "#1e1e1e";
@@ -457,6 +457,12 @@ function fadeOutSplash() {
     //        $('body').removeClass('splash-loaded');
     //        $('.splash-content').hide();
     //    }, 1600);
+}
+
+function fadeInSplash() {
+    player.pauseVideo();
+    $('body').addClass('splash-loaded');
+    $('.splash-content').show();
 }
 
 function galleryClick(timeId) {
