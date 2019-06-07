@@ -93,7 +93,7 @@ output_photo_index_file.close()
 # -------------------- Write TOC
 template_loader = FileLoader('./templates')
 
-output_TOC_file_name_and_path = "../_website/_webroot/11/TOC.php"
+output_TOC_file_name_and_path = "../_website/_webroot/11/TOC.html"
 output_TOC_file = open(output_TOC_file_name_and_path, "w")
 output_TOC_file.write("")
 output_TOC_file.close()

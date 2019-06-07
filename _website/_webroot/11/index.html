@@ -66,7 +66,6 @@
 <!-- app -->
 <section class="app">
     <header>
-
         <div class="logo-wrapper"><a onclick="fadeInSplash()"><img src="img/Apollo_11-insignia100.png"></a></div>
 
         <div class="info-wrapper">
@@ -81,14 +80,11 @@
         </div>
 
         <div class="monitor">
-
             <!-- navigator -->
             <div id="navigator" class="navigator-wrapper">
                 <canvas id="navCanvas" resize keepalive="true"></canvas>
             </div>
-
         </div>
-
     </header>
 
     <div class="body">
@@ -181,7 +177,7 @@
                         </div>
                     </div>
                     <div id="tocWrapper" class="text-wrapper">
-                        <iframe src="TOC.php" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
+                        <iframe src="TOC.html" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
                     </div>
                     <div id="commentaryWrapper" class="text-wrapper">
                         <div id="commentaryDiv">
@@ -245,23 +241,53 @@
                 <div class="buttondiv"><button id="btn-ch46" class="thirtybtn-channel">SPAN</button></div>
             </div>
         </div>
-        <div class="photo-block">
-            <div class="monitor photo-wrapper" data-js-class="SizeManager" data-sm-parent=".photo-block">
+        <div class="app-with-tabs-block">
+            <div class="app-tabs">
+                <div class="app-button-row">
+                    <a id="photoTab" class="splash-btn app-tab selected" title="Photography"><SPAN>Photography</SPAN></a>
+                    <a id="mocrTab" class="splash-btn app-tab" title="Mission Control Audio"><SPAN>Mission Control Audio</SPAN></a>
+                    <a id="geosampleTab" class="splash-btn app-tab" title="Astromaterial Samples"><SPAN>Astromaterial Samples</SPAN></a>
+                </div>
+            </div>
+            <div class="app-block" data-js-class="SizeManager" data-sm-parent=".app-with-tabs-block">
                 <!-- photo -->
-                <div class="photos-wrapper">
+                <div class="app-wrapper">
                     <div id="photoGallery"></div>
-                    <div class="geosample-overlay">
+                    <div id="photodiv"></div>
+                    <div id="geosample-overlay">
                         <div style="display: flex; flex-direction: row;">
-                            <span class="title">Geology Sample Information - <span id="bagnum"></span></span>
-                            <span class="close-btn" onclick="toggleGeosampleOverlay();">Close</span>
+                            <span class="title">Astromaterials Sample Information <span id="bagnum"></span></span>
+<!--                            <span class="close-btn" onclick="toggleGeosampleOverlay();">Close</span>-->
                         </div>
                         <hr>
                         <div id="geosampleDiv">
-                            <div id="geosampleTable"></div>
+                            <div id="geosampleTable">
+                                <div style="float: right; width:200px;"><img src="img/ares2.jpg"/></div>
+                                <div class="introduction">
+                                    <div class="section-header">Introduction</div>
+                                    <div class="copy">
+                                        <p>
+                                            Geologic samples returned from the Moon by the Apollo lunar surface exploration missions (1969-1972), along with associated data records, are physically protected, environmentally preserved, and scientifically processed in a special building dedicated for that purpose at the Johnson Space Center in Houston, Texas. A total of 382 kilograms of lunar material, comprising 2200 individual specimens returned from the Moon, has been processed to meet scientific requirements into more than 110,000 individually cataloged samples.
+                                        </p>
+                                        <p>
+                                            Building 31N at Johnson Space Center was constructed from 1977 to 1979 and opened in 1979 to provide for permanent storage of the lunar sample collection in a physically secure and non-contaminating environment. The purpose of the facility is to maintain in pristine condition the lunar samples that comprise a priceless national and scientific resource while making the samples available to approved scientists and educators.
+                                        </p>
+                                    </div>
+                                    <div class="section-header">Apollo 11 Samples</div>
+                                    <div class="copy">
+                                        <p>
+                                            The lunar samples collected by the Apollo 11 crew were depositied in bulk into "rock boxes" and returned to Earth. It was only on later missions that samples were documented with photographs and collected into specific sample collection bags.
+                                        </p>
+
+                                        <p>
+                                            These 50 channels of Mission Control audio have only recently been digitized and restored, and are made publicly available here for the first time. They total over 11,000 hours in length.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div id="thirtytrackplaceholder"></div>
-                    <div id="photodiv"></div>
                 </div>
             </div>
         </div>
@@ -322,12 +348,13 @@
               <ul>
                   <li>All mission control film footage</li>
                   <li>All TV transmissions and onboard film footage</li>
-                  <li>2000 photographs</li>
-                  <li>12000 hours of mission control audio</li>
+                  <li>2,000 photographs</li>
+                  <li>11,000 hours of mission control audio</li>
                   <li>240 hours of space-to-ground audio</li>
                   <li>All onboard recorder audio</li>
-                  <li>15000 searchable utterances</li>
+                  <li>15,000 searchable utterances</li>
                   <li>Post-mission commentary</li>
+                  <li>Astromaterials sample data</li>
               </ul>
 
               <a class="splash-btn credits subdued" id="aboutSplashBtn">
@@ -540,6 +567,12 @@
         <td class="who @uttType">@who</td>
         <td class="spokenwords @uttType"> @words</td>
     </tr>
+</script>
+
+<script type="text/html" id="geosampleSplashTemplate">
+    <div class="sampleframe">
+        <div class="sampletitle">Astromaterials</div>
+    </div>
 </script>
 
 <script type="text/html" id="geosampleTemplate">

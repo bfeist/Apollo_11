@@ -428,15 +428,7 @@ function initializePlayback() {
             var paramMOCRchannel = $.getUrlVar('ch');
             gActiveChannel = decodeURIComponent(paramMOCRchannel);
 
-            var html = $('#MOCROverlayTemplate').html();
-            html = html.replace(/@ch/g, gActiveChannel);
-            $('#thirtytrackplaceholder').append(html);
-            $('#soundBtn').removeClass('mute');
-            player.mute();
-            gMOCRToggled = true;
-            $('#MOCRvizIframe').load(function () {
-                console.log('iframe loaded successfully');
-            });
+            openMOCRviz();
         }
     }
     clearInterval(gApplicationReadyIntervalID);
@@ -885,7 +877,7 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     for (var i = 0; i < gGeoData.length; i++) {
         if (gGeoData[i][0] === utteranceObject[0]) {
             var re = new RegExp(gGeoData[i][3], "g");
-            words_modified = words_modified.replace(re, "<a href='javascript:;' onclick='updateGeosampleOverlay(" + i + ");'>" + gGeoData[i][3] + "</a>");
+            words_modified = words_modified.replace(re, "<a href='javascript:;' onclick='LoadGeosampleIntoOverlay(" + i + ");'>" + gGeoData[i][3] + "</a>");
         }
     }
 
@@ -1239,13 +1231,13 @@ function searchResultClick(searchResultId, itemType) {
     toggleSearchOverlay();
     seekToTime(searchResultId);
     if (itemType === "transcript" || itemType === "geology" || itemType === "photo") {
-        activateTab("transcriptTab");
+        activateContentTab("transcriptTab");
         scrollTranscriptToCurrMissionTime();
     } else if (itemType === "commentary") {
-        activateTab("commentaryTab");
+        activateContentTab("commentaryTab");
         scrollCommentaryToCurrMissionTime();
     } else if (itemType === "toc") {
-        activateTab("tocTab");
+        activateContentTab("tocTab");
         scrollTOCToCurrMissionTime();
     }
 
@@ -1488,20 +1480,45 @@ function hideDashboardOverlay() {
     dashboardBtnSelector.addClass('subdued');
 }
 
-function toggleGeosampleOverlay() {
-    var geosampleOverlaySelector = $('.geosample-overlay');
-    if (geosampleOverlaySelector.css('display').toLowerCase() === 'none') {
-        geosampleOverlaySelector.fadeIn();
-    } else {
-        geosampleOverlaySelector.fadeOut();
-    }
+
+//app tab content
+function openMOCRviz() {
+    closeGeosampleOverlay();
+
+    var html = $('#MOCROverlayTemplate').html();
+    html = html.replace(/@ch/g, gActiveChannel);
+    $('#thirtytrackplaceholder').append(html);
+    $('#soundBtn').removeClass('mute');
+    player.mute();
+    gMOCRToggled = true;
+    $('#MOCRvizIframe').load(function () {
+        console.log('MOCR iframe loaded successfully');
+    });
 }
 
-function updateGeosampleOverlay(geoDataIndex) {
+function closeMOCRviz() {
+    $('#thirtytrackplaceholder').empty();
+    $('#soundBtn').addClass('mute');
+    player.unMute();
+    gMOCRToggled = false;
+}
+
+function openGeosampleOverlay() {
+    closeMOCRviz();
+    var geosampleOverlaySelector = $('#geosample-overlay');
+    geosampleOverlaySelector.fadeIn();
+}
+
+function closeGeosampleOverlay() {
+    var geosampleOverlaySelector = $('#geosample-overlay');
+    geosampleOverlaySelector.fadeOut();
+}
+
+function LoadGeosampleIntoOverlay(geoDataIndex) {
     ga('send', 'event', 'button', 'click', 'geosample');
     var geosampleTable = $('#geosampleTable');
     geosampleTable.html('');
-    $('#bagnum').html(gGeoData[geoDataIndex][2]);
+    $('#bagnum').html(' - ' + gGeoData[geoDataIndex][2]);
 
     var sampleNumberArray = gGeoData[geoDataIndex][5].split("`");
 
@@ -1661,10 +1678,7 @@ function updateGeosampleOverlay(geoDataIndex) {
             async: true
         });
     }
-    var geosampleOverlaySelector = $('.geosample-overlay');
-    if (geosampleOverlaySelector.css('display').toLowerCase() === 'none') {
-        geosampleOverlaySelector.fadeIn();
-    }
+    openGeosampleOverlay();
 }
 
 function getGeosampleHTML(samplenumber, paperHtml, compendiumHtml) {
@@ -1676,6 +1690,7 @@ function getGeosampleHTML(samplenumber, paperHtml, compendiumHtml) {
     html = html.replace(/@geocompendium/g, compendiumHtml);
     return html;
 }
+
 
 
 function toggleFullscreen() {
@@ -1793,7 +1808,7 @@ jQuery(function ($) {
     } else {
         gMissionTimeParamSent = 0;
     }
-    activateTab('transcriptTab');
+    activateContentTab('transcriptTab');
     //buttons
 
     $("#searchBtn")
@@ -1891,10 +1906,10 @@ jQuery(function ($) {
             if(twitterWindow.focus) { twitterWindow.focus(); }
         });
 
-    //tab button events
+    //content tab button events
     $("#transcriptTab").click(function(){
         ga('send', 'event', 'tab', 'click', 'transcript');
-        activateTab(this.id);
+        activateContentTab(this.id);
         setTimeout(function(){
             scrollTranscriptToCurrMissionTime();
         },100);
@@ -1903,29 +1918,54 @@ jQuery(function ($) {
 
     $("#tocTab").click(function(){
         ga('send', 'event', 'tab', 'click', 'toc');
-        activateTab(this.id);
+        activateContentTab(this.id);
         scrollTOCToCurrMissionTime();
     });
 
     $("#commentaryTab").click(function(){
         ga('send', 'event', 'tab', 'click', 'commentary');
-        activateTab(this.id);
+        activateContentTab(this.id);
         setTimeout(function(){
             scrollCommentaryToCurrMissionTime();
         },100);
     });
 
 
+    //app tab button events
+    $("#photoTab").click(function(){
+        ga('send', 'event', 'tab', 'click', 'photo');
+        activateAppTab(this.id);
+        closeGeosampleOverlay();
+        closeMOCRviz();
+    });
 
+    $("#mocrTab").click(function(){
+        ga('send', 'event', 'tab', 'click', 'mocr');
+        activateAppTab(this.id);
+        closeGeosampleOverlay();
+        openMOCRviz();
+    });
+
+    $("#geosampleTab").click(function(){
+        ga('send', 'event', 'tab', 'click', 'geosample');
+        activateAppTab(this.id);
+        closeMOCRviz();
+        openGeosampleOverlay();
+    });
 });
 
-function activateTab(tabId) {
+function activateContentTab(tabId) {
     $('.splash-btn.content-tab').removeClass('selected');
     $('#' + tabId).addClass('selected');
 
     var rootName = tabId.substring(0, tabId.length - 3);
     $('.text-wrapper').css("display", "none");
     $('#' + rootName + "Wrapper").css("display", "block");
+}
+
+function activateAppTab(tabId) {
+    $('.splash-btn.app-tab').removeClass('selected');
+    $('#' + tabId).addClass('selected');
 }
 
 function scrollTranscriptToCurrMissionTime() {
@@ -1994,9 +2034,9 @@ function setSplashHistoricalSubtext() {
 }
 
 function proportionalWidthOnPhotoBlock() {
-    var photoBlockWidth = $('body').width() - ($('.video-block').width() + $('.thirtytrack-block').width()) - 1;
-    //trace("trying to set photo block width: " + photoBlockWidth);
-    $('.photo-block').width(photoBlockWidth);
+    var appBlockWidth = $('body').width() - ($('.video-block').width() + $('.thirtytrack-block').width()) - 1;
+    //trace("trying to set photo block width: " + appBlockWidth);
+    $('.app-with-tabs-block').width(appBlockWidth);
 }
 
 function thirtyButtons_click() {
@@ -2021,13 +2061,6 @@ function thirtyButtons_click() {
         MOCRvizIframeSelector.contentWindow.playFromCurrGET();
         MOCRvizIframeSelector.contentWindow.refreshTapeActivityDisplay(true);
     }
-}
-
-function closeMOCRviz() {
-    $('#thirtytrackplaceholder').empty();
-    $('#soundBtn').addClass('mute');
-    player.unMute();
-    gMOCRToggled = false;
 }
 
 function thirtyButtons_hover() {
