@@ -53,7 +53,6 @@
     <script type="text/javascript" src='lib/jquery.lazyload.js'></script>
     <script type="text/javascript" src="lib/paper-full.min.js"></script>
     <script type="text/javascript" src="lib/date.js"></script>
-    <script type="text/javascript" src='lib/share.js'></script>
     <script type="text/javascript" src='lib/jquery.waitforimages.min.js'></script>
     <script type="text/javascript" src='lib/size_manager.js'></script>
     <script type="text/javascript" src='lib/help_overlay_manager.js'></script>

@@ -792,7 +792,7 @@ function positionChannelButtons() {
     $('#btndiv-ch53').css({"left": x + "px", "top": y + "px"}); //EASEP
     $('#btn-ch53').css({"width": buttonWidth + "px"});
 
-    y = y + rowGap / 2;
+    y = y + rowGap / 2 - 2;
     //backrooms 2
     buttonWidth = 96;
     x = 0;

@@ -26,7 +26,6 @@ var player;
 var gIntervalID = null;
 var gIntroInterval = null;
 var gApplicationReadyIntervalID = null;
-var gShareButtonObject;
 var YT = {
     loading: 0,
     loaded: 0
@@ -1466,13 +1465,13 @@ function showDashboardOverlay() {
     var dashboardBtnSelector =  $('#dashboardBtn');
     //dashboardOverlaySelector.css('display', 'block');
     dashboardOverlaySelector.fadeIn();
-    //$('#dashboardContent').modemizr({
-    //    bps: 2400,
-    //    cursor: true,
-    //    blink: false,
-    //    imageSpeedup: 100,
-    //    show: false
-    //});
+    $('#dashboardContent').modemizr({
+       bps: 2400,
+       cursor: true,
+       blink: false,
+       imageSpeedup: 100,
+       show: false
+    });
     dashboardBtnSelector.removeClass('subdued');
     dashboardBtnSelector.addClass('primary');
     if ($('.search-overlay').css('display').toLowerCase() !== 'none') { //turn off search if it's up
@@ -1865,8 +1864,6 @@ jQuery(function ($) {
             $('[data-js-class="HelpOverlayManager"]').each(function() {
               $(this).data('helpOverlayManager').showHelp();
             });
-
-            //gShareButtonObject.toggle();
         });
     $("#aboutSplashBtn")
         .click(function(){
@@ -1875,14 +1872,23 @@ jQuery(function ($) {
             $('[data-js-class="HelpOverlayManager"]').each(function() {
                 $(this).data('helpOverlayManager').showHelp();
             });
-
-            //gShareButtonObject.toggle();
         });
 
     $("#shareBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'share');
-            //gShareButtonObject.toggle(); //this is already happening within the share button div itself.
+            if (gMOCRToggled) {
+                var url = "https://apolloinrealtime.org/11/?t=" + gCurrMissionTime + "%26ch=" + $('#MOCRvizIframe')[0].contentWindow.gActiveChannel;
+                var text = "%23Apollo11 in Real-time. Mission control audio channel " + $('#MOCRvizIframe')[0].contentWindow.cTrackInfo['ch' + $('#MOCRvizIframe')[0].contentWindow.gActiveChannel][0] + " at " + gCurrMissionTime + " %23NASA";
+            } else {
+                var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
+                // url = "https://apolloinrealtime.org/11/?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
+                url = "https://apolloinrealtime.org/11/?t=" + gCurrMissionTime;
+                text = "%23Apollo11 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2].substr(0, 67) + "... ";
+            }
+            var hashtags = 'nasa';
+            var twitterWindow = window.open('https://twitter.com/share?url=' + url + '&text=' + text + '&hashtags=' + hashtags, 'twitter-popup', 'height=350,width=600');
+            if(twitterWindow.focus) { twitterWindow.focus(); }
         });
 
     //tab button events
@@ -2150,69 +2156,6 @@ $(document).ready(function() {
             appendUtterances(25, true);
         }
     }, 10));
-
-    gShareButtonObject = new Share(".share-button", {
-        ui: {
-            flyout: "bottom bottom",
-            button_text: ""
-        },
-        networks: {
-            // facebook: {
-            //     app_id: "1639595472942714",
-            //     before: function(element) {
-            //         var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
-            //         this.title = "Apollo 11 in Real-time - Moment: " + gCurrMissionTime;
-            //         this.url = "http://apolloinrealtime.org/11/?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
-            //         this.description = timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2];
-            //         // var nearestPhotoObject = gPhotoData[gPhotoDataLookup[findClosestPhoto(timeStrToSeconds(gCurrMissionTime))]];
-            //         // if (nearestPhotoObject[3] !== "") {
-            //         //     var photoTypePath = "flight";
-            //         //     var filename = "AS17-" + nearestPhotoObject[1];
-            //         // } else {
-            //         //     photoTypePath = "supporting";
-            //         //     filename = nearestPhotoObject[1];
-            //         // }
-            //         // filename = filename + ".jpg";
-            //         // this.image = "http://apollo17.org/mission_images/" + photoTypePath + "/1024/" + filename;
-            //     },
-            //     after: function() {
-            //         trace("User shared facebook: ", this.url);
-            //         ga('send', 'event', 'share', 'click', 'facebook');
-            //         //gShareButtonObject.close();
-            //     }
-            // },
-            twitter: {
-                before: function() {
-                    if (gMOCRToggled) {
-                        this.url = "https://apolloinrealtime.org/11/?t=" + gCurrMissionTime + "%26ch=" + $('#MOCRvizIframe')[0].contentWindow.gActiveChannel;
-                        this.description = "%23Apollo11 in Real-time. Mission control audio channel " + $('#MOCRvizIframe')[0].contentWindow.cTrackInfo['ch' + $('#MOCRvizIframe')[0].contentWindow.gActiveChannel][0] + " at " + gCurrMissionTime + " %23NASA";
-                    } else {
-                        var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
-                        this.url = "https://apolloinrealtime.org/11/?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
-                        this.description = "%23Apollo11 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2].substr(0, 67) + "... %23NASA";
-                    }
-                },
-                after: function() {
-                    trace("User shared twitter: ", this.url);
-                    ga('send', 'event', 'share', 'click', 'twitter');
-                    //this.close();
-                }
-            },
-
-            email: {
-                before: function() {
-                    var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
-                    this.title = "Apollo 11 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]);
-                    this.description = sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2] + "     " + "https://apolloinrealtime.org/11/?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
-                },
-                after: function() {
-                    trace("User shared email: ", this.title);
-                    ga('send', 'event', 'share', 'click', 'email');
-                    //this.close();
-                }
-            }
-        }
-    });
 });
 
 // </editor-fold>
