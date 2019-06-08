@@ -110,7 +110,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 function onYouTubeIframeAPIReady() {
     trace("INIT: onYouTubeIframeAPIReady():creating player object");
     player = new YT.Player('player', {
-        videoId: 'pLs5mc0Ng5k',
+        videoId: 'KfRygQcR5uk',
         width: '100%',
         height: '100%',
         playerVars: {
@@ -740,7 +740,7 @@ function scrollTranscriptToTimeId(timeId) {
 }
 
 function flashTab(tabName) {
-    var flashDuration = 500; //in ms
+    var flashDuration = 1000; //in ms
     var $tab = $('#' + tabName);
     if (!$tab.hasClass('selected')) {
         //trace("flash tab");
@@ -877,7 +877,7 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     for (var i = 0; i < gGeoData.length; i++) {
         if (gGeoData[i][0] === utteranceObject[0]) {
             var re = new RegExp(gGeoData[i][3], "g");
-            words_modified = words_modified.replace(re, "<a href='javascript:;' onclick='LoadGeosampleIntoOverlay(" + i + ");'>" + gGeoData[i][3] + "</a>");
+            words_modified = words_modified.replace(re, "<a href='javascript:;' onclick='loadGeosampleIntoOverlay(" + i + ");'>" + gGeoData[i][3] + "</a>");
         }
     }
 
@@ -1119,6 +1119,8 @@ function showPhotoByTimeId(timeId) {
         photoGalleryDiv.animate({scrollTop: scrollDest}, 500, 'swing', function() {
             //trace('Finished animating gallery: ' + scrollDest);
         });
+
+        flashTab("photoTab");
     }
 }
 
@@ -1505,6 +1507,32 @@ function closeMOCRviz() {
 
 function openGeosampleOverlay() {
     closeMOCRviz();
+
+    var geosampleTable = $('#geosampleTable');
+    geosampleTable.html('');
+    var html = $('#geosampleSplash').html();
+
+    var samplerows = '';
+    for (var i = 0; i < gGeoData.length; i++) {
+        var sampleNums = gGeoData[i][5].split('`');
+        var sampleNumsItem = '';
+        for (var x = 0; x < sampleNums.length; x++) {
+            if (x == sampleNums.length - 1) {
+                sampleNumsItem += sampleNums[x]
+            } else {
+                sampleNumsItem += sampleNums[x] + ', ';
+            }
+        }
+
+        samplerows += "<tr onclick='seekToGeosample(" + i + ")'>" +
+            "<td>" + timeIdToTimeStr(gGeoData[i][0]) + "</td>" +
+            "<td class='samplecontainerslink'>" + gGeoData[i][2] + "</td>" +
+            "<td>" + sampleNumsItem + "</td>" +
+            "</tr>\n";
+    }
+    html = html.replace(/@samplerows/g, samplerows);
+    geosampleTable.html(html);
+
     var geosampleOverlaySelector = $('#geosample-overlay');
     geosampleOverlaySelector.fadeIn();
 }
@@ -1514,7 +1542,15 @@ function closeGeosampleOverlay() {
     geosampleOverlaySelector.fadeOut();
 }
 
-function LoadGeosampleIntoOverlay(geoDataIndex) {
+function seekToGeosample(GeoDataIndex) {
+    seekToTime(gGeoData[GeoDataIndex][0]);
+    loadGeosampleIntoOverlay(GeoDataIndex);
+}
+
+function loadGeosampleIntoOverlay(geoDataIndex) {
+    closeMOCRviz();
+    activateAppTab('geosampleTab');
+
     ga('send', 'event', 'button', 'click', 'geosample');
     var geosampleTable = $('#geosampleTable');
     geosampleTable.html('');
@@ -1678,7 +1714,8 @@ function LoadGeosampleIntoOverlay(geoDataIndex) {
             async: true
         });
     }
-    openGeosampleOverlay();
+    var geosampleOverlaySelector = $('#geosample-overlay');
+    geosampleOverlaySelector.fadeIn();
 }
 
 function getGeosampleHTML(samplenumber, paperHtml, compendiumHtml) {

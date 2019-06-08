@@ -149,9 +149,9 @@
 
             <div class="tabs-wrapper">
                 <div class="button-row">
-                    <a id="transcriptTab" class="splash-btn content-tab" title="Every word spoken on the mission"><SPAN>Transcript</SPAN></a>
-                    <a id="tocTab" class="splash-btn content-tab" title="Points of interest throughout the mission"><SPAN>Mission Milestones</SPAN></a>
-                    <a id="commentaryTab" class="splash-btn content-tab" title="Description of events and post-mission interviews with the crew"><SPAN>Commentary</SPAN></a>
+                    <a id="transcriptTab" class="splash-btn content-tab subdued" title="Every word spoken on the mission"><SPAN>Transcript</SPAN></a>
+                    <a id="tocTab" class="splash-btn content-tab subdued" title="Points of interest throughout the mission"><SPAN>Mission Milestones</SPAN></a>
+                    <a id="commentaryTab" class="splash-btn content-tab subdued" title="Description of events and post-mission interviews with the crew"><SPAN>Commentary</SPAN></a>
                 </div>
 
                 <div class="button-row-small-container">
@@ -159,7 +159,7 @@
                         <a class="splash-btn subdued" id="searchBtn" title="Search transcripts and samples"><span class="sr-only">Search transcripts and samples</span></a>
                         <a class="splash-btn subdued" id="playPauseBtn" class="pause" title="Play/Pause"><span class="sr-only">Play/Pause</span></a>
                         <a class="splash-btn subdued" id="realtimeBtn" title="Sync to today's clock"><span class="sr-only">Sync to today's clock</span></a>
-                        <a class="splash-btn subdued" id="aboutBtn" title="About this website"><span class="sr-only">About this website</span></a>
+                        <a class="splash-btn subdued" id="aboutBtn" title="About this website" style="cursor:help;"><span class="sr-only">About this website</span></a>
                     </div>
                     <div class="button-row small">
                         <a class="splash-btn subdued" id="dashboardBtn" title="Show Dashboard"><span class="sr-only">Show Mission Status</span></a>
@@ -244,9 +244,9 @@
         <div class="app-with-tabs-block">
             <div class="app-tabs">
                 <div class="app-button-row">
-                    <a id="photoTab" class="splash-btn app-tab selected" title="Photography"><SPAN>Photography</SPAN></a>
-                    <a id="mocrTab" class="splash-btn app-tab" title="Mission Control Audio"><SPAN>Mission Control Audio</SPAN></a>
-                    <a id="geosampleTab" class="splash-btn app-tab" title="Astromaterial Samples"><SPAN>Astromaterial Samples</SPAN></a>
+                    <a id="photoTab" class="splash-btn app-tab subdued selected" title="Photography"><SPAN>Photography</SPAN></a>
+                    <a id="mocrTab" class="splash-btn app-tab subdued" title="Mission Control Audio"><SPAN>Mission Control Audio</SPAN></a>
+                    <a id="geosampleTab" class="splash-btn app-tab subdued" title="Astromaterial Samples"><SPAN>Astromaterial Samples</SPAN></a>
                 </div>
             </div>
             <div class="app-block" data-js-class="SizeManager" data-sm-parent=".app-with-tabs-block">
@@ -262,28 +262,7 @@
                         <hr>
                         <div id="geosampleDiv">
                             <div id="geosampleTable">
-                                <div style="float: right; width:200px;"><img src="img/ares2.jpg"/></div>
-                                <div class="introduction">
-                                    <div class="section-header">Introduction</div>
-                                    <div class="copy">
-                                        <p>
-                                            Geologic samples returned from the Moon by the Apollo lunar surface exploration missions (1969-1972), along with associated data records, are physically protected, environmentally preserved, and scientifically processed in a special building dedicated for that purpose at the Johnson Space Center in Houston, Texas. A total of 382 kilograms of lunar material, comprising 2200 individual specimens returned from the Moon, has been processed to meet scientific requirements into more than 110,000 individually cataloged samples.
-                                        </p>
-                                        <p>
-                                            Building 31N at Johnson Space Center was constructed from 1977 to 1979 and opened in 1979 to provide for permanent storage of the lunar sample collection in a physically secure and non-contaminating environment. The purpose of the facility is to maintain in pristine condition the lunar samples that comprise a priceless national and scientific resource while making the samples available to approved scientists and educators.
-                                        </p>
-                                    </div>
-                                    <div class="section-header">Apollo 11 Samples</div>
-                                    <div class="copy">
-                                        <p>
-                                            The lunar samples collected by the Apollo 11 crew were depositied in bulk into "rock boxes" and returned to Earth. It was only on later missions that samples were documented with photographs and collected into specific sample collection bags.
-                                        </p>
 
-                                        <p>
-                                            These 50 channels of Mission Control audio have only recently been digitized and restored, and are made publicly available here for the first time. They total over 11,000 hours in length.
-                                        </p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -357,7 +336,7 @@
                   <li>Astromaterials sample data</li>
               </ul>
 
-              <a class="splash-btn credits subdued" id="aboutSplashBtn">
+              <a class="splash-btn credits subdued" id="aboutSplashBtn" style="cursor:help;">
                   <span>Instructions / Credits</span>
               </a>
 
@@ -593,6 +572,44 @@
         <div class="moondb" id="moondb@samplenumber"></div>
         <div class="geoImages" id="geoImages@samplenumber"></div>
         <div class="geoPapers" id="geoPapers@samplenumber">@papers</div>
+    </div>
+</script>
+
+<script type="text/html" id="geosampleSplash">
+    <div style="float: right;"><img src="img/ares2.jpg"/></div>
+    <div class="introduction">
+        <div class="section-header">Introduction</div>
+        <div class="copy">
+            <p>
+                Geologic samples returned from the Moon by the Apollo lunar surface exploration missions (1969-1972), along with associated data records, are physically protected, environmentally preserved, and scientifically processed in a special building dedicated for that purpose at the Johnson Space Center in Houston, Texas. A total of 382 kilograms of lunar material, comprising 2200 individual specimens returned from the Moon, has been processed to meet scientific requirements into more than 110,000 individually cataloged samples.
+            </p>
+            <p>
+                Building 31N at Johnson Space Center was constructed from 1977 to 1979 and opened in 1979 to provide for permanent storage of the lunar sample collection in a physically secure and non-contaminating environment. The purpose of the facility is to maintain in pristine condition the lunar samples that comprise a priceless national and scientific resource while making the samples available to approved scientists and educators.
+            </p>
+        </div>
+        <div class="section-header">Apollo 11 Samples</div>
+        <div class="copy">
+            <p>
+                The lunar samples collected by the Apollo 11 crew were depositied in bulk into "rock boxes" and returned to Earth. It was only on later missions that samples were documented with photographs and collected into specific sample collection bags.
+            </p>
+            <p>
+                These 50 channels of Mission Control audio have only recently been digitized and restored, and are made publicly available here for the first time. They total over 11,000 hours in length.
+            </p>
+        </div>
+        <div class="section-header">Jump to Sample Collection Moments:</div>
+        <div class="sampleframe">
+            <div class="externallinks">
+                <table class='samplecontainerstable'>
+                    <tr>
+                        <td>Time</td>
+                        <td>Container</td>
+                        <td>Sample Numbers</td>
+                    </tr>
+                    @samplerows
+                </table>
+            </div>
+
+        </div>
     </div>
 </script>
 
