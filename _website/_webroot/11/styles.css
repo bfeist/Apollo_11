@@ -2187,6 +2187,9 @@ table.sampleinfotable tr:nth-child(even) {
     background: #0a0a0a;
 }
 
+#samplecontainersframe {
+    margin: 15px 5px 20px 5px !important;
+}
 
 table.samplecontainerstable {
     font-family: 'Roboto Mono', sans-serif;
@@ -2219,7 +2222,7 @@ table.samplecontainerstable td:first-child {
 
 table.samplecontainerstable td:nth-child(3) {
     color: #969696;
-    font-size: 0.7em;
+    font-size: 0.9em;
     width: 65%;
 }
 

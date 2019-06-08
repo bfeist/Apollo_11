@@ -1115,7 +1115,7 @@ function showPhotoByTimeId(timeId) {
         var photoGalleryImageTimeId = "#gallerytimeid" + gPhotoData[gPhotoDataLookup[timeId]][0];
         $(photoGalleryImageTimeId).addClass('selected');
 
-        var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight - 40; //added offset for ted design
+        var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight - 70; //added offset for ted design
         photoGalleryDiv.animate({scrollTop: scrollDest}, 500, 'swing', function() {
             //trace('Finished animating gallery: ' + scrollDest);
         });
@@ -2078,6 +2078,8 @@ function proportionalWidthOnPhotoBlock() {
 
 function thirtyButtons_click() {
     // console.log("select-channel-button clicked: " + $(this).attr('id'));
+    activateAppTab('mocrTab');
+
     gActiveChannel = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2)); //get channel number from button label
 
     if (gMOCRToggled === false) {
