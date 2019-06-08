@@ -1878,9 +1878,12 @@ jQuery(function ($) {
             if ($("#playPauseBtn").hasClass('pause')) {
                 ga('send', 'event', 'button', 'click', 'pause');
                 player.pauseVideo();
+                $('#playPauseBtn').addClass("blink_me_orange");
+
             } else {
                 ga('send', 'event', 'button', 'click', 'play');
                 player.playVideo();
+                $('#playPauseBtn').removeClass("blink_me_orange");
             }
         });
 
@@ -1890,6 +1893,7 @@ jQuery(function ($) {
                 ga('send', 'event', 'button', 'click', 'unmute');
                 if (gMOCRToggled) {
                     closeMOCRviz(); //includes unmuting player and adding class below
+                    activateAppTab('photoTab');
                 } else {
                     player.unMute();
                     $(this).addClass('mute');

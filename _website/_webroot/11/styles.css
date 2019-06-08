@@ -1311,14 +1311,28 @@ body.app-ready .splash-btn.activated.selected {
 
 
 .blink_me {
-    animation: blinker 0.2s linear infinite;
+    animation: blinker 0.2s step-start infinite;
 }
 
 @keyframes blinker {
     50% {
         /*opacity: 0.2;*/
         background-color: #7bbfd8;
-        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5), -1px -1px 1px rgba(255, 255, 255, .5);
+        border-right: 1px solid rgb(93, 153, 177);
+        border-bottom: 1px solid rgb(93, 153, 177);
+    }
+}
+
+.blink_me_orange {
+    animation: blinker_orange 0.2s step-start infinite;
+}
+
+@keyframes blinker_orange {
+    60% {
+        /*opacity: 0.2;*/
+        background-color: #FFC688;
+        border-right: 1px solid rgba(215, 160, 108, 1);
+        border-bottom: 1px solid rgba(215, 160, 108, 1);
     }
 }
 
