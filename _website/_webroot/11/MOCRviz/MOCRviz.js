@@ -280,6 +280,7 @@ function mainApplication() {
     gTool.onMouseDown = function (event) {
         if (event.point.y > 0 && event.point.y < cAvailableChannelsArray.length * (cChannelStrokeWidth + cFillerStrokeWidth)) { //if in the top mulitrack area
             //determine channel clicked
+            ga('send', 'event', 'MOCRviz', 'click', 'channel');
             var availableChannelsIndex = Math.round((event.point.y - cChannelStrokeWidth / 2) / (cChannelStrokeWidth + cFillerStrokeWidth));
             availableChannelsIndex = availableChannelsIndex > cAvailableChannelsArray.length - 1 ? cAvailableChannelsArray.length - 1 : availableChannelsIndex;
             availableChannelsIndex = availableChannelsIndex < 0 ? 0 : availableChannelsIndex;
@@ -291,6 +292,7 @@ function mainApplication() {
             //set GET
             var mouseGEToffset = event.point.x - Math.round($(window).width() / 2);
         } else { //if in the wav form area
+            ga('send', 'event', 'MOCRviz', 'click', 'wav');
             mouseGEToffset = (event.point.x - Math.round($(window).width() / 2)) * gWaveform512.seconds_per_pixel;
         }
         gCurrGETSeconds = gCurrGETSeconds + mouseGEToffset;
@@ -355,11 +357,13 @@ function getChannelParameter() {
 }
 
 function frameUpdateOnTimer() {
-    if (parent.gPlaybackState === 'normal' && gPlayer.paused) {
-        gPlayer.play();
-    }
-    if (parent.gPlaybackState !== 'normal' && !gPlayer.paused) {
-        gPlayer.pause();
+    if (parent.gCurrMissionTime !== undefined) {
+        if (parent.gPlaybackState === 'normal' && gPlayer.paused) {
+            gPlayer.play();
+        }
+        if (parent.gPlaybackState !== 'normal' && !gPlayer.paused) {
+            gPlayer.pause();
+        }
     }
 
     //wait for gPlayer to be ready before seeking to player position (safari fix)
@@ -884,8 +888,8 @@ function setChannelButtonAndDotColors() {
 
 function channelButtons_click() {
     // console.log("select-channel-button clicked: " + $(this).attr('id'));
-
     gActiveChannel = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2)); //get channel number from button label
+    ga('send', 'event', 'MOCRviz', 'click', 'channelbutton');
     loadChannelSoundfile();
     playFromCurrGET(true);
     refreshTapeActivityDisplay(true);
@@ -1051,6 +1055,7 @@ function isometric_dots_hover() {
 
 function isometric_dots_click() {
     gActiveChannel = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('dot') + 3)); //get channel number from dot label
+    ga('send', 'event', 'MOCRviz', 'click', 'isobuttons');
     loadChannelSoundfile();
     playFromCurrGET(true);
     refreshTapeActivityDisplay(true);

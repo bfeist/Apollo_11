@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="MOCRviz.css" />
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-37086725-6', 'auto');
+        ga('send', 'pageview');
+    </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script src="js/jquery_plugins.js"></script>
     <script src="js/peaks.js"></script>
@@ -93,7 +103,7 @@
     </div>
 
     <div id="audioDiv">
-        <audio id="audio-element" controls=controls autoplay>
+        <audio id="audio-element" controls=controls>
             <source id="track" type="audio/mpeg" />
         </audio>
     </div>

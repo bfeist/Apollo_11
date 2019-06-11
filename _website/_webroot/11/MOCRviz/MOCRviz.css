@@ -96,6 +96,14 @@ button {
     display: none;
 }
 
+#playButton {
+    display: block;
+    position: fixed;
+    top: 100px;
+    z-index: 6;
+}
+
+
 #audioDiv {
     display: none;
     position: fixed;

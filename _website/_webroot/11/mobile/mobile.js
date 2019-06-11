@@ -7,6 +7,7 @@ var cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -500");
 
 var gCurrMissionTime = '';
 var gMobileSite = true;
+var gPlaybackState = 'paused';
 
 //non-mobile detect and redirect
 if(! /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -24,13 +25,13 @@ $(document).ready(function() {
     displayHistoricalTimeDifferenceByTimeId(timeStrToTimeId(gCurrMissionTime));
     setTimeUpdatePoller();
 
-    var splashLayerSelector = document.querySelectorAll('.splash-content');
-    splashLayerSelector[0].addEventListener('click', function() {
-        var html = $('#MOCROverlayTemplate').html();
-        $('#thirtytrack-iframe').append(html);
-
-        $('.splash-content').hide();
-    });
+    // var splashLayerSelector = document.querySelectorAll('.splash-content');
+    // splashLayerSelector[0].addEventListener('click', function() {
+    //     var html = $('#MOCROverlayTemplate').html();
+    //     $('#thirtytrack-iframe').append(html);
+    //
+    //     $('.splash-content').hide();
+    // });
 
 });
 
@@ -41,14 +42,34 @@ function setTimeUpdatePoller() {
             // gCurrMissionTime = secondsToTimeStr(MOCRvizIframeSelector.contentWindow.gCurrGETSeconds);
             gCurrMissionTime = secondsToTimeStr(timeStrToSeconds(gCurrMissionTime) + 1);
             displayHistoricalTimeDifferenceByTimeId(timeStrToTimeId(gCurrMissionTime));
-
-            $('#MOCRvizIframe').contents().find(".close-btn").css('display', 'none');
         }
     }, 1000);
 }
 
-function seekToTime(timeId) {
-    gCurrMissionTime = timeIdToTimeStr(timeId);
+// function seekToTime(timeId) {
+//     gCurrMissionTime = timeIdToTimeStr(timeId);
+//
+// }
+
+function launchButtonClick() {
+    $('.splash-content').hide();
+    var MOCRvizIframeSelector = $('#MOCRvizIframe')[0];
+    gCurrMissionTime = '-00:01:05';
+    MOCRvizIframeSelector.contentWindow.gCurrGETSeconds = timeStrToSeconds(gCurrMissionTime);
+    MOCRvizIframeSelector.contentWindow.playFromCurrGET();
+    MOCRvizIframeSelector.contentWindow.refreshTapeActivityDisplay(true);
+    MOCRvizIframeSelector.contentWindow.gWaveformRefresh = true;
+    gPlaybackState = 'normal';
+}
+
+function historicalButtonClick() {
+    $('.splash-content').hide();
+    var MOCRvizIframeSelector = $('#MOCRvizIframe')[0];
+    MOCRvizIframeSelector.contentWindow.gCurrGETSeconds = timeStrToSeconds(gCurrMissionTime);
+    MOCRvizIframeSelector.contentWindow.playFromCurrGET();
+    MOCRvizIframeSelector.contentWindow.refreshTapeActivityDisplay(true);
+    MOCRvizIframeSelector.contentWindow.gWaveformRefresh = true;
+    gPlaybackState = 'normal';
 }
 
 function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" button

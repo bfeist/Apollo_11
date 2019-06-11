@@ -8,7 +8,7 @@ var cSpacesCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
 var cWebCdnRoot = '';
 // var cWebCdnRoot = 'https://apollort-26f5.kxcdn.com';
 
-var cYTSDHDListIndex = 0; //0 for SD  1 for HD
+var cYouTubeSDorHD = 0; //0 for SD  1 for HD
 
 //constants
 var cMissionDurationSeconds = 713311;
@@ -148,6 +148,9 @@ function onPlayerStateChange(event) {
     if (event.data === YT.PlayerState.PLAYING) {
         //trace("onPlayerStateChange():PLAYER PLAYING");
         playPauseBtn.addClass('pause');
+        if (playPauseBtn.hasClass("blink_me_orange")) {
+            playPauseBtn.removeClass("blink_me_orange");
+        }
         player.setPlaybackQuality('hd1080');
 
         if (gNextVideoStartTime !== -1) {
@@ -175,6 +178,9 @@ function onPlayerStateChange(event) {
         gIntervalID = null;
         gPlaybackState = "paused";
         playPauseBtn.removeClass('pause');
+        if (!playPauseBtn.hasClass("blink_me_orange")) {
+            playPauseBtn.addClass("blink_me_orange");
+        }
 
     } else if (event.data === YT.PlayerState.BUFFERING) {
         // trace("onPlayerStateChange():BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
@@ -190,9 +196,9 @@ function onPlayerStateChange(event) {
         //trace("onPlayerStateChange():ENDED. Load next video.");
         var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2,11);
         for (var i = 0; i < gMediaList.length; ++i) {
-            if (gMediaList[i][cYTSDHDListIndex] === currVideoID) {
-                trace("onPlayerStateChange():Ended. Changing video from: " + currVideoID + " to: " + gMediaList[i + 1][cYTSDHDListIndex]);
-                currVideoID = gMediaList[i + 1][cYTSDHDListIndex];
+            if (gMediaList[i][cYouTubeSDorHD] === currVideoID) {
+                trace("onPlayerStateChange():Ended. Changing video from: " + currVideoID + " to: " + gMediaList[i + 1][cYouTubeSDorHD]);
+                currVideoID = gMediaList[i + 1][cYouTubeSDorHD];
                 break;
             }
         }
@@ -490,10 +496,10 @@ function seekToTime(timeId) { // transcript click handling --------------------
             gCurrVideoEndSeconds = itemEndTimeSeconds;
             gPlaybackState = "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
             //change youtube video if the correct video isn't already playing
-            if (currVideoID !== gMediaList[i][cYTSDHDListIndex]) {
-                trace("seekToTime(): changing video from: " + currVideoID + " to: " + gMediaList[i][cYTSDHDListIndex]);
+            if (currVideoID !== gMediaList[i][cYouTubeSDorHD]) {
+                trace("seekToTime(): changing video from: " + currVideoID + " to: " + gMediaList[i][cYouTubeSDorHD]);
                 gNextVideoStartTime = seekToSecondsWithOffset;
-                player.loadVideoById(gMediaList[i][cYTSDHDListIndex], seekToSecondsWithOffset, 'hd1080');
+                player.loadVideoById(gMediaList[i][cYouTubeSDorHD], seekToSecondsWithOffset, 'hd1080');
                 player.setPlaybackQuality('hd1080');
             } else {
                 trace("seekToTime(): no need to change video. Seeking to " + timeId);
@@ -2083,7 +2089,7 @@ function proportionalWidthOnPhotoBlock() {
 function thirtyButtons_click() {
     // console.log("select-channel-button clicked: " + $(this).attr('id'));
     activateAppTab('mocrTab');
-
+    ga('send', 'event', '30track', 'click', 'channelbutton');
     gActiveChannel = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2)); //get channel number from button label
 
     if (gMOCRToggled === false) {
