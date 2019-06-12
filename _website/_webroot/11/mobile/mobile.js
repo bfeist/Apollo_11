@@ -41,6 +41,23 @@ $(document).ready(function() {
     //     $('.splash-content').hide();
     // });
 
+    var playPauseBtn = document.getElementById('playPauseBtn');
+    playPauseBtn.onclick = function () {
+            // var MOCRvizIframeSelector = $('#MOCRvizIframe')[0];
+            if ($("#playPauseBtn").hasClass('pause')) {
+                ga('send', 'event', 'button', 'click', 'pause');
+                gPlaybackState = 'paused';
+                // MOCRvizIframeSelector.contentWindow.gPlayer.pause();
+                // $('#playPauseBtn').addClass("blink_me_orange");
+                $("#playPauseBtn").removeClass('pause');
+            } else {
+                ga('send', 'event', 'button', 'click', 'play');
+                // MOCRvizIframeSelector.contentWindow.gPlayer.play();
+                // $('#playPauseBtn').removeClass("blink_me_orange");
+                $("#playPauseBtn").addClass('pause');
+                gPlaybackState = 'normal';
+            }
+        };
 });
 
 function setTimeUpdatePoller() {
