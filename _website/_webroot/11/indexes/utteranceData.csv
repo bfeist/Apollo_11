@@ -10871,8 +10871,7 @@
 1243043|CDR|I can't check that - residual.|O
 1243046|LMP|That's good.|O
 1243047|CMP|Eagle, Columbia. ... got a solid lock on in VHF ranging and ... 480 feet per second.|T
-1243055|LMP|Okay, that sounds a little - little on the high side.|O
-1243055|CDR|Okay. That sounds a little - little on the high side.|T
+1243055|CDR|Okay, that sounds a little - little on the high side.|O
 1243059|CMP|Yes. I'll update it here shortly.|T
 1243101|CDR|Okay.|O
 1243102|LMP|Okay, Houston, we show 47.3 by 9.5.|O

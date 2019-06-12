@@ -1713,7 +1713,6 @@ header {
 
 
 #thirtytrack-container {
-
     overflow-y: scroll;
     overflow-x:hidden;
     /*height: 200px;*/
@@ -1759,10 +1758,12 @@ header {
 
 #thirtytrack-title {
     /*font-family: 'Roboto Mono', sans-serif;*/
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
     text-align: center;
+    line-height: 1.3em;
+    margin-bottom: 5px;
 }
 
 .thirtybtn-channel {
@@ -1774,7 +1775,10 @@ header {
     font-weight: bold;
     text-align: left;
     white-space:nowrap;
+    box-shadow: inset -1px -1px 7px 3px rgba(0, 0, 0, 0.25);
     background-color: #292929;
+    border-right: 1px solid #292929;
+    border-bottom: 1px solid #292929;
     color: #595959;
     padding: 1px 2px;
     margin-bottom: 2px;
@@ -1783,6 +1787,8 @@ header {
 .thirtybtn-active {
     background-color: #636363;
     color: #000000;
+    border-right: 1px solid #636363;
+    border-bottom: 1px solid #636363;
 }
 
 /*.thirtybtn-inactive {*/
@@ -1794,11 +1800,15 @@ header {
 .thirtybtn-selected {
     background-color: #7cb7e0;
     color: #000000;
+    border-right: 1px solid rgb(93, 153, 177);
+    border-bottom: 1px solid rgb(93, 153, 177);
 }
 
 .thirtybtn-hover {
     background-color: #7cb7e0;
     color: #000000;
+    border-right: 1px solid rgb(93, 153, 177);
+    border-bottom: 1px solid rgb(93, 153, 177);
 }
 
 

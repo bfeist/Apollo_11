@@ -6,6 +6,7 @@ var cLaunchDate = Date.parse("1969-07-16 9:33 -500");
 var cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -500");
 
 var gCurrMissionTime = '';
+var gActiveChannel = '15';
 var gMobileSite = true;
 var gPlaybackState = 'paused';
 
@@ -19,9 +20,16 @@ $(document).ready(function() {
     var t = getUrlParameter('t');
     if (typeof t !== "undefined") {
         gCurrMissionTime = t;
+        $('#button1m').css("display", "none");
     } else {
         gCurrMissionTime = timeIdToTimeStr(getNearestHistoricalMissionTimeId());
     }
+
+    var ch = getUrlParameter('ch');
+    if (typeof ch !== "undefined") {
+        gActiveChannel = ch;
+    }
+
     displayHistoricalTimeDifferenceByTimeId(timeStrToTimeId(gCurrMissionTime));
     setTimeUpdatePoller();
 
@@ -37,12 +45,9 @@ $(document).ready(function() {
 
 function setTimeUpdatePoller() {
     return window.setInterval(function () {
-        var MOCRvizIframeSelector = $('#MOCRvizIframe')[0];
-        if (!MOCRvizIframeSelector.contentWindow.gPlayer.paused) {
-            // gCurrMissionTime = secondsToTimeStr(MOCRvizIframeSelector.contentWindow.gCurrGETSeconds);
-            gCurrMissionTime = secondsToTimeStr(timeStrToSeconds(gCurrMissionTime) + 1);
-            displayHistoricalTimeDifferenceByTimeId(timeStrToTimeId(gCurrMissionTime));
-        }
+        // gCurrMissionTime = secondsToTimeStr(MOCRvizIframeSelector.contentWindow.gCurrGETSeconds);
+        gCurrMissionTime = secondsToTimeStr(timeStrToSeconds(gCurrMissionTime) + 1);
+        displayHistoricalTimeDifferenceByTimeId(timeStrToTimeId(gCurrMissionTime));
     }, 1000);
 }
 
@@ -56,6 +61,8 @@ function launchButtonClick() {
     var MOCRvizIframeSelector = $('#MOCRvizIframe')[0];
     gCurrMissionTime = '-00:01:05';
     MOCRvizIframeSelector.contentWindow.gCurrGETSeconds = timeStrToSeconds(gCurrMissionTime);
+    MOCRvizIframeSelector.contentWindow.gActiveChannel = gActiveChannel;
+    MOCRvizIframeSelector.contentWindow.loadChannelSoundfile();
     MOCRvizIframeSelector.contentWindow.playFromCurrGET();
     MOCRvizIframeSelector.contentWindow.refreshTapeActivityDisplay(true);
     MOCRvizIframeSelector.contentWindow.gWaveformRefresh = true;
@@ -66,6 +73,8 @@ function historicalButtonClick() {
     $('.splash-content').hide();
     var MOCRvizIframeSelector = $('#MOCRvizIframe')[0];
     MOCRvizIframeSelector.contentWindow.gCurrGETSeconds = timeStrToSeconds(gCurrMissionTime);
+    MOCRvizIframeSelector.contentWindow.gActiveChannel = gActiveChannel;
+    MOCRvizIframeSelector.contentWindow.loadChannelSoundfile();
     MOCRvizIframeSelector.contentWindow.playFromCurrGET();
     MOCRvizIframeSelector.contentWindow.refreshTapeActivityDisplay(true);
     MOCRvizIframeSelector.contentWindow.gWaveformRefresh = true;
@@ -82,13 +91,19 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     histDate.setMonth(cCountdownStartDate.getMonth());
     histDate.setYear(cCountdownStartDate.getYear());
 
-    if (nowDate.getDate() < 15) { //apollo 11 countdown on 15th and splash on 24
-        histDate.setDate(15);
+    var dayOfMonth = 0;
+    if (nowDate.getDate() < 9) {
+        dayOfMonth = nowDate.getDate() + 15;
+    } else if (nowDate.getDate() >= 9 && nowDate.getDate() < 15) {
+        dayOfMonth = nowDate.getDate() + 9;
     } else if (nowDate.getDate() > 24) {
-        histDate.setDate(24);
+        dayOfMonth = nowDate.getDate() - 9;
+    } else {
+        dayOfMonth = nowDate.getDate()
     }
+    histDate.setDate(dayOfMonth);
 
-    if (histDate < cLaunchDate) { //bump to same time next day
+    if (histDate < cLaunchDate) { //bump to same time next day if in the few hours on the 15th before recording starts
         histDate.setDate(16);
     }
 

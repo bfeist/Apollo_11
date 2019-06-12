@@ -186,3 +186,11 @@ h3 {
     font-family: 'Michroma', sans-serif;
     font-weight: 700;
 }
+
+#button1m {
+    display: flex;
+}
+
+#buttonRt {
+    display: flex;
+}

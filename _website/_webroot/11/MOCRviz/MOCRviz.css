@@ -63,28 +63,36 @@ button {
     font-weight: bold;
     white-space:nowrap;
     background-color: #292929;
+    box-shadow: inset -1px -1px 7px 3px rgba(0, 0, 0, 0.25);
+    border-right: 1px solid #292929;
+    border-bottom: 1px solid #292929;
     color: #595959;
 }
 
 .btn-active {
     background-color: #636363;
     color: #000000;
+    border-right: 1px solid #636363;
+    border-bottom: 1px solid #636363;
 }
 
 .btn-inactive {
-
-    background-color: #292929;
-    color: #595959;
+    /*background-color: #292929;*/
+    /*color: #595959;*/
 }
 
 .btn-selected {
     background-color: #7cb7e0;
     color: #000000;
+    border-right: 1px solid rgb(93, 153, 177);
+    border-bottom: 1px solid rgb(93, 153, 177);
 }
 
 .btn-hover {
     background-color: #7cb7e0;
     color: #000000;
+    border-right: 1px solid rgb(93, 153, 177);
+    border-bottom: 1px solid rgb(93, 153, 177);
 }
 
 .secondary {

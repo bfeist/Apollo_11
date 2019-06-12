@@ -576,13 +576,19 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     histDate.setMonth(cCountdownStartDate.getMonth());
     histDate.setYear(cCountdownStartDate.getYear());
 
-    if (nowDate.getDate() < 15) { //apollo 11 countdown on 15th and splash on 24
-        histDate.setDate(15);
+    var dayOfMonth = 0;
+    if (nowDate.getDate() < 9) {
+        dayOfMonth = nowDate.getDate() + 15;
+    } else if (nowDate.getDate() >= 9 && nowDate.getDate() < 15) {
+        dayOfMonth = nowDate.getDate() + 9;
     } else if (nowDate.getDate() > 24) {
-        histDate.setDate(24);
+        dayOfMonth = nowDate.getDate() - 9;
+    } else {
+        dayOfMonth = nowDate.getDate()
     }
+    histDate.setDate(dayOfMonth);
 
-    if (histDate < cLaunchDate) { //bump to same time next day
+    if (histDate < cLaunchDate) { //bump to same time next day if in the few hours on the 15th before recording starts
         histDate.setDate(16);
     }
 
@@ -2035,7 +2041,7 @@ $(window).bind('fullscreenchange', function() {
 $(window).resize($.throttle(function(){ //scale image proportionally to image viewport on load
     console.log('***window resize');
     proportionalWidthOnPhotoBlock();
-    $('#thirtytrack-container').css({ height: $(window).innerHeight() - 233 });
+    $('#thirtytrack-container').css({ height: $(window).innerHeight() - 213 });
     redrawAll();
 }, 250));
 
@@ -2201,7 +2207,7 @@ $(document).ready(function() {
     //myCanvasElement.css("width", $('.headerRight').width());
 
     proportionalWidthOnPhotoBlock();
-    $('#thirtytrack-container').css({ height: $(window).innerHeight() - 233 });
+    $('#thirtytrack-container').css({ height: $(window).innerHeight() - 213 });
     initSplash();
 
     var channelButtons = document.querySelectorAll('.thirtybtn-channel');
