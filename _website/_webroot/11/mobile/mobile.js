@@ -6,9 +6,11 @@ var cLaunchDate = Date.parse("1969-07-16 9:33 -500");
 var cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -500");
 
 var gCurrMissionTime = '';
-var gActiveChannel = '15';
+var gActiveChannel = 14;
 var gMobileSite = true;
 var gPlaybackState = 'paused';
+
+var gInterval;
 
 //non-mobile detect and redirect
 if(! /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -27,7 +29,7 @@ $(document).ready(function() {
 
     var ch = getUrlParameter('ch');
     if (typeof ch !== "undefined") {
-        gActiveChannel = ch;
+        gActiveChannel = parseInt(ch);
     }
 
     displayHistoricalTimeDifferenceByTimeId(timeStrToTimeId(gCurrMissionTime));
@@ -50,18 +52,20 @@ $(document).ready(function() {
                 // MOCRvizIframeSelector.contentWindow.gPlayer.pause();
                 // $('#playPauseBtn').addClass("blink_me_orange");
                 $("#playPauseBtn").removeClass('pause');
+                clearInterval(gInterval);
             } else {
                 ga('send', 'event', 'button', 'click', 'play');
                 // MOCRvizIframeSelector.contentWindow.gPlayer.play();
                 // $('#playPauseBtn').removeClass("blink_me_orange");
                 $("#playPauseBtn").addClass('pause');
                 gPlaybackState = 'normal';
+                setTimeUpdatePoller();
             }
         };
 });
 
 function setTimeUpdatePoller() {
-    return window.setInterval(function () {
+    gInterval = setInterval(function () {
         // gCurrMissionTime = secondsToTimeStr(MOCRvizIframeSelector.contentWindow.gCurrGETSeconds);
         gCurrMissionTime = secondsToTimeStr(timeStrToSeconds(gCurrMissionTime) + 1);
         displayHistoricalTimeDifferenceByTimeId(timeStrToTimeId(gCurrMissionTime));
