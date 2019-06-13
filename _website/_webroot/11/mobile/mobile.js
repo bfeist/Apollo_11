@@ -25,6 +25,7 @@ $(document).ready(function() {
         $('#button1m').css("display", "none");
     } else {
         gCurrMissionTime = timeIdToTimeStr(getNearestHistoricalMissionTimeId());
+        setTimeUpdatePoller();
     }
 
     var ch = getUrlParameter('ch');
@@ -33,15 +34,6 @@ $(document).ready(function() {
     }
 
     displayHistoricalTimeDifferenceByTimeId(timeStrToTimeId(gCurrMissionTime));
-    setTimeUpdatePoller();
-
-    // var splashLayerSelector = document.querySelectorAll('.splash-content');
-    // splashLayerSelector[0].addEventListener('click', function() {
-    //     var html = $('#MOCROverlayTemplate').html();
-    //     $('#thirtytrack-iframe').append(html);
-    //
-    //     $('.splash-content').hide();
-    // });
 
     var playPauseBtn = document.getElementById('playPauseBtn');
     playPauseBtn.onclick = function () {
@@ -65,17 +57,13 @@ $(document).ready(function() {
 });
 
 function setTimeUpdatePoller() {
+    clearInterval(gInterval);
     gInterval = setInterval(function () {
         // gCurrMissionTime = secondsToTimeStr(MOCRvizIframeSelector.contentWindow.gCurrGETSeconds);
         gCurrMissionTime = secondsToTimeStr(timeStrToSeconds(gCurrMissionTime) + 1);
         displayHistoricalTimeDifferenceByTimeId(timeStrToTimeId(gCurrMissionTime));
     }, 1000);
 }
-
-// function seekToTime(timeId) {
-//     gCurrMissionTime = timeIdToTimeStr(timeId);
-//
-// }
 
 function launchButtonClick() {
     $('.splash-content').hide();
@@ -88,6 +76,7 @@ function launchButtonClick() {
     MOCRvizIframeSelector.contentWindow.refreshTapeActivityDisplay(true);
     MOCRvizIframeSelector.contentWindow.gWaveformRefresh = true;
     gPlaybackState = 'normal';
+    setTimeUpdatePoller();
 }
 
 function historicalButtonClick() {
@@ -100,6 +89,7 @@ function historicalButtonClick() {
     MOCRvizIframeSelector.contentWindow.refreshTapeActivityDisplay(true);
     MOCRvizIframeSelector.contentWindow.gWaveformRefresh = true;
     gPlaybackState = 'normal';
+    setTimeUpdatePoller();
 }
 
 function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" button
