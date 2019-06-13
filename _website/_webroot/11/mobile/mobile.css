@@ -1,6 +1,11 @@
 body {
     background-color: #0a0a0a;
     font-family: 'Michroma';
+    color: #adadad;
+}
+
+a {
+    color: #adadad;
 }
 
 h1 {
@@ -18,14 +23,33 @@ h3 {
     color: #ffffff;
 }
 
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 .histtime {
-    font-size: 0.7em;
+    font-size: 0.9em;
     color: #5E92A6;
     text-align: center;
 }
 
 .historicalTime {
     padding-left: 10px;
+}
+
+.historicalTime.splash {
+    padding-left: 0px;
+    font-size: 0.9em;
+    color: #5E92A6;
+}
+
+.historicalDate {
+    font-size: 0.9em;
+    color: #5E92A6;
 }
 
 .missionElapsedTime {
@@ -35,27 +59,38 @@ h3 {
 .splash-content {
   overflow: auto;
   font-size: 1em;
-  font-family: 'Michroma', sans-serif;
+  /*font-family: 'Michroma', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
   position: fixed;
-  top: 70px;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   height: 100%;
   display: block;
-  background-color: #000;
   opacity: 1;
   transition: opacity 1s ease-in-out;
 
-  background-size: cover;
-  background-position: center top;
-  background-image: url("../img/AS11-40-5962.jpg");
-  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  /*background-position: center top;*/
+  /*background-image: url("../img/AS11-40-5962.jpg");*/
+  /*background-repeat: no-repeat;*/
+
+    background-size: cover;
+    background-position: center bottom;
+    background-image: url("../img/splash_sidebar_bg.jpg");
+    background-repeat: no-repeat;
+
+    padding: 8px;
+}
+
+.accent {
+    color: #EEEEEE;
 }
 
 #block-clicks {
   position: fixed;
-  top: 95px;
+  top: 110px;
   height: 240px;
   left: 0;
   right: 0;
@@ -64,7 +99,7 @@ h3 {
   opacity: 0;
 }
 
-.title-content .content-wrapper {
+.content-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -76,7 +111,7 @@ h3 {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),1px 1px 9px rgba(0, 0, 0, 1)
 }
 
-.title-content .content-wrapper:after {
+.content-wrapper:after {
     content: " ";
     clear: both;
     display: block;
@@ -86,7 +121,7 @@ h3 {
     bottom: 0;
     width: 1px;
 }
-.title-content .patch {
+.patch {
     background-image: url("../img/Apollo_11_insignia_200.png");
     width: 3em;
     height:3em;
@@ -97,11 +132,11 @@ h3 {
     margin-right: 10px;
 }
 
-.title-content .patch-right {
+.patch-right {
     flex: none;
 }
 
-.title-content .heading-wrapper {
+.heading-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -109,16 +144,16 @@ h3 {
     align-items: center;
 }
 
-.title-content .heading {
+.heading {
     font-family: 'Michroma', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #FFF;
     line-height: 1;
     flex: none;
     /*margin-bottom: 6px;*/
 }
 
-.title-content .heading-realtime {
+.heading-realtime {
     font-family: 'Michroma', sans-serif;
     flex: none;
     background-color: white;
@@ -133,17 +168,41 @@ h3 {
     text-shadow: none;
 }
 
-.title-content .subheading1 {
+.subheading1 {
     font-family: 'Roboto Mono', sans-serif;
-    color: white;
-    font-size: 0.7em;
+    color: #c6c6c6;
+    font-size: 0.9em;
     margin-top: 0.8em;
 }
 
-.title-content .subheading2 {
-    font-family: 'Roboto Mono', sans-serif;
+.subheading2 {
+    font-family: 'Roboto', sans-serif;
     color: #5E92A6;
-    font-size: 0.5em;
+    font-size: 0.8em;
+}
+
+.subheading3 {
+    font-family: 'Michroma', sans-serif;
+    color: #5E92A6;
+    font-size: 1em;
+    margin-top: 0em;
+    text-align: left;
+}
+
+.splash-copy {
+    overflow: auto;
+    display: block;
+    padding-top: 2em;
+
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+.splash-copy .section-header {
+    /*color: #FFF;*/
+    color: #5E92A6;
+    font-size: 1.1em;
+    font-family: 'Michroma', sans-serif;
 }
 
 .splash-btn-container {
@@ -151,9 +210,9 @@ h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
-    margin-top: 5em;
+    margin-top: 1em;
 }
 
 .splash-btn {
@@ -163,15 +222,17 @@ h3 {
     display: block;
     float: left;
     padding: 0.6em 1em 1em 1em;
-    width: 6em;
-    font-size: 1em;
-    transition: all .15s ease-in-out;
 
+    height: 2em;
+    width: 9em;
+
+    font-size: 1em;
     /*font-family: 'Michroma', sans-serif;*/
     font-family: 'Oswald', sans-serif;
     /*font-family: 'Roboto Mono', sans-serif;*/
     /*font-weight: 700;*/
 
+    transition: all .15s ease-in-out;
     -webkit-transition: all .15s ease-in-out;
 
     cursor: pointer;
@@ -185,6 +246,15 @@ h3 {
 .splash-btn-title {
     font-family: 'Michroma', sans-serif;
     font-weight: 700;
+    color: #000;
+}
+
+.splash-btn.primary {
+    /*background-color: #d3a474;*/
+    background-color: rgba(215, 160, 108, .9);
+    border-right: 1px solid rgba(215, 160, 108, 1);
+    border-bottom: 1px solid rgba(215, 160, 108, 1);
+
 }
 
 #button1m {
