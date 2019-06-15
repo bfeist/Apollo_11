@@ -2080,9 +2080,9 @@ function setSplashHistoricalSubtext() {
 
     //if (currDate_ms >= countdownStartDate_ms && currDate_ms < missionEndDate_ms) { //check if during mission anniversary
         //$('.section.now').css('display', '');
-   //     $('.historicalSubtext').html("<b>Mission Anniversary.</b><BR>45 years ago, to the second.");
+   //     $('.historicalSubtext').html("<b>Mission Anniversary:</b><BR>50 years ago, to the second.");
    // } else {
-        $('.historicalSubtext').text("(49 years ago)");  //todo make this calculate how many years ago
+        $('.historicalSubtext').text("(50 years ago)");  //todo make this calculate how many years ago
    // }
 }
 

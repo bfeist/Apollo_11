@@ -743,15 +743,6 @@ canvas[resize] {
   font-size: 0.8em;
     line-height: 1.4;
 }
-.help-overlay.body .quote .attribution {
-    /*font-size: 20px;*/
-    color: #999999;
-    margin-top: 5px;
-    /*line-height: 29px;*/
-    font-style: normal;
-    font-size: 0.8em;
-    line-height: 1.2;
-}
 .help-overlay.body .quote .intro p {
     /*font-size: 20px;*/
     color: #999999;
@@ -782,6 +773,13 @@ canvas[resize] {
     color: #5E92A6;
   /*font-size: 18px;*/
   font-size: 1.45em;
+}
+
+.help-overlay.body .credits .section-subheader {
+    /*color: #FFF;*/
+    color: #5E92A6;
+    /*font-size: 18px;*/
+    font-size: 1.1em;
 }
 .help-overlay.body .credits .accent {
   color: #EEEEEE;
