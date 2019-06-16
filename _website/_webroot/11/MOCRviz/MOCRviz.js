@@ -163,6 +163,10 @@ window.onload = function() {
         dotsSelector[i].addEventListener('mouseover', isometric_dots_hover);
         dotsSelector[i].addEventListener('mouseleave', isometric_dots_mouseleave);
     }
+
+    if (parent.gMobileSite === true) {
+        $('.close-btn').css("display", "none");
+    }
 };
 
 // $(window).on("resize", function() {
@@ -1099,6 +1103,7 @@ function getTapeByGETseconds(seconds, channel) {
 }
 
 function closeMOCRviz() {
+    parent.activateAppTab('photoTab');
     parent.closeMOCRviz();
 }
 
