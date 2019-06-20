@@ -2,7 +2,8 @@ var cMissionDurationSeconds = 784086;
 var cCountdownSeconds = 74768;
 var cAppStartGET = -109;
 
-var cSpacesCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
+var cSpacesCdnRoot = 'https://media.apolloinrealtime.org/mp3';
+// var cSpacesCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
 // var cSpacesCdnRoot = 'https://apollortdospace-26f5.kxcdn.com';
 
 var cWebCdnRoot = '';
@@ -224,7 +225,7 @@ function mainApplication() {
             var availableChannelsIndex = Math.round((event.point.y - cChannelStrokeWidth / 2) / (cChannelStrokeWidth + cFillerStrokeWidth));
             availableChannelsIndex = availableChannelsIndex > cAvailableChannelsArray.length - 1 ? cAvailableChannelsArray.length - 1 : availableChannelsIndex;
             availableChannelsIndex = availableChannelsIndex < 0 ? 0 : availableChannelsIndex;
-            var hoverChannelNum = 'ch' + cAvailableChannelsArray[availableChannelsIndex];
+            var hoverChannelNum = cAvailableChannelsArray[availableChannelsIndex];
 
             var tooltipText = new paper.PointText({
                 justification: 'left',
@@ -234,7 +235,7 @@ function mainApplication() {
                 fillColor: cColors.tooltipColor
             });
 
-            tooltipText.content = hoverChannelNum + " " + cTrackInfo[hoverChannelNum][0] + " \n" + secondsToTimeStr(gCurrGETSeconds - Math.round($(window).width() / 2) + event.point.x);
+            tooltipText.content = 'ch' + hoverChannelNum + " " + cTrackInfo['ch' + hoverChannelNum][0] + " \n" + secondsToTimeStr(gCurrGETSeconds - Math.round($(window).width() / 2) + event.point.x);
             tooltipText.point = new paper.Point(event.point.x + 20, event.point.y + 13);
             gTooltipGroup.addChild(tooltipText);
 
@@ -262,21 +263,30 @@ function mainApplication() {
 
             //highlight hovered button
             $('.btn-channel').removeClass('btn-hover');
-            $('#btn-' + hoverChannelNum).addClass('btn-hover');
+            $('#btn-ch' + hoverChannelNum).addClass('btn-hover');
 
             //highlight hovered dot
             $('.isometric_dot').removeClass('dot-hover');
-            $('#dot' + hoverChannelNum.substr(hoverChannelNum.indexOf('ch') + 2)).addClass('dot-hover');
+            $('#dot' + hoverChannelNum).addClass('dot-hover');
+
+            //highlight parent button
+            if (parent.gMobileSite !== true) {
+                parent.thirtyButtons_hover_fromMOCRviz(hoverChannelNum);
+            }
 
         } else {
             gTooltipGroup.removeChildren();
             gHoverHighlightGroup.removeChildren();
 
             //remove button hovers
-            for (counter = 1; counter <= 60; counter++) {
-                buttonId = '#btn-ch' + counter;
-                buttonSelector = $(buttonId);
+            for (var counter = 1; counter <= 60; counter++) {
+                var buttonId = '#btn-ch' + counter;
+                var buttonSelector = $(buttonId);
                 buttonSelector.removeClass('btn-hover');
+            }
+
+            if (parent.gMobileSite !== true) {
+                parent.thirtyButtons_mouseleave_fromMOCRviz();
             }
         }
     };
@@ -901,10 +911,14 @@ function channelButtons_click() {
     setControllerDetails();
 }
 
-function channelButtons_hover() {
+function channelButtons_hover(hoverChannelNum) {
     // console.log("select-channel-button hovered: " + $(this).attr('id'));
+
+    if (typeof hoverChannelNum === 'object') {  //ignore mouseclick object, assume this means that it wasn't called from parent
+        hoverChannelNum = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2));
+    }
     //show button hover
-    var hoverChannelNum = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2));
+
     $('.btn-channel').removeClass('btn-hover');
     $('#btn-ch' + hoverChannelNum).addClass('btn-hover');
 
@@ -931,6 +945,10 @@ function channelButtons_hover() {
     });
     hoverLine.strokeColor = new paper.Color(0.57255, 0.82745, 1.00000, .6);
     gHoverHighlightGroup.addChild(hoverLine);
+
+    if (parent.gMobileSite !== true) {
+        parent.thirtyButtons_hover_fromMOCRviz(hoverChannelNum);
+    }
 }
 
 function channelButtons_mouseleave() {
@@ -941,6 +959,10 @@ function channelButtons_mouseleave() {
         dotSelector.removeClass('dot-hover');
     }
     gHoverHighlightGroup.removeChildren();
+
+    if (parent.gMobileSite !== true) {
+        parent.thirtyButtons_mouseleave_fromMOCRviz();
+    }
 }
 
 function positionIsometricElements() {
@@ -1055,6 +1077,10 @@ function isometric_dots_hover() {
     });
     hoverLine.strokeColor = new paper.Color(0.57255, 0.82745, 1.00000, .6);
     gHoverHighlightGroup.addChild(hoverLine);
+
+    if (parent.gMobileSite !== true) {
+        parent.thirtyButtons_hover_fromMOCRviz(hoverChannelNum);
+    }
 }
 
 function isometric_dots_click() {
@@ -1075,6 +1101,10 @@ function isometric_dots_mouseleave() {
         buttonSelector.removeClass('btn-hover');
     }
     gHoverHighlightGroup.removeChildren();
+
+    if (parent.gMobileSite !== true) {
+        parent.thirtyButtons_mouseleave_fromMOCRviz();
+    }
 }
 
 function setControllerDetails() {

@@ -2124,14 +2124,32 @@ function thirtyButtons_click() {
 }
 
 function thirtyButtons_hover() {
-    // console.log("select-channel-button hovered: " + $(this).attr('id'));
+    // console.log("thirtyButtons_hover hovered: " + $(this).attr('id'));
     //show button hover
     var hoverChannelNum = parseInt($(this).attr('id').substr($(this).attr('id').indexOf('ch') + 2));
     $('.thirtybtn-channel').removeClass('thirtybtn-hover');
     $('#btn-ch' + hoverChannelNum).addClass('thirtybtn-hover');
 
+    if (gMOCRToggled === true) {
+        var MOCRvizIframeSelector = $('#MOCRvizIframe')[0];
+        MOCRvizIframeSelector.contentWindow.channelButtons_hover(hoverChannelNum);
+    }
 }
 function thirtyButtons_mouseleave() {
+    $('.thirtybtn-channel').removeClass('thirtybtn-hover');
+    if (gMOCRToggled === true) {
+        var MOCRvizIframeSelector = $('#MOCRvizIframe')[0];
+        MOCRvizIframeSelector.contentWindow.channelButtons_mouseleave();
+    }
+}
+
+function thirtyButtons_hover_fromMOCRviz(hoverChannelNum) {
+    // console.log("thirtyButtons_hover_fromMOCRviz hovered: " + $(this).attr('id'));
+    //show button hover
+    $('.thirtybtn-channel').removeClass('thirtybtn-hover');
+    $('#btn-ch' + hoverChannelNum).addClass('thirtybtn-hover');
+}
+function thirtyButtons_mouseleave_fromMOCRviz() {
     $('.thirtybtn-channel').removeClass('thirtybtn-hover');
 }
 
