@@ -91,7 +91,7 @@ var gPaperData = [];
 
 //mobile detect and redirect
 if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    var url = "./mobile/";
+    var url = "./mobile/" + document.location.search;
     $(location).attr('href',url);
 }
 

@@ -14,7 +14,7 @@ var gInterval;
 
 //non-mobile detect and redirect
 if(! /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    var url = "..";
+    var url = "../" + document.location.search;
     $(location).attr('href',url);
 }
 
