@@ -44,12 +44,14 @@ $(document).ready(function() {
                 // MOCRvizIframeSelector.contentWindow.gPlayer.pause();
                 // $('#playPauseBtn').addClass("blink_me_orange");
                 $("#playPauseBtn").removeClass('pause');
+                $('#playPauseBtn').addClass("blink_me_orange");
                 clearInterval(gInterval);
             } else {
                 ga('send', 'event', 'button', 'click', 'play');
                 // MOCRvizIframeSelector.contentWindow.gPlayer.play();
                 // $('#playPauseBtn').removeClass("blink_me_orange");
                 $("#playPauseBtn").addClass('pause');
+                $('#playPauseBtn').removeClass("blink_me_orange");
                 gPlaybackState = 'normal';
                 setTimeUpdatePoller();
             }

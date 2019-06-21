@@ -373,7 +373,18 @@ function getChannelParameter() {
 function frameUpdateOnTimer() {
     if (parent.gCurrMissionTime !== undefined) {
         if (parent.gPlaybackState === 'normal' && gPlayer.paused) {
-            gPlayer.play();
+            var playPromise = gPlayer.play();
+            if (playPromise !== undefined) {
+                playPromise.then(function() {
+                    // console.log("PLAY started successfully");
+                    // Automatic playback started!
+                }).catch(function(error) {
+                    // Automatic playback failed.
+                    // Show a UI element to let the user manually start playback.
+                    // console.log(error);
+                    // alert("hello!");
+                });
+            }
         }
         if (parent.gPlaybackState !== 'normal' && !gPlayer.paused) {
             gPlayer.pause();
