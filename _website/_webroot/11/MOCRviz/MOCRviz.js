@@ -24,7 +24,7 @@ var cTrackInfo = {
     ch6: ['ASST FLIGHT DIR', 'Responsible to the Flight Director for detailed control of the mission and assumed the duties of the Flight Director in his absence.'],
     ch7: ['FLIGHT DIRECTOR [L]', 'Left seat - Responsible to the Mission Director for detailed control of the mission from launch (tower clear) to splashdown and assumed the duties of the Mission Director in his absence. In real time was responsible to take any actions needed for crew safety and mission success.'],
     ch8: ['FLIGHT DIRECTOR [R]', 'Right seat - Responsible to the Mission Director for detailed control of the mission from launch (tower clear) to splashdown and assumed the duties of the Mission Director in his absence. In real time was responsible to take any actions needed for crew safety and mission success.'],
-    ch9: ['FLT PLANS OFFICER', ''],
+    ch9: ['FLIGHT ACTIVITIES OFFICER', 'The FAO planned and supported crew activities, checklists, procedures and schedules.'],
     ch10: ['NETWORK CTRLR [L]', 'Network Controller - Had detailed operational control of the world wide Ground Operational Support System (GOSS), which included the tracking stations. (left seat)'],
     ch11: ['NETWORK CTRLR [R]', 'Network Controller - Had detailed operational control of the world wide Ground Operational Support System (GOSS), which included the tracking stations. (right seat)'],
     ch12: ['SURGEON [L]', 'Directed all operational medical activities and crew’s medical status. (left seat)'],
@@ -766,9 +766,6 @@ function positionChannelButtons() {
     x = x + buttonWidth + buttonGap;
     $('#btndiv-ch5').css({"left": x + "px", "top": y + "px"}); //O&P
     $('#btn-ch5').css({"width": buttonWidth + "px"});
-        xsub = x;
-        $('#btndiv-ch9').css({"left": xsub + "px", "top": y + buttonHeight + "px"}); //FLT PLANS OFCR
-        $('#btn-ch9').css({"width": buttonWidth / 2 - 1 + "px"});
     x = x + buttonWidth + buttonGap;
     $('#btndiv-ch6').css({"left": x + "px", "top": y + "px"}); //AFD
     $('#btn-ch6').css({"width": buttonWidth + "px"});
@@ -783,7 +780,10 @@ function positionChannelButtons() {
         $('#btn-ch8').css({"width": buttonWidth / 2 + "px"});
 
     x = x + buttonWidth + aisleGap;
-    buttonWidth = buttonWidth + 20;
+    xsub = x;
+    $('#btndiv-ch9').css({"left": x + "px", "top": y + "px"}); //FAO
+    $('#btn-ch9').css({"width": buttonWidth + "px"});
+    x = x + buttonWidth + buttonGap;
     $('#btndiv-ch11').css({"left": x + "px", "top": y + "px"}); //NETWORK
     $('#btn-ch11').css({"width": buttonWidth + "px"});
         xsub = x;
@@ -794,7 +794,6 @@ function positionChannelButtons() {
 
     y = y + rowGap;
     //row 4
-    buttonWidth = buttonWidth - 20;
     x = 271;
     $('#btndiv-ch2').css({"left": x + "px", "top": y + "px"}); //DIR FLIGHT OPS
     $('#btn-ch2').css({"width": buttonWidth + "px"});
@@ -1028,7 +1027,7 @@ function positionIsometricElements() {
 
     isoSelector.append("<span id='dot47' class='isometric_dot' style='left:" + 35 + "px;top:" + 245 + "px'>B</span>"); //BOOSTER
     isoSelector.append("<span id='dot19' class='isometric_dot' style='left:" + 127 + "px;top:" + 195 + "px'>R</span>"); //RETRO
-    isoSelector.append("<span id='dot20' class='isometric_dot' style='left:" + 218 + "px;top:" + 151 + "px'>F</span>"); //FIDO
+    isoSelector.append("<span id='dot20' class='isometric_dot' style='left:" + 218 + "px;top:" + 151 + "px'>FI</span>"); //FIDO
     isoSelector.append("<span id='dot21' class='isometric_dot' style='left:" + 307 + "px;top:" + 102 + "px'>G</span>"); //GUIDO
 
     isoSelector.append("<span id='dot12' class='isometric_dot' style='left:" + 196 + "px;top:" + 280 + "px'>S</span>"); //SURGEON
@@ -1042,11 +1041,11 @@ function positionIsometricElements() {
     isoSelector.append("<span id='dot5' class='isometric_dot' style='left:" + 286 + "px;top:" + 323 + "px'>O</span>"); //O&P
     isoSelector.append("<span id='dot6' class='isometric_dot' style='left:" + 344 + "px;top:" + 291 + "px'>A</span>"); //AFD
     isoSelector.append("<span id='dot50' class='isometric_dot' style='left:" + 454 + "px;top:" + 214 + "px'>FD</span>"); //FLIGHT
-    isoSelector.append("<span id='dot11' class='isometric_dot' style='left:" + 538 + "px;top:" + 161 + "px'>N</span>"); //NETWORK
-    isoSelector.append("<span id='dot43' class='isometric_dot' style='left:" + 581 + "px;top:" + 130 + "px'>C</span>"); //COMM CONTROLLER
+    isoSelector.append("<span id='dot9' class='isometric_dot' style='left:" + 538 + "px;top:" + 161 + "px'>FA</span>"); //FAO
+    isoSelector.append("<span id='dot11' class='isometric_dot' style='left:" + 581 + "px;top:" + 130 + "px'>N</span>"); //NETWORK
 
     isoSelector.append("<span id='dot61' class='isometric_dot' style='left:" + 456 + "px;top:" + 316 + "px'></span>"); //unused
-    isoSelector.append("<span id='dot2' class='isometric_dot' style='left:" + 550 + "px;top:" + 247 + "px'>F</span>"); //DIR FLIGHT OPS
+    isoSelector.append("<span id='dot2' class='isometric_dot' style='left:" + 550 + "px;top:" + 247 + "px'>FO</span>"); //DIR FLIGHT OPS
     isoSelector.append("<span id='dot3' class='isometric_dot' style='left:" + 645 + "px;top:" + 182 + "px'>M</span>"); //MISSION DIRECTOR
     isoSelector.append("<span id='dot8' class='isometric_dot' style='left:" + 686 + "px;top:" + 155 + "px'>FR</span>"); //FD R
 
