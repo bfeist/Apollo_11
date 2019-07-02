@@ -3,8 +3,10 @@ var cCountdownSeconds = 74768;
 var cAppStartGET = -109;
 
 var cSpacesCdnRoot = 'https://media.apolloinrealtime.org/mp3';
+// var cSpacesCdnRoot = 'https://keycdn.apolloinrealtime.org/mp3';
 // var cSpacesCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
 // var cSpacesCdnRoot = 'https://apollortdospace-26f5.kxcdn.com';
+
 
 var cWebCdnRoot = '';
 // var cWebCdnRoot = 'https://apollort-26f5.kxcdn.com';

@@ -273,7 +273,7 @@ function updateNavigator() {
     drawTier1NavBox(curSeconds);
     drawTier2(false);
     drawTier2NavBox(curSeconds);
-    drawTier3(false, true);
+    drawTier3(true, true);  //not refreshing here isn't working, so forcing refresh anyway
     drawCursor(curSeconds);
 
     //render navigator
