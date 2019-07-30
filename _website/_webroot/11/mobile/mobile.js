@@ -2,8 +2,10 @@
 var cMissionDurationSeconds = 713311;
 var cCountdownSeconds = 74768;
 var cDefaultStartTimeId = '-000109';
-var cLaunchDate = Date.parse("1969-07-16 9:33 -500");
-var cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -500");
+var cLaunchDate = Date.parse("1969-07-16 9:32 -400");
+var cLaunchDateModern = Date.parse("2019-07-16 9:32 -400");
+var cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -400");
+var cCountdownStartDateModern = Date.parse("2019-07-15 1:46:57 -400");
 
 var gCurrMissionTime = '';
 var gActiveChannel = 14;
@@ -95,14 +97,21 @@ function historicalButtonClick() {
 }
 
 function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" button
+
     //var nowDate = Date.parse("2015-12-06 10:00pm -500");
+
     var nowDate = Date.now();
     var histDate = new Date(nowDate.getTime());
-    //if (histDate.dst()) {
-    //    histDate.setHours(histDate.getHours() + 1); //TODO test DST offset
-    //}
-    histDate.setMonth(cCountdownStartDate.getMonth());
-    histDate.setYear(cCountdownStartDate.getYear());
+
+    // var nowDate = Date.now();
+    // //var histDate=new Date(nowDate.getTime());
+    // var dateAsString = nowDate.toUTCString();
+    // var histDateAsUTCString = dateAsString.substr(5,7) + cCountdownStartDate.getYear().toString() + " " + dateAsString.substr(16);
+    // //var histDate=nowDate.toUTCString
+    // var histDate=Date.parse(histDateAsUTCString);
+
+    histDate.setMonth(cCountdownStartDateModern.getMonth());
+    // histDate.setYear(cCountdownStartDateModern.getYear());
 
     var dayOfMonth = 0;
     if (nowDate.getDate() < 9) {
@@ -116,24 +125,27 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     }
     histDate.setDate(dayOfMonth);
 
-    if (histDate < cLaunchDate) { //bump to same time next day if in the few hours on the 15th before recording starts
+    if (histDate < cCountdownStartDate) { //bump to same time next day if in the few hours on the 15th before recording starts
         histDate.setDate(16);
     }
 
     // Convert dates to milliseconds
     var histDate_ms = histDate.getTime();
-    var countdownStartDate_ms = cCountdownStartDate.getTime();
-    var launchDate_ms = cLaunchDate.getTime();
+    var countdownStartDate_ms = cCountdownStartDateModern.getTime();
+    var launchDate_ms = cLaunchDateModern.getTime();
 
     if (histDate_ms < countdownStartDate_ms) { //if now is before the countdownStartDate, shift forward days to start on first day of the mission
+        //var daysToMoveForward = Math.ceil((countdownStartDate_ms - histDate_ms) / (1000 * 60 * 60 * 24));
         var daysToMoveForward = 1;
         histDate_ms += (1000 * 60 * 60 * 24) * daysToMoveForward;
     } else if (histDate_ms > launchDate_ms + (cMissionDurationSeconds * 1000)) { //hist date occurs after mission ended, shift backward days to start on first day of the mission
+        //var daysToMoveBackward = Math.floor((histDate_ms - countdownStartDate_ms) / (1000 * 60 * 60 * 24));
         var daysToMoveBackward = 1;
         histDate_ms -= (1000 * 60 * 60 * 24) * daysToMoveBackward;
     }
 
     var timeSinceLaunch_ms = histDate_ms - launchDate_ms;
+
     return secondsToTimeId(timeSinceLaunch_ms / 1000);
 }
 

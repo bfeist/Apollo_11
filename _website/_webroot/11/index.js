@@ -2,8 +2,10 @@ trace("INIT: Loading index.js");
 //app control flags
 var cStopCache = false;
 
-var cSpacesCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com';
-// var cSpacesCdnRoot = 'https://apollortdospace-26f5.kxcdn.com';
+// var cCdnRoot = 'https://media.apolloinrealtime.org/mp3';
+var cCdnRoot = 'https://keycdn.apolloinrealtime.org/mp3';
+// var cCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com/mp3';
+// var cCdnRoot = 'https://apollomedia.sfo2.digitaloceanspaces.com/mp3';
 
 var cWebCdnRoot = '';
 // var cWebCdnRoot = 'https://apollort-26f5.kxcdn.com';
@@ -15,7 +17,9 @@ var cMissionDurationSeconds = 713311;
 var cCountdownSeconds = 74768;
 var cDefaultStartTimeId = '-000109';
 var cLaunchDate = Date.parse("1969-07-16 9:32 -400");
+var cLaunchDateModern = Date.parse("2019-07-16 9:32 -400");
 var cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -400");
+var cCountdownStartDateModern = Date.parse("2019-07-15 1:46:57 -400");
 
 var cBackground_color_active = "#1e1e1e";
 
@@ -222,7 +226,7 @@ function setAutoScrollPoller() {
 
         if (gCurrMissionTime !== gLastTimeIdChecked) {
             if (parseInt(totalSec) % 10 === 0) { //every 10 seconds, fire a playing event
-                ga('send', 'event', 'playback', 'playing', gCurrMissionTime);
+                // ga('send', 'event', 'playback', 'playing', gCurrMissionTime);
             }
 
             var timeId = timeStrToTimeId(gCurrMissionTime);
@@ -547,16 +551,6 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
         seconds: seconds * conversionMultiplier
     });
 
-    //HISTORICAL TIME DIFF DISABLED. MOMENT LIBRARY DISABLED
-    //var nowDate = Date.now();
-    ////var nowDate = Date.parse("2015-12-07 0:33 -500");
-    ////if (nowDate.dst()) {
-    ////nowDate.setHours(nowDate.getHours() + 1); //TODO revisit potential dst offset
-    ////}
-    //var timeDiff = nowDate.getTime() - timeidDate.getTime();
-    //var humanizedRealtimeDifference = "Exactly: " + moment.preciseDiff(0, timeDiff) + " ago to the second.";
-    //$("#historicalTimeDiff").html(humanizedRealtimeDifference);
-
     var historicalDate = new Date(timeidDate.getTime()); //for display only
     $(".historicalDate").text(historicalDate.toDateString());
 
@@ -571,14 +565,19 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
 function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" button
 
     //var nowDate = Date.parse("2015-12-06 10:00pm -500");
-    var nowDate = Date.now();
 
+    var nowDate = Date.now();
     var histDate = new Date(nowDate.getTime());
-    //if (histDate.dst()) {
-    //    histDate.setHours(histDate.getHours() + 1); //TODO test DST offset
-    //}
-    histDate.setMonth(cCountdownStartDate.getMonth());
-    histDate.setYear(cCountdownStartDate.getYear());
+
+    // var nowDate = Date.now();
+    // //var histDate=new Date(nowDate.getTime());
+    // var dateAsString = nowDate.toUTCString();
+    // var histDateAsUTCString = dateAsString.substr(5,7) + cCountdownStartDate.getYear().toString() + " " + dateAsString.substr(16);
+    // //var histDate=nowDate.toUTCString
+    // var histDate=Date.parse(histDateAsUTCString);
+
+    histDate.setMonth(cCountdownStartDateModern.getMonth());
+    // histDate.setYear(cCountdownStartDateModern.getYear());
 
     var dayOfMonth = 0;
     if (nowDate.getDate() < 9) {
@@ -592,14 +591,14 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     }
     histDate.setDate(dayOfMonth);
 
-    if (histDate < cLaunchDate) { //bump to same time next day if in the few hours on the 15th before recording starts
+    if (histDate < cCountdownStartDate) { //bump to same time next day if in the few hours on the 15th before recording starts
         histDate.setDate(16);
     }
 
     // Convert dates to milliseconds
     var histDate_ms = histDate.getTime();
-    var countdownStartDate_ms = cCountdownStartDate.getTime();
-    var launchDate_ms = cLaunchDate.getTime();
+    var countdownStartDate_ms = cCountdownStartDateModern.getTime();
+    var launchDate_ms = cLaunchDateModern.getTime();
 
     if (histDate_ms < countdownStartDate_ms) { //if now is before the countdownStartDate, shift forward days to start on first day of the mission
         //var daysToMoveForward = Math.ceil((countdownStartDate_ms - histDate_ms) / (1000 * 60 * 60 * 24));
@@ -1156,7 +1155,8 @@ function loadPhotoHtml(photoIndex) {
         var rollNum = RegExp.$1;
         var imgNum = RegExp.$2;
         if (photoObject[2] !== '') {
-            var imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
+            // var imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
+            var imageURL = 'https://keycdn.apolloinrealtime.org/NASA_photos/' + photoObject[2];
         } else if (photoObject[3] !== '') { //if custom image URL in datafile
             imageURL = photoObject[3];
         } else {
@@ -1165,9 +1165,10 @@ function loadPhotoHtml(photoIndex) {
     } else if (photoObject[3] !== '') { //if custom image URL in datafile
         imageURL = photoObject[3];
     } else {
-        imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
+        // imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
+        var imageURL = 'https://keycdn.apolloinrealtime.org/NASA_photos/' + photoObject[2];
     }
-    var source = "ALSJ";
+    var source = "LPI";
     var caption = photoObject[4];
 
     html = html.replace(/@imageURL/g , imageURL);
@@ -2084,10 +2085,10 @@ function setSplashHistoricalSubtext() {
 
     //if (currDate_ms >= countdownStartDate_ms && currDate_ms < missionEndDate_ms) { //check if during mission anniversary
         //$('.section.now').css('display', '');
-   //     $('.historicalSubtext').html("<b>Mission Anniversary:</b><BR>50 years ago, to the second.");
+       // $('.historicalSubtext').html("<b>Mission Anniversary</b><BR>Exactly 50 years ago");
    // } else {
-   //      $('.historicalSubtext').text("(50 years ago)");  //todo make this calculate how many years ago
-        $('.historicalSubtext').text("(49 years, 11 months ago)");  //todo make this calculate how many years ago
+        $('.historicalSubtext').text("50 years ago");  //todo make this calculate how many years ago
+   //      $('.historicalSubtext').text("49 years, 11 months ago");  //todo make this calculate how many years ago
    // }
 }
 
@@ -2184,7 +2185,7 @@ function getTapeActivityRanges(activeSec) {
 function ajaxGetTapesActivityDataRange(tapesActivityFilename) {
     trace("ajaxGetTapesActivityDataRange()main: "  + tapesActivityFilename.toString());
 
-    var tapeActivityDataPath = cSpacesCdnRoot + '/tape_activity/';
+    var tapeActivityDataPath = cCdnRoot + '/tape_activity/';
     var tapeActivity;
     gTapesActivityRangeArray = [];
     $.when(

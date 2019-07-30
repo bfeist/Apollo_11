@@ -595,7 +595,7 @@
 001:20:11|O|CMP|Ooh, sure, I will. Oh, I've lost the Hasselblad. ... Has anybody seen a Hasselblad floating by? It couldn't have gone very far - big son of a gun like that.
 001:20:41|O|CDR|Now, what do we have - Is that all the -
 001:20:44|O|CMP|You had the switch on inside. Oh ya, okay ... the checklist. This automatic light control features.
-001:21:00|O|CMP|Well, that pisses me off. Hasselblad gone. Find that mother before she or I ends the ... Everybody look for a floating Hasselblad. I see a pen floating loose down here, too. Is anybody missing a ballpoint pen?
+001:21:00|O|CMP|Well, that pisses me off. Hasselblad gone. Find that mother before TLI ends the ... Everybody look for a floating Hasselblad. I see a pen floating loose down here, too. Is anybody missing a ballpoint pen?
 001:21:19|O|LMP|Got mine. Is it ballpoint, or is it ...?
 001:21:23|O|CMP|Yes, ballpoint. Here it is. I mean felt tip.
 001:21:46|O|CMP|I am much embarrassed to say they've lost a Hasselblad. I seem to be prone to that.
@@ -2690,7 +2690,7 @@
 031:15:01|T|CMP|Okay. Well, for this TV program coming up in a couple of hours, you might give some thought to how you want us to stop PTC, if you do, for the best high-gain angle; and also it would be nice if you could stop us at such an attitude that we'd have the Earth out of one of our windows.
 031:15:20|T|CC|Roger, 11. We're thinking about that.
 031:15:24|T|CMP|Okay.
-031:18:47|T|CC|Hello, Apollo 11. Houston. We got some PIPA biases and general drift updates for you if you give us P00 and ACCEPT. Over.
+031:18:47|T|CC|Hello, Apollo 11. Houston. We got some PIPA biases and gyro drift updates for you if you give us P00 and ACCEPT. Over.
 031:19:01|T|CMP|Okay, Charlie. Stand by one.
 031:19:03|T|CC|Roger, 11. The - -
 031:19:04|T|CMP|You've got it.
@@ -13662,7 +13662,7 @@
 157:59:17|T|CMP|You were going to make me do that in another 45 minutes anyway.
 157:59:20|T|CC|That's true.
 157:59:27|T|CMP|That's the highlight of my day. I'm really looking forward to that.
-157:59:29|T||(Music: "Music Out of the Moon")
+157:59:29|T||(Music: "Radar Blues from Music Out of the Moon")
 158:01:05|T|CC|Thank you, 11. We appreciate you turning that off. (Laughter)
 158:01:25|P|PAO|This is Apollo Control, 158 hours, 1 minute Ground Elapsed Time. There's been a certain amount of conversation between Charlie Duke here in Mission Control and the crew of Apollo 11. We'll play back the accumulated tape at this time and then rejoin the conversation when it does resume on a live basis. Let's roll the tape now.
 158:03:26|T|CDR|Charlie, could you copy our music down there?
@@ -13843,7 +13843,7 @@
 173:39:21|T|CDR|Thank you very much, Owen. I think my yard could use some water.
 173:39:25|T|CC|That's very true. I've forgotten exactly how many days it did go, Buzz, but something like 30 days without rain; and we can appreciate the rain we're getting right now.
 173:39:36|T|LMP|That was Neil. This is Buzz, here. I wish we could find out when the last time my lawn was cut. Over.
-173:39:41|T|CMP|That might be a little more difficult to find out. I'm not sure whether the - whether Mike is ready to admit when he last did the job, but I'll look into that for you.
+173:39:41|T|CC|That might be a little more difficult to find out. I'm not sure whether the - whether Mike is ready to admit when he last did the job, but I'll look into that for you.
 173:39:53|T|LMP|Well, he'll tell you. He's got a new mower.
 173:39:55|T|CC|Roger.
 173:40:05|T|CMP|Hey, ask my chinch bugs how they're doing?
