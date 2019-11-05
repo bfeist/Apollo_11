@@ -61,7 +61,7 @@ var cTrackInfo = {
     ch42: ['COMM TECH [3RD FL]', ''],
     ch43: ['COMM CTRLR [3RD FL]', ''],
     ch44: ['SPACE ENVIRONMENT', 'Supplied information on meteorological and space radiation.'],
-    ch45: ['COMPUTER SUPPORT', 'Apollo Guidance Computer Support - Often pronounced \'computer soup\'.'],
+    ch45: ['COMPUTER SUPERVISOR', 'Apollo Guidance Computer Supervisor is in overall control of the RTCC Complex and its associated mission computers Often pronounced \'computer soup\'.'],
     ch46: ['SPAN', 'Spacecraft Analysis Room - Official interface for the Manager of the Apollo Spaceflight Program Office. Located on the 3rd floor the mission control building.'],
     ch47: ['BOOSTER [L]', 'Monitored and evaluated performance of propulsion-related aspects of the launch vehicle during prelaunch and ascent. During the Apollo program there were three Booster positions, who worked only until Trans Lunar Injection (TLI); after that, their consoles were vacated. Booster had the power to send an abort command to the spacecraft. All Booster technicians were employed at the Marshall Space Flight Center and reported to JSC for the launches. (left seat)'],
     ch48: ['BOOSTER [C]', 'Monitored and evaluated performance of propulsion-related aspects of the launch vehicle during prelaunch and ascent. During the Apollo program there were three Booster positions, who worked only until Trans Lunar Injection (TLI); after that, their consoles were vacated. Booster had the power to send an abort command to the spacecraft. All Booster technicians were employed at the Marshall Space Flight Center and reported to JSC for the launches. (center seat)'],

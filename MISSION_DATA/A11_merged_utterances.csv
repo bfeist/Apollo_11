@@ -64,6 +64,7 @@
 000:01:52|T|CC|Stand by for mode 1 Charlie.
 000:01:56|T|CC|MARK.
 000:01:57|T|CC|Mode 1 Charlie.
+000:01:58|T|CDR|1 Charlie.
 000:02:00|P|PAO|Cliff Charlesworth taking a staging status.
 000:02:02|T|CC|Apollo 11, this is Houston. You are GO for staging.
 000:02:16|T|CDR|Inboard cut-off.
@@ -10203,7 +10204,7 @@
 111:31:56|T|LMP|Okay. This - This one's in. No problem.
 111:31:59|T|CDR|Okay. Stand by a second.
 111:32:03|T|CC|Neil, this is Houston. Request an EMU check. Over.
-111:32:10|T|CDR|Roger. Got 3.8 and I got 54 on the O2 and no flags, and my flow is in N.
+111:32:10|T|CDR|Roger. Got 3.8 and I got 54 on the O2 and no flags, and my flow is in min.
 111:33:27|P|PAO|The Lick Observatory in California reports a return on that laser experiment.
 111:33:47|T|CC|Neil and Buzz, for your information, your consumables remain in good shape. Out.
 111:33:54|T|LMP|Roger, How's it coming, Neil?
@@ -10217,7 +10218,7 @@
 111:35:02|T|LMP|No, it didn't either. Second hand.
 111:35:14|T|LMP|Okay. If you can just kind of hold it, why, I think I can do the pulling.
 111:35:18|T|CDR|Okay. Stand by a minute. Let me move back.
-111:35:42|T|LMP|Okay. Easy. All right, easy in the hatch now.
+111:35:42|T|LMP|Okay. Easy. All right, easy on the hatch now.
 111:35:52|T|LMP|Okay. I'll get it the rest of the way. And I'll give it to you to - No, wait, just a second. Yes, a little more.
 111:36:18|P|PAO|Two hours and 40 minutes on the PLSS's.
 111:36:33|T|CDR|Buzz?
