@@ -2,10 +2,8 @@ trace("INIT: Loading index.js");
 //app control flags
 var cStopCache = false;
 
-// var cCdnRoot = 'https://media.apolloinrealtime.org/mp3';
-var cCdnRoot = 'https://keycdn.apolloinrealtime.org/mp3';
-// var cCdnRoot = 'https://apollomedia.sfo2.cdn.digitaloceanspaces.com/mp3';
-// var cCdnRoot = 'https://apollomedia.sfo2.digitaloceanspaces.com/mp3';
+// var cCdnRoot = 'https://media.apolloinrealtime.org/A11/MOCR_audio';
+var cCdnRoot = 'https://keycdn.apolloinrealtime.org/A11/MOCR_audio';
 
 var cWebCdnRoot = '';
 // var cWebCdnRoot = 'https://apollort-26f5.kxcdn.com';

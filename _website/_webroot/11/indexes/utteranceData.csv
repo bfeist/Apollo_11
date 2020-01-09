@@ -64,6 +64,7 @@
 0000152|CC|Stand by for mode 1 Charlie.|T
 0000156|CC|MARK.|T
 0000157|CC|Mode 1 Charlie.|T
+0000158|CDR|1 Charlie.|T
 0000200|PAO|Cliff Charlesworth taking a staging status.|P
 0000202|CC|Apollo 11, this is Houston. You are GO for staging.|T
 0000216|CDR|Inboard cut-off.|T
@@ -587,7 +588,7 @@
 0012011|CMP|Ooh, sure, I will. Oh, I've lost the Hasselblad. ... Has anybody seen a Hasselblad floating by? It couldn't have gone very far - big son of a gun like that.|O
 0012041|CDR|Now, what do we have - Is that all the -|O
 0012044|CMP|You had the switch on inside. Oh ya, okay ... the checklist. This automatic light control features.|O
-0012100|CMP|Well, that pisses me off. Hasselblad gone. Find that mother before she or I ends the ... Everybody look for a floating Hasselblad. I see a pen floating loose down here, too. Is anybody missing a ballpoint pen?|O
+0012100|CMP|Well, that pisses me off. Hasselblad gone. Find that mother before TLI ends the ... Everybody look for a floating Hasselblad. I see a pen floating loose down here, too. Is anybody missing a ballpoint pen?|O
 0012119|LMP|Got mine. Is it ballpoint, or is it ...?|O
 0012123|CMP|Yes, ballpoint. Here it is. I mean felt tip.|O
 0012146|CMP|I am much embarrassed to say they've lost a Hasselblad. I seem to be prone to that.|O
@@ -2659,7 +2660,7 @@
 0311501|CMP|Okay. Well, for this TV program coming up in a couple of hours, you might give some thought to how you want us to stop PTC, if you do, for the best high-gain angle; and also it would be nice if you could stop us at such an attitude that we'd have the Earth out of one of our windows.|T
 0311520|CC|Roger, 11. We're thinking about that.|T
 0311524|CMP|Okay.|T
-0311847|CC|Hello, Apollo 11. Houston. We got some PIPA biases and general drift updates for you if you give us P00 and ACCEPT. Over.|T
+0311847|CC|Hello, Apollo 11. Houston. We got some PIPA biases and gyro drift updates for you if you give us P00 and ACCEPT. Over.|T
 0311901|CMP|Okay, Charlie. Stand by one.|T
 0311903|CC|Roger, 11. The - -|T
 0311904|CMP|You've got it.|T
@@ -9987,7 +9988,7 @@
 1113156|LMP|Okay. This - This one's in. No problem.|T
 1113159|CDR|Okay. Stand by a second.|T
 1113203|CC|Neil, this is Houston. Request an EMU check. Over.|T
-1113210|CDR|Roger. Got 3.8 and I got 54 on the O2 and no flags, and my flow is in N.|T
+1113210|CDR|Roger. Got 3.8 and I got 54 on the O2 and no flags, and my flow is in min.|T
 1113327|PAO|The Lick Observatory in California reports a return on that laser experiment.|P
 1113347|CC|Neil and Buzz, for your information, your consumables remain in good shape. Out.|T
 1113354|LMP|Roger, How's it coming, Neil?|T
@@ -10001,7 +10002,7 @@
 1113502|LMP|No, it didn't either. Second hand.|T
 1113514|LMP|Okay. If you can just kind of hold it, why, I think I can do the pulling.|T
 1113518|CDR|Okay. Stand by a minute. Let me move back.|T
-1113542|LMP|Okay. Easy. All right, easy in the hatch now.|T
+1113542|LMP|Okay. Easy. All right, easy on the hatch now.|T
 1113552|LMP|Okay. I'll get it the rest of the way. And I'll give it to you to - No, wait, just a second. Yes, a little more.|T
 1113618|PAO|Two hours and 40 minutes on the PLSS's.|P
 1113633|CDR|Buzz?|T
@@ -13381,7 +13382,7 @@
 1575917|CMP|You were going to make me do that in another 45 minutes anyway.|T
 1575920|CC|That's true.|T
 1575927|CMP|That's the highlight of my day. I'm really looking forward to that.|T
-1575929||(Music: "Music Out of the Moon")|T
+1575929||(Music: "Radar Blues from Music Out of the Moon")|T
 1580105|CC|Thank you, 11. We appreciate you turning that off. (Laughter)|T
 1580125|PAO|This is Apollo Control, 158 hours, 1 minute Ground Elapsed Time. There's been a certain amount of conversation between Charlie Duke here in Mission Control and the crew of Apollo 11. We'll play back the accumulated tape at this time and then rejoin the conversation when it does resume on a live basis. Let's roll the tape now.|P
 1580326|CDR|Charlie, could you copy our music down there?|T
@@ -13562,7 +13563,7 @@
 1733921|CDR|Thank you very much, Owen. I think my yard could use some water.|T
 1733925|CC|That's very true. I've forgotten exactly how many days it did go, Buzz, but something like 30 days without rain; and we can appreciate the rain we're getting right now.|T
 1733936|LMP|That was Neil. This is Buzz, here. I wish we could find out when the last time my lawn was cut. Over.|T
-1733941|CMP|That might be a little more difficult to find out. I'm not sure whether the - whether Mike is ready to admit when he last did the job, but I'll look into that for you.|T
+1733941|CC|That might be a little more difficult to find out. I'm not sure whether the - whether Mike is ready to admit when he last did the job, but I'll look into that for you.|T
 1733953|LMP|Well, he'll tell you. He's got a new mower.|T
 1733955|CC|Roger.|T
 1734005|CMP|Hey, ask my chinch bugs how they're doing?|T
