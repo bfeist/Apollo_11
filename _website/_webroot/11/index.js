@@ -2,8 +2,12 @@ trace("INIT: Loading index.js");
 //app control flags
 var cStopCache = false;
 
-// var cCdnRoot = 'https://media.apolloinrealtime.org/A11/MOCR_audio';
-var cCdnRoot = 'https://keycdn.apolloinrealtime.org/A11/MOCR_audio';
+var cMediaCdnRoot = 'https://media.apolloinrealtime.org/A11';
+// var cCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A11'; //keycdn pulling from dreamhost
+// var cCdnRoot = 'https://keycdnmediado.apolloinrealtime.org/A11';  //keycdn pulling from digitalocean space
+
+var cLPICdnRoot = 'https://www.lpi.usra.edu';
+// var cLPICdnRoot = 'https://keycdnlpicache.apolloinrealtime.org';
 
 var cWebCdnRoot = '';
 // var cWebCdnRoot = 'https://apollort-26f5.kxcdn.com';
@@ -1092,11 +1096,12 @@ function populatePhotoGallery() {
             var rollNum = RegExp.$1;
             var imgNum = RegExp.$2;
             // var imageURL = 'http://tothemoon.ser.asu.edu/data_a70/AS11/extra/'  + photoObject[1] + '.thumb.png';
-            var imageURL = 'https://www.lpi.usra.edu/resources/apollo/images/thumb/AS11/' + rollNum + '/' + imgNum + '.jpg';
+            var imageURL = cLPICdnRoot + '/resources/apollo/images/thumb/AS11/' + rollNum + '/' + imgNum + '.jpg';
         } else if (photoObject[3] !== '') { //if custom image URL in datafile
             imageURL = photoObject[3];
         } else {
-            imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
+            imageURL = cMediaCdnRoot + '/images/NASA_photos/' + photoObject[2];
+            // imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
         }
 
         html = html.replace(/@imageURL/g , imageURL);
@@ -1154,17 +1159,18 @@ function loadPhotoHtml(photoIndex) {
         var imgNum = RegExp.$2;
         if (photoObject[2] !== '') {
             // var imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
-            var imageURL = 'https://keycdn.apolloinrealtime.org/NASA_photos/' + photoObject[2];
+            var imageURL = cMediaCdnRoot + '/images/NASA_photos/' + photoObject[2];
         } else if (photoObject[3] !== '') { //if custom image URL in datafile
             imageURL = photoObject[3];
         } else {
-            imageURL = 'https://www.lpi.usra.edu/resources/apollo/images/print/AS11/' + rollNum + '/' + imgNum + '.jpg';
+            // imageURL = cLPICdnRoot + '/resources/apollo/images/browse/AS11/' + rollNum + '/' + imgNum + '.jpg';
+            imageURL = cLPICdnRoot + '/resources/apollo/images/print/AS11/' + rollNum + '/' + imgNum + '.jpg';
         }
     } else if (photoObject[3] !== '') { //if custom image URL in datafile
         imageURL = photoObject[3];
     } else {
         // imageURL = 'https://www.hq.nasa.gov/alsj/a11/' + photoObject[2];
-        var imageURL = 'https://keycdn.apolloinrealtime.org/NASA_photos/' + photoObject[2];
+        imageURL = cMediaCdnRoot + '/images/NASA_photos/' + photoObject[2];
     }
     var source = "LPI";
     var caption = photoObject[4];
@@ -2183,7 +2189,7 @@ function getTapeActivityRanges(activeSec) {
 function ajaxGetTapesActivityDataRange(tapesActivityFilename) {
     trace("ajaxGetTapesActivityDataRange()main: "  + tapesActivityFilename.toString());
 
-    var tapeActivityDataPath = cCdnRoot + '/tape_activity/';
+    var tapeActivityDataPath = cMediaCdnRoot + '/MOCR_audio/tape_activity/';
     var tapeActivity;
     gTapesActivityRangeArray = [];
     $.when(
