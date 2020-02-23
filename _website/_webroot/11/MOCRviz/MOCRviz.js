@@ -3,8 +3,11 @@ var cCountdownSeconds = 74768;
 var cAppStartGET = -109;
 
 // var cCdnMOCRAudioRoot = 'https://media.apolloinrealtime.org/A11/MOCR_audio';
-// var cCdnMOCRAudioRoot = 'https://keycdnmedia.apolloinrealtime.org/A11/MOCR_audio';
-var cCdnMOCRAudioRoot = parent.cMediaCdnRoot + "/MOCR_audio";
+
+var cCdnMOCRAudioRoot = 'https://keycdnmedia.apolloinrealtime.org/A11/MOCR_audio'; //keycdn pulling from dreamhost
+// var cCdnMOCRAudioRoot = 'https://keycdnmediado.apolloinrealtime.org/A11/MOCR_audio';  //keycdn pulling from digitalocean space
+
+// var cCdnMOCRAudioRoot = parent.cMediaCdnRoot + "/MOCR_audio";
 
 var cWebCdnRoot = '';
 // var cWebCdnRoot = 'https://apollort-26f5.kxcdn.com';
