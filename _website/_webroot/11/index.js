@@ -3,8 +3,8 @@ trace("INIT: Loading index.js");
 var cStopCache = false;
 
 // var cMediaCdnRoot = 'https://media.apolloinrealtime.org/A11';
-var cMediaCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A11'; //keycdn pulling from dreamhost
-// var cMediaCdnRoot = 'https://keycdnmediado.apolloinrealtime.org/A11';  //keycdn pulling from digitalocean space
+// var cMediaCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A11'; //keycdn pulling from dreamhost
+var cMediaCdnRoot = 'https://keycdnmediado.apolloinrealtime.org/A11';  //keycdn pulling from digitalocean space
 
 var cLPICdnRoot = 'https://www.lpi.usra.edu';
 // var cLPICdnRoot = 'https://keycdnlpicache.apolloinrealtime.org';
@@ -227,8 +227,8 @@ function setAutoScrollPoller() {
         gCurrMissionTime = secondsToTimeStr(totalSec);
 
         if (gCurrMissionTime !== gLastTimeIdChecked) {
-            if (parseInt(totalSec) % 10 === 0) { //every 10 seconds, fire a playing event
-                // ga('send', 'event', 'playback', 'playing', gCurrMissionTime);
+            if (parseInt(totalSec) % 30 === 0) { //every 10 seconds, fire a playing event
+                ga('send', 'event', 'playback', 'playing', gCurrMissionTime);
             }
 
             var timeId = timeStrToTimeId(gCurrMissionTime);

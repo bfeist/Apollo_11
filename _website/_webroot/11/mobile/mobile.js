@@ -66,6 +66,9 @@ function setTimeUpdatePoller() {
         // gCurrMissionTime = secondsToTimeStr(MOCRvizIframeSelector.contentWindow.gCurrGETSeconds);
         gCurrMissionTime = secondsToTimeStr(timeStrToSeconds(gCurrMissionTime) + 1);
         displayHistoricalTimeDifferenceByTimeId(timeStrToTimeId(gCurrMissionTime));
+
+
+
     }, 1000);
 }
 
