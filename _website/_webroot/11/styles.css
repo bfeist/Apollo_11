@@ -1119,15 +1119,19 @@ body.splash-loaded .splash-content {
   bottom: 0;
   width: 1px;
 }
+
 .splash-content .patch {
-  background-image: url("img/Apollo_11_insignia_200.png");
-  width: 7em;
-  height: 7em;
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
+    background-image: url("img/Apollo_11_insignia_200.png");
+    width: 7em;
+    height: 7em;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
     flex: none;
     margin-right: 20px;
+}
+.splash-content .patch:hover {
+    background-image: url('../img/apollo_program_patch_200.png');
 }
 
 .splash-content .patch-right {

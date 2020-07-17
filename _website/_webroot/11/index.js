@@ -472,6 +472,10 @@ function fadeInSplash() {
     $('.splash-content').show();
 }
 
+function goToURL(url) {
+    window.location.href = url;
+}
+
 function galleryClick(timeId) {
     ga('send', 'event', 'galleryClick', 'img', gPhotoData[gPhotoDataLookup[timeId]][1] + ".jpg");
     seekToTime(timeId);
@@ -545,7 +549,7 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
         conversionMultiplier = -1;
     }
 
-    var timeidDate = new Date(cLaunchDate.getTime());
+    var timeidDate = new Date(cLaunchDateModern.getTime());
 
     timeidDate.add({
         hours: hours * conversionMultiplier,
@@ -553,11 +557,35 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
         seconds: seconds * conversionMultiplier
     });
 
-    var historicalDate = new Date(timeidDate.getTime()); //for display only
-    $(".historicalDate").text(historicalDate.toDateString());
+    // var historicalDate = new Date(timeidDate.getTime()); //for display only
+
+    // //DST kludge
+    // historicalDate.add({
+    //     hours: 1,
+    //     minutes: 0,
+    //     seconds: 0
+    // });
+
+    var month_names_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    var days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+
+    $(".historicalDate").text(days[timeidDate.getDay()] + ' ' + month_names_short[timeidDate.getMonth()] + " " + timeidDate.getDate() + " " + cLaunchDate.getFullYear() + " ");
+
+    var timezoneOffset = -(new Date(cLaunchDateModern).getTimezoneOffset() / 60);
+    var timezoneOffsetString = timezoneOffset.toString();
+    var absTimezoneOffset = Math.abs(parseInt(timezoneOffsetString)).toString();
+    if (timezoneOffsetString === absTimezoneOffset) { //if positive timezone offset, add a +
+        timezoneOffsetString = '+' + timezoneOffsetString;
+    }
+    var timezoneOffsetPaddingAmount = 3 - absTimezoneOffset.length;
+    for (var i = 0; i < timezoneOffsetPaddingAmount; i++) {
+        timezoneOffsetString = timezoneOffsetString + "0";
+    }
+
+    // console.log("Timezone offset: " + timezoneOffsetString);
 
     var options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
-    $(".historicalTime").text(historicalDate.toLocaleTimeString('en-US', options));
+    $(".historicalTime").text(timeidDate.toLocaleTimeString('en-US', options) + " " + timezoneOffsetString);
     //$(".historicalTime").text(historicalDate.toLocaleTimeString().match(/^[^:]+(:\d\d){2} *(am|pm)\b/i)[0]);  //.replace(/([AP]M)$/, ""));
     //$(".historicalTimeAMPM").text(historicalDate.toLocaleTimeString().match(/([AP]M)/)[0])
 
@@ -778,7 +806,7 @@ function repopulateUtterances(timeId) {
     var endIndex = startIndex + 100;
     startIndex = startIndex < 0 ? 0 : startIndex;
     endIndex = endIndex >= gUtteranceIndex.length ? gUtteranceIndex.length - 1 : endIndex;
-    for (var i = startIndex; i <= endIndex; i++) {
+    for (var i = startIndex; i < endIndex; i++) {
         utteranceTable.append(getUtteranceObjectHTML(i));
     }
     gUtteranceDisplayStartIndex = startIndex;
@@ -2089,9 +2117,9 @@ function setSplashHistoricalSubtext() {
 
     //if (currDate_ms >= countdownStartDate_ms && currDate_ms < missionEndDate_ms) { //check if during mission anniversary
         //$('.section.now').css('display', '');
-       // $('.historicalSubtext').html("<b>Mission Anniversary</b><BR>Exactly 50 years ago");
+       $('.historicalSubtext').html("<b>Mission Anniversary</b>");
    // } else {
-        $('.historicalSubtext').text("50 years ago");  //todo make this calculate how many years ago
+   //      $('.historicalSubtext').text("51 years ago");  //todo make this calculate how many years ago
    //      $('.historicalSubtext').text("49 years, 11 months ago");  //todo make this calculate how many years ago
    // }
 }

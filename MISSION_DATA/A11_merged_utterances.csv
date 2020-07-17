@@ -1696,7 +1696,7 @@
 005:43:25|T|CC|11, Houston. I have a TLI-plus-11-hour PAD when you're ready to copy.
 005:43:33|T|LMP|Wait one.
 005:44:17|T|CMP|Old star number 30 looks like it is right dab smack in the middle of the sextant.
-005:44:23|T|CMP|Houston. Roger. Out.
+005:44:23|T|CC|Houston. Roger. Out.
 005:45:27|T|LMP|Apollo 11, ready to copy.
 005:45:31|T|CC|Roger, 11 This is TLI-plus-11-hours. P37 format: 01344 4793, minus 165 04923. Read back. Over.
 005:45:57|T|LMP|Roger. 01344 4793, minus 165 04923. Over.
@@ -2207,7 +2207,7 @@
 024:19:49|T|CC|11, this is Houston. We've completed the uplink; the computer is yours; you can go back to BLOCK.
 024:19:57|T|CMP|Okay. Thank you.
 024:20:29|T|CC|Go ahead, 11.
-024:20:41|T|CDR|Houston, 11. I don't believe we were calling you right then.
+024:20:41|T|LMP|Houston, 11. I don't believe we were calling you right then.
 024:20:47|T|CC|Roger. Out.
 024:22:53|P|PAO|This is Apollo Control at 24 hours 22 minutes into the mission. Apollo 11's distance from the Earth is 102,436 nautical miles, velocity 5,288 feet per second.
 024:23:52|T|CMP|Houston, Apollo 11.
