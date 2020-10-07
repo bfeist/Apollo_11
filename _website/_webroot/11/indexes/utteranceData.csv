@@ -3371,7 +3371,7 @@
 0550446|CMP|Roger. We figured you would.|T
 0550935|PAO|This is Apollo Control at 55 hours 10 minutes. Our network controllers just advised that we are receiving live television at Goldstone. We would presume this is a test of the system, similar to what we received from the crew yesterday. The crew is planning to send television from the Lunar Module when they ingress. Stand by - here's a call from the crew.|P
 0551000|CC|Apollo 11, Houston. We're getting the TV at Goldstone. We're not quite configured here at Houston for the transmission. We'll be up in a couple of minutes. Over.|T
-0551014|CMP|Roger. This is just for free. This isn't what we had in mind.|T
+0551014|LMP|Roger. This is just for free. This isn't what we had in mind.|T
 0551018|CC|Roger.|T
 0551026|PAO|That was Capcom, Charlie Duke, advising the crew that we are not quite prepared for television reception at this time. You heard Mike Collins respond that this one's for free. We still intend to get the television transmission during the time the crew is in the Lunar Module, beginning about 56 hours 20 minutes Ground Elapsed Time, which would be about 4:52pm Central Daylight Time.|P
 0551120|PAO|We are getting a black and white television picture in the Control Center at this time and we should have that in color by now. Interior view of the Command Module looking up into the LM hatch, CSM land hatch area. We can't quite make out which crewman we're seeing up in the tunnel working with the probe and drogue assembly.|P
@@ -9018,7 +9018,7 @@
 1073104|CC|Go ahead Tranquility Base.|T
 1073111|CDR|Okay. We are on about the middle of page 28, Surface - 28.|T
 1073123|CC|Roger, Tranquility. We copy.|T
-1073352|PAO|This is Apollo Control. Based on that checklist report from Eagle, the crew appears to be about behind the timeline in EVA preparations.|P
+1073352|PAO|This is Apollo Control. Based on that checklist report from Eagle, the crew appears to be about 30 minutes behind the timeline in EVA preparations.|P
 1073818|CDR|...|T
 1074012|CDR|... minimum.|T
 1074437|CDR|I think we'd ... to put ...|T

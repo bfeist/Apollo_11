@@ -3402,7 +3402,7 @@
 055:04:46|T|CMP|Roger. We figured you would.
 055:09:35|P|PAO|This is Apollo Control at 55 hours 10 minutes. Our network controllers just advised that we are receiving live television at Goldstone. We would presume this is a test of the system, similar to what we received from the crew yesterday. The crew is planning to send television from the Lunar Module when they ingress. Stand by - here's a call from the crew.
 055:10:00|T|CC|Apollo 11, Houston. We're getting the TV at Goldstone. We're not quite configured here at Houston for the transmission. We'll be up in a couple of minutes. Over.
-055:10:14|T|CMP|Roger. This is just for free. This isn't what we had in mind.
+055:10:14|T|LMP|Roger. This is just for free. This isn't what we had in mind.
 055:10:18|T|CC|Roger.
 055:10:26|P|PAO|That was Capcom, Charlie Duke, advising the crew that we are not quite prepared for television reception at this time. You heard Mike Collins respond that this one's for free. We still intend to get the television transmission during the time the crew is in the Lunar Module, beginning about 56 hours 20 minutes Ground Elapsed Time, which would be about 4:52pm Central Daylight Time.
 055:11:20|P|PAO|We are getting a black and white television picture in the Control Center at this time and we should have that in color by now. Interior view of the Command Module looking up into the LM hatch, CSM land hatch area. We can't quite make out which crewman we're seeing up in the tunnel working with the probe and drogue assembly.
@@ -9231,7 +9231,7 @@
 107:31:04|T|CC|Go ahead Tranquility Base.
 107:31:11|T|CDR|Okay. We are on about the middle of page 28, Surface - 28.
 107:31:23|T|CC|Roger, Tranquility. We copy.
-107:33:52|P|PAO|This is Apollo Control. Based on that checklist report from Eagle, the crew appears to be about behind the timeline in EVA preparations.
+107:33:52|P|PAO|This is Apollo Control. Based on that checklist report from Eagle, the crew appears to be about 30 minutes behind the timeline in EVA preparations.
 107:38:18|T|CDR|...
 107:40:12|T|CDR|... minimum.
 107:44:37|T|CDR|I think we'd ... to put ...

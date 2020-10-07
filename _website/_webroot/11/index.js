@@ -3,11 +3,11 @@ trace("INIT: Loading index.js");
 var cStopCache = false;
 
 // var cMediaCdnRoot = 'https://media.apolloinrealtime.org/A11';
-// var cMediaCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A11'; //keycdn pulling from dreamhost
-var cMediaCdnRoot = 'https://keycdnmediado.apolloinrealtime.org/A11';  //keycdn pulling from digitalocean space
+var cMediaCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A11'; //keycdn pulling from dreamhost
+// var cMediaCdnRoot = 'https://keycdnmediado.apolloinrealtime.org/A11';  //keycdn pulling from digitalocean space
 
-var cLPICdnRoot = 'https://www.lpi.usra.edu';
-// var cLPICdnRoot = 'https://keycdnlpicache.apolloinrealtime.org';
+// var cLPICdnRoot = 'https://www.lpi.usra.edu';
+var cLPICdnRoot = 'https://keycdnlpicache.apolloinrealtime.org';
 
 var cWebCdnRoot = '';
 // var cWebCdnRoot = 'https://apollort-26f5.kxcdn.com';
@@ -549,7 +549,7 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
         conversionMultiplier = -1;
     }
 
-    var timeidDate = new Date(cLaunchDateModern.getTime());
+    var timeidDate = new Date(cLaunchDate.getTime());
 
     timeidDate.add({
         hours: hours * conversionMultiplier,
@@ -2117,7 +2117,8 @@ function setSplashHistoricalSubtext() {
 
     //if (currDate_ms >= countdownStartDate_ms && currDate_ms < missionEndDate_ms) { //check if during mission anniversary
         //$('.section.now').css('display', '');
-       $('.historicalSubtext').html("<b>Mission Anniversary</b>");
+       // $('.historicalSubtext').html("<b>Mission Anniversary</b>");
+       $('.historicalSubtext').html("<b>Current time in 1969</b>");
    // } else {
    //      $('.historicalSubtext').text("51 years ago");  //todo make this calculate how many years ago
    //      $('.historicalSubtext').text("49 years, 11 months ago");  //todo make this calculate how many years ago

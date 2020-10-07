@@ -1637,10 +1637,11 @@ header {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   line-height: 1;
+  font-size: 0.9em;
 }
 .info-wrapper .content .date {
   /*font-size: .8em;*/
-  font-size: 1em;
+  /*font-size: 1em;*/
 }
 .info-wrapper .content .time {
   border-left: 1px solid #444;

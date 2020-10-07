@@ -11,8 +11,6 @@ $.when(
     ajaxGetTelemetryData(),
     ajaxCrewStatusData(),
     ajaxOrbitData(),
-    ajaxGeoData(),
-    ajaxGeoCompendiumData(),
     ajaxPaperData()).done(function(){
         // the code here will be executed when all ajax requests resolve.
         gApplicationReady += 1;
@@ -129,27 +127,27 @@ function ajaxOrbitData() {
     });
 }
 
-function ajaxGeoData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/geoData.csv";
-    urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
-    return $.ajax({
-        type: "GET",
-        url: urlStr,
-        dataType: "text",
-        success: function(data) {processGeoData(data);}
-    });
-}
-
-function ajaxGeoCompendiumData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/geoCompendiumData.csv";
-    urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
-    return $.ajax({
-        type: "GET",
-        url: urlStr,
-        dataType: "text",
-        success: function(data) {processGeoCompendiumData(data);}
-    });
-}
+// function ajaxGeoData() {
+//     var urlStr = cWebCdnRoot + "/11/indexes/geoData.csv";
+//     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
+//     return $.ajax({
+//         type: "GET",
+//         url: urlStr,
+//         dataType: "text",
+//         success: function(data) {processGeoData(data);}
+//     });
+// }
+//
+// function ajaxGeoCompendiumData() {
+//     var urlStr = cWebCdnRoot + "/11/indexes/geoCompendiumData.csv";
+//     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
+//     return $.ajax({
+//         type: "GET",
+//         url: urlStr,
+//         dataType: "text",
+//         success: function(data) {processGeoCompendiumData(data);}
+//     });
+// }
 
 function ajaxPaperData() {
     var urlStr = cWebCdnRoot + "/11/indexes/paperData.csv";
@@ -315,16 +313,16 @@ function createSearchData() {
         tmpItem[4] = 1;
         gSearchData.push(tmpItem);
     }
-    for (counter = 0; counter < gGeoData.length; counter++) {
-        tmpItem = [];
-        tmpItem[0] = gGeoData[counter][0];
-        tmpItem[1] = "";
-        tmpItem[2] = "";
-
-        tmpItem[3] = "Geology sample container; Sample bag: " + gGeoData[counter][2] + "; Sample Numbers: " + gGeoData[counter][5].replace(/`/g, ", ");
-        tmpItem[4] = 2;
-        gSearchData.push(tmpItem);
-    }
+    // for (counter = 0; counter < gGeoData.length; counter++) {
+    //     tmpItem = [];
+    //     tmpItem[0] = gGeoData[counter][0];
+    //     tmpItem[1] = "";
+    //     tmpItem[2] = "";
+    //
+    //     tmpItem[3] = "Geology sample container; Sample bag: " + gGeoData[counter][2] + "; Sample Numbers: " + gGeoData[counter][5].replace(/`/g, ", ");
+    //     tmpItem[4] = 2;
+    //     gSearchData.push(tmpItem);
+    // }
     for (counter = 0; counter < gPhotoData.length; counter++) {
         var photoObject = gPhotoData[counter];
         var photoTimeId = photoObject[0];
@@ -399,38 +397,38 @@ function processOrbitData(allText) {
     gOrbitData[gOrbitData.length - 1][2] = gOrbitData[gOrbitData.length - 1][0]; //insert 0 length end time record for TEI
 }
 
-function processGeoData(allText) {
-    //console.log("processGeoData()");
-    var allTextLines = allText.split(/\r\n|\n/);
-    for (var i = 0; i < allTextLines.length; i++) {
-        var data = allTextLines[i].split('|');
-        if (data[0] !== "") {
-            var tmpItem = [];
-            tmpItem[0] = timeStrToTimeId(data[0]);
-            tmpItem[1] = data[1];
-            tmpItem[2] = data[2];
-            tmpItem[3] = data[3];
-            tmpItem[4] = data[4];
-            tmpItem[5] = data[5];
-            gGeoData.push(tmpItem);
-        }
-    }
-}
+// function processGeoData(allText) {
+//     //console.log("processGeoData()");
+//     var allTextLines = allText.split(/\r\n|\n/);
+//     for (var i = 0; i < allTextLines.length; i++) {
+//         var data = allTextLines[i].split('|');
+//         if (data[0] !== "") {
+//             var tmpItem = [];
+//             tmpItem[0] = timeStrToTimeId(data[0]);
+//             tmpItem[1] = data[1];
+//             tmpItem[2] = data[2];
+//             tmpItem[3] = data[3];
+//             tmpItem[4] = data[4];
+//             tmpItem[5] = data[5];
+//             gGeoData.push(tmpItem);
+//         }
+//     }
+// }
 
-function processGeoCompendiumData(allText) {
-    //console.log("processGeoCompendiumData()");
-    var allTextLines = allText.split(/\r\n|\n/);
-    for (var i = 0; i < allTextLines.length; i++) {
-        var data = allTextLines[i].split('|');
-        if (data[0] !== "") {
-            var tmpItem = [];
-            tmpItem[0] = data[0];
-            tmpItem[1] = data[1];
-            tmpItem[2] = data[2];
-            gGeoCompendiumData.push(tmpItem);
-        }
-    }
-}
+// function processGeoCompendiumData(allText) {
+//     //console.log("processGeoCompendiumData()");
+//     var allTextLines = allText.split(/\r\n|\n/);
+//     for (var i = 0; i < allTextLines.length; i++) {
+//         var data = allTextLines[i].split('|');
+//         if (data[0] !== "") {
+//             var tmpItem = [];
+//             tmpItem[0] = data[0];
+//             tmpItem[1] = data[1];
+//             tmpItem[2] = data[2];
+//             gGeoCompendiumData.push(tmpItem);
+//         }
+//     }
+// }
 
 function processPaperData(allText) {
     //console.log("processPaperData()");
