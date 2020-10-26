@@ -550,8 +550,15 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
     }
 
     var timeidDate = new Date(cLaunchDate.getTime());
+    var timeidDateModern = new Date(cLaunchDateModern.getTime());
 
     timeidDate.add({
+        hours: hours * conversionMultiplier,
+        minutes: minutes * conversionMultiplier,
+        seconds: seconds * conversionMultiplier
+    });
+
+    timeidDateModern.add({
         hours: hours * conversionMultiplier,
         minutes: minutes * conversionMultiplier,
         seconds: seconds * conversionMultiplier
@@ -585,7 +592,7 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
     // console.log("Timezone offset: " + timezoneOffsetString);
 
     var options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
-    $(".historicalTime").text(timeidDate.toLocaleTimeString('en-US', options) + " " + timezoneOffsetString);
+    $(".historicalTime").text(timeidDateModern.toLocaleTimeString('en-US', options) + " " + timezoneOffsetString);
     //$(".historicalTime").text(historicalDate.toLocaleTimeString().match(/^[^:]+(:\d\d){2} *(am|pm)\b/i)[0]);  //.replace(/([AP]M)$/, ""));
     //$(".historicalTimeAMPM").text(historicalDate.toLocaleTimeString().match(/([AP]M)/)[0])
 
@@ -2118,7 +2125,7 @@ function setSplashHistoricalSubtext() {
     //if (currDate_ms >= countdownStartDate_ms && currDate_ms < missionEndDate_ms) { //check if during mission anniversary
         //$('.section.now').css('display', '');
        // $('.historicalSubtext').html("<b>Mission Anniversary</b>");
-       $('.historicalSubtext').html("<b>Current time in 1969</b>");
+       // $('.historicalSubtext').html("<b>Current time in 1969</b>");
    // } else {
    //      $('.historicalSubtext').text("51 years ago");  //todo make this calculate how many years ago
    //      $('.historicalSubtext').text("49 years, 11 months ago");  //todo make this calculate how many years ago
