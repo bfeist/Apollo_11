@@ -3,8 +3,8 @@ trace("INIT: Loading index.js");
 var cStopCache = false;
 
 // var cMediaCdnRoot = 'https://media.apolloinrealtime.org/A11';
-var cMediaCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A11'; //keycdn pulling from dreamhost
-// var cMediaCdnRoot = 'https://keycdnmediado.apolloinrealtime.org/A11';  //keycdn pulling from digitalocean space
+// var cMediaCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A11'; //keycdn pulling from dreamhost
+var cMediaCdnRoot = 'https://keycdnmediado.apolloinrealtime.org/A11';  //keycdn pulling from digitalocean space
 
 // var cLPICdnRoot = 'https://www.lpi.usra.edu';
 var cLPICdnRoot = 'https://keycdnlpicache.apolloinrealtime.org';
@@ -126,7 +126,8 @@ function onYouTubeIframeAPIReady() {
             autohide: 1,
             rel: 0,
             'controls': 0,
-            fs: 0
+            fs: 0,
+            playsinline: 1
         },
         events: {
             'onReady': onPlayerReady,
