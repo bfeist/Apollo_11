@@ -19,9 +19,9 @@ var cMissionDurationSeconds = 713311;
 var cCountdownSeconds = 74768;
 var cDefaultStartTimeId = '-000109';
 var cLaunchDate = Date.parse("1969-07-16 9:32 -400");
-var cLaunchDateModern = Date.parse("2020-07-16 9:32 -400");
+var cLaunchDateModern = Date.parse("2021-07-16 9:32 -400");
 var cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -400");
-var cCountdownStartDateModern = Date.parse("2020-07-15 1:46:57 -400");
+var cCountdownStartDateModern = Date.parse("2021-07-15 1:46:57 -400");
 
 var cBackground_color_active = "#1e1e1e";
 
