@@ -28,7 +28,7 @@ $.when(
 //--------------- index file handling --------------------
 
 function ajaxGetVideoURLData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/videoURLData.csv";
+    var urlStr = cWebCdnRoot + "./indexes/videoURLData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -38,7 +38,7 @@ function ajaxGetVideoURLData() {
     });
 }
 function ajaxGetTOCData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/TOCData.csv";
+    var urlStr = cWebCdnRoot + "./indexes/TOCData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -48,7 +48,7 @@ function ajaxGetTOCData() {
     });
 }
 function ajaxGetUtteranceData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/utteranceData.csv";
+    var urlStr = cWebCdnRoot + "./indexes/utteranceData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -58,7 +58,7 @@ function ajaxGetUtteranceData() {
     });
 }
 function ajaxGetCommentaryData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/commentaryData.csv";
+    var urlStr = cWebCdnRoot + "./indexes/commentaryData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -68,7 +68,7 @@ function ajaxGetCommentaryData() {
     });
 }
 function ajaxGetPhotoData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/photoData.csv";
+    var urlStr = cWebCdnRoot + "./indexes/photoData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -78,7 +78,7 @@ function ajaxGetPhotoData() {
     });
 }
 function ajaxGetMissionStagesData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/missionStagesData.csv";
+    var urlStr = cWebCdnRoot + "./indexes/missionStagesData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -88,7 +88,7 @@ function ajaxGetMissionStagesData() {
     });
 }
 function ajaxGetVideoSegmentData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/videoSegmentData.csv";
+    var urlStr = cWebCdnRoot + "./indexes/videoSegmentData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -98,7 +98,7 @@ function ajaxGetVideoSegmentData() {
     });
 }
 function ajaxGetTelemetryData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/telemetryData.csv";
+    var urlStr = cWebCdnRoot + "./indexes/telemetryData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -108,7 +108,7 @@ function ajaxGetTelemetryData() {
     });
 }
 function ajaxCrewStatusData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/crewStatusData.csv";
+    var urlStr = cWebCdnRoot + "./indexes/crewStatusData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -119,7 +119,7 @@ function ajaxCrewStatusData() {
 }
 
 function ajaxOrbitData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/orbitData.csv";
+    var urlStr = cWebCdnRoot + "./indexes/orbitData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -130,7 +130,7 @@ function ajaxOrbitData() {
 }
 
 function ajaxGeoData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/geoData.csv";
+    var urlStr = cWebCdnRoot + "./indexes/geoData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -141,7 +141,7 @@ function ajaxGeoData() {
 }
 
 function ajaxGeoCompendiumData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/geoCompendiumData.csv";
+    var urlStr = cWebCdnRoot + "./indexes/geoCompendiumData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -152,7 +152,7 @@ function ajaxGeoCompendiumData() {
 }
 
 function ajaxPaperData() {
-    var urlStr = cWebCdnRoot + "/11/indexes/paperData.csv";
+    var urlStr = cWebCdnRoot + "./indexes/paperData.csv";
     urlStr += cStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",

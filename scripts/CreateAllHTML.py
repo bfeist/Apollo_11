@@ -12,7 +12,7 @@ output_utterance_data_file = open(output_utterance_data_file_name_and_path, "a")
 # WRITE ALL UTTERANCE BODY ITEMS
 cur_row = 0
 input_file_path = "../MISSION_DATA/A11_merged_utterances.csv"
-utterance_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
+utterance_reader = csv.reader(open(input_file_path, "r"), delimiter='|')
 lasttimestamp = ''
 lastwho = ''
 for utterance_row in utterance_reader:
@@ -40,7 +40,7 @@ output_commentary_data_file = open(output_commentary_data_file_name_and_path, "a
 
 cur_row = 0
 input_file_path = "../MISSION_DATA/A11_merged_commentary.csv"
-commentary_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
+commentary_reader = csv.reader(open(input_file_path, "r"), delimiter='|')
 for commentary_row in commentary_reader:
     cur_row += 1
     timeid = commentary_row[0].replace(":", "")
@@ -65,7 +65,7 @@ output_photo_index_file = open(output_photo_index_file_name_and_path, "a")
 photo_list = []
 tempRecord = []
 input_file_path = "../MISSION_DATA/A11_photos.csv"
-photos_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
+photos_reader = csv.reader(open(input_file_path, "r"), delimiter='|')
 for photo_row in photos_reader:
     tempRecord.clear()
     if photo_row[0] != "" and photo_row[0] != "skip":  # if timestamp not blank and photo not marked to skip
@@ -118,7 +118,7 @@ depth_comparison = "false"
 timestamp = ""
 inputFilePath = "../MISSION_DATA/A11_TOC.csv"
 csv.register_dialect('pipes', delimiter='|', doublequote=True, escapechar='\\')
-reader = csv.reader(open(inputFilePath, "rU"), dialect='pipes')
+reader = csv.reader(open(inputFilePath, "r"), dialect='pipes')
 for row in reader:
     timestamp = row[0]
     timeline_index_id = row[0].replace(":", "")
