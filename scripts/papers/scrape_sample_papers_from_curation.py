@@ -39,31 +39,31 @@ def xstr(s):
 
 
 for sampleNum in sampleArray:
-    if not os.path.isfile(outputFilePath + sampleNum + ".csv"):
-        papers_text_records = ""
-        # check if the excel doc url returns a result.
-        page = requests.get('https://curator.jsc.nasa.gov/lunar/references/search_results.cfm?type=xcel&samplename=' + sampleNum)
-        if page.text[2:9] != 'doctype':  # this means there's no excel data for this sample number
-            # get excel doc
-            df = pd.read_excel('https://curator.jsc.nasa.gov/lunar/references/search_results.cfm?type=xcel&samplename=' + sampleNum)
-            for index, row in df.iterrows():
-                # print(row.Title)
-                papers_text_records = papers_text_records + "|"  # Bibnum
-                papers_text_records = papers_text_records + xstr(row.PublicationYear) + "|"
-                papers_text_records = papers_text_records + xstr(row.Title) + "|"
-                papers_text_records = papers_text_records + xstr(row.Authors) + "|"
-                papers_text_records = papers_text_records + xstr(row.Journal) + "|"
-                papers_text_records = papers_text_records + xstr(row.Volume) + "|"
-                papers_text_records = papers_text_records + "|"  # Issue
-                papers_text_records = papers_text_records + xstr(row.Pages) + "|"
-                papers_text_records = papers_text_records + "|"  # Abstract
-                papers_text_records = papers_text_records + xstr(row.DOI)
-                papers_text_records = papers_text_records + "\n"
-            print(sampleNum)
-        else:
-            print("No excel: " + sampleNum)
+    # if not os.path.isfile(outputFilePath + sampleNum + ".csv"):
+      papers_text_records = ""
+      # check if the excel doc url returns a result.
+      page = requests.get('https://curator.jsc.nasa.gov/lunar/references/search_results.cfm?type=xcel&samplename=' + sampleNum)
+      if page.text[2:9] != 'doctype':  # this means there's no excel data for this sample number
+          # get excel doc
+          df = pd.read_excel('https://curator.jsc.nasa.gov/lunar/references/search_results.cfm?type=xcel&samplename=' + sampleNum)
+          for index, row in df.iterrows():
+              # print(row.Title)
+              papers_text_records = papers_text_records + "|"  # Bibnum
+              papers_text_records = papers_text_records + xstr(row.PublicationYear) + "|"
+              papers_text_records = papers_text_records + xstr(row.Title) + "|"
+              papers_text_records = papers_text_records + xstr(row.Authors) + "|"
+              papers_text_records = papers_text_records + xstr(row.Journal) + "|"
+              papers_text_records = papers_text_records + xstr(row.Volume) + "|"
+              papers_text_records = papers_text_records + "|"  # Issue
+              papers_text_records = papers_text_records + xstr(row.Pages) + "|"
+              papers_text_records = papers_text_records + "|"  # Abstract
+              papers_text_records = papers_text_records + xstr(row.DOI)
+              papers_text_records = papers_text_records + "\n"
+          print(sampleNum)
+      else:
+          print("No excel: " + sampleNum)
 
-        outputFile = open(outputFilePath + sampleNum + ".csv", "w")
-        outputFile.write(papers_text_records)
-        outputFile.close()
+      outputFile = open(outputFilePath + sampleNum + ".csv", "w")
+      outputFile.write(papers_text_records)
+      outputFile.close()
 print("done")
