@@ -109,6 +109,7 @@ var gGettingTapeActivity = false;
 
 var gCurrGETSeconds = cAppStartGET;
 var gLastRoundedGET = cAppStartGET;
+var gCurrentlyPlayingTape = "";
 
 var gChannelLinesGroup;
 var gTimeCursorGroup;
@@ -550,6 +551,10 @@ function playFromCurrGET(syncWithParent) {
         }
     }
     var tapeData = getTapeByGETseconds(gCurrGETSeconds, gActiveChannel);
+    if (tapeData[0] !== gCurrentlyPlayingTape) {
+      gCurrentlyPlayingTape = tapeData[0];
+      loadChannelSoundfile();
+    }
     var tapeCueTimeSeconds = gCurrGETSeconds - timeStrToSeconds(tapeData[2]);
 
     // trace("playFromCurrGET(): gWaitForPlayer: " + tapeCueTimeSeconds);
