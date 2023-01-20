@@ -639,10 +639,10 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
   $(".historicalTime").text(
     timeidDateModern.toLocaleTimeString("en-US", options) + " " + timezoneOffsetString
   );
-  //$(".historicalTime").text(historicalDate.toLocaleTimeString().match(/^[^:]+(:\d\d){2} *(am|pm)\b/i)[0]);  //.replace(/([AP]M)$/, ""));
-  //$(".historicalTimeAMPM").text(historicalDate.toLocaleTimeString().match(/([AP]M)/)[0])
 
-  $(".missionElapsedTime").text(gCurrMissionTime);
+  if (document.getElementById("missionElapsedTime") !== document.activeElement) {
+    $("input[name=missionElapsedTime]").val(gCurrMissionTime);
+  }
 }
 
 function getNearestHistoricalMissionTimeId() {
@@ -2204,6 +2204,17 @@ jQuery(function ($) {
   }
   activateContentTab("transcriptTab");
   //buttons
+
+  $("#GETBtn").click(function () {
+    ga("send", "event", "button", "click", "GET");
+    try {
+      var GETinput = $("input[name=missionElapsedTime]").val();
+      GETinput = padZeros(GETinput, 9);
+      seekToTime(timeStrToTimeId(GETinput));
+    } catch (err) {
+      trace("GET seek error: " + err.message);
+    }
+  });
 
   $("#searchBtn").click(function () {
     ga("send", "event", "button", "click", "search");

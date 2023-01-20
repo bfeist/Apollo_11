@@ -39,7 +39,7 @@
 
     <meta name="robots" content="index,follow" />
 
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css?rnd=27" />
 
     <script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
     <script>
@@ -88,27 +88,41 @@
     <!-- app -->
     <section class="app">
       <header>
-        <div class="logo-wrapper">
-          <a onclick="goToURL('/')"><img src="img/Apollo_11-insignia100.png" /></a>
-        </div>
+        <div class="header-wrapper">
+          <div class="logo-wrapper" onclick="goToURL('/')"></div>
 
-        <div class="info-wrapper">
-          <div class="content">
-            <div class="pre-title">The First Landing on the Moon</div>
-            <div class="title">Apollo 11</div>
-            <div class="subtitle">Real-Time Mission Experience</div>
-            <div class="historicalDate date">Thu Dec 07 1972</div>
-            <div class="historicalTime time">12:32:00 AM</div>
-            <div id="missionTime">
-              Mission Elapsed Time: <span class="missionElapsedTime">000:00:00</span>
+          <div class="info-wrapper">
+            <div class="content">
+              <div class="pre-title">The First Landing on the Moon</div>
+              <div class="title">Apollo 11</div>
+              <div class="subtitle">Real-Time Mission Experience</div>
+              <div class="historicalDate date">Thu Dec 07 1972</div>
+              <div class="historicalTime time">12:32:00 AM</div>
+              <div class="GETWrapper" id="missionTime" style="display: flex">
+                <div style="flex: 1">Ground Elapsed Time (GET):</div>
+                <div style="flex: 1">
+                  <input
+                    type="text"
+                    size="9"
+                    id="missionElapsedTime"
+                    name="missionElapsedTime"
+                    value="000:00:00"
+                  />
+                </div>
+                <div class="button-row small" style="flex: 1">
+                  <a class="splash-btn subdued" id="GETBtn" title="Jump to GET">
+                    <span id="GETButtonLabel">GO</span>
+                    <span class="sr-only">Jump to Ground Elapsed Time</span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="monitor">
-          <!-- navigator -->
-          <div id="navigator" class="navigator-wrapper">
-            <canvas id="navCanvas" resize keepalive="true"></canvas>
+          <div class="navigator-wrapper monitor">
+            <div id="navigator" class="navigator">
+              <canvas id="navCanvas" hidpi="off" resize keepalive="true"></canvas>
+            </div>
           </div>
         </div>
       </header>

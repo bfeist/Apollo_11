@@ -1474,9 +1474,6 @@ body.app-ready .splash-btn.activated.selected {
   min-height: 20px;
 }
 
-.button-row.medium a {
-  /*max-height:20px;*/
-}
 .button-row.medium .splash-btn {
   padding-top: 0.2em;
   padding-right: 0;
@@ -1507,20 +1504,23 @@ body.app-ready .splash-btn.activated.selected {
 }
 
 .app-button-row {
-  padding-left: 10px;
+  padding-left: 4px;
   font-size: 1.25em;
   text-transform: uppercase;
   display: flex;
 }
 
 .app-button-row .splash-btn {
+  display: block;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  margin-left: 2px;
+  margin-right: 0;
   padding: 0.65em 0.65em 0 0.65em;
   text-align: left;
-  min-height: 37px;
-  font-size: 12px;
   width: 140px;
-  margin-right: 7px;
-  display: block;
+  min-height: 38px;
+  font-size: 12px;
 }
 
 #searchBtn {
@@ -1643,10 +1643,48 @@ div.body:after {
 }
 header {
   display: table;
+  width: 100%;
 }
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.logo-wrapper {
+  margin: 9px;
+  width: 90px;
+  /*height: 90px;*/
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
+  flex: none;
+  /*height: 90%;*/
+  /*padding-bottom: 2em;*/
+  background-image: url("img/Apollo_11-insignia100.png");
+  background-repeat: no-repeat;
+  background-size: 90px;
+  background-position: center;
+}
+
+.logo-wrapper:hover {
+  background-image: url("../img/apollo_program_patch_100.png");
+}
+
 .info-wrapper {
   font-family: "Michroma", sans-serif;
+  flex: none;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 9px;
+  padding-left: 4px;
+  white-space: nowrap;
+  vertical-align: middle;
 }
+
 .info-wrapper .content {
   font-size: 20px;
   position: relative;
@@ -1675,6 +1713,9 @@ header {
   line-height: 1;
   font-size: 0.9em;
 }
+.info-wrapper .content .date {
+  /*font-size: .8em;*/
+}
 .info-wrapper .content .time {
   border-left: 1px solid #444;
 
@@ -1688,35 +1729,34 @@ header {
   font-family: "Oswald", sans-serif;
   margin-top: 2px;
 }
-.logo-wrapper,
-.info-wrapper,
-.navigator-wrapper/*,
-.buttons-wrapper*/ {
-  display: table-cell;
-  vertical-align: middle;
-  /*float: left;
-  padding: 20px;*/
+
+.info-wrapper .content #GETButtonLabel {
+  position: absolute;
+  top: 0;
 }
-.logo-wrapper,
-.info-wrapper/*,
-.buttons-wrapper*/ {
-  padding: 9px;
-  width: 1%;
-  white-space: nowrap;
+
+input[name="missionElapsedTime"] {
+  background-color: #1e1e1e;
+  color: #999999;
+  border: 1px;
+  margin: 3px;
+  padding-right: 4px;
+  padding-left: 4px;
+  text-align: center;
+  width: 92px;
 }
-/*header .monitor {
-  width: 100%;
-}*/
-.logo-wrapper img {
-  display: block;
-  height: 90%;
-  /*padding-bottom: 2em;*/
-}
+
 .navigator-wrapper {
+  flex: none;
+  flex-grow: 1;
+  margin-right: 5px;
+}
+
+.navigator {
   display: block;
   overflow: hidden;
-  /*width: 100%;*/
 }
+
 .video-block,
 .app-with-tabs-block,
 .thirtytrack-block {
@@ -2020,7 +2060,7 @@ img.aspect-holder {
   /*border: 2px solid rgba(140, 140, 140, 1);*/
   /*border: 2px solid rgba(215, 160, 108, 1);*/
   border: 2px solid #5e92a6;
-  overflow: hidden;
+  overflow: scroll;
   padding: 5px;
   transition: height 250ms ease-in-out;
 
