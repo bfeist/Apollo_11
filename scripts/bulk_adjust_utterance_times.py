@@ -10,7 +10,7 @@ def get_arg(index):
     try:
         sys.argv[index]
     except IndexError:
-        return ''
+        return ""
     else:
         return sys.argv[index]
 
@@ -51,7 +51,7 @@ if len(start_GET) == 0 or len(end_GET) == 0 or len(seconds_to_offset) == 0:
 transcript_file_name_and_path = "../MISSION_DATA/A11_merged_utterances.csv"
 
 # backup transcript file and use the backup as the input for processing
-timestamp = datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d_%H-%M-%S')
+timestamp = datetime.datetime.fromtimestamp(time.time()).strftime("%Y-%m-%d_%H-%M-%S")
 backup_file_name_and_path = "../MISSION_DATA/transcript_backups/A11_merged_utterances-" + timestamp + ".csv"
 copyfile(transcript_file_name_and_path, backup_file_name_and_path)
 
@@ -61,11 +61,13 @@ copyfile(transcript_file_name_and_path, backup_file_name_and_path)
 
 # process transcript
 curReadRow = 0
-reader = csv.reader(open(backup_file_name_and_path, "rU"), delimiter='|')
+reader = csv.reader(open(backup_file_name_and_path, "rU"), delimiter="|")
 outputFile = open(transcript_file_name_and_path, "w")
 for row in reader:
     # print(SecondsByTimestamp(row[0]))
-    if SecondsByTimestamp(row[0]) >= SecondsByTimestamp(start_GET) and SecondsByTimestamp(row[0]) <= SecondsByTimestamp(end_GET):
+    if SecondsByTimestamp(row[0]) >= SecondsByTimestamp(start_GET) and SecondsByTimestamp(row[0]) <= SecondsByTimestamp(
+        end_GET
+    ):
         row[0] = TimestampBySeconds(SecondsByTimestamp(row[0]) + int(seconds_to_offset))
     outputLine = "|".join(row) + "\n"
     # print(row[0])

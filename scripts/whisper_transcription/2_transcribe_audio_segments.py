@@ -28,7 +28,7 @@ for tape in os.listdir(workingPath):
                     continue
                 wavs.append(f"{os.path.join(wavDir, filename)}")
 
-        if len(wavs) == 0:            
+        if len(wavs) == 0:
             continue
 
         segmentsPerBatch = 30

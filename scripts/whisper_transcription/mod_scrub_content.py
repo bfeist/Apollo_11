@@ -34,12 +34,12 @@ def scrubContent(content):
         {"old": "verb", "new": "VERB"},
         {"old": "noun", "new": "NOUN"},
         {"old": "s4b", "new": "S-IVB"},
-        {"old": "G.E.T.", "new": "GET"},        
+        {"old": "G.E.T.", "new": "GET"},
         {"old": "Honey fuck off", "new": "Honeysuckle"},
         {"old": "Honey suckle", "new": "Honeysuckle"},
         {"old": "honey circle", "new": "Honeysuckle"},
         {"old": "eggs", "new": "AAGS"},
-        {"old": " pings", "new": " PGNCS"},        
+        {"old": " pings", "new": " PGNCS"},
         {"old": "limb", "new": "LM"},
         {"old": "Limb", "new": "LM"},
         {"old": "Moker", "new": "MOCR"},
@@ -49,6 +49,7 @@ def scrubContent(content):
         {"old": "KOMTEC", "new": "Comm Tech"},
         {"old": "Seacats", "new": "CCATS"},
         {"old": "C-cat's", "new": "CCATS"},
+        {"old": "MISPIN relay", "new": "MSFN relay"},
     ]
     # replace all occurrences of old with new in content
     for replacement in replacements:
