@@ -2,12 +2,11 @@ var cMissionDurationSeconds = 784086;
 var cCountdownSeconds = 74768;
 var cAppStartGET = -109;
 
-// var cCdnMOCRAudioRoot = 'https://media.apolloinrealtime.org/A11/MOCR_audio';
-
-// var cCdnMOCRAudioRoot = 'https://keycdnmedia.apolloinrealtime.org/A11/MOCR_audio'; //keycdn pulling from dreamhost
-var cCdnMOCRAudioRoot = "https://keycdnmediado.apolloinrealtime.org/A11/MOCR_audio"; //keycdn pulling from digitalocean space
-
-// var cCdnMOCRAudioRoot = parent.cMediaCdnRoot + "/MOCR_audio";
+// var cTapeCdnRoot = 'https://media.apolloinrealtime.org/A11/MOCR_audio';
+// var cTapeCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A11/MOCR_audio'; //keycdn pulling from dreamhost
+// var cTapeCdnRoot = "https://keycdnmediado.apolloinrealtime.org/A11/MOCR_audio"; //keycdn pulling from digitalocean space
+var cTapeCdnRoot = "https://apolloinrealtimemedia.nyc3.digitaloceanspaces.com/A11/MOCR_audio"; //digitalocean space
+// var cTapeCdnRoot = parent.cMediaCdnRoot + "/MOCR_audio";
 
 var cWebCdnRoot = "";
 // var cWebCdnRoot = 'https://apollort-26f5.kxcdn.com';
@@ -208,6 +207,7 @@ var gTapesActivityRangeArray = [];
 var gTapesActivityStartIndex;
 var gActiveTapesActivityFilenames = ["", "", ""];
 var gGettingTapeActivity = false;
+var gCurrentlyPlayingTape = "";
 
 var gCurrGETSeconds = cAppStartGET;
 var gLastRoundedGET = cAppStartGET;
@@ -239,6 +239,16 @@ var gWaitForPlayer = -1;
 
 var gChannelbuttonsHeight = 0;
 
+// current channel transcript
+var cBackground_color_active = "#1e1e1e";
+var gTranscriptData = [];
+var gTranscriptDataLookup = [];
+var gTranscriptIndex = [];
+var gTranscriptDisplayStartIndex;
+var gTranscriptDisplayEndIndex;
+var gCurrentHighlightedTranscriptIndex;
+var gLastTranscriptTimeId = "";
+
 window.onload = function () {
   positionChannelButtons();
   positionIsometricElements();
@@ -255,6 +265,8 @@ window.onload = function () {
   document.getElementById("myCanvas").addEventListener("mouseleave", function (event) {
     trace("canvas mouseleave triggered");
     gTooltipGroup.removeChildren();
+    channelButtons_mouseleave();
+    isometric_dots_mouseleave();
   });
 
   var channelButtons = document.querySelectorAll(".btn-channel");
@@ -271,7 +283,24 @@ window.onload = function () {
     dotsSelector[i].addEventListener("mouseleave", isometric_dots_mouseleave);
   }
 
-  if (parent.gMobileSite === true) {
+  // add event listener to textBtn, searchBtn, and aboutBtn
+  document.getElementById("textBtn").addEventListener("click", () => {
+    handleDisplayTabButtonClick("textBtn");
+  });
+  document.getElementById("searchBtn").addEventListener("click", () => {
+    handleDisplayTabButtonClick("searchBtn");
+  });
+  document.getElementById("aboutBtn").addEventListener("click", () => {
+    handleDisplayTabButtonClick("aboutBtn");
+  });
+
+  $("#searchInputField").keyup(
+    $.throttle(function () {
+      performSearch();
+    }, 100)
+  );
+
+  if (parent.gMobileSite === true && parent.gCurrMissionTime !== undefined) {
     $(".close-btn").css("display", "none");
   }
 };
@@ -286,7 +315,7 @@ $(window).on("resize", function (e) {
   clearTimeout(gResizeTimer);
   gResizeTimer = setTimeout(function () {
     // Run code here, resizing has "stopped"
-    if (parent.gMobileSite !== true) {
+    if (parent.gMobileSite !== true && parent.gCurrMissionTime !== undefined) {
       resizeAndRedrawCanvas();
       positionChannelButtons();
       positionIsometricElements();
@@ -297,14 +326,41 @@ $(window).on("resize", function (e) {
 
 function resizeAndRedrawCanvas() {
   var canvas = document.getElementById("myCanvas");
-  var desiredWidth = $(window).width(); // For instance: $(window).width();
-  var desiredHeight = cCanvasHeight; // For instance $('#canvasContainer').height();
+  var desiredWidth = $(window).width();
+  var desiredHeight = cCanvasHeight;
 
   canvas.width = desiredWidth;
   canvas.height = desiredHeight;
 
   view.viewSize = new Size(desiredWidth, desiredHeight);
   view.draw();
+}
+
+function handleDisplayTabButtonClick(buttonId) {
+  if (buttonId === "textBtn") {
+    $("#textBtn").addClass("selected");
+    $("#searchBtn").removeClass("selected");
+    $("#aboutBtn").removeClass("selected");
+    $("#transcriptDiv").css("display", "block");
+    $("#searchDiv").css("display", "none");
+    $("#aboutDiv").css("display", "none");
+  } else if (buttonId === "searchBtn") {
+    $("#textBtn").removeClass("selected");
+    $("#searchBtn").addClass("selected");
+    $("#aboutBtn").removeClass("selected");
+    $("#transcriptDiv").css("display", "none");
+    $("#searchDiv").css("display", "block");
+    $("#aboutDiv").css("display", "none");
+    $("#searchInputField").focus();
+  } else if (buttonId === "aboutBtn") {
+    $("#textBtn").removeClass("selected");
+    $("#searchBtn").removeClass("selected");
+    $("#aboutBtn").addClass("selected");
+    $("#transcriptDiv").css("display", "none");
+    $("#searchDiv").css("display", "none");
+    $("#aboutDiv").css("display", "block");
+  }
+  return true;
 }
 
 function mainApplication() {
@@ -397,7 +453,7 @@ function mainApplication() {
       $("#dot" + hoverChannelNum).addClass("dot-hover");
 
       //highlight parent button
-      if (parent.gMobileSite !== true) {
+      if (parent.gMobileSite !== true && parent.gCurrMissionTime !== undefined) {
         parent.thirtyButtons_hover_fromMOCRviz(hoverChannelNum);
       }
     } else {
@@ -411,7 +467,7 @@ function mainApplication() {
         buttonSelector.removeClass("btn-hover");
       }
 
-      if (parent.gMobileSite !== true) {
+      if (parent.gMobileSite !== true && parent.gCurrMissionTime !== undefined) {
         parent.thirtyButtons_mouseleave_fromMOCRviz();
       }
     }
@@ -461,13 +517,13 @@ function mainApplication() {
     playFromCurrGET(false);
     refreshTapeActivityDisplay(true);
     gWaveformRefresh = true;
-    setControllerDetails();
+    setControllerDetails(gActiveChannel);
   };
 
   // hide player element if in iframe
-  // if (!parent.gCurrMissionTime !== undefined) {
-  //     $('#audioDiv').show();
-  // }
+  if (parent.gCurrMissionTime === undefined) {
+    $("#audioDiv").show();
+  }
 
   // On video playing toggle values
   gPlayer.onplaying = function () {
@@ -488,16 +544,41 @@ function mainApplication() {
     gCurrGETSeconds = timeStrToSeconds(parent.gCurrMissionTime);
   }
 
+  //throttled scroll detection on transcriptDiv
+  var transcriptDiv = $("#transcriptDiv");
+  transcriptDiv.scroll(
+    $.throttle(function () {
+      var transcriptDiv = $("#transcriptDiv");
+      if (transcriptDiv.scrollTop() < 300) {
+        //trace("top of transcriptDiv reached");
+        prependTranscript(25, true);
+      } else if (
+        transcriptDiv.scrollTop() + transcriptDiv.innerHeight() >=
+        parseInt(transcriptDiv[0].scrollHeight) - 300
+      ) {
+        //trace("bottom of transcriptDiv reached");
+        appendTranscript(25, true);
+      }
+    }, 10)
+  );
+
   getChannelParameter();
   resizeAndRedrawCanvas();
   loadChannelSoundfile();
   playFromCurrGET(true);
   refreshTapeActivityDisplay(true);
-  setControllerDetails();
-  return window.setInterval(function () {
+  setControllerDetails(gActiveChannel);
+  window.setInterval(function () {
     //trace("setIntroTimeUpdatePoller()");
     frameUpdateOnTimer();
   }, 100);
+  window.setInterval(function () {
+    if (!gPlayer.paused) {
+      // scroll the transcript
+      var timeId = timeStrToTimeId(secondsToTimeStr(gCurrGETSeconds));
+      scrollTranscriptToTimeId(timeId);
+    }
+  }, 1000);
 }
 
 function getChannelParameter() {
@@ -651,14 +732,13 @@ function loadChannelSoundfile() {
     var channel = gActiveChannel > 30 ? gActiveChannel - 30 : gActiveChannel;
     var filename = "defluttered_A11_" + tapeData[0] + "_" + tapeData[1] + "_CH" + channel;
     var datFile =
-      cCdnMOCRAudioRoot +
+      cTapeCdnRoot +
       "/" +
       tapeData[0] +
       "_defluttered_mp3_16/audiowaveform_512/" +
       filename +
       ".dat";
-    var audioFile =
-      cCdnMOCRAudioRoot + "/" + tapeData[0] + "_defluttered_mp3_16/" + filename + ".mp3";
+    var audioFile = cTapeCdnRoot + "/" + tapeData[0] + "_defluttered_mp3_16/" + filename + ".mp3";
 
     if (gPlayer.src.substr(gPlayer.src.length - 20) !== audioFile.substr(audioFile.length - 20)) {
       trace("loading tape: " + audioFile + " :datFile: " + datFile);
@@ -667,6 +747,8 @@ function loadChannelSoundfile() {
       gWavDataLoaded = false;
       ajaxGetWaveData(datFile);
       drawChannelName();
+      // load the transcript for this channel too
+      resetAndLoadTranscript();
     } else {
       // trace("loading tape: gPlayer src already same as audioFile. Do not reload audio element or dat file.")
     }
@@ -880,24 +962,32 @@ function positionChannelButtons() {
   var y = 0;
   var xsub = 0;
 
-  $("#btndiv-ch47").css({ left: x + "px", top: y + "px" }); //BOOSTER
+  $("#btndiv-ch47").css({ left: x + "px", top: y + "px", display: "none" }); //BOOSTER
   $("#btn-ch47").css({ width: buttonWidth + "px" });
   xsub = x;
-  $("#btndiv-ch48").css({ left: xsub + "px", top: y + buttonHeight + "px" }); //[C]
+  $("#btndiv-ch48").css({ left: xsub + "px", top: y + buttonHeight + "px", display: "none" }); //[C]
   $("#btn-ch48").css({ width: buttonWidth / 2 - 1 + "px" });
-  $("#btndiv-ch49").css({ left: xsub + buttonWidth / 2 + "px", top: y + buttonHeight + "px" }); //[R]
+  $("#btndiv-ch49").css({
+    left: xsub + buttonWidth / 2 + "px",
+    top: y + buttonHeight + "px",
+    display: "none",
+  }); //[R]
   $("#btn-ch49").css({ width: buttonWidth / 2 + "px" });
   x = x + buttonWidth + buttonGap;
-  $("#btndiv-ch19").css({ left: x + "px", top: y + "px" }); //RETRO
+  $("#btndiv-ch19").css({ left: x + "px", top: y + "px", display: "none" }); //RETRO
   $("#btn-ch19").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + aisleGap;
-  $("#btndiv-ch20").css({ left: x + "px", top: y + "px" }); //FIDO
+  $("#btndiv-ch20").css({ left: x + "px", top: y + "px", display: "none" }); //FIDO
   $("#btn-ch20").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + buttonGap;
-  $("#btndiv-ch21").css({ left: x + "px", top: y + "px" }); //GUIDO
+  $("#btndiv-ch21").css({ left: x + "px", top: y + "px", display: "none" }); //GUIDO
   $("#btn-ch21").css({ width: buttonWidth + "px" });
   xsub = x;
-  $("#btndiv-ch22").css({ left: xsub + buttonWidth / 2 + "px", top: y + buttonHeight + "px" }); //[R]
+  $("#btndiv-ch22").css({
+    left: xsub + buttonWidth / 2 + "px",
+    top: y + buttonHeight + "px",
+    display: "none",
+  }); //[R]
   $("#btn-ch22").css({ width: buttonWidth / 2 + "px" });
 
   y = y + rowGap;
@@ -905,78 +995,95 @@ function positionChannelButtons() {
   //row 2
   x = 50;
   aisleGap = 40;
-  $("#btndiv-ch12").css({ left: x + "px", top: y + "px" }); //SURGEON
+  $("#btndiv-ch12").css({ left: x + "px", top: y + "px", display: "none" }); //SURGEON
   $("#btn-ch12").css({ width: buttonWidth + "px" });
   xsub = x;
-  $("#btndiv-ch13").css({ left: xsub + buttonWidth / 2 + "px", top: y + buttonHeight + "px" }); //[R]
+  $("#btndiv-ch13").css({
+    left: xsub + buttonWidth / 2 + "px",
+    top: y + buttonHeight + "px",
+    display: "none",
+  }); //[R]
   $("#btn-ch13").css({ width: buttonWidth / 2 + "px" });
   x = x + buttonWidth + buttonGap;
-  $("#btndiv-ch14").css({ left: x + "px", top: y + "px" }); //CAPCOM
+  $("#btndiv-ch14").css({ left: x + "px", top: y + "px", display: "none" }); //CAPCOM
   $("#btn-ch14").css({ width: buttonWidth + "px" });
   xsub = x;
-  $("#btndiv-ch15").css({ left: xsub + buttonWidth / 2 + "px", top: y + buttonHeight + "px" }); //[R]
+  $("#btndiv-ch15").css({
+    left: xsub + buttonWidth / 2 + "px",
+    top: y + buttonHeight + "px",
+    display: "none",
+  }); //[R]
   $("#btn-ch15").css({ width: buttonWidth / 2 + "px" });
   x = x + buttonWidth + aisleGap;
   buttonWidth = buttonWidth - 10;
-  $("#btndiv-ch17").css({ left: x + "px", top: y + "px" }); //EECOM
+  $("#btndiv-ch17").css({ left: x + "px", top: y + "px", display: "none" }); //EECOM
   $("#btn-ch17").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + buttonGap;
   buttonWidth = buttonWidth - 20;
-  $("#btndiv-ch18").css({ left: x + "px", top: y + "px" }); //GNC
+  $("#btndiv-ch18").css({ left: x + "px", top: y + "px", display: "none" }); //GNC
   $("#btn-ch18").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + buttonGap;
   buttonWidth = buttonWidth + 20;
-  $("#btndiv-ch58").css({ left: x + "px", top: y + "px" }); //TELCOM
+  $("#btndiv-ch58").css({ left: x + "px", top: y + "px", display: "none" }); //TELCOM
   $("#btn-ch58").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + buttonGap;
-  $("#btndiv-ch57").css({ left: x + "px", top: y + "px" }); //CONTROL
+  $("#btndiv-ch57").css({ left: x + "px", top: y + "px", display: "none" }); //CONTROL
   $("#btn-ch57").css({ width: buttonWidth + "px" });
 
   y = y + rowGap;
   //row 3
   x = 0;
-  $("#btndiv-ch16").css({ left: x + "px", top: y + "px" }); //INCO
+  $("#btndiv-ch16").css({ left: x + "px", top: y + "px", display: "none" }); //INCO
   $("#btn-ch16").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + buttonGap;
-  $("#btndiv-ch5").css({ left: x + "px", top: y + "px" }); //O&P
+  $("#btndiv-ch5").css({ left: x + "px", top: y + "px", display: "none" }); //O&P
   $("#btn-ch5").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + buttonGap;
-  $("#btndiv-ch6").css({ left: x + "px", top: y + "px" }); //AFD
+  $("#btndiv-ch6").css({ left: x + "px", top: y + "px", display: "none" }); //AFD
   $("#btn-ch6").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + aisleGap;
   buttonWidth = buttonWidth + 10;
-  $("#btndiv-ch50").css({ left: x + "px", top: y + "px" }); //FLIGHT
+  $("#btndiv-ch50").css({ left: x + "px", top: y + "px", display: "none" }); //FLIGHT
   $("#btn-ch50").css({ width: buttonWidth + "px" });
   xsub = x;
-  $("#btndiv-ch7").css({ left: xsub + "px", top: y + buttonHeight + "px" }); //FLIGHT L
+  $("#btndiv-ch7").css({ left: xsub + "px", top: y + buttonHeight + "px", display: "none" }); //FLIGHT L
   $("#btn-ch7").css({ width: buttonWidth / 2 - 1 + "px" });
-  $("#btndiv-ch8").css({ left: xsub + buttonWidth / 2 + "px", top: y + buttonHeight + "px" }); //FLIGHT R
+  $("#btndiv-ch8").css({
+    left: xsub + buttonWidth / 2 + "px",
+    top: y + buttonHeight + "px",
+    display: "none",
+  }); //FLIGHT R
   $("#btn-ch8").css({ width: buttonWidth / 2 + "px" });
 
   x = x + buttonWidth + aisleGap;
   xsub = x;
-  $("#btndiv-ch9").css({ left: x + "px", top: y + "px" }); //FAO
+  $("#btndiv-ch9").css({ left: x + "px", top: y + "px", display: "none" }); //FAO
   $("#btn-ch9").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + buttonGap;
-  $("#btndiv-ch11").css({ left: x + "px", top: y + "px" }); //NETWORK
+  $("#btndiv-ch11").css({ left: x + "px", top: y + "px", display: "none" }); //NETWORK
   $("#btn-ch11").css({ width: buttonWidth + "px" });
   xsub = x;
-  $("#btndiv-ch42").css({ left: xsub + "px", top: y + buttonHeight + "px" }); //COMM TECH
+  $("#btndiv-ch42").css({ left: xsub + "px", top: y + buttonHeight + "px", display: "none" }); //COMM TECH
   $("#btn-ch42").css({ width: buttonWidth / 2 - 1 + "px" });
-  $("#btndiv-ch43").css({ left: xsub + buttonWidth / 2 + "px", top: y + buttonHeight + "px" }); //COMM CTRLR
+  $("#btndiv-ch43").css({
+    left: xsub + buttonWidth / 2 + "px",
+    top: y + buttonHeight + "px",
+    display: "none",
+  }); //COMM CTRLR
   $("#btn-ch43").css({ width: buttonWidth / 2 + "px" });
 
   y = y + rowGap;
   //row 4
   x = 271;
-  $("#btndiv-ch2").css({ left: x + "px", top: y + "px" }); //DIR FLIGHT OPS
+  $("#btndiv-ch2").css({ left: x + "px", top: y + "px", display: "none" }); //DIR FLIGHT OPS
   $("#btn-ch2").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + aisleGap;
-  $("#btndiv-ch3").css({ left: x + "px", top: y + "px" }); //MISSION DIR
+  $("#btndiv-ch3").css({ left: x + "px", top: y + "px", display: "none" }); //MISSION DIR
   $("#btn-ch3").css({ width: buttonWidth + "px" });
 
   y = y + rowGap;
   //backrooms 1
+  buttonWidth = 80;
   x = 0;
   $("#btndiv-ch44").css({ left: x + "px", top: y + "px" }); //SPACE ENV
   $("#btn-ch44").css({ width: buttonWidth + "px" });
@@ -995,14 +1102,9 @@ function positionChannelButtons() {
 
   y = y + rowGap / 2 - 2;
   //backrooms 2
-  buttonWidth = 96;
+  buttonWidth = 110;
   x = 0;
-  $("#btndiv-ch28").css({ left: x + "px", top: y + "px" }); //TRACK
-  $("#btn-ch28").css({ width: buttonWidth + "px" });
-  xsub = x;
-  $("#btndiv-ch29").css({ left: xsub + buttonWidth / 2 + "px", top: y + buttonHeight + "px" }); //[R]
-  $("#btn-ch29").css({ width: buttonWidth / 2 + "px" });
-  x = x + buttonWidth + buttonGap;
+
   $("#btndiv-ch32").css({ left: x + "px", top: y + "px" }); //RCVY
   $("#btn-ch32").css({ width: buttonWidth + "px" });
   xsub = x;
@@ -1052,6 +1154,14 @@ function positionChannelButtons() {
     top: y + buttonHeight + "px",
   }); //TM
   $("#btn-ch56").css({ width: buttonWidth / 4 + "px" });
+  x = x + buttonWidth + buttonGap;
+  buttonWidth = 55;
+  $("#btndiv-ch28").css({ left: x + "px", top: y + "px" }); //TRACK
+  $("#btn-ch28").css({ width: buttonWidth + "px" });
+  xsub = x;
+  $("#btndiv-ch29").css({ left: xsub + "px", top: y + buttonHeight + "px" }); //[R]
+  $("#btn-ch29").css({ width: buttonWidth / 2 + "px" });
+  x = x + buttonWidth + buttonGap;
 
   gChannelbuttonsHeight = y + buttonHeight;
 }
@@ -1108,7 +1218,8 @@ function channelButtons_click() {
   playFromCurrGET(true);
   refreshTapeActivityDisplay(true);
   gWaveformRefresh = true;
-  setControllerDetails();
+  setControllerDetails(gActiveChannel);
+  resetAndLoadTranscript();
 }
 
 function channelButtons_hover(hoverChannelNum) {
@@ -1152,9 +1263,11 @@ function channelButtons_hover(hoverChannelNum) {
   hoverLine.strokeColor = new paper.Color(0.57255, 0.82745, 1.0, 0.6);
   gHoverHighlightGroup.addChild(hoverLine);
 
-  if (parent.gMobileSite !== true) {
+  if (parent.gMobileSite !== true && parent.gCurrMissionTime !== undefined) {
     parent.thirtyButtons_hover_fromMOCRviz(hoverChannelNum);
   }
+
+  setControllerDetails(hoverChannelNum, false);
 }
 
 function channelButtons_mouseleave() {
@@ -1166,9 +1279,10 @@ function channelButtons_mouseleave() {
   }
   gHoverHighlightGroup.removeChildren();
 
-  if (parent.gMobileSite !== true) {
+  if (parent.gMobileSite !== true && parent.gCurrMissionTime !== undefined) {
     parent.thirtyButtons_mouseleave_fromMOCRviz();
   }
+  setControllerDetails(gActiveChannel);
 }
 
 function positionIsometricElements() {
@@ -1185,15 +1299,13 @@ function positionIsometricElements() {
   if (parent.gMobileSite !== true) {
     var leftPosition = offset.left + btnSelector.width() + 20;
     //position the background image
-    isoSelector.css({ left: leftPosition + "px" });
+    // isoSelector.css({"left": leftPosition + "px"});
     var isoWidth = isometricImageSelector.width();
     var screenRemainderWidth = Math.round($(window).width()) - leftPosition;
     var scalePercentage = (100 * screenRemainderWidth) / isoWidth / 100;
 
     scalePercentage = scalePercentage > 0.6 ? 0.6 : scalePercentage;
     isoSelector.css("transform", "scale(" + scalePercentage + ")");
-
-    $("#controller-details").css("top", "610px");
   } else {
     //if on mobile site
     isoSelector.css({ top: "305px" });
@@ -1226,6 +1338,20 @@ function positionIsometricElements() {
     "<span id='dot47' class='isometric_dot' style='left:" + 35 + "px;top:" + 245 + "px'>B</span>"
   ); //BOOSTER
   isoSelector.append(
+    "<span id='dot48' class='isometric_dot isometric_dot_small' style='left:" +
+      50 +
+      "px;top:" +
+      290 +
+      "px'>C</span>"
+  ); //BOOSTER C
+  isoSelector.append(
+    "<span id='dot49' class='isometric_dot isometric_dot_small' style='left:" +
+      80 +
+      "px;top:" +
+      275 +
+      "px'>R</span>"
+  ); //BOOSTER R
+  isoSelector.append(
     "<span id='dot19' class='isometric_dot' style='left:" + 127 + "px;top:" + 195 + "px'>R</span>"
   ); //RETRO
   isoSelector.append(
@@ -1239,8 +1365,22 @@ function positionIsometricElements() {
     "<span id='dot12' class='isometric_dot' style='left:" + 196 + "px;top:" + 280 + "px'>S</span>"
   ); //SURGEON
   isoSelector.append(
+    "<span id='dot13' class='isometric_dot isometric_dot_small' style='left:" +
+      240 +
+      "px;top:" +
+      305 +
+      "px'>R</span>"
+  ); //SURGEON R
+  isoSelector.append(
     "<span id='dot14' class='isometric_dot' style='left:" + 279 + "px;top:" + 231 + "px'>C</span>"
   ); //CAPCOM
+  isoSelector.append(
+    "<span id='dot15' class='isometric_dot isometric_dot_small' style='left:" +
+      320 +
+      "px;top:" +
+      260 +
+      "px'>R</span>"
+  ); //CAPCOM R
   isoSelector.append(
     "<span id='dot17' class='isometric_dot' style='left:" + 366 + "px;top:" + 166 + "px'>E</span>"
   ); //EECOM
@@ -1267,11 +1407,39 @@ function positionIsometricElements() {
     "<span id='dot50' class='isometric_dot' style='left:" + 454 + "px;top:" + 214 + "px'>FD</span>"
   ); //FLIGHT
   isoSelector.append(
+    "<span id='dot7' class='isometric_dot isometric_dot_small' style='left:" +
+      470 +
+      "px;top:" +
+      260 +
+      "px'>L</span>"
+  ); //FLIGHT L
+  isoSelector.append(
+    "<span id='dot8' class='isometric_dot isometric_dot_small' style='left:" +
+      500 +
+      "px;top:" +
+      240 +
+      "px'>R</span>"
+  ); //FLIGHT R
+  isoSelector.append(
     "<span id='dot9' class='isometric_dot' style='left:" + 538 + "px;top:" + 161 + "px'>FA</span>"
   ); //FAO
   isoSelector.append(
     "<span id='dot11' class='isometric_dot' style='left:" + 581 + "px;top:" + 130 + "px'>N</span>"
   ); //NETWORK
+  isoSelector.append(
+    "<span id='dot42' class='isometric_dot isometric_dot_small' style='left:" +
+      600 +
+      "px;top:" +
+      170 +
+      "px'>T</span>"
+  ); //NETWORK TECH
+  isoSelector.append(
+    "<span id='dot43' class='isometric_dot isometric_dot_small' style='left:" +
+      623 +
+      "px;top:" +
+      152 +
+      "px'>C</span>"
+  ); //NETWORK CONTROLLER
 
   isoSelector.append(
     "<span id='dot61' class='isometric_dot' style='left:" + 456 + "px;top:" + 316 + "px'></span>"
@@ -1309,6 +1477,9 @@ function isometric_dots_hover() {
   $(".btn-channel").removeClass("btn-hover");
   $("#btn-ch" + hoverChannelNum).addClass("btn-hover");
 
+  //show controller info
+  setControllerDetails(hoverChannelNum, false);
+
   //draw hover highlight line
   for (var i = 0; i < cAvailableChannelsArray.length; i++) {
     if (cAvailableChannelsArray[i] === hoverChannelNum) {
@@ -1330,7 +1501,7 @@ function isometric_dots_hover() {
   hoverLine.strokeColor = new paper.Color(0.57255, 0.82745, 1.0, 0.6);
   gHoverHighlightGroup.addChild(hoverLine);
 
-  if (parent.gMobileSite !== true) {
+  if (parent.gMobileSite !== true && parent.gCurrMissionTime !== undefined) {
     parent.thirtyButtons_hover_fromMOCRviz(hoverChannelNum);
   }
 }
@@ -1346,7 +1517,7 @@ function isometric_dots_click() {
   playFromCurrGET(true);
   refreshTapeActivityDisplay(true);
   gWaveformRefresh = true;
-  setControllerDetails();
+  setControllerDetails(gActiveChannel);
 }
 
 function isometric_dots_mouseleave() {
@@ -1358,14 +1529,18 @@ function isometric_dots_mouseleave() {
   }
   gHoverHighlightGroup.removeChildren();
 
-  if (parent.gMobileSite !== true) {
+  if (parent.gMobileSite !== true && parent.gCurrMissionTime !== undefined) {
     parent.thirtyButtons_mouseleave_fromMOCRviz();
   }
+  setControllerDetails(gActiveChannel);
 }
 
-function setControllerDetails() {
-  $("#controller-name").text(cTrackInfo["ch" + gActiveChannel][0]);
-  $("#controller-description").text(cTrackInfo["ch" + gActiveChannel][1]);
+function setControllerDetails(channelNum, setRight = true) {
+  $("#controller-name").text(cTrackInfo["ch" + channelNum][0]);
+  $("#controller-description").text(cTrackInfo["ch" + channelNum][1]);
+  if (setRight) {
+    $("#rightTitleText").text(cTrackInfo["ch" + channelNum][0]);
+  }
 }
 
 function getTapeByGETseconds(seconds, channel) {
@@ -1444,23 +1619,6 @@ function processTapeRangeData(allText) {
   gTapeRangesHR2 = gTapeRangesHR2.sort(Comparator);
 }
 
-// function ajaxGetTapesActivityData() {
-//     trace("ajaxGetTapeActivityData()");
-//     return $.ajax({
-//         type: "GET",
-//         url: "/11mp3/tape_activity.json",
-//         dataType: "json",
-//         async: false,
-//         success: function(data) {
-//             trace ("ajaxGetTapeActivityData returned data");
-//             gTapesActivityArray = data;
-//         },
-//         error: function(xhr, ajaxOptions, thrownError){
-//             alert(xhr.status);
-//         }
-//     });
-// }
-
 function getTapeActivityRanges(activeSec) {
   // trace("getTapeActivityRanges: " + activeSec);
   activeSec = activeSec + cCountdownSeconds;
@@ -1483,6 +1641,9 @@ function getTapeActivityRanges(activeSec) {
   } else {
     endRange = nearestEnd + 1000;
   }
+  if (nearestStart > nearestEnd) {
+    trace("!!!!!!!!!!! getTapeActivityRanges bug");
+  }
   var tapesActivity3filename =
     "tape_activity_" + nearestEnd.toString() + "-" + (endRange - 1).toString() + ".json";
 
@@ -1499,7 +1660,7 @@ function getTapeActivityRanges(activeSec) {
 function ajaxGetTapesActivityDataRange(tapesActivityFilenames) {
   gActiveTapesActivityFilenames = tapesActivityFilenames;
 
-  var tapeActivityDataPath = cCdnMOCRAudioRoot + "/tape_activity/";
+  var tapeActivityDataPath = cTapeCdnRoot + "/tape_activity/";
 
   var tapeActivity1;
   var tapeActivity2;
@@ -1511,12 +1672,15 @@ function ajaxGetTapesActivityDataRange(tapesActivityFilenames) {
     gTapesActivityRangeArray = [];
     $.when(
       $.getJSON(tapeActivityDataPath + tapesActivityFilenames[0], function (data) {
+        trace("getting tape activity: " + tapeActivityDataPath + tapesActivityFilenames[0]);
         tapeActivity1 = data;
       }),
       $.getJSON(tapeActivityDataPath + tapesActivityFilenames[1], function (data) {
+        trace("getting tape activity: " + tapeActivityDataPath + tapesActivityFilenames[1]);
         tapeActivity2 = data;
       }),
       $.getJSON(tapeActivityDataPath + tapesActivityFilenames[2], function (data) {
+        trace("getting tape activity: " + tapeActivityDataPath + tapesActivityFilenames[2]);
         tapeActivity3 = data;
       })
     ).then(function () {
@@ -1556,6 +1720,345 @@ function ajaxGetWaveData(url) {
   xhr.send();
 }
 
+// ------------------------------- transcript functions --------------------------------
+
+function ajaxGetTranscript() {
+  var urlStr = `${cTapeCdnRoot}/transcripts/CH${gActiveChannel}_transcript.txt`;
+  return $.ajax({
+    type: "GET",
+    url: urlStr,
+    dataType: "text",
+    success: function (data) {
+      processTranscript(data);
+    },
+  });
+}
+
+function processTranscript(allText) {
+  var allTextLines = allText.split(/\r\n|\n/);
+  var curRow = 0;
+  for (var i = 0; i < allTextLines.length; i++) {
+    if (allTextLines[i] === "") continue;
+    var data = allTextLines[i].split("|");
+
+    var rec = [];
+    rec.push(data[0]);
+    rec.push(data[1]);
+
+    gTranscriptDataLookup[data[0]] = curRow;
+    gTranscriptIndex[i] = data[0];
+
+    gTranscriptData.push(rec);
+    curRow++;
+  }
+  scrollTranscriptToTimeId(findClosestTranscriptItem(gCurrGETSeconds));
+}
+
+function resetAndLoadTranscript() {
+  gTranscriptData = [];
+  gTranscriptDataLookup = {};
+  gTranscriptIndex = [];
+  gTranscriptDataLoaded = false;
+  ajaxGetTranscript();
+}
+
+function transcriptClick(timeId) {
+  gCurrGETSeconds = timeStrToSeconds(timeIdToTimeStr(timeId));
+  if (parent.gCurrMissionTime !== "" && parent.gCurrMissionTime !== undefined) {
+    parent.seekToTime(secondsToTimeId(gCurrGETSeconds));
+  }
+  playFromCurrGET(true);
+
+  // scroll the transcript
+  var timeId = timeStrToTimeId(secondsToTimeStr(gCurrGETSeconds));
+  scrollTranscriptToTimeId(timeId);
+
+  refreshTapeActivityDisplay(true);
+  gWaveformRefresh = true;
+  setControllerDetails(gActiveChannel);
+}
+
+function repopulateTranscript(timeId) {
+  var transcriptIndex = gTranscriptDataLookup[timeId]; //must be a timeId that exists in the transcripts
+  var transcriptTable = $("#transcriptTable");
+  transcriptTable.html("");
+  var startIndex = transcriptIndex - 50;
+  var endIndex = startIndex + 100;
+  startIndex = startIndex < 0 ? 0 : startIndex;
+  endIndex = endIndex >= gTranscriptIndex.length ? gTranscriptIndex.length - 1 : endIndex;
+  for (var i = startIndex; i < endIndex; i++) {
+    transcriptTable.append(getTranscriptObjectHTML(i));
+  }
+  gTranscriptDisplayStartIndex = startIndex;
+  gTranscriptDisplayEndIndex = endIndex;
+  trace(
+    "repopulateTranscript(): populated transcript from: " +
+      gTranscriptDisplayStartIndex +
+      " to " +
+      gTranscriptDisplayEndIndex
+  );
+  $("#transcriptDiv").scrollTop("#transid" + timeId);
+}
+
+function prependTranscript(count, atTop) {
+  atTop = atTop || false;
+  var transcriptDiv = $("#transcriptDiv");
+  var transcriptTable = $("#transcriptTable");
+  var htmlToPrepend = "";
+  var prependedCount = 0;
+  var startIndex = gTranscriptDisplayStartIndex - count;
+  for (var i = startIndex; i < startIndex + count; i++) {
+    if (i >= 0) {
+      htmlToPrepend = htmlToPrepend + getTranscriptObjectHTML(i);
+      prependedCount++;
+    }
+  }
+  transcriptTable.prepend(htmlToPrepend);
+
+  if (atTop) {
+    var elementToScrollBackTo = $(
+      "#transid" + timeStrToTimeId(gTranscriptData[gTranscriptDisplayStartIndex][0])
+    );
+    //trace("element to scroll back to: " + elementToScrollBackTo.attr('id'));
+    var oldScrollDestination =
+      transcriptDiv.scrollTop() + elementToScrollBackTo.offset().top - transcriptDiv.offset().top;
+    transcriptDiv.scrollTop(oldScrollDestination);
+  }
+
+  trace("prependTranscript(): prepended transcript items from: " + startIndex);
+  gTranscriptDisplayStartIndex = gTranscriptDisplayStartIndex - prependedCount;
+  trace("prependTranscript(): prepended transcript items to: " + i);
+  var diff = i - startIndex;
+  trace("prependTranscript(): difference: " + diff);
+  trace("prependTranscript(): counted prepends in if statement: " + prependedCount);
+}
+
+function appendTranscript(count, atBottom) {
+  atBottom = atBottom || false;
+  var transcriptDiv = $("#transcriptDiv");
+  var transcriptTable = $("#transcriptTable");
+  var htmlToAppend = "";
+  var startIndex = gTranscriptDisplayEndIndex + 1;
+  var appendedCount = 0;
+  for (var i = startIndex; i < startIndex + count; i++) {
+    if (i >= 0 && i < gTranscriptData.length) {
+      //trace("Appended: " + gTranscriptData[i][0]);
+      htmlToAppend = htmlToAppend + getTranscriptObjectHTML(i);
+      appendedCount++;
+    }
+  }
+  if (atBottom) var topToScrollBackTo = transcriptDiv.scrollTop();
+
+  transcriptTable.append(htmlToAppend);
+
+  if (atBottom) transcriptDiv.scrollTop(topToScrollBackTo);
+
+  trace("appendTranscript(): appended transcript items from: " + startIndex);
+  gTranscriptDisplayEndIndex = gTranscriptDisplayEndIndex + appendedCount;
+  trace("appendTranscript(): appended transcript items to: " + i);
+  var diff = i - startIndex;
+  trace("appendTranscript(): difference: " + diff);
+  trace("appendTranscript(): counted appends in if statement: " + appendedCount);
+}
+
+function trimTranscript() {
+  var numberToRemove = gTranscriptDisplayEndIndex - gTranscriptDisplayStartIndex - 150;
+  if (numberToRemove > 0) {
+    trace("trimTranscript():" + numberToRemove);
+    var currDistFromStart = gCurrentHighlightedTranscriptIndex - gTranscriptDisplayStartIndex;
+    var currDistFromEnd = gTranscriptDisplayEndIndex - gCurrentHighlightedTranscriptIndex;
+    trace("trimTranscript(): currDistFromStart: " + currDistFromStart);
+    trace("trimTranscript(): currDistFromEnd: " + currDistFromEnd);
+    if (currDistFromStart > currDistFromEnd) {
+      //trim items from top of transcript div
+      var counter = 0;
+      for (
+        var i = gTranscriptDisplayStartIndex;
+        i < gTranscriptDisplayStartIndex + numberToRemove;
+        i++
+      ) {
+        $("#transid" + gTranscriptIndex[i]).remove();
+        counter++;
+      }
+      //trace("Trimming " + numberToRemove + " transcript items from top");
+      var tempEndForTrace = gTranscriptDisplayStartIndex + numberToRemove;
+      trace(
+        "trimTranscript(): removed from top: " +
+          counter +
+          " starting at index: " +
+          gTranscriptDisplayStartIndex +
+          " up to index: " +
+          tempEndForTrace
+      );
+      gTranscriptDisplayStartIndex = gTranscriptDisplayStartIndex + numberToRemove;
+    } else {
+      //trim items from bottom of transcript items div
+      counter = 0;
+      for (i = gTranscriptDisplayEndIndex - numberToRemove; i <= gTranscriptDisplayEndIndex; i++) {
+        $("#transid" + gTranscriptIndex[i]).remove();
+        counter++;
+      }
+      //trace("Trimming " + numberToRemove + " transcript items from bottom");
+      gTranscriptDisplayEndIndex = gTranscriptDisplayEndIndex - numberToRemove;
+      trace(
+        "trimTranscript(): removed from bottom: " +
+          counter +
+          " starting at index: " +
+          gTranscriptDisplayEndIndex -
+          numberToRemove
+      );
+    }
+    var transcriptDiv = $("#transcriptDiv");
+    var currElement = $(
+      "#transid" + timeStrToTimeId(gTranscriptData[gCurrentHighlightedTranscriptIndex][0])
+    );
+    var newScrollDestination =
+      transcriptDiv.scrollTop() + currElement.offset().top - transcriptDiv.offset().top;
+    transcriptDiv.scrollTop(newScrollDestination);
+  }
+}
+
+function getTranscriptObjectHTML(transcriptIndex, style) {
+  style = style || "";
+  //trace("getTranscriptObjectHTML():" + utteranceIndex);
+  var transcriptObject = gTranscriptData[transcriptIndex];
+
+  var html = $("#transcriptTemplate").html();
+  html = html.replace("@style", style);
+  var timeId = transcriptObject[0];
+  html = html.replace(/@transid/g, timeId);
+  html = html.replace("@timestamp", timeIdToTimeStr(transcriptObject[0]));
+  html = html.replace("@words", transcriptObject[1]);
+  return html;
+}
+
+function scrollTranscriptToTimeId(timeId) {
+  //if (gTranscriptDataLookup[timeId] !== undefined) {
+  if (gTranscriptDataLookup.hasOwnProperty(timeId)) {
+    //if ($.inArray(timeId, gTranscriptIndex) != -1) {
+    //trace("scrollTranscriptToTimeId " + timeId);
+    var transcriptDiv = $("#transcriptDiv");
+    var transcriptTable = $("#transcriptTable");
+
+    gCurrentHighlightedTranscriptIndex = gTranscriptDataLookup[timeId];
+
+    //check if transcriptDiv is empty
+    if (typeof gTranscriptDisplayStartIndex === "undefined") {
+      repopulateTranscript(timeId);
+      //check if timeId is already loaded into transcript div
+    } else if (gTranscriptDataLookup[timeId] < gTranscriptDisplayStartIndex + 49) {
+      //prepend - always have 50 lines above current time
+      var prependCount = gTranscriptDisplayStartIndex - gTranscriptDataLookup[timeId] + 50;
+      if (prependCount > 50) {
+        repopulateTranscript(timeId);
+      } else {
+        prependCount = 50;
+        prependTranscript(prependCount);
+      }
+    } else if (gTranscriptDataLookup[timeId] > gTranscriptDisplayEndIndex - 49) {
+      //append - always have 50 lines below current time
+      var appendCount = gTranscriptDataLookup[timeId] - gTranscriptDisplayEndIndex + 50;
+      if (appendCount > 50) {
+        repopulateTranscript(timeId);
+      } else {
+        appendCount = 50;
+        appendTranscript(appendCount);
+      }
+    }
+    trimTranscript();
+
+    transcriptTable.children("*").css("background-color", ""); //clear all element highlights
+    var highlightedTranscriptElement = $(".transid" + timeId);
+    highlightedTranscriptElement.css("background-color", cBackground_color_active); //set new element highlights
+
+    const scrollTopMarginTop = 50;
+    if (highlightedTranscriptElement !== undefined) {
+      var newScrollDestination =
+        transcriptDiv.scrollTop() +
+        (highlightedTranscriptElement.offset().top - scrollTopMarginTop) -
+        transcriptDiv.offset().top;
+
+      transcriptDiv.animate({ scrollTop: newScrollDestination }, 250, "swing", function () {
+        trace("Finished animating: " + newScrollDestination);
+      });
+    }
+
+    gLastTranscriptTimeId = timeId;
+  }
+}
+
+function findClosestTranscriptItem(secondsSearch) {
+  trace("findClosestTranscriptItem():" + secondsSearch);
+  var timeId = secondsToTimeId(secondsSearch);
+  var scrollTimeId = gTranscriptIndex[gTranscriptIndex.length - 1];
+  for (var i = 1; i < gTranscriptIndex.length; ++i) {
+    if (timeId < parseInt(gTranscriptIndex[i])) {
+      scrollTimeId = gTranscriptIndex[i - 1];
+      break;
+    }
+  }
+  trace(
+    "findClosestTranscriptItem(): searched Transcript array, found closest: timeid " +
+      timeId +
+      " after " +
+      i +
+      " searches"
+  );
+  return scrollTimeId;
+}
+
+function performSearch() {
+  //trace("performSearch(): start");
+  var searchResultsTable = $("#searchResultsTable");
+  var searchResultCount = 0;
+  var searchText = $("#searchInputField").val().toLowerCase();
+  searchResultsTable.html("");
+  if (searchText.length > 1) {
+    for (var counter = 0; counter < gTranscriptData.length; counter++) {
+      if (gTranscriptData[counter][1].toLowerCase().indexOf(searchText) !== -1) {
+        var html = getSearchResultHTML(counter);
+        var searchResultTextIndex = html.toLowerCase().indexOf(searchText);
+        html =
+          html.slice(0, searchResultTextIndex) +
+          "<span class='searchResultHighlight'>" +
+          html.slice(searchResultTextIndex, searchResultTextIndex + searchText.length) +
+          "</span>" +
+          html.slice(searchResultTextIndex + searchText.length);
+        searchResultsTable.append(html);
+        //trace("performSearch():found: " + counter);
+        searchResultCount++;
+      }
+      if (searchResultCount > 500) {
+        break;
+      }
+    }
+  }
+}
+
+function getSearchResultHTML(searchArrayIndex) {
+  //trace("getUtteranceObjectHTML():" + utteranceIndex);
+  var searchObject = gTranscriptData[searchArrayIndex];
+  var html = $("#searchResultTemplate").html();
+  var timeId = searchObject[0];
+
+  html = html.replace(/@searchResultTimeid/g, timeId);
+  html = html.replace("@timestamp", timeIdToTimeStr(searchObject[0]));
+  html = html.replace("@words", searchObject[1]);
+  return html;
+}
+
+function searchResultClick(timeId) {
+  transcriptClick(timeId);
+
+  // switch back to transcript tab
+  $("#textBtn").addClass("selected");
+  $("#searchBtn").removeClass("selected");
+  $("#aboutBtn").removeClass("selected");
+  $("#transcriptDiv").css("display", "block");
+  $("#searchDiv").css("display", "none");
+  $("#aboutDiv").css("display", "none");
+}
+
 //------------ helpers
 
 function secondsToTimeStr(totalSeconds) {
@@ -1589,6 +2092,10 @@ function timeStrToSeconds(timeStr) {
 
 function timeStrToTimeId(timeStr) {
   return timeStr.split(":").join("");
+}
+
+function timeIdToTimeStr(timeId) {
+  return timeId.substr(0, 3) + ":" + timeId.substr(3, 2) + ":" + timeId.substr(5, 2);
 }
 
 function padZeros(num, size) {
