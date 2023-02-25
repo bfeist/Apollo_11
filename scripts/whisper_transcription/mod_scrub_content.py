@@ -38,6 +38,7 @@ def scrubContent(content):
         {"old": "Honey fuck off", "new": "Honeysuckle"},
         {"old": "Honey suckle", "new": "Honeysuckle"},
         {"old": "honey circle", "new": "Honeysuckle"},
+        {"old": "Ernie Suckle", "new": "Honeysuckle"},
         {"old": "eggs", "new": "AAGS"},
         {"old": " pings", "new": " PGNCS"},
         {"old": "limb", "new": "LM"},

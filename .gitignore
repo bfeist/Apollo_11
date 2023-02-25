@@ -10,3 +10,4 @@ First Steps
 logs
 support
 \!unused_prototypes
+__pycache__/

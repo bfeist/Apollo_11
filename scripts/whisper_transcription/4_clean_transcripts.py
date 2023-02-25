@@ -4,7 +4,7 @@ import mod_scrub_content
 
 
 inputPath = "F:/A11_MOCR_transcription/_raw_transcripts/"
-outputPath = "N:/Projects/Apollo/media.apolloinrealtime.org/A11/MOCR_audio/transcripts/"
+outputPath = "F:/A11_MOCR_transcription/transcripts/"
 
 for file in os.listdir(inputPath):
     if not file.endswith(".txt"):
@@ -42,6 +42,16 @@ for file in os.listdir(inputPath):
     if file.split("_")[0] == "HR2":
         fileNumber = fileNumber + 30
 
+    # create the output folder if it doesn't exist
+    if not os.path.exists(outputPath):
+        os.makedirs(outputPath)
+
     with open(f"{outputPath}CH{fileNumber}_transcript.txt", "w", encoding="utf-8") as f:
+        firstLine = True
         for line in transcript:
-            f.write("\n" + line)
+            # if first line, write the line without a newline
+            if firstLine:
+                f.write(line)
+                firstLine = False
+            else:
+                f.write("\n" + line)
