@@ -1,12 +1,12 @@
-var cMissionDurationSeconds = 784086;
-var cCountdownSeconds = 74768;
-var cAppStartGET = -109;
+var cMissionDurationSeconds = 547200; //152 hours
+var cCountdownSeconds = 127048;
+var cAppStartGET = -102;
 
-// var cTapeCdnRoot = 'https://media.apolloinrealtime.org/A11/MOCR_audio';
-// var cTapeCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A11/MOCR_audio'; //keycdn pulling from dreamhost
-// var cTapeCdnRoot = "https://keycdnmediado.apolloinrealtime.org/A11/MOCR_audio"; //keycdn pulling from digitalocean space
-var cTapeCdnRoot = "https://apolloinrealtimemedia.nyc3.digitaloceanspaces.com/A11/MOCR_audio"; //digitalocean space
-// var cTapeCdnRoot = parent.cMediaCdnRoot + "/MOCR_audio";
+// var cTapeCdnRoot = 'https://media.apolloinrealtime.org/A13/MOCR_audio';
+// var cTapeCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A13/MOCR_audio'; //keycdn pulling from dreamhost
+// var cTapeCdnRoot = "https://keycdnmediado.apolloinrealtime.org/A13/MOCR_audio"; //keycdn pulling from digitalocean space
+var cTapeCdnRoot = "https://apolloinrealtimemedia.nyc3.digitaloceanspaces.com/A13/MOCR_audio"; //digitalocean space
+// var cTapeCdnRoot = parent.cMediaCdnRoot + '/MOCR_audio';
 
 var cWebCdnRoot = "";
 // var cWebCdnRoot = 'https://apollort-26f5.kxcdn.com';
@@ -32,7 +32,7 @@ var cTrackInfo = {
     "Primary interface with NASA for any Department of Defense support required during a mission, including recovery ships and DoD controlled tracking resources.",
   ],
   ch5: [
-    "OPS AND PRO",
+    "PROCEDURES",
     "Operations and Procedures Officer – Supervised the application of mission rules and detailed implementation of the Mission Control Center/Ground Operational Support Systems mission control procedures.",
   ],
   ch6: [
@@ -76,15 +76,15 @@ var cTrackInfo = {
     "Spacecraft Communicator – or Capsule Communicator - An astronaut who provided all the voice communications between the ground and the spacecraft. (right seat)",
   ],
   ch16: [
-    "INCO",
-    "Instrumentation and Communications Officer – With the advent of dual spacecraft operations, lunar surface operations, science TV, and extensive data recovery, a new operating position was added, beginning with the Apollo 11 mission.",
+    "CSM EECOM",
+    "Electrical, Environmental and Consumables Manager - Monitored cryogenic levels for fuel cells, and cabin cooling systems; electrical distribution systems; cabin pressure control systems; and vehicle lighting systems. EECOM originally stood for Electrical, Environmental and COMmunication systems",
   ],
   ch17: [
-    "EECOM",
+    "POS EECOM",
     "Electrical, Environmental and Consumables Manager - Monitored cryogenic levels for fuel cells, and cabin cooling systems; electrical distribution systems; cabin pressure control systems; and vehicle lighting systems. EECOM originally stood for Electrical, Environmental and COMmunication systems",
   ],
   ch18: [
-    "GNC",
+    "CSM GNC",
     "Guidance, Navigation, and Controls Systems Engineer - Monitored all vehicle guidance, navigation and control systems. Also responsible for propulsion systems such as the Service Propulsion System and Reaction Control System (RCS).",
   ],
   ch19: [
@@ -169,12 +169,18 @@ var cTrackInfo = {
   ch50: ["FLIGHT DIRECTOR LOOP", "FD clean voice-only recording of Flight Director [R]"],
   ch51: ["AFD CONF LOOP", "Assistant Flight Director - Comm line."],
   ch52: ["GOSS 2 LOOP", "Ground Operational Support System (GOSS) - Comm line."],
-  ch53: ["ALSEP EAO 2", ""],
+  ch53: [
+    "INCO",
+    "Instrumentation and Communications Officer – With the advent of dual spacecraft operations, lunar surface operations, science TV, and extensive data recovery, a new operating position was added, beginning with the Apollo 11 mission.",
+  ],
   ch54: ["MOCR DYN LOOP", "Comm line."],
   ch55: ["GOSS CONF LOOP", "Ground Operational Support System (GOSS) - Comm line."],
   ch56: ["GOSS 4 LOOP", "Ground Operational Support System (GOSS) - Comm line."],
-  ch57: ["CONTROL", "Lunar Module Guidance, Navigation, and Controls Systems Engineer."], //LM GNC ENGINEER
-  ch58: ["TELCOM", "Lunar Module Electrical, Environmental and Consumables Management Engineer."], //LM EECOM ENGINEER
+  ch57: ["LM GNC", "(CONTROL) Lunar Module Guidance, Navigation, and Controls Systems Engineer."], //LM GNC ENGINEER
+  ch58: [
+    "TELMU",
+    "(LM EECOM) Lunar Module Electrical, Environmental and Consumables Management Engineer.",
+  ], //LM EECOM ENGINEER
   ch59: ["EXPMT ACTIVITIES OFSR", "Experiments Officer."],
   ch60: ["HR2 VOICE ANNOTATION", ""],
 };
@@ -211,7 +217,6 @@ var gCurrentlyPlayingTape = "";
 
 var gCurrGETSeconds = cAppStartGET;
 var gLastRoundedGET = cAppStartGET;
-var gCurrentlyPlayingTape = "";
 
 var gChannelLinesGroup;
 var gTimeCursorGroup;
@@ -730,15 +735,27 @@ function loadChannelSoundfile() {
   if (tapeData.length !== 0 && tapeData[0] !== "T999") {
     gActiveTape = tapeData[0];
     var channel = gActiveChannel > 30 ? gActiveChannel - 30 : gActiveChannel;
-    var filename = "defluttered_A11_" + tapeData[0] + "_" + tapeData[1] + "_CH" + channel;
+    var filename = "DA13_" + tapeData[0] + "_" + tapeData[1] + "_CH" + channel;
     var datFile =
       cTapeCdnRoot +
       "/" +
+      "DA13_" +
       tapeData[0] +
-      "_defluttered_mp3_16/audiowaveform_512/" +
+      "_" +
+      tapeData[1] +
+      "_16khz_mp3_16/audiowaveform_512/" +
       filename +
       ".dat";
-    var audioFile = cTapeCdnRoot + "/" + tapeData[0] + "_defluttered_mp3_16/" + filename + ".mp3";
+    var audioFile =
+      cTapeCdnRoot +
+      "/" +
+      "DA13_" +
+      tapeData[0] +
+      "_" +
+      tapeData[1] +
+      "_16khz_mp3_16/" +
+      filename +
+      ".mp3";
 
     if (gPlayer.src.substr(gPlayer.src.length - 20) !== audioFile.substr(audioFile.length - 20)) {
       trace("loading tape: " + audioFile + " :datFile: " + datFile);
@@ -1016,27 +1033,27 @@ function positionChannelButtons() {
   $("#btn-ch15").css({ width: buttonWidth / 2 + "px" });
   x = x + buttonWidth + aisleGap;
   buttonWidth = buttonWidth - 10;
-  $("#btndiv-ch17").css({ left: x + "px", top: y + "px", display: "none" }); //EECOM
+  $("#btndiv-ch17").css({ left: x + "px", top: y + "px", display: "none" }); //POS EECOM
   $("#btn-ch17").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + buttonGap;
   buttonWidth = buttonWidth - 20;
-  $("#btndiv-ch18").css({ left: x + "px", top: y + "px", display: "none" }); //GNC
+  $("#btndiv-ch18").css({ left: x + "px", top: y + "px", display: "none" }); //CSM GNC
   $("#btn-ch18").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + buttonGap;
   buttonWidth = buttonWidth + 20;
-  $("#btndiv-ch58").css({ left: x + "px", top: y + "px", display: "none" }); //TELCOM
+  $("#btndiv-ch58").css({ left: x + "px", top: y + "px", display: "none" }); //LM EECOM (TELMU)
   $("#btn-ch58").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + buttonGap;
-  $("#btndiv-ch57").css({ left: x + "px", top: y + "px", display: "none" }); //CONTROL
+  $("#btndiv-ch57").css({ left: x + "px", top: y + "px", display: "none" }); //LM GNC
   $("#btn-ch57").css({ width: buttonWidth + "px" });
 
   y = y + rowGap;
   //row 3
   x = 0;
-  $("#btndiv-ch16").css({ left: x + "px", top: y + "px", display: "none" }); //INCO
+  $("#btndiv-ch16").css({ left: x + "px", top: y + "px", display: "none" }); //CSM EECOM
   $("#btn-ch16").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + buttonGap;
-  $("#btndiv-ch5").css({ left: x + "px", top: y + "px", display: "none" }); //O&P
+  $("#btndiv-ch5").css({ left: x + "px", top: y + "px", display: "none" }); //PRO
   $("#btn-ch5").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + buttonGap;
   $("#btndiv-ch6").css({ left: x + "px", top: y + "px", display: "none" }); //AFD
@@ -1097,7 +1114,7 @@ function positionChannelButtons() {
   $("#btndiv-ch59").css({ left: x + "px", top: y + "px" }); //EXPMT
   $("#btn-ch59").css({ width: buttonWidth + "px" });
   x = x + buttonWidth + buttonGap;
-  $("#btndiv-ch53").css({ left: x + "px", top: y + "px" }); //EASEP
+  $("#btndiv-ch53").css({ left: x + "px", top: y + "px", display: "none" }); //INCO
   $("#btn-ch53").css({ width: buttonWidth + "px" });
 
   y = y + rowGap / 2 - 2;
@@ -1382,24 +1399,24 @@ function positionIsometricElements() {
       "px'>R</span>"
   ); //CAPCOM R
   isoSelector.append(
-    "<span id='dot17' class='isometric_dot' style='left:" + 366 + "px;top:" + 166 + "px'>E</span>"
-  ); //EECOM
+    "<span id='dot17' class='isometric_dot' style='left:" + 366 + "px;top:" + 166 + "px'>PE</span>"
+  ); //POS EECOM
   isoSelector.append(
-    "<span id='dot18' class='isometric_dot' style='left:" + 416 + "px;top:" + 136 + "px'>G</span>"
-  ); //GNC
+    "<span id='dot18' class='isometric_dot' style='left:" + 416 + "px;top:" + 136 + "px'>CG</span>"
+  ); //CSM GNC
   isoSelector.append(
     "<span id='dot58' class='isometric_dot' style='left:" + 469 + "px;top:" + 105 + "px'>T</span>"
-  ); //TELCOM
+  ); //LM EECOM (TELMU)
   isoSelector.append(
-    "<span id='dot57' class='isometric_dot' style='left:" + 528 + "px;top:" + 71 + "px'>C</span>"
-  ); //CONTROL
+    "<span id='dot57' class='isometric_dot' style='left:" + 528 + "px;top:" + 71 + "px'>LG</span>"
+  ); //LM GNC
 
   isoSelector.append(
-    "<span id='dot16' class='isometric_dot' style='left:" + 217 + "px;top:" + 366 + "px'>I</span>"
-  ); //INCO
+    "<span id='dot16' class='isometric_dot' style='left:" + 217 + "px;top:" + 366 + "px'>CE</span>"
+  ); //CSM EECOM
   isoSelector.append(
-    "<span id='dot5' class='isometric_dot' style='left:" + 286 + "px;top:" + 323 + "px'>O</span>"
-  ); //O&P
+    "<span id='dot5' class='isometric_dot' style='left:" + 286 + "px;top:" + 323 + "px'>P</span>"
+  ); //PRO
   isoSelector.append(
     "<span id='dot6' class='isometric_dot' style='left:" + 344 + "px;top:" + 291 + "px'>A</span>"
   ); //AFD
@@ -1451,7 +1468,7 @@ function positionIsometricElements() {
     "<span id='dot3' class='isometric_dot' style='left:" + 645 + "px;top:" + 182 + "px'>M</span>"
   ); //MISSION DIRECTOR
   isoSelector.append(
-    "<span id='dot8' class='isometric_dot' style='left:" + 686 + "px;top:" + 155 + "px'>FR</span>"
+    "<span id='dot53' class='isometric_dot' style='left:" + 686 + "px;top:" + 155 + "px'>I</span>"
   ); //FD R
 
   //set alt text
@@ -1586,7 +1603,7 @@ function pauseAudio() {
 
 //------------ data import
 function ajaxGetTapeRangeData() {
-  var urlStr = cWebCdnRoot + "/11/MOCRviz/data/tape_ranges.csv";
+  var urlStr = cWebCdnRoot + "./data/tape_ranges.csv";
   return $.ajax({
     type: "GET",
     url: urlStr,
@@ -1635,9 +1652,9 @@ function getTapeActivityRanges(activeSec) {
     "tape_activity_" + nearestStart.toString() + "-" + (nearestStart + 999).toString() + ".json";
 
   var nearestEnd = Math.ceil(activeSec / 1000) * 1000;
-  if (nearestEnd + 1000 > 784140) {
+  if (nearestEnd + 1000 > 645438) {
     //if greater than total length of tape activity data
-    var endRange = 784140;
+    var endRange = 645438;
   } else {
     endRange = nearestEnd + 1000;
   }
