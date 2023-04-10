@@ -1759,6 +1759,7 @@ function resetAndLoadTranscript() {
   gTranscriptDataLookup = {};
   gTranscriptIndex = [];
   gTranscriptDataLoaded = false;
+  clearTranscript();
   ajaxGetTranscript();
 }
 
@@ -1776,6 +1777,10 @@ function transcriptClick(timeId) {
   refreshTapeActivityDisplay(true);
   gWaveformRefresh = true;
   setControllerDetails(gActiveChannel);
+}
+
+function clearTranscript() {
+  $("#transcriptTable").html("");
 }
 
 function repopulateTranscript(timeId) {
