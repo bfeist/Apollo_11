@@ -1089,7 +1089,7 @@ function drawTier3(forceRefresh, drawForwardForScrolling) {
         });
         var textTop = gTier3Top + 10;
         orbitText.point = new paper.Point(itemLocX + 2, textTop);
-        orbitText.content = "Begin lunar orbit " + gOrbitData[i][1] + "/75";
+        orbitText.content = "Begin lunar orbit " + gOrbitData[i][1] + "/31";
 
         //var stageTextRect = new paper.Path.Rectangle(stageText.bounds);
         //stageTextRect.fillColor ='black';
