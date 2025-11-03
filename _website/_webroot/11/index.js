@@ -2,9 +2,9 @@ trace("INIT: Loading index.js");
 //app control flags
 var cStopCache = false;
 
-// var cMediaCdnRoot = 'https://media.apolloinrealtime.org/A11';
+var cMediaCdnRoot = "https://media.apolloinrealtime.org/A11";
 // var cMediaCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A11'; //keycdn pulling from dreamhost
-var cMediaCdnRoot = "https://keycdnmediado.apolloinrealtime.org/A11"; //keycdn pulling from digitalocean space
+// var cMediaCdnRoot = "https://keycdnmediado.apolloinrealtime.org/A11"; //keycdn pulling from digitalocean space
 
 // var cLPICdnRoot = 'https://www.lpi.usra.edu';
 var cLPICdnRoot = "https://keycdnlpicache.apolloinrealtime.org";

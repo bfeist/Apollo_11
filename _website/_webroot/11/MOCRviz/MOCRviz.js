@@ -2,10 +2,10 @@ var cMissionDurationSeconds = 784086;
 var cCountdownSeconds = 74768;
 var cAppStartGET = -109;
 
-// var cTapeCdnRoot = 'https://media.apolloinrealtime.org/A11/MOCR_audio';
+var cTapeCdnRoot = "https://media.apolloinrealtime.org/A11/MOCR_audio";
 // var cTapeCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A11/MOCR_audio'; //keycdn pulling from dreamhost
 // var cTapeCdnRoot = "https://keycdnmediado.apolloinrealtime.org/A11/MOCR_audio"; //keycdn pulling from digitalocean space
-var cTapeCdnRoot = "https://apolloinrealtimemedia.nyc3.digitaloceanspaces.com/A11/MOCR_audio"; //digitalocean space
+// var cTapeCdnRoot = "https://apolloinrealtimemedia.nyc3.digitaloceanspaces.com/A11/MOCR_audio"; //digitalocean space
 // var cTapeCdnRoot = parent.cMediaCdnRoot + "/MOCR_audio";
 
 var cWebCdnRoot = "";
