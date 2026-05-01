@@ -129,13 +129,13 @@
               <div class="player-wrapper">
                 <div
                   id="LRO-overlay"
-                  onclick='window.open("https://lunar.gsfc.nasa.gov/about.html");'
+                  onclick="window.open('https://lunar.gsfc.nasa.gov/about.html')"
                 ></div>
                 <div class="search-overlay">
                   <div style="display: flex; flex-direction: row">
                     <span class="title">Search</span>
                     <input style="flex-grow: 1" type="text" id="searchInputField" />
-                    <span class="close-btn" onclick="toggleSearchOverlay();">Close</span>
+                    <span class="close-btn" onclick="toggleSearchOverlay()">Close</span>
                   </div>
                   <hr />
                   <div id="searchResultsDiv">
@@ -145,7 +145,7 @@
                 <div class="dashboard-overlay">
                   <div style="display: flex; flex-direction: row">
                     <div style="flex-grow: 1" class="title">Mission Status</div>
-                    <span class="close-btn" onclick="toggleDashboardOverlay();">Close</span>
+                    <span class="close-btn" onclick="toggleDashboardOverlay()">Close</span>
                   </div>
                   <hr />
                   <div id="dashboardContent" data-bps="1200">
@@ -479,7 +479,10 @@
             data-loading-text="Loading..."
             class="splash-btn simplemodal-close primary"
             role="button"
-            onclick="oneMinuteToLaunchButtonClick(); return false;"
+            onclick="
+              oneMinuteToLaunchButtonClick();
+              return false;
+            "
           >
             <span class="splash-btn-title">T-MINUS 1M</span>
           </a>
@@ -490,7 +493,10 @@
           <a
             class="splash-btn simplemodal-close"
             role="button"
-            onclick="historicalButtonClick(); return false;"
+            onclick="
+              historicalButtonClick();
+              return false;
+            "
           >
             <span id="labelRealtime" class="splash-btn-title">NOW</span>
           </a>
@@ -719,12 +725,6 @@
               <span class="accent">Dr. Noah Petro</span> Project Scientist, Lunar Reconnaissance
               Orbiter. Planetary Geology, Geochemistry and Geophysics Lab, NASA Goddard
               <br />
-              <br />
-              <a href="http://keycdn.com" target="_blank"
-                ><span class="section-subheader">Web hosting by</span>
-                <span
-                  ><img src="https://logos.keycdn.com/keycdn-logo-white.png" width="90px" /></span
-              ></a>
               <br />
               <span class="accent">David Woods</span> Author,
               <a href="http://www.hafttm.com/" target="_blank">How Apollo Flew to the Moon</a>

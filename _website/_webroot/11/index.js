@@ -6,8 +6,8 @@ var cMediaCdnRoot = "https://media.apolloinrealtime.org/A11";
 // var cMediaCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A11'; //keycdn pulling from dreamhost
 // var cMediaCdnRoot = "https://keycdnmediado.apolloinrealtime.org/A11"; //keycdn pulling from digitalocean space
 
-// var cLPICdnRoot = 'https://www.lpi.usra.edu';
-var cLPICdnRoot = "https://keycdnlpicache.apolloinrealtime.org";
+var cLPICdnRoot = "https://www.lpi.usra.edu";
+// var cLPICdnRoot = "https://keycdnlpicache.apolloinrealtime.org";
 
 var cWebCdnRoot = "";
 // var cWebCdnRoot = 'https://apollort-26f5.kxcdn.com';
@@ -22,7 +22,7 @@ var cLaunchDate = Date.parse("1969-07-16 9:32 -400");
 var cLaunchDateModern = Date.parse(Date.now().getFullYear().toString() + "-07-16 9:32 -400");
 var cCountdownStartDate = Date.parse("1969-07-15 1:46:57 -400");
 var cCountdownStartDateModern = Date.parse(
-  Date.now().getFullYear().toString() + "-07-15 1:46:57 -400"
+  Date.now().getFullYear().toString() + "-07-15 1:46:57 -400",
 );
 
 var cBackground_color_active = "#1e1e1e";
@@ -171,10 +171,10 @@ function onPlayerStateChange(event) {
       //trace("onPlayerStateChange():PLAYING: was unexpected buffering so calling findClosestUtterance");
       //ga("send", "event", "transcript", "click", "youtube scrub");
       scrollTranscriptToTimeId(
-        findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds)
+        findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds),
       );
       scrollCommentaryToTimeId(
-        findClosestCommentary(event.target.getCurrentTime() + gCurrVideoStartSeconds)
+        findClosestCommentary(event.target.getCurrentTime() + gCurrVideoStartSeconds),
       );
       scrollToClosestTOC(event.target.getCurrentTime() + gCurrVideoStartSeconds);
     }
@@ -214,7 +214,7 @@ function onPlayerStateChange(event) {
           "onPlayerStateChange():Ended. Changing video from: " +
             currVideoID +
             " to: " +
-            gMediaList[i + 1][cYouTubeSDorHD]
+            gMediaList[i + 1][cYouTubeSDorHD],
         );
         currVideoID = gMediaList[i + 1][cYouTubeSDorHD];
         break;
@@ -530,7 +530,7 @@ function seekToTime(timeId) {
           "seekToTime(): changing video from: " +
             currVideoID +
             " to: " +
-            gMediaList[i][cYouTubeSDorHD]
+            gMediaList[i][cYouTubeSDorHD],
         );
         gNextVideoStartTime = seekToSecondsWithOffset;
         player.loadVideoById(gMediaList[i][cYouTubeSDorHD], seekToSecondsWithOffset, "hd1080");
@@ -618,7 +618,7 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
       timeidDate.getDate() +
       " " +
       cLaunchDate.getFullYear() +
-      " "
+      " ",
   );
 
   var timezoneOffset = -(new Date(cLaunchDateModern).getTimezoneOffset() / 60);
@@ -637,7 +637,7 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
 
   var options = { hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: true };
   $(".historicalTime").text(
-    timeidDateModern.toLocaleTimeString("en-US", options) + " " + timezoneOffsetString
+    timeidDateModern.toLocaleTimeString("en-US", options) + " " + timezoneOffsetString,
   );
 
   if (document.getElementById("missionElapsedTime") !== document.activeElement) {
@@ -886,7 +886,7 @@ function repopulateUtterances(timeId) {
     "repopulateUtterances(): populated utterances from: " +
       gUtteranceDisplayStartIndex +
       " to " +
-      gUtteranceDisplayEndIndex
+      gUtteranceDisplayEndIndex,
   );
   $("#utteranceDiv").scrollTop("#uttid" + timeId);
 }
@@ -908,7 +908,7 @@ function prependUtterances(count, atTop) {
 
   if (atTop) {
     var elementToScrollBackTo = $(
-      "#uttid" + timeStrToTimeId(gUtteranceData[gUtteranceDisplayStartIndex][0])
+      "#uttid" + timeStrToTimeId(gUtteranceData[gUtteranceDisplayStartIndex][0]),
     );
     //trace("element to scroll back to: " + elementToScrollBackTo.attr('id'));
     var oldScrollDestination =
@@ -979,7 +979,7 @@ function trimUtterances() {
           " starting at index: " +
           gUtteranceDisplayStartIndex +
           " up to index: " +
-          tempEndForTrace
+          tempEndForTrace,
       );
       gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex + numberToRemove;
     } else {
@@ -996,12 +996,12 @@ function trimUtterances() {
           counter +
           " starting at index: " +
           gUtteranceDisplayEndIndex -
-          numberToRemove
+          numberToRemove,
       );
     }
     var utteranceDiv = $("#utteranceDiv");
     var currElement = $(
-      "#uttid" + timeStrToTimeId(gUtteranceData[gCurrentHighlightedUtteranceIndex][0])
+      "#uttid" + timeStrToTimeId(gUtteranceData[gCurrentHighlightedUtteranceIndex][0]),
     );
     var newScrollDestination =
       utteranceDiv.scrollTop() + currElement.offset().top - utteranceDiv.offset().top;
@@ -1026,7 +1026,7 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
           i +
           ");'>" +
           gGeoData[i][3] +
-          "</a>"
+          "</a>",
       );
     }
   }
@@ -1097,7 +1097,7 @@ function prependCommentary(count, atTop) {
 
     if (atTop) {
       var elementToScrollBackTo = $(
-        "#comid" + timeStrToTimeId(gCommentaryData[gCommentaryDisplayStartIndex][0])
+        "#comid" + timeStrToTimeId(gCommentaryData[gCommentaryDisplayStartIndex][0]),
       );
       //console.log("element to scroll back to: " + elementToScrollBackTo.attr('id'));
       var oldScrollDestination =
@@ -1171,7 +1171,7 @@ function trimCommentary() {
     }
     var commentaryDiv = $("#commentaryDiv");
     var currElement = $(
-      "#comid" + timeStrToTimeId(gCommentaryData[gCurrentHighlightedCommentaryIndex][0])
+      "#comid" + timeStrToTimeId(gCommentaryData[gCurrentHighlightedCommentaryIndex][0]),
     );
     var newScrollDestination =
       commentaryDiv.scrollTop() + currElement.offset().top - commentaryDiv.offset().top;
@@ -1199,13 +1199,13 @@ function getCommentaryObjectHTML(commentaryIndex) {
     html = html.replace("@whocell", '<td class="who @comType">@who</td>');
     html = html.replace(
       "@wordscell",
-      '<td class="spokenwords @comType">@words <span class="attribution">@attribution</span></td>'
+      '<td class="spokenwords @comType">@words <span class="attribution">@attribution</span></td>',
     );
   } else {
     html = html.replace("@whocell", "");
     html = html.replace(
       "@wordscell",
-      '<td class="spokenwords @comType" colspan="2">@words <span class="attribution">@attribution</span></td>'
+      '<td class="spokenwords @comType" colspan="2">@words <span class="attribution">@attribution</span></td>',
     );
   }
 
@@ -1469,7 +1469,7 @@ function updateDashboard(timeId) {
   if (dashCrewStatus.substr(dashCrewStatus.length - 15, 8) === "sleeping") {
     var wakeTimeStr = gCrewStatusData[counter + 1][0];
     var timeToWakeup = secondsToTimeStr(
-      timeStrToSeconds(wakeTimeStr) - timeStrToSeconds(gCurrMissionTime)
+      timeStrToSeconds(wakeTimeStr) - timeStrToSeconds(gCurrMissionTime),
     );
     dashCrewStatus += '<BR>Wake-up in: <span class="value">' + timeToWakeup + "</span>";
   }
@@ -1522,16 +1522,16 @@ function updateDashboard(timeId) {
     var numDecimals = 1;
     if (currentVelocityFPS < 100) numDecimals = 2;
     currentVelocityFPS = parseFloat(Math.round(currentVelocityFPS * 100) / 100).toFixed(
-      numDecimals
+      numDecimals,
     );
     var currentVelocityKPH = parseFloat(
-      Math.round(currentVelocityFPS * 1.09728 * 100) / 100
+      Math.round(currentVelocityFPS * 1.09728 * 100) / 100,
     ).toFixed(numDecimals);
     var currentVelocityMPH = parseFloat(
-      Math.round(currentVelocityFPS * 0.681818 * 100) / 100
+      Math.round(currentVelocityFPS * 0.681818 * 100) / 100,
     ).toFixed(numDecimals);
     var currentVelocityMach = parseFloat(
-      Math.round(currentVelocityFPS * 0.00088863 * 10) / 10
+      Math.round(currentVelocityFPS * 0.00088863 * 10) / 10,
     ).toFixed(1);
 
     var dashVelocity =
@@ -1583,7 +1583,7 @@ function updateDashboard(timeId) {
     if (currentDistanceEarthNM < 100) numDecimals = 2;
     currentDistanceEarthNM = (Math.round(currentDistanceEarthNM * 100) / 100).toFixed(numDecimals);
     var currentDistanceEarthKM = (Math.round(currentDistanceEarthNM * 1.852 * 100) / 100).toFixed(
-      numDecimals
+      numDecimals,
     );
     var dashDistanceEarth =
       '<span class="value">' +
@@ -2231,7 +2231,7 @@ jQuery(function ($) {
     .keyup(
       $.throttle(function () {
         performSearch();
-      }, 100)
+      }, 100),
     );
 
   $(".fullscreenBtn").click(function () {
@@ -2400,7 +2400,7 @@ $(window).resize(
     proportionalWidthOnPhotoBlock();
     $("#thirtytrack-container").css({ height: $(window).innerHeight() - 213 });
     redrawAll();
-  }, 250)
+  }, 250),
 );
 
 function initSplash() {
@@ -2460,7 +2460,7 @@ function thirtyButtons_click() {
   gActiveChannel = parseInt(
     $(this)
       .attr("id")
-      .substr($(this).attr("id").indexOf("ch") + 2)
+      .substr($(this).attr("id").indexOf("ch") + 2),
   ); //get channel number from button label
 
   if (gMOCRToggled === false) {
@@ -2490,7 +2490,7 @@ function thirtyButtons_hover() {
   var hoverChannelNum = parseInt(
     $(this)
       .attr("id")
-      .substr($(this).attr("id").indexOf("ch") + 2)
+      .substr($(this).attr("id").indexOf("ch") + 2),
   );
   $(".thirtybtn-channel").removeClass("thirtybtn-hover");
   $("#btn-ch" + hoverChannelNum).addClass("thirtybtn-hover");
@@ -2557,7 +2557,7 @@ function ajaxGetTapesActivityDataRange(tapesActivityFilename) {
   $.when(
     $.getJSON(tapeActivityDataPath + tapesActivityFilename, function (data) {
       tapeActivity = data;
-    })
+    }),
   ).then(function () {
     gTapesActivityRangeArray = tapeActivity;
   });
@@ -2565,7 +2565,7 @@ function ajaxGetTapesActivityDataRange(tapesActivityFilename) {
 function setChannelButtonColors() {
   if (gTapesActivityRangeArray.length > 0) {
     var currSecondindex = Math.round(
-      timeStrToSeconds(gCurrMissionTime) + cCountdownSeconds - gTapesActivityStartIndex
+      timeStrToSeconds(gCurrMissionTime) + cCountdownSeconds - gTapesActivityStartIndex,
     );
     for (var counter = 1; counter <= 60; counter++) {
       if (!cRedactedChannelsArray.includes(counter)) {
@@ -2627,7 +2627,7 @@ $(document).ready(function () {
         //trace("bottom of commentaryDiv reached");
         appendCommentary(25, true);
       }
-    }, 10)
+    }, 10),
   );
 
   //throttled scroll detection on utteranceDiv
@@ -2645,7 +2645,7 @@ $(document).ready(function () {
         //trace("bottom of utteranceDiv reached");
         appendUtterances(25, true);
       }
-    }, 10)
+    }, 10),
   );
 });
 
