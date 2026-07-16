@@ -130,13 +130,25 @@ function onYouTubeIframeAPIReady() {
       controls: 0,
       fs: 0,
       playsinline: 1,
+      cc_load_policy: 0,
     },
     events: {
       onReady: onPlayerReady,
       onStateChange: onPlayerStateChange,
+      onApiChange: onPlayerApiChange,
     },
   });
   // player.setPlaybackQuality('hd1080');
+}
+
+// The captions module only becomes available once onApiChange fires (after
+// playback starts). Unloading it here is the reliable way to force subtitles
+// off regardless of the viewer's YouTube caption preference.
+function onPlayerApiChange() {
+  try {
+    player.unloadModule("captions"); //HTML5 player
+    player.unloadModule("cc"); //legacy AS3 player
+  } catch (e) {}
 }
 
 // The API will call this function when the video player is ready.
@@ -161,6 +173,11 @@ function onPlayerStateChange(event) {
       playPauseBtn.removeClass("blink_me_orange");
     }
     player.setPlaybackQuality("hd1080");
+    //keep subtitles/captions off across video changes
+    try {
+      player.unloadModule("captions");
+      player.unloadModule("cc");
+    } catch (e) {}
 
     if (gNextVideoStartTime !== -1) {
       //trace("onPlayerStateChange():PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
