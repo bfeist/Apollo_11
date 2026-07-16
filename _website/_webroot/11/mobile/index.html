@@ -9,13 +9,13 @@
     <script>
       (function (i, s, o, g, r, a, m) {
         i["GoogleAnalyticsObject"] = r;
-        (i[r] =
+        ((i[r] =
           i[r] ||
           function () {
             (i[r].q = i[r].q || []).push(arguments);
           }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+          (i[r].l = 1 * new Date()));
+        ((a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]));
         a.async = 1;
         a.src = g;
         m.parentNode.insertBefore(a, m);
@@ -75,7 +75,10 @@
         <a
           data-loading-text="Loading..."
           class="splash-btn simplemodal-close primary"
-          onclick="launchButtonClick(); return false;"
+          onclick="
+            launchButtonClick();
+            return false;
+          "
         >
           <span id="labelLaunch" class="splash-btn-title">T-MINUS 1M</span>
         </a>
@@ -83,7 +86,13 @@
       </div>
 
       <div class="splash-btn-container" id="buttonRt">
-        <a class="splash-btn" onclick="historicalButtonClick(); return false;">
+        <a
+          class="splash-btn"
+          onclick="
+            historicalButtonClick();
+            return false;
+          "
+        >
           <span id="labelRealtime" class="splash-btn-title">NOW</span>
         </a>
         <div>
@@ -96,8 +105,8 @@
 
       <div class="splash-copy">
         <p>
-          This website replays the Apollo 11 mission as it happened, 51 years ago. It consists
-          entirely of historical material.
+          This website replays the Apollo 11 mission as it happened. It consists entirely of
+          historical material.
         </p>
         <p>
           Select whether to begin one minute before launch, or click "Now" to drop in exactly 51
